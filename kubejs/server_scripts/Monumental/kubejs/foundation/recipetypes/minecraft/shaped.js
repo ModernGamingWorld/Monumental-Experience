@@ -11,14 +11,6 @@ event.shaped(Item.of('projectvibrantjourneys:seashells', 8), ["AAA", "ABA", "AAA
     A: '#forge:dusts/prismarine',
     B: 'minecraft:nautilus_shell'
 })
-//scanables
-event.shaped(Item.of('scannable:module_blank', 1), ["ggg", "crc", "qnq"], {
-    g: 'immersiveengineering:insulating_glass',
-    c: 'modularrouters:blank_module',
-    q: '#forge:plates/wooden',
-    n: 'immersiveengineering:wirecoil_electrum',
-    r: '#forge:dusts/glowstone'
-})
 //create additions
 event.shaped(Item.of('createaddition:spool', 8), [" A ", " B ", " A "], {
     A: '#forge:treated_wood_slab',
