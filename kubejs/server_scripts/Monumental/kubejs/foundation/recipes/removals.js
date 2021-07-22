@@ -12,6 +12,16 @@ onEvent('recipes', event => {
   	event.remove({id: 'astralsorcery:shaped/starmetal'})
 
 //AE2 Recipes
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_128_cubed'})
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage'})
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_16_cubed'})
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_16_cubed_storage'})
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_2_cubed'})
+  	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_2_cubed_storage'})
+  	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part'})
+  	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part'})
+  	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part'})
+  	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part'})
   	event.remove({id: 'appliedenergistics2:network/blocks/cell_workbench'})
   	event.remove({id: 'appliedenergistics2:network/blocks/crystal_processing_charger'})
   	event.remove({id: 'appliedenergistics2:network/blocks/energy_acceptor'})
