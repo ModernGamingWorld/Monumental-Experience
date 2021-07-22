@@ -1,6 +1,3 @@
-/*
-AVSP 2021
-*/
 // Whether or not to unify items in inventory
 global["INVENTORY_UNIFY"] = true
 // Whether or not to unify items in world
@@ -9,8 +6,8 @@ global["ITEM_UNIFY"] = true
 global["RECIPE_UNIFY"] = true
 // Whether or not to hide not-first materials in jei (requires secondary script)
 global["HIDE_UNIFIED_ITEMS"] = true
-// Whether or not to disable non-priority ore-gen
-global["UNIFY_ORE_GEN"] = false
+// Whether or not to disable non-priority ore-gen (THIS DOES NOT WORK AS OF CURRENTLY)
+// global["UNIFY_ORE_GEN"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
@@ -20,9 +17,10 @@ global["unifypriorities"] = [
 // Add oredictionary tags here to unify (or use javascript to generate it!)
 var tags = [
     "forge:plates/iron",
-    "forge:gears/iron"
+    "forge:gears/iron",
+    "forge:silicon"
 ]
-// Block tags for ore gen unification (an equal item tag is required for this to work, which is the case with ores normally)
+// Block tags for ore gen unification (DOES NOT WORK CURRENTLY)
 /*var btags = [
     "forge:ores/copper",
     "forge:ores/tin",
@@ -39,12 +37,12 @@ var tags = [
 ]*/
 // Easier way to add multiple tags (feel free to add empty extra tags, this will ignore them)
 var tagGen = [
-	"coal=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"iron=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"emerald=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"lapis=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"redstone=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "coal=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "iron=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "emerald=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "lapis=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "redstone=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
     "gold=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
     "diamond=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
     "copper=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
@@ -61,32 +59,40 @@ var tagGen = [
     "zinc=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
     "osmium=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
     "sulfur=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"certus_quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"charged_certus_quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"fluix=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"fluorite=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"bitumen=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"cinnabar=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"apatite=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"potassium_nitrate=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"mana=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"bronze=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"brass=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"electrum=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"constantan=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"steel=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"invar=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"lumium=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"signalum=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"enderium=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"silicon=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"coal_coke=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
-	"charcoal=storage_blocks,ingots,nuggets,dusts,gears,plates,gems"
+    "certus_quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "charged_certus_quartz=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "fluix=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "fluorite=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "bitumen=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "cinnabar=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "apatite=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "potassium_nitrate=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "mana=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "bronze=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "brass=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "electrum=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "constantan=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "steel=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "invar=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "lumium=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "signalum=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "enderium=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "silicon=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "coal_coke=storage_blocks,ingots,nuggets,dusts,gears,plates,gems",
+    "charcoal=storage_blocks,ingots,nuggets,dusts,gears,plates,gems"
 ]
 for (let line of tagGen) {
     let data = line.split("=")
     for (let type of data[1].split(",")) {
         tags.push("forge:" + type + "/" + data[0])
+    }
+}
+
+function tryTag(tag) {
+    try {
+        return Ingredient.of("#"+tag)
+    } catch (err) {
+        return null
     }
 }
 
@@ -96,7 +102,7 @@ onEvent("recipes", event => {
     var tagitems = new Map()
     tagLoop:
     for (let tag of tags) {
-        let ingr = Ingredient.of("#"+tag)
+        let ingr = tryTag(tag)
         if (ingr) {
             let stacks = ingr.getStacks().toArray()
             for (let mod of global["unifypriorities"]) {
@@ -117,7 +123,7 @@ onEvent("recipes", event => {
     // Unify the rest
     if (global["RECIPE_UNIFY"]) {
         for (let tag of global["unifytags"]) {
-            let ingr = Ingredient.of("#"+tag)
+            let ingr = tryTag(tag)
             if (ingr) {
                 let stacks = ingr.getStacks().toArray()
                 let oItem = global["tagitems"][tag]
@@ -139,8 +145,8 @@ onEvent("player.inventory.changed", event => {
         
         // Check for every tag in the list
         for (let tag of global["unifytags"]) {
-            let ingr = Ingredient.of("#"+tag)
-            if (ingr.test(heldItem)) {
+            let ingr = tryTag(tag)
+            if (ingr && ingr.test(heldItem)) {
                 // If item is in tag, determine if it needs to be changed
                 let tItem = global["tagitems"][tag]
                 if (tItem != heldItem.getId()) {
@@ -164,16 +170,18 @@ onEvent("entity.spawned", event => {
         var entity = event.getEntity()
         if (entity.getType() == "minecraft:item") {
             var gItem = entity.getItem()
-            // Check for every tag in the list
-            for (let tag of global["unifytags"]) {
-                let ingr = Ingredient.of("#"+tag)
-                if (ingr && ingr.test(gItem)) {
-                    // If item is in tag, determine if it needs to be changed
-                    let tItem = global["tagitems"][tag]
-                    if (tItem != gItem.getId()) {
-                        entity.setItem(Item.of(tItem, gItem.getCount()))
+            if (gItem) {
+                // Check for every tag in the list
+                for (let tag of global["unifytags"]) {
+                    let ingr = tryTag(tag)
+                    if (ingr && ingr.test(gItem)) {
+                        // If item is in tag, determine if it needs to be changed
+                        let tItem = global["tagitems"][tag]
+                        if (tItem != gItem.getId()) {
+                            entity.setItem(Item.of(tItem, gItem.getCount()))
+                        }
+                        break
                     }
-                    break
                 }
             }
         }
