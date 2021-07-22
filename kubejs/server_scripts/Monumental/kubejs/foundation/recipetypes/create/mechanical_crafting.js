@@ -22,6 +22,45 @@ onEvent('recipes', (event) => {
                 result: Item.of('appliedenergistics2:cell_workbench', 1)
             },
             {
+                pattern: ["ABA", "CDC", "ACA"],
+                key: {
+                    B: 'appliedenergistics2:calculation_processor',
+                    C: 'appliedenergistics2:16k_fluid_cell_component',
+                    A: 'mana-and-artifice:stone_rune_green',
+                    D: 'appliedenergistics2:quartz_glass'
+                },
+                result: Item.of('appliedenergistics2:64k_fluid_cell_component', 1)
+            },
+            {
+                pattern: ["ABA", "CDC", "ACA"],
+                key: {
+                    B: 'appliedenergistics2:calculation_processor',
+                    C: 'appliedenergistics2:4k_fluid_cell_component',
+                    A: 'mana-and-artifice:stone_rune_green',
+                    D: 'appliedenergistics2:quartz_glass'
+                },
+                result: Item.of('appliedenergistics2:16k_fluid_cell_component', 1)
+            },
+            {
+                pattern: ["ABA", "CDC", "ACA"],
+                key: {
+                    B: 'appliedenergistics2:calculation_processor',
+                    C: 'appliedenergistics2:1k_fluid_cell_component',
+                    A: 'mana-and-artifice:stone_rune_green',
+                    D: 'appliedenergistics2:quartz_glass'
+                },
+                result: Item.of('appliedenergistics2:4k_fluid_cell_component', 1)
+            },
+            {
+                pattern: ["ACA", "CDC", "ACA"],
+                key: {
+                    C: '#forge:gems/certus_quartz',
+                    A: 'mana-and-artifice:stone_rune_green',
+                    D: 'appliedenergistics2:logic_processor'
+                },
+                result: Item.of('appliedenergistics2:1k_fluid_cell_component', 1)
+            },
+            {
                 pattern: ["ABA", "BCB", "ABA"],
                 key: {
                     A: 'contenttweaker:compressed_plate',
@@ -748,7 +787,7 @@ onEvent('recipes', (event) => {
                     C: 'thermal:machine_frame',
                     I: '#forge:gears/lumium',
                     P: 'thermal:rf_coil',
-                    X: 'gardentools:irrigation_core',
+                    X: 'engineersdecor:small_freezer',
                     Y: '#thermal:glass/hardened',
                     S: 'cyclic:terra_preta'
                 },
