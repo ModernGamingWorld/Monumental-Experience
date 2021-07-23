@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
                 pattern: ['ABCBA', 'BDXDB', 'CXDXC', 'BDXDB', 'ABCBA'],
                 key: {
                     A: 'appliedenergistics2:energy_cell',
-                    B: 'appliedenergistics2:smooth_sky_stone_block',
+                    B: 'fluxnetworks:flux_block',
                     C: 'appliedenergistics2:dense_energy_cell',
                     D: 'appliedenergistics2:singularity',
                     X: 'appliedenergistics2:128_cubed_spatial_storage_cell'
