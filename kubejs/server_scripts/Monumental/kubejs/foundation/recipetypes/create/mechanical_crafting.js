@@ -828,15 +828,6 @@ onEvent('recipes', (event) => {
                 result: Item.of('thermal:machine_crucible', 1)
             },
             {
-                pattern: ["IGI", "GTG", "IGI"],
-                key: {
-                    G: '#thermal:glass/hardened',
-                    I: '#forge:sheetmetals/steel',
-                    T: '#forge:gears/bronze'
-                },
-                result: Item.of('thermal:machine_insolator', 1)
-            },
-            {
                 pattern: ["AAA", "BCB", "DED"],
                 key: {
                     A: 'appliedenergistics2:quartz_glass',
