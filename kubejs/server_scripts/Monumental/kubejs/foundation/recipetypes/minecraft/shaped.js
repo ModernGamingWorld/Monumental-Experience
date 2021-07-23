@@ -131,6 +131,16 @@ event.shaped(Item.of('waystones:warp_scroll', 3), ["GDG", "GEG", "PPP"], {
     P: '#forge:paper',
     D: '#forge:dyes/purple'
 })
+//FluxNetworks
+event.shaped(Item.of('fluxnetworks:flux_plug', 1), ["xcx", "cbc", "xcx"], {
+    c: 'fluxnetworks:flux_core',
+    b: 'fluxnetworks:flux_block',
+    x: 'pneumaticcraft:plastic'
+})
+event.shaped(Item.of('fluxnetworks:basic_flux_storage', 1), ["bbb", "g g", "bbb"], {
+    g: 'fluxnetworks:flux_block',
+    b: 'thermal:obsidian_glass'
+})
 //Wooden Utils
 event.shaped(Item.of('woodenutilities:crafting_slab', 1), ["_e_"], {
     e: '#forge:plates/wooden',

@@ -666,6 +666,78 @@ onEvent('recipes', (event) => {
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["XDX", "DBD", "AAA"],
+            "key": {
+                "X": {
+                "item": "appliedenergistics2:quartz_glass"
+                },
+                "A": {
+                "tag": "forge:ingots/compressed_iron"
+                },
+                "B": {
+                "tag": "forge:gems/certus_quartz"
+                },
+                "D": {
+                "item": "extendedcrafting:redstone_component"
+                }
+            },
+            "result": {
+                "item": "appliedenergistics2:view_cell",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["XDX", "DBD", "AAA"],
+            "key": {
+                "X": {
+                "item": "appliedenergistics2:quartz_glass"
+                },
+                "A": {
+                "tag": "forge:ingots/compressed_iron"
+                },
+                "B": {
+                "item": "appliedenergistics2:1k_cell_component"
+                },
+                "D": {
+                "item": "extendedcrafting:redstone_component"
+                }
+            },
+            "result": {
+                "item": "appliedenergistics2:1k_storage_cell",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["XDX", "DBD", "AAA"],
+            "key": {
+                "X": {
+                "item": "appliedenergistics2:quartz_glass"
+                },
+                "A": {
+                "tag": "forge:ingots/compressed_iron"
+                },
+                "B": {
+                "item": "appliedenergistics2:4k_cell_component"
+                },
+                "D": {
+                "item": "extendedcrafting:redstone_component"
+                }
+            },
+            "result": {
+                "item": "appliedenergistics2:4k_storage_cell",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": [" A ", "ABA", " A "],
             "key": {
                 "A": {

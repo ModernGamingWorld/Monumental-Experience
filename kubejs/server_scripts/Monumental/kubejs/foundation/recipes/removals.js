@@ -12,6 +12,13 @@ onEvent('recipes', event => {
   	event.remove({id: 'astralsorcery:shaped/starmetal'})
 
 //AE2 Recipes
+  	event.remove({id: 'appliedenergistics2:network/blocks/spatial_anchor'})
+  	event.remove({id: 'appliedenergistics2:network/cells/view_cell_storage'})
+  	event.remove({id: 'appliedenergistics2:network/cells/view_cell'})
+  	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_1k'})
+  	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_1k_storage'})
+  	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_4k'})
+  	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_4k_storage'})
   	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_128_cubed'})
   	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage'})
   	event.remove({id: 'appliedenergistics2:network/cells/spatial_storage_cell_16_cubed'})
@@ -24,7 +31,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part'})
   	event.remove({id: 'appliedenergistics2:network/blocks/cell_workbench'})
   	event.remove({id: 'appliedenergistics2:network/blocks/crystal_processing_charger'})
-  	event.remove({id: 'appliedenergistics2:network/blocks/energy_acceptor'})
+  	event.remove({id: 'appliedenergistics2:network/blocks/energy_energy_acceptor'})
   	event.remove({id: 'appliedenergistics2:network/blocks/energy_vibration_chamber'})
   	event.remove({id: 'appliedenergistics2:network/blocks/fluid_interfaces_interface'})
   	event.remove({id: 'appliedenergistics2:network/blocks/inscribers'})
@@ -498,12 +505,12 @@ onEvent('recipes', event => {
 	event.remove({id: 'forbidden_arcanus:soul_extractor'})
 
 //Flux Networks Recipes
-	event.remove({id: 'fluxnetworks:basic_flux_storage'})
+	event.remove({id: 'fluxnetworks:basicfluxstorage'})
 	event.remove({id: 'fluxnetworks:flux_dust'})
 	event.remove({id: 'fluxnetworks:flux_configurator'})
 	event.remove({id: 'fluxnetworks:flux_controller'})
 	event.remove({id: 'fluxnetworks:flux_core'})
-	event.remove({id: 'fluxnetworks:flux_plug'})
+	event.remove({id: 'fluxnetworks:fluxplug'})
 	event.remove({id: 'fluxnetworks:flux_point'})
 	event.remove({id: 'fluxnetworks:gargantuan_flux_storage'})
 	event.remove({id: 'fluxnetworks:herculean_flux_storage'})

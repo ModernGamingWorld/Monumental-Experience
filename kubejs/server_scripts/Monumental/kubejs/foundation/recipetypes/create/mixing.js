@@ -23,6 +23,13 @@ events.listen('recipes', (event) => {
             },
             {
                 inputs: [
+                    '#forge:dusts/redstone',
+                    '#forge:dusts/obsidian'
+                ],
+                output: Item.of('fluxnetworks:flux_dust', 1)
+            },
+            {
+                inputs: [
                     '#forge:gems/bitumen',
                     '#forge:gravel',
                     '#forge:sand',

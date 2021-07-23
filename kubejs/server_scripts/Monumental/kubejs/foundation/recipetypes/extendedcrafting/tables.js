@@ -28,6 +28,29 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'appliedenergistics2:creative_storage_cell',
+                pattern: ['ABCBA', 'BDXDB', 'CXEXC', 'BDXDB', 'ABCBA'],
+                key: {
+                    A: 'appliedenergistics2:quartz_glass',
+                    B: 'appliedenergistics2:smooth_sky_stone_block',
+                    C: 'appliedenergistics2:empty_storage_cell',
+                    D: 'refinedstorage:quartz_enriched_iron',
+                    E: 'refinedstorage:machine_casing',
+                    X: 'appliedenergistics2:128_cubed_spatial_storage_cell'
+                }
+            },
+            {
+                result: 'appliedenergistics2:creative_energy_cell',
+                pattern: ['ABCBA', 'BDXDB', 'CXDXC', 'BDXDB', 'ABCBA'],
+                key: {
+                    A: 'appliedenergistics2:energy_cell',
+                    B: 'appliedenergistics2:smooth_sky_stone_block',
+                    C: 'appliedenergistics2:dense_energy_cell',
+                    D: 'appliedenergistics2:singularity',
+                    X: 'appliedenergistics2:128_cubed_spatial_storage_cell'
+                }
+            },
+            {
                 result: 'refinedstorage:controller',
                 pattern: ['ABCBA', 'BDDDB', 'CDEDC', 'BDDDB', 'ABCBA'],
                 key: {
