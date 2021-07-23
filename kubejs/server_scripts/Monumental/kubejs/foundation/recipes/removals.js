@@ -513,6 +513,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'fluxnetworks:fluxcontroller'})
 	event.remove({id: 'fluxnetworks:fluxcore'})
 	event.remove({id: 'fluxnetworks:fluxplug'})
+	event.remove({id: 'fluxnetworks:wipe_fluxplug'})
 	event.remove({id: 'fluxnetworks:fluxpoint'})
 	event.remove({id: 'fluxnetworks:wipe_fluxpoint'})
 	event.remove({id: 'fluxnetworks:gargantuanfluxstorage'})
