@@ -62,6 +62,10 @@ events.listen('recipes', (event) => {
                 output: Item.of('eidolon:pewter_ingot', 2)
             },
             {
+                inputs: ['#forge:ender_pearls', '#forge:dyes/purple'],
+                output: Item.of('waystones:warp_dust', 4)
+            },
+            {
                 inputs: [
                     '#forge:dusts/redstone',
                     '#forge:dusts/obsidian'
