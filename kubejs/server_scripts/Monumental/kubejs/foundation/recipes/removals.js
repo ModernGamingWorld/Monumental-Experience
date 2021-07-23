@@ -513,9 +513,12 @@ onEvent('recipes', event => {
 	event.remove({id: 'fluxnetworks:fluxcontroller'})
 	event.remove({id: 'fluxnetworks:fluxcore'})
 	event.remove({id: 'fluxnetworks:fluxplug'})
-	event.remove({id: 'fluxnetworks:flux_point'})
-	event.remove({id: 'fluxnetworks:gargantuan_flux_storage'})
-	event.remove({id: 'fluxnetworks:herculean_flux_storage'})
+	event.remove({id: 'fluxnetworks:fluxpoint'})
+	event.remove({id: 'fluxnetworks:wipe_fluxpoint'})
+	event.remove({id: 'fluxnetworks:gargantuanfluxstorage'})
+	event.remove({id: 'fluxnetworks:wipe_gargantuanfluxstorage'})
+	event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
+	event.remove({id: 'fluxnetworks:wipe_herculeanfluxstorage'})
 
 //Gobber2 recipes
 	event.remove({id: 'gobber2:gobber2_ingot'})

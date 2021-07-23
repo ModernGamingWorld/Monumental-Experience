@@ -157,6 +157,19 @@ event.shaped(Item.of('fluxnetworks:flux_core', 4), ["fof", "oeo", "fof"], {
     f: 'fluxnetworks:flux_dust',
     e: 'cyclic:ender_eye_reuse'
 })
+event.shaped(Item.of('fluxnetworks:gargantuan_flux_storage', 1), ["bbb", "g g", "bbb"], {
+    b: 'fluxnetworks:herculean_flux_storage',
+    g: 'thermal:obsidian_glass'
+})
+event.shaped(Item.of('fluxnetworks:herculean_flux_storage', 1), ["bbb", "g g", "bbb"], {
+    b: 'fluxnetworks:basic_flux_storage',
+    g: 'thermal:obsidian_glass'
+})
+event.shaped(Item.of('fluxnetworks:flux_point', 1), ["xcx", "cbc", "xcx"], {
+    b: 'extendedcrafting:redstone_catalyst',
+    c: 'fluxnetworks:flux_core',
+    x: 'industrialforegoing:plastic'
+})
 //Wooden Utils
 event.shaped(Item.of('woodenutilities:crafting_slab', 1), ["_e_"], {
     e: '#forge:plates/wooden',
