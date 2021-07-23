@@ -1,0 +1,5 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 12, 2021 9:11:03 PM
+
+#forbidden_arcanus:indestructible_blacklisted
+- minecraft:unbreaking
+- minecraft:mending

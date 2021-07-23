@@ -1,0 +1,115 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 12, 2021 9:11:03 PM
+
+#mekanism:dirty/zinc
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:dirty
+- mekanism:dirty_iron
+- mekanism:dirty_gold
+- mekanism:dirty_osmium
+- mekanism:dirty_copper
+- mekanism:dirty_tin
+- mekanism:dirty_lead
+- mekanism:dirty_uranium
+- jaopca:mekanism_dirty.aluminum
+- jaopca:mekanism_dirty.cloggrum
+- jaopca:mekanism_dirty.cobalt
+- jaopca:mekanism_dirty.froststeel
+- jaopca:mekanism_dirty.iesnium
+- jaopca:mekanism_dirty.nebu
+- jaopca:mekanism_dirty.nickel
+- jaopca:mekanism_dirty.regalium
+- jaopca:mekanism_dirty.silver
+- jaopca:mekanism_dirty.thallasium
+- jaopca:mekanism_dirty.utherium
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:dirty/nickel
+- jaopca:mekanism_dirty.nickel
+
+#mekanism:clean/cobalt
+- jaopca:mekanism_clean.cobalt
+
+#mekanism:clean
+- mekanism:clean_iron
+- mekanism:clean_gold
+- mekanism:clean_osmium
+- mekanism:clean_copper
+- mekanism:clean_tin
+- mekanism:clean_lead
+- mekanism:clean_uranium
+- jaopca:mekanism_clean.aluminum
+- jaopca:mekanism_clean.cloggrum
+- jaopca:mekanism_clean.cobalt
+- jaopca:mekanism_clean.froststeel
+- jaopca:mekanism_clean.iesnium
+- jaopca:mekanism_clean.nebu
+- jaopca:mekanism_clean.nickel
+- jaopca:mekanism_clean.regalium
+- jaopca:mekanism_clean.silver
+- jaopca:mekanism_clean.thallasium
+- jaopca:mekanism_clean.utherium
+- jaopca:mekanism_clean.zinc
+
+#mekanism:dirty/silver
+- jaopca:mekanism_dirty.silver
+
+#mekanism:clean/aluminum
+- jaopca:mekanism_clean.aluminum
+
+#mekanism:clean/regalium
+- jaopca:mekanism_clean.regalium
+
+#mekanism:clean/zinc
+- jaopca:mekanism_clean.zinc
+
+#mekanism:clean/utherium
+- jaopca:mekanism_clean.utherium
+
+#mekanism:dirty/froststeel
+- jaopca:mekanism_dirty.froststeel
+
+#mekanism:dirty/aluminum
+- jaopca:mekanism_dirty.aluminum
+
+#mekanism:dirty/thallasium
+- jaopca:mekanism_dirty.thallasium
+
+#mekanism:dirty/regalium
+- jaopca:mekanism_dirty.regalium
+
+#mekanism:dirty/nebu
+- jaopca:mekanism_dirty.nebu
+
+#mekanism:clean/froststeel
+- jaopca:mekanism_clean.froststeel
+
+#mekanism:dirty/cloggrum
+- jaopca:mekanism_dirty.cloggrum
+
+#mekanism:clean/nickel
+- jaopca:mekanism_clean.nickel
+
+#mekanism:dirty/iesnium
+- jaopca:mekanism_dirty.iesnium
+
+#mekanism:clean/thallasium
+- jaopca:mekanism_clean.thallasium
+
+#mekanism:dirty/utherium
+- jaopca:mekanism_dirty.utherium
+
+#mekanism:clean/iesnium
+- jaopca:mekanism_clean.iesnium
+
+#mekanism:clean/cloggrum
+- jaopca:mekanism_clean.cloggrum
+
+#mekanism:dirty/cobalt
+- jaopca:mekanism_dirty.cobalt
+
+#mekanism:clean/silver
+- jaopca:mekanism_clean.silver
+
+#mekanism:clean/nebu
+- jaopca:mekanism_clean.nebu
