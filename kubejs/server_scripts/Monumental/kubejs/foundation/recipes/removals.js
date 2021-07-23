@@ -1253,6 +1253,7 @@ onEvent('recipes', event => {
 
 //Si ingot recipes
   	event.remove({id: 'woot:si_ingot'}) 
+  	event.remove({id: 'woot:si_dust_1'}) 
 
 //Signalum blasting and smelting recipes
   	event.remove({id: 'thermal:smelting/signalum_ingot_from_dust_blasting'})
