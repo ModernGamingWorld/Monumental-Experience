@@ -1,16 +1,4 @@
 onEvent('recipes', event => {
-//Project Vibrant Journeys
-event.shaped(Item.of('projectvibrantjourneys:bones', 8), ["AAA", "A A", "AAA"], {
-    A: '#forge:bones'
-})
-event.shaped(Item.of('projectvibrantjourneys:charred_bones', 8), ["AAA", "ABA", "AAA"], {
-    A: '#forge:bones',
-    B: '#forge:charcoal'
-})
-event.shaped(Item.of('projectvibrantjourneys:seashells', 8), ["AAA", "ABA", "AAA"], {
-    A: '#forge:dusts/prismarine',
-    B: 'minecraft:nautilus_shell'
-})
 //create additions
 event.shaped(Item.of('createaddition:spool', 8), [" A ", " B ", " A "], {
     A: '#forge:treated_wood_slab',
