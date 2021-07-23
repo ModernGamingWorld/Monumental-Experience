@@ -506,10 +506,12 @@ onEvent('recipes', event => {
 
 //Flux Networks Recipes
 	event.remove({id: 'fluxnetworks:basicfluxstorage'})
+	event.remove({id: 'fluxnetworks:wipe_basicfluxstorage'})
 	event.remove({id: 'fluxnetworks:flux_dust'})
-	event.remove({id: 'fluxnetworks:flux_configurator'})
-	event.remove({id: 'fluxnetworks:flux_controller'})
-	event.remove({id: 'fluxnetworks:flux_core'})
+	event.remove({id: 'fluxnetworks:fluxconfigurator'})
+	event.remove({id: 'fluxnetworks:wipe_fluxcontroller'})
+	event.remove({id: 'fluxnetworks:fluxcontroller'})
+	event.remove({id: 'fluxnetworks:fluxcore'})
 	event.remove({id: 'fluxnetworks:fluxplug'})
 	event.remove({id: 'fluxnetworks:flux_point'})
 	event.remove({id: 'fluxnetworks:gargantuan_flux_storage'})
