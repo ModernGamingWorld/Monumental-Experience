@@ -805,6 +805,17 @@ onEvent('recipes', (event) => {
                 result: Item.of('thermal:machine_brewer', 1)
             },
             {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: 'create:mechanical_press',
+                    Y: '#forge:plates/bronze'
+                },
+                result: Item.of('thermal:machine_press', 1)
+            },
+            {
                 pattern: ["SXS", "YPY", "ICI"],
                 key: {
                     C: 'thermal:rf_coil',
