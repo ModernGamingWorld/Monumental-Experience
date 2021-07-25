@@ -1557,6 +1557,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'waystones:warp_scroll'})
   	event.remove({id: 'waystones:warp_stone'})
   	event.remove({id: 'waystones:waystone'})
+  	event.remove({id: 'waystones:warp_dust'})
 
 //Wooden Utils recipes
   	event.remove({id: 'woodenutilities:crafting_slab'})

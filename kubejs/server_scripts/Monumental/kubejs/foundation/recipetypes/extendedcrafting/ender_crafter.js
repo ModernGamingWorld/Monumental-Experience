@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    event.recipes.extendedcrafting.shaped_ender_crafter(
+event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": [" T ", "SPS", "SQS"
@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
                 "item": "tconstruct:pattern"
                 },
                 "S": {
-                "tag": "forge:plates/lapis_lazuli"
+                "tag": "forge:plates/lapis"
                 },
                 "Q": {
                 "tag": "minecraft:planks"
@@ -23,7 +23,7 @@ onEvent('recipes', (event) => {
             }
         }
     );
-    event.recipes.extendedcrafting.shaped_ender_crafter(
+event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": [" W ", "TPT", "TQT"
@@ -47,7 +47,7 @@ onEvent('recipes', (event) => {
             }
         }
     );
-    event.recipes.extendedcrafting.shaped_ender_crafter(
+event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["AB ", "CDB", "AB "

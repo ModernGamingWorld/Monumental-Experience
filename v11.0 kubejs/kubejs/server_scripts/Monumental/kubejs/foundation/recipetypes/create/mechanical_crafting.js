@@ -727,13 +727,11 @@ onEvent('recipes', (event) => {
                 result: Item.of('thermal:machine_pulverizer', 1)
             },
             {
-                pattern: [" X ", "YCY", "IPI"],
+                pattern: ["IGI", "GTG", "IGI"],
                 key: {
-                    C: 'thermal:machine_frame',
-                    I: '#forge:gears/constantan',
-                    P: 'thermal:rf_coil',
-                    X: 'create:mechanical_press',
-                    Y: '#forge:plates/bronze'
+                    G: '#thermal:glass/hardened',
+                    I: '#forge:sheetmetals/steel',
+                    T: '#forge:gears/bronze'
                 },
                 result: Item.of('thermal:machine_frame', 1)
             },
@@ -805,6 +803,17 @@ onEvent('recipes', (event) => {
                 result: Item.of('thermal:machine_brewer', 1)
             },
             {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: 'create:mechanical_press',
+                    Y: '#forge:plates/bronze'
+                },
+                result: Item.of('thermal:machine_press', 1)
+            },
+            {
                 pattern: ["SXS", "YPY", "ICI"],
                 key: {
                     C: 'thermal:rf_coil',
@@ -815,15 +824,6 @@ onEvent('recipes', (event) => {
                     S: '#thermal:glass/hardened'
                 },
                 result: Item.of('thermal:machine_crucible', 1)
-            },
-            {
-                pattern: ["IGI", "GTG", "IGI"],
-                key: {
-                    G: '#thermal:glass/hardened',
-                    I: '#forge:sheetmetals/steel',
-                    T: '#forge:gears/bronze'
-                },
-                result: Item.of('thermal:machine_insolator', 1)
             },
             {
                 pattern: ["AAA", "BCB", "DED"],
