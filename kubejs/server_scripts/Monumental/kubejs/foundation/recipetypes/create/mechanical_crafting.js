@@ -727,13 +727,11 @@ onEvent('recipes', (event) => {
                 result: Item.of('thermal:machine_pulverizer', 1)
             },
             {
-                pattern: [" X ", "YCY", "IPI"],
+                pattern: ["IGI", "GTG", "IGI"],
                 key: {
-                    C: 'thermal:machine_frame',
-                    I: '#forge:gears/constantan',
-                    P: 'thermal:rf_coil',
-                    X: 'create:mechanical_press',
-                    Y: '#forge:plates/bronze'
+                    G: '#thermal:glass/hardened',
+                    I: '#forge:sheetmetals/steel',
+                    T: '#forge:gears/bronze'
                 },
                 result: Item.of('thermal:machine_frame', 1)
             },
