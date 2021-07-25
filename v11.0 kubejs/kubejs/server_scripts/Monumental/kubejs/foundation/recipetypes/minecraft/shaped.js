@@ -904,6 +904,10 @@ event.shaped(Item.of('routerreborn:treefarm', 1), ["iii", "cbc", "iii"], {
     b: 'minecraft:diamond_axe',
     c: 'routerreborn:coppercoil'
 })
+event.shaped(Item.of('routerreborn:lamp', 1), ["iii", "ibi", "iii"], {
+    i: 'druidcraft:fiery_torch',
+    b: 'thermal:lightning_charge'
+})
 //Thermal
 event.shaped(Item.of('thermal:rf_coil', 1), ["WPQ", "PXP", "QPW"], {
     P: 'extendedcrafting:redstone_component',
