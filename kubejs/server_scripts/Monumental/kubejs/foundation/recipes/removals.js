@@ -1250,6 +1250,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'routerreborn:coppercoil'})
   	event.remove({id: 'routerreborn:energy_conduit'})
   	event.remove({id: 'routerreborn:item_conduit'})
+  	event.remove({id: 'routerreborn:floodlight'})
 
 //Si ingot recipes
   	event.remove({id: 'woot:si_ingot'}) 
