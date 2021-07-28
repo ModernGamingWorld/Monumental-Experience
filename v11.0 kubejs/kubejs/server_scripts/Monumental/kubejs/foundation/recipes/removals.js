@@ -1119,7 +1119,9 @@ onEvent('recipes', event => {
 //Refined Pipes recipes
   	event.remove({id: 'refinedpipes:basic_extractor_attachment'}) 
   	event.remove({id: 'refinedpipes:advanced_extractor_attachment'}) 
-  	event.remove({id: 'refinedpipes:elite_extractor_attachment'}) 
+  	event.remove({id: 'refinedpipes:elite_extractor_attachment'})
+  	event.remove({id: 'refinedpipes:improved_extractor_attachment'})  
+  	event.remove({id: 'refinedpipes:ultimate_extractor_attachment'}) 
   	event.remove({id: 'refinedpipes:basic_fluid_pipe'}) 
   	event.remove({id: 'refinedpipes:basic_energy_pipe'})
   	event.remove({id: 'refinedpipes:basic_item_pipe'})  
