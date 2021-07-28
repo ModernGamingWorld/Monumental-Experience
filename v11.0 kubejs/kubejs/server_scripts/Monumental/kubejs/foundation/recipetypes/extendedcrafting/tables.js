@@ -62,13 +62,14 @@ onEvent('recipes', (event) => {
             },
             {
                 result: 'rftoolspower:dimensionalcell_creative',
-                pattern: ['ABCBA', 'BSXSB', 'CXAXC', 'BSXSB', 'ABCBA'],
+                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {
                     A: 'rftoolspower:dimensionalcell_simple',
                     B: 'rftoolspower:dimensionalcell',
                     C: 'rftoolspower:dimensionalcell_advanced',
                     X: 'rftoolspower:power_core2',
-                    S: 'rftoolspower:power_core3'
+                    S: 'rftoolspower:power_core3',
+                    Z: 'rftoolsbase:machine_frame'
                 }
             },
             {
