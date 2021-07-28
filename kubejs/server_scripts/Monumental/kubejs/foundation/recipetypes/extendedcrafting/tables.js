@@ -73,6 +73,30 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'refinedstorage:creative_storage_disk',
+                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
+                key: {
+                    A: 'refinedstorage:1k_storage_disk',
+                    B: 'refinedstorage:4k_storage_disk',
+                    C: 'refinedstorage:16k_storage_disk',
+                    X: 'refinedstorage:64k_storage_disk',
+                    S: 'refinedstorage:basic_processor',
+                    Z: 'refinedstorage:machine_casing'
+                }
+            },
+            {
+                result: 'refinedstorage:creative_fluid_storage_disk',
+                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
+                key: {
+                    A: 'refinedstorage:64k_fluid_storage_disk',
+                    B: 'refinedstorage:256k_fluid_storage_disk',
+                    C: 'refinedstorage:1024k_fluid_storage_disk',
+                    X: 'refinedstorage:4096k_fluid_storage_disk',
+                    S: 'refinedstorage:advanced_processor',
+                    Z: 'refinedstorage:machine_casing'
+                }
+            },
+            {
                 result: 'refinedstorage:controller',
                 pattern: ['ABCBA', 'BDDDB', 'CDEDC', 'BDDDB', 'ABCBA'],
                 key: {

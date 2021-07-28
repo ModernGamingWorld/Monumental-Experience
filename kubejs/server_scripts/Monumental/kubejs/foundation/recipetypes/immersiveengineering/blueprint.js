@@ -102,7 +102,7 @@ onEvent('recipes', (event) => {
                 output: {
                     item: 'rftoolscontrol:network_card'
                 },
-                id: 'network_card'
+                id: 'rftoolscontrol_network_card'
             },
             {
                 inputs: [
