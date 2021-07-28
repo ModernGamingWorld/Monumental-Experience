@@ -1174,6 +1174,15 @@ onEvent('recipes', event => {
   	event.remove({id: 'thermal:compat/refinedstorage/smelter_refinedstorage_alloy_quartz_enriched_iron'})
   	event.remove({id: 'refinedstorage:advanced_processor'})
   	event.remove({id: 'refinedstorage:basic_processor'})
+  	event.remove({id: 'refinedstorage:1k_storage_disk_from_storage_housing'})
+  	event.remove({id: 'refinedstorage:1k_storage_disk'})
+  	event.remove({id: 'refinedstorage:4k_storage_disk_from_storage_housing'})
+  	event.remove({id: 'refinedstorage:4k_storage_disk'})
+  	event.remove({id: 'refinedstorage:16k_storage_disk_from_storage_housing'})
+  	event.remove({id: 'refinedstorage:16k_storage_disk'})
+  	event.remove({id: 'refinedstorage:64k_storage_disk_from_storage_housing'})
+  	event.remove({id: 'refinedstorage:64k_storage_disk'})
+
 
 //Rftools recipes
   	event.remove({id: 'rftoolsbase:filter_module'}) 

@@ -1250,6 +1250,30 @@ event.shaped(Item.of('refinedstorage:1k_storage_block', 1), ["EPE", "EME", "ERE"
     P: 'refinedstorage:1k_storage_part',
     E: 'refinedstorage:quartz_enriched_iron'
 })
+event.shaped(Item.of('refinedstorage:1k_storage_disk', 1), ["MRM", "RPR", "EEE"], {
+    M: '#forge:glass',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:1k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
+})
+event.shaped(Item.of('refinedstorage:4k_storage_disk', 1), ["MRM", "RPR", "EEE"], {
+    M: '#forge:glass',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:4k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
+})
+event.shaped(Item.of('refinedstorage:16k_storage_disk', 1), ["MRM", "RPR", "EEE"], {
+    M: '#forge:glass',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:16k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
+})
+event.shaped(Item.of('refinedstorage:64k_storage_disk', 1), ["MRM", "RPR", "EEE"], {
+    M: '#forge:glass',
+    R: 'extendedcrafting:redstone_component',
+    P: 'refinedstorage:64k_storage_part',
+    E: 'refinedstorage:quartz_enriched_iron'
+})
 event.shaped(Item.of('refinedstorage:4k_storage_block', 1), ["EPE", "EME", "ERE"], {
     M: 'refinedstorage:machine_casing',
     R: 'extendedcrafting:redstone_component',
