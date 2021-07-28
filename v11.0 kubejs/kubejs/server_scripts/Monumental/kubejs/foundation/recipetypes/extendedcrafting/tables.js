@@ -51,6 +51,27 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'rftoolsutility:creative_screen',
+                pattern: ['ABCBA', 'BAXAB', 'CXAXC', 'BAXAB', 'ABCBA'],
+                key: {
+                    A: 'rftoolsutility:redstone_information',
+                    B: 'rftoolsutility:module_template',
+                    C: 'rftoolsutility:screen',
+                    X: 'rftoolsbase:machine_base'
+                }
+            },
+            {
+                result: 'rftoolspower:dimensionalcell_creative',
+                pattern: ['ABCBA', 'BSXSB', 'CXAXC', 'BSXSB', 'ABCBA'],
+                key: {
+                    A: 'rftoolspower:dimensionalcell_simple',
+                    B: 'rftoolspower:dimensionalcell',
+                    C: 'rftoolspower:dimensionalcell_advanced',
+                    X: 'rftoolspower:power_core2',
+                    S: 'rftoolspower:power_core3'
+                }
+            },
+            {
                 result: 'refinedstorage:controller',
                 pattern: ['ABCBA', 'BDDDB', 'CDEDC', 'BDDDB', 'ABCBA'],
                 key: {
