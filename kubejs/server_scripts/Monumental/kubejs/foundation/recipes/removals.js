@@ -1124,6 +1124,7 @@ onEvent('recipes', event => {
   	event.remove({id: 'refinedpipes:basic_energy_pipe'})
   	event.remove({id: 'refinedpipes:basic_item_pipe'})  
   	event.remove({id: 'refinedpipes:advanced_fluid_pipe'}) 
+  	event.remove({id: 'refinedpipes:ultimate_fluid_pipe'})
   	event.remove({id: 'refinedpipes:elite_fluid_pipe'}) 
   	event.remove({id: 'refinedpipes:advanced_item_pipe'})
   	event.remove({id: 'refinedpipes:improved_energy_pipe'})
@@ -1190,7 +1191,6 @@ onEvent('recipes', event => {
   	event.remove({id: 'refinedstorage:1024k_fluid_storage_disk'})
   	event.remove({id: 'refinedstorage:4096k_fluid_storage_disk_from_storage_housing'})
   	event.remove({id: 'refinedstorage:4096k_fluid_storage_disk'})
-
 
 //Rftools recipes
   	event.remove({id: 'rftoolsbase:filter_module'}) 
