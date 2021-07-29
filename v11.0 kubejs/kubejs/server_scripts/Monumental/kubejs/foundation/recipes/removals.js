@@ -1096,6 +1096,11 @@ onEvent('recipes', event => {
   	event.remove({id: 'pneumaticcraft:refinery_output'})
   	event.remove({id: 'pneumaticcraft:reinforced_stone'})
   	event.remove({id: 'pneumaticcraft:vortex_tube'})
+  	event.remove({id: 'pneumaticcraft:pressure_chamber_valve_x4'})
+  	event.remove({id: 'pneumaticcraft:pressure_chamber_valve'})
+  	event.remove({id: 'pneumaticcraft:pressure_chamber_glass'})
+  	event.remove({id: 'pneumaticcraft:pressure_chamber_glass_x4'})
+  	event.remove({id: 'pneumaticcraft:pressure_chamber_glass'})
 
 //PSI recipes
   	event.remove({id: 'psi:assembler'})
@@ -1107,7 +1112,8 @@ onEvent('recipes', event => {
 
 //Quantumstorage recipes
   	event.remove({id: 'quantumstorage:controller'}) 
-  	event.remove({id: 'quantumstorage:qsu'})  
+  	event.remove({id: 'quantumstorage:qsu'}) 
+  	event.remove({id: 'quantumstorage:qsu2'})   
   	event.remove({id: 'quantumstorage:tank'}) 
 
 //quartz gear
