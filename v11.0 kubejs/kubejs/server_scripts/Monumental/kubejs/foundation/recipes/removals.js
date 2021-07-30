@@ -1039,6 +1039,11 @@ onEvent('recipes', event => {
 //Nether quartz recipes
   	event.remove({id: 'thermal:parts/quartz_gear'})
 
+//Natures
+	event.remove({id: 'naturesaura:altar/infused_iron'})
+	event.remove({id: 'naturesaura:altar/tainted_gold'})
+	event.remove({id: 'naturesaura:altar/infused_stone'})
+
 //Osmium ingot to nugget recipes
   	event.remove({id: 'mekanism:processing/osmium/nugget/from_ingot'})
 
