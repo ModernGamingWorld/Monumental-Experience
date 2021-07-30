@@ -935,6 +935,14 @@ events.listen('recipes', (event) => {
             },
             {
                 inputs: [
+                    'mana-and-artifice:superheated_purified_vinteum_ingot',
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:prosperity_shard'
+                ],
+                output: Item.of('mysticalagriculture:prosperity_ingot', 2)
+            },
+            {
+                inputs: [
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
