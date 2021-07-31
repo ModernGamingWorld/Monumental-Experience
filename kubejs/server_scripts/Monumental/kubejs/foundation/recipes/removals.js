@@ -915,6 +915,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:control_circuit/advanced'})
 	event.remove({id: 'mekanism:control_circuit/elite'})
 	event.remove({id: 'mekanism:control_circuit/ultimate'})
+	event.remove({id: 'mekanism:chemical_tank/basic'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
