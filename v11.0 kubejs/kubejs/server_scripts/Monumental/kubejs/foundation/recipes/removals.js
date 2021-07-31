@@ -890,6 +890,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:upgrade/anchor'})
 	event.remove({id: 'mekanism:upgrade/energy'})
 	event.remove({id: 'mekanism:upgrade/fliter'})
+	event.remove({id: 'mekanism:upgrade/gas'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
