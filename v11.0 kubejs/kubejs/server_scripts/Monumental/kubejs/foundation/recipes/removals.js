@@ -911,6 +911,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:energy_cube/advanced'})
 	event.remove({id: 'mekanism:energy_cube/elite'})
 	event.remove({id: 'mekanism:energy_cube/ultimate'})
+	event.remove({id: 'mekanism:control_circuit/basic'})
+	event.remove({id: 'mekanism:control_circuit/advanced'})
+	event.remove({id: 'mekanism:control_circuit/elite'})
+	event.remove({id: 'mekanism:control_circuit/ultimate'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
