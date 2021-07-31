@@ -1531,7 +1531,7 @@ event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
     B: '#forge:plates/iron',
     C: '#forge:tank'
 })
-event.shaped(Item.of('mekanism:thermal_evaporation_block', 1), ["BAB", "ACA", "BAB"], {
+event.shaped(Item.of('mekanism:thermal_evaporation_block', 2), ["BAB", "ACA", "BAB"], {
     A: 'extendedcrafting:redstone_ingot',
     B: '#forge:plates/iron',
     C: '#forge:tank'
