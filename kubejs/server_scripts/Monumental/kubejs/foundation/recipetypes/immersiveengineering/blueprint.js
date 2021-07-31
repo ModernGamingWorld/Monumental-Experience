@@ -265,7 +265,7 @@ onEvent('recipes', (event) => {
             {
                 inputs: [
                     { count: 1, base_ingredient: { item: 'mekanism:alloy_reinforced' } },
-                    { item: 'mekanism:alloy_reinforced' },
+                    { tag: 'mekanism:alloys/reinforced' },
                     { tag:  'forge:circuits/advanced' },
                     { item: 'pneumaticcraft:plastic' },
                     { item: 'industrialforegoing:plastic' }
@@ -288,7 +288,7 @@ onEvent('recipes', (event) => {
                 output: {
                     item: 'mekanism:ultimate_control_circuit'
                 },
-                id: 'elite_control_circuit'
+                id: 'ultimate_control_circuit'
             }
         ]
     };

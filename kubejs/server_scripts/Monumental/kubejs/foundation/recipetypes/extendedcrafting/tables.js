@@ -97,6 +97,18 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'mekanism:creative_energy_cube',
+                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
+                key: {
+                    A: 'mekanism:basic_energy_cube',
+                    B: 'mekanism:advanced_energy_cube',
+                    C: 'mekanism:elite_energy_cube',
+                    X: 'mekanism:ultimate_energy_cube',
+                    S: '#mekanism:alloys/atomic',
+                    Z: 'mekanism:steel_casing'
+                }
+            },
+            {
                 result: 'refinedstorage:controller',
                 pattern: ['ABCBA', 'BDDDB', 'CDEDC', 'BDDDB', 'ABCBA'],
                 key: {

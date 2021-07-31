@@ -1520,11 +1520,11 @@ event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
     C: '#forge:plates/electrum',
     D: '#mekanism:alloys/reinforced'
 })
-event.shaped(Item.of('mekanism:elite_energy_cube', 1), ["DBD", "CAC", "DBD"], {
-    A: 'mekanism:elite_energy_cube',
-    B: 'mekanism:energy_tablet',
-    C: '#forge:plates/diamond',
-    D: '#mekanism:alloys/atomic'
+event.shaped(Item.of('mekanism:ultimate_energy_cube', 1), ["AEA", "IPI", "AEA"], {
+    P: 'mekanism:elite_energy_cube',
+    E: 'mekanism:energy_tablet',
+    I: '#forge:plates/diamond',
+    A: '#mekanism:alloys/atomic'
 })
 event.shaped(Item.of('mekanism:basic_fluid_tank', 1), ["BAB", "ACA", "BAB"], {
     A: 'extendedcrafting:redstone_ingot',
