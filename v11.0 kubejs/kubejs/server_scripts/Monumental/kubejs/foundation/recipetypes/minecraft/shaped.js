@@ -551,12 +551,6 @@ event.shaped(Item.of('mekanismgenerators:bio_generator', 1), ["RAR", "BCB", "IAI
     C: '#forge:circuits/basic',
     B: '#forge:fuels/bio'
 })
-event.shaped(Item.of('mekanism:configurator', 1), [" AI", " EA", "S  "], {
-    E: 'mekanism:energy_tablet',
-    A: '#mekanism:alloys/infused',
-    I: '#forge:gears/lapis',
-    S: '#forge:rods/steel'
-})
 //Minecraft
 event.shaped(Item.of('minecraft:string', 3), ['AA', 'A '], {
     A: 'supplementaries:flax'
@@ -1718,10 +1712,10 @@ event.shaped(Item.of('mekanism:network_reader', 1), [" A ", "CDC", " B "], {
     C: '#mekanism:alloys/infused',
     D: 'mekanism:energy_tablet'
 })
-event.shaped(Item.of('mekanism:nutritional_liquifier', 1), ["CAC", "DBD", "CAC"], {
-    A: '#forge:circuits/basic',
-    B: 'mekanism:steel_casing',
-    C: 'extendedcrafting:redstone_component',
+event.shaped(Item.of('mekanism:nutritional_liquifier', 1), ["RCR", "DXD", "RCR"], {
+    C: '#forge:circuits/basic',
+    X: 'mekanism:steel_casing',
+    R: 'extendedcrafting:redstone_component',
     D: 'minecraft:bowl'
 })
 event.shaped(Item.of('mekanism:osmium_compressor', 1), ["ACA", "BXB", "ACA"], {
