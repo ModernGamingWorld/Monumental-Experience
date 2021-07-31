@@ -899,6 +899,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:transmitter/pressurized_tube/basic'})
 	event.remove({id: 'mekanism:transmitter/mechanical_pipe/basic'})
 	event.remove({id: 'mekanism:transmitter/logistical_transporter/basic'})
+	event.remove({id: 'mekanism:tier_installer/basic'})
+	event.remove({id: 'mekanism:tier_installer/advanced'})
+	event.remove({id: 'mekanism:tier_installer/elite'})
+	event.remove({id: 'mekanism:tier_installer/ultimate'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
