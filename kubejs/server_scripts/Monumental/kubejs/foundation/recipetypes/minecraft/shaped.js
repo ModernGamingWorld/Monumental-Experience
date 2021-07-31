@@ -1724,11 +1724,11 @@ event.shaped(Item.of('mekanism:nutritional_liquifier', 1), ["CAC", "DBD", "CAC"]
     C: 'extendedcrafting:redstone_component',
     D: 'minecraft:bowl'
 })
-event.shaped(Item.of('mekanism:osmium_compressor', 1), ["CAC", "ADA", "CAC"], {
-    A: 'create:mechanical_piston',
-    B: '#forge:circuits/advanced',
-    C: '#mekanism:alloys/infused',
-    D: 'mekanism:steel_casing'
+event.shaped(Item.of('mekanism:osmium_compressor', 1), ["ACA", "BXB", "ACA"], {
+    B: 'create:mechanical_piston',
+    C: '#forge:circuits/advanced',
+    A: '#mekanism:alloys/infused',
+    X: 'mekanism:steel_casing'
 })
 event.shaped(Item.of('mekanism:personal_chest', 1), ["CDC", "ABA", "DDD"], {
     A: '#forge:chests/wooden',
@@ -1742,11 +1742,11 @@ event.shaped(Item.of('mekanism:precision_sawmill', 1), ["ABA", "CDC", "ABA"], {
     C: '#mekanism:alloys/infused',
     D: 'mekanism:steel_casing'
 })
-event.shaped(Item.of('mekanism:qio_dashboard', 1), ["DBD", "BAB", "DCD"], {
-    A: 'appliedenergistics2:quartz_vibrant_glass',
-    B: '#forge:pellets/polonium',
-    C: 'mekanism:teleportation_core',
-    C: '#forge:ingots/lead'
+event.shaped(Item.of('mekanism:qio_dashboard', 1), ["IAI", "AGA", "ITI"], {
+    G: 'appliedenergistics2:quartz_vibrant_glass',
+    A: '#forge:pellets/polonium',
+    T: 'mekanism:teleportation_core',
+    I: '#forge:ingots/lead'
 })
 event.shaped(Item.of('mekanism:resistive_heater', 1), ["BAB", "ADA", "BCB"], {
     A: 'extendedcrafting:redstone_component',
@@ -1754,13 +1754,10 @@ event.shaped(Item.of('mekanism:resistive_heater', 1), ["BAB", "ADA", "BCB"], {
     C: 'mekanism:energy_tablet',
     D: 'mekanism:steel_casing'
 })
-
-
-
-event.shaped(Item.of('mekanism:rotary_condensentrator', 1), ["ABA", "CED", "AB"], {
-    A: 'appliedenergistics2:quartz_glass',
-    B: '#forge:circuits/basic',
-    C: 'mekanism:basic_chemical_tank',
+event.shaped(Item.of('mekanism:rotary_condensentrator', 1), ["GCG", "TED", "GCG"], {
+    G: 'appliedenergistics2:quartz_glass',
+    C: '#forge:circuits/basic',
+    T: 'mekanism:basic_chemical_tank',
     D: 'mekanism:basic_fluid_tank',
     E: 'mekanism:energy_tablet'
 })
@@ -1777,12 +1774,12 @@ event.shaped(Item.of('mekanism:seismic_vibrator', 1), ["CAC", "BDB", "CCC"], {
     C: '#forge:plates/bronze',
     D: 'mekanism:steel_casing'
 })
-event.shaped(Item.of('mekanism:solar_neutron_activator', 1), ["CEC", "BDB", "AAA"], {
-    A: '#forge:plates/bronze',
-    B: '#forge:circuits/elite',
-    C: '#mekanism:alloys/reinforced',
-    D: 'mekanism:steel_casing',
-    D: 'mekanism:hdpe_sheet'
+event.shaped(Item.of('mekanism:solar_neutron_activator', 1), ["ABA", "CXC", "III"], {
+    I: '#forge:plates/bronze',
+    C: '#forge:circuits/elite',
+    A: '#mekanism:alloys/reinforced',
+    X: 'mekanism:steel_casing',
+    B: 'mekanism:hdpe_sheet'
 })
 event.shaped(Item.of('mekanism:steel_casing', 1), ["CAC", "ABA", "CAC"], {
     A: 'extendedcrafting:black_iron_slate',
