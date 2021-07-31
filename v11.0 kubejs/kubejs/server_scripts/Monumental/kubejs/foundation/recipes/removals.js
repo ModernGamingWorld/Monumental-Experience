@@ -887,6 +887,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:supercharged_coil'})
 	event.remove({id: 'mekanism:superheating_element'})
 	event.remove({id: 'mekanism:teleporter'})
+	event.remove({id: 'mekanism:upgrade/anchor'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
