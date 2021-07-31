@@ -897,6 +897,8 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:transmitter/diversion_transporter'})
 	event.remove({id: 'mekanism:transmitter/universal_cable/basic'})
 	event.remove({id: 'mekanism:transmitter/pressurized_tube/basic'})
+	event.remove({id: 'mekanism:transmitter/mechanical_pipe/basic'})
+	event.remove({id: 'mekanism:transmitter/logistical_transporter/basic'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
