@@ -893,6 +893,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:upgrade/gas'})
 	event.remove({id: 'mekanism:upgrade/muffling'})
 	event.remove({id: 'mekanism:upgrade/speed'})
+	event.remove({id: 'mekanism:transmitter/restrictive_transporter'})
+	event.remove({id: 'mekanism:transmitter/diversion_transporter'})
+	event.remove({id: 'mekanism:transmitter/universal_cable/basic'})
+	event.remove({id: 'mekanism:transmitter/pressurized_tube/basic'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
