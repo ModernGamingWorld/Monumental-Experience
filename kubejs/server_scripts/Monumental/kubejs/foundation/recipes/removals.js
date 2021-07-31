@@ -903,6 +903,14 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:tier_installer/advanced'})
 	event.remove({id: 'mekanism:tier_installer/elite'})
 	event.remove({id: 'mekanism:tier_installer/ultimate'})
+	event.remove({id: 'mekanism:thermal_evaporation/controller'})
+	event.remove({id: 'mekanism:thermal_evaporation/block'})
+	event.remove({id: 'mekanism:metallurgic_infusing/infused'})
+	event.remove({id: 'mekanism:fluid_tank/basic'})
+	event.remove({id: 'mekanism:energy_cube/basic'})
+	event.remove({id: 'mekanism:energy_cube/advanced'})
+	event.remove({id: 'mekanism:energy_cube/elite'})
+	event.remove({id: 'mekanism:energy_cube/ultimate'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
