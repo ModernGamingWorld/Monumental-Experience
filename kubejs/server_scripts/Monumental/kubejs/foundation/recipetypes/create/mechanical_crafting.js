@@ -988,7 +988,7 @@ onEvent('recipes', (event) => {
                 key: {
                     P: 'extendedcrafting:redstone_ingot',
                     B: '#forge:gears/diamond',
-                    W: '#forge:plates/lapis_lazuli',
+                    W: '#forge:plates/lapis',
                     Q: 'immersiveengineering:insulating_glass'
                 },
                 result: Item.of('mininggadgets:upgrade_empty', 1)
@@ -1069,7 +1069,7 @@ onEvent('recipes', (event) => {
                 key: {
                     B: 'create:basin',
                     C: '#forge:ingots/obsidian',
-                    P: '#forge:plates/lapis_lazuli',
+                    P: '#forge:plates/lapis',
                     W: 'create:electron_tube',
                     X: 'immersiveengineering:insulating_glass'
                 },
