@@ -1555,6 +1555,16 @@ event.shaped(Item.of('immersiveengineering:furnace_heater', 1), ["ici", "clc", "
     l: 'immersiveengineering:coil_lv',
     r: '#forge:dusts/redstone'
 })
+event.shaped(Item.of('immersiveengineering:component_iron', 1), ["isi", "scs", "isi"], {
+    i: 'create:andesite_alloy',
+    c: '#forge:dusts/bronze',
+    s: '#forge:plates/iron'
+})
+event.shaped(Item.of('immersiveengineering:component_steel', 1), ["isi", "scs", "isi"], {
+    i: 'create:andesite_alloy',
+    c: '#forge:dusts/bronze',
+    s: '#forge:plates/steel'
+})
 //Mekanism
 event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
     A: 'contenttweaker:compressed_plate',
