@@ -679,6 +679,16 @@ onEvent('recipes', event => {
 	event.remove({id: 'ironjetpacks:ultimate_coil'})
 
 //Immersive Engineering recipes
+  	event.remove({id: 'immersiveengineering:crafting/light_engineering'}) 
+  	event.remove({id: 'immersiveengineering:crafting/workbench'}) 
+  	event.remove({id: 'immersiveengineering:crafting/dynamo'}) 
+  	event.remove({id: 'immersiveengineering:crafting/conveyor_basic'}) 
+  	event.remove({id: 'immersiveengineering:blueprint/circuit_board'}) 
+  	event.remove({id: 'immersiveengineering:crafting/wirecoil_copper'}) 
+  	event.remove({id: 'immersiveengineering:crafting/wirecoil_redstone'}) 
+  	event.remove({id: 'immersiveengineering:crafting/wirecoil_steel'}) 
+  	event.remove({id: 'immersiveengineering:crafting/wirecoil_electrum'})
+  	event.remove({id: 'immersiveengineering:crafting/wirecoil_structure_steel'})  
   	event.remove({id: 'immersiveengineering:crafting/alloybrick'}) 
   	event.remove({id: 'immersiveengineering:crafting/blastbrick'})
   	event.remove({id: 'immersiveengineering:crafting/blastbrick_reinforced'})
@@ -714,9 +724,13 @@ onEvent('recipes', event => {
 //Iron Coals Recipes
 	event.remove({id: 'ironcoals:aeon_coal'})
 	event.remove({id: 'ironcoals:diamond_coal'})
+	event.remove({id: 'ironcoals:diamond_coal_from_chunk'})
 	event.remove({id: 'ironcoals:emerald_coal'})
+	event.remove({id: 'ironcoals:emerald_coal_from_chunk'})
 	event.remove({id: 'ironcoals:gold_coal'})
+	event.remove({id: 'ironcoals:gold_coal_from_chunk'})
 	event.remove({id: 'ironcoals:iron_coal'})
+	event.remove({id: 'ironcoals:iron_coal_from_chunk'})
 
 //Iron Furnaces Recipes
 	event.remove({id: 'ironfurnaces:allthemodium_furnace'})

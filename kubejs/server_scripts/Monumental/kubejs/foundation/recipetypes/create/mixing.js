@@ -62,6 +62,22 @@ events.listen('recipes', (event) => {
                 output: Item.of('eidolon:pewter_ingot', 2)
             },
             {
+                inputs: ['#forge:gems/emerald', 'ironcoals:diamond_coal'],
+                output: Item.of('ironcoals:emerald_coal', 2)
+            },
+            {
+                inputs: ['#forge:gems/diamond', 'ironcoals:gold_coal'],
+                output: Item.of('ironcoals:diamond_coal', 2)
+            },
+            {
+                inputs: ['#forge:ingots/gold', 'ironcoals:iron_coal'],
+                output: Item.of('ironcoals:gold_coal', 2)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'minecraft:coal'],
+                output: Item.of('ironcoals:iron_coal', 2)
+            },
+            {
                 inputs: ['#forge:ender_pearls', '#forge:dyes/purple'],
                 output: Item.of('waystones:warp_dust', 4)
             },
