@@ -26,6 +26,18 @@ onEvent('recipes', (event) => {
             },
             {
                 inputs: [
+                    { count: 1, base_ingredient: { item: 'immersiveengineering:electron_tube' } },
+                    { item: 'pneumaticcraft:printed_circuit_board'},
+                    { tag: 'forge:plates/copper'}
+                ],
+                category: 'components',
+                output: {
+                    item: 'immersiveengineering:circuit_board'
+                },
+                id: 'immersiveengineering:circuit_board'
+            },
+            {
+                inputs: [
                     { count: 1, base_ingredient: { item: 'immersiveengineering:insulating_glass' } },
                     { item: 'immersiveengineering:wirecoil_redstone' },
                     { item: 'immersiveengineering:wirecoil_electrum' }

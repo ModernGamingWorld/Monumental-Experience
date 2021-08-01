@@ -1165,10 +1165,10 @@ onEvent('recipes', (event) => {
                 result: Item.of('ironcoals:aeon_coal', 1)
             },
             {
-                pattern: ["AAA", "ABA", "AAA"],
+                pattern: ["PPP", "PGC", "PPP"],
                 key: {
-                    A: '#forge:plates/iron',
-                    B: 'immersiveengineering:generator',
+                    P: '#forge:plates/iron',
+                    G: 'immersiveengineering:generator',
                     C: 'immersiveengineering:capacitor_lv'
                 },
                 result: Item.of('immersivepetroleum:gas_generator', 1)
@@ -1181,6 +1181,34 @@ onEvent('recipes', (event) => {
                     C: 'thermal:redstone_servo'
                 },
                 result: Item.of('industrialforegoing:machine_frame_pity', 1)
+            },
+            {
+                pattern: ["XTX", "TAT", "XTX"],
+                key: {
+                    X: '#forge:sheetmetals/iron',
+                    T: 'immersiveengineering:component_iron',
+                    A: '#forge:gears/bronze'
+                },
+                result: Item.of('immersiveengineering:light_engineering', 2)
+            },
+            {
+                pattern: ["CTC", "XSX", "CCC"],
+                key: {
+                    X: 'create:electron_tube',
+                    C: '#forge:sheetmetals/iron',
+                    T: 'pneumaticcraft:printed_circuit_board',
+                    S: 'immersiveengineering:coil_lv'
+                },
+                result: Item.of('immersiveengineering:dynamo', 1)
+            },
+            {
+                pattern: ["   ", "XXX", "CTC"],
+                key: {
+                    X: 'create:belt_connector',
+                    C: '#forge:sheetmetals/iron',
+                    T: 'immersiveengineering:electron_tube'
+                },
+                result: Item.of('immersiveengineering:conveyor_basic', 4)
             }
         ]
     };

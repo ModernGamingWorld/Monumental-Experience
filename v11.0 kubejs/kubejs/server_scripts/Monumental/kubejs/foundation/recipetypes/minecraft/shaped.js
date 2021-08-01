@@ -1523,6 +1523,38 @@ event.shaped(Item.of('create:schematicannon', 1), [" C ", "LDL", "SIS"], {
     S: 'minecraft:smooth_stone',
     I: 'compressium:iron_1'
 })
+//Immersive Engineering
+event.shaped(Item.of('immersiveengineering:wirecoil_electrum', 2), [" w ", "wsw", " w "], {
+    w: '#forge:wires/electrum',
+    s: 'createaddition:spool'
+})
+event.shaped(Item.of('immersiveengineering:wirecoil_redstone', 2), [" w ", "asa", " w "], {
+    w: '#forge:wires/aluminum',
+    a: '#forge:dusts/redstone',
+    s: 'createaddition:spool'
+})
+event.shaped(Item.of('immersiveengineering:wirecoil_steel', 2), [" w ", "asa", " w "], {
+    w: '#forge:wires/aluminum',
+    a: '#forge:wires/steel',
+    s: 'createaddition:spool'
+})
+event.shaped(Item.of('immersiveengineering:wirecoil_structure_steel', 2), [" w ", "wsw", " w "], {
+    w: 'immersiveengineering:wire_steel',
+    s: 'createaddition:spool'
+})
+event.shaped(Item.of('immersiveengineering:workbench', 1), ["WWW", "SCS", "EIE"], {
+    W: 'engineersdecor:halfslab_treated_wood',
+    S: '#forge:plates/iron',
+    I: 'immersiveengineering:craftingtable',
+    C: '#forge:sheetmetals/steel',
+    E: 'immersiveengineering:treated_fence'
+})
+event.shaped(Item.of('immersiveengineering:furnace_heater', 1), ["ici", "clc", "iri"], {
+    i: '#forge:plates/iron',
+    c: '#forge:plates/copper',
+    l: 'immersiveengineering:coil_lv',
+    r: '#forge:dusts/redstone'
+})
 //Mekanism
 event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
     A: 'contenttweaker:compressed_plate',

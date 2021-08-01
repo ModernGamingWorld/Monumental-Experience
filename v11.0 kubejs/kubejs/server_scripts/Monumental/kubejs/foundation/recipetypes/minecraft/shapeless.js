@@ -6,4 +6,5 @@ onEvent('recipes', event => {
         event.shapeless('1x pamhc2foodcore:cottoncandyitem', ['#forge:tool_mixingbowl', '#forge:sugar', '#forge:icecreams', '#forge:dyes'])
         event.shapeless('1x pamhc2foodextended:peachesandcreamoatmealitem', ['#forge:tool_pot', '#forge:crops/oats', '#forge:crops/peach', '#forge:cream', '#forge:water'])
         event.shapeless('1x pamhc2foodcore:cookingoilitem', ['#forge:tool_roller', 'pamhc2trees:walnutitem'])
+        event.shapeless('1x immersiveengineering:wirecoil_copper', ['createaddition:copper_spool'])
 })

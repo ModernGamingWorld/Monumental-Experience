@@ -755,20 +755,20 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
     );
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
-            "type": "industrialforegoing:fluid_extractor",
+            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["ABA", "CDC", "AEA"],
             "key": {
                 "A": {
                 "item": "contenttweaker:compressed_plate"
                 },
                 "B": {
-                "item": "#forge:gears/electrum"
+                "tag": "forge:gears/electrum"
                 },
                 "C": {
                  "item": "create:mechanical_piston"
                 },
                 "D": {
-                "item": "#industrialforegoing:machine_frame/pity"
+                "tag": "industrialforegoing:machine_frame/pity"
                 },
                 "E": {
                 "item": "immersiveengineering:fluid_pump"
@@ -795,7 +795,7 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
                  "item": "pneumaticcraft:plastic"
                 },
                 "D": {
-                "item": "#industrialforegoing:machine_frame/pity"
+                "tag": "industrialforegoing:machine_frame/pity"
                 },
                 "E": {
                 "item": "routerreborn:furnace"
