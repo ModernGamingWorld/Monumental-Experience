@@ -721,13 +721,18 @@ onEvent('recipes', event => {
 //Iron Furnaces Recipes
 	event.remove({id: 'ironfurnaces:allthemodium_furnace'})
 	event.remove({id: 'ironfurnaces:copper_furnace'})
+	event.remove({id: 'ironfurnaces:crystal_furnace'})
 	event.remove({id: 'ironfurnaces:diamond_furnace'})
 	event.remove({id: 'ironfurnaces:emerald_furnace'})
 	event.remove({id: 'ironfurnaces:gold_furnace'})
+	event.remove({id: 'ironfurnaces:gold_furnace2'})
 	event.remove({id: 'ironfurnaces:iron_furnace'})
+	event.remove({id: 'ironfurnaces:iron_furnace2'})
 	event.remove({id: 'ironfurnaces:netherite_furnace'})
 	event.remove({id: 'ironfurnaces:obsidian_furnace'})
+	event.remove({id: 'ironfurnaces:obsidian_furnace2'})
 	event.remove({id: 'ironfurnaces:silver_furnace'})
+	event.remove({id: 'ironfurnaces:silver_furnace2'})
 	event.remove({id: 'ironfurnaces:unobtainium_furnace'})
 	event.remove({id: 'ironfurnaces:vibranium_furnace'})
 

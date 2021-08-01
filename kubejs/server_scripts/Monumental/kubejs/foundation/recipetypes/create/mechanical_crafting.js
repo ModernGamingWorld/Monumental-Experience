@@ -1076,15 +1076,6 @@ onEvent('recipes', (event) => {
                 result: Item.of('cyclic:solidifier', 1)
             },
             {
-                pattern: ["CAC", "ABA", "CAC"],
-                key: {
-                    A: '#forge:ingots/allthemodium',
-                    B: 'ironfurnaces:netherite_furnace',
-                    C: '#forge:storage_blocks/allthemodium'
-                },
-                result: Item.of('ironfurnaces:allthemodium_furnace', 1)
-            },
-            {
                 pattern: ["AAA", "ABA", "AAA"],
                 key: {
                     A: '#forge:plates/copper',
@@ -1109,6 +1100,14 @@ onEvent('recipes', (event) => {
                     C: '#forge:storage_blocks/diamond'
                 },
                 result: Item.of('ironfurnaces:diamond_furnace', 1)
+            },
+            {
+                pattern: ["PPP", "PBP", "PPP"],
+                key: {
+                    P: '#forge:plates/emerald',
+                    B: 'ironfurnaces:diamond_furnace'
+                },
+                result: Item.of('ironfurnaces:emerald_furnace', 1)
             },
             {
                 pattern: ["AAA", "CBC", "AAA"],
@@ -1154,24 +1153,6 @@ onEvent('recipes', (event) => {
                     B: 'ironfurnaces:copper_furnace'
                 },
                 result: Item.of('ironfurnaces:silver_furnace', 1)
-            },
-            {
-                pattern: ["CAC", "ABA", "CAC"],
-                key: {
-                    A: '#forge:ingots/unobtainium',
-                    B: 'ironfurnaces:vibranium_furnace',
-                    C: '#forge:storage_blocks/unobtainium'
-                },
-                result: Item.of('ironfurnaces:unobtainium_furnace', 1)
-            },
-            {
-                pattern: ["CAC", "ABA", "CAC"],
-                key: {
-                    A: '#forge:ingots/vibranium',
-                    B: 'ironfurnaces:allthemodium_furnace',
-                    C: '#forge:storage_blocks/vibranium'
-                },
-                result: Item.of('ironfurnaces:vibranium_furnace', 1)
             },
             {
                 pattern: ["ACA", "DBD", "ACA"],

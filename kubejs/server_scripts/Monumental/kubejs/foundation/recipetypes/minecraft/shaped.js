@@ -252,6 +252,32 @@ event.shaped(Item.of('appliedenergistics2:export_bus', 1), ["aba", " c "], {
     b: 'appliedenergistics2:formation_core',
     c: '#forge:piston'
 })
+//Iron Jetpacks
+event.shaped(Item.of('ironjetpacks:basic_coil', 1), [" AB", "ACA", "BA "], {
+    A: 'contenttweaker:compressed_plate',
+    B: 'extendedcrafting:redstone_component',
+    C: 'thermal:rf_coil'
+})
+event.shaped(Item.of('ironjetpacks:advanced_coil', 1), [" AB", "ACA", "BA "], {
+    A: '#forge:plates/gold',
+    B: 'extendedcrafting:redstone_component',
+    C: 'thermal:rf_coil'
+})
+event.shaped(Item.of('ironjetpacks:elite_coil', 1), [" AB", "ACA", "BA "], {
+    A: '#forge:plates/diamond',
+    B: 'extendedcrafting:redstone_component',
+    C: 'thermal:rf_coil'
+})
+event.shaped(Item.of('ironjetpacks:ultimate_coil', 1), [" AB", "ACA", "BA "], {
+    A: '#forge:plates/emerald',
+    B: 'extendedcrafting:redstone_component',
+    C: 'thermal:rf_coil'
+})
+event.shaped(Item.of('ironjetpacks:strap', 1), ["AAA", "BCB", "AAA"], {
+    A: '#forge:plates/iron',
+    B: 'minecraft:tripwire_hook',
+    C: 'minecraft:leather_chestplate'
+})
 //Xnet
 event.shaped(Item.of('xnet:advanced_connector_blue', 1), [" A ", "ABA", " A "], {
     A: '#forge:dyes/blue',
