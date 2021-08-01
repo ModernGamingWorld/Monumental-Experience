@@ -62,6 +62,14 @@ events.listen('recipes', (event) => {
                 output: Item.of('eidolon:pewter_ingot', 2)
             },
             {
+                inputs: [
+                    'minecraft:light_gray_concrete_powder',
+                    'buildinggadgets:construction_block_powder',
+                    Fluid.of('minecraft:water', 250)
+                ],
+                output: Item.of('immersiveengineering:concrete', 1)
+            },
+            {
                 inputs: ['#forge:gems/emerald', 'ironcoals:diamond_coal'],
                 output: Item.of('ironcoals:emerald_coal', 2)
             },
