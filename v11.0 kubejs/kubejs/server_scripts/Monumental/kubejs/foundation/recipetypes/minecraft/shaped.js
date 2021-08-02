@@ -65,28 +65,28 @@ event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], 
 event.shaped(Item.of('buildinggadgets:gadget_building', 1), ["AEA", "DBD", "ACA"], {
     A: '#forge:plates/iron',
     B: 'immersiveengineering:insulating_glass',
-    C: '#forge:plates/lapis_lazuli',
+    C: '#forge:plates/lapis',
     D: '#forge:gears/diamond',
     E: 'create:electron_tube'
 })
 event.shaped(Item.of('buildinggadgets:gadget_copy_paste', 1), ["AEA", "DBD", "ACA"], {
     A: '#forge:plates/iron',
     B: 'immersiveengineering:insulating_glass',
-    C: '#forge:plates/lapis_lazuli',
+    C: '#forge:plates/lapis',
     D: '#forge:gears/emerald',
     E: 'create:electron_tube'
 })
 event.shaped(Item.of('buildinggadgets:gadget_destruction', 1), ["AEA", "DBD", "ACA"], {
     A: '#forge:plates/iron',
     B: 'immersiveengineering:insulating_glass',
-    C: '#forge:plates/lapis_lazuli',
+    C: '#forge:plates/lapis',
     D: '#forge:dusts/ender_pearl',
     E: 'create:electron_tube'
 })
 event.shaped(Item.of('buildinggadgets:gadget_exchanging', 1), ["AEA", "DBD", "ACA"], {
     A: '#forge:plates/iron',
     B: 'immersiveengineering:insulating_glass',
-    C: '#forge:plates/lapis_lazuli',
+    C: '#forge:plates/lapis',
     D: '#forge:gears/diamond',
     E: 'create:electron_tube'
 })
@@ -1360,18 +1360,6 @@ event.shaped(Item.of('refinedstorage:4096k_fluid_storage_block', 1), ["EPE", "EM
     P: 'refinedstorage:4096k_fluid_storage_part',
     E: 'refinedstorage:quartz_enriched_iron'
 })
-event.shaped(Item.of('refinedstorage:1024k_fluid_storage_part', 1), ["PEP", "SRS", "PSP"], {
-    P: 'refinedstorage:improved_processor',
-    E: 'refinedstorage:quartz_enriched_iron',
-    S: 'refinedstorage:256k_fluid_storage_part',
-    R: '#forge:tank'
-})
-event.shaped(Item.of('refinedstorage:4096k_fluid_storage_part', 1), ["PEP", "SRS", "PSP"], {
-    P: 'refinedstorage:advanced_processor',
-    E: 'refinedstorage:quartz_enriched_iron',
-    S: 'refinedstorage:1024k_fluid_storage_part',
-    R: '#forge:tank'
-})
 event.shaped(Item.of('refinedstorage:cable', 12), ["EEE", "GRG", "EEE"], {
     E: 'refinedstorage:quartz_enriched_iron',
     G: 'appliedenergistics2:quartz_vibrant_glass',
@@ -1489,11 +1477,11 @@ event.shaped(Item.of('extendedcrafting:ultimate_table', 1), ["CDC", "BAB", "CDC"
     D: 'extendedcrafting:ultimate_catalyst'
 })
 //Forbidden Arcanus
-    event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
+    event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), [" B ", " A ", " A "], {
     A: 'forbidden_arcanus:arcane_gold_ingot',
     B: 'immersiveengineering:hammer'
 })
-event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), ["CDC", "BAB", "CDC"], {
+event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), [" B ", " A ", " A "], {
     A: 'forbidden_arcanus:cherrywood_planks',
     B: 'immersiveengineering:hammer'
 })

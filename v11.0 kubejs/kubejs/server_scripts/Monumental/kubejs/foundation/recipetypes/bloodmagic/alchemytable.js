@@ -78,30 +78,6 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#forge:rods/basalz'],
-                output: 'thermal:basalz_powder',
-                count: 4,
-                syphon: 50,
-                ticks: 20,
-                orbLevel: 1
-            },
-            {
-                inputs: ['#forge:rods/blizz'],
-                output: 'thermal:blizz_powder',
-                count: 4,
-                syphon: 50,
-                ticks: 20,
-                orbLevel: 1
-            },
-            {
-                inputs: ['#forge:rods/blitz'],
-                output: 'thermal:blitz_powder',
-                count: 4,
-                syphon: 50,
-                ticks: 20,
-                orbLevel: 1
-            },
-            {
                 inputs: ['#forge:dirt', '#forge:fertilizer', '#forge:mushrooms'],
                 output: 'minecraft:mycelium',
                 count: 1,

@@ -940,6 +940,26 @@ onEvent('recipes', (event) => {
                 result: Item.of('refinedstorage:64k_storage_part', 1)
             },
             {
+                pattern: ["PEP", "SRS", "PSP"],
+                key: {
+                    P: 'refinedstorage:improved_processor',
+                    E: 'refinedstorage:quartz_enriched_iron',
+                    S: 'refinedstorage:256k_fluid_storage_part',
+                    R: '#forge:tank'
+                },
+                result: Item.of('refinedstorage:1024k_fluid_storage_part', 1)
+            },
+            {
+                pattern: ["PEP", "SRS", "PSP"],
+                key: {
+                    P: 'refinedstorage:advanced_processor',
+                    E: 'refinedstorage:quartz_enriched_iron',
+                    S: 'refinedstorage:1024k_fluid_storage_part',
+                    R: '#forge:tank'
+                },
+                result: Item.of('refinedstorage:4096k_fluid_storage_part', 1)
+            },
+            {
                 pattern: ["iei", "xgx", "ibi"],
                 key: {
                     e: 'refinedstorage:quartz_enriched_iron',

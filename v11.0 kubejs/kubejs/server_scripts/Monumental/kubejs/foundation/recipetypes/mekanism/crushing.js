@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
             output: Item.of('byg:quartzite_sand', 2)
         },
         {
-            input: '#forge:ores/netherite',
+            input: '#forge:ores/netherite_scrap',
             output: Item.of('mekanism:dirty_netherite_scrap', 3),
             id: 'mekanism:processing/netherite/ancient_debris_to_dirty_scrap'
         }

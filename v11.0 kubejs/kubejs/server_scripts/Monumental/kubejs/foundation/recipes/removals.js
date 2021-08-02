@@ -139,7 +139,6 @@ onEvent('recipes', event => {
 //Bronze blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_blasting'})
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_smelting'})
-  	
 
 //Bronze ingot to block recipes
   	event.remove({id: 'mekanism:storage_blocks/bronze'})
@@ -147,7 +146,6 @@ onEvent('recipes', event => {
 //Bronze block to ingot recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_block'})
   	
-
 //Bronze nuggets to ingot recipes
   	
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_nuggets'})
@@ -1135,6 +1133,7 @@ onEvent('recipes', event => {
 
 //Pneumaticcraft recipes
   	event.remove({id: 'pneumaticcraft:pressure_chamber/capacitor'})
+  	event.remove({id: 'pneumaticcraft:small_tank'})
   	event.remove({id: 'pneumaticcraft:pressure_chamber/compressed_iron_ingot'})
   	event.remove({id: 'pneumaticcraft:pressure_chamber/empty_pcb'})
   	event.remove({id: 'pneumaticcraft:pressure_chamber/transistor'})
@@ -1200,6 +1199,7 @@ onEvent('recipes', event => {
 
 //Refinedstorage recipes
   	event.remove({id: 'refinedstorage:1k_storage_block'}) 
+  	event.remove({id: 'refinedstorage:storage_housing'}) 
   	event.remove({id: 'refinedstorage:1k_storage_part'}) 
   	event.remove({id: 'refinedstorage:4k_storage_block'}) 
   	event.remove({id: 'refinedstorage:4k_storage_part'})
