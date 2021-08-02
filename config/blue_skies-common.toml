@@ -11,4 +11,9 @@ gatekeeper_emerald_count = 8
 # Default: []
 # Example: ["minecraft", "blue_skies", "botania"]
 allowed_mods_for_feature_gen = []
+#
+# A list of mods that are allowed to spawn mobs in our dimensions.
+# Default: []
+# Example: ["minecraft", "blue_skies", "alexs_mobs"]
+allowed_mods_for_mob_spawning = []
 

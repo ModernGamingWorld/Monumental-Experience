@@ -21,14 +21,6 @@
 	#Use modern OpenGL features to drastically increase performance.
 	experimentalRendering = true
 	# 
-	#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
-	#Range: > -2147483648
-	overlayOffsetX = 20
-	# 
-	#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
-	#Range: > -2147483648
-	overlayOffsetY = 0
-	# 
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
 	# 
@@ -86,4 +78,37 @@
 		#Maximum volume modifier of Ambient noise
 		#Range: 0.0 ~ 1.0
 		ambientVolumeCap = 0.10000000149011612
+
+	# 
+	#Settings for the Goggle Overlay
+	[client.goggleOverlay]
+		# 
+		#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
+		#Range: > -2147483648
+		overlayOffsetX = 20
+		# 
+		#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
+		#Range: > -2147483648
+		overlayOffsetY = 0
+		# 
+		#Enable this to use your custom colors for the Goggle- and Hover- Overlay
+		customColorsOverlay = false
+		# 
+		#The custom background color to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBackgroundOverlay = -267386864
+		# 
+		#The custom top color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBorderTopOverlay = 1347420415
+		# 
+		#The custom bot color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
+		#[in Hex: #AaRrGgBb]
+		#[@cui:IntDisplay:#]
+		#Range: > -2147483648
+		customBorderBotOverlay = 1344798847
 

@@ -29,5 +29,7 @@
   "forge:ingots/signalum": "emendatusenigmatica:signalum_ingot",
   "forge:ingots/brass": "emendatusenigmatica:brass_ingot",
   "forge:ingots/titanium": "null",
-  "forge:rubber": "null"
+  "forge:rubber": "null",
+  "forge:gems/ruby": "thermal:ruby",
+  "forge:gems/sapphire": "iceandfire:sapphire_gem"
 }

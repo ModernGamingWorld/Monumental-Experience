@@ -2,8 +2,6 @@
 "Enable Dragon" = true
 
 [Wither]
-	#How difficulty is handled for the Wither. Disabling this "Feature" will disable all the Dragon changes.
-	"Enable Difficulty Settings" = true
 	#Handles various small features, such as the explosion
 	"Enable Misc" = true
 	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
@@ -17,7 +15,7 @@
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	"Enable Attack" = true
 
-	#How difficulty is handled for the Wither. Disabling this "Feature" will disable all the Dragon changes.
+	#How difficulty is handled for the Wither.
 	[Wither."Difficulty Settings"]
 		#How much blocks from wither will be scanned for players to check for difficulty
 		#Range: > 16
@@ -30,6 +28,8 @@
 		#How much difficulty will players start with when joining a world? Note that this will apply when the first Wither is spawned so if the player has already spawned one this will not apply.
 		#Range: > 0
 		"Starting Difficulty" = 0
+		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
+		"Entity Blacklist" = ["botania:pink_wither"]
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
@@ -62,21 +62,21 @@
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Wither."Resistances & Vulnerabilities"]
-		#Percentage Damage Reduction (per difficulty) while the Wither is above half health.
-		#Range: 0.0 ~ 1.0
-		"Damage reduction per Difficulty above half health" = 0.01
-		#Cap for 'Damage reduction per Difficulty above half health'
-		#Range: 0.0 ~ 1.0
-		"Max Damage reduction per Difficulty before half health" = 0.15
-		#Percentage Damage Reduction (per difficulty) as the Wither drops below half health.
-		#Range: 0.0 ~ 1.0
-		"Damage reduction per Difficulty below half health" = 0.02
-		#Cap for 'Damage Reduction per Difficulty below half health'
-		#Range: 0.0 ~ 1.0
-		"Max Damage reduction per Difficulty below half health" = 0.36
 		#Bonus magic damage based off missing health. 150 means that every 150 missing health the damage will be amplified by 100%. E.g. The difficulty = 0 Wither (with 300 max health) is at half health (so it's missing 150hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (150 / 150 + 1)' = 'magic_damage * 2'.
 		#Range: 0.0 ~ 1024.0
 		"Magic Damage Bonus" = 200.0
+		#Percentage Melee Damage Reduction (per difficulty) while the Wither is above half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction per Difficulty above half health" = 0.01
+		#Cap for 'Melee Damage reduction per Difficulty above half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction per Difficulty before half health" = 0.24
+		#Percentage Melee Damage Reduction (per difficulty) as the Wither drops below half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction per Difficulty below half health" = 0.02
+		#Cap for 'Melee Damage Reduction per Difficulty below half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction per Difficulty below half health" = 0.48
 
 	#Bonus Experience and Drops
 	[Wither.Rewards]
@@ -125,6 +125,9 @@
 		"Bonus Movement Speed Per Difficulty" = 0.004
 		#Wither Minions will die when the Wither that spawned them dies.
 		"Kill Minions on Wither Death" = true
+		#Wither Minions will take magic damage multiplied by this value.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Magic Damage Multiplier" = 3.0
 
 		[Wither.Minions.Equipment]
 			#Wither Minions will spawn with a Stone Sword
@@ -146,18 +149,12 @@
 	[Wither.Attack]
 		#If the AI changes should be applied to the first wither spawned too.
 		"Apply to Vanilla Wither" = true
-		#Chance every time the Wither takes damage to start a charge attack. The chance is doubled when the Wither is below half health.
-		#Range: 0.0 ~ 1.0
-		"Charge Attack Chance" = 0.015
-		#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The chance is doubled when the Wither is below half health
-		#Range: 0.0 ~ 1.0
-		"Barrage Attack Chance" = 0.002
-		#Max Chance for the barrage attack. The max chance is doubled when the Wither is below half health
-		#Range: 0.0 ~ 1.0
-		"Max Barrage Attack Chance" = 0.05
 		#Percentage bonus damage dealt by the Wither per difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Increased Damage" = 0.02
+		#Max Chance every time the Wither takes damage to start a charge attack. The actual chance is inversely proportional to Wither's health (100% health = 0% chance, 50% health = 2.5% chance, ...).
+		#Range: 0.0 ~ 1.0
+		"Max Charge Attack Chance" = 0.05
 
 		#Wither Skull Changes
 		[Wither.Attack.Skulls]
@@ -173,9 +170,18 @@
 			#The middle head will attack faster (up to 40% of the attack speed) the nearer the target is to the Wither.
 			"Increase Attack Speed when Near" = true
 
+		[Wither.Attack."Barrage Attack"]
+			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The actual chance is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance).
+			#Range: 0.0 ~ 1.0
+			"Max Barrage Attack Chance Per Difficulty" = 0.0035
+			#Min time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance)
+			#Range: > 0
+			"Min Barrage Duration" = 20
+			#Max time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health (100% health = min duration, 0% health = max duration)
+			#Range: > 0
+			"Max Barrage Duration" = 150
+
 [Dragon]
-	#How difficulty is handled for the Dragon. Disabling this "Feature" will disable all the Dragon changes.
-	"Enable Difficulty Settings" = true
 	#Bonus Health and Bonus regeneration.
 	"Enable Health" = true
 	#Makes the dragon hit harder in various different ways
@@ -191,7 +197,7 @@
 	#Makes more Crystal spawn and with more cages.
 	"Enable Crystals" = true
 
-	#How difficulty is handled for the Dragon. Disabling this "Feature" will disable all the Dragon changes.
+	#How difficulty is handled for the Dragon.
 	[Dragon."Difficulty Settings"]
 		#If true and there are more players around the Dragon, she will have his stats based on the sum of both players' difficulty. If false, the Dragon stats will be based on the average of the difficulty of the players around.
 		"Sum Killed Dragons Difficulty" = false
@@ -223,18 +229,15 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Acid Pool Damage" = 0.033
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
-		#This defines the chance to attack the player when she has finished reaching a point while roaming when all the crystals were destoyed and the difficulty is 'Max Chance at Difficulty' or higher.
-		#The actual formula is: (this_value / 'Max Chance at Difficulty') * difficulty * (1 / MAX(remaining_crystals, 1)).
+		#This is the chance to start a charge attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
+		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Charge Player Max Chance" = 0.45
 		#Normally the Ender Dragon spits fireballs when a Crystal is destroyed and rarely during the fight. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to spit a fireball.
-		#This defines the chance to spit a fireball everytime she takes damage when all the crystals were destoyed and the difficulty is 'Max Chance at Difficulty' or higher.
-		#The actual formula is: (this_value / 'Max Chance at Difficulty') * difficulty * (1 / MAX(remaining_crystals, 1)).
+		#This is the chance to start a fireball attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
+		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Fireball Max Chance" = 0.45
-		#Defines at which difficulty the Dragon has max chance to attack or spit fireballs when all crystals are destroyed (see 'Fireball Max Chance' and 'Charge Player Max Chance')
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Max Chance at Difficulty" = 16.0
 		#Since around 1.13/1.14 the Ender Dragon can no longer dive for more than about 3 blocks so she takes a lot to rise / fall. With this active the dragon will be able to rise and fall many more blocks, making easier to hit the player and approach the center.
 		"Increase Max Rise and Fall" = true
 		#On impact the Acid Fireball will deal magic damage in an area.
@@ -244,7 +247,7 @@
 		#Speed multiplier for the Dragon Fireball.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Fireball Velocity Multiplier" = 2.5
-		#The dragon will fire (up to) this more fireballs per difficulty. A decimal number dictates the chance to shot 1 more fireball, e.g. at difficulty 2 the dragon can fire up to 1.4 fireballs, meaning that the dragon will shot 1 fireball and has 40% chance to shot one more. The first fireball is always shot at the player while the bonus ones have slightly random angles.
+		#The dragon will fire (up to) this more fireballs per difficulty. A decimal number dictates the chance to shot 1 more fireball, e.g. at difficulty 2 this value is 1.4, meaning that the dragon will can shot up to 2 fireballs and has 40% chance to shot up to 3. The bonus fireballs aren't directly aimed at the player but have.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Fireballs" = 0.2
 
@@ -342,7 +345,7 @@
 		#Range: 0.0 ~ 1.0
 		"Crystal Respawn Chance" = 0.05
 		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
-		#Range: 0.0 ~ 1.0
+		#Range: 0.0 ~ 100.0
 		"Crystal Respawn Multiplier" = 0.15
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true

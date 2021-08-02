@@ -1233,7 +1233,6 @@
 			icon: "scannable:module_blank"
 			x: 3.5d
 			y: 10.0d
-			dependencies: ["0000000000002295"]
 			id: "000000000000241C"
 			rewards: [{
 				id: "000000000000241E"

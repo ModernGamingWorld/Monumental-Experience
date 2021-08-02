@@ -20,5 +20,6 @@
     "use_block_face_culling": true,
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
-  }
+  },
+  "fps_counter": true
 }

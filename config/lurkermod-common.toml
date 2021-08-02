@@ -1,0 +1,28 @@
+
+["Overworld Spawning"]
+	Enabled = true
+	#Range: 0 ~ 200
+	"Spawn Weight" = 50
+	#Range: 0 ~ 10
+	"Max Group Size" = 1
+
+["Nether Spawning"]
+	Enabled = true
+	#Range: 0 ~ 100
+	"Spawn Weight" = 30
+	#Range: 0 ~ 10
+	"Max Group Size" = 1
+
+["End Spawning"]
+	Enabled = true
+	#Range: 0 ~ 100
+	"Spawn Weight" = 5
+	#Range: 0 ~ 10
+	"Max Group Size" = 1
+
+["Toggle Ender Pearl Sword Dropping"]
+	#A false value will prevent the Lurker from dropping the Ender Pearl Sword.
+	Enabled = true
+	#Range: 0 ~ 1000
+	"Drop Rate 1 in" = 150
+

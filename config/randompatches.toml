@@ -185,14 +185,14 @@
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_nbt_compound_tag_packet_size = 16777216
+	max_nbt_compound_tag_packet_size = 2097152
 	# The maximum client custom payload packet size.
 	# The vanilla limit is 32767.
 	# Setting this to a higher value than the vanilla limit may prevent the client from being disconnected.
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_client_custom_payload_packet_size = 16777216
+	max_client_custom_payload_packet_size = 2097152
 
 # Options related to player speed limits.
 # These options are used to fix MC-90062: https://bugs.mojang.com/browse/MC-90062
@@ -281,7 +281,7 @@
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ServerPlayNetHandlerKeepAlive"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]

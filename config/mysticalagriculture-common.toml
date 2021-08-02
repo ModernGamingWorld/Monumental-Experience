@@ -63,4 +63,10 @@
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
+	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	prosperityBiomeWhitelist = []
+	#The list of biome IDs that Inferium Ore veins can spawn in.
+	inferiumBiomeWhitelist = []
+	#The list of biome IDs that Soulstone veins can spawn in.
+	soulstoneBiomeWhitelist = []
 
