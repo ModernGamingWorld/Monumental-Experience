@@ -10,6 +10,14 @@ onEvent('recipes', (event) => {
                 drainRate: 5
             },
             {
+                input: 'resourcefulbees:bronze_bee_spawn_egg',
+                output: 'resourcefulbees:bloody_bee_spawn_egg',
+                syphon: 50000,
+                altarLevel: 3,
+                consumptionRate: 50,
+                drainRate: 50
+            },
+            {
                 input: 'occultism:spirit_attuned_gem',
                 output: 'bloodmagic:weakbloodorb',
                 syphon: 2000,
