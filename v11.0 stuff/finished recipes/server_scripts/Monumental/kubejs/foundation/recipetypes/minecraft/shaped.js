@@ -214,7 +214,7 @@ event.shaped(Item.of('appliedenergistics2:fluid_export_bus', 1), ["aca", "lbl"],
     a: 'contenttweaker:compressed_plate',
     b: 'appliedenergistics2:formation_core',
     c: '#forge:piston',
-    l: 'cyclic:tank'
+    l: '#forge:tank'
 })
 event.shaped(Item.of('appliedenergistics2:import_bus', 1), [" a ", "bcb"], {
     a: 'appliedenergistics2:annihilation_core',
@@ -225,7 +225,7 @@ event.shaped(Item.of('appliedenergistics2:fluid_import_bus', 1), ["lal", "bcb"],
     a: 'appliedenergistics2:annihilation_core',
     b: 'contenttweaker:compressed_plate',
     c: '#forge:piston',
-    l: 'cyclic:tank'
+    l: '#forge:tank'
 })
 event.shaped(Item.of('appliedenergistics2:annihilation_plane', 1), ["aaa", "bcb"], {
     a: '#forge:gems/fluix',

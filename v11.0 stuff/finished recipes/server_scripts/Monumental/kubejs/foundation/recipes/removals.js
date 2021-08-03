@@ -84,6 +84,18 @@ onEvent('recipes', event => {
   	event.remove({id: 'appliedenergistics2:inscriber/logic_processor_print'})
 	event.remove({id: 'appliedenergistics2:decorative/certus_quartz_block'})
 	event.remove({id: 'appliedenergistics2:misc/deconstruction_certus_quartz_block'})
+	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_16k'})
+	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_64k'})
+	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_16k_storage'})
+	event.remove({id: 'appliedenergistics2:network/cells/storage_cell_64k_storage'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_1k'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_1k_storage'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_4k'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_4k_storage'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_16k'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_16k_storage'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_64k'})
+	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_64k_storage'})
 
 //Aluminum blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_blasting'})
