@@ -7,6 +7,12 @@ onEvent('recipes', (event) => {
             mana: 27000
         },
         {
+            input: 'resourcefulbees:iron_bee_spawn_egg',
+            output: 'resourcefulbees:mana_bee_spawn_egg',
+            count: 1,
+            mana: 99999
+        },
+        {
             input: '#forge:gems/psigem',
             output: 'botania:mana_diamond',
             count: 1,
