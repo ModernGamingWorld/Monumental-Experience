@@ -9,6 +9,11 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
     event.replaceInput({}, 'prefab:block_compressed_dirt', 'compressium:dirt_1');
+    event.replaceInput({}, 'prefab:block_double_compressed_dirt', 'compressium:dirt_2');
+    event.replaceInput({}, 'prefab:block_compressed_stone', 'compressium:stone_1');
+    event.replaceInput({}, 'prefab:block_double_compressed_stone', 'compressium:stone_2');
+    event.replaceInput({}, 'prefab:block_triple_compressed_stone', 'compressium:stone_3');
+    event.replaceInput({}, 'prefab:block_double_compressed_obsidian', 'compressium:obsidian_2');
     event.replaceInput({}, 'refinedstorage:crafter', '#refinedstorage:crafter');
     event.replaceInput({}, 'betterendforge:thallasium_ore', '#forge:ores/thallasium');
     event.replaceInput({}, 'astralsorcery:starmetal_ore', '#forge:ores/starmetal');
