@@ -31,17 +31,6 @@ onEvent('recipes', (event) => {
             output: 'minecraft:experience_bottle'
         }
     ];
-    honeyVarieties.forEach((honeyVariety) => {
-        let honey = honeyVariety.split(':')[1];
-        recipes.push({
-            input: Item.of('minecraft:glass_bottle'),
-            output: Item.of(
-                honeyVariety == 'resourcefulbees:honey' ? 'minecraft:honey_bottle' : `${honeyVariety}_bottle`
-            ),
-            fluid: Fluid.of(honeyVariety, 250),
-            id: `create:filling/${honey}_bottle`
-        });
-    });
     recipes.forEach((recipe) => {
         const re = event.recipes.create.filling(recipe.output, [recipe.fluid, recipe.input]);
         if (recipe.id) {

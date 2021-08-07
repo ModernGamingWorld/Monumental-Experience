@@ -22,18 +22,6 @@ onEvent('recipes', (event) => {
         }
     ];
 
-    honeyVarieties.forEach((honeyVariety) => {
-        let honey = honeyVariety.split(':')[1];
-        recipes.push({
-            input: Item.of('minecraft:glass_bottle'),
-            fluid: Fluid.of(honeyVariety, 250),
-            output: Item.of(
-                honeyVariety == 'resourcefulbees:honey' ? 'minecraft:honey_bottle' : `${honeyVariety}_bottle`
-            ),
-            id: `thermal:machine/bottler/bottler_${honey}_bottle`
-        });
-    });
-
     recipes.forEach((recipe) => {
         const re = event.recipes.thermal.bottler(recipe.output, [recipe.fluid, recipe.input]);
         if (recipe.id) {
