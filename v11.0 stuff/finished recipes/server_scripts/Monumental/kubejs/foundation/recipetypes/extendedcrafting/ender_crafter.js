@@ -900,6 +900,36 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["AAA", "  A", "  A"],
+            "key": {
+                "A": {
+                "item": "forge:rods/wooden"
+                }
+            },
+            "result": {
+                "item": "appliedenergistics2:crank",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": [" A ", "A A", " A "],
+            "key": {
+                "A": {
+                "item": "forge:rods/wooden"
+                }
+            },
+            "result": {
+                "item": "appliedenergistics2:wooden_gear",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["ABA", "CDC", "AEA"],
             "key": {
                 "A": {

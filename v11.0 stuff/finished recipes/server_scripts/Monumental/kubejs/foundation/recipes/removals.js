@@ -96,6 +96,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_16k_storage'})
 	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_64k'})
 	event.remove({id: 'appliedenergistics2:network/cells/fluid_storage_cell_64k_storage'})
+	event.remove({id: 'appliedenergistics2:crank'})
+	event.remove({id: 'appliedenergistics2:wooden_gear'})
+
 
 //Aluminum blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_blasting'})
