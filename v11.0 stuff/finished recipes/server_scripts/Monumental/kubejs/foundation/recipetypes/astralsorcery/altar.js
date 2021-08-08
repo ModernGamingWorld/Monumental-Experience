@@ -398,7 +398,7 @@ onEvent('recipes', (event) => {
             pattern: ['_____', '_BBB_', '_ABA_', '_BBB_', '_____'],
             key: {
                 A: { item: 'mysticalagriculture:soulium_dust' },
-                B: { tag:  'botania:livingrock' },
+                B: { tag:  'botania:livingrock' }
             },
             altar_type: 0,
             duration: 100,
@@ -406,6 +406,76 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam',
                 'astralsorcery:upgrade_altar'
+            ]
+        },
+
+
+        {
+            output: Item.of('bloodmagic:incensealtar', 1),
+            pattern: ['_____', '_ABA_', '_ADA_', '_ECE_', '_____'],
+            key: {
+                A: { item: 'botania:livingrock' },
+                B: { item: 'botania:incense_stick' },
+                C: { item: 'bloodmagic:apprenticebloodorb' },
+                D: { item: 'botania:ender_air_bottle' },
+                E: { item: 'bloodmagic:blankrune' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 700,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam',
+                'astralsorcery:upgrade_altar'
+            ]
+        },
+        {
+            output: Item.of('bloodmagic:lavacrystal', 1),
+            pattern: ['_____', '_ABA_', '_BDB_', '_ECE_', '_____'],
+            key: {
+                A: { item: 'botania:mana_glass' },
+                B: { item: 'bloodmagic:reagentlava' },
+                C: { item: 'emendatusenigmatica:arcane_gem' },
+                D: { item: 'bloodmagic:masterbloodorb' },
+                E: { item: 'forge:ingots/obsidian' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 700,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam',
+                'astralsorcery:upgrade_altar'
+            ]
+        },
+        {
+            output: Item.of('bloodmagic:ritualtinkerer', 1),
+            pattern: ['_____', '_BA__', '_AC__', '___D_', '_____'],
+            key: {
+                A: { item: 'bloodmagic:demonslate' },
+                B: { item: 'bloodmagic:masterbloodorb' },
+                C: { item: 'psi:cad_assembly_psimetal' },
+                D: { item: 'astralsorcery:infused_glass' }
+            },
+            altar_type: 0,
+            duration: 40,
+            starlight: 100,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },
+        {
+            output: Item.of('bloodmagic:soulforge', 1),
+            pattern: ['_____', '_D_D_', '_CAC_', '_CBC_', '_____'],
+            key: {
+                A: { item: 'bloodmagic:basemonstersoul' },
+                B: { item: 'iceandfire:dragonforge_fire_core_disabled' },
+                C: { item: 'bloodmagic:blankrune' },
+                D: { item: 'mana-and-artifice:superheated_purified_vinteum_ingot' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 200,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
             ]
         }
     ];

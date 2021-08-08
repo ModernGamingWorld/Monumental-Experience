@@ -150,6 +150,10 @@ onEvent('recipes', event => {
   	event.remove({id: 'bloodmagic:alchemy_table'})
   	event.remove({id: 'bloodmagic:arc'})
   	event.remove({id: 'bloodmagic:blood_altar'})
+	event.remove({id: 'bloodmagic:incense_altar'})
+  	event.remove({id: 'bloodmagic:lava_crystal'})
+  	event.remove({id: 'bloodmagic:ritual_reader'})
+	event.remove({id: 'bloodmagic:soul_forge'})
 
 //Bronze blasting and smelting recipes
   	event.remove({id: 'mekanism:processing/bronze/ingot/from_dust_blasting'})
