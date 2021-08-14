@@ -12,6 +12,12 @@ onEvent('recipes', (event) => {
             id: 'mekanism:sawing/planks'
         },
         {
+            input: '#minecraft:signs',
+            output: Item.of('minecraft:stick', 6),
+            extraOutput: Item.of('emendatusenigmatica:wood_dust').chance(0.25),
+            id: 'mekanism:sawing/signs'
+        },
+        {
             input: '#minecraft:wooden_slabs',
             output: Item.of('minecraft:stick', 3),
             extraOutput: Item.of('emendatusenigmatica:wood_dust').chance(0.125),
