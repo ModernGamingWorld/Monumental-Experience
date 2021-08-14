@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {
-            item: 'minecraft:cauldron'
+            tag: 'forge:cauldron'
         },
         input1: {
             item: 'mana-and-artifice:stone_rune_blank'

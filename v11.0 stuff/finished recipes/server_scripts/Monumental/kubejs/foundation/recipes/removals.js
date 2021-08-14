@@ -433,7 +433,6 @@ onEvent('recipes', event => {
 	event.remove({id: 'thermal:machine/press/press_iron_ingot_to_plate'})
 	event.remove({id: 'thermal:parts/diamond_gear'})
 
-
 //Electrum recipes
   	event.remove({id: 'immersiveengineering:crafting/storage_electrum_to_ingot_electrum'})
   	event.remove({id: 'thermal:storage/electrum_ingot_from_block'})
@@ -548,6 +547,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'fluxnetworks:wipe_gargantuanfluxstorage'})
 	event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
 	event.remove({id: 'fluxnetworks:wipe_herculeanfluxstorage'})
+
+//globalxp recipes
+	event.remove({id: 'globalxp:xp_block'})
 
 //Gobber2 recipes
 	event.remove({id: 'gobber2:gobber2_ingot'})

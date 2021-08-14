@@ -1,16 +1,10 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            input: 'botania:manasteel_block',
+            input: '#forge:storage_blocks/manasteel',
             output: 'astralsorcery:starmetal',
             count: 1,
             mana: 27000
-        },
-        {
-            input: 'resourcefulbees:iron_bee_spawn_egg',
-            output: 'resourcefulbees:mana_bee_spawn_egg',
-            count: 1,
-            mana: 99999
         },
         {
             input: '#forge:gems/psigem',

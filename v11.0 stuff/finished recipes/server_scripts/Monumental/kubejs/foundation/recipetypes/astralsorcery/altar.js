@@ -1,40 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            output: Item.of('resourcefulbees:starry_bee_spawn_egg', 1),
-            pattern: ['_____', '__E__', '_DCB_', '__A__', '_____'],
-            key: {
-                A: {
-                    type: 'astralsorcery:crystal',
-                    hasToBeAttuned: false,
-                    hasToBeCelestial: false,
-                    canBeAttuned: true,
-                    canBeCelestialCrystal: true
-                },
-                B: { item: 'resourcefulbees:gold_honeycomb' },
-                C: { item: 'resourcefulbees:iron_bee_spawn_egg' },
-                D: { item: 'resourcefulbees:iron_honeycomb' },
-                E: { item: 'astralsorcery:colored_lens_spectral' }
-            },
-            relay_inputs: [
-                { item: 'astralsorcery:resonating_gem' },
-                { item: 'astralsorcery:illumination_powder' },
-                { tag: 'astralsorcery:stardust' },
-                { item: 'resourcefulbees:iron_honey_block' }
-            ],
-            altar_type: 3,
-            duration: 400,
-            starlight: 3200,
-            effects: [
-                'astralsorcery:built_in_effect_constellation_finish',
-                'astralsorcery:built_in_effect_trait_relay_highlight',
-                'astralsorcery:built_in_effect_discovery_central_beam',
-                'astralsorcery:built_in_effect_trait_focus_circle',
-                'astralsorcery:altar_default_sparkle',
-                'astralsorcery:built_in_effect_constellation_lines'
-            ]
-        },
-        {
             output: Item.of('waystones:warp_stone', 1),
             pattern: ['_____', '_LQL_', '_QPQ_', '_LQL_', '_____'],
             key: {
@@ -307,7 +273,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: { tag: 'botania:livingrock' },
                 B: { item: 'naturesaura:tainted_gold' },
-                C: { item: 'astralsorcery:starmetal' },
+                C: { tag: 'forge:storage_blocks/starmetal' },
                 D: { tag: 'botania:runes/envy' },
                 E: { tag: 'forge:dragonblood' },
                 F: { item: 'jumbofurnace:orthodimensional_hyperfurnace' },
@@ -434,7 +400,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: { item: 'botania:mana_glass' },
                 B: { item: 'bloodmagic:reagentlava' },
-                C: { item: 'emendatusenigmatica:arcane_gem' },
+                C: { item: 'blue_skies:pyrope_gem' },
                 D: { item: 'bloodmagic:masterbloodorb' },
                 E: { item: 'forge:ingots/obsidian' }
             },

@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
         recipes: [
             {
                 outputs: [Item.of('emendatusenigmatica:obsidian_dust'), Item.of('minecraft:obsidian').withChance(0.75)],
-                input: 'minecraft:obsidian',
+                input: '#forge:obsidian',
                 id: 'create:crushing/obsidian'
             },
             {

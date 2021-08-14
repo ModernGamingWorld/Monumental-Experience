@@ -7,7 +7,6 @@ onEvent('recipes', (event) => {
         }
     ];
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
-    event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
     event.replaceInput({}, 'prefab:block_compressed_dirt', 'compressium:dirt_1');
     event.replaceInput({}, 'prefab:block_double_compressed_dirt', 'compressium:dirt_2');
     event.replaceInput({}, 'prefab:block_compressed_stone', 'compressium:stone_1');
@@ -26,7 +25,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'thermal:coal_coke', '#forge:gems/coal_coke');
     event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
     event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen', true);
-    event.replaceInput({}, 'ars_nouveau:mana_gem', '#forge:gems/mana');
     event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
     event.replaceInput({}, 'farmersdelight:brown_mushroom_colony', '#forge:mushroom_colonies/brown');
@@ -50,8 +48,9 @@ onEvent('recipes', (event) => {
         true
     );
     event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:stone', '#forge:stone', true);
-    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'powah:uraninite', '#forge:ingots/radioactive');
+    event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze', true);
     event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:netherrack', '#forge:netherrack');
+    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze');
     event.replaceInput({ id: 'dustrial_decor:sheet_metal' }, '#forge:ingots/iron', '#forge:plates/iron');
     event.replaceInput({ mod: 'buildinggadgets' }, '#forge:ingots/iron', '#forge:ingots/iron_aluminum');
 
@@ -81,6 +80,31 @@ onEvent('recipes', (event) => {
         { id: 'thermal:machine/press/unpacking/press_wool_unpacking' },
         'minecraft:white_wool',
         '#forge:wool'
+    );
+    event.replaceInput(
+        { id: 'atum:trap_burning' },
+        'minecraft:flint_and_steel',
+        'tconstruct:flint_and_bronze'
+    );
+    event.replaceInput(
+        { id: 'darkutils:crafting/rune_fire' },
+        'minecraft:flint_and_steel',
+        'tconstruct:flint_and_bronze'
+    );
+    event.replaceInput(
+        { id: 'zycraft:fire_basin' },
+        'minecraft:flint_and_steel',
+        'tconstruct:flint_and_bronze'
+    );
+    event.replaceInput(
+        { id: 'immersivepetroleum:flarestack' },
+        'minecraft:flint_and_steel',
+        'tconstruct:flint_and_bronze'
+    );
+    event.replaceInput(
+        { id: 'occultism:ritual/summon_wild_afrit' },
+        'minecraft:flint_and_steel',
+        'tconstruct:flint_and_bronze'
     );
     recipes.forEach((recipe) => {
         event.replaceInput(recipe.replaceTarget, recipe.toReplace, recipe.replaceWith);

@@ -1,4 +1,9 @@
 onEvent('recipes', event => {
+//globalxp
+event.shaped(Item.of('globalxp:xp_block', 1), ["OOO", "OPO", "OOO"], {
+    O: 'betterendforge:terminite_bars',
+    P: 'botanicalmachinery:mana_emerald'
+})
 //create additions
 event.shaped(Item.of('createaddition:spool', 8), [" A ", " B ", " A "], {
     A: '#forge:treated_wood_slab',
