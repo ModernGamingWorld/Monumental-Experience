@@ -2,6 +2,9 @@
 //BY ModernGamingWorld & LaserJet / 2021
 //
 onEvent('recipes', event => {
+//Akashictome Recipes
+  	event.remove({id: 'akashictome:tome'})
+
 //AstralSorcery Recipes
   	event.remove({id: 'astralsorcery:altar/colored_lens_break'})
   	event.remove({id: 'astralsorcery:altar/colored_lens_damage'})
@@ -1512,6 +1515,9 @@ onEvent('recipes', event => {
   	event.remove({id: 'speedyhoppers:speedyhopper_mk1'})
   	event.remove({id: 'speedyhoppers:speedyhopper_mk2'})
   	event.remove({id: 'speedyhoppers:speedyhopper_mk3'})
+
+//Torchmaster Recipes
+	event.remove({id: 'torchmaster:megatorch'})
 
 //Tinkers Construct Recipes
 	event.remove({id: 'tconstruct:common/materials/cobalt_ingot_from_block'})
