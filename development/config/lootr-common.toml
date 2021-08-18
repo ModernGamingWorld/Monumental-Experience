@@ -1,4 +1,3 @@
-
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = true
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
@@ -21,3 +20,4 @@ dimension_whitelist = []
 dimension_blacklist = []
 #list of loot tables which shouldn't be converted [in the format of modid:loot_table]
 loot_table_blacklist = []
+
