@@ -940,6 +940,13 @@ event.shaped(Item.of('routerreborn:lamp', 1), ["iii", "ibi", "iii"], {
     i: 'druidcraft:fiery_torch',
     b: 'thermal:lightning_charge'
 })
+//Torchmaster
+event.shaped(Item.of('torchmaster:megatorch', 1), ["TTT", "GLG", "DLD"], {
+    T: 'druidcraft:fiery_torch',
+    G: '#forge:storage_blocks/gold',
+    D: '#forge:storage_blocks/diamond',
+    L: '#minecraft:logs'
+})
 //Thermal
 event.shaped(Item.of('thermal:rf_coil', 1), ["WPQ", "PXP", "QPW"], {
     P: 'extendedcrafting:redstone_component',
