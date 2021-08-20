@@ -1,8 +1,0 @@
-
-[client]
-	#Particle thickness for undefeatables. Keep in mind for this option to work you need to have showParticles toggled on.
-	#Range: 1 ~ 200
-	particleThickness = 10
-	#Toggles on/off undefeatable particle.
-	showParticles = true
-
