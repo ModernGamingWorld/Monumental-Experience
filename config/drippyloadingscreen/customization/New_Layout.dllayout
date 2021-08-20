@@ -1,0 +1,31 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+  backgroundcolor = #66a8ff
+}
+
+customization {
+  action = editlogo
+  y = -1
+}
+
+customization {
+  orientation = bottom-right
+  x = 84
+  action = editforgestatustext
+  y = -6
+}
+
+customization {
+  action = editprogressbar
+  barcolor = DAA520
+}
+
+customization {
+  orientation = bottom-left
+  x = 0
+  action = editforgememoryinfo
+  y = -5
+}
+

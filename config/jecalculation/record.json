@@ -1,0 +1,18 @@
+{
+    "craft": {
+        "mode": "input",
+        "amount": "",
+        "recents": [],
+        "inventory": 0b
+    },
+    "math": {
+        "current": "",
+        "last": "0",
+        "state": 0,
+        "operator": 0
+    },
+    "player": {
+        "recipes": {},
+        "last": ""
+    }
+}
