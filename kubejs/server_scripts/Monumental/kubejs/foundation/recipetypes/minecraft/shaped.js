@@ -14,7 +14,7 @@ event.shaped(Item.of('create:electron_tube', 1), ["NCN", "XXX", "LAL"], {
     L: '#forge:plates/iron',
     A: '#forge:gears/iron',
     N: 'immersiveengineering:insulating_glass',
-    X: 'minecraft:repeater',
+    X: 'create:adjustable_pulse_repeater',
     C: 'create:polished_rose_quartz',
 })
 event.shaped(Item.of('create:copper_casing', 4), ["AAA", "CSC", "AAA"], {
