@@ -102,7 +102,6 @@ onEvent('recipes', event => {
 	event.remove({id: 'appliedenergistics2:crank'})
 	event.remove({id: 'appliedenergistics2:wooden_gear'})
 
-
 //Aluminum blasting and smelting recipes
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_blasting'})
   	event.remove({id: 'immersiveengineering:crafting/ingot_aluminum_from_dust_from_blasting'})
@@ -337,6 +336,7 @@ onEvent('recipes', event => {
 
 //Create Recipes
 	event.remove({id: 'create:crafting/materials/rose_quartz'}) 
+	event.remove({id: 'create:crafting/materials/electron_tube'}) 
 	event.remove({id: 'create:crafting/materials/zinc_ingot_from_compacting'})
 	event.remove({id: 'create:crafting/materials/zinc_nugget_from_decompacting'})
 	event.remove({id: 'create:crafting/materials/zinc_ingot_from_decompacting'})
@@ -475,9 +475,6 @@ onEvent('recipes', event => {
 //EnviroCore Recipes
 	event.remove({id: 'envirocore:laser_core'})
 	event.remove({id: 'envirocore:laser_lens_holder'})
-	event.remove({id: 'envirocore:items/ct_diode'})
-	event.remove({id: 'envirocore:laser_diode'})
-	event.remove({id: 'envirocore:cpu'})
 	event.remove({id: 'envirocore:items/ct_cpu'})
 	event.remove({id: 'envirocore:flash_memory'})
 	event.remove({id: 'envirocore:items/ct_flash_memory'})
@@ -494,6 +491,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'envirocore:lens_grinder'})
 	event.remove({id: 'envirotech:block/ct_lens_grinder'})
 	event.remove({id: 'envirocore:blocks/components/laser_lens_holder'})
+	event.remove({id: 'envirocore:blocks/components/laser_core'})
 	event.remove({id: 'envirocore:lens'})
 	event.remove({id: 'envirotech:block/ct_lens'})
 
@@ -607,12 +605,6 @@ onEvent('recipes', event => {
 
 //Gold rod recipes
   	event.remove({id: 'immersiveposts:has_gold_rod'})
-
-//Good Nights Sleep Recipes
-	event.remove({id: 'good_nights_sleep:dead_pressure_plate'})
-  	event.remove({id: 'good_nights_sleep:delusion_pressure_plate'})
-	event.remove({id: 'good_nights_sleep:dream_pressure_plate'})
-  	event.remove({id: 'good_nights_sleep:white_pressure_plate'})
 
 //Greater Eye Recipes
 	event.remove({id: 'greater_eye:greater_eye_end'})
@@ -909,11 +901,6 @@ onEvent('recipes', event => {
 
 //Mekanism Recipes
 	event.remove({id: 'mekanism:flamethrower'})
-	event.remove({id: 'mekanism:basic_chemical_tank'})
-  	event.remove({id: 'mekanism:advanced_control_circuit'})
-  	event.remove({id: 'mekanism:advanced_control_circuit'})
-  	event.remove({id: 'mekanism:elite_control_circuit'})
-  	event.remove({id: 'mekanism:ultimate_control_circuit'})
 	event.remove({id: 'mekanism:basic_energy_cube'})
 	event.remove({id: 'mekanism:advanced_energy_cube'})
 	event.remove({id: 'mekanism:elite_energy_cube'})
@@ -993,11 +980,9 @@ onEvent('recipes', event => {
 	event.remove({id: 'mekanism:energy_cube/advanced'})
 	event.remove({id: 'mekanism:energy_cube/elite'})
 	event.remove({id: 'mekanism:energy_cube/ultimate'})
-	event.remove({id: 'mekanism:control_circuit/basic'})
-	event.remove({id: 'mekanism:control_circuit/advanced'})
-	event.remove({id: 'mekanism:control_circuit/elite'})
-	event.remove({id: 'mekanism:control_circuit/ultimate'})
 	event.remove({id: 'mekanism:chemical_tank/basic'})
+	event.remove({id: 'mekanism:control_circuit/basic'})
+	event.remove({id: 'mekanism:metallurgic_infusing/alloy/infused'})
 
 //Mekanism Generators recipes
 	event.remove({id: 'mekanismgenerators:solar_panel'})
@@ -1200,12 +1185,6 @@ onEvent('recipes', event => {
   	event.remove({id: 'pneumaticcraft:air_compressor'})
   	event.remove({id: 'pneumaticcraft:compressed_iron_gear'})
   	event.remove({id: 'pneumaticcraft:gps_tool'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo_ap'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo_explosive'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo_freezing'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo_incendiary'})
-  	event.remove({id: 'pneumaticcraft:gun_ammo_weighted'})
   	event.remove({id: 'pneumaticcraft:heat_sink'})
   	event.remove({id: 'pneumaticcraft:pressure_gauge'})
   	event.remove({id: 'pneumaticcraft:pressure_tube'})
