@@ -14,6 +14,34 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
+        },        {
+            output: Item.of('botania:mana_spreader', 1),
+            pattern: ['_____', '_LLL_', '_QPS_', '_LLL_', '_____'],
+            key: {
+                P: { tag: 'botania:petals/white' },
+                Q: { item: 'naturesaura:tainted_gold' },
+                L: { item: 'botania:livingwood' },
+                S: { item: 'botania:lens_normal' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 200,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },        {
+            output: Item.of('botania:lens_normal', 1),
+            pattern: ['_____', '__L__', '_LPL_', '__L__', '_____'],
+            key: {
+                P: { item: 'astralsorcery:glass_lens' },
+                L: { tag: 'forge:ingots/manasteel' }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 200,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
         },
         {
             output: Item.of('waystones:waystone', 1),
