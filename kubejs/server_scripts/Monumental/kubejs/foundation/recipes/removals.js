@@ -134,6 +134,11 @@ onEvent('recipes', event => {
 //Apatite recipe
   	event.remove({id: 'thermal:storage/apatite_from_block'})
 
+//Botania
+	event.remove({id: 'botania:mana_spreader'})
+	event.remove({id: 'botania:lens_normal'})
+	event.remove({id: 'botania:fertilizer_dye'})
+
 //Bigger Reactors
 	event.remove({id: 'biggerreactors:graphite_dust'})
 
@@ -331,7 +336,6 @@ onEvent('recipes', event => {
   	event.remove({id: 'tconstruct:common/materials/copper_nugget_from_ingot'})
   	
 //Constantan rod recipe
-
 	event.remove({id: 'thermal:constantan_dust_2'})
 
 //Create Recipes
@@ -520,6 +524,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:crystaltine_component'})
 	event.remove({id: 'extendedcrafting:the_ultimate_component'})
 	event.remove({id: 'extendedcrafting:the_ultimate_catalyst'})
+	event.remove({id: 'extendedcrafting:ultimate_catalyst'})
 	event.remove({id: 'extendedcrafting:ender_catalyst'})
 	event.remove({id: 'extendedcrafting:ultimate_component'})
 	event.remove({id: 'extendedcrafting:ultimate_table'})
@@ -731,6 +736,41 @@ onEvent('recipes', event => {
   	event.remove({id: 'immersiveengineering:crafting/capacitor_lv'}) 
   	event.remove({id: 'immersiveengineering:crafting/capacitor_mv'}) 
   	event.remove({id: 'immersiveengineering:crafting/capacitor_hv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/coil_lv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/coil_mv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/coil_hv'})  
+  	event.remove({id: 'immersiveengineering:crafting/connector_lv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/connector_mv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/connector_hv'})
+  	event.remove({id: 'immersiveengineering:crafting/connector_lv_relay'}) 
+  	event.remove({id: 'immersiveengineering:crafting/connector_mv_relay'}) 
+  	event.remove({id: 'immersiveengineering:crafting/connector_hv_relay'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_aluminum'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_black'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_blue'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_brown'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_cyan'})   
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_gray'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_light_blue'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_yellow'})   
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_orange'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_pink'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_purple'})    
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_magenta'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_lime'})   
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_red'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_colored_white'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_uranium'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_steel'}) 
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_silver'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_nickel'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_lead'})  
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_iron'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_gold'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_electrum'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_copper'})
+  	event.remove({id: 'immersiveengineering:crafting/sheetmetal_constantan'})                                   
+  	event.remove({id: 'immersiveengineering:crafting/charging_station'}) 
   	event.remove({id: 'immersiveengineering:crafting/light_engineering'}) 
   	event.remove({id: 'immersiveengineering:crafting/workbench'}) 
   	event.remove({id: 'immersiveengineering:crafting/dynamo'}) 
