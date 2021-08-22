@@ -138,6 +138,12 @@ onEvent('recipes', event => {
 	event.remove({id: 'botania:mana_spreader'})
 	event.remove({id: 'botania:lens_normal'})
 	event.remove({id: 'botania:fertilizer_dye'})
+	event.remove({id: 'botania:apothecary_default'})
+	event.remove({id: 'botania:mana_infusion/mana_pearl'})
+	event.remove({id: 'botania:mana_infusion/mana_quartz'})
+	event.remove({id: 'botania:mana_infusion/mana_quartz_deconstruct'})
+	event.remove({id: 'botania:mana_infusion/mana_powder_dye'})
+	event.remove({id: 'botania:mana_infusion/mana_powder_dust'})
 
 //Bigger Reactors
 	event.remove({id: 'biggerreactors:graphite_dust'})
