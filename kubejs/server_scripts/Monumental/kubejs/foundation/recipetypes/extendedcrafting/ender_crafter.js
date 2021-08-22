@@ -1199,6 +1199,27 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
     )
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["SPS", " C ", "CCC"],
+            "key": {
+                "P": {
+                "tag": "botania:petals"
+                },
+                "S": {
+                "item": "pneumaticcraft:reinforced_stone_slab"
+                },
+                "C": {
+                 "item": "pneumaticcraft:reinforced_stone"
+                }
+            },
+            "result": {
+                "item": "botania:apothecary_default",
+                "count": 1
+            }
+        }
+    )
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
             "type": "industrialforegoing:fluid_extractor",
             "pattern": ["ABA", "CDC", "AEA"],
             "key": {
