@@ -727,6 +727,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'ironjetpacks:ultimate_coil'})
 
 //Immersive Engineering recipes
+  	event.remove({id: 'immersiveengineering:crafting/blueprint_components'}) 
+  	event.remove({id: 'immersiveengineering:crafting/capacitor_lv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/capacitor_mv'}) 
+  	event.remove({id: 'immersiveengineering:crafting/capacitor_hv'}) 
   	event.remove({id: 'immersiveengineering:crafting/light_engineering'}) 
   	event.remove({id: 'immersiveengineering:crafting/workbench'}) 
   	event.remove({id: 'immersiveengineering:crafting/dynamo'}) 
