@@ -1229,6 +1229,129 @@ onEvent('recipes', (event) => {
                     T: 'immersiveengineering:electron_tube'
                 },
                 result: Item.of('immersiveengineering:conveyor_basic', 4)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:plates/bronze',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/iron',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_lv', 1)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:sheetmetals/aluminum',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/steel',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_hv', 1)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:sheetmetals/electrum',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/iron',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_mv', 1)
+            },
+            {
+                pattern: ["STS", "WXW", "ACA"],
+                key: {
+                    X: 'create:electron_tube',
+                    A: '#forge:treated_wood',
+                    T: 'immersiveengineering:connector_lv',
+                    S: '#forge:plates/iron',
+                    W: 'immersiveengineering:insulating_glass',
+                    C: 'immersiveengineering:coil_lv'
+                },
+                result: Item.of('immersiveengineering:charging_station', 1)
+            },
+            {
+                pattern: ["CCC", "CXC", "CCC"],
+                key: {
+                    X: 'createaddition:spool',
+                    C: 'immersiveengineering:wirecoil_copper'
+                },
+                result: Item.of('immersiveengineering:coil_lv', 1)
+            },
+            {
+                pattern: ["CCC", "CXC", "CCC"],
+                key: {
+                    X: 'createaddition:spool',
+                    C: 'immersiveengineering:wirecoil_electrum'
+                },
+                result: Item.of('immersiveengineering:coil_mv', 1)
+            },
+            {
+                pattern: ["CCC", "CXC", "CCC"],
+                key: {
+                    X: 'createaddition:spool',
+                    C: 'immersiveengineering:wirecoil_steel'
+                },
+                result: Item.of('immersiveengineering:coil_hv', 1)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_electrum',
+                    X: '#forge:rods/electrum',
+                    C: 'immersiveengineering:concrete'
+                },
+                result: Item.of('immersiveengineering:connector_mv', 2)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_copper',
+                    X: '#forge:rods/copper',
+                    C: 'immersiveengineering:concrete'
+                },
+                result: Item.of('immersiveengineering:connector_lv', 2)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_steel',
+                    X: '#forge:rods/aluminum',
+                    C: 'immersiveengineering:concrete'
+                },
+                result: Item.of('immersiveengineering:connector_hv', 2)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_electrum',
+                    X: '#forge:rods/electrum',
+                    C: '#forge:terracotta'
+                },
+                result: Item.of('immersiveengineering:connector_mv_relay', 4)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_copper',
+                    X: '#forge:rods/copper',
+                    C: '#forge:terracotta'
+                },
+                result: Item.of('immersiveengineering:connector_lv_relay', 4)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_steel',
+                    X: '#forge:rods/aluminum',
+                    C: 'immersiveengineering:insulating_glass'
+                },
+                result: Item.of('immersiveengineering:connector_hv_relay', 4)
             }
         ]
     };

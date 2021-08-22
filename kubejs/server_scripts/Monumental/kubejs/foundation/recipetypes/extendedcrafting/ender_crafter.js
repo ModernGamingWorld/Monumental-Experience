@@ -26,6 +26,255 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
 event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["GEG", "EWE", "IAI"
+            ],
+            "key": {
+                "G": {
+                "item": "appliedenergistics2:quartz_vibrant_glass"
+                },
+                "E": {
+                "item": "refinedstorage:quartz_enriched_iron"
+                },
+                "I": {
+                "item": "refinedstorage:improved_processor"
+                },
+                "A": {
+                "item": "refinedstorage:advanced_processor"
+                },
+                "W": {
+                "item": "refinedstorage:storage_housing"
+                }
+            },
+            "result": {
+                "item": "extradisks:advanced_storage_housing"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["TPT", "TWT", "TPT"
+            ],
+            "key": {
+                "W": {
+                "item": "envirocore:litherite_crystal"
+                },
+                "P": {
+                "item": "create:adjustable_pulse_repeater"
+                },
+                "T": {
+                "tag": "forge:ingots/compressed_iron"
+                }
+            },
+            "result": {
+                "item": "envirocore:volatile_memory"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QTQ", "TWT", "QTQ"
+            ],
+            "key": {
+                "W": {
+                "item": "envirocore:volatile_memory"
+                },
+                "T": {
+                "item": "create:adjustable_pulse_repeater"
+                },
+                "Q": {
+                "tag": "forge:ingots/compressed_iron"
+                }
+            },
+            "result": {
+                "item": "envirocore:flash_memory"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QTQ", "TWT", "QTQ"
+            ],
+            "key": {
+                "W": {
+                "item": "envirocore:litherite_crystal"
+                },
+                "T": {
+                "item": "create:adjustable_pulse_repeater"
+                },
+                "Q": {
+                "tag": "forge:ingots/electrum"
+                }
+            },
+            "result": {
+                "item": "envirocore:cpu"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QSQ", "TWT", "QQQ"
+            ],
+            "key": {
+                "W": {
+                "item": "rftoolscontrol:card_base"
+                },
+                "T": {
+                "tag": "forge:nuggets/electrum"
+                },
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "S": {
+                "tag": "forge:ender_pearls"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:network_card"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QQQ", "TTT", "WWW"
+            ],
+            "key": {
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "T": {
+                "tag": "forge:dyes/green"
+                },
+                "W": {
+                "tag": "forge:nuggets/electrum"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:card_base"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QWQ", "TST", "QWQ"
+            ],
+            "key": {
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "T": {
+                "tag": "forge:paper"
+                },
+                "W": {
+                "tag": "forge:nuggets/electrum"
+                },
+                "S": {
+                "item": "rftoolscontrol:card_base"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:cpu_core_500"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QQQ", "TST", "QQQ"
+            ],
+            "key": {
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "T": {
+                "tag": "forge:paper"
+                },
+                "S": {
+                "item": "rftoolscontrol:card_base"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:ram_chip"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QWQ", "TST", "QWQ"
+            ],
+            "key": {
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "T": {
+                "tag": "forge:gems/emerald"
+                },
+                "W": {
+                "tag": "forge:gems/mana_diamond"
+                },
+                "S": {
+                "item": "rftoolscontrol:cpu_core_500"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:cpu_core_1000"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QWQ", "WSW", "QWQ"
+            ],
+            "key": {
+                "Q": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "W": {
+                "tag": "forge:gems/dimensional"
+                },
+                "S": {
+                "item": "rftoolscontrol:cpu_core_1000"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:cpu_core_2000"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["QQQ", "WSW", "QCQ"
+            ],
+            "key": {
+                "W": {
+                "item": "immersiveengineering:wirecoil_redstone"
+                },
+                "Q": {
+                "tag": "forge:gems/quartz"
+                },
+                "S": {
+                "item": "rftoolscontrol:card_base"
+                },
+                "C": {
+                "tag": "chipped:glowstone"
+                }
+            },
+            "result": {
+                "item": "rftoolscontrol:graphics_card"
+            }
+        }
+    );
+event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["AB ", "CDB", "AB "
             ],
             "key": {
@@ -522,6 +771,24 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
     event.recipes.extendedcrafting.shaped_ender_crafter(
         {
             "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["pip", "i i", "pip"],
+            "key": {
+                "i": {
+                "item": "contenttweaker:compressed_plate"
+                },
+                "p": {
+                "item": "envirocore:obsidian_plate"
+                }
+            },
+            "result": {
+                "item": "envirocore:laser_core",
+                "count": 1
+            }
+        }
+    );
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
             "pattern": ["ADA", "ABA", "ACA"],
             "key": {
                 "A": {
@@ -926,6 +1193,27 @@ event.recipes.extendedcrafting.shaped_ender_crafter(
             },
             "result": {
                 "item": "industrialforegoing:fluid_extractor",
+                "count": 1
+            }
+        }
+    )
+    event.recipes.extendedcrafting.shaped_ender_crafter(
+        {
+            "type": "extendedcrafting:shaped_ender_crafter",
+            "pattern": ["SPS", " C ", "CCC"],
+            "key": {
+                "P": {
+                "tag": "botania:petals"
+                },
+                "S": {
+                "item": "pneumaticcraft:reinforced_stone_slab"
+                },
+                "C": {
+                 "item": "pneumaticcraft:reinforced_stone"
+                }
+            },
+            "result": {
+                "item": "botania:apothecary_default",
                 "count": 1
             }
         }

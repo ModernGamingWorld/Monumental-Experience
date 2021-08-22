@@ -85,6 +85,18 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'immersiveengineering:capacitor_creative',
+                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
+                key: {
+                    A: 'immersiveengineering:capacitor_lv',
+                    B: 'immersiveengineering:capacitor_mv',
+                    C: 'immersiveengineering:capacitor_hv',
+                    X: 'immersiveengineering:rs_engineering',
+                    S: 'immersiveengineering:light_engineering',
+                    Z: 'immersiveengineering:heavy_engineering'
+                }
+            },
+            {
                 result: 'refinedstorage:creative_fluid_storage_disk',
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {

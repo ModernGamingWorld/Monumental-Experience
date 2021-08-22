@@ -55,6 +55,196 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('pneumaticcraft:reinforced_stone', 4)
             },
+            //Immersive
+            {
+                inputs: [
+                    '#forge:plates/aluminum',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_aluminum', 2)
+            },
+            {
+                inputs: [
+                    'woot:black_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_black', 2)
+            },
+            {
+                inputs: [
+                    'woot:blue_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_blue', 2)
+            },
+            {
+                inputs: [
+                    'woot:brown_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_brown', 2)
+            },
+            {
+                inputs: [
+                    'woot:cyan_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_cyan', 2)
+            },
+            {
+                inputs: [
+                    'woot:gray_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_gray', 2)
+            },
+            {
+                inputs: [
+                    'woot:green_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_green', 2)
+            },
+            {
+                inputs: [
+                    'woot:light_blue_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_light_blue', 2)
+            },
+            {
+                inputs: [
+                    'woot:light_gray_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_light_gray', 2)
+            },
+            {
+                inputs: [
+                    'woot:yellow_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_yellow', 2)
+            },
+            {
+                inputs: [
+                    'woot:lime_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_lime', 2)
+            },
+            {
+                inputs: [
+                    'woot:magenta_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_magenta', 2)
+            },
+            {
+                inputs: [
+                    'woot:orange_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_orange', 2)
+            },
+            {
+                inputs: [
+                    'woot:pink_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_pink', 2)
+            },
+            {
+                inputs: [
+                    'woot:purple_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_purple', 2)
+            },
+            {
+                inputs: [
+                    'woot:red_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_red', 2)
+            },
+            {
+                inputs: [
+                    'woot:white_dyeplate',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_colored_white', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/uranium',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_uranium', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/steel',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_steel', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/silver',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_silver', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/nickel',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_nickel', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/nickel',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_lead', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/iron',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_iron', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/gold',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_gold', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/electrum',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_electrum', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/copper',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_copper', 2)
+            },
+            {
+                inputs: [
+                    '#forge:plates/constantan',
+                    'minecraft:smooth_stone'
+                ],
+                output: Item.of('immersiveengineering:sheetmetal_constantan', 2)
+            },
             //Extended Crafting
             {
                 inputs: [

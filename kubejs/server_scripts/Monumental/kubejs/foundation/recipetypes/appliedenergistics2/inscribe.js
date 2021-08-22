@@ -58,6 +58,26 @@ onEvent('recipes', (event) => {
             "type": "appliedenergistics2:inscriber",
             "mode": "inscribe",
             "result": {
+              "item": "extradisks:withering_processor"
+            },
+            "ingredients": {
+              "top": {
+                "item": "appliedenergistics2:printed_silicon"
+              },
+              "middle": {
+                "tag": "forge:dusts/redstone"
+              },
+              "bottom": {
+                "item": "extradisks:raw_withering_processor"
+              }
+            }
+          }
+    );
+    event.recipes.appliedenergistics2.inscriber(
+        {
+            "type": "appliedenergistics2:inscriber",
+            "mode": "inscribe",
+            "result": {
               "item": "refinedstorage:basic_processor"
             },
             "ingredients": {
