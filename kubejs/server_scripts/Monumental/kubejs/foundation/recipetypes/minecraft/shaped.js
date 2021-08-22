@@ -1613,6 +1613,11 @@ event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  
     D: '#forge:gems/quartz'
 })
 //Immersive Engineering
+event.shaped(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), [" k ", "ddd", "ppp"], {
+    k: '#immersiveengineering:circuits/pcb',
+    d: '#forge:dyes/blue',
+    p: '#forge:paper'
+})
 event.shaped(Item.of('immersiveengineering:wirecoil_electrum', 2), [" w ", "wsw", " w "], {
     w: '#forge:wires/electrum',
     s: 'createaddition:spool'
