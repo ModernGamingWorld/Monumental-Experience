@@ -11,6 +11,30 @@ onEvent('recipes', (event) => {
             output: 'botania:mana_diamond',
             count: 1,
             mana: 10000
+        },
+        {
+            input: 'forbidden_arcanus:chorus_pearl',
+            output: 'botania:mana_pearl',
+            count: 1,
+            mana: 6000
+        },
+        {
+            input: 'psi:psidust',
+            output: 'botania:mana_powder',
+            count: 1,
+            mana: 6000
+        },
+        {
+            input: 'create:polished_rose_quartz',
+            output: 'botania:quartz_mana',
+            count: 1,
+            mana: 250
+        },
+        {
+            input: 'naturesaura:infused_iron',
+            output: 'botania:manasteel_ingot',
+            count: 1,
+            mana: 3000
         }
     ];
 
