@@ -1229,6 +1229,39 @@ onEvent('recipes', (event) => {
                     T: 'immersiveengineering:electron_tube'
                 },
                 result: Item.of('immersiveengineering:conveyor_basic', 4)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:plates/bronze',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/iron',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_lv', 1)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:sheetmetals/aluminum',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/steel',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_hv', 1)
+            },
+            {
+                pattern: ["WWW", "CAC", "XTX"],
+                key: {
+                    X: '#forge:treated_wood',
+                    C: '#forge:sheetmetals/electrum',
+                    T: 'immersiveengineering:electron_tube',
+                    W: '#forge:sheetmetals/iron',
+                    A: '#forge:gears/lead'
+                },
+                result: Item.of('immersiveengineering:capacitor_mv', 1)
             }
         ]
     };
