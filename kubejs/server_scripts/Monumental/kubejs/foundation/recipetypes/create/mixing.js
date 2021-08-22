@@ -54,6 +54,15 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:soulium_dust'
                 ],
                 output: Item.of('mysticalagriculture:soulium_gemstone', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dyes',
+                    '#forge:dyes',
+                    '#forge:dyes',
+                    'minecraft:bone_meal'
+                ],
+                output: Item.of('botania:fertilizer', 1)
             }
         ],
         recipes_heated: [
