@@ -103,6 +103,7 @@
 						value: "forge:ingots/osmium"
 					}
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "00000000000014EA"

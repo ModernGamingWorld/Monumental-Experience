@@ -12,7 +12,7 @@ disablePortalCreation = false
 #Note that enabling this also reduces the rate at which portal formation checks are performed.
 checkPortalDestination = false
 #Set this true if you want the lightning that zaps the portal to not set things on fire. For those who don't like fun.
-portalLightning = false
+portalLightning = true
 #If false, the return portal will require the activation item.
 shouldReturnPortalBeUsable = true
 #Sets the default value of the game rule controlling enforced progression.

@@ -5,7 +5,7 @@
 	# no Repurposed Structures structure to spawn in.
 	# Separate multiple entries with a comma.
 	#   Example: "minecraft:the_end,awesome_mod:awesome_dimension"
-	blacklistedDimensions = "the_bumblezone:the_bumblezone","atum:atum","twilightforest:twilightforest","blue_skies:everdawn","blue_skies:everbright"
+	blacklistedDimensions = "atum:atum","twilightforest:twilightforest","blue_skies:everdawn","blue_skies:everbright", "compactmachines:compact_world", "mythicbotany:alfheim", "undergarden:undergarden"
 
 	["Mod-wide Impacting Options"."Structure Options"]
 

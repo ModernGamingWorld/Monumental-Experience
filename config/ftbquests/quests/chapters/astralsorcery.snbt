@@ -54,7 +54,14 @@
 			tasks: [{
 				id: "000000000000010E"
 				type: "item"
-				item: "astralsorcery:aquamarine"
+				title: "Any Aquamarine"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:gems/aquamarine"
+					}
+				}
 			}]
 			rewards: [{
 				id: "00000000000013A3"
@@ -280,7 +287,14 @@
 			tasks: [{
 				id: "0000000000000127"
 				type: "item"
-				item: "minecraft:glowstone_dust"
+				title: "Any Glowstone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/glowstone"
+					}
+				}
 			}]
 			rewards: [{
 				id: "00000000000013A7"
@@ -423,7 +437,14 @@
 			tasks: [{
 				id: "000000000000013B"
 				type: "item"
-				item: "astralsorcery:starmetal_ingot"
+				title: "Any Starmetal"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:starmetal"
+					}
+				}
 			}]
 			rewards: [{
 				id: "00000000000013AC"

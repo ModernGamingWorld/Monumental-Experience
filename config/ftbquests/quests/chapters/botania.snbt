@@ -40,7 +40,14 @@
 				{
 					id: "0000000000000837"
 					type: "item"
-					item: "botania:mana_diamond"
+					title: "Any Mana_diamond"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/mana_diamond"
+						}
+					}
 				}
 			]
 			rewards: [{

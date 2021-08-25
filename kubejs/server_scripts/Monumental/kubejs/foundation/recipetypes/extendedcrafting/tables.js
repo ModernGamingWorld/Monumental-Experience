@@ -73,6 +73,17 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'mysticalagradditions:creative_essence',
+                pattern: ['ABABA', 'BSXSB', 'AXZXA', 'BSXSB', 'ABABA'],
+                key: {
+                    A: 'mysticalagradditions:insanium_block',
+                    B: 'gobber2:gobber2_ingot_end',
+                    X: 'mysticalagriculture:prosperity_block',
+                    S: '#mysticalagriculture:essences',
+                    Z: 'extendedcrafting:ultimate_catalyst'
+                }
+            },
+            {
                 result: 'refinedstorage:creative_storage_disk',
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {
@@ -109,7 +120,7 @@ onEvent('recipes', (event) => {
                 }
             },
             {
-                result: 'mekanism:creative_energy_cube',
+                result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'),
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {
                     A: 'mekanism:basic_energy_cube',
@@ -129,6 +140,68 @@ onEvent('recipes', (event) => {
                     C: 'refinedstorage:advanced_processor',
                     D: 'refinedstorage:quartz_enriched_iron',
                     E: 'refinedstorage:machine_casing'
+                }
+            },
+            {
+                result: 'draconicevolution:creative_capacitor',
+                pattern: ['    A    ', '  BBABB  ', ' BCCACCB ', ' BCDADCB ', 'AAAAEAAAA', ' BCDADCB ', ' BCCACCB ', '  BBABB  ', '    A    '],
+                key: {
+                    A: 'draconicevolution:awakened_draconium_block',
+                    B: 'gobber2:gobber2_ingot_end',
+                    C: 'draconicevolution:awakened_draconium_ingot',
+                    D: 'draconicevolution:draconic_capacitor',
+                    E: 'extendedcrafting:ultimate_catalyst'
+                }
+            },
+            {
+                result: 'botania:creative_pool',
+                pattern: ['ABBBCBBBA', 'BDEEEEEDB', 'BEFGHGFEB', 'BEGIJIGEB', 'CEHJKJHEC', 'BEGIJIGEB', 'BEFGHGFEB', 'BDEEEEEDB', 'ABBBCBBBA'],
+                key: {
+                    A: 'botania:mana_pool',
+                    B: '#forge:ingots/manasteel',
+                    C: 'botania:diluted_pool',
+                    D: 'botania:laputa_shard',
+                    E: 'eidolon:shadow_gem',
+                    F: 'botania:fabulous_pool',
+                    G: '#forge:storage_blocks/terrasteel',
+                    H: 'botania:gaia_pylon',
+                    I: 'mythicbotany:aquapanthus',
+                    J: 'mythicbotany:hellebore',
+                    K: 'mythicbotany:ice_ring'
+                }
+            },
+            {
+                result: 'botania:creative_pool',
+                pattern: ['ABCDEFGH', 'BDEEEEEDB', 'BEFGHGFEB', 'BEGIJIGEB', 'CEHJKJHEC', 'BEGIJIGEB', 'BEFGHGFEB', 'BDEEEEEDB', 'ABBBCBBBA'],
+                key: {
+                    A: 'botania:mana_pool',
+                    B: '#forge:ingots/manasteel',
+                    C: 'botania:diluted_pool',
+                    D: 'botania:laputa_shard',
+                    E: 'eidolon:shadow_gem',
+                    F: 'botania:fabulous_pool',
+                    G: '#forge:storage_blocks/terrasteel',
+                    H: 'botania:gaia_pylon',
+                    I: 'mythicbotany:aquapanthus',
+                    J: 'mythicbotany:hellebore',
+                    K: 'mythicbotany:ice_ring'
+                }
+            },
+            {
+                result: Item.of('botania:mana_tablet', '{mana:500000,creative:1b}'),
+                pattern: ['ABBBCBBBA', 'BDEEEEEDB', 'BEFGHGFEB', 'BEGIJIGEB', 'CEHJKJHEC', 'BEGIJIGEB', 'BEFGHGFEB', 'BDEEEEEDB', 'ABBBCBBBA'],
+                key: {
+                    A: Item.of('botania:mana_tablet', '{mana:500000}'),
+                    B: '#forge:ingots/manasteel',
+                    C: 'botania:diluted_pool',
+                    D: 'botania:laputa_shard',
+                    E: 'eidolon:shadow_gem',
+                    F: 'botania:fabulous_pool',
+                    G: '#forge:storage_blocks/terrasteel',
+                    H: 'botania:gaia_pylon',
+                    I: 'mythicbotany:aquapanthus',
+                    J: 'mythicbotany:hellebore',
+                    K: 'mythicbotany:ice_ring'
                 }
             },
             {
