@@ -1,0 +1,22 @@
+[
+  {
+    "serverName": "BedrockLegends Monumental Experience!",
+    "serverIP": "monumentalexperience.mcserver.us",
+    "forceResourcePack": "false"
+  },
+  {
+    "serverName": "BedrockLegends Enigmatica 6!",
+    "serverIP": "e62.modded.fun",
+    "forceResourcePack": "false"
+  },
+  {
+    "serverName": "BedrockLegends Medieval Minecraft Fabric!",
+    "serverIP": "MedievalMinecraft.modded.fun",
+    "forceResourcePack": "false"
+  },
+  {
+    "serverName": "BedrockLegends Seaopolis!",
+    "serverIP": "seaopolis.mcserv.fun",
+    "forceResourcePack": "false"
+  }
+]

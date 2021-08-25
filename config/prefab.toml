@@ -12,6 +12,8 @@
 	"Include Mineshaft Chest" = true
 	#Determines if the bulldozer item can create drops when it clears an area.
 	"Bulldozer Creates Drops" = true
+	#Determines if water can be generated in structures when the current dimension is not the oveworld. Does not affect Nether
+	"Include Water In Non-Overworld Dimesions" = true
 
 	[general."chest contents"]
 		#Determines if a Stone Sword is added the the chest when the house is created.
@@ -178,4 +180,6 @@
 		"Bunch Of Carrots" = true
 		#Determines if the recipe(s) associated with the Bunch Of Potatoes are enabled.
 		"Bunch Of Potatoes" = true
+		#Determines if the recipe(s) associated with the WoodenCrate are enabled.
+		WoodenCrate = true
 
