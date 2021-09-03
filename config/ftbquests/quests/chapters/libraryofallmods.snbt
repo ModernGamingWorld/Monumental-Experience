@@ -119,7 +119,7 @@
 				}
 			}]
 			rewards: [{
-				id: "0000000000000FE9"
+				id: "7EFAC241B929B048"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]
@@ -142,7 +142,7 @@
 				}
 			}]
 			rewards: [{
-				id: "0000000000000FEA"
+				id: "7E6669EE5312B71A"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]
@@ -198,7 +198,7 @@
 			y: -2.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A93"
+			id: "3C14B1EEC188208F"
 			tasks: [{
 				id: "0000000000000A94"
 				type: "item"

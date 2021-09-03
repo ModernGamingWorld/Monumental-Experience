@@ -73,7 +73,14 @@
 			tasks: [{
 				id: "0000000000000CF1"
 				type: "item"
-				item: "minecraft:end_stone_bricks"
+				title: "Any #chisel:end_stone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "chisel:end_stone"
+					}
+				}
 				count: 32L
 			}]
 			rewards: [
@@ -98,7 +105,14 @@
 			tasks: [{
 				id: "0000000000000BB3"
 				type: "item"
-				item: "minecraft:ender_pearl"
+				title: "Any #forge:ender_pearls"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ender_pearls"
+					}
+				}
 				count: 16L
 			}]
 			rewards: [
@@ -123,7 +137,14 @@
 			tasks: [{
 				id: "0000000000000BB5"
 				type: "item"
-				item: "minecraft:shulker_box"
+				title: "Any #forge:shulker_boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:shulker_boxes"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -220,7 +241,14 @@
 			tasks: [{
 				id: "0000000000000BBD"
 				type: "item"
-				item: "minecraft:purpur_block"
+				title: "Any #chipped:purpur_block"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "chipped:purpur_block"
+					}
+				}
 			}]
 			rewards: [
 				{

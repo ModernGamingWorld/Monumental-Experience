@@ -7,14 +7,14 @@
 	"Max Group Size" = 1
 
 ["Nether Spawning"]
-	Enabled = true
+	Enabled = false
 	#Range: 0 ~ 100
 	"Spawn Weight" = 30
 	#Range: 0 ~ 10
 	"Max Group Size" = 1
 
 ["End Spawning"]
-	Enabled = true
+	Enabled = false
 	#Range: 0 ~ 100
 	"Spawn Weight" = 5
 	#Range: 0 ~ 10

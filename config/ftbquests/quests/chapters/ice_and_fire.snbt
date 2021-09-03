@@ -394,7 +394,7 @@
 			x: 4.5d
 			y: 7.5d
 			shape: "gear"
-			id: "0000000000000046"
+			id: "1E7C888941E203BE"
 			tasks: [{
 				id: "0000000000000047"
 				type: "advancement"

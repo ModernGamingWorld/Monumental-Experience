@@ -1,0 +1,582 @@
+{
+	id: "526A840FAF9CEA8C"
+	group: "570AEC24DD8505B2"
+	order_index: 11
+	filename: "environmental_techcore"
+	title: "Environmental Tech/Core"
+	icon: "envirocore:ionite_powder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 2.0d
+			id: "040D3DC6B1C448B7"
+			tasks: [{
+				id: "4EA329EC969039EE"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+			}]
+			rewards: [
+				{
+					id: "4100C1930C7B1638"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2B1692DB43E3D310"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["040D3DC6B1C448B7"]
+			id: "4B64A25BF8ABF22B"
+			tasks: [{
+				id: "5CC389C8F1F3BD3F"
+				type: "item"
+				item: "envirocore:memory_programmer"
+			}]
+			rewards: [
+				{
+					id: "76997D5EAA4B0704"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2B33B671B8B7DF52"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["040D3DC6B1C448B7"]
+			id: "7C4B2BF3F1716EEC"
+			tasks: [{
+				id: "27AD99704913DDA7"
+				type: "item"
+				item: {
+					id: "envirocore:rgb_controller"
+					Count: 1b
+					tag: {
+						colors: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["040D3DC6B1C448B7"]
+			id: "4046D21BAC5FC7D0"
+			tasks: [{
+				id: "4FB1086E95A7912D"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+			rewards: [
+				{
+					id: "77D13545380BBC0B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7D980299DB5A58A8"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["4046D21BAC5FC7D0"]
+			id: "60F6BA6AFEDCA4BE"
+			tasks: [{
+				id: "56B0A07AFB83AD88"
+				type: "item"
+				item: "envirocore:litherite_frame"
+			}]
+			rewards: [
+				{
+					id: "127D01E61F7E14B5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "05CCE067BF5B34B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["60F6BA6AFEDCA4BE"]
+			id: "197D579988DE2411"
+			tasks: [{
+				id: "2A172A39CDFBB3EB"
+				type: "item"
+				item: "envirocore:erodium_frame"
+			}]
+			rewards: [
+				{
+					id: "62166A36DDEA7AB2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2C525ABBB12F648B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["040D3DC6B1C448B7"]
+			id: "049C3B03904A6FF0"
+			tasks: [{
+				id: "348E2B362999BAD4"
+				type: "item"
+				item: "envirotech:litherite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "2D81E75D39E578E1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "605B71802489F919"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["049C3B03904A6FF0"]
+			id: "61520F9D4A9E4E6E"
+			tasks: [{
+				id: "437CD9DC13823521"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+			}]
+			rewards: [
+				{
+					id: "124C7780B35712A0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1666FE0D12838EBC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["61520F9D4A9E4E6E"]
+			id: "4244167AC795ED5E"
+			tasks: [{
+				id: "7EFFB511FF7893C2"
+				type: "item"
+				item: "envirotech:erodium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "456D07B71C1C41AF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "19B376FFD80D14B4"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["4244167AC795ED5E"]
+			id: "65DD4A399C68E5EC"
+			tasks: [{
+				id: "537A41AC8BB4667E"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+			}]
+			rewards: [
+				{
+					id: "4A796AE6F8D32D95"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6998FB3722328A61"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["197D579988DE2411"]
+			id: "75DEBB0E9142E08C"
+			tasks: [{
+				id: "33CAC5194C28ADEC"
+				type: "item"
+				item: "envirocore:kyronite_frame"
+			}]
+			rewards: [
+				{
+					id: "3615C5E89EBD9F21"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "21E7BB74825B36C7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["65DD4A399C68E5EC"]
+			id: "72136411E6CC2F5B"
+			tasks: [{
+				id: "4EAB43BBBAA0610E"
+				type: "item"
+				item: "envirotech:pladium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "40DFDEDF267298EE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5CE98B3815F8BF71"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["75DEBB0E9142E08C"]
+			id: "1258F3A9549F2A56"
+			tasks: [{
+				id: "01220E62C7191D36"
+				type: "item"
+				item: "envirocore:pladium_frame"
+			}]
+			rewards: [
+				{
+					id: "28A72B43A14266D5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00274729A5304BAF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["72136411E6CC2F5B"]
+			id: "26AFE728A3137618"
+			tasks: [{
+				id: "5E2A609C18399944"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+			}]
+			rewards: [
+				{
+					id: "113D6C6793AABF09"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "45861832DFADA44D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			dependencies: ["26AFE728A3137618"]
+			id: "64351AFFA7B07C18"
+			tasks: [{
+				id: "573A74502C3C14BB"
+				type: "item"
+				item: "envirotech:ionite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "456853B0976BAF10"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "08218339654B29B2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["1258F3A9549F2A56"]
+			id: "3C108E681E126761"
+			tasks: [{
+				id: "075F1E0DD0E5ED91"
+				type: "item"
+				item: "envirocore:ionite_frame"
+			}]
+			rewards: [
+				{
+					id: "550C168F3480CFF0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2CFADD6AA3648BFB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			dependencies: ["3C108E681E126761"]
+			id: "30D90DE15B50B87A"
+			tasks: [{
+				id: "5BBDB5E8B495B89F"
+				type: "item"
+				item: "envirocore:aethium_frame"
+			}]
+			rewards: [
+				{
+					id: "33AD377937CF1152"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "60FF2AE6B2BC1227"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["64351AFFA7B07C18"]
+			id: "3CB2354AE53F5839"
+			tasks: [{
+				id: "55AE2EA33FABC8DA"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+			}]
+			rewards: [
+				{
+					id: "07E6946CBE44A095"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "12F265955416C0CC"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["3CB2354AE53F5839"]
+			id: "32C461CD9B28D68D"
+			tasks: [{
+				id: "389151675E491D0A"
+				type: "item"
+				item: "envirotech:aethium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "7C741A3F9DDCB522"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0E8392575AAC69C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["30D90DE15B50B87A"]
+			id: "1F9CF49790463448"
+			tasks: [{
+				id: "0C2EB3C0761A21F7"
+				type: "item"
+				item: "envirocore:nanorite_frame"
+			}]
+			rewards: [
+				{
+					id: "018865B6C223BA40"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6A1D8EBBC9D80F35"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["32C461CD9B28D68D"]
+			id: "592DAF3054D30097"
+			tasks: [{
+				id: "14CD4791F2F77A6E"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+			}]
+			rewards: [
+				{
+					id: "00AE0C7B6B382193"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "35E9C5751AC22ED5"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			dependencies: ["592DAF3054D30097"]
+			id: "0DFC2C717DF4CEC5"
+			tasks: [{
+				id: "2FC9AE729BEB7D68"
+				type: "item"
+				item: "envirotech:nanorite_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "2FE95FE614A00114"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "24F67BB94C84F441"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			dependencies: ["1F9CF49790463448"]
+			id: "15B0189D9A411DE4"
+			tasks: [{
+				id: "6257C9F45996F866"
+				type: "item"
+				item: "envirocore:xerothium_frame"
+			}]
+			rewards: [
+				{
+					id: "7211A95CFD9F4F2C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C8D847BC12588B3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			dependencies: ["0DFC2C717DF4CEC5"]
+			id: "2849AC825ACE11F2"
+			tasks: [{
+				id: "5F145E8674D2ADD3"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+			}]
+			rewards: [
+				{
+					id: "7551103D3302B00B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6EF0BC44E6C3F1B9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			dependencies: ["2849AC825ACE11F2"]
+			id: "0BA93D3E9B702A06"
+			tasks: [{
+				id: "1DE852F18B73C66C"
+				type: "item"
+				item: "envirotech:xerothium_void_miner_ccu"
+			}]
+			rewards: [
+				{
+					id: "2A7A8CCC7BFC571E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "360B322CE7671D8A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

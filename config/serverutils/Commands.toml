@@ -626,6 +626,7 @@
 	#Range: > 0
 	cooldown = 0
 	max-perm = "serverutils.maxshops_"
+	adminperm = "serverutils.chestshop.createadmin"
 
 [Jail]
 	#Range: > 0
@@ -648,4 +649,26 @@
 	enable = true
 	#Range: > 0
 	cooldown = 0
+
+[StaffChat]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.staffchat"
+	aliases = ["staffchat", "sc"]
+	#Range: > 0
+	cost = 0
+
+[Sudo]
+	enable = true
+	#Range: > 0
+	delay = 0
+	#Range: > 0
+	cooldown = 0
+	perm = "serverutils.sudo"
+	aliases = ["sudo"]
+	#Range: > 0
+	cost = 0
 
