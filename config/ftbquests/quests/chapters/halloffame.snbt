@@ -1,7 +1,7 @@
 {
 	id: "000000000000029A"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "halloffame"
 	title: "&6All the Fame"
 	icon: "xreliquary:holy_hand_grenade"
@@ -176,7 +176,6 @@
 				"00000000000002AB"
 				"00000000000002AD"
 				"00000000000002B0"
-				"00000000000002B2"
 				"00000000000002B6"
 				"00000000000007B5"
 				"00000000000002B8"
@@ -448,7 +447,7 @@
 			y: 7.0d
 			hide_dependency_lines: true
 			dependencies: ["0000000000000A89"]
-			id: "00000000000002AD"
+			id: "32B87F9D7EFEE271"
 			rewards: [{
 				id: "00000000000008F2"
 				type: "command"
@@ -463,7 +462,7 @@
 			x: 1.0d
 			y: 7.0d
 			dependencies: ["000000000000000A"]
-			id: "00000000000002B0"
+			id: "5D26E5883FCCDAC5"
 			rewards: [{
 				id: "00000000000008F3"
 				type: "command"
@@ -478,7 +477,7 @@
 			x: -2.5d
 			y: 8.0d
 			dependencies: ["000000000000083A"]
-			id: "00000000000002B2"
+			id: "03FBDB8473941D6B"
 			rewards: [{
 				id: "00000000000008F4"
 				type: "command"

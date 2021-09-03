@@ -65,3 +65,25 @@ translations = true
 			November = "c6e"
 			December = "afc"
 
+	["Color Chat"."Staff Chat"]
+		#Formatting for the staff chat. Uses just the formatting codes. Don't include the &
+		"staff tag" = "&3&l[STAFF]&r"
+		#Formatting for the staff chat. Uses just the formatting codes. Don't include the &
+		formatting = "bl"
+		#Formatting for the staff chat. Uses just the formatting codes. Don't include the &
+		"jail tag" = "&8&o[JAIL]"
+		#Jail Formatting for the staff chat. Uses just the formatting codes. Don't include the &
+		"jail formatting" = "7o"
+
+[Jails]
+	#A list of commands that can/can't be used while jailed.
+	commands = [""]
+	#If true, the commands listed will be allowed, if false then they will not be allowed.
+	whitelist = false
+	#This is the max distance (in blocks) that the jailed player can travel before being teleported back to the jail.
+	#Range: > 0
+	"max distance" = 10
+	#No comment
+	#Range: 0 ~ 2
+	"player protection" = 1
+
