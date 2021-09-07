@@ -4,7 +4,7 @@
 	order_index: 5
 	filename: "building"
 	title: "Building"
-	icon: "mcwwindows:oak_plank_window2_2tall"
+	icon: "mcwwindows:oak_window"
 	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

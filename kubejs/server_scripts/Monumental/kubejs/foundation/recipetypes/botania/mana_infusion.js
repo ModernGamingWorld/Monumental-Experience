@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: '#forge:storage_blocks/manasteel',
             output: 'astralsorcery:starmetal',
             count: 1,
@@ -42,7 +41,10 @@ onEvent('recipes', (event) => {
         let constructed_recipe = {
             type: 'botania:mana_infusion',
             input: Ingredient.of(recipe.input).toJson(),
-            output: { item: recipe.output, count: recipe.count },
+            output: {
+                item: recipe.output,
+                count: recipe.count
+            },
             mana: recipe.mana
         };
         if (recipe.catalyst) {

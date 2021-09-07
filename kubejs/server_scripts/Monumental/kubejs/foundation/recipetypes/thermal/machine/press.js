@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             inputs: [Ingredient.of('#forge:ingots/compressed_iron', 4), Ingredient.of('thermal:press_packing_2x2_die')],
             outputs: [Item.of('contenttweaker:compressed_plate', 2)],
             energy: 600
@@ -123,8 +122,8 @@ onEvent('recipes', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        recipe.id
-            ? event.recipes.thermal.press(recipe.outputs, recipe.inputs).energy(recipe.energy).id(recipe.id)
-            : event.recipes.thermal.press(recipe.outputs, recipe.inputs).energy(recipe.energy);
+        recipe.id ?
+            event.recipes.thermal.press(recipe.outputs, recipe.inputs).energy(recipe.energy).id(recipe.id) :
+            event.recipes.thermal.press(recipe.outputs, recipe.inputs).energy(recipe.energy);
     });
 });

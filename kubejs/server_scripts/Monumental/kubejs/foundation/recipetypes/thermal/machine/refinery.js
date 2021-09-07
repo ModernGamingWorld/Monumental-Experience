@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 outputs: [
                     Item.of('emendatusenigmatica:bitumen_gem').chance(0.1),
                     fluid.of('thermal:heavy_oil', 40),

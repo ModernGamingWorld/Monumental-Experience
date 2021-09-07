@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 outputs: ['buildinggadgets:construction_block_dense'],
                 input: 'buildinggadgets:construction_block_powder'
             },

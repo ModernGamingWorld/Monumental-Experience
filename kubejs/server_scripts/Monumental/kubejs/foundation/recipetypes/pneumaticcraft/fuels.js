@@ -1,8 +1,7 @@
 onEvent('recipes', (event) => {
     var multiplier = 1000;
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 fluid: 'mekanismgenerators:bioethanol',
                 air: 400,
                 rate: 1

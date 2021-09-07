@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: '#minecraft:planks',
             outputs: [Item.of('minecraft:stick', 6), Item.of('emendatusenigmatica:wood_dust').chance(0.25)]
         },

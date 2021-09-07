@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: '#minecraft:planks',
             output: Item.of('minecraft:stick', 6),
             extraOutput: Item.of('emendatusenigmatica:wood_dust').chance(0.25)
@@ -23,11 +22,9 @@ onEvent('recipes', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.recipes.immersiveengineering.sawmill(recipe.output, recipe.input, [
-            {
-                stripping: false,
-                output: recipe.extraOutput
-            }
-        ]);
+        event.recipes.immersiveengineering.sawmill(recipe.output, recipe.input, [{
+            stripping: false,
+            output: recipe.extraOutput
+        }]);
     });
 });

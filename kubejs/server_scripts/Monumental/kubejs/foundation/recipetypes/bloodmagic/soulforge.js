@@ -18,7 +18,7 @@ onEvent('recipes', (event) => {
         },
         minimumDrain: 240.0,
         drain: 50.0
-})
+    })
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {
@@ -38,7 +38,7 @@ onEvent('recipes', (event) => {
         },
         minimumDrain: 400.0,
         drain: 100.0
-})
+    })
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {
@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
         },
         minimumDrain: 500.0,
         drain: 100.0
-})
+    })
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {
@@ -78,7 +78,7 @@ onEvent('recipes', (event) => {
         },
         minimumDrain: 60.0,
         drain: 20.0
-})
+    })
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {

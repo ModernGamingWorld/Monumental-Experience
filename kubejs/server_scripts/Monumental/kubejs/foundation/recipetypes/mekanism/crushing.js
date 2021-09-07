@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: 'byg:pink_sandstone',
             output: Item.of('byg:pink_sand', 2)
         },

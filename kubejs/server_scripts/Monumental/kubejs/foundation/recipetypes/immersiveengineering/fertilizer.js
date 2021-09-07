@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input: 'industrialforegoing:fertilizer',
                 growthModifier: 1.7
             },

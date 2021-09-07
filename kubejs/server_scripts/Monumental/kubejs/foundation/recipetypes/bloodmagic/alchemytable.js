@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     data = {
-        recipes: [
-            {
+        recipes: [{
                 inputs: ['#forge:gravel', '#forge:gravel', '#forge:gravel'],
                 output: 'minecraft:flint',
                 count: 3,

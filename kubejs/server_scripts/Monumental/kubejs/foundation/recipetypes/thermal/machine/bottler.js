@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: 'minecraft:glass_bottle',
             fluid: Fluid.of('minecraft:milk', 250),
             output: 'farmersdelight:milk_bottle'

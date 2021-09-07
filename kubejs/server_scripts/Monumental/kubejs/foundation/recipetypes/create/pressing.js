@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
-            output: 'mekanism:hdpe_sheet', 
+    const recipes = [{
+            output: 'mekanism:hdpe_sheet',
             inputs: ['mekanism:hdpe_pellet']
         },
         {
@@ -103,7 +102,7 @@ onEvent('recipes', (event) => {
         {
             output: 'mcwfurnitures:crimson_plate',
             inputs: ['#minecraft:crimson_stems']
-        },{
+        }, {
             output: 'mcwfurnitures:warped_plate',
             inputs: ['#minecraft:warped_stems']
         },
@@ -126,8 +125,8 @@ onEvent('recipes', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        recipe.id
-            ? event.recipes.create.pressing(recipe.output, recipe.inputs).id(recipe.id)
-            : event.recipes.create.pressing(recipe.output, recipe.inputs);
+        recipe.id ?
+            event.recipes.create.pressing(recipe.output, recipe.inputs).id(recipe.id) :
+            event.recipes.create.pressing(recipe.output, recipe.inputs);
     });
 });

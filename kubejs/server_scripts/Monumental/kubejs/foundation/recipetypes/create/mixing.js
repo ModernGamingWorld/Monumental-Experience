@@ -1,7 +1,6 @@
 events.listen('recipes', (event) => {
     var data = {
-        recipes_unheated: [
-            {
+        recipes_unheated: [{
                 inputs: [
                     '#forge:clay',
                     '#forge:gravel',
@@ -65,8 +64,7 @@ events.listen('recipes', (event) => {
                 output: Item.of('botania:fertilizer', 1)
             }
         ],
-        recipes_heated: [
-            {
+        recipes_heated: [{
                 inputs: ['#forge:ingots/iron', '#forge:ingots/lead'],
                 output: Item.of('eidolon:pewter_ingot', 2)
             },
@@ -166,7 +164,10 @@ events.listen('recipes', (event) => {
             {
                 inputs: [
                     '#minecraft:planks',
-                    { fluidTag: 'forge:creosote', amount: 125 }
+                    {
+                        fluidTag: 'forge:creosote',
+                        amount: 125
+                    }
                 ],
                 output: Item.of('immersiveengineering:treated_wood_horizontal', 4)
             },
@@ -437,10 +438,17 @@ events.listen('recipes', (event) => {
                     'create:andesite_alloy',
                 ],
                 output: Item.of('forbidden_arcanus:obsidian_ingot', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/lapis',
+                    '#forge:sand',
+                    '#forge:clay'
+                ],
+                output: Item.of('buildinggadgets:construction_block_powder', 1)
             }
         ],
-        recipes_superheated: [
-            {
+        recipes_superheated: [{
                 inputs: [
                     'mysticalagriculture:mystical_fertilizer',
                     'mysticalagriculture:mystical_fertilizer',
@@ -453,7 +461,7 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:watering_can'
                 ],
                 output: Item.of('mysticalagriculture:inferium_watering_can', 1)
-            },            {
+            }, {
                 inputs: [
                     '#forge:ingots/netherite_scrap',
                     '#forge:netherrack',
@@ -869,14 +877,6 @@ events.listen('recipes', (event) => {
                     'extendedcrafting:black_iron_ingot'
                 ],
                 output: Item.of('refinedstorage:quartz_enriched_iron', 4)
-            },
-            {
-                inputs: [
-                    '#forge:dusts/lapis',
-                    '#forge:sand',
-                    '#forge:clay'
-                ],
-                output: Item.of('buildinggadgets:construction_block_powder', 1)
             },
             {
                 inputs: [

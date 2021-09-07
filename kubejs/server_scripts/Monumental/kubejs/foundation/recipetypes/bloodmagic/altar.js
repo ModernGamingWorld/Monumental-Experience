@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     data = {
-        recipes: [
-            {
+        recipes: [{
                 input: 'psi:psidust_block',
                 output: 'bloodmagic:apprenticebloodorb',
                 syphon: 5000,

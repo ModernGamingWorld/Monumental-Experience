@@ -3,8 +3,7 @@ onEvent('recipes', (event) => {
         types = ['shovel_head', 'hammer_head', 'hoe_head', 'pickaxe_head', 'axe_head', 'sword_blade'];
 
     const data = {
-        recipes: [
-            {
+        recipes: [{
                 id: 'betterendforge:ender_shard_to_dust',
                 input: {
                     item: 'betterendforge:ender_shard'

@@ -1,11 +1,12 @@
 onEvent('recipes', (event) => {
     const data = {
-        recipes: [
-            {
+        recipes: [{
                 input: 'undergarden:blood_mushroom',
                 output: 'byg:soul_shroom',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -13,7 +14,9 @@ onEvent('recipes', (event) => {
                 input: 'undergarden:veil_mushroom',
                 output: 'byg:death_cap',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -21,7 +24,9 @@ onEvent('recipes', (event) => {
                 input: 'undergarden:indigo_mushroom',
                 output: 'byg:sythian_fungus',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -29,7 +34,9 @@ onEvent('recipes', (event) => {
                 input: 'undergarden:ink_mushroom',
                 output: 'byg:embur_wart',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -37,7 +44,9 @@ onEvent('recipes', (event) => {
                 input: 'minecraft:bamboo',
                 output: 'byg:sythian_stalk_block',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -45,7 +54,9 @@ onEvent('recipes', (event) => {
                 input: '#forge:ingots/compressed_iron',
                 output: 'naturesaura:infused_iron',
                 aura_type: 'naturesaura:overworld',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -53,7 +64,9 @@ onEvent('recipes', (event) => {
                 input: '#forge:ingots/psimetal',
                 output: 'naturesaura:tainted_gold',
                 aura_type: 'naturesaura:nether',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 30000,
                 time: 250
             },
@@ -61,7 +74,9 @@ onEvent('recipes', (event) => {
                 input: 'pneumaticcraft:reinforced_stone',
                 output: 'naturesaura:infused_stone',
                 aura_type: 'naturesaura:overworld',
-                catalyst: { item: 'naturesaura:conversion_catalyst' },
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
                 aura: 7500,
                 time: 40
             }

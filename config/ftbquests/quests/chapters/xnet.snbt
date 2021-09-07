@@ -1,9 +1,9 @@
 {
 	id: "0000000000000D24"
 	group: "570AEC24DD8505B2"
-	order_index: 10
+	order_index: 13
 	filename: "xnet"
-	title: "&9Xnet"
+	title: "&6Xnet"
 	icon: "xnet:connector_upgrade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

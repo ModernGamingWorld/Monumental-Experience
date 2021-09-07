@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     const data = {
-        recipes: [
-            {
+        recipes: [{
                 pattern: [" AAA ", "AQPQA", "APSPA", "AQPQA", " AAA "],
                 key: {
                     P: '#forge:treated_wood',

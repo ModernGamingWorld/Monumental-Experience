@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 result: 'minecraft:apple',
                 pattern: ['XXX', 'X X', 'XXX'],
                 key: {

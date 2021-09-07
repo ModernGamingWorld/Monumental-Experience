@@ -1,13 +1,15 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: 'upgrade_aquatic:squid_bucket',
             fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
             output: 'upgrade_aquatic:glow_squid_bucket'
         },
         {
             input: 'minecraft:glass_bottle',
-            fluid: { fluidTag: 'forge:milk', amount: 250 },
+            fluid: {
+                fluidTag: 'forge:milk',
+                amount: 250
+            },
             output: 'farmersdelight:milk_bottle'
         },
         {

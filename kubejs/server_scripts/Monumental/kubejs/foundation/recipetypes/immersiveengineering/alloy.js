@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input1: '#forge:ingots/iron',
                 input2: '#forge:ingots/lead',
                 output: Item.of('eidolon:pewter_ingot', 2)

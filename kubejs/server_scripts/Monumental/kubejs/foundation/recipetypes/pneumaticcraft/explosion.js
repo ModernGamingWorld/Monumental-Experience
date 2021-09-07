@@ -1,19 +1,15 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
-                input: {
-                    tag: 'forge:ingots/steel'
-                },
-                results: [
-                    {
-                        item: 'pneumaticcraft:ingot_iron_compressed'
-                    }
-                ],
-                loss_rate: 20,
-                id: 'ingot_iron_compressed'
-            }
-        ]
+        recipes: [{
+            input: {
+                tag: 'forge:ingots/steel'
+            },
+            results: [{
+                item: 'pneumaticcraft:ingot_iron_compressed'
+            }],
+            loss_rate: 20,
+            id: 'ingot_iron_compressed'
+        }]
     };
     data.recipes.forEach((recipe) => {
         let re = event.custom({
