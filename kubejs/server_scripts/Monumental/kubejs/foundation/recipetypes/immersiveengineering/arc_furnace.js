@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input1: '#forge:ingots/copper',
                 secondaries: ['#forge:ingots/zinc'],
                 outputs: [Item.of('emendatusenigmatica:brass_ingot', 2)],

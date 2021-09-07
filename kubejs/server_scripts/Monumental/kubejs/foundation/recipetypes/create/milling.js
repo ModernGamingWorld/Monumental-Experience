@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input: 'byg:pink_sandstone',
                 outputs: [Item.of('byg:pink_sand')],
                 processingTime: 150
@@ -949,7 +948,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:terrasteel_essence', 1)],
                 processingTime: 200
             },
-
 
 
 

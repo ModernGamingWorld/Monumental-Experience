@@ -1,13 +1,15 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes_unheated: [
-            {
+        recipes_unheated: [{
                 inputs: [
                     '#forge:dusts/wood',
                     '#forge:dusts/wood',
                     '#forge:dusts/wood',
                     '#forge:dusts/wood',
-                    { fluidTag: 'minecraft:water', amount: 250 }
+                    {
+                        fluidTag: 'minecraft:water',
+                        amount: 250
+                    }
                 ],
                 output: Item.of('minecraft:paper', 6)
             },
@@ -16,8 +18,7 @@ onEvent('recipes', (event) => {
                 output: 'immersiveengineering:slab_concrete'
             }
         ],
-        recipes_heated: [
-            {
+        recipes_heated: [{
                 inputs: ['minecraft:vine'],
                 output: Fluid.of('industrialforegoing:latex', 50)
             },
@@ -26,11 +27,11 @@ onEvent('recipes', (event) => {
                 output: Fluid.of('industrialforegoing:latex', 50)
             },
             {
-                inputs: ['#forge:sandstone','#forge:sandstone','#forge:sandstone','#forge:sandstone','compressium:sand_2','#engineersdecor:brick_blocks'],
+                inputs: ['#forge:sandstone', '#forge:sandstone', '#forge:sandstone', '#forge:sandstone', 'compressium:sand_2', '#engineersdecor:brick_blocks'],
                 output: Item.of('immersiveengineering:alloybrick', 2)
             },
             {
-                inputs: ['immersiveengineering:alloybrick','immersiveengineering:alloybrick','immersiveengineering:alloybrick','immersiveengineering:alloybrick','#forge:sandstone','#chipped:light_gray_concrete'],
+                inputs: ['immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', '#forge:sandstone', '#chipped:light_gray_concrete'],
                 output: Item.of('immersiveengineering:cokebrick', 2)
             },
             {
@@ -408,15 +409,13 @@ onEvent('recipes', (event) => {
                 output: Item.of('extendedcrafting:ultimate_component', 1)
             }
         ],
-        recipes_superheated: [
-            {
-                inputs: [
-                    '#forge:plates/steel',
-                    'immersiveengineering:blastbrick'
-                ],
-                output: Item.of('immersiveengineering:blastbrick_reinforced', 2)
-            }
-        ]
+        recipes_superheated: [{
+            inputs: [
+                '#forge:plates/steel',
+                'immersiveengineering:blastbrick'
+            ],
+            output: Item.of('immersiveengineering:blastbrick_reinforced', 2)
+        }]
     };
 
     data.recipes_unheated.forEach((recipe) => {

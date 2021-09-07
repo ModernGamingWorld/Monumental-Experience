@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    let recipes = [
-        {
+    let recipes = [{
             inputs: [Fluid.of('tconstruct:molten_clay', 144), 'tconstruct:ingot_cast'],
             output: Item.of('minecraft:brick', 1),
             energy: 5000,

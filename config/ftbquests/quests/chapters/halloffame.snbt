@@ -1,9 +1,9 @@
 {
 	id: "000000000000029A"
 	group: ""
-	order_index: 2
+	order_index: 1
 	filename: "halloffame"
-	title: "&6All the Fame"
+	title: "&6Hall Of Fame"
 	icon: "xreliquary:holy_hand_grenade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -161,7 +161,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "heart"
-			description: ["Go to our official Discord https://discord.gg/kvagXuP and send Sloth a screen shot of this page at 100% then in the next update of the pack youll be added :D"]
+			description: ["Go to our official Discord https://discord.gg/wadcxefVA7 and send Sloth a screen shot of this page at 100% then in the next update of the pack youll be added :D"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000000283"
@@ -174,8 +174,6 @@
 				"00000000000002A7"
 				"00000000000002A9"
 				"00000000000002AB"
-				"00000000000002AD"
-				"00000000000002B0"
 				"00000000000002B6"
 				"00000000000007B5"
 				"00000000000002B8"
@@ -237,8 +235,8 @@
 					}
 				}
 			}
-			x: -1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -2.5d
 			shape: "diamond"
 			subtitle: "UI and Quest book Dev"
 			description: [""]
@@ -950,9 +948,11 @@
 			y: 3.0d
 			dependencies: ["0000000000000105"]
 			id: "0000000000001D49"
-			tasks: [{
-				id: "0000000000001D4A"
-				type: "item"
+			rewards: [{
+				id: "1C141F0B8C99970E"
+				type: "command"
+				command: "/say @p has compleated the Astral Sorcery chapter"
+				player_command: false
 			}]
 		}
 		{
@@ -1029,8 +1029,8 @@
 					}
 				}
 			}
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 			shape: "diamond"
 			subtitle: "Quest Book and Development"
 			id: "0000000000001D5C"
@@ -1204,6 +1204,258 @@
 				command: "/say @p has completed the Modular Router Chapter!"
 				player_command: false
 			}]
+		}
+		{
+			title: "Laserjet25"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-2095684896
+							736317408
+							-1228747506
+							768330393
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjE3NTI0MSwKICAicHJvZmlsZUlkIiA6ICI4MzE2NjJlMDJiZTM0ZmUwYjZjMmNkMGUyZGNiY2E5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXNlcmpldDI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3ZDRiOWFkMTI2OGVlMTk5NjE0MmQyYmE2YmE0ZDMxYTBlYmQzMzMwOTgzYzkxOWFjYWE5NmQ3ZTcyNmI2NTIiCiAgICB9CiAgfQp9"
+								Signature: "RvHUq1WtWrwhatlS3XaXEfiAnS/ZTVPuwOgY5K1maO9Z43Uqg3YgdAqG+M5Pi2lgEJi9qDfI1S/YpFqj0JgBKkNeoQAvmwfPC1101m1yhbZ7QF8IQ6IEjlacalc5YAFUygwhxzyXH4rDs+PzBqFmkZvGETIlFaIuMm1/S33gC09lmSoDGF3J1NdJMY2h6XxjfM2CFDThBmcWJ+Xs66dKgMjClM0kKVbDUmGykMbSGX/+EqGlqn3y741p+a2lsam1UgLjk67zLmKLLnOqvtHPvBQyn3xThcL29NugQBKZkWr+M+RrpDhNnYAMV+orXAyHU1FgQkwWnjZgzMKXWT3GFUpsUmm/8TU4edhTzy47AnYXJjwYY/u8AVI9HXREd1UhIVfIe+ioVH+KZVztvMhyovijtrxDQE8c8gUq9Fo2e8CBj+B0+dDhc7qCwJGHmvI+oqEIHns1H49GBqJ/rDLmhucEelOvAKX5BUCedVo6qAOAUaLX9yowskuNVD1v0gq1/LKMje9btUwAGAN1P9VRakTJLgAwYBbNc7N6vZjnlvFYPJlSoXMgAMO2UNLtwE7Dn1dq0PZ6uWNh1T+2Qyz6L1zMIV+I1aIEpIzuqr3+Yi1KXDnQ4Zi74RKv+oFB6J6qADo8+mXKASARa2ZgQEhlRjxGLfgWO7pvok+ukB7lOm4="
+							}]
+						}
+						Name: "laserjet25"
+					}
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Helped With Custom Recipes"
+			id: "06D099F50419006F"
+			tasks: [{
+				id: "5834D52F8AF8FA49"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "59F89CFF47B7E0C6"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-2095684896
+									736317408
+									-1228747506
+									768330393
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjE3NTI0MSwKICAicHJvZmlsZUlkIiA6ICI4MzE2NjJlMDJiZTM0ZmUwYjZjMmNkMGUyZGNiY2E5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXNlcmpldDI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3ZDRiOWFkMTI2OGVlMTk5NjE0MmQyYmE2YmE0ZDMxYTBlYmQzMzMwOTgzYzkxOWFjYWE5NmQ3ZTcyNmI2NTIiCiAgICB9CiAgfQp9"
+										Signature: "RvHUq1WtWrwhatlS3XaXEfiAnS/ZTVPuwOgY5K1maO9Z43Uqg3YgdAqG+M5Pi2lgEJi9qDfI1S/YpFqj0JgBKkNeoQAvmwfPC1101m1yhbZ7QF8IQ6IEjlacalc5YAFUygwhxzyXH4rDs+PzBqFmkZvGETIlFaIuMm1/S33gC09lmSoDGF3J1NdJMY2h6XxjfM2CFDThBmcWJ+Xs66dKgMjClM0kKVbDUmGykMbSGX/+EqGlqn3y741p+a2lsam1UgLjk67zLmKLLnOqvtHPvBQyn3xThcL29NugQBKZkWr+M+RrpDhNnYAMV+orXAyHU1FgQkwWnjZgzMKXWT3GFUpsUmm/8TU4edhTzy47AnYXJjwYY/u8AVI9HXREd1UhIVfIe+ioVH+KZVztvMhyovijtrxDQE8c8gUq9Fo2e8CBj+B0+dDhc7qCwJGHmvI+oqEIHns1H49GBqJ/rDLmhucEelOvAKX5BUCedVo6qAOAUaLX9yowskuNVD1v0gq1/LKMje9btUwAGAN1P9VRakTJLgAwYBbNc7N6vZjnlvFYPJlSoXMgAMO2UNLtwE7Dn1dq0PZ6uWNh1T+2Qyz6L1zMIV+I1aIEpIzuqr3+Yi1KXDnQ4Zi74RKv+oFB6J6qADo8+mXKASARa2ZgQEhlRjxGLfgWO7pvok+ukB7lOm4="
+									}]
+								}
+								Name: "laserjet25"
+							}
+						}
+					}
+				}
+				{
+					id: "251B8C9DD296302C"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Laser25\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			id: "49601DF6379F0609"
+			tasks: [{
+				id: "7B5D987BBE9FBA74"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [{
+				id: "46619FAC812B575C"
+				type: "command"
+				command: "/say @p has completed the Draconic chapter"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "0D5D15F3A3D8D422"
+			tasks: [{
+				id: "6049C933A01B9195"
+				type: "item"
+				item: "mcwwindows:oak_window"
+			}]
+			rewards: [{
+				id: "2E125C6ECF3D04DE"
+				type: "command"
+				command: "/say @p has completed the Building chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "TheRanker24"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2083476260
+							-1038464527
+							-2086757108
+							1599679444
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjg4NjM4OSwKICAicHJvZmlsZUlkIiA6ICI3YzJmNTMyNGMyMWE0OWYxODM5ZTlkMGM1ZjU5MmJkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVSYW5rZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNiYzg0M2U5MGIzNDFiYWU4OTNhZWQyYTRmN2Q0NWIwNTM2NjU3OTRjZGZhOGExMmYyNzY0MGFkZDg0MjMyNSIKICAgIH0KICB9Cn0="
+								Signature: "gDqSQs6NJ4Z9LmPGzKYSXuy8wHStZsIe5vnvmAz6WF7bH3Uqx9q9ksi9TghEVMtN+lQaCCDQz7C79keeF/i1VqQpz/S1DhwgKPaeoBfeMi4Sy3+tFzEwEZ9OFXUaepZM/bSyq58TjhORV4dVmnbVsjfCezRjpLAR4OV0TEi1BrwQmSE10oHUwPLyP+iBC6gxNjoBH7ZEMjWbqnbOJQA1/rISN5KNmmxfRkNsKlK3mh7chSu/GLChrdYKFnaufu/MmVNWLc+Y5EJJ56R+zXH4n925c/4GQIIG1LnT0R5Tf2F8LtYpsVVKK/zj2Q3ViWpJkyC1HVokDQfD9j8ijDY8hhOGkbNbpx18dymzIFFVVBJl8La5Yun2CnPFjyFg5X52/32uAyIpZHOjO2luPvbipE7NcoNpUcmoPQao3k3xf1t6oiLjkq4+jKdVqXakh4Ai3ysyhInoawqlXkma/yoN9WbwvojilGWVy4M8gSqzfWJgP603fcQ71Yxkq6XoVy1bAcOk2rC0l3+jtmtfRrB9in+n6JPD8vDlLNwVYa3VpoYBinw9IWln0udplkmgGNJaY5ZgazPEAb3w0HH8vkjPsQqh2jm3cuWwF1qlWT3VlzCDvVpBuWREdDBUVyS8+o/D7rdC3fsfBgIudW8MpVyyL0fJ8Y/TOp2HmoNLQBbTIWg="
+							}]
+						}
+						Name: "TheRanker"
+					}
+				}
+			}
+			x: 0.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Helped with Custom Ice and Fire Stuff"
+			id: "3A759D488795F166"
+			tasks: [{
+				id: "1605ACF50DBC52F8"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "5829E6771607FAB8"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2083476260
+									-1038464527
+									-2086757108
+									1599679444
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjg4NjM4OSwKICAicHJvZmlsZUlkIiA6ICI3YzJmNTMyNGMyMWE0OWYxODM5ZTlkMGM1ZjU5MmJkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVSYW5rZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNiYzg0M2U5MGIzNDFiYWU4OTNhZWQyYTRmN2Q0NWIwNTM2NjU3OTRjZGZhOGExMmYyNzY0MGFkZDg0MjMyNSIKICAgIH0KICB9Cn0="
+										Signature: "gDqSQs6NJ4Z9LmPGzKYSXuy8wHStZsIe5vnvmAz6WF7bH3Uqx9q9ksi9TghEVMtN+lQaCCDQz7C79keeF/i1VqQpz/S1DhwgKPaeoBfeMi4Sy3+tFzEwEZ9OFXUaepZM/bSyq58TjhORV4dVmnbVsjfCezRjpLAR4OV0TEi1BrwQmSE10oHUwPLyP+iBC6gxNjoBH7ZEMjWbqnbOJQA1/rISN5KNmmxfRkNsKlK3mh7chSu/GLChrdYKFnaufu/MmVNWLc+Y5EJJ56R+zXH4n925c/4GQIIG1LnT0R5Tf2F8LtYpsVVKK/zj2Q3ViWpJkyC1HVokDQfD9j8ijDY8hhOGkbNbpx18dymzIFFVVBJl8La5Yun2CnPFjyFg5X52/32uAyIpZHOjO2luPvbipE7NcoNpUcmoPQao3k3xf1t6oiLjkq4+jKdVqXakh4Ai3ysyhInoawqlXkma/yoN9WbwvojilGWVy4M8gSqzfWJgP603fcQ71Yxkq6XoVy1bAcOk2rC0l3+jtmtfRrB9in+n6JPD8vDlLNwVYa3VpoYBinw9IWln0udplkmgGNJaY5ZgazPEAb3w0HH8vkjPsQqh2jm3cuWwF1qlWT3VlzCDvVpBuWREdDBUVyS8+o/D7rdC3fsfBgIudW8MpVyyL0fJ8Y/TOp2HmoNLQBbTIWg="
+									}]
+								}
+								Name: "TheRanker"
+							}
+						}
+					}
+				}
+				{
+					id: "09DB14A701A82A8B"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"TheRanker\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Grotts"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-648126610
+							-60274545
+							-1376630461
+							103292329
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNzA5MDg3MiwKICAicHJvZmlsZUlkIiA6ICJkOTVlNWY2ZWZjNjg0ODhmYWRmMjQ5NDMwNjI4MWRhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcm90dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MmY0NjAwNjYzYzY0YWU5MjIwZjcwM2Y2MTU5NWE0MGEyZTE0MWQ4MGU0YzZiMWQ3MjBkNTc2MWJlODYxNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+								Signature: "WLqGpsuKiwrFJ9Re6ZRsHvuzdD3i+ORzJ5dOP9clxlRuut/ieHIY88Jkqj3PEwtFf8isGEbdT1Ic4rDTHXGEkcH6/yygRzbcenXn2EeywUL8ZWwo6xW+mOzRiOrjzzscg2+1XvSpGQBY1QowW7jeUIdrom3rc8B1ogBxyjrdvj+38jjzHOseauvXdNbB6l7pprjM88jPU/7O2nA91ApOSsq8ZJ79OJFZpMphYrEIhHiamMfw70rD9J+7IVjFywHYf5CQm5Ja+jsIPQxH2XHlD3QIno/8JK1wBnClDnHteu4i2xR5l5yk08x+mNie8Wu5HmezyWBTYOarEBFRSLINKImRurNKij0hilfs2YcdCpPIgTtY8mDXY9IWuc0vNbhzNdSfheBCOstYk1jOtouqGo943ErtSiimY7WPVeydULsNjoW++ctmNI/bIIF5Gm3GOqPq8I6QVig3QWZXpzO8jQnGjQEK651sFRWHG0PTdhGsy5wKWqRYG4pjY0cdcjECmlJVN8XWcuj3SoKf4HTdqT4iVNzSLJnbtJy+bqaQvLoMuYeui/Dk/KuJqV2Xllf7ExLg8a9POtHCsq0DXH1Cso3rr7CRhPsDYW/MYjPcvSHeuW9yf1q7Ccad/O1v33i3C0WWyKuMVWmmcKTkMfj5hCTgKYc1aAhBOvvf6tUW0g8="
+							}]
+						}
+						Name: "Grotts"
+					}
+				}
+			}
+			x: 1.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Owner of BedrockLegends Alongside ModernGamingWorld"
+			id: "21B9AE5F7B5DBA79"
+			rewards: [
+				{
+					id: "60882469881A4DF9"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-648126610
+									-60274545
+									-1376630461
+									103292329
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNzA5MDg3MiwKICAicHJvZmlsZUlkIiA6ICJkOTVlNWY2ZWZjNjg0ODhmYWRmMjQ5NDMwNjI4MWRhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcm90dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MmY0NjAwNjYzYzY0YWU5MjIwZjcwM2Y2MTU5NWE0MGEyZTE0MWQ4MGU0YzZiMWQ3MjBkNTc2MWJlODYxNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+										Signature: "WLqGpsuKiwrFJ9Re6ZRsHvuzdD3i+ORzJ5dOP9clxlRuut/ieHIY88Jkqj3PEwtFf8isGEbdT1Ic4rDTHXGEkcH6/yygRzbcenXn2EeywUL8ZWwo6xW+mOzRiOrjzzscg2+1XvSpGQBY1QowW7jeUIdrom3rc8B1ogBxyjrdvj+38jjzHOseauvXdNbB6l7pprjM88jPU/7O2nA91ApOSsq8ZJ79OJFZpMphYrEIhHiamMfw70rD9J+7IVjFywHYf5CQm5Ja+jsIPQxH2XHlD3QIno/8JK1wBnClDnHteu4i2xR5l5yk08x+mNie8Wu5HmezyWBTYOarEBFRSLINKImRurNKij0hilfs2YcdCpPIgTtY8mDXY9IWuc0vNbhzNdSfheBCOstYk1jOtouqGo943ErtSiimY7WPVeydULsNjoW++ctmNI/bIIF5Gm3GOqPq8I6QVig3QWZXpzO8jQnGjQEK651sFRWHG0PTdhGsy5wKWqRYG4pjY0cdcjECmlJVN8XWcuj3SoKf4HTdqT4iVNzSLJnbtJy+bqaQvLoMuYeui/Dk/KuJqV2Xllf7ExLg8a9POtHCsq0DXH1Cso3rr7CRhPsDYW/MYjPcvSHeuW9yf1q7Ccad/O1v33i3C0WWyKuMVWmmcKTkMfj5hCTgKYc1aAhBOvvf6tUW0g8="
+									}]
+								}
+								Name: "Grotts"
+							}
+						}
+					}
+				}
+				{
+					id: "0FC58C0C5F686E23"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Grotts\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

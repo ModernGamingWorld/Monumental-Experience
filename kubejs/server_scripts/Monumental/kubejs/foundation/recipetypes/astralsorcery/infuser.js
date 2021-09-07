@@ -1,15 +1,15 @@
 onEvent('recipes', (event) => {
     data = {
-        recipes: [
-            {
-                input: { item: 'immersiveengineering:treated_wood_horizontal' },
-                fluid: 'astralsorcery:liquid_starlight',
-                consumptionChance: 0.1,
-                output: 'astralsorcery:infused_wood',
-                count: 1,
-                duration: 100
-            }
-        ]
+        recipes: [{
+            input: {
+                item: 'immersiveengineering:treated_wood_horizontal'
+            },
+            fluid: 'astralsorcery:liquid_starlight',
+            consumptionChance: 0.1,
+            output: 'astralsorcery:infused_wood',
+            count: 1,
+            duration: 100
+        }]
     };
 
     data.recipes.forEach((recipe) => {

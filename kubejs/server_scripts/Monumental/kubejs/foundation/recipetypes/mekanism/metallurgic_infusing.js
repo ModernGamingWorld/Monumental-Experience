@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 output: 'mekanism:basic_control_circuit',
                 input: 'pneumaticcraft:advanced_pcb',
                 infusionInput: 'mekanism:redstone',
@@ -23,15 +22,15 @@ onEvent('recipes', (event) => {
     };
 
     data.recipes.forEach((recipe) => {
-        recipe.id
-            ? event.recipes.mekanism
-                  .metallurgic_infusing(recipe.output, recipe.input, recipe.infusionInput, recipe.infusionAmount)
-                  .id(recipe.id)
-            : event.recipes.mekanism.metallurgic_infusing(
-                  recipe.output,
-                  recipe.input,
-                  recipe.infusionInput,
-                  recipe.infusionAmount
-              );
+        recipe.id ?
+            event.recipes.mekanism
+            .metallurgic_infusing(recipe.output, recipe.input, recipe.infusionInput, recipe.infusionAmount)
+            .id(recipe.id) :
+            event.recipes.mekanism.metallurgic_infusing(
+                recipe.output,
+                recipe.input,
+                recipe.infusionInput,
+                recipe.infusionAmount
+            );
     });
 });

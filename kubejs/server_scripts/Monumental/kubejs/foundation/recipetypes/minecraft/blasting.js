@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             input: Item.of('dustrial_decor:rusty_iron_ingot'),
             output: Item.of('#forge:ingots/iron')
         },

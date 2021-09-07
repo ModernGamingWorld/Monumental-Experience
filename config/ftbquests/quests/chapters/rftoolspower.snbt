@@ -1,7 +1,7 @@
 {
 	id: "00000000000008CC"
 	group: "570AEC24DD8505B2"
-	order_index: 8
+	order_index: 10
 	filename: "rftoolspower"
 	title: "&9Rftools Power"
 	icon: "rftoolspower:power_core1"

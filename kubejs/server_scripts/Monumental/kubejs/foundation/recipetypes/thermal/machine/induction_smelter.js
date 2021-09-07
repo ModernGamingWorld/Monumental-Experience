@@ -1,8 +1,7 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
-                inputs: ['extendedcrafting:black_iron_ingot', '#forge:gems/silicon',],
+        recipes: [{
+                inputs: ['extendedcrafting:black_iron_ingot', '#forge:gems/silicon', ],
                 outputs: [
                     Item.of('refinedstorage:quartz_enriched_iron', 2)
                 ]

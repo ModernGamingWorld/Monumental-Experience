@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input: 'byg:pink_sandstone',
                 output: Item.of('byg:pink_sand', 2),
                 secondary: [Item.of('emendatusenigmatica:potassium_nitrate_dust').chance(0.5)],

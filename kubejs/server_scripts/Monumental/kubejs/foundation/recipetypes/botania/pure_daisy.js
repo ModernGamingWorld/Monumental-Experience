@@ -1,11 +1,9 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
-                input: 'minecraft:snow_block',
-                output: 'betterendforge:dense_snow'
-            }
-        ]
+        recipes: [{
+            input: 'minecraft:snow_block',
+            output: 'betterendforge:dense_snow'
+        }]
     };
     data.recipes.forEach((recipe) => {
         event.custom({

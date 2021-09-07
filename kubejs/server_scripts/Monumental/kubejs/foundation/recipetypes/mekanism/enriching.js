@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input: '#forge:ores/dimensional',
                 output: Item.of('emendatusenigmatica:dimensional_gem', 8)
             },

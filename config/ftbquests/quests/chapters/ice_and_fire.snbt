@@ -3146,7 +3146,6 @@
 			x: 4.5d
 			y: 8.5d
 			shape: "gear"
-			dependencies: ["0000000000000046"]
 			id: "2DBEE029F02772F5"
 			tasks: [{
 				id: "00CDBBED9672FFDA"

@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 input: '#appliedenergistics2:crystals/certus',
                 experience: 0.2,
                 outputs: [Item.of('emendatusenigmatica:certus_quartz_dust', 2)],
@@ -210,8 +209,8 @@ onEvent('recipes', (event) => {
             {
                 input: '#forge:rods/blaze',
                 outputs: [
-                  Item.of('minecraft:blaze_powder', 3),
-                  Item.of('emendatusenigmatica:sulfur_dust').chance(0.25)
+                    Item.of('minecraft:blaze_powder', 3),
+                    Item.of('emendatusenigmatica:sulfur_dust').chance(0.25)
                 ],
                 id: 'thermal:machine/pulverizer/pulverizer_blaze_rod',
                 experience: 0.2

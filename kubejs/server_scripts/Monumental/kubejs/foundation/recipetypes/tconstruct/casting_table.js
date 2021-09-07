@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
+    const recipes = [{
             cast: {
                 tag: 'tconstruct:casts/multi_use/plate'
             },

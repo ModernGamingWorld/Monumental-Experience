@@ -90,7 +90,7 @@ for (let line of tagGen) {
 
 function tryTag(tag) {
     try {
-        return Ingredient.of("#"+tag)
+        return Ingredient.of("#" + tag)
     } catch (err) {
         return null
     }
@@ -101,25 +101,25 @@ onEvent("recipes", event => {
     // Iterate over tags (they should be loaded)
     var tagitems = new Map()
     tagLoop:
-    for (let tag of tags) {
-        let ingr = tryTag(tag)
-        if (ingr) {
-            let stacks = ingr.getStacks().toArray()
-            for (let mod of global["unifypriorities"]) {
-                for (let stack of stacks) {
-                    if (stack.getMod() == mod) {
-                        tagitems[tag] = stack.getId()
-                        continue tagLoop
+        for (let tag of tags) {
+            let ingr = tryTag(tag)
+            if (ingr) {
+                let stacks = ingr.getStacks().toArray()
+                for (let mod of global["unifypriorities"]) {
+                    for (let stack of stacks) {
+                        if (stack.getMod() == mod) {
+                            tagitems[tag] = stack.getId()
+                            continue tagLoop
+                        }
                     }
                 }
+                if (stacks.length > 0) tagitems[tag] = stacks[0].getId()
             }
-            if (stacks.length > 0) tagitems[tag] = stacks[0].getId()
         }
-    }
     // Update tags
     global["unifytags"] = tags
     global["tagitems"] = tagitems
-    
+
     // Unify the rest
     if (global["RECIPE_UNIFY"]) {
         for (let tag of global["unifytags"]) {
@@ -128,7 +128,7 @@ onEvent("recipes", event => {
                 let stacks = ingr.getStacks().toArray()
                 let oItem = global["tagitems"][tag]
                 for (let tItem of stacks) {
-                    event.replaceInput({}, tItem.getId(), "#"+tag)
+                    event.replaceInput({}, tItem.getId(), "#" + tag)
                     event.replaceOutput({}, tItem.getId(), oItem)
                 }
             }
@@ -142,7 +142,7 @@ onEvent("player.inventory.changed", event => {
     if (global["INVENTORY_UNIFY"] && event.getEntity().getOpenInventory().getClass().getName() == "net.minecraft.inventory.container.PlayerContainer") {
         // Get held item
         var heldItem = event.getItem()
-        
+
         // Check for every tag in the list
         for (let tag of global["unifytags"]) {
             let ingr = tryTag(tag)

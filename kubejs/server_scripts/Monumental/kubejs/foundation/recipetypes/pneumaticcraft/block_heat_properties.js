@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [
-            {
+        recipes: [{
                 block: 'quark:magma_bricks',
                 temperature: 1300,
                 thermalResistance: 500,

@@ -1,10 +1,8 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
-            input: 'minecraft:cactus',
-            output: 'byg:warped_cactus'
-        }
-    ];
+    const recipes = [{
+        input: 'minecraft:cactus',
+        output: 'byg:warped_cactus'
+    }];
 
     recipes.forEach((recipe) => {
         const re = event.custom({

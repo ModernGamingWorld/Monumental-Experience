@@ -1,11 +1,11 @@
 onEvent('recipes', (event) => {
-    const recipes = [
-        {
-            replaceTarget: { id: 'entangled:block' },
-            toReplace: 'minecraft:chest',
-            replaceWith: '#forge:chests/wooden'
-        }
-    ];
+    const recipes = [{
+        replaceTarget: {
+            id: 'entangled:block'
+        },
+        toReplace: 'minecraft:chest',
+        replaceWith: '#forge:chests/wooden'
+    }];
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
     event.replaceInput({}, 'minecraft:repeater', 'create:adjustable_pulse_repeater');
     event.replaceInput({}, 'prefab:block_compressed_dirt', 'compressium:dirt_1');
@@ -34,76 +34,106 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'minecraft:iron_ore', '#forge:ores/iron');
     event.replaceInput({}, 'minecraft:gold_ore', '#forge:ores/gold');
     event.replaceInput({}, 'upgrade_aquatic:beachgrass', '#forge:beach_grass');
-    event.replaceInput({ id: '/simplefarming:\\w+burger/' }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');
+    event.replaceInput({
+        id: '/simplefarming:\\w+burger/'
+    }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');
     event.replaceInput({}, 'tconstruct:cobalt_nugget', '#forge:nuggets/cobalt');
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
     event.replaceInput({}, 'minecraft:red_nether_bricks', '#forge:netherbricks_red');
     event.replaceInput({}, 'minecraft:stone', '#forge:stone');
-    event.replaceInput(
-        {
+    event.replaceInput({
             type: 'minecraft:crafting_shaped',
-            not: [{ id: 'minecraft:stone_slab' }, { id: 'minecraft:stone_stairs' }]
+            not: [{
+                id: 'minecraft:stone_slab'
+            }, {
+                id: 'minecraft:stone_stairs'
+            }]
         },
         'minecraft:stone',
         '#forge:stone',
         true
     );
-    event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:stone', '#forge:stone', true);
-    event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze', true);
-    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:netherrack', '#forge:netherrack');
-    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze');
-    event.replaceInput({ id: 'dustrial_decor:sheet_metal' }, '#forge:ingots/iron', '#forge:plates/iron');
-    event.replaceInput({ mod: 'buildinggadgets' }, '#forge:ingots/iron', '#forge:ingots/iron_aluminum');
+    event.replaceInput({
+        type: 'minecraft:crafting_shapeless'
+    }, 'minecraft:stone', '#forge:stone', true);
+    event.replaceInput({
+        type: 'minecraft:crafting_shapeless'
+    }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze', true);
+    event.replaceInput({
+        type: 'minecraft:crafting_shaped'
+    }, 'minecraft:netherrack', '#forge:netherrack');
+    event.replaceInput({
+        type: 'minecraft:crafting_shaped'
+    }, 'minecraft:flint_and_steel', 'tconstruct:flint_and_bronze');
+    event.replaceInput({
+        id: 'dustrial_decor:sheet_metal'
+    }, '#forge:ingots/iron', '#forge:plates/iron');
+    event.replaceInput({
+        mod: 'buildinggadgets'
+    }, '#forge:ingots/iron', '#forge:ingots/iron_aluminum');
 
     ['quark:tallow', 'eidolon:tallow', 'occultism:tallow'].forEach((tallow) => {
         event.replaceInput({}, tallow, '#forge:tallow');
     });
 
-    event.replaceInput(
-        { id: 'dustrial_decor:iron_bar_trapdoor' },
+    event.replaceInput({
+            id: 'dustrial_decor:iron_bar_trapdoor'
+        },
         'minecraft:iron_bars',
         'dustrial_decor:barbed_iron_bars'
     );
 
-    event.replaceInput(
-        { id: 'bloodmagic:alchemytable/basic_cutting_fluid' },
+    event.replaceInput({
+            id: 'bloodmagic:alchemytable/basic_cutting_fluid'
+        },
         'minecraft:potion',
-        Item.of('minecraft:potion', { Potion: 'minecraft:water' })
+        Item.of('minecraft:potion', {
+            Potion: 'minecraft:water'
+        })
     );
 
-    event.replaceInput({ id: 'minecraft:nether_bricks' }, '#forge:ingots/nether_brick', 'minecraft:nether_brick');
-    event.replaceInput(
-        { id: 'thermal:machine/press/packing2x2/press_nether_bricks_packing' },
+    event.replaceInput({
+        id: 'minecraft:nether_bricks'
+    }, '#forge:ingots/nether_brick', 'minecraft:nether_brick');
+    event.replaceInput({
+            id: 'thermal:machine/press/packing2x2/press_nether_bricks_packing'
+        },
         '#forge:ingots/nether_brick',
         'minecraft:nether_brick'
     );
-    event.replaceInput(
-        { id: 'thermal:machine/press/unpacking/press_wool_unpacking' },
+    event.replaceInput({
+            id: 'thermal:machine/press/unpacking/press_wool_unpacking'
+        },
         'minecraft:white_wool',
         '#forge:wool'
     );
-    event.replaceInput(
-        { id: 'atum:trap_burning' },
+    event.replaceInput({
+            id: 'atum:trap_burning'
+        },
         'minecraft:flint_and_steel',
         'tconstruct:flint_and_bronze'
     );
-    event.replaceInput(
-        { id: 'darkutils:crafting/rune_fire' },
+    event.replaceInput({
+            id: 'darkutils:crafting/rune_fire'
+        },
         'minecraft:flint_and_steel',
         'tconstruct:flint_and_bronze'
     );
-    event.replaceInput(
-        { id: 'zycraft:fire_basin' },
+    event.replaceInput({
+            id: 'zycraft:fire_basin'
+        },
         'minecraft:flint_and_steel',
         'tconstruct:flint_and_bronze'
     );
-    event.replaceInput(
-        { id: 'immersivepetroleum:flarestack' },
+    event.replaceInput({
+            id: 'immersivepetroleum:flarestack'
+        },
         'minecraft:flint_and_steel',
         'tconstruct:flint_and_bronze'
     );
-    event.replaceInput(
-        { id: 'occultism:ritual/summon_wild_afrit' },
+    event.replaceInput({
+            id: 'occultism:ritual/summon_wild_afrit'
+        },
         'minecraft:flint_and_steel',
         'tconstruct:flint_and_bronze'
     );
