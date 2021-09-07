@@ -2406,9 +2406,6 @@ onEvent('recipes', event => {
         id: 'thermal:smelting/lumium_ingot_from_dust_smelting'
     })
 
-    //Lumium dust recipes
-
-
     //Lumium gear recipes
     event.remove({
         id: 'thermal:parts/lumium_gear'
@@ -2822,6 +2819,23 @@ onEvent('recipes', event => {
     })
 
     //Mystical Agriculture Recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_ingot'
+    })
+
+
     event.remove({
         id: 'mysticalagriculture:infusion_altar'
     })

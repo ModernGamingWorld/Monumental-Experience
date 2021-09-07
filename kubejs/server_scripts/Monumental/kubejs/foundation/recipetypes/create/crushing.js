@@ -69,10 +69,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:supremium_essence', 5)],
                 input: 'mysticalagriculture:supremium_block'
             },
-            {
-                outputs: [Item.of('mysticalagriculture:prosperity_shard', 5)],
-                input: 'mysticalagriculture:prosperity_block'
-            },
             //Mystical Agriculture
             {
                 outputs: [Item.of('mysticalagriculture:imperium_essence', 5)],
@@ -83,12 +79,12 @@ onEvent('recipes', (event) => {
                 input: 'mysticalagriculture:inferium_block'
             },
             {
-                outputs: [Item.of('mysticalagriculture:prosperity_shard', 5)],
+                outputs: [Item.of('mysticalagriculture:prosperity_shard', 9)],
                 input: 'mysticalagriculture:prosperity_block'
             },
             {
                 outputs: [
-                    Item.of('mysticalagriculture:prosperity_shard', 1),
+                    Item.of('mysticalagriculture:prosperity_shard', 2),
                     Item.of('buildinggadgets:construction_paste', 2).withChance(0.3),
                     Item.of('minecraft:cobblestone').withChance(0.125)
                 ],
