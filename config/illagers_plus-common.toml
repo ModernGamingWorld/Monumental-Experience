@@ -1,0 +1,135 @@
+
+["Structure Config"]
+
+	#This is the configuration section for controlling the minimum and maximum feature spread distance for structures (in chunks)
+	#WARNING: THE MINIMUM SPREAD DISTANCE CANNOT BE GREATER THAN THE MAXIMUM SPREAD DISTANCE!
+	["Structure Config"."Structure Feature Distance Values"]
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Archer Tower"]
+			#Archer Tower: Minimum spread dist
+			#Range: 1 ~ 256
+			archerTowerMinDist = 45
+			#Archer Tower: Maximum spread dist
+			#Range: 1 ~ 256
+			archerTowerMaxDist = 70
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Centre"]
+			#Centre: Minimum spread dist
+			#Range: 1 ~ 256
+			centreMinDist = 60
+			#Centre: Maximum spread dist
+			#Range: 1 ~ 256
+			centreMaxDist = 90
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Fort"]
+			#Fort: Minimum spread dist
+			#Range: 1 ~ 256
+			fortMinDist = 80
+			#Fort: Maximum spread dist
+			#Range: 1 ~ 256
+			fortMaxDist = 100
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Mine"]
+			#Mine: Minimum spread dist
+			#Range: 1 ~ 256
+			mineMinDist = 50
+			#Mine: Maximum spread dist
+			#Range: 1 ~ 256
+			mineMaxDist = 75
+
+		["Structure Config"."Structure Feature Distance Values"."Illager Tower"]
+			#Tower: Minimum spread dist
+			#Range: 1 ~ 256
+			towerMinDist = 65
+			#Tower: Maximum spread dist
+			#Range: 1 ~ 256
+			towerMaxDist = 70
+
+		["Structure Config"."Structure Feature Distance Values"."Ice Castle"]
+			#Castle: Minimum spread dist
+			#Range: 1 ~ 256
+			iceCastleMinDist = 80
+			#Castle: Maximum spread dist
+			#Range: 1 ~ 256
+			iceCastleMaxDist = 85
+
+	#This is the configuration section for controlling the biomes structures spawn in.
+	["Structure Config"."Structure Feature Blacklists"]
+
+		["Structure Config"."Structure Feature Blacklists"."Illager Archer Tower"]
+			#Biomes for Illager Archer Tower to not spawn in
+			blacklist = ["river", "ocean", "the_end", "nether"]
+
+		["Structure Config"."Structure Feature Blacklists"."Illager Centre"]
+			#Biomes for Illager Centre to not spawn in
+			blacklist = ["river", "ocean", "the_end", "nether"]
+
+		["Structure Config"."Structure Feature Blacklists"."Illager Fort"]
+			#Biomes for Illager Fort to not spawn in
+			blacklist = ["river", "ocean", "extreme_hills", "nether", "the_end", "HILLS", "taiga", "icy", "swamp"]
+
+		["Structure Config"."Structure Feature Blacklists"."Illager Mine"]
+			#Biomes for Illager Mine to not spawn in
+			blacklist = ["river", "ocean", "taiga", "extreme_hills", "jungle", "plains", "icy", "the_end", "nether", "beach", "forest", "swamp"]
+
+		["Structure Config"."Structure Feature Blacklists"."Illager Tower"]
+			#Biomes for Illager Tower to not spawn in
+			blacklist = ["river", "ocean", "the_end", "nether", "taiga", "extreme_hills", "beach", "icy", "desert", "mesa"]
+
+		["Structure Config"."Structure Feature Blacklists"."Ice Castle"]
+			#Biomes for Ice Castle to not spawn in. Ice castles only spawn on top of peaks of mountains anyways
+			blacklist = ["none", "jungle", "mesa", "plains", "savanna", "the_end", "beach", "forest", "ocean", "desert", "river", "swamp", "mushroom", "nether"]
+
+		["Structure Config"."Structure Feature Blacklists"."Dimensional Blacklist"]
+			#Dimensions for all Illagers+ structures to not spawn in
+			blacklist = ["minecraft:the_nether", "minecraft:the_end", "undergarden:undergarden", "atum:atum", "compactmachines:compact_world", "mythicbotany:alfheim", "twilightforest:twilightforest"]
+
+	#This is the configuration section for controlling the amount of entities per wave to spawn.
+	#WARNING: LISTS MUST BE NO LONGER OR SHORTER THAN 8 ENTRIES!
+	#NOTE: SETTING THE LIST TO ALL ZEROS WILL PREVENT THAT ENTITY FROM SPAWNING IN ANY WAVES!
+	["Structure Config"."Raid Wave Member Config"]
+
+		["Structure Config"."Raid Wave Member Config".Archer]
+			#Archer Wave Counts
+			wave_counts = [1, 0, 0, 0, 1, 2, 2, 3]
+
+		["Structure Config"."Raid Wave Member Config".Berserker]
+			#Berserker Wave Counts
+			wave_counts = [0, 0, 0, 0, 0, 1, 1, 1]
+
+		["Structure Config"."Raid Wave Member Config"."Black Iron Golem"]
+			#Black Iron Golem Wave Counts
+			wave_counts = [0, 0, 1, 0, 0, 1, 0, 1]
+
+		["Structure Config"."Raid Wave Member Config".Enchanter]
+			#Enchanter Wave Counts
+			wave_counts = [0, 1, 0, 1, 0, 1, 0, 1]
+
+		["Structure Config"."Raid Wave Member Config".Furantur]
+			#Furantur Wave Counts
+			wave_counts = [1, 0, 1, 1, 0, 2, 1, 2]
+
+		["Structure Config"."Raid Wave Member Config".Hoarder]
+			#Hoarder Wave Counts
+			wave_counts = [1, 1, 1, 1, 1, 1, 1, 1]
+
+		["Structure Config"."Raid Wave Member Config"."Illager King"]
+			#Illager King Wave Counts
+			wave_counts = [0, 0, 0, 1, 0, 0, 0, 1]
+
+		["Structure Config"."Raid Wave Member Config".Necromancer]
+			#Necromancer Wave Counts
+			wave_counts = [0, 0, 1, 0, 1, 1, 1, 1]
+
+		["Structure Config"."Raid Wave Member Config".Miner]
+			#Miner Wave Counts
+			wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
+
+		["Structure Config"."Raid Wave Member Config".Frostmancer]
+			#Frostmancer Wave Counts
+			wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
+
+		["Structure Config"."Raid Wave Member Config".Illager_General]
+			#Illager General Wave Counts
+			wave_counts = [1, 0, 0, 1, 0, 0, 1, 1]
+

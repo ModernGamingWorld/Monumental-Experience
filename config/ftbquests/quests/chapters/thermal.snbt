@@ -1,7 +1,7 @@
 {
 	id: "0000000000000AF7"
 	group: "570AEC24DD8505B2"
-	order_index: 11
+	order_index: 12
 	filename: "thermal"
 	title: "&6Thermal"
 	icon: "thermal:signalum_glass"

@@ -18,5 +18,10 @@
     "serverName": "BedrockLegends Seaopolis!",
     "serverIP": "seaopolis.bedrocklegends.com",
     "forceResourcePack": "false"
+  },
+  {
+    "serverName": "RankerSMP!",
+    "serverIP": "RankerSMP.com:25577",
+    "forceResourcePack": "false"
   }
 ]

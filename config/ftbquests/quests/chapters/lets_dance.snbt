@@ -64,7 +64,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: 1.0d
 			y: -4.0d
 			shape: "gear"
 			dependencies: ["0000000000000D6D"]
@@ -369,31 +369,6 @@
 				}
 				{
 					id: "000000000000178A"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
-			title: "Jellyfields"
-			x: -2.0d
-			y: -4.0d
-			shape: "gear"
-			dependencies: ["0000000000000D6D"]
-			id: "000000000000178B"
-			tasks: [{
-				id: "000000000000178C"
-				type: "item"
-				item: "jellyfishing:music_disc_jellyfish_fields"
-			}]
-			rewards: [
-				{
-					id: "000000000000178D"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "000000000000178E"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
