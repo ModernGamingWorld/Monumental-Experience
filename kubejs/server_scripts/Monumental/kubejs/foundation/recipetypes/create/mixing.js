@@ -446,7 +446,65 @@ events.listen('recipes', (event) => {
                     '#forge:clay'
                 ],
                 output: Item.of('buildinggadgets:construction_block_powder', 1)
+            },
+            //Mystical Ag ingots
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:inferium_essence'
+                ],
+                output: Item.of('mysticalagriculture:inferium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:prudentium_essence',
+                    'mysticalagriculture:prudentium_essence'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:tertium_essence',
+                    'mysticalagriculture:tertium_essence'
+                ],
+                output: Item.of('mysticalagriculture:tertium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:imperium_essence',
+                    'mysticalagriculture:imperium_essence'
+                ],
+                output: Item.of('mysticalagriculture:imperium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:supremium_essence',
+                    'mysticalagriculture:supremium_essence'
+                ],
+                output: Item.of('mysticalagriculture:supremium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagradditions:insanium_essence',
+                    'mysticalagradditions:insanium_essence'
+                ],
+                output: Item.of('mysticalagradditions:insanium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_ingot',
+                    'mysticalagriculture:soulium_dust',
+                    'mysticalagriculture:soulium_dust'
+                ],
+                output: Item.of('mysticalagriculture:soulium_ingot', 1)
             }
+            
         ],
         recipes_superheated: [{
                 inputs: [
@@ -1128,20 +1186,6 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:prudentium_watering_can'
                 ],
                 output: Item.of('mysticalagriculture:tertium_watering_can', 1)
-            },
-            {
-                inputs: [
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget',
-                    'mysticalagriculture:supremium_nugget'
-                ],
-                output: Item.of('mysticalagriculture:supremium_ingot', 3)
             },
             {
                 inputs: [

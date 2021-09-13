@@ -100,7 +100,7 @@ onEvent('recipes', event => {
     })
     //Gateways
     event.shaped(Item.of('gateways:small_gate_opener', '{gateway_data:{name:"gateways.small_blaze_gate",max_wave_time:750,completion_xp:250,color:"red",entity:{Entity:{id:"minecraft:blaze"},Weight:1}},opener_name:\'{"translate":"gateways.gate_opener","with":[{"translate":"gateways.small_blaze_gate"}]}\'}'), [" P ", "PDP", " P "], {
-        P: 'mythicbotany:exoblaze',
+        P: 'botania:fire_rod',
         D: 'greater_eye:greater_eye',
     })
     event.shaped(Item.of('gateways:small_gate_opener', '{gateway_data:{max_wave_time:500,completion_xp:250,color:"white",name:"gateways.small_ghast_gate",entity:{Entity:{id:"minecraft:ghast"},Weight:1}},opener_name:\'{"translate":"gateways.gate_opener","with":[{"translate":"gateways.small_ghast_gate"}]}\'}'), [" P ", "PDP", " P "], {

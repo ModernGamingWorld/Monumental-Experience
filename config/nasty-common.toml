@@ -48,7 +48,7 @@
 	#Explosive Arrow cause Armor to drop
 	ExplosiveArrowOnArmor = true
 	#Explosive Arrow cause Block to drop
-	ExplosiveArrowOnBlock = true
+	ExplosiveArrowOnBlock = false
 	#Explosive Arrow cause Shield to drop
 	ExplosiveArrowOnShield = false
 	#Use blindness instead of nausea for the yellow skeleton

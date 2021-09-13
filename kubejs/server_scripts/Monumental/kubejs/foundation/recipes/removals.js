@@ -447,7 +447,16 @@ onEvent('recipes', event => {
     event.remove({
         id: 'bloodmagic:soul_forge'
     })
-
+    //Botanypots tiers
+    event.remove({
+        id: 'botanypotstiers:elite_botany_pot'
+    })
+    event.remove({
+        id: 'botanypotstiers:ultra_botany_pot'
+    })
+    event.remove({
+        id: 'botanypotstiers:creative_botany_pot'
+    })
     //Bronze blasting and smelting recipes
     event.remove({
         id: 'mekanism:processing/bronze/ingot/from_dust_blasting'
@@ -2406,9 +2415,6 @@ onEvent('recipes', event => {
         id: 'thermal:smelting/lumium_ingot_from_dust_smelting'
     })
 
-    //Lumium dust recipes
-
-
     //Lumium gear recipes
     event.remove({
         id: 'thermal:parts/lumium_gear'
@@ -2767,6 +2773,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'minecraft:anvil'
     })
+    event.remove({
+        id: 'minecraft:enchanting_table'
+    })
 
     //MCWFurnitures recipes
     event.remove({
@@ -2822,6 +2831,22 @@ onEvent('recipes', event => {
     })
 
     //Mystical Agriculture Recipes
+	event.remove({
+        id: 'mysticalagriculture:inferium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_ingot'
+    })
+	
     event.remove({
         id: 'mysticalagriculture:infusion_altar'
     })

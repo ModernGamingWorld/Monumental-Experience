@@ -309,6 +309,7 @@
 			x: -1.5d
 			y: 4.0d
 			dependencies: ["000000000000080C"]
+			dependency_requirement: "one_completed"
 			id: "0000000000000293"
 			rewards: [{
 				id: "00000000000008E9"
@@ -790,6 +791,7 @@
 			x: 1.0d
 			y: 3.0d
 			dependencies: ["0000000000000BC4"]
+			dependency_requirement: "one_completed"
 			id: "0000000000000C2C"
 			rewards: [{
 				id: "0000000000000D63"
@@ -1281,14 +1283,10 @@
 			]
 		}
 		{
+			icon: "draconicevolution:draconium_energy_module"
 			x: 2.0d
 			y: 5.0d
 			id: "49601DF6379F0609"
-			tasks: [{
-				id: "7B5D987BBE9FBA74"
-				type: "item"
-				item: "draconicevolution:draconium_ingot"
-			}]
 			rewards: [{
 				id: "46619FAC812B575C"
 				type: "command"
