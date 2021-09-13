@@ -32,6 +32,12 @@ onEvent('recipes', event => {
 
     //AE2 Recipes
     event.remove({
+        id: 'mysticalagriculture:essence/appliedenergistics2/logic_press'
+    })
+    event.remove({
+        id: 'mysticalagriculture:essence/appliedenergistics2/engineering_press'
+    })
+    event.remove({
         id: 'appliedenergistics2:network/blocks/spatial_anchor'
     })
     event.remove({
