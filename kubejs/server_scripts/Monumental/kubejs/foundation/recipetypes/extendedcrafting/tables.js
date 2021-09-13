@@ -1,29 +1,31 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                result: 'minecraft:apple',
-                pattern: ['XXX', 'X X', 'XXX'],
+        recipes: [
+            {
+                result: 'botanypotstiers:elite_botany_pot',
+                pattern: ['X X', 'XCX', 'SXS'],
                 key: {
-                    X: '#forge:ingots/gold',
+                    X: '#forge:terracotta',
+                    C: 'industrialagriculture:bag_tier_one',
+                    S: 'compressium:iron_2'
                 }
             },
             {
-                result: 'minecraft:torch',
-                pattern: ['XX XX', ' X X ', 'XYZYX'],
+                result: 'botanypotstiers:ultra_botany_pot',
+                pattern: ['X X', 'XCX', 'SXS'],
                 key: {
-                    X: '#forge:ingots/gold',
-                    Y: '#forge:ingots/iron',
-                    Z: 'minecraft:stick'
+                    X: '#forge:terracotta',
+                    C: 'industrialagriculture:bag_tier_two',
+                    S: 'compressium:iron_3'
                 }
             },
             {
-                result: 'minecraft:coal',
-                pattern: ['AAAAAAA', 'BBBBBBB', 'CCCCCCC', 'DDDDDDD'],
+                result: 'botanypotstiers:creative_botany_pot',
+                pattern: ['X X', 'XCX', 'SXS'],
                 key: {
-                    A: '#forge:gems/diamond',
-                    B: '#forge:gems/lapis',
-                    C: 'minecraft:nether_star',
-                    D: '#forge:ingots/iron'
+                    X: '#forge:terracotta',
+                    C: 'industrialagriculture:bag_tier_three',
+                    S: 'compressium:iron_4'
                 }
             },
             {
