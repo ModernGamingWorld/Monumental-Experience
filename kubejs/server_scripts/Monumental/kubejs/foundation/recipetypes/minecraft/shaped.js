@@ -280,6 +280,14 @@ onEvent('recipes', event => {
         S: '#forge:rods/wooden'
     })
     //appliedenergistics2
+    event.shaped(Item.of('appliedenergistics2:engineering_processor_press', 1), ["BBB", "BCB", "BBB"], {
+        B: 'mysticalagriculture:certus_quartz_essence',
+        C: '#forge:gems/mana_diamond'
+    })
+    event.shaped(Item.of('appliedenergistics2:logic_processor_press', 1), ["BBB", "BCB", "BBB"], {
+        B: 'mysticalagriculture:certus_quartz_essence',
+        C: '#forge:ingots/electrum'
+    })
     event.shaped(Item.of('appliedenergistics2:quartz_growth_accelerator', 1), ["aba", "cdc", "aba"], {
         c: 'appliedenergistics2:quartz_glass',
         a: 'contenttweaker:compressed_plate',
@@ -1665,7 +1673,7 @@ onEvent('recipes', event => {
     })
     //Immersive Engineering
     event.shaped(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), [" k ", "ddd", "ppp"], {
-        k: '#immersiveengineering:circuits/pcb',
+        k: 'appliedenergistics2:printed_logic_processor',
         d: '#forge:dyes/blue',
         p: '#forge:paper'
     })
