@@ -491,8 +491,8 @@ events.listen('recipes', (event) => {
             {
                 inputs: [
                     'mysticalagriculture:prosperity_ingot',
-                    'mysticalagriculture:insanium_essence',
-                    'mysticalagriculture:insanium_essence'
+                    'mysticalagradditions:insanium_essence',
+                    'mysticalagradditions:insanium_essence'
                 ],
                 output: Item.of('mysticalagradditions:insanium_ingot', 1)
             },
