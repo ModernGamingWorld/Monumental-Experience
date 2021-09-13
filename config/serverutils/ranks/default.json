@@ -5,8 +5,8 @@
   "perms": [
     "command.ftbteams",
     "command.ftbchunks",
-    "command.ftbchunks.max_claimed_200",
-    "command.ftbchunks.max_force_loaded_2",
+    "command.ftbchunks.max_claimed_130",
+    "command.ftbchunks.max_force_loaded_4",
     "command.locatebiome",
     "serverutils.back",
     "serverutils.delhome",

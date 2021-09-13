@@ -10,7 +10,7 @@
 4 : '{id:"minecraft:iron_shovel",Count:1b,tag:{Damage:0}}',
 5 : '{id:"naturescompass:naturescompass",Count:1b}',
 6 : '{id:"constructionwand:iron_wand",Count:1b,tag:{Damage:0}}',
-7 : '{id:"woodenutilities:wooden_backpack",Count:1b}',
+7 : '{id:"sophisticatedbackpacks:backpack",Count:1b}',
 8 : '{id:"minecraft:bucket",Count:1b}',
 9 : '{id:"prefab:item_start_house",Count:1b}',
 10 : '{id:"woodenutilities:wooden_furnace",Count:1b}',
