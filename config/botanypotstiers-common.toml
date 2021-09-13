@@ -1,5 +1,13 @@
 #
-#Universal Grid Capacity
+#Elite Botany Pot Speed & OUtput
 #Range: > 1
-universalGridCapacity = 3200
+eliteBotanyPotSpeedOutput = 2
+#
+#Ultra Botany Pot Speed & Output
+#Range: > 1
+ultraBotanyPotSpeedOutput = 6
+#
+#Creative Botany Pot Speed & Output
+#Range: > 1
+creativeBotanyPotSpeedOutput = 10
 
