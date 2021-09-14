@@ -3107,6 +3107,9 @@ onEvent('recipes', event => {
         id: 'naturesaura:altar/infused_iron'
     })
     event.remove({
+        id: 'naturesaura:offering_table'
+    }
+    event.remove({
         id: 'naturesaura:altar/tainted_gold'
     })
     event.remove({
