@@ -461,7 +461,6 @@ events.listen('recipes', (event) => {
     //CHARGED CERTUS QUARTZ
     //Charged certus quartz crystal
     event.replaceOutput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem')
-    event.replaceOutput({}, '#forge:gems/charged_certus_quartz', 'emendatusenigmatica:charged_certus_quartz_gem')
     //
     //FLUIX CRYSTAL
     //Fluix crystal
