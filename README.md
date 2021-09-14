@@ -8,7 +8,7 @@
 
 [curseImg]: http://cf.way2muchnoise.eu/363581.svg
 
-[curseLink]: https://www.curseforge.com/minecraft/modpacks/expedition-in-the-sky
+[curseLink]: https://www.curseforge.com/minecraft/modpacks/monumental-experience
 
 
 ## About the Pack:
