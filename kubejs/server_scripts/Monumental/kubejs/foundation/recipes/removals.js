@@ -3108,7 +3108,7 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'naturesaura:offering_table'
-    }
+    })
     event.remove({
         id: 'naturesaura:altar/tainted_gold'
     })
