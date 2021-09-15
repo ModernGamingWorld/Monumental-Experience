@@ -27,7 +27,7 @@ onEvent('recipes', (event) => {
                     tag: 'botania:petals/white'
                 },
                 Q: {
-                    item: 'naturesaura:tainted_gold'
+                    tag: 'astralsorcery:starmetal'
                 },
                 L: {
                     item: 'botania:livingwood'
