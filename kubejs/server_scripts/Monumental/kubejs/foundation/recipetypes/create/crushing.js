@@ -50,8 +50,8 @@ onEvent('recipes', (event) => {
                 input: '#forge:storage_blocks/redstone'
             },
             {
-                outputs: [Item.of('mysticalagradditions:insanium_block', 5)],
-                input: 'mysticalagradditions:insanium_essence'
+                outputs: [Item.of('mysticalagradditions:insanium_essence', 5)],
+                input: 'mysticalagradditions:insanium_block'
             },
             {
                 outputs: [Item.of('mysticalagradditions:insanium_coal', 5)],

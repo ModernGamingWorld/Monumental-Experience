@@ -2012,6 +2012,13 @@ onEvent('recipes', event => {
         B: 'extendedcrafting:redstone_component',
         C: 'mekanism:steel_casing'
     })
+    event.shaped(Item.of('naturesaura:offering_table', 1), ["BAB", "CBD", "EEE"], {
+        A: '#forge:ingots/starmetal',
+        B: '#forge:stone',
+        C: 'naturesaura:token_fear',
+        D: 'naturesaura:token_sorrow',
+        E: '#minecraft:logs'
+    })
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',
         B: '#forge:circuits/basic',

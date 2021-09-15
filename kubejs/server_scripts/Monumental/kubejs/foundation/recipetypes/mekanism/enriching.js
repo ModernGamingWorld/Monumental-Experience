@@ -6,11 +6,11 @@ onEvent('recipes', (event) => {
             },
             {
                 input: '#forge:ores/ender',
-                output: Item.of('#forge:shards/ender', 3)
+                output: Item.of('betterendforge:ender_shard', 3)
             },
             {
                 input: '#forge:ores/amber',
-                output: Item.of('#forge:shards/amber', 3)
+                output: Item.of('druidcraft:amber', 3)
             },
             {
                 input: 'byg:quartzite_sand',
