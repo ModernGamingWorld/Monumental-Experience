@@ -75,7 +75,7 @@ onEvent('recipes', (event) => {
                 output: 'naturesaura:infused_stone',
                 aura_type: 'naturesaura:overworld',
                 catalyst: {
-                    item: 'naturesaura:conversion_catalyst'
+                    item: 'forbidden_arcanus:arcane_crystal_block'
                 },
                 aura: 7500,
                 time: 40
