@@ -104,145 +104,57 @@ onEvent('recipes', (event) => {
             },
             //Emendatus Enigmatica
             {
-                outputs: [Item.of('emendatusenigmatica:bronze_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:bronze_dust', 9)],
                 input: '#forge:storage_blocks/bronze'
             },
             {
-                outputs: [Item.of('emendatusenigmatica:coal_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:coal_dust', 9)],
                 input: '#forge:storage_blocks/coal'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:coal_dust', 1),
-                    Item.of('emendatusenigmatica:coal_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/coal'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:copper_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:copper_dust', 9)],
                 input: '#forge:storage_blocks/copper'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:copper_dust', 1),
-                    Item.of('emendatusenigmatica:copper_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/copper'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:diamond_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:diamond_dust', 9)],
                 input: '#forge:storage_blocks/diamond'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:diamond_dust', 1),
-                    Item.of('emendatusenigmatica:diamond_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/diamond'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:gold_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:gold_dust', 9)],
                 input: '#forge:storage_blocks/gold'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:gold_dust', 1),
-                    Item.of('emendatusenigmatica:gold_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/gold'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:iron_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:iron_dust', 9)],
                 input: '#forge:storage_blocks/iron'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:iron_dust', 1),
-                    Item.of('emendatusenigmatica:iron_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/iron'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:lead_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:lead_dust', 9)],
                 input: '#forge:storage_blocks/lead'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:lead_dust', 1),
-                    Item.of('emendatusenigmatica:lead_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/lead'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:nickel_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:nickel_dust', 9)],
                 input: '#forge:storage_blocks/nickel'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:nickel_dust', 1),
-                    Item.of('emendatusenigmatica:nickel_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/nickel'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:silver_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:silver_dust', 9)],
                 input: '#forge:storage_blocks/silver'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:silver_dust', 1),
-                    Item.of('emendatusenigmatica:silver_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/silver'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:steel_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:steel_dust', 9)],
                 input: '#forge:storage_blocks/steel'
             },
             {
-                outputs: [Item.of('emendatusenigmatica:tin_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:tin_dust', 9)],
                 input: '#forge:storage_blocks/tin'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:tin_dust', 1),
-                    Item.of('emendatusenigmatica:tin_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/tin'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:uranium_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:uranium_dust', 9)],
                 input: '#forge:storage_blocks/uranium'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:uranium_dust', 1),
-                    Item.of('emendatusenigmatica:uranium_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/uranium'
-            },
-            {
-                outputs: [Item.of('emendatusenigmatica:zinc_dust', 5)],
+                outputs: [Item.of('emendatusenigmatica:zinc_dust', 9)],
                 input: '#forge:storage_blocks/zinc'
-            },
-            {
-                outputs: [
-                    Item.of('emendatusenigmatica:zinc_dust', 1),
-                    Item.of('emendatusenigmatica:zinc_dust', 2).withChance(0.3),
-                    Item.of('minecraft:cobblestone').withChance(0.125)
-                ],
-                input: '#forge:ores/zinc'
-            },
+            }
         ]
     };
     data.recipes.forEach((recipe) => {
