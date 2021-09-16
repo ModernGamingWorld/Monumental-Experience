@@ -697,10 +697,6 @@ onEvent('recipes', event => {
     event.shaped(Item.of('minecraft:string', 3), ['AA', 'A '], {
         A: 'supplementaries:flax'
     })
-    event.shaped(Item.of('minecraft:anvil', 1), [" A ", " B ", "BBB"], {
-        A: '#forge:storage_blocks/compressed_iron',
-        B: '#forge:plates/iron'
-    })
     event.shaped(Item.of('minecraft:chest', 1), ["LLL", "L L", "LLL"], {
         L: '#minecraft:logs'
     })
