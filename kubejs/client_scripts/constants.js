@@ -39,6 +39,10 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'ftbquests:detector',
+    'ftbquests:barrier',
+    'ftbquests:stage_barrier',
+    'ftbquests:missing_item',
     'minecraft:brown_mushroom_block',
     'minecraft:damaged_anvil',
     'minecraft:chipped_anvil',
