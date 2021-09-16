@@ -1748,7 +1748,7 @@ onEvent('recipes', event => {
         id: 'inventorypets:brewing_stand_pet'
     })
     event.remove({
-        id: 'inventorypets:enchanting_stand_pet'
+        id: 'inventorypets:enchanting_table_pet'
     })
     event.remove({
         id: 'inventorypets:anvil_pet'
