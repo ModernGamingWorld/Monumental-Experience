@@ -3,7 +3,7 @@
 noise = 0.05000000074505806
 #Enables minimap to show up in corner
 #Allowed Values: DISABLED, BOTTOM_LEFT, LEFT, TOP_LEFT, TOP_RIGHT, RIGHT, BOTTOM_RIGHT
-minimap = "DISABLED"
+minimap = "TOP_RIGHT"
 #Scale of minimap
 #Range: 0.25 ~ 4.0
 minimap_scale = 1.0
