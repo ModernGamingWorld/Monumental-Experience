@@ -872,7 +872,7 @@ onEvent('recipes', event => {
     event.shaped(Item.of('pneumaticcraft:refinery', 1), ["SXS", "XTX", "SAS"], {
         S: '#forge:ingots/compressed_iron',
         T: '#forge:tank',
-        A: 'immersiveengineering:circuit_board',
+        A: 'thermal:upgrade_augment_2',
         X: 'extendedcrafting:redstone_component'
     })
     event.shaped(Item.of('pneumaticcraft:refinery_output', 1), ["SSS", "GDG", "SSS"], {

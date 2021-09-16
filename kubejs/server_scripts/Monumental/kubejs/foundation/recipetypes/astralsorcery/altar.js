@@ -27,13 +27,13 @@ onEvent('recipes', (event) => {
                     tag: 'botania:petals/white'
                 },
                 Q: {
-                    item: 'naturesaura:tainted_gold'
+                    tag: 'astralsorcery:starmetal'
                 },
                 L: {
                     item: 'botania:livingwood'
                 },
                 S: {
-                    item: 'botania:lens_normal'
+                    item: 'astralsorcery:glass_lens'
                 }
             },
             altar_type: 0,

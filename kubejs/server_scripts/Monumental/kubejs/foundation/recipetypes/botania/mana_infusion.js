@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
             mana: 27000
         },
         {
-            input: '#forge:gems/psigem',
+            input: 'occultism:soul_gem',
             output: 'botania:mana_diamond',
             count: 1,
             mana: 10000
