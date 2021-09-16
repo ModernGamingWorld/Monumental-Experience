@@ -144,8 +144,8 @@ onEvent('recipes', (event) => {
             ]
         },  
         {
-            output: Item.of('inventorypets:pet_christmas_tree', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
-            pattern: ['_____', '_QQC_', '_QPQ_', '_QLQ_', '_____'],
+            output: Item.of('inventorypets:pet_illuminati', '{Damage:0,slowDelay:1631768510966L,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QQQ_', '_QPQ_', '_QLQ_', '_____'],
             key: {
                 P: {
                     tag: 'forge:gems/mana_diamond'
