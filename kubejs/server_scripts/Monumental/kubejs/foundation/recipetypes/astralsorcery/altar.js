@@ -19,7 +19,152 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
-        }, {
+        }, 
+        {
+            output: Item.of('inventorypets:pet_enchanting_table', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QXQ_', '_QPQ_', '_QLQ_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    item: 'compressium:obsidian_1'
+                },
+                L: {
+                    tag: 'forge:ingots/electrum'
+                },
+                X: {
+                    tag: 'forge:books'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },  
+        {
+            output: Item.of('inventorypets:pet_brewing_stand', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QXQ_', '_QPQ_', '_QLQ_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    item: 'compressium:cobblestone_1'
+                },
+                L: {
+                    tag: 'forge:ingots/electrum'
+                },
+                X: {
+                    tag: 'forge:crops/nether_wart'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },   
+        {
+            output: Item.of('inventorypets:pet_anvil', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QQQ_', '_QPQ_', '_QLQ_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    tag: 'forge:plates/iron'
+                },
+                L: {
+                    tag: 'forge:storage_blocks/electrum'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },  
+        {
+            output: Item.of('inventorypets:pet_menorah'),
+            pattern: ['_____', '_QXQ_', '_CPC_', '_CLC_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    item: 'compressium:lapis_1'
+                },
+                L: {
+                    tag: 'forge:ingots/electrum'
+                },
+                X: {
+                    tag: 'forge:gems/lapis'
+                },
+                C: {
+                    item: 'compressium:gold_1'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },  
+        {
+            output: Item.of('inventorypets:pet_christmas_tree', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QXC_', '_QPC_', '_QLC_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    item: 'compressium:redstone_1'
+                },
+                L: {
+                    tag: 'forge:ingots/electrum'
+                },
+                X: {
+                    tag: 'forge:cookies'
+                },
+                C: {
+                    item: 'compressium:emerald_1'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },  
+        {
+            output: Item.of('inventorypets:pet_christmas_tree', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'),
+            pattern: ['_____', '_QQC_', '_QPQ_', '_QLQ_', '_____'],
+            key: {
+                P: {
+                    tag: 'forge:gems/mana_diamond'
+                },
+                Q: {
+                    item: 'compressium:emerald_1'
+                },
+                L: {
+                    tag: 'forge:nether_stars'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },     
+        {
             output: Item.of('botania:mana_spreader', 1),
             pattern: ['_____', '_LLL_', '_QPS_', '_LLL_', '_____'],
             key: {
@@ -42,7 +187,8 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
-        }, {
+        }, 
+        {
             output: Item.of('botania:lens_normal', 1),
             pattern: ['_____', '__L__', '_LPL_', '__L__', '_____'],
             key: {
