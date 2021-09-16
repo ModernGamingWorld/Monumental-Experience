@@ -57,6 +57,7 @@ mobsToUnify.forEach((mobs) => {
         'druidcraft:' + mobs + '_spawn_egg',
         'exoticbirds:' + mobs + '_spawn_egg',
         'exoticbirds:' + mobs + '_egg',
+        'illagers_plus:' + mobs + '_egg',
         'infernalexp:' + mobs + '_spawn_egg',
         'instrumentalmobs:' + mobs + '_spawn_egg',
         'good_nights_sleep:' + mobs + '_spawn_egg',
@@ -93,7 +94,10 @@ mobsToUnify.forEach((mobs) => {
         'upgrade_aquatic:' + mobs + '_spawn_egg',
         'eidolon:spawn_' + mobs,
         'betterendforge:spawn_egg_' + mobs,
-        'goblintraders:' + mobs + '_spawn_egg'
+        'goblintraders:' + mobs + '_spawn_egg',
+        'environmental:' + mobs + '_spawn_egg',
+        'blue_skies:' + mobs + '_spawn_egg',
+        'mana-and-artifice:' + mobs + '_spawn_egg'
     );
 });
 
