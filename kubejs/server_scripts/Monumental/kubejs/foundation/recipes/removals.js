@@ -1743,6 +1743,26 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:zombie_pigman_essence'
     })
 
+    //Inventorypets recipes
+    event.remove({
+        id: 'inventorypets:brewing_stand_pet'
+    })
+    event.remove({
+        id: 'inventorypets:enchanting_stand_pet'
+    })
+    event.remove({
+        id: 'inventorypets:anvil_pet'
+    })
+    event.remove({
+        id: 'inventorypets:pet_menorah'
+    })
+    event.remove({
+        id: 'inventorypets:pet_christmas_tree'
+    })
+    event.remove({
+        id: 'inventorypets:illuminati_pet'
+    })
+
     //Iron ingot to nuggets recipes
     event.remove({
         id: 'dustrial_decor:rusty_iron_nugget_from_ingot'
