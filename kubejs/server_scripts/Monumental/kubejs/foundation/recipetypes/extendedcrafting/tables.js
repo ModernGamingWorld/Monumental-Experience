@@ -62,6 +62,26 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'create:creative_blaze_cake',
+                pattern: ['ABCBA', 'BAXAB', 'CXAXC', 'BAXAB', 'ABCBA'],
+                key: {
+                    A: 'minecraft:cake',
+                    B: 'tconstruct:earth_cake',
+                    C: 'createaddition:chocolate_cake',
+                    X: 'mana-and-artifice:enchantment_focus_fire'
+                }
+            },
+            {
+                result: 'create:creative_motor',
+                pattern: ['ABCBA', 'BAXAB', 'CXAXC', 'BAXAB', 'ABCBA'],
+                key: {
+                    A: 'createaddition:electric_motor',
+                    B: 'transport:solid_fuel_engine',
+                    C: 'immersiveengineering:toolbox',
+                    X: 'create:furnace_engine'
+                }
+            },
+            {
                 result: 'rftoolspower:dimensionalcell_creative',
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {
@@ -152,6 +172,17 @@ onEvent('recipes', (event) => {
                     C: 'draconicevolution:awakened_draconium_ingot',
                     D: 'draconicevolution:draconic_capacitor',
                     E: 'extendedcrafting:ultimate_catalyst'
+                }
+            },
+            {
+                result: 'iceandfire:creative_dragon_meal',
+                pattern: ['    A    ', '  BBABB  ', ' BCCACCB ', ' BCDADCB ', 'AAAAEAAAA', ' BCDADCB ', ' BCCACCB ', '  BBABB  ', '    A    '],
+                key: {
+                    A: 'iceandfire:sickly_dragon_meal',
+                    B: 'iceandfire:dragon_meal',
+                    C: 'pamhc2foodextended:delightedmealitem',
+                    D: 'farmersdelight:steak_and_potatoes',
+                    E: 'mana-and-artifice:enchantment_focus_fire'
                 }
             },
             {
