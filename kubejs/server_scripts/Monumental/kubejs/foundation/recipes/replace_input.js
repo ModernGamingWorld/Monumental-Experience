@@ -8,6 +8,10 @@ onEvent('recipes', (event) => {
     }];
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
     event.replaceInput({}, 'minecraft:repeater', 'create:adjustable_pulse_repeater');
+    event.replaceInput({}, 'minecraft:comparator', 'rsgauges:industrial_comparator_switch');
+    event.replaceInput({}, 'minecraft:anvil', 'inventorypets:pet_anvil');
+    event.replaceInput({}, 'minecraft:enchanting_table', 'inventorypets:pet_enchanting_table');
+    event.replaceInput({}, 'minecraft:brewing_stand', 'inventorypets:pet_brewing_stand');
     event.replaceInput({}, 'prefab:block_compressed_dirt', 'compressium:dirt_1');
     event.replaceInput({}, 'prefab:block_double_compressed_dirt', 'compressium:dirt_2');
     event.replaceInput({}, 'prefab:block_compressed_stone', 'compressium:stone_1');

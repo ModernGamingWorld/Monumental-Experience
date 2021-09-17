@@ -697,10 +697,6 @@ onEvent('recipes', event => {
     event.shaped(Item.of('minecraft:string', 3), ['AA', 'A '], {
         A: 'supplementaries:flax'
     })
-    event.shaped(Item.of('minecraft:anvil', 1), [" A ", " B ", "BBB"], {
-        A: '#forge:storage_blocks/compressed_iron',
-        B: '#forge:plates/iron'
-    })
     event.shaped(Item.of('minecraft:chest', 1), ["LLL", "L L", "LLL"], {
         L: '#minecraft:logs'
     })
@@ -2018,6 +2014,11 @@ onEvent('recipes', event => {
         C: 'naturesaura:token_fear',
         D: 'naturesaura:token_sorrow',
         E: '#minecraft:logs'
+    })
+    event.shaped(Item.of('rsgauges:industrial_comparator_switch', 1), ["AAA", "BBC", "AAA"], {
+        A: '#forge:plates/iron',
+        B: '#forge:storage_blocks/redstone',
+        C: 'minecraft:comparator',
     })
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',

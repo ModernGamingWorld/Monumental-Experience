@@ -39,6 +39,9 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'quark:matrix_enchanter',
+    'cyclic:item_infinite',
+    'cyclic:battery_infinite',
     'ftbquests:detector',
     'ftbquests:barrier',
     'ftbquests:stage_barrier',

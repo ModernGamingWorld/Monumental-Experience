@@ -103,7 +103,7 @@ onEvent('recipes', (event) => {
                     A: '#forge:plates/enderium',
                     B: 'create:mechanical_piston',
                     C: 'contenttweaker:compressed_plate',
-                    D: 'pneumaticcraft:printed_circuit_board',
+                    D: 'thermal:upgrade_augment_3',
                     E: 'appliedenergistics2:purified_fluix_crystal'
                 },
                 result: Item.of('appliedenergistics2:inscriber', 1)
