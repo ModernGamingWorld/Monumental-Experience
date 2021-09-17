@@ -3751,6 +3751,11 @@ onEvent('recipes', event => {
 
     //Router reborn rod recipes
     event.remove({
+        id: 'rsgauges:industrial/industrial_comparator_switch_recipe'
+    })
+
+    //Router reborn rod recipes
+    event.remove({
         id: 'routerreborn:barrel_t1'
     })
     event.remove({
