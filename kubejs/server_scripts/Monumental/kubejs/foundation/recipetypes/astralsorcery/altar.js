@@ -163,7 +163,28 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
-        },     
+        },
+        {
+            output: Item.of('cyclic:disenchanter', 1),
+            pattern: ['_____', '_PPP_', '_PQP_', '_LLL_', '_____'],
+            key: {
+                P: {
+                    item: 'compressium:emerald_1'
+                },
+                Q: {
+                    item: 'inventorypets:pet_enchanting_table'
+                },
+                L: {
+                    item: 'compressium:obsidian_1'
+                }
+            },
+            altar_type: 0,
+            duration: 100,
+            starlight: 250,
+            effects: [
+                'astralsorcery:built_in_effect_discovery_central_beam'
+            ]
+        },      
         {
             output: Item.of('botania:mana_spreader', 1),
             pattern: ['_____', '_LLL_', '_QPS_', '_LLL_', '_____'],
