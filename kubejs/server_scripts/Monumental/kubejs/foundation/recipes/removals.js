@@ -1000,6 +1000,24 @@ onEvent('recipes', event => {
     event.remove({
         id: 'cyclic:solidifier'
     })
+    event.remove({
+        id: 'cyclic:disenchanter'
+    })
+    event.remove({
+        id: 'cyclic:ender_pearl_mounted'
+    })
+    event.remove({
+        id: 'cyclic:ender_pearl_reuse_alt'
+    })
+    event.remove({
+        id: 'cyclic:location_wipenbt'
+    })
+    event.remove({
+        id: 'cyclic:soldifier_amber'
+    })
+    event.remove({
+        id: 'cyclic:soldifier_obs'
+    })
 
     //Draconic Evolution Recipes
     event.remove({
