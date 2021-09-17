@@ -2015,6 +2015,11 @@ onEvent('recipes', event => {
         D: 'naturesaura:token_sorrow',
         E: '#minecraft:logs'
     })
+    event.shaped(Item.of('rsgauges:industrial_comparator_switch', 1), ["AAA", "BBC", "AAA"], {
+        A: '#forge:plates/iron',
+        B: '#forge:storage_blocks/redstone',
+        C: 'minecraft:comparator',
+    })
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',
         B: '#forge:circuits/basic',
