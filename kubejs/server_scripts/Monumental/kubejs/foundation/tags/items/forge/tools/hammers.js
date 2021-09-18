@@ -1,9 +1,12 @@
 onEvent('item.tags', (event) => {
-    event.add('forge:tools/wrenches', [
-        'routerreborn:itemwrench',
-        'appliedenergistics2:nether_quartz_wrench',
-        'appliedenergistics2:certus_quartz_wrench',
-        'create:wrench',
-        'cyclic:cable_wrench'
-    ]);
+    var exceptions = ['betterendforge:aeternium_hammer_head'];
+
+    var tags = ['forge:tools', 'forge:tools/hammer'];
+
+    tags.forEach((tag) => {
+        event
+            .get(tag)
+            .add(/betterendforge:\w+_hammer/)
+            .remove(exceptions);
+    });
 });
