@@ -21,11 +21,13 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 </p>
 
 
-![alt tag](https://i.imgur.com/ripnh5d.png)
+<p align="center">
+  <img width="278" height="64" src="https://i.imgur.com/PFwbtNf.png">
+</p>
 
 
 <p align="center">
-  <img width="1124" height="200" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
+  <img width="500" height="100" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
 </p>
   
   <p align="center">
@@ -35,7 +37,7 @@ Use the Code “BedrockLegends”, and you will save 25% OFF on your first purch
 
 
 <p align="center">
-  <img width="1124" height="230" src="https://i.imgur.com/6w9hdxC.png">
+  <img width="278" height="64" src="https://i.imgur.com/6w9hdxC.png">
 </p>
 
 
