@@ -21,7 +21,7 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 </p>
 
 
-![alt tag](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_PlayWithFriends.png)
+![alt tag](https://i.imgur.com/ripnh5d.png)
 
 
 <p align="center">
@@ -35,7 +35,7 @@ Use the Code “BedrockLegends”, and you will save 25% OFF on your first purch
 
 
 <p align="center">
-  <img width="1124" height="230" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_AddiitonalCredits.png">
+  <img width="1124" height="230" src="https://i.imgur.com/6w9hdxC.png">
 </p>
 
 
