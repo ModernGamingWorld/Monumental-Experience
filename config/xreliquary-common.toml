@@ -18,7 +18,7 @@ mobDropsEnabled = true
 	#Disable all display-only pedestals
 	passivePedestal = false
 	#Disable recipes to craft spawn eggs from fragments
-	disableSpawnEggRecipes = false
+	disableSpawnEggRecipes = true
 
 #Potions related settings
 [potions]
