@@ -22,7 +22,7 @@ Welcome to Monumental Experience, where everything you ever loved about Minecraf
 
 
 <p align="center">
-  <img width="278" height="64" src="https://i.imgur.com/PFwbtNf.png">
+  <img width="278" height="64" src="https://i.imgur.com/VkUkvi7.png">
 </p>
 
 
