@@ -20,16 +20,11 @@
 Welcome to Monumental Experience, where everything you ever loved about Minecraft is changed in a new Monumental way. Explore the world looking for the choicest biome both to build your magnificent structures but also to mine the most extraordinary ores! With your home front established, travel the world in search of treasures and untold magic and tech.
 </p>
 
-
-<p align="center">
-  <img width="1124" height="200" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Community.png">
-</p>
-
-
 <p align="center">
   <img width="500" height="100" src="https://www.bisecthosting.com/partners/custom-banners/67e0a130-f195-4e06-850f-1f61faf0414f.png">
 </p>
-  
+ 
+ 
   <p align="center">
 We have partnered with BisectHosting!!!
 Use the Code “BedrockLegends”, and you will save 25% OFF on your first purchase as a new client with Bisect Hosting!
@@ -37,7 +32,7 @@ Use the Code “BedrockLegends”, and you will save 25% OFF on your first purch
 
 
 <p align="center">
-  <img width="278" height="64" src="https://i.imgur.com/6w9hdxC.png">
+  <img width="1124" height="200" src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_AddiitonalCredits.png">
 </p>
 
 
