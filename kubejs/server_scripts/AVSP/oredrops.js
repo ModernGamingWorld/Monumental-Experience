@@ -18,6 +18,8 @@ onEvent('block.loot_tables', event => {
     //-----OVERWORLD-----
     //
     //
+    //BONE
+    event.addSimpleBlock('#forge:ores/bone', 'minecraft:bone')
     //COAL
     event.addSimpleBlock('#forge:ores/coal', 'emendatusenigmatica:coal_chunk')
     //IRON

@@ -2,6 +2,9 @@ events.listen('jei.hide.items', (event) => {
     materialsToUnify.forEach((material) => {
         itemsToHide.push(
             'create:' + material + '_ore',
+            'draconicevolution:' + material + '_ore',
+            'byg:' + material + '_ore',
+            'mythicbotany:' + material + '_ore',
             'occultism:' + material + '_ingot',
             'occultism:' + material + '_ore',
             'occultism:' + material + '_dust',
@@ -35,7 +38,7 @@ events.listen('jei.hide.items', (event) => {
             'druidcraft:' + material + '_ore',
             'bigreactors:' + material + '_ore',
             'forbidden_arcanus:' + material + '_ore',
-            'byg:' + material + '_ore',
+            'atum:' + material + '_ore',
             'undergarden:' + material + '_ore',
             'mysticalagradditions:' + material + '_ore',
             'mysticalagriculture:' + material + '_ore',
@@ -45,7 +48,10 @@ events.listen('jei.hide.items', (event) => {
             'gobber2:' + material + '_ore_nether',
             'gobber2:' + material + '_ore_end',
             'create:' + material + '_block',
-            'quark:' + material + '_ore'
+            'quark:' + material + '_ore',
+            'appliedenergistics2:' + material + '_ore',
+            'biggerreactors:' + material + '_ore',
+            'blue_skies:' + material + '_ore',
         );
 });
 
