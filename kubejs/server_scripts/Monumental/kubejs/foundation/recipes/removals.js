@@ -3153,6 +3153,12 @@ onEvent('recipes', event => {
     event.remove({
         id: 'naturesaura:altar/infused_stone'
     })
+    event.remove({
+        id: 'naturesaura:offering/sky_ingot'
+    })
+    event.remove({
+        id: 'naturesaura:offering/sky_ingot_from_gold'
+    })
 
     //Osmium ingot to nugget recipes
     event.remove({
