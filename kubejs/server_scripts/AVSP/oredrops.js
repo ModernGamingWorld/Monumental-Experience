@@ -74,7 +74,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:coal_chunk'
             })
@@ -84,7 +84,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:coal_chunk'
             })
@@ -95,7 +95,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:iron_chunk'
             })
@@ -105,7 +105,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:iron_chunk'
             })
@@ -115,7 +115,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:iron_chunk'
             })
@@ -126,7 +126,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:gold_chunk'
             })
@@ -136,7 +136,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:gold_chunk'
             })
@@ -146,7 +146,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:gold_chunk'
             })
@@ -157,7 +157,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:diamond_chunk'
             })
@@ -167,7 +167,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:diamond_chunk'
             })
@@ -177,7 +177,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:diamond_chunk'
             })
@@ -188,7 +188,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:emerald_chunk'
             })
@@ -198,7 +198,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:emerald_chunk'
             })
@@ -208,7 +208,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:emerald_chunk'
             })
@@ -219,7 +219,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lapis_chunk'
             })
@@ -229,7 +229,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lapis_chunk'
             })
@@ -239,7 +239,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lapis_chunk'
             })
@@ -250,7 +250,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:redstone_chunk'
             })
@@ -260,7 +260,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:redstone_chunk'
             })
@@ -270,7 +270,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:redstone_chunk'
             })
@@ -281,7 +281,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:quartz_chunk'
             })
@@ -291,7 +291,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:quartz_chunk'
             })
@@ -301,7 +301,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:quartz_chunk'
             })
@@ -312,7 +312,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:copper_chunk'
             })
@@ -322,7 +322,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:copper_chunk'
             })
@@ -332,7 +332,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:copper_chunk'
             })
@@ -343,7 +343,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:aluminum_chunk'
             })
@@ -353,7 +353,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:aluminum_chunk'
             })
@@ -363,7 +363,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:aluminum_chunk'
             })
@@ -374,7 +374,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:silver_chunk'
             })
@@ -384,7 +384,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:silver_chunk'
             })
@@ -394,7 +394,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:silver_chunk'
             })
@@ -405,7 +405,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lead_chunk'
             })
@@ -415,7 +415,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lead_chunk'
             })
@@ -425,7 +425,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:lead_chunk'
             })
@@ -436,7 +436,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:nickel_chunk'
             })
@@ -446,7 +446,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:nickel_chunk'
             })
@@ -456,7 +456,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:nickel_chunk'
             })
@@ -467,7 +467,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:uranium_chunk'
             })
@@ -477,7 +477,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:uranium_chunk'
             })
@@ -487,7 +487,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:uranium_chunk'
             })
@@ -498,7 +498,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:osmium_chunk'
             })
@@ -508,7 +508,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:osmium_chunk'
             })
@@ -518,7 +518,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:osmium_chunk'
             })
@@ -529,7 +529,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:tin_chunk'
             })
@@ -539,7 +539,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:tin_chunk'
             })
@@ -549,7 +549,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:tin_chunk'
             })
@@ -560,7 +560,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:zinc_chunk'
             })
@@ -570,7 +570,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:zinc_chunk'
             })
@@ -580,7 +580,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:zinc_chunk'
             })
@@ -591,7 +591,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cobalt_chunk'
             })
@@ -601,7 +601,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cobalt_chunk'
             })
@@ -612,7 +612,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:certus_quartz_chunk'
             })
@@ -622,7 +622,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cobalt_chunk'
             })
@@ -632,7 +632,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:certus_quartz_chunk'
             })
@@ -643,7 +643,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:charged_certus_quartz_chunk'
             })
@@ -653,7 +653,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cobalt_chunk'
             })
@@ -663,7 +663,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:charged_certus_quartz_chunk'
             })
@@ -674,7 +674,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:fluorite_chunk'
             })
@@ -684,7 +684,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:fluorite_chunk'
             })
@@ -694,7 +694,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:fluorite_chunk'
             })
@@ -705,7 +705,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cinnabar_chunk'
             })
@@ -715,7 +715,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cinnabar_chunk'
             })
@@ -725,7 +725,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:cinnabar_chunk'
             })
@@ -736,7 +736,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:apatite_chunk'
             })
@@ -746,7 +746,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:apatite_chunk'
             })
@@ -756,7 +756,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:apatite_chunk'
             })
@@ -767,7 +767,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:sulfur_chunk'
             })
@@ -777,7 +777,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:sulfur_chunk'
             })
@@ -787,7 +787,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:sulfur_chunk'
             })
@@ -798,7 +798,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:potassium_nitrate_chunk'
             })
@@ -808,7 +808,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:potassium_nitrate_chunk'
             })
@@ -818,7 +818,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:potassium_nitrate_chunk'
             })
@@ -829,7 +829,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:potassium_nitrate_chunk'
             })
@@ -840,7 +840,7 @@ onEvent('block.loot_tables', event => {
         table.pool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
-            pool.addItem({
+            pool.addEntry({
                 type: 'minecraft:item',
                 name: 'emendatusenigmatica:potassium_nitrate_chunk'
             })
