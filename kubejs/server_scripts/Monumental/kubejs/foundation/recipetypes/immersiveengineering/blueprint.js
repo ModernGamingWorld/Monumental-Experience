@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
                         }
                     },
                     {
-                        item: 'pneumaticcraft:printed_circuit_board'
+                        item: 'thermal:upgrade_augment_3'
                     },
                     {
                         tag: 'forge:plates/copper'

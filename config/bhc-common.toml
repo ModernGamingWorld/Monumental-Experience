@@ -4,6 +4,4 @@
 	heartStackSize = 10
 	#How often do wither bones Drop? (1.0 = 100 % and 0.0 means 0%)
 	boneDropRate = 0.15
-	#Allow Starting Health Tweaks
-	allowStartingHealthTweaks = false
 

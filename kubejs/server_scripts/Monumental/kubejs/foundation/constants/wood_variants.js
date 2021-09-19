@@ -55,6 +55,7 @@ var woodVariantsToConstruct = [
     'betterendforge:umbrella_tree',
     'betterendforge:jellyshroom',
     'betterendforge:end_lotus',
+    'betterendforge:lucernia',
     'upgrade_aquatic:driftwood',
     'upgrade_aquatic:river',
     'architects_palette:twisted',

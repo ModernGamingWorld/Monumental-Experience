@@ -29,3 +29,7 @@ const createStoneTypes = [
     'dark_scoria',
     'natural_scoria'
 ];
+
+// Quark Crystal Cluster Colors
+
+const quark_crystal_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'white', 'black'];

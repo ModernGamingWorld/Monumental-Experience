@@ -20,7 +20,7 @@
 	BonusHardPower = 7
 	#Magic Damage for arrow used by purple skeleton
 	#Range: 0 ~ 50
-	MagicDamage = 3
+	MagicDamage = 6
 	#Poison Time
 	#Range: 1 ~ 30
 	PoisonTime = 9
@@ -38,7 +38,7 @@
 	SpawnDungeon = 100
 	#Spawn light level (use 7 to be same as normal skeletons)
 	#Range: 0 ~ 15
-	SpawnLightLevel = 9
+	SpawnLightLevel = 7
 	#Arrow Damage Multiplier (damage to skeleton)
 	#Range: 0.0 ~ 1.0
 	ArrowDamageMultiplier = 0.5
@@ -46,13 +46,13 @@
 	#Range: 0.0 ~ 1.0
 	AddInaccuracy = 0.7
 	#Explosive Arrow cause Armor to drop
-	ExplosiveArrowOnArmor = true
+	ExplosiveArrowOnArmor = false
 	#Explosive Arrow cause Block to drop
 	ExplosiveArrowOnBlock = false
 	#Explosive Arrow cause Shield to drop
-	ExplosiveArrowOnShield = false
+	ExplosiveArrowOnShield = true
 	#Use blindness instead of nausea for the yellow skeleton
-	UseBlindness = false
+	UseBlindness = true
 	#Explosive Arrow strength
 	#Range: 1.0 ~ 1500.0
 	ExplosiveArrowStrength = 8.0

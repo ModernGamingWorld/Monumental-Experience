@@ -590,6 +590,21 @@ const treeRegistry = [
                 rate: { living: 25, dead: 4 }
             },
             {
+                sapling: 'betterendforge:lucernia_sapling',
+                trunk: 'betterendforge:lucernia_log',
+                leaf: 'betterendforge:lucernia_leaves',
+                substrate: 'rutiscus',
+                sap: 'thermal:resin',
+                rate: { living: 25, dead: 4 }
+            },
+            {
+                sapling: 'betterendforge:small_amaranita_mushroom',
+                trunk: 'betterendforge:amaranita_stem',
+                leaf: 'betterendforge:amaranita_cap',
+                extraDecoration: 'betterendforge:amaranita_lantern',
+                substrate: 'sangnum'
+            },
+            {
                 sapling: 'betterendforge:tenanea_sapling',
                 trunk: 'betterendforge:tenanea_log',
                 leaf: 'betterendforge:tenanea_leaves',
