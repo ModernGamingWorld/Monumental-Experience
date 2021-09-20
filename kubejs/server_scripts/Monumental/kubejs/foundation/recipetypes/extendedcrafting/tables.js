@@ -203,23 +203,6 @@ onEvent('recipes', (event) => {
                 }
             },
             {
-                result: 'botania:creative_pool',
-                pattern: ['ABCDEFGH', 'BDEEEEEDB', 'BEFGHGFEB', 'BEGIJIGEB', 'CEHJKJHEC', 'BEGIJIGEB', 'BEFGHGFEB', 'BDEEEEEDB', 'ABBBCBBBA'],
-                key: {
-                    A: 'botania:mana_pool',
-                    B: '#forge:ingots/manasteel',
-                    C: 'botania:diluted_pool',
-                    D: 'botania:laputa_shard',
-                    E: 'eidolon:shadow_gem',
-                    F: 'botania:fabulous_pool',
-                    G: '#forge:storage_blocks/terrasteel',
-                    H: 'botania:gaia_pylon',
-                    I: 'mythicbotany:aquapanthus',
-                    J: 'mythicbotany:hellebore',
-                    K: 'mythicbotany:ice_ring'
-                }
-            },
-            {
                 result: Item.of('botania:mana_tablet', '{mana:500000,creative:1b}'),
                 pattern: ['ABBBCBBBA', 'BDEEEEEDB', 'BEFGHGFEB', 'BEGIJIGEB', 'CEHJKJHEC', 'BEGIJIGEB', 'BEFGHGFEB', 'BDEEEEEDB', 'ABBBCBBBA'],
                 key: {
