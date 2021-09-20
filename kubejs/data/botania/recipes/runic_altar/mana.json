@@ -23,27 +23,5 @@
         {
             "item": "botania:mana_pearl"
         }
-    ],
-    "type": "botania:runic_altar",
-    "output": {
-        "item": "botania:rune_water"
-    },
-    "mana": 8000,
-    "ingredients": [
-        {
-            "tag": "forge:dust/mana"
-        },
-        {
-            "tag": "forge:ingots/manasteel"
-        },
-        {
-            "tag": "forge:fertilizer"
-        },
-        {
-            "tag": "forge:sugar_cane"
-        },
-        {
-            "tag": "#forge:fishing_rods"
-        }
     ]
 }
