@@ -82,6 +82,16 @@ onEvent('recipes', (event) => {
                 }
             },
             {
+                result: 'create:creative_fluid_tank',
+                pattern: ['ABCBA', 'BAXAB', 'CXAXC', 'BAXAB', 'ABCBA'],
+                key: {
+                    A: 'overloaded:true_infinite_tank',
+                    B: 'pneumaticcraft:small_tank',
+                    C: 'quantumstorage:tank',
+                    X: 'pneumaticcraft:medium_tank'
+                }
+            },
+            {
                 result: 'rftoolspower:dimensionalcell_creative',
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {

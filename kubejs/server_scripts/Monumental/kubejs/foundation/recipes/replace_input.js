@@ -7,6 +7,8 @@ onEvent('recipes', (event) => {
         replaceWith: '#forge:chests/wooden'
     }];
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
+    event.replaceInput({}, 'immersiveengineering:hammer', '#forge:tools/crafting_hammer');
+    event.replaceInput({}, 'emendatusenigmatica:enigmatic_hammer', '#forge:tools/crafting_hammer');
     event.replaceInput({}, 'minecraft:repeater', 'create:adjustable_pulse_repeater');
     event.replaceInput({}, 'minecraft:comparator', 'rsgauges:industrial_comparator_switch');
     event.replaceInput({}, 'minecraft:anvil', 'inventorypets:pet_anvil');

@@ -85,7 +85,7 @@ onEvent('recipes', event => {
     //DruidCraft
     event.shaped(Item.of('druidcraft:elder_pressure_plate', 1), [" A ", " B ", " B "], {
         A: 'druidcraft:elder_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     //Enviro Core
     event.shaped(Item.of('envirocore:obsidian_plate', 4), ["AA ", "AA ", "   "], {
@@ -148,7 +148,7 @@ onEvent('recipes', event => {
     })
     event.shaped(Item.of('extendedcrafting:black_iron_slate', 1), [' B ', ' A ', ' A '], {
         A: 'extendedcrafting:black_iron_ingot',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('extendedcrafting:basic_table', 1), ['CDC', 'ABA', 'CDC'], {
         A: '#forge:plates/iron',
@@ -260,11 +260,7 @@ onEvent('recipes', event => {
     })
     event.shaped(Item.of('woodenutilities:wooden_plate', 1), [" $ ", " S ", " S "], {
         S: '#minecraft:planks',
-        $: 'immersiveengineering:hammer'
-    })
-    event.shaped(Item.of('woodenutilities:wooden_plate', 1), [" $ ", " S ", " S "], {
-        S: '#minecraft:planks',
-        $: 'emendatusenigmatica:enigmatic_hammer'
+        $: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('woodenutilities:wooden_furnace', 1), ["BIB", "ISI", "BIB"], {
         B: '#minecraft:logs',
@@ -461,105 +457,100 @@ onEvent('recipes', event => {
     //Need to be switched back to B: '#forge:tools/wrenches" when #70 resolved
     event.shaped(Item.of('emendatusenigmatica:diamond_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:gems/diamond',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:emerald_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:gems/emerald',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:lapis_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:gems/emerald',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:aluminum_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/aluminum',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:brass_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/brass',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:bronze_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/bronze',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:constantan_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/constantan',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:copper_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/copper',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:electrum_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/electrum',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:enderium_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/enderium',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:gold_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/gold',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:invar_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/invar',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:iron_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/iron',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:lead_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/lead',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:lumium_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/lumium',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     });
     event.shaped(Item.of('emendatusenigmatica:nickel_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/nickel',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:osmium_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/osmium',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:signalum_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/signalum',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:silver_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/silver',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:steel_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/steel',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:tin_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/tin',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:uranium_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/uranium',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:zinc_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/zinc',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:cobalt_plate', 2), ["   ", "BAA", " AA"], {
         A: '#forge:ingots/cobalt',
-        B: 'emendatusenigmatica:enigmatic_hammer'
+        B: '#forge:tools/crafting_hammer'
     })
-
-
-
-
-
     event.shaped(Item.of('emendatusenigmatica:aluminum_gear', 1), [" A ", "ABA", " A "], {
         A: '#forge:ingots/aluminum',
         B: 'create:andesite_alloy'
@@ -729,111 +720,120 @@ onEvent('recipes', event => {
     })
     event.shaped(Item.of('byg:aspen_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:aspen_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:baobab_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:baobab_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:blue_enchanted_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:blue_enchanted_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:bulbis_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:bulbis_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:cherry_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cherry_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:cika_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cika_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:cypress_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:cypress_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:ebony_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:ebony_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:ether_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:ether_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:fir_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:fir_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:green_enchanted_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:green_enchanted_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:holly_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:holly_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:jacaranda_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:jacaranda_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:lament_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:lament_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:mahogany_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:mahogany_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:mangrove_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:mangrove_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:maple_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:maple_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:nightshade_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:nightshade_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:palm_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:palm_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:pine_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:pine_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:rainbow_eucalyptus_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:rainbow_eucalyptus_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:redwood_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:redwood_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:skyris_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:skyris_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:sythian_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:sythian_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:willow_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:willow_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:witch_hazel_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:witch_hazel_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('byg:zelkova_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:zelkova_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
+    })
+    //Blue SKies
+    event.shaped(Item.of('blue_skies:turquoise_stone_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'blue_skies:turquoise_stone',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('blue_skies:lunar_stone_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'blue_skies:lunar_stone',
+        B: '#forge:tools/crafting_hammer'
     })
     //Pneumaticcraft
     event.shaped(Item.of('pneumaticcraft:compressed_iron_gear', 1), [" C ", "CIC", " C "], {
@@ -890,67 +890,67 @@ onEvent('recipes', event => {
     //mcwfurnitures
     event.shaped(Item.of('mcwfurnitures:acacia_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:acacia_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:birch_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:birch_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:oak_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:oak_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:spruce_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:spruce_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:jungle_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:jungle_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:dark_oak_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:dark_oak_logs',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:crimson_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:crimson_stems',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:warped_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:warped_stems',
-        X: 'immersiveengineering:hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:acacia_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:acacia_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:birch_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:birch_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:oak_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:oak_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:spruce_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:spruce_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:jungle_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:jungle_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:dark_oak_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:dark_oak_logs',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:crimson_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:crimson_stems',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('mcwfurnitures:warped_plate', 1), [" X ", " W ", " W "], {
         W: '#minecraft:warped_stems',
-        X: 'emendatusenigmatica:enigmatic_hammer'
+        X: '#forge:tools/crafting_hammer'
     })
     //Speedy Ladders
     event.shaped(Item.of('speedyladders:diamond_ladder', 2), ["NLN", "NLN", "NLN"], {
@@ -1640,26 +1640,39 @@ onEvent('recipes', event => {
         C: 'extendedcrafting:ultimate_component',
         D: 'extendedcrafting:ultimate_catalyst'
     })
+    //Environmental
+    event.shaped(Item.of('environmental:willow_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:willow_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('environmental:cherry_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:cherry_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('environmental:wisteria_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:wisteria_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
     //Forbidden Arcanus
     event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:arcane_gold_ingot',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('forbidden_arcanus:cherrywood_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:cherrywood_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('forbidden_arcanus:edelwood_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:edelwood_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('forbidden_arcanus:mysterywood_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:mysterywood_planks',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('forbidden_arcanus:polished_darkstone_pressure_plate', 1), [" B ", " A ", " A "], {
         A: 'forbidden_arcanus:polished_darkstone',
-        B: 'immersiveengineering:hammer'
+        B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('forbidden_arcanus:soul_extractor', 1), ["A  ", "BBC", "D  "], {
         A: 'minecraft:glass_bottle',

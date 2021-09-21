@@ -610,7 +610,13 @@ onEvent('recipes', event => {
     event.remove({
         id: 'byg:zelkova_pressure_plate'
     })
-
+    //Blue skies Recipes
+    event.remove({
+        id: 'blue_skies:turquoise_stone_pressure_plate'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_pressure_plate'
+    })
     //Cinnabar
     event.remove({
         id: 'thermal:storage/cinnabar_from_block'
@@ -1295,7 +1301,16 @@ onEvent('recipes', event => {
     event.remove({
         id: 'emendatusenigmatica:gear_from_ingot/electrum'
     })
-
+    //Environmental Recipes
+    event.remove({
+        id: 'environmental:building/wood/willow/willow_pressure_plate'
+    })
+    event.remove({
+        id: 'environmental:building/wood/cherry/cherry_pressure_plate'
+    })
+    event.remove({
+        id: 'environmental:building/wood/wisteria/wisteria_pressure_plate'
+    })
     //EnviroCore Recipes
     event.remove({
         id: 'envirocore:laser_core'

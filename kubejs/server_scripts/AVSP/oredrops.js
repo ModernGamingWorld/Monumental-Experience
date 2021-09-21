@@ -73,7 +73,7 @@ onEvent('block.loot_tables', event => {
     //
     //COAL
     event.addBlock('emendatusenigmatica:coal_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -83,7 +83,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:coal_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -94,7 +94,7 @@ onEvent('block.loot_tables', event => {
     })
     //IRON
     event.addBlock('emendatusenigmatica:iron_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -104,7 +104,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:iron_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -114,7 +114,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:iron_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -125,7 +125,7 @@ onEvent('block.loot_tables', event => {
     })
     //GOLD
     event.addBlock('emendatusenigmatica:gold_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -135,7 +135,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:gold_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -145,7 +145,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:gold_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -156,7 +156,7 @@ onEvent('block.loot_tables', event => {
     })
     //DIAMOND
     event.addBlock('emendatusenigmatica:diamond_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -166,7 +166,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:diamond_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -176,7 +176,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:diamond_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -187,7 +187,7 @@ onEvent('block.loot_tables', event => {
     })
     //EMERALD
     event.addBlock('emendatusenigmatica:emerald_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -197,7 +197,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:emerald_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -207,7 +207,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:emerald_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -218,7 +218,7 @@ onEvent('block.loot_tables', event => {
     })
     //LAPIS LAZULI
     event.addBlock('emendatusenigmatica:lapis_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -228,7 +228,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:lapis_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -238,7 +238,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:lapis_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -249,7 +249,7 @@ onEvent('block.loot_tables', event => {
     })
     //REDSTONE
     event.addBlock('emendatusenigmatica:redstone_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -259,7 +259,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:redstone_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -269,7 +269,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:redstone_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -280,7 +280,7 @@ onEvent('block.loot_tables', event => {
     })
     //NETHER QUARTZ
     event.addBlock('emendatusenigmatica:quartz_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -290,7 +290,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:quartz_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -300,7 +300,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:quartz_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -311,7 +311,7 @@ onEvent('block.loot_tables', event => {
     })
     //COPPER
     event.addBlock('emendatusenigmatica:copper_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -321,7 +321,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:copper_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -331,7 +331,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:copper_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -342,7 +342,7 @@ onEvent('block.loot_tables', event => {
     })
     //ALUMINUM
     event.addBlock('emendatusenigmatica:aluminum_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -352,7 +352,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:aluminum_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -362,7 +362,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:aluminum_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -373,7 +373,7 @@ onEvent('block.loot_tables', event => {
     })
     //SILVER
     event.addBlock('emendatusenigmatica:silver_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -383,7 +383,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:silver_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -393,7 +393,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:silver_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -404,7 +404,7 @@ onEvent('block.loot_tables', event => {
     })
     //LEAD
     event.addBlock('emendatusenigmatica:lead_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -414,7 +414,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:lead_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -424,7 +424,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:lead_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -435,7 +435,7 @@ onEvent('block.loot_tables', event => {
     })
     //NICKEL
     event.addBlock('emendatusenigmatica:nickel_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -445,7 +445,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:nickel_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -455,7 +455,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:nickel_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -466,7 +466,7 @@ onEvent('block.loot_tables', event => {
     })
     //URANIUM
     event.addBlock('emendatusenigmatica:uranium_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -476,7 +476,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:uranium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -486,7 +486,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:uranium_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -497,7 +497,7 @@ onEvent('block.loot_tables', event => {
     })
     //OSMIUM
     event.addBlock('emendatusenigmatica:osmium_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -507,7 +507,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:osmium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -517,7 +517,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:osmium_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -528,7 +528,7 @@ onEvent('block.loot_tables', event => {
     })
     //TIN
     event.addBlock('emendatusenigmatica:tin_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -538,7 +538,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:tin_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -548,7 +548,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:tin_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -559,7 +559,7 @@ onEvent('block.loot_tables', event => {
     })
     //ZINC
     event.addBlock('emendatusenigmatica:zinc_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -569,7 +569,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:zinc_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -579,7 +579,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:zinc_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -590,7 +590,7 @@ onEvent('block.loot_tables', event => {
     })
     //COBALT
     event.addBlock('#forge:ores/cobalt', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -600,7 +600,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:cobalt_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -611,7 +611,7 @@ onEvent('block.loot_tables', event => {
     })
     //CERTUZ QUARTZ
     event.addBlock('emendatusenigmatica:certus_quartz_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -621,7 +621,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:certus_quartz_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -631,7 +631,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:certus_quartz_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -642,7 +642,7 @@ onEvent('block.loot_tables', event => {
     })
     //CHARGED CERTUS QUARTZ
     event.addBlock('emendatusenigmatica:charged_certus_quartz_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -652,7 +652,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:charged_certus_quartz_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -662,7 +662,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:charged_certus_quartz_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -673,7 +673,7 @@ onEvent('block.loot_tables', event => {
     })
     //FLUORITE
     event.addBlock('emendatusenigmatica:fluorite_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -683,7 +683,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:fluorite_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -693,7 +693,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:fluorite_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -704,7 +704,7 @@ onEvent('block.loot_tables', event => {
     })
     //CINNABAR
     event.addBlock('emendatusenigmatica:cinnabar_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -714,7 +714,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:cinnabar_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -724,7 +724,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:cinnabar_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -735,7 +735,7 @@ onEvent('block.loot_tables', event => {
     })
     //APATITE
     event.addBlock('emendatusenigmatica:apatite_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -745,7 +745,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:apatite_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -755,7 +755,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:apatite_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -766,7 +766,7 @@ onEvent('block.loot_tables', event => {
     })
     //SULFUR
     event.addBlock('emendatusenigmatica:sulfur_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -776,7 +776,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:sulfur_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -786,7 +786,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:sulfur_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -797,7 +797,7 @@ onEvent('block.loot_tables', event => {
     })
     //POTASSIUM NITRATE
     event.addBlock('emendatusenigmatica:potassium_nitrate_netherrack_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -807,7 +807,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:potassium_nitrate_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -817,7 +817,7 @@ onEvent('block.loot_tables', event => {
         })
     })
     event.addBlock('emendatusenigmatica:potassium_nitrate_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -828,7 +828,7 @@ onEvent('block.loot_tables', event => {
     })
     //Bitumen Ore
     event.addBlock('emendatusenigmatica:bitumen_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
@@ -839,7 +839,7 @@ onEvent('block.loot_tables', event => {
     })
     //Dimensional Shard Ore
     event.addBlock('emendatusenigmatica:dimensional_nylium_soul_soil_ore', table => {
-        table.pool(pool => {
+        table.addPool(pool => {
             pool.setUniformRolls(1, 2)
             pool.survivesExplosion()
             pool.addEntry({
