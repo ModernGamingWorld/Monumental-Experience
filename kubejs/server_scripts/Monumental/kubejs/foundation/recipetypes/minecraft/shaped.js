@@ -551,11 +551,6 @@ onEvent('recipes', event => {
         A: '#forge:ingots/cobalt',
         B: '#forge:tools/crafting_hammer'
     })
-
-
-
-
-
     event.shaped(Item.of('emendatusenigmatica:aluminum_gear', 1), [" A ", "ABA", " A "], {
         A: '#forge:ingots/aluminum',
         B: 'create:andesite_alloy'
@@ -829,6 +824,15 @@ onEvent('recipes', event => {
     })
     event.shaped(Item.of('byg:zelkova_pressure_plate', 1), [" A ", " A ", " B "], {
         A: 'byg:zelkova_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    //Blue SKies
+    event.shaped(Item.of('blue_skies:turquoise_stone_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'blue_skies:turquoise_stone',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('blue_skies:lunar_stone_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'blue_skies:lunar_stone',
         B: '#forge:tools/crafting_hammer'
     })
     //Pneumaticcraft
@@ -1635,6 +1639,19 @@ onEvent('recipes', event => {
         B: '#forge:plates/emerald',
         C: 'extendedcrafting:ultimate_component',
         D: 'extendedcrafting:ultimate_catalyst'
+    })
+    //Environmental
+    event.shaped(Item.of('environmental:willow_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:willow_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('environmental:cherry_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:cherry_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('environmental:wisteria_pressure_plate', 1), [" B ", " A ", " A "], {
+        A: 'environmental:wisteria_planks',
+        B: '#forge:tools/crafting_hammer'
     })
     //Forbidden Arcanus
     event.shaped(Item.of('forbidden_arcanus:arcane_gold_pressure_plate', 1), [" B ", " A ", " A "], {
