@@ -5,9 +5,6 @@
 //
 onEvent('block.loot_tables', event => {
 
-    //Wooden Essences
-    event.addSimpleBlock('#minecraft:logs', 'mysticalagriculture:wood_essence')
-
     //Dirt Essences
     event.addSimpleBlock('#forge:dirt', 'mysticalagriculture:dirt_essence')
 
