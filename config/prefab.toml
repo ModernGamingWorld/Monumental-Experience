@@ -14,6 +14,8 @@
 	"Bulldozer Creates Drops" = true
 	#Determines if water can be generated in structures when the current dimension is not the oveworld. Does not affect Nether
 	"Include Water In Non-Overworld Dimesions" = true
+	#Enable Automation Options For Moderate Farm
+	"Enable Automation Options For Moderate Farm" = true
 
 	[general."chest contents"]
 		#Determines if a Stone Sword is added the the chest when the house is created.
@@ -68,32 +70,14 @@
 		"Pile of Bricks" = true
 		#Determines if the recipe(s) associated with the Warehouse are enabled.
 		Warehouse = true
-		#Determines if the recipe(s) associated with the Produce Farm are enabled.
-		"Produce Farm" = true
-		#Determines if the recipe(s) associated with the Tree Farm are enabled.
-		"Tree Farm" = true
-		#Determines if the recipe(s) associated with the Chicken Coop are enabled.
-		"Chicken Coop" = true
-		#Determines if the recipe(s) associated with the Fish Farm are enabled.
-		"Fish Farm" = true
 		#Determines if the recipe(s) associated with the Warehouse Upgrade are enabled.
 		"Warehouse Upgrade" = true
 		#Determines if the recipe(s) associated with the Advanced Warehouse are enabled.
 		"Advanced Warehouse" = true
-		#Determines if the recipe(s) associated with the Monster Masher are enabled.
-		"Monster Masher" = true
 		#Determines if the recipe(s) associated with the Bundle of Timber are enabled.
 		"Bundle of Timber" = true
-		#Determines if the recipe(s) associated with the Horse Stable are enabled.
-		"Horse Stable" = true
 		#Determines if the recipe(s) associated with the Nether Gate are enabled.
 		"Nether Gate" = false
-		#Determines if the recipe(s) associated with the Advanced Chicken Coop are enabled.
-		"Advanced Chicken Coop" = true
-		#Determines if the recipe(s) associated with the Advanced Horse Stable are enabled.
-		"Advanced Horse Stable" = true
-		#Determines if the recipe(s) associated with the Barn are enabled.
-		Barn = true
 		#Determines if the recipe(s) associated with the Machinery Tower are enabled.
 		"Machinery Tower" = true
 		#Determines if the recipe(s) associated with the Defense Bunker are enabled.
@@ -124,18 +108,6 @@
 		"Glass Stairs" = true
 		#Determines if the recipe(s) associated with the Glass Slabs are enabled.
 		"Glass Slabs" = true
-		#Determines if the recipe(s) associated with the Andesite Stairs are enabled.
-		"Andesite Stairs" = true
-		#Determines if the recipe(s) associated with the Andesite Slabs are enabled.
-		"Andesite Slabs" = true
-		#Determines if the recipe(s) associated with the Diorite Stairs are enabled.
-		"Diorite Stairs" = true
-		#Determines if the recipe(s) associated with the Diorite Slabs are enabled.
-		"Diorite Slabs" = true
-		#Determines if the recipe(s) associated with the Granite Stairs are enabled.
-		"Granite Stairs" = true
-		#Determines if the recipe(s) associated with the Granite Slabs are enabled.
-		"Granite Slabs" = true
 		#Determines if the recipe(s) associated with the Moderate House are enabled.
 		"Moderate House" = true
 		#Determines if the recipe(s) associated with the Grassy Plains are enabled.
@@ -146,8 +118,6 @@
 		"Watch Tower" = true
 		#Determines if the recipe(s) associated with the Bulldozer are enabled.
 		Bulldozer = true
-		#Determines if the recipe(s) associated with the StructurePart are enabled.
-		StructurePart = true
 		#Determines if the recipe(s) associated with the Jail are enabled.
 		Jail = true
 		#Determines if the recipe(s) associated with the Saloon are enabled.
@@ -162,8 +132,6 @@
 		"Heap of Timber" = true
 		#Determines if the recipe(s) associated with the Ton of Timber are enabled.
 		"Ton of Timber" = true
-		#Determines if the recipe(s) associated with the Sugar Cane Farm are enabled.
-		"Sugar Cane Farm" = true
 		#Determines if the recipe(s) associated with the Workshop are enabled.
 		Workshop = true
 		#Determines if the recipe(s) associated with the Modern Buildings are enabled.
@@ -182,4 +150,10 @@
 		"Bunch Of Potatoes" = true
 		#Determines if the recipe(s) associated with the WoodenCrate are enabled.
 		WoodenCrate = true
+		#Determines if the recipe(s) associated with the Starter Farm are enabled.
+		"Starter Farm" = true
+		#Determines if the recipe(s) associated with the Moderate Farm are enabled.
+		"Moderate Farm" = true
+		#Determines if the recipe(s) associated with the Advanced Farm are enabled.
+		"Advanced Farm" = true
 
