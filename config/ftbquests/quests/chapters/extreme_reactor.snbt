@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "extreme_reactor"
 	title: "&6Extreme Reactors"
-	icon: "bigreactors:reinforced_reactorcontroller"
+	icon: "biggerreactors:reactor_terminal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
