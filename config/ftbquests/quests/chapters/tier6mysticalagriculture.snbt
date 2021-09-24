@@ -222,5 +222,77 @@
 				}
 			]
 		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: [
+				"0000000000000D20"
+				"6154CB94B9600DE0"
+			]
+			id: "4ED3A2EE2432AC2F"
+			tasks: [{
+				id: "4BF93A1CC1492A6F"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_seeds"
+			}]
+			rewards: [
+				{
+					id: "62F8ECDB363654B6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "3311262DCDBD7397"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3D3B1647C6965265"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0059E33208ED7D7D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			dependencies: [
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
+			id: "2F69D1B6AA39F12C"
+			tasks: [{
+				id: "5A1E91E85E24D0B5"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "78114CFE25880DE9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "043AB5D6826BA6F5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "59BE026F5018168B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4CA53B96B7C6846D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
 	]
 }
