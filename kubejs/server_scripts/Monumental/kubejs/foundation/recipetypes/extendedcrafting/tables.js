@@ -76,7 +76,7 @@ onEvent('recipes', (event) => {
                 pattern: ['ABCBA', 'BAXAB', 'CXAXC', 'BAXAB', 'ABCBA'],
                 key: {
                     A: 'createaddition:electric_motor',
-                    B: 'transport:solid_fuel_engine',
+                    B: 'immersiveengineering:screwdriver',
                     C: 'immersiveengineering:toolbox',
                     X: 'create:furnace_engine'
                 }
