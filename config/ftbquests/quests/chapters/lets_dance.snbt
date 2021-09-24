@@ -91,13 +91,54 @@
 			x: 4.0d
 			y: -4.0d
 			shape: "gear"
-			dependencies: ["0000000000000D6D"]
+			dependencies: [
+				"0000000000000D6D"
+				"0000000000000D20"
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
 			id: "0000000000000D74"
 			tasks: [{
 				id: "0000000000000D75"
 				type: "item"
 				item: "minecraft:music_disc_blocks"
 			}]
+			rewards: [
+				{
+					id: "4F194C635A4DDE7E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "41F639E948AD6AA7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "79105F6EA62BCBF9"
+					type: "item"
+				}
+				{
+					id: "1E8DBCF1E0DBA3E9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "79B6E4A2B7F3ABF8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "34993D97D73FD245"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3ADD8F12CDE74B48"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			title: "Chirp"
@@ -412,46 +453,210 @@
 		{
 			x: 4.0d
 			y: 1.0d
-			dependencies: ["0000000000000D6D"]
+			dependencies: [
+				"0000000000000D6D"
+				"0000000000000D20"
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
 			id: "66131282F9E1327C"
 			tasks: [{
 				id: "51CF312C08DED56B"
 				type: "item"
 				item: "undergarden:music_disc_mammoth"
 			}]
+			rewards: [
+				{
+					id: "536BB422BD021680"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "539BED71944366EB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "2398DC2019B7206B"
+					type: "item"
+				}
+				{
+					id: "5F1CAA20723377AB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "16989FC3A35CDAAE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2CD3A6970959AF1D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "66D48C6B4B774F49"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -1.0d
-			dependencies: ["0000000000000D6D"]
+			dependencies: [
+				"0000000000000D6D"
+				"0000000000000D20"
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
 			id: "31FAE2400E1EB639"
 			tasks: [{
 				id: "557DB83B8C223E96"
 				type: "item"
 				item: "undergarden:music_disc_limax_maximus"
 			}]
+			rewards: [
+				{
+					id: "6974EEFB145C26F5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "01CB2080927DE655"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "16EA38F919CA657B"
+					type: "item"
+				}
+				{
+					id: "4DBD897450AA5DC2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "5AD3C72AC0595CC9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1A4B6FDDA97A6A64"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "48275164A3934C68"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 3.0d
-			dependencies: ["0000000000000D6D"]
+			dependencies: [
+				"0000000000000D6D"
+				"0000000000000D20"
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
 			id: "58927AE462B99420"
 			tasks: [{
 				id: "5899EE6B7F5DE801"
 				type: "item"
 				item: "undergarden:music_disc_relict"
 			}]
+			rewards: [
+				{
+					id: "55BE20A5D9E17698"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "52372F79BC0DE83C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "1D65AF80069998BD"
+					type: "item"
+				}
+				{
+					id: "5D2C9E7EC5CE39EE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "30C21740084851E7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "516FA4F1C5711464"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "020EF935BC623541"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
-			dependencies: ["0000000000000D6D"]
+			dependencies: [
+				"0000000000000D6D"
+				"0000000000000D20"
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
 			id: "16BAE9B8134D00A6"
 			tasks: [{
 				id: "1D230B080AB806F3"
 				type: "item"
 				item: "undergarden:music_disc_gloomper_anthem"
 			}]
+			rewards: [
+				{
+					id: "33BA7B5290FB30AA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "460665CE023848CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "28FEC91AF7487797"
+					type: "item"
+				}
+				{
+					id: "20415BF45A4AFEEB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "6956361CE6FB50A9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5AA75AA57B6E1C99"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "59409ED97EC58B25"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

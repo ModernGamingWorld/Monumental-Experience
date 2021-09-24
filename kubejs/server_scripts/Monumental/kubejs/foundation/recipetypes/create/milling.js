@@ -51,11 +51,6 @@ onEvent('recipes', (event) => {
                 processingTime: 200
             },
             {
-                input: 'minecraft:magma_block',
-                outputs: ['xreliquary:molten_core'],
-                processingTime: 200
-            },
-            {
                 input: 'minecraft:dragon_head',
                 outputs: ['xreliquary:nebulous_heart'],
                 processingTime: 200
@@ -395,9 +390,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:wolf_essence', 1)],
                 processingTime: 200
             },
-
-
-
             {
                 input: '#forge:ores/inferium',
                 outputs: [Item.of('mysticalagriculture:inferium_essence', 2)],
@@ -948,10 +940,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:terrasteel_essence', 1)],
                 processingTime: 200
             },
-
-
-
-
             {
                 input: 'mysticalagriculture:tin_seeds',
                 outputs: [Item.of('mysticalagriculture:tin_essence', 1)],
@@ -1027,12 +1015,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:zinc_essence', 1)],
                 processingTime: 200
             },
-            //Essence not found
-            // {
-            //     input: 'mysticalagriculture:zombie_pigman_seeds',
-            //     outputs: [Item.of('mysticalagriculture:zombie_pigman_essence', 1)],
-            //     processingTime: 200
-            // },
             {
                 input: 'mysticalagriculture:zombie_seeds',
                 outputs: [Item.of('mysticalagriculture:zombie_essence', 1)],

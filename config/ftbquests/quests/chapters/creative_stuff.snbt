@@ -67,7 +67,7 @@
 			tasks: [{
 				id: "00000000000002F9"
 				type: "item"
-				item: "pneumaticcraft:creative_compressor"
+				item: "create:creative_blaze_cake"
 			}]
 			rewards: [
 				{
@@ -117,7 +117,7 @@
 			tasks: [{
 				id: "00000000000002FD"
 				type: "item"
-				item: "storagedrawers:creative_storage_upgrade"
+				item: "iceandfire:creative_dragon_meal"
 			}]
 			rewards: [
 				{
@@ -178,6 +178,29 @@
 				}
 				{
 					id: "0000000000000F85"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			id: "2D06DF63BFDFC850"
+			tasks: [{
+				id: "7465D233BE742BF8"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [
+				{
+					id: "6B25B3AE3DD0A342"
+					type: "command"
+					command: "/say congratulations!"
+					player_command: false
+				}
+				{
+					id: "045910CBA0123CE7"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}

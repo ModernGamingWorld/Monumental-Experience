@@ -854,5 +854,50 @@
 				item: "chancecubes:chance_cube"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 4.0d
+			id: "6154CB94B9600DE0"
+			tasks: [{
+				id: "6F2F72502A6558BA"
+				type: "item"
+				item: "mysticalagriculture:draconium_seeds"
+			}]
+			rewards: [
+				{
+					id: "61C758D8CA0ABBBE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0E7B77B227EF185A"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["6154CB94B9600DE0"]
+			id: "29B12CAC8F562132"
+			tasks: [{
+				id: "0E901BB802DEE3A3"
+				type: "item"
+				item: "mysticalagriculture:draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "65777EE9F9BA1CC7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "384FC01283B4C28F"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
 	]
 }
