@@ -16,7 +16,7 @@
 10 : '{id:"woodenutilities:wooden_furnace",Count:1b}',
 11 : '{id:"lootbagmod:lootbag",Count:1b}',
 12 : '{id:"minecraft:cookie",Count:4b}',
-13 : '',
+13 : '{id:"minecraft:iron_axe",Count:1b,tag:{Damage:0}}',
 14 : '',
 15 : '',
 16 : '',

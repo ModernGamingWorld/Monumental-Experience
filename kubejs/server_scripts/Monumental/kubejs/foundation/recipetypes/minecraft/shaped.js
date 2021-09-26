@@ -9,6 +9,20 @@ onEvent('recipes', event => {
         A: '#forge:treated_wood_slab',
         B: '#forge:rods/iron'
     })
+    //minecraft torch
+    event.shaped(Item.of('minecraft:torch', 2), [" A ", " B ", "   "], {
+        A: '#forge:chunks/coal',
+        B: '#forge:rods/wooden'
+    })
+    event.shaped(Item.of('minecraft:redstone_torch', 2), [" A ", " B ", "   "], {
+        A: '#forge:chunks/redstone',
+        B: '#forge:rods/wooden'
+    })
+    event.shaped(Item.of('minecraft:soul_torch', 2), [" A ", " B ", " B "], {
+        A: '#forge:chunks/coal',
+        B: '#forge:rods/wooden',
+        C: '#minecraft:soul_fire_base_blocks'
+    })
     //create
     event.shaped(Item.of('create:electron_tube', 1), ["NCN", "XXX", "LAL"], {
         L: '#forge:plates/iron',

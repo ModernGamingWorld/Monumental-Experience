@@ -132,7 +132,7 @@
 	[Dragons.Attributes]
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 3.5
+		"Dragon Attack Damage(Lightning breath)" = 9.5
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
 		"Dragon Flute Distance" = 4
@@ -146,10 +146,10 @@
 		"Dragon Moved Wrongly Error Fix" = false
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 2.0
+		"Dragon Attack Damage(Fire breath)" = 6.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 17
+		"Dragon Attack Damage" = 34
 		#How long it takes(in ticks) for a dragon egg to hatch
 		#Range: > 1
 		"Dragon Egg Hatch Time" = 7200
@@ -158,7 +158,7 @@
 		"Dragon Flap Noise Distance" = 4
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 2.5
+		"Dragon Attack Damage(Ice breath)" = 6.5
 
 [Mobs]
 
@@ -169,7 +169,7 @@
 		"Sea Serpent Griefing" = true
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 4.0
+		"Sea Serpent Base Attack Strength" = 8.0
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Sea Serpent Chance" = 250
@@ -221,10 +221,10 @@
 		"Death Worm Spawn Check Chance" = 3
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 10.0
+		"Death Worm Base Health" = 20.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 3.0
+		"Death Worm Base Attack Strength" = 6.0
 		#How many blocks away can death worms spot potential prey. Note that increasing this could cause lag
 		#Range: 1 ~ 10000
 		"Death Worm Target Search Length" = 64
@@ -289,7 +289,7 @@
 		"Spawn Wandering Cyclops Chance" = 100
 		#Cyclops attack strength
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Attack Strength" = 15.0
+		"Cyclops Attack Strength" = 30.0
 		#True if wandering cyclopes are allowed to spawn
 		"Spawn Wandering Cyclopes" = true
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
@@ -302,7 +302,7 @@
 		"Troll Spawn Weight" = 40
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
-		"Troll Attack Strength" = 10.0
+		"Troll Attack Strength" = 20.0
 		#True if trolls are allowed to spawn
 		"Spawn Trolls" = true
 		#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
@@ -328,7 +328,7 @@
 		"Myrmex Gestation Length" = 2500
 		#Base Myrmex(worker) attack strength
 		#Range: 1.0 ~ 10000.0
-		"Myrmex Base Attack Strength" = 3.0
+		"Myrmex Base Attack Strength" = 6.0
 		#The maximum radius myrmex area allowed to wander/forage
 		#Range: 25 ~ 4000
 		"Myrmex Maximum Wander Radius" = 50
