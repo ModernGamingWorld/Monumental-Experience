@@ -43,6 +43,24 @@ onEvent('recipes', (event) => {
     event.replaceInput({
         id: '/simplefarming:\\w+burger/'
     }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');
+    event.replaceInput({
+        id: 'cookingforblockheads:kitchen_corner'
+    }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:cooking_table'
+    }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:sink'
+    }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:kitchen_counter'
+    }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:kitchen_cabinet'
+    }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:hanging_corner'
+    }, 'minecraft:terracotta', '#forge:terracotta');
     event.replaceInput({}, 'tconstruct:cobalt_nugget', '#forge:nuggets/cobalt');
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
     event.replaceInput({}, 'minecraft:red_nether_bricks', '#forge:netherbricks_red');
