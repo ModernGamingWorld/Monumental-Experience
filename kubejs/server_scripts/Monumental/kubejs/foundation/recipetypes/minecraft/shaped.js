@@ -2033,11 +2033,11 @@ onEvent('recipes', event => {
         B: '#forge:storage_blocks/redstone',
         C: 'minecraft:comparator',
     })
-    event.shaped(Item.of('minecraft:torch', 2), [" A", " B ", "  "], {
+    event.shaped(Item.of('minecraft:torch', 2), [" A ", " B ", "  "], {
         A: '#forge:chunks/coal',
         B: '#forge:rods/wooden'
     })
-    event.shaped(Item.of('minecraft:redstone_torch', 2), [" A", " B ", "  "], {
+    event.shaped(Item.of('minecraft:redstone_torch', 2), [" A ", " B ", "  "], {
         A: '#forge:chunks/redstone',
         B: '#forge:rods/wooden'
     })
