@@ -18,7 +18,7 @@ onEvent('recipes', event => {
         A: '#forge:chunks/redstone',
         B: '#forge:rods/wooden'
     })
-    event.shaped(Item.of('minecraft:soul_torch', 2), [" A ", " B ", " B "], {
+    event.shaped(Item.of('minecraft:soul_torch', 2), [" A ", " B ", " C "], {
         A: '#forge:chunks/coal',
         B: '#forge:rods/wooden',
         C: '#minecraft:soul_fire_base_blocks'
