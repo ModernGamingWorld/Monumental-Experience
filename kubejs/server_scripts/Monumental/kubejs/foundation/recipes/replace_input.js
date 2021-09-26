@@ -61,6 +61,9 @@ onEvent('recipes', (event) => {
     event.replaceInput({
         id: 'cookingforblockheads:hanging_corner'
     }, 'minecraft:terracotta', '#forge:terracotta');
+    event.replaceInput({
+        id: 'cookingforblockheads:crafting_book'
+    }, 'minecraft:crafting_table', '#forge:workbenches');
     event.replaceInput({}, 'tconstruct:cobalt_nugget', '#forge:nuggets/cobalt');
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
     event.replaceInput({}, 'minecraft:red_nether_bricks', '#forge:netherbricks_red');
