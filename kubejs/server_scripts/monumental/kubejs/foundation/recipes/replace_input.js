@@ -25,15 +25,11 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'betterendforge:thallasium_ore', '#forge:ores/thallasium');
     event.replaceInput({}, 'astralsorcery:starmetal_ore', '#forge:ores/starmetal');
     event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber');
-    event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
-    event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
-    event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
-    event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
-    event.replaceInput({}, 'thermal:bitumen', '#forge:gems/bitumen', true);
-    event.replaceInput({}, 'thermal:coal_coke', '#forge:gems/coal_coke');
-    event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
-    event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen', true);
-    event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
+    event.replaceInput({}, '#forge:dusts/wood', 'emendatusenigmatica:wood_dust')
+    event.replaceInput({}, '#forge:sawdust', 'emendatusenigmatica:wood_dust')
+    event.replaceInput({}, 'immersiveengineering:dust_wood', 'emendatusenigmatica:wood_dust')
+    event.replaceInput({}, 'mekanism:sawdust', 'emendatusenigmatica:wood_dust')
+    event.replaceInput({}, 'thermal:sawdust', 'emendatusenigmatica:wood_dust')
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
     event.replaceInput({}, 'farmersdelight:brown_mushroom_colony', '#forge:mushroom_colonies/brown');
     event.replaceInput({}, 'farmersdelight:red_mushroom_colony', '#forge:mushroom_colonies/red');
