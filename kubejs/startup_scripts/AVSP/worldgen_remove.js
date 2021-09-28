@@ -14,6 +14,10 @@
 This script will stop duplicated ores from spawning.
 (Like having 30 million different copper ores spawning from different mods)
 Ores from Emendatus Enigmatica will still spawn.
+
+NOTE:
+SOMETIMES, THESE ORES WILL SPAWN DISPITE BEING REMOVED WITH KUBEJS. 
+WE HIGHLY RECOMMEND JUST DISABLING THE ORES IN THEIR RESPECTIVE CONFIG FILES.
 */
 
 events.listen('worldgen.remove', (event) => {
@@ -25,7 +29,7 @@ events.listen('worldgen.remove', (event) => {
 
 //COPPER
 	event.removeOres((ores) => {
-		ores.blocks = ['immersiveengineering:ore_copper', 'mekanism:copper_ore', 'create:copper_ore', 'thermal:copper_ore', 'tmechworks:copper_ore', 'mysticalworld:copper_ore', 'silents_mechanisms:copper_ore', 'tconstruct:copper_ore', 'occultism:copper_ore', 'iceandfire:copper_ore', 'routerreborn:copper_ore'];
+		ores.blocks = ['immersiveengineering:ore_copper', 'mekanism:copper_ore', 'create:copper_ore', 'thermal:copper_ore', 'tmechworks:copper_ore', 'mysticalworld:copper_ore', 'silents_mechanisms:copper_ore', 'tconstruct:copper_ore', 'occultism:copper_ore', 'iceandfire:copper_ore', 'routerreborn:copper_ore', 'projectred-exploration:copper_ore'];
 	});
 
 //ALUMINUM
@@ -35,7 +39,7 @@ events.listen('worldgen.remove', (event) => {
 
 //SILVER
 	event.removeOres((ores) => {
-		ores.blocks = ['immersiveengineering:ore_silver', 'thermal:silver_ore', 'mysticalworld:silver_ore', 'silents_mechanisms:silver_ore', 'occultism:silver_ore', 'iceandfire:silver_ore'];
+		ores.blocks = ['immersiveengineering:ore_silver', 'thermal:silver_ore', 'mysticalworld:silver_ore', 'silents_mechanisms:silver_ore', 'occultism:silver_ore', 'iceandfire:silver_ore', 'projectred-exploration:silver_ore'];
 	});
 
 //LEAD
@@ -60,7 +64,7 @@ events.listen('worldgen.remove', (event) => {
 
 //TIN
 	event.removeOres((ores) => {
-		ores.blocks = ['mekanism:tin_ore', 'thermal:tin_ore', 'mysticalworld:tin_ore', 'silents_mechanisms:tin_ore'];
+		ores.blocks = ['mekanism:tin_ore', 'thermal:tin_ore', 'mysticalworld:tin_ore', 'silents_mechanisms:tin_ore', 'projectred-exploration:tin_ore'];
 	});
 
 //ZINC
