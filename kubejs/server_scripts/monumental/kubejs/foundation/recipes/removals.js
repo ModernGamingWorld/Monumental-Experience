@@ -2812,6 +2812,9 @@ onEvent('recipes', event => {
         id: 'minecraft:compass'
     })
     event.remove({
+        id: 'minecraft:smithing_table'
+    })
+    event.remove({
         id: 'quark:tweaks/crafting/utility/tools/stone_pickaxe'
     })
     event.remove({
