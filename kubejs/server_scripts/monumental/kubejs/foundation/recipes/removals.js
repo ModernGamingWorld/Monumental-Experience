@@ -363,7 +363,7 @@ onEvent('recipes', event => {
         id: 'botania:mana_spreader'
     })
     event.remove({
-        id: 'botania:manasteel_pickaxe'
+        id: 'botania:manasteel_pick'
     })
     event.remove({
         id: 'botania:lens_normal'
