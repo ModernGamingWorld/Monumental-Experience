@@ -363,6 +363,9 @@ onEvent('recipes', event => {
         id: 'botania:mana_spreader'
     })
     event.remove({
+        id: 'botania:manasteel_pickaxe'
+    })
+    event.remove({
         id: 'botania:lens_normal'
     })
     event.remove({
@@ -2807,6 +2810,18 @@ onEvent('recipes', event => {
     //Minecraft recipes
     event.remove({
         id: 'minecraft:compass'
+    })
+    event.remove({
+        id: 'quark:tweaks/crafting/utility/tools/stone_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:golden_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:iron_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:diamond_pickaxe'
     })
     event.remove({
         id: 'minecraft:ender_eye'
