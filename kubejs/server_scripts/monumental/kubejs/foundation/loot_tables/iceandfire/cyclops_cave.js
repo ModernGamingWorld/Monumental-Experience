@@ -1,0 +1,122 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        pools: [{
+            name: "cyclops_cave",
+            rolls: {
+                min: 1,
+                max: 4
+            },
+            entries: [{
+                    type: "item",
+                    name: "minecraft:white_wool",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 10
+                        }
+                    }],
+                    weight: 30
+                },
+                {
+                    type: "item",
+                    name: "iceandfire:manuscript",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 6
+                        }
+                    }],
+                    weight: 20
+                },
+                {
+                    type: "item",
+                    name: "minecraft:shears",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 10
+                        }
+                    }],
+                    weight: 10
+                },
+                {
+                    type: "item",
+                    name: "mysticalagriculture:sheep_essence",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 4
+                        }
+                    }],
+                    weight: 20
+                },
+                {
+                    type: "item",
+                    name: "minecraft:cooked_mutton",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 10
+                },
+                {
+                    type: "item",
+                    name: "minecraft:cobweb",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 6
+                        }
+                    }],
+                    weight: 15
+                },
+                {
+                    type: "item",
+                    name: "minecraft:wheat",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 5
+                },
+                {
+                    type: "item",
+                    name: "minecraft:apple",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 5
+                },
+                {
+                    type: "item",
+                    name: "minecraft:experience_bottle",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 5
+                        }
+                    }],
+                    weight: 5
+                }
+            ]
+        }]
+    };
+
+    event.addJson(`iceandfire:loot_tables/chest/cyclops_cave.json`, loot_table);
+});
