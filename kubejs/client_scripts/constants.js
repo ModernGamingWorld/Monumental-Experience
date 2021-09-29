@@ -39,6 +39,7 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'atum:limestone_pickaxe',
     'botania:glass_pickaxe',
     'quark:matrix_enchanter',
     'cyclic:item_infinite',
