@@ -2,6 +2,7 @@
 	chapter_groups: [
 		{ id: "611DD6950AEE3D90", title: "&4Create" }
 		{ id: "08B8463E6E996DCD", title: "&4Crafting" }
+		{ id: "2D0121E639693595", title: "&4Dimensions" }
 		{ id: "58428D7875B5E24E", title: "&4End Game" }
 		{ id: "5271FC3947DEACC8", title: "&4Farming" }
 		{ id: "33C9D311E461F30C", title: "&4Food" }

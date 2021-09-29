@@ -3,7 +3,7 @@
 	group: "08B8463E6E996DCD"
 	order_index: 0
 	filename: "extendedcrafting"
-	title: "&6Extended Crafting"
+	title: "&9Extended Crafting"
 	icon: "extendedcrafting:basic_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

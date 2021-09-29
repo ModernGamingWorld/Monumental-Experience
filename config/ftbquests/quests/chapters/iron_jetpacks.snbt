@@ -3,7 +3,7 @@
 	group: "68BD27E8D0136E3E"
 	order_index: 1
 	filename: "iron_jetpacks"
-	title: "&9Iron Jetpacks"
+	title: "&6Iron Jetpacks"
 	icon: {
 		id: "ironjetpacks:emerald_jetpack"
 		Count: 1b

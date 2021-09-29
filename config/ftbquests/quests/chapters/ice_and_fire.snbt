@@ -3,7 +3,7 @@
 	group: "6B2D545E7A3D7242"
 	order_index: 2
 	filename: "ice_and_fire"
-	title: "&9Ice and Fire"
+	title: "&6Ice and Fire"
 	icon: "iceandfire:dragon_skull_fire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -547,7 +547,6 @@
 			x: 5.5d
 			y: 8.5d
 			shape: "gear"
-			dependencies: ["0000000000000EB7"]
 			id: "000000000000167F"
 			tasks: [{
 				id: "0000000000001680"
@@ -3163,7 +3162,6 @@
 			x: 5.5d
 			y: 9.5d
 			shape: "gear"
-			dependencies: ["0000000000000EB7"]
 			id: "6F743F11F3859E3F"
 			tasks: [{
 				id: "1B72C55289FBB09F"
@@ -3187,7 +3185,6 @@
 			x: 4.5d
 			y: 9.5d
 			shape: "gear"
-			dependencies: ["0000000000000EB7"]
 			id: "15C1D452BF0276AE"
 			tasks: [{
 				id: "310B8CAC7684D917"

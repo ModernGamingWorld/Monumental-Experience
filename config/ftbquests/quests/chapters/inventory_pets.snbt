@@ -3,7 +3,7 @@
 	group: "68BD27E8D0136E3E"
 	order_index: 0
 	filename: "inventory_pets"
-	title: "&6Inventory Pets"
+	title: "&9Inventory Pets"
 	icon: {
 		id: "inventorypets:patreon_shirt"
 		Count: 1b

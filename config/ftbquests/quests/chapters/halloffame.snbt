@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "halloffame"
-	title: "&6Hall Of Fame"
+	title: "&6Hall Of Fame(WIP)"
 	icon: "xreliquary:holy_hand_grenade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -293,39 +293,75 @@
 			icon: "appliedenergistics2:controller"
 			x: -1.0d
 			y: 3.0d
+			subtitle: "GG, You Just Finished Ae2 Quest Line"
 			dependencies: ["0000000000000AB5"]
 			id: "0000000000000283"
-			rewards: [{
-				id: "00000000000008D8"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Applied Energistics 2 chapter"
-				player_command: false
+			tasks: [{
+				id: "1E6E37098AB71288"
+				type: "custom"
+				icon: "appliedenergistics2:controller"
 			}]
+			rewards: [
+				{
+					id: "00000000000008D8"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Applied Energistics 2 chapter"
+					player_command: false
+				}
+				{
+					id: "5ADB1D5A5DF6049E"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Botania"
 			icon: "botania:lexicon"
 			x: -1.5d
 			y: 4.0d
+			subtitle: "GG, You just finished Botania Quest Line"
 			dependencies: ["000000000000080C"]
 			dependency_requirement: "one_completed"
 			id: "0000000000000293"
-			rewards: [{
-				id: "00000000000008E9"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Botania chapter"
-				player_command: false
+			tasks: [{
+				id: "7453D9A24D4A068F"
+				type: "custom"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
 			}]
+			rewards: [
+				{
+					id: "00000000000008E9"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Botania chapter"
+					player_command: false
+				}
+				{
+					id: "1331584FEC1D255F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Cooking for Blockheads"
 			icon: "cookingforblockheads:cow_jar"
 			x: 0.5d
 			y: 4.0d
+			subtitle: "GG, You Just Finished The Cooking For Blockheads Quest Line"
 			dependencies: ["00000000000006C8"]
 			id: "000000000000029C"
+			tasks: [{
+				id: "30DBAF1AADA24012"
+				type: "custom"
+				icon: "cookingforblockheads:cow_jar"
+			}]
 			rewards: [{
 				id: "00000000000008EA"
 				type: "command"
@@ -516,7 +552,7 @@
 			}]
 		}
 		{
-			title: "Pneumatic Craft"
+			title: "PneumaticCraft"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -526,105 +562,196 @@
 			}
 			x: 4.0d
 			y: 9.0d
+			subtitle: "GG, You just Finished PneumaticCraft Quest Line"
 			dependencies: ["0000000000000A8C"]
 			id: "00000000000002D3"
-			rewards: [{
-				id: "00000000000008F7"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Pneumatic Craft chapter"
-				player_command: false
+			tasks: [{
+				id: "2083308088FDE179"
+				type: "custom"
+				icon: "pneumaticcraft:pressure_gauge"
 			}]
+			rewards: [
+				{
+					id: "00000000000008F7"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Pneumatic Craft chapter"
+					player_command: false
+				}
+				{
+					id: "57C720336279EA06"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Refined Storage"
 			icon: "refinedstorage:machine_casing"
 			x: -4.5d
 			y: 10.0d
+			subtitle: "GG, You just Finished the Refined Stroage Quest Line"
 			dependencies: ["000000000000084B"]
 			id: "00000000000002D5"
-			rewards: [{
-				id: "00000000000008F8"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Refined Storage chapter"
-				player_command: false
+			tasks: [{
+				id: "4663BA195E8F8A0A"
+				type: "custom"
+				icon: "refinedstorage:construction_core"
 			}]
+			rewards: [
+				{
+					id: "00000000000008F8"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Refined Storage chapter"
+					player_command: false
+				}
+				{
+					id: "1D1B1A874D8AF4DA"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Rftools Builder"
 			icon: "rftoolsbuilder:builder"
 			x: -2.5d
 			y: 10.0d
+			subtitle: "GG, You Just Finished the Rftools Builders Quest Line"
 			dependencies: ["000000000000099C"]
 			id: "00000000000002D7"
-			rewards: [{
-				id: "00000000000008F9"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Rftools Builder chapter"
-				player_command: false
+			tasks: [{
+				id: "5BFF68758FC8B0ED"
+				type: "custom"
+				icon: "rftoolsbuilder:space_chamber"
 			}]
+			rewards: [
+				{
+					id: "00000000000008F9"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Builder chapter"
+					player_command: false
+				}
+				{
+					id: "0D05E99AA963BACB"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Rftools Control"
 			icon: "rftoolscontrol:graphics_card"
 			x: -1.5d
 			y: 10.0d
+			subtitle: "GG, You just Finished Rftools Control Quest Line"
 			dependencies: ["00000000000009B8"]
 			id: "00000000000002D9"
-			rewards: [{
-				id: "00000000000008FA"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Rftools Control chapter"
-				player_command: false
+			tasks: [{
+				id: "1751EBE22CF200EB"
+				type: "custom"
+				icon: "rftoolscontrol:graphics_card"
 			}]
+			rewards: [
+				{
+					id: "00000000000008FA"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Control chapter"
+					player_command: false
+				}
+				{
+					id: "440ECC9DD8B1DDBA"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Rftools Power"
 			icon: "rftoolspower:power_core1"
 			x: -0.5d
 			y: 10.0d
+			subtitle: "GG, You Just Finished the Rftools Power Quest Line"
 			dependencies: ["00000000000008CC"]
 			id: "00000000000002DB"
-			rewards: [{
-				id: "00000000000008FB"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Rftools Power chapter"
-				player_command: false
+			tasks: [{
+				id: "4EBC7A72B5C34FCD"
+				type: "custom"
+				icon: "rftoolspower:dimensionalcell"
 			}]
+			rewards: [
+				{
+					id: "00000000000008FB"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Power chapter"
+					player_command: false
+				}
+				{
+					id: "7425E0A1667BD891"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Simple Storage Network"
 			icon: "storagenetwork:inventory"
 			x: 1.5d
 			y: 10.0d
+			subtitle: "GG, You just Finished Simple Storage Quest Line"
 			dependencies: ["0000000000000CDE"]
 			id: "00000000000002DD"
-			rewards: [{
-				id: "00000000000008FC"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Simple Storage Network chapter"
-				player_command: false
+			tasks: [{
+				id: "23BA412FCC54A9D2"
+				type: "custom"
+				icon: "storagenetwork:inventory"
 			}]
+			rewards: [
+				{
+					id: "00000000000008FC"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Simple Storage Network chapter"
+					player_command: false
+				}
+				{
+					id: "61B57C7323119090"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Storage Drawers"
 			icon: "storagedrawers:oak_full_drawers_1"
 			x: 2.5d
 			y: 10.0d
+			subtitle: "GG, You Just Finished the Storage Drawers Quest Line"
 			dependencies: ["0000000000000CDF"]
 			id: "00000000000002DF"
-			rewards: [{
-				id: "00000000000008FD"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Storage Drawers chapter"
-				player_command: false
+			tasks: [{
+				id: "637157AE527A2C46"
+				type: "custom"
+				icon: "storagedrawers:oak_full_drawers_1"
 			}]
+			rewards: [
+				{
+					id: "00000000000008FD"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Storage Drawers chapter"
+					player_command: false
+				}
+				{
+					id: "7EB5FF310C966385"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Tier1 Mystical Agriculture"
@@ -678,72 +805,131 @@
 			y: 9.0d
 			dependencies: ["0000000000000007"]
 			id: "00000000000002E7"
-			rewards: [{
-				id: "0000000000000901"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Mystical Agriculture chapter (Part 4/6)"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0000000000000901"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 4/6)"
+					player_command: false
+				}
+				{
+					id: "4219A859B700F081"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Tier5 Mystical Agriculture"
 			icon: "mysticalagriculture:diamond_seeds"
 			x: -3.0d
 			y: 9.0d
+			subtitle: "GG, You Just Finished Tier 5 Mystical Quest Line"
 			dependencies: ["0000000000000D19"]
 			id: "00000000000002E9"
-			rewards: [{
-				id: "0000000000000902"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Mystical Agriculture chapter (Part 5/6)"
-				player_command: false
+			tasks: [{
+				id: "28A57CA599CB4B49"
+				type: "custom"
+				icon: "mysticalagriculture:draconium_essence"
 			}]
+			rewards: [
+				{
+					id: "0000000000000902"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 5/6)"
+					player_command: false
+				}
+				{
+					id: "08B776C311E68356"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Tier6 Mystical Agriculture"
 			icon: "mysticalagriculture:nether_star_seeds"
 			x: -2.0d
 			y: 9.0d
+			subtitle: "GG, You just Finished the Mystical Tier 6 Quest Line"
 			dependencies: ["0000000000000D1D"]
 			id: "00000000000002EB"
-			rewards: [{
-				id: "0000000000000903"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Mystical Agriculture chapter (Part 6/6)"
-				player_command: false
+			tasks: [{
+				id: "2592C764B88CE082"
+				type: "custom"
+				icon: "mysticalagriculture:awakened_draconium_essence"
 			}]
+			rewards: [
+				{
+					id: "0000000000000903"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 6/6)"
+					player_command: false
+				}
+				{
+					id: "3FC6E6E02D54A75F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Wooden Utilities"
 			icon: "woodenutilities:wooden_plate"
 			x: 0.5d
 			y: 11.0d
+			subtitle: "GG, You just Finished the Wooden Utilities Quest Line"
 			id: "00000000000002ED"
-			rewards: [{
-				id: "0000000000000904"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Wooden Utilities chapter"
-				player_command: false
+			tasks: [{
+				id: "02F3E01A096A15BE"
+				type: "custom"
+				icon: "woodenutilities:wooden_backpack"
 			}]
+			rewards: [
+				{
+					id: "0000000000000904"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Wooden Utilities chapter"
+					player_command: false
+				}
+				{
+					id: "66EE5C253931B170"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Xnet"
 			icon: "xnet:connector_upgrade"
 			x: 1.5d
 			y: 11.0d
+			subtitle: "GG, You just Finished the Xnet Quest Line"
 			dependencies: ["0000000000000D24"]
 			id: "00000000000002EF"
-			rewards: [{
-				id: "0000000000000905"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Xnet chapter"
-				player_command: false
+			tasks: [{
+				id: "77E330095CE186A2"
+				type: "custom"
+				icon: "xnet:connector_upgrade"
 			}]
+			rewards: [
+				{
+					id: "0000000000000905"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Xnet chapter"
+					player_command: false
+				}
+				{
+					id: "1CD1C9FC0422B0FF"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Overloaded"
@@ -752,13 +938,20 @@
 			y: 9.0d
 			dependencies: ["0000000000000551"]
 			id: "00000000000006C4"
-			rewards: [{
-				id: "0000000000000906"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Overloaded chapter"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0000000000000906"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Overloaded chapter"
+					player_command: false
+				}
+				{
+					id: "76668A39635AB553"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Gadgets"
@@ -790,16 +983,29 @@
 			}
 			x: 1.0d
 			y: 3.0d
+			subtitle: "GG, You Just Finished Blood Magic Quest Line"
 			dependencies: ["0000000000000BC4"]
 			dependency_requirement: "one_completed"
 			id: "0000000000000C2C"
-			rewards: [{
-				id: "0000000000000D63"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Bloody Magic chapter"
-				player_command: false
+			tasks: [{
+				id: "6713ABC6C7774371"
+				type: "custom"
+				icon: "bloodmagic:soulforge"
 			}]
+			rewards: [
+				{
+					id: "0000000000000D63"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Bloody Magic chapter"
+					player_command: false
+				}
+				{
+					id: "15FD32E0E87CE9C2"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Flux Networks"
@@ -821,30 +1027,56 @@
 			icon: "thermal:signalum_glass"
 			x: 4.5d
 			y: 10.0d
+			subtitle: "GG, You Just Finished the Thermal Quest Line"
 			dependencies: ["0000000000000AF7"]
 			id: "0000000000000C32"
-			rewards: [{
-				id: "0000000000000D65"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Thermal chapter"
-				player_command: false
+			tasks: [{
+				id: "6066B839AF4C8538"
+				type: "custom"
+				icon: "thermal:energy_cell_frame"
 			}]
+			rewards: [
+				{
+					id: "0000000000000D65"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Thermal chapter"
+					player_command: false
+				}
+				{
+					id: "7A5D24A77B1C7322"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "The End"
 			icon: "minecraft:end_portal_frame"
 			x: -0.5d
 			y: 11.0d
+			subtitle: "GG, You Just Finished the End Quest Line"
 			dependencies: ["0000000000000BAB"]
 			id: "0000000000000C34"
-			rewards: [{
-				id: "0000000000000D66"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the The End chapter"
-				player_command: false
+			tasks: [{
+				id: "5F6C1B64D5C045D2"
+				type: "custom"
+				icon: "minecraft:end_stone"
 			}]
+			rewards: [
+				{
+					id: "0000000000000D66"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the The End chapter"
+					player_command: false
+				}
+				{
+					id: "542C05A3FF2D21C6"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Inventory Pets"
@@ -918,8 +1150,14 @@
 			icon: "compactmachines:personal_shrinking_device"
 			x: -0.5d
 			y: 4.0d
+			subtitle: "GG, You just Finished Compact Machines Quest Line"
 			dependencies: ["0000000000001CDB"]
 			id: "0000000000001CF9"
+			tasks: [{
+				id: "066E08D54E55C9DB"
+				type: "custom"
+				icon: "compactmachines:personal_shrinking_device"
+			}]
 			rewards: [{
 				id: "0000000000001CFB"
 				type: "command"
@@ -948,14 +1186,27 @@
 			icon: "astralsorcery:tome"
 			x: 0.0d
 			y: 3.0d
+			subtitle: "GG, You Just Finished Astral Quest Line"
 			dependencies: ["0000000000000105"]
 			id: "0000000000001D49"
-			rewards: [{
-				id: "1C141F0B8C99970E"
-				type: "command"
-				command: "/say @p has compleated the Astral Sorcery chapter"
-				player_command: false
+			tasks: [{
+				id: "102D6E74CE8D8270"
+				type: "custom"
+				icon: "astralsorcery:aquamarine"
 			}]
+			rewards: [
+				{
+					id: "1C141F0B8C99970E"
+					type: "command"
+					command: "/say @p has compleated the Astral Sorcery chapter"
+					player_command: false
+				}
+				{
+					id: "564D0D1B441A3D9F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Iron Furnaces"
@@ -1000,13 +1251,20 @@
 			y: 10.0d
 			dependencies: ["0000000000000A27"]
 			id: "0000000000001D53"
-			rewards: [{
-				id: "0000000000001D56"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has compleated the Reliquary chapter"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0000000000001D56"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Reliquary chapter"
+					player_command: false
+				}
+				{
+					id: "0BDFA1F4D058DC02"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Deathstar175"
@@ -1137,60 +1395,112 @@
 			}
 			x: -1.0d
 			y: 9.0d
+			subtitle: "GG, You Just Finished Mana and Artifice Quest Line"
 			dependencies: ["0000000000002193"]
 			id: "0000000000002410"
-			rewards: [{
-				id: "0000000000002412"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has completed the Mana and Artifice chapter"
-				player_command: false
+			tasks: [{
+				id: "779388B6F26B3534"
+				type: "custom"
+				icon: "mana-and-artifice:guide_book"
 			}]
+			rewards: [
+				{
+					id: "0000000000002412"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Mana and Artifice chapter"
+					player_command: false
+				}
+				{
+					id: "4A536A0C47BD2544"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Nature's Aura"
 			icon: "naturesaura:aura_bloom"
 			x: 0.0d
 			y: 9.0d
+			subtitle: "GG, You just finished Nature's Aura Quest Line"
 			dependencies: ["0000000000002065"]
 			id: "0000000000002413"
-			rewards: [{
-				id: "0000000000002415"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has completed the Nature's Aura chapter"
-				player_command: false
+			tasks: [{
+				id: "273D552D3C066B9C"
+				type: "custom"
+				icon: "naturesaura:potion_generator"
 			}]
+			rewards: [
+				{
+					id: "0000000000002415"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Nature's Aura chapter"
+					player_command: false
+				}
+				{
+					id: "4CA6E0EB8C2862E3"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "PSI"
 			icon: "psi:cad_assembly_ivory_psimetal"
 			x: 3.0d
 			y: 9.0d
+			subtitle: "GG, You just Finished PSI Quest Line"
 			dependencies: ["0000000000001DF3"]
 			id: "0000000000002416"
-			rewards: [{
-				id: "0000000000002418"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has completed the PSI chapter"
-				player_command: false
+			tasks: [{
+				id: "1EAA341E93AF28C9"
+				type: "custom"
+				icon: "psi:psidust"
 			}]
+			rewards: [
+				{
+					id: "0000000000002418"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the PSI chapter"
+					player_command: false
+				}
+				{
+					id: "45ADEEFB9ADCDFDE"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Router Reborn"
 			icon: "routerreborn:router"
 			x: 0.5d
 			y: 10.0d
+			subtitle: "GG, You just Finished Router Reborn Quest Line"
 			dependencies: ["0000000000001FC5"]
 			id: "0000000000002419"
-			rewards: [{
-				id: "000000000000241B"
-				type: "command"
-				auto: "invisible"
-				command: "/say @p has completed the Router Reborn chapter"
-				player_command: false
+			tasks: [{
+				id: "7F9E24990159945F"
+				type: "custom"
+				icon: "routerreborn:coppercoil"
 			}]
+			rewards: [
+				{
+					id: "000000000000241B"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Router Reborn chapter"
+					player_command: false
+				}
+				{
+					id: "25410DD349561239"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
 		}
 		{
 			title: "Modular Routers"
@@ -1286,6 +1596,7 @@
 			icon: "draconicevolution:draconium_energy_module"
 			x: 2.0d
 			y: 5.0d
+			dependencies: ["6CFF57E0CBFF14DF"]
 			id: "49601DF6379F0609"
 			rewards: [{
 				id: "46619FAC812B575C"
@@ -1454,6 +1765,133 @@
 					}
 				}
 			]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the ATUM Quest Line"
+			id: "221740C5AD9140E0"
+			tasks: [{
+				id: "279E1AC68EF2BBB6"
+				type: "custom"
+				icon: "atum:sand"
+			}]
+			rewards: [
+				{
+					id: "75040B49B52173F4"
+					type: "command"
+					command: "/say @p has compleated the ATUM chapter"
+					player_command: false
+				}
+				{
+					id: "170120C32E211FAB"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Building"
+			x: 1.0d
+			y: 9.0d
+			subtitle: "GG, You Just Finished the Building Quest Line"
+			dependencies: ["0000000000000096"]
+			id: "55B1716F627C45CB"
+			tasks: [{
+				id: "79B414D24E06AD98"
+				type: "custom"
+				icon: "mcwwindows:jungle_plank_window"
+			}]
+			rewards: [
+				{
+					id: "6771D5610699FDE4"
+					type: "command"
+					command: "/say @p has compleated the Building chapter"
+					player_command: false
+				}
+				{
+					id: "722B7DD5BF7B317C"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Eidolon"
+			x: -1.5d
+			y: 11.0d
+			subtitle: "GG, You just Finished Eidolon Quest Line"
+			dependencies: ["0000000000000E7F"]
+			id: "5D5DCCE4B130CC38"
+			tasks: [{
+				id: "61DDCEB952860FC7"
+				type: "custom"
+				icon: "eidolon:unholy_symbol"
+			}]
+			rewards: [
+				{
+					id: "0CE7D7043B3A2226"
+					type: "command"
+					command: "/say @p has compleated the The Eidolon chapter"
+					player_command: false
+				}
+				{
+					id: "63A8E77FD62FC14F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Gateways"
+			x: -2.5d
+			y: 11.0d
+			subtitle: "GG, You Just Finished the Gateway Quest Line"
+			id: "16EB0B4A32E7E188"
+			tasks: [{
+				id: "7000444601B592DE"
+				type: "custom"
+				icon: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_slime_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "green"
+							entity: {
+								Entity: {
+									id: "minecraft:slime"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_slime_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "381574414394F8F9"
+					type: "command"
+					command: "/say @p has compleated the The Gateways chapter"
+					player_command: false
+				}
+				{
+					id: "6BDA95CED823BD8D"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "GG, You Finished The Waystone Quest Line"
+			dependencies: ["0965D5B5D7483B3B"]
+			dependency_requirement: "one_completed"
+			id: "14C69223DB6BB18B"
 		}
 	]
 }

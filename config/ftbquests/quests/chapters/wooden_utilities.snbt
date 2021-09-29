@@ -3,7 +3,7 @@
 	group: "68BD27E8D0136E3E"
 	order_index: 4
 	filename: "wooden_utilities"
-	title: "&6Wooden Utilities"
+	title: "&9Wooden Utilities"
 	icon: "woodenutilities:wooden_plate"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
