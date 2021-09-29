@@ -14,4 +14,6 @@ onEvent('recipes', event => {
     event.smithing(Item.of('undergarden:froststeel_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:ingots/froststeel', '#forge:rods/wooden')
     event.smithing(Item.of('undergarden:utheric_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:ingots/utherium', '#forge:rods/wooden')
     event.smithing(Item.of('occultism:iesnium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:ingots/iesnium', '#forge:rods/wooden')
+    event.smithing(Item.of('appliedenergistics2:certus_quartz_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:gems/certus_quartz', '#forge:rods/wooden')
+    event.smithing(Item.of('appliedenergistics2:nether_quartz_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:gems/quartz', '#forge:rods/wooden')
 })
