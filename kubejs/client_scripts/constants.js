@@ -39,6 +39,7 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'botania:glass_pickaxe',
     'quark:matrix_enchanter',
     'cyclic:item_infinite',
     'cyclic:battery_infinite',

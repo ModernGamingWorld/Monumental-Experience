@@ -7,6 +7,11 @@ onEvent('recipes', event => {
         id: 'akashictome:tome'
     })
 
+    //Aquaculture Recipes
+    event.remove({
+        id: 'aquaculture:neptunium_pickaxe'
+    })
+
     //AstralSorcery Recipes
     event.remove({
         id: 'astralsorcery:altar/colored_lens_break'
@@ -364,6 +369,18 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'botania:manasteel_pick'
+    })
+    event.remove({
+        id: 'botania:elementium_pickaxe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingwood_pickaxe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingrock_pickaxe'
+    })
+    event.remove({
+        id: 'botania:glass_pickaxe'
     })
     event.remove({
         id: 'botania:lens_normal'
@@ -1966,6 +1983,9 @@ onEvent('recipes', event => {
         id: 'immersiveengineering:crafting/blueprint_components'
     })
     event.remove({
+        id: 'immersiveengineering:crafting/pickaxe_steel'
+    })
+    event.remove({
         id: 'immersiveengineering:crafting/capacitor_lv'
     })
     event.remove({
@@ -3172,6 +3192,12 @@ onEvent('recipes', event => {
         id: 'naturesaura:altar/infused_iron'
     })
     event.remove({
+        id: 'naturesaura:infused_pickaxe'
+    })
+    event.remove({
+        id: 'naturesaura:sky_pickaxe'
+    })
+    event.remove({
         id: 'naturesaura:offering_table'
     })
     event.remove({
@@ -3230,6 +3256,11 @@ onEvent('recipes', event => {
     //Osmium Gear Recipes
     event.remove({
         id: 'emendatusenigmatica:gear_from_ingot/osmium'
+    })
+
+    //Occultism
+    event.remove({
+        id: 'occultism:crafting/iesnium_pickaxe'
     })
 
     //Potassium Nitrate recipe
@@ -4484,6 +4515,17 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'tconstruct:common/slime/sticky_piston'
+    })
+
+    //Undergarden
+    event.remove({
+        id: 'undergarden:cloggrum_pickaxe'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_pickaxe'
+    })
+    event.remove({
+        id: 'undergarden:utheric_pickaxe'
     })
 
     //Uranium ingot to block recipes
