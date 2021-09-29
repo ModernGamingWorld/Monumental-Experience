@@ -12,6 +12,11 @@ onEvent('recipes', event => {
         id: 'aquaculture:neptunium_pickaxe'
     })
 
+    //Atum Recipes
+    event.remove({
+        id: 'minecraft:limestone_pickaxe'
+    })
+
     //AstralSorcery Recipes
     event.remove({
         id: 'astralsorcery:altar/colored_lens_break'
@@ -36,6 +41,12 @@ onEvent('recipes', event => {
     })
 
     //AE2 Recipes
+    event.remove({
+        id: 'appliedenergistics2:tools/certus_quartz_pickaxe'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/nether_quartz_pickaxe'
+    })
     event.remove({
         id: 'appliedenergistics2:network/blocks/spatial_anchor'
     })
