@@ -90,3 +90,10 @@
 					#radial-menu.mouse-indicator
 					mouse-indicator = false
 
+			[client.client.client.compat]
+
+				#mod.chiselsandbits.config.compat.jei.comment
+				[client.client.client.compat.jei]
+					#mod.chiselsandbits.config.compat.jei.inject-bits.comment
+					inject-bits = true
+

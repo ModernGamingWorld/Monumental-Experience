@@ -13,4 +13,7 @@ onEvent('block.loot_tables', event => {
 
     //End Essences
     event.addSimpleBlock('#forge:end_stones', 'mysticalagriculture:end_essence')
+
+    //Wood Essences
+    event.addSimpleBlock('#minecraft:logs', 'mysticalagriculture:wood_essence')
 })

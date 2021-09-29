@@ -3,7 +3,7 @@
 	group: "6B2D545E7A3D7242"
 	order_index: 0
 	filename: "darkutilities"
-	title: "&9Dark Utilities"
+	title: "&6Dark Utilities"
 	icon: "darkutils:blank_plate"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

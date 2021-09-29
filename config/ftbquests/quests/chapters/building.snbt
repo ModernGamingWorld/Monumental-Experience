@@ -3,7 +3,7 @@
 	group: "68BD27E8D0136E3E"
 	order_index: 5
 	filename: "building"
-	title: "Building"
+	title: "&6Building"
 	icon: "mcwwindows:oak_window"
 	always_invisible: true
 	default_quest_shape: ""

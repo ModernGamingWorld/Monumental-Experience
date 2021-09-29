@@ -27,6 +27,13 @@ onEvent('recipes', (event) => {
             },
             output: 'mysticalagriculture:zombie_essence',
             id: 'occultism:spirit_fire/zombie_essence'
+        },
+        {
+            input: {
+                item: 'mysticalagriculture:wood_essence'
+            },
+            output: 'occultism:otherworld_ashes',
+            id: 'occultism:spirit_fire/otherworld_ashes'
         }
     ];
 

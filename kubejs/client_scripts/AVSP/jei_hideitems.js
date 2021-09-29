@@ -43,6 +43,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('createaddition:iron_rod')
 	//Iron ore
 	event.hide('minecraft:iron_ore')
+	event.hide('geolosys:iron_cluster')
 //
 //GOLD
 	//Gold dust
@@ -66,6 +67,8 @@ onEvent('jei.hide.items', event => {
 	//Gold ore
 	event.hide('minecraft:gold_ore')
 	event.hide('minecraft:nether_gold_ore')
+	event.hide('geolosys:gold_cluster')
+	event.hide('geolosys:nether_gold_cluster')
 //
 //DIAMOND
 	//Diamond dust
@@ -123,6 +126,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('tconstruct:copper_ingot')
 	event.hide('iceandfire:copper_ingot')
 	event.hide('routerreborn:copper_ingot')
+	event.hide('geolosys:copper_ingot')
+	event.hide('projectred-core:copper_ingot')
 	//Copper block
 	event.hide('silents_mechanisms:copper_block')
 	event.hide('tmechworks:copper_block')
@@ -145,6 +150,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('create:copper_nugget')
 	event.hide('tconstruct:copper_nugget')
 	event.hide('iceandfire:copper_nugget')
+	event.hide('geolosys:copper_nugget')
 	//Copper dust
 	event.hide('immersiveengineering:dust_copper')
 	event.hide('silents_mechanisms:copper_dust')
@@ -174,12 +180,15 @@ onEvent('jei.hide.items', event => {
 	event.hide('occultism:copper_ore')
 	event.hide('iceandfire:copper_ore')
 	event.hide('routerreborn:copper_ore')
+	event.hide('geolosys:copper_cluster')
+	event.hide('projectred-exploration:copper_ore')
 //
 //ALUMINUM
 	//Aluminum ingot
 	event.hide('silents_mechanisms:aluminum_ingot')
 	event.hide('tmechworks:aluminum_ingot')
 	event.hide('immersiveengineering:ingot_aluminium')
+	event.hide('geolosys:aluminum_ingot')
 	//Aluminum block
 	event.hide('silents_mechanisms:aluminum_block')
 	event.hide('tmechworks:aluminum_block')
@@ -188,6 +197,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('silents_mechanisms:aluminum_nugget')
 	event.hide('tmechworks:aluminum_nugget')
 	event.hide('immersiveengineering:nugget_aluminium')
+	event.hide('geolosys:aluminum_nugget')
 	//Aluminum dust
 	event.hide('silents_mechanisms:aluminum_dust')
 	event.hide('pedestals:dustaluminum')
@@ -200,6 +210,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('tmechworks:aluminum_ore')
 	event.hide('immersiveengineering:ore_aluminum')
 	event.hide('silents_mechanisms:bauxite_ore')
+	event.hide('geolosys:aluminum_cluster')
 //
 //SILVER
 	//Silver ingot
@@ -209,6 +220,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:ingot_silver')
 	event.hide('occultism:silver_ingot')
 	event.hide('iceandfire:silver_ingot')
+	event.hide('geolosys:silver_ingot')
+	event.hide('projectred-core:silver_ingot')
 	//Silver block
 	event.hide('silents_mechanisms:silver_block')
 	event.hide('mysticalworld:silver_block')
@@ -223,6 +236,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:nugget_silver')
 	event.hide('occultism:silver_nugget')
 	event.hide('iceandfire:silver_nugget')
+	event.hide('geolosys:silver_nugget')
 	//Silver dust
 	event.hide('silents_mechanisms:silver_dust')
 	event.hide('mysticalworld:silver_dust')
@@ -244,6 +258,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('silents_mechanisms:silver_ore')
 	event.hide('occultism:silver_ore')
 	event.hide('iceandfire:silver_ore')
+	event.hide('geolosys:silver_cluster')
+	event.hide('projectred-exploration:silver_ore')
 //
 //LEAD
 	//Lead ingot
@@ -253,6 +269,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:lead_ingot')
 	event.hide('immersiveengineering:ingot_lead')
 	event.hide('eidolon:lead_ingot')
+	event.hide('geolosys:lead_ingot')
 	//Lead block
 	event.hide('silents_mechanisms:lead_block')
 	event.hide('mekanism:block_lead')
@@ -267,6 +284,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:lead_nugget')
 	event.hide('immersiveengineering:nugget_lead')
 	event.hide('eidolon:lead_nugget')
+	event.hide('geolosys:lead_nugget')
 	//Lead dust
 	event.hide('silents_mechanisms:lead_dust')
 	event.hide('mekanism:dust_lead')
@@ -289,12 +307,14 @@ onEvent('jei.hide.items', event => {
 	event.hide('mysticalworld:lead_ore')
 	event.hide('silents_mechanisms:lead_ore')
 	event.hide('eidolon:lead_ore')
+	event.hide('geolosys:lead_cluster')
 //
 //NICKEL
 	//Nickel ingot
 	event.hide('silents_mechanisms:nickel_ingot')
 	event.hide('thermal:nickel_ingot')
 	event.hide('immersiveengineering:ingot_nickel')
+	event.hide('geolosys:nickel_ingot')
 	//Nickel block
 	event.hide('silents_mechanisms:nickel_block')
 	event.hide('thermal:nickel_block')
@@ -303,6 +323,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('silents_mechanisms:nickel_nugget')
 	event.hide('thermal:nickel_nugget')
 	event.hide('immersiveengineering:nugget_nickel')
+	event.hide('geolosys:nickel_nugget')
 	//Nickel dust
 	event.hide('silents_mechanisms:nickel_dust')
 	event.hide('thermal:nickel_dust')
@@ -319,6 +340,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:ore_nickel')
 	event.hide('thermal:nickel_ore')
 	event.hide('silents_mechanisms:nickel_ore')
+	event.hide('geolosys:nickel_cluster')
 //
 //URANIUM
 	//Uranium ingot
@@ -346,6 +368,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('immersiveengineering:ore_uranium')
 	event.hide('mekanism:uranium_ore')
 	event.hide('silents_mechanisms:uranium')
+	event.hide('geolosys:uranium_cluster')
+	event.hide('geolosys:yellorium_cluster')
 //
 //OSMIUM
 	//Osmium ingot
@@ -359,6 +383,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('pedestals:dustosmium')
 	//Osmium ore
 	event.hide('mekanism:osmium_ore')
+	event.hide('geolosys:osmium_cluster')
 //
 //TIN
 	//Tin ingot
@@ -366,6 +391,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('mekanism:ingot_tin')
 	event.hide('mysticalworld:tin_ingot')
 	event.hide('thermal:tin_ingot')
+	event.hide('geolosys:tin_ingot')
+	event.hide('projectred-core:tin_ingot')
 	//Tin block
 	event.hide('silents_mechanisms:tin_block')
 	event.hide('mekanism:block_tin')
@@ -376,6 +403,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('mekanism:nugget_tin')
 	event.hide('mysticalworld:tin_nugget')
 	event.hide('thermal:tin_nugget')
+	event.hide('geolosys:tin_nugget')
 	//Tin dust
 	event.hide('silents_mechanisms:tin_dust')
 	event.hide('mekanism:dust_tin')
@@ -391,17 +419,21 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:tin_ore')
 	event.hide('mysticalworld:tin_ore')
 	event.hide('silents_mechanisms:tin_ore')
+	event.hide('geolosys:tin_cluster')
+	event.hide('projectred-exploration:tin_ore')
 //
 //ZINC
 	//Zinc ingot
 	event.hide('silents_mechanisms:zinc_ingot')
 	event.hide('create:zinc_ingot')
+	event.hide('geolosys:zinc_ingot')
 	//Zinc block
 	event.hide('silents_mechanisms:zinc_block')
 	event.hide('create:zinc_block')
 	//Zinc nugget
 	event.hide('silents_mechanisms:zinc_nugget')
 	event.hide('create:zinc_nugget')
+	event.hide('geolosys:zinc_nugget')
 	//Zinc dust
 	event.hide('silents_mechanisms:zinc_dust')
 	//Zinc plate
@@ -409,11 +441,7 @@ onEvent('jei.hide.items', event => {
 	//Zinc ore
 	event.hide('create:zinc_ore')
 	event.hide('silents_mechanisms:zin_ore')
-//
-//Obsidian dust
-	event.hide('mekanism:dust_obsidian')
-	event.hide('create:powdered_obsidian')
-	event.hide('occultism:obsidian_dust')
+	event.hide('geolosys:zinc_cluster')
 //
 //COBALT
 	//Cobalt ingot
@@ -424,6 +452,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('tconstruct:cobalt_nugget')
 	//Cobalt ore
 	event.hide('tconstruct:cobalt_ore')
+/*
 //
 //CERTUS QUARTZ
 	//Certus quartz crystal
@@ -446,6 +475,28 @@ onEvent('jei.hide.items', event => {
 	event.hide('appliedenergistics2:fluix_dust')
 	//Fluix block
 	event.hide('appliedenergistics2:fluix_block')
+*/
+//CERTUS QUARTZ
+	//Certus quartz crystal
+	event.hide('emendatusenigmatica:certus_quartz_gem')
+	//Certus quartz dust
+	event.hide('emendatusenigmatica:certus_quartz_dust')
+	//Certus quartz ore
+	event.hide('appliedenergistics2:certus_quartz_ore')
+//
+//CHARGED CERTUS QUARTZ
+	//Charged certus quartz crystal
+	event.hide('emendatusenigmatica:charged_certus_quartz_gem')
+	//Charged certus quartz ore
+	event.hide('appliedenergistics2:charged_certus_quartz_ore')
+//
+//FLUIX CRYSTAL
+	//Fluix crystal
+	event.hide('emendatusenigmatica:fluix_gem')
+	//Fluix crystal dust
+	event.hide('emendatusenigmatica:fluix_dust')
+	//Fluix block
+	event.hide('emendatusenigmatica:fluix_block')
 //
 //FLUORITE
 	//Fluorite crystal
@@ -713,6 +764,7 @@ onEvent('jei.hide.items', event => {
 //
 //OTHER
 	event.hide('minecraft:redstone_ore')
+	event.hide('geolosys:ancient_debris_cluster')
 //
 //fin
 //
