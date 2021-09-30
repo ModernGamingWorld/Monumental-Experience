@@ -73,6 +73,10 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "item",
+                        name: "immersiveengineering:circuit_board"
+                    },
+                    {
+                        type: "item",
                         name: "minecraft:iron_sword"
                     },
                     {

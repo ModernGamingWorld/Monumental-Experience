@@ -182,6 +182,19 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "minecraft:item",
+                    weight: 7,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 1,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "immersiveengineering:circuit_board"
+                },
+                {
+                    type: "minecraft:item",
                     weight: 4,
                     functions: [{
                             function: "minecraft:set_nbt",

@@ -12,6 +12,10 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "minecraft:item",
+                    name: "immersiveengineering:circuit_board"
+                },
+                {
+                    type: "minecraft:item",
                     name: "emendatusenigmatica:steel_rod"
                 }
             ]

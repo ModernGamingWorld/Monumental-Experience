@@ -44,6 +44,18 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
+                    name: "minecraft:smithing_table",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 10
+                },
+                {
+                    type: "item",
                     name: "mysticalagriculture:sheep_essence",
                     functions: [{
                         function: "set_count",
