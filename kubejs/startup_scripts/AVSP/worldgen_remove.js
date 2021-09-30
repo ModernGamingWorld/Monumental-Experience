@@ -27,6 +27,11 @@ events.listen('worldgen.remove', (event) => {
 		ores.blocks = ['minecraft:iron_ore', 'minecraft:gold_ore', 'minecraft:coal_ore', 'minecraft:nether_gold_ore', 'minecraft:nether_quartz_ore', 'minecraft:diamond_ore', 'minecraft:emerald_ore', 'minecraft:redstone_ore', 'minecraft:lapis_ore'];
 	});
 
+//ATUM
+	event.removeOres((ores) => {
+		ores.blocks = ['atum:gold_ore'];
+	});
+
 //COPPER
 	event.removeOres((ores) => {
 		ores.blocks = ['immersiveengineering:ore_copper', 'mekanism:copper_ore', 'create:copper_ore', 'thermal:copper_ore', 'tmechworks:copper_ore', 'mysticalworld:copper_ore', 'silents_mechanisms:copper_ore', 'tconstruct:copper_ore', 'occultism:copper_ore', 'iceandfire:copper_ore', 'routerreborn:copper_ore', 'projectred-exploration:copper_ore'];
