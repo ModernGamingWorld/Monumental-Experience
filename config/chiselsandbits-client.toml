@@ -95,5 +95,5 @@
 				#mod.chiselsandbits.config.compat.jei.comment
 				[client.client.client.compat.jei]
 					#mod.chiselsandbits.config.compat.jei.inject-bits.comment
-					inject-bits = true
+					inject-bits = false
 
