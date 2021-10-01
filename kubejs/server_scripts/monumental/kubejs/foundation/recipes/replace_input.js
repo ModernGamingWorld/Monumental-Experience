@@ -37,6 +37,7 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'minecraft:iron_ore', '#forge:ores/iron');
     event.replaceInput({}, 'minecraft:gold_ore', '#forge:ores/gold');
     event.replaceInput({}, 'upgrade_aquatic:beachgrass', '#forge:beach_grass');
+    event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
     event.replaceInput({
         id: '/simplefarming:\\w+burger/'
     }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');

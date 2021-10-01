@@ -1507,6 +1507,12 @@ onEvent('recipes', event => {
         id: 'forbidden_arcanus:aquatic_dragon_scale'
     })
     event.remove({
+        id: 'forbidden_arcanus:draco_arcanus_arrow'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:boom_arrow'
+    })
+    event.remove({
         id: 'forbidden_arcanus:arcane_gold_ingot'
     })
     event.remove({
@@ -2281,6 +2287,23 @@ onEvent('recipes', event => {
         id: 'ironcoals:iron_coal_from_chunk'
     })
 
+    //Iceandfire Recipes
+    event.remove({
+        id: 'iceandfire:hydra_arrow'
+    })
+    event.remove({
+        id: 'iceandfire:sea_serpent_arrow'
+    })
+    event.remove({
+        id: 'iceandfire:amphithere_arrow'
+    })
+    event.remove({
+        id: 'iceandfire:stymphalian_arrow'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_arrow'
+    })
+
     //Iron Furnaces Recipes
     event.remove({
         id: 'ironfurnaces:allthemodium_furnace'
@@ -2841,6 +2864,18 @@ onEvent('recipes', event => {
     //Minecraft recipes
     event.remove({
         id: 'minecraft:compass'
+    })
+    event.remove({
+        id: 'minecraft:arrow'
+    })
+    event.remove({
+        id: 'mysticalagriculture:essence/arrow'
+    })
+    event.remove({
+        id: 'byg:arrow_from_therium_shard'
+    })
+    event.remove({
+        id: 'minecraft:spectral_arrow'
     })
     event.remove({
         id: 'minecraft:smithing_table'
@@ -3645,6 +3680,9 @@ onEvent('recipes', event => {
     //Rftools recipes
     event.remove({
         id: 'rftoolsbase:filter_module'
+    })
+    event.remove({
+        id: 'rftoolsbase:dimensionalshard'
     })
     event.remove({
         id: 'rftoolsbase:machine_base'

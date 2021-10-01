@@ -13,4 +13,10 @@ onEvent('block.loot_tables', event => {
 
     //End Essences
     event.addSimpleBlock('#forge:end_stones', 'mysticalagriculture:end_essence')
+
+    //Ice Essences
+    event.addSimpleBlock('#forge:snow_blocks', 'mysticalagriculture:ice_essence')
+
+    //Obsidian Essences
+    event.addSimpleBlock('#forge:obsidian', 'mysticalagriculture:obsidian_essence')
 })

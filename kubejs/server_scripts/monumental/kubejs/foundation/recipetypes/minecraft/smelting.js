@@ -24,4 +24,5 @@ onEvent('recipes', event => {
     event.smelting('1x emendatusenigmatica:cinnabar_gem', '#forge:chunks/cinnabar').id('emendatusenigmatica:cinnabar_chunks_to_gem')
     event.smelting('1x emendatusenigmatica:apatite_gem', '#forge:chunks/apatite').id('emendatusenigmatica:apatite_chunks_to_gem')
     event.smelting('1x emendatusenigmatica:sulfur_gem', '#forge:chunks/sulfur').id('emendatusenigmatica:sulfur_chunks_to_gem')
+    event.smelting('1x emendatusenigmatica:dimensional_gem', '#forge:chunks/dimensional').id('emendatusenigmatica:dimensional_chunks_to_gem')
 })

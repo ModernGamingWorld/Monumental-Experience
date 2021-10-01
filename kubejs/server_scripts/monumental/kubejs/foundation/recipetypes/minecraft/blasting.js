@@ -42,6 +42,12 @@ onEvent('recipes', (event) => {
             output: Item.of('emendatusenigmatica:sulfur_gem', 1),
             xp: 0.7,
             id: 'emendatusenigmatica:sulfur_chunks_to_gem'
+        },
+        {
+            input: '#forge:chunks/dimensional',
+            output: Item.of('emendatusenigmatica:dimensional_gem', 1),
+            xp: 0.7,
+            id: 'emendatusenigmatica:dimensional_chunks_to_gem'
         }
     ];
     recipes.forEach((recipe) => {
