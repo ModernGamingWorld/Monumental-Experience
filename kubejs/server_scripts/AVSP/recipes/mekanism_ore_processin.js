@@ -2294,7 +2294,7 @@ onEvent('recipes', event => {
   		},
   		output: {
   			slurry: 'emendatusenigmatica:dirty_dimensional',
-  			amount: 1000,
+  			amount: 8000,
   			chemicalType: 'slurry'
   		}
   	})
@@ -2424,19 +2424,6 @@ onEvent('recipes', event => {
   		},
   		output: {
   			item: 'emendatusenigmatica:dimensional_gem'
-  		}
-  	})
-  	//[DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
-  	event.custom({
-  		type: 'mekanism:enriching',
-  		input: {
-  			ingredient: {
-  				tag: 'forge:ores/dimensional'
-  			}
-  		},
-  		output: {
-  			item: 'emendatusenigmatica:dimensional_gem',
-  			count: 2
   		}
   	})
 //
