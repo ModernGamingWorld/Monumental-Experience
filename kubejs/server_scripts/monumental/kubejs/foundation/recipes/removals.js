@@ -11,6 +11,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'aquaculture:neptunium_pickaxe'
     })
+    event.remove({
+        id: 'aquaculture:neptunium_shovel'
+    })
 
     //Atum Recipes
     event.remove({
@@ -46,6 +49,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'appliedenergistics2:tools/nether_quartz_pickaxe'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/certus_quartz_spade'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/nether_quartz_spade'
     })
     event.remove({
         id: 'appliedenergistics2:network/blocks/spatial_anchor'
@@ -385,10 +394,22 @@ onEvent('recipes', event => {
         id: 'botania:elementium_pickaxe'
     })
     event.remove({
+        id: 'botania:manasteel_shovel'
+    })
+    event.remove({
+        id: 'botania:elementium_shovel'
+    })
+    event.remove({
         id: 'aiotbotania:livingwood_pickaxe'
     })
     event.remove({
         id: 'aiotbotania:livingrock_pickaxe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingwood_shovel'
+    })
+    event.remove({
+        id: 'aiotbotania:livingrock_shovel'
     })
     event.remove({
         id: 'botania:glass_pickaxe'
@@ -642,6 +663,92 @@ onEvent('recipes', event => {
     event.remove({
         id: 'blue_skies:lunar_stone_pressure_plate'
     })
+    event.remove({
+        id: 'blue_skies:horizonite_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:turquoise_stone_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:cherry_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:maple_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:frostbright_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:dusk_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:starlit_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:bluebright_pickaxe'
+    })
+    event.remove({
+        id: 'blue_skies:horizonite_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:turquoise_stone_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:cherry_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:maple_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:frostbright_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:dusk_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:starlit_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:bluebright_shovel'
+    })
+
+
     //Cinnabar
     event.remove({
         id: 'thermal:storage/cinnabar_from_block'
@@ -1049,6 +1156,30 @@ onEvent('recipes', event => {
     event.remove({
         id: 'cyclic:soldifier_obs'
     })
+    event.remove({
+        id: 'cyclic:netherbrick_pickaxe'
+    })
+    event.remove({
+        id: 'cyclic:sandstone_pickaxe'
+    })
+    event.remove({
+        id: 'cyclic:emerald_pickaxe'
+    })
+    event.remove({
+        id: 'cyclic:crystal_pickaxe'
+    })
+    event.remove({
+        id: 'cyclic:netherbrick_shovel'
+    })
+    event.remove({
+        id: 'cyclic:sandstone_shovel'
+    })
+    event.remove({
+        id: 'cyclic:emerald_shovel'
+    })
+    event.remove({
+        id: 'cyclic:crystal_shovel'
+    })
 
     //Draconic Evolution Recipes
     event.remove({
@@ -1088,10 +1219,25 @@ onEvent('recipes', event => {
     event.remove({
         id: 'doom:argent_plate'
     })
+    event.remove({
+        id: 'doom:argent_pickaxe'
+    })
 
     //DruidCraft Recipes
     event.remove({
         id: 'druidcraft:elder_pressure_plate'
+    })
+    event.remove({
+        id: 'druidcraft:bone_pickaxe'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_pickaxe'
+    })
+    event.remove({
+        id: 'druidcraft:bone_shovel'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_shovel'
     })
 
     //Emendatus Engimatica Gear Recipes
@@ -1545,6 +1691,42 @@ onEvent('recipes', event => {
     event.remove({
         id: 'forbidden_arcanus:soul_extractor'
     })
+    event.remove({
+        id: 'forbidden_arcanus:bone_pickaxe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:obsidian_pickaxe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:reinforced_arcane_golden_pickaxe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:arcane_golden_pickaxe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:bone_shovel'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:obsidian_shovel'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:reinforced_arcane_golden_shovel'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:arcane_golden_shovel'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:bone_sword'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:obsidian_sword'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:reinforced_arcane_golden_sword'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:arcane_golden_sword'
+    })
 
     //Flux Networks Recipes
     event.remove({
@@ -1621,6 +1803,48 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_ingot_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_paxel_stars'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_pickaxe_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_pickaxe_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_pickaxe'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_sword'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_shovel_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_shovel_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_sword_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_excavator_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_excavator_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_shovel'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_excavator'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_sword_traveler'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_sword'
     })
 
     //Gold blasting and smelting recipes
@@ -1897,6 +2121,92 @@ onEvent('recipes', event => {
         id: 'minecraft:iron_ingot'
     })
 
+    //IceandFire recipes
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:lightning_sword'
+    })
+    event.remove({
+        id: 'iceandfire:ice_sword'
+    })
+    event.remove({
+        id: 'iceandfire:fire_sword'
+    })
+    event.remove({
+        id: 'iceandfire:hippogryph_sword'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_pickaxe_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_pickaxe_desert'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:copper_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:silver_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:copper_shovel'
+    })
+    event.remove({
+        id: 'iceandfire:silver_spade'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_shovel'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_shovel'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_shovel'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_shovel_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_shovel_desert'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_shovel'
+    })
+    event.remove({
+        id: 'iceandfire:copper_sword'
+    })
+    event.remove({
+        id: 'iceandfire:silver_sword'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_sword'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_sword'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_sword'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_sword_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_sword_desert'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_sword'
+    })
+
     //Industrial Forgoing Recipes
     event.remove({
         id: 'industrialforegoing:fluid_extractor'
@@ -1949,6 +2259,21 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:inferium_watering_can'
     })
 
+    //Inferium pickaxe recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_pickaxe'
+    })
+
+    //Inferium shovel recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_shovel'
+    })
+
+    //Inferium sword recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_sword'
+    })
+
     //Inferium apple recipes
     event.remove({
         id: 'mysticalagradditions:inferium_apple'
@@ -1995,6 +2320,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'immersiveengineering:crafting/pickaxe_steel'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/shovel_steel'
     })
     event.remove({
         id: 'immersiveengineering:crafting/capacitor_lv'
@@ -2849,13 +3177,25 @@ onEvent('recipes', event => {
         id: 'quark:tweaks/crafting/utility/tools/stone_pickaxe'
     })
     event.remove({
+        id: 'quark:tweaks/crafting/utility/tools/stone_shovel'
+    })
+    event.remove({
         id: 'minecraft:golden_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:golden_shovel'
     })
     event.remove({
         id: 'minecraft:iron_pickaxe'
     })
     event.remove({
+        id: 'minecraft:iron_shovel'
+    })
+    event.remove({
         id: 'minecraft:diamond_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:diamond_shovel'
     })
     event.remove({
         id: 'minecraft:ender_eye'
@@ -3209,6 +3549,12 @@ onEvent('recipes', event => {
         id: 'naturesaura:sky_pickaxe'
     })
     event.remove({
+        id: 'naturesaura:infused_shovel'
+    })
+    event.remove({
+        id: 'naturesaura:sky_shovel'
+    })
+    event.remove({
         id: 'naturesaura:offering_table'
     })
     event.remove({
@@ -3374,6 +3720,15 @@ onEvent('recipes', event => {
     event.remove({
         id: 'psi:programmer'
     })
+    event.remove({
+        id: 'psi:psimetal_pickaxe'
+    })
+    event.remove({
+        id: 'psi:psimetal_shovel'
+    })
+    event.remove({
+        id: 'psi:psimetal_sword'
+    })
 
     //Purified vinteum ingot recipes
     event.remove({
@@ -3382,7 +3737,6 @@ onEvent('recipes', event => {
     event.remove({
         id: 'mana-and-artifice:purified_vinteum_bar'
     })
-
 
     //Quark recipes
     event.remove({
@@ -4210,6 +4564,47 @@ onEvent('recipes', event => {
         id: 'tconstruct:common/materials/cobalt_nugget_from_ingot'
     })
 
+    //Twilight Recipes
+    event.remove({
+        id: 'twilightforest:equipment/knightmetal_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/giant_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_iron_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_pickaxe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_shovel'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_shovel'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_sword'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_sword'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/knightmetal_sword'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_sword'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_iron_sword'
+    })
+
     //Tin gear recipes
     event.remove({
         id: 'thermal:parts/tin_gear'
@@ -4537,6 +4932,15 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'undergarden:utheric_pickaxe'
+    })
+    event.remove({
+        id: 'undergarden:cloggrum_shovel'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_shovel'
+    })
+    event.remove({
+        id: 'undergarden:utheric_shovel'
     })
 
     //Uranium ingot to block recipes
