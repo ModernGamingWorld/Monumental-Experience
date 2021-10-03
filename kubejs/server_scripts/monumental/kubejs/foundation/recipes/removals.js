@@ -17,6 +17,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'aquaculture:neptunium_sword'
     })
+    event.remove({
+        id: 'aquaculture:neptunium_hoe'
+    })
 
     //Atum Recipes
     event.remove({
@@ -24,6 +27,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:limestone_sword'
+    })
+    event.remove({
+        id: 'minecraft:limestone_hoe'
     })
     event.remove({
         id: 'atum:stoneguard_sword'
@@ -427,7 +433,16 @@ onEvent('recipes', event => {
         id: 'botania:elementium_sword'
     })
     event.remove({
+        id: 'botania:manasteel_hoe'
+    })
+    event.remove({
+        id: 'botania:elementium_hoe'
+    })
+    event.remove({
         id: 'aiotbotania:livingwood_pickaxe'
+    })
+    event.remove({
+        id: 'aiotbotania:terra_hoe'
     })
     event.remove({
         id: 'aiotbotania:livingrock_pickaxe'
@@ -443,6 +458,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'aiotbotania:livingrock_sword'
+    })
+    event.remove({
+        id: 'aiotbotania:livingwood_hoe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingrock_hoe'
     })
     event.remove({
         id: 'botania:glass_pickaxe'
@@ -1385,6 +1406,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'druidcraft:moonstone_sword'
+    })
+    event.remove({
+        id: 'druidcraft:bone_hoe'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_hoe'
     })
 
     //Emendatus Engimatica Gear Recipes
@@ -2529,6 +2556,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'immersiveengineering:crafting/shovel_steel'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/hoe_steel'
     })
     event.remove({
         id: 'immersiveengineering:crafting/capacitor_lv'

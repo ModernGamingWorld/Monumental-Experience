@@ -121,7 +121,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('aquaculture:neptunium_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_hoe', '#forge:ingots/neptunium')
     event.smithing(Item.of('botania:manasteel_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', '#forge:ingots/manasteel')
     event.smithing(Item.of('botania:elementium_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', '#forge:ingots/elementium')
-    event.smithing(Item.of('immersiveengineering:shovel_steel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', '#forge:ingots/steel')
+    event.smithing(Item.of('immersiveengineering:hoe_steel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', '#forge:ingots/steel')
     event.smithing(Item.of('naturesaura:infused_iron_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', 'naturesaura:infused_iron')
     event.smithing(Item.of('naturesaura:sky_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_hoe', 'naturesaura:sky_ingot')
     event.smithing(Item.of('undergarden:cloggrum_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:stone_hoe', '#forge:ingots/cloggrum')
@@ -164,7 +164,9 @@ onEvent('recipes', event => {
     event.smithing(Item.of('iceandfire:dragonbone_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_hoe', '#forge:bones/dragon')
     event.smithing(Item.of('mysticalagriculture:inferium_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_hoe', 'mysticalagriculture:inferium_gemstone')
     event.smithing(Item.of('twilightforest:ironwood_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_hoe', '#forge:ingots/ironwood')
-    event.smithing(Item.of('twilightforest:steeleaf_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_hoe', '#forge:ingots/steeleaf')  
+    event.smithing(Item.of('twilightforest:steeleaf_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_hoe', '#forge:ingots/steeleaf')
+    event.smithing(Item.of('atum:limestone_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:stone_hoe', 'atum:limestone_cracked')
+    event.smithing(Item.of('aiotbotania:terra_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_hoe', '#forge:ingots/terrasteel')
 
     //Swords
     event.smithing(Item.of('aiotbotania:livingwood_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:wooden_sword', '#botania:livingwood')

@@ -84,7 +84,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:emerald"
+                        name: "mysticalagriculture:emerald_essence"
                     },
                     {
                         type: "minecraft:item",
