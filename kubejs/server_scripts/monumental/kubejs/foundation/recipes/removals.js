@@ -14,10 +14,16 @@ onEvent('recipes', event => {
     event.remove({
         id: 'aquaculture:neptunium_shovel'
     })
+    event.remove({
+        id: 'aquaculture:neptunium_sword'
+    })
 
     //Atum Recipes
     event.remove({
         id: 'minecraft:limestone_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:limestone_sword'
     })
 
     //AstralSorcery Recipes
@@ -55,6 +61,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'appliedenergistics2:tools/nether_quartz_spade'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/certus_quartz_sword'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/nether_quartz_sword'
     })
     event.remove({
         id: 'appliedenergistics2:network/blocks/spatial_anchor'
@@ -400,6 +412,12 @@ onEvent('recipes', event => {
         id: 'botania:elementium_shovel'
     })
     event.remove({
+        id: 'botania:manasteel_sword'
+    })
+    event.remove({
+        id: 'botania:elementium_sword'
+    })
+    event.remove({
         id: 'aiotbotania:livingwood_pickaxe'
     })
     event.remove({
@@ -410,6 +428,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'aiotbotania:livingrock_shovel'
+    })
+    event.remove({
+        id: 'aiotbotania:livingwood_sword'
+    })
+    event.remove({
+        id: 'aiotbotania:livingrock_sword'
     })
     event.remove({
         id: 'botania:glass_pickaxe'
@@ -746,6 +770,48 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'blue_skies:bluebright_shovel'
+    })
+    event.remove({
+        id: 'blue_skies:horizonite_sword'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_sword'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_sword'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_sword'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_sword'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_sword'
+    })
+    event.remove({
+        id: 'blue_skies:turquoise_stone_sword'
+    })
+    event.remove({
+        id: 'blue_skies:cherry_sword'
+    })
+    event.remove({
+        id: 'blue_skies:maple_sword'
+    })
+    event.remove({
+        id: 'blue_skies:frostbright_sword'
+    })
+    event.remove({
+        id: 'blue_skies:dusk_sword'
+    })
+    event.remove({
+        id: 'blue_skies:starlit_sword'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_sword'
+    })
+    event.remove({
+        id: 'blue_skies:bluebright_sword'
     })
 
 
@@ -1238,6 +1304,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'druidcraft:moonstone_shovel'
+    })
+    event.remove({
+        id: 'druidcraft:bone_sword'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_sword'
     })
 
     //Emendatus Engimatica Gear Recipes
@@ -1817,7 +1889,7 @@ onEvent('recipes', event => {
         id: 'gobber2:gobber2_pickaxe'
     })
     event.remove({
-        id: 'gobber2:gobber2_sword'
+        id: 'gobber2:gobber2_sword_end'
     })
     event.remove({
         id: 'gobber2:gobber2_shovel_end'
@@ -2320,6 +2392,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'immersiveengineering:crafting/pickaxe_steel'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/sword_steel'
     })
     event.remove({
         id: 'immersiveengineering:crafting/shovel_steel'
@@ -3180,10 +3255,16 @@ onEvent('recipes', event => {
         id: 'quark:tweaks/crafting/utility/tools/stone_shovel'
     })
     event.remove({
+        id: 'quark:tweaks/crafting/utility/tools/stone_sword'
+    })
+    event.remove({
         id: 'minecraft:golden_pickaxe'
     })
     event.remove({
         id: 'minecraft:golden_shovel'
+    })
+    event.remove({
+        id: 'minecraft:golden_sword'
     })
     event.remove({
         id: 'minecraft:iron_pickaxe'
@@ -3192,10 +3273,16 @@ onEvent('recipes', event => {
         id: 'minecraft:iron_shovel'
     })
     event.remove({
+        id: 'minecraft:iron_sword'
+    })
+    event.remove({
         id: 'minecraft:diamond_pickaxe'
     })
     event.remove({
         id: 'minecraft:diamond_shovel'
+    })
+    event.remove({
+        id: 'minecraft:diamond_sword'
     })
     event.remove({
         id: 'minecraft:ender_eye'
@@ -4941,6 +5028,15 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'undergarden:utheric_shovel'
+    })
+    event.remove({
+        id: 'undergarden:cloggrum_sword'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_sword'
+    })
+    event.remove({
+        id: 'undergarden:utheric_sword'
     })
 
     //Uranium ingot to block recipes
