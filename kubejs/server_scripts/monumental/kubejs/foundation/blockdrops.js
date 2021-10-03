@@ -19,4 +19,8 @@ onEvent('block.loot_tables', event => {
 
     //Obsidian Essences
     event.addSimpleBlock('#forge:obsidian', 'mysticalagriculture:obsidian_essence')
+
+    //Nature Essences
+    event.addSimpleBlock('#forge:hay_bales', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('minecraft:cactus', 'mysticalagriculture:nature_essence')
 })
