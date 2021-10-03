@@ -123,8 +123,8 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
-                        weight: 2,
-                        name: "minecraft:enchanted_golden_apple"
+                        weight: 6,
+                        name: "mysticalagriculture:enderman_essence"
                     },
                     {
                         type: "minecraft:empty",
@@ -141,11 +141,11 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 8,
+                                max: 4,
                                 type: "minecraft:uniform"
                             }
                         }],
-                        name: "minecraft:bone"
+                        name: "mysticalagriculture:skeleton_essence"
                     },
                     {
                         type: "minecraft:item",
@@ -154,7 +154,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 8,
+                                max: 4,
                                 type: "minecraft:uniform"
                             }
                         }],
@@ -167,7 +167,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 8,
+                                max: 4,
                                 type: "minecraft:uniform"
                             }
                         }],
@@ -180,11 +180,11 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 8,
+                                max: 4,
                                 type: "minecraft:uniform"
                             }
                         }],
-                        name: "minecraft:string"
+                        name: "mysticalagriculture:spider_essence"
                     },
                     {
                         type: "minecraft:item",
@@ -193,7 +193,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 8,
+                                max: 4,
                                 type: "minecraft:uniform"
                             }
                         }],
