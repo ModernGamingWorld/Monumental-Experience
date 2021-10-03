@@ -25,6 +25,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'minecraft:limestone_sword'
     })
+    event.remove({
+        id: 'atum:stoneguard_sword'
+    })
 
     //AstralSorcery Recipes
     event.remove({
@@ -1245,6 +1248,18 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'cyclic:crystal_shovel'
+    })
+    event.remove({
+        id: 'cyclic:netherbrick_sword'
+    })
+    event.remove({
+        id: 'cyclic:sandstone_sword'
+    })
+    event.remove({
+        id: 'cyclic:emerald_sword'
+    })
+    event.remove({
+        id: 'cyclic:crystal_sword'
     })
 
     //Draconic Evolution Recipes
