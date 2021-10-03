@@ -157,7 +157,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('gobber2:gobber2_sword_end', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot_end')
     event.smithing(Item.of('gobber2:gobber2_excavator_end', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_rod_end')
     event.smithing(Item.of('gobber2:gobber2_sword_nether', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot_nether')
-    event.smithing(Item.of('gobber2:gobber2_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_shovel', 'gobber2:gobber2_ingot')
+    event.smithing(Item.of('gobber2:gobber2_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot')
     event.smithing(Item.of('psi:psimetal_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_sword', '#forge:gems/psigem')
     event.smithing(Item.of('iceandfire:dragonsteel_lightning_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_lightning')
     event.smithing(Item.of('iceandfire:dragonsteel_ice_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_ice')
