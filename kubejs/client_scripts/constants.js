@@ -39,6 +39,10 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'iceandfire:copper_shovel',
+    'iceandfire:silver_shovel',
+    'iceandfire:copper_pickaxe',
+    'iceandfire:silver_pickaxe',
     'atum:limestone_pickaxe',
     'botania:glass_pickaxe',
     'quark:matrix_enchanter',
