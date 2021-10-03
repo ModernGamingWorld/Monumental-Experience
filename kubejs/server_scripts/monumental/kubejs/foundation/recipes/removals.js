@@ -72,6 +72,12 @@ onEvent('recipes', event => {
         id: 'appliedenergistics2:tools/nether_quartz_sword'
     })
     event.remove({
+        id: 'appliedenergistics2:tools/certus_quartz_hoe'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/nether_quartz_hoe'
+    })
+    event.remove({
         id: 'appliedenergistics2:network/blocks/spatial_anchor'
     })
     event.remove({
@@ -816,6 +822,48 @@ onEvent('recipes', event => {
     event.remove({
         id: 'blue_skies:bluebright_sword'
     })
+    event.remove({
+        id: 'blue_skies:horizonite_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:turquoise_stone_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:cherry_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:maple_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:frostbright_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:dusk_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:starlit_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_hoe'
+    })
+    event.remove({
+        id: 'blue_skies:bluebright_hoe'
+    })
 
 
     //Cinnabar
@@ -1260,6 +1308,18 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'cyclic:crystal_sword'
+    })
+    event.remove({
+        id: 'cyclic:netherbrick_hoe'
+    })
+    event.remove({
+        id: 'cyclic:sandstone_hoe'
+    })
+    event.remove({
+        id: 'cyclic:emerald_hoe'
+    })
+    event.remove({
+        id: 'cyclic:crystal_hoe'
     })
 
     //Draconic Evolution Recipes
@@ -1814,6 +1874,18 @@ onEvent('recipes', event => {
     event.remove({
         id: 'forbidden_arcanus:arcane_golden_sword'
     })
+    event.remove({
+        id: 'forbidden_arcanus:bone_hoe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:obsidian_hoe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:reinforced_arcane_golden_hoe'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:arcane_golden_hoe'
+    })
 
     //Flux Networks Recipes
     event.remove({
@@ -1914,6 +1986,21 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_sword_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_hoe'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_hoe_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_hoe_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_hoe_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_hoe_nether'
     })
     event.remove({
         id: 'gobber2:gobber2_excavator_end'
@@ -2291,7 +2378,31 @@ onEvent('recipes', event => {
         id: 'iceandfire:myrmex_sword_desert'
     })
     event.remove({
-        id: 'iceandfire:dragonbone_sword'
+        id: 'iceandfire:dragonbone_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:copper_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:silver_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_hoe'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_hoe_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_hoe_desert'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_hoe'
     })
 
     //Industrial Forgoing Recipes
@@ -2349,6 +2460,11 @@ onEvent('recipes', event => {
     //Inferium pickaxe recipes
     event.remove({
         id: 'mysticalagriculture:inferium_pickaxe'
+    })
+
+    //Inferium hoe recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_hoe'
     })
 
     //Inferium shovel recipes
@@ -3273,6 +3389,9 @@ onEvent('recipes', event => {
         id: 'quark:tweaks/crafting/utility/tools/stone_sword'
     })
     event.remove({
+        id: 'quark:tweaks/crafting/utility/tools/stone_hoe'
+    })
+    event.remove({
         id: 'minecraft:golden_pickaxe'
     })
     event.remove({
@@ -3280,6 +3399,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:golden_sword'
+    })
+    event.remove({
+        id: 'minecraft:golden_hoe'
     })
     event.remove({
         id: 'minecraft:iron_pickaxe'
@@ -3291,6 +3413,9 @@ onEvent('recipes', event => {
         id: 'minecraft:iron_sword'
     })
     event.remove({
+        id: 'minecraft:iron_hoe'
+    })
+    event.remove({
         id: 'minecraft:diamond_pickaxe'
     })
     event.remove({
@@ -3298,6 +3423,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:diamond_sword'
+    })
+    event.remove({
+        id: 'minecraft:diamond_hoe'
     })
     event.remove({
         id: 'minecraft:ender_eye'
@@ -4705,6 +4833,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'twilightforest:equipment/fiery_iron_sword'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_hoe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_hoe'
     })
 
     //Tin gear recipes

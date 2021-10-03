@@ -39,6 +39,10 @@ const colors = [
 ];
 
 var itemsToHide = [
+    'iceandfire:copper_sword',
+    'iceandfire:silver_sword',
+    'iceandfire:copper_hoe',
+    'iceandfire:silver_hoe',
     'iceandfire:copper_shovel',
     'iceandfire:silver_shovel',
     'iceandfire:copper_pickaxe',
