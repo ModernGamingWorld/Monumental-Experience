@@ -33,4 +33,12 @@ onEvent('block.loot_tables', event => {
     event.addSimpleBlock('#forge:sugar_cane', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('#forge:crops/nether_wart', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('#forge:mushrooms', 'mysticalagriculture:nature_essence')
+
+    //Fire Essences Forge Tags
+    event.addSimpleBlock('#forge:magma_block', 'mysticalagriculture:fire_essence')
+
+
+    //Fire Essences blocks
+    event.addSimpleBlock('byg:magmatic_stone', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('byg:cryptic_magma_block', 'mysticalagriculture:nature_essence')
 })
