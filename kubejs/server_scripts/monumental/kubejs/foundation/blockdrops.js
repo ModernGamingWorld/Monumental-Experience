@@ -27,6 +27,7 @@ onEvent('block.loot_tables', event => {
     event.addSimpleBlock('simplefarming:rice_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('simplefarming:rye_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('minecraft:cactus', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('minecraft:vine', 'mysticalagriculture:nature_essence')
 
     //Nature Essences Forge Tags
     event.addSimpleBlock('#forge:sugar_cane', 'mysticalagriculture:nature_essence')
