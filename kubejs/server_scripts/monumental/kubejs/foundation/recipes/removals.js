@@ -21,7 +21,13 @@ onEvent('recipes', event => {
         id: 'aquaculture:neptunium_hoe'
     })
     event.remove({
+        id: 'aquaculture:neptunium_axe'
+    })
+    event.remove({
         id: 'aquaculture:neptunium_chestplate'
+    })
+    event.remove({
+        id: 'aquaculture:neptunium_helmet'
     })
 
     //Atum Recipes
@@ -48,6 +54,15 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'atum:desert_chestplate_diamond'
+    })
+    event.remove({
+        id: 'atum:desert_helmet_iron'
+    })
+    event.remove({
+        id: 'atum:desert_helmet_gold'
+    })
+    event.remove({
+        id: 'atum:desert_helmet_diamond'
     })
 
     //AstralSorcery Recipes
@@ -84,6 +99,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'appliedenergistics2:tools/nether_quartz_pickaxe'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/certus_quartz_axe'
+    })
+    event.remove({
+        id: 'appliedenergistics2:tools/nether_quartz_axe'
     })
     event.remove({
         id: 'appliedenergistics2:tools/certus_quartz_spade'
@@ -435,19 +456,40 @@ onEvent('recipes', event => {
         id: 'botania:mana_spreader'
     })
     event.remove({
+        id: 'botania:mana_ring'
+    })
+    event.remove({
+        id: 'botania:aura_ring'
+    })
+    event.remove({
         id: 'botania:manasteel_pick'
+    })
+    event.remove({
+        id: 'botania:manasteel_axe'
     })
     event.remove({
         id: 'botania:manasteel_chestplate'
     })
     event.remove({
+        id: 'botania:manasteel_helmet'
+    })
+    event.remove({
         id: 'botania:elementium_pickaxe'
+    })
+    event.remove({
+        id: 'botania:elementium_axe'
     })
     event.remove({
         id: 'botania:elementium_chestplate'
     })
     event.remove({
         id: 'botania:terrasteel_chestplate'
+    })
+    event.remove({
+        id: 'botania:elementium_helmet'
+    })
+    event.remove({
+        id: 'botania:terrasteel_helmet'
     })
     event.remove({
         id: 'botania:manasteel_shovel'
@@ -475,6 +517,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'aiotbotania:livingrock_pickaxe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingwood_axe'
+    })
+    event.remove({
+        id: 'aiotbotania:livingrock_axe'
     })
     event.remove({
         id: 'aiotbotania:livingwood_shovel'
@@ -928,6 +976,63 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'blue_skies:pyrope_chestplate'
+    })
+    event.remove({
+        id: 'blue_skies:horizonite_helmet'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_helmet'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_helmet'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_helmet'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_helmet'
+    })
+    event.remove({
+        id: 'blue_skies:horizonite_axe'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_axe'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_axe'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_axe'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_axe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_stone_axe'
+    })
+    event.remove({
+        id: 'blue_skies:turquoise_stone_axe'
+    })
+    event.remove({
+        id: 'blue_skies:cherry_axe'
+    })
+    event.remove({
+        id: 'blue_skies:maple_axe'
+    })
+    event.remove({
+        id: 'blue_skies:frostbright_axe'
+    })
+    event.remove({
+        id: 'blue_skies:dusk_axe'
+    })
+    event.remove({
+        id: 'blue_skies:starlit_axe'
+    })
+    event.remove({
+        id: 'blue_skies:lunar_axe'
+    })
+    event.remove({
+        id: 'blue_skies:bluebright_axe'
     })
 
 
@@ -1392,6 +1497,18 @@ onEvent('recipes', event => {
     event.remove({
         id: 'cyclic:crystal_chestplate'
     })
+    event.remove({
+        id: 'cyclic:emerald_caxe'
+    })
+    event.remove({
+        id: 'cyclic:crystal_axe'
+    })
+    event.remove({
+        id: 'cyclic:sandstone_axe'
+    })
+    event.remove({
+        id: 'cyclic:netherbrick_axe'
+    })
 
     //Draconic Evolution Recipes
     event.remove({
@@ -1452,6 +1569,15 @@ onEvent('recipes', event => {
         id: 'druidcraft:moonstone_chestplate'
     })
     event.remove({
+        id: 'druidcraft:bone_helmet'
+    })
+    event.remove({
+        id: 'druidcraft:chitin_helmet'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_helmet'
+    })
+    event.remove({
         id: 'druidcraft:moonstone_pickaxe'
     })
     event.remove({
@@ -1471,6 +1597,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'druidcraft:moonstone_hoe'
+    })
+    event.remove({
+        id: 'druidcraft:bone_axe'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_axe'
     })
 
     //Emendatus Engimatica Gear Recipes
@@ -1952,6 +2084,15 @@ onEvent('recipes', event => {
         id: 'forbidden_arcanus:arcane_gold_chestplate'
     })
     event.remove({
+        id: 'forbidden_arcanus:arcane_gold_helmet'
+    })
+    event.remove({
+        id: 'forbidden_arcanus:obsidian_helmet'
+    })
+    event.remove({
+        id: Item.of('forbidden_arcanus:obsidian_shoulder_pads', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}')
+    })
+    event.remove({
         id: 'forbidden_arcanus:bone_sword'
     })
     event.remove({
@@ -2050,6 +2191,9 @@ onEvent('recipes', event => {
         id: 'gobber2:gobber2_chestplate'
     })
     event.remove({
+        id: 'gobber2:gobber2_helmet'
+    })
+    event.remove({
         id: 'gobber2:gobber2_ring_phoenix'
     })
     event.remove({
@@ -2060,6 +2204,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_chestplate_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_helmet_nether'
     })
     event.remove({
         id: 'gobber2:gobber2_paxel_stars'
@@ -2092,13 +2239,16 @@ onEvent('recipes', event => {
         id: 'gobber2:gobber2_chestplate_end'
     })
     event.remove({
-        id: 'gobber2:gobber2_hoe_end'
+        id: 'gobber2:gobber2_helmet_end'
     })
     event.remove({
         id: 'gobber2:gobber2_hoe_end'
     })
     event.remove({
-        id: 'gobber2:gobber2_hoe_nether'
+        id: 'gobber2:gobber2_axe_end'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_axe_nether'
     })
     event.remove({
         id: 'gobber2:gobber2_hoe_nether'
@@ -2111,6 +2261,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_shovel'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_axe'
     })
     event.remove({
         id: 'gobber2:gobber2_excavator'
@@ -2518,6 +2671,30 @@ onEvent('recipes', event => {
         id: 'iceandfire:dragonbone_hoe'
     })
     event.remove({
+        id: 'iceandfire:copper_axe'
+    })
+    event.remove({
+        id: 'iceandfire:silver_axe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_axe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_axe'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_axe'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_axe_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_axe_desert'
+    })
+    event.remove({
+        id: 'iceandfire:dragonbone_axe'
+    })
+    event.remove({
         id: 'iceandfire:dragonsteel_lightning_chestplate'
     })
     event.remove({
@@ -2531,6 +2708,21 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'iceandfire:myrmex_armor_chestplate_jungle'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_helmet'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_helmet'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_helmet'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_armor_helmet_desert'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_armor_helmet_jungle'
     })
 
 
@@ -2591,9 +2783,19 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:inferium_pickaxe'
     })
 
+    //Inferium axe recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_axe'
+    })
+
     //Inferium chestplate recipes
     event.remove({
         id: 'mysticalagriculture:inferium_chestplate'
+    })
+
+    //Inferium helmet recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_helmet'
     })
 
     //Inferium hoe recipes
@@ -2659,10 +2861,19 @@ onEvent('recipes', event => {
         id: 'immersiveengineering:crafting/pickaxe_steel'
     })
     event.remove({
+        id: 'immersiveengineering:crafting/axe_steel'
+    })
+    event.remove({
         id: 'immersiveengineering:crafting/armor_steel_chest'
     })
     event.remove({
         id: 'immersiveengineering:crafting/armor_faraday_chest'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/armor_steel_helmet'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/armor_faraday_helmet'
     })
     event.remove({
         id: 'immersiveengineering:crafting/sword_steel'
@@ -3520,6 +3731,12 @@ onEvent('recipes', event => {
         id: 'minecraft:compass'
     })
     event.remove({
+        id: 'byg:chain_chestplate'
+    })
+    event.remove({
+        id: 'iceandfire:chainmail_chestplate'
+    })
+    event.remove({
         id: 'minecraft:smithing_table'
     })
     event.remove({
@@ -3535,10 +3752,19 @@ onEvent('recipes', event => {
         id: 'quark:tweaks/crafting/utility/tools/stone_hoe'
     })
     event.remove({
+        id: 'quark:tweaks/crafting/utility/tools/stone_axe'
+    })
+    event.remove({
         id: 'minecraft:golden_pickaxe'
     })
     event.remove({
+        id: 'minecraft:golden_axe'
+    })
+    event.remove({
         id: 'minecraft:golden_chestplate'
+    })
+    event.remove({
+        id: 'minecraft:golden_hoe'
     })
     event.remove({
         id: 'minecraft:golden_shovel'
@@ -3553,7 +3779,13 @@ onEvent('recipes', event => {
         id: 'minecraft:iron_pickaxe'
     })
     event.remove({
+        id: 'minecraft:iron_axe'
+    })
+    event.remove({
         id: 'minecraft:iron_chestplate'
+    })
+    event.remove({
+        id: 'minecraft:iron_helmet'
     })
     event.remove({
         id: 'minecraft:iron_shovel'
@@ -3568,7 +3800,13 @@ onEvent('recipes', event => {
         id: 'minecraft:diamond_pickaxe'
     })
     event.remove({
+        id: 'minecraft:diamond_axe'
+    })
+    event.remove({
         id: 'minecraft:diamond_chestplate'
+    })
+    event.remove({
+        id: 'minecraft:diamond_helmet'
     })
     event.remove({
         id: 'minecraft:diamond_shovel'
@@ -3931,6 +4169,12 @@ onEvent('recipes', event => {
         id: 'naturesaura:sky_pickaxe'
     })
     event.remove({
+        id: 'naturesaura:infused_axe'
+    })
+    event.remove({
+        id: 'naturesaura:sky_axe'
+    })
+    event.remove({
         id: 'naturesaura:infused_shovel'
     })
     event.remove({
@@ -4050,6 +4294,9 @@ onEvent('recipes', event => {
         id: 'pneumaticcraft:compressed_iron_chestplate'
     })
     event.remove({
+        id: 'pneumaticcraft:compressed_iron_helmet'
+    })
+    event.remove({
         id: 'pneumaticcraft:small_tank'
     })
     event.remove({
@@ -4125,6 +4372,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'psi:psimetal_sword'
+    })
+    event.remove({
+        id: 'psi:psimetal_axe'
     })
 
     //Purified vinteum ingot recipes
@@ -5019,6 +5269,15 @@ onEvent('recipes', event => {
     event.remove({
         id: 'twilightforest:equipment/fiery_iron_chestplate'
     })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_axe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_axe'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/knightmetal_axe'
+    })
 
     //Tin gear recipes
     event.remove({
@@ -5349,6 +5608,15 @@ onEvent('recipes', event => {
         id: 'undergarden:utheric_pickaxe'
     })
     event.remove({
+        id: 'undergarden:cloggrum_axe'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_axe'
+    })
+    event.remove({
+        id: 'undergarden:utheric_axe'
+    })
+    event.remove({
         id: 'undergarden:cloggrum_chestplate'
     })
     event.remove({
@@ -5356,6 +5624,18 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'undergarden:utheric_chestplate'
+    })
+    event.remove({
+        id: 'undergarden:masticated_chestplate'
+    })
+    event.remove({
+        id: 'undergarden:cloggrum_helmet'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_helmet'
+    })
+    event.remove({
+        id: 'undergarden:utheric_helmet'
     })
     event.remove({
         id: 'undergarden:masticated_chestplate'
