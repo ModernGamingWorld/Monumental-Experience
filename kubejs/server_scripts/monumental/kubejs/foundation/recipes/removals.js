@@ -20,6 +20,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'aquaculture:neptunium_hoe'
     })
+    event.remove({
+        id: 'aquaculture:neptunium_chestplate'
+    })
 
     //Atum Recipes
     event.remove({
@@ -33,6 +36,18 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'atum:stoneguard_sword'
+    })
+    event.remove({
+        id: 'atum:stoneguard_greatsword'
+    })
+    event.remove({
+        id: 'atum:desert_chestplate_iron'
+    })
+    event.remove({
+        id: 'atum:desert_chestplate_gold'
+    })
+    event.remove({
+        id: 'atum:desert_chestplate_diamond'
     })
 
     //AstralSorcery Recipes
@@ -56,6 +71,11 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'astralsorcery:shaped/starmetal'
+    })
+
+    //Alex's Mobs Recipes
+    event.remove({
+        id: 'alexsmobs:crocodile_chestplate'
     })
 
     //AE2 Recipes
@@ -418,7 +438,16 @@ onEvent('recipes', event => {
         id: 'botania:manasteel_pick'
     })
     event.remove({
+        id: 'botania:manasteel_chestplate'
+    })
+    event.remove({
         id: 'botania:elementium_pickaxe'
+    })
+    event.remove({
+        id: 'botania:elementium_chestplate'
+    })
+    event.remove({
+        id: 'botania:terrasteel_chestplate'
     })
     event.remove({
         id: 'botania:manasteel_shovel'
@@ -885,6 +914,21 @@ onEvent('recipes', event => {
     event.remove({
         id: 'blue_skies:bluebright_hoe'
     })
+    event.remove({
+        id: 'blue_skies:horizonite_chestplate'
+    })
+    event.remove({
+        id: 'blue_skies:charoite_chestplate'
+    })
+    event.remove({
+        id: 'blue_skies:diopside_chestplate'
+    })
+    event.remove({
+        id: 'blue_skies:aquite_chestplate'
+    })
+    event.remove({
+        id: 'blue_skies:pyrope_chestplate'
+    })
 
 
     //Cinnabar
@@ -1342,6 +1386,12 @@ onEvent('recipes', event => {
     event.remove({
         id: 'cyclic:crystal_hoe'
     })
+    event.remove({
+        id: 'cyclic:emerald_chestplate'
+    })
+    event.remove({
+        id: 'cyclic:crystal_chestplate'
+    })
 
     //Draconic Evolution Recipes
     event.remove({
@@ -1391,6 +1441,15 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'druidcraft:bone_pickaxe'
+    })
+    event.remove({
+        id: 'druidcraft:bone_chestplate'
+    })
+    event.remove({
+        id: 'druidcraft:chitin_chestplate'
+    })
+    event.remove({
+        id: 'druidcraft:moonstone_chestplate'
     })
     event.remove({
         id: 'druidcraft:moonstone_pickaxe'
@@ -1890,6 +1949,9 @@ onEvent('recipes', event => {
         id: 'forbidden_arcanus:arcane_golden_shovel'
     })
     event.remove({
+        id: 'forbidden_arcanus:arcane_gold_chestplate'
+    })
+    event.remove({
         id: 'forbidden_arcanus:bone_sword'
     })
     event.remove({
@@ -1985,10 +2047,19 @@ onEvent('recipes', event => {
         id: 'gobber2:gobber2_ingot'
     })
     event.remove({
+        id: 'gobber2:gobber2_chestplate'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_ring_phoenix'
+    })
+    event.remove({
         id: 'gobber2:gobber2_ingot_end'
     })
     event.remove({
         id: 'gobber2:gobber2_ingot_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_chestplate_nether'
     })
     event.remove({
         id: 'gobber2:gobber2_paxel_stars'
@@ -2016,6 +2087,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_hoe'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_chestplate_end'
     })
     event.remove({
         id: 'gobber2:gobber2_hoe_end'
@@ -2046,6 +2120,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'gobber2:gobber2_sword'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_sword_sniper'
     })
 
     //Gold blasting and smelting recipes
@@ -2339,6 +2416,9 @@ onEvent('recipes', event => {
         id: 'iceandfire:hippogryph_sword'
     })
     event.remove({
+        id: 'iceandfire:dragonbone_sword'
+    })
+    event.remove({
         id: 'iceandfire:dragonsteel_ice_pickaxe'
     })
     event.remove({
@@ -2358,6 +2438,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'iceandfire:silver_pickaxe'
+    })
+    event.remove({
+        id: 'iceandfire:copper_chestplate'
+    })
+    event.remove({
+        id: 'iceandfire:silver_chestplate'
     })
     event.remove({
         id: 'iceandfire:copper_shovel'
@@ -2431,6 +2517,22 @@ onEvent('recipes', event => {
     event.remove({
         id: 'iceandfire:dragonbone_hoe'
     })
+    event.remove({
+        id: 'iceandfire:dragonsteel_lightning_chestplate'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_ice_chestplate'
+    })
+    event.remove({
+        id: 'iceandfire:dragonsteel_fire_chestplate'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_armor_chestplate_desert'
+    })
+    event.remove({
+        id: 'iceandfire:myrmex_armor_chestplate_jungle'
+    })
+
 
     //Industrial Forgoing Recipes
     event.remove({
@@ -2487,6 +2589,11 @@ onEvent('recipes', event => {
     //Inferium pickaxe recipes
     event.remove({
         id: 'mysticalagriculture:inferium_pickaxe'
+    })
+
+    //Inferium chestplate recipes
+    event.remove({
+        id: 'mysticalagriculture:inferium_chestplate'
     })
 
     //Inferium hoe recipes
@@ -2550,6 +2657,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'immersiveengineering:crafting/pickaxe_steel'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/armor_steel_chest'
+    })
+    event.remove({
+        id: 'immersiveengineering:crafting/armor_faraday_chest'
     })
     event.remove({
         id: 'immersiveengineering:crafting/sword_steel'
@@ -3425,6 +3538,9 @@ onEvent('recipes', event => {
         id: 'minecraft:golden_pickaxe'
     })
     event.remove({
+        id: 'minecraft:golden_chestplate'
+    })
+    event.remove({
         id: 'minecraft:golden_shovel'
     })
     event.remove({
@@ -3437,6 +3553,9 @@ onEvent('recipes', event => {
         id: 'minecraft:iron_pickaxe'
     })
     event.remove({
+        id: 'minecraft:iron_chestplate'
+    })
+    event.remove({
         id: 'minecraft:iron_shovel'
     })
     event.remove({
@@ -3447,6 +3566,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:diamond_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:diamond_chestplate'
     })
     event.remove({
         id: 'minecraft:diamond_shovel'
@@ -3815,6 +3937,18 @@ onEvent('recipes', event => {
         id: 'naturesaura:sky_shovel'
     })
     event.remove({
+        id: 'naturesaura:infused_hoe'
+    })
+    event.remove({
+        id: 'naturesaura:sky_hoe'
+    })
+    event.remove({
+        id: 'naturesaura:infused_chest'
+    })
+    event.remove({
+        id: 'naturesaura:sky_chest'
+    })
+    event.remove({
         id: 'naturesaura:offering_table'
     })
     event.remove({
@@ -3911,6 +4045,9 @@ onEvent('recipes', event => {
     //Pneumaticcraft recipes
     event.remove({
         id: 'pneumaticcraft:pressure_chamber/capacitor'
+    })
+    event.remove({
+        id: 'pneumaticcraft:compressed_iron_chestplate'
     })
     event.remove({
         id: 'pneumaticcraft:small_tank'
@@ -4870,6 +5007,18 @@ onEvent('recipes', event => {
     event.remove({
         id: 'twilightforest:equipment/steeleaf_hoe'
     })
+    event.remove({
+        id: 'twilightforest:equipment/ironwood_chestplate'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/steeleaf_chestplate'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_chestplate'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/fiery_iron_chestplate'
+    })
 
     //Tin gear recipes
     event.remove({
@@ -5200,6 +5349,18 @@ onEvent('recipes', event => {
         id: 'undergarden:utheric_pickaxe'
     })
     event.remove({
+        id: 'undergarden:cloggrum_chestplate'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_chestplate'
+    })
+    event.remove({
+        id: 'undergarden:utheric_chestplate'
+    })
+    event.remove({
+        id: 'undergarden:masticated_chestplate'
+    })
+    event.remove({
         id: 'undergarden:cloggrum_shovel'
     })
     event.remove({
@@ -5216,6 +5377,15 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'undergarden:utheric_sword'
+    })
+    event.remove({
+        id: 'undergarden:cloggrum_hoe'
+    })
+    event.remove({
+        id: 'undergarden:froststeel_hoe'
+    })
+    event.remove({
+        id: 'undergarden:utheric_hoe'
     })
 
     //Uranium ingot to block recipes

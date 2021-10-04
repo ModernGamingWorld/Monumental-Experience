@@ -17,6 +17,10 @@ onEvent('server.datapack.high_priority', (event) => {
                 {
                     type: "minecraft:item",
                     name: "emendatusenigmatica:steel_rod"
+                },
+                {
+                    type: "minecraft:item",
+                    name: "minecraft:smithing_table"
                 }
             ]
         }]

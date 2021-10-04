@@ -32,6 +32,21 @@ onEvent('server.datapack.high_priority', (event) => {
                                 function: 'minecraft:set_count',
                                 count: {
                                     min: 1.0,
+                                    max: 1.0,
+                                    type: 'minecraft:uniform'
+                                }
+                            }
+                        ],
+                        name: 'minecraft:smithing_table'
+                    },
+                    {
+                        type: 'minecraft:item',
+                        weight: 15,
+                        functions: [
+                            {
+                                function: 'minecraft:set_count',
+                                count: {
+                                    min: 1.0,
                                     max: 4.0,
                                     type: 'minecraft:uniform'
                                 }
