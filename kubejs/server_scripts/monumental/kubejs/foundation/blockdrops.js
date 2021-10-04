@@ -20,12 +20,16 @@ onEvent('block.loot_tables', event => {
     //Obsidian Essences
     event.addSimpleBlock('#forge:obsidian', 'mysticalagriculture:obsidian_essence')
 
-    //Nature Essences
+    //Nature Essences blocks
     event.addSimpleBlock('minecraft:hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('simplefarming:barley_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('simplefarming:oat_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('simplefarming:rice_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('simplefarming:rye_hay_block', 'mysticalagriculture:nature_essence')
     event.addSimpleBlock('minecraft:cactus', 'mysticalagriculture:nature_essence')
+
+    //Nature Essences Forge Tags
     event.addSimpleBlock('#forge:sugar_cane', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('#forge:crops/nether_wart', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('#forge:mushrooms', 'mysticalagriculture:nature_essence')
 })
