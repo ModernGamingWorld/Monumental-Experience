@@ -1,186 +1,126 @@
 onEvent('recipes', (event) => {
-    event.recipes.apotheosis.fletching(
-        {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "iceandfire:hydra_fang"
+    const recipes = [{
+            ingredients: [{
+                    item: 'minecraft:arrow'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "item": "minecraft:lily_pad"
+                    tag: 'forge:dusts/glowstone'
                 }
             ],
-            "result": {
-                "item": "iceandfire:hydra_arrow",
-                "count": 4
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('minecraft:spectral_arrow', 2)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "minecraft:flint"
+            ingredients: [{
+                    item: 'iceandfire:sea_serpent_fang'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "item": "iceandfire:amphithere_feather"
+                    tag: 'forge:scales/sea_serpent'
                 }
             ],
-            "result": {
-                "item": "iceandfire:amphithere_arrow",
-                "count": 4
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('iceandfire:sea_serpent_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "minecraft:flint"
+            ingredients: [{
+                    item: 'minecraft:flint'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "item": "iceandfire:stymphalian_bird_feather"
+                    item: 'iceandfire:stymphalian_bird_feather'
                 }
             ],
-            "result": {
-                "item": "iceandfire:stymphalian_arrow",
-                "count": 4
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('iceandfire:stymphalian_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "tag": "forge:bones/dragon"
+            ingredients: [{
+                    item: 'minecraft:flint'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "item": "iceandfire:wither_shard"
+                    item: 'iceandfire:amphithere_feather'
                 }
             ],
-            "result": {
-                "item": "iceandfire:dragonbone_arrow",
-                "count": 5
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('iceandfire:amphithere_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "minecraft:arrow"
+            ingredients: [{
+                    item: 'iceandfire:hydra_fang'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "item": "minecraft:dragon_breath"
+                    item: 'minecraft:lily_pad'
                 }
             ],
-            "result": {
-                "item": "forbidden_arcanus:draco_arcanus_arrow",
-                "count": 4
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('iceandfire:hydra_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "minecraft:arrow"
+            ingredients: [{
+                    item: 'minecraft:arrow'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "tag": "forge:tnt"
+                    tag: 'forge:tnt'
                 }
             ],
-            "result": {
-                "item": "forbidden_arcanus:boom_arrow",
-                "count": 4
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('forbidden_arcanus:boom_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
-            }],
-            "ingredients": [{
-                    "item": "minecraft:arrow"
+            ingredients: [{
+                    item: 'minecraft:arrow'
                 },
                 {
-                    "tag": "forge:rods/wooden"
+                    tag: 'forge:rods/wooden'
                 },
                 {
-                    "tag": "forge:dusts/glowstone"
+                    item: 'minecraft:dragon_breath'
                 }
             ],
-            "result": {
-                "item": "minecraft:spectral_arrow",
-                "count": 2
-            }
-        }
-    );
-    event.recipes.apotheosis.fletching(
+            result: Item.of('forbidden_arcanus:draco_arcanus_arrow', 4)
+        },
         {
-            "type": "apotheosis:fletching",
-            "conditions": [{
-                "type": "apotheosis:module",
-                "module": "village"
+            ingredients: [{
+                tag: 'forge:bones/dragon'
+            }, {
+                tag: 'forge:rods/wooden'
+            }, {
+                item: 'iceandfire:wither_shard'
             }],
-            "ingredients": [{
-                    "item": "iceandfire:sea_serpent_fang"
-                },
-                {
-                    "tag": "forge:rods/wooden"
-                },
-                {
-                    "tag": "forge:scales/sea_serpent"
-                }
-            ],
-            "result": {
-                "item": "iceandfire:sea_serpent_arrow",
-                "count": 4
-            }
+            result: Item.of('iceandfire:dragonbone_arrow', 5)
+        },
+        {
+            ingredients: [{
+                item: 'alexsmobs:shark_tooth'
+            }, {
+                tag: 'forge:rods/wooden'
+            }, {
+                item: 'minecraft:kelp'
+            }],
+            result: Item.of('alexsmobs:shark_tooth_arrow', 8)
         }
-    );
+    ];
+
+    recipes.forEach((recipe) => {
+        event.custom({
+            type: 'apotheosis:fletching',
+            conditions: [{
+                type: 'apotheosis:module',
+                module: 'village'
+            }],
+            ingredients: recipe.ingredients,
+            result: recipe.result
+        });
+    });
 });
