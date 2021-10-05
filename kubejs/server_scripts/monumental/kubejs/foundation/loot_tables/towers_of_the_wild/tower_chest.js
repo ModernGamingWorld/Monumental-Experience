@@ -178,5 +178,5 @@ onEvent('server.datapack.high_priority', (event) => {
         ]
     };
 
-    event.addJson(`towers_of_the_wild:loot_tables/chests/tower/regular/tower_chest.json`, loot_table);
+    event.addJson(`towers_of_the_wild:loot_tables/chests/regular/tower_chest.json`, loot_table);
 });
