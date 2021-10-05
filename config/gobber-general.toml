@@ -91,7 +91,7 @@
 	gobberOreChance = 15
 	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 255
-	gobberOreMaxHeight = 6
+	gobberOreMaxHeight = 8
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]

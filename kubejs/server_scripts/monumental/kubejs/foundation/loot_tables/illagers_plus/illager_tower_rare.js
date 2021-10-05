@@ -43,11 +43,11 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 5,
+                                max: 2,
                                 type: "minecraft:uniform"
                             }
                         }],
-                        name: "minecraft:stick"
+                        name: "mysticalagriculture:blaze_essence"
                     },
                     {
                         type: "minecraft:item",

@@ -5,6 +5,8 @@
 	ftbChunks = true
 	#Disable conflict functions for FTBChunks (MiniMap, Waypoint beam, Death waypoint)
 	disableFTBFunction = true
+	#Range: 0.0 ~ 1.0
+	claimedChunkOverlayOpacity = 0.25
 
 [Waystones]
 	#Enable Waystones Integration
@@ -17,4 +19,9 @@
 	#When local JM default config version is older than `defaultConfigVersion` it will copy everything under `/config/jmdefaultconfig/` to `/journeymap/` and replace the existing files. Set to -1 to disable.
 	#Range: > -1
 	defaultConfigVersion = -1
+
+[WaypointMessage]
+	#List of block id and tags for WaypointMessage. e.g., ["#forge:ores/diamond", "minecraft:diamond_block"]
+	waypointMessagesBlocks = []
+	emptyHandOnly = true
 

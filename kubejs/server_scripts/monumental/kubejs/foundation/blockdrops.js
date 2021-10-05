@@ -14,6 +14,28 @@ onEvent('block.loot_tables', event => {
     //End Essences
     event.addSimpleBlock('#forge:end_stones', 'mysticalagriculture:end_essence')
 
-    //Wood Essences
-    event.addSimpleBlock('#minecraft:logs', 'mysticalagriculture:wood_essence')
+    //Ice Essences
+    event.addSimpleBlock('#forge:snow_block', 'mysticalagriculture:ice_essence')
+
+    //Obsidian Essences
+    event.addSimpleBlock('#forge:obsidian', 'mysticalagriculture:obsidian_essence')
+
+    //Nature Essences blocks
+    event.addSimpleBlock('minecraft:hay_block', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('simplefarming:barley_hay_block', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('simplefarming:oat_hay_block', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('simplefarming:rice_hay_block', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('simplefarming:rye_hay_block', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('minecraft:cactus', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('minecraft:vine', 'mysticalagriculture:nature_essence')
+
+    //Nature Essences Forge Tags
+    event.addSimpleBlock('#forge:sugar_cane', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('#forge:crops/nether_wart', 'mysticalagriculture:nature_essence')
+    event.addSimpleBlock('#forge:mushrooms', 'mysticalagriculture:nature_essence')
+
+    //Fire Essences blocks
+    event.addSimpleBlock('byg:magmatic_stone', 'mysticalagriculture:fire_essence')
+    event.addSimpleBlock('byg:cryptic_magma_block', 'mysticalagriculture:fire_essence')
+    event.addSimpleBlock('minecraft:magma_block', 'mysticalagriculture:fire_essence')
 })

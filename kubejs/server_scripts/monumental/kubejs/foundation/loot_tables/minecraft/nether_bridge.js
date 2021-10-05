@@ -1,0 +1,119 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+    type: "minecraft:chest",
+    pools: [{
+        rolls: {
+            min: 2,
+            max: 4,
+            type: "minecraft:uniform"
+        },
+        entries: [{
+                type: "minecraft:item",
+                weight: 5,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 1,
+                        max: 3,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "mysticalagriculture:diamond_essence"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 1,
+                        max: 5,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "mysticalagriculture:iron_essence"
+            },
+            {
+                type: "minecraft:item",
+                weight: 15,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 1,
+                        max: 3,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "mysticalagriculture:gold_essence"
+            },
+            {
+                type: "minecraft:item",
+                weight: 15,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 1,
+                        max: 3,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "minecraft:smithing_table"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                name: "minecraft:golden_sword"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                name: "minecraft:golden_chestplate"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                name: "minecraft:flint_and_steel"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 3,
+                        max: 7,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "minecraft:nether_wart"
+            },
+            {
+                type: "minecraft:item",
+                weight: 10,
+                name: "minecraft:saddle"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
+                name: "minecraft:iron_horse_armor"
+            },
+            {
+                type: "minecraft:item",
+                weight: 2,
+                functions: [{
+                    function: "minecraft:set_count",
+                    count: {
+                        min: 2,
+                        max: 4,
+                        type: "minecraft:uniform"
+                    }
+                }],
+                name: "mysticalagriculture:obsidian_essence"
+                    }
+                ]
+            }
+        ]
+    };
+
+    event.addJson(`minecraft:loot_tables/chests/nether_bridge.json`, loot_table);
+});

@@ -65,6 +65,9 @@ onEvent('block.loot_tables', event => {
 	event.addSimpleBlock('#forge:ores/sulfur', 'emendatusenigmatica:sulfur_chunk')
 	//POTASSIUM NITRATE
 	event.addSimpleBlock('#forge:ores/potassium_nitrate', 'emendatusenigmatica:potassium_nitrate_chunk')
+	//Dimensional Shard
+	event.addSimpleBlock('#forge:ores/dimensional', 'emendatusenigmatica:dimensional_shard_chunk')
+
 
 //
 //

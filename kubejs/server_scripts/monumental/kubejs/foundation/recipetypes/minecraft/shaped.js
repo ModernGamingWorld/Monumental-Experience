@@ -1633,6 +1633,10 @@ onEvent('recipes', event => {
                 fluxnetworks: {
                     id: 'fluxnetworks:flux_configurator',
                     Count: 1
+                },
+                compactmachines: {
+                    id: 'compactmachines:personal_shrinking_device',
+                    Count: 1
                 }
             }
         }),

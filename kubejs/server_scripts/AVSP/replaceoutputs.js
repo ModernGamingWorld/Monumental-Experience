@@ -471,6 +471,10 @@ events.listen('recipes', (event) => {
 //-----AE2 GEMS-----
 //
 //
+
+/*
+I have decided to redo this part of the scripts.
+Basically, AE2 is so annoying that it is extremly hard to use EE materials for it, and there is no other mods adding the same materials. Therefor, this script will use AE2 materials for AE2.
 //CERTUS QUARTZ
 	//Certus quartz crystal
 	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem')
@@ -496,6 +500,32 @@ events.listen('recipes', (event) => {
 	//Fluix block
 	event.replaceOutput({}, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block')
 	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'emendatusenigmatica:fluix_block')
+*/
+//CERTUS QUARTZ
+	//Certus quartz crystal
+	event.replaceOutput({}, 'emendatusenigmatica:certus_quartz_gem', 'appliedenergistics2:certus_quartz_crystal')
+	event.replaceOutput({}, '#forge:gems/certus_quartz', 'appliedenergistics2:certus_quartz_crystal')
+	//Certus quartz dust
+	event.replaceOutput({}, 'emendatusenigmatica:certus_quartz_dust', 'appliedenergistics2:certus_quartz_dust')
+	event.replaceOutput({}, '#forge:dusts/certus_quartz', 'appliedenergistics2:certus_quartz_dust')
+//
+//CHARGED CERTUS QUARTZ
+	//Charged certus quartz crystal
+	event.replaceOutput({}, 'emendatusenigmatica:charged_certus_quartz_gem', 'appliedenergistics2:charged_certus_quartz_crystal')
+	event.replaceOutput({}, '#forge:gems/charged_certus_quartz', 'appliedenergistics2:charged_certus_quartz_crystal')
+	//Charged certus quartz dust.
+	event.replaceOutput({}, 'jaopca:dusts.charged_certus_quartz', 'appliedenergistics2:certus_quartz_dust')
+//
+//FLUIX CRYSTAL
+	//Fluix crystal
+	event.replaceOutput({}, 'emendatusenigmatica:fluix_gem', 'appliedenergistics2:fluix_crystal')
+	event.replaceOutput({}, '#forge:gems/fluix', 'appliedenergistics2:fluix_crystal')
+	//Fluix crystal dust
+	event.replaceOutput({}, 'emendatusenigmatica:fluix_dust', 'appliedenergistics2:fluix_dust')
+	event.replaceOutput({}, '#forge:dusts/fluix', 'appliedenergistics2:fluix_dust')
+	//Fluix block
+	event.replaceOutput({}, 'emendatusenigmatica:fluix_block', 'appliedenergistics2:fluix_block')
+	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'appliedenergistics2:fluix_block')
 //
 //
 //-----MODDED GEMS-----
@@ -515,6 +545,7 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, 'immersivepetroleum:bitumen', 'emendatusenigmatica:bitumen_gem')
 	event.replaceOutput({}, 'thermal:bitumen', 'emendatusenigmatica:bitumen_gem')
 	event.replaceOutput({}, '#forge:gems/bitumen', 'emendatusenigmatica:bitumen_gem')
+	event.replaceOutput({}, '#forge:bitumen', 'emendatusenigmatica:bitumen_gem')
 	//Bitumen block
 	event.replaceOutput({}, 'thermal:bitumen_block', 'emendatusenigmatica:bitumen_block')
 	event.replaceOutput({}, '#forge:storage_blocks/bitumen', 'emendatusenigmatica:bitumen_block')
@@ -858,6 +889,12 @@ events.listen('recipes', (event) => {
 //ENDER
 	//Ender dust
 	event.replaceOutput({}, '#forge:dusts/ender', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, '#forge:dusts/ender_pearl', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, 'appliedenergistics2:ender_dust', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, 'thermal:ender_pearl_dust', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, 'betterendforge:ender_dust', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, 'miniutilities:ender_dust', 'emendatusenigmatica:ender_dust')
+	event.replaceOutput({}, 'terraqueous:ender_dust', 'emendatusenigmatica:ender_dust')
 //GRAPHITE
 	//Graphite dust
 	event.replaceOutput({}, '#forge:dusts/graphite', 'emendatusenigmatica:graphite_dust')
@@ -867,6 +904,7 @@ events.listen('recipes', (event) => {
 //WOOD
 	//Wood dust / sawdust
 	event.replaceOutput({}, '#forge:dusts/wood', 'emendatusenigmatica:wood_dust')
+	event.replaceOutput({}, '#forge:sawdust', 'emendatusenigmatica:wood_dust')
 //
 //fin
 //

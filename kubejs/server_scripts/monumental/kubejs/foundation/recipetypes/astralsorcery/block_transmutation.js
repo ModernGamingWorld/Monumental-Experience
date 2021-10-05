@@ -3,6 +3,9 @@ onEvent('recipes', (event) => {
         recipes: [
             { inputTag: '#forge:ores/iron', output: 'astralsorcery:starmetal_ore', starlight: 100 },
             { inputTag: '#forge:ores/diamond', output: 'emendatusenigmatica:emerald_ore', starlight: 1000 },
+            { inputTag: '#forge:workbenches', output: 'astralsorcery:altar_discovery', starlight: 60 },
+            { inputTag: '#blue_skies:crafting_tables', output: 'astralsorcery:altar_discovery', starlight: 60 },
+            { inputTag: 'twilightforest:uncrafting_table', output: 'astralsorcery:altar_discovery', starlight: 60 },
         ]
     };
     data.recipes.forEach((recipe) => {
