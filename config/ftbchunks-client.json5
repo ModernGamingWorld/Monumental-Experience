@@ -10,9 +10,9 @@
 	// Color intensity
 	"saturation": 1.0,
 	// Show claimed chunks on the map
-	"claimedChunksOnMap": false,
+	"claimedChunksOnMap": true,
 	// Show your own claimed chunks on the map
-	"ownClaimedChunksOnMap": false,
+	"ownClaimedChunksOnMap": true,
 	// Show waypoints in world
 	"inWorldWaypoints": false,
 	// Enables creation of death waypoints
@@ -28,27 +28,27 @@
 	// Minimap will not rotate
 	"minimapLockedNorth": true,
 	// Show waypoints on minimap
-	"minimapWaypoints": false,
+	"minimapWaypoints": true,
 	// Show player heads on minimap
-	"minimapPlayerHeads": false,
+	"minimapPlayerHeads": true,
 	// Show entities on minimap
-	"minimapEntities": false,
+	"minimapEntities": true,
 	// Show entity heads on minimap
-	"minimapEntityHeads": false,
+	"minimapEntityHeads": true,
 	// Entities in minimap will be larger
 	"minimapLargeEntities": false,
 	// Show XYZ under minimap
-	"minimapXYZ": false,
+	"minimapXYZ": true,
 	// Show biome under minimap
-	"minimapBiome": false,
+	"minimapBiome": true,
 	// Blurs minimap
-	"minimapBlur": false,
+	"minimapBlur": true,
 	// Adds NWSE compass inside minimap
-	"minimapCompass": false,
+	"minimapCompass": true,
 	// Minimap visibility
 	"minimapVisibility": 255,
 	// Show zone (claimed chunk or wilderness) under minimap
-	"minimapZone": false,
+	"minimapZone": true,
 	// Enables debug info
 	"debugInfo": false,
 	// Advanced option. How often queued tasks will run
