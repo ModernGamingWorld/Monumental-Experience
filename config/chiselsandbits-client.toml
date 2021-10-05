@@ -78,8 +78,20 @@
 
 				[client.client.performance.models.cache]
 					#The size of the model cache.
-					#Range: 0 ~ 2000
-					size = 1000
+					#Range: 3500 ~ 20000
+					size = 3500
+
+				[client.client.performance.models.builder]
+					#mod.chiselsandbits.config.client.performance.models.builder.threadcount.comment
+					#Range: 14 ~ 16
+					threadcount = 14
+
+			[client.client.performance.faces]
+
+				[client.client.performance.faces.cache]
+					#mod.chiselsandbits.config.client.performance.faces.cache.size.comment
+					#Range: 3500 ~ 20000
+					size = 10000
 
 		[client.client.client]
 

@@ -6,7 +6,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Argent Bolts Damage" = 14.5
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"BFGBall Damage" = 100.5
+	"BFGBall Damage" = 80.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"BFG Dragon Damage" = 30.5
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -18,9 +18,9 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Plasma Gun Damage" = 1.5
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Rocket Damage" = 20.5
+	"Rocket Damage" = 15.5
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Shotgun Damage" = 10.5
+	"Shotgun Damage" = 8.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Unmaykr Damage" = 2.5
 
@@ -52,7 +52,7 @@
 	"Pinky Max Group" = 4
 	#Sets Pinky Max Health
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Pinky Max Health" = 75.0
+	"Sets Pinky Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Pinky Melee Damage" = 3.0
 
@@ -66,7 +66,7 @@
 	#Range: > 1
 	"Spectre Max Group" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spectre Max Health" = 75.0
+	"Sets Spectre Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Spectre Melee Damage" = 3.0
 
@@ -121,7 +121,7 @@
 	#Range: > 1
 	"Baron of Hell Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Baron of Hell Max Health" = 180.0
+	"Sets Baron of Hell Max Health" = 160.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Baron of Hell Ranged Damage" = 6.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -151,7 +151,7 @@
 	#Range: > 1
 	"Revenant Min Group" = 1
 	#Range: > 1
-	"Revenant Max Group" = 4
+	"Revenant Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Revenant Max Health" = 45.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -167,7 +167,7 @@
 	#Range: > 1
 	"Zombieman Min Group" = 1
 	#Range: > 1
-	"Zombieman Max Group" = 4
+	"Zombieman Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Zombieman Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -181,7 +181,7 @@
 	#Range: > 1
 	"Arachnotron Min Group" = 1
 	#Range: > 1
-	"Arachnotron Max Group" = 4
+	"Arachnotron Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Arachnotron Max Health" = 30.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -211,7 +211,7 @@
 	#Range: > 1
 	"Gargoyle Min Group" = 1
 	#Range: > 1
-	"Gargoyle Max Group" = 4
+	"Gargoyle Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gargoyle Max Health" = 30.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -243,7 +243,7 @@
 	#Range: > 1
 	"Chaingunner Min Group" = 1
 	#Range: > 1
-	"Chaingunner Max Group" = 4
+	"Chaingunner Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Chaingunner Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -257,7 +257,7 @@
 	#Range: > 1
 	"Shotgun Guy Min Group" = 1
 	#Range: > 1
-	"Shotgun Guy Max Group" = 4
+	"Shotgun Guy Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Shotgun Guy Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -273,7 +273,7 @@
 	#Range: > 1
 	"Marauder Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Marauder Max Health" = 300.0
+	"Sets Marauder Max Health" = 250.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Marauder Melee Damage" = 6.0
 
@@ -299,7 +299,7 @@
 	#Range: > 1
 	"Hellknight Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight Max Health" = 90.0
+	"Sets Hellknight Max Health" = 70.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets the Ranged Damage" = 6.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -315,7 +315,7 @@
 	#Range: > 1
 	"Hellknight 2016 Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight 2016 Max Health" = 90.0
+	"Sets Hellknight 2016 Max Health" = 70.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Hellknight 2016 Melee Damage" = 4.0
 
@@ -343,7 +343,7 @@
 	#Range: > 1
 	"Unwilling Min Group" = 1
 	#Range: > 1
-	"Unwilling Max Group" = 4
+	"Unwilling Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Unwilling Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -357,7 +357,7 @@
 	#Range: > 1
 	"Possessed Scientist Min Group" = 1
 	#Range: > 1
-	"Possessed Scientist Max Group" = 4
+	"Possessed Scientist Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Scientist/Worker Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -371,7 +371,7 @@
 	#Range: > 1
 	"Possessed Soldier Min Group" = 1
 	#Range: > 1
-	"Possessed Soldier Max Group" = 4
+	"Possessed Soldier Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Solider Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -467,7 +467,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Cyberdemon 2016 Biomes" = ["#nether"]
 	#Range: > 1
-	"Cyberdemon 2016 Spawn Weight" = 4
+	"Cyberdemon 2016 Spawn Weight" = 10
 	#Range: > 1
 	"Cyberdemon 2016 Min Group" = 1
 	#Range: > 1
@@ -475,9 +475,9 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Cyberdemon 2016 Max Health" = 300.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon 2016 Ranged Damage" = 9.0
+	"Sets Cyberdemon 2016 Ranged Damage" = 7.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon 2016 Melee Damage" = 7.0
+	"Sets Cyberdemon 2016 Melee Damage" = 5.0
 
 ["Mob Settings:Tyrant"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -501,9 +501,9 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Spider Mastermind Max Health" = 300.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spider Mastermind Ranged Damage" = 7.0
+	"Sets Spider Mastermind Ranged Damage" = 6.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spider Mastermind Melee Damage" = 4.0
+	"Sets Spider Mastermind Melee Damage" = 3.0
 
 ["Mob Settings:Whiplash"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -543,19 +543,19 @@
 	#Range: > 1
 	"Possessed Worker Min Group" = 1
 	#Range: > 1
-	"Possessed Worker Max Group" = 4
+	"Possessed Worker Max Group" = 3
 
 ["Mob Settings:Armored Baron"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Armored Baron Biomes" = ["#nether"]
 	#Range: > 1
-	"Armored Baron Spawn Weight" = 4
+	"Armored Baron Spawn Weight" = 8
 	#Range: > 1
 	"Armored Baron Min Group" = 1
 	#Range: > 1
 	"Armored Baron Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Armored Baron Max Health" = 240.0
+	"Sets Armored Baron Max Health" = 200.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Armored Baron Ranged Damage" = 6.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -565,7 +565,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Summoner Biomes" = ["#nether"]
 	#Range: > 1
-	"Summoner Spawn Weight" = 4
+	"Summoner Spawn Weight" = 8
 	#Range: > 1
 	"Summoner Min Group" = 1
 	#Range: > 1
@@ -591,9 +591,9 @@
 
 ["Mob Settings:Archmaykr"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Max Health" = 400.0
+	"Sets Archmaykr Max Health" = 350.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage" = 14.0
+	"Sets Archmaykr Ranged Damage" = 10.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Archmaykr Melee Damage" = 6.0
 
@@ -601,11 +601,11 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Turret Max Health" = 5.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Turret Ranged Damage" = 6.0
+	"Sets Turret Ranged Damage" = 5.0
 
 ["Mob Settings:Icon of Sin"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Icon of Sin Max Health" = 1000.0
+	"Sets Icon of Sin Max Health" = 800.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Icon of Sin Melee Damage" = 7.0
+	"Sets Icon of Sin Melee Damage" = 6.0
 

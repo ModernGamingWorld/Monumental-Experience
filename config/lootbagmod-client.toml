@@ -2,7 +2,7 @@
 [Misc]
 	#Maximum possible stack size for dropped items
 	#Range: 1 ~ 64
-	stacksize = 2
+	stacksize = 1
 	#How many items drop when a loot bag is used
 	#Range: 1 ~ 1000
 	dropamount = 1
