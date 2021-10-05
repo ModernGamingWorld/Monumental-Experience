@@ -6,7 +6,6 @@ events.listen('jei.add.items', (event) => {
                 astralsorcery: { id: 'astralsorcery:wand', Count: 1 },
                 pneumaticcraft: { id: 'pneumaticcraft:pneumatic_wrench', Count: 1 },
                 immersiveengineering: { id: 'immersiveengineering:hammer', Count: 1 },
-                transport: { id: 'transport:rail_breaker', Count: 1 },
                 botania: { id: 'botania:twig_wand', Count: 1, tag: { color1: 0, color2: 0 } },
                 mekanism: { id: 'mekanism:configurator', Count: 1 },
                 bloodmagic: { id: 'bloodmagic:ritualtinkerer', Count: 1 },
@@ -53,7 +52,6 @@ events.listen('jei.add.items', (event) => {
                     Count: 1,
                     tag: { 'patchouli:book': 'naturesaura:book' }
                 },
-                transport: { id: 'patchouli:guide_book', Count: 1, tag: { 'patchouli:book': 'transport:guide' } },
                 engineersdecor: {
                     id: 'patchouli:guide_book',
                     Count: 1,

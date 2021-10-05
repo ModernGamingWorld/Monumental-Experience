@@ -8,7 +8,7 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 entries: [{
                         type: "item",
-                        name: "'mysticalagriculture:spider_essence'",
+                        name: "mysticalagriculture:spider_essence",
                         entryName: "spider_essence",
                         functions: [{
                             function: "set_count",
@@ -34,7 +34,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "item",
-                        name: "'mysticalagriculture:draconium_essence'",
+                        name: "mysticalagriculture:draconium_essence",
                         entryName: "draconium_essence",
                         functions: [{
                             function: "set_count",

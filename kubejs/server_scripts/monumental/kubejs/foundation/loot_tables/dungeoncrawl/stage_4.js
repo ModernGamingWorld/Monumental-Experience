@@ -376,15 +376,6 @@ onEvent('server.datapack.high_priority', (event) => {
                 {
                     type: "item",
                     name: "minecraft:air",
-                    weight: 7,
-                    functions: [{
-                        function: "dungeoncrawl:special_item",
-                        loot_level: 1
-                    }]
-                },
-                {
-                    type: "item",
-                    name: "minecraft:air",
                     weight: 4,
                     functions: [{
                         function: "dungeoncrawl:material_blocks"
