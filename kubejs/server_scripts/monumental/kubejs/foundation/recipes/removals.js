@@ -1450,6 +1450,9 @@ onEvent('recipes', event => {
         id: 'druidcraft:chitin_shield'
     })
     event.remove({
+        id: 'druidcraft:moonstone_shield'
+    })
+    event.remove({
         id: 'druidcraft:bone_pickaxe'
     })
     event.remove({
@@ -5540,6 +5543,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'twilightforest:equipment/ironwood_leggings'
+    })
+    event.remove({
+        id: 'twilightforest:equipment/knightmetal_shield'
     })
     event.remove({
         id: 'twilightforest:equipment/steeleaf_leggings'
