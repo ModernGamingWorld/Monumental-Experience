@@ -1040,6 +1040,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'blue_skies:bluebright_axe'
     })
+    event.remove({
+        id: 'blue_skies:moonstone_shield'
+    })
 
     //Cyclic Recipes
     event.remove({
@@ -1133,7 +1136,10 @@ onEvent('recipes', event => {
         id: 'cyclic:crystal_boots'
     })
     event.remove({
-        id: 'cyclic:emerald_caxe'
+        id: 'cyclic:emerald_axe'
+    })
+    event.remove({
+        id: 'cyclic:emerald_helmet'
     })
     event.remove({
         id: 'cyclic:crystal_axe'
@@ -1436,6 +1442,12 @@ onEvent('recipes', event => {
     //DruidCraft Recipes
     event.remove({
         id: 'druidcraft:elder_pressure_plate'
+    })
+    event.remove({
+        id: 'druidcraft:bone_shield'
+    })
+    event.remove({
+        id: 'druidcraft:chitin_shield'
     })
     event.remove({
         id: 'druidcraft:bone_pickaxe'
@@ -2766,6 +2778,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum'
     })
+    event.remove({
+        id: 'immersiveengineering:crafting/shield'
+    })
 
     //Iron Furnaces Recipes
     event.remove({
@@ -3248,6 +3263,7 @@ onEvent('recipes', event => {
     event.remove({
         id: 'industrialforegoing:iron_gear'
     })
+
   //Minecraft
     event.remove({
         id: 'minecraft:stone_pickaxe'
@@ -3386,6 +3402,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:iron_ingot'
+    })
+    event.remove({
+        id: 'minecraft:limestone_pickaxe'
+    })
+    event.remove({
+        id: 'minecraft:shield'
     })
 
     //Morph O Tool recipes
@@ -5621,6 +5643,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'undergarden:cloggrum_axe'
+    })
+    event.remove({
+        id: 'undergarden:cloggrum_shield'
     })
     event.remove({
         id: 'undergarden:froststeel_axe'
