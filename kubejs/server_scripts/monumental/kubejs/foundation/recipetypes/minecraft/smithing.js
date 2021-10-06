@@ -58,6 +58,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('cyclic:crystal_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_pickaxe', '#forge:gems/diamond')
     event.smithing(Item.of('doom:argent_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'doom:argent_energy', '#forge:rods/wooden')
     event.smithing(Item.of('mysticalagriculture:inferium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_pickaxe', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('atum:limestone_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:stone_pickaxe', '#forge:rods/wooden')
 
     //Axe
     event.smithing(Item.of('aiotbotania:livingwood_axe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:wooden_axe', '#botania:livingwood')
@@ -259,11 +260,10 @@ onEvent('recipes', event => {
     event.smithing(Item.of('forbidden_arcanus:reinforced_arcane_golden_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'forbidden_arcanus:edelwood_stick')
     event.smithing(Item.of('forbidden_arcanus:arcane_golden_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/arcane_gold')
     event.smithing(Item.of('gobber2:gobber2_sword_end', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot_end')
-    event.smithing(Item.of('gobber2:gobber2_excavator_end', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_rod_end')
     event.smithing(Item.of('gobber2:gobber2_sword_nether', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot_nether')
     event.smithing(Item.of('gobber2:gobber2_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', 'gobber2:gobber2_ingot')
     event.smithing(Item.of('psi:psimetal_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_sword', '#forge:gems/psigem')
-    event.smithing(Item.of('iceandfire:dragonsteel_lightning_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_lightning')
+    event.smithing(Item.of('iceandfire:dragonsteel_lightning_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_lightning')
     event.smithing(Item.of('iceandfire:dragonsteel_ice_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_ice')
     event.smithing(Item.of('iceandfire:dragonsteel_fire_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:ingots/dragonsteel_fire')
     event.smithing(Item.of('iceandfire:myrmex_jungle_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_sword', 'iceandfire:myrmex_jungle_chitin')
@@ -466,6 +466,14 @@ onEvent('recipes', event => {
     event.smithing(Item.of('botania:aura_ring'), 'botania:rune_mana', '#forge:ingots/manasteel')
     event.smithing(Item.of('botania:swap_ring'), '#forge:storage_block/clay', '#forge:ingots/manasteel')
     event.smithing(Item.of('botania:mana_ring_greater'), '#forge:ingots/terrasteel', 'botania:mana_ring')
+
+    //shield
+    event.smithing(Item.of('minecraft:shield', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#minecraft:planks', '#forge:ingots/iron')
+    event.smithing(Item.of('immersiveengineering:shield', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:shield', '#forge:treated_wood')
+    event.smithing(Item.of('undergarden:cloggrum_shield', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#minecraft:planks', '#forge:ingots/cloggrum')
+    event.smithing(Item.of('blue_skies:moonstone_shield', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}'), '#forge:rods/wooden', 'blue_skies:raw_moonstone')
+    event.smithing(Item.of('druidcraft:bone_shield', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}'), '#minecraft:planks', '#forge:bones')
+    event.smithing(Item.of('druidcraft:chitin_shield', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}'), '#forge:nuggets/iron', 'druidcraft:chitin')
 
     //Bows
     
