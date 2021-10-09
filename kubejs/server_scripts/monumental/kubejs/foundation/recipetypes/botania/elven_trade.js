@@ -1,18 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            inputs: [{ item: 'mysticalagriculture:dirt_essence' }],
-            output: {
-                item: 'byg:meadow_grass_block'
-            }
-        },
-        {
-            inputs: [{ item: 'doom:argent_energy' }, { tag: 'forge:ingots/netherite' }],
-            output: {
-                item: 'doom:argent_plate'
-            }
-        },
-        {
             inputs: [{ item: 'minecraft:wooden_pickaxe' }, { tag: 'botania:livingwood' }],
             output: {
                 item: 'aiotbotania:livingwood_pickaxe'
@@ -22,12 +10,6 @@ onEvent('recipes', (event) => {
             inputs: [{ item: 'minecraft:stone_pickaxe' }, { tag: 'botania:livingrock' }],
             output: {
                 item: 'aiotbotania:livingrock_pickaxe'
-            }
-        },
-        {
-            inputs: [{ item: 'minecraft:netherite_pickaxe' }, { tag: 'forge:ingots/neptunium' }],
-            output: {
-                item: 'aquaculture:neptunium_pickaxe'
             }
         },
         {
@@ -193,25 +175,25 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:diamond_pickaxe' }, { tag: 'blue_skies:ingots/charoite' }],
+            inputs: [{ item: 'minecraft:diamond_pickaxe' }, { tag: 'blue_skies:gems/charoite' }],
             output: {
                 item: 'blue_skies:charoite_pickaxe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_pickaxe' }, { tag: 'blue_skies:ingots/diopside' }],
+            inputs: [{ item: 'minecraft:iron_pickaxe' }, { tag: 'blue_skies:gems/diopside' }],
             output: {
                 item: 'blue_skies:diopside_pickaxe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_pickaxe' }, { tag: 'blue_skies:ingots/aquite' }],
+            inputs: [{ item: 'minecraft:iron_pickaxe' }, { tag: 'blue_skies:gems/aquite' }],
             output: {
                 item: 'blue_skies:aquite_pickaxe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:netherite_pickaxe' }, { tag: 'blue_skies:ingots/pyrope' }],
+            inputs: [{ item: 'minecraft:netherite_pickaxe' }, { tag: 'blue_skies:gems/pyrope' }],
             output: {
                 item: 'blue_skies:pyrope_pickaxe'
             }
@@ -355,6 +337,36 @@ onEvent('recipes', (event) => {
             }
         },
         {
+            inputs: [{ item: 'minecraft:diamond_pickaxe' }, { item: 'mysticalagriculture:inferium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:inferium_pickaxe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:inferium_pickaxe' }, { item: 'mysticalagriculture:prudentium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:prudentium_pickaxe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:prudentium_pickaxe' }, { item: 'mysticalagriculture:tertium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:tertium_pickaxe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:tertium_pickaxe' }, { item: 'mysticalagriculture:imperium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:imperium_pickaxe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:imperium_pickaxe' }, { item: 'mysticalagriculture:supremium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:supremium_pickaxe'
+            }
+        },
+        {
             inputs: [{ item: 'minecraft:wooden_axe' }, { tag: 'botania:livingwood' }],
             output: {
                 item: 'aiotbotania:livingwood_axe'
@@ -439,25 +451,25 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:diamond_axe' }, { tag: 'blue_skies:ingots/charoite' }],
+            inputs: [{ item: 'minecraft:diamond_axe' }, { tag: 'blue_skies:gems/charoite' }],
             output: {
                 item: 'blue_skies:charoite_axe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_axe' }, { tag: 'blue_skies:ingots/diopside' }],
+            inputs: [{ item: 'minecraft:iron_axe' }, { tag: 'blue_skies:gems/diopside' }],
             output: {
                 item: 'blue_skies:diopside_axe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_axe' }, { tag: 'blue_skies:ingots/aquite' }],
+            inputs: [{ item: 'minecraft:iron_axe' }, { tag: 'blue_skies:gems/aquite' }],
             output: {
                 item: 'blue_skies:aquite_axe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:netherite_axe' }, { tag: 'blue_skies:ingots/pyrope' }],
+            inputs: [{ item: 'minecraft:netherite_axe' }, { tag: 'blue_skies:gems/pyrope' }],
             output: {
                 item: 'blue_skies:pyrope_axe'
             }
@@ -643,6 +655,30 @@ onEvent('recipes', (event) => {
             }
         },
         {
+            inputs: [{ item: 'mysticalagriculture:inferium_axe' }, { item: 'mysticalagriculture:prudentium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:prudentium_axe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:prudentium_axe' }, { item: 'mysticalagriculture:tertium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:tertium_axe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:tertium_axe' }, { item: 'mysticalagriculture:imperium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:imperium_axe'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:imperium_axe' }, { item: 'mysticalagriculture:supremium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:supremium_axe'
+            }
+        },
+        {
             inputs: [{ item: 'minecraft:iron_axe' }, { tag: 'forge:ingots/ironwood' }],
             output: {
                 item: 'twilightforest:ironwood_axe'
@@ -793,25 +829,25 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:diamond_shovel' }, { tag: 'blue_skies:ingots/charoite' }],
+            inputs: [{ item: 'minecraft:diamond_shovel' }, { tag: 'blue_skies:gems/charoite' }],
             output: {
                 item: 'blue_skies:charoite_shovel'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_shovel' }, { tag: 'blue_skies:ingots/diopside' }],
+            inputs: [{ item: 'minecraft:iron_shovel' }, { tag: 'blue_skies:gems/diopside' }],
             output: {
                 item: 'blue_skies:diopside_shovel'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_shovel' }, { tag: 'blue_skies:ingots/aquite' }],
+            inputs: [{ item: 'minecraft:iron_shovel' }, { tag: 'blue_skies:gems/aquite' }],
             output: {
                 item: 'blue_skies:aquite_shovel'
             }
         },
         {
-            inputs: [{ item: 'minecraft:netherite_shovel' }, { tag: 'blue_skies:ingots/pyrope' }],
+            inputs: [{ item: 'minecraft:netherite_shovel' }, { tag: 'blue_skies:gems/pyrope' }],
             output: {
                 item: 'blue_skies:pyrope_shovel'
             }
@@ -1015,6 +1051,12 @@ onEvent('recipes', (event) => {
             }
         },
         {
+            inputs: [{ item: 'mysticalagriculture:inferium_shovel' }, { item: 'mysticalagriculture:prudentium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:prudentium_shovel'
+            }
+        },
+        {
             inputs: [{ item: 'minecraft:iron_shovel' }, { tag: 'forge:ingots/ironwood' }],
             output: {
                 item: 'twilightforest:ironwood_shovel'
@@ -1111,25 +1153,25 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:diamond_hoe' }, { tag: 'blue_skies:ingots/charoite' }],
+            inputs: [{ item: 'minecraft:diamond_hoe' }, { tag: 'blue_skies:gems/charoite' }],
             output: {
                 item: 'blue_skies:charoite_hoe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_hoe' }, { tag: 'blue_skies:ingots/diopside' }],
+            inputs: [{ item: 'minecraft:iron_hoe' }, { tag: 'blue_skies:gems/diopside' }],
             output: {
                 item: 'blue_skies:diopside_hoe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_hoe' }, { tag: 'blue_skies:ingots/aquite' }],
+            inputs: [{ item: 'minecraft:iron_hoe' }, { tag: 'blue_skies:gems/aquite' }],
             output: {
                 item: 'blue_skies:aquite_hoe'
             }
         },
         {
-            inputs: [{ item: 'minecraft:netherite_hoe' }, { tag: 'blue_skies:ingots/pyrope' }],
+            inputs: [{ item: 'minecraft:netherite_hoe' }, { tag: 'blue_skies:gems/pyrope' }],
             output: {
                 item: 'blue_skies:pyrope_hoe'
             }
@@ -1417,25 +1459,25 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:diamond_hoe' }, { tag: 'blue_skies:ingots/charoite' }],
+            inputs: [{ item: 'minecraft:diamond_hoe' }, { tag: 'blue_skies:gems/charoite' }],
             output: {
                 item: 'blue_skies:charoite_sword'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_sword' }, { tag: 'blue_skies:ingots/diopside' }],
+            inputs: [{ item: 'minecraft:iron_sword' }, { tag: 'blue_skies:gems/diopside' }],
             output: {
                 item: 'blue_skies:diopside_sword'
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_sword' }, { tag: 'blue_skies:ingots/aquite' }],
+            inputs: [{ item: 'minecraft:iron_sword' }, { tag: 'blue_skies:gems/aquite' }],
             output: {
                 item: 'blue_skies:aquite_sword'
             }
         },
         {
-            inputs: [{ item: 'minecraft:netherite_sword' }, { tag: 'blue_skies:ingots/pyrope' }],
+            inputs: [{ item: 'minecraft:netherite_sword' }, { tag: 'blue_skies:gems/pyrope' }],
             output: {
                 item: 'blue_skies:pyrope_sword'
             }
@@ -1714,6 +1756,276 @@ onEvent('recipes', (event) => {
             inputs: [{ tag: 'forge:nuggets/iron' }, { item: 'druidcraft:chitin' }],
             output: {
                 item: 'druidcraft:chitin_shield'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'forge:gems/psigem' }],
+            output: {
+                item: 'psi:psimetal_exosuit_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/neptunium' }],
+            output: {
+                item: 'aquaculture:neptunium_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:manasteel_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:ingots/elementium' }],
+            output: {
+                item: 'botania:elementium_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'naturesaura:infused_iron' }],
+            output: {
+                item: 'naturesaura:infused_iron_chest'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'contenttweaker:compressed_plate' }],
+            output: {
+                item: 'pneumaticcraft:compressed_iron_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { item: 'naturesaura:sky_ingot' }],
+            output: {
+                item: 'naturesaura:sky_chest'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:plates/steel' }],
+            output: {
+                item: 'immersiveengineering:armor_steel_chest'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:leather_chestplate' }, { tag: 'forge:plates/aluminum' }],
+            output: {
+                item: 'immersiveengineering:armor_faraday_chest'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:ingots/cloggrum' }],
+            output: {
+                item: 'undergarden:cloggrum_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:ingots/froststeel' }],
+            output: {
+                item: 'undergarden:froststeel_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/utherium' }],
+            output: {
+                item: 'undergarden:utheric_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'undergarden:masticator_scales' }],
+            output: {
+                item: 'undergarden:masticated_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'blue_skies:ingots/horizonite' }],
+            output: {
+                item: 'blue_skies:horizonite_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'blue_skies:gems/charoite' }],
+            output: {
+                item: 'blue_skies:charoite_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'blue_skies:gems/diopside' }],
+            output: {
+                item: 'blue_skies:diopside_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'blue_skies:gems/aquite' }],
+            output: {
+                item: 'blue_skies:aquite_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'blue_skies:gems/pyrope' }],
+            output: {
+                item: 'blue_skies:pyrope_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/shadow_steel' }],
+            output: {
+                item: 'blue_skies:shadow_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'forge:gems/emerald' }],
+            output: {
+                item: 'cyclic:emerald_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:gems/diamond' }],
+            output: {
+                item: 'cyclic:crystal_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:gems/moonstone' }],
+            output: {
+                item: 'druidcraft:moonstone_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'druidcraft:chitin' }],
+            output: {
+                item: 'druidcraft:chitin_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_chestplate' }, { tag: 'forge:bones' }],
+            output: {
+                item: 'druidcraft:bone_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { item: 'gobber2:gobber2_ingot_end' }],
+            output: {
+                item: 'gobber2:gobber2_chestplate_end'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { item: 'gobber2:gobber2_ingot_nether' }],
+            output: {
+                item: 'gobber2:gobber2_chestplate_nether'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { item: 'gobber2:gobber2_ingot' }],
+            output: {
+                item: 'gobber2:gobber2_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/dragonsteel_lightning' }],
+            output: {
+                item: 'iceandfire:dragonsteel_lightning_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/dragonsteel_ice' }],
+            output: {
+                item: 'iceandfire:dragonsteel_ice_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/dragonsteel_fire' }],
+            output: {
+                item: 'iceandfire:dragonsteel_fire_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/arcane_gold' }],
+            output: {
+                item: 'forbidden_arcanus:arcane_gold_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'forge:ingots/obsidian' }],
+            output: {
+                item: 'forbidden_arcanus:obsidian_shoulder_pads'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'iceandfire:myrmex_jungle_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_jungle_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'iceandfire:myrmex_desert_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_desert_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { item: 'mysticalagriculture:inferium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:inferium_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { tag: 'forge:ingots/ironwood' }],
+            output: {
+                item: 'twilightforest:ironwood_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_chestplate' }, { tag: 'forge:ingots/steeleaf' }],
+            output: {
+                item: 'twilightforest:steeleaf_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/fiery' }],
+            output: {
+                item: 'twilightforest:fiery_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/knightmetal' }],
+            output: {
+                item: 'twilightforest:knightmetal_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_chestplate' }, { tag: 'forge:ingots/terrasteel' }],
+            output: {
+                item: 'botania:terrasteel_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'alexsmobs:crocodile_scute' }],
+            output: {
+                item: 'alexsmobs:crocodile_chestplate'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_chest' }, { item: 'minecraft:iron_chestplate' }],
+            output: {
+                item: 'atum:desert_chest_iron'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_chest' }, { item: 'minecraft:golden_chestplate' }],
+            output: {
+                item: 'atum:desert_chest_gold'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_chest' }, { item: 'minecraft:diamond_chestplate' }],
+            output: {
+                item: 'atum:desert_chest_diamond'
+            }
+        },
+        {
+            inputs: [{ tag: 'forge:furnace' }, { item: 'mysticalagriculture:inferium_block' }],
+            output: {
+                item: 'mysticalagriculture:inferium_furnace'
             }
         }
     ];

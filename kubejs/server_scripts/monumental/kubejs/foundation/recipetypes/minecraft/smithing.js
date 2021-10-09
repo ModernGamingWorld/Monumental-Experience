@@ -58,6 +58,10 @@ onEvent('recipes', event => {
     event.smithing(Item.of('cyclic:crystal_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_pickaxe', '#forge:gems/diamond')
     event.smithing(Item.of('doom:argent_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'doom:argent_energy', '#forge:rods/wooden')
     event.smithing(Item.of('mysticalagriculture:inferium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_pickaxe', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_pickaxe', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:prudentium_pickaxe', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:tertium_pickaxe', 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:imperium_pickaxe', 'mysticalagriculture:supremium_gemstone')
 
     //Axe
     event.smithing(Item.of('aiotbotania:livingwood_axe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:wooden_axe', '#botania:livingwood')
@@ -164,6 +168,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('iceandfire:myrmex_desert_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_shovel', 'iceandfire:myrmex_desert_chitin')
     event.smithing(Item.of('iceandfire:dragonbone_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_shovel', '#forge:bones/dragon')
     event.smithing(Item.of('mysticalagriculture:inferium_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_shovel', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_shovel', 'mysticalagriculture:prudentium_gemstone')
     event.smithing(Item.of('twilightforest:ironwood_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_shovel', '#forge:ingots/ironwood')
     event.smithing(Item.of('twilightforest:steeleaf_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_shovel', '#forge:ingots/steeleaf')
  
@@ -466,6 +471,16 @@ onEvent('recipes', event => {
     event.smithing(Item.of('druidcraft:moonstone_shield', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}'), '#forge:ingots/iron', '#forge:gems/moonstone')
     event.smithing(Item.of('twilightforest:knightmetal_shield', '{AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077],Damage:0}'), '#twilightforest:towerwood', '#forge:ingots/knightmetal')
 
+
+    //Furnaces
+
+    event.smithing(Item.of('mysticalagriculture:inferium_furnace'), '#forge:furnace', 'mysticalagriculture:inferium_block')
+    event.smithing(Item.of('mysticalagriculture:prudentium_furnace'), 'mysticalagriculture:inferium_furnace', 'mysticalagriculture:prudentium_block')
+    event.smithing(Item.of('mysticalagriculture:tertium_furnace'), 'mysticalagriculture:prudentium_furnace', 'mysticalagriculture:tertium_block')
+    event.smithing(Item.of('mysticalagriculture:imperium_furnace'), 'mysticalagriculture:tertium_furnace', 'mysticalagriculture:imperium_block')
+    event.smithing(Item.of('mysticalagriculture:supremium_furnace'), 'mysticalagriculture:imperium_furnace', 'mysticalagriculture:supremium_block')
+
+
     //Misc
 
     event.smithing(Item.of('gobber2:gobber2_paxel_stars'), 'gobber2:gobber2_paxel_end', 'gobber2:gobber2_staff_stars')
@@ -474,7 +489,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('gobber2:gobber2_ring_phoenix'), 'gobber2:gobber2_ring_nether', 'minecraft:magma_cream')
     event.smithing(Item.of('botania:mana_ring'), 'botania:mana_tablet', '#forge:ingots/manasteel')
     event.smithing(Item.of('botania:aura_ring'), 'botania:rune_mana', '#forge:ingots/manasteel')
-    event.smithing(Item.of('botania:swap_ring'), '#forge:storage_block/clay', '#forge:ingots/manasteel')
+    event.smithing(Item.of('botania:swap_ring'), '#forge:storage_blocks/clay', '#forge:ingots/manasteel')
     event.smithing(Item.of('botania:mana_ring_greater'), '#forge:ingots/terrasteel', 'botania:mana_ring')
 
     //Bows
