@@ -1254,6 +1254,18 @@ events.listen('recipes', (event) => {
                     'forbidden_arcanus:dragon_scale'
                 ],
                 output: Item.of('forbidden_arcanus:silver_dragon_scale', 1)
+            },
+            {
+                inputs: [
+                    '#forge:dusts/glowstone',
+                    '#forge:dusts/glowstone',
+                    '#forge:dusts/glowstone',
+                    '#forge:dusts/obsidian',
+                    '#forge:dusts/obsidian',
+                    '#forge:dusts/obsidian',
+                    'create:polished_rose_quartz'
+                ],
+                output: Item.of('create:chromatic_compound', 1)
             }
         ]
     };
