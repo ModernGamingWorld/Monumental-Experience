@@ -2023,9 +2023,843 @@ onEvent('recipes', (event) => {
             }
         },
         {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'forge:gems/psigem' }],
+            output: {
+                item: 'psi:psimetal_exosuit_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/neptunium' }],
+            output: {
+                item: 'aquaculture:neptunium_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:manasteel_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:ingots/elementium' }],
+            output: {
+                item: 'botania:elementium_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'naturesaura:infused_iron' }],
+            output: {
+                item: 'naturesaura:infused_iron_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'contenttweaker:compressed_plate' }],
+            output: {
+                item: 'pneumaticcraft:compressed_iron_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { item: 'naturesaura:sky_ingot' }],
+            output: {
+                item: 'naturesaura:sky_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:plates/steel' }],
+            output: {
+                item: 'immersiveengineering:armor_steel_head'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:leather_helmet' }, { tag: 'forge:plates/aluminum' }],
+            output: {
+                item: 'immersiveengineering:armor_faraday_head'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:ingots/cloggrum' }],
+            output: {
+                item: 'undergarden:cloggrum_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:ingots/froststeel' }],
+            output: {
+                item: 'undergarden:froststeel_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/utherium' }],
+            output: {
+                item: 'undergarden:utheric_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'blue_skies:ingots/horizonite' }],
+            output: {
+                item: 'blue_skies:horizonite_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'blue_skies:gems/charoite' }],
+            output: {
+                item: 'blue_skies:charoite_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'blue_skies:gems/diopside' }],
+            output: {
+                item: 'blue_skies:diopside_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'blue_skies:gems/aquite' }],
+            output: {
+                item: 'blue_skies:aquite_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'blue_skies:gems/pyrope' }],
+            output: {
+                item: 'blue_skies:pyrope_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/shadow_steel' }],
+            output: {
+                item: 'blue_skies:shadow_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'forge:gems/emerald' }],
+            output: {
+                item: 'cyclic:emerald_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:gems/diamond' }],
+            output: {
+                item: 'cyclic:crystal_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:gems/moonstone' }],
+            output: {
+                item: 'druidcraft:moonstone_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'druidcraft:chitin' }],
+            output: {
+                item: 'druidcraft:chitin_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_helmet' }, { tag: 'forge:bones' }],
+            output: {
+                item: 'druidcraft:bone_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { item: 'gobber2:gobber2_ingot_end' }],
+            output: {
+                item: 'gobber2:gobber2_helmet_end'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { item: 'gobber2:gobber2_ingot_nether' }],
+            output: {
+                item: 'gobber2:gobber2_helmet_nether'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { item: 'gobber2:gobber2_ingot' }],
+            output: {
+                item: 'gobber2:gobber2_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/dragonsteel_lightning' }],
+            output: {
+                item: 'iceandfire:dragonsteel_lightning_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/dragonsteel_ice' }],
+            output: {
+                item: 'iceandfire:dragonsteel_ice_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/dragonsteel_fire' }],
+            output: {
+                item: 'iceandfire:dragonsteel_fire_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/arcane_gold' }],
+            output: {
+                item: 'forbidden_arcanus:arcane_gold_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'forge:ingots/obsidian' }],
+            output: {
+                item: 'forbidden_arcanus:obsidian_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'iceandfire:myrmex_jungle_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_jungle_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'iceandfire:myrmex_desert_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_desert_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { item: 'mysticalagriculture:inferium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:inferium_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_helmet' }, { tag: 'forge:ingots/ironwood' }],
+            output: {
+                item: 'twilightforest:ironwood_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_helmet' }, { tag: 'forge:ingots/steeleaf' }],
+            output: {
+                item: 'twilightforest:steeleaf_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/fiery' }],
+            output: {
+                item: 'twilightforest:fiery_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/knightmetal' }],
+            output: {
+                item: 'twilightforest:knightmetal_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_helmet' }, { tag: 'forge:ingots/terrasteel' }],
+            output: {
+                item: 'botania:terrasteel_helmet'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_helmet' }, { item: 'minecraft:iron_helmet' }],
+            output: {
+                item: 'atum:desert_helmet_iron'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_helmet' }, { item: 'minecraft:golden_helmet' }],
+            output: {
+                item: 'atum:desert_helmet_gold'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_helmet' }, { item: 'minecraft:diamond_helmet' }],
+            output: {
+                item: 'atum:desert_helmet_diamond'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'forge:gems/psigem' }],
+            output: {
+                item: 'psi:psimetal_exosuit_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/neptunium' }],
+            output: {
+                item: 'aquaculture:neptunium_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:manasteel_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:ingots/elementium' }],
+            output: {
+                item: 'botania:elementium_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'naturesaura:infused_iron' }],
+            output: {
+                item: 'naturesaura:infused_iron_pants'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'contenttweaker:compressed_plate' }],
+            output: {
+                item: 'pneumaticcraft:compressed_iron_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { item: 'naturesaura:sky_ingot' }],
+            output: {
+                item: 'naturesaura:sky_pants'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:plates/steel' }],
+            output: {
+                item: 'immersiveengineering:armor_steel_legs'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:leather_leggings' }, { tag: 'forge:plates/aluminum' }],
+            output: {
+                item: 'immersiveengineering:armor_faraday_legs'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:ingots/cloggrum' }],
+            output: {
+                item: 'undergarden:cloggrum_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:ingots/froststeel' }],
+            output: {
+                item: 'undergarden:froststeel_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/utherium' }],
+            output: {
+                item: 'undergarden:utheric_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'blue_skies:ingots/horizonite' }],
+            output: {
+                item: 'blue_skies:horizonite_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'blue_skies:gems/charoite' }],
+            output: {
+                item: 'blue_skies:charoite_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'blue_skies:gems/diopside' }],
+            output: {
+                item: 'blue_skies:diopside_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'blue_skies:gems/aquite' }],
+            output: {
+                item: 'blue_skies:aquite_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_leggings' }, { tag: 'blue_skies:gems/pyrope' }],
+            output: {
+                item: 'blue_skies:pyrope_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/shadow_steel' }],
+            output: {
+                item: 'blue_skies:shadow_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'forge:gems/emerald' }],
+            output: {
+                item: 'cyclic:emerald_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:gems/diamond' }],
+            output: {
+                item: 'cyclic:crystal_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:gems/moonstone' }],
+            output: {
+                item: 'druidcraft:moonstone_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'druidcraft:chitin' }],
+            output: {
+                item: 'druidcraft:chitin_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_leggings' }, { tag: 'forge:bones' }],
+            output: {
+                item: 'druidcraft:bone_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { item: 'gobber2:gobber2_ingot_end' }],
+            output: {
+                item: 'gobber2:gobber2_leggings_end'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { item: 'gobber2:gobber2_ingot_nether' }],
+            output: {
+                item: 'gobber2:gobber2_leggings_nether'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { item: 'gobber2:gobber2_ingot' }],
+            output: {
+                item: 'gobber2:gobber2_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/dragonsteel_lightning' }],
+            output: {
+                item: 'iceandfire:dragonsteel_lightning_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/dragonsteel_ice' }],
+            output: {
+                item: 'iceandfire:dragonsteel_ice_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/dragonsteel_fire' }],
+            output: {
+                item: 'iceandfire:dragonsteel_fire_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/arcane_gold' }],
+            output: {
+                item: 'forbidden_arcanus:arcane_gold_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'forge:ingots/obsidian' }],
+            output: {
+                item: 'forbidden_arcanus:obsidian_knee_pads'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'iceandfire:myrmex_jungle_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_jungle_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'iceandfire:myrmex_desert_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_desert_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { item: 'mysticalagriculture:inferium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:inferium_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_leggings' }, { tag: 'forge:ingots/ironwood' }],
+            output: {
+                item: 'twilightforest:ironwood_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'forge:ingots/steeleaf' }],
+            output: {
+                item: 'twilightforest:steeleaf_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/fiery' }],
+            output: {
+                item: 'twilightforest:fiery_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_leggings' }, { tag: 'forge:ingots/knightmetal' }],
+            output: {
+                item: 'twilightforest:knightmetal_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_leggings' }, { tag: 'forge:ingots/terrasteel' }],
+            output: {
+                item: 'botania:terrasteel_leggings'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_legs' }, { item: 'minecraft:iron_leggings' }],
+            output: {
+                item: 'atum:desert_legs_iron'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_legs' }, { item: 'minecraft:golden_leggings' }],
+            output: {
+                item: 'atum:desert_legs_gold'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_legs' }, { item: 'minecraft:diamond_leggings' }],
+            output: {
+                item: 'atum:desert_legs_diamond'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'forge:gems/psigem' }],
+            output: {
+                item: 'psi:psimetal_exosuit_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/neptunium' }],
+            output: {
+                item: 'aquaculture:neptunium_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:manasteel_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:ingots/elementium' }],
+            output: {
+                item: 'botania:elementium_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'naturesaura:infused_iron' }],
+            output: {
+                item: 'naturesaura:infused_iron_shoes'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'contenttweaker:compressed_plate' }],
+            output: {
+                item: 'pneumaticcraft:compressed_iron_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { item: 'naturesaura:sky_ingot' }],
+            output: {
+                item: 'naturesaura:sky_shoes'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:plates/steel' }],
+            output: {
+                item: 'immersiveengineering:armor_steel_feet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:leather_boots' }, { tag: 'forge:plates/aluminum' }],
+            output: {
+                item: 'immersiveengineering:armor_faraday_feet'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:ingots/cloggrum' }],
+            output: {
+                item: 'undergarden:cloggrum_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:ingots/froststeel' }],
+            output: {
+                item: 'undergarden:froststeel_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/utherium' }],
+            output: {
+                item: 'undergarden:utheric_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'blue_skies:ingots/horizonite' }],
+            output: {
+                item: 'blue_skies:horizonite_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'blue_skies:gems/charoite' }],
+            output: {
+                item: 'blue_skies:charoite_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'blue_skies:gems/diopside' }],
+            output: {
+                item: 'blue_skies:diopside_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_boots' }, { tag: 'blue_skies:gems/aquite' }],
+            output: {
+                item: 'blue_skies:aquite_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_boots' }, { tag: 'blue_skies:gems/pyrope' }],
+            output: {
+                item: 'blue_skies:pyrope_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:golden_boots' }, { tag: 'forge:ingots/shadow_steel' }],
+            output: {
+                item: 'blue_skies:shadow_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'forge:gems/emerald' }],
+            output: {
+                item: 'cyclic:emerald_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:gems/diamond' }],
+            output: {
+                item: 'cyclic:crystal_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:gems/moonstone' }],
+            output: {
+                item: 'druidcraft:moonstone_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'druidcraft:chitin' }],
+            output: {
+                item: 'druidcraft:chitin_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:chainmail_boots' }, { tag: 'forge:bones' }],
+            output: {
+                item: 'druidcraft:bone_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { item: 'gobber2:gobber2_ingot_end' }],
+            output: {
+                item: 'gobber2:gobber2_boots_end'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { item: 'gobber2:gobber2_ingot_nether' }],
+            output: {
+                item: 'gobber2:gobber2_boots_nether'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { item: 'gobber2:gobber2_ingot' }],
+            output: {
+                item: 'gobber2:gobber2_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/dragonsteel_lightning' }],
+            output: {
+                item: 'iceandfire:dragonsteel_lightning_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/dragonsteel_ice' }],
+            output: {
+                item: 'iceandfire:dragonsteel_ice_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/dragonsteel_fire' }],
+            output: {
+                item: 'iceandfire:dragonsteel_fire_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/arcane_gold' }],
+            output: {
+                item: 'forbidden_arcanus:arcane_gold_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'forge:ingots/obsidian' }],
+            output: {
+                item: 'forbidden_arcanus:obsidian_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'iceandfire:myrmex_jungle_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_jungle_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'iceandfire:myrmex_desert_chitin' }],
+            output: {
+                item: 'iceandfire:myrmex_desert_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { item: 'mysticalagriculture:inferium_gemstone' }],
+            output: {
+                item: 'mysticalagriculture:inferium_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:iron_boots' }, { tag: 'forge:ingots/ironwood' }],
+            output: {
+                item: 'twilightforest:ironwood_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'forge:ingots/steeleaf' }],
+            output: {
+                item: 'twilightforest:steeleaf_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/fiery' }],
+            output: {
+                item: 'twilightforest:fiery_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:diamond_boots' }, { tag: 'forge:ingots/knightmetal' }],
+            output: {
+                item: 'twilightforest:knightmetal_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'minecraft:netherite_boots' }, { tag: 'forge:ingots/terrasteel' }],
+            output: {
+                item: 'botania:terrasteel_boots'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_boots' }, { item: 'minecraft:iron_leggings' }],
+            output: {
+                item: 'atum:desert_boots_iron'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_boots' }, { item: 'minecraft:iron_boots' }],
+            output: {
+                item: 'atum:desert_boots_gold'
+            }
+        },
+        {
+            inputs: [{ item: 'atum:wanderer_boots' }, { item: 'minecraft:diamond_boots' }],
+            output: {
+                item: 'atum:desert_boots_diamond'
+            }
+        },
+        {
             inputs: [{ tag: 'forge:furnace' }, { item: 'mysticalagriculture:inferium_block' }],
             output: {
                 item: 'mysticalagriculture:inferium_furnace'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:inferium_furnace' }, { item: 'mysticalagriculture:prudentium_block' }],
+            output: {
+                item: 'mysticalagriculture:prudentium_furnace'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:prudentium_furnace' }, { item: 'mysticalagriculture:tertium_block' }],
+            output: {
+                item: 'mysticalagriculture:tertium_furnace'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:tertium_furnace' }, { item: 'mysticalagriculture:imperium_block' }],
+            output: {
+                item: 'mysticalagriculture:imperium_furnace'
+            }
+        },
+        {
+            inputs: [{ item: 'mysticalagriculture:imperium_furnace' }, { item: 'mysticalagriculture:supremium_block' }],
+            output: {
+                item: 'mysticalagriculture:supremium_furnace'
+            }
+        },
+        {
+            inputs: [{ item: 'gobber2:gobber2_paxel_end' }, { item: 'gobber2:gobber2_staff_stars' }],
+            output: {
+                item: 'gobber2:gobber2_paxel_stars'
+            }
+        },
+        {
+            inputs: [{ item: 'gobber2:gobber2_sword_end' }, { item: 'gobber2:gobber2_staff_sniper' }],
+            output: {
+                item: 'gobber2:gobber2_sword_sniper'
+            }
+        },
+        {
+            inputs: [{ item: 'gobber2:gobber2_sword_end' }, { item: 'gobber2:gobber2_ring_traveler' }],
+            output: {
+                item: 'gobber2:gobber2_sword_traveler'
+            }
+        },
+        {
+            inputs: [{ item: 'gobber2:gobber2_ring_nether' }, { item: 'minecraft:magma_cream' }],
+            output: {
+                item: 'gobber2:gobber2_ring_phoenix'
+            }
+        },
+        {
+            inputs: [{ item: 'gobber2:gobber2_ring_nether' }, { item: 'minecraft:magma_cream' }],
+            output: {
+                item: 'botania:mana_ring'
+            }
+        },
+        {
+            inputs: [{ item: 'botania:mana_tablet' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:mana_ring'
+            }
+        },
+        {
+            inputs: [{ item: 'botania:rune_mana' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:aura_ring'
+            }
+        },
+        {
+            inputs: [{ tag: 'forge:storage_blocks/clay' }, { tag: 'forge:ingots/manasteel' }],
+            output: {
+                item: 'botania:swap_ring'
+            }
+        },
+        {
+            inputs: [{ tag: 'forge:ingots/terrasteel' }, { item: 'botania:mana_ring' }],
+            output: {
+                item: 'botania:mana_ring_greater'
             }
         }
     ];
