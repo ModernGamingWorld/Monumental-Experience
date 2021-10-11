@@ -1,9 +1,6 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                input: '#forge:ores/dimensional',
-                output: Item.of('emendatusenigmatica:dimensional_gem', 8)
-            },
+        recipes: [
             {
                 input: '#forge:ores/ender',
                 output: Item.of('betterendforge:ender_shard', 3)
@@ -49,11 +46,6 @@ onEvent('recipes', (event) => {
                 input: 'mekanism:hdpe_pellet',
                 output: 'mekanism:hdpe_sheet',
                 id: 'mekanism:enriching/hdpe_sheet'
-            },
-            {
-                input: '#forge:ores/netherite',
-                output: Item.of('minecraft:netherite_scrap', 2),
-                id: 'mekanism:processing/netherite/ancient_debris_to_scrap'
             },
             {
                 input: 'mekanism:dirty_netherite_scrap',

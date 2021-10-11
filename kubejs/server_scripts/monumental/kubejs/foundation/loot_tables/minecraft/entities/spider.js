@@ -53,5 +53,5 @@ onEvent('server.datapack.high_priority', (event) => {
         ]
     };
 
-    event.addJson(`minecraft:loot_tables/entities/blaze.json`, loot_table);
+    event.addJson(`minecraft:loot_tables/entities/spider.json`, loot_table);
 });
