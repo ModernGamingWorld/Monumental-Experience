@@ -1164,7 +1164,7 @@ onEvent('recipes', event => {
         id: 'create:crafting/materials/rose_quartz'
     })
     event.remove({
-        id: 'create:crafting/mixing/chromatic_compound'
+        id: 'create:mixing/chromatic_compound'
     })
     event.remove({
         id: 'create:crafting/materials/electron_tube'
