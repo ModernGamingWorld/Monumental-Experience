@@ -1,0 +1,149 @@
+
+#Basic Dragonseeker
+[basic_dragonseeker]
+	#Inside this distance, getting closer to the dragon will not increase the ping chance. Default: 100
+	#Range: 1 ~ 500
+	"Basic: optimalDistance" = 100
+	#Maximum distance at which a dragon will be detected. Should be larger than the optimalDistance, but not larger than your render distance. Default: 200
+	#Range: 1 ~ 500
+	"Basic: maxDistance" = 200
+	#Minimum chance of a ping. This is the chance of a positive ping when no dragons are detected, i.e. the false positive rate. Default: .12
+	#Range: 0.0 ~ 1.0
+	"Basic: minPingChance" = 0.12
+	#Maximum chance of a ping. This is the chance of a positive ping when there is a dragon within the optimalDistance. Default: .8
+	#Range: 0.0 ~ 1.0
+	"Basic: maxPingChance" = 0.8
+	#Inside this radius, ping properties will not change. The smaller it is, the easier it will be to narrow down a dragon's location. Default: 200
+	#Range: 1 ~ 500
+	"Basic: pingCapRadius" = 200
+	#Mathematical property governing the relationship between distance and ping properties. The higher this is, the easier it will be to narrow down a dragon's location. Default: 1.5
+	#Range: 1.0 ~ 5.0
+	"Basic: sigPower" = 1.5
+	#Minimum volume of a ping, for when there are no dragons in range. Default: .05
+	#Range: 0.0 ~ 1.0
+	"Basic: minVol" = 0.05
+	#Maximum volume of a ping, for when you're inside the ping cap radius. Default: .05
+	#Range: 0.0 ~ 1.0
+	"Basic: maxVol" = 0.05
+	#Pitch of a negative result, i.e. no dragon detected. Default: .5
+	#Range: 0.0 ~ 1.0
+	"Basic: minPitch" = 0.5
+	#Pitch of a positive result, i.e. there is a dragon detected. Default: .8
+	#Range: 0.0 ~ 1.0
+	"Basic: maxPitch" = 0.8
+	#Whether or not the dragonseeker detects dead dragons. Default: true
+	"Basic: detectsCorpses" = true
+	#Whether or not the dragonseeker detects tame dragons. Default: true
+	"Basic: detectsTame" = true
+
+#Epic Dragonseeker
+[epic_dragonseeker]
+	#Inside this distance, getting closer to the dragon will not increase the ping chance. Default: 150
+	#Range: 1 ~ 500
+	"Epic: optimalDistance" = 150
+	#Maximum distance at which a dragon will be detected. Should be larger than the optimalDistance, but not larger than your render distance. Default: 225
+	#Range: 1 ~ 500
+	"Epic: maxDistance" = 225
+	#Minimum chance of a ping. This is the chance of a positive ping when no dragons are detected, i.e. the false positive rate. Default: .08
+	#Range: 0.0 ~ 1.0
+	"Epic: minPingChance" = 0.08
+	#Maximum chance of a ping. This is the chance of a positive ping when there is a dragon within the optimalDistance. Default: .9
+	#Range: 0.0 ~ 1.0
+	"Epic: maxPingChance" = 0.9
+	#Inside this radius, ping properties will not change. The smaller it is, the easier it will be to narrow down a dragon's location. Default: 125
+	#Range: 1 ~ 500
+	"Epic: pingCapRadius" = 125
+	#Mathematical property governing the relationship between distance and ping properties. The higher this is, the easier it will be to narrow down a dragon's location. Default: 1.5
+	#Range: 1.0 ~ 5.0
+	"Epic: sigPower" = 1.5
+	#Minimum volume of a ping, for when there are no dragons in range. Default: .05
+	#Range: 0.0 ~ 1.0
+	"Epic: minVol" = 0.05
+	#Maximum volume of a ping, for when you're inside the ping cap radius. Default: .4
+	#Range: 0.0 ~ 1.0
+	"Epic: maxVol" = 0.4
+	#Pitch of a negative result, i.e. no dragon detected. Default: .5
+	#Range: 0.0 ~ 1.0
+	"Epic: minPitch" = 0.5
+	#Pitch of a positive result, i.e. there is a dragon detected. Default: .8
+	#Range: 0.0 ~ 1.0
+	"Epic: maxPitch" = 0.8
+	#Whether or not the dragonseeker detects dead dragons. Default: true
+	"Epic: detectsCorpses" = true
+	#Whether or not the dragonseeker detects tame dragons. Default: false
+	"Epic: detectsTame" = false
+
+#Legendary Dragonseeker
+[legendary_dragonseeker]
+	#Inside this distance, getting closer to the dragon will not increase the ping chance. Default: 200
+	#Range: 1 ~ 500
+	"Legendary: optimalDistance" = 200
+	#Maximum distance at which a dragon will be detected. Should be larger than the optimalDistance, but not larger than your render distance. Default: 250
+	#Range: 1 ~ 500
+	"Legendary: maxDistance" = 250
+	#Minimum chance of a ping. This is the chance of a positive ping when no dragons are detected, i.e. the false positive rate. Default: .04
+	#Range: 0.0 ~ 1.0
+	"Legendary: minPingChance" = 0.04
+	#Maximum chance of a ping. This is the chance of a positive ping when there is a dragon within the optimalDistance. Default: .95
+	#Range: 0.0 ~ 1.0
+	"Legendary: maxPingChance" = 0.95
+	#Inside this radius, ping properties will not change. The smaller it is, the easier it will be to narrow down a dragon's location. Default: 100
+	#Range: 1 ~ 500
+	"Legendary: pingCapRadius" = 100
+	#Mathematical property governing the relationship between distance and ping properties. The higher this is, the easier it will be to narrow down a dragon's location. Default: 2.5
+	#Range: 1.0 ~ 5.0
+	"Legendary: sigPower" = 2.5
+	#Minimum volume of a ping, for when there are no dragons in range. Default: .05
+	#Range: 0.0 ~ 1.0
+	"Legendary: minVol" = 0.05
+	#Maximum volume of a ping, for when you're inside the ping cap radius. Default: .7
+	#Range: 0.0 ~ 1.0
+	"Legendary: maxVol" = 0.7
+	#Pitch of a negative result, i.e. no dragon detected. Default: .5
+	#Range: 0.0 ~ 1.0
+	"Legendary: minPitch" = 0.5
+	#Pitch of a positive result, i.e. there is a dragon detected. Default: .8
+	#Range: 0.0 ~ 1.0
+	"Legendary: maxPitch" = 0.8
+	#Whether or not the dragonseeker detects dead dragons. Default: false
+	"Legendary: detectsCorpses" = false
+	#Whether or not the dragonseeker detects tame dragons. Default: false
+	"Legendary: detectsTame" = false
+
+#Godly Dragonseeker
+[mythic_dragonseeker]
+	#Inside this distance, getting closer to the dragon will not increase the ping chance. Default: 500
+	#Range: 1 ~ 500
+	"Godly: optimalDistance" = 500
+	#Maximum distance at which a dragon will be detected. Should be larger than the optimalDistance, but not larger than your render distance. Default: 500
+	#Range: 1 ~ 500
+	"Godly: maxDistance" = 500
+	#Minimum chance of a ping. This is the chance of a positive ping when no dragons are detected, i.e. the false positive rate. Default: 0
+	#Range: 0.0 ~ 1.0
+	"Godly: minPingChance" = 0.0
+	#Maximum chance of a ping. This is the chance of a positive ping when there is a dragon within the optimalDistance. Default: 1
+	#Range: 0.0 ~ 1.0
+	"Godly: maxPingChance" = 1.0
+	#Inside this radius, ping properties will not change. The smaller it is, the easier it will be to narrow down a dragon's location. Default: 0
+	#Range: 1 ~ 500
+	"Godly: pingCapRadius" = 1
+	#Mathematical property governing the relationship between distance and ping properties. The higher this is, the easier it will be to narrow down a dragon's location. Default: 3.5
+	#Range: 1.0 ~ 5.0
+	"Godly: sigPower" = 3.5
+	#Minimum volume of a ping, for when there are no dragons in range. Default: .05
+	#Range: 0.0 ~ 1.0
+	"Godly: minVol" = 0.05
+	#Maximum volume of a ping, for when you're inside the ping cap radius. Default: 1
+	#Range: 0.0 ~ 1.0
+	"Godly: maxVol" = 1.0
+	#Pitch of a negative result, i.e. no dragon detected. Default: .5
+	#Range: 0.0 ~ 1.0
+	"Godly: minPitch" = 0.5
+	#Pitch of a positive result, i.e. there is a dragon detected. Default: 1
+	#Range: 0.0 ~ 1.0
+	"Godly: maxPitch" = 1.0
+	#Whether or not the dragonseeker detects dead dragons. Default: false
+	"Godly: detectsCorpses" = false
+	#Whether or not the dragonseeker detects tame dragons. Default: false
+	"Godly: detectsTame" = false
+

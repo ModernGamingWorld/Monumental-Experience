@@ -23,6 +23,7 @@
 	"Shotgun Damage" = 8.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Unmaykr Damage" = 2.5
+	"Should Weapons Be Centered" = false
 
 ["Mob Settings:Imps"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -38,8 +39,6 @@
 	"Sets Imp Max health" = 30.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Imp Ranged Damage damage" = 4.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Imp Melee Damage" = 4.0
 
 ["Mob Settings:Pinky"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -200,8 +199,6 @@
 	"Sets Imp 2016 Max Health" = 30.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Imp 2016 Ranged Damage" = 4.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Imp 2016 Melee Damage" = 2.0
 
 ["Mob Settings:Gargoyle"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -232,8 +229,6 @@
 	"Sets Nightmare Imp Max Health" = 30.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Nightmare Imp Ranged Damage" = 4.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Nightmare Imp Melee Damage" = 2.0
 
 ["Mob Settings:Chaingunner"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -246,8 +241,6 @@
 	"Chaingunner Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Chaingunner Max Health" = 15.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Chaingunner Melee Damage" = 2.0
 
 ["Mob Settings:Shotgun Guy"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -260,8 +253,6 @@
 	"Shotgun Guy Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Shotgun Guy Max Health" = 15.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Shotgun Guy Melee Damage" = 2.0
 
 ["Mob Settings:Marauder"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -274,8 +265,6 @@
 	"Marauder Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Marauder Max Health" = 250.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Marauder Melee Damage" = 6.0
 
 ["Mob Settings:Pain Elemental"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -376,8 +365,6 @@
 	"Sets Possessed Solider Max Health" = 15.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Solider Ranged Damage" = 2.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Possessed Solider Melee Damage" = 2.0
 
 ["Mob Settings:Mechazombie"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -392,8 +379,6 @@
 	"Sets the Mechazombie Health" = 25.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Mechazombie Ranged Damage" = 3.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Mechazombie Melee Damage" = 5.0
 
 ["Mob Settings:Cueball"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -580,22 +565,42 @@
 	"Sets Maykr Drone Max Health" = 20.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Maykr Drone Ranged Damage" = 2.0
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Maykr Drone Biomes" = [""]
+	#Range: > 1
+	"Maykr Drone Spawn Weight" = 15
+	#Range: > 1
+	"Maykr Drone Min Group" = 1
+	#Range: > 1
+	"Maykr Drone Max Group" = 2
 
 ["Mob Settings:Blood Maykr"]
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Blood Maykr Max Health" = 45.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Blood Maykr Ranged Damage" = 5.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Blood Maykr Melee Damage" = 4.0
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Blood Maykr Biomes" = [""]
+	#Range: > 1
+	"Blood Maykr Spawn Weight" = 6
+	#Range: > 1
+	"Blood Maykr Min Group" = 1
+	#Range: > 1
+	"Blood Maykr Max Group" = 1
 
 ["Mob Settings:Archmaykr"]
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Archmaykr Max Health" = 350.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Archmaykr Ranged Damage" = 10.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Melee Damage" = 6.0
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Archmaykr Biomes" = [""]
+	#Range: > 1
+	"Archmaykr Spawn Weight" = 1
+	#Range: > 1
+	"Archmaykr Min Group" = 1
+	#Range: > 1
+	"Archmaykr Max Group" = 1
 
 ["Mob Settings:Turret"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -608,4 +613,18 @@
 	"Sets Icon of Sin Max Health" = 800.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Icon of Sin Melee Damage" = 6.0
+
+["Mob Settings:Motherdemon"]
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Motherdemon Biomes" = [""]
+	#Range: > 1
+	"Motherdemon Spawn Weight" = 1
+	#Range: > 1
+	"Motherdemon Min Group" = 1
+	#Range: > 1
+	"Motherdemon Max Group" = 1
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Motherdemon Max Health" = 500.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Motherdemon Ranged Damage" = 14.0
 

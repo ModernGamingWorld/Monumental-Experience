@@ -279,6 +279,16 @@
 				#True means left, False means right
 				prefer_left_wall = false
 
+			[cyclic.items.charms.charm_torch]
+				#Light level limit for placing torches
+				#Range: 0 ~ 15
+				light_level = 9
+
+		[cyclic.items.prospector]
+			#Ore Prospector radius around player to search for ores
+			#Range: 1 ~ 99
+			range = 32
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
@@ -337,6 +347,12 @@
 			#Controller Max distance to search (using manhattan distance)
 			#Range: 1 ~ 256
 			controller_distance = 64
+
+		#Ender shelf settings
+		[cyclic.blocks.sound]
+			#Sound Recorder - how far out does it listen to record sounds
+			#Range: 1 ~ 64
+			radius = 8
 
 	#####################################################################################
 	#Fluid cost for various machines
