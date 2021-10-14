@@ -42,6 +42,7 @@ onEvent('recipes', event => {
   			chemicalType: 'slurry'
   		}
   	})
+  	
   	//CHEMICAL WASHER
   	event.custom({
   		type: 'mekanism:washing',
@@ -58,6 +59,7 @@ onEvent('recipes', event => {
   			amount: 1
   		}
   	})
+  	
   	//CHEMICAL CRYSTALLIZER
   	event.custom({
   		type: 'mekanism:crystallizing',
@@ -70,6 +72,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:coal_crystal'
   		}
   	})
+  	
   	//CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -86,6 +89,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:coal_shard'
   		}
   	})
+  	
   	//[DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -103,6 +107,7 @@ onEvent('recipes', event => {
   			count: 4
   		}
   	})
+  	
   	//PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -119,6 +124,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:coal_clump'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -136,6 +142,7 @@ onEvent('recipes', event => {
   			count: 3
   		}
   	})
+
   	//CRUSHER
   	event.custom({
   		type: 'mekanism:crushing',
@@ -148,6 +155,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:coal_dirty_dust'
   		}
   	})
+
   	//ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -160,6 +168,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:coal_dust'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -193,6 +202,7 @@ onEvent('recipes', event => {
   			chemicalType: 'slurry'
   		}
   	})
+
   	//CHEMICAL WASHER
   	event.custom({
   		type: 'mekanism:washing',
@@ -209,6 +219,7 @@ onEvent('recipes', event => {
   			amount: 1
   		}
   	})
+
   	//CHEMICAL CRYSTALLIZER
   	event.custom({
   		type: 'mekanism:crystallizing',
@@ -221,6 +232,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:diamond_crystal'
   		}
   	})
+
   	//CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -237,6 +249,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:diamond_shard'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -254,6 +267,7 @@ onEvent('recipes', event => {
   			count: 4
   		}
   	})
+
   	//PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -270,6 +284,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:diamond_clump'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -287,6 +302,7 @@ onEvent('recipes', event => {
   			count: 3
   		}
   	})
+
   	//CRUSHER
   	event.custom({
   		type: 'mekanism:crushing',
@@ -299,6 +315,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:diamond_dirty_dust'
   		}
   	})
+
   	//ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -331,6 +348,7 @@ onEvent('recipes', event => {
   			chemicalType: 'slurry'
   		}
   	})
+  	
   	//CHEMICAL WASHER
   	event.custom({
   		type: 'mekanism:washing',
@@ -347,6 +365,7 @@ onEvent('recipes', event => {
   			amount: 1
   		}
   	})
+
   	//CHEMICAL CRYSTALLIZER
   	event.custom({
   		type: 'mekanism:crystallizing',
@@ -359,6 +378,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:emerald_crystal'
   		}
   	})
+
   	//CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -375,6 +395,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:emerald_shard'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -392,6 +413,7 @@ onEvent('recipes', event => {
   			count: 4
   		}
   	})
+
   	//PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -408,6 +430,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:emerald_clump'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -425,6 +448,7 @@ onEvent('recipes', event => {
   			count: 3
   		}
   	})
+
   	//CRUSHER
   	event.custom({
   		type: 'mekanism:crushing',
@@ -437,6 +461,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:emerald_dirty_dust'
   		}
   	})
+
   	//ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -469,6 +494,7 @@ onEvent('recipes', event => {
   			chemicalType: 'slurry'
   		}
   	})
+
   	//CHEMICAL WASHER
   	event.custom({
   		type: 'mekanism:washing',
@@ -485,6 +511,7 @@ onEvent('recipes', event => {
   			amount: 1
   		}
   	})
+
   	//CHEMICAL CRYSTALLIZER
   	event.custom({
   		type: 'mekanism:crystallizing',
@@ -497,6 +524,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:lapis_crystal'
   		}
   	})
+
   	//CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -513,6 +541,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:lapis_shard'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -530,6 +559,7 @@ onEvent('recipes', event => {
   			count: 28
   		}
   	})
+
   	//PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -546,6 +576,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:lapis_clump'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -563,6 +594,7 @@ onEvent('recipes', event => {
   			count: 21
   		}
   	})
+
   	//CRUSHER
   	event.custom({
   		type: 'mekanism:crushing',
@@ -575,6 +607,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:lapis_dirty_dust'
   		}
   	})
+
   	//ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -607,6 +640,7 @@ onEvent('recipes', event => {
   			chemicalType: 'slurry'
   		}
   	})
+
   	//CHEMICAL WASHER
   	event.custom({
   		type: 'mekanism:washing',
@@ -623,6 +657,7 @@ onEvent('recipes', event => {
   			amount: 1
   		}
   	})
+
   	//CHEMICAL CRYSTALLIZER
   	event.custom({
   		type: 'mekanism:crystallizing',
@@ -635,6 +670,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:redstone_crystal'
   		}
   	})
+
   	//CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -651,6 +687,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:redstone_shard'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
   	event.custom({
   		type: 'mekanism:injecting',
@@ -668,6 +705,7 @@ onEvent('recipes', event => {
   			count: 24
   		}
   	})
+
   	//PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -684,6 +722,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:redstone_clump'
   		}
   	})
+
   	//[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
   	event.custom({
   		type: 'mekanism:purifying',
@@ -701,6 +740,7 @@ onEvent('recipes', event => {
   			count: 18
   		}
   	})
+
   	//CRUSHER
   	event.custom({
   		type: 'mekanism:crushing',
@@ -713,6 +753,7 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:redstone_dirty_dust'
   		}
   	})
+
   	//ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -725,6 +766,7 @@ onEvent('recipes', event => {
   			item: 'minecraft:redstone'
   		}
   	})
+
 
 //ALUMINUM
 	//CHEMICAL DISSOLUTION
@@ -2094,16 +2136,6 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:sulfur_dust'
   		}
   	})
-  	//SMELTING
-  	event.custom({
-  		type: 'minecraft:smelting',
-  		result: 'emendatusenigmatica:sulfur_gem',
-  		ingredient: {
-  			tag: 'forge:dusts/sulfur'
-  		},
-  		cookingtime: 100,
-  		experience: 0.15
-  	})
   	//[DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
   	event.custom({
   		type: 'mekanism:enriching',
@@ -2356,7 +2388,7 @@ onEvent('recipes', event => {
   		},
   		output: {
   			item: 'emendatusenigmatica:dimensional_shard',
-  			count: 4
+  			count: 16
   		}
   	})
   	//PURIFICATION CHAMBER
@@ -2389,7 +2421,7 @@ onEvent('recipes', event => {
   		},
   		output: {
   			item: 'emendatusenigmatica:dimensional_clump',
-  			count: 3
+  			count: 12
   		}
   	})
   	//CRUSHER
@@ -2426,6 +2458,1621 @@ onEvent('recipes', event => {
   			item: 'emendatusenigmatica:dimensional_gem'
   		}
   	})
+
+//
+//CLUSTER SUPPORT FOR ALL MATERIALS
+//
+
+//COAL
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/coal'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_coal',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/coal'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:coal_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/coal'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:coal_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/coal'
+  			}
+  		},
+  		output: {
+  			item: 'minecraft:coal',
+  			count: 8
+  		}
+  	})
+
+//IRON
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/iron'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_iron',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/iron'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_iron',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/iron'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_iron',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/iron'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:iron_dust',
+  			count: 8
+  		}
+  	})
+
+//GOLD
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/gold'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_gold',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/gold'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_gold',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/gold'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_gold',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/gold'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:gold_dust',
+  			count: 8
+  		}
+  	})
+
+//DIAMOND
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/diamond'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_diamond',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/diamond'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:diamond_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/diamond'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:diamond_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/diamond'
+  			}
+  		},
+  		output: {
+  			item: 'minecraft:diamond',
+  			count: 8
+  		}
+  	})
+
+//EMERALD
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/emerald'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_emerald',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/emerald'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:emerald_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/emerald'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:emerald_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/emerald'
+  			}
+  		},
+  		output: {
+  			item: 'minecraft:emerald',
+  			count: 8
+  		}
+  	})
+
+//LAPIS
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lapis'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_lapis',
+  			amount: 28000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lapis'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:lapis_shard',
+  			count: 112
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lapis'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:lapis_clump',
+  			count: 84
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/lapis'
+  			}
+  		},
+  		output: {
+  			item: 'minecraft:lapis_lazuli',
+  			count: 48
+  		}
+  	})
+
+//REDSTONE
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/redstone'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_redstone',
+  			amount: 24000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/redstone'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:redstone_shard',
+  			count: 96
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/redstone'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:redstone_clump',
+  			count: 72
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/redstone'
+  			}
+  		},
+  		output: {
+  			item: 'minecraft:redstone',
+  			count: 48
+  		}
+  	})
+
+//COPPER
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/copper'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_copper',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/copper'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_copper',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/copper'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_copper',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/copper'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:copper_dust',
+  			count: 8
+  		}
+  	})
+
+//ALUMINUM
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/aluminum'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_aluminum',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/aluminum'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:aluminum_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/aluminum'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:aluminum_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/aluminum'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:aluminum_dust',
+  			count: 8
+  		}
+  	})
+
+//SILVER
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/silver'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_silver',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/silver'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:silver_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/silver'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:silver_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/silver'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:silver_dust',
+  			count: 8
+  		}
+  	})
+
+//LEAD
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lead'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_lead',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lead'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_lead',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/lead'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_lead',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/lead'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:lead_dust',
+  			count: 8
+  		}
+  	})
+
+//NICKEL
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/nickel'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_nickel',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/nickel'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:nickel_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/nickel'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:nickel_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/nickel'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:nickel_dust',
+  			count: 8
+  		}
+  	})
+
+//URANIUM
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/uranium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_uranium',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/uranium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_uranium',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/uranium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_uranium',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/uranium'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:uranium_dust',
+  			count: 8
+  		}
+  	})
+
+//OSMIUM
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/osmium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_osmium',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/osmium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_osmium',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/osmium'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_osmium',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/osmium'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:osmium_dust',
+  			count: 8
+  		}
+  	})
+
+//TIN
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/tin'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'mekanism:dirty_tin',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/tin'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'mekanism:shard_tin',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/tin'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'mekanism:clump_tin',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/tin'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:tin_ingot',
+  			count: 8
+  		}
+  	})
+
+//ZINC
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/zinc'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_zinc',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/zinc'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:zinc_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/zinc'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:zinc_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/zinc'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:zinc_dust',
+  			count: 8
+  		}
+  	})
+
+//COBALT
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cobalt'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_cobalt',
+  			amount: 4000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cobalt'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cobalt_shard',
+  			count: 16
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cobalt'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cobalt_clump',
+  			count: 12
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/cobalt'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cobalt_dust',
+  			count: 8
+  		}
+  	})
+
+//FLUORITE
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/fluorite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_fluorite',
+  			amount: 24000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/fluorite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:fluorite_shard',
+  			count: 96
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/fluorite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:fluorite_clump',
+  			count: 72
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/fluorite'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:fluorite_gem',
+  			count: 48
+  		}
+  	})
+
+//CINNABAR
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cinnabar'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_cinnabar',
+  			amount: 8000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cinnabar'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cinnabar_shard',
+  			count: 32
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/cinnabar'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cinnabar_clump',
+  			count: 24
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/cinnabar'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:cinnabar_gem',
+  			count: 8
+  		}
+  	})
+
+//APATITE
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/apatite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_apatite',
+  			amount: 40000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/apatite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:apatite_shard',
+  			count: 160
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/apatite'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:apatite_clump',
+  			count: 120
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/apatite'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:apatite_gem',
+  			count: 32
+  		}
+  	})
+
+//SULFUR
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/sulfur'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_sulfur',
+  			amount: 16000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/sulfur'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:sulfur_shard',
+  			count: 64
+  		}
+  	})
+
+  	//(CLUSTER )[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/sulfur'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:sulfur_clump',
+  			count: 48
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/sulfur'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:sulfur_gem',
+  			count: 16
+  		}
+  	})
+
+//NITER
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/potassium_nitrate'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_potassium_nitrate',
+  			amount: 24000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/potassium_nitrate'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:potassium_nitrate_shard',
+  			count: 96
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/potassium_nitrate'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:potassium_nitrate_clump',
+  			count: 72
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/potassium_nitrate'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:potassium_nitrate_gem',
+  			count: 48
+  		}
+  	})
+
+//DIMENSIONAL SHARD
+	//(CLUSTER) CHEMICAL DISSOLUTION
+	event.custom({
+		type: 'mekanism:dissolution',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/dimensional'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:sulfuric_acid'
+  		},
+  		output: {
+  			slurry: 'emendatusenigmatica:dirty_dimensional',
+  			amount: 16000,
+  			chemicalType: 'slurry'
+  		}
+  	})
+
+  	//(CLUSTER) [DIRECTLY FROM ORE 4x]CHEMICAL INJECTION CHAMBER
+  	event.custom({
+  		type: 'mekanism:injecting',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/dimensional'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:hydrogen_chloride'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:dimensional_shard',
+  			count: 64
+  		}
+  	})
+
+  	//(CLUSTER)[DIRECTLY FROM ORE 3x]PURIFICATION CHAMBER
+  	event.custom({
+  		type: 'mekanism:purifying',
+  		itemInput: {
+  			ingredient: {
+  				tag: 'forge:clusters/dimensional'
+  			}
+  		},
+  		gasInput: {
+  			amount: 1,
+  			gas: 'mekanism:oxygen'
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:dimensional_clump',
+  			count: 48
+  		}
+  	})
+
+  	//(CLUSTERS) [DIRECTLY FROM ORE 2x]ENRICHMENT CHAMBER
+  	event.custom({
+  		type: 'mekanism:enriching',
+  		input: {
+  			ingredient: {
+  				tag: 'forge:clusters/dimensional'
+  			}
+  		},
+  		output: {
+  			item: 'emendatusenigmatica:dimensional_gem',
+  			count: 32
+  		}
+  	})
+
 //
 //fin
 //

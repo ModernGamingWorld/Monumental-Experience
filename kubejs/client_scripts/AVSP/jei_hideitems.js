@@ -452,8 +452,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('tconstruct:cobalt_nugget')
 	//Cobalt ore
 	event.hide('tconstruct:cobalt_ore')
-/*
-//
+
 //CERTUS QUARTZ
 	//Certus quartz crystal
 	event.hide('appliedenergistics2:certus_quartz_crystal')
@@ -461,13 +460,13 @@ onEvent('jei.hide.items', event => {
 	event.hide('appliedenergistics2:certus_quartz_dust')
 	//Certus quartz ore
 	event.hide('appliedenergistics2:certus_quartz_ore')
-//
+	
 //CHARGED CERTUS QUARTZ
 	//Charged certus quartz crystal
 	event.hide('appliedenergistics2:charged_certus_quartz_crystal')
 	//Charged certus quartz ore
 	event.hide('appliedenergistics2:charged_certus_quartz_ore')
-//
+
 //FLUIX CRYSTAL
 	//Fluix crystal
 	event.hide('appliedenergistics2:fluix_crystal')
@@ -475,29 +474,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('appliedenergistics2:fluix_dust')
 	//Fluix block
 	event.hide('appliedenergistics2:fluix_block')
-*/
-//CERTUS QUARTZ
-	//Certus quartz crystal
-	event.hide('emendatusenigmatica:certus_quartz_gem')
-	//Certus quartz dust
-	event.hide('emendatusenigmatica:certus_quartz_dust')
-	//Certus quartz ore
-	event.hide('appliedenergistics2:certus_quartz_ore')
-//
-//CHARGED CERTUS QUARTZ
-	//Charged certus quartz crystal
-	event.hide('emendatusenigmatica:charged_certus_quartz_gem')
-	//Charged certus quartz ore
-	event.hide('appliedenergistics2:charged_certus_quartz_ore')
-//
-//FLUIX CRYSTAL
-	//Fluix crystal
-	event.hide('emendatusenigmatica:fluix_gem')
-	//Fluix crystal dust
-	event.hide('emendatusenigmatica:fluix_dust')
-	//Fluix block
-	event.hide('emendatusenigmatica:fluix_block')
-//
+
 //FLUORITE
 	//Fluorite crystal
 	event.hide('mekanism:fluorite_gem')

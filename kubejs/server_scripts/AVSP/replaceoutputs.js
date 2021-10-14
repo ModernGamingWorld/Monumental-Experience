@@ -472,24 +472,21 @@ events.listen('recipes', (event) => {
 //
 //
 
-/*
-I have decided to redo this part of the scripts.
-Basically, AE2 is so annoying that it is extremly hard to use EE materials for it, and there is no other mods adding the same materials. Therefor, this script will use AE2 materials for AE2.
 //CERTUS QUARTZ
 	//Certus quartz crystal
-	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_gem')
-	event.replaceOutput({}, '#forge:gems/certus_quartz', 'emendatusenigmatica:certus_quartz_gem')
+	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_crystal', 'emendatusenigmatica:certus_quartz_crystal')
+	event.replaceOutput({}, '#forge:gems/certus_quartz', 'emendatusenigmatica:certus_quartz_crystal')
 	//Certus quartz dust
 	event.replaceOutput({}, 'appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_dust')
 	event.replaceOutput({}, '#forge:dusts/certus_quartz', 'emendatusenigmatica:certus_quartz_dust')
-//
+
 //CHARGED CERTUS QUARTZ
 	//Charged certus quartz crystal
-	event.replaceOutput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_gem')
-	event.replaceOutput({}, '#forge:gems/charged_certus_quartz', 'emendatusenigmatica:charged_certus_quartz_gem')
+	event.replaceOutput({}, 'appliedenergistics2:charged_certus_quartz_crystal', 'emendatusenigmatica:charged_certus_quartz_crystal')
+	event.replaceOutput({}, '#forge:gems/charged_certus_quartz', 'emendatusenigmatica:charged_certus_quartz_crystal')
 	//Charged certus quartz dust.
 	event.replaceOutput({}, 'jaopca:dusts.charged_certus_quartz', 'emendatusenigmatica:certus_quartz_dust')
-//
+
 //FLUIX CRYSTAL
 	//Fluix crystal
 	event.replaceOutput({}, 'appliedenergistics2:fluix_crystal', 'emendatusenigmatica:fluix_gem')
@@ -500,32 +497,7 @@ Basically, AE2 is so annoying that it is extremly hard to use EE materials for i
 	//Fluix block
 	event.replaceOutput({}, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block')
 	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'emendatusenigmatica:fluix_block')
-*/
-//CERTUS QUARTZ
-	//Certus quartz crystal
-	event.replaceOutput({}, 'emendatusenigmatica:certus_quartz_gem', 'appliedenergistics2:certus_quartz_crystal')
-	event.replaceOutput({}, '#forge:gems/certus_quartz', 'appliedenergistics2:certus_quartz_crystal')
-	//Certus quartz dust
-	event.replaceOutput({}, 'emendatusenigmatica:certus_quartz_dust', 'appliedenergistics2:certus_quartz_dust')
-	event.replaceOutput({}, '#forge:dusts/certus_quartz', 'appliedenergistics2:certus_quartz_dust')
-//
-//CHARGED CERTUS QUARTZ
-	//Charged certus quartz crystal
-	event.replaceOutput({}, 'emendatusenigmatica:charged_certus_quartz_gem', 'appliedenergistics2:charged_certus_quartz_crystal')
-	event.replaceOutput({}, '#forge:gems/charged_certus_quartz', 'appliedenergistics2:charged_certus_quartz_crystal')
-	//Charged certus quartz dust.
-	event.replaceOutput({}, 'jaopca:dusts.charged_certus_quartz', 'appliedenergistics2:certus_quartz_dust')
-//
-//FLUIX CRYSTAL
-	//Fluix crystal
-	event.replaceOutput({}, 'emendatusenigmatica:fluix_gem', 'appliedenergistics2:fluix_crystal')
-	event.replaceOutput({}, '#forge:gems/fluix', 'appliedenergistics2:fluix_crystal')
-	//Fluix crystal dust
-	event.replaceOutput({}, 'emendatusenigmatica:fluix_dust', 'appliedenergistics2:fluix_dust')
-	event.replaceOutput({}, '#forge:dusts/fluix', 'appliedenergistics2:fluix_dust')
-	//Fluix block
-	event.replaceOutput({}, 'emendatusenigmatica:fluix_block', 'appliedenergistics2:fluix_block')
-	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'appliedenergistics2:fluix_block')
+	
 //
 //
 //-----MODDED GEMS-----
@@ -886,6 +858,7 @@ Basically, AE2 is so annoying that it is extremly hard to use EE materials for i
 //OBSIDIAN
 	//Obsidian dust
 	event.replaceOutput({}, '#forge:dusts/obsidian', 'emendatusenigmatica:obsidian_dust')
+	event.replaceOutput({}, 'create:powdered_obsidian', 'emendatusenigmatica:obsidian_dust')
 //ENDER
 	//Ender dust
 	event.replaceOutput({}, '#forge:dusts/ender', 'emendatusenigmatica:ender_dust')
