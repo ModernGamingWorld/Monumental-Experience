@@ -74,24 +74,6 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "minecraft:item",
-                    weight: 10,
-                    functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 10,
-                                max: 25,
-                                type: "minecraft:uniform"
-                            }
-                        },
-                        {
-                            function: "minecraft:set_nbt",
-                            tag: "{Potion:\"minecraft:slowness\}"
-                        }
-                    ],
-                    name: "minecraft:tipped_arrow"
-                },
-                {
-                    type: "minecraft:item",
                     weight: 15,
                     functions: [{
                         function: "minecraft:set_count",
