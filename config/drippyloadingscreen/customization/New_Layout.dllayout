@@ -1,13 +1,17 @@
 type = hud
 
 customization-meta {
+  autoscale_baseheight = 1061
   renderorder = foreground
+  autoscale_basewidth = 2560
   backgroundcolor = #66a8ff
 }
 
 customization {
+  orientation = mid-centered
+  x = 0
   action = editlogo
-  y = -1
+  y = 0
 }
 
 customization {
@@ -18,7 +22,10 @@ customization {
 }
 
 customization {
+  visible = false
+  x = 3
   action = editprogressbar
+  y = -7
   barcolor = DAA520
 }
 
@@ -27,5 +34,17 @@ customization {
   x = 0
   action = editforgememoryinfo
   y = -5
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  width = 530
+  y = 0
+  action = addcustomprogressbar
+  height = 20
+  direction = right
+  barcolor = #D4AF37
+  backgroundcolor = #5c5c5c80
 }
 

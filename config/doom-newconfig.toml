@@ -109,6 +109,8 @@
 	"Archvile Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Archvile Max Health" = 100.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archvile Ranged Damage damage" = 5.0
 
 ["Mob Settings:Baron of Hell"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -265,6 +267,10 @@
 	"Marauder Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Marauder Max Health" = 250.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Marauder Axe Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Marauder Shotgun Damage" = 10.5
 
 ["Mob Settings:Pain Elemental"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -542,8 +548,6 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Armored Baron Max Health" = 200.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Armored Baron Ranged Damage" = 6.0
-	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Armored Baron Melee Damage" = 7.0
 
 ["Mob Settings:Summoner"]
@@ -558,7 +562,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Summoner Max Health" = 100.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Summoner Melee Damage" = 3.0
+	"Sets Summoner Ranged Damage" = 3.0
 
 ["Mob Settings:Maykr Drone"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -627,4 +631,10 @@
 	"Sets Motherdemon Max Health" = 500.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Motherdemon Ranged Damage" = 14.0
+
+[Misc]
+	"Villager Trades Toggle" = true
+	"Weapon Trades Toggle" = true
+	"Toolsmith Trades Toggle" = true
+	"Mason Trades Toggle" = true
 

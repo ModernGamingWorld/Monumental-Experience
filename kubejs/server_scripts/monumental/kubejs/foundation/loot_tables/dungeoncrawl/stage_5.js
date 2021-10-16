@@ -325,41 +325,6 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
-                    name: "minecraft:air",
-                    weight: 7,
-                    functions: [{
-                        function: "dungeoncrawl:random_potion",
-                        loot_level: 5
-                    }]
-                },
-                {
-                    type: "item",
-                    name: "minecraft:air",
-                    weight: 10,
-                    functions: [{
-                        function: "dungeoncrawl:random_item",
-                        loot_level: 5
-                    }]
-                },
-                {
-                    type: "item",
-                    name: "minecraft:air",
-                    weight: 7,
-                    functions: [{
-                        function: "dungeoncrawl:special_item",
-                        loot_level: 1
-                    }]
-                },
-                {
-                    type: "item",
-                    name: "minecraft:air",
-                    weight: 5,
-                    functions: [{
-                        function: "dungeoncrawl:material_blocks"
-                    }]
-                },
-                {
-                    type: "item",
                     name: "minecraft:shield",
                     weight: 6,
                     functions: [{

@@ -54,7 +54,7 @@ onEvent('recipes', (event) => {
                 output: {
                     item: 'immersiveengineering:circuit_board'
                 },
-                id: 'immersiveengineering:circuit_board'
+                id: 'immersive_engineering_circuit_board'
             }
         ]
     };
