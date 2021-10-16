@@ -394,6 +394,7 @@ events.listen('recipes', (event) => {
                     'extendedcrafting:ultimate_component',
                     'extendedcrafting:ultimate_component',
                     'extendedcrafting:ultimate_component',
+                    'extendedcrafting:black_iron_ingot',
                     'extendedcrafting:black_iron_ingot'
                 ],
                 output: Item.of('extendedcrafting:ultimate_catalyst', 1)
