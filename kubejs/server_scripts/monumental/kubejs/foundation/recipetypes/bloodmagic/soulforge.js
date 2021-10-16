@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
             item: 'mana-and-artifice:stone_rune_blank'
         },
         input2: {
-            item: 'potionsmaster:calcinatedlapis_powder'
+            tag: 'forge:dusts/lapis'
         },
         input3: {
             tag: 'forge:gems/mana_diamond'
@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
             item: 'mana-and-artifice:stone_rune_blank'
         },
         input2: {
-            item: 'potionsmaster:calcinatedlapis_powder'
+            tag: 'forge:dusts/lapis'
         },
         input3: {
             item: 'botania:mana_glass'
@@ -91,7 +91,7 @@ onEvent('recipes', (event) => {
             item: 'mana-and-artifice:chimerite_gem'
         },
         input3: {
-            item: 'potionsmaster:calcinatedlapis_powder'
+            tag: 'forge:dusts/lapis'
         },
         output: {
             item: 'bloodmagic:soulgempetty'

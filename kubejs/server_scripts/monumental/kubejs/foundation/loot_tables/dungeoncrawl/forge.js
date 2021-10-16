@@ -77,6 +77,10 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "item",
+                        name: "minecraft:smithing_table"
+                    },
+                    {
+                        type: "item",
                         name: "minecraft:iron_sword"
                     },
                     {
