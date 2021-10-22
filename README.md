@@ -1,4 +1,4 @@
-# Monumental Experience [![Curseforge][curseImg]][curseLink]
+# Monumental Experience [![Curseforge][curseImg]][curseLink] [![Curseforge][curseImg1]][curseLink1]
 
 [![Twitch Status](https://img.shields.io/twitch/status/ModernGamingWorld?label=ModernGamingWorld&style=social)](https://www.twitch.tv/moderngamingworld) [![Discord][discordimg]][discordlink]
 
@@ -9,6 +9,10 @@
 [curseImg]: http://cf.way2muchnoise.eu/363581.svg
 
 [curseLink]: https://www.curseforge.com/minecraft/modpacks/monumental-experience
+
+[curseImg1]: https://cf.way2muchnoise.eu/versions/363581.svg
+
+[curseLink1]: https://www.curseforge.com/minecraft/modpacks/monumental-experience
 
 
 ## About the Pack:
