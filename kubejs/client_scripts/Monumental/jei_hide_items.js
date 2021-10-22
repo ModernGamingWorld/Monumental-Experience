@@ -93,7 +93,6 @@ leavesToUnify.forEach((leaves) => {
     );
 });
 
-
 bucketsToUnify.forEach((buckets) => {
     itemsToHide.push(
         'minecraft:' + buckets + '_bucket',
@@ -130,15 +129,16 @@ bucketsToUnify.forEach((buckets) => {
     );
 });
 
-    itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
+
+itemsToHide.forEach((disabledItem) => {
+    if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
-        }
-    });
+    }
+});
 
     regexHide.forEach((regexExpression) => {
         event.hide(regexExpression);
-    });
+});
 
     colors.forEach((color) => {
         event.hide('/refinedstorage:' + color + '\\w/');

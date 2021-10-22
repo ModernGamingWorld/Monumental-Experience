@@ -67,6 +67,11 @@ onEvent('server.datapack.high_priority', (event) => {
             {
                 type: "minecraft:item",
                 weight: 5,
+                name: "routerreborn:coppercoil"
+            },
+            {
+                type: "minecraft:item",
+                weight: 5,
                 name: "minecraft:golden_chestplate"
             },
             {

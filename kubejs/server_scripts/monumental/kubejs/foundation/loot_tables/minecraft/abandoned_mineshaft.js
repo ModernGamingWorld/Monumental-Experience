@@ -31,9 +31,10 @@ onEvent('server.datapack.high_priority', (event) => {
                     name: "minecraft:iron_pickaxe"
                 },
                 {
-                    type: "minecraft:empty",
-                    weight: 5
-                }
+                    type: "minecraft:item",
+                    weight: 5,
+                    name: "routerreborn:coppercoil"
+                },
             ]
         },
         {

@@ -452,6 +452,22 @@ onEvent('recipes', (event) => {
     });
     event.recipes.extendedcrafting.shaped_ender_crafter({
         "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [" A ", "ACA", " A "],
+        "key": {
+            "A": {
+                "item": "forbidden_arcanus:xpetrified_orb"
+            },
+            "C": {
+                "item": "gobber2:gobber2_globette_end"
+            }
+        },
+        "result": {
+            "item": "forbidden_arcanus:eternal_stella",
+            "count": 1
+        }
+    });
+    event.recipes.extendedcrafting.shaped_ender_crafter({
+        "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": ["ABA", "CDC", "EFE"],
         "key": {
             "A": {

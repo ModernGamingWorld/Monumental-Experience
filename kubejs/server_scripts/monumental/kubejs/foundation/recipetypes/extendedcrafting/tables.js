@@ -2,33 +2,6 @@ onEvent('recipes', (event) => {
     var data = {
         recipes: [
             {
-                result: 'botanypotstiers:elite_botany_pot',
-                pattern: ['X X', 'XCX', 'SXS'],
-                key: {
-                    X: '#forge:terracotta',
-                    C: 'industrialagriculture:bag_tier_one',
-                    S: 'compressium:iron_2'
-                }
-            },
-            {
-                result: 'botanypotstiers:ultra_botany_pot',
-                pattern: ['X X', 'XCX', 'SXS'],
-                key: {
-                    X: '#forge:terracotta',
-                    C: 'industrialagriculture:bag_tier_two',
-                    S: 'compressium:iron_3'
-                }
-            },
-            {
-                result: 'botanypotstiers:creative_botany_pot',
-                pattern: ['X X', 'XCX', 'SXS'],
-                key: {
-                    X: '#forge:terracotta',
-                    C: 'industrialagriculture:bag_tier_three',
-                    S: 'compressium:iron_4'
-                }
-            },
-            {
                 result: 'appliedenergistics2:creative_storage_cell',
                 pattern: ['ABCBA', 'BDXDB', 'CXEXC', 'BDXDB', 'ABCBA'],
                 key: {

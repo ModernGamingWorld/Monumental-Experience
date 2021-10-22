@@ -12,10 +12,16 @@ onEvent('recipes', (event) => {
                 amount: 250
             },
             output: 'farmersdelight:milk_bottle'
-        },        {
+        },        
+        {
             input: 'mysticalagriculture:dirt_essence',
             fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
             output: 'byg:meadow_grass_block'
+        },       
+        {
+            input: 'astralsorcery:illumination_powder',
+            fluid: Fluid.of('astralsorcery:liquid_starlight', 1000),
+            output: 'extendedcrafting:luminessence'
         },
         {
             input: 'farmersdelight:milk_bottle',

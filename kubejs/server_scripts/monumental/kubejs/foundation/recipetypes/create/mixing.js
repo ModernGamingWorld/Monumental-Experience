@@ -164,9 +164,12 @@ events.listen('recipes', (event) => {
             {
                 inputs: [
                     '#minecraft:planks',
+                    '#minecraft:planks',
+                    '#minecraft:planks',
+                    '#minecraft:planks',
                     {
                         fluidTag: 'forge:creosote',
-                        amount: 125
+                        amount: 500
                     }
                 ],
                 output: Item.of('immersiveengineering:treated_wood_horizontal', 4)
@@ -1201,15 +1204,6 @@ events.listen('recipes', (event) => {
                     '#forge:ingots/compressed_iron'
                 ],
                 output: Item.of('extendedcrafting:ender_ingot', 1)
-            },
-            {
-                inputs: [
-                    '#forge:dusts/glowstone',
-                    '#forge:dusts/redstone',
-                    '#forge:gunpowder',
-                    '#forge:dusts/glowstone'
-                ],
-                output: Item.of('extendedcrafting:luminessence', 1)
             },
             {
                 inputs: [

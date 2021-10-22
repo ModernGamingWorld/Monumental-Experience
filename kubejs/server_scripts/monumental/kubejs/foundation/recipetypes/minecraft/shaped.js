@@ -18,6 +18,22 @@ onEvent('recipes', event => {
         A: '#forge:chunks/redstone',
         B: '#forge:rods/wooden'
     })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk1', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: '#botanypots:botany_pots'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk2', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk1'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk3', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk2'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk4', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk3'
+    })
     event.shaped(Item.of('minecraft:soul_torch', 2), [" A ", " B ", " C "], {
         A: '#forge:chunks/coal',
         B: '#forge:rods/wooden',

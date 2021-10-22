@@ -18,6 +18,11 @@ onEvent('recipes', (event) => {
             input: 'buildinggadgets:construction_block_powder',
             fluid: Fluid.of('minecraft:water', 1000),
             output: 'buildinggadgets:construction_block_dense'
+        },
+        {
+            input: 'astralsorcery:illumination_powder',
+            fluid: Fluid.of('astralsorcery:liquid_starlight', 1000),
+            output: 'extendedcrafting:luminessence'
         }
     ];
 

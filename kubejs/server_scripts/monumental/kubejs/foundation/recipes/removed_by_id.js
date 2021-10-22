@@ -1728,6 +1728,9 @@ onEvent('recipes', event => {
         id: 'forbidden_arcanus:aquatic_dragon_scale'
     })
     event.remove({
+        id: 'forbidden_arcanus:eternal_stella'
+    })
+    event.remove({
         id: 'forbidden_arcanus:arcane_gold_ingot'
     })
     event.remove({
