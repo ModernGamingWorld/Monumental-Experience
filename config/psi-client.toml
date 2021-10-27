@@ -11,4 +11,6 @@
 	maxPsiBarScale = 3
 	#Controls whether the Spell Programmer screen will pause the game in singleplayer.
 	pauseGameInProgrammer = true
+	#Controls whether or not the Programmer will display the coordinates as a pair of two numbers or as a letter and a number
+	changeGridCoordinatesToLetterNumber = false
 

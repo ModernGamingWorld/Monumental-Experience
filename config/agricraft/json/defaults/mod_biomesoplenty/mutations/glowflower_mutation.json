@@ -1,0 +1,15 @@
+{
+  "path": "mod_biomesoplenty/mutations/glowflower_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "biomesoplenty",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "biomesoplenty:glowflower_plant",
+  "parent1": "vanilla:lily_plant",
+  "parent2": "vanilla:orchid_plant"
+}

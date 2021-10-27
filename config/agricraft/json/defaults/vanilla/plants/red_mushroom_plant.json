@@ -1,0 +1,131 @@
+{
+  "path": "vanilla/plants/red_mushroom_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "vanilla:red_mushroom_plant",
+  "plant_lang_key": "agricraft.plant.red_mushroom.name",
+  "seed_lang_key": "agricraft.plant.red_mushroom.seed",
+  "desc_lang_key": "agricraft.plant.red_mushroom.desc",
+  "seed_items": [
+    {
+      "overridePlanting": true,
+      "type": "item",
+      "object": "minecraft:red_mushroom",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "tier": 1,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 2,
+        "max": 4,
+        "chance": 1.0,
+        "required": true,
+        "type": "item",
+        "object": "minecraft:red_mushroom",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "damp",
+      "type": "equal",
+      "tolerance_factor": 0.15
+    },
+    "soil_acidity": {
+      "condition": "neutral",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_lower",
+      "tolerance_factor": 0.2
+    },
+    "min_light": 0,
+    "max_light": 10,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "hash",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/shroom_red1"
+      ],
+      [
+        "agricraft:plant/shroom_red1"
+      ],
+      [
+        "agricraft:plant/shroom_red1"
+      ],
+      [
+        "agricraft:plant/shroom_red2"
+      ],
+      [
+        "agricraft:plant/shroom_red2"
+      ],
+      [
+        "agricraft:plant/shroom_red3"
+      ],
+      [
+        "agricraft:plant/shroom_red3"
+      ],
+      [
+        "agricraft:plant/shroom_red4"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/shroom_red",
+  "seed_model": "agricraft:seed/shroom_red",
+  "particle_effects": []
+}

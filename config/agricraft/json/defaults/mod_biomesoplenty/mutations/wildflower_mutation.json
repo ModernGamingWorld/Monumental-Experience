@@ -1,0 +1,15 @@
+{
+  "path": "mod_biomesoplenty/mutations/wildflower_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "biomesoplenty",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "biomesoplenty:wildflower_plant",
+  "parent1": "vanilla:orchid_plant",
+  "parent2": "vanilla:pink_tulip_plant"
+}

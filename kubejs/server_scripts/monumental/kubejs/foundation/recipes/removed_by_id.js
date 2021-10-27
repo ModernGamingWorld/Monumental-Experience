@@ -574,6 +574,9 @@ onEvent('recipes', event => {
         id: 'botania:mana_spreader'
     })
     event.remove({
+        id: 'botania:livingwood_bow'
+    })
+    event.remove({
         id: 'botania:mana_ring'
     })
     event.remove({
@@ -1907,6 +1910,15 @@ onEvent('recipes', event => {
         id: 'gobber2:gobber2_ingot'
     })
     event.remove({
+        id: 'gobber2:gobber2_bow'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_bow_nether'
+    })
+    event.remove({
+        id: 'gobber2:gobber2_bow_end'
+    })
+    event.remove({
         id: 'gobber2:gobber2_chestplate'
     })
     event.remove({
@@ -2800,6 +2812,9 @@ onEvent('recipes', event => {
         id: 'iceandfire:lightning_sword'
     })
     event.remove({
+        id: 'iceandfire:dragonbone_bow'
+    })
+    event.remove({
         id: 'iceandfire:ice_sword'
     })
     event.remove({
@@ -3548,6 +3563,9 @@ onEvent('recipes', event => {
         id: 'mekanism:flamethrower'
     })
     event.remove({
+        id: 'mekanism:electric_bow'
+    })
+    event.remove({
         id: 'mekanism:basic_energy_cube'
     })
     event.remove({
@@ -4218,6 +4236,9 @@ onEvent('recipes', event => {
     //PSI recipes
     event.remove({
         id: 'psi:assembler'
+    })
+    event.remove({
+        id: 'psipherals:psimetal_bow'
     })
     event.remove({
         id: 'psi:programmer'
@@ -5302,6 +5323,9 @@ onEvent('recipes', event => {
     //Torchmaster Recipes
     event.remove({
         id: 'torchmaster:megatorch'
+    })
+    event.remove({
+        id: 'torchmaster:dreadlamp'
     })
 
     //Twilight Recipes

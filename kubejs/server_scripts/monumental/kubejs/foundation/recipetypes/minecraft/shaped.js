@@ -1075,10 +1075,16 @@ onEvent('recipes', event => {
     })
     //Torchmaster
     event.shaped(Item.of('torchmaster:megatorch', 1), ["TTT", "GLG", "DLD"], {
-        T: 'druidcraft:fiery_torch',
+        T: 'xreliquary:sojourner_staff',
         G: '#forge:storage_blocks/gold',
         D: '#forge:storage_blocks/diamond',
         L: '#minecraft:logs'
+    })
+    event.shaped(Item.of('torchmaster:dreadlamp', 1), ["TTT", "GDG", "TLT"], {
+        T: '#forge:obsidian',
+        G: '#forge:glass_panes',
+        D: 'xreliquary:lantern_of_paranoia',
+        L: '#forge:dyes/black'
     })
     //Thermal
     event.shaped(Item.of('thermal:rf_coil', 1), ["WPQ", "PXP", "QPW"], {

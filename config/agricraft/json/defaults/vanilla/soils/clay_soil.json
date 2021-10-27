@@ -1,0 +1,27 @@
+{
+  "path": "vanilla/soils/clay_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "clay_soil",
+  "lang_key": "agricraft.soil.clay.name",
+  "varients": [
+    {
+      "type": "block",
+      "object": "minecraft:clay",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "flooded",
+  "acidity": "slightly_acidic",
+  "nutrients": "medium",
+  "growth_modifier": 1.0
+}

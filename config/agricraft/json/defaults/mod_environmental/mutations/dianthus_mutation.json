@@ -1,0 +1,15 @@
+{
+  "path": "mod_environmental/mutations/dianthus_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "environmental",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "environmental:dianthus_plant",
+  "parent1": "vanilla:sea_grass_plant",
+  "parent2": "vanilla:white_tulip_plant"
+}

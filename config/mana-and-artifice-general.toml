@@ -23,6 +23,35 @@ undeadSouls = 50
 	gradualTimeChange = true
 	#A comma separated list of entity IDs that the warding candle should ignore, regardless of detection (use this if it's stopping you from something you think it shouldn't; this isn't to expand what it will block)
 	wardingCandleBlacklist = ""
+	#A comma separated list of entity IDs that the warding candle should block (in addition to what it blocks by default); use this to expand what it will block.  Note that blacklist overrides this, so an entry in both will be blacklisted.
+	wardingCandleWhitelist = ""
+	#Change this to determine how many of a tier's tasks need to be completed before tiering up is allowed.  It is a percentage of the total tasks in the tier.  If you set this above 1, you cannot tier up through normal gameplay.  Use with caution.
+	#Range: 0.01 ~ 2.0
+	tierCompletePct = 0.8
+	#What the mod considers 'melee distance' between two entities when one attacks the other.  This value is squared, so if you want 8 blocks put 64 in this config.
+	#Range: 1.0 ~ 4096.0
+	meleeDistance = 64.0
+	#What the mod considers to be the average manaweave cost when generating manaweaves automatically for the player.
+	#Range: 0 ~ 500
+	averageManaweaveCost = 25
+	#Comma separated list of dimension ids that spells can't be cast in.
+	spellDimensionBlacklist = ""
+	#Comma separated list of biome ids that spells can't be cast in.
+	spellBiomeBlacklist = ""
+	#How much damage does the fortification effect set all damage to
+	#Range: 1.0 ~ 20.0
+	fortificationDamageAmount = 4.0
+	#How many kills does it take to fill up a crystal phylactery
+	#Range: 1 ~ 1000
+	phylacteryKills = 100
+	#Can bosses be summoned?
+	bossSummons = false
+	#Can bosses be captured in phylacteries?
+	bossPhylacteries = false
+	#If true, the Ritual of Arcana will instantly rote spells upon completion, in addition to giving you the spell..
+	liteMode = false
+	#Set this to true to disable new villager profession registration.  This allows compatibility with Bukkit.  Note that you'll need to ensure the Codex Arcana is obtainable through different means!
+	disableNewProfessions = false
 
 #Mana and Artifice // Villager Modification
 [ma_villager_modification]
@@ -43,7 +72,37 @@ undeadSouls = 50
 
 #Mana and Artifice // Worldgen Options
 [ma_worldgen_options]
-	#How far apart ley line nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
+	#How far apart wellspring nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
 	#Range: 100 ~ 15000
-	leyLineDistance = 500
+	wellspringDistance = 500
+	#If true, total wellspring power will be calculated per faction rather than per player.
+	wellspringFactionClaims = false
+	#If true, wellsprings will generate with no affinity and the type of lens used will set the affinity of the node.
+	genericWellsprings = false
+	#Size of vinteum veins
+	#Range: 1 ~ 20
+	vinteumVeinSize = 9
+	#Count of vinteum veins
+	#Range: 1 ~ 100
+	vinteumVeinCount = 20
+	#Max Y-value of vinteum veins
+	#Range: 10 ~ 255
+	vinteumVeinYValue = 63
+
+#Mana and Artifice // Artifact Options
+[ma_artifact_options]
+	#By default meteor jump will follow the mobGriefing rule.  Set this to true to override that regardless of the game rule.
+	meteorJumpDestruction = true
+	#How many reflect charges the Spellweaver armor set has
+	#Range: 0 ~ 99
+	councilArmorReflectCharges = 3
+	#How many ticks the Spellweaver armor set needs to regenerate one reflect charge
+	#Range: 20 ~ 2000
+	councilArmorReflectRecharge = 100
+	#The percent chance the fey armor will reflect projectiles.
+	#Range: 0.0 ~ 1.0
+	feyArmorReflectChance = 0.20000000298023224
+	#The percent chance the fey armor will randomly teleport melee attackers.
+	#Range: 0.0 ~ 1.0
+	feyArmorTeleportChance = 0.20000000298023224
 

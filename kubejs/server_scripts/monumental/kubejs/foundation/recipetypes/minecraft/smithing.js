@@ -499,4 +499,10 @@ onEvent('recipes', event => {
     //Bows
     
     event.smithing(Item.of('gobber2:gobber2_bow', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', 'gobber2:gobber2_rod')
+    event.smithing(Item.of('gobber2:gobber2_bow_nether', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', 'gobber2:gobber2_rod_nether')
+    event.smithing(Item.of('gobber2:gobber2_bow_end', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', 'gobber2:gobber2_rod_end')
+    event.smithing(Item.of('iceandfire:dragonbone_bow', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', '#architects_palette:withered_bones')
+    event.smithing(Item.of('psipherals:psimetal_bow', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', '#forge:gems/psigem')
+    event.smithing(Item.of('botania:livingwood_bow', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'botania:mana_string', 'botania:livingwood_twig')
+    event.smithing(Item.of('mekanism:electric_bow'), 'minecraft:bow', 'mekanism:energy_tablet')
 })

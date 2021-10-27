@@ -1,0 +1,134 @@
+{
+  "path": "mod_farmersdelight/plants/rice_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "farmersdelight",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "farmersdelight:rice_plant",
+  "plant_lang_key": "block.farmersdelight.rice_crop",
+  "seed_lang_key": "item.farmersdelight.rice",
+  "desc_lang_key": "agricraft.plant.farmersdelight_rice.desc",
+  "seed_items": [
+    {
+      "overridePlanting": true,
+      "type": "item",
+      "object": "farmersdelight:rice",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "stages": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "tier": 1,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "type": "item",
+        "object": "farmersdelight:rice_panicle",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "watery",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.4
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 5,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:water",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "cross",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "farmersdelight:block/rice_stage0"
+      ],
+      [
+        "farmersdelight:block/rice_stage1"
+      ],
+      [
+        "farmersdelight:block/rice_stage2"
+      ],
+      [
+        "farmersdelight:block/rice_stage3"
+      ],
+      [
+        "farmersdelight:block/rice_upper_crop_stage0",
+        "farmersdelight:block/rice_supporting"
+      ],
+      [
+        "farmersdelight:block/rice_upper_crop_stage1",
+        "farmersdelight:block/rice_supporting"
+      ],
+      [
+        "farmersdelight:block/rice_upper_crop_stage2",
+        "farmersdelight:block/rice_supporting"
+      ],
+      [
+        "farmersdelight:block/rice_upper_crop_stage3",
+        "farmersdelight:block/rice_supporting"
+      ]
+    ]
+  },
+  "seed_texture": "farmersdelight:item/rice",
+  "seed_model": "farmersdelight:item/rice",
+  "particle_effects": []
+}

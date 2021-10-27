@@ -171,8 +171,6 @@
 	"Zombieman Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Zombieman Max Health" = 15.0
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Zombieman Melee Damage" = 2.0
 
 ["Mob Settings:Arachnotron"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #

@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
                     A: 'minecraft:cake',
                     B: 'tconstruct:earth_cake',
                     C: 'createaddition:chocolate_cake',
-                    X: 'mana-and-artifice:enchantment_focus_fire'
+                    X: 'mana-and-artifice:mote_fire'
                 }
             },
             {
@@ -165,7 +165,7 @@ onEvent('recipes', (event) => {
                     B: 'iceandfire:dragon_meal',
                     C: 'pamhc2foodextended:delightedmealitem',
                     D: 'farmersdelight:steak_and_potatoes',
-                    E: 'mana-and-artifice:enchantment_focus_fire'
+                    E: 'mana-and-artifice:mote_fire'
                 }
             },
             {
