@@ -1245,6 +1245,9 @@ onEvent('recipes', event => {
         id: 'create:crafting/kinetics/mechanical_press'
     })
     event.remove({
+        id: 'create:crafting/kinetics/millstone'
+    })
+    event.remove({
         id: 'create:crafting/materials/copper_block_from_compacting'
     })
     event.remove({

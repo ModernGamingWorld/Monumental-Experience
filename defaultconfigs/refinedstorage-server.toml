@@ -33,7 +33,7 @@
 	useEnergy = true
 	#The energy capacity of the Controller
 	#Range: > 0
-	capacity = 250000
+	capacity = 32000
 	#The base energy used by the Controller
 	#Range: > 0
 	baseUsage = 0
@@ -158,13 +158,13 @@
 [wirelessTransmitter]
 	#The energy used by the Wireless Transmitter
 	#Range: > 0
-	usage = 20
+	usage = 8
 	#The base range of the Wireless Transmitter
 	#Range: > 0
-	baseRange = 32
+	baseRange = 16
 	#The additional range per Range Upgrade in the Wireless Transmitter
 	#Range: > 0
-	rangePerUpgrade = 24
+	rangePerUpgrade = 8
 
 [storageMonitor]
 	#The energy used by the Storage Monitor

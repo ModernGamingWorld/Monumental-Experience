@@ -45,4 +45,8 @@
 	#Loot Bag drop chance from mobs (the higher the number the more common they are)
 	#Range: 1 ~ 100
 	dropchance = 1
+	#Make Loot Bags dropppable from all hostile Mobs
+	allHostileMobs = false
+	#Make Loot Bags droppable from all passive and neutral mobs
+	allNonHostileMobs = false
 

@@ -12,6 +12,8 @@
 	showTip = true
 	#Whether or not use the dark theme
 	useDarkTheme = false
+	#Allow the "ALL" sounds list to include the blacklisted sounds?
+	lawfulAllList = false
 
 #Inventory button settings
 [inventory_button]

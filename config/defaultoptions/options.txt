@@ -32,7 +32,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","kubejs:resource_pack", "quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","magipsi","file/Created Storage Network 1.0.zip","file/FrostbiteBrimstone.zip","file/Updated_Engineering_v1.4.zip"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us

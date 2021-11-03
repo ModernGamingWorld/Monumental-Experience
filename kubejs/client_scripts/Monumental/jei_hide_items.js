@@ -33,6 +33,7 @@ events.listen('jei.hide.items', (event) => {
 mobsToUnify.forEach((mobs) => {
         itemsToHide.push(
             'aquaculture:' + mobs + '_spawn_egg',
+            'magma_monsters:' + mobs + '_spawn_egg',
             'supplementaries:' + mobs + '_spawn_egg',
             'betterendforge:spawn_egg_' + mobs,
             'meetyourfight:' + mobs + '_spawn_egg',

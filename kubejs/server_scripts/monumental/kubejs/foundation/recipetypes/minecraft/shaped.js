@@ -2076,6 +2076,11 @@ onEvent('recipes', event => {
         B: '#forge:storage_blocks/redstone',
         C: 'minecraft:comparator',
     })
+    event.shaped(Item.of('storagedrawers:shroud_key', 1), ["AB ", " B ", " C "], {
+        A: '#forge:nuggets/gold',
+        B: '#forge:ingots/gold',
+        C: '#minecraft:signs',
+    })
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',
         B: '#forge:circuits/basic',

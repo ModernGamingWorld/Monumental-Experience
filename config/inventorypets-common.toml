@@ -2,13 +2,13 @@
 #Inventory Pets Config Settings
 [common]
 	#Display the names of the fans who suggested pets (default:true)
-	showSuggestors = true
+	showSuggestors = false
 	#Disable Cloud Pet thunder sounds (default:false)
 	disableCloudSound = false
 	#Display the mod update message during startup (default:true)
-	showUpdateMessage = true
+	showUpdateMessage = false
 	#Display holiday messages during startup (default:true)
-	showHolidayMessages = true
+	showHolidayMessages = false
 	#Are pets required to eat food (default:true)
 	petsMustEat = true
 	#Pets eat rarer items (default:false)

@@ -15,4 +15,6 @@
 	#List of debuffs to apply to players after using the sleeping bag
 	#Format: [effect] [duration(secs)] [power]
 	sleepingBagDebuffs = []
+	#[Survive Mod Integration] Set to true to have sleeping bags increase your body temperature after sleeping
+	insulatedSleepingBag = false
 

@@ -9,7 +9,7 @@
   "forge:ingots/steel": "emendatusenigmatica:steel_ingot",
   "forge:ingots/lead": "eidolon:lead_ingot",
   "forge:ingots/mithril": "null",
-  "forge:ingots/iridium": "null",
+  "forge:ingots/iridium": "emendatusenigmatica:iridium_ingot",
   "forge:ingots/zinc": "emendatusenigmatica:zinc_ingot",
   "forge:ingots/invar": "emendatusenigmatica:invar_ingot",
   "forge:dusts/niter": "emendatusenigmatica:potassium_nitrate_dust",
