@@ -1,0 +1,83 @@
+
+#Magma Monster Settings
+["Magma Monster Settings"]
+	#Spawn Over World Magma Monsters
+	magma_monster_ow_spawns = true
+	#Over World Magma Monster Group Minimum Size
+	#Range: > 1
+	magma_monster_min_spawn_size_ow = 1
+	#Over World Magma Monster Group Maximum Size
+	#Range: > 1
+	magma_monster_max_spawn_size_ow = 3
+	#Over World Magma Monster Chance Probability
+	#Range: > 1
+	magma_monster_chance_ow = 20
+	#Spawn Nether Magma Monsters
+	magma_monster_nether_spawns = true
+	#Nether Magma Monster Group Minimum Size
+	#Range: > 1
+	magma_monster_min_spawn_size_n = 1
+	#Nether Magma Monster Group Maximum Size
+	#Range: > 1
+	magma_monster_max_spawn_size_n = 3
+	#Nether Magma Monster Chance Probability
+	#Range: > 1
+	magma_monster_chance_n = 20
+	#Magma Monster Max Y Spawn Height
+	#Range: 1 ~ 256
+	magma_monster_max_y = 63
+	#Spawn Fire Whilst On Flamable Blocks
+	magma_monster_burns_blocks = true
+	#Magma Monster Health
+	#Range: 1.0 ~ 1.7976931348623157E308
+	magma_monster_health = 25.0
+	#Magma Monster Attack Damage
+	#Range: 1.0 ~ 1.7976931348623157E308
+	magma_monster_attack_damage = 4.0
+	#Obsidian Monster Slowness Effect Duration (Seconds)
+	#Range: > 1
+	magma_monster_slowness_effect = 5
+	#Magma Monster Dimension Blacklist
+	magma_monster_dimensions = []
+
+#Magma Monster Grunt Settings
+["Magma Monster Grunt Settings"]
+	#Spawn Over World Magma Monster Grunts
+	magma_monster_grunt_ow_spawns = true
+	#Over World Magma Monster Grunt Group Minimum Size
+	#Range: > 1
+	magma_monster_grunt_min_spawn_size_ow = 1
+	#Over World Magma Monster Grunt Group Maximum Size
+	#Range: > 1
+	magma_monster_grunt_max_spawn_size_ow = 3
+	#Over World Magma Monster Grunt Chance Probability
+	#Range: > 1
+	magma_monster_grunt_chance_ow = 20
+	#Spawn Nether Magma Monster Grunts
+	magma_monster_grunt_nether_spawns = true
+	#Nether Magma Monster Grunt Group Minimum Size
+	#Range: > 1
+	magma_monster_grunt_min_spawn_size_n = 1
+	#Nether Magma Monster Grunt Group Maximum Size
+	#Range: > 1
+	magma_monster_grunt_max_spawn_size_n = 3
+	#Nether Magma Monster Grunt Chance Probability
+	#Range: > 1
+	magma_monster_grunt_chance_n = 20
+	#Magma Monster Grunt Max Y Spawn Height
+	#Range: 1 ~ 256
+	magma_monster_grunt_max_y = 63
+	#Spawn Fire Whilst Grunt On Flamable Blocks
+	magma_monster_grunt_burns_blocks = true
+	#Magma Monster Grunt Health
+	#Range: 1.0 ~ 1.7976931348623157E308
+	magma_monster_grunt_health = 15.0
+	#Magma Monster Grunt Attack Damage
+	#Range: 1.0 ~ 1.7976931348623157E308
+	magma_monster_grunt_attack_damage = 2.0
+	#Obsidian Grunt Slowness Effect Duration (Seconds)
+	#Range: > 1
+	magma_monster_grunt_slowness_effect = 5
+	#Magma Monster Grunt Dimension Blacklist
+	magma_monster_grunt_dimensions = []
+

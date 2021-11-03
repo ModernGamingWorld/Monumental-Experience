@@ -33,6 +33,7 @@ events.listen('jei.hide.items', (event) => {
 mobsToUnify.forEach((mobs) => {
         itemsToHide.push(
             'aquaculture:' + mobs + '_spawn_egg',
+            'magma_monsters:' + mobs + '_spawn_egg',
             'supplementaries:' + mobs + '_spawn_egg',
             'betterendforge:spawn_egg_' + mobs,
             'meetyourfight:' + mobs + '_spawn_egg',
@@ -93,7 +94,6 @@ leavesToUnify.forEach((leaves) => {
     );
 });
 
-
 bucketsToUnify.forEach((buckets) => {
     itemsToHide.push(
         'minecraft:' + buckets + '_bucket',
@@ -130,15 +130,16 @@ bucketsToUnify.forEach((buckets) => {
     );
 });
 
-    itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
+
+itemsToHide.forEach((disabledItem) => {
+    if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
-        }
-    });
+    }
+});
 
     regexHide.forEach((regexExpression) => {
         event.hide(regexExpression);
-    });
+});
 
     colors.forEach((color) => {
         event.hide('/refinedstorage:' + color + '\\w/');

@@ -47,6 +47,14 @@ onEvent('recipes', (event) => {
                 altarLevel: 0,
                 consumptionRate: 5,
                 drainRate: 1
+            },
+            {
+                input: '#forge:dusts/coke',
+                output: 'immersiveengineering:dust_hop_graphite',
+                syphon: 2500,
+                altarLevel: 0,
+                consumptionRate: 150,
+                drainRate: 150
             }
         ]
     };

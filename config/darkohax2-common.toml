@@ -1,0 +1,3 @@
+#If configured feature registry names are logged at startup
+dumpfeats = false
+

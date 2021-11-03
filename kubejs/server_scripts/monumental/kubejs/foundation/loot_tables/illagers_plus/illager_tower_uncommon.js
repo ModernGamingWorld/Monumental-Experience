@@ -66,6 +66,11 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "minecraft:item",
+                    weight: 10,
+                    name: "routerreborn:coppercoil"
+                },
+                {
+                    type: "minecraft:item",
                     weight: 20,
                     functions: [{
                         function: "minecraft:set_count",

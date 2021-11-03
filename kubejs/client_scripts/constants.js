@@ -318,6 +318,11 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'familiar_chimera',
+    'familiar_goat',
+    'familiar_headless',
+    'magma_monster_grunt',
+    'magma_monster',
     'cloud',
     'sand',
     'stone',

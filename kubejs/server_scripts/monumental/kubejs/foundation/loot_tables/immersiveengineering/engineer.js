@@ -21,6 +21,10 @@ onEvent('server.datapack.high_priority', (event) => {
                 {
                     type: "minecraft:item",
                     name: "minecraft:smithing_table"
+                },
+                {
+                    type: "minecraft:item",
+                    name: "routerreborn:coppercoil"
                 }
             ]
         }]

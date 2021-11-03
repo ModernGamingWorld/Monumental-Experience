@@ -1,11 +1,23 @@
 
+#No comment
+[Defaults]
+	#Defines default chatbox prefix
+	defaultChatBoxPrefix = "AP"
+
+[Core]
+	#Enables initial cooldown on peripheral initialization
+	isInitialCooldownEnabled = true
+	#Determinates initial cooldown sensentive level, values lower then this value will not trigger initial cooldown
+	#Range: > 0
+	initialCooldownSensetiveLevel = 6000
+
 [Restrictions]
 	#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range
 	#Range: 0 ~ 100000000
 	playerDetMaxRange = 100000000
 	#Defines the maximum energy flow of the energy detector.
 	#Range: > 1
-	energyDetectorMaxFlow = 64000
+	energyDetectorMaxFlow = 2147483647
 	#Defines max energy stored in any powered peripheral
 	#Range: > 1000000
 	poweredPeripheralMaxEnergyStored = 100000000
@@ -50,11 +62,6 @@
 	#Enable RF storage for peripherals, that could use it
 	enablePoweredPeripherals = false
 
-#No comment
-[Defaults]
-	#Defines default chatbox prefix
-	defaultChatBoxPrefix = "AP"
-
 [operations]
 	#Range: > 1000
 	digCooldown = 1000
@@ -97,7 +104,7 @@
 	#Range: 0.1 ~ 1.7976931348623157E308
 	scanEntitiesExtraBlockCost = 0.17
 	#Range: > 1000
-	chatMessageCooldown = 10000
+	chatMessageCooldown = 1000
 
 [metaphysics]
 	#Defines energy to fuel rate
@@ -106,6 +113,12 @@
 	enableWeakAutomataCore = true
 	enableEndAutomataCore = true
 	enableHusbandryAutomataCore = true
+	#Defines max warp point stored in warp core. Mostly need to not allow NBT overflow error
+	#Range: > 1
+	endAutomataCoreWarpPointLimit = 64
+	#Chance that overpowered automata will break after rotation cycle
+	#Range: 0.0 ~ 1.0
+	overpoweredAutomataBreakChance = 0.002
 	#Range: 1 ~ 64
 	tier1AutomataCoreInteractionRadius = 2
 	#Range: 1 ~ 32
@@ -122,23 +135,10 @@
 	overpoweredTier2AutomataCoreInteractionRadius = 6
 	#Range: 1 ~ 32
 	overpoweredTier2AutomataCoreMaxFuelConsumptionRate = 4
-	#Defines max warp point stored in warp core. Mostly need to not allow NBT overflow error
-	#Range: > 1
-	endAutomataCoreWarpPointLimit = 64
-	#Chance that overpowered automata will break after rotation cycle
-	#Range: 0.0 ~ 1.0
-	overpoweredAutomataBreakChance = 0.002
 
 [world]
 	#Enable the villager structures for the computer scientist.
-	enableVillagerStructures = false
+	enableVillagerStructures = true
 	#Gives the ap documentation to new players on a world.
 	givePlayerBookOnJoin = false
-
-[Core]
-	#Enables initial cooldown on peripheral initialization
-	isInitialCooldownEnabled = true
-	#Determinates initial cooldown sensentive level, values lower then this value will not trigger initial cooldown
-	#Range: > 0
-	initialCooldownSensetiveLevel = 6000
 

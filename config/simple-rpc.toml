@@ -11,10 +11,9 @@
 	configScreen = true
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
-	#Enable/Disabled in-game notifications about new releases
-	updater = false
 	#Internal Version Number. NO TOUCHY!
-	version = 10
+	version = 12
+	updater = false
 
 #The Game Loading event
 [init]

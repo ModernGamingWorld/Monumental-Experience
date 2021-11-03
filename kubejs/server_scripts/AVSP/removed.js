@@ -218,4 +218,62 @@ onEvent('recipes', event => {
     event.remove({
         id: 'emendatusenigmatica:ingot_from_chunk/smelting/copper'
     })
+
+    //Emendatus Engimatica ingot from chunk
+    event.remove({
+        id: 'create:milling/iron_ore'
+    })
+    event.remove({
+        id: 'create:milling/gold_ore'
+    })
+    event.remove({
+        id: 'create:milling/copper_ore'
+    })
+    event.remove({
+        id: 'create:milling/silver_ore'
+    })
+    event.remove({
+        id: 'create:milling/nickel_ore'
+    })
+    event.remove({
+        id: 'create:milling/uranium_ore'
+    })
+    event.remove({
+        id: 'create:milling/aluminum_ore'
+    })
+    event.remove({
+        id: 'create:milling/lead_ore'
+    })
+    event.remove({
+        id: 'create:milling/osmium_ore'
+    })
+
+    //Emendatus Engimatica ingot from chunk
+    event.remove({
+        id: 'create:crushing/iron_ore'
+    })
+    event.remove({
+        id: 'create:crushing/gold_ore'
+    })
+    event.remove({
+        id: 'create:crushing/copper_ore'
+    })
+    event.remove({
+        id: 'create:crushing/silver_ore'
+    })
+    event.remove({
+        id: 'create:crushing/nickel_ore'
+    })
+    event.remove({
+        id: 'create:crushing/uranium_ore'
+    })
+    event.remove({
+        id: 'create:crushing/aluminum_ore'
+    })
+    event.remove({
+        id: 'create:crushing/lead_ore'
+    })
+    event.remove({
+        id: 'create:crushing/osmium_ore'
+    })
 })

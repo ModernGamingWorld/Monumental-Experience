@@ -122,6 +122,10 @@
 		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation. Needs texture pack reload
 		fast_lanterns = false
 
+	[blocks.bamboo_spikes]
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
 #Particle parameters
 [particles]
 

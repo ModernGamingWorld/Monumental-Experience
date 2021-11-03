@@ -1,5 +1,9 @@
 
 ["mana-and-artifice:shapes/touch"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/touch".RANGE]
 		#Minimum Value
@@ -36,6 +40,10 @@
 		step_complexity = 1.0
 
 ["mana-and-artifice:shapes/bolt"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/bolt".RANGE]
 		#Minimum Value
@@ -55,6 +63,10 @@
 		step_complexity = 1.0
 
 ["mana-and-artifice:shapes/projectile"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/projectile".RADIUS]
 		#Minimum Value
@@ -91,6 +103,10 @@
 		step_complexity = 1.0
 
 ["mana-and-artifice:shapes/wall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/wall".DURATION]
 		#Minimum Value
@@ -161,6 +177,10 @@
 		step_complexity = 2.0
 
 ["mana-and-artifice:shapes/wave"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/wave".DURATION]
 		#Minimum Value
@@ -231,6 +251,10 @@
 		step_complexity = 2.0
 
 ["mana-and-artifice:shapes/emanation"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/emanation".DURATION]
 		#Minimum Value
@@ -284,6 +308,10 @@
 		step_complexity = 1.0
 
 ["mana-and-artifice:shapes/beam"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/beam".DURATION]
 		#Minimum Value
@@ -371,6 +399,10 @@
 		step_complexity = 1.0
 
 ["mana-and-artifice:shapes/rune"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/rune".RADIUS]
 		#Minimum Value
@@ -424,6 +456,10 @@
 		step_complexity = 3.0
 
 ["mana-and-artifice:shapes/smite"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/smite".RADIUS]
 		#Minimum Value
@@ -477,6 +513,10 @@
 		step_complexity = 3.0
 
 ["mana-and-artifice:components/fire_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/fire_damage".DAMAGE]
 		#Minimum Value
@@ -530,6 +570,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/frost_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/frost_damage".DAMAGE]
 		#Minimum Value
@@ -583,6 +627,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/lightning_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/lightning_damage".DAMAGE]
 		#Minimum Value
@@ -653,6 +701,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/break"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/break".MAGNITUDE]
 		#Minimum Value
@@ -689,6 +741,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/fling"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/fling".SPEED]
 		#Minimum Value
@@ -725,6 +781,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/leap"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/leap".DURATION]
 		#Minimum Value
@@ -778,6 +838,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/shield".DURATION]
 		#Minimum Value
@@ -831,6 +895,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/slowfall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/slowfall".DURATION]
 		#Minimum Value
@@ -884,6 +952,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/heal"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/heal".MAGNITUDE]
 		#Minimum Value
@@ -920,6 +992,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/rift"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/rift".DELAY]
 		#Minimum Value
@@ -939,6 +1015,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/transplace"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/transplace".DELAY]
 		#Minimum Value
@@ -958,6 +1038,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/blink"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/blink".RANGE]
 		#Minimum Value
@@ -994,6 +1078,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/gust"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/gust".MAGNITUDE]
 		#Minimum Value
@@ -1030,6 +1118,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/invisibility"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/invisibility".DURATION]
 		#Minimum Value
@@ -1066,6 +1158,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/light"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/light".DURATION]
 		#Minimum Value
@@ -1102,6 +1198,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/haste"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/haste".DURATION]
 		#Minimum Value
@@ -1155,6 +1255,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/slow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/slow".DURATION]
 		#Minimum Value
@@ -1208,6 +1312,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/strength"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/strength".DURATION]
 		#Minimum Value
@@ -1244,6 +1352,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/weakness"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/weakness".DURATION]
 		#Minimum Value
@@ -1280,6 +1392,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/night_vision"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/night_vision".DURATION]
 		#Minimum Value
@@ -1316,6 +1432,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/blind"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/blind".DURATION]
 		#Minimum Value
@@ -1352,6 +1472,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/swift_swim"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/swift_swim".DURATION]
 		#Minimum Value
@@ -1405,6 +1529,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/watery_grave"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/watery_grave".DURATION]
 		#Minimum Value
@@ -1441,6 +1569,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/entangle"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/entangle".DURATION]
 		#Minimum Value
@@ -1477,6 +1609,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/gravity_well"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/gravity_well".DURATION]
 		#Minimum Value
@@ -1513,6 +1649,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/chrono_anchor"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/chrono_anchor".DURATION]
 		#Minimum Value
@@ -1549,6 +1689,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/silence"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/silence".DURATION]
 		#Minimum Value
@@ -1585,6 +1729,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/transitory_tile"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/transitory_tile".DURATION]
 		#Minimum Value
@@ -1621,6 +1769,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/activate"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/activate".DELAY]
 		#Minimum Value
@@ -1640,6 +1792,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/poison"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/poison".DURATION]
 		#Minimum Value
@@ -1693,6 +1849,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/drown"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/drown".MAGNITUDE]
 		#Minimum Value
@@ -1763,6 +1923,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/cauterize"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/cauterize".MAGNITUDE]
 		#Minimum Value
@@ -1799,6 +1963,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/magic_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/magic_damage".DAMAGE]
 		#Minimum Value
@@ -1835,6 +2003,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/explosion"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/explosion".RADIUS]
 		#Minimum Value
@@ -1870,7 +2042,28 @@
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 0.5
 
+	["mana-and-artifice:components/explosion".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
 ["mana-and-artifice:components/life_tap"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/life_tap".DURATION]
 		#Minimum Value
@@ -1924,6 +2117,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/fire_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/fire_shield".DURATION]
 		#Minimum Value
@@ -1977,6 +2174,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/mana_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/mana_shield".DURATION]
 		#Minimum Value
@@ -2030,6 +2231,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/briarthorn_barrier"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/briarthorn_barrier".DURATION]
 		#Minimum Value
@@ -2083,6 +2288,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/absorption"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/absorption".DURATION]
 		#Minimum Value
@@ -2136,6 +2345,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/mana_transfer"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/mana_transfer".MAGNITUDE]
 		#Minimum Value
@@ -2172,6 +2385,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/decoy"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/decoy".RADIUS]
 		#Minimum Value
@@ -2242,6 +2459,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/grow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/grow".DELAY]
 		#Minimum Value
@@ -2261,6 +2482,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/crystallize"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/crystallize".MAGNITUDE]
 		#Minimum Value
@@ -2297,6 +2522,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/collapse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/collapse".DELAY]
 		#Minimum Value
@@ -2316,6 +2545,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/earthsky"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/earthsky".DURATION]
 		#Minimum Value
@@ -2352,6 +2585,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/true_invisibility"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/true_invisibility".DURATION]
 		#Minimum Value
@@ -2388,6 +2625,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/nethergate"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/nethergate".DELAY]
 		#Minimum Value
@@ -2406,7 +2647,28 @@
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 0.5
 
+	["mana-and-artifice:components/nethergate".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
 ["mana-and-artifice:components/animus"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/animus".DURATION]
 		#Minimum Value
@@ -2443,6 +2705,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/confuse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/confuse".DURATION]
 		#Minimum Value
@@ -2479,6 +2745,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/mind_control"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/mind_control".DURATION]
 		#Minimum Value
@@ -2515,6 +2785,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/spectral_crafting_table"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/spectral_crafting_table".DELAY]
 		#Minimum Value
@@ -2534,6 +2808,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/divination"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/divination".DURATION]
 		#Minimum Value
@@ -2587,6 +2865,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:shapes/summon"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/summon".DURATION]
 		#Minimum Value
@@ -2623,6 +2905,10 @@
 		step_complexity = 2.0
 
 ["mana-and-artifice:shapes/wrath"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:shapes/wrath".DURATION]
 		#Minimum Value
@@ -2710,6 +2996,10 @@
 		step_complexity = 3.0
 
 ["mana-and-artifice:components/mist_form"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/mist_form".DURATION]
 		#Minimum Value
@@ -2746,6 +3036,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/recall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/recall".MAGNITUDE]
 		#Minimum Value
@@ -2781,26 +3075,11 @@
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 0.5
 
-["mana-and-artifice:components/ley_line_transport"]
-
-	["mana-and-artifice:components/ley_line_transport".DELAY]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 0.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 3.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 0.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 0.10000000149011612
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 0.5
-
 ["mana-and-artifice:components/mind_vision"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/mind_vision".DURATION]
 		#Minimum Value
@@ -2837,6 +3116,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/summon_skeletal_horse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/summon_skeletal_horse".DURATION]
 		#Minimum Value
@@ -2873,6 +3156,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/posession"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/posession".DURATION]
 		#Minimum Value
@@ -2926,6 +3213,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/living_bomb"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/living_bomb".DURATION]
 		#Minimum Value
@@ -2979,6 +3270,10 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/wither"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/wither".DURATION]
 		#Minimum Value
@@ -3032,8 +3327,322 @@
 		step_complexity = 0.5
 
 ["mana-and-artifice:components/felled_oak"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
 
 	["mana-and-artifice:components/felled_oak".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:shapes/self"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mana-and-artifice:shapes/bound_sword"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mana-and-artifice:shapes/bound_axe"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mana-and-artifice:shapes/bound_bow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mana-and-artifice:shapes/bound_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mana-and-artifice:shapes/chain"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:shapes/chain".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mana-and-artifice:shapes/chain".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 100.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mana-and-artifice:shapes/chain".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+["mana-and-artifice:components/eldrin_flight"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/eldrin_flight".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:components/wind_wall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/wind_wall".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mana-and-artifice:components/wind_wall".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 2.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mana-and-artifice:components/wind_wall".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:components/levitation"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/levitation".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mana-and-artifice:components/levitation".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:components/fortification"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/fortification".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mana-and-artifice:components/fortification".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:components/exchange"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/exchange".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mana-and-artifice:components/exchange".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mana-and-artifice:components/shear"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mana-and-artifice:components/shear".DELAY]
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
 		minimum = 0.0

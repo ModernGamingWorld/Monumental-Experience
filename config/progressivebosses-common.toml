@@ -47,6 +47,8 @@
 		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
 		#Requires Minecraft restart.
 		"Wither Nether Only" = false
+		#If true the Wither will break even blocks that are witherproof.
+		"Ignore Witherproof Blocks" = false
 
 	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
 	[Wither.Health]

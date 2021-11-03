@@ -12,13 +12,18 @@
 	# Default: []
 	claim_dimension_blacklist: [ ]
 	
-	# Disables fake players like miners and auto-clickers
-	# Default: false
-	disable_all_fake_players: false
-	
 	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for forceloading
 	# Default: false
 	disable_protection: false
+	
+	# Override to disable/enable fake players like miners and auto-clickers globally. Default will check this setting for each team
+	# Default: "check"
+	# Valid values: "check", "deny", "allow"
+	fake_players: "check"
+	
+	# Minimap for clients connecting to this server will be disabled
+	# Default: false
+	force_disable_minimap: false
 	
 	# Max claimed chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission

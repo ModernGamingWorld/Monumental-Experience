@@ -349,6 +349,7 @@ onEvent('recipes', (event) => {
                     'extendedcrafting:black_iron_slate',
                     'extendedcrafting:luminessence',
                     '#forge:gems/emerald',
+                    '#forge:gems/emerald',
                     '#forge:gems/emerald'
                 ],
                 output: Item.of('extendedcrafting:ultimate_component', 1)

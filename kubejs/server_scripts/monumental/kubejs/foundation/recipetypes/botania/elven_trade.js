@@ -127,6 +127,12 @@ onEvent('recipes', (event) => {
             }
         },
         {
+            inputs: [{ item: 'immersiveengineering:wirecoil_copper' }, { item: 'immersiveengineering:wirecoil_copper'}, { item: 'immersiveengineering:wirecoil_copper' }, { item: 'immersiveengineering:wirecoil_copper' }],
+            output: {
+                item: 'routerreborn:coppercoil'
+            }
+        },
+        {
             inputs: [{ item: 'minecraft:iron_pickaxe' }, { item: 'iceandfire:myrmex_jungle_chitin' }],
             output: {
                 item: 'iceandfire:myrmex_jungle_pickaxe'

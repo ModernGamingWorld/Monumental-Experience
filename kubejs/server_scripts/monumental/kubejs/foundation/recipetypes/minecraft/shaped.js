@@ -18,6 +18,22 @@ onEvent('recipes', event => {
         A: '#forge:chunks/redstone',
         B: '#forge:rods/wooden'
     })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk1', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: '#botanypots:botany_pots'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk2', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk1'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk3', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk2'
+    })
+    event.shaped(Item.of('ftb-power-pots:power_pot_mk4', 1), [" B ", "BDB", " B "], {
+        D: 'mysticalagriculture:mystical_flower_agglomeratio',
+        B: 'ftb-power-pots:power_pot_mk3'
+    })
     event.shaped(Item.of('minecraft:soul_torch', 2), [" A ", " B ", " C "], {
         A: '#forge:chunks/coal',
         B: '#forge:rods/wooden',
@@ -1059,10 +1075,16 @@ onEvent('recipes', event => {
     })
     //Torchmaster
     event.shaped(Item.of('torchmaster:megatorch', 1), ["TTT", "GLG", "DLD"], {
-        T: 'druidcraft:fiery_torch',
+        T: 'xreliquary:sojourner_staff',
         G: '#forge:storage_blocks/gold',
         D: '#forge:storage_blocks/diamond',
         L: '#minecraft:logs'
+    })
+    event.shaped(Item.of('torchmaster:dreadlamp', 1), ["TTT", "GDG", "TLT"], {
+        T: '#forge:obsidian',
+        G: '#forge:glass_panes',
+        D: 'xreliquary:lantern_of_paranoia',
+        L: '#forge:dyes/black'
     })
     //Thermal
     event.shaped(Item.of('thermal:rf_coil', 1), ["WPQ", "PXP", "QPW"], {
@@ -2053,6 +2075,11 @@ onEvent('recipes', event => {
         A: '#forge:plates/iron',
         B: '#forge:storage_blocks/redstone',
         C: 'minecraft:comparator',
+    })
+    event.shaped(Item.of('storagedrawers:shroud_key', 1), ["AB ", " B ", " C "], {
+        A: '#forge:nuggets/gold',
+        B: '#forge:ingots/gold',
+        C: '#minecraft:signs',
     })
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',
