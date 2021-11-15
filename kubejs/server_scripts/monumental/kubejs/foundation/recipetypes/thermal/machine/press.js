@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     const recipes = [{
             inputs: [Ingredient.of('#forge:ingots/compressed_iron', 4), Ingredient.of('thermal:press_packing_2x2_die')],
-            outputs: [Item.of('contenttweaker:compressed_plate', 2)],
+            outputs: [Item.of('kubejs:compressed_iron_plate', 2)],
             energy: 600
         },
         {

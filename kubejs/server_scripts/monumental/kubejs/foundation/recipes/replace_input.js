@@ -107,6 +107,18 @@ onEvent('recipes', (event) => {
         'minecraft:iron_bars',
         'dustrial_decor:barbed_iron_bars'
     );
+    event.replaceInput({
+            id: 'cyclic:hopper_gold'
+        },
+        'cyclic:hopper',
+        'woodenutilities:wooden_hopper'
+    );
+    event.replaceInput({
+            id: 'cyclic:hopper_fluid'
+        },
+        'cyclic:hopper',
+        'woodenutilities:wooden_hopper'
+    );
 
     event.replaceInput({
             id: 'bloodmagic:alchemytable/basic_cutting_fluid'

@@ -1052,6 +1052,9 @@ onEvent('recipes', event => {
         id: 'cyclic:melter'
     })
     event.remove({
+        id: 'cyclic:hopper'
+    })
+    event.remove({
         id: 'cyclic:solidifier'
     })
     event.remove({
@@ -1162,9 +1165,62 @@ onEvent('recipes', event => {
         id: 'createaddition:crafting/spool'
     })
 
+    //Compactstorage Recipes
+    event.remove({
+        id: 'compactstorage:backpack_white'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_orange'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_magenta'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_light_blue'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_yellow'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_lime'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_pink'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_gray'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_light_gray'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_cyan'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_purple'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_blue'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_brown'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_green'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_red'
+    })
+    event.remove({
+        id: 'compactstorage:backpack_black'
+    })
+
     //Create Recipes
     event.remove({
         id: 'create:crafting/materials/rose_quartz'
+    })
+    event.remove({
+        id: 'create:compat/ae2/mixing/fluix_crystal'
     })
     event.remove({
         id: 'create:mixing/chromatic_compound'
@@ -3092,6 +3148,9 @@ onEvent('recipes', event => {
         id: 'minecraft:stone_shovel'
     })
     event.remove({
+        id: 'minecraft:stone_sword'
+    })
+    event.remove({
         id: 'minecraft:golden_pickaxe'
     })
     event.remove({
@@ -3102,6 +3161,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:golden_shovel'
+    })
+    event.remove({
+        id: 'minecraft:golden_sword'
     })
     event.remove({
         id: 'minecraft:golden_leggings'
@@ -3126,6 +3188,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:iron_shovel'
+    })
+    event.remove({
+        id: 'minecraft:iron_sword'
     })
     event.remove({
         id: 'minecraft:iron_leggings'
@@ -3153,6 +3218,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'minecraft:diamond_shovel'
+    })
+    event.remove({
+        id: 'minecraft:diamond_sword'
     })
     event.remove({
         id: 'minecraft:diamond_leggings'
@@ -5633,6 +5701,9 @@ onEvent('recipes', event => {
     //Wooden Utils recipes
     event.remove({
         id: 'woodenutilities:crafting_slab'
+    })
+    event.remove({
+        id: 'woodenutilities:wooden_backpack'
     })
     event.remove({
         id: 'woodenutilities:wood_plate'

@@ -51,7 +51,7 @@ onEvent('recipes', (event) => {
             },
             {
                 inputs: [
-                    'contenttweaker:compressed_plate',
+                    'kubejs:compressed_iron_plate',
                     'minecraft:smooth_stone'
                 ],
                 output: Item.of('pneumaticcraft:reinforced_stone', 4)

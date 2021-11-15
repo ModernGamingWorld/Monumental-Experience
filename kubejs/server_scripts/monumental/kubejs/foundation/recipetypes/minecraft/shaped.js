@@ -319,19 +319,19 @@ onEvent('recipes', event => {
     })
     event.shaped(Item.of('appliedenergistics2:quartz_growth_accelerator', 1), ["aba", "cdc", "aba"], {
         c: 'appliedenergistics2:quartz_glass',
-        a: 'contenttweaker:compressed_plate',
+        a: 'kubejs:compressed_iron_plate',
         b: 'appliedenergistics2:fluix_glass_cable',
         d: '#forge:storage_blocks/fluix'
     })
     event.shaped(Item.of('appliedenergistics2:quantum_ring', 1), ["aba", "cde", "aba"], {
         c: 'appliedenergistics2:engineering_processor',
         e: 'appliedenergistics2:fluix_smart_dense_cable',
-        a: 'contenttweaker:compressed_plate',
+        a: 'kubejs:compressed_iron_plate',
         d: 'appliedenergistics2:energy_cell',
         b: 'appliedenergistics2:logic_processor'
     })
     event.shaped(Item.of('appliedenergistics2:crafting_unit', 1), ["aba", "cdc", "aba"], {
-        a: 'contenttweaker:compressed_plate',
+        a: 'kubejs:compressed_iron_plate',
         d: 'appliedenergistics2:logic_processor',
         c: 'appliedenergistics2:fluix_glass_cable',
         b: 'appliedenergistics2:calculation_processor'
@@ -340,33 +340,33 @@ onEvent('recipes', event => {
         A: 'appliedenergistics2:quartz_glass',
         B: '#forge:ingots/refined_glowstone',
         C: 'appliedenergistics2:charged_certus_quartz_crystal',
-        D: 'contenttweaker:compressed_plate'
+        D: 'kubejs:compressed_iron_plate'
     })
     event.shaped(Item.of('appliedenergistics2:fluid_export_bus', 1), ["aca", "lbl"], {
-        a: 'contenttweaker:compressed_plate',
+        a: 'kubejs:compressed_iron_plate',
         b: 'appliedenergistics2:formation_core',
         c: '#forge:piston',
         l: '#forge:tank'
     })
     event.shaped(Item.of('appliedenergistics2:import_bus', 1), [" a ", "bcb"], {
         a: 'appliedenergistics2:annihilation_core',
-        b: 'contenttweaker:compressed_plate',
+        b: 'kubejs:compressed_iron_plate',
         c: '#forge:piston'
     })
     event.shaped(Item.of('appliedenergistics2:fluid_import_bus', 1), ["lal", "bcb"], {
         a: 'appliedenergistics2:annihilation_core',
-        b: 'contenttweaker:compressed_plate',
+        b: 'kubejs:compressed_iron_plate',
         c: '#forge:piston',
         l: '#forge:tank'
     })
     event.shaped(Item.of('appliedenergistics2:annihilation_plane', 1), ["aaa", "bcb"], {
         a: '#forge:gems/fluix',
-        b: 'contenttweaker:compressed_plate',
+        b: 'kubejs:compressed_iron_plate',
         c: 'appliedenergistics2:annihilation_core'
     })
     event.shaped(Item.of('appliedenergistics2:annihilation_plane', 1), ["ab", "cb", "ab"], {
         a: '#forge:gems/fluix',
-        b: 'contenttweaker:compressed_plate',
+        b: 'kubejs:compressed_iron_plate',
         c: 'appliedenergistics2:annihilation_core'
     })
     event.shaped(Item.of('appliedenergistics2:formation_plane', 1), ["aaa", "bcb"], {
@@ -380,13 +380,13 @@ onEvent('recipes', event => {
         c: 'appliedenergistics2:formation_core'
     })
     event.shaped(Item.of('appliedenergistics2:export_bus', 1), ["aba", " c "], {
-        a: 'contenttweaker:compressed_plate',
+        a: 'kubejs:compressed_iron_plate',
         b: 'appliedenergistics2:formation_core',
         c: '#forge:piston'
     })
     //Iron Jetpacks
     event.shaped(Item.of('ironjetpacks:basic_coil', 1), [" AB", "ACA", "BA "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'extendedcrafting:redstone_component',
         C: 'thermal:rf_coil'
     })
@@ -497,7 +497,7 @@ onEvent('recipes', event => {
         B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:lapis_plate', 2), ["   ", "BAA", " AA"], {
-        A: '#forge:gems/emerald',
+        A: '#forge:gems/lapis',
         B: '#forge:tools/crafting_hammer'
     })
     event.shaped(Item.of('emendatusenigmatica:aluminum_plate', 2), ["   ", "BAA", " AA"], {
@@ -713,7 +713,7 @@ onEvent('recipes', event => {
     event.shaped(Item.of('mekanismgenerators:bio_generator', 1), ["RAR", "BCB", "IAI"], {
         R: 'extendedcrafting:redstone_component',
         A: '#mekanism:alloys/infused',
-        I: 'contenttweaker:compressed_plate',
+        I: 'kubejs:compressed_iron_plate',
         C: '#forge:circuits/basic',
         B: '#forge:fuels/bio'
     })
@@ -1772,13 +1772,13 @@ onEvent('recipes', event => {
     })
     //Mekanism
     event.shaped(Item.of('mekanism:basic_chemical_tank', 1), ["BAB", "A A", "BAB"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'extendedcrafting:redstone_component'
     })
     event.shaped(Item.of('mekanism:basic_energy_cube', 1), ["DBD", "CAC", "DBD"], {
         A: 'mekanism:steel_casing',
         B: 'mekanism:energy_tablet',
-        C: 'contenttweaker:compressed_plate',
+        C: 'kubejs:compressed_iron_plate',
         D: 'extendedcrafting:redstone_component'
     })
     event.shaped(Item.of('mekanism:advanced_energy_cube', 1), ["DBD", "CAC", "DBD"], {
@@ -1840,30 +1840,30 @@ onEvent('recipes', event => {
         D: '#mekanism:alloys/atomic'
     })
     event.shaped(Item.of('mekanism:basic_logistical_transporter', 8), ["   ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:circuits/basic',
         C: 'refinedpipes:basic_item_pipe'
     })
     event.shaped(Item.of('mekanism:basic_mechanical_pipe', 8), ["   ", "ABA", "   "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'refinedpipes:basic_fluid_pipe'
     })
     event.shaped(Item.of('mekanism:basic_pressurized_tube', 8), [" A ", "BCB", " A "], {
         A: 'appliedenergistics2:quartz_glass',
-        B: 'contenttweaker:compressed_plate',
+        B: 'kubejs:compressed_iron_plate',
         C: 'mekanism:basic_mechanical_pipe'
     })
     event.shaped(Item.of('mekanism:basic_universal_cable', 8), ["   ", "ABA", "   "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'refinedpipes:basic_energy_pipe'
     })
     event.shaped(Item.of('mekanism:diversion_transporter', 2), [" B ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'extendedcrafting:redstone_ingot',
         C: 'mekanism:restrictive_transporter'
     })
     event.shaped(Item.of('mekanism:restrictive_transporter', 2), [" B ", "ACA", " B "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'minecraft:iron_bars',
         C: 'mekanism:basic_logistical_transporter'
     })
@@ -1883,17 +1883,17 @@ onEvent('recipes', event => {
         C: 'mekanism:basic_mechanical_pipe'
     })
     event.shaped(Item.of('mekanism:upgrade_gas', 2), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:dusts/iron',
         C: 'mekanism:restrictive_transporter'
     })
     event.shaped(Item.of('mekanism:upgrade_muffling', 1), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:dusts/steel',
         C: 'mekanism:restrictive_transporter'
     })
     event.shaped(Item.of('mekanism:upgrade_speed', 2), [" A ", "CBC", " A "], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:dusts/osmium',
         C: 'mekanism:basic_logistical_transporter'
     })
@@ -1922,7 +1922,7 @@ onEvent('recipes', event => {
         D: 'minecraft:lava_bucket'
     })
     event.shaped(Item.of('mekanism:electrolytic_separator', 1), ["ABA", "CDC", "ABA"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: 'extendedcrafting:redstone_component',
         C: '#mekanism:alloys/infused',
         D: 'mekanism:electrolytic_core'
@@ -1941,7 +1941,7 @@ onEvent('recipes', event => {
         D: 'thermal:rf_coil'
     })
     event.shaped(Item.of('mekanism:enrichment_chamber', 1), ["CBC", "ADA", "CBC"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:circuits/basic',
         C: 'extendedcrafting:redstone_component',
         D: 'mekanism:steel_casing'
@@ -1963,12 +1963,12 @@ onEvent('recipes', event => {
         D: 'mekanism:energy_tablet'
     })
     event.shaped(Item.of('mekanism:logistical_sorter', 1), ["ACA", "ABA", "AAA"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:circuits/basic',
         C: '#forge:piston'
     })
     event.shaped(Item.of('mekanism:metallurgic_infuser', 1), ["ABA", "CEC", "ADA"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:gears/osmium',
         C: 'extendedcrafting:redstone_component',
         D: 'routerreborn:furnace',
@@ -2004,7 +2004,7 @@ onEvent('recipes', event => {
         D: 'appliedenergistics2:quartz_glass'
     })
     event.shaped(Item.of('mekanism:precision_sawmill', 1), ["ABA", "CDC", "ABA"], {
-        A: 'contenttweaker:compressed_plate',
+        A: 'kubejs:compressed_iron_plate',
         B: '#forge:circuits/basic',
         C: '#mekanism:alloys/infused',
         D: 'mekanism:steel_casing'
@@ -2051,7 +2051,7 @@ onEvent('recipes', event => {
     event.shaped(Item.of('mekanism:steel_casing', 1), ["CAC", "ABA", "CAC"], {
         A: 'extendedcrafting:black_iron_slate',
         B: '#forge:gears/osmium',
-        C: 'contenttweaker:compressed_plate'
+        C: 'kubejs:compressed_iron_plate'
     })
     event.shaped(Item.of('mekanism:supercharged_coil', 1), ["CCC", "ABA", "DDD"], {
         A: '#forge:circuits/ultimate',
@@ -2084,7 +2084,7 @@ onEvent('recipes', event => {
     event.shaped(Item.of('mekanism:teleporter', 1), ["BCB", "CAC", "BDB"], {
         A: 'mekanism:teleportation_core',
         B: '#forge:circuits/basic',
-        C: 'contenttweaker:compressed_plate',
+        C: 'kubejs:compressed_iron_plate',
         D: 'mekanism:steel_casing'
     });
 });

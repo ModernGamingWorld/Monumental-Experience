@@ -38,6 +38,7 @@ const colors = [
 ];
 
 const itemsToHide = [
+    'cyclic:hopper',
     'aiotbotania:livingwood_shears',
     'aiotbotania:livingrock_shears',
     'bloodmagic:coalsand',
@@ -179,7 +180,38 @@ const itemsToHide = [
     'minecraft:infested_mossy_stone_bricks',
     'minecraft:infested_cracked_stone_bricks',
     'minecraft:infested_chiseled_stone_bricks',
-    'minecraft:bedrock'
+    'minecraft:bedrock',
+    'compactstorage:backpack_white',
+    'compactstorage:backpack_orange',
+    'compactstorage:backpack_magenta',
+    'compactstorage:backpack_light_blue',
+    'compactstorage:backpack_yellow',
+    'compactstorage:backpack_lime',
+    'compactstorage:backpack_pink',
+    'compactstorage:backpack_gray',
+    'compactstorage:backpack_light_gray',
+    'compactstorage:backpack_cyan',
+    'compactstorage:backpack_purple',
+    'compactstorage:backpack_blue',
+    'compactstorage:backpack_brown',
+    'compactstorage:backpack_green',
+    'compactstorage:backpack_red',
+    'compactstorage:backpack_black',
+    'woodenutilities:wooden_backpack',
+    'emendatusenigmatica:molten_ruby_bucket',
+    'emendatusenigmatica:ruby_block',
+    'emendatusenigmatica:ruby_gem',
+    'emendatusenigmatica:ruby_dust',
+    'emendatusenigmatica:ruby_chunk',
+    'emendatusenigmatica:ruby_cluster',
+    'emendatusenigmatica:ruby_clump',
+    'emendatusenigmatica:ruby_crystal',
+    'emendatusenigmatica:ruby_dirty_dust',
+    'emendatusenigmatica:ruby_shard',
+    'emendatusenigmatica:ruby_crushed',
+    'emendatusenigmatica:ruby_fragment',
+    'emendatusenigmatica:ruby_gravel',
+    'emendatusenigmatica:ruby_ore'
 ];
 
 const materialsToUnify = [

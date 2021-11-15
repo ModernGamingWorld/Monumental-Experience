@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
                 pattern: ["ABA", "CDC", "CCC"],
                 key: {
                     B: 'appliedenergistics2:calculation_processor',
-                    C: 'contenttweaker:compressed_plate',
+                    C: 'kubejs:compressed_iron_plate',
                     A: '#thermal:rockwool',
                     D: '#forge:chests'
                 },
@@ -62,7 +62,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "BCB", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     C: '#forge:gems/fluix',
                     B: 'appliedenergistics2:quartz_glass'
                 },
@@ -72,7 +72,7 @@ onEvent('recipes', (event) => {
                 pattern: ["ABA", "CDC", "ABA"],
                 key: {
                     A: '#forge:sheetmetals/steel',
-                    B: 'contenttweaker:compressed_plate',
+                    B: 'kubejs:compressed_iron_plate',
                     C: '#forge:gems/fluix',
                     D: 'immersiveengineering:charging_station'
                 },
@@ -82,7 +82,7 @@ onEvent('recipes', (event) => {
                 pattern: ["AAA", "ABA", "ACA"],
                 key: {
                     B: 'routerreborn:furnace',
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     C: 'appliedenergistics2:energy_acceptor'
                 },
                 result: Item.of('appliedenergistics2:vibration_chamber', 1)
@@ -90,7 +90,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "C D", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'cyclic:tank',
                     C: 'appliedenergistics2:annihilation_core',
                     D: 'appliedenergistics2:formation_core'
@@ -102,7 +102,7 @@ onEvent('recipes', (event) => {
                 key: {
                     A: '#forge:plates/enderium',
                     B: 'create:mechanical_piston',
-                    C: 'contenttweaker:compressed_plate',
+                    C: 'kubejs:compressed_iron_plate',
                     D: 'thermal:upgrade_augment_3',
                     E: 'appliedenergistics2:purified_fluix_crystal'
                 },
@@ -111,7 +111,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "C D", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'appliedenergistics2:quartz_glass',
                     C: 'appliedenergistics2:formation_core',
                     D: 'appliedenergistics2:annihilation_core'
@@ -121,7 +121,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "BCB", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'thermal:obsidian_glass',
                     C: '#forge:dusts/fluix'
                 },
@@ -130,7 +130,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "C C", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'appliedenergistics2:engineering_processor',
                     C: 'appliedenergistics2:fluix_glass_cable'
                 },
@@ -141,7 +141,7 @@ onEvent('recipes', (event) => {
                 key: {
                     A: 'appliedenergistics2:quartz_glass',
                     B: 'extendedcrafting:redstone_component',
-                    C: 'contenttweaker:compressed_plate'
+                    C: 'kubejs:compressed_iron_plate'
                 },
                 result: Item.of('appliedenergistics2:empty_storage_cell', 1)
             },
@@ -590,7 +590,7 @@ onEvent('recipes', (event) => {
                     A: 'appliedenergistics2:quartz_glass',
                     B: 'appliedenergistics2:drive',
                     C: 'appliedenergistics2:fluix_glass_cable',
-                    D: 'contenttweaker:compressed_plate',
+                    D: 'kubejs:compressed_iron_plate',
                     E: 'appliedenergistics2:logic_processor'
                 },
                 result: Item.of('appliedenergistics2:io_port', 1)
@@ -598,7 +598,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "CDE", "ABA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'appliedenergistics2:quartz_glass',
                     C: 'appliedenergistics2:annihilation_core',
                     D: 'create:mechanical_crafter',
@@ -830,7 +830,7 @@ onEvent('recipes', (event) => {
                     A: 'appliedenergistics2:quartz_glass',
                     B: 'appliedenergistics2:drive',
                     C: 'appliedenergistics2:fluix_glass_cable',
-                    D: 'contenttweaker:compressed_plate',
+                    D: 'kubejs:compressed_iron_plate',
                     E: 'appliedenergistics2:logic_processor'
                 },
                 result: Item.of('appliedenergistics2:io_port', 1)
@@ -838,7 +838,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["ABA", "CDC", "AEA"],
                 key: {
-                    A: 'contenttweaker:compressed_plate',
+                    A: 'kubejs:compressed_iron_plate',
                     B: 'appliedenergistics2:chest',
                     C: 'appliedenergistics2:fluix_glass_cable',
                     D: 'appliedenergistics2:16k_cell_component',
@@ -852,7 +852,7 @@ onEvent('recipes', (event) => {
                     A: 'thermal:obsidian_glass',
                     B: 'appliedenergistics2:fluix_glass_cable',
                     C: 'appliedenergistics2:io_port',
-                    D: 'contenttweaker:compressed_plate',
+                    D: 'kubejs:compressed_iron_plate',
                     E: 'appliedenergistics2:engineering_processor'
                 },
                 result: Item.of('appliedenergistics2:spatial_io_port', 1)
@@ -863,7 +863,7 @@ onEvent('recipes', (event) => {
                     A: 'thermal:obsidian_glass',
                     B: 'appliedenergistics2:terminal',
                     C: 'appliedenergistics2:fluix_glass_cable',
-                    D: 'contenttweaker:compressed_plate',
+                    D: 'kubejs:compressed_iron_plate',
                     E: 'appliedenergistics2:purified_fluix_crystal'
                 },
                 result: Item.of('appliedenergistics2:chest', 1)
@@ -1035,7 +1035,7 @@ onEvent('recipes', (event) => {
                 key: {
                     P: 'mekanismgenerators:solar_generator',
                     A: '#mekanism:alloys/infused',
-                    I: 'contenttweaker:compressed_plate'
+                    I: 'kubejs:compressed_iron_plate'
                 },
                 result: Item.of('mekanismgenerators:advanced_solar_generator', 1)
             },
@@ -1054,7 +1054,7 @@ onEvent('recipes', (event) => {
                 pattern: ["III", "WOW", "CFC"],
                 key: {
                     W: '#forge:plates/osmium',
-                    I: 'contenttweaker:compressed_plate',
+                    I: 'kubejs:compressed_iron_plate',
                     O: 'routerreborn:furnace',
                     C: '#forge:plates/bronze',
                     F: '#forge:circuits/basic'
@@ -1196,7 +1196,7 @@ onEvent('recipes', (event) => {
                 pattern: ["ABA", "BCB", "ABA"],
                 key: {
                     A: '#forge:treated_wood',
-                    B: 'contenttweaker:compressed_plate',
+                    B: 'kubejs:compressed_iron_plate',
                     C: 'thermal:redstone_servo'
                 },
                 result: Item.of('industrialforegoing:machine_frame_pity', 1)
