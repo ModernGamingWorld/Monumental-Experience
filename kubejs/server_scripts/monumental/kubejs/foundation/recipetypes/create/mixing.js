@@ -22,6 +22,15 @@ events.listen('recipes', (event) => {
             },
             {
                 inputs: [
+                    Fluid.of('minecraft:water', 250),
+                    '#forge:dusts/redstone',
+                    '#forge:gems/certus_quartz',
+                    '#forge:gems/quartz'
+                ],
+                output: Item.of('emendatusenigmatica:fluix_gem', 2)
+            },
+            {
+                inputs: [
                     '#forge:gems/bitumen',
                     '#forge:gravel',
                     '#forge:sand',

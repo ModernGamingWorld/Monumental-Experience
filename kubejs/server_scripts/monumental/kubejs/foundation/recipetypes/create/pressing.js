@@ -8,7 +8,7 @@ onEvent('recipes', (event) => {
             inputs: ['#minecraft:acacia_logs']
         },
         {
-            output: 'contenttweaker:compressed_plate',
+            output: 'kubejs:compressed_iron_plate',
             inputs: ['#forge:ingots/compressed_iron']
         },
         {

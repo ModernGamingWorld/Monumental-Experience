@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
         {
             input: '#forge:ingots/compressed_iron',
             input_count: 4,
-            output: { item: 'contenttweaker:compressed_plate', count: 1 },
+            output: { item: 'kubejs:compressed_iron_plate', count: 1 },
             program: 'drill'
         }
     ];

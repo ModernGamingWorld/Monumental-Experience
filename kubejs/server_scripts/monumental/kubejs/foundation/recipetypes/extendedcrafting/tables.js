@@ -65,18 +65,6 @@ onEvent('recipes', (event) => {
                 }
             },
             {
-                result: 'rftoolspower:dimensionalcell_creative',
-                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
-                key: {
-                    A: 'rftoolspower:dimensionalcell_simple',
-                    B: 'rftoolspower:dimensionalcell',
-                    C: 'rftoolspower:dimensionalcell_advanced',
-                    X: 'rftoolspower:power_core2',
-                    S: 'rftoolspower:power_core3',
-                    Z: 'rftoolsbase:machine_frame'
-                }
-            },
-            {
                 result: 'mysticalagradditions:creative_essence',
                 pattern: ['ABABA', 'BSXSB', 'AXZXA', 'BSXSB', 'ABABA'],
                 key: {
@@ -100,18 +88,6 @@ onEvent('recipes', (event) => {
                 }
             },
             {
-                result: 'immersiveengineering:capacitor_creative',
-                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
-                key: {
-                    A: 'immersiveengineering:capacitor_lv',
-                    B: 'immersiveengineering:capacitor_mv',
-                    C: 'immersiveengineering:capacitor_hv',
-                    X: 'immersiveengineering:rs_engineering',
-                    S: 'immersiveengineering:light_engineering',
-                    Z: 'immersiveengineering:heavy_engineering'
-                }
-            },
-            {
                 result: 'refinedstorage:creative_fluid_storage_disk',
                 pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
                 key: {
@@ -125,14 +101,30 @@ onEvent('recipes', (event) => {
             },
             {
                 result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}'),
-                pattern: ['ABCBA', 'BSXSB', 'CXZXC', 'BSXSB', 'ABCBA'],
+                pattern: ['AB CDC EF', 'BAB C EFE', ' BABGEFE ', 'C BAHFE C', 'DCGHIHGCD', 'C EFHAB C', ' EFEGBAB ', 'EFE C BAB', 'FE CDC BA'],
                 key: {
-                    A: 'mekanism:basic_energy_cube',
-                    B: 'mekanism:advanced_energy_cube',
-                    C: 'mekanism:elite_energy_cube',
-                    X: 'mekanism:ultimate_energy_cube',
-                    S: '#mekanism:alloys/atomic',
-                    Z: 'mekanism:steel_casing'
+                    A: Item.of('mekanism:basic_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"4000000"}]}}'),
+                    B: 'mekanism:basic_control_circuit',
+                    C: 'mekanism:elite_control_circuit',
+                    D: Item.of('mekanism:elite_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"64000000"}]}}'),
+                    E: 'mekanism:advanced_control_circuit',
+                    F: Item.of('mekanism:advanced_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"16000000"}]}}'),
+                    G: 'mekanism:ultimate_control_circuit',
+                    H: Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'),
+                    I: 'mekanism:steel_casing'
+                }
+            },
+            {
+                result: 'rftoolspower:dimensionalcell_creative',
+                pattern: ['ABCCDCCEF', 'BABCDCEFE', 'CBABDEFEC', 'CCBADFECC', 'DDDDGDDDD', 'CCEFDABCC', 'CEFEDBABC', 'EFECDCBAB', 'FECCDCCBA'],
+                key: {
+                    A: 'rftoolspower:dimensionalcell_simple',
+                    B: 'rftoolspower:power_core1',
+                    C: 'rftoolspower:power_core3',
+                    D: 'rftoolspower:dimensionalcell_advanced',
+                    E: 'rftoolspower:power_core2',
+                    F: 'rftoolspower:dimensionalcell',
+                    G: 'rftoolsbase:machine_frame'
                 }
             },
             {
