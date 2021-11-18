@@ -244,7 +244,7 @@ onEvent('recipes', (event) => {
                 "tag": "forge:plates/diamond"
             },
             "B": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "C": {
                 "item": "extendedcrafting:redstone_component"
@@ -265,7 +265,7 @@ onEvent('recipes', (event) => {
                 "tag": "forge:plates/electrum"
             },
             "B": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "C": {
                 "item": "extendedcrafting:redstone_component"
@@ -307,7 +307,7 @@ onEvent('recipes', (event) => {
                 "item": "pneumaticcraft:plastic"
             },
             "B": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "C": {
                 "tag": "forge:gems/certus_quartz"
@@ -322,7 +322,7 @@ onEvent('recipes', (event) => {
         "pattern": ["ABC", "DEC", "ABC"],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "tag": "forge:ingots/refined_glowstone"
@@ -373,7 +373,7 @@ onEvent('recipes', (event) => {
                 "item": "cyclic:tank"
             },
             "C": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "D": {
                 "item": "appliedenergistics2:formation_core"
@@ -391,7 +391,7 @@ onEvent('recipes', (event) => {
                 "tag": "forge:plates/enderium"
             },
             "B": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "C": {
                 "item": "appliedenergistics2:engineering_processor"
@@ -424,7 +424,7 @@ onEvent('recipes', (event) => {
                 "item": "rftoolsbase:machine_frame"
             },
             "j": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             }
         },
         "result": {
@@ -483,7 +483,7 @@ onEvent('recipes', (event) => {
                 "item": "rftoolsbase:machine_frame"
             },
             "E": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "F": {
                 "item": "minecraft:ender_eye"
@@ -499,7 +499,7 @@ onEvent('recipes', (event) => {
         "pattern": ["ABA", "CDC", "ACA"],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "item": "cyclic:wireless_transmitter"
@@ -675,7 +675,7 @@ onEvent('recipes', (event) => {
         "pattern": [" B ", "A A", " B "],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "item": "envirocore:laser_core"
@@ -691,7 +691,7 @@ onEvent('recipes', (event) => {
         "pattern": ["pip", "i i", "pip"],
         "key": {
             "i": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "p": {
                 "item": "envirocore:obsidian_plate"
@@ -707,7 +707,7 @@ onEvent('recipes', (event) => {
         "pattern": ["ADA", "ABA", "ACA"],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "tag": "forge:piston"
@@ -1057,7 +1057,7 @@ onEvent('recipes', (event) => {
         "pattern": ["ABA", "CDC", "AEA"],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "tag": "forge:gears/electrum"
@@ -1101,7 +1101,7 @@ onEvent('recipes', (event) => {
         "pattern": ["ABA", "CDC", "AEA"],
         "key": {
             "A": {
-                "item": "contenttweaker:compressed_plate"
+                "item": "kubejs:compressed_iron_plate"
             },
             "B": {
                 "item": "thermal:rf_coil"
