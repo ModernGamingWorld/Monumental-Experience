@@ -1,0 +1,29 @@
+{
+  "path": "mod_mysticalagradditions/soil/insanium_farmland_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "mysticalagradditions",
+    "mysticalagriculture",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "insanium_farmland_soil",
+  "lang_key": "block.mysticalagradditions.insanium_farmland",
+  "varients": [
+    {
+      "type": "block",
+      "object": "mysticalagradditions:insanium_farmland",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "wet",
+  "acidity": "slightly_acidic",
+  "nutrients": "high",
+  "growth_modifier": 1.0
+}

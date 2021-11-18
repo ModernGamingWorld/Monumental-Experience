@@ -1,0 +1,15 @@
+{
+  "path": "mod_farmersdelight/mutations/onion_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "farmersdelight",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "farmersdelight:onion_plant",
+  "parent1": "vanilla:allium_plant",
+  "parent2": "vanilla:potato_plant"
+}

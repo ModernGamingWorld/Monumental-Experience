@@ -1,5 +1,6 @@
 "Enable Wither" = true
 "Enable Dragon" = true
+"Enable Elder Guardian" = true
 
 [Wither]
 	#Handles various small features, such as the explosion
@@ -20,7 +21,7 @@
 		#How much blocks from wither will be scanned for players to check for difficulty
 		#Range: > 16
 		"Spawn Radius Player Check" = 128
-		#If true and there are more players around the Wither, the Wither will have his stats based on the sum of both players difficulty. If false, the Wither stats will be based on the average of the difficulty of the players around
+		#If false and there's more than 1 player around the Wither, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Spawned Wither Difficulty" = true
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
@@ -30,6 +31,11 @@
 		"Starting Difficulty" = 0
 		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
 		"Entity Blacklist" = ["botania:pink_wither"]
+		#Percentage bonus difficulty added to the Wither when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 24.0
+		"Bonus Difficulty per Player" = 0.25
+		#Set to false to disable the first Wither summoned message.
+		"Show First Summoned Wither Message" = true
 
 	#Handles various small features, such as the explosion
 	[Wither.Misc]
@@ -201,7 +207,7 @@
 
 	#How difficulty is handled for the Dragon.
 	[Dragon."Difficulty Settings"]
-		#If true and there are more players around the Dragon, she will have his stats based on the sum of both players' difficulty. If false, the Dragon stats will be based on the average of the difficulty of the players around.
+		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Killed Dragons Difficulty" = true
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
@@ -209,6 +215,11 @@
 		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
 		#Range: > 0
 		"Starting Difficulty" = 0
+		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 24.0
+		"Bonus Difficulty per Player" = 0.25
+		#Set to false to disable the first Dragon killed message.
+		"Show First Killed Dragon Message" = true
 
 	#Bonus Health and Bonus regeneration.
 	[Dragon.Health]
@@ -218,9 +229,12 @@
 		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty". Set to 0 to disable bonus health regeneration. This doesn't affect the crystal regeneration of the Ender Dragon.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Maximum Bonus Regeneration" = 1.0
-		#How much health will the Ender Dragon regen per difficulty. This doesn't affect the crystal regeneration of the Ender Dragon.
+		#How much health will the Ender Dragon regen per difficulty. This is added to the noaml Crystal regeneration.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Regeneration per Difficulty" = 0.025
+		#How much health will the Ender Dragon regen per difficulty each second whenever she's attached to a Crystal. This is added to the normal Crystal regen.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Crystal Regeneration" = 0.05
 
 	#Makes the dragon hit harder in various different ways
 	[Dragon.Attack]
@@ -343,9 +357,6 @@
 		#Max number of bonus crystals that can spawn inside the towers.
 		#Range: 0 ~ 10
 		"Max Bonus Crystals" = 5
-		#Chance everytime the dragon is hit (when below 20% of health) to trigger a Crystal respawn Phase. The phase can only happen once. 1 means that the dragon will respawn crystals as soon as she's hit when below 20% health.
-		#Range: 0.0 ~ 1.0
-		"Crystal Respawn Chance" = 0.05
 		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
 		#Range: 0.0 ~ 100.0
 		"Crystal Respawn Multiplier" = 0.15
@@ -354,4 +365,43 @@
 		#When respawning Crystals, chance for the crystal to be spawned inside a Tower instead of on top
 		#Range: 0.0 ~ 1.0
 		"Crystal Respawn Inside Tower Chance" = 0.005
+		#Everytime the dragon is hit (when below 20% of health) there's a chance to to trigger a Crystal respawn Phase. The phase can only happen once. The chance is 0% when health >= 20% and 100% when health <= 5%.
+		"Enable crystal respawn" = true
+
+["Elder Guardian"]
+	#Bonus Health and Health regeneration.
+	"Enable Health" = true
+	#Player's not able to break blocks while in range of Elder Guardians.
+	"Enable Adventure" = true
+	#Handles the Damage Resistances
+	"Enable Resistances" = true
+	#More damage and attack speed based off Elder Guardians Defeated
+	"Enable Attack" = true
+
+	#Bonus Health and Health regeneration.
+	["Elder Guardian".Health]
+		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus per Difficulty" = 0.5
+		#Adds absorption health to Elder Guradians (health that doesn't regen)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Absorption Health" = 40.0
+		#Health Regen per second
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Regen" = 0.5
+
+	#Handles the Damage Resistances
+	["Elder Guardian".Resistances]
+		#Percentage Damage Reduction for each Elder Guardian Defeated.
+		#Range: 0.0 ~ 1.0
+		"Damage Reduction per Elder Guardian Defeated" = 0.3
+
+	#More damage and attack speed based off Elder Guardians Defeated
+	["Elder Guardian".Attack]
+		#Percentage Bonus damage per defeated Elder Guardian.
+		#Range: 0.0 ~ 1.0
+		"Bonus Damage per Elder Guardian Defeated" = 0.2
+		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
+		#Range: 0 ~ 60
+		"Attack Duration Reduction per Elder Guardian Defeated" = 25
 

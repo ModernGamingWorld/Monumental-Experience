@@ -1,0 +1,27 @@
+{
+  "path": "vanilla/soils/mycelium_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "mycelium_soil",
+  "lang_key": "agricraft.soil.mycelium.name",
+  "varients": [
+    {
+      "type": "block",
+      "object": "minecraft:mycelium",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "damp",
+  "acidity": "neutral",
+  "nutrients": "low",
+  "growth_modifier": 0.8
+}

@@ -17,3 +17,7 @@
 	#Range: > 3
 	maxRowsStretch = 2147483647
 
+[cover]
+	#When true all the possible covers will be added to JEI (Game restart required)
+	showAllCoversInJEI = false
+

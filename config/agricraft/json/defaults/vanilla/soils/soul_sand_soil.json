@@ -1,0 +1,27 @@
+{
+  "path": "vanilla/soils/soul_sand_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "soul_sand_soil",
+  "lang_key": "agricraft.soil.soul_sand.name",
+  "varients": [
+    {
+      "type": "block",
+      "object": "minecraft:soul_sand",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "arid",
+  "acidity": "neutral",
+  "nutrients": "high",
+  "growth_modifier": 0.8
+}

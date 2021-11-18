@@ -1,0 +1,15 @@
+{
+  "path": "mod_upgrade_aquatic/mutations/tongue_kelp_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "upgrade_aquatic",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "upgrade_aquatic:tongue_kelp_plant",
+  "parent1": "vanilla:kelp_plant",
+  "parent2": "vanilla:poppy_plant"
+}

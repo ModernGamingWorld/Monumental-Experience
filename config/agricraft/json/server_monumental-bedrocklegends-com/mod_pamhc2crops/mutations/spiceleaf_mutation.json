@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/spiceleaf_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:spiceleaf_plant",
+  "parent1": "pamhc2crops:tealeaf_plant",
+  "parent2": "pamhc2crops:chilipepper_plant"
+}

@@ -1,0 +1,139 @@
+{
+  "path": "mod_atmospheric/plants/water_hyacinth_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "atmospheric",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "atmospheric:water_hyacinth_plant",
+  "plant_lang_key": "block.atmospheric.water_hyacinth",
+  "seed_lang_key": "agricraft.plant.atmospheric_water_hyacinth.seeds",
+  "desc_lang_key": "agricraft.plant.atmospheric_water_hyacinth.desc",
+  "seed_items": [],
+  "stages": [
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 2,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "type": "item",
+        "object": "minecraft:purple_dye",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": [
+      {
+        "min": 0,
+        "max": 1,
+        "chance": 0.5,
+        "required": true,
+        "type": "item",
+        "object": "atmospheric:water_hyacinth",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "flooded",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 5,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "autumn"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:water",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "cross",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top0",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom0"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top0",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom0"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top0",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom0"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top1",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom1"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top1",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom1"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top2",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom2"
+      ],
+      [
+        "agricraft:plant/atmospheric/water_hyacinth_top2",
+        "agricraft:plant/atmospheric/water_hyacinth_bottom2"
+      ],
+      [
+        "atmospheric:block/water_hyacinth_top",
+        "atmospheric:block/water_hyacinth_bottom"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/atmospheric/water_hyacinth",
+  "seed_model": "agricraft:seed/atmospheric/water_hyacinth",
+  "particle_effects": []
+}

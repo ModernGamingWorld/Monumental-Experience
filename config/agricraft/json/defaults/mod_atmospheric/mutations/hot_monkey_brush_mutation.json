@@ -1,0 +1,15 @@
+{
+  "path": "mod_atmospheric/mutations/hot_monkey_brush_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "atmospheric",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "atmospheric:hot_monkey_brush_plant",
+  "parent1": "atmospheric:warm_monkey_brush_plant",
+  "parent2": "vanilla:bamboo_plant"
+}

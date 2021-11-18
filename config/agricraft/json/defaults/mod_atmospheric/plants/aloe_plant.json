@@ -1,0 +1,165 @@
+{
+  "path": "mod_atmospheric/plants/aloe_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "atmospheric",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "atmospheric:aloe_plant",
+  "plant_lang_key": "block.atmospheric.aloe_vera",
+  "seed_lang_key": "item.atmospheric.aloe_kernels",
+  "desc_lang_key": "agricraft.plant.atmospheric_aloe_vera.desc",
+  "seed_items": [
+    {
+      "overridePlanting": true,
+      "type": "item",
+      "object": "atmospheric:aloe_kernels",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "stages": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    22,
+    24,
+    30
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 2,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "type": "item",
+        "object": "atmospheric:yellow_blossoms",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 2,
+        "chance": 0.7,
+        "required": true,
+        "type": "item",
+        "object": "atmospheric:aloe_leaves",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "arid",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_acidity": {
+      "condition": "neutral",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "low",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.2
+    },
+    "min_light": 10,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [
+    "agricraft:thorns"
+  ],
+  "texture": {
+    "render_type": "cross",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "atmospheric:block/aloe_vera_stage0"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage1"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage2"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage3"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage4"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage5"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage6_top",
+        "atmospheric:block/aloe_vera_stage6_bottom"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage7_top",
+        "atmospheric:block/aloe_vera_stage7_bottom"
+      ],
+      [
+        "atmospheric:block/aloe_vera_stage8_top",
+        "atmospheric:block/aloe_vera_stage8_bottom"
+      ]
+    ]
+  },
+  "seed_texture": "atmospheric:item/aloe_kernels",
+  "seed_model": "atmospheric:item/aloe_kernels",
+  "particle_effects": [
+    {
+      "particle": "atmospheric:aloe_blossom",
+      "delta_x": 0.6,
+      "delta_y": 2.0,
+      "delta_z": 0.45,
+      "probability": 0.1,
+      "stages": [
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+}

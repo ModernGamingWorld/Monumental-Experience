@@ -1,0 +1,120 @@
+{
+  "path": "vanilla/plants/sea_grass_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "vanilla:sea_grass_plant",
+  "plant_lang_key": "agricraft.plant.sea_grass.name",
+  "seed_lang_key": "agricraft.plant.sea_grass.seed",
+  "desc_lang_key": "agricraft.plant.sea_grass.desc",
+  "seed_items": [],
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "tier": 1,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.75,
+        "required": true,
+        "type": "item",
+        "object": "minecraft:seagrass",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "watery",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.4
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 5,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:water",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "hash",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/sea_grass1"
+      ],
+      [
+        "agricraft:plant/sea_grass1"
+      ],
+      [
+        "agricraft:plant/sea_grass2"
+      ],
+      [
+        "agricraft:plant/sea_grass2"
+      ],
+      [
+        "agricraft:plant/sea_grass2"
+      ],
+      [
+        "agricraft:plant/sea_grass3"
+      ],
+      [
+        "agricraft:plant/sea_grass3"
+      ],
+      [
+        "minecraft:block/seagrass"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/sea_grass",
+  "seed_model": "agricraft:seed/sea_grass",
+  "particle_effects": []
+}

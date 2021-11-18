@@ -1,0 +1,118 @@
+{
+  "path": "mod_botania/plants/purple_flower_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "botania",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "botania:purple_flower_plant",
+  "plant_lang_key": "agricraft.plant.botania_purple_flower.name",
+  "seed_lang_key": "agricraft.plant.botania_purple_flower.seed",
+  "desc_lang_key": "agricraft.plant.botania_purple_flower.desc",
+  "seed_items": [],
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.5,
+  "growth_bonus": 0.025,
+  "tier": 4,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 4,
+        "chance": 1.0,
+        "required": true,
+        "type": "item",
+        "object": "botania:purple_petal",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "damp",
+      "type": "equal",
+      "tolerance_factor": 0.15
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "very_high",
+      "type": "equal",
+      "tolerance_factor": 0.15
+    },
+    "min_light": 12,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "plus",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/botania/purple_flower1"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower1"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower1"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower2"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower2"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower3"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower3"
+      ],
+      [
+        "agricraft:plant/botania/purple_flower4"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/botania/purple_flower",
+  "seed_model": "agricraft:seed/botania/purple_flower",
+  "particle_effects": []
+}

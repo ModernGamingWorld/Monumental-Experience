@@ -1,0 +1,6 @@
+
+#Trait configs
+[traits]
+	# Damage bonus cap for weapons with Vengeful trait. Use 0 for no cap.
+	vengefulDamageCap = 0
+

@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/cucumber_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:cucumber_plant",
+  "parent1": "pamhc2crops:peas_plant",
+  "parent2": "pamhc2crops:okra_plant"
+}
