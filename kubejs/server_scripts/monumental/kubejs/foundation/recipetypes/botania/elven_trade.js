@@ -271,12 +271,6 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:stone_pickaxe' }, { tag: 'forge:bone_block' }],
-            output: {
-                item: 'forbidden_arcanus:bone_pickaxe'
-            }
-        },
-        {
             inputs: [{ item: 'minecraft:diamond_pickaxe' }, { tag: 'forge:ingots/obsidian' }],
             output: {
                 item: 'forbidden_arcanus:obsidian_pickaxe'
@@ -568,12 +562,6 @@ onEvent('recipes', (event) => {
             inputs: [{ item: 'minecraft:stone_axe' }, { tag: 'forge:bones' }],
             output: {
                 item: 'druidcraft:bone_axe'
-            }
-        },
-        {
-            inputs: [{ item: 'minecraft:stone_axe' }, { tag: 'forge:bone_block' }],
-            output: {
-                item: 'forbidden_arcanus:bone_axe'
             }
         },
         {
@@ -949,12 +937,6 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:stone_shovel' }, { tag: 'forge:bone_block' }],
-            output: {
-                item: 'forbidden_arcanus:bone_shovel'
-            }
-        },
-        {
             inputs: [{ item: 'minecraft:diamond_shovel' }, { tag: 'forge:ingots/obsidian' }],
             output: {
                 item: 'forbidden_arcanus:obsidian_shovel'
@@ -1273,12 +1255,6 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:stone_hoe' }, { tag: 'forge:bone_block' }],
-            output: {
-                item: 'forbidden_arcanus:bone_hoe'
-            }
-        },
-        {
             inputs: [{ item: 'minecraft:diamond_hoe' }, { tag: 'forge:ingots/obsidian' }],
             output: {
                 item: 'forbidden_arcanus:obsidian_hoe'
@@ -1579,12 +1555,6 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:stone_sword' }, { tag: 'forge:bone_block' }],
-            output: {
-                item: 'forbidden_arcanus:bone_sword'
-            }
-        },
-        {
             inputs: [{ item: 'minecraft:diamond_sword' }, { tag: 'forge:ingots/obsidian' }],
             output: {
                 item: 'forbidden_arcanus:obsidian_sword'
@@ -1795,7 +1765,7 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'contenttweaker:compressed_plate' }],
+            inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'kubejs:compressed_iron_plate' }],
             output: {
                 item: 'pneumaticcraft:compressed_iron_chestplate'
             }
@@ -2059,7 +2029,7 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'contenttweaker:compressed_plate' }],
+            inputs: [{ item: 'minecraft:iron_helmet' }, { item: 'kubejs:compressed_iron_plate' }],
             output: {
                 item: 'pneumaticcraft:compressed_iron_helmet'
             }
@@ -2311,7 +2281,7 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'contenttweaker:compressed_plate' }],
+            inputs: [{ item: 'minecraft:iron_leggings' }, { item: 'kubejs:compressed_iron_plate' }],
             output: {
                 item: 'pneumaticcraft:compressed_iron_leggings'
             }
@@ -2563,7 +2533,7 @@ onEvent('recipes', (event) => {
             }
         },
         {
-            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'contenttweaker:compressed_plate' }],
+            inputs: [{ item: 'minecraft:iron_boots' }, { item: 'kubejs:compressed_iron_plate' }],
             output: {
                 item: 'pneumaticcraft:compressed_iron_boots'
             }

@@ -1,9 +1,9 @@
 {
 	id: "0000000000000A89"
 	group: "570AEC24DD8505B2"
-	order_index: 4
+	order_index: 5
 	filename: "immersive_engineering"
-	title: "&6Immersive Engineering"
+	title: "&9Immersive Engineering"
 	icon: "immersiveengineering:workbench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

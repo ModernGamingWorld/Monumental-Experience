@@ -46,12 +46,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001362"
+					id: "36232701A3C2AF14"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001363"
+					id: "7510C4B0CC9314B4"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -169,12 +169,12 @@
 			}]
 			rewards: [
 				{
-					id: "000000000000134A"
+					id: "3408E5C4B9DAA748"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "000000000000134B"
+					id: "13C6D8E8DC963AA2"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -198,16 +198,21 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [
 				{
-					id: "0000000000001342"
+					id: "1A71D39E1DB1479B"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001343"
+					id: "09A3DFD9315283BF"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -235,12 +240,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001344"
+					id: "1FEC327B0FEE406D"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001345"
+					id: "45609624B020DA41"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -268,12 +273,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001346"
+					id: "7ADF0B659305757F"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001347"
+					id: "36471F5BC683C7E1"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -301,12 +306,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001348"
+					id: "32AAB02D315980C5"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001349"
+					id: "0C44B3685A999BC4"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -335,12 +340,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001340"
+					id: "7B23F69401EDDBC8"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001341"
+					id: "5049E4FB373E13FE"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -386,12 +391,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001364"
+					id: "3ABAD8CA5D1543C6"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001365"
+					id: "77C171EAF955173C"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -409,12 +414,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001358"
+					id: "241216665BD8FADA"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001359"
+					id: "30910B76D2C76608"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -457,12 +462,12 @@
 			}]
 			rewards: [
 				{
-					id: "000000000000135A"
+					id: "58E7E434188F46EC"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "000000000000135B"
+					id: "039154ED6ABF9871"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -481,12 +486,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001352"
+					id: "28B6E434FDF237B1"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001353"
+					id: "0D9FF53C4B3F079E"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -505,12 +510,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001350"
+					id: "15E8E0788ACC38BF"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001351"
+					id: "68F7DE2BEEF4615E"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -529,12 +534,12 @@
 			}]
 			rewards: [
 				{
-					id: "000000000000134E"
+					id: "7FE3509C6DDFFF4F"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "000000000000134F"
+					id: "276F503857EFC00D"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -554,12 +559,12 @@
 			}]
 			rewards: [
 				{
-					id: "000000000000134C"
+					id: "6207CB4CCE3C468E"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "000000000000134D"
+					id: "2B095A6FEA0ABCB1"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -579,12 +584,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001356"
+					id: "378447D857EDE1FA"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001357"
+					id: "5F271BDB8FAD7A0E"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -604,12 +609,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001354"
+					id: "625B41132654421E"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001355"
+					id: "526FBE00FB02E04C"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -629,12 +634,12 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000001360"
+					id: "17C1A05288AEE758"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000001361"
+					id: "65DA6E09C25C0706"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -654,12 +659,12 @@
 			}]
 			rewards: [
 				{
-					id: "000000000000135C"
+					id: "73812D33A546B45D"
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "000000000000135D"
+					id: "453E912B4D7C9FC7"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}

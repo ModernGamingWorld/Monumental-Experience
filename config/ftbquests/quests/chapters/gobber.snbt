@@ -59,6 +59,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [
@@ -1667,6 +1672,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [
@@ -2417,6 +2427,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [
@@ -2536,6 +2551,11 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
 					}
 				}
 			}]

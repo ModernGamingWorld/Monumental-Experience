@@ -1,9 +1,9 @@
 {
-	id: "0000000000000A27"
+	id: "6D99A1049F28674F"
 	group: "6B2D545E7A3D7242"
 	order_index: 3
 	filename: "reliquary"
-	title: "&9Reliquary"
+	title: "&6Reliquary"
 	icon: {
 		id: "xreliquary:mercy_cross"
 		Count: 1b
@@ -17,9 +17,9 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			id: "0000000000000A28"
+			id: "777D3AD4238D67F1"
 			tasks: [{
-				id: "0000000000000A29"
+				id: "48CB6E5BB844DAFD"
 				type: "item"
 				item: {
 					id: "xreliquary:mercy_cross"
@@ -38,9 +38,9 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			id: "0000000000000A2A"
+			id: "12716CCE86843DC5"
 			tasks: [{
-				id: "0000000000000A2D"
+				id: "43E973707DA57955"
 				type: "item"
 				item: "xreliquary:destruction_catalyst"
 			}]
@@ -48,9 +48,9 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			id: "0000000000000A2E"
+			id: "59B26797208079AD"
 			tasks: [{
-				id: "0000000000000A2F"
+				id: "37A38DE764DB126B"
 				type: "item"
 				item: {
 					id: "xreliquary:ender_staff"
@@ -77,9 +77,9 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			id: "0000000000000A30"
+			id: "4C0CD098FCD4A87B"
 			tasks: [{
-				id: "0000000000000A33"
+				id: "5F935E4CF08C0FCC"
 				type: "item"
 				item: "xreliquary:glacial_staff"
 			}]
@@ -92,9 +92,9 @@
 		{
 			x: -2.0d
 			y: -4.0d
-			id: "0000000000000A61"
+			id: "149E12023C348322"
 			tasks: [{
-				id: "0000000000000A62"
+				id: "1A700577B83D24B6"
 				type: "item"
 				item: {
 					id: "xreliquary:harvest_rod"
@@ -121,9 +121,9 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			id: "0000000000000A63"
+			id: "3B1FDBD5A81F222E"
 			tasks: [{
-				id: "0000000000000A64"
+				id: "7D3733E026A79979"
 				type: "item"
 				item: "xreliquary:hero_medallion"
 			}]
@@ -136,9 +136,9 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			id: "0000000000000A6A"
+			id: "49CF77206144D632"
 			tasks: [{
-				id: "0000000000000A6B"
+				id: "415696311E641F43"
 				type: "item"
 				item: "xreliquary:holy_hand_grenade"
 			}]
@@ -159,7 +159,7 @@
 					item: "xreliquary:infernal_chalice"
 				}
 				{
-					id: "0000000000000A7C"
+					id: "525A3E2421E56990"
 					type: "item"
 					item: "xreliquary:emperor_chalice"
 				}
@@ -384,7 +384,15 @@
 			tasks: [{
 				id: "0000000000000AD1"
 				type: "item"
-				item: "xreliquary:witch_hat"
+				item: {
+					id: "xreliquary:witch_hat"
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
 			}]
 			rewards: [{
 				id: "00000000000011EF"
@@ -457,9 +465,9 @@
 		{
 			x: 0.0d
 			y: -6.0d
-			id: "0000000000000ADB"
+			id: "53655F2C60635C67"
 			tasks: [{
-				id: "0000000000000ADC"
+				id: "63BAEDA150806248"
 				type: "item"
 				item: "xreliquary:apothecary_cauldron"
 			}]
@@ -472,9 +480,9 @@
 		{
 			x: 8.0d
 			y: -6.0d
-			id: "0000000000000ADD"
+			id: "7B09BA50D55F0FCD"
 			tasks: [{
-				id: "0000000000000ADE"
+				id: "06621B4CF7BB6CD2"
 				type: "item"
 				item: "xreliquary:apothecary_mortar"
 			}]
@@ -487,9 +495,9 @@
 		{
 			x: 12.0d
 			y: -6.0d
-			id: "0000000000000ADF"
+			id: "5AFFACEBDE7748D5"
 			tasks: [{
-				id: "0000000000000AE0"
+				id: "0C362089F7521458"
 				type: "item"
 				item: "xreliquary:fertile_lily_pad"
 			}]
@@ -502,9 +510,9 @@
 		{
 			x: -4.0d
 			y: -2.0d
-			id: "0000000000000AE1"
+			id: "0B46D4AD87572C57"
 			tasks: [{
-				id: "0000000000000AE2"
+				id: "3D3FFF0EDE4E7488"
 				type: "item"
 				item: "xreliquary:interdiction_torch"
 			}]
@@ -517,9 +525,9 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			id: "0000000000000AE3"
+			id: "0705E999C51A014B"
 			tasks: [{
-				id: "0000000000000AE4"
+				id: "7FD0943970C54B56"
 				type: "item"
 				item: "xreliquary:wraith_node"
 			}]

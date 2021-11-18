@@ -1,5 +1,5 @@
 {
-	id: "0000000000000A86"
+	id: "3A9B2F0E39646AEB"
 	group: "4814F40AB34427B6"
 	order_index: 4
 	filename: "forbidden__arcanus"
@@ -13,9 +13,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000733"]
-			id: "0000000000000A87"
+			id: "7A3548DE49290357"
 			tasks: [{
-				id: "0000000000000A88"
+				id: "0EFC30344E297705"
 				type: "item"
 				item: "forbidden_arcanus:forbiddenmicon"
 			}]

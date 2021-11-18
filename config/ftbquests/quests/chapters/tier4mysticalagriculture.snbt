@@ -20,7 +20,7 @@
 				item: "mysticalagradditions:imperium_coal"
 			}]
 			rewards: [{
-				id: "00000000000013BE"
+				id: "06768974B74EA136"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]
@@ -135,6 +135,11 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
 					}
 				}
 			}]
@@ -1015,7 +1020,7 @@
 			dependencies: ["0000000000000D17"]
 			id: "00000000000000D9"
 			tasks: [{
-				id: "00000000000013A1"
+				id: "0F777EC5B158A80D"
 				type: "item"
 				item: "mysticalagriculture:hop_graphite_seeds"
 			}]
@@ -1030,7 +1035,7 @@
 			y: 4.0d
 			shape: "gear"
 			dependencies: ["0000000000000D17"]
-			id: "00000000000013A2"
+			id: "056E3000A2CE99F8"
 			tasks: [{
 				id: "0000000000000177"
 				type: "item"
@@ -1169,10 +1174,7 @@
 			x: -9.0d
 			y: 8.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000010A"
-				"00000000000013A2"
-			]
+			dependencies: ["000000000000010A"]
 			id: "000000000000149F"
 			tasks: [{
 				id: "00000000000014A0"

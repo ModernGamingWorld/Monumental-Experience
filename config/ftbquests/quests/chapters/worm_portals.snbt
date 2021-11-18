@@ -1,9 +1,9 @@
 {
 	id: "07F4CB7A9E18FF7D"
 	group: "570AEC24DD8505B2"
-	order_index: 13
+	order_index: 12
 	filename: "worm_portals"
-	title: "&9Worm Portals"
+	title: "&6Worm Portals"
 	icon: "wormhole:portal_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

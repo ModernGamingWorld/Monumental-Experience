@@ -3,7 +3,7 @@
 	group: "6B2D545E7A3D7242"
 	order_index: 2
 	filename: "ice_and_fire"
-	title: "&6Ice and Fire"
+	title: "&9Ice and Fire"
 	icon: "iceandfire:dragon_skull_fire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -752,6 +752,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -810,6 +815,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -870,6 +880,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -928,6 +943,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -988,6 +1008,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -1046,6 +1071,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1106,6 +1136,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -1164,6 +1199,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1224,6 +1264,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -1282,6 +1327,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1342,6 +1392,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -1400,6 +1455,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1680,6 +1740,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -1738,6 +1803,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1968,6 +2038,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -2026,6 +2101,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -2083,6 +2163,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -2195,6 +2280,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [{
@@ -2218,6 +2308,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [{
@@ -2240,6 +2335,11 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
 					}
 				}
 			}]
@@ -3390,6 +3490,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -3447,6 +3552,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -3506,6 +3616,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -3563,6 +3678,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -3622,6 +3742,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -3680,6 +3805,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{
@@ -3737,6 +3867,11 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}

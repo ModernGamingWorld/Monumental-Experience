@@ -1,5 +1,17 @@
 
 [world_gen]
+	#Which dimensions ores should spawn in? [example: ["minecraft:overworld"], default empty allows all dimensions]
+	ore_whitelist = []
+	#Which dimensions ores shouldn't spawn in? [example: ["minecraft:overworld"], default empty allows all dimensions]
+	ore_blacklist = []
+	#Which dimensions trees should spawn in? [example: ["minecraft:the_end"], default empty allows all dimensions]
+	tree_whitelist = []
+	#Which dimensions trees shouldn't spawn in? [example: ["minecraft:the_end"], empty allows all dimensions]
+	tree_blacklist = ["minecraft:the_end"]
+	#Which dimensions nipa structures should spawn in? [example: ["minecraft:the_end"], default empty allows all dimensions]
+	nipa_whitelist = []
+	#Which dimensions nipa structures  shouldn't spawn in? [example: ["minecraft:the_end"], empty allows all dimensions]
+	nipa_blacklist = ["minecraft:the_end"]
 
 	[world_gen.arcane_crystal]
 		#Generate Arcane Crystal Ore? [default: true]
@@ -176,8 +188,8 @@
 [enchantments]
 
 	[enchantments.indestructible]
-		#Should the item be fully repaired after applying the Indestructible enchantment [default: true]
-		fully_repair_item = true
+		#Should the item be repaired after applying the Indestructible enchantment [default: true]
+		repair_item = true
 
 [aureal]
 	#Chance that an entity spawns as Aureal Entity [default: 0.25]

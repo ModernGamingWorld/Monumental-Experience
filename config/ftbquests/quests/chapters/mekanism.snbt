@@ -1135,13 +1135,18 @@
 					}
 				}
 				{
-					id: "0000000000000A85"
+					id: "39DF309F5D10D0FC"
 					type: "item"
 					item: {
 						id: "mekanism:scuba_mask"
 						Count: 1b
 						tag: {
 							HideFlags: 2
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
 						}
 					}
 				}
@@ -1571,7 +1576,7 @@
 			y: 3.5d
 			shape: "gear"
 			dependencies: ["0000000000001421"]
-			id: "0000000000000A76"
+			id: "502B22E0F3AFA07A"
 			tasks: [{
 				id: "0000000000001424"
 				type: "item"
@@ -1588,9 +1593,9 @@
 			y: 1.5d
 			shape: "gear"
 			dependencies: ["0000000000001421"]
-			id: "0000000000000A78"
+			id: "749D09BA84E148BE"
 			tasks: [{
-				id: "0000000000000A79"
+				id: "11E5BF235BD41FCC"
 				type: "item"
 				item: "mekanism:logistical_sorter"
 			}]
@@ -1605,9 +1610,9 @@
 			y: 5.5d
 			shape: "gear"
 			dependencies: ["0000000000001798"]
-			id: "0000000000000A7A"
+			id: "730205BB1D0EACBF"
 			tasks: [{
-				id: "0000000000000A7B"
+				id: "31B6173B9F20648D"
 				type: "item"
 				item: "mekanismgenerators:turbine_valve"
 				count: 2L
@@ -1631,6 +1636,11 @@
 					Count: 1b
 					tag: {
 						HideFlags: 2
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
 					}
 				}
 			}]

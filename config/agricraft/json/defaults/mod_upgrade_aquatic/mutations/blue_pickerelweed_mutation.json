@@ -1,0 +1,15 @@
+{
+  "path": "mod_upgrade_aquatic/mutations/blue_pickerelweed_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "upgrade_aquatic",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "upgrade_aquatic:blue_pickerelweed_plant",
+  "parent1": "vanilla:kelp_plant",
+  "parent2": "vanilla:cornflower_plant"
+}

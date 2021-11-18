@@ -92,6 +92,11 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{

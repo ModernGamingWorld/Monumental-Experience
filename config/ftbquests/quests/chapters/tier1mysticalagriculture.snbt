@@ -104,6 +104,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [{
@@ -412,7 +417,7 @@
 			dependencies: ["0000000000000861"]
 			id: "00000000000014CC"
 			tasks: [{
-				id: "00000000000013DA"
+				id: "7BB286BBDE2DEC21"
 				type: "item"
 				item: "mysticalagriculture:inferium_block"
 			}]
@@ -422,7 +427,7 @@
 			y: 6.0d
 			shape: "gear"
 			dependencies: ["0000000000000884"]
-			id: "00000000000013C4"
+			id: "023B3FB3992C3127"
 			tasks: [{
 				id: "00000000000014CD"
 				type: "item"
@@ -440,9 +445,9 @@
 			y: 6.0d
 			shape: "gear"
 			dependencies: ["0000000000000882"]
-			id: "00000000000013DC"
+			id: "6FF9E817A3F138F5"
 			tasks: [{
-				id: "00000000000013DD"
+				id: "6F4EC93FC29C7A08"
 				type: "item"
 				item: "mysticalagriculture:dirt_essence"
 				count: 8L

@@ -1,9 +1,9 @@
 {
 	id: "00000000000009B8"
 	group: "570AEC24DD8505B2"
-	order_index: 10
+	order_index: 11
 	filename: "rftoolscontrol"
-	title: "&6Rftools Control"
+	title: "&9Rftools Control"
 	icon: "rftoolscontrol:graphics_card"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -271,7 +271,7 @@
 			y: 3.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009CF"
+			id: "1E0203E4757F9B9D"
 			tasks: [{
 				id: "00000000000009D0"
 				type: "item"
@@ -319,9 +319,9 @@
 			y: 1.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009D3"
+			id: "665A23F7F7869FF4"
 			tasks: [{
-				id: "00000000000009D4"
+				id: "3B8B7C552AFDF136"
 				type: "item"
 				item: "rftoolscontrol:program_card"
 			}]
@@ -343,9 +343,9 @@
 			y: 4.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009D5"
+			id: "69870F57D4C210E3"
 			tasks: [{
-				id: "00000000000009D6"
+				id: "1CCF6191D2119BD6"
 				type: "item"
 				item: {
 					id: "rftoolscontrol:variable_module"
@@ -373,9 +373,9 @@
 			y: 4.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009D7"
+			id: "18A6FC3B52E1172F"
 			tasks: [{
-				id: "00000000000009D8"
+				id: "098B50B0D512EC9D"
 				type: "item"
 				item: {
 					id: "rftoolscontrol:interaction_module"
@@ -403,9 +403,9 @@
 			y: 3.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009D9"
+			id: "174E5E6003FBB1A1"
 			tasks: [{
-				id: "00000000000009DA"
+				id: "2A3189EF48A38E5A"
 				type: "item"
 				item: {
 					id: "rftoolscontrol:console_module"
@@ -433,9 +433,9 @@
 			y: 3.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009DB"
+			id: "7DF7022E2330D1A4"
 			tasks: [{
-				id: "00000000000009DC"
+				id: "1D0F1E0CC432A04F"
 				type: "item"
 				item: {
 					id: "rftoolscontrol:vectorart_module"
@@ -463,9 +463,9 @@
 			y: 1.5d
 			shape: "gear"
 			dependencies: ["00000000000009BF"]
-			id: "00000000000009DD"
+			id: "6964B576CED92543"
 			tasks: [{
-				id: "00000000000009DE"
+				id: "1DF6ECF61EB668C5"
 				type: "item"
 				item: "rftoolscontrol:tablet_processor"
 			}]

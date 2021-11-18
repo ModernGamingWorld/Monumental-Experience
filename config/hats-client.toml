@@ -18,7 +18,7 @@
 	#Range: > 1
 	guiAnimationTime = 10
 	#Have we shown the GUI tutorial? (Set to true to skip it)
-	shownTutorial = false
+	shownTutorial = true
 	#Enable the New Hat toast?
 	newHatToast = true
 	#The Fancy Hat Selector GUI hides the game GUI. This disables toast rendering. Force the toast render after our UI renders?

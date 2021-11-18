@@ -94,6 +94,11 @@
 						id: "overloaded:multi_helmet"
 						Count: 1b
 						tag: { }
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
 					}
 				}
 				{

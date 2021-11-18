@@ -3,7 +3,7 @@
 	group: "5D8921CB40569CE2"
 	order_index: 0
 	filename: "the_nether"
-	title: "&6The Nether"
+	title: "&9The Nether"
 	icon: "minecraft:netherrack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -31,12 +31,19 @@
 				entity: "minecraft:wither"
 				value: 5L
 			}]
-			rewards: [{
-				id: "700110A2B9CB9EF6"
-				type: "item"
-				item: "lootbagmod:lootbag"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "700110A2B9CB9EF6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 5
+				}
+				{
+					id: "72B915C2CD02C5E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -49,11 +56,18 @@
 				entity: "minecraft:magma_cube"
 				value: 20L
 			}]
-			rewards: [{
-				id: "41A564DCFC9CAB5D"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "41A564DCFC9CAB5D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "25BB471A6F48FA79"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -66,11 +80,18 @@
 				entity: "minecraft:zombified_piglin"
 				value: 50L
 			}]
-			rewards: [{
-				id: "20ECA30FCEAE11E9"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "20ECA30FCEAE11E9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "48DF1301C1E503C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -83,11 +104,18 @@
 				entity: "minecraft:wither_skeleton"
 				value: 30L
 			}]
-			rewards: [{
-				id: "17FCFA81690C0A03"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "17FCFA81690C0A03"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "708C48A53935908E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -100,11 +128,18 @@
 				entity: "minecraft:ghast"
 				value: 10L
 			}]
-			rewards: [{
-				id: "6580EEA015431907"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "6580EEA015431907"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "565F4AFB80584512"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -117,11 +152,18 @@
 				entity: "minecraft:blaze"
 				value: 30L
 			}]
-			rewards: [{
-				id: "3400636A92B6BE5E"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "3400636A92B6BE5E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "79C8350754127433"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,15 @@
+{
+  "path": "mod_simplefarming/mutations/peanut_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "simplefarming",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "simplefarming:peanut_plant",
+  "parent1": "simplefarming:pea_plant",
+  "parent2": "simplefarming:corn_plant"
+}

@@ -3,7 +3,7 @@
 	group: "6B2D545E7A3D7242"
 	order_index: 1
 	filename: "gateway_to_eternity"
-	title: "&9Gateway to Eternity"
+	title: "&6Gateway to Eternity"
 	icon: {
 		id: "gateways:small_gate_opener"
 		Count: 1b

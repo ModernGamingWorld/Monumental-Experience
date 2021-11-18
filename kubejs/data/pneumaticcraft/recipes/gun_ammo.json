@@ -5,7 +5,7 @@
             "tag": "forge:gunpowder"
         },
         {
-            "item": "contenttweaker:compressed_plate"
+            "item": "kubejs:compressed_iron_plate"
         },
         {
             "tag": "forge:plates/gold"

@@ -1,0 +1,133 @@
+{
+  "path": "mod_mysticalagriculture/plants/lumium_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "mysticalagriculture",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "mysticalagriculture:lumium_plant",
+  "plant_lang_key": "crop.mysticalagriculture.lumium",
+  "seed_lang_key": "agricraft.plant.mysticalagriculture.lumium",
+  "desc_lang_key": "crop.mysticalagriculture.lumium",
+  "seed_items": [
+    {
+      "overridePlanting": true,
+      "type": "item",
+      "object": "mysticalagriculture:lumium_seeds",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "harvestStage": 3,
+  "growth_chance": 0.65,
+  "growth_bonus": 0.025,
+  "tier": 4,
+  "cloneable": false,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.75,
+        "required": true,
+        "type": "item",
+        "object": "mysticalagriculture:lumium_essence",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "wet",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "high",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.2
+    },
+    "min_light": 10,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "mysticalagriculture",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "mysticalagriculture:block/mystical_resource_crop_0"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_1"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_2"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_3"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_4"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_5"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_6"
+      ],
+      [
+        "mysticalagriculture:block/mystical_resource_crop_7",
+        "mysticalagriculture:block/lumium_flower"
+      ]
+    ]
+  },
+  "seed_texture": "mysticalagriculture:item/lumium_seeds",
+  "seed_model": "mysticalagriculture:item/lumium_seeds",
+  "particle_effects": []
+}

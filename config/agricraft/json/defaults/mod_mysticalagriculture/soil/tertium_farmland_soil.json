@@ -1,0 +1,28 @@
+{
+  "path": "mod_mysticalagriculture/soil/tertium_farmland_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "mysticalagriculture",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "tertium_farmland_soil",
+  "lang_key": "block.mysticalagriculture.tertium_farmland",
+  "varients": [
+    {
+      "type": "block",
+      "object": "mysticalagriculture:tertium_farmland",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "wet",
+  "acidity": "slightly_acidic",
+  "nutrients": "high",
+  "growth_modifier": 1.0
+}

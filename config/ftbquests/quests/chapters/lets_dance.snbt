@@ -259,7 +259,7 @@
 					item: "lootbagmod:lootbag"
 				}
 				{
-					id: "0000000000000D8B"
+					id: "1B8B0947A756F01E"
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
@@ -271,9 +271,9 @@
 			y: 4.0d
 			shape: "gear"
 			dependencies: ["0000000000000D6D"]
-			id: "0000000000000D8C"
+			id: "1DB1AEDD4D7B9C29"
 			tasks: [{
-				id: "0000000000000D8D"
+				id: "51C41EA18A703D44"
 				type: "item"
 				item: "minecraft:music_disc_strad"
 			}]
@@ -295,9 +295,9 @@
 			y: 4.0d
 			shape: "gear"
 			dependencies: ["0000000000000D6D"]
-			id: "0000000000000D8E"
+			id: "44E69CA7D90887DF"
 			tasks: [{
-				id: "0000000000000D8F"
+				id: "4F960C7734E7E460"
 				type: "item"
 				title: "Ward"
 				item: "minecraft:music_disc_ward"

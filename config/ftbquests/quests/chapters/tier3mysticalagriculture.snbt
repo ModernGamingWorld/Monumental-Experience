@@ -156,6 +156,11 @@
 					tag: {
 						Damage: 0
 					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
 				}
 			}]
 			rewards: [{
@@ -242,7 +247,7 @@
 				"0000000000001368"
 			]
 			size: 1.5d
-			id: "0000000000001367"
+			id: "0313027D46DBBC30"
 			tasks: [{
 				id: "0000000000000106"
 				type: "item"
@@ -252,9 +257,9 @@
 		{
 			x: 12.0d
 			y: 4.0d
-			id: "0000000000001368"
+			id: "7561761F214BBDA4"
 			tasks: [{
-				id: "0000000000001369"
+				id: "5435D6DCE12A7EF1"
 				type: "item"
 				item: "mysticalagriculture:soul_jar"
 			}]
@@ -264,9 +269,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000136A"
+			id: "28C66748D9B4DAD0"
 			tasks: [{
-				id: "000000000000136B"
+				id: "37AA06BB39838B15"
 				type: "item"
 				item: "mysticalagriculture:iron_seeds"
 			}]
@@ -281,9 +286,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000136C"
+			id: "2E077C20E3451027"
 			tasks: [{
-				id: "000000000000136D"
+				id: "3D585E9F62EAB7FE"
 				type: "item"
 				item: "mysticalagriculture:nether_quartz_seeds"
 			}]
@@ -298,9 +303,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000136E"
+			id: "38BBBA56E3712C1E"
 			tasks: [{
-				id: "000000000000136F"
+				id: "31161C574912510B"
 				type: "item"
 				item: "mysticalagriculture:glowstone_seeds"
 			}]
@@ -315,9 +320,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "0000000000001370"
+			id: "4E1CD0A306409DC5"
 			tasks: [{
-				id: "0000000000001371"
+				id: "148FB6700EBEDEC7"
 				type: "item"
 				item: "mysticalagriculture:redstone_seeds"
 			}]
@@ -332,9 +337,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "0000000000001372"
+			id: "7985750F3160F95A"
 			tasks: [{
-				id: "0000000000001373"
+				id: "099523F8D7CA6FFD"
 				type: "item"
 				item: "mysticalagriculture:obsidian_seeds"
 			}]
@@ -349,7 +354,7 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "0000000000001374"
+			id: "242AF482CE6B4379"
 			tasks: [{
 				id: "0000000000001375"
 				type: "item"
@@ -368,7 +373,7 @@
 			dependencies: ["0000000000000D13"]
 			id: "0000000000001376"
 			tasks: [{
-				id: "0000000000001377"
+				id: "6E3F0B8C55FB4DF9"
 				type: "item"
 				item: "mysticalagriculture:aluminum_seeds"
 			}]
@@ -383,9 +388,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "0000000000001378"
+			id: "5020F45784C523E7"
 			tasks: [{
-				id: "0000000000001379"
+				id: "6BCB01C1E38F403F"
 				type: "item"
 				item: "mysticalagriculture:tin_seeds"
 			}]
@@ -400,9 +405,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000137A"
+			id: "6637ACDACAE8C5AC"
 			tasks: [{
-				id: "000000000000137B"
+				id: "752A1938B6230107"
 				type: "item"
 				item: "mysticalagriculture:copper_seeds"
 			}]
@@ -417,9 +422,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000137C"
+			id: "5A1E23B864738E45"
 			tasks: [{
-				id: "000000000000137D"
+				id: "38AB6AB331E48FFD"
 				type: "item"
 				item: "mysticalagriculture:osmium_seeds"
 			}]
@@ -434,9 +439,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "000000000000137E"
+			id: "48B4D8F906C96026"
 			tasks: [{
-				id: "000000000000137F"
+				id: "11B3487DFB4D596D"
 				type: "item"
 				item: "mysticalagriculture:lead_seeds"
 			}]
@@ -451,9 +456,9 @@
 			y: 0.0d
 			shape: "gear"
 			dependencies: ["0000000000000D13"]
-			id: "0000000000001380"
+			id: "4BE5EFF24DE3BF4D"
 			tasks: [{
-				id: "0000000000001381"
+				id: "2D245CE156FA72E5"
 				type: "item"
 				item: "mysticalagriculture:silver_seeds"
 			}]
@@ -471,9 +476,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001382"
+			id: "3BF7D1B7BF9CC088"
 			tasks: [{
-				id: "0000000000001383"
+				id: "7282F58D89EB1D0B"
 				type: "item"
 				item: "mysticalagriculture:zombie_seeds"
 			}]
@@ -511,9 +516,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001386"
+			id: "3DBE05FCA0E404F9"
 			tasks: [{
-				id: "0000000000001387"
+				id: "79A5677A02F90867"
 				type: "item"
 				item: "mysticalagriculture:creeper_seeds"
 			}]
@@ -531,9 +536,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001388"
+			id: "09FCFE06C593561F"
 			tasks: [{
-				id: "0000000000001389"
+				id: "218081646A002D4A"
 				type: "item"
 				item: "mysticalagriculture:spider_seeds"
 			}]
@@ -551,9 +556,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000138A"
+			id: "483BC7B437EA05CD"
 			tasks: [{
-				id: "000000000000138B"
+				id: "108B51D7C8130B52"
 				type: "item"
 				item: "mysticalagriculture:rabbit_seeds"
 			}]
@@ -571,9 +576,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000138C"
+			id: "35193D11EAAB0DE2"
 			tasks: [{
-				id: "000000000000138D"
+				id: "47122A6C43EFA2EA"
 				type: "item"
 				item: "mysticalagriculture:llama_seeds"
 			}]
@@ -591,9 +596,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000138E"
+			id: "0438E062F8116B50"
 			tasks: [{
-				id: "000000000000138F"
+				id: "3FFFB07531F47D54"
 				type: "item"
 				item: "mysticalagriculture:silverfish_seeds"
 			}]
@@ -611,9 +616,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001390"
+			id: "620F2DA7F96C0530"
 			tasks: [{
-				id: "0000000000001391"
+				id: "00434273F88D5688"
 				type: "item"
 				item: "mysticalagriculture:drowned_seeds"
 			}]
@@ -631,9 +636,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001392"
+			id: "148EEED1E5ABF593"
 			tasks: [{
-				id: "0000000000001393"
+				id: "5EAC4BC436FF3970"
 				type: "item"
 				item: "mysticalagriculture:guardian_seeds"
 			}]
@@ -651,9 +656,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001394"
+			id: "03B09C69C82485EE"
 			tasks: [{
-				id: "0000000000001395"
+				id: "766069A7B7838CCF"
 				type: "item"
 				item: "mysticalagriculture:dolphin_seeds"
 			}]
@@ -671,9 +676,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001396"
+			id: "766A4BCB4841FF16"
 			tasks: [{
-				id: "0000000000001397"
+				id: "64070E09DF0B8C4B"
 				type: "item"
 				item: "mysticalagriculture:zombie_pigman_seeds"
 			}]
@@ -691,7 +696,7 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "0000000000001398"
+			id: "49730423785F842B"
 			tasks: [{
 				id: "0000000000001399"
 				type: "item"
@@ -711,7 +716,7 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000139A"
+			id: "1EEC831E248CF694"
 			tasks: [{
 				id: "000000000000139B"
 				type: "item"
@@ -731,9 +736,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000139C"
+			id: "15BE585D6C1082BE"
 			tasks: [{
-				id: "000000000000139D"
+				id: "4A780D877C15B140"
 				type: "item"
 				item: "mysticalagriculture:polar_bear_seeds"
 			}]
@@ -751,9 +756,9 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "000000000000139E"
+			id: "57A8C6C321B0BCA1"
 			tasks: [{
-				id: "000000000000139F"
+				id: "5087C8B758CCA448"
 				type: "item"
 				item: "mysticalagriculture:horse_seeds"
 			}]
@@ -771,7 +776,7 @@
 				"0000000000000105"
 				"0000000000001367"
 			]
-			id: "00000000000013A0"
+			id: "0EC624AA9154F4A7"
 			tasks: [{
 				id: "0000000000000144"
 				type: "item"
@@ -910,10 +915,7 @@
 			x: -5.5d
 			y: 4.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000117"
-				"0000000000001374"
-			]
+			dependencies: ["0000000000000117"]
 			id: "00000000000004CA"
 			tasks: [{
 				id: "00000000000004CB"
@@ -974,10 +976,7 @@
 			x: 4.0d
 			y: 10.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000129"
-				"0000000000001386"
-			]
+			dependencies: ["0000000000000129"]
 			id: "00000000000004D2"
 			tasks: [{
 				id: "00000000000004D3"
@@ -995,10 +994,7 @@
 			x: 20.0d
 			y: 10.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000012B"
-				"0000000000001388"
-			]
+			dependencies: ["000000000000012B"]
 			id: "00000000000004D4"
 			tasks: [{
 				id: "00000000000004D5"
@@ -1016,10 +1012,7 @@
 			x: 20.0d
 			y: 6.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000012D"
-				"000000000000138A"
-			]
+			dependencies: ["000000000000012D"]
 			id: "00000000000004D6"
 			tasks: [{
 				id: "00000000000004D7"
@@ -1058,10 +1051,7 @@
 			x: 4.0d
 			y: 8.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000012F"
-				"000000000000138C"
-			]
+			dependencies: ["000000000000012F"]
 			id: "00000000000004DA"
 			tasks: [{
 				id: "00000000000004DB"
@@ -1097,10 +1087,7 @@
 			x: 20.0d
 			y: 2.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000131"
-				"000000000000138E"
-			]
+			dependencies: ["0000000000000131"]
 			id: "00000000000004DE"
 			tasks: [{
 				id: "00000000000004DF"
@@ -1118,10 +1105,7 @@
 			x: 20.0d
 			y: 4.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000133"
-				"0000000000001390"
-			]
+			dependencies: ["0000000000000133"]
 			id: "00000000000004E0"
 			tasks: [{
 				id: "00000000000004E1"
@@ -1139,7 +1123,6 @@
 			x: 4.0d
 			y: 6.0d
 			shape: "gear"
-			dependencies: ["0000000000001392"]
 			id: "00000000000004E2"
 			tasks: [{
 				id: "00000000000004E3"
@@ -1157,10 +1140,7 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000143"
-				"00000000000013A0"
-			]
+			dependencies: ["0000000000000143"]
 			id: "00000000000004E4"
 			tasks: [{
 				id: "00000000000004E5"
@@ -1283,7 +1263,6 @@
 			x: 4.0d
 			y: -2.0d
 			shape: "gear"
-			dependencies: ["0000000000001394"]
 			id: "00000000000004F2"
 			tasks: [{
 				id: "00000000000004F3"
@@ -1301,10 +1280,7 @@
 			x: 20.0d
 			y: -2.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000139"
-				"0000000000001396"
-			]
+			dependencies: ["0000000000000139"]
 			id: "00000000000004F4"
 			tasks: [{
 				id: "00000000000004F5"
@@ -1322,10 +1298,7 @@
 			x: 8.0d
 			y: -4.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000013B"
-				"0000000000001398"
-			]
+			dependencies: ["000000000000013B"]
 			id: "00000000000004F6"
 			tasks: [{
 				id: "00000000000004F7"
@@ -1343,7 +1316,6 @@
 			x: 20.0d
 			y: 12.0d
 			shape: "gear"
-			dependencies: ["000000000000139A"]
 			id: "00000000000004F8"
 			tasks: [{
 				id: "00000000000004F9"
@@ -1361,10 +1333,7 @@
 			x: 4.0d
 			y: 12.0d
 			shape: "gear"
-			dependencies: [
-				"000000000000013F"
-				"000000000000139C"
-			]
+			dependencies: ["000000000000013F"]
 			id: "00000000000004FA"
 			tasks: [{
 				id: "00000000000004FB"
@@ -1382,10 +1351,7 @@
 			x: 4.0d
 			y: 4.0d
 			shape: "gear"
-			dependencies: [
-				"0000000000000141"
-				"000000000000139E"
-			]
+			dependencies: ["0000000000000141"]
 			id: "00000000000004FC"
 			tasks: [{
 				id: "00000000000004FD"

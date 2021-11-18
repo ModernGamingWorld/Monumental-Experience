@@ -3,7 +3,7 @@
 	group: "13ABD77363F067A7"
 	order_index: 0
 	filename: "animalkilling"
-	title: "&9Animal Killing"
+	title: "&6Animal Killing"
 	icon: "alexsmobs:animal_dictionary"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -45,6 +45,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "0F73699E3A8DEBC1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -71,6 +76,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "27A8C7383ACC5E86"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -95,6 +105,11 @@
 					id: "0000000000000DB9"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "001BA49962518A7C"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -121,6 +136,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "7B013D982419F1F8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -145,6 +165,11 @@
 					id: "0000000000000DD9"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "573E2089FEE0124B"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -171,6 +196,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "452D8D949F7CD253"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -195,6 +225,11 @@
 					id: "0000000000000DC5"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "2518A0B62DF22FAD"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -221,6 +256,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "20F50B98416BEE99"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -245,6 +285,11 @@
 					id: "0000000000000DD7"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "48232FC9705B3B63"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -271,6 +316,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "36564653E35B5999"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -295,6 +345,11 @@
 					id: "0000000000000DB5"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "125BEE4536E7C091"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -321,6 +376,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "45934E5560737233"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -345,6 +405,11 @@
 					id: "0000000000000DCF"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "0FB91814FF017776"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -373,6 +438,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "4DA3C9CE5504760D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -397,6 +467,11 @@
 					id: "0000000000000DBD"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "53B7308AE347FFA5"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -423,6 +498,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "08D6AC6EA85CB5BE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -447,6 +527,11 @@
 					id: "0000000000000DC9"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "161A0746502C1BA1"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -473,6 +558,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "2664734F2FFFC0CD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -497,6 +587,11 @@
 					id: "0000000000000DD5"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "5CB82D7A320F8F61"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}
@@ -523,6 +618,11 @@
 					type: "item"
 					item: "chancecubes:chance_cube"
 				}
+				{
+					id: "1FA0A3CA123229DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 		}
 		{
@@ -547,6 +647,11 @@
 					id: "0000000000000DC1"
 					type: "item"
 					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "7058DD8E047E4ED3"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 		}

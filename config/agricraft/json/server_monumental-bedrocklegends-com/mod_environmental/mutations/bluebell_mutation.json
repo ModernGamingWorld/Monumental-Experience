@@ -1,0 +1,15 @@
+{
+  "path": "mod_environmental/mutations/bluebell_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "environmental",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "environmental:bluebell_plant",
+  "parent1": "vanilla:cornflower_plant",
+  "parent2": "vanilla:lily_plant"
+}

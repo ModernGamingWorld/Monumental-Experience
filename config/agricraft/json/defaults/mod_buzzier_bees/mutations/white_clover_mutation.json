@@ -1,0 +1,15 @@
+{
+  "path": "mod_buzzier_bees/mutations/white_clover_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "buzzier_bees",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "buzzier_bees:white_clover_plant",
+  "parent1": "vanilla:lily_plant",
+  "parent2": "vanilla:white_tulip_plant"
+}

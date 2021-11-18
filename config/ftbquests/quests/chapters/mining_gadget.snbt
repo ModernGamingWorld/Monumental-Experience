@@ -3,7 +3,7 @@
 	group: "4E2A2310634498BA"
 	order_index: 0
 	filename: "mining_gadget"
-	title: "&9Gadgets"
+	title: "&6Gadgets"
 	icon: {
 		id: "mininggadgets:mininggadget"
 		Count: 1b

@@ -1,9 +1,9 @@
 {
 	id: "526A840FAF9CEA8C"
 	group: "570AEC24DD8505B2"
-	order_index: 2
+	order_index: 3
 	filename: "environmental_techcore"
-	title: "&6Environmental Tech/Core"
+	title: "&9Environmental Tech/Core"
 	icon: "envirocore:ionite_powder"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

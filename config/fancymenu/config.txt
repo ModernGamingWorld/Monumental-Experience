@@ -22,7 +22,7 @@ B:showcustomizationbuttons = 'false';
 
 ##[mainmenu]
 
-S:copyrightposition = 'bottom-centered';
+S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
 B:hidelogo = 'true';

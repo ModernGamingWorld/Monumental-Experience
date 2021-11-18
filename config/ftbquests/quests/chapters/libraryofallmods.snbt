@@ -106,9 +106,9 @@
 			y: -1.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A6E"
+			id: "50642C4B367B73ED"
 			tasks: [{
-				id: "0000000000000A6F"
+				id: "402975A40D158255"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -129,9 +129,9 @@
 			y: -0.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A74"
+			id: "36DE37DD03C28236"
 			tasks: [{
-				id: "0000000000000A75"
+				id: "1F5C91E153112AC3"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -152,9 +152,9 @@
 			y: -0.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A7D"
+			id: "4E6CDC71111609E2"
 			tasks: [{
-				id: "0000000000000A7E"
+				id: "4F6342CEF01D32B7"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -182,9 +182,9 @@
 			y: 1.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A81"
+			id: "3EBA5422331DF5C5"
 			tasks: [{
-				id: "0000000000000A82"
+				id: "2BA98079F7A9550D"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -207,7 +207,7 @@
 			dependencies: ["000000000000083B"]
 			id: "3C14B1EEC188208F"
 			tasks: [{
-				id: "0000000000000A94"
+				id: "56861DF891C9075D"
 				type: "item"
 				item: "immersiveengineering:manual"
 			}]
@@ -222,9 +222,9 @@
 			y: -2.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A95"
+			id: "7FB3D1AD6AB95014"
 			tasks: [{
-				id: "0000000000000A96"
+				id: "53774A3A91FEC029"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
@@ -245,9 +245,9 @@
 			y: -1.5d
 			shape: "gear"
 			dependencies: ["000000000000083B"]
-			id: "0000000000000A97"
+			id: "236EB228B72E37D2"
 			tasks: [{
-				id: "0000000000000A98"
+				id: "7D33517DF39BB633"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"

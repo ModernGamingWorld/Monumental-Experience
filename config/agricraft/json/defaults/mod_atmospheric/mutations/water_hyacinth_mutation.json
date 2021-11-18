@@ -1,0 +1,15 @@
+{
+  "path": "mod_atmospheric/mutations/water_hyacinth_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "atmospheric",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "atmospheric:water_hyacinth_plant",
+  "parent1": "atmospheric:gilia_plant",
+  "parent2": "vanilla:sea_grass_plant"
+}

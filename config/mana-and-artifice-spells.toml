@@ -2830,23 +2830,6 @@
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 5.0
 
-	["mana-and-artifice:components/divination".MAGNITUDE]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 1.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 7.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 1.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 1.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 15.0
-
 	["mana-and-artifice:components/divination".DELAY]
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
@@ -2863,6 +2846,23 @@
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 0.5
+
+	["mana-and-artifice:components/divination".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
 
 ["mana-and-artifice:shapes/summon"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.

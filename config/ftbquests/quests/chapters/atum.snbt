@@ -40,6 +40,11 @@
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
+				{
+					id: "2AFD4C3180D23066"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{

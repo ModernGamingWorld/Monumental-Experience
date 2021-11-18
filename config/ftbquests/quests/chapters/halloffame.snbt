@@ -1028,7 +1028,6 @@
 			x: 4.5d
 			y: 10.0d
 			subtitle: "GG, You Just Finished the Thermal Quest Line"
-			dependencies: ["0000000000000AF7"]
 			id: "0000000000000C32"
 			tasks: [{
 				id: "6066B839AF4C8538"

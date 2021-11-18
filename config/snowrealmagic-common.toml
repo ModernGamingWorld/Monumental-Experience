@@ -22,6 +22,8 @@ replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true
 #If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal via random tick.
 retainOriginalBlocks = false
-#Simulate some right clicking behaviors like bonemeal. may have some glitches
+#Simulate some right clicking behaviors like harvesting sweetberry. may have some glitches
 advancedBlockInteraction = true
+#Sneak+rightclicking to make snowball
+sneakSnowball = true
 

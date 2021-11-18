@@ -3,7 +3,7 @@
 	group: "0063A2414C7C5E5B"
 	order_index: 0
 	filename: "the_end"
-	title: "&6The End"
+	title: "&9The End"
 	icon: "minecraft:end_stone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -168,7 +168,15 @@
 			tasks: [{
 				id: "0000000000000BB7"
 				type: "item"
-				item: "minecraft:shulker_shell"
+				item: {
+					id: "minecraft:shulker_shell"
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -312,6 +320,11 @@
 				entity: "minecraft:shulker"
 				value: 25L
 			}]
+			rewards: [{
+				id: "265CC75CAA5CED99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -4.5d
@@ -323,6 +336,11 @@
 				type: "kill"
 				entity: "minecraft:enderman"
 				value: 40L
+			}]
+			rewards: [{
+				id: "72501EBD64AF78D5"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -336,6 +354,11 @@
 				entity: "minecraft:ender_dragon"
 				value: 5L
 			}]
+			rewards: [{
+				id: "08DB44C91D61765A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -4.5d
@@ -347,6 +370,11 @@
 				type: "kill"
 				entity: "minecraft:endermite"
 				value: 20L
+			}]
+			rewards: [{
+				id: "58E85A9CB10AA04C"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

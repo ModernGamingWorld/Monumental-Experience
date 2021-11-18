@@ -1,0 +1,27 @@
+{
+  "path": "resource/soils/gravel_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "gravel_soil",
+  "lang_key": "agricraft.soil.gravel.name",
+  "varients": [
+    {
+      "type": "block",
+      "object": "forge:gravel",
+      "useTag": true,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "dry",
+  "acidity": "slightly_alkaline",
+  "nutrients": "low",
+  "growth_modifier": 0.5
+}

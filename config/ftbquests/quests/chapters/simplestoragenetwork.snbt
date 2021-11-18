@@ -1,9 +1,9 @@
 {
 	id: "0000000000000CDE"
 	group: "7E54189F6BA49858"
-	order_index: 5
+	order_index: 6
 	filename: "simplestoragenetwork"
-	title: "&6Simple Storage Network"
+	title: "&9Simple Storage Network"
 	icon: "storagenetwork:inventory"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

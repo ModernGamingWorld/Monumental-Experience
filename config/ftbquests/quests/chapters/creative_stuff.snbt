@@ -84,31 +84,6 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
-			shape: "gear"
-			size: 2.0d
-			id: "00000000000002FA"
-			tasks: [{
-				id: "00000000000002FB"
-				type: "item"
-				item: "immersiveengineering:capacitor_creative"
-			}]
-			rewards: [
-				{
-					id: "00000000000007FD"
-					type: "command"
-					command: "/say congratulations!"
-					player_command: false
-				}
-				{
-					id: "0000000000000F8A"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
-		}
-		{
 			x: -1.0d
 			y: 1.5d
 			shape: "gear"

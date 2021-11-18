@@ -1,9 +1,9 @@
 {
 	id: "00000000000008CC"
 	group: "570AEC24DD8505B2"
-	order_index: 11
+	order_index: 10
 	filename: "rftoolspower"
-	title: "&9Rftools Power"
+	title: "&6Rftools Power"
 	icon: "rftoolspower:power_core1"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

@@ -36,7 +36,6 @@ onEvent('item.tags', (event) => {
         'forbidden_arcanus:arcane_golden_hoe',
         'forbidden_arcanus:reinforced_arcane_golden_hoe',
         'forbidden_arcanus:obsidian_hoe',
-        'forbidden_arcanus:bone_hoe',
         'gobber2:gobber2_hoe',
         'gobber2:gobber2_hoe_nether',
         'gobber2:gobber2_hoe_end',
