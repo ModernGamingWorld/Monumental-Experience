@@ -1,0 +1,1896 @@
+{
+	id: "000000000000029A"
+	group: ""
+	order_index: 1
+	filename: "halloffame"
+	title: "&6Hall Of Fame(WIP)"
+	icon: "xreliquary:holy_hand_grenade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Modern Gaming"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							955663911
+							-1640609137
+							-1846237562
+							1038191077
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMTM2NDM3NzY3OSwKICAicHJvZmlsZUlkIiA6ICIzOGY2NDYyNzllMzY0YThmOTFmNGE2ODYzZGUxODllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb2Rlcm5fR2FtaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4ZDA4NGQ2MzQ0ZjRlNWRhNWM5OGNjYzA4MDgyYjEwOWRjMzkwZjcxNzAwZmFlZTAzZWMwOWM5MDJlN2I3YzAiCiAgICB9CiAgfQp9"
+								Signature: "iQQxFN5G1HkdYhRjhXMzaaKqdwTvkKBsUYtHaLndxbsJ06TPx6PdVbzq5yiRMREuUdm+6cAgsXhla3M8Ogls2dveVr6EmAYcTo4f5+beK9hAKtfUVZAYpWYljdOdSAKl1a5Ru8ZRJ+ZXeWIZA3wR4L5OUv8USev6KHFoYfWGnxUY8e1xZ6XWQsLNQhOj4ANDjaHAe12aRDubBkl0cBppG3sHQvUO1n0gpzGqzVk2iYcNzyqxI8NjZwXBm4QoS4VTrTQYD2u1h/BW9W5Fwg9Zxabhn04FmKYXvWHKmbqMBamheN2CI7p5DGfhVaXmUFCzVyjCiB8JtAEB2uTTsjIH9g4HAKY20SidY2HYNFACLP+zg4Q4WbBJcSfug6BESgfT2UC1Nx1blO6OwKmc5hpqA1oz6Ph2pK6TP/0nCSkqZYzIdmTm5UOPvfp5KsOvTEUJflbsgBpS5FDsIg1TtFdw1wofCoih1nInBvXpnDRQU/yPmY90hXjGEDaNK/X8EQX8nEpFXBPuAy7sqB1hKMOqXVwJagPZIlfZ6x7MoVbKYEr10kaT8qKMCT+ZQqnLNnFQ1wwy5zyQYQRGLRStNC6fRpIFxjnnjfQ2CfZInhrmChctbx0MAPepV5ZHzXo6aIPrpPJnt+N5Xr1jCxVPwXxvQyCQ1pZHHdCy4gxb0WGfa+A="
+							}]
+						}
+						Name: "Modern_Gaming"
+					}
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Modpack Creator"
+			id: "00000000000002BB"
+			tasks: [{
+				id: "00000000000002BC"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "00000000000007CB"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Modern_Gaming\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001D60"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									955663911
+									-1640609137
+									-1846237562
+									1038191077
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMTM2NDM3NzY3OSwKICAicHJvZmlsZUlkIiA6ICIzOGY2NDYyNzllMzY0YThmOTFmNGE2ODYzZGUxODllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb2Rlcm5fR2FtaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4ZDA4NGQ2MzQ0ZjRlNWRhNWM5OGNjYzA4MDgyYjEwOWRjMzkwZjcxNzAwZmFlZTAzZWMwOWM5MDJlN2I3YzAiCiAgICB9CiAgfQp9"
+										Signature: "iQQxFN5G1HkdYhRjhXMzaaKqdwTvkKBsUYtHaLndxbsJ06TPx6PdVbzq5yiRMREuUdm+6cAgsXhla3M8Ogls2dveVr6EmAYcTo4f5+beK9hAKtfUVZAYpWYljdOdSAKl1a5Ru8ZRJ+ZXeWIZA3wR4L5OUv8USev6KHFoYfWGnxUY8e1xZ6XWQsLNQhOj4ANDjaHAe12aRDubBkl0cBppG3sHQvUO1n0gpzGqzVk2iYcNzyqxI8NjZwXBm4QoS4VTrTQYD2u1h/BW9W5Fwg9Zxabhn04FmKYXvWHKmbqMBamheN2CI7p5DGfhVaXmUFCzVyjCiB8JtAEB2uTTsjIH9g4HAKY20SidY2HYNFACLP+zg4Q4WbBJcSfug6BESgfT2UC1Nx1blO6OwKmc5hpqA1oz6Ph2pK6TP/0nCSkqZYzIdmTm5UOPvfp5KsOvTEUJflbsgBpS5FDsIg1TtFdw1wofCoih1nInBvXpnDRQU/yPmY90hXjGEDaNK/X8EQX8nEpFXBPuAy7sqB1hKMOqXVwJagPZIlfZ6x7MoVbKYEr10kaT8qKMCT+ZQqnLNnFQ1wwy5zyQYQRGLRStNC6fRpIFxjnnjfQ2CfZInhrmChctbx0MAPepV5ZHzXo6aIPrpPJnt+N5Xr1jCxVPwXxvQyCQ1pZHHdCy4gxb0WGfa+A="
+									}]
+								}
+								Name: "Modern_Gaming"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002C1"
+			tasks: [{
+				id: "00000000000002C2"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002C3"
+			tasks: [{
+				id: "00000000000002C4"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002C5"
+			tasks: [{
+				id: "00000000000002C6"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002C7"
+			tasks: [{
+				id: "00000000000002C8"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002C9"
+			tasks: [{
+				id: "00000000000002CA"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Questbook Champion"
+			id: "00000000000002CB"
+			tasks: [{
+				id: "00000000000002CC"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			title: "How to enter the hall of fame"
+			icon: "xreliquary:holy_hand_grenade"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			description: ["Go to our official Discord https://discord.gg/wadcxefVA7 and send Sloth a screen shot of this page at 100% then in the next update of the pack youll be added :D"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000283"
+				"0000000000000293"
+				"000000000000029C"
+				"000000000000029F"
+				"00000000000002A1"
+				"00000000000002A3"
+				"00000000000002A5"
+				"00000000000002A7"
+				"00000000000002A9"
+				"00000000000002AB"
+				"00000000000002B6"
+				"00000000000007B5"
+				"00000000000002B8"
+				"00000000000002E1"
+				"00000000000002E3"
+				"00000000000002E5"
+				"00000000000002E7"
+				"00000000000002E9"
+				"00000000000002EB"
+				"00000000000006C4"
+				"00000000000002D3"
+				"00000000000002D5"
+				"00000000000002D7"
+				"00000000000002D9"
+				"00000000000002DB"
+				"00000000000002DD"
+				"00000000000002DF"
+				"00000000000002ED"
+				"00000000000002EF"
+				"0000000000000C2C"
+				"0000000000000C30"
+				"0000000000000C32"
+				"0000000000000C34"
+			]
+			size: 2.0d
+			id: "00000000000002CD"
+			tasks: [{
+				id: "0000000000000957"
+				type: "dimension"
+				dimension: "good_nights_sleep:nightmare"
+			}]
+			rewards: [{
+				id: "00000000000002D0"
+				type: "item"
+				item: "minecraft:cooked_porkchop"
+				count: 32
+			}]
+		}
+		{
+			title: "Lectavison"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1886865986
+							-155169161
+							-1243543431
+							-349440791
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYwMzY1Mzc0ODk4MywKICAicHJvZmlsZUlkIiA6ICI4Zjg4YjViZWY2YzA0ZTc3YjVlMTA4NzllYjJiZjRlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZWN0YXZpc29uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0NWZhNmU2OTYxMDJkZWYwMmIzODc0ZGYxMTJiZDIwYjgzODU0YzNlNjBmYTAwNjNjZGY2Yzk3MDMyYWIxMWUiCiAgICB9CiAgfQp9"
+								Signature: "reWkQCS5/Jbd3D3MtW3GpB6VpBPxQEZ8vknMMz8dheJOVKC1R/Go3el3EDfFB3Pz9XpB7VehkofAMZ67Uf1QXjyHfINsME8AYdh0cxkAwu0yJ8BI/7k+gVQmhrCWaz9SWpHhNxXeEEcySYpRWzmChj7CpFT2L7b9vlt6EHEFqBG9VVjgFBTU/AIOt68v1YO7zKcxgTgAf3UhJzB7US3F3HgZ5hZQlsbKO+yTgDhRrV02odT8ZvYAXQ2bWEi4Yg2y57h2hOw8hnfEj4Y+EWjzrPy1iY5O3tRpFrnLaJMe6KyskWo2juXzXmsk1bQRjdsq4uzq9u8Va6V3kEUHCD/4el226LRv6Zd3k2lQltkIwS5y0oX9IpiO3d6fyN/hNo5MEh/2cdkCSzj/89SotmOXZcw7ag8LxfxAfJGG9T1QtYjfoZRPx0Sb65p4fzyVeKzVn6WXY6nglqobCTKA8wo7bIGZtsk2KNruWzw6mcuQfPf1UgZPKU54upCIXB029NUF6628XNzxnuvKsyRj58B++2gk8BTr9mqTxqT2vOkGKUyKU7zt1wG6gJ3ZhqgGxPbXbayQ6P2xxM9m4PncfcMLvtZyMbNuL9LpihrnrhEiWK3PHyQThCgHialQfRXTuzvAeUXLW+ST+5/A4rX7F1+rL8lfNZt1AhDoKDabxcTOgz4="
+							}]
+						}
+						Name: "Lectavison"
+					}
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "UI and Quest book Dev"
+			description: [""]
+			id: "00000000000001B1"
+			tasks: [{
+				id: "00000000000001B2"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "00000000000001B3"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1886865986
+									-155169161
+									-1243543431
+									-349440791
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYwMzY1Mzc0ODk4MywKICAicHJvZmlsZUlkIiA6ICI4Zjg4YjViZWY2YzA0ZTc3YjVlMTA4NzllYjJiZjRlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZWN0YXZpc29uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0NWZhNmU2OTYxMDJkZWYwMmIzODc0ZGYxMTJiZDIwYjgzODU0YzNlNjBmYTAwNjNjZGY2Yzk3MDMyYWIxMWUiCiAgICB9CiAgfQp9"
+										Signature: "reWkQCS5/Jbd3D3MtW3GpB6VpBPxQEZ8vknMMz8dheJOVKC1R/Go3el3EDfFB3Pz9XpB7VehkofAMZ67Uf1QXjyHfINsME8AYdh0cxkAwu0yJ8BI/7k+gVQmhrCWaz9SWpHhNxXeEEcySYpRWzmChj7CpFT2L7b9vlt6EHEFqBG9VVjgFBTU/AIOt68v1YO7zKcxgTgAf3UhJzB7US3F3HgZ5hZQlsbKO+yTgDhRrV02odT8ZvYAXQ2bWEi4Yg2y57h2hOw8hnfEj4Y+EWjzrPy1iY5O3tRpFrnLaJMe6KyskWo2juXzXmsk1bQRjdsq4uzq9u8Va6V3kEUHCD/4el226LRv6Zd3k2lQltkIwS5y0oX9IpiO3d6fyN/hNo5MEh/2cdkCSzj/89SotmOXZcw7ag8LxfxAfJGG9T1QtYjfoZRPx0Sb65p4fzyVeKzVn6WXY6nglqobCTKA8wo7bIGZtsk2KNruWzw6mcuQfPf1UgZPKU54upCIXB029NUF6628XNzxnuvKsyRj58B++2gk8BTr9mqTxqT2vOkGKUyKU7zt1wG6gJ3ZhqgGxPbXbayQ6P2xxM9m4PncfcMLvtZyMbNuL9LpihrnrhEiWK3PHyQThCgHialQfRXTuzvAeUXLW+ST+5/A4rX7F1+rL8lfNZt1AhDoKDabxcTOgz4="
+									}]
+								}
+								Name: "Lectavison"
+							}
+						}
+					}
+				}
+				{
+					id: "00000000000007BB"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lectavison\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Applied Energistics 2"
+			icon: "appliedenergistics2:controller"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "GG, You Just Finished Ae2 Quest Line"
+			dependencies: ["0000000000000AB5"]
+			id: "0000000000000283"
+			tasks: [{
+				id: "1E6E37098AB71288"
+				type: "custom"
+				icon: "appliedenergistics2:controller"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D8"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Applied Energistics 2 chapter"
+					player_command: false
+				}
+				{
+					id: "5ADB1D5A5DF6049E"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Botania"
+			icon: "botania:lexicon"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "GG, You just finished Botania Quest Line"
+			dependencies: ["000000000000080C"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000293"
+			tasks: [{
+				id: "7453D9A24D4A068F"
+				type: "custom"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000008E9"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Botania chapter"
+					player_command: false
+				}
+				{
+					id: "1331584FEC1D255F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Cooking for Blockheads"
+			icon: "cookingforblockheads:cow_jar"
+			x: 0.5d
+			y: 4.0d
+			subtitle: "GG, You Just Finished The Cooking For Blockheads Quest Line"
+			dependencies: ["00000000000006C8"]
+			id: "000000000000029C"
+			tasks: [{
+				id: "30DBAF1AADA24012"
+				type: "custom"
+				icon: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "00000000000008EA"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Cooking for Blockheads chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Creative Stuff"
+			icon: "storagedrawers:creative_storage_upgrade"
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["00000000000002F3"]
+			id: "000000000000029F"
+			rewards: [{
+				id: "00000000000008EB"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Creative Stuff chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Dark Utilities"
+			icon: "darkutils:blank_plate"
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["0000000000000A22"]
+			id: "00000000000002A1"
+			rewards: [{
+				id: "00000000000008EC"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Dark Utilities chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Extended Crafting"
+			icon: "extendedcrafting:basic_table"
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["0000000000001402"]
+			id: "00000000000002A3"
+			rewards: [{
+				id: "0000000000001D5B"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Extended Crafting chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fluid of Plenty"
+			icon: "minecraft:lava_bucket"
+			x: -2.5d
+			y: 6.0d
+			id: "00000000000002A5"
+			rewards: [{
+				id: "00000000000008EE"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Fluid of Plenty chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Forbidden and Arcanus"
+			icon: "forbidden_arcanus:forbiddenmicon"
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["0000000000000A86"]
+			id: "00000000000002A7"
+			rewards: [{
+				id: "00000000000008EF"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Forbidden & Arcanus chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Gobber"
+			icon: "gobber2:gobber2_globette"
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["0000000000000018"]
+			id: "00000000000002A9"
+			rewards: [{
+				id: "00000000000008F0"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Gobber chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ice and Fire"
+			icon: "iceandfire:dragon_skull_fire"
+			x: -3.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["000000000000166F"]
+			id: "00000000000002AB"
+			rewards: [{
+				id: "00000000000008F1"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Ice and Fire chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Immersive Engineering"
+			icon: "immersiveengineering:workbench"
+			x: -2.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000A89"]
+			id: "32B87F9D7EFEE271"
+			rewards: [{
+				id: "00000000000008F2"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Immersive Engineering chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Industrial Foregoing"
+			icon: "industrialforegoing:fluid_extractor"
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["000000000000000A"]
+			id: "5D26E5883FCCDAC5"
+			rewards: [{
+				id: "00000000000008F3"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Industrial Foregoing chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Library of all Mods"
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: 8.0d
+			dependencies: ["000000000000083A"]
+			id: "03FBDB8473941D6B"
+			rewards: [{
+				id: "00000000000008F4"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Library of all Mods chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mekanism"
+			icon: "mekanism:robit"
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["000000000000141E"]
+			id: "00000000000002B6"
+			rewards: [{
+				id: "0000000000001D57"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Mekanism chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Overworld Quests"
+			icon: "minecraft:zombie_head"
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["000000000000025D"]
+			id: "00000000000002B8"
+			rewards: [{
+				id: "00000000000008F6"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Mob Killing chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "PneumaticCraft"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+			x: 4.0d
+			y: 9.0d
+			subtitle: "GG, You just Finished PneumaticCraft Quest Line"
+			dependencies: ["0000000000000A8C"]
+			id: "00000000000002D3"
+			tasks: [{
+				id: "2083308088FDE179"
+				type: "custom"
+				icon: "pneumaticcraft:pressure_gauge"
+			}]
+			rewards: [
+				{
+					id: "00000000000008F7"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Pneumatic Craft chapter"
+					player_command: false
+				}
+				{
+					id: "57C720336279EA06"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Refined Storage"
+			icon: "refinedstorage:machine_casing"
+			x: -4.5d
+			y: 10.0d
+			subtitle: "GG, You just Finished the Refined Stroage Quest Line"
+			dependencies: ["000000000000084B"]
+			id: "00000000000002D5"
+			tasks: [{
+				id: "4663BA195E8F8A0A"
+				type: "custom"
+				icon: "refinedstorage:construction_core"
+			}]
+			rewards: [
+				{
+					id: "00000000000008F8"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Refined Storage chapter"
+					player_command: false
+				}
+				{
+					id: "1D1B1A874D8AF4DA"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Rftools Builder"
+			icon: "rftoolsbuilder:builder"
+			x: -2.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the Rftools Builders Quest Line"
+			dependencies: ["000000000000099C"]
+			id: "00000000000002D7"
+			tasks: [{
+				id: "5BFF68758FC8B0ED"
+				type: "custom"
+				icon: "rftoolsbuilder:space_chamber"
+			}]
+			rewards: [
+				{
+					id: "00000000000008F9"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Builder chapter"
+					player_command: false
+				}
+				{
+					id: "0D05E99AA963BACB"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Rftools Control"
+			icon: "rftoolscontrol:graphics_card"
+			x: -1.5d
+			y: 10.0d
+			subtitle: "GG, You just Finished Rftools Control Quest Line"
+			dependencies: ["00000000000009B8"]
+			id: "00000000000002D9"
+			tasks: [{
+				id: "1751EBE22CF200EB"
+				type: "custom"
+				icon: "rftoolscontrol:graphics_card"
+			}]
+			rewards: [
+				{
+					id: "00000000000008FA"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Control chapter"
+					player_command: false
+				}
+				{
+					id: "440ECC9DD8B1DDBA"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Rftools Power"
+			icon: "rftoolspower:power_core1"
+			x: -0.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the Rftools Power Quest Line"
+			dependencies: ["00000000000008CC"]
+			id: "00000000000002DB"
+			tasks: [{
+				id: "4EBC7A72B5C34FCD"
+				type: "custom"
+				icon: "rftoolspower:dimensionalcell"
+			}]
+			rewards: [
+				{
+					id: "00000000000008FB"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Rftools Power chapter"
+					player_command: false
+				}
+				{
+					id: "7425E0A1667BD891"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Simple Storage Network"
+			icon: "storagenetwork:inventory"
+			x: 1.5d
+			y: 10.0d
+			subtitle: "GG, You just Finished Simple Storage Quest Line"
+			dependencies: ["0000000000000CDE"]
+			id: "00000000000002DD"
+			tasks: [{
+				id: "23BA412FCC54A9D2"
+				type: "custom"
+				icon: "storagenetwork:inventory"
+			}]
+			rewards: [
+				{
+					id: "00000000000008FC"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Simple Storage Network chapter"
+					player_command: false
+				}
+				{
+					id: "61B57C7323119090"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Storage Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 2.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the Storage Drawers Quest Line"
+			dependencies: ["0000000000000CDF"]
+			id: "00000000000002DF"
+			tasks: [{
+				id: "637157AE527A2C46"
+				type: "custom"
+				icon: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [
+				{
+					id: "00000000000008FD"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Storage Drawers chapter"
+					player_command: false
+				}
+				{
+					id: "7EB5FF310C966385"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Tier1 Mystical Agriculture"
+			icon: "mysticalagriculture:inferium_essence"
+			x: 1.5d
+			y: 8.0d
+			dependencies: ["000000000000085E"]
+			id: "00000000000002E1"
+			rewards: [{
+				id: "00000000000008FE"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Mystical Agriculture chapter (Part 1/6)"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tier2 Mystical Agriculture"
+			icon: "mysticalagriculture:nature_seeds"
+			x: 2.5d
+			y: 8.0d
+			dependencies: ["0000000000000CF6"]
+			id: "00000000000002E3"
+			rewards: [{
+				id: "00000000000008FF"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Mystical Agriculture chapter (Part 2/6)"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tier3 Mystical Agriculture"
+			icon: "mysticalagriculture:iron_seeds"
+			x: 3.5d
+			y: 8.0d
+			dependencies: ["0000000000000D10"]
+			id: "00000000000002E5"
+			rewards: [{
+				id: "0000000000000900"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Mystical Agriculture chapter (Part 3/6)"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tier4 Mystical Agriculture"
+			icon: "mysticalagriculture:gold_seeds"
+			x: -4.0d
+			y: 9.0d
+			dependencies: ["0000000000000007"]
+			id: "00000000000002E7"
+			rewards: [
+				{
+					id: "0000000000000901"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 4/6)"
+					player_command: false
+				}
+				{
+					id: "4219A859B700F081"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Tier5 Mystical Agriculture"
+			icon: "mysticalagriculture:diamond_seeds"
+			x: -3.0d
+			y: 9.0d
+			subtitle: "GG, You Just Finished Tier 5 Mystical Quest Line"
+			dependencies: ["0000000000000D19"]
+			id: "00000000000002E9"
+			tasks: [{
+				id: "28A57CA599CB4B49"
+				type: "custom"
+				icon: "mysticalagriculture:draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "0000000000000902"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 5/6)"
+					player_command: false
+				}
+				{
+					id: "08B776C311E68356"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Tier6 Mystical Agriculture"
+			icon: "mysticalagriculture:nether_star_seeds"
+			x: -2.0d
+			y: 9.0d
+			subtitle: "GG, You just Finished the Mystical Tier 6 Quest Line"
+			dependencies: ["0000000000000D1D"]
+			id: "00000000000002EB"
+			tasks: [{
+				id: "2592C764B88CE082"
+				type: "custom"
+				icon: "mysticalagriculture:awakened_draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "0000000000000903"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Mystical Agriculture chapter (Part 6/6)"
+					player_command: false
+				}
+				{
+					id: "3FC6E6E02D54A75F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Wooden Utilities"
+			icon: "woodenutilities:wooden_plate"
+			x: 0.5d
+			y: 11.0d
+			subtitle: "GG, You just Finished the Wooden Utilities Quest Line"
+			id: "00000000000002ED"
+			tasks: [{
+				id: "02F3E01A096A15BE"
+				type: "custom"
+				icon: "woodenutilities:wooden_backpack"
+			}]
+			rewards: [
+				{
+					id: "0000000000000904"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Wooden Utilities chapter"
+					player_command: false
+				}
+				{
+					id: "66EE5C253931B170"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Xnet"
+			icon: "xnet:connector_upgrade"
+			x: 1.5d
+			y: 11.0d
+			subtitle: "GG, You just Finished the Xnet Quest Line"
+			dependencies: ["0000000000000D24"]
+			id: "00000000000002EF"
+			tasks: [{
+				id: "77E330095CE186A2"
+				type: "custom"
+				icon: "xnet:connector_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0000000000000905"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Xnet chapter"
+					player_command: false
+				}
+				{
+					id: "1CD1C9FC0422B0FF"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Overloaded"
+			icon: "overloaded:true_infinite_barrel"
+			x: 2.0d
+			y: 9.0d
+			dependencies: ["0000000000000551"]
+			id: "00000000000006C4"
+			rewards: [
+				{
+					id: "0000000000000906"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Overloaded chapter"
+					player_command: false
+				}
+				{
+					id: "76668A39635AB553"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Gadgets"
+			icon: {
+				id: "mininggadgets:mininggadget"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["0000000000000766"]
+			id: "00000000000007B5"
+			rewards: [{
+				id: "0000000000000907"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Gadgets chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Bloody Magic"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			subtitle: "GG, You Just Finished Blood Magic Quest Line"
+			dependencies: ["0000000000000BC4"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000C2C"
+			tasks: [{
+				id: "6713ABC6C7774371"
+				type: "custom"
+				icon: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D63"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Bloody Magic chapter"
+					player_command: false
+				}
+				{
+					id: "15FD32E0E87CE9C2"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Flux Networks"
+			icon: "fluxnetworks:flux_dust"
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["0000000000000AE5"]
+			id: "0000000000000C30"
+			rewards: [{
+				id: "0000000000000D64"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Flux Networks chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Thermal"
+			icon: "thermal:signalum_glass"
+			x: 4.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the Thermal Quest Line"
+			id: "0000000000000C32"
+			tasks: [{
+				id: "6066B839AF4C8538"
+				type: "custom"
+				icon: "thermal:energy_cell_frame"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D65"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Thermal chapter"
+					player_command: false
+				}
+				{
+					id: "7A5D24A77B1C7322"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "The End"
+			icon: "minecraft:end_portal_frame"
+			x: -0.5d
+			y: 11.0d
+			subtitle: "GG, You Just Finished the End Quest Line"
+			dependencies: ["0000000000000BAB"]
+			id: "0000000000000C34"
+			tasks: [{
+				id: "5F6C1B64D5C045D2"
+				type: "custom"
+				icon: "minecraft:end_stone"
+			}]
+			rewards: [
+				{
+					id: "0000000000000D66"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the The End chapter"
+					player_command: false
+				}
+				{
+					id: "542C05A3FF2D21C6"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Inventory Pets"
+			icon: {
+				id: "inventorypets:patreon_shirt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["0000000000001C41"]
+			id: "0000000000001CD4"
+			rewards: [
+				{
+					id: "0000000000001CD8"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Inventory Pets chapter"
+					player_command: false
+				}
+				{
+					id: "0000000000001CD9"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_cloud"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Gateway to Eternity"
+			icon: {
+				id: "gateways:small_gate_opener"
+				Count: 1b
+				tag: {
+					gateway_data: {
+						name: "gateways.small_skeleton_gate"
+						max_wave_time: 600
+						completion_xp: 150
+						color: "white"
+						entity: {
+							Entity: {
+								id: "minecraft:skeleton"
+							}
+							Weight: 1
+						}
+					}
+					opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_skeleton_gate\"}]}"
+				}
+			}
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["0000000000001C09"]
+			id: "0000000000001CD6"
+			rewards: [{
+				id: "0000000000001CDA"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Gateway to Eternity chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Compact Machines"
+			icon: "compactmachines:personal_shrinking_device"
+			x: -0.5d
+			y: 4.0d
+			subtitle: "GG, You just Finished Compact Machines Quest Line"
+			dependencies: ["0000000000001CDB"]
+			id: "0000000000001CF9"
+			tasks: [{
+				id: "066E08D54E55C9DB"
+				type: "custom"
+				icon: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "0000000000001CFB"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Compact Machines chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Create"
+			icon: "create:crushing_wheel"
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["0000000000001CFC"]
+			id: "0000000000001D46"
+			rewards: [{
+				id: "0000000000001D48"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Create chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Astral Sorcery"
+			icon: "astralsorcery:tome"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "GG, You Just Finished Astral Quest Line"
+			dependencies: ["0000000000000105"]
+			id: "0000000000001D49"
+			tasks: [{
+				id: "102D6E74CE8D8270"
+				type: "custom"
+				icon: "astralsorcery:aquamarine"
+			}]
+			rewards: [
+				{
+					id: "1C141F0B8C99970E"
+					type: "command"
+					command: "/say @p has compleated the Astral Sorcery chapter"
+					player_command: false
+				}
+				{
+					id: "564D0D1B441A3D9F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Iron Furnaces"
+			icon: "ironfurnaces:million_furnace"
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["00000000000019ED"]
+			id: "0000000000001D4B"
+			rewards: [{
+				id: "0000000000001D5A"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Iron Furnaces chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Let's Dance"
+			icon: "minecraft:jukebox"
+			x: -3.5d
+			y: 8.0d
+			dependencies: ["0000000000000D6C"]
+			id: "0000000000001D4F"
+			rewards: [{
+				id: "0000000000001D58"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has compleated the Let's Dance chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Reliquary"
+			icon: {
+				id: "xreliquary:mercy_cross"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: 10.0d
+			dependencies: ["0000000000000A27"]
+			id: "0000000000001D53"
+			rewards: [
+				{
+					id: "0000000000001D56"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has compleated the Reliquary chapter"
+					player_command: false
+				}
+				{
+					id: "0BDFA1F4D058DC02"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Deathstar175"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2003927051
+							-1176090684
+							-2087155028
+							1793583402
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMTM2NDUwNDEwMiwKICAicHJvZmlsZUlkIiA6ICI3NzcxODAwYmI5ZTY0N2M0ODM5ODhhYWM2YWU3ZTkyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWF0aHN0YXIxNzUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0MDJkNWQyNWRjMzIxM2ZlNDhkN2IxZGU5ZmMzMzI2Njc0NGE5ZTllNDIzYTNjMTFjYTI3OTE0NTZhYzVlIgogICAgfQogIH0KfQ=="
+								Signature: "N2oRgHGWtqjz+AWkdV05x7LkS+YMfYYjW/Z6BZo5sggKgTCWe/gcFv3GIiPUjXIs39zD1pklhs65EgdU0bM3/sltCyNiHWDKNuFxY7Ahp+8XrcC9Rj7jidvRJxck+O69wBxkmpBs3d7MuApCHO2WpeYR4CfS/61DhCFcQ70DPWXBTjvEbVhnQtR7pu7MDX5DSZgkjy8XKdwUZ6AW0YbQ88piwvypdxwUiPHNnrL4ieKVQ3+o/BPt3y0j0ZhKId7Z/HxZXTcr5XPRt59xZqHEWXUHnN6JeCdnBykHdIxWsGVaGJ0HYtc08QJf4LMZCDIdJpyaTlvhONR3SSukMpLWBxuWQpwQVMyC/EbACGGjYlgjqFVc1VyAGRuG0jtNzvFwAhckk/tvXuY38K52m9MgoiiZH/ktVvBqKRVZX2+UkwDGjEp+fH380Odq13JIcAxOV5OX3deChRa+lljh7a6YKCBk6xsB6oJkxHOl1dbdqKVIseoyoKV4XBdJIuDXAlKLu/ILbDdbijMLAJ105vtMQDrGxhKUzuhdlQ4XNiPW5I2gQKn8SVT/7ozT2Mzkg3phEaCZyP3rPbjfbL3LIxPXMLTKW+gRTTiXSJd6bOnHWH5g9umzy8zNRcUWBqNuVuCoEfZJKpj9j+2PT7XNC50BQhD4KOUBNd2Aoy7auvYGf3A="
+							}]
+						}
+						Name: "Deathstar175"
+					}
+				}
+			}
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Quest Book and Development"
+			id: "0000000000001D5C"
+			tasks: [{
+				id: "0000000000001D5D"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "0000000000001D5E"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2003927051
+									-1176090684
+									-2087155028
+									1793583402
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYxMTM2NDUwNDEwMiwKICAicHJvZmlsZUlkIiA6ICI3NzcxODAwYmI5ZTY0N2M0ODM5ODhhYWM2YWU3ZTkyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWF0aHN0YXIxNzUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0MDJkNWQyNWRjMzIxM2ZlNDhkN2IxZGU5ZmMzMzI2Njc0NGE5ZTllNDIzYTNjMTFjYTI3OTE0NTZhYzVlIgogICAgfQogIH0KfQ=="
+										Signature: "N2oRgHGWtqjz+AWkdV05x7LkS+YMfYYjW/Z6BZo5sggKgTCWe/gcFv3GIiPUjXIs39zD1pklhs65EgdU0bM3/sltCyNiHWDKNuFxY7Ahp+8XrcC9Rj7jidvRJxck+O69wBxkmpBs3d7MuApCHO2WpeYR4CfS/61DhCFcQ70DPWXBTjvEbVhnQtR7pu7MDX5DSZgkjy8XKdwUZ6AW0YbQ88piwvypdxwUiPHNnrL4ieKVQ3+o/BPt3y0j0ZhKId7Z/HxZXTcr5XPRt59xZqHEWXUHnN6JeCdnBykHdIxWsGVaGJ0HYtc08QJf4LMZCDIdJpyaTlvhONR3SSukMpLWBxuWQpwQVMyC/EbACGGjYlgjqFVc1VyAGRuG0jtNzvFwAhckk/tvXuY38K52m9MgoiiZH/ktVvBqKRVZX2+UkwDGjEp+fH380Odq13JIcAxOV5OX3deChRa+lljh7a6YKCBk6xsB6oJkxHOl1dbdqKVIseoyoKV4XBdJIuDXAlKLu/ILbDdbijMLAJ105vtMQDrGxhKUzuhdlQ4XNiPW5I2gQKn8SVT/7ozT2Mzkg3phEaCZyP3rPbjfbL3LIxPXMLTKW+gRTTiXSJd6bOnHWH5g9umzy8zNRcUWBqNuVuCoEfZJKpj9j+2PT7XNC50BQhD4KOUBNd2Aoy7auvYGf3A="
+									}]
+								}
+								Name: "Deathstar175"
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001D5F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Deathstar175\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Environmental Tech"
+			icon: {
+				id: "envirocore:rgb_controller"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["0000000000001FDB"]
+			id: "0000000000002405"
+			rewards: [{
+				id: "000000000000240C"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Environmental Tech chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Iron Jetpacks"
+			icon: {
+				id: "ironjetpacks:emerald_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["00000000000020D3"]
+			id: "000000000000240D"
+			rewards: [{
+				id: "000000000000240F"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Iron Jetpacks chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mana and Artifice"
+			icon: {
+				id: "mana-and-artifice:staff_c"
+				Count: 1b
+				tag: {
+					Damage: 0
+					spell: { }
+				}
+			}
+			x: -1.0d
+			y: 9.0d
+			subtitle: "GG, You Just Finished Mana and Artifice Quest Line"
+			dependencies: ["0000000000002193"]
+			id: "0000000000002410"
+			tasks: [{
+				id: "779388B6F26B3534"
+				type: "custom"
+				icon: "mana-and-artifice:guide_book"
+			}]
+			rewards: [
+				{
+					id: "0000000000002412"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Mana and Artifice chapter"
+					player_command: false
+				}
+				{
+					id: "4A536A0C47BD2544"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Nature's Aura"
+			icon: "naturesaura:aura_bloom"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "GG, You just finished Nature's Aura Quest Line"
+			dependencies: ["0000000000002065"]
+			id: "0000000000002413"
+			tasks: [{
+				id: "273D552D3C066B9C"
+				type: "custom"
+				icon: "naturesaura:potion_generator"
+			}]
+			rewards: [
+				{
+					id: "0000000000002415"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Nature's Aura chapter"
+					player_command: false
+				}
+				{
+					id: "4CA6E0EB8C2862E3"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "PSI"
+			icon: "psi:cad_assembly_ivory_psimetal"
+			x: 3.0d
+			y: 9.0d
+			subtitle: "GG, You just Finished PSI Quest Line"
+			dependencies: ["0000000000001DF3"]
+			id: "0000000000002416"
+			tasks: [{
+				id: "1EAA341E93AF28C9"
+				type: "custom"
+				icon: "psi:psidust"
+			}]
+			rewards: [
+				{
+					id: "0000000000002418"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the PSI chapter"
+					player_command: false
+				}
+				{
+					id: "45ADEEFB9ADCDFDE"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Router Reborn"
+			icon: "routerreborn:router"
+			x: 0.5d
+			y: 10.0d
+			subtitle: "GG, You just Finished Router Reborn Quest Line"
+			dependencies: ["0000000000001FC5"]
+			id: "0000000000002419"
+			tasks: [{
+				id: "7F9E24990159945F"
+				type: "custom"
+				icon: "routerreborn:coppercoil"
+			}]
+			rewards: [
+				{
+					id: "000000000000241B"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has completed the Router Reborn chapter"
+					player_command: false
+				}
+				{
+					id: "25410DD349561239"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Modular Routers"
+			icon: "modularrouters:item_router"
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["000000000000246B"]
+			id: "00000000000024F4"
+			rewards: [{
+				id: "00000000000024F6"
+				type: "command"
+				auto: "invisible"
+				command: "/say @p has completed the Modular Router Chapter!"
+				player_command: false
+			}]
+		}
+		{
+			title: "Laserjet25"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-2095684896
+							736317408
+							-1228747506
+							768330393
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjE3NTI0MSwKICAicHJvZmlsZUlkIiA6ICI4MzE2NjJlMDJiZTM0ZmUwYjZjMmNkMGUyZGNiY2E5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXNlcmpldDI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3ZDRiOWFkMTI2OGVlMTk5NjE0MmQyYmE2YmE0ZDMxYTBlYmQzMzMwOTgzYzkxOWFjYWE5NmQ3ZTcyNmI2NTIiCiAgICB9CiAgfQp9"
+								Signature: "RvHUq1WtWrwhatlS3XaXEfiAnS/ZTVPuwOgY5K1maO9Z43Uqg3YgdAqG+M5Pi2lgEJi9qDfI1S/YpFqj0JgBKkNeoQAvmwfPC1101m1yhbZ7QF8IQ6IEjlacalc5YAFUygwhxzyXH4rDs+PzBqFmkZvGETIlFaIuMm1/S33gC09lmSoDGF3J1NdJMY2h6XxjfM2CFDThBmcWJ+Xs66dKgMjClM0kKVbDUmGykMbSGX/+EqGlqn3y741p+a2lsam1UgLjk67zLmKLLnOqvtHPvBQyn3xThcL29NugQBKZkWr+M+RrpDhNnYAMV+orXAyHU1FgQkwWnjZgzMKXWT3GFUpsUmm/8TU4edhTzy47AnYXJjwYY/u8AVI9HXREd1UhIVfIe+ioVH+KZVztvMhyovijtrxDQE8c8gUq9Fo2e8CBj+B0+dDhc7qCwJGHmvI+oqEIHns1H49GBqJ/rDLmhucEelOvAKX5BUCedVo6qAOAUaLX9yowskuNVD1v0gq1/LKMje9btUwAGAN1P9VRakTJLgAwYBbNc7N6vZjnlvFYPJlSoXMgAMO2UNLtwE7Dn1dq0PZ6uWNh1T+2Qyz6L1zMIV+I1aIEpIzuqr3+Yi1KXDnQ4Zi74RKv+oFB6J6qADo8+mXKASARa2ZgQEhlRjxGLfgWO7pvok+ukB7lOm4="
+							}]
+						}
+						Name: "laserjet25"
+					}
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Helped With Custom Recipes"
+			id: "06D099F50419006F"
+			tasks: [{
+				id: "5834D52F8AF8FA49"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "59F89CFF47B7E0C6"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-2095684896
+									736317408
+									-1228747506
+									768330393
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjE3NTI0MSwKICAicHJvZmlsZUlkIiA6ICI4MzE2NjJlMDJiZTM0ZmUwYjZjMmNkMGUyZGNiY2E5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXNlcmpldDI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3ZDRiOWFkMTI2OGVlMTk5NjE0MmQyYmE2YmE0ZDMxYTBlYmQzMzMwOTgzYzkxOWFjYWE5NmQ3ZTcyNmI2NTIiCiAgICB9CiAgfQp9"
+										Signature: "RvHUq1WtWrwhatlS3XaXEfiAnS/ZTVPuwOgY5K1maO9Z43Uqg3YgdAqG+M5Pi2lgEJi9qDfI1S/YpFqj0JgBKkNeoQAvmwfPC1101m1yhbZ7QF8IQ6IEjlacalc5YAFUygwhxzyXH4rDs+PzBqFmkZvGETIlFaIuMm1/S33gC09lmSoDGF3J1NdJMY2h6XxjfM2CFDThBmcWJ+Xs66dKgMjClM0kKVbDUmGykMbSGX/+EqGlqn3y741p+a2lsam1UgLjk67zLmKLLnOqvtHPvBQyn3xThcL29NugQBKZkWr+M+RrpDhNnYAMV+orXAyHU1FgQkwWnjZgzMKXWT3GFUpsUmm/8TU4edhTzy47AnYXJjwYY/u8AVI9HXREd1UhIVfIe+ioVH+KZVztvMhyovijtrxDQE8c8gUq9Fo2e8CBj+B0+dDhc7qCwJGHmvI+oqEIHns1H49GBqJ/rDLmhucEelOvAKX5BUCedVo6qAOAUaLX9yowskuNVD1v0gq1/LKMje9btUwAGAN1P9VRakTJLgAwYBbNc7N6vZjnlvFYPJlSoXMgAMO2UNLtwE7Dn1dq0PZ6uWNh1T+2Qyz6L1zMIV+I1aIEpIzuqr3+Yi1KXDnQ4Zi74RKv+oFB6J6qADo8+mXKASARa2ZgQEhlRjxGLfgWO7pvok+ukB7lOm4="
+									}]
+								}
+								Name: "laserjet25"
+							}
+						}
+					}
+				}
+				{
+					id: "251B8C9DD296302C"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Laser25\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "draconicevolution:draconium_energy_module"
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["6CFF57E0CBFF14DF"]
+			id: "49601DF6379F0609"
+			rewards: [{
+				id: "46619FAC812B575C"
+				type: "command"
+				command: "/say @p has completed the Draconic chapter"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "0D5D15F3A3D8D422"
+			tasks: [{
+				id: "6049C933A01B9195"
+				type: "item"
+				item: "mcwwindows:oak_window"
+			}]
+			rewards: [{
+				id: "2E125C6ECF3D04DE"
+				type: "command"
+				command: "/say @p has completed the Building chapter"
+				player_command: false
+			}]
+		}
+		{
+			title: "TheRanker24"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2083476260
+							-1038464527
+							-2086757108
+							1599679444
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjg4NjM4OSwKICAicHJvZmlsZUlkIiA6ICI3YzJmNTMyNGMyMWE0OWYxODM5ZTlkMGM1ZjU5MmJkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVSYW5rZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNiYzg0M2U5MGIzNDFiYWU4OTNhZWQyYTRmN2Q0NWIwNTM2NjU3OTRjZGZhOGExMmYyNzY0MGFkZDg0MjMyNSIKICAgIH0KICB9Cn0="
+								Signature: "gDqSQs6NJ4Z9LmPGzKYSXuy8wHStZsIe5vnvmAz6WF7bH3Uqx9q9ksi9TghEVMtN+lQaCCDQz7C79keeF/i1VqQpz/S1DhwgKPaeoBfeMi4Sy3+tFzEwEZ9OFXUaepZM/bSyq58TjhORV4dVmnbVsjfCezRjpLAR4OV0TEi1BrwQmSE10oHUwPLyP+iBC6gxNjoBH7ZEMjWbqnbOJQA1/rISN5KNmmxfRkNsKlK3mh7chSu/GLChrdYKFnaufu/MmVNWLc+Y5EJJ56R+zXH4n925c/4GQIIG1LnT0R5Tf2F8LtYpsVVKK/zj2Q3ViWpJkyC1HVokDQfD9j8ijDY8hhOGkbNbpx18dymzIFFVVBJl8La5Yun2CnPFjyFg5X52/32uAyIpZHOjO2luPvbipE7NcoNpUcmoPQao3k3xf1t6oiLjkq4+jKdVqXakh4Ai3ysyhInoawqlXkma/yoN9WbwvojilGWVy4M8gSqzfWJgP603fcQ71Yxkq6XoVy1bAcOk2rC0l3+jtmtfRrB9in+n6JPD8vDlLNwVYa3VpoYBinw9IWln0udplkmgGNJaY5ZgazPEAb3w0HH8vkjPsQqh2jm3cuWwF1qlWT3VlzCDvVpBuWREdDBUVyS8+o/D7rdC3fsfBgIudW8MpVyyL0fJ8Y/TOp2HmoNLQBbTIWg="
+							}]
+						}
+						Name: "TheRanker"
+					}
+				}
+			}
+			x: 0.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Helped with Custom Ice and Fire Stuff"
+			id: "3A759D488795F166"
+			tasks: [{
+				id: "1605ACF50DBC52F8"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+			rewards: [
+				{
+					id: "5829E6771607FAB8"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2083476260
+									-1038464527
+									-2086757108
+									1599679444
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNjg4NjM4OSwKICAicHJvZmlsZUlkIiA6ICI3YzJmNTMyNGMyMWE0OWYxODM5ZTlkMGM1ZjU5MmJkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVSYW5rZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNiYzg0M2U5MGIzNDFiYWU4OTNhZWQyYTRmN2Q0NWIwNTM2NjU3OTRjZGZhOGExMmYyNzY0MGFkZDg0MjMyNSIKICAgIH0KICB9Cn0="
+										Signature: "gDqSQs6NJ4Z9LmPGzKYSXuy8wHStZsIe5vnvmAz6WF7bH3Uqx9q9ksi9TghEVMtN+lQaCCDQz7C79keeF/i1VqQpz/S1DhwgKPaeoBfeMi4Sy3+tFzEwEZ9OFXUaepZM/bSyq58TjhORV4dVmnbVsjfCezRjpLAR4OV0TEi1BrwQmSE10oHUwPLyP+iBC6gxNjoBH7ZEMjWbqnbOJQA1/rISN5KNmmxfRkNsKlK3mh7chSu/GLChrdYKFnaufu/MmVNWLc+Y5EJJ56R+zXH4n925c/4GQIIG1LnT0R5Tf2F8LtYpsVVKK/zj2Q3ViWpJkyC1HVokDQfD9j8ijDY8hhOGkbNbpx18dymzIFFVVBJl8La5Yun2CnPFjyFg5X52/32uAyIpZHOjO2luPvbipE7NcoNpUcmoPQao3k3xf1t6oiLjkq4+jKdVqXakh4Ai3ysyhInoawqlXkma/yoN9WbwvojilGWVy4M8gSqzfWJgP603fcQ71Yxkq6XoVy1bAcOk2rC0l3+jtmtfRrB9in+n6JPD8vDlLNwVYa3VpoYBinw9IWln0udplkmgGNJaY5ZgazPEAb3w0HH8vkjPsQqh2jm3cuWwF1qlWT3VlzCDvVpBuWREdDBUVyS8+o/D7rdC3fsfBgIudW8MpVyyL0fJ8Y/TOp2HmoNLQBbTIWg="
+									}]
+								}
+								Name: "TheRanker"
+							}
+						}
+					}
+				}
+				{
+					id: "09DB14A701A82A8B"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"TheRanker\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Grotts"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-648126610
+							-60274545
+							-1376630461
+							103292329
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNzA5MDg3MiwKICAicHJvZmlsZUlkIiA6ICJkOTVlNWY2ZWZjNjg0ODhmYWRmMjQ5NDMwNjI4MWRhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcm90dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MmY0NjAwNjYzYzY0YWU5MjIwZjcwM2Y2MTU5NWE0MGEyZTE0MWQ4MGU0YzZiMWQ3MjBkNTc2MWJlODYxNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+								Signature: "WLqGpsuKiwrFJ9Re6ZRsHvuzdD3i+ORzJ5dOP9clxlRuut/ieHIY88Jkqj3PEwtFf8isGEbdT1Ic4rDTHXGEkcH6/yygRzbcenXn2EeywUL8ZWwo6xW+mOzRiOrjzzscg2+1XvSpGQBY1QowW7jeUIdrom3rc8B1ogBxyjrdvj+38jjzHOseauvXdNbB6l7pprjM88jPU/7O2nA91ApOSsq8ZJ79OJFZpMphYrEIhHiamMfw70rD9J+7IVjFywHYf5CQm5Ja+jsIPQxH2XHlD3QIno/8JK1wBnClDnHteu4i2xR5l5yk08x+mNie8Wu5HmezyWBTYOarEBFRSLINKImRurNKij0hilfs2YcdCpPIgTtY8mDXY9IWuc0vNbhzNdSfheBCOstYk1jOtouqGo943ErtSiimY7WPVeydULsNjoW++ctmNI/bIIF5Gm3GOqPq8I6QVig3QWZXpzO8jQnGjQEK651sFRWHG0PTdhGsy5wKWqRYG4pjY0cdcjECmlJVN8XWcuj3SoKf4HTdqT4iVNzSLJnbtJy+bqaQvLoMuYeui/Dk/KuJqV2Xllf7ExLg8a9POtHCsq0DXH1Cso3rr7CRhPsDYW/MYjPcvSHeuW9yf1q7Ccad/O1v33i3C0WWyKuMVWmmcKTkMfj5hCTgKYc1aAhBOvvf6tUW0g8="
+							}]
+						}
+						Name: "Grotts"
+					}
+				}
+			}
+			x: 1.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Owner of BedrockLegends Alongside ModernGamingWorld"
+			id: "21B9AE5F7B5DBA79"
+			rewards: [
+				{
+					id: "60882469881A4DF9"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-648126610
+									-60274545
+									-1376630461
+									103292329
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDgwNzA5MDg3MiwKICAicHJvZmlsZUlkIiA6ICJkOTVlNWY2ZWZjNjg0ODhmYWRmMjQ5NDMwNjI4MWRhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcm90dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU3MmY0NjAwNjYzYzY0YWU5MjIwZjcwM2Y2MTU5NWE0MGEyZTE0MWQ4MGU0YzZiMWQ3MjBkNTc2MWJlODYxNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+										Signature: "WLqGpsuKiwrFJ9Re6ZRsHvuzdD3i+ORzJ5dOP9clxlRuut/ieHIY88Jkqj3PEwtFf8isGEbdT1Ic4rDTHXGEkcH6/yygRzbcenXn2EeywUL8ZWwo6xW+mOzRiOrjzzscg2+1XvSpGQBY1QowW7jeUIdrom3rc8B1ogBxyjrdvj+38jjzHOseauvXdNbB6l7pprjM88jPU/7O2nA91ApOSsq8ZJ79OJFZpMphYrEIhHiamMfw70rD9J+7IVjFywHYf5CQm5Ja+jsIPQxH2XHlD3QIno/8JK1wBnClDnHteu4i2xR5l5yk08x+mNie8Wu5HmezyWBTYOarEBFRSLINKImRurNKij0hilfs2YcdCpPIgTtY8mDXY9IWuc0vNbhzNdSfheBCOstYk1jOtouqGo943ErtSiimY7WPVeydULsNjoW++ctmNI/bIIF5Gm3GOqPq8I6QVig3QWZXpzO8jQnGjQEK651sFRWHG0PTdhGsy5wKWqRYG4pjY0cdcjECmlJVN8XWcuj3SoKf4HTdqT4iVNzSLJnbtJy+bqaQvLoMuYeui/Dk/KuJqV2Xllf7ExLg8a9POtHCsq0DXH1Cso3rr7CRhPsDYW/MYjPcvSHeuW9yf1q7Ccad/O1v33i3C0WWyKuMVWmmcKTkMfj5hCTgKYc1aAhBOvvf6tUW0g8="
+									}]
+								}
+								Name: "Grotts"
+							}
+						}
+					}
+				}
+				{
+					id: "0FC58C0C5F686E23"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Grotts\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			subtitle: "GG, You Just Finished the ATUM Quest Line"
+			id: "221740C5AD9140E0"
+			tasks: [{
+				id: "279E1AC68EF2BBB6"
+				type: "custom"
+				icon: "atum:sand"
+			}]
+			rewards: [
+				{
+					id: "75040B49B52173F4"
+					type: "command"
+					command: "/say @p has compleated the ATUM chapter"
+					player_command: false
+				}
+				{
+					id: "170120C32E211FAB"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Building"
+			x: 1.0d
+			y: 9.0d
+			subtitle: "GG, You Just Finished the Building Quest Line"
+			dependencies: ["0000000000000096"]
+			id: "55B1716F627C45CB"
+			tasks: [{
+				id: "79B414D24E06AD98"
+				type: "custom"
+				icon: "mcwwindows:jungle_plank_window"
+			}]
+			rewards: [
+				{
+					id: "6771D5610699FDE4"
+					type: "command"
+					command: "/say @p has compleated the Building chapter"
+					player_command: false
+				}
+				{
+					id: "722B7DD5BF7B317C"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Eidolon"
+			x: -1.5d
+			y: 11.0d
+			subtitle: "GG, You just Finished Eidolon Quest Line"
+			dependencies: ["0000000000000E7F"]
+			id: "5D5DCCE4B130CC38"
+			tasks: [{
+				id: "61DDCEB952860FC7"
+				type: "custom"
+				icon: "eidolon:unholy_symbol"
+			}]
+			rewards: [
+				{
+					id: "0CE7D7043B3A2226"
+					type: "command"
+					command: "/say @p has compleated the The Eidolon chapter"
+					player_command: false
+				}
+				{
+					id: "63A8E77FD62FC14F"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			title: "Gateways"
+			x: -2.5d
+			y: 11.0d
+			subtitle: "GG, You Just Finished the Gateway Quest Line"
+			id: "16EB0B4A32E7E188"
+			tasks: [{
+				id: "7000444601B592DE"
+				type: "custom"
+				icon: {
+					id: "gateways:small_gate_opener"
+					Count: 1b
+					tag: {
+						gateway_data: {
+							name: "gateways.small_slime_gate"
+							max_wave_time: 600
+							completion_xp: 150
+							color: "green"
+							entity: {
+								Entity: {
+									id: "minecraft:slime"
+								}
+								Weight: 1
+							}
+						}
+						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_slime_gate\"}]}"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "381574414394F8F9"
+					type: "command"
+					command: "/say @p has compleated the The Gateways chapter"
+					player_command: false
+				}
+				{
+					id: "6BDA95CED823BD8D"
+					type: "item"
+					item: "minecraft:cake"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "GG, You Finished The Waystone Quest Line"
+			dependencies: ["0965D5B5D7483B3B"]
+			dependency_requirement: "one_completed"
+			id: "14C69223DB6BB18B"
+		}
+	]
+}
