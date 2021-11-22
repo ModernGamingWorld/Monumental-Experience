@@ -211,7 +211,15 @@ const itemsToHide = [
     'emendatusenigmatica:ruby_crushed',
     'emendatusenigmatica:ruby_fragment',
     'emendatusenigmatica:ruby_gravel',
-    'emendatusenigmatica:ruby_ore'
+    'emendatusenigmatica:ruby_ore',
+    'occultism:debug_foliot_lumberjack',
+    'occultism:debug_foliot_transport_items',
+    'occultism:debug_foliot_cleaner',
+    'occultism:debug_foliot_trader',
+    'occultism:debug_djinni_manage_machine',
+    'occultism:debug_djinni_test',
+    'appliedenergistics2:ender_dust',
+    'betterendforge:ender_dust'
 ];
 
 const materialsToUnify = [
@@ -350,6 +358,8 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'familiar_beholder',
+    'familiar_shub_niggurath',
     'familiar_chimera',
     'familiar_goat',
     'familiar_headless',
