@@ -114,6 +114,14 @@ events.listen('recipes', (event) => {
                 output: Item.of('ironcoals:iron_coal', 2)
             },
             {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:vinteum_dust'],
+                output: Item.of('mana-and-artifice:vinteum_coated_iron', 1)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:purified_vinteum_dust'],
+                output: Item.of('mana-and-artifice:purified_vinteum_coated_iron', 1)
+            },
+            {
                 inputs: ['#forge:ender_pearls', '#forge:dyes/purple'],
                 output: Item.of('waystones:warp_dust', 4)
             },
@@ -514,7 +522,8 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:watering_can'
                 ],
                 output: Item.of('mysticalagriculture:inferium_watering_can', 1)
-            }, {
+            }, 
+            {
                 inputs: [
                     '#forge:ingots/netherite_scrap',
                     '#forge:netherrack',
@@ -535,6 +544,14 @@ events.listen('recipes', (event) => {
                     '#forge:ingots/gold'
                 ],
                 output: Item.of('minecraft:netherite_ingot', 1)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:vinteum_dust'],
+                output: Item.of('mana-and-artifice:vinteum_coated_iron', 2)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:purified_vinteum_dust'],
+                output: Item.of('mana-and-artifice:purified_vinteum_coated_iron', 2)
             },
             {
                 inputs: [
