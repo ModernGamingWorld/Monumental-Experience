@@ -54,6 +54,10 @@ onEvent('recipes', (event) => {
                 input: 'mysticalagradditions:insanium_block'
             },
             {
+                outputs: [Item.of('atum:emmer_flour', 1), Item.of('atum:emmer_flour', 2).withChance(0.25), Item.of('atum:emmer_seeds').withChance(0.25)],
+                input: 'atum:emmer'
+            },
+            {
                 outputs: [Item.of('mysticalagradditions:insanium_coal', 5)],
                 input: 'mysticalagradditions:insanium_coal_block'
             },

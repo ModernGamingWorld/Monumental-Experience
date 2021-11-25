@@ -3302,6 +3302,12 @@ onEvent('recipes', event => {
         id: 'mana-and-artifice:vinteum_bar_blast_furnace'
     })
     event.remove({
+        id: 'mana-and-artifice:vinteum_coated_iron'
+    })
+    event.remove({
+        id: 'mana-and-artifice:purified_vinteum_coated_iron'
+    })
+    event.remove({
         id: 'mana-and-artifice:vinteum_bar'
     })
     event.remove({

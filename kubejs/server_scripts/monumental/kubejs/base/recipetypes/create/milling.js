@@ -1006,9 +1006,19 @@ onEvent('recipes', (event) => {
                 processingTime: 200
             },
             {
+                input: 'thermal:sawdust_block',
+                outputs: ['mysticalagriculture:wood_essence', Item.of('emendatusenigmatica:wood_dust', 1)],
+                processingTime: 200
+            },
+            {
                 input: 'mysticalagriculture:yellorium_seeds',
                 outputs: [Item.of('mysticalagriculture:yellorium_essence', 1)],
                 processingTime: 200
+            },
+            {
+                input: 'atum:emmer',
+                outputs: [Item.of('atum:emmer_flour', 1), Item.of('atum:emmer_flour', 2).withChance(0.25), Item.of('atum:emmer_seeds').withChance(0.25)],
+                processingTime: 150
             },
             {
                 input: 'mysticalagriculture:zinc_seeds',

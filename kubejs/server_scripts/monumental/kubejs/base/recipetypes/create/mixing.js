@@ -114,6 +114,14 @@ events.listen('recipes', (event) => {
                 output: Item.of('ironcoals:iron_coal', 2)
             },
             {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:vinteum_dust'],
+                output: Item.of('mana-and-artifice:vinteum_coated_iron', 1)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:purified_vinteum_dust'],
+                output: Item.of('mana-and-artifice:purified_vinteum_coated_iron', 1)
+            },
+            {
                 inputs: ['#forge:ender_pearls', '#forge:dyes/purple'],
                 output: Item.of('waystones:warp_dust', 4)
             },
@@ -140,28 +148,12 @@ events.listen('recipes', (event) => {
                 output: Item.of('thermal:rubber', 1)
             },
             {
-                inputs: ['#forge:ingots/iron', 'tconstruct:blood_slime_ball', 'minecraft:clay_ball'],
-                output: Item.of('tconstruct:pig_iron_ingot', 2)
-            },
-            {
                 inputs: ['#forge:dyes/green', '#forge:dusts/iron', '#forge:sand'],
                 output: Item.of('immersiveengineering:insulating_glass', 2)
             },
             {
-                inputs: ['#forge:ingots/copper', '#forge:ingots/copper', '#forge:ingots/copper', '#forge:glass'],
-                output: Item.of('tconstruct:tinkers_bronze_ingot', 4)
-            },
-            {
-                inputs: ['#forge:ingots/iron', 'tconstruct:sky_slime_ball', 'tconstruct:seared_brick'],
-                output: Item.of('tconstruct:slimesteel_ingot', 2)
-            },
-            {
                 inputs: ['#forge:ingots/iron', '#forge:dusts/ender'],
                 output: Item.of('betterendforge:terminite_ingot', 1)
-            },
-            {
-                inputs: ['#forge:ingots/copper', '#forge:ingots/copper', '#forge:ingots/copper', '#forge:ingots/gold'],
-                output: Item.of('tconstruct:rose_gold_ingot', 4)
             },
             {
                 inputs: [
@@ -460,7 +452,6 @@ events.listen('recipes', (event) => {
                 ],
                 output: Item.of('buildinggadgets:construction_block_powder', 1)
             },
-            //Mystical Ag ingots
             {
                 inputs: [
                     'mysticalagriculture:prosperity_ingot',
@@ -517,7 +508,6 @@ events.listen('recipes', (event) => {
                 ],
                 output: Item.of('mysticalagriculture:soulium_ingot', 1)
             }
-            
         ],
         recipes_superheated: [{
                 inputs: [
@@ -532,7 +522,8 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:watering_can'
                 ],
                 output: Item.of('mysticalagriculture:inferium_watering_can', 1)
-            }, {
+            }, 
+            {
                 inputs: [
                     '#forge:ingots/netherite_scrap',
                     '#forge:netherrack',
@@ -553,6 +544,14 @@ events.listen('recipes', (event) => {
                     '#forge:ingots/gold'
                 ],
                 output: Item.of('minecraft:netherite_ingot', 1)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:vinteum_dust'],
+                output: Item.of('mana-and-artifice:vinteum_coated_iron', 2)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'mana-and-artifice:purified_vinteum_dust'],
+                output: Item.of('mana-and-artifice:purified_vinteum_coated_iron', 2)
             },
             {
                 inputs: [
@@ -1270,6 +1269,10 @@ events.listen('recipes', (event) => {
                     'create:polished_rose_quartz'
                 ],
                 output: Item.of('create:chromatic_compound', 1)
+            },
+            {
+                inputs: ['#forge:ingots/netherite', 'betterendforge:terminite_ingot'],
+                output: Item.of('betterendforge:aeternium_ingot', 1)
             }
         ]
     };

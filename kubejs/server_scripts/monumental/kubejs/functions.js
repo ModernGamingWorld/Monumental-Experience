@@ -1,5 +1,9 @@
 //priority: 1005
 
+function shapedRecipe(result, pattern, key, id) {
+    return { result: result, pattern: pattern, key: key, id: id };
+}
+
 function unificationBlacklistEntry(material, type) {
     return { material: material, type: type };
 }
