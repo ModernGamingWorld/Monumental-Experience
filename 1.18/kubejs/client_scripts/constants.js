@@ -344,6 +344,7 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'emu',
     'axolotl',
     'goat',
     'enchanter',
