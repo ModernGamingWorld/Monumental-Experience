@@ -4,9 +4,9 @@
 	#Forge Energy conversion rate (in FE/t at max RPM).
 	#Range: > 0
 	fe_conversion = 80
-	#Max stress for the Alternator and Electric Motor.
+	#Max stress for the Alternator and Electric Motor (in SU at max RPM).
 	#Range: > 0
-	generator_stress = 4096
+	baseline_stress = 8192
 
 #Electric Motor
 [electric_motor]
@@ -69,9 +69,9 @@
 	#Connector max output in FE/t (Energy transfer).
 	#Range: > 0
 	connector_max_output = 2048
-	#Connector internal capacity in FE.
-	#Range: > 0
-	connector_capacity = 4096
+	#Max wire length in blocks.
+	#Range: 0 ~ 256
+	connector_capacity = 256
 
 #Accumulator
 [accumulator]
@@ -85,7 +85,7 @@
 	#Range: > 0
 	accumulator_capacity = 4196000
 
-#Charger
+#Charger (Deprecated)
 [charger]
 	#Charger max input in FE/t (Energy transfer).
 	#Range: > 0
@@ -105,4 +105,46 @@
 	#The energy cost of turning Chromatic Compound into Overcharged Alloy.
 	#Range: > 1
 	overcharging_energy_cost = 16777216
+	#The relative speed of the Furnace Engine when powered by a Furnace Burner.
+	#Range: 0.0 ~ 100.0
+	furnace_burner_engine_speed = 1.0
+	#The relative speed of the Furnace Engine when powered by a Crude Burner.
+	#Range: 0.0 ~ 100.0
+	crude_burner_engine_speed = 2.0
+
+#Tesla Coil
+[tesla_coil]
+	#Charger max input in FE/t (Energy transfer).
+	#Range: > 0
+	tesla_coil_max_input = 8192
+	#Charger charge rate in FE/t.
+	#Range: > 0
+	tesla_coil_charge_rate = 8192
+	#Charger internal capacity in FE.
+	#Range: > 0
+	tesla_coil_capacity = 32000
+	#Energy consumed when Tesla Coil is fired (in FE).
+	#Range: > 0
+	tesla_coil_hurt_energy_required = 1024
+	#Hurt range (in blocks/meters).
+	#Range: > 0
+	tesla_coil_hurt_range = 3
+	#Damaged dealt to mobs when Tesla Coil is fired (in half hearts).
+	#Range: > 0
+	tesla_coil_hurt_mob = 3
+	#The duration of the Shocked effect for mobs (in ticks).
+	#Range: > 0
+	tesla_coil_effect_time_mob = 20
+	#Damaged dealt to players when Tesla Coil is fired (in half hearts).
+	#Range: > 0
+	tesla_coil_hurt_player = 2
+	#The duration of the Shocked effect for players (in ticks).
+	#Range: > 0
+	tesla_coil_effect_time_player = 20
+	#Tesla Coil fire interval (in ticks).
+	#Range: > 0
+	tesla_coil_fire_cooldown = 20
+	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
+	#Range: 0.0 ~ 1.0
+	certus_quartz_charge_chance = 0.96
 

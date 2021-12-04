@@ -69,6 +69,10 @@ onEvent('jei.hide.items', event => {
 	event.hide('minecraft:nether_gold_ore')
 	event.hide('geolosys:gold_cluster')
 	event.hide('geolosys:nether_gold_cluster')
+	event.hide('byg:blue_nether_gold_ore')
+	event.hide('byg:brimstone_nether_gold_ore')
+	//Gold plate
+	event.hide('create:golden_sheet')
 //
 //DIAMOND
 	//Diamond dust
@@ -97,7 +101,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:lapis_dust')
 	event.hide('mekanism:dust_lapis_lazuli')
 	//Lapis lazuli gear
-	event.hide('thermal:lapis_lazuli_gear')
+	event.hide('thermal:lapis_gear')
 	//Lapis lazuli plate
 	event.hide('create:lapis_sheet')
 	//Lapis lazuli ore
@@ -192,7 +196,7 @@ onEvent('jei.hide.items', event => {
 	//Aluminum block
 	event.hide('silents_mechanisms:aluminum_block')
 	event.hide('tmechworks:aluminum_block')
-	event.hide('immersiveengineering:storage_aluminium')
+	event.hide('immersiveengineering:storage_aluminum')
 	//Aluminum nugget
 	event.hide('silents_mechanisms:aluminum_nugget')
 	event.hide('tmechworks:aluminum_nugget')
@@ -203,7 +207,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('pedestals:dustaluminum')
 	event.hide('immersiveengineering:dust_aluminium')
 	//Aluminum plate
-	event.hide('immersiveengineering:plate_aluminium')
+	event.hide('immersiveengineering:plate_aluminum')
 	//Aluminum rod
 	event.hide('immersiveengineering:stick_aluminium')
 	//Aluminum ore
@@ -438,6 +442,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('silents_mechanisms:zinc_dust')
 	//Zinc plate
 	event.hide('createaddition:zinc_sheet')
+	event.hide('createdeco:zinc_sheet')
 	//Zinc ore
 	event.hide('create:zinc_ore')
 	event.hide('silents_mechanisms:zin_ore')
@@ -530,6 +535,8 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:niter_block')
 	//Potassium nitrate dust
 	event.hide('thermal:niter_dust')
+	//Potassium nitrate ore
+	event.hide('thermal:niter_ore')
 //
 //MANA GEM/ARCANE
 	//Mana gem
@@ -562,6 +569,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:bronze_gear')
 	//Bronze plate
 	event.hide('thermal:bronze_plate')
+	event.hide('steampowered:bronze_sheet')
 //
 //BRASS
 	//Brass ingot
@@ -742,6 +750,8 @@ onEvent('jei.hide.items', event => {
 //OTHER
 	event.hide('minecraft:redstone_ore')
 	event.hide('geolosys:ancient_debris_cluster')
+	event.hide('byg:cryptic_redstone_ore')
+	event.hide('thermal:sawdust')
 //
 //fin
 //

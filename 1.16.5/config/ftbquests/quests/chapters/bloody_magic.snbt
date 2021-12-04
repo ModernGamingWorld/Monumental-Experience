@@ -16,35 +16,6 @@
 	quests: [
 		{
 			x: 9.0d
-			y: 5.0d
-			shape: "gear"
-			id: "0000000000000BC5"
-			tasks: [{
-				id: "0000000000000BC6"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0000000000000F6B"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "0000000000000F6C"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
-			x: 9.0d
 			y: 2.5d
 			shape: "gear"
 			id: "0000000000000BC7"

@@ -4,6 +4,8 @@
 	"Enable Area Effect Cloud 3D" = true
 	#A few fixes
 	"Enable Fixes" = true
+	#Set custom blocks appearing when fluids merge
+	"Enable Fluid Mixin" = false
 
 	#No more boring 3D Area of Effect Clouds
 	[Base."Area Effect Cloud 3D"]
@@ -20,4 +22,11 @@
 		"Fix Jump Movement Factor" = true
 		#The fix for Jump Movement Factor is applied only when the player is slowed down.
 		"Fix Jump Movement Factor Slowdown Only" = true
+
+	#Set custom blocks appearing when fluids merge
+	[Base."Fluid Mixin"]
+		#A list of fluids flowing over other fluids and the block created. It's highly recommended to use tags since fluids are split between still and flowing.
+		#Format must be modid:fluid_or_tag_id,modid:fluid_or_tag_id,modid_block_output[,modid:block_below_required]
+		#block_below_required is optional.
+		"Custom Fluid Mixin" = []
 

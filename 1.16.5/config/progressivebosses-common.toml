@@ -11,7 +11,7 @@
 	"Enable Resistances & Vulnerabilities" = true
 	#Bonus Experience and Drops
 	"Enable Rewards" = true
-	#Wither will spawn deadly (and tall) Minions
+	#Wither will spawn deadly Minions
 	"Enable Minions" = true
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	"Enable Attack" = true
@@ -105,7 +105,7 @@
 		#By default Withers have 2% chance per difficulty >= 2 to drop 1 shard + 4% chance per difficulty >= 4 to drop 2 shards + 8% chance per difficulty >= 8 to drop 4 shards.
 		Drops = ["progressivebosses:nether_star_shard,1,1,0.16,PER_DIFFICULTY,FLAT"]
 
-	#Wither will spawn deadly (and tall) Minions
+	#Wither will spawn deadly Minions
 	[Wither.Minions]
 		#At which difficulty the Wither starts spawning Minions
 		#Range: > 0
@@ -274,7 +274,7 @@
 		"Bonus Experience per Difficulty" = 0.3
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
-		#A list of drops for the Withers. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
+		#A list of drops for the Dragons. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
 		#item: item id
 		#amount: amount
 		#difficulty_required: the amount of difficulty required for the item to drop, works differently based on mode
@@ -371,12 +371,16 @@
 ["Elder Guardian"]
 	#Bonus Health and Health regeneration.
 	"Enable Health" = true
-	#Player's not able to break blocks while in range of Elder Guardians.
-	"Enable Adventure" = true
 	#Handles the Damage Resistances
 	"Enable Resistances" = true
 	#More damage and attack speed based off Elder Guardians Defeated
 	"Enable Attack" = true
+	#Base feature for the Elder Guardian harder fights. Disabling this feature will disable the added sound when an Elder Guardian is killed.
+	"Enable Base" = true
+	#Elder Guardians will spawn Elder Minions.
+	"Enable Minions" = true
+	#Bonus Experience and Dragon Egg per player
+	"Enable Rewards" = true
 
 	#Bonus Health and Health regeneration.
 	["Elder Guardian".Health]
@@ -399,9 +403,45 @@
 	#More damage and attack speed based off Elder Guardians Defeated
 	["Elder Guardian".Attack]
 		#Percentage Bonus damage per defeated Elder Guardian.
-		#Range: 0.0 ~ 1.0
+		#Range: 0.0 ~ 128.0
 		"Bonus Damage per Elder Guardian Defeated" = 0.2
 		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
 		#Range: 0 ~ 60
 		"Attack Duration Reduction per Elder Guardian Defeated" = 25
+
+	#Base feature for the Elder Guardian harder fights. Disabling this feature will disable the added sound when an Elder Guardian is killed.
+	["Elder Guardian".Base]
+		#If true, the player will not be able to break blocks when an Elder Guardian is nearby.
+		"Adventure mode" = true
+
+	#Elder Guardians will spawn Elder Minions.
+	["Elder Guardian".Minions]
+		#Elder Guardians will spawn Elder Minions every this tick value (20 ticks = 1 sec).
+		#Range: > 0
+		"Base Cooldown" = 200
+		#The base cooldown is reduced by this value for each missing Elder Guardian.
+		#Range: > 0
+		"Cooldown Reduction per Missing Elder" = 60
+
+	#Bonus Experience and Dragon Egg per player
+	["Elder Guardian".Rewards]
+		#How much experience will an Elder Guardian drop.
+		#Range: 0 ~ 1024
+		"Base Experience" = 40
+		#How much more experience (percentage) will Elder Guardian drop per killed Elder Guardian. The percentage is additive (e.g. with this set to 100%, the last Elder will drop 200% more experience)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience" = 1.0
+		#A list of bonus drops for the Elder Guardian. Entry format: item,amount,missing_guardians,chance,mode,chance_mode
+		#item: item id
+		#amount: amount
+		#missing_guardians: the amount of missing guardians required for the item to drop, works differently based on mode
+		#chance: chance for the drop to happen, between 0 and 1
+		#mode:
+		#* MINIMUM: will try to drop the item when the missing_guardians matches or is higher
+		#* PER_DIFFICULTY: will try to drop the item one more time per missing_guardians
+		#chance_mode:
+		#* FLAT: chance is the percentage chance for the item to drop if the difficulty criteria matches
+		#* SCALING: each point of difficulty >= 'difficulty to drop the item' will be multiplied by the chance (e.g. chance 2% and difficulty 10, difficulty required 5, chance to drop the item will be chance * (difficulty - difficulty_required + 1) = 2% * (10 - 5 + 1) = 12%)
+		#By default Withers have 2% chance per difficulty >= 2 to drop 1 shard + 4% chance per difficulty >= 4 to drop 2 shards + 8% chance per difficulty >= 8 to drop 4 shards.
+		Drops = ["minecraft:wet_sponge,1,0,1,MINIMUM,FLAT", "minecraft:wet_sponge,2,1,1,MINIMUM,FLAT", "minecraft:wet_sponge,2,2,1,MINIMUM,FLAT", "progressivebosses:elder_guardian_spike,1,0,1,MINIMUM,FLAT"]
 

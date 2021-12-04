@@ -1,0 +1,7 @@
+
+[visual_workbench]
+	#Workbenches disabled from being able to store crafting ingredients.
+	#Modders may add their own incompatible workbenches via the "visualworkbench:non_visual_workbenches" block tag.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Trader Blacklist" = []
+

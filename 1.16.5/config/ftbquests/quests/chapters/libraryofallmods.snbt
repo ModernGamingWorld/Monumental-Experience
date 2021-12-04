@@ -94,6 +94,7 @@
 				id: "0000000000000846"
 				type: "item"
 				item: "rftoolsbase:manual"
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FE8"
@@ -117,6 +118,7 @@
 						"patchouli:book": "pneumaticcraft:book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "7EFAC241B929B048"

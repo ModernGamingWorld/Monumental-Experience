@@ -90,7 +90,7 @@
 		#   Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
 		#   Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
 		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
-		#
+		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
 		[client.custom_borders.definitions]
 			level0_entries = ["@overloaded", "@minecraft", "@gobber2", "@extendedcrafting", "@chancecubes", "@bhc", "@advancedperipherals", "@computercraft", "@artifacts", "@emendatusenigmatica", "@ftbquests"]
 			level1_entries = ["@botanicalmachinery", "@mythicbotany", "@woot", "@xreliquary", "@psipherals", "@psi", "@mana-and-artifice", "@forbidden_arcanus", "@druidcraft", "@auraaddons", "@occultism", "@eidolon", "@bloodmagic", "@astralsorcery", "@losttrinkets", "@naturesaura", "@botania", "@apotheosis"]

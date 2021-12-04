@@ -14,13 +14,10 @@
 			y: 0.0d
 			shape: "heart"
 			description: [
-				"Eidolon is a dark magic mod focused on prayers, alchemy, sacrifices and magic shenanigans! "
 				""
-				"While it is still very early in development, it already offers some cool gadgets and toys to play around with, and lays a really strong foundation for an exciting future to come. So what are you waiting for, jump in before everyone else does!"
 				""
-				"Grab your Ars Ecclesia, guide to every step you’ll take in the mod and get ready to please the Dark Lord."
 				""
-				"~Merlo"
+				""
 			]
 			size: 2.0d
 			id: "0000000000000E80"
@@ -87,13 +84,10 @@
 			y: 0.0d
 			subtitle: "This is going to be spooky..."
 			description: [
-				"Chants are an important mechanic in Eidolon, that will allow you to progress in Theurgy and unlock the more powerful items and tools in the mod. "
 				""
-				"To perform chants you’ll need to learn signs and then combine them from your Ars Ecclesia to compose the correct sequence for the chant you want."
 				""
-				"While most signs are learned from the gods themselves while progressing in theurgy, a few basic ones might be known to magical users in the normal world."
 				""
-				"Try paying a visit to your local swamp and throwing your Ars Ecclesia at one of them, you might learn something new..."
+				""
 			]
 			dependencies: ["0000000000000E80"]
 			id: "0000000000000E85"
