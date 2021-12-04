@@ -1,0 +1,11 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 2, 2021, 7:46:37 PM
+
+#blockui:container_gui
+- minecraft:chest
+- minecraft:trapped_chest
+- minecraft:dispenser
+- minecraft:dropper
+- minecraft:brewing_stand
+- minecraft:hopper
+- minecraft:shulker_box
+- minecraft:barrel

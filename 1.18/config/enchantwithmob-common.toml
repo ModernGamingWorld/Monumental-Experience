@@ -1,0 +1,9 @@
+#Enable the the spawning of enchanted mobs. [true / false]
+"Enchanted Mob can Spawn Natural" = true
+#Disables specific mob from receiveing enchantments on spawn. Use the full name, eg: dungeons_mobs:protection.
+enchantOnSpawnExclusionMobs = ["minecraft:wither", "minecraft:ender_dragon"]
+#Enable the the spawning of enchanted animal mobs. [true / false]
+"Enchanted Animal can Spawn Natural" = false
+#Enable enchanting yourself. [true / false]
+"Enchant yourself" = true
+
