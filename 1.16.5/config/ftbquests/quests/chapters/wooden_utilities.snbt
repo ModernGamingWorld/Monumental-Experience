@@ -194,29 +194,6 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
-			shape: "gear"
-			id: "670F5A49381AE211"
-			tasks: [{
-				id: "3B8A4E9DDA6D8821"
-				type: "item"
-				item: "woodenutilities:wooden_backpack"
-			}]
-			rewards: [
-				{
-					id: "00000000000010A7"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "00000000000010A8"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
 			title: "&6Wooden Hopper"
 			x: -4.0d
 			y: -4.0d
@@ -314,8 +291,8 @@
 		}
 		{
 			title: "&6Wooden Bar"
-			x: 2.0d
-			y: 5.0d
+			x: 4.0d
+			y: -4.0d
 			shape: "gear"
 			id: "0522B496DB2030E4"
 			tasks: [{

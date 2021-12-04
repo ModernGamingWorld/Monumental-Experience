@@ -126,6 +126,10 @@
 		#Populate the creative inventory with all tipped spikes variations
 		populate_creative_tab = true
 
+	[blocks.turn_table]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
 #Particle parameters
 [particles]
 

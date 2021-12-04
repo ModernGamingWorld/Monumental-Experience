@@ -6,8 +6,3 @@
 	#minecolonies.config.enablecitizenvoices.comment [Default: true]
 	enablecitizenvoices = true
 
-#All configurations related to pathfinding
-[pathfinding]
-	#Show pathfinding paths (might be laggy). [Default: false]
-	pathfindingdebugdraw = false
-

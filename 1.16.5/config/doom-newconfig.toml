@@ -636,3 +636,19 @@
 	"Toolsmith Trades Toggle" = true
 	"Mason Trades Toggle" = true
 
+["Mob Settings:Gladiator"]
+	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
+	"Gladiator Biomes" = ["#nether"]
+	#Range: > 1
+	"Gladiator Spawn Weight" = 4
+	#Range: > 1
+	"Gladiator Min Group" = 1
+	#Range: > 1
+	"Gladiator Max Group" = 1
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Max Health" = 240.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Ranged Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Melee Damage" = 7.0
+
