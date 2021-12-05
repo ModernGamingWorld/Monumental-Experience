@@ -1,0 +1,108 @@
+
+[general]
+	#Set to false to disable the jumpscare system.
+	Jumpscare = true
+	#Set to a number > 0 to cause the jumpscare to apply poison the player. A value of 5 will take around half of the health. 
+	#Range: 0 ~ 6
+	JumpscareHurtLevel = 1
+	#While set to true, the eyes entity will ignore the artificial light level and will jumpscare even if it's lit. Daylight will still disable it's AI.
+	EyesCanAttackWhileLit = true
+	#The speed at which the eyes move, when not aggressive.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	SpeedNoAggro = 0.10000000149011612
+	#The speed at which the eyes move when aggressive.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	SpeedFullAggro = 0.5
+	#The time the spawn cycle can take before a warning is printed to the log. In Microseconds. Default = 50ms
+	#Range: 0 ~ 9223372036854775807
+	LongSpawnCycleWarning = 50000
+
+[eye_aggression]
+	#While set to true, the eyes entities will progressively get more bold, and move faster, the longer they live.
+	EnableEscalation = true
+	#While set to true, the eyes entities will spawn with higher aggresion levels in higher local difficulties.
+	LocalDifficulty = true
+	#While set to true, the eyes entities will have higher aggression values on lower light levels.
+	LightLevel = true
+
+[sound_volumes]
+	#Changes the volume of the idle sounds, relative to the volume of the hostile mob category.
+	#Range: 0.0 ~ 1.0
+	IdleNoiseVolume = 1.0
+	#Changes the volume of the death/disappear sounds, relative to the volume of the hostile mob category.
+	#Range: 0.0 ~ 1.0
+	DisappearNoiseVolume = 1.0
+	#Changes the volume of the jumpscare sounds, relative to the volume of the hostile mob category.
+	#Range: 0.0 ~ 1.0
+	JumpscareVolume = 1.0
+
+[spawning]
+	#If false, the eyes entity will not spawn naturally during the night.
+	EnableNaturalSpawn = true
+	#Max block distance from a player at which the eyes will spawn.
+	#Range: > 1
+	MaxEyesSpawnDistance = 64
+	#Specifies rules for accepting or rejecting biomes.
+	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
+	#Rules:
+	#  "biome:name"    -- ALLOWS spawning in the given biome.
+	#  "!biome:name"   -- DISALLOWS spawning in the given biome.
+	#  "#biome_label"  -- ALLOWS spawning in the given biome dictionary label.
+	#  "!#biome_label" -- DISALLOWS spawning in the given biome dictionary label.
+	#  "!*"            -- DISALLOWS spawning unconditionally. Place this at the end of the list to disable spawning if no other rules pass (defaults to allow otherwise).
+	#Examples:
+	#  To disable spawning in the end: [ "!#END" ]
+	#  To disable spawning in the nether biome: [ "!minecraft:nether" ]
+	#  To disable spawning in forest areas, but allow them in dark fores: [ "minecraft:dark_forest", "!#FOREST" ]
+	#NOTE: VOID type biomes are disabled by default, internally. You can explicitly enable those by adding "#VOID" to the rules, but this is not recommended.
+	BiomeRules = []
+	#Specifies rules for accepting or rejecting dimensions.
+	#The rules are scanned one by one until a rule matches, This means the first rule to match takes precedence over any other subsequent rule, so more specific rules should go first.
+	#Rules:
+	#  "dimension:name"   -- ALLOWS spawning in the given dimension.
+	#  "!dimension:name"  -- DISALLOWS spawning in the given dimension.
+	#  "#dimension:type"  -- ALLOWS spawning in any dimension with the given dimension type.
+	#  "!#dimension:type" -- DISALLOWS spawning in any dimension with the given dimension type.
+	#  "!*"               -- DISALLOWS spawning unconditionally. Place this at the end of the list to disable spawning if no other rules pass (defaults to allow otherwise).
+	#Examples:
+	#  To disable spawning in the end dimension: [ "!minecraft:the_end" ]
+	#  To disable spawning in the nether dimension: [ "!minecraft:nether" ]
+	#  To disable spawning in all secondary overworlds, but allow the vanilla overworld: [ "minecraft:overworld", "!#minecraft:overworld" ]
+	DimensionRules = []
+
+#Default spawn settings
+[spawning_normal]
+	#Number of ticks between spawn cycles.
+	#Range: > 1
+	SpawnCycleInterval = 150
+	#Max number of eyes entities that will spawn around any one player.
+	#Range: > 1
+	MaxEyesAroundPlayer = 2
+	#Max number of eyes entities that will spawn in each dimension.
+	#Range: > 1
+	MaxTotalEyesPerDimension = 15
+
+#Spawn settings in the minutes around midnight
+[spawning_midnight]
+	#Number of ticks between spawn cycles.
+	#Range: > 1
+	SpawnCycleInterval = 50
+	#Max number of eyes entities that will spawn around any one player.
+	#Range: > 1
+	MaxEyesAroundPlayer = 3
+	#Max number of eyes entities that will spawn in each dimension.
+	#Range: > 1
+	MaxTotalEyesPerDimension = 15
+
+#Spawn settings in the days leading to halloween
+[spawning_halloween]
+	#Number of ticks between spawn cycles.
+	#Range: > 1
+	SpawnCycleInterval = 50
+	#Max number of eyes entities that will spawn around any one player.
+	#Range: > 1
+	MaxEyesAroundPlayer = 5
+	#Max number of eyes entities that will spawn in each dimension.
+	#Range: > 1
+	MaxTotalEyesPerDimension = 25
+
