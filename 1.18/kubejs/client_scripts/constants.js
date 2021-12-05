@@ -992,7 +992,14 @@ const mobsToUnify = [
     'tentacle',
     'turret',
     'tyrant',
-    'whiplash'
+    'whiplash',
+    'froststalker',
+    'tusklin',
+    'laviathan',
+    'cosmaw',
+    'maned_wolf',
+    'anaconda',
+    'anteater'
 ];
 
 const upgradesToUnify = [
@@ -1149,6 +1156,8 @@ const leavesToUnify = [
 ];
 
 const bucketsToUnify = [
+    'powdered_snow',
+    'axolotl',
     'water',
     'lava',
     'milk',
