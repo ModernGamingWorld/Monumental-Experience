@@ -32,7 +32,8 @@ mobsToUnify.forEach((mobs) => {
             'twilightforest:boss_spawner_' + mobs,
             'inventorypets:' + mobs + '_spawn',
             'marquot:' + mobs + '_spawn_egg',
-            'guardvillagers:' + mobs + '_spawn_egg'
+            'guardvillagers:' + mobs + '_spawn_egg',
+            'enchantwithmob:' + mobs + '_spawn_egg'
     	);
 });
 
