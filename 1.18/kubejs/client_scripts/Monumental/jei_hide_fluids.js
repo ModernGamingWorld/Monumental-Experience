@@ -9,4 +9,9 @@ onEvent('jei.hide.fluids', (event) => {
     event.hide('biggerreactors:liquid_uranium');
     event.hide('biggerreactors:liquid_obsidian');
     event.hide('biggerreactors:steam');
+    event.hide('cyclic:xpjuice');
+    event.hide('cyclic:slime');
+    event.hide('cyclic:biomass');
+    event.hide('cyclic:honey');
+    event.hide('cyclic:magma');
 });

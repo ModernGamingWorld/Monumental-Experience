@@ -38,6 +38,8 @@ const colors = [
 ];
 
 const itemsToHide = [
+    'castle_in_the_sky:laputa_core',
+    'castle_in_the_sky:laputa_core_orb',
     'cyclic:hopper',
     'aiotbotania:livingwood_shears',
     'aiotbotania:livingrock_shears',
@@ -190,6 +192,7 @@ const itemsToHide = [
     Item.of('lingering_potion').ignoreNBT(),
     Item.of('tipped_arrow').ignoreNBT(),
     Item.of('enchanted_book').ignoreNBT(),
+    Item.of('spikes_tipped').ignoreNBT(),
     'minecraft:command_block',
     'minecraft:repeating_command_block',
     'minecraft:chain_command_block',
@@ -1156,7 +1159,7 @@ const leavesToUnify = [
 ];
 
 const bucketsToUnify = [
-    'powdered_snow',
+    'powder_snow',
     'axolotl',
     'water',
     'lava',
