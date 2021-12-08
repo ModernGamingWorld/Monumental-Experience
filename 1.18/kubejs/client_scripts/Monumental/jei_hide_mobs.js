@@ -1,4 +1,4 @@
-events.listen('jei.hide.items', (event) => {
+onEvent('jei.hide.items', (event) => {
 
 mobsToUnify.forEach((mobs) => {
         itemsToHide.push(

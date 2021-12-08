@@ -20,7 +20,7 @@ SOMETIMES, THESE ORES WILL SPAWN DISPITE BEING REMOVED WITH KUBEJS.
 WE HIGHLY RECOMMEND JUST DISABLING THE ORES IN THEIR RESPECTIVE CONFIG FILES.
 */
 
-events.listen('worldgen.remove', (event) => {
+onEvent('worldgen.remove', (event) => {
 
 //VANILLA
 	event.removeOres((ores) => {
