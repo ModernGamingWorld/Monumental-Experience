@@ -1,53 +1,14 @@
 onEvent('item.tags', (event) => {
-    event.add('forge:hoes', [
-        'minecraft:wooden_hoe',
-        'minecraft:stone_hoe',
-        'minecraft:golden_hoe',
-        'minecraft:iron_hoe',
-        'minecraft:diamond_hoe',
-        'minecraft:netherite_hoe',
-        'aiotbotania:livingwood_hoe',
-        'aiotbotania:livingrock_hoe',
-        'aiotbotania:alfsteel_hoe',
-        'aquaculture:neptunium_hoe',
-        'botania:manasteel_hoe',
-        'botania:elementium_hoe',
-        'immersiveengineering:hoe_steel',
-        'naturesaura:infused_iron_hoe',
-        'naturesaura:sky_hoe',
-        'undergarden:cloggrum_hoe',
-        'undergarden:froststeel_hoe',
-        'undergarden:utheric_hoe',
-        'undergarden:forgotten_hoe',
-        'betterendforge:aeternium_hoe',
-        'betterendforge:thallasium_hoe',
-        'betterendforge:terminite_hoe',
-        'atum:limestone_hoe',
-        'appliedenergistics2:certus_quartz_hoe',
-        'appliedenergistics2:nether_quartz_hoe',
-        'cyclic:crystal_hoe',
-        'cyclic:emerald_hoe',
-        'cyclic:sandstone_hoe',
-        'cyclic:netherbrick_hoe',
-        'doom:argent_hoe',
-        'druidcraft:bone_hoe',
-        'druidcraft:moonstone_hoe',
-        'forbidden_arcanus:draco_arcanus_hoe',
-        'forbidden_arcanus:arcane_golden_hoe',
-        'forbidden_arcanus:reinforced_arcane_golden_hoe',
-        'forbidden_arcanus:obsidian_hoe',
-        'gobber2:gobber2_hoe',
-        'gobber2:gobber2_hoe_nether',
-        'gobber2:gobber2_hoe_end',
-        'iceandfire:silver_hoe',
-        'iceandfire:copper_hoe',
-        'iceandfire:dragonbone_hoe',
-        'iceandfire:myrmex_desert_hoe',
-        'iceandfire:myrmex_jungle_hoe',
-        'iceandfire:dragonsteel_fire_hoe',
-        'iceandfire:dragonsteel_ice_hoe',
-        'iceandfire:dragonsteel_lightning_hoe',
-        'twilightforest:ironwood_hoe',
-        'twilightforest:steeleaf_hoe'
-    ]);
+    var items = ['immersiveengineering:hoe_steel', 'atum:osiris_blessing', 'atum:gebs_undoing'];
+    var exceptions = [
+        'betterendforge:aeternium_hoe_head',
+        'betterendforge:thallasium_hoe_head',
+        'betterendforge:terminite_hoe_head'
+    ];
+
+    var tags = ['forge:tools', 'forge:tools/hoe'];
+
+    tags.forEach((tag) => {
+        event.get(tag).add(items).add(/_hoe/).add(/_aiot/).remove(exceptions);
+    });
 });
