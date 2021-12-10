@@ -84,12 +84,12 @@ onEvent('worldgen.remove', (event) => {
 
 //CERTUS QUARTZ
 	event.removeOres((ores) => {
-		ores.blocks = ['appliedenergistics2:certus_quartz_ore'];
+		ores.blocks = ['ae2:certus_quartz_ore'];
 	});
 
 //CHARGED CERTUS QUARTZ
 	event.removeOres((ores) => {
-		ores.blocks = ['appliedenergistics2:charged_certus_quartz_ore'];
+		ores.blocks = ['ae2:charged_certus_quartz_ore'];
 	});
 
 //FLUORITE

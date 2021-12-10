@@ -29,7 +29,7 @@ onEvent('jei.hide.items', (event) => {
             'blue_skies:' + material + '_ore',
             'phosphophyllite:' + material + '_ore',
             'betterendforge:' + material + '_ore',
-            'appliedenergistics2:' + material + '_ore',
+            'ae2:' + material + '_ore',
             'minecraft:' + material + '_ore'
         );
     });
@@ -107,10 +107,6 @@ itemsToHide.forEach((disabledItem) => {
     if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
     }
-});
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
 });
 
     colors.forEach((color) => {

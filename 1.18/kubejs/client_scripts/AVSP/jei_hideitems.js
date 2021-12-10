@@ -28,7 +28,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:iron_dust')
 	event.hide('occultism:iron_dust')
 	event.hide('terraqueous:iron_dust')
-	event.hide('appliedenergistics2:iron_dust')
+	event.hide('ae2:iron_dust')
 	//Iron gear
 	event.hide('thermal:iron_gear')
 	event.hide('titanium:iron_gear')
@@ -55,7 +55,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('thermal:gold_dust')
 	event.hide('occultism:gold_dust')
 	event.hide('terraqueous:gold_dust')
-	event.hide('appliedenergistics2:gold_dust')
+	event.hide('ae2:gold_dust')
 	//Gold gear
 	event.hide('thermal:gold_gear')
 	event.hide('titanium:gold_gear')
@@ -111,7 +111,7 @@ onEvent('jei.hide.items', event => {
 	//Nether quartz dust
 	event.hide('mekanism:dust_quartz')
 	event.hide('thermal:quartz_dust')
-	event.hide('appliedenergistics2:nether_quartz_dust')
+	event.hide('ae2:nether_quartz_dust')
 	//Nether quartz gear
 	event.hide('thermal:quartz_gear')
 	//Nether quartz ore
@@ -460,25 +460,26 @@ onEvent('jei.hide.items', event => {
 
 //CERTUS QUARTZ
 	//Certus quartz crystal
-	event.hide('appliedenergistics2:certus_quartz_crystal')
+	event.hide('ae2:certus_quartz_crystal')
 	//Certus quartz dust
-	event.hide('appliedenergistics2:certus_quartz_dust')
+	event.hide('ae2:certus_quartz_dust')
 	//Certus quartz ore
-	event.hide('appliedenergistics2:certus_quartz_ore')
+	event.hide('ae2:certus_quartz_ore')
+	event.hide('ae2:deepslate_quartz_ore')
 	
 //CHARGED CERTUS QUARTZ
 	//Charged certus quartz crystal
-	event.hide('appliedenergistics2:charged_certus_quartz_crystal')
+	event.hide('ae2:charged_certus_quartz_crystal')
 	//Charged certus quartz ore
-	event.hide('appliedenergistics2:charged_certus_quartz_ore')
+	event.hide('ae2:charged_certus_quartz_ore')
 
 //FLUIX CRYSTAL
 	//Fluix crystal
-	event.hide('appliedenergistics2:fluix_crystal')
+	event.hide('ae2:fluix_crystal')
 	//Fluix crystal dust
-	event.hide('appliedenergistics2:fluix_dust')
+	event.hide('ae2:fluix_dust')
 	//Fluix block
-	event.hide('appliedenergistics2:fluix_block')
+	event.hide('ae2:fluix_block')
 
 //FLUORITE
 	//Fluorite crystal
@@ -727,7 +728,7 @@ onEvent('jei.hide.items', event => {
 //
 //SILICON
 	//Silicon gem.
-	event.hide('appliedenergistics2:silicon')
+	event.hide('ae2:silicon')
 	event.hide('tinyredstone:silicon')
 	event.hide('refinedstorage:silicon')
 	//event.hide('emendatusenigmatica:silicon')

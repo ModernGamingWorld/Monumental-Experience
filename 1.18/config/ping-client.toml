@@ -5,7 +5,7 @@
 	pingAcceptDistance = 64.0
 	#How many ticks a Ping should remain active before disappearing
 	#Range: 0 ~ 2147483646
-	pingDuration = 125
+	pingDuration = 250
 	#Whether to play a sound when a Ping is received
 	sound = true
 

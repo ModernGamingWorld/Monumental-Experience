@@ -38,6 +38,7 @@ const colors = [
 ];
 
 const itemsToHide = [
+    'ae2:sky_stone_block',
     'castle_in_the_sky:laputa_core',
     'castle_in_the_sky:laputa_core_orb',
     'cyclic:hopper',
@@ -122,7 +123,6 @@ const itemsToHide = [
     /emendatusenigmatica:\w+_brimstone_ore/,
     /emendatusenigmatica:\w+_soul_soil_ore/,
     /emendatusenigmatica:\w+_basalt_ore/,
-    /'appliedenergistics2:\w+facade/,
     /titanium:\w+_gear/,
     /tconstruct:\w+_grass/,
     /eidolon:\w+_ore/,
@@ -182,7 +182,7 @@ const itemsToHide = [
     'occultism:debug_foliot_trader',
     'occultism:debug_djinni_manage_machine',
     'occultism:debug_djinni_test',
-    'appliedenergistics2:ender_dust',
+    'ae2:ender_dust',
     'betterendforge:ender_dust',
     'citadel:effect_item',
     'citadel:fancy_item',
@@ -192,7 +192,6 @@ const itemsToHide = [
     Item.of('lingering_potion').ignoreNBT(),
     Item.of('tipped_arrow').ignoreNBT(),
     Item.of('enchanted_book').ignoreNBT(),
-    Item.of('spikes_tipped').ignoreNBT(),
     'minecraft:command_block',
     'minecraft:repeating_command_block',
     'minecraft:chain_command_block',
@@ -347,6 +346,7 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'red_merchant',
     'emu',
     'axolotl',
     'goat',
