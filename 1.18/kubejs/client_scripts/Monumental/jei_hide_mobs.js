@@ -1,6 +1,6 @@
 onEvent('jei.hide.items', (event) => {
 
-mobsToUnify.forEach((mobs) => {
+    mobsToUnify.forEach((mobs) => {
         itemsToHide.push(
             'aquaculture:' + mobs + '_spawn_egg',
             'magma_monsters:' + mobs + '_spawn_egg',
@@ -34,17 +34,13 @@ mobsToUnify.forEach((mobs) => {
             'marquot:' + mobs + '_spawn_egg',
             'guardvillagers:' + mobs + '_spawn_egg',
             'enchantwithmob:' + mobs + '_spawn_egg'
-    	);
-});
+        );
+    });
 
 
-itemsToHide.forEach((disabledItem) => {
-    if (!Item.of(disabledItem).isEmpty()) {
+    itemsToHide.forEach((disabledItem) => {
+        if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
-    }
-});
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
+        }
     });
 });
