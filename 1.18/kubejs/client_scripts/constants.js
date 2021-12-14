@@ -346,6 +346,22 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'familiar_mummy',
+    'barbarianegg',
+    'barbarcheregg',
+    'barbchiefegg',
+    'pirateegg',
+    'piratearcheregg',
+    'piratecaptainegg',
+    'mummyegg',
+    'mummyarcheregg',
+    'pharaoegg',
+    'shieldmaidenegg',
+    'norsemenarcheregg',
+    'norsemenchiefegg',
+    'amazonegg',
+    'amazonchiefegg',
+    'mercegg',
     'red_merchant',
     'emu',
     'axolotl',
