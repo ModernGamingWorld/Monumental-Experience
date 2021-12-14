@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     var irontags = ['', '_aluminum', '_lead', '_tin', '_copper', '_brass'];
 
     irontags.forEach(function (tag) {

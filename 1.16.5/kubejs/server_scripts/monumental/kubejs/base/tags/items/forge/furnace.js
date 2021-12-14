@@ -1,5 +1,6 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.add('forge:furnace', [
+        'minecraft:furnace',
         'engineersdecor:small_lab_furnace',
         'engineersdecor:small_electrical_furnace',
         'industrialforegoing:resourceful_furnace',

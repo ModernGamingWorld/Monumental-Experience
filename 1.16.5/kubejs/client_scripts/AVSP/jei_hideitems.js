@@ -752,6 +752,7 @@ onEvent('jei.hide.items', event => {
 	event.hide('geolosys:ancient_debris_cluster')
 	event.hide('byg:cryptic_redstone_ore')
 	event.hide('thermal:sawdust')
+	event.hide('mekanism:sawdust')
 //
 //fin
 //

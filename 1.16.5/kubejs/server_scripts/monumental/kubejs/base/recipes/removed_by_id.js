@@ -312,7 +312,19 @@ onEvent('recipes', event => {
         id: 'appliedenergistics2:inscriber/engineering_processor_print'
     })
     event.remove({
+        id: 'appliedenergistics2:inscriber/engineering_processor_press'
+    })
+    event.remove({
+        id: 'appliedenergistics2:inscriber/silicon_press'
+    })
+    event.remove({
+        id: 'appliedenergistics2:inscriber/calculation_processor_press'
+    })
+    event.remove({
         id: 'appliedenergistics2:inscriber/logic_processor_print'
+    })
+    event.remove({
+        id: 'appliedenergistics2:inscriber/logic_processor_press'
     })
     event.remove({
         id: 'appliedenergistics2:decorative/certus_quartz_block'

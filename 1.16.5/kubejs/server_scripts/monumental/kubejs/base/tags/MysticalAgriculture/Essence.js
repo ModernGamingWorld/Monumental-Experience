@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.add('mysticalagriculture:essences', [
         'mysticalagriculture:panda_essence',
 		'mysticalagriculture:fox_essence',

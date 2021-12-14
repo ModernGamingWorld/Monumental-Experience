@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     let anvil_blocks = [
         '#forge:storage_blocks/refined_obsidian',
         '#forge:storage_blocks/refined_glowstone',

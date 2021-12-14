@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.add('forge:mushroom_stems', [
         'blue_skies:snowcap_mushroom_stem',
         'byg:white_mushroom_stem',

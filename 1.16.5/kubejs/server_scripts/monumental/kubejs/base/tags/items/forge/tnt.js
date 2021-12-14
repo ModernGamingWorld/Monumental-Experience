@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.add('forge:tnt', [
         'minecraft:tnt',
         'woodenutilities:wooden_tnt',
