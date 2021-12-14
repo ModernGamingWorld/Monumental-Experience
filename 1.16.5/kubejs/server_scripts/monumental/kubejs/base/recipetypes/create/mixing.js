@@ -535,6 +535,16 @@ events.listen('recipes', (event) => {
             },
             {
                 inputs: [
+                    'immersiveengineering:hemp_fiber',
+                    'immersiveengineering:hemp_fiber',
+                    'bloodmagic:reagentbinding',
+                    'mysticalagriculture:pink_slime_essence',
+                    'mysticalagriculture:pink_slime_essence'
+                ],
+                output: Item.of('refinedstorage:processor_binding', 1)
+            },
+            {
+                inputs: [
                     '#forge:ingots/netherite_scrap',
                     '#forge:ingots/netherite_scrap',
                     '#forge:ingots/netherite_scrap',

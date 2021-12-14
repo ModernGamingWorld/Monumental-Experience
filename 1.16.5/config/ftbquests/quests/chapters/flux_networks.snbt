@@ -29,7 +29,10 @@
 			x: 0.0d
 			y: -4.5d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "03E30AA4E577F4DA"
 			tasks: [{
 				id: "332724FB2C037A7A"
@@ -46,7 +49,10 @@
 			x: -4.5d
 			y: 0.0d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "09F88FBB1DB656F2"
 			tasks: [{
 				id: "0085DACBCB37ED75"
@@ -63,7 +69,10 @@
 			x: -4.5d
 			y: -4.5d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "58066F76E37B0DC6"
 			tasks: [
 				{
@@ -92,7 +101,10 @@
 			x: 0.0d
 			y: 4.5d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "2913BB23E7E1D7D5"
 			tasks: [
 				{
@@ -116,7 +128,10 @@
 			x: -4.5d
 			y: 4.5d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "2F2F6DDDC03983DA"
 			tasks: [{
 				id: "7DFCB9B9A9FF2C2F"
@@ -133,7 +148,10 @@
 			x: 4.5d
 			y: 0.0d
 			shape: "gear"
-			dependencies: ["0000000000000AE6"]
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
 			id: "45D913CA9EA5D570"
 			tasks: [{
 				id: "5C1A60FDE90150A6"

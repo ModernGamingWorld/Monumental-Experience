@@ -24,6 +24,7 @@
 						"patchouli:book": "naturesaura:book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "00000000000023A0"

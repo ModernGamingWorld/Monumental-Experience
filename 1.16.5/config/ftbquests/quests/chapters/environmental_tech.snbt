@@ -746,6 +746,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4F49F241A1AF8228"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

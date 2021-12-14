@@ -434,6 +434,18 @@
 				type: "item"
 				item: "refinedstorage:network_receiver"
 			}]
+			rewards: [
+				{
+					id: "46899D812CBA2BC9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "34B3F7479140F587"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -765,6 +777,18 @@
 				type: "item"
 				item: "refinedstorage:upgrade"
 			}]
+			rewards: [
+				{
+					id: "679172BAD049747B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "250F8904CA231B61"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 11.5d

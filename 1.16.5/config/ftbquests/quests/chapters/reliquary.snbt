@@ -44,6 +44,11 @@
 				type: "item"
 				item: "xreliquary:destruction_catalyst"
 			}]
+			rewards: [{
+				id: "07F803AD78CCD805"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 2.0d

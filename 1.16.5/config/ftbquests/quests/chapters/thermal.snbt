@@ -11,8 +11,8 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			shape: "diamond"
-			size: 1.5d
+			shape: "heart"
+			size: 2.0d
 			id: "3C12C2403DFB47A5"
 			tasks: [{
 				id: "7EE6BC32127565D3"
@@ -35,17 +35,25 @@
 		{
 			x: 0.5d
 			y: 6.0d
+			shape: "heart"
+			size: 2.0d
 			id: "635C0CFC242FFBE2"
 			tasks: [{
 				id: "56EB9A79A118188A"
 				type: "item"
 				item: "thermal:machine_frame"
 			}]
+			rewards: [{
+				id: "6F9DCA343C567878"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 4.5d
 			y: 6.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "7AAEC73777D7CBCB"
 			tasks: [{
 				id: "3EAA824E29519C5F"
@@ -62,6 +70,7 @@
 			x: 0.5d
 			y: 10.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "5639121C75F0AC1C"
 			tasks: [{
 				id: "6D7BE660FF4CC7F6"
@@ -78,6 +87,7 @@
 			x: 4.5d
 			y: 10.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "0BAC2F73444175E9"
 			tasks: [{
 				id: "1E8C48DF73FEAED0"
@@ -94,6 +104,7 @@
 			x: 4.5d
 			y: 8.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "08BA6EBD1B9836A5"
 			tasks: [{
 				id: "0177E4A6793EC29F"
@@ -110,6 +121,7 @@
 			x: -3.5d
 			y: 6.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			optional: true
 			id: "24AE2C2B91DB95BD"
 			tasks: [{
@@ -127,6 +139,7 @@
 			x: -3.5d
 			y: 10.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "40981BDE80994E69"
 			tasks: [{
 				id: "289D49E89503D30F"
@@ -143,6 +156,7 @@
 			x: -1.5d
 			y: 10.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "0E1AC7DDA9C7942E"
 			tasks: [{
 				id: "4386E4934F350B3B"
@@ -159,6 +173,7 @@
 			x: 4.5d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "0FBFDF6B9381DC1A"
 			tasks: [{
 				id: "3FEB83D207A82E71"
@@ -175,6 +190,7 @@
 			x: -3.5d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "29F5D9684B3E0D9B"
 			tasks: [{
 				id: "3A723FF8BF26AEB4"
@@ -191,6 +207,7 @@
 			x: -3.5d
 			y: 8.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "6006A898B875CFBB"
 			tasks: [{
 				id: "5D7ED0B7334ADB69"
@@ -207,6 +224,7 @@
 			x: 2.5d
 			y: 10.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "57BFA98BF83A4ED7"
 			tasks: [{
 				id: "35CF3913DA9CA06C"
@@ -223,6 +241,7 @@
 			x: -1.5d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "0C577631BCBA9F53"
 			tasks: [{
 				id: "75BF8B849E67C679"
@@ -239,6 +258,7 @@
 			x: 2.5d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["635C0CFC242FFBE2"]
 			id: "35D731DFEB88C067"
 			tasks: [{
 				id: "64CF2A1D45F35696"
@@ -255,17 +275,24 @@
 			x: 0.5d
 			y: -3.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "0000000000000B16"
 			tasks: [{
 				id: "60FCE1EE1C657E86"
 				type: "item"
 				item: "thermal:dynamo_stirling"
 			}]
+			rewards: [{
+				id: "10666CF4D58643DB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -3.5d
 			y: -3.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "7B34C30BFA5AFAC7"
 			tasks: [{
 				id: "42F53411CC609093"
@@ -282,6 +309,7 @@
 			x: -1.5d
 			y: -3.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "4C9A27FBFAE9FE3C"
 			tasks: [{
 				id: "151DCE79255DDBC3"
@@ -298,6 +326,7 @@
 			x: 2.5d
 			y: -3.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "30A2851CE3AF5C86"
 			tasks: [{
 				id: "6E88FA55ED4C75B0"
@@ -314,6 +343,7 @@
 			x: 4.5d
 			y: -3.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "114035857B392805"
 			tasks: [{
 				id: "6E7D941B23A360E3"
@@ -330,6 +360,7 @@
 			title: "Coils of plenty"
 			x: 4.5d
 			y: 1.5d
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "790ED5F0C0481E06"
 			tasks: [
 				{
@@ -358,6 +389,7 @@
 			title: "O My, Look a ton of Upgrades"
 			x: 4.5d
 			y: -0.5d
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "0000000000000B24"
 			tasks: [
 				{
@@ -731,6 +763,7 @@
 			x: -3.5d
 			y: 1.5d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "0000000000000B55"
 			tasks: [
 				{
@@ -754,6 +787,7 @@
 			x: -3.5d
 			y: -1.0d
 			shape: "gear"
+			dependencies: ["3C12C2403DFB47A5"]
 			id: "0000000000000B58"
 			tasks: [
 				{
@@ -1098,6 +1132,11 @@
 					item: "thermal:chiller_ball_cast"
 				}
 			]
+			rewards: [{
+				id: "0A17D624B953F437"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1186,6 +1225,7 @@
 			x: -5.5d
 			y: 1.5d
 			shape: "gear"
+			dependencies: ["0000000000000B55"]
 			id: "0000000000000B9D"
 			tasks: [
 				{

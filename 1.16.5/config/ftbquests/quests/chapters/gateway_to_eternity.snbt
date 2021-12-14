@@ -57,6 +57,18 @@
 				type: "item"
 				item: "mysticalagriculture:enderium_essence"
 			}]
+			rewards: [
+				{
+					id: "31DFD8418F1155C2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7866F9C3FE805E39"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 0.0d

@@ -19,6 +19,11 @@
 				type: "item"
 				item: "storagenetwork:master"
 			}]
+			rewards: [{
+				id: "664973BE6B1ABA96"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d

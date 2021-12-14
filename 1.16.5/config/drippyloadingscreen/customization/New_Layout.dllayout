@@ -1,9 +1,12 @@
 type = hud
 
 customization-meta {
-  autoscale_baseheight = 1061
+  randomgroup = 1
+  autoscale_baseheight = 1080
   renderorder = foreground
-  autoscale_basewidth = 2560
+  autoscale_basewidth = 1920
+  randommode = false
+  randomonlyfirsttime = false
   backgroundcolor = #66a8ff
 }
 
@@ -40,6 +43,7 @@ customization {
   orientation = bottom-centered
   x = 0
   width = 530
+  actionid = 3c8a9672-297d-4e53-a4da-affcbdf534161639019123051
   y = 0
   action = addcustomprogressbar
   height = 20

@@ -186,8 +186,7 @@ const itemsToHide = [
     Item.of('splash_potion').ignoreNBT(),
     Item.of('lingering_potion').ignoreNBT(),
     Item.of('tipped_arrow').ignoreNBT(),
-    Item.of('enchanted_book').ignoreNBT(),
-    Item.of('creative_fluid_tank').ignoreNBT()
+    Item.of('enchanted_book').ignoreNBT()
 ];
 
 const materialsToUnify = [

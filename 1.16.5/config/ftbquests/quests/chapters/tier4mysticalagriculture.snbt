@@ -37,6 +37,18 @@
 				item: "mysticalagriculture:imperium_essence"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "116417320359A00F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4C43071C3C186C5B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -98,6 +110,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6E1D0A881D784F1B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6B05506A905D37EF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -143,6 +167,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "609E43D86F3CF2E6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "546456C844DF17AF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -163,6 +199,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "3999FF4AB39BE199"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0985F8006FD4E7CD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -209,6 +257,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "77C7C72171B108AD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7B1A85DE474F03D3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -423,6 +483,18 @@
 				type: "item"
 				item: "mysticalagriculture:soul_jar"
 			}]
+			rewards: [
+				{
+					id: "4F49725EFCF7C239"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "11E67C141F82EA30"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -470,6 +542,18 @@
 				type: "item"
 				item: "mysticalagriculture:soulium_seed_base"
 			}]
+			rewards: [
+				{
+					id: "157FF055DE218318"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "29F6039559FD707D"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 17.0d

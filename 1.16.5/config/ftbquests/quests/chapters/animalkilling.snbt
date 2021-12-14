@@ -20,6 +20,18 @@
 				type: "dimension"
 				dimension: "minecraft:overworld"
 			}]
+			rewards: [
+				{
+					id: "4AC4F4EA21571B71"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0F864988F04D51CE"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -48,7 +60,7 @@
 				{
 					id: "0F73699E3A8DEBC1"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -79,7 +91,7 @@
 				{
 					id: "27A8C7383ACC5E86"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -109,7 +121,7 @@
 				{
 					id: "001BA49962518A7C"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -139,7 +151,7 @@
 				{
 					id: "7B013D982419F1F8"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -169,7 +181,7 @@
 				{
 					id: "573E2089FEE0124B"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -199,7 +211,7 @@
 				{
 					id: "452D8D949F7CD253"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -229,7 +241,7 @@
 				{
 					id: "2518A0B62DF22FAD"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -259,7 +271,7 @@
 				{
 					id: "20F50B98416BEE99"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -289,7 +301,7 @@
 				{
 					id: "48232FC9705B3B63"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -319,7 +331,7 @@
 				{
 					id: "36564653E35B5999"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -349,7 +361,7 @@
 				{
 					id: "125BEE4536E7C091"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -379,7 +391,7 @@
 				{
 					id: "45934E5560737233"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -409,7 +421,7 @@
 				{
 					id: "0FB91814FF017776"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -441,7 +453,7 @@
 				{
 					id: "4DA3C9CE5504760D"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -471,7 +483,7 @@
 				{
 					id: "53B7308AE347FFA5"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -501,7 +513,7 @@
 				{
 					id: "08D6AC6EA85CB5BE"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -531,7 +543,7 @@
 				{
 					id: "161A0746502C1BA1"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -561,7 +573,7 @@
 				{
 					id: "2664734F2FFFC0CD"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -591,7 +603,7 @@
 				{
 					id: "5CB82D7A320F8F61"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -621,7 +633,7 @@
 				{
 					id: "1FA0A3CA123229DE"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}
@@ -651,7 +663,7 @@
 				{
 					id: "7058DD8E047E4ED3"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 		}

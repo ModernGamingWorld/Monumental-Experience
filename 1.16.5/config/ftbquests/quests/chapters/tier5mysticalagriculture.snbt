@@ -118,6 +118,18 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_gemstone"
 			}]
+			rewards: [
+				{
+					id: "0A3F903D70FD2083"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "55506A2E1824A274"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 2.0d

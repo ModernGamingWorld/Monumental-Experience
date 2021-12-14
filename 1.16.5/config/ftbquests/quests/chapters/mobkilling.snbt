@@ -19,11 +19,18 @@
 				entity: "minecraft:cave_spider"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001020"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001020"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "02D99670302206C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -37,11 +44,18 @@
 				entity: "minecraft:creeper"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001024"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001024"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5A58A71BBBF534D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -54,11 +68,18 @@
 				entity: "minecraft:drowned"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001028"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001028"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6F70CAE790865D53"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -72,11 +93,18 @@
 				entity: "minecraft:elder_guardian"
 				value: 15L
 			}]
-			rewards: [{
-				id: "0000000000001023"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001023"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "273060C9C25EC2A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -89,11 +117,18 @@
 				entity: "minecraft:evoker"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102F"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "67293D8FB88BFBF2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -106,11 +141,18 @@
 				entity: "minecraft:guardian"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001022"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001022"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4D770FE5B78FA924"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -123,11 +165,18 @@
 				entity: "minecraft:husk"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0FCB63A845F69018"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -140,11 +189,18 @@
 				entity: "minecraft:silverfish"
 				value: 15L
 			}]
-			rewards: [{
-				id: "000000000000101B"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5094044DADD9C606"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -157,11 +213,18 @@
 				entity: "minecraft:skeleton"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000101F"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "188F3AE9AC7AE8E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -174,11 +237,18 @@
 				entity: "minecraft:slime"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001029"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001029"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "656C13F033FE3ACE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -191,11 +261,18 @@
 				entity: "minecraft:spider"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001027"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001027"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "64B5150CC1C0E042"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -208,11 +285,18 @@
 				entity: "minecraft:stray"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001025"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001025"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4937D9CE6EE76999"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -225,11 +309,18 @@
 				entity: "minecraft:vex"
 				value: 15L
 			}]
-			rewards: [{
-				id: "0000000000001026"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001026"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5B79DC3D92247602"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -242,11 +333,18 @@
 				entity: "minecraft:vindicator"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102E"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2C49F1D2042EC703"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -259,11 +357,18 @@
 				entity: "minecraft:pillager"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0000000000001021"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "0000000000001021"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1E8550AB45A2A24D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -276,11 +381,18 @@
 				entity: "minecraft:witch"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102D"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6BE07B85446FD321"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -293,11 +405,18 @@
 				entity: "minecraft:zombie"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000101A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7891443D93229A40"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -310,11 +429,18 @@
 				entity: "minecraft:zombie_villager"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000101E"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6FD1343985CED592"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -327,11 +453,18 @@
 				entity: "minecraft:phantom"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102B"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "05EB3D1061868C61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -344,11 +477,18 @@
 				entity: "minecraft:ravager"
 				value: 15L
 			}]
-			rewards: [{
-				id: "000000000000101C"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "182901A7D16ACE42"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			disable_toast: true
@@ -361,6 +501,18 @@
 				type: "dimension"
 				dimension: "minecraft:overworld"
 			}]
+			rewards: [
+				{
+					id: "34FC90CF4C1377CB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1CFAD3FA826A20D6"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -374,11 +526,18 @@
 				entity: "nasty:skeleton"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000101D"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000101D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "69AF0D6C4277402C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -391,11 +550,18 @@
 				entity: "minecraft:zombie"
 				value: 30L
 			}]
-			rewards: [{
-				id: "000000000000102C"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "000000000000102C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "262FE70EE35E4CEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 	]
 }

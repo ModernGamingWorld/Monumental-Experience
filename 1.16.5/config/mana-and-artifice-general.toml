@@ -52,6 +52,8 @@ undeadSouls = 50
 	liteMode = false
 	#Set this to true to disable new villager profession registration.  This allows compatibility with Bukkit.  Note that you'll need to ensure the Codex Arcana is obtainable through different means!
 	disableNewProfessions = false
+	#Should summons be able to be right clicked with items to interact?  For example, shearing sheep or milking cows that have been summoned.
+	summonInteractions = true
 
 #Mana and Artifice // Villager Modification
 [ma_villager_modification]
