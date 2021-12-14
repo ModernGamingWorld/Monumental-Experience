@@ -14,4 +14,6 @@ onEvent('jei.hide.fluids', (event) => {
     event.hide('cyclic:biomass');
     event.hide('cyclic:honey');
     event.hide('cyclic:magma');
+    event.hide('sophisticatedbackpacks:xp_still');
+    event.hide('create:chocolate');
 });

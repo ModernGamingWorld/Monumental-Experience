@@ -1,0 +1,7 @@
+{
+    /* 
+     * Default: Automatic
+     * Allowed Values: Vulkan10, OpenGL33, Automatic, 
+     */
+    mode: "Automatic"
+}

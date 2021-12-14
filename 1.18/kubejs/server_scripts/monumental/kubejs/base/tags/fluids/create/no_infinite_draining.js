@@ -1,0 +1,34 @@
+onEvent('tags.fluid', (event) => {
+    event
+        .get('create:no_infinite_draining')
+        .add([
+            /tconstruct/,
+            /mekanism/,
+            /emendatusenigmatica/,
+            /kubejs/,
+            /chorus/,
+            /essence/,
+            /meat/,
+            /slime/,
+            /bio/,
+            /diesel/,
+            /ethanol/,
+            /gasoline/,
+            /kerosene/,
+            /lpg/,
+            /lubricant/,
+            /plastic/,
+            /napalm/,
+            /potion/,
+            /creosote/,
+            /honey/,
+            /syrup/,
+            /tree_oil/,
+            /light_oil/,
+            /heavy_oil/,
+            /fuel/,
+            /plantoil/,
+            /vegetable_oil/,
+            /yeast/
+        ]);
+});

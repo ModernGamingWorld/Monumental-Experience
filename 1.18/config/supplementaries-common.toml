@@ -154,6 +154,8 @@
 	[blocks.rope]
 		#Allows ropes to be supported & attached to solid block sides
 		block_side_attachment = false
+		#Makes sliding down ropes as fast as free falling, still negating fall damage
+		slide_on_fall = true
 
 	[blocks.pedestal]
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
