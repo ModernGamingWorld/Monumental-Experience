@@ -21,7 +21,7 @@
 	defaultConfigVersion = -1
 
 [WaypointMessage]
-	#List of block id and tags for WaypointMessage. e.g., ["#forge:ores/diamond", "minecraft:diamond_block"]
-	waypointMessagesBlocks = []
 	emptyHandOnly = true
+	#List of block id and tags for WaypointMessage. e.g., ["#forge:ores/diamond", "minecraft:diamond_block"]
+	waypointMessageBlocks = []
 

@@ -30,6 +30,7 @@
 						"patchouli:book": "pneumaticcraft:book"
 					}
 				}
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -527,6 +528,18 @@
 				item: "pneumaticcraft:plastic_brick_green"
 				count: 8L
 			}]
+			rewards: [
+				{
+					id: "21D2CC239CD6408B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "31DB23A1E0631F11"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -12.0d

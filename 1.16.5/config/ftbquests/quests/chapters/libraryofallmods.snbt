@@ -62,29 +62,6 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
-			shape: "gear"
-			dependencies: ["000000000000083B"]
-			id: "0000000000000843"
-			tasks: [{
-				id: "0000000000000844"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "rftoolsbase:manual"
-					}
-				}
-			}]
-			rewards: [{
-				id: "0000000000000FF8"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
-		}
-		{
 			x: -3.0d
 			y: -2.5d
 			shape: "gear"
@@ -142,6 +119,7 @@
 						"patchouli:book": "extendedcrafting:guide"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "7E6669EE5312B71A"
@@ -165,6 +143,7 @@
 						"patchouli:book": "mysticalagriculture:guide"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -195,6 +174,7 @@
 						"patchouli:book": "naturesaura:book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FEC"
@@ -235,6 +215,7 @@
 						"patchouli:book": "woot:wootguide"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FF0"
@@ -258,6 +239,7 @@
 						"patchouli:book": "cyclic:cyclic_guide_book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FEF"
@@ -281,6 +263,7 @@
 						"patchouli:book": "industrialforegoing:industrial_foregoing"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FF9"
@@ -326,6 +309,7 @@
 						"patchouli:book": "doomweapon:doom"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -343,6 +327,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			shape: "gear"
 			dependencies: ["000000000000083B"]
 			id: "04D659D677B97825"
 			tasks: [{
@@ -355,6 +340,7 @@
 						"patchouli:book": "bigreactors:erguide"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -384,6 +370,7 @@
 						"patchouli:book": "storagenetwork:network_book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -482,6 +469,7 @@
 						"patchouli:book": "modularrouters:book"
 					}
 				}
+				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "3763F7D1CD9167B5"

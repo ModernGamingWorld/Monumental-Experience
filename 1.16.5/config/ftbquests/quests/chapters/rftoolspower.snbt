@@ -19,6 +19,11 @@
 				type: "item"
 				item: "rftoolsbase:machine_frame"
 			}]
+			rewards: [{
+				id: "65FD8C05788D41DE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d

@@ -21,6 +21,11 @@
 				title: "Building"
 				icon: "minecraft:glass"
 			}]
+			rewards: [{
+				id: "20C4388ABCA3FBD7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "Macaw's Bridges"
@@ -31,6 +36,11 @@
 				id: "20F9798D2D2CCEC6"
 				type: "item"
 				item: "mcwbridges:rope_oak_bridge"
+			}]
+			rewards: [{
+				id: "1B7F67C647CBFCD8"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -44,6 +54,11 @@
 				type: "item"
 				item: "mcwdoors:oak_japanese_door"
 			}]
+			rewards: [{
+				id: "463BF9481F62917C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "Macaw's Roofs"
@@ -55,6 +70,11 @@
 				type: "item"
 				item: "mcwroofs:oak_attic_roof"
 			}]
+			rewards: [{
+				id: "5AD71F7C269FEE93"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "Macaw's Windows"
@@ -65,6 +85,11 @@
 				id: "71125E6C564DE052"
 				type: "item"
 				item: "mcwwindows:oak_window"
+			}]
+			rewards: [{
+				id: "0780EF8149731EEE"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -78,6 +103,11 @@
 				id: "0FCBD570D5ADB158"
 				type: "item"
 				item: "mcwtrpdoors:oak_glass_trapdoor"
+			}]
+			rewards: [{
+				id: "4A6763A1C01845D7"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -164,6 +194,11 @@
 					item: "chipped:mason_table"
 				}
 			]
+			rewards: [{
+				id: "787708993C316316"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

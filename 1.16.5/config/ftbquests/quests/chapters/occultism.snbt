@@ -19,6 +19,11 @@
 				type: "item"
 				item: "occultism:dictionary_of_spirits"
 			}]
+			rewards: [{
+				id: "2D407E2EED2C0099"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			disable_toast: true
@@ -31,6 +36,18 @@
 				type: "item"
 				item: "occultism:datura"
 			}]
+			rewards: [
+				{
+					id: "4CAD2E8EE8EB037B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1FC01E17494B6CA2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -42,6 +59,18 @@
 				type: "item"
 				item: "occultism:spirit_attuned_gem"
 			}]
+			rewards: [
+				{
+					id: "2D5FC765C937FB0E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6418CD88AF136785"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

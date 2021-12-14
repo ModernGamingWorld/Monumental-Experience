@@ -246,16 +246,6 @@
 					type: "item"
 					item: "lootbagmod:lootbag"
 				}
-				{
-					id: "3D3B1647C6965265"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "0059E33208ED7D7D"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
 			]
 		}
 		{
@@ -281,16 +271,6 @@
 					id: "043AB5D6826BA6F5"
 					type: "item"
 					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "59BE026F5018168B"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "4CA53B96B7C6846D"
-					type: "item"
-					item: "chancecubes:chance_cube"
 				}
 			]
 		}

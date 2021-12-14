@@ -20,6 +20,11 @@
 				type: "item"
 				item: "minecraft:furnace"
 			}]
+			rewards: [{
+				id: "41944CBF6DD2D220"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "&5Copper Furnace"
@@ -263,6 +268,11 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+			rewards: [{
+				id: "4B3585A3C05BC88B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "&5Blasting"
@@ -293,6 +303,11 @@
 				id: "0000000000001A1C"
 				type: "item"
 				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "4B145A3976827D67"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -331,6 +346,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "77F12641B134FDA3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "&5Speed Upgrade"
@@ -368,6 +388,11 @@
 						value: "minecraft:coals"
 					}
 				}
+			}]
+			rewards: [{
+				id: "56D808BCABBBF7A3"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{

@@ -42,6 +42,24 @@
 				type: "item"
 				item: "draconicevolution:grinder"
 			}]
+			rewards: [
+				{
+					id: "1DF173E6EB89516C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "464623949BB280EA"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+				{
+					id: "2B930F8877BE8A07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -53,6 +71,19 @@
 				type: "item"
 				item: "draconicevolution:crystal_binder"
 			}]
+			rewards: [
+				{
+					id: "292DC47803909E18"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "238D204D79C8D451"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -64,6 +95,19 @@
 				type: "item"
 				item: "draconicevolution:basic_relay_crystal"
 			}]
+			rewards: [
+				{
+					id: "5150631BB80E8273"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "45305C2BC0A19078"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -76,6 +120,19 @@
 				item: "draconicevolution:basic_io_crystal"
 				count: 2L
 			}]
+			rewards: [
+				{
+					id: "06A6DEF663FDE600"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "527225550EF41193"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -87,6 +144,19 @@
 				type: "item"
 				item: "draconicevolution:basic_wireless_crystal"
 			}]
+			rewards: [
+				{
+					id: "540B215FF3178EDC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "310E867AE31DD855"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -98,6 +168,19 @@
 				type: "item"
 				item: "draconicevolution:wyvern_relay_crystal"
 			}]
+			rewards: [
+				{
+					id: "23FDDFDF3FE6BC15"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "002FEEB62D3057A3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -110,6 +193,19 @@
 				item: "draconicevolution:wyvern_io_crystal"
 				count: 2L
 			}]
+			rewards: [
+				{
+					id: "00774FC3CA8D28DD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "400C3AB5E5960F41"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -121,6 +217,19 @@
 				type: "item"
 				item: "draconicevolution:wyvern_wireless_crystal"
 			}]
+			rewards: [
+				{
+					id: "030EEBCE17D4AA58"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7AA7D2D49C1F6C13"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -134,6 +243,19 @@
 				type: "item"
 				item: "draconicevolution:draconium_core"
 			}]
+			rewards: [
+				{
+					id: "499920C7786B4C19"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "357EF58D1C75FF76"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -170,6 +292,19 @@
 				type: "item"
 				item: "draconicevolution:basic_crafting_injector"
 			}]
+			rewards: [
+				{
+					id: "4FADCD961D540BA3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0E9C8B2A9EEB5909"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -182,6 +317,19 @@
 				item: "draconicevolution:energy_pylon"
 				count: 2L
 			}]
+			rewards: [
+				{
+					id: "61480350C27577D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "31D548FB02F971A7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -216,6 +364,19 @@
 				type: "item"
 				item: "draconicevolution:fluid_gate"
 			}]
+			rewards: [
+				{
+					id: "34D9F43FD70F24C0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "62F516D2325F74E9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -227,6 +388,19 @@
 				type: "item"
 				item: "draconicevolution:crafting_core"
 			}]
+			rewards: [
+				{
+					id: "5CA09AD3B29721E1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3963FEF34679CA2E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -307,6 +481,19 @@
 				type: "item"
 				item: "draconicevolution:draconic_energy_core"
 			}]
+			rewards: [
+				{
+					id: "263DDE931A0D3E2F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2EA36A8BFFFB82C3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -318,6 +505,19 @@
 				type: "item"
 				item: "draconicevolution:wyvern_energy_core"
 			}]
+			rewards: [
+				{
+					id: "56DAC82E353C8C7D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "49CA3392B38569A9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -329,6 +529,19 @@
 				type: "item"
 				item: "draconicevolution:chaotic_energy_core"
 			}]
+			rewards: [
+				{
+					id: "6400CB5D4EC76CF9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4061CD33882D1C13"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -583,6 +796,19 @@
 				type: "item"
 				item: "draconicevolution:draconic_relay_crystal"
 			}]
+			rewards: [
+				{
+					id: "298C08A47902FB29"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2200FD8B85243502"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -594,6 +820,19 @@
 				type: "item"
 				item: "draconicevolution:draconic_wireless_crystal"
 			}]
+			rewards: [
+				{
+					id: "49C0EFAE82F08C23"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4ED663C45DD19751"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -606,6 +845,19 @@
 				item: "draconicevolution:draconic_io_crystal"
 				count: 2L
 			}]
+			rewards: [
+				{
+					id: "25CDA1AC5A512773"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "767D6AF636F72228"
+					type: "item"
+					item: "chancecubes:chance_cube"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -781,6 +1033,18 @@
 				type: "item"
 				item: "draconicevolution:energy_transfuser"
 			}]
+			rewards: [
+				{
+					id: "78E112F636F10099"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5CB53A25DA1DF116"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 	]
 }

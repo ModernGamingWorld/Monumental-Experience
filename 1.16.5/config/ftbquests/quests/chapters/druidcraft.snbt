@@ -60,6 +60,11 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					id: "2BE59CECDC3F9F02"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
 			]
 		}
 		{
@@ -671,6 +676,11 @@
 				type: "item"
 				item: "minecraft:bone"
 			}]
+			rewards: [{
+				id: "65668274047137BF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "&3Chitin Boots"
@@ -847,11 +857,18 @@
 				type: "item"
 				item: "druidcraft:chitin"
 			}]
-			rewards: [{
-				id: "0000000000001396"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
+			rewards: [
+				{
+					id: "0000000000001396"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "651715F4E355ECE4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
 		}
 		{
 			title: "&aLamp of Growth"

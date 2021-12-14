@@ -19,6 +19,18 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
+			rewards: [
+				{
+					id: "1B9CC33E2FF486C2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "55DD1347A35700B1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 2.0d

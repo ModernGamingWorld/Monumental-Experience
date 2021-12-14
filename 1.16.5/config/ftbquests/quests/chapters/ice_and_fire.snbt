@@ -1631,6 +1631,11 @@
 				type: "item"
 				item: "iceandfire:dragonscales_white"
 			}]
+			rewards: [{
+				id: "48A5A132FF5DD8D2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			title: "&1Electric Blue Dragon Scales"
@@ -1720,6 +1725,11 @@
 				id: "0000000000000D96"
 				type: "item"
 				item: "iceandfire:dragonscales_blue"
+			}]
+			rewards: [{
+				id: "4B8634F4A36738CF"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -2869,7 +2879,6 @@
 			x: 9.5d
 			y: 5.5d
 			shape: "gear"
-			description: ["&bShiny Scales &7are quite commonly &7dropped &7by &bSirens & &bHippocampus."]
 			id: "0000000000000E71"
 			tasks: [{
 				id: "0000000000000E72"

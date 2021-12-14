@@ -19,6 +19,11 @@
 				type: "item"
 				item: "gobber2:gobber2_glob"
 			}]
+			rewards: [{
+				id: "4519EF28F40D391B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d

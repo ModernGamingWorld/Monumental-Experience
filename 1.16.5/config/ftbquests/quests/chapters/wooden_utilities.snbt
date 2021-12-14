@@ -58,6 +58,7 @@
 			x: 0.0d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "3C73EDBD941C38B7"
 			tasks: [{
 				id: "71053002E926930D"
@@ -81,6 +82,7 @@
 			title: "&6Wooden Armor"
 			x: 4.0d
 			y: 0.0d
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "3F85406759A5CECA"
 			tasks: [
 				{
@@ -151,6 +153,7 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "0000000000000AA3"
 			tasks: [{
 				id: "0000000000000AA4"
@@ -174,6 +177,7 @@
 			x: 0.0d
 			y: -4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "68F9837897D5FD19"
 			tasks: [{
 				id: "0CDBA3FB129D335C"
@@ -198,6 +202,7 @@
 			x: -4.0d
 			y: -4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "223FB4187EEC463A"
 			tasks: [{
 				id: "6C0D2E7419D4F931"
@@ -222,6 +227,7 @@
 			x: 4.0d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "3D00512C4F2389BD"
 			tasks: [{
 				id: "1E550D30298BE4F8"
@@ -246,6 +252,7 @@
 			x: -2.0d
 			y: 5.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "276FC6B87AFCF9C7"
 			tasks: [{
 				id: "6576FC11A4899AD7"
@@ -270,6 +277,7 @@
 			x: -4.0d
 			y: 4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "12EEC4DCF2020C9A"
 			tasks: [{
 				id: "510F1624097B8E09"
@@ -294,6 +302,7 @@
 			x: 4.0d
 			y: -4.0d
 			shape: "gear"
+			dependencies: ["43C35D40C9FEA0F1"]
 			id: "0522B496DB2030E4"
 			tasks: [{
 				id: "0D4D0BBFADA5A232"

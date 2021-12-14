@@ -522,6 +522,11 @@
 				type: "item"
 				item: "mysticalagriculture:wolf_seeds"
 			}]
+			rewards: [{
+				id: "68BE4633AE0EB420"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d

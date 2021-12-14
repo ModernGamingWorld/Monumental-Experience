@@ -571,6 +571,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "7376FD64A2E1FCB5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "174543296416F64C"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 16.0d
@@ -682,6 +694,18 @@
 				type: "item"
 				item: "appliedenergistics2:engineering_processor_press"
 			}]
+			rewards: [
+				{
+					id: "4B0009CAC2D81B5A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5CD4A6F7E796DA9B"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -1009,6 +1033,18 @@
 				type: "item"
 				item: "appliedenergistics2:wireless_access_point"
 			}]
+			rewards: [
+				{
+					id: "15C4432D05A57EFB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5C20411B1685065E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -1580,11 +1616,18 @@
 				type: "item"
 				item: "appliedenergistics2:64k_cell_component"
 			}]
-			rewards: [{
-				id: "00000000000014CE"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			rewards: [
+				{
+					id: "00000000000014CE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "726DA3114055F0ED"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -1657,6 +1700,18 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "5E92CFFEF56909D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "36F99379287CFA8E"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
 		}
 		{
 			x: -13.5d

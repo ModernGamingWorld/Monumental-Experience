@@ -98,19 +98,19 @@ onEvent('recipes', (event) => {
             },
             {
                 ingredients: [{
-                        tag: 'forge:fiber_hemp'
+                        item: 'immersiveengineering:hemp_fiber'
                     },
                     {
-                        tag: 'forge:fiber_hemp'
+                        item: 'immersiveengineering:hemp_fiber'
                     },
                     {
                         item: 'bloodmagic:reagentbinding'
                     },
                     {
-                        item: 'industrialforegoing:pink_slime'
+                        item: 'mysticalagriculture:pink_slime_essence'
                     },
                     {
-                        item: 'industrialforegoing:pink_slime'
+                        item: 'mysticalagriculture:pink_slime_essence'
                     }
                 ],
                 pressure: 4.0,

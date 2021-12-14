@@ -47,6 +47,7 @@
 							"patchouli:book": "mysticalagriculture:guide"
 						}
 					}
+					only_from_crafting: true
 				}
 			]
 			rewards: [{
@@ -420,6 +421,11 @@
 				id: "7BB286BBDE2DEC21"
 				type: "item"
 				item: "mysticalagriculture:inferium_block"
+			}]
+			rewards: [{
+				id: "28E73931FD95455D"
+				type: "item"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{

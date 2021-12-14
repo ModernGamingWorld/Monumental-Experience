@@ -528,3 +528,6 @@ drippyloadingscreen.helper.editor.items.orientation.loading-progress.setidentifi
 drippyloadingscreen.helper.editor.items.orientation.loading-progress.btn.desc = The positon of the §lprogress end §rof a%n%§lcustom §rprogress bar will be set%n%as orientation origin point, so%n%this element will always move with the%n%progress of said custom progress bar.%n%%n%§cYou need the element ID%n%§cof the parent element here.%n%§cYou can get the element ID%n%§cwhen you right-click an element.
 
 drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.loadingprogress = Loading Progress in %
+
+drippyloadingscreen.helper.editor.layoutoptions.backgroundoptions.keepaspect.on = Keep Background Aspect Ratio: §aOn
+drippyloadingscreen.helper.editor.layoutoptions.backgroundoptions.keepaspect.off = Keep Background Aspect Ratio: §cOff
