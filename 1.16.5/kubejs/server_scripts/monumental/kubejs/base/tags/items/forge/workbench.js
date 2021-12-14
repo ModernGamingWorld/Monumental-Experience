@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     let items = [
         'minecraft:crafting_table',
         /betterendforge:\w+_crafting_table/,

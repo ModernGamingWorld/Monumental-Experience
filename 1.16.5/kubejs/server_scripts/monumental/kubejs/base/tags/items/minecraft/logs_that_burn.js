@@ -1,3 +1,3 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.get('minecraft:logs_that_burn').remove('#upgrade_aquatic:driftwood_logs');
 });

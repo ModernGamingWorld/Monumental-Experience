@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event.add('forge:mushroom_caps', [
         'byg:death_cap_mushroom_block',
         'byg:weeping_milkcap_mushroom_block',

@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     sharedDies.forEach((die) => {
         event.add('thermal:crafting/dies', [`#thermal:crafting/dies/${die.thermalName}`]);
         event.add(`thermal:crafting/dies/${die.thermalName}`, [

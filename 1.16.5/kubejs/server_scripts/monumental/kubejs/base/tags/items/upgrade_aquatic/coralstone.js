@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event
         .get('upgrade_aquatic:coralstone')
         .add('upgrade_aquatic:coralstone')

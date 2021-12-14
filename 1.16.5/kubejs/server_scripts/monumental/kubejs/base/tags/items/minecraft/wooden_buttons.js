@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     event
         .get('minecraft:wooden_buttons')
         .add([

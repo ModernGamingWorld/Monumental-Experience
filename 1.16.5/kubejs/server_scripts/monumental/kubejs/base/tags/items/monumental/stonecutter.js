@@ -1,4 +1,4 @@
-onEvent('item.tags', (event) => {
+onEvent('tags.items', (event) => {
     stonecuttables.forEach((stoneType) => {
         var tag = `monumental:stonecuttables/${stoneType.name}`;
         event.add('monumental:stonecuttables', ['#' + tag]);

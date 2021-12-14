@@ -313,6 +313,14 @@ onEvent('recipes', event => {
         B: 'mysticalagriculture:certus_quartz_essence',
         C: '#forge:gems/mana_diamond'
     })
+    event.shaped(Item.of('appliedenergistics2:silicon_press', 1), ["BBB", "BCB", "BBB"], {
+        B: 'mysticalagriculture:certus_quartz_essence',
+        C: 'mysticalagriculture:silicon_essence'
+    })
+    event.shaped(Item.of('appliedenergistics2:calculation_processor_press', 1), ["BBB", "BCB", "BBB"], {
+        B: 'mysticalagriculture:certus_quartz_essence',
+        C: 'jecalculation:item_calculator_math'
+    })
     event.shaped(Item.of('appliedenergistics2:logic_processor_press', 1), ["BBB", "BCB", "BBB"], {
         B: 'mysticalagriculture:certus_quartz_essence',
         C: '#forge:ingots/electrum'
