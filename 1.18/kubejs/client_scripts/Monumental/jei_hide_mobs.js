@@ -33,7 +33,8 @@ onEvent('jei.hide.items', (event) => {
             'inventorypets:' + mobs + '_spawn',
             'marquot:' + mobs + '_spawn_egg',
             'guardvillagers:' + mobs + '_spawn_egg',
-            'enchantwithmob:' + mobs + '_spawn_egg'
+            'enchantwithmob:' + mobs + '_spawn_egg',
+            'minecolonies:' + mobs
         );
     });
 
