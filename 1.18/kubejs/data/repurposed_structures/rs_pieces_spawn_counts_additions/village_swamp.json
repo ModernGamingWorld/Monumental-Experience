@@ -1,0 +1,24 @@
+{
+  "pieces_spawn_counts" : [
+    {
+      "nbt_piece_name" : "morevillagers:village/swamp/swamp_engineer",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/swamp/swamp_florist",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/swamp/swamp_hunter",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/swamp/swamp_oceanographer",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/swamp/swamp_woodworker",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

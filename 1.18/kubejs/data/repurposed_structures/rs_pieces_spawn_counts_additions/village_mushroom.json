@@ -1,0 +1,24 @@
+{
+  "pieces_spawn_counts" : [
+    {
+      "nbt_piece_name" : "morevillagers:village/mushroom/mushroom_engineer",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/mushroom/mushroom_florist",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/mushroom/mushroom_hunter",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/mushroom/mushroom_oceanographer",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "morevillagers:village/mushroom/mushroom_woodworker",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "repurposed_structures:villages/birch/houses",
+  "fallback": "repurposed_structures:villages/birch/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "morevillagers:village/birch/birch_engineer",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "morevillagers:village/birch/birch_florist",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "morevillagers:village/birch/birch_hunter",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "morevillagers:village/birch/birch_oceanographer",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "morevillagers:village/birch/birch_woodworker",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

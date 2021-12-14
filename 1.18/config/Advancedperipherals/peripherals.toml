@@ -42,17 +42,10 @@
 
 	[Peripherals.ME_Bridge]
 		#Enable the Me Bridge or not.
-		enableMeBridge = true
+		enableMeBridge = false
 		#Power consumption per tick.
 		#Range: > 0
 		mePowerConsumption = 500
-
-	[Peripherals.RS_Bridge]
-		#Enable the Rs Bridge or not.
-		enableRsBridge = true
-		#Power consumption per tick.
-		#Range: > 0
-		rsPowerConsumption = 500
 
 	[Peripherals.Environment_Detector]
 		#Enable the Environment Detector or not.
@@ -80,7 +73,7 @@
 
 	[Peripherals.Colony_Integrator]
 		#Enable the colony integrator or not.
-		enableColonyIntegrator = true
+		enableColonyIntegrator = false
 
 	[Peripherals.Powered_Peripherals]
 		#Enable RF storage for peripherals, that could use it
