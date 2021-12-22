@@ -1,8 +1,13 @@
 Rick,
 Bob,
 Eve,
-ModernGamingWorld,
-TheRanker24,
+Max,
+Modern,
+Geek,
 Grotts,
-Lazy,
-Harry
+Joe,
+Santa,
+Legend,
+Angel,
+LavaTemptress,
+GeekTechMedia

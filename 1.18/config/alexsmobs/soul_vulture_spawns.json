@@ -6,13 +6,6 @@
         "negate": false,
         "value": "minecraft:soul_sand_valley"
       }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:warped_desert"
-      }
     ]
   ]
 }

@@ -1,229 +1,9 @@
 
-#Nether Gobber Food Values
-[nether_gobber_foods]
-	#Nether Gooey beef hunger value [0-25, default: 9]
-	#Range: 0 ~ 25
-	netherGooeyBeefHunger = 12
-	#Nether Goo hunger value [0-25, default: 7]
-	#Range: 0 ~ 25
-	netherGooHunger = 9
-	#Nether Gooey bread saturation value [0-5, default: 0.8]
-	#Range: 0.0 ~ 5.0
-	netherGooeyBreadSaturation = 1.0
-	#Nether Gooey beef saturation value [0-5, default: 0.9]
-	#Range: 0.0 ~ 5.0
-	netherGooeyBeefSaturation = 1.2
-	#Nether Gooey apple hunger value [0-25, default: 8]
-	#Range: 0 ~ 25
-	netherGooeyAppleHunger = 10
-	#Nether Gooey beefstew saturation value [0-5, default: 1.0]
-	#Range: 0.0 ~ 5.0
-	netherGooeyBeefstewSaturation = 1.5
-	#Nether Goo saturation value [0-5, default: 0.7]
-	#Range: 0.0 ~ 5.0
-	netherGooSaturation = 0.9
-	#Nether Gooey apple saturation value [0-5, default: 0.8]
-	#Range: 0.0 ~ 5.0
-	netherGooeyAppleSaturation = 1.0
-	#Nether Gooey bread hunger value [0-25, default: 8]
-	#Range: 0 ~ 25
-	netherGooeyBreadHunger = 10
-	#Nether Gooey beefstew hunger value [0-25, default: 10]
-	#Range: 0 ~ 25
-	netherGooeyBeefstewHunger = 14
-
-#Gobber Lucky Block Nether Generation
-[gobber2_lucky_block_nether]
-	#Maximal height for Gobber Lucky Block Nether pocket generation [0-255, default: 255]
-	#Range: 0 ~ 255
-	gobberLuckyBlockNetherMaxHeight = 255
-	#Size of Gobber Lucky Block Nether pockets [0-100, default: 4]
-	#Range: 0 ~ 100
-	gobberLuckyBlockNetherSize = 4
-	#Minimal height for Gobber Lucky Block Nether pocket generation, [0-255, default: 1]
-	#Range: 0 ~ 255
-	gobberLuckyBlockNetherMinHeight = 1
-	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberLuckyBlockNetherChance = 20
-
-#Item Cooldown Settings
-[item_cooldown_settings]
-	#Number of ticks duration for the Ring of Husbandry cooldown [0-9600, default: 2400]
-	#Range: 0 ~ 9600
-	ringHusbandryCooldown = 2400
-	#Number of ticks duration for the Staff of the Sniper cooldown [0-3600, default: 60]
-	#Range: 0 ~ 3600
-	staffSniperCooldown = 60
-	#Number of ticks duration for the Ring of the Explorer cooldown [0-3600, default: 480]
-	#Range: 0 ~ 3600
-	ringExplorerCooldown = 480
-	#Number of ticks duration for the Ring of Above cooldown [0-3600, default: 80]
-	#Range: 0 ~ 3600
-	ringAboveCooldown = 80
-	#Number of ticks duration for the Sword of the Sniper cooldown [0-3600, default: 60]
-	#Range: 0 ~ 3600
-	swordSniperCooldown = 60
-	#Number of ticks duration for the Ring of the Miner cooldown [0-3600, default: 80]
-	#Range: 0 ~ 3600
-	ringMinerCooldown = 80
-	#Number of ticks duration for the Ring of Blink cooldown [0-3600, default: 60]
-	#Range: 0 ~ 3600
-	ringBlinkCooldown = 60
-
-#Medallion of Experience Settings
-[medallion_exp_settings]
-	#Medallion of Experience multiplier for extra mob loot [default: 10]
-	#Range: 5 ~ 100
-	medallionExpLoot = 20
-	#Medallion of Experience multiplier for extra XP orbs [default: 5]
-	#Range: 0 ~ 20
-	medallionExpOrbs = 5
-
-#Misc Ring/staff Settings
-[misc_ring_staff_settings]
-	#Ring of Attraction - Items are instantly placed in player inventory  [true / false]
-	ringAttractionMode = false
-	#Ring of Dismissal - Sets the horizontal velocity [default: 0.2]
-	#Range: 0.0 ~ 15.0
-	ringDismissalVelocity = 0.2
-	#Uses a delayed break mode to reduce stutter and potential lag on Ring of Miner and Ring of Lumberjack [true / false]
-	delayedBreakMode = true
-	#Ring of Repair - Delay time between repair ticks [default: 120]
-	#Range: 20 ~ 600
-	ringRepairDelay = 120
-	#Enable a single use of the Ring of Teleport [true / false]
-	limitedUseRingTeleport = false
-	#Reverse the drop/no drops feature on Ring of Miner [true / false]
-	reverseRingMiner = false
-	#Ring of Acceleration - amount of velocity applied [default: .18]
-	#Range: 0.0 ~ 0.3
-	ringAccelerationVelocity = 0.18
-	#Ring of Dismissal - Sets the horizontal range to detect mobs [default: 8.0]
-	#Range: 0.0 ~ 16.0
-	ringDismissalLift = 8.0
-	#Ring of Attraction - Distance coal blocks magnet effect [default: 5]
-	#Range: 0 ~ 15
-	ringAttractionBlocking = 5
-
-#Gobber Ore Deepslate Generation
-[gobber2_ore_deepslate]
-	#Minimal height for Gobber Ore Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMinHeight = -64
-	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMaxHeight = 0
-	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberOreDeepslateChance = 20
-	#Size of Gobber Ore Deepslate pockets [0-100, default: 4]
-	#Range: 0 ~ 100
-	gobberOreDeepslateSize = 4
-
-#Armor Health Perks Settings
-[armor_health_perk_settings]
-	#Enable/disable Gobber Dragon Armor health perks
-	gobberDragonArmorHealthPerks = true
-	#Enable/disable Gobber Nether Armor health perks
-	gobberNetherArmorHealthPerks = true
-	#Enable/disable Gobber Armor health perks
-	gobberArmorHealthPerks = true
-	#Enable/disable Gobber End Armor health perks
-	gobberEndArmorHealthPerks = true
-
-#Auto Replanting Settings
-[replanting_settings]
-	#Should the Staff of the Farmer auto-replant? [true / false]
-	StaffFarmerReplant = true
-	#Should the Staff of Harvest auto-replant? [true / false]
-	StaffHarvestReplant = true
-
-#Armor Hunger/Saturation Settings
-[armor_health_settings]
-	#Amount of hunger point to restore per interval
-	#Range: 0 ~ 10
-	gobberArmorHunger = 4
-	#Amount of saturation point to restore per interval
-	#Range: 0.0 ~ 10.0
-	gobberEndArmorSaturation = 0.1
-	#Amount of hunger point to restore per interval
-	#Range: 0 ~ 10
-	gobberNetherArmorHunger = 1
-	#Amount of saturation point to restore per interval
-	#Range: 0.0 ~ 10.0
-	gobberArmorSaturation = 0.02
-	#Amount of saturation point to restore per interval
-	#Range: 0.0 ~ 10.0
-	gobberDragonArmorSaturation = 0.15
-	#Amount of hunger point to restore per interval
-	#Range: 0 ~ 10
-	gobberEndArmorHunger = 1
-	#Amount of hunger point to restore per interval
-	#Range: 0 ~ 10
-	gobberDragonArmorHunger = 1
-	#Amount of saturation point to restore per interval
-	#Range: 0.0 ~ 10.0
-	gobberNetherArmorSaturation = 0.05
-
-#Gobber Food Values
-[gobber_foods]
-	#Gooey beef saturation value [0-5, default: 0.9]
-	#Range: 0.0 ~ 5.0
-	gooeyBeefSaturation = 0.9
-	#Gooey beef hunger value [0-25, default: 9]
-	#Range: 0 ~ 25
-	gooeyBeefHunger = 9
-	#Gooey bread hunger value [0-25, default: 8]
-	#Range: 0 ~ 25
-	gooeyBreadHunger = 8
-	#Goo saturation value [0-5, default: 0.7]
-	#Range: 0.0 ~ 5.0
-	gooSaturation = 0.7
-	#Gooey apple saturation value [0-5, default: 0.8]
-	#Range: 0.0 ~ 5.0
-	gooeyAppleSaturation = 0.8
-	#Gooey bread saturation value [0-5, default: 0.8]
-	#Range: 0.0 ~ 5.0
-	gooeyBreadSaturation = 0.8
-	#Goo hunger value [0-25, default: 7]
-	#Range: 0 ~ 25
-	gooHunger = 7
-	#Gooey beefstew hunger value [0-25, default: 10]
-	#Range: 0 ~ 25
-	gooeyBeefstewHunger = 10
-	#Gooey apple hunger value [0-25, default: 8]
-	#Range: 0 ~ 25
-	gooeyAppleHunger = 8
-	#Gooey beefstew saturation value [0-5, default: 1.0]
-	#Range: 0.0 ~ 5.0
-	gooeyBeefstewSaturation = 1.0
-
-#Dragon Egg With Every Kill
-[dragon_egg_kill]
-	#Enable Dragon Egg drops on every kill [true / false]
-	enableDragonEggEveryKill = false
-
-#Gobber Armor Material Values
-[gobber_armor_material]
-	#Gobber armor enchantability [1-50, default: 25]
-	#Range: 1 ~ 50
-	gobberArmorEnchantability = 25
-	#Gobber armor durability multiplier [1-200, default: 71]
-	#Range: 1 ~ 200
-	gobberArmorDurabilityMultiplier = 71
-	#Gobber armor toughness [0-5, default: 2.5]
-	#Range: 0.0 ~ 5.0
-	gobberArmorToughness = 2.5
-	#Gobber armor knockback [0-5, default: 0.1]
-	#Range: 0.0 ~ 5.0
-	gobberArmorKnockback = 0.1
-
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
 	#Size of Gobber Lucky Block pockets [0-100, default: 4]
 	#Range: 0 ~ 100
-	gobberLuckyBlockSize = 3
+	gobberLuckyBlockSize = 4
 	#Chances of Gobber Lucky Block pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockChance = 20
@@ -233,122 +13,113 @@
 	#Maximal height for Gobber Lucky Block pocket generation [0-384, default: 255]
 	#Range: 0 ~ 384
 	gobberLuckyBlockMaxHeight = 255
-
-#Nether Gobber Tool Material Values
-[nether_gobber_tool_material]
-	#Nether Gobber tool attack damage [1-100, default: 1.0]
-	#Range: 1.0 ~ 100.0
-	netherGobberToolsDamage = 1.0
-	#Nether Gobber tool durability [1-9000, default: 5200]
-	#Range: 0 ~ 9000
-	netherGobberToolsDurability = 5200
-	#Nether Gobber tool mining speed [1-25, default: 12.0]
-	#Range: 1.0 ~ 25.0
-	netherGobberToolsSpeed = 12.0
-	#Nether Gobber tool mining level [1-6, default: 5]
-	#Range: 1 ~ 6
-	netherGobberToolsMiningLevel = 5
-	#Nether Gobber tool enchantability [0-50, default: 25]
-	#Range: 1 ~ 50
-	netherGobberToolsEnchantability = 25
-
-#End Gobber Armor Material Values
-[end_gobber_armor_material]
-	#End Gobber armor enchantability [1-50, default: 30]
-	#Range: 1 ~ 50
-	endGobberArmorEnchantability = 30
-	#End Gobber armor toughness [0-5, default: 3.0]
-	#Range: 0.0 ~ 5.0
-	endGobberArmorToughness = 3.0
-	#End Gobber armor knockback [0-5, default: 0.2]
-	#Range: 0.0 ~ 5.0
-	endGobberArmorKnockback = 0.2
-	#End Gobber armor durability multiplier [1-200, default: 100]
-	#Range: 1 ~ 200
-	endGobberArmorDurabilityMultiplier = 100
-
-#Gobber Ore Generation
-[gobber2_ore]
-	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
-	#Range: 0 ~ 30
-	gobberOreChance = 15
-	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
-	#Range: 0 ~ 384
-	gobberOreMaxHeight = 10
-	#Size of Gobber Ore pockets [0-100, default: 4]
-	#Range: 0 ~ 100
-	gobberOreSize = 4
-	#Minimal height for Gobber Ore pocket generation, [0-255, default: 20]
-	#Range: 0 ~ 384
-	gobberOreMinHeight = 0
-
-#Gobber End Ore Generation
-[gobber2_ore_end]
-	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
-	#Range: 0 ~ 255
-	gobberOreEndMinHeight = 0
-	#Size of Gobber End Ore pockets [0-100, default: 9]
-	#Range: 0 ~ 100
-	gobberOreEndSize = 9
-	#Maximal height for Gobber End Ore pocket generation [0-255, default: 255]
-	#Range: 0 ~ 255
-	gobberOreEndMaxHeight = 255
-	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
-	#Range: 0 ~ 30
-	gobberOreEndChance = 15
-
-#Enable Dragon Armor Void Protect - immune to /kill command
-[dragon_armor_void]
-	#Enable Dragon Armor Void Protection [true / false]
-	enableDragonArmorVoidProtection = false
-
-#Ring of the Exploer Settings
-[ring_explorer_settings]
-	#Ring of Explorer - Max distance from world spawn to begin searching for a spot [default: 6000]
-	#Range: 0 ~ 250000
-	ringExplorerMax = 6000
-	#Ring of Explorer - Min distance from world spawn to begin searching for a spot [default: 500]
-	#Range: 0 ~ 100000
-	ringExplorerMin = 500
-
-#Nether Gobber Armor Material Values
-[nether_gobber_armor_material]
-	#Nether Gobber armor knockback [0-5, default: 0.1]
-	#Range: 0.0 ~ 5.0
-	netherGobberArmorKnockback = 0.1
-	#Nether Gobber armor toughness [0-5, default: 2.75]
-	#Range: 0.0 ~ 5.0
-	netherGobberArmorToughness = 2.75
-	#Nether Gobber armor enchantability [1-50, default: 30]
-	#Range: 1 ~ 50
-	netherGobberArmorEnchantability = 30
-	#Nether Gobber armor durability multiplier [1-200, default: 83]
-	#Range: 1 ~ 200
-	netherGobberArmorDurabilityMultiplier = 83
+	#Generate Gobber Lucky Block in the world [true / false]
+	gobberLuckyBlockGeneration = true
 
 #Gobber Lucky Block Deepslate Generation
 [gobber2_lucky_block_deepslate]
-	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberLuckyBlockDeepslateChance = 20
 	#Size of Gobber Lucky Block Deepslate pockets [0-100, default: 4]
 	#Range: 0 ~ 100
 	gobberLuckyBlockDeepslateSize = 4
+	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
+	#Range: 0 ~ 30
+	gobberLuckyBlockDeepslateChance = 20
 	#Minimal height for Gobber Lucky Block Deepslate pocket generation, [-64 to 0, default: -64]
 	#Range: -64 ~ 0
 	gobberLuckyBlockDeepslateMinHeight = -64
 	#Maximal height for Gobber Lucky Block Deepslate pocket generation [-64 to 0, default: 0]
 	#Range: -64 ~ 0
 	gobberLuckyBlockDeepslateMaxHeight = 0
+	#Generate Gobber Lucky Block Deepslate in the world [true / false]
+	gobberLuckyBlockDeepslateGeneration = true
+
+#Gobber Lucky Block Nether Generation
+[gobber2_lucky_block_nether]
+	#Size of Gobber Lucky Block Nether pockets [0-100, default: 4]
+	#Range: 0 ~ 100
+	gobberLuckyBlockNetherSize = 4
+	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
+	#Range: 0 ~ 30
+	gobberLuckyBlockNetherChance = 20
+	#Minimal height for Gobber Lucky Block Nether pocket generation, [0-255, default: 1]
+	#Range: 0 ~ 255
+	gobberLuckyBlockNetherMinHeight = 1
+	#Maximal height for Gobber Lucky Block Nether pocket generation [0-255, default: 255]
+	#Range: 0 ~ 255
+	gobberLuckyBlockNetherMaxHeight = 255
+	#Generate Gobber Lucky Block Nether in the world [true / false]
+	gobberLuckyBlockNetherGeneration = true
+
+#Gobber Ore Generation
+[gobber2_ore]
+	#Size of Gobber Ore pockets [0-100, default: 4]
+	#Range: 0 ~ 100
+	gobberOreSize = 4
+	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
+	#Range: 0 ~ 30
+	gobberOreChance = 15
+	#Minimal height for Gobber Ore pocket generation, [0-255, default: 20]
+	#Range: 0 ~ 384
+	gobberOreMinHeight = 0
+	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
+	#Range: 0 ~ 384
+	gobberOreMaxHeight = 30
+	#Generate Gobber Ore in the world [true / false]
+	gobberOreGeneration = true
+
+#Gobber Ore Deepslate Generation
+[gobber2_ore_deepslate]
+	#Size of Gobber Ore Deepslate pockets [0-100, default: 4]
+	#Range: 0 ~ 100
+	gobberOreDeepslateSize = 4
+	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
+	#Range: 0 ~ 30
+	gobberOreDeepslateChance = 20
+	#Minimal height for Gobber Ore Deepslate pocket generation, [-64 to 0, default: -64]
+	#Range: -64 ~ 0
+	gobberOreDeepslateMinHeight = -64
+	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
+	#Range: -64 ~ 0
+	gobberOreDeepslateMaxHeight = 0
+	#Generate Gobber Ore Deepslate in the world [true / false]
+	gobberOreDeepslateGeneration = true
+
+#Gobber Nether Ore Generation
+[gobber2_ore_nether]
+	#Size of Gobber Nether Ore pockets [0-100, default: 3]
+	#Range: 0 ~ 100
+	gobberOreNetherSize = 4
+	#Chances of Gobber Nether Ore pocket being generated [0-30, default: 15]
+	#Range: 0 ~ 30
+	gobberOreNetherChance = 15
+	#Minimal height for Gobber Nether Ore pocket generation, [0-255, default: 5]
+	#Range: 0 ~ 255
+	gobberOreNetherMinHeight = 5
+	#Maximal height for Gobber Nether Ore pocket generation [0-255, default: 255]
+	#Range: 0 ~ 255
+	gobberOreNetherMaxHeight = 255
+	#Generate Gobber Nether Ore in the world [true / false]
+	gobberOreNetherGeneration = true
+
+#Gobber End Ore Generation
+[gobber2_ore_end]
+	#Size of Gobber End Ore pockets [0-100, default: 9]
+	#Range: 0 ~ 100
+	gobberOreEndSize = 9
+	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
+	#Range: 0 ~ 30
+	gobberOreEndChance = 15
+	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
+	#Range: 0 ~ 255
+	gobberOreEndMinHeight = 0
+	#Maximal height for Gobber End Ore pocket generation [0-255, default: 255]
+	#Range: 0 ~ 255
+	gobberOreEndMaxHeight = 255
+	#Generate Gobber End Ore in the world [true / false]
+	gobberOreEndGeneration = true
 
 #Gobber Tool Material Values
 [gobber_tool_material]
-	#Gobber tool enchantability [0-50, default: 20]
-	#Range: 1 ~ 50
-	gobberToolsEnchantability = 20
-	#Gobber tool mining level [1-6, default: 4]
-	#Range: 1 ~ 6
-	gobberToolsMiningLevel = 4
 	#Gobber tool durability [1-9000, default: 3800]
 	#Range: 0 ~ 9000
 	gobberToolsDurability = 3800
@@ -358,62 +129,94 @@
 	#Gobber tool attack damage [1-100, default: 1.0]
 	#Range: 1.0 ~ 100.0
 	gobberToolsDamage = 1.0
+	#Gobber tool enchantability [0-50, default: 20]
+	#Range: 1 ~ 50
+	gobberToolsEnchantability = 20
+
+#Gobber Armor Material Values
+[gobber_armor_material]
+	#Gobber armor durability multiplier [1-200, default: 71]
+	#Range: 1 ~ 200
+	gobberArmorDurabilityMultiplier = 71
+	#Gobber armor enchantability [1-50, default: 25]
+	#Range: 1 ~ 50
+	gobberArmorEnchantability = 25
+	#Gobber armor toughness [0-5, default: 2.5]
+	#Range: 0.0 ~ 5.0
+	gobberArmorToughness = 2.5
+	#Gobber armor knockback [0-5, default: 0.1]
+	#Range: 0.0 ~ 5.0
+	gobberArmorKnockback = 0.1
+
+#Nether Gobber Tool Material Values
+[nether_gobber_tool_material]
+	#Nether Gobber tool durability [1-9000, default: 5200]
+	#Range: 0 ~ 9000
+	netherGobberToolsDurability = 5200
+	#Nether Gobber tool mining speed [1-25, default: 12.0]
+	#Range: 1.0 ~ 25.0
+	netherGobberToolsSpeed = 12.0
+	#Nether Gobber tool attack damage [1-100, default: 1.0]
+	#Range: 1.0 ~ 100.0
+	netherGobberToolsDamage = 1.0
+	#Nether Gobber tool enchantability [0-50, default: 25]
+	#Range: 1 ~ 50
+	netherGobberToolsEnchantability = 25
+
+#Nether Gobber Armor Material Values
+[nether_gobber_armor_material]
+	#Nether Gobber armor durability multiplier [1-200, default: 83]
+	#Range: 1 ~ 200
+	netherGobberArmorDurabilityMultiplier = 83
+	#Nether Gobber armor enchantability [1-50, default: 30]
+	#Range: 1 ~ 50
+	netherGobberArmorEnchantability = 30
+	#Nether Gobber armor toughness [0-5, default: 2.75]
+	#Range: 0.0 ~ 5.0
+	netherGobberArmorToughness = 2.75
+	#Nether Gobber armor knockback [0-5, default: 0.1]
+	#Range: 0.0 ~ 5.0
+	netherGobberArmorKnockback = 0.1
 
 #End Gobber Tool Material Values
 [end_gobber_tool_material]
-	#End Gobber tool enchantability [0-50, default: 30]
-	#Range: 1 ~ 50
-	endGobberToolsEnchantability = 30
 	#End Gobber tool durability [1-9000, default: 8000]
 	#Range: 0 ~ 9000
 	endGobberToolsDurability = 8000
-	#End Gobber tool attack damage [1-100, default: 1.0]
-	#Range: 1.0 ~ 100.0
-	endGobberToolsDamage = 1.0
-	#End Gobber tool mining level [1-6, default: 5]
-	#Range: 1 ~ 6
-	endGobberToolsMiningLevel = 5
 	#End Gobber tool mining speed [1-25, default: 14.0]
 	#Range: 1.0 ~ 25.0
 	endGobberToolsSpeed = 14.0
+	#End Gobber tool attack damage [1-100, default: 1.0]
+	#Range: 1.0 ~ 100.0
+	endGobberToolsDamage = 1.0
+	#End Gobber tool enchantability [0-50, default: 30]
+	#Range: 1 ~ 50
+	endGobberToolsEnchantability = 30
+	#Should Tools be unbreakable when crafted? [true / false]
+	endGobberToolsUnbreakable = true
 
-#Ring/Staff of Farmer Settings
-[farmer_settings]
-	#Ring of the Farmer base tick delay [default: 20]
-	#Range: 10 ~ 120
-	ringFarmerTickDelay = 20
-	#Staff of the Farmer radius from player [default: 10]
-	#Range: 2 ~ 20
-	staffFarmerRadius = 10
-	#Staff of the Farmer base tick delay [default: 20]
-	#Range: 10 ~ 120
-	staffFarmerTickDelay = 20
-	#Ring of the Farmer radius from player [default: 10]
-	#Range: 2 ~ 20
-	ringFarmerRadius = 10
-
-#Dragon Star Special
-[dragonStar_special]
-	#Enable Dragon Star Offhannd Function [true / false]
-	enableDragonStarOffhand = true
-
-#Gobber Nether Ore Generation
-[gobber2_ore_nether]
-	#Maximal height for Gobber Nether Ore pocket generation [0-255, default: 255]
-	#Range: 0 ~ 255
-	gobberOreNetherMaxHeight = 255
-	#Minimal height for Gobber Nether Ore pocket generation, [0-255, default: 5]
-	#Range: 0 ~ 255
-	gobberOreNetherMinHeight = 5
-	#Size of Gobber Nether Ore pockets [0-100, default: 3]
-	#Range: 0 ~ 100
-	gobberOreNetherSize = 2
-	#Chances of Gobber Nether Ore pocket being generated [0-30, default: 15]
-	#Range: 0 ~ 30
-	gobberOreNetherChance = 30
+#End Gobber Armor Material Values
+[end_gobber_armor_material]
+	#End Gobber armor durability multiplier [1-200, default: 100]
+	#Range: 1 ~ 200
+	endGobberArmorDurabilityMultiplier = 100
+	#End Gobber armor enchantability [1-50, default: 30]
+	#Range: 1 ~ 50
+	endGobberArmorEnchantability = 30
+	#End Gobber armor toughness [0-5, default: 3.0]
+	#Range: 0.0 ~ 5.0
+	endGobberArmorToughness = 3.0
+	#End Gobber armor knockback [0-5, default: 0.2]
+	#Range: 0.0 ~ 5.0
+	endGobberArmorKnockback = 0.2
+	#Should Armor be unbreakable when crafted? [true / false]
+	endGobberArmorUnbreakable = true
 
 #Dragon Armor Material Values
 [dragon_armor_material]
+	#Dragon armor durability multiplier [1-200, default: 100]
+	#Range: 1 ~ 200
+	dragonArmorDurabilityMultiplier = 100
 	#Dragon armor enchantability [1-50, default: 30]
 	#Range: 1 ~ 50
 	dragonArmorEnchantability = 30
@@ -423,7 +226,219 @@
 	#Dragon armor knockback [0-5, default: 0.3]
 	#Range: 0.0 ~ 5.0
 	dragonArmorKnockback = 0.3
-	#Dragon armor durability multiplier [1-200, default: 100]
-	#Range: 1 ~ 200
-	dragonArmorDurabilityMultiplier = 100
+	#Should Armor be unbreakable when crafted? [true / false]
+	dragonArmorUnbreakable = true
+
+#Armor Health Perks Settings
+[armor_health_perk_settings]
+	#Enable/disable Gobber Armor health perks
+	gobberArmorHealthPerks = true
+	#Enable/disable Gobber Armor No Fall Damage
+	gobberArmorNoFallDamage = true
+	#Enable/disable Gobber Armor fire protection
+	gobberArmorFireProtection = true
+	#Enable/disable Gobber Nether Armor health perks
+	gobberNetherArmorHealthPerks = true
+	#Enable/disable Gobber End Armor health perks
+	gobberEndArmorHealthPerks = true
+	#Enable/disable Gobber Dragon Armor health perks
+	gobberDragonArmorHealthPerks = true
+
+#Gobber Food Values
+[gobber_foods]
+	#Goo hunger value [0-25, default: 7]
+	#Range: 0 ~ 25
+	gooHunger = 7
+	#Goo saturation value [0-5, default: 0.7]
+	#Range: 0.0 ~ 5.0
+	gooSaturation = 0.7
+	#Gooey apple hunger value [0-25, default: 8]
+	#Range: 0 ~ 25
+	gooeyAppleHunger = 8
+	#Gooey apple saturation value [0-5, default: 0.8]
+	#Range: 0.0 ~ 5.0
+	gooeyAppleSaturation = 0.8
+	#Gooey bread hunger value [0-25, default: 8]
+	#Range: 0 ~ 25
+	gooeyBreadHunger = 8
+	#Gooey bread saturation value [0-5, default: 0.8]
+	#Range: 0.0 ~ 5.0
+	gooeyBreadSaturation = 0.8
+	#Gooey beef hunger value [0-25, default: 9]
+	#Range: 0 ~ 25
+	gooeyBeefHunger = 9
+	#Gooey beef saturation value [0-5, default: 0.9]
+	#Range: 0.0 ~ 5.0
+	gooeyBeefSaturation = 0.9
+	#Gooey beefstew hunger value [0-25, default: 10]
+	#Range: 0 ~ 25
+	gooeyBeefstewHunger = 10
+	#Gooey beefstew saturation value [0-5, default: 1.0]
+	#Range: 0.0 ~ 5.0
+	gooeyBeefstewSaturation = 1.0
+
+#Nether Gobber Food Values
+[nether_gobber_foods]
+	#Nether Goo hunger value [0-25, default: 7]
+	#Range: 0 ~ 25
+	netherGooHunger = 9
+	#Nether Goo saturation value [0-5, default: 0.7]
+	#Range: 0.0 ~ 5.0
+	netherGooSaturation = 0.9
+	#Nether Gooey apple hunger value [0-25, default: 8]
+	#Range: 0 ~ 25
+	netherGooeyAppleHunger = 10
+	#Nether Gooey apple saturation value [0-5, default: 0.8]
+	#Range: 0.0 ~ 5.0
+	netherGooeyAppleSaturation = 1.0
+	#Nether Gooey bread hunger value [0-25, default: 8]
+	#Range: 0 ~ 25
+	netherGooeyBreadHunger = 10
+	#Nether Gooey bread saturation value [0-5, default: 0.8]
+	#Range: 0.0 ~ 5.0
+	netherGooeyBreadSaturation = 1.0
+	#Nether Gooey beef hunger value [0-25, default: 9]
+	#Range: 0 ~ 25
+	netherGooeyBeefHunger = 12
+	#Nether Gooey beef saturation value [0-5, default: 0.9]
+	#Range: 0.0 ~ 5.0
+	netherGooeyBeefSaturation = 1.2
+	#Nether Gooey beefstew hunger value [0-25, default: 10]
+	#Range: 0 ~ 25
+	netherGooeyBeefstewHunger = 14
+	#Nether Gooey beefstew saturation value [0-5, default: 1.0]
+	#Range: 0.0 ~ 5.0
+	netherGooeyBeefstewSaturation = 1.5
+
+#Item Cooldown Settings
+[item_cooldown_settings]
+	#Number of ticks duration for the Ring of Blink cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
+	ringBlinkCooldown = 60
+	#Number of ticks duration for the Ring of the Miner cooldown [0-3600, default: 80]
+	#Range: 0 ~ 3600
+	ringMinerCooldown = 80
+	#Number of ticks duration for the Ring of Above cooldown [0-3600, default: 80]
+	#Range: 0 ~ 3600
+	ringAboveCooldown = 80
+	#Number of ticks duration for the Ring of the Explorer cooldown [0-3600, default: 480]
+	#Range: 0 ~ 3600
+	ringExplorerCooldown = 480
+	#Number of ticks duration for the Sword of the Sniper cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
+	swordSniperCooldown = 60
+	#Number of ticks duration for the Staff of the Sniper cooldown [0-3600, default: 60]
+	#Range: 0 ~ 3600
+	staffSniperCooldown = 60
+	#Number of ticks duration for the Ring of Husbandry cooldown [0-9600, default: 2400]
+	#Range: 0 ~ 9600
+	ringHusbandryCooldown = 2400
+
+#Ring of the Explorer Settings
+[ring_explorer_settings]
+	#Ring of Explorer - Min distance from world spawn to begin searching for a spot [default: 500]
+	#Range: 0 ~ 100000
+	ringExplorerMin = 500
+	#Ring of Explorer - Max distance from world spawn to begin searching for a spot [default: 6000]
+	#Range: 0 ~ 250000
+	ringExplorerMax = 6000
+
+#Misc Ring/staff Settings
+[misc_ring_staff_settings]
+	#Reverse the drop/no drops feature on Ring of Miner [true / false]
+	reverseRingMiner = false
+	#Uses a delayed break mode to reduce stutter and potential lag on Ring of Miner and Ring of Lumberjack [true / false]
+	delayedBreakMode = true
+	#Ring of Acceleration - amount of velocity applied [default: .18]
+	#Range: 0.0 ~ 0.3
+	ringAccelerationVelocity = 0.18
+	#Ring of Repair - Delay time between repair ticks [default: 120]
+	#Range: 20 ~ 600
+	ringRepairDelay = 120
+	#Ring of Attraction - Distance coal blocks magnet effect [default: 5]
+	#Range: 0 ~ 15
+	ringAttractionBlocking = 5
+	#Ring of Attraction - Items are instantly placed in player inventory  [true / false]
+	ringAttractionMode = false
+	#Ring of Dismissal - Sets the horizontal velocity [default: 0.2]
+	#Range: 0.0 ~ 15.0
+	ringDismissalVelocity = 0.2
+	#Ring of Dismissal - Sets the horizontal range to detect mobs [default: 8.0]
+	#Range: 0.0 ~ 16.0
+	ringDismissalLift = 8.0
+	#Enable a single use of the Ring of Teleport [true / false]
+	limitedUseRingTeleport = false
+
+#Ring/Staff of Farmer Settings
+[farmer_settings]
+	#Ring of the Farmer base tick delay [default: 20]
+	#Range: 10 ~ 120
+	ringFarmerTickDelay = 20
+	#Ring of the Farmer radius from player [default: 10]
+	#Range: 2 ~ 20
+	ringFarmerRadius = 10
+	#Staff of the Farmer base tick delay [default: 20]
+	#Range: 10 ~ 120
+	staffFarmerTickDelay = 20
+	#Staff of the Farmer radius from player [default: 10]
+	#Range: 2 ~ 20
+	staffFarmerRadius = 10
+
+#Auto Replanting Settings
+[replanting_settings]
+	#Should the Staff of Harvest auto-replant? [true / false]
+	StaffHarvestReplant = true
+	#Should the Staff of the Farmer auto-replant? [true / false]
+	StaffFarmerReplant = true
+
+#Armor Hunger/Saturation Settings
+[armor_health_settings]
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberArmorHunger = 4
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberArmorSaturation = 0.02
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberNetherArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberNetherArmorSaturation = 0.05
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberEndArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberEndArmorSaturation = 0.1
+	#Amount of hunger point to restore per interval
+	#Range: 0 ~ 10
+	gobberDragonArmorHunger = 1
+	#Amount of saturation point to restore per interval
+	#Range: 0.0 ~ 10.0
+	gobberDragonArmorSaturation = 0.15
+
+#Medallion of Experience Settings
+[medallion_exp_settings]
+	#Medallion of Experience multiplier for extra XP orbs [default: 5]
+	#Range: 0 ~ 20
+	medallionExpOrbs = 5
+	#Medallion of Experience multiplier for extra mob loot [default: 10]
+	#Range: 5 ~ 100
+	medallionExpLoot = 20
+
+#Dragon Star Special
+[dragonStar_special]
+	#Enable Dragon Star Offhannd Function [true / false]
+	enableDragonStarOffhand = true
+
+#Enable Dragon Armor Void Protect - immune to /kill command
+[dragon_armor_void]
+	#Enable Dragon Armor Void Protection [true / false]
+	enableDragonArmorVoidProtection = false
+
+#Dragon Egg With Every Kill
+[dragon_egg_kill]
+	#Enable Dragon Egg drops on every kill [true / false]
+	enableDragonEggEveryKill = false
 

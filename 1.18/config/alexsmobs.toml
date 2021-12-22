@@ -5,8 +5,6 @@
 	#Lava Opacity for the Lava Vision Potion.
 	#Range: 0.01 ~ 1.0
 	lavaVisionOpacity = 0.65
-	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
-	shadersCompat = false
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas
 	bananasDropFromLeaves = true
 	#1 out of this number chance for leaves to drop a banana when broken. Fortune is automatically factored in
@@ -16,32 +14,34 @@
 	spidersAttackFlies = true
 	#Whether wolves should target moose mobs.
 	wolvesAttackMoose = true
-	#Whether polar bears should target seal mobs.
-	polarBearsAttackSeals = true
 	#Whether lava can be bottled with a right click of a glass bottle.
 	lavaBottleEnabled = true
-	#Whether bone serpents are neutral or hostile.
-	neutralBoneSerpents = false
 	#Maximum world y-level that cave centipedes can spawn at
 	#Range: -64 ~ 320
-	caveCentipedeSpawnHeight = 0
+	caveCentipedeSpawnHeight = 30
+	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
+	shadersCompat = false
 	#Maximum world y-level that blobfish can spawn at
 	#Range: -64 ~ 320
-	blobfishSpawnHeight = 25
+	blobfishSpawnHeight = 38
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
 	mimicubeSpawnInEndCity = true
 	#Whether mimicream can be used to duplicate items.
 	mimicreamRepair = true
 	#Blacklist for items that mimicream cannot make a copy of. Ex: "minecraft:stone_sword", "alexsmobs:blood_sprayer"
-	mimicreamBlacklist = ["alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster"]
+	mimicreamBlacklist = ["alexsmobs:blood_sprayer"]
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = true
-	#Whether fish oil gives players a special levitation effect.
-	fishOilMeme = true
+	#Whether polar bears should target seal mobs.
+	polarBearsAttackSeals = true
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
 	soulVultureSpawnOnFossil = true
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
 	acaciaBlossomsDropFromLeaves = true
+	#Whether bone serpents are neutral or hostile.
+	neutralBoneSerpents = false
+	#Whether fish oil gives players a special levitation effect.
+	fishOilMeme = true
 	#Whether wandering traders offer items like acacia blossoms, mosquito larva, crocodile egg, etc.
 	wanderingTraderOffers = true
 	#0 = no mungus biome transformation. 1 = mungus changes blocks, but not chunk's biome. 2 = mungus transforms blocks and biome of chunk.
@@ -62,9 +62,6 @@
 	#Percent chance for emu leggings to dodge projectile attacks.
 	#Range: 0.0 ~ 1.0
 	emuPantsDodgeChance = 0.45
-	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
-	#Range: 0.0 ~ 10.0
-	cachalotVolume = 3.0
 	#Percent chance for fungus to grow per each leaf a leafcutter ant returns to the colony.
 	#Range: 0.0 ~ 1.0
 	leafcutterAntFungusGrowChance = 0.3
@@ -77,10 +74,13 @@
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
-	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = false
 	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
 	fireproofTarantulaHawk = false
+	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
+	#Range: 0.0 ~ 10.0
+	cachalotVolume = 3.0
+	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
+	falconryTeleportsBack = false
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
 	voidWormSpawnDimensions = ["minecraft:the_end"]
 	#All void worm damage is scaled to this.
@@ -93,10 +93,10 @@
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
 	seagullStealing = true
-	#List of items that seagulls cannot take from players.
-	seagullStealingBlacklist = []
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
 	clingingFlipEffect = false
+	#List of items that seagulls cannot take from players.
+	seagullStealingBlacklist = []
 	#Percent chance of getting Pigshoes from Piglin Bartering. Set to zero to disable.
 	#Range: 0.0 ~ 1.0
 	tusklinShoesBarteringChance = 0.02500000037252903
@@ -110,16 +110,16 @@
 		grizzlyBearSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		roadrunnerSpawnWeight = 9
+		roadrunnerSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		roadrunnerSpawnRolls = 1
+		roadrunnerSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		boneSerpentSpawnWeight = 8
+		boneSerpentSpawnWeight = 2
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		boneSeprentSpawnRolls = 40
+		boneSeprentSpawnRolls = 50
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		gazelleSpawnWeight = 40
@@ -128,16 +128,16 @@
 		gazelleSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crocodileSpawnWeight = 40
+		crocodileSpawnWeight = 20
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		crocSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		flySpawnWeight = 3
+		flySpawnWeight = 1
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		flySpawnRolls = 1
+		flySpawnRolls = 3
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		hummingbirdSpawnWeight = 39
@@ -149,7 +149,7 @@
 		orcaSpawnWeight = 2
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		orcaSpawnRolls = 6
+		orcaSpawnRolls = 50
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		sunbirdSpawnWeight = 2
@@ -164,13 +164,13 @@
 		gorillaSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crimsonMosquitoSpawnWeight = 15
+		crimsonMosquitoSpawnWeight = 11
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		crimsonMosquitoSpawnRolls = 0
+		crimsonMosquitoSpawnRolls = 20
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		rattlesnakeSpawnWeight = 12
+		rattlesnakeSpawnWeight = 3
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		rattlesnakeSpawnRolls = 0
@@ -206,7 +206,7 @@
 		capuchinMonkeySpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		caveCentipedeSpawnWeight = 8
+		caveCentipedeSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		caveCentipedeSpawnRolls = 1
@@ -218,19 +218,19 @@
 		warpedToadSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mooseSpawnWeight = 9
+		mooseSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mooseSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mimicubeSpawnWeight = 40
+		mimicubeSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mimicubeSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		raccoonSpawnWeight = 10
+		raccoonSpawnWeight = 3
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		raccoonSpawnRolls = 0
@@ -242,13 +242,13 @@
 		blobfishSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		sealSpawnWeight = 30
+		sealSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		sealSpawnRolls = 0
+		sealSpawnRolls = 10
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		cockroachSpawnWeight = 4
+		cockroachSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		cockroachSpawnRolls = 0
@@ -284,7 +284,7 @@
 		spectreSpawnRolls = 5
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		crowSpawnWeight = 10
+		crowSpawnWeight = 3
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		crowSpawnRolls = 0
@@ -308,7 +308,7 @@
 		mantisShrimpSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		gusterSpawnWeight = 35
+		gusterSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		gusterSpawnRolls = 0
@@ -320,10 +320,10 @@
 		warpedMoscoSpawnRolls = 1000
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		straddlerSpawnWeight = 85
+		straddlerSpawnWeight = 8
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		straddlerSpawnRolls = 0
+		straddlerSpawnRolls = 15
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		stradpoleSpawnWeight = 10
@@ -356,7 +356,7 @@
 		tasmanianDevilSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		kangarooSpawnWeight = 25
+		kangarooSpawnWeight = 8
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		kangarooSpawnRolls = 0
@@ -371,25 +371,25 @@
 		enderiophageSpawnWeight = 4
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		enderiophageSpawnRolls = 2
+		enderiophageSpawnRolls = 3
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		baldEagleSpawnWeight = 15
+		baldEagleSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		baldEagleSpawnRolls = 0
-		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
-		#Range: 0 ~ 1000
-		tigerSpawnWeight = 100
-		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
-		#Range: > 0
-		tigerSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		tarantulaHawkSpawnWeight = 6
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		tarantulaHawkSpawnRolls = 1
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		tigerSpawnWeight = 100
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		tigerSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		voidWormSpawnWeight = 0
@@ -462,6 +462,24 @@
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		anteaterSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		rockyRollerSpawnWeight = 40
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		rockyRollerSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		flutterSpawnWeight = 13
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		flutterSpawnRolls = 0
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		geladaMonkeySpawnWeight = 3
+		#Minimum world y-level that gelada monkeys can spawn at
+		#Range: -64 ~ 320
+		geladaMonkeySpawnRolls = 0
 
 		[general.spawning.uniqueSpawning]
 			#Whether to enable beached cachalot whales to spawn on beaches during thunder storms.

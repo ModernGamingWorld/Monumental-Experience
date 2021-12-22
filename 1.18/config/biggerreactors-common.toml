@@ -20,7 +20,7 @@
     #
     # Default: true
     #
-    EnableUraniumGeneration = true
+    EnableUraniumGeneration = false
 
 [Reactor]
     #

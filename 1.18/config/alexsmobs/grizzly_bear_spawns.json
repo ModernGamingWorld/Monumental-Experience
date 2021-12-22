@@ -22,11 +22,6 @@
         "type": "BIOME_DICT",
         "negate": false,
         "value": "forest"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "minecraft:sparse_jungle"
       }
     ]
   ]
