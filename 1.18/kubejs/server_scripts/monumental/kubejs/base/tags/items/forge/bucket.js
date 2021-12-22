@@ -4,6 +4,6 @@ onEvent('tags.items', (event) => {
         //'botania:open_bucket',
         //'naturesaura:color_changer',
         //'forbidden_arcanus:edelwood_bucket',
-        //'zycraft:quartz_bucket'
+        'zycraft:quartz_bucket'
     ]);
 });

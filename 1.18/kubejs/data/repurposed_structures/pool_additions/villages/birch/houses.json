@@ -3,6 +3,15 @@
   "fallback": "repurposed_structures:villages/birch/terminators",
   "elements": [
     {
+      "weight": 6,
+      "element": {
+        "location": "farmersdelight:villages/birch/houses/compost_pile_1",
+        "processors": "repurposed_structures:villages/birch/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
       "weight": 2,
       "element": {
         "location": "morevillagers:village/birch/birch_engineer",

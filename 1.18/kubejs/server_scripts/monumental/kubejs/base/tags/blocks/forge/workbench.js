@@ -1,8 +1,6 @@
-onEvent('tags.items', (event) => {
+onEvent('tags.block', (event) => {
     let items = [
         'minecraft:crafting_table'
     ];
-
-    event.add('forge:workbenches', items);
     event.add('forge:workbench', items);
 });
