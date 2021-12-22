@@ -14,16 +14,14 @@
     ],
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "biomesoplenty:bamboo_blossom_grove"
-      }
-    ],
-    [
+        "value": "overworld"
+      },
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "biomesoplenty:cherry_blossom_grove"
+        "value": "minecraft:bamboo_jungle_hills"
       }
     ]
   ]

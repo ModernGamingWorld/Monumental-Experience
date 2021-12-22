@@ -7,19 +7,9 @@
         "value": "overworld"
       },
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_CATEGORY",
         "negate": false,
-        "value": "hot"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "dry"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "sandy"
+        "value": "desert"
       }
     ]
   ]

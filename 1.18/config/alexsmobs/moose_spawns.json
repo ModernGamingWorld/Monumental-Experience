@@ -33,13 +33,6 @@
         "negate": false,
         "value": "forest"
       }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "biomesoplenty:tundra_bog"
-      }
     ]
   ]
 }

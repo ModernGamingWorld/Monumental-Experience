@@ -82,6 +82,10 @@
 			#Range: 0 ~ 4294967295
 			level15_end_color = 4284103197
 
+		# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+		[client.custom_borders.priorities]
+			priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
 		# Entry types:
 		#   Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
 		#   Tag - $ followed by tag name.  Examples: "$forge:stone" or "$planks"
@@ -92,24 +96,20 @@
 		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
 		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
 		[client.custom_borders.definitions]
-			level0_entries = ["@overloaded", "@minecraft", "@gobber2", "@extendedcrafting", "@chancecubes", "@bhc", "@advancedperipherals", "@computercraft", "@artifacts", "@emendatusenigmatica", "@ftbquests"]
-			level1_entries = ["@botanicalmachinery", "@mythicbotany", "@woot", "@xreliquary", "@psipherals", "@psi", "@mana-and-artifice", "@forbidden_arcanus", "@druidcraft", "@auraaddons", "@occultism", "@eidolon", "@bloodmagic", "@astralsorcery", "@losttrinkets", "@naturesaura", "@botania", "@apotheosis"]
-			level2_entries = ["@iceandfire", "@dimdungeons", "@doom", "@gateways", "@twilightforest", "@alexsmobs", "@darkutils", "@aquaculture"]
-			level3_entries = ["@create", "@createaddition", "@thermal", "@mekanism", "@immersiveengineering", "@immersivepetroleum", "@draconicevolution", "@routerreborn", "@envirotech", "@envirocore", "@biggerreactors", "@tconstruct", "@fluxnetworks", "@industrialforegoing", "@rftoolspower", "@xnet", "@rftoolsutility", "@rftoolscontrol", "@rftoolsbuilder", "@rftoolsbase", "@pneumaticcraft", "@mininggadgets", "@mekanismgenerators"]
-			level4_entries = ["@ae2extras", "@storagenetwork", "@refinedstorage", "@quantumstorage", "@compactstorage", "@extrastorage", "@storagedrawers", "@rftoolsstorage", "@appliedenergistics2", "@extradisks", "@compactmachines", "@modularrouters", "@rsgauges"]
-			level5_entries = ["@simplefarming", "@farmingforblockheads", "@farmersdelight", "@pamhc2crops", "@pamhc2foodcore", "@pamhc2foodextended", "@pamhc2trees", "@nethers_delight", "@sushigocrafting", "@abnormals_delight", "@cookingforblockheads", "@botanyports", "@agricraft", "@ftb-power-pots"]
-			level6_entries = ["@macawsbridgesbyg", "@chisel", "@chiselandbits", "@chipped", "@zycraft", "@woodenutilities", "@structurize", "@dustrial_decor", "@prefab", "@minecolonies", "@mcwlights", "@mcwfurnitures", "@morecfm", "@cfm", "@environmental", "@constructionwand", "@architects_palette", "@mcwfences", "@upgrade_aquatic", "@betterendforge", "@supplementaries", "@mcwtrpdoors", "@pitg", "@quark", "@valhelsia_structures", "@masonry", "@mcwwindows", "@mcwroofs", "@mcwdoors", "@mcwbridges", "@glassential", "@engineersdecor", "@decorative_blocks", "@connectedglass"]
-			level7_entries = ["@matc", "@mysticalagriculture", "@industrialagriculture", "@mysticalagradditions", "@growablecells"]
-			level8_entries = ["@wormhole", "@waystones"]
-			level9_entries = ["@ironfurnaces", "@speedyladders", "@speedyhoppers", "@refinedpipes", "@ironcoals", "@inventorypets", "@engineerstools", "@cyclic", "@compressium", "@cabletiers", "@blue_skies", "@materialis", "@atum", "@smallships", "@ironjetpacks", "@undergarden", "@sophisticatedbackpacks", "@byg", "@rangedpumps", "@elevatorid", "@comforts"]
+			level0_entries = ["!epic", "!rare"]
+			level1_entries = []
+			level2_entries = []
+			level3_entries = []
+			level4_entries = []
+			level5_entries = []
+			level6_entries = []
+			level7_entries = []
+			level8_entries = []
+			level9_entries = []
 			level10_entries = []
 			level11_entries = []
 			level12_entries = []
 			level13_entries = []
 			level14_entries = []
 			level15_entries = []
-
-		# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
-		[client.custom_borders.priorities]
-			priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 

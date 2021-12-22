@@ -20,11 +20,6 @@
         "type": "BIOME_DICT",
         "negate": true,
         "value": "cold"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "minecraft:sparse_jungle"
       }
     ]
   ]

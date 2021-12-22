@@ -140,7 +140,7 @@
 		# Given or not given the Rainbow Coal to our champion
 		coal = false
 		# Enable or disable the Rainbow Content
-		rainbow = true
+		rainbow = false
 		# Show furnace settings errors in chat, used for debugging
 		errors = false
 
@@ -150,5 +150,5 @@
 	[updates.check_updates]
 		# true = check for updates, false = don't check for updates.
 		# Default: true.
-		updates = true
+		updates = false
 

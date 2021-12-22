@@ -2,14 +2,14 @@
 randomise_seed = true
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
 convert_mineshafts = true
+#catches loot chest creation that this mod cannot convert, reporting the loot table, location and mod
+report_tables = false
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
 convert_quark = true
 #whether or not the entire forge:chests/wooden tag should be added to the conversion list for structures (if they are backed by LockableLootTileEntity)
 convert_wooden_chests = true
 #whether or not the entire forge:chests/trapped tag should be added to the conversion list for structures (if they are backed by LockableLootTileEntity
 convert_trapped_chests = true
-#catches loot chest creation that this mod cannot convert, reporting the loot table, location and mod
-report_tables = false
 #a list of additional chests that should be converted [in the format of modid:name, must be a tile entity instance of LockableLootTileEntity]
 additional_chests = []
 #a list of additional trapped chests that should be converted [in the format of modid:name, must be a tile entity instanceof LockableLootTileEntity]
