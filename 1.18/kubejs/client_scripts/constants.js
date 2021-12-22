@@ -38,6 +38,11 @@ const colors = [
 ];
 
 const itemsToHide = [
+    'minecraft:structure_void',
+    'lootr:lootr_chest',
+    'lootr:lootr_trapped_chest',
+    'lootr:lootr_barrel',
+    'lootr:lootr_inventory',
     'ae2:sky_stone_block',
     'castle_in_the_sky:laputa_core',
     'castle_in_the_sky:laputa_core_orb',
@@ -76,8 +81,6 @@ const itemsToHide = [
     'quark:biotite',
     'quark:biotite_ore',
     'quark:tallow',
-    'simplefarming:apple_pie',
-    'simplefarming:blueberry_pie',
     'supplementaries:pedestal',
     'supplementaries:crank',
     'supplementaries:turn_table',
@@ -192,6 +195,7 @@ const itemsToHide = [
     Item.of('lingering_potion').ignoreNBT(),
     Item.of('tipped_arrow').ignoreNBT(),
     Item.of('enchanted_book').ignoreNBT(),
+    Item.of('mob_enchanted_book').ignoreNBT(),
     'minecraft:command_block',
     'minecraft:repeating_command_block',
     'minecraft:chain_command_block',
@@ -199,10 +203,13 @@ const itemsToHide = [
     'minecraft:barrier',
     'minecraft:light',
     'minecraft:chipped_anvil',
-    'minecraft:damaged_anvil'
+    'minecraft:damaged_anvil',
+    'occultism:iesnium_ore_natural'
 ];
 
 const materialsToUnify = [
+    'deepslate_prosperity',
+    'deepslate_inferium',
     'deepslate_coal',
     'deepslate_iron',
     'deepslate_copper',
@@ -1175,6 +1182,7 @@ const leavesToUnify = [
 ];
 
 const bucketsToUnify = [
+    'quicksilver',
     'powder_snow',
     'axolotl',
     'water',

@@ -1,5 +1,5 @@
-onEvent('tags.items', (event) => {
-    event.add('forge:tank', [
+onEvent('tags.block', (event) => {
+    event.add('forge:tanks', [
         //'rftoolsutility:tank',
         //'rftoolscontrol:tank',
         'create:fluid_tank',

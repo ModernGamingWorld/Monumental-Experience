@@ -1,5 +1,5 @@
-onEvent('tags.items', (event) => {
-    event.add('forge:piston', [
+onEvent('tags.blocks', (event) => {
+    event.add('forge:pistons', [
         'minecraft:sticky_piston',
         'minecraft:piston',
         'create:mechanical_piston',

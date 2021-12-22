@@ -9,7 +9,6 @@ onEvent('tags.block', (event) => {
         .add('immersiveengineering:metal_ladder_alu')
         .add('immersiveengineering:metal_ladder_steel')
         .add('byg:sythian_scaffolding')
-        .add('transport:scaffolding_slab')
         .add('farmersdelight:safety_net')
         .add('darkutils:item_grate')
         .add('engineersdecor:steel_floor_grating')
