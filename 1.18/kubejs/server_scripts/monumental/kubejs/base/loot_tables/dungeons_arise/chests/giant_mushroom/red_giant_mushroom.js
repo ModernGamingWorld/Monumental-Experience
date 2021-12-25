@@ -2,103 +2,102 @@ onEvent('server.datapack.high_priority', (event) => {
     let loot_table = {
         type: "minecraft:chest",
         pools: [{
-                rolls: 2,
+                rolls: 1,
                 entries: [{
                         type: "minecraft:item",
-                        name: "minecraft:wither_rose"
+                        weight: 10,
+                        name: "minecraft:stone_pickaxe",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 12,
+                                max: 24
+                            }
+                        }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:iron_bars",
+                        weight: 25,
+                        name: "minecraft:iron_pickaxe",
                         functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
                                 max: 6
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:iron_sword",
+                        weight: 5,
+                        name: "minecraft:golden_pickaxe",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
-                            levels: 1,
-                            conditions: [{
-                                condition: "minecraft:random_chance",
-                                chance: 0.6
-                            }]
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:bow",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            },
-                            conditions: [{
-                                condition: "minecraft:random_chance",
-                                chance: 0.4
-                            }]
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:iron_sword",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: 1
+                            levels: 4
                         }]
                     }
                 ]
             },
             {
-                rolls: 2,
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 120
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:player_head",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{SkullOwner:\"MHF_Slime\"}"
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
                 entries: [{
                         type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:enderman_essence",
+                        name: "minecraft:iron_chestplate",
                         functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 3
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 8
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:chainmail_helmet",
+                        name: "minecraft:iron_leggings",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
                             levels: {
-                                min: 0,
-                                max: 4
+                                min: 4,
+                                max: 8
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:chainmail_leggings",
+                        name: "minecraft:iron_helmet",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
                             levels: {
-                                min: 0,
-                                max: 4
+                                min: 4,
+                                max: 8
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:chainmail_boots",
+                        name: "minecraft:iron_boots",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
                             levels: {
-                                min: 0,
-                                max: 4
+                                min: 4,
+                                max: 8
                             }
                         }]
                     },
@@ -107,50 +106,45 @@ onEvent('server.datapack.high_priority', (event) => {
                         name: "minecraft:chainmail_chestplate",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            }
+                            levels: 24
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:stone_sword"
-                    },
-                    {
-                        type: "minecraft:tag",
-                        weight: 10,
-                        name: "minecraft:arrows",
-                        expand: true,
+                        name: "minecraft:chainmail_leggings",
                         functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 3,
-                                max: 6
-                            }
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:lapis_lazuli_essence",
+                        name: "minecraft:chainmail_helmet",
                         functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 12,
-                                max: 18
-                            }
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 10,
-                        name: "mysticalagriculture:gold_essence",
+                        name: "minecraft:chainmail_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:red_mushroom",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
                                 min: 4,
-                                max: 14
+                                max: 16
                             }
                         }]
                     },
@@ -161,54 +155,55 @@ onEvent('server.datapack.high_priority', (event) => {
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 16
+                                max: 32
                             }
                         }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        weight: 1,
+                        name: "minecraft:diamond"
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:lily_of_the_valley",
+                        weight: 2,
+                        name: "mysticalagriculture:gold_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 1,
-                                max: 4
+                                min: 6,
+                                max: 8
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 10,
-                        name: "mysticalagriculture:emerald_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 3
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        weight: 20,
+                        weight: 80,
                         name: "mysticalagriculture:iron_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 3,
+                                min: 4,
                                 max: 16
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:skeleton_essence",
+                        weight: 100,
+                        name: "mysticalagriculture:coal_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 12,
-                                max: 16
+                                min: 32,
+                                max: 48
                             }
                         }]
                     }
@@ -218,10 +213,10 @@ onEvent('server.datapack.high_priority', (event) => {
                 rolls: 1,
                 entries: [{
                     type: "minecraft:loot_table",
-                    name: "minecraft:chests/village/village_weaponsmith"
+                    name: "minecraft:chests/abandoned_mineshaft"
                 }]
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/abandoned_temple/abandoned_temple_top.json`, loot_table);
+    event.addJson(`dungeons_arise:loot_tables/chests/giant_mushroom/red_giant_mushroom.json`, loot_table);
 })

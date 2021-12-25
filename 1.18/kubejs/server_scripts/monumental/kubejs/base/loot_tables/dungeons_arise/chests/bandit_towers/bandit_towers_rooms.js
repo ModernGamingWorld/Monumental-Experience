@@ -42,7 +42,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     {
                         type: "minecraft:item",
                         weight: 8,
-                        name: "minecraft:ender_pearl",
+                        name: "mysticalagriculture:enderman_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {

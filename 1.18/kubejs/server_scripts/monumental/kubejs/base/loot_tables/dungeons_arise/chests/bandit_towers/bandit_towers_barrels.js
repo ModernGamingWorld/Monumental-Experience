@@ -54,7 +54,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     {
                         type: "minecraft:item",
                         weight: 3,
-                        name: "minecraft:ender_pearl",
+                        name: "mysticalagriculture:enderman_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
@@ -85,7 +85,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     {
                         type: "minecraft:item",
                         weight: 16,
-                        name: "minecraft:gold_ingot",
+                        name: "mysticalagriculture:gold_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
@@ -109,7 +109,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     {
                         type: "minecraft:item",
                         weight: 16,
-                        name: "minecraft:iron_ingot",
+                        name: "mysticalagriculture:iron_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {

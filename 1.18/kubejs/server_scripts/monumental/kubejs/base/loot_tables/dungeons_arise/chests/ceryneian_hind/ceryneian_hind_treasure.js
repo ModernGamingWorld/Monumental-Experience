@@ -39,8 +39,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             levels: {
                                 min: 15,
                                 max: 30
-                            },
-                            treasure: true
+                            }
                         }]
                     },
                     {
@@ -52,8 +51,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             levels: {
                                 min: 15,
                                 max: 30
-                            },
-                            treasure: true
+                            }
                         }]
                     },
                     {
@@ -65,8 +63,7 @@ onEvent('server.datapack.high_priority', (event) => {
                             levels: {
                                 min: 15,
                                 max: 30
-                            },
-                            treasure: true
+                            }
                         }]
                     },
                     {
@@ -78,8 +75,39 @@ onEvent('server.datapack.high_priority', (event) => {
                             levels: {
                                 min: 15,
                                 max: 30
-                            },
-                            treasure: true
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_helmet"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_chestplate"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_leggings"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_boots"
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 20
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 15,
+                        name: "mysticalagriculture:slime_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
                         }]
                     }
                 ]
@@ -91,13 +119,48 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 entries: [{
                         type: "minecraft:item",
-                        weight: 10,
+                        name: "minecraft:gold_block",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 24,
                         name: "mysticalagriculture:iron_essence",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
                                 min: 4,
-                                max: 12
+                                max: 24
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 32,
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 8,
+                        name: "minecraft:gold_nugget",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 64
                             }
                         }]
                     },
@@ -108,8 +171,8 @@ onEvent('server.datapack.high_priority', (event) => {
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 3,
-                                max: 4
+                                min: 1,
+                                max: 2
                             }
                         }]
                     }
@@ -119,7 +182,18 @@ onEvent('server.datapack.high_priority', (event) => {
                 rolls: 1,
                 entries: [{
                         type: "minecraft:item",
-                        name: "minecraft:blue_orchid",
+                        name: "minecraft:wither_rose",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:cobweb",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
@@ -127,36 +201,17 @@ onEvent('server.datapack.high_priority', (event) => {
                                 max: 3
                             }
                         }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:rose_bush",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 3
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "mysticalagriculture:wood_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 3
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:dead_bush"
                     }
                 ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/desert_pyramid"
+                }]
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/bandit_towers/bandit_towers_gardens.json`, loot_table);
-});
+    event.addJson(`dungeons_arise:loot_tables/chests/ceryneian_hind/ceryneian_hind_treasure.json`, loot_table);
+})

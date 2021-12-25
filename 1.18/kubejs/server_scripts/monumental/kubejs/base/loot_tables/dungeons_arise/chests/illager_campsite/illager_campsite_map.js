@@ -8,8 +8,8 @@ onEvent('server.datapack.high_priority', (event) => {
                         name: "minecraft:map",
                         functions: [{
                             function: "minecraft:exploration_map",
-                            destination: "dungeons_arise:monastery",
-                            decoration: "target_x",
+                            destination: "dungeons_arise:illager_fort",
+                            decoration: "red_marker",
                             zoom: 4,
                             skip_existing_chunks: false
                         }]
@@ -19,19 +19,8 @@ onEvent('server.datapack.high_priority', (event) => {
                         name: "minecraft:map",
                         functions: [{
                             function: "minecraft:exploration_map",
-                            destination: "dungeons_arise:mining_system",
-                            decoration: "target_x",
-                            zoom: 4,
-                            skip_existing_chunks: false
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:map",
-                        functions: [{
-                            function: "minecraft:exploration_map",
-                            destination: "dungeons_arise:thornborn_towers",
-                            decoration: "blue_marker",
+                            destination: "dungeons_arise:illager_corsair",
+                            decoration: "red_marker",
                             zoom: 4,
                             skip_existing_chunks: false
                         }]
@@ -39,171 +28,201 @@ onEvent('server.datapack.high_priority', (event) => {
                 ]
             },
             {
-                rolls: 3,
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
                 entries: [{
                         type: "minecraft:item",
-                        name: "minecraft:wither_rose"
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:iron_bars",
+                        name: "minecraft:charcoal",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 1,
-                                max: 6
+                                min: 8,
+                                max: 24
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:iron_sword",
+                        name: "mysticalagriculture:coal_essence",
                         functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: 1,
-                            conditions: [{
-                                condition: "minecraft:random_chance",
-                                chance: 0.6
-                            }]
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 24
+                            }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:bow",
+                        name: "mysticalagriculture:iron_essence",
                         functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            },
-                            conditions: [{
-                                condition: "minecraft:random_chance",
-                                chance: 0.4
-                            }]
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:iron_sword",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: 1
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 16
+                            }
                         }]
                     }
                 ]
             },
             {
-                rolls: 2,
+                rolls: 1,
                 entries: [{
                         type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:enderman_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 3
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:enderman_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 1,
-                                max: 2
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:chainmail_helmet",
+                        name: "minecraft:iron_sword",
                         functions: [{
                             function: "minecraft:enchant_with_levels",
                             levels: {
-                                min: 0,
-                                max: 4
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:chainmail_leggings",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:chainmail_boots",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:chainmail_chestplate",
-                        functions: [{
-                            function: "minecraft:enchant_with_levels",
-                            levels: {
-                                min: 0,
-                                max: 4
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        name: "minecraft:stone_sword"
-                    },
-                    {
-                        type: "minecraft:tag",
-                        weight: 10,
-                        name: "minecraft:arrows",
-                        expand: true,
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 3,
-                                max: 6
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:lapis_lazuli_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 12,
+                                min: 6,
                                 max: 18
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 10,
-                        name: "mysticalagriculture:gold_essence",
+                        name: "minecraft:stone_sword",
                         functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 4,
-                                max: 14
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:bow",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 12
                             }
                         }]
                     },
                     {
+                        type: "minecraft:item",
+                        name: "minecraft:crossbow",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 14
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:iron_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:iron_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:iron_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:iron_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 10
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:leather_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 20
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:leather_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:leather_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:leather_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
                         type: "minecraft:item",
                         name: "mysticalagriculture:slime_essence",
                         functions: [{
@@ -216,7 +235,18 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
-                        name: "minecraft:lily_of_the_valley",
+                        name: "minecraft:spruce_planks",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:stick",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
@@ -227,37 +257,23 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
-                        weight: 10,
-                        name: "mysticalagriculture:emerald_essence",
+                        name: "minecraft:white_wool",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
                                 min: 1,
-                                max: 3
+                                max: 8
                             }
                         }]
                     },
                     {
                         type: "minecraft:item",
-                        weight: 20,
-                        name: "mysticalagriculture:iron_essence",
+                        name: "minecraft:experience_bottle",
                         functions: [{
                             function: "minecraft:set_count",
                             count: {
-                                min: 3,
-                                max: 16
-                            }
-                        }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        weight: 5,
-                        name: "mysticalagriculture:skeleton_essence",
-                        functions: [{
-                            function: "minecraft:set_count",
-                            count: {
-                                min: 12,
-                                max: 16
+                                min: 1,
+                                max: 4
                             }
                         }]
                     }
@@ -267,10 +283,10 @@ onEvent('server.datapack.high_priority', (event) => {
                 rolls: 1,
                 entries: [{
                     type: "minecraft:loot_table",
-                    name: "minecraft:chests/village/village_weaponsmith"
+                    name: "minecraft:chests/pillager_outpost"
                 }]
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/abandoned_temple/abandoned_temple_map.json`, loot_table);
+    event.addJson(`dungeons_arise:loot_tables/chests/illager_campsite/illager_campsite_map.json`, loot_table);
 })
