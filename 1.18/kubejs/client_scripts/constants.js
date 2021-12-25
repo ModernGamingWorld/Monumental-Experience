@@ -1182,6 +1182,11 @@ const leavesToUnify = [
 ];
 
 const bucketsToUnify = [
+    'rocky_roller',
+    'flutter',
+    'gelada_monkey',
+    'tallow',
+    'redstone_acid',
     'quicksilver',
     'powder_snow',
     'axolotl',

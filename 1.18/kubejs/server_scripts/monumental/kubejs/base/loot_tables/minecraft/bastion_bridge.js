@@ -1,0 +1,246 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: 1
+                    }],
+                    name: "minecraft:lodestone"
+                }]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.5
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:crossbow"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 10,
+                                max: 28,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:spectral_arrow"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 12,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:gilded_blackstone"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 8,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:crying_obsidian"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: 1
+                        }],
+                        name: "mysticalagriculture:gold_essence"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 9,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "mysticalagriculture:gold_essence"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 9,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "mysticalagriculture:iron_essence"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: 1
+                        }],
+                        name: "minecraft:golden_sword"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: 1
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:golden_chestplate"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: 1
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:golden_helmet"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: 1
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:golden_leggings"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: 1
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:golden_boots"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: 1
+                            },
+                            {
+                                function: "minecraft:enchant_randomly"
+                            }
+                        ],
+                        name: "minecraft:golden_axe"
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 2,
+                    max: 4,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 6,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "mysticalagriculture:spider_essence"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "mysticalagriculture:cow_essence"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 5,
+                                max: 17,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:arrow"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 6,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:iron_nugget"
+                    },
+                    {
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 6,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        ]
+    };
+
+    event.addJson(`minecraft:loot_tables/chests/bastion_bridge.json`, loot_table);
+});
