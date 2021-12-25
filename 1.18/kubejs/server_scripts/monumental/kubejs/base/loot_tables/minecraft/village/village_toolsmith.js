@@ -1,0 +1,100 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+            rolls: {
+                min: 3,
+                max: 8,
+                type: "minecraft:uniform"
+            },
+            entries: [{
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "mysticalagriculture:diamond_essence"
+                },
+                {
+                    type: "minecraft:item",
+                    weight: 5,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 5,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "mysticalagriculture:iron_essence"
+                },
+                {
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "mysticalagriculture:iron_essence"
+                },
+                {
+                    type: "minecraft:item",
+                    weight: 15,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "minecraft:bread"
+                },
+                {
+                    type: "minecraft:item",
+                    weight: 5,
+                    name: "minecraft:iron_pickaxe"
+                },
+                {
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "mysticalagriculture:coal_essence"
+                },
+                {
+                    type: "minecraft:item",
+                    weight: 20,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }],
+                    name: "minecraft:stick"
+                },
+                {
+                    type: "minecraft:item",
+                    weight: 5,
+                    name: "minecraft:iron_shovel"
+                }
+            ]
+        }]
+    };
+
+    event.addJson(`minecraft:loot_tables/chests/village/village_toolsmith.json`, loot_table);
+});

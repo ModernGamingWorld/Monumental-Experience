@@ -34,6 +34,7 @@ upgradesToUnify.forEach((upgrades) => {
 
 leavesToUnify.forEach((leaves) => {
     itemsToHide.push(
+        'hexerei:' + leaves + '_leaves',
         'twilightforest:' + leaves + '_leaves',
         'quark:' + leaves + '_leaves',
         'undergarden:' + leaves + '_leaves',
