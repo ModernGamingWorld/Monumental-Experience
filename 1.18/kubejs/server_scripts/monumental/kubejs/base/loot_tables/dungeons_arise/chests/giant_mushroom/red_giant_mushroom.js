@@ -1,0 +1,222 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "minecraft:stone_pickaxe",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 12,
+                                max: 24
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 25,
+                        name: "minecraft:iron_pickaxe",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:golden_pickaxe",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 4
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 120
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:player_head",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{SkullOwner:\"MHF_Slime\"}"
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:iron_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 4,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 24
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:red_mushroom",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:slime_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 32
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        weight: 1,
+                        name: "minecraft:diamond"
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 6,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 80,
+                        name: "mysticalagriculture:iron_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 100,
+                        name: "mysticalagriculture:coal_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 32,
+                                max: 48
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/abandoned_mineshaft"
+                }]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/giant_mushroom/red_giant_mushroom.json`, loot_table);
+})

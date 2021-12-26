@@ -242,6 +242,5 @@ onEvent('server.datapack.high_priority', (event) => {
             }
         ]
     };
-
     event.addJson(`minecraft:loot_tables/chests/woodland_mansion.json`, loot_table);
 });

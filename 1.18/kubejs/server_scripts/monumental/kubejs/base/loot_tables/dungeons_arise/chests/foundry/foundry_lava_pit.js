@@ -1,0 +1,74 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:blaze_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:blaze_powder",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "immersiveengineering:circuit_board",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:magma_cream",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 12
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "minecraft:gold_ore",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 12,
+                                max: 24
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/bastion_other"
+                }]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/foundry/foundry_lava_pit.json`, loot_table);
+})
