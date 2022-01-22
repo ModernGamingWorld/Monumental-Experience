@@ -1,5 +1,5 @@
 
-#general settings
+#General settings
 [general]
 	#Blacklisted Sounds - add the name of the sounds to blacklist, separated with comma
 	forbiddenSounds = ["ui.", "music.", "ambient."]

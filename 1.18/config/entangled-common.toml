@@ -13,9 +13,9 @@
 	#Can entangled blocks be bound between different dimensions? Previously bound entangled blocks won't be affected.
 	#Requires a world reload
 	#Allowed Values: true, false  Default: true
-	allowDimensional = true
+	allowDimensional = false
 	#What is the max range in which entangled blocks can be bound? Only affects blocks in the same dimension. -1 for infinite range. Previously bound entangled blocks won't be affected.
 	#Requires a world reload
 	#Allowed Range: -1 ~ 2147483647  Default: -1
-	maxDistance = -1
+	maxDistance = 1000
 

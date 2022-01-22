@@ -1,0 +1,203 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 1
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:splash_potion",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{CustomPotionEffects:[{Id:1b,Amplifier:3b,Duration:400},{Id:10b,Amplifier:5b,Duration:100}]}"
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 500
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:player_head",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{SkullOwner:\"DiamondTown\"}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:player_head",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{SkullOwner:\"TheCatsKing\"}"
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:tipped_arrow",
+                        functions: [{
+                                function: "minecraft:set_nbt",
+                                tag: "{CustomPotionEffects:[{Id:2b,Amplifier:4b,Duration:600}]}"
+                            },
+                            {
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 1,
+                                    max: 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:tipped_arrow",
+                        functions: [{
+                                function: "minecraft:set_nbt",
+                                tag: "{CustomPotionEffects:[{Id:20b,Amplifier:4b,Duration:30},{Id:25b,Amplifier:6b,Duration:600}]}"
+                            },
+                            {
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 1,
+                                    max: 8
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 2,
+                    max: 3
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 39
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 39
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 39
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 39
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_pickaxe",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 25
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:netherite_sword",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 15,
+                                max: 25
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 2,
+                    max: 3
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 24,
+                                max: 48
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:emerald_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 12,
+                                max: 48
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:diamond_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 30,
+                                max: 48
+                            }
+                        }]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`dungeons_arise:loot_tables/chests/shiraz_palace/shiraz_palace_treasure.json`, loot_table);;
+});

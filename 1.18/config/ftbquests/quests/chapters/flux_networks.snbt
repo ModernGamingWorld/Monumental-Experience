@@ -1,0 +1,168 @@
+{
+	id: "489DC8B78F542008"
+	group: "570AEC24DD8505B2"
+	order_index: 2
+	filename: "flux_networks"
+	title: "&6Flux Networks"
+	icon: "fluxnetworks:flux_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "25A17BC359CA2EF1"
+			tasks: [{
+				id: "42A2F4F324F4AFB3"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [{
+				id: "0000000000000FB9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "03E30AA4E577F4DA"
+			tasks: [{
+				id: "332724FB2C037A7A"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [{
+				id: "0000000000000FBF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "09F88FBB1DB656F2"
+			tasks: [{
+				id: "0085DACBCB37ED75"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "0000000000000FBD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "58066F76E37B0DC6"
+			tasks: [
+				{
+					id: "3631AA420236ED46"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+				}
+				{
+					id: "107427A9C9A12FDE"
+					type: "item"
+					item: "fluxnetworks:herculean_flux_storage"
+				}
+				{
+					id: "7A4FC1F9B771B9BA"
+					type: "item"
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+			]
+			rewards: [{
+				id: "0000000000000FBE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "2913BB23E7E1D7D5"
+			tasks: [
+				{
+					id: "2DE953B430667B79"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+				{
+					id: "6086931B7D9B9A70"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+			]
+			rewards: [{
+				id: "0000000000000FBB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "2F2F6DDDC03983DA"
+			tasks: [{
+				id: "7DFCB9B9A9FF2C2F"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [{
+				id: "0000000000000FBC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"0000000000000AE6"
+				"25A17BC359CA2EF1"
+			]
+			id: "45D913CA9EA5D570"
+			tasks: [{
+				id: "5C1A60FDE90150A6"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "0000000000000FBA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

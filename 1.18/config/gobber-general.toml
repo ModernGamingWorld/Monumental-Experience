@@ -1,8 +1,8 @@
 
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
-	#Size of Gobber Lucky Block pockets [0-100, default: 4]
-	#Range: 0 ~ 100
+	#Size of Gobber Lucky Block pockets [3-100, default: 4]
+	#Range: 3 ~ 100
 	gobberLuckyBlockSize = 4
 	#Chances of Gobber Lucky Block pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
@@ -18,8 +18,8 @@
 
 #Gobber Lucky Block Deepslate Generation
 [gobber2_lucky_block_deepslate]
-	#Size of Gobber Lucky Block Deepslate pockets [0-100, default: 4]
-	#Range: 0 ~ 100
+	#Size of Gobber Lucky Block Deepslate pockets [3-100, default: 4]
+	#Range: 3 ~ 100
 	gobberLuckyBlockDeepslateSize = 4
 	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
@@ -35,8 +35,8 @@
 
 #Gobber Lucky Block Nether Generation
 [gobber2_lucky_block_nether]
-	#Size of Gobber Lucky Block Nether pockets [0-100, default: 4]
-	#Range: 0 ~ 100
+	#Size of Gobber Lucky Block Nether pockets [3-100, default: 4]
+	#Range: 3 ~ 100
 	gobberLuckyBlockNetherSize = 4
 	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
@@ -52,8 +52,8 @@
 
 #Gobber Ore Generation
 [gobber2_ore]
-	#Size of Gobber Ore pockets [0-100, default: 4]
-	#Range: 0 ~ 100
+	#Size of Gobber Ore pockets [3-100, default: 4]
+	#Range: 3 ~ 100
 	gobberOreSize = 4
 	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
@@ -69,8 +69,8 @@
 
 #Gobber Ore Deepslate Generation
 [gobber2_ore_deepslate]
-	#Size of Gobber Ore Deepslate pockets [0-100, default: 4]
-	#Range: 0 ~ 100
+	#Size of Gobber Ore Deepslate pockets [3-100, default: 4]
+	#Range: 3 ~ 100
 	gobberOreDeepslateSize = 4
 	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
@@ -86,8 +86,8 @@
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]
-	#Size of Gobber Nether Ore pockets [0-100, default: 3]
-	#Range: 0 ~ 100
+	#Size of Gobber Nether Ore pockets [3-100, default: 3]
+	#Range: 3 ~ 100
 	gobberOreNetherSize = 4
 	#Chances of Gobber Nether Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
@@ -126,7 +126,7 @@
 	#Gobber tool mining speed [1-25, default: 9.0]
 	#Range: 1.0 ~ 25.0
 	gobberToolsSpeed = 9.0
-	#Gobber tool attack damage [1-100, default: 1.0]
+	#Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
 	gobberToolsDamage = 1.0
 	#Gobber tool enchantability [0-50, default: 20]
@@ -147,6 +147,18 @@
 	#Gobber armor knockback [0-5, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	gobberArmorKnockback = 0.1
+	#Gobber armor head protection [1-20, default: 6]
+	#Range: 1 ~ 20
+	gobberHeadProtection = 6
+	#Gobber armor chest protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	gobberChestProtection = 11
+	#Gobber armor leggings protection [1-20, default: 9]
+	#Range: 1 ~ 20
+	gobberLeggingsProtection = 9
+	#Gobber armor boots protection [1-20, default: 6]
+	#Range: 1 ~ 20
+	gobberBootsProtection = 6
 
 #Nether Gobber Tool Material Values
 [nether_gobber_tool_material]
@@ -156,7 +168,7 @@
 	#Nether Gobber tool mining speed [1-25, default: 12.0]
 	#Range: 1.0 ~ 25.0
 	netherGobberToolsSpeed = 12.0
-	#Nether Gobber tool attack damage [1-100, default: 1.0]
+	#Nether Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
 	netherGobberToolsDamage = 1.0
 	#Nether Gobber tool enchantability [0-50, default: 25]
@@ -177,6 +189,18 @@
 	#Nether Gobber armor knockback [0-5, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	netherGobberArmorKnockback = 0.1
+	#Nether armor head protection [1-20, default: 7]
+	#Range: 1 ~ 20
+	netherHeadProtection = 7
+	#Nether armor chest protection [1-20, default: 12]
+	#Range: 1 ~ 20
+	netherChestProtection = 12
+	#Nether armor leggings protection [1-20, default: 10]
+	#Range: 1 ~ 20
+	netherLeggingsProtection = 10
+	#Nether armor boots protection [1-20, default: 7]
+	#Range: 1 ~ 20
+	netherBootsProtection = 7
 
 #End Gobber Tool Material Values
 [end_gobber_tool_material]
@@ -186,7 +210,7 @@
 	#End Gobber tool mining speed [1-25, default: 14.0]
 	#Range: 1.0 ~ 25.0
 	endGobberToolsSpeed = 14.0
-	#End Gobber tool attack damage [1-100, default: 1.0]
+	#End Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
 	endGobberToolsDamage = 1.0
 	#End Gobber tool enchantability [0-50, default: 30]
@@ -211,6 +235,18 @@
 	endGobberArmorKnockback = 0.2
 	#Should Armor be unbreakable when crafted? [true / false]
 	endGobberArmorUnbreakable = true
+	#End armor head protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	endHeadProtection = 8
+	#End armor chest protection [1-20, default: 13]
+	#Range: 1 ~ 20
+	endChestProtection = 13
+	#End armor leggings protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	endLeggingsProtection = 11
+	#End armor boots protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	endBootsProtection = 8
 
 #Dragon Armor Material Values
 [dragon_armor_material]
@@ -228,6 +264,18 @@
 	dragonArmorKnockback = 0.3
 	#Should Armor be unbreakable when crafted? [true / false]
 	dragonArmorUnbreakable = true
+	#Dragon armor head protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	dragonHeadProtection = 8
+	#Dragon armor chest protection [1-20, default: 13]
+	#Range: 1 ~ 20
+	dragonChestProtection = 13
+	#Dragon armor leggings protection [1-20, default: 11]
+	#Range: 1 ~ 20
+	dragonLeggingsProtection = 11
+	#Dragon armor boots protection [1-20, default: 8]
+	#Range: 1 ~ 20
+	dragonBootsProtection = 8
 
 #Armor Health Perks Settings
 [armor_health_perk_settings]
@@ -243,6 +291,8 @@
 	gobberEndArmorHealthPerks = true
 	#Enable/disable Gobber Dragon Armor health perks
 	gobberDragonArmorHealthPerks = true
+	#Enable/disable Gobber Armor water breathing
+	gobberArmorWaterBreathing = true
 
 #Gobber Food Values
 [gobber_foods]

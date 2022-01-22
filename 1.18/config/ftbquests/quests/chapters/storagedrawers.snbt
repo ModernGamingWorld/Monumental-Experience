@@ -1,0 +1,252 @@
+{
+	id: "0000000000000CDF"
+	group: "7E54189F6BA49858"
+	order_index: 5
+	filename: "storagedrawers"
+	title: "&6Functional Storage"
+	icon: "functionalstorage:oak_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0000000000000171"
+			tasks: [{
+				id: "0000000000000172"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A7"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000175"
+			tasks: [{
+				id: "0000000000000176"
+				type: "item"
+				item: "functionalstorage:oak_1"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000175"]
+			id: "000000000000017F"
+			tasks: [{
+				id: "0000000000000180"
+				type: "item"
+				item: "functionalstorage:copper_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["000000000000017F"]
+			id: "0000000000000181"
+			tasks: [{
+				id: "0000000000000182"
+				type: "item"
+				item: "functionalstorage:gold_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000181"]
+			id: "0000000000000183"
+			tasks: [{
+				id: "0000000000000184"
+				type: "item"
+				item: "functionalstorage:diamond_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011BC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011BD"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["0000000000000183"]
+			id: "0000000000000185"
+			tasks: [{
+				id: "0000000000000186"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011C0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011C1"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["0000000000000175"]
+			id: "000000000000018B"
+			tasks: [{
+				id: "000000000000018C"
+				type: "item"
+				item: "functionalstorage:void_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011B2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011B3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "000000000000018F"
+			tasks: [{
+				id: "0000000000000190"
+				type: "item"
+				item: "functionalstorage:oak_2"
+			}]
+			rewards: [
+				{
+					id: "00000000000011AE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011AF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000191"
+			tasks: [{
+				id: "0000000000000192"
+				type: "item"
+				item: "functionalstorage:oak_4"
+			}]
+			rewards: [
+				{
+					id: "00000000000011AA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011AB"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["0000000000000171"]
+			id: "0000000000000195"
+			tasks: [{
+				id: "0000000000000196"
+				type: "item"
+				item: "functionalstorage:compacting_drawer"
+			}]
+			rewards: [
+				{
+					id: "00000000000011A2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00000000000011A3"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

@@ -2,7 +2,7 @@
 [client]
 	#TODO
 	disableColoredCableRecipesInJEI = true
-	showFacadesInJEI = true
+	showFacadesInJEI = false
 	#TODO
 	enableEffects = true
 	#TODO
@@ -14,6 +14,8 @@
 	PowerUnit = "AE"
 	#Show debugging GUI overlays
 	showDebugGuiOverlays = false
+	#Show a preview of part and facade placement
+	showPlacementPreview = true
 
 	[client.terminals]
 		#Should tooltips be searched. Performance impact
@@ -21,6 +23,6 @@
 		searchTooltips = "YES"
 		#Allowed Values: TALL, FULL, SMALL
 		terminalStyle = "TALL"
-		#Allowed Values: AUTOSEARCH, AUTOSEARCH_KEEP, MANUAL_SEARCH, MANUAL_SEARCH_KEEP, JEI_AUTOSEARCH, JEI_AUTOSEARCH_KEEP, JEI_MANUAL_SEARCH, JEI_MANUAL_SEARCH_KEEP
-		terminalSearchMode = "AUTOSEARCH"
+		#Allowed Values: DEFAULT, REMEMBER_SEARCH, AUTO_FOCUS, AUTO_FOCUS_AND_REMEMBER_SEARCH, JEI, REI
+		terminalSearchMode = "DEFAULT"
 

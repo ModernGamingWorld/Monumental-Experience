@@ -1,9 +1,0 @@
-{
-    gui: {
-        /* 
-         * Valid range: [50,)
-         * Default: 200
-         */
-        UpdateIntervalMS: 200.0
-    }
-}

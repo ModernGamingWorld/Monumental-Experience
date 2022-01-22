@@ -1,0 +1,76 @@
+{
+	id: "50B320AF33BC346F"
+	group: "4814F40AB34427B6"
+	order_index: 7
+	filename: "occultism"
+	title: "&9Occultism"
+	icon: "occultism:dictionary_of_spirits"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: -2.5d
+			shape: "heart"
+			size: 1.5d
+			id: "444BD809DE0649EF"
+			tasks: [{
+				id: "77DC0D91908387EC"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+			rewards: [{
+				id: "2D407E2EED2C0099"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["444BD809DE0649EF"]
+			id: "5A24F6BDCE5C7812"
+			tasks: [{
+				id: "221AF8DF66E559F3"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "4CAD2E8EE8EB037B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1FC01E17494B6CA2"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["5A24F6BDCE5C7812"]
+			id: "21E0599FB8426B11"
+			tasks: [{
+				id: "0F58A0C79561C1C5"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [
+				{
+					id: "2D5FC765C937FB0E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6418CD88AF136785"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+	]
+}

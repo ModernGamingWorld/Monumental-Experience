@@ -1,0 +1,3923 @@
+
+["mna:shapes/touch"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/touch".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/touch".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+["mna:shapes/bolt"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/bolt".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 16.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 16.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+["mna:shapes/self"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mna:shapes/projectile"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/projectile".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/projectile".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.20000000298023224
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+["mna:shapes/wall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/wall".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:shapes/wall".WIDTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/wall".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:shapes/wall".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+["mna:shapes/wave"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/wave".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:shapes/wave".WIDTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/wave".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:shapes/wave".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.10000000149011612
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.30000001192092896
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+["mna:shapes/emanation"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/emanation".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/emanation".WIDTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/emanation".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+["mna:shapes/beam"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/beam".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/beam".WIDTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/beam".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/beam".DEPTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/beam".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+["mna:shapes/rune"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/rune".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:shapes/rune".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:shapes/rune".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+["mna:shapes/smite"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/smite".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/smite".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:shapes/smite".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+["mna:shapes/bound_sword"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/bound_sword".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 11.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 6.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/bound_sword".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 8.0
+
+["mna:shapes/bound_axe"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/bound_axe".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 13.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 9.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/bound_axe".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 8.0
+
+["mna:shapes/bound_bow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mna:shapes/bound_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+["mna:shapes/summon"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/summon".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 240.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:shapes/summon".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:shapes/summon".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+["mna:shapes/wrath"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/wrath".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/wrath".WIDTH]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:shapes/wrath".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/wrath".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/wrath".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+["mna:shapes/chain"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:shapes/chain".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/chain".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 100.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/chain".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+["mna:components/fire_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/fire_damage".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:components/fire_damage".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/fire_damage".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/frost_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/frost_damage".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:components/frost_damage".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/frost_damage".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/lightning_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/lightning_damage".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:components/lightning_damage".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/lightning_damage".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:components/lightning_damage".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/break"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/break".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+
+	["mna:components/break".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/fling"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/fling".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/fling".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/leap"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/leap".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/leap".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/leap".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/shield".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/shield".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 30.0
+
+	["mna:components/shield".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/slowfall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/slowfall".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/slowfall".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/slowfall".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/heal"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/heal".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 7.5
+
+	["mna:components/heal".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/rift"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/rift".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/transplace"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/transplace".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/blink"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/blink".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/blink".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/gust"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/gust".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/gust".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/invisibility"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/invisibility".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/invisibility".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/light"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/light".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/light".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/haste"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/haste".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/haste".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/haste".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/slow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/slow".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/slow".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:components/slow".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/strength"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/strength".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/strength".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/weakness"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/weakness".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 4.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 4.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/weakness".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/night_vision"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/night_vision".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 300.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/night_vision".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/blind"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/blind".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/blind".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/swift_swim"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/swift_swim".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/swift_swim".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/swift_swim".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/watery_grave"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/watery_grave".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/watery_grave".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/entangle"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/entangle".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/entangle".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/gravity_well"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/gravity_well".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/gravity_well".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/chrono_anchor"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/chrono_anchor".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 480.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 60.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 15.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/chrono_anchor".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/silence"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/silence".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/silence".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/transitory_tile"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/transitory_tile".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.5
+
+	["mna:components/transitory_tile".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/activate"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/activate".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/poison"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/poison".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/poison".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:components/poison".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/drown"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/drown".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+
+	["mna:components/drown".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/drown".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 2.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/drown".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/cauterize"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/cauterize".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 40.0
+
+	["mna:components/cauterize".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/magic_damage"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/magic_damage".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:components/magic_damage".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/explosion"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/explosion".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/explosion".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/explosion".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/life_tap"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/life_tap".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 45.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/life_tap".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/life_tap".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/fire_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/fire_shield".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/fire_shield".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/fire_shield".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/mana_shield"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/mana_shield".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/mana_shield".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/mana_shield".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/briarthorn_barrier"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/briarthorn_barrier".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/briarthorn_barrier".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/briarthorn_barrier".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/absorption"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/absorption".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/absorption".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/absorption".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/mana_transfer"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/mana_transfer".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 20.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 100.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 20.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/mana_transfer".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/decoy"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/decoy".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/decoy".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/decoy".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.5
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1.5
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:components/decoy".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/grow"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/grow".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/crystallize"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/crystallize".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/crystallize".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/collapse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/collapse".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/earthsky"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/earthsky".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:components/earthsky".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:components/earthsky".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/true_invisibility"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/true_invisibility".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+
+	["mna:components/true_invisibility".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/nethergate"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/nethergate".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/nethergate".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/animus"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/animus".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/animus".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/confuse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/confuse".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/confuse".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/mind_control"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/mind_control".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:components/mind_control".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/spectral_crafting_table"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/spectral_crafting_table".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/divination"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/divination".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 300.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/divination".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+
+	["mna:components/divination".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/mist_form"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/mist_form".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/mist_form".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/recall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/recall".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 50.0
+
+	["mna:components/recall".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/eldrin_flight"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/eldrin_flight".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/mind_vision"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/mind_vision".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 120.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 15.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.5
+
+	["mna:components/mind_vision".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/summon_skeletal_horse"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/summon_skeletal_horse".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1200.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 120.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.75
+
+	["mna:components/summon_skeletal_horse".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/posession"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/posession".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 120.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/posession".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/posession".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/living_bomb"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/living_bomb".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.25
+
+	["mna:components/living_bomb".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.25
+
+	["mna:components/living_bomb".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/wither"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/wither".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.75
+
+	["mna:components/wither".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 2.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.75
+
+	["mna:components/wither".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/felled_oak"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/felled_oak".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/wind_wall"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/wind_wall".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/wind_wall".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 2.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:components/wind_wall".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/levitation"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/levitation".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/levitation".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/fortification"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/fortification".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 600.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+
+	["mna:components/fortification".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/exchange"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/exchange".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/exchange".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/shear"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/shear".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/bind_wounds"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/bind_wounds".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 180.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 12.0
+
+	["mna:components/bind_wounds".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 30.0
+
+	["mna:components/bind_wounds".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/fill_hole"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/fill_hole".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:components/fill_hole".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
+	["mna:components/fill_hole".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/spectral_anvil"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/spectral_anvil".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/spectral_stonecutter"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
+	biomeBlacklists = ""
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
+	dimensionBlacklists = ""
+
+	["mna:components/spectral_stonecutter".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+

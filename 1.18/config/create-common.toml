@@ -8,6 +8,24 @@
 		#Prevents all worldgen added by Create from taking effect
 		disableWorldGen = true
 
+		[worldgen.v2.zinc_ore]
+			# 
+			#Range: > 0
+			clusterSize = 14
+			# 
+			#Amount of clusters generated per Chunk.
+			#  >1 to spawn multiple.
+			#  <1 to make it a chance.
+			#  0 to disable.
+			#Range: 0.0 ~ 512.0
+			frequency = 0.0
+			# 
+			#Range: > -64
+			minHeight = 15
+			# 
+			#Range: > -64
+			maxHeight = 70
+
 		[worldgen.v2.striated_ores_nether]
 			# 
 			#Range: > 0
@@ -40,24 +58,6 @@
 			# 
 			#Range: > -64
 			minHeight = -30
-			# 
-			#Range: > -64
-			maxHeight = 70
-
-		[worldgen.v2.zinc_ore]
-			# 
-			#Range: > 0
-			clusterSize = 12
-			# 
-			#Amount of clusters generated per Chunk.
-			#  >1 to spawn multiple.
-			#  <1 to make it a chance.
-			#  0 to disable.
-			#Range: 0.0 ~ 512.0
-			frequency = 8.0
-			# 
-			#Range: > -64
-			minHeight = -63
 			# 
 			#Range: > -64
 			maxHeight = 70

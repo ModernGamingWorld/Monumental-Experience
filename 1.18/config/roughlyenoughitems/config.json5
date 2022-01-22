@@ -60,6 +60,8 @@
 				"{id:\"roughlyenoughitems:manual\",rule:{}}"
 			],
 			"filteredStacks": [
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_poison\"},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_leaping\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_swiftness\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:turtle_master\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:clinging\"},type:\"minecraft:item\"}",
@@ -81,6 +83,7 @@
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:knockback_resistance\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:thick\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_healing\"},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:strong_resilience\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_water_breathing\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:leaping\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:empty\"},type:\"minecraft:item\"}",
@@ -97,7 +100,9 @@
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:hunger\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_bug_pheromones\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:poison\"},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:long_resilience\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:luck\"},type:\"minecraft:item\"}",
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:resilience\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:haste\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:blind\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_regeneration\"},type:\"minecraft:item\"}",
@@ -124,9 +129,7 @@
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_weakness\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_slowness\"},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:mundane\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:regeneration\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_poison\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_leaping\"},type:\"minecraft:item\"}"
+				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:regeneration\"},type:\"minecraft:item\"}"
 			]
 		},
 		"enableJeiCompatibilityLayer": true,
@@ -214,6 +217,8 @@
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
+		// Declares whether mob effects should be on the left side instead of the right side.
+		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true

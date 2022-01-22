@@ -125,6 +125,14 @@
 		#Mute speaker block incoming narrator messages and displays them in chat instead
 		mute_narrator = false
 
+	[blocks.bubble_block]
+		#Wobbling intensity. set to 0 to disable
+		#Range: 0.0 ~ 1.0
+		wobble = 0.2
+		#How fast it grows when created. 1 to be instant
+		#Range: 0.0 ~ 1.0
+		grow_speed = 0.4
+
 #Particle parameters
 [particles]
 

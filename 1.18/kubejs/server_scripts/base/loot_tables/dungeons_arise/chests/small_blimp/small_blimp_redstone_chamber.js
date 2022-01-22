@@ -1,0 +1,195 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        "type": "minecraft:chest",
+        "pools": [{
+                "rolls": {
+                    "min": 2,
+                    "max": 3
+                },
+                "entries": [{
+                        "type": "minecraft:item",
+                        "weight": 50,
+                        "name": "mysticalagriculture:redstone_essence",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 50,
+                        "name": "minecraft:redstone_lamp",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 30,
+                        "name": "minecraft:repeater",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 12
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 30,
+                        "name": "minecraft:comparator",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 12
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 20,
+                        "name": "minecraft:redstone_torch",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 4
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:observer",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                "rolls": {
+                    "min": 1,
+                    "max": 2
+                },
+                "entries": [{
+                        "type": "minecraft:item",
+                        "weight": 50,
+                        "name": "mysticalagriculture:stone_essence",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 30,
+                        "name": "mysticalagriculture:nether_quartz_essence",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 12
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 30,
+                        "name": "mysticalagriculture:coal_essence",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 6
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 20,
+                        "name": "minecraft:charcoal",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 12
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 5,
+                        "name": "minecraft:tnt",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 20,
+                                "max": 32
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                "rolls": {
+                    "min": 0,
+                    "max": 2
+                },
+                "entries": [{
+                        "type": "minecraft:item",
+                        "weight": 30,
+                        "name": "minecraft:piston",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 20,
+                        "name": "minecraft:sticky_piston",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 1,
+                        "name": "minecraft:slime_block",
+                        "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`dungeons_arise:loot_tables/chests/small_blimp/small_blimp_redstone_chamber.json`, loot_table);;
+});

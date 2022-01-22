@@ -5,48 +5,48 @@
 # 0 is no Mineshafts while 1000 is max spawnrate.
 [Spawnrate]
 	#Range: 0.0 ~ 1000.0
-	birchMineshaftSpawnrate = 10.0
+	birchMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	jungleMineshaftSpawnrate = 10.0
+	jungleMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	desertMineshaftSpawnrate = 10.0
+	desertMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	stoneMineshaftSpawnrate = 20.0
+	stoneMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	savannaMineshaftSpawnrate = 20.0
+	savannaMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	icyMineshaftSpawnrate = 20.0
+	icyMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	taigaMineshaftSpawnrate = 10.0
+	oceanMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	darkForestMineshaftSpawnrate = 10.0
+	taigaMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	swampMineshaftSpawnrate = 10.0
+	darkForestMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	oceanMineshaftSpawnrate = 15.0
+	swampMineshaftSpawnrate = 40.0
+	#Range: 0.0 ~ 1000.0
+	endMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	netherMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	crimsonMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	warpedMineshaftSpawnrate = 40.0
-	#Range: 0.0 ~ 1000.0
-	endMineshaftSpawnrate = 60.0
 
 #-----------------------------------------------------------------------------------------
 # Minimum Y height that this mineshaft can spawn at.
 # Note: The mineshaft will spawn between min and max y height set in config.
 ["Min height"]
-	birchMineshaftMinHeight = 40
-	jungleMineshaftMinHeight = 40
-	desertMineshaftMinHeight = 40
-	stoneMineshaftMinHeight = 40
-	savannaMineshaftMinHeight = 40
-	icyMineshaftMinHeight = 40
-	taigaMineshaftMinHeight = 40
-	darkForestMineshaftMinHeight = 40
-	swampMineshaftMinHeight = 40
-	oceanMineshaftMinHeight = 15
+	birchMineshaftMinHeight = 8
+	jungleMineshaftMinHeight = 8
+	desertMineshaftMinHeight = 8
+	stoneMineshaftMinHeight = 8
+	savannaMineshaftMinHeight = 8
+	icyMineshaftMinHeight = 8
+	oceanMineshaftMinHeight = 8
+	taigaMineshaftMinHeight = 8
+	darkForestMineshaftMinHeight = 8
+	swampMineshaftMinHeight = 8
 	netherMineshaftMinHeight = 6
 	crimsonMineshaftMinHeight = 6
 	warpedMineshaftMinHeight = 6
@@ -56,16 +56,16 @@
 # Note: The mineshaft will spawn between min and max y height set in config.
 # Setting this to below min height config will make mineshaft spawn only at min height.
 ["Max height"]
-	birchMineshaftMaxHeight = 55
-	jungleMineshaftMaxHeight = 55
-	desertMineshaftMaxHeight = 55
-	stoneMineshaftMaxHeight = 150
-	savannaMineshaftMaxHeight = 120
-	icyMineshaftMaxHeight = 150
-	taigaMineshaftMaxHeight = 55
-	darkForestMineshaftMaxHeight = 55
-	swampMineshaftMaxHeight = 55
-	oceanMineshaftMaxHeight = 30
+	birchMineshaftMaxHeight = 45
+	jungleMineshaftMaxHeight = 45
+	desertMineshaftMaxHeight = 45
+	stoneMineshaftMaxHeight = 45
+	savannaMineshaftMaxHeight = 45
+	icyMineshaftMaxHeight = 45
+	oceanMineshaftMaxHeight = 26
+	taigaMineshaftMaxHeight = 45
+	darkForestMineshaftMaxHeight = 45
+	swampMineshaftMaxHeight = 45
 	netherMineshaftMaxHeight = 17
 	crimsonMineshaftMaxHeight = 14
 	warpedMineshaftMaxHeight = 14

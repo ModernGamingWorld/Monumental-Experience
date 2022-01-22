@@ -123,7 +123,7 @@
 
 		[cyclic.items.prospector]
 			#Ore Prospector radius around player to search for ores
-			#Range: 1 ~ 99
+			#Range: 1 ~ 256
 			range = 32
 
 		[cyclic.items.charm_torch]
@@ -195,6 +195,11 @@
 			#Maximum number of hearts that can be attained (including initial 10)
 			#Range: 1 ~ 200
 			maximum = 100
+
+		[cyclic.items.spawner_seeker]
+			#Range in all directions to search for spawner
+			#Range: 1 ~ 256
+			range = 64
 
 	#####################################################################################
 	# Block specific configs
@@ -331,7 +336,6 @@
 			#Range: 0 ~ 16000
 			fluid_cost = 25
 
-		#Settings
 		[cyclic.blocks.sound]
 			#Sound Recorder - how far out does it listen to record sounds
 			#Range: 1 ~ 64
@@ -345,7 +349,6 @@
 			#Range: 1 ~ 256
 			controller_distance = 64
 
-		#Sprinkler settings
 		[cyclic.blocks.sprinkler]
 			#Water consumption
 			#Range: 0 ~ 1000
@@ -388,4 +391,22 @@
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60
+
+		[cyclic.blocks.cables]
+
+			[cyclic.blocks.cables.fluid]
+				#How many buckets of buffer fluid the fluid cable can hold (for each direction. for example 2 here means 2000ub in each face)
+				#Range: 1 ~ 32
+				buffer = 16
+				#How many fluid units per tick can flow through these cables each tick (1 bucket = 1000) including normal flow and extraction mode
+				#Range: 100 ~ 32000
+				flow = 1000
+
+			[cyclic.blocks.cables.energy]
+				#How much buffer the energy cables hold (must not be smaller than flow)
+				#Range: 1 ~ 128000
+				buffer = 32000
+				#How fast energy flows in these cables (must not be greater than buffer)
+				#Range: 100 ~ 32000
+				flow = 1000
 

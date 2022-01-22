@@ -137,8 +137,6 @@
 [misc]
 
 	[misc.misc]
-		# Given or not given the Rainbow Coal to our champion
-		coal = false
 		# Enable or disable the Rainbow Content
 		rainbow = true
 		# Show furnace settings errors in chat, used for debugging

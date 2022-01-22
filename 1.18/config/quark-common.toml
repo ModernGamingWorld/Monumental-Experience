@@ -42,7 +42,7 @@
 [automation]
 	"Redstone Randomizer" = true
 	"Pistons Move Tile Entities" = false
-	"Obsidian Plate" = true
+	"Obsidian Plate" = false
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
 	"Iron Rod" = false

@@ -1,0 +1,204 @@
+{
+	id: "0000000000000096"
+	group: "68BD27E8D0136E3E"
+	order_index: 5
+	filename: "building"
+	title: "&6Building"
+	icon: "mcwwindows:oak_window"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Building"
+			x: 0.0d
+			y: -1.0d
+			description: ["This chapter highlights some of the building materials you have available."]
+			id: "2E7CA1C73F2EFD3D"
+			tasks: [{
+				id: "67678747C76312EE"
+				type: "checkmark"
+				title: "Building"
+				icon: "minecraft:glass"
+			}]
+			rewards: [{
+				id: "20C4388ABCA3FBD7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Macaw's Bridges"
+			x: 0.0d
+			y: -2.0d
+			id: "53CE0B67831A19B1"
+			tasks: [{
+				id: "20F9798D2D2CCEC6"
+				type: "item"
+				item: "mcwbridges:rope_oak_bridge"
+			}]
+			rewards: [{
+				id: "1B7F67C647CBFCD8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Macaw's Doors"
+			x: -1.0d
+			y: -2.5d
+			description: ["{image:mcwdoors:textures/block/acacia_four_panel_door_upper.png width:100 height:100 align:1}"]
+			id: "1D75B28AD255404C"
+			tasks: [{
+				id: "4B53F75418A2B98A"
+				type: "item"
+				item: "mcwdoors:oak_japanese_door"
+			}]
+			rewards: [{
+				id: "463BF9481F62917C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Macaw's Roofs"
+			x: 1.0d
+			y: -2.5d
+			id: "02585D314E2367FC"
+			tasks: [{
+				id: "21518388CEFD530F"
+				type: "item"
+				item: "mcwroofs:oak_attic_roof"
+			}]
+			rewards: [{
+				id: "5AD71F7C269FEE93"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Macaw's Windows"
+			x: 1.0d
+			y: -3.5d
+			id: "2D6380088EF8FC61"
+			tasks: [{
+				id: "71125E6C564DE052"
+				type: "item"
+				item: "mcwwindows:oak_window"
+			}]
+			rewards: [{
+				id: "0780EF8149731EEE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Macaw's Trapdoors"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Macaw's Trapdoor"
+			description: ["{image:mcwtrpdoors:textures/block/barn/dark_oak_barn_trapdoor.png width:100 height:100 align:1}"]
+			id: "2FDA756D7429EED9"
+			tasks: [{
+				id: "0FCBD570D5ADB158"
+				type: "item"
+				item: "mcwtrpdoors:oak_glass_trapdoor"
+			}]
+			rewards: [{
+				id: "4A6763A1C01845D7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["Macaw's Lamps and Post"]
+			id: "1E514FA338781D0D"
+			tasks: [{
+				id: "7375C1663EBF4489"
+				type: "item"
+				item: "mcwlights:classic_street_lamp"
+			}]
+			rewards: [
+				{
+					id: "3A9C9F19E16AE870"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3F8499FEAA011BD0"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Prefab"
+			description: ["{image:prefab:textures/items/item_instant_bridge.png width:100 height:100 align:1}"]
+			id: "22EE34BF4D343A94"
+			tasks: [{
+				id: "21865FBE417FD8FA"
+				type: "item"
+				item: "prefab:item_start_house"
+			}]
+			rewards: [
+				{
+					id: "6FD1F4579C820536"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "73A78E6CECD71199"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			title: "Chipped"
+			x: 1.0d
+			y: -4.5d
+			id: "7CEBA8B1DC165833"
+			tasks: [
+				{
+					id: "2E3E54FAC6980D77"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "5BF23901C05F2FD7"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+				{
+					id: "341C43D49110CC9D"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "372A947C732642ED"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "4CAB4DB3CA291CE8"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "7A73E5CB54CD96B9"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+			]
+			rewards: [{
+				id: "787708993C316316"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

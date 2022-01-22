@@ -8,4 +8,6 @@
 # 
 #RYB is easier to use but RGB is more precise
 use_color_blend_mode = true
+#In addition to Sneak+Scroll, Tool Modes can be changed with Sneak+PageUp/Down
+keys_change_tool_mode = true
 
