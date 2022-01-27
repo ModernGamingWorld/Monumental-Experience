@@ -1,6 +1,6 @@
-events.listen('jei.hide.items', (event) => {
+onEvent('jei.hide.items', (event) => {
 
-mobsToUnify.forEach((mobs) => {
+    mobsToUnify.forEach((mobs) => {
         itemsToHide.push(
             'aquaculture:' + mobs + '_spawn_egg',
             'magma_monsters:' + mobs + '_spawn_egg',
@@ -32,17 +32,16 @@ mobsToUnify.forEach((mobs) => {
             'twilightforest:boss_spawner_' + mobs,
             'inventorypets:' + mobs + '_spawn',
             'marquot:' + mobs + '_spawn_egg',
-    	);
-});
+            'guardvillagers:' + mobs + '_spawn_egg',
+            'enchantwithmob:' + mobs + '_spawn_egg',
+            'minecolonies:' + mobs
+        );
+    });
 
 
-itemsToHide.forEach((disabledItem) => {
-    if (!Item.of(disabledItem).isEmpty()) {
+    itemsToHide.forEach((disabledItem) => {
+        if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
-    }
-});
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
+        }
     });
 });

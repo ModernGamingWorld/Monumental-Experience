@@ -38,61 +38,85 @@ const colors = [
 ];
 
 const itemsToHide = [
-    'cyclic:hopper',
+
+    //Aiotbotania
     'aiotbotania:livingwood_shears',
     'aiotbotania:livingrock_shears',
+
+    //Ae2
+    /appliedenergistics2:\w+facade/,
+    'appliedenergistics2:ender_dust',
+
+    //BetterEnd Forge
+    'betterendforge:ender_dust',
+
+    //BloodMagic
     'bloodmagic:coalsand',
     'bloodmagic:saltpeter',
     'bloodmagic:sulfur',
     'bloodmagic:ironsand',
     'bloodmagic:goldsand',
+
+    //BYG
     'byg:budding_ametrine_ore',
     'byg:anthracite_ore',
     'byg:lignite_ore',
+    'byg:cryptic_redstone_ore',
+    'byg:blue_nether_gold_ore',
     'byg:blue_nether_quartz_ore',
+    'byg:brimstone_nether_gold_ore',
     'byg:brimstone_nether_quartz_ore',
+
+    //Cyclic
+    'cyclic:hopper',
+
+    //Create
     'create:powdered_obsidian',
+
+    //Compact Storage
+    'compactstorage:backpack_white',
+    'compactstorage:backpack_orange',
+    'compactstorage:backpack_magenta',
+    'compactstorage:backpack_light_blue',
+    'compactstorage:backpack_yellow',
+    'compactstorage:backpack_lime',
+    'compactstorage:backpack_pink',
+    'compactstorage:backpack_gray',
+    'compactstorage:backpack_light_gray',
+    'compactstorage:backpack_cyan',
+    'compactstorage:backpack_purple',
+    'compactstorage:backpack_blue',
+    'compactstorage:backpack_brown',
+    'compactstorage:backpack_green',
+    'compactstorage:backpack_red',
+    'compactstorage:backpack_black',
+
+    //Draconic Evolution
+    'draconicevolution:stabilized_spawner',
+
+    //Eidolon
     'eidolon:tallow',
+    /eidolon:\w+_ore/,
+
+    //Environmental
     'environmental:cherry_pie',
     'environmental:apple_pie',
-    'farmersdelight:fried_egg',
-    'immersiveengineering:dust_saltpeter',
-    'immersiveengineering:dust_wood',
-    'immersiveengineering:coal_coke',
-    'mctb:cherry_crafting_table',
-    'mctb:dead_crafting_table',
-    'mctb:fir_crafting_table',
-    'mctb:hellbark_crafting_table',
-    'mctb:jacaranda_crafting_table',
-    'mctb:mahogany_crafting_table',
-    'mctb:palm_crafting_table',
-    'mctb:redwood_crafting_table',
-    'mctb:umbran_crafting_table',
-    'mctb:willow_crafting_table',
-    'mctb:magic_crafting_table',
-    'quark:biotite',
-    'quark:biotite_ore',
-    'quark:tallow',
-    'simplefarming:apple_pie',
-    'simplefarming:blueberry_pie',
-    'supplementaries:pedestal',
-    'supplementaries:crank',
-    'supplementaries:turn_table',
-    'supplementaries:stone_lamp',
-    'supplementaries:sack',
-    'supplementaries:blackboard',
-    'thermal:ender_pearl_dust',
-    'thermal:press_gear_die',
-    'thermal:press_packing_3x3_die',
-    'thermal:press_packing_2x2_die',
-    'thermal:press_unpacking_die',
-    'thermal:rubber',
-    'quark:bonded_ravager_hide',
-    'quark:ravager_hide',
-    'quark:backpack',
-    'quark:crate',
-    'quark:magnet',
-    'quark:soul_compass',
+
+    //Emendatus Engigmatica
+    /emendatusenigmatica:\w+_crystal/,
+    /emendatusenigmatica:\w+_gravel/,
+    /emendatusenigmatica:\w+_fragment/,
+    /emendatusenigmatica:\w+_crushed/,
+    /emendatusenigmatica:\w+_shard/,
+    /emendatusenigmatica:\w+_dirty_dust/,
+    /emendatusenigmatica:\w+_clump/,
+    /iridium/,
+    /cast_iron/,
+    /peridot/,
+    /emendatusenigmatica.*sapphire/,
+    /emendatusenigmatica.*ruby/,
+    /emendatusenigmatica:\w+certus/,
+    /emendatusenigmatica:\w+fluix/,
     /emendatusenigmatica:\w+_andesite_ore/,
     /emendatusenigmatica:\w+_gabbro_ore/,
     /emendatusenigmatica:\w+_c_limestone_ore/,
@@ -120,22 +144,64 @@ const itemsToHide = [
     /emendatusenigmatica:\w+_brimstone_ore/,
     /emendatusenigmatica:\w+_soul_soil_ore/,
     /emendatusenigmatica:\w+_basalt_ore/,
-    /'appliedenergistics2:\w+facade/,
-    /titanium:\w+_gear/,
-    /tconstruct:\w+_grass/,
-    /eidolon:\w+_ore/,
-    /byg:pendorite/,
-    /byg:ametrine/,
-    /emendatusenigmatica:\w+certus/,
-    /emendatusenigmatica:\w+fluix/,
-    /rftoolsbase:dimensionalshard_/,
-    /theoneprobe:/,
-    /upgrade_aquatic:\w+_jelly_torch/,
-    'sushigocrafting:avocado_leaves_logged',
-    'undergarden:hanging_grongle_leaves_top',
+    /emendatusenigmatica:\w+_bucket/,
+
+    //forbidden_arcanus
+    /forbidden_arcanus:\w+_bucket/,
+
+    //FTB
+    /ftblibrary:\w+_container/,
+
+    //Farmer's Delight
+    'farmersdelight:fried_egg',
+
+    //Immersive Engineering
+    /immersiveengineering:potion_/,
+    'immersiveengineering:dust_saltpeter',
+    'immersiveengineering:dust_wood',
+    'immersiveengineering:coal_coke',
+    /immersiveengineering:potion_/,
+
+    //Lootr
+    'lootr:lootr_chest',
+    'lootr:lootr_trapped_chest',
+    'lootr:lootr_barrel',
+    'lootr:lootr_inventory',
+
+    //mctb
+    'mctb:cherry_crafting_table',
+    'mctb:dead_crafting_table',
+    'mctb:fir_crafting_table',
+    'mctb:hellbark_crafting_table',
+    'mctb:jacaranda_crafting_table',
+    'mctb:mahogany_crafting_table',
+    'mctb:palm_crafting_table',
+    'mctb:redwood_crafting_table',
+    'mctb:umbran_crafting_table',
+    'mctb:willow_crafting_table',
+    'mctb:magic_crafting_table',
+
+    //Materialis
+    /materialis:\w+_bucket/,
+
+    //Marquot
+    /marquot:\w+_bucket/,
+
+    //Mekanism
+    /mekanism:\w+_bucket/,
+    'mekanism:sawdust',
+
+    //Minecraft
     'minecraft:spawner',
-    'valhelsia_structures:special_spawner',
-    'draconicevolution:stabilized_spawner',
+    'minecraft:command_block',
+    'minecraft:repeating_command_block',
+    'minecraft:chain_command_block',
+    'minecraft:command_block_minecart',
+    'minecraft:barrier',
+    'minecraft:light',
+    'minecraft:chipped_anvil',
+    'minecraft:damaged_anvil',
+    'minecraft:ancient_debris',
     'minecraft:infested_stone',
     'minecraft:infested_cobblestone',
     'minecraft:infested_stone_bricks',
@@ -143,53 +209,99 @@ const itemsToHide = [
     'minecraft:infested_cracked_stone_bricks',
     'minecraft:infested_chiseled_stone_bricks',
     'minecraft:bedrock',
-    'compactstorage:backpack_white',
-    'compactstorage:backpack_orange',
-    'compactstorage:backpack_magenta',
-    'compactstorage:backpack_light_blue',
-    'compactstorage:backpack_yellow',
-    'compactstorage:backpack_lime',
-    'compactstorage:backpack_pink',
-    'compactstorage:backpack_gray',
-    'compactstorage:backpack_light_gray',
-    'compactstorage:backpack_cyan',
-    'compactstorage:backpack_purple',
-    'compactstorage:backpack_blue',
-    'compactstorage:backpack_brown',
-    'compactstorage:backpack_green',
-    'compactstorage:backpack_red',
-    'compactstorage:backpack_black',
-    'woodenutilities:wooden_backpack',
-    'emendatusenigmatica:molten_ruby_bucket',
-    'emendatusenigmatica:ruby_block',
-    'emendatusenigmatica:ruby_gem',
-    'emendatusenigmatica:ruby_dust',
-    'emendatusenigmatica:ruby_chunk',
-    'emendatusenigmatica:ruby_cluster',
-    'emendatusenigmatica:ruby_clump',
-    'emendatusenigmatica:ruby_crystal',
-    'emendatusenigmatica:ruby_dirty_dust',
-    'emendatusenigmatica:ruby_shard',
-    'emendatusenigmatica:ruby_crushed',
-    'emendatusenigmatica:ruby_fragment',
-    'emendatusenigmatica:ruby_gravel',
-    'emendatusenigmatica:ruby_ore',
+
+    //Misc
+    Item.of('potion').ignoreNBT(),
+    Item.of('splash_potion').ignoreNBT(),
+    Item.of('lingering_potion').ignoreNBT(),
+    Item.of('tipped_arrow').ignoreNBT(),
+    Item.of('enchanted_book').ignoreNBT(),
+
+    //Occultism
     'occultism:debug_foliot_lumberjack',
     'occultism:debug_foliot_transport_items',
     'occultism:debug_foliot_cleaner',
     'occultism:debug_foliot_trader',
     'occultism:debug_djinni_manage_machine',
     'occultism:debug_djinni_test',
-    'appliedenergistics2:ender_dust',
-    'betterendforge:ender_dust',
-    Item.of('potion').ignoreNBT(),
-    Item.of('splash_potion').ignoreNBT(),
-    Item.of('lingering_potion').ignoreNBT(),
-    Item.of('tipped_arrow').ignoreNBT(),
-    Item.of('enchanted_book').ignoreNBT()
+    'occultism:iesnium_ore_natural',
+
+    //Quark
+    'quark:bonded_ravager_hide',
+    'quark:ravager_hide',
+    'quark:backpack',
+    'quark:crate',
+    'quark:magnet',
+    'quark:soul_compass',
+    'quark:biotite',
+    'quark:biotite_ore',
+    'quark:tallow',
+
+    //rftoolsbase
+    /rftoolsbase:dimensionalshard_/,
+
+    //SushiGoCrafting
+    'sushigocrafting:avocado_leaves_logged',
+
+    //Supplementaries
+    'supplementaries:pedestal',
+    'supplementaries:crank',
+    'supplementaries:turn_table',
+    'supplementaries:stone_lamp',
+    'supplementaries:sack',
+    'supplementaries:blackboard',
+
+    //Tdelight
+    /tdelight:\w+_bucket/,
+
+    //Tconstruct
+    /tconstruct:\w+_grass/,
+
+    //The One Probe
+    /theoneprobe:/,
+
+    //Thermal
+    'thermal:press_gear_die',
+    'thermal:press_packing_3x3_die',
+    'thermal:press_packing_2x2_die',
+    'thermal:press_unpacking_die',
+    'thermal:ender_pearl_dust',
+    'thermal:rubber',
+
+    //Tconstruct
+    /tconstruct:\w+_grass/,
+
+    //Titanium
+    /titanium:\w+_gear/,
+
+    //Undergarden
+    'undergarden:hanging_grongle_leaves_top',
+    /upgrade_aquatic:\w+_jelly_torch/,
+
+    //Valhelsia_structures
+    'valhelsia_structures:special_spawner',
+
+    //Wooden Utilities
+    'woodenutilities:wooden_backpack',
+
+    //Zycraft
+    /zycraft:quartz_/,
+    /zycraft:\w+_can/,
+    /zycraft:\w+_foil/
+
 ];
 
 const materialsToUnify = [
+    'deepslate_prosperity',
+    'deepslate_inferium',
+    'deepslate_coal',
+    'deepslate_iron',
+    'deepslate_copper',
+    'deepslate_gold',
+    'deepslate_redstone',
+    'deepslate_emerald',
+    'deepslate_lapis',
+    'deepslate_diamond',
     'iron',
     'gold',
     'copper',
@@ -325,6 +437,31 @@ const materialsToUnify = [
 ];
 
 const mobsToUnify = [
+    'familiar_mummy',
+    'barbarianegg',
+    'barbarcheregg',
+    'barbchiefegg',
+    'pirateegg',
+    'piratearcheregg',
+    'piratecaptainegg',
+    'mummyegg',
+    'mummyarcheregg',
+    'pharaoegg',
+    'shieldmaidenegg',
+    'norsemenarcheregg',
+    'norsemenchiefegg',
+    'amazonegg',
+    'amazonchiefegg',
+    'mercegg',
+    'red_merchant',
+    'emu',
+    'axolotl',
+    'goat',
+    'enchanter',
+    'guard',
+    'iron_golem',
+    'snow_golem',
+    'illusioner',
     'gladiator',
     'bloop',
     'breath',
@@ -965,7 +1102,14 @@ const mobsToUnify = [
     'tentacle',
     'turret',
     'tyrant',
-    'whiplash'
+    'whiplash',
+    'froststalker',
+    'tusklin',
+    'laviathan',
+    'cosmaw',
+    'maned_wolf',
+    'anaconda',
+    'anteater'
 ];
 
 const upgradesToUnify = [
@@ -1025,6 +1169,14 @@ const leavesToUnify = [
     'dragon_tree',
     'tenanea',
     'rainboak',
+    'oak',
+    'spruce',
+    'birch',
+    'jungle',
+    'acacia',
+    'dark_oak',
+    'azalea',
+    'flowering_azalea',
     'sorting',
     'mining',
     'transformation',
@@ -1114,6 +1266,9 @@ const leavesToUnify = [
 ];
 
 const bucketsToUnify = [
+    'quicksilver',
+    'powder_snow',
+    'axolotl',
     'water',
     'lava',
     'milk',

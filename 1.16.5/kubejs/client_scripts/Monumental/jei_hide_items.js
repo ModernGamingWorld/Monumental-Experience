@@ -1,31 +1,28 @@
-events.listen('jei.hide.items', (event) => {
+onEvent('jei.hide.items', (event) => {
 
     materialsToUnify.forEach((material) => {
         itemsToHide.push(
             'draconicevolution:' + material + '_ore',
             'byg:' + material + '_ore',
             'mythicbotany:' + material + '_ore',
-            'zycraft:' + material + '_ore',
             'astralsorcery:' + material + '_ore',
             'druidcraft:' + material + '_ore',
-            'bigreactors:' + material + '_ore',
             'forbidden_arcanus:' + material + '_ore',
-            'atum:' + material + '_ore',
             'undergarden:' + material + '_ore',
             'mysticalagradditions:' + material + '_ore',
             'mysticalagriculture:' + material + '_ore',
             'mana-and-artifice:' + material + '_ore',
             'gobber2:' + material + '_ore',
-            'tconstruct:' + material + '_ore',
             'gobber2:' + material + '_ore_nether',
             'gobber2:' + material + '_ore_end',
+            'gobber2:' + material + '_ore_deepslate',
+            'gobber2:' + material + '_lucky_block',
+            'gobber2:' + material + '_lucky_block_deepslate',
+            'gobber2:' + material + '_lucky_block_nehter',
             'quark:' + material + '_ore',
-            'iceandfire:' + material + '_ore',
-            'biggerreactors:' + material + '_ore',
             'blue_skies:' + material + '_ore',
             'phosphophyllite:' + material + '_ore',
             'betterendforge:' + material + '_ore',
-            'appliedenergistics2:' + material + '_ore'
         );
     });
 
@@ -55,12 +52,14 @@ leavesToUnify.forEach((leaves) => {
         'tconstruct:' + leaves + '_leaves',
         'environmental:' + leaves + '_leaves',
         'blue_skies:' + leaves + '_leaves',
-        'mythicbotany:' + leaves + '_leaves'
+        'mythicbotany:' + leaves + '_leaves',
+        'minecraft:' + leaves + '_leaves'
     );
 });
 
 bucketsToUnify.forEach((buckets) => {
     itemsToHide.push(
+        'hexerei:' + buckets + '_bucket',
         'minecraft:' + buckets + '_bucket',
         'alexsmobs:' + buckets + '_bucket',
         'aquaculture:' + buckets + '_bucket',
@@ -101,10 +100,6 @@ itemsToHide.forEach((disabledItem) => {
     if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
     }
-});
-
-    regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
 });
 
     colors.forEach((color) => {
