@@ -599,8 +599,8 @@ helper.ui.dynamicvariabletextfield.variables.playeruuid = Player UUID
 helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = Gets the player UUID.
 helper.ui.dynamicvariabletextfield.variables.mcversion = Minecraft Version
 helper.ui.dynamicvariabletextfield.variables.mcversion.desc = Gets the Minecraft version.
-helper.ui.dynamicvariabletextfield.variables.forgeversion = Forge Version
-helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Gets the Forge version.
+helper.ui.dynamicvariabletextfield.variables.forgeversion = Mod Loader Version
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Gets the mod loader version.
 helper.ui.dynamicvariabletextfield.variables.modversion = Mod Version
 helper.ui.dynamicvariabletextfield.variables.modversion.desc = Gets the version of a mod my its mod ID.%n%%n%Just replace '<modid>' in the placeholder%n%with an existing mod ID.
 helper.ui.dynamicvariabletextfield.variables.totalmods = Total Mods Count
@@ -935,14 +935,39 @@ helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example
 fancymenu.config.forcefullscreen = Force Fullscreen
 fancymenu.config.forcefullscreen.desc = Forces the window to fullscreen on start.%n%Users will still be able to%n%go out of fullscreen later.
 
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action of a vanilla button.
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = menu_identifier:button_id
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
 
+fancymenu.custombutton.action.mimicbutton.unabletoexecute = §c§lError!%n%%n%Unable to execute button action!%n%%n%Invalid button locator or unable to%n%open parent screen of button.%n% %n% %n% %n%
 
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel = Vanilla Button Label
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = Get the label of a vanilla button.%n%%n%§cReplace "<button_locator>" with%n%§cthe correct button locator%n%§cof the target button.%n%%n%The button locator is a combination%n%of the menu identifier of the menu%n%the button is in and the %n%ID of the button, separated%n%by a colon.%n%%n%Example Button Locator:%n%some.menu.identifier:505280
 
+fancymenu.helper.editor.windowsizerestrictions.reset = Reset Window Size Restrictions
+fancymenu.helper.editor.windowsizerestrictions.reset.btn.desc = Reset/remove all window size restrictions.
+fancymenu.helper.editor.windowsizerestrictions.btn.desc = Set the layout to only load%n%at specific window sizes.%n%%n%§cIt's recommended to only use%n%§cwidth OR height, not both at%n%§cthe same time!
 
+fancymenu.config.categories.multiplayer_screen = MULTIPLAYER MENU
+fancymenu.config.categories.singleplayer_screen = SINGLEPLAYER MENU
 
+fancymenu.config.show_server_icons = Show Server Icons
+fancymenu.config.show_server_icons.desc = If the server icons should be visible.
+fancymenu.config.show_world_icons = Show World Icons
+fancymenu.config.show_world_icons.desc = If the world icons should be visible.
 
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1 = Server MOTD Line 1
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1.desc = Gets the first line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line1:gommehd.net%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2 = Server MOTD Line 2
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2.desc = Gets the second line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line2:gommehd.net%
 
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations = §cYou need to enable customizations%n%§cfor the current menu, to use this tool!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line1 = §lWarning!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line2 = You need to enable customizations for
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line3 = the current menu before using the §lButton Info §rtool!
 
-
+fancymenu.helper.editor.items.visibilityrequirements.guiscale = Is GUI Scale
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = Check if the current GUI scale is X.%n%%n%You can check for bigger than ('>'),%n%smaller than ('<') and equals X.%n%%n%For example, if you want to check%n%if the scale is smaller than 3.20,%n%type '<3.20' (without the '').%n%To check if the scale is equal to 1.0,%n%just type '1.0' (without the '').%n%When checking if the scale is bigger than 2.20,%n%type '>2.20' (without the '').%n%%n%You can separate multiple values by comma,%n%to check for more than one scale%n%at once.
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = GUI Scale Condition(s) (Separate Values By Comma)
 
 

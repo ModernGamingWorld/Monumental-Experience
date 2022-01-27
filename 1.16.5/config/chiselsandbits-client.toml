@@ -72,5 +72,5 @@
 	#Compatibility options for JEI.
 	[compat.jei]
 		#Should C&B inject its bits into JEI?
-		inject-bits = true
+		inject-bits = false
 

@@ -191,8 +191,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 2.5d
+			y: 2.5d
 			dependencies: ["0000000000001C42"]
 			id: "0000000000001C52"
 			tasks: [{
@@ -436,31 +436,6 @@
 			x: 1.0d
 			y: 1.0d
 			dependencies: ["0000000000001C42"]
-			id: "0000000000001C68"
-			tasks: [{
-				id: "0000000000001C69"
-				type: "item"
-				item: {
-					id: "inventorypets:pet_chest"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						Parent: [ ]
-					}
-				}
-			}]
-			rewards: [{
-				id: "717345F1F1F9C444"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 2.0d
-			dependencies: ["0000000000001C42"]
 			id: "0000000000001C6A"
 			tasks: [{
 				id: "0000000000001C6B"
@@ -497,31 +472,6 @@
 			}]
 			rewards: [{
 				id: "6240F00DF5F802C9"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -1.0d
-			dependencies: ["0000000000001C42"]
-			id: "0000000000001C6E"
-			tasks: [{
-				id: "0000000000001C6F"
-				type: "item"
-				item: {
-					id: "inventorypets:pet_double_chest"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						Parent: [ ]
-					}
-				}
-			}]
-			rewards: [{
-				id: "193A6EB2AC7AEC35"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]
@@ -1319,8 +1269,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 5.5d
+			x: 7.0d
+			y: 1.5d
 			dependencies: ["0000000000001C42"]
 			id: "0000000000001CBC"
 			tasks: [{
@@ -1336,22 +1286,6 @@
 			}]
 			rewards: [{
 				id: "35B0E7D03DAEAD59"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 4.5d
-			dependencies: ["0000000000001C42"]
-			id: "0000000000001CBE"
-			tasks: [{
-				id: "0000000000001CBF"
-				type: "item"
-				item: "inventorypets:pet_menorah"
-			}]
-			rewards: [{
-				id: "2E8C0525F7838B7A"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]

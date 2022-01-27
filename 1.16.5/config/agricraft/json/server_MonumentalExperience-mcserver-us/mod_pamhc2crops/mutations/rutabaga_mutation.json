@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/rutabaga_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:rutabaga_plant",
+  "parent1": "vanilla:beet_root_plant",
+  "parent2": "pamhc2crops:turnip_plant"
+}

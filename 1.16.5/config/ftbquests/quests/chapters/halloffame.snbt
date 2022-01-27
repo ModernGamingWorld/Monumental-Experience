@@ -936,7 +936,6 @@
 			icon: "overloaded:true_infinite_barrel"
 			x: 2.0d
 			y: 9.0d
-			dependencies: ["0000000000000551"]
 			id: "00000000000006C4"
 			rewards: [
 				{

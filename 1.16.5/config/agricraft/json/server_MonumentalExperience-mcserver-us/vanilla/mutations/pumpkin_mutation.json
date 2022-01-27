@@ -1,0 +1,14 @@
+{
+  "path": "vanilla/mutations/pumpkin_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.25,
+  "child": "vanilla:pumpkin_plant",
+  "parent1": "vanilla:carrot_plant",
+  "parent2": "vanilla:potato_plant"
+}

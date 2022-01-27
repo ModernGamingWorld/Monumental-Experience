@@ -77,3 +77,12 @@
 	#Range: 0.0 ~ 1.0
 	steelCogwheelImpact = 0.0
 
+[burnerEfficiency]
+	#Fuel Tick to HU Convertion Percentage. 10HU=1mb of steam. 
+	#Range: 0.0 ~ 1.0
+	bronzeBurnerEfficiency = 0.8
+	#Range: 0.0 ~ 1.0
+	castIronBurnerEfficiency = 0.9
+	#Range: 0.0 ~ 1.0
+	steelBurnerEfficiency = 1.0
+

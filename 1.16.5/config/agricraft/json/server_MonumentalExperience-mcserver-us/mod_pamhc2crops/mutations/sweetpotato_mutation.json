@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/sweetpotato_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:sweetpotato_plant",
+  "parent1": "vanilla:potato_plant",
+  "parent2": "vanilla:sugarcane_plant"
+}

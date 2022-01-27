@@ -60,8 +60,10 @@
 	#Max range for Fluid Mk2
 	#Range: > 1
 	fluid2MaxRange = 24
-	#List of entity types which the Activator Module (in entity mode) should never attempt to interact with. Any entity which opens a GUI when right-clicked, like Villagers, should be added here, especially if it prevents player interaction.
+	#List of entity types which the Activator Module (in entity use mode) should never attempt to interact with. Any entity which opens a GUI when right-clicked, like Villagers, should be added here, especially if it prevents player interaction. Entity tags can be specified with a '#' prefix.
 	activatorEntityBlacklist = ["minecraft:villager", "minecraft:wandering_trader"]
+	#List of entity types which the Activator Module (in attack mode) should never attempt to attack. Entity tags can be specified with a '#' prefix.
+	activatorEntityAttackBlacklist = []
 
 [Router]
 	#Hard minimum tick interval for a router regardless of Speed Upgrades

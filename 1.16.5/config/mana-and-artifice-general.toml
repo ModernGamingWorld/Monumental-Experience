@@ -60,17 +60,19 @@ undeadSouls = 50
 	#Adjust librarian villagers to not have enchanted books until tier 3.  This is done for balancing and to remove the exploit of rolling librarians for cheap enchants. [true / false]
 	modifyVillagerTrades = true
 
-#Raids are based on a chance value.  The value is increased each day there is not a raid.  If the chance hits a total of 1.0 or greater, it's a guaranteed raid.  The chance resets after a raid successfully spawns.
+#Raids are incremented when you use items/spells from the other factions.  When they get angry enough, you will be raided.
 [ma_faction_raids]
-	#Adjust the base amount per day that the chance to be raided goes up for each player.
+	#Adjust the base amount per day that the chance to be raided goes up for each player.  This has no effect if classic raids are disabled.
 	#Range: 0.0 ~ 1.0
 	raidBaselineIncrease = 0.05
-	#Adjust the amount per day that the chance to be raided goes up for each player based on their tier above 3 (this value * (tier-3)).  This is added to the baseline.
+	#Adjust the amount per day that the chance to be raided goes up for each player based on their tier above 3 (this value * (tier-3)).  This is added to the baseline.  This has no effect if classic raids are disabled.
 	#Range: 0.0 ~ 1.0
 	raidTierIncrease = 0.05
-	#How many attempts (within a 20x20x5 box centered on the player in question) should the game make to spawn a raid?  Note this will be re-attempted every 1000 ticks until a successful spawn is made.  If you're lagging due to raid spawn attempts, lower this setting.
+	#How many attempts (within a 20x20x5 box centered on the player in question) should the game make to spawn a raid?  Note this will be re-attempted every 100 ticks until a successful spawn is made.  If you're lagging due to raid spawn attempts, lower this setting.
 	#Range: 1 ~ 1000
 	raidSpawnAttempts = 100
+	#Should classic raiding be enabled?  Raids are based on a chance value.  The value is increased each day there is not a raid.  If the chance hits a total of 1.0 or greater, it's a guaranteed raid.  The chance resets after a raid successfully spawns.
+	classicRaids = false
 
 #Mana and Artifice // Worldgen Options
 [ma_worldgen_options]

@@ -1,0 +1,61 @@
+{
+  "path": "mod_mysticalagriculture/fertilizers/mystical_fertilizer_fertilizer.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_fertilizer/",
+  "enabled": true,
+  "mods": [
+    "mysticalagriculture",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "mysticalagriculture:mystical_fertilizer",
+  "lang_key": "item.mysticalagriculture.mystical_fertilizer",
+  "variants": [
+    {
+      "type": "item",
+      "object": "mysticalagriculture:mystical_fertilizer",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "trigger_mutation": false,
+  "trigger_weeds": false,
+  "potency": 5,
+  "effect": {
+    "reduce_growth": true,
+    "kill_plant": true,
+    "negatively_affected": {
+      "blacklist": false,
+      "plant_list": []
+    },
+    "positively_affected": {
+      "blacklist": true,
+      "plant_list": []
+    },
+    "particles": [
+      {
+        "amount": 2,
+        "when": [
+          "positive"
+        ],
+        "particle": "minecraft:happy_villager",
+        "delta_x": 0.6,
+        "delta_y": 0.4,
+        "delta_z": 0.6
+      },
+      {
+        "amount": 2,
+        "when": [
+          "negative"
+        ],
+        "particle": "minecraft:smoke",
+        "delta_x": 0.6,
+        "delta_y": 0.4,
+        "delta_z": 0.6
+      }
+    ]
+  }
+}

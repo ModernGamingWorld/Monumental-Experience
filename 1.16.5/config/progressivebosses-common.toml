@@ -50,7 +50,7 @@
 		#The Wither will break even blocks below him when hit.
 		"Bigger Breaking Blocks" = true
 		#The wither can only be spawned in the Nether.
-		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
+		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof (if you need to place a skull near a Soul Sand place the skull first).
 		#Requires Minecraft restart.
 		"Wither Nether Only" = false
 		#If true the Wither will break even blocks that are witherproof.

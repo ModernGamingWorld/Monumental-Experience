@@ -6,3 +6,10 @@
 	#minecolonies.config.enablecitizenvoices.comment [Default: true]
 	enablecitizenvoices = true
 
+#All configuration related to mod compatibility
+[compatibility]
+	#Whether to display colony boundaries in JourneyMap [Default: true]
+	mapcolonyborders = true
+	#Whether to display citizen deathpoints in JourneyMap [Default: true]
+	mapdeathpoints = true
+

@@ -16,6 +16,8 @@
 	"Include Water In Non-Overworld Dimesions" = true
 	#Enable Automation Options For Moderate Farm
 	"Enable Automation Options For Moderate Farm" = true
+	#Play Sound When Generating Blueprint
+	"Play Building Sound" = true
 
 	[general."chest contents"]
 		#Determines if a Stone Sword is added the the chest when the house is created.

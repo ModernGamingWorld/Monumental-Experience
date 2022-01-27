@@ -7,6 +7,8 @@
 	disableFTBFunction = true
 	#Range: 0.0 ~ 1.0
 	claimedChunkOverlayOpacity = 0.25
+	#Show chunk claiming screen first instead of large map screen.
+	showClaimChunkScreen = true
 
 [Waystones]
 	#Enable Waystones Integration

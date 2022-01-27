@@ -3,6 +3,8 @@
 [visual]
 	#Disables the headache- and possibly seizure-inducing visual effects of Demon's Dream.
 	disableDemonsDreamShaders = false
+	#Disables holiday themed visual content such as familiar skins.
+	disableHolidayTheming = false
 
 #Misc Settings
 [misc]

@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/wintersquash_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:wintersquash_plant",
+  "parent1": "vanilla:pumpkin_plant",
+  "parent2": "pamhc2crops:zucchini_plant"
+}

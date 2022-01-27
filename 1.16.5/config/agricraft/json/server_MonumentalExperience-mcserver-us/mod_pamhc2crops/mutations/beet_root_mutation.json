@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/beet_root_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "vanilla:beet_root_plant",
+  "parent1": "pamhc2crops:radish_plant",
+  "parent2": "vanilla:carrot_plant"
+}
