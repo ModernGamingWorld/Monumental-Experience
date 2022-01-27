@@ -787,7 +787,7 @@ onEvent('recipes', (event) => {
             effects: [
                 'astralsorcery:built_in_effect_discovery_central_beam'
             ]
-        }
+        },
     //Waytstones
         {
             output: Item.of('waystones:warp_stone', 1),

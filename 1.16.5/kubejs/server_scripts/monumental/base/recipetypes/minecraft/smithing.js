@@ -390,7 +390,8 @@ onEvent('recipes', event => {
     event.smithing(Item.of('mekanism:electric_bow'), 'minecraft:bow', 'mekanism:energy_tablet')
 
     //Modular Routers
-    event.smithing(Item.of('modularrouters:breaker_module', '{modularrouters:{Direction:"NONE",ModuleFilter:{}}}'), 'modularrouters:blank_module', '#forge:tools/pickaxe')
+    event.smithing(Item.of('modularrouters:breaker_module', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:blank_module', '#forge:tools/pickaxes')
+    event.smithing(Item.of('modularrouters:extruder_module_1', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:breaker_module')
 
     //Mystical Agriculture
 

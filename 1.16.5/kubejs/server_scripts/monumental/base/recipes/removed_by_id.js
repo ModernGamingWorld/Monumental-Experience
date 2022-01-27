@@ -3848,6 +3848,18 @@ onEvent('recipes', event => {
         id: 'marquot:pressureplaterec_12'
     })
     event.remove({
+        id: 'marquot:pressureplaterec_17'
+    })
+    event.remove({
+        id: 'marquot:meewamp_pressure_plate_recipe'
+    })
+    event.remove({
+        id: 'marquot:the_pit_pressure_plate_recipe'
+    })
+    event.remove({
+        id: 'marquot:wonder_pressure_plate_recipe'
+    })
+    event.remove({
         id: 'marquot:geewamp_wood_pressure_plate_recipe'
     })
 
@@ -4126,6 +4138,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'modularrouters:item_router'
+    })
+    event.remove({
+        id: 'modularrouters:breaker_module'
+    })
+    event.remove({
+        id: 'modularrouters:extruder_module_1'
     })
 
     //Mekanism Recipes

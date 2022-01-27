@@ -1533,6 +1533,22 @@ onEvent('recipes', event => {
         A: 'marquot:geewamp_wood_planks',
         B: '#forge:tools/crafting_hammer'
     })
+    event.shaped(Item.of('marquot:meewamp_pressure_plate', 1), [" A ", " A ", " B "], {
+        A: 'marquot:meewamp_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('marquot:wonder_pressure_plate', 1), [" A ", " A ", " B "], {
+        A: 'marquot:wonder_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('marquot:the_pit_pressure_plate', 1), [" A ", " A ", " B "], {
+        A: 'marquot:the_pit_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
+    event.shaped(Item.of('marquot:plate_17', 1), [" A ", " A ", " B "], {
+        A: 'marquot:shroom_planks',
+        B: '#forge:tools/crafting_hammer'
+    })
     //Nature's Aura
     event.shaped(Item.of('naturesaura:offering_table', 1), ["BAB", "CBD", "EEE"], {
         A: '#forge:ingots/starmetal',

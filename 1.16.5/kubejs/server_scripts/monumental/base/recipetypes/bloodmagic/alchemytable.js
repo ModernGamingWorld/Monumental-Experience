@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
                 syphon: 200,
                 ticks: 200,
                 orbLevel: 1
-            }
+            },
         //BYG
             {
                 inputs: ['byg:quartzite_sand', 'byg:quartzite_sand', 'byg:quartzite_sand'],
