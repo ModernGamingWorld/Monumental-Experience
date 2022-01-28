@@ -1,6 +1,13 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
+        recipes: [
+        //BYG
+            {
+                input: 'byg:quartzite_sand',
+                output: Item.of('minecraft:sand'),
+                secondary: [Item.of('minecraft:quartz').chance(0.1)]
+            },
+            {
                 input: 'byg:pink_sandstone',
                 output: Item.of('byg:pink_sand', 2),
                 secondary: [Item.of('emendatusenigmatica:potassium_nitrate_dust').chance(0.5)],
@@ -31,32 +38,30 @@ onEvent('recipes', (event) => {
                 id: 'immersiveengineering:crusher/black_sandstone'
             },
             {
-                input: '#forge:end_stones',
-                output: Item.of('occultism:crushed_end_stone', 4),
-                secondary: [],
-                id: 'immersiveengineering:crusher/end_stone'
+                input: 'byg:raw_quartz_block',
+                output: Item.of('byg:quartzite_sand', 2),
+                secondary: [Item.of('byg:quartzite_sand').chance(0.5)]
             },
+        //Emendatus Enigmatica
             {
                 input: '#forge:obsidian',
                 output: Item.of('emendatusenigmatica:obsidian_dust', 1),
                 secondary: [Item.of('minecraft:obsidian').chance(0.75)],
                 id: 'immersiveengineering:crusher/obsidian'
             },
-            {
-                input: 'byg:raw_quartz_block',
-                output: Item.of('byg:quartzite_sand', 2),
-                secondary: [Item.of('byg:quartzite_sand').chance(0.5)]
-            },
-            {
-                input: 'byg:quartzite_sand',
-                output: Item.of('minecraft:sand'),
-                secondary: [Item.of('minecraft:quartz').chance(0.1)]
-            },
+        //Minecraft
             {
                 input: 'minecraft:sugar_cane',
                 output: Item.of('minecraft:sugar', 2),
                 secondary: [Item.of('minecraft:sugar').chance(0.1)]
-            }
+            },
+        //Occultism
+            {
+                input: '#forge:end_stones',
+                output: Item.of('occultism:crushed_end_stone', 4),
+                secondary: [],
+                id: 'immersiveengineering:crusher/end_stone'
+            },
         ]
     };
 

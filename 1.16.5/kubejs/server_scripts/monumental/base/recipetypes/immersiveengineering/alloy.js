@@ -1,10 +1,7 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                input1: '#forge:ingots/iron',
-                input2: '#forge:ingots/lead',
-                output: Item.of('eidolon:pewter_ingot', 2)
-            },
+        recipes: [
+        //Betterendforge
             {
                 input1: '#forge:ingots/iron',
                 input2: '#forge:dusts/ender',
@@ -20,6 +17,13 @@ onEvent('recipes', (event) => {
                 input2: 'betterendforge:terminite_ingot',
                 output: Item.of('betterendforge:aeternium_ingot')
             },
+        //Eidolon
+            {
+                input1: '#forge:ingots/iron',
+                input2: '#forge:ingots/lead',
+                output: Item.of('eidolon:pewter_ingot', 2)
+            },
+        //Tinkers
             {
                 input1: '#forge:glass',
                 input2: Ingredient.of('#forge:ingots/copper', 3),

@@ -1,0 +1,448 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 4,
+                    max: 7,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "minecraft:magma_block",
+                        type: "minecraft:item",
+                        weight: 20,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 5,
+                                max: 15,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:netherite_scrap",
+                        type: "minecraft:item",
+                        weight: 20,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:magma_cream",
+                        type: "minecraft:item",
+                        weight: 18,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 18,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:blaze_essence",
+                        type: "minecraft:item",
+                        weight: 18,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 10,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:gold_essence",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 10,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_sword",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_axe",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_hoe",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_shovel",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_pickaxe",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_boots",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_chestplate",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_helmet",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_leggings",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 35,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:fire_charge",
+                        type: "minecraft:item",
+                        weight: 12,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 12,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:flint_and_steel",
+                        type: "minecraft:item",
+                        weight: 10
+                    },
+                    {
+                        name: "minecraft:firework_star",
+                        type: "minecraft:item",
+                        weight: 8,
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 4,
+                                    max: 12,
+                                    type: "minecraft:uniform"
+                                }
+                            },
+                            {
+                                function: "set_nbt",
+                                tag: "{Explosion:{Colors:[I;0], FadeColors:[I;12201518], Trail:1b, Flicker:1b, Type:4b}}"
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:firework_star",
+                        type: "minecraft:item",
+                        weight: 8,
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 4,
+                                    max: 12,
+                                    type: "minecraft:uniform"
+                                }
+                            },
+                            {
+                                function: "set_nbt",
+                                tag: "{Explosion:{Colors:[I;12201518], FadeColors:[I;0], Trail:1b, Flicker:1b, Type:4b}}"
+                            }
+                        ]
+                    },
+                    {
+                        name: "mysticalagriculture:netherite_essence",
+                        type: "minecraft:item",
+                        weight: 6,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_block",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 12,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_horse_armor",
+                        type: "minecraft:item",
+                        weight: 5
+                    },
+                    {
+                        name: "mysticalagriculture:gold_essence",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 5,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_nugget",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 40,
+                                max: 60,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:enchanted_golden_apple",
+                        type: "minecraft:item",
+                        weight: 3
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        name: "minecraft:magma_cream",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 9,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:blaze_essence",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 6,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:netherite_scrap",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 6,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:fire_charge",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 5,
+                                max: 10,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:netherite_essence",
+                        type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:map",
+                        type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "minecraft:exploration_map",
+                            destination: "bastion_remnant",
+                            decoration: "banner_black",
+                            zoom: 2,
+                            skip_existing_chunks: false
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 0,
+                bonus_rolls: 1,
+                entries: [{
+                        name: "minecraft:pink_banner",
+                        type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 24
+                    },
+                    {
+                        name: "minecraft:black_banner",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:ss,Color:4},{Pattern:gra,Color:14},{Pattern:gra,Color:4},{Pattern:cbo,Color:15},{Pattern:glb,Color:4},{Pattern:flo,Color:1},{Pattern:flo,Color:15},{Pattern:mr,Color:15},{Pattern:tt,Color:15},{Pattern:sku,Color:14},{Pattern:sku,Color:4},{Pattern:cre,Color:15}]}}"
+                        }]
+                    },
+                    {
+                        name: "minecraft:firework_star",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{Explosion:{Colors:[I;0], FadeColors:[I;12201518], Trail:1b, Flicker:1b, Type:4b}}"
+                        }]
+                    },
+                    {
+                        name: "minecraft:firework_star",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{Explosion:{Colors:[I;12201518], FadeColors:[I;0], Trail:1b, Flicker:1b, Type:4b}}"
+                        }]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/cities/nether.json`, loot_table);;
+});

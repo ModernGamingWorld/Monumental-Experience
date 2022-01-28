@@ -1,6 +1,29 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
+        recipes: [
+        //Immersive Engineering
+            {
+                inputs: [{
+                        count: 1,
+                        base_ingredient: {
+                            item: 'immersiveengineering:electron_tube'
+                        }
+                    },
+                    {
+                        item: 'thermal:upgrade_augment_3'
+                    },
+                    {
+                        tag: 'forge:plates/copper'
+                    }
+                ],
+                category: 'components',
+                output: {
+                    item: 'immersiveengineering:circuit_board'
+                },
+                id: 'immersive_engineering_circuit_board'
+            },
+        //Router Reborn
+            {
                 inputs: [{
                     count: 4,
                     base_ingredient: {
@@ -13,6 +36,7 @@ onEvent('recipes', (event) => {
                 },
                 id: 'copper_coil'
             },
+        //Rftools Control
             {
                 inputs: [{
                         count: 1,
@@ -35,26 +59,6 @@ onEvent('recipes', (event) => {
                     item: 'rftoolscontrol:advanced_network_card'
                 },
                 id: 'advanced_network_card'
-            },
-            {
-                inputs: [{
-                        count: 1,
-                        base_ingredient: {
-                            item: 'immersiveengineering:electron_tube'
-                        }
-                    },
-                    {
-                        item: 'thermal:upgrade_augment_3'
-                    },
-                    {
-                        tag: 'forge:plates/copper'
-                    }
-                ],
-                category: 'components',
-                output: {
-                    item: 'immersiveengineering:circuit_board'
-                },
-                id: 'immersive_engineering_circuit_board'
             }
         ]
     };

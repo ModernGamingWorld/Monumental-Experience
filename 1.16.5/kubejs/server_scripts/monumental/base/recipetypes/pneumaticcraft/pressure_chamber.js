@@ -1,6 +1,147 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
+        recipes: [
+        //Ae2
+            {
+                ingredients: [{
+                        tag: 'appliedenergistics2:crystals/nether'
+                    },
+                    {
+                        tag: 'forge:dusts/fluix'
+                    },
+                    {
+                        item: 'appliedenergistics2:logic_processor'
+                    }
+                ],
+                pressure: 4.0,
+                output: [{
+                    item: 'appliedenergistics2:annihilation_core',
+                    count: 2
+                }],
+                id: 'annihilation_core'
+            },
+            {
+                ingredients: [{
+                        tag: 'appliedenergistics2:crystals/certus'
+                    },
+                    {
+                        tag: 'forge:dusts/fluix'
+                    },
+                    {
+                        item: 'appliedenergistics2:logic_processor'
+                    }
+                ],
+                pressure: 4.0,
+                output: [{
+                    item: 'appliedenergistics2:formation_core',
+                    count: 2
+                }],
+                id: 'formation_core'
+            },
+        //Betterendforge
+            {
+                ingredients: [{
+                    type: 'pneumaticcraft:stacked_item',
+                    item: 'minecraft:snow_block',
+                    count: 4
+                }],
+                pressure: 2.0,
+                output: [{
+                    item: 'betterendforge:dense_snow',
+                    count: 1
+                }]
+            },
+        //Create
+            {
+                ingredients: [{
+                    type: 'pneumaticcraft:stacked_item',
+                    tag: 'forge:grain',
+                    count: 1
+                }],
+                pressure: 1.5,
+                output: [{
+                    item: 'create:wheat_flour',
+                    count: 2
+                }],
+                id: 'wheat_flour'
+            },
+        //Pneumaticcraft
+            {
+                ingredients: [{
+                        item: 'pneumaticcraft:plastic'
+                    },
+                    {
+                        item: 'createaddition:capacitor'
+                    },
+                    {
+                        item: 'immersiveengineering:wirecoil_electrum'
+                    },
+                    {
+                        tag: 'forge:slimeballs'
+                    }
+                ],
+                pressure: 1.0,
+                output: [{
+                    item: 'pneumaticcraft:capacitor',
+                    count: 1
+                }],
+                id: 'pneumaticcraft_capacitor'
+            },
+            {
+                ingredients: [{
+                        item: 'immersiveengineering:wirecoil_electrum'
+                    },
+                    {
+                        item: 'immersiveengineering:wirecoil_redstone'
+                    },
+                    {
+                        item: 'pneumaticcraft:plastic'
+                    },
+                    {
+                        item: 'immersiveengineering:circuit_board'
+                    }
+                ],
+                pressure: 1.0,
+                output: [{
+                    item: 'pneumaticcraft:empty_pcb',
+                    count: 2
+                }],
+                id: 'pneumaticcraft_empty_pcb'
+            },
+            {
+                ingredients: [{
+                        item: 'immersiveengineering:wirecoil_redstone'
+                    },
+                    {
+                        item: 'immersiveengineering:wirecoil_electrum'
+                    },
+                    {
+                        item: 'create:electron_tube'
+                    },
+                    {
+                        item: 'pneumaticcraft:plastic'
+                    }
+                ],
+                pressure: 1.0,
+                output: [{
+                    item: 'pneumaticcraft:transistor',
+                    count: 1
+                }],
+                id: 'pneumaticcraft_transistor'
+            },
+            {
+                ingredients: [{
+                    tag: 'forge:ingots/steel'
+                }],
+                pressure: 1.0,
+                output: [{
+                    item: 'pneumaticcraft:ingot_iron_compressed',
+                    count: 1
+                }],
+                id: 'ingot_iron_compressed'
+            },
+        //Refined Storage
+            {
                 ingredients: [{
                         item: 'refinedstorage:basic_processor'
                     },
@@ -119,141 +260,6 @@ onEvent('recipes', (event) => {
                     count: 1
                 }],
                 id: 'processor_binding'
-            },
-            {
-                ingredients: [{
-                        tag: 'appliedenergistics2:crystals/nether'
-                    },
-                    {
-                        tag: 'forge:dusts/fluix'
-                    },
-                    {
-                        item: 'appliedenergistics2:logic_processor'
-                    }
-                ],
-                pressure: 4.0,
-                output: [{
-                    item: 'appliedenergistics2:annihilation_core',
-                    count: 2
-                }],
-                id: 'annihilation_core'
-            },
-            {
-                ingredients: [{
-                        tag: 'appliedenergistics2:crystals/certus'
-                    },
-                    {
-                        tag: 'forge:dusts/fluix'
-                    },
-                    {
-                        item: 'appliedenergistics2:logic_processor'
-                    }
-                ],
-                pressure: 4.0,
-                output: [{
-                    item: 'appliedenergistics2:formation_core',
-                    count: 2
-                }],
-                id: 'formation_core'
-            },
-            {
-                ingredients: [{
-                        item: 'pneumaticcraft:plastic'
-                    },
-                    {
-                        item: 'createaddition:capacitor'
-                    },
-                    {
-                        item: 'immersiveengineering:wirecoil_electrum'
-                    },
-                    {
-                        tag: 'forge:slimeballs'
-                    }
-                ],
-                pressure: 1.0,
-                output: [{
-                    item: 'pneumaticcraft:capacitor',
-                    count: 1
-                }],
-                id: 'pneumaticcraft_capacitor'
-            },
-            {
-                ingredients: [{
-                        item: 'immersiveengineering:wirecoil_electrum'
-                    },
-                    {
-                        item: 'immersiveengineering:wirecoil_redstone'
-                    },
-                    {
-                        item: 'pneumaticcraft:plastic'
-                    },
-                    {
-                        item: 'immersiveengineering:circuit_board'
-                    }
-                ],
-                pressure: 1.0,
-                output: [{
-                    item: 'pneumaticcraft:empty_pcb',
-                    count: 2
-                }],
-                id: 'pneumaticcraft_empty_pcb'
-            },
-            {
-                ingredients: [{
-                        item: 'immersiveengineering:wirecoil_redstone'
-                    },
-                    {
-                        item: 'immersiveengineering:wirecoil_electrum'
-                    },
-                    {
-                        item: 'create:electron_tube'
-                    },
-                    {
-                        item: 'pneumaticcraft:plastic'
-                    }
-                ],
-                pressure: 1.0,
-                output: [{
-                    item: 'pneumaticcraft:transistor',
-                    count: 1
-                }],
-                id: 'pneumaticcraft_transistor'
-            },
-            {
-                ingredients: [{
-                    tag: 'forge:ingots/steel'
-                }],
-                pressure: 1.0,
-                output: [{
-                    item: 'pneumaticcraft:ingot_iron_compressed',
-                    count: 1
-                }],
-                id: 'ingot_iron_compressed'
-            },
-            {
-                ingredients: [{
-                    type: 'pneumaticcraft:stacked_item',
-                    tag: 'forge:grain',
-                    count: 1
-                }],
-                pressure: 1.5,
-                output: [{
-                    item: 'create:wheat_flour',
-                    count: 2
-                }],
-                id: 'wheat_flour'
-            },
-            {
-                ingredients: [{
-                    type: 'pneumaticcraft:stacked_item',
-                    item: 'minecraft:snow_block',
-                    count: 4
-                }],
-                pressure: 2.0,
-                output: [{
-                    item: 'betterendforge:dense_snow',
-                    count: 1
-                }]
             }
         ]
     };

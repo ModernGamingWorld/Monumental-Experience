@@ -1,32 +1,7 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                block: 'quark:magma_bricks',
-                temperature: 1300,
-                thermalResistance: 500,
-                transformCold: {
-                    block: 'minecraft:magma_block'
-                },
-                heatCapacity: 10000
-            },
-            {
-                block: 'emendatusenigmatica:uranium_block',
-                temperature: 438,
-                thermalResistance: 500,
-                transformCold: {
-                    block: 'emendatusenigmatica:lead_block'
-                },
-                heatCapacity: 500000
-            },
-            {
-                block: 'emendatusenigmatica:uranium_block',
-                temperature: 438,
-                thermalResistance: 500,
-                transformCold: {
-                    block: 'emendatusenigmatica:lead_block'
-                },
-                heatCapacity: 500000
-            },
+        recipes: [
+        //Betterendforge
             {
                 block: 'betterendforge:dense_snow',
                 temperature: 263,
@@ -35,6 +10,35 @@ onEvent('recipes', (event) => {
                     block: 'minecraft:snow_block'
                 },
                 heatCapacity: 2000
+            },
+        //Emendatus Enigmatica
+            {
+                block: 'emendatusenigmatica:uranium_block',
+                temperature: 438,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'emendatusenigmatica:lead_block'
+                },
+                heatCapacity: 500000
+            },
+            {
+                block: 'emendatusenigmatica:uranium_block',
+                temperature: 438,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'emendatusenigmatica:lead_block'
+                },
+                heatCapacity: 500000
+            },
+        //Quark
+            {
+                block: 'quark:magma_bricks',
+                temperature: 1300,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'minecraft:magma_block'
+                },
+                heatCapacity: 10000
             }
         ]
     };

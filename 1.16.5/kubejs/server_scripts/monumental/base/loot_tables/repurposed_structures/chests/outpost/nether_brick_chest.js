@@ -1,0 +1,424 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 8,
+                    max: 15,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "minecraft:stone_sword",
+                        type: "minecraft:item",
+                        weight: 20,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.4,
+                                    max: 1
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 10,
+                                    max: 35,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:golden_sword",
+                        type: "minecraft:item",
+                        weight: 15,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:golden_helmet",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:golden_chestplate",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:golden_leggings",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:golden_boots",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:crossbow",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:bow",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0.1,
+                                    max: 0.8
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: 5,
+                                    max: 25,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:stone_sword",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.7,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_sword",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_helmet",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_chestplate",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_leggings",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_boots",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:crossbow",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:bow",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.5,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:arrow",
+                        type: "minecraft:item",
+                        weight: 8,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 16,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:netherite_scrap",
+                        type: "minecraft:item",
+                        weight: 5
+                    },
+                    {
+                        name: "minecraft:gold_block",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:gold_essence",
+                        type: "minecraft:item",
+                        weight: 7,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 9,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_nugget",
+                        type: "minecraft:item",
+                        weight: 7,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 5,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:nether_bricks",
+                        type: "minecraft:item",
+                        weight: 9,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:blackstone",
+                        type: "minecraft:item",
+                        weight: 9,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:cooked_porkchop",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 12,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:pig_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 12,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 0,
+                bonus_rolls: 1,
+                entries: [{
+                        name: "minecraft:pink_banner",
+                        type: "minecraft:item",
+                        weight: 25,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 100
+                    },
+                    {
+                        name: "minecraft:brown_banner",
+                        type: "minecraft:item",
+                        weight: 140,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:bri,Color:1},{Pattern:bri,Color:15},{Pattern:gra,Color:14},{Pattern:bts,Color:15},{Pattern:tts,Color:15},{Pattern:mr,Color:15},{Pattern:mr,Color:15},{Pattern:sc,Color:12},{Pattern:flo,Color:12},{Pattern:flo,Color:12},{Pattern:sc,Color:15},{Pattern:flo,Color:15}]}}"
+                        }]
+                    },
+                    {
+                        name: "minecraft:experience_bottle",
+                        type: "minecraft:item",
+                        weight: 160,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: 2
+                        }]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/outpost/nether_brick_chest.json`, loot_table);;
+})

@@ -1,0 +1,332 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 1,
+                    max: 3,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "minecraft:saddle",
+                        type: "minecraft:item",
+                        weight: 20
+                    },
+                    {
+                        name: "minecraft:golden_apple",
+                        type: "minecraft:item",
+                        weight: 15
+                    },
+                    {
+                        name: "minecraft:enchanted_golden_apple",
+                        type: "minecraft:item",
+                        weight: 2
+                    },
+                    {
+                        name: "minecraft:music_disc_strad",
+                        type: "minecraft:item",
+                        weight: 5
+                    },
+                    {
+                        name: "minecraft:music_disc_wait",
+                        type: "minecraft:item",
+                        weight: 25
+                    },
+                    {
+                        name: "minecraft:name_tag",
+                        type: "minecraft:item",
+                        weight: 20
+                    },
+                    {
+                        name: "minecraft:golden_horse_armor",
+                        type: "minecraft:item",
+                        weight: 10
+                    },
+                    {
+                        name: "minecraft:iron_horse_armor",
+                        type: "minecraft:item",
+                        weight: 15
+                    },
+                    {
+                        name: "minecraft:diamond_horse_armor",
+                        type: "minecraft:item",
+                        weight: 5
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "minecraft:music_disc_otherside"
+                    },
+                    {
+                        name: "minecraft:bow",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 1,
+                                max: 15,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:book",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:enchant_randomly"
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 4,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "mysticalagriculture:iron_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:lapis_lazuli_essence",
+                        type: "minecraft:item",
+                        weight: 13,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:cookie",
+                        type: "minecraft:item",
+                        weight: 28,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:bucket",
+                        type: "minecraft:item",
+                        weight: 10
+                    },
+                    {
+                        name: "minecraft:tipped_arrow",
+                        type: "minecraft:item",
+                        weight: 9,
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 2,
+                                    max: 4,
+                                    type: "minecraft:uniform"
+                                }
+                            },
+                            {
+                                function: "minecraft:set_nbt",
+                                tag: "{Potion:\"minecraft:long_slowness\"}"
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:tipped_arrow",
+                        type: "minecraft:item",
+                        weight: 9,
+                        functions: [{
+                                function: "minecraft:set_count",
+                                count: {
+                                    min: 2,
+                                    max: 4,
+                                    type: "minecraft:uniform"
+                                }
+                            },
+                            {
+                                function: "minecraft:set_nbt",
+                                tag: "{Potion:\"minecraft:strong_slowness\"}"
+                            }
+                        ]
+                    },
+                    {
+                        name: "minecraft:light_blue_dye",
+                        type: "minecraft:item",
+                        weight: 15,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:light_gray_dye",
+                        type: "minecraft:item",
+                        weight: 15,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 3,
+                entries: [{
+                        name: "mysticalagriculture:skeleton_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:creeper_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:ice_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:packed_ice",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:blue_ice",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:spider_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:cobweb",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 0,
+                bonus_rolls: 1,
+                entries: [{
+                        name: "minecraft:pink_banner",
+                        type: "minecraft:item",
+                        weight: 20,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 360
+                    },
+                    {
+                        name: "minecraft:black_banner",
+                        type: "minecraft:item",
+                        weight: 92,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:mr,Color:3},{Pattern:flo,Color:3},{Pattern:flo,Color:15},{Pattern:tts,Color:15},{Pattern:tts,Color:15},{Pattern:tts,Color:3},{Pattern:bts,Color:15},{Pattern:bts,Color:15},{Pattern:bts,Color:3},{Pattern:cbo,Color:7},{Pattern:bo,Color:3},{Pattern:cbo,Color:15}]}}"
+                        }]
+                    },
+                    {
+                        name: "minecraft:music_disc_11",
+                        type: "minecraft:item",
+                        weight: 132
+                    },
+                    {
+                        name: "minecraft:name_tag",
+                        type: "minecraft:item",
+                        weight: 176
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/dungeons/icy.json`, loot_table);;
+});

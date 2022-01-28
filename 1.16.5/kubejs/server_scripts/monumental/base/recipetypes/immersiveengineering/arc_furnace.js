@@ -1,16 +1,7 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                input1: '#forge:ingots/copper',
-                secondaries: ['#forge:ingots/zinc'],
-                outputs: [Item.of('emendatusenigmatica:brass_ingot', 2)],
-                id: 'immersiveengineering:arcfurnace/alloy_brass'
-            },
-            {
-                input1: '#forge:ingots/iron',
-                secondaries: ['#forge:ingots/lead'],
-                outputs: [Item.of('eidolon:pewter_ingot', 2)]
-            },
+        recipes: [
+        //Betterendforge
             {
                 input1: '#forge:ingots/iron',
                 secondaries: ['#forge:dusts/ender'],
@@ -26,6 +17,20 @@ onEvent('recipes', (event) => {
                 secondaries: ['betterendforge:terminite_ingot'],
                 outputs: [Item.of('betterendforge:aeternium_ingot')]
             },
+        //Emendatus Enigmatica
+            {
+                input1: '#forge:ingots/copper',
+                secondaries: ['#forge:ingots/zinc'],
+                outputs: [Item.of('emendatusenigmatica:brass_ingot', 2)],
+                id: 'immersiveengineering:arcfurnace/alloy_brass'
+            },
+        //Eidolon
+            {
+                input1: '#forge:ingots/iron',
+                secondaries: ['#forge:ingots/lead'],
+                outputs: [Item.of('eidolon:pewter_ingot', 2)]
+            },
+        //Tinker
             {
                 input1: Ingredient.of('#forge:ingots/copper', 3),
                 secondaries: ['#forge:glass'],

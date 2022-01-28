@@ -391,7 +391,7 @@ onEvent('recipes', event => {
 
     //Modular Routers
     event.smithing(Item.of('modularrouters:breaker_module', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:blank_module', '#forge:tools/pickaxes')
-    event.smithing(Item.of('modularrouters:extruder_module_1', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:breaker_module')
+    event.smithing(Item.of('modularrouters:extruder_module_1', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:breaker_module', 'modularrouters:blank_module')
 
     //Mystical Agriculture
 

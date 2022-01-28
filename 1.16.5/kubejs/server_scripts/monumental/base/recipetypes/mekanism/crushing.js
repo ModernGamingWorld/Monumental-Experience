@@ -1,5 +1,7 @@
 onEvent('recipes', (event) => {
-    const recipes = [{
+    const recipes = [
+    //BYG
+        {
             input: 'byg:pink_sandstone',
             output: Item.of('byg:pink_sand', 2)
         },
@@ -20,29 +22,34 @@ onEvent('recipes', (event) => {
             output: Item.of('byg:black_sand', 2)
         },
         {
-            input: '#forge:stone',
-            output: 'minecraft:cobblestone'
+            input: 'byg:raw_quartz_block',
+            output: Item.of('byg:quartzite_sand', 2)
         },
+    //Building Gadgets
         {
             input: 'buildinggadgets:construction_block_dense',
             output: Item.of('buildinggadgets:construction_paste', 3)
         },
+    //Emendatus Enigmatica
         {
             input: Item.of('create:limesand', 3),
             output: Item.of('emendatusenigmatica:silicon_gem')
         },
+    //Minecraft
         {
-            input: '#forge:end_stones',
-            output: Item.of('occultism:crushed_end_stone', 4)
+            input: '#forge:stone',
+            output: 'minecraft:cobblestone'
         },
-        {
-            input: 'byg:raw_quartz_block',
-            output: Item.of('byg:quartzite_sand', 2)
-        },
+    //Minecraft
         {
             input: '#forge:ores/netherite_scrap',
             output: Item.of('mekanism:dirty_netherite_scrap', 3),
             id: 'mekanism:processing/netherite/ancient_debris_to_dirty_scrap'
+        },
+    //Occultism
+        {
+            input: '#forge:end_stones',
+            output: Item.of('occultism:crushed_end_stone', 4)
         }
     ];
     recipes.forEach((recipe) => {

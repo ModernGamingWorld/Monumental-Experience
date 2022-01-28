@@ -1,42 +1,36 @@
 onEvent('recipes', (event) => {
     var data = {
         recipes: [
-            {
-                input: '#forge:ores/ender',
-                output: Item.of('betterendforge:ender_shard', 3)
-            },
-            {
-                input: '#forge:ores/amber',
-                output: Item.of('druidcraft:amber', 3)
-            },
+    //BYG
             {
                 input: 'byg:quartzite_sand',
                 output: Item.of('minecraft:quartz')
             },
+    //BetterEndForge
+            {
+                input: '#forge:ores/ender',
+                output: Item.of('betterendforge:ender_shard', 3)
+            },
+    //Create
             {
                 input: '#forge:grain',
                 output: Item.of('create:wheat_flour', 1)
             },
+    //Druidcraft
+            {
+                input: '#forge:ores/amber',
+                output: Item.of('druidcraft:amber', 3)
+            },
+    //Minecraft
             {
                 input: 'minecraft:sugar_cane',
                 output: Item.of('minecraft:sugar', 2)
             },
             {
-                input: 'thermal:blizz_rod',
-                output: Item.of('thermal:blizz_powder', 4)
-            },
-            {
-                input: 'thermal:blitz_rod',
-                output: Item.of('thermal:blitz_powder', 4)
-            },
-            {
-                input: 'thermal:basalz_rod',
-                output: Item.of('thermal:basalz_powder', 4)
-            },
-            {
                 input: 'minecraft:blaze_rod',
                 output: Item.of('minecraft:blaze_powder', 4)
             },
+    //Mekanism
             {
                 input: '#forge:ores/quartz',
                 output: Item.of('minecraft:quartz', 3),
@@ -51,6 +45,19 @@ onEvent('recipes', (event) => {
                 input: 'mekanism:dirty_netherite_scrap',
                 output: Item.of('minecraft:netherite_scrap'),
                 id: 'mekanism:processing/netherite/dirty_scrap_to_scrap'
+            },
+    //Thermal
+            {
+                input: 'thermal:blizz_rod',
+                output: Item.of('thermal:blizz_powder', 4)
+            },
+            {
+                input: 'thermal:blitz_rod',
+                output: Item.of('thermal:blitz_powder', 4)
+            },
+            {
+                input: 'thermal:basalz_rod',
+                output: Item.of('thermal:basalz_powder', 4)
             }
         ]
     };

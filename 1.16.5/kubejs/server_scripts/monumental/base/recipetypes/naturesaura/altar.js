@@ -1,15 +1,7 @@
 onEvent('recipes', (event) => {
     const data = {
-        recipes: [{
-                input: 'undergarden:blood_mushroom',
-                output: 'byg:soul_shroom',
-                aura_type: 'naturesaura:nether',
-                catalyst: {
-                    item: 'naturesaura:conversion_catalyst'
-                },
-                aura: 30000,
-                time: 250
-            },
+        recipes: [
+        //BYG
             {
                 input: 'undergarden:veil_mushroom',
                 output: 'byg:death_cap',
@@ -50,6 +42,17 @@ onEvent('recipes', (event) => {
                 aura: 30000,
                 time: 250
             },
+            {
+                input: 'undergarden:blood_mushroom',
+                output: 'byg:soul_shroom',
+                aura_type: 'naturesaura:nether',
+                catalyst: {
+                    item: 'naturesaura:conversion_catalyst'
+                },
+                aura: 30000,
+                time: 250
+            },
+        //Natures
             {
                 input: '#forge:ingots/psimetal',
                 output: 'naturesaura:tainted_gold',

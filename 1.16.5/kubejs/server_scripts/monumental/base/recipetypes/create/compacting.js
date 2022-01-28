@@ -1,6 +1,13 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes_unheated: [{
+        recipes_unheated: [
+        //Immersive Engineering
+            {
+                inputs: [Fluid.of('immersiveengineering:concrete', 500)],
+                output: 'immersiveengineering:slab_concrete'
+            },
+        //Minecraft
+            {
                 inputs: [
                     '#forge:dusts/wood',
                     '#forge:dusts/wood',
@@ -12,13 +19,171 @@ onEvent('recipes', (event) => {
                     }
                 ],
                 output: Item.of('minecraft:paper', 6)
-            },
-            {
-                inputs: [Fluid.of('immersiveengineering:concrete', 500)],
-                output: 'immersiveengineering:slab_concrete'
             }
         ],
-        recipes_heated: [{
+        recipes_heated: [
+
+            //Extended Crafting
+            {
+                inputs: [
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:advanced_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:advanced_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:enhanced_ender_component',
+                    'extendedcrafting:enhanced_ender_component',
+                    'extendedcrafting:enhanced_ender_component',
+                    'extendedcrafting:enhanced_ender_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:enhanced_ender_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:crystaltine_component',
+                    'extendedcrafting:crystaltine_component',
+                    'extendedcrafting:crystaltine_component',
+                    'extendedcrafting:crystaltine_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:crystaltine_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:ender_component',
+                    'extendedcrafting:ender_component',
+                    'extendedcrafting:ender_component',
+                    'extendedcrafting:ender_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:ender_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:ingots/gold',
+                    '#forge:ingots/gold',
+                    '#forge:ingots/gold'
+                ],
+                output: Item.of('extendedcrafting:advanced_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'extendedcrafting:ender_ingot',
+                    'extendedcrafting:ender_ingot',
+                    'extendedcrafting:ender_ingot'
+                ],
+                output: Item.of('extendedcrafting:ender_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'extendedcrafting:enhanced_ender_ingot',
+                    'extendedcrafting:enhanced_ender_ingot',
+                    'extendedcrafting:enhanced_ender_ingot'
+
+                ],
+                output: Item.of('extendedcrafting:enhanced_ender_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'extendedcrafting:crystaltine_ingot',
+                    'extendedcrafting:crystaltine_ingot',
+                    'extendedcrafting:crystaltine_ingot'
+                ],
+                output: Item.of('extendedcrafting:crystaltine_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:basic_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:basic_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:gems/emerald',
+                    '#forge:gems/emerald',
+                    '#forge:gems/emerald'
+                ],
+                output: Item.of('extendedcrafting:ultimate_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:ingots/steel',
+                    '#forge:ingots/steel',
+                    '#forge:ingots/steel'
+                ],
+                output: Item.of('extendedcrafting:basic_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:elite_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:elite_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    '#forge:gems/mana_diamond',
+                    '#forge:gems/mana_diamond',
+                    '#forge:gems/mana_diamond'
+                ],
+                output: Item.of('extendedcrafting:elite_component', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:redstone_component',
+                    'extendedcrafting:black_iron_ingot',
+                    'extendedcrafting:black_iron_ingot'
+                ],
+                output: Item.of('extendedcrafting:redstone_catalyst', 1)
+            },
+            {
+                inputs: [
+                    'extendedcrafting:black_iron_slate',
+                    'extendedcrafting:luminessence',
+                    'extendedcrafting:redstone_ingot',
+                    'extendedcrafting:redstone_ingot',
+                    'extendedcrafting:redstone_ingot'
+                ],
+                output: Item.of('extendedcrafting:redstone_component', 1)
+            },
+        //Industrial Foregoing
+            {
                 inputs: ['minecraft:vine'],
                 output: Fluid.of('industrialforegoing:latex', 50)
             },
@@ -26,6 +191,7 @@ onEvent('recipes', (event) => {
                 inputs: ['minecraft:dandelion'],
                 output: Fluid.of('industrialforegoing:latex', 50)
             },
+        //Immersive Engineering
             {
                 inputs: ['#forge:sandstone', '#forge:sandstone', '#forge:sandstone', '#forge:sandstone', 'compressium:sand_2', '#engineersdecor:brick_blocks'],
                 output: Item.of('immersiveengineering:alloybrick', 2)
@@ -41,20 +207,6 @@ onEvent('recipes', (event) => {
                     Fluid.of('cyclic:magma', 250)
                 ],
                 output: Item.of('immersiveengineering:blastbrick', 2)
-            },
-            {
-                inputs: [
-                    '#botania:livingrock',
-                    'mana-and-artifice:vinteum_dust'
-                ],
-                output: Item.of('mana-and-artifice:stone_rune_blank', 2)
-            },
-            {
-                inputs: [
-                    'kubejs:compressed_iron_plate',
-                    'minecraft:smooth_stone'
-                ],
-                output: Item.of('pneumaticcraft:reinforced_stone', 4)
             },
             //Immersive
             {
@@ -246,165 +398,21 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('immersiveengineering:sheetmetal_constantan', 2)
             },
-
-            //Extended Crafting
+        //Mana and Artifice
             {
                 inputs: [
-                    'extendedcrafting:advanced_component',
-                    'extendedcrafting:advanced_component',
-                    'extendedcrafting:advanced_component',
-                    'extendedcrafting:advanced_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
+                    '#botania:livingrock',
+                    'mana-and-artifice:vinteum_dust'
                 ],
-                output: Item.of('extendedcrafting:advanced_catalyst', 1)
+                output: Item.of('mana-and-artifice:stone_rune_blank', 2)
             },
+        //Pneumaticcraft
             {
                 inputs: [
-                    'extendedcrafting:enhanced_ender_component',
-                    'extendedcrafting:enhanced_ender_component',
-                    'extendedcrafting:enhanced_ender_component',
-                    'extendedcrafting:enhanced_ender_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
+                    'kubejs:compressed_iron_plate',
+                    'minecraft:smooth_stone'
                 ],
-                output: Item.of('extendedcrafting:enhanced_ender_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:crystaltine_component',
-                    'extendedcrafting:crystaltine_component',
-                    'extendedcrafting:crystaltine_component',
-                    'extendedcrafting:crystaltine_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
-                ],
-                output: Item.of('extendedcrafting:crystaltine_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:ender_component',
-                    'extendedcrafting:ender_component',
-                    'extendedcrafting:ender_component',
-                    'extendedcrafting:ender_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
-                ],
-                output: Item.of('extendedcrafting:ender_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    '#forge:ingots/gold',
-                    '#forge:ingots/gold',
-                    '#forge:ingots/gold'
-                ],
-                output: Item.of('extendedcrafting:advanced_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    'extendedcrafting:ender_ingot',
-                    'extendedcrafting:ender_ingot',
-                    'extendedcrafting:ender_ingot'
-                ],
-                output: Item.of('extendedcrafting:ender_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    'extendedcrafting:enhanced_ender_ingot',
-                    'extendedcrafting:enhanced_ender_ingot',
-                    'extendedcrafting:enhanced_ender_ingot'
-
-                ],
-                output: Item.of('extendedcrafting:enhanced_ender_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    'extendedcrafting:crystaltine_ingot',
-                    'extendedcrafting:crystaltine_ingot',
-                    'extendedcrafting:crystaltine_ingot'
-                ],
-                output: Item.of('extendedcrafting:crystaltine_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:basic_component',
-                    'extendedcrafting:basic_component',
-                    'extendedcrafting:basic_component',
-                    'extendedcrafting:basic_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
-                ],
-                output: Item.of('extendedcrafting:basic_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    '#forge:gems/emerald',
-                    '#forge:gems/emerald',
-                    '#forge:gems/emerald'
-                ],
-                output: Item.of('extendedcrafting:ultimate_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    '#forge:ingots/steel',
-                    '#forge:ingots/steel',
-                    '#forge:ingots/steel'
-                ],
-                output: Item.of('extendedcrafting:basic_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:elite_component',
-                    'extendedcrafting:elite_component',
-                    'extendedcrafting:elite_component',
-                    'extendedcrafting:elite_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
-                ],
-                output: Item.of('extendedcrafting:elite_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    '#forge:gems/mana_diamond',
-                    '#forge:gems/mana_diamond',
-                    '#forge:gems/mana_diamond'
-                ],
-                output: Item.of('extendedcrafting:elite_component', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:redstone_component',
-                    'extendedcrafting:redstone_component',
-                    'extendedcrafting:redstone_component',
-                    'extendedcrafting:redstone_component',
-                    'extendedcrafting:black_iron_ingot',
-                    'extendedcrafting:black_iron_ingot'
-                ],
-                output: Item.of('extendedcrafting:redstone_catalyst', 1)
-            },
-            {
-                inputs: [
-                    'extendedcrafting:black_iron_slate',
-                    'extendedcrafting:luminessence',
-                    'extendedcrafting:redstone_ingot',
-                    'extendedcrafting:redstone_ingot',
-                    'extendedcrafting:redstone_ingot'
-                ],
-                output: Item.of('extendedcrafting:redstone_component', 1)
+                output: Item.of('pneumaticcraft:reinforced_stone', 4)
             }
         ],
         recipes_superheated: [{

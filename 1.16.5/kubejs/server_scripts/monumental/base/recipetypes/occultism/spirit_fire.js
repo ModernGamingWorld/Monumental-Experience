@@ -1,19 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
-        {
-            input: {
-                item: 'tconstruct:blaze_head'
-            },
-            output: 'mysticalagriculture:blaze_essence',
-            id: 'occultism:spirit_fire/blaze_essence'
-        },
-        {
-            input: {
-                item: 'tconstruct:enderman_head'
-            },
-            output: 'mysticalagriculture:enderman_essence',
-            id: 'occultism:spirit_fire/enderman_essence'
-        },
+    //Mystical
         {
             input: {
                 item: 'minecraft:creeper_head'
@@ -28,6 +15,21 @@ onEvent('recipes', (event) => {
             output: 'mysticalagriculture:zombie_essence',
             id: 'occultism:spirit_fire/zombie_essence'
         },
+        {
+            input: {
+                item: 'tconstruct:blaze_head'
+            },
+            output: 'mysticalagriculture:blaze_essence',
+            id: 'occultism:spirit_fire/blaze_essence'
+        },
+        {
+            input: {
+                item: 'tconstruct:enderman_head'
+            },
+            output: 'mysticalagriculture:enderman_essence',
+            id: 'occultism:spirit_fire/enderman_essence'
+        },
+    //Occultism
         {
             input: {
                 item: 'mysticalagriculture:wood_essence'

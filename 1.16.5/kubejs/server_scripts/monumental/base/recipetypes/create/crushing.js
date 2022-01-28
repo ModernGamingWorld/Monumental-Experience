@@ -1,10 +1,12 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [{
-                outputs: [Item.of('emendatusenigmatica:obsidian_dust'), Item.of('minecraft:obsidian').withChance(0.75)],
-                input: '#forge:obsidian',
-                id: 'create:crushing/obsidian'
+        recipes: [
+        //Atum
+            {
+                outputs: [Item.of('atum:emmer_flour', 1), Item.of('atum:emmer_flour', 2).withChance(0.25), Item.of('atum:emmer_seeds').withChance(0.25)],
+                input: 'atum:emmer'
             },
+        //Building Gadgets
             {
                 outputs: [
                     Item.of('buildinggadgets:construction_paste', 3),
@@ -13,6 +15,7 @@ onEvent('recipes', (event) => {
                 ],
                 input: 'buildinggadgets:construction_block_dense'
             },
+        //BYG
             {
                 outputs: [Item.of('byg:quartzite_sand', 2), Item.of('byg:quartzite_sand').withChance(0.5)],
                 input: 'byg:raw_quartz_block'
@@ -21,6 +24,7 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('minecraft:sand'), Item.of('minecraft:quartz').withChance(0.1)],
                 input: 'byg:quartzite_sand'
             },
+        //Botania
             {
                 outputs: [Item.of('botania:elementium_nugget', 5)],
                 input: '#forge:storage_blocks/elementium'
@@ -33,10 +37,16 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('botania:terrasteel_nugget', 5)],
                 input: '#forge:storage_blocks/terrasteel'
             },
+        //Minecraft
             {
                 outputs: [Item.of('minecraft:glowstone_dust', 5)],
                 input: '#forge:storage_blocks/refined_glowstone'
             },
+            {
+                outputs: [Item.of('minecraft:redstone', 5)],
+                input: '#forge:storage_blocks/redstone'
+            },
+        //Mekanism
             {
                 outputs: [Item.of('mekanism:dust_refined_obsidian', 5)],
                 input: '#forge:storage_blocks/refined_obsidian'
@@ -45,17 +55,10 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mekanism:dust_netherite', 5)],
                 input: '#forge:storage_blocks/netherite'
             },
-            {
-                outputs: [Item.of('minecraft:redstone', 5)],
-                input: '#forge:storage_blocks/redstone'
-            },
+        //Mystical Agradditions
             {
                 outputs: [Item.of('mysticalagradditions:insanium_essence', 5)],
                 input: 'mysticalagradditions:insanium_block'
-            },
-            {
-                outputs: [Item.of('atum:emmer_flour', 1), Item.of('atum:emmer_flour', 2).withChance(0.25), Item.of('atum:emmer_seeds').withChance(0.25)],
-                input: 'atum:emmer'
             },
             {
                 outputs: [Item.of('mysticalagradditions:insanium_coal', 5)],
@@ -65,6 +68,7 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagradditions:insanium_gemstone', 5)],
                 input: 'mysticalagradditions:insanium_gemstone_block'
             },
+            //Mystical Agriculture
             {
                 outputs: [Item.of('mysticalagriculture:tertium_essence', 5)],
                 input: 'mysticalagriculture:tertium_block'
@@ -73,7 +77,6 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('mysticalagriculture:supremium_essence', 5)],
                 input: 'mysticalagriculture:supremium_block'
             },
-            //Mystical Agriculture
             {
                 outputs: [Item.of('mysticalagriculture:imperium_essence', 5)],
                 input: 'mysticalagriculture:imperium_block'
@@ -110,6 +113,11 @@ onEvent('recipes', (event) => {
             {
                 outputs: [Item.of('emendatusenigmatica:bronze_dust', 9)],
                 input: '#forge:storage_blocks/bronze'
+            },
+            {
+                outputs: [Item.of('emendatusenigmatica:obsidian_dust'), Item.of('minecraft:obsidian').withChance(0.75)],
+                input: '#forge:obsidian',
+                id: 'create:crushing/obsidian'
             },
             {
                 outputs: [Item.of('emendatusenigmatica:coal_dust', 9)],

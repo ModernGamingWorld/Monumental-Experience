@@ -1,6 +1,7 @@
 onEvent('recipes', (event) => {
     const data = {
         recipes: [
+        //Natures Aura
             {
                 input: {
                     item: 'blue_skies:falsite_ingot'

@@ -1,9 +1,22 @@
 onEvent('recipes', (event) => {
-    const recipes = [
+    const recipes = [  
+    //BYG   
         {
-            input: 'upgrade_aquatic:squid_bucket',
+            input: 'mysticalagriculture:dirt_essence',
             fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
-            output: 'upgrade_aquatic:glow_squid_bucket'
+            output: 'byg:meadow_grass_block'
+        },  
+    //Extended Crafting     
+        {
+            input: 'astralsorcery:illumination_powder',
+            fluid: Fluid.of('astralsorcery:liquid_starlight', 1000),
+            output: 'extendedcrafting:luminessence'
+        },
+        //Farmer's Delight 
+        {
+            input: 'farmersdelight:milk_bottle',
+            fluid: Fluid.of('create:chocolate', 250),
+            output: 'farmersdelight:hot_cocoa'
         },
         {
             input: 'minecraft:glass_bottle',
@@ -12,22 +25,8 @@ onEvent('recipes', (event) => {
                 amount: 250
             },
             output: 'farmersdelight:milk_bottle'
-        },        
-        {
-            input: 'mysticalagriculture:dirt_essence',
-            fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
-            output: 'byg:meadow_grass_block'
-        },       
-        {
-            input: 'astralsorcery:illumination_powder',
-            fluid: Fluid.of('astralsorcery:liquid_starlight', 1000),
-            output: 'extendedcrafting:luminessence'
-        },
-        {
-            input: 'farmersdelight:milk_bottle',
-            fluid: Fluid.of('create:chocolate', 250),
-            output: 'farmersdelight:hot_cocoa'
-        },
+        },  
+    //Minecraft
         {
             input: 'minecraft:glass_bottle',
             fluid: Fluid.of('industrialforegoing:essence', 250),
@@ -42,6 +41,12 @@ onEvent('recipes', (event) => {
             input: 'minecraft:glass_bottle',
             fluid: Fluid.of('cofh_core:experience', 250),
             output: 'minecraft:experience_bottle'
+        },
+    //Upgrade Aquatic
+        {
+            input: 'upgrade_aquatic:squid_bucket',
+            fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
+            output: 'upgrade_aquatic:glow_squid_bucket'
         }
     ];
     recipes.forEach((recipe) => {

@@ -1,28 +1,13 @@
 onEvent('recipes', (event) => {
-    const recipes = [{
+    const recipes = [
+    //Astral Sorcery
+        {
             input: '#forge:storage_blocks/manasteel',
             output: 'astralsorcery:starmetal',
             count: 1,
             mana: 27000
         },
-        {
-            input: 'forbidden_arcanus:arcane_crystal_block',
-            output: 'naturesaura:infused_stone',
-            count: 1,
-            mana: 27000
-        },
-        {
-            input: '#forge:storage_blocks/compressed_iron',
-            output: 'naturesaura:infused_iron',
-            count: 1,
-            mana: 27000
-        },
-        {
-            input: 'occultism:soul_gem',
-            output: 'botania:mana_diamond',
-            count: 1,
-            mana: 10000
-        },
+    //Botania
         {
             input: 'forbidden_arcanus:chorus_pearl',
             output: 'botania:mana_pearl',
@@ -48,10 +33,30 @@ onEvent('recipes', (event) => {
             mana: 3000
         },
         {
+            input: 'occultism:soul_gem',
+            output: 'botania:mana_diamond',
+            count: 1,
+            mana: 10000
+        },
+    //Gobber
+        {
             input: 'compressium:netherrack_6',
             output: 'gobber2:gobber2_ore_nether',
             count: 1,
             mana: 2000
+        },
+    //Nature's Aura
+        {
+            input: 'forbidden_arcanus:arcane_crystal_block',
+            output: 'naturesaura:infused_stone',
+            count: 1,
+            mana: 27000
+        },
+        {
+            input: '#forge:storage_blocks/compressed_iron',
+            output: 'naturesaura:infused_iron',
+            count: 1,
+            mana: 27000
         }
     ];
 

@@ -1,22 +1,6 @@
 onEvent('recipes', (event) => {
-    const recipes = [{
-            input: {
-                tag: 'forge:cobblestone'
-            },
-            output: {
-                item: 'minecraft:gravel'
-            },
-            id: 'industrialforegoing:crusher/cobble_gravel'
-        },
-        {
-            input: {
-                tag: 'forge:gravel'
-            },
-            output: {
-                item: 'minecraft:sand'
-            },
-            id: 'industrialforegoing:crusher/gravel_sand'
-        },
+    const recipes = [
+    //BYG
         {
             input: {
                 item: 'byg:white_sandstone'
@@ -80,6 +64,35 @@ onEvent('recipes', (event) => {
             },
             id: 'enigmatica:industrialforegoing/crusher/end_stone_sand'
         },
+    //Emendatus Enigmatica
+        {
+            input: {
+                item: 'create:limesand'
+            },
+            output: {
+                item: 'emendatusenigmatica:silicon_gem'
+            },
+            id: 'enigmatica:industrialforegoing/crusher/silicon_gem'
+        },
+    //Minecraft
+        {
+            input: {
+                tag: 'forge:cobblestone'
+            },
+            output: {
+                item: 'minecraft:gravel'
+            },
+            id: 'industrialforegoing:crusher/cobble_gravel'
+        },
+        {
+            input: {
+                tag: 'forge:gravel'
+            },
+            output: {
+                item: 'minecraft:sand'
+            },
+            id: 'industrialforegoing:crusher/gravel_sand'
+        },
         {
             input: {
                 item: 'minecraft:red_sandstone'
@@ -97,15 +110,6 @@ onEvent('recipes', (event) => {
                 item: 'minecraft:sand'
             },
             id: 'enigmatica:industrialforegoing/crusher/sandstone_sand'
-        },
-        {
-            input: {
-                item: 'create:limesand'
-            },
-            output: {
-                item: 'emendatusenigmatica:silicon_gem'
-            },
-            id: 'enigmatica:industrialforegoing/crusher/silicon_gem'
         }
     ];
 
