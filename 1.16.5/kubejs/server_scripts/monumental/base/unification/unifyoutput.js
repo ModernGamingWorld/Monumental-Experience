@@ -11,6 +11,7 @@ onEvent('recipes', event => {
         event.replaceOutput(`#forge:dusts/wood${i}`, `${mod}:${i}_dust`)
         event.replaceOutput(`#forge:gears/${i}`, `${mod}:${i}_gear`)
         event.replaceOutput(`#forge:plates/${i}`, `${mod}:${i}_plate`)
-        event.replaceInput(`#forge:chunks/${i}`, `${mod}:${i}_chunk`)
+        event.replaceOutput(`#forge:chunks/${i}`, `${mod}:${i}_chunk`)
+        event.replaceOutput(`#forge:gems/${i}`, `${mod}:${i}_gem`)
     }
 })

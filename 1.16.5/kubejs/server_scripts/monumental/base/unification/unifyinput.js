@@ -12,5 +12,6 @@ onEvent('recipes', event => {
         event.replaceInput(`#forge:gears/${i}`, `${mod}:${i}_gear`)
         event.replaceInput(`#forge:dusts/wood${i}`, `${mod}:${i}_dust`)
         event.replaceInput(`#forge:chunks/${i}`, `${mod}:${i}_chunk`)
+        event.replaceInput(`#forge:gems/${i}`, `${mod}:${i}_gem`)
     }
 })

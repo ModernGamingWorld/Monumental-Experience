@@ -1,0 +1,323 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 1,
+                entries: [{
+                        name: "minecraft:map",
+                        type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "minecraft:exploration_map",
+                            destination: "bastion_remnant",
+                            decoration: "banner_black",
+                            zoom: 2,
+                            skip_existing_chunks: false
+                        }]
+                    },
+                    {
+                        name: "minecraft:map",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:exploration_map",
+                            destination: "fortresses",
+                            decoration: "banner_red",
+                            zoom: 2,
+                            skip_existing_chunks: false
+                        }]
+                    },
+                    {
+                        name: "minecraft:experience_bottle",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 4,
+                    max: 8,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "mysticalagriculture:iron_essence",
+                        type: "minecraft:item",
+                        weight: 70,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 5,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:coal_essence",
+                        type: "minecraft:item",
+                        weight: 70,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 6,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:skeleton_essence",
+                        type: "minecraft:item",
+                        weight: 55,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:gold_essence",
+                        type: "minecraft:item",
+                        weight: 45,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 20,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:stone_sword",
+                        type: "minecraft:item",
+                        weight: 35,
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 30,
+                                max: 45,
+                                type: "minecraft:uniform"
+                            },
+                            treasure: true
+                        }]
+                    },
+                    {
+                        name: "minecraft:magma_cream",
+                        type: "minecraft:item",
+                        weight: 30,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 7,
+                                max: 15,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:ancient_debris",
+                        type: "minecraft:item",
+                        weight: 30,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:crying_obsidian",
+                        type: "minecraft:item",
+                        weight: 20,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 5,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:spectral_arrow",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 15,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:netherite_scrap",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_block",
+                        type: "minecraft:item",
+                        weight: 6,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 5,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:iron_block",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 5,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:netherite_essence",
+                        type: "minecraft:item",
+                        weight: 3,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:elytra",
+                        type: "minecraft:item",
+                        weight: 1
+                    }
+                ]
+            },
+            {
+                rolls: 0,
+                bonus_rolls: 1,
+                entries: [{
+                        name: "minecraft:pink_banner",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 88
+                    },
+                    {
+                        name: "minecraft:suspicious_stew",
+                        type: "minecraft:item",
+                        weight: 76,
+                        functions: [{
+                            function: "minecraft:set_stew_effect",
+                            effects: [{
+                                    type: "minecraft:blindness",
+                                    duration: {
+                                        min: 10,
+                                        max: 25
+                                    }
+                                },
+                                {
+                                    type: "minecraft:wither",
+                                    duration: {
+                                        min: 10,
+                                        max: 20
+                                    }
+                                },
+                                {
+                                    type: "minecraft:weakness",
+                                    duration: {
+                                        min: 30,
+                                        max: 50
+                                    }
+                                },
+                                {
+                                    type: "minecraft:poison",
+                                    duration: {
+                                        min: 15,
+                                        max: 30
+                                    }
+                                },
+                                {
+                                    type: "minecraft:unluck",
+                                    duration: {
+                                        min: 200,
+                                        max: 400
+                                    }
+                                },
+                                {
+                                    type: "minecraft:fire_resistance",
+                                    duration: {
+                                        min: 360,
+                                        max: 600
+                                    }
+                                },
+                                {
+                                    type: "minecraft:night_vision",
+                                    duration: {
+                                        min: 60,
+                                        max: 120
+                                    }
+                                },
+                                {
+                                    type: "minecraft:saturation",
+                                    duration: {
+                                        min: 10,
+                                        max: 12
+                                    }
+                                }
+                            ]
+                        }]
+                    },
+                    {
+                        name: "minecraft:red_banner",
+                        type: "minecraft:item",
+                        weight: 36,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:mr,Color:14},{Pattern:mr,Color:4},{Pattern:cbo,Color:14},{Pattern:cbo,Color:4},{Pattern:flo,Color:15},{Pattern:flo,Color:15},{Pattern:flo,Color:14},{Pattern:sku,Color:15},{Pattern:sku,Color:15},{Pattern:bo,Color:1},{Pattern:bo,Color:4},{Pattern:bo,Color:15}]}}"
+                        }]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/shipwreck/nether_bricks/treasure_chest.json`, loot_table);;
+})

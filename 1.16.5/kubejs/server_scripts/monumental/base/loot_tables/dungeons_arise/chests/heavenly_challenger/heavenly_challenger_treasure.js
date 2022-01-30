@@ -1,0 +1,242 @@
+onEvent('server.datapack.high_priority', (event) => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 1,
+                    max: 1
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:book",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:experience_bottle",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:emerald_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 32
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 2,
+                        name: "mysticalagriculture:netherite_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:netherite_scrap",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 12,
+                                max: 24
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:diamond",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 12,
+                                max: 16
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 3
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:netherite_helmet"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:netherite_boots"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:netherite_pickaxe"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_sword",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 39
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:crossbow",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 39
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 39
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 39
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 29
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 25,
+                                max: 39
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 10
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:book",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 30
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:enchanted_golden_apple",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 20,
+                        name: "minecraft:golden_apple",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/nether_bridge"
+                }]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/heavenly_challenger/heavenly_challenger_treasure.json`, loot_table);
+})

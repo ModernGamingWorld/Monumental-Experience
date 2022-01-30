@@ -1,7 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
         { type: {}, toReplace: 'create:dough', replaceWith: 'farmersdelight:wheat_dough' },
-        { type: {}, toReplace: 'simplefarming:chocolate', replaceWith: 'create:bar_of_chocolate' },
         { type: {}, toReplace: 'thermal:rubber', replaceWith: 'industrialforegoing:dryrubber' },
         { type: {}, toReplace: 'immersiveengineering:slag', replaceWith: 'thermal:slag' },
         {

@@ -53,11 +53,6 @@ onEvent('server.datapack.high_priority', event => {
                         weight: 5
                     },
                     {
-                        type: "minecraft:item",
-                        weight: 2,
-                        name: "minecraft:music_disc_otherside"
-                    },
-                    {
                         name: "minecraft:bow",
                         type: "minecraft:item",
                         weight: 10,

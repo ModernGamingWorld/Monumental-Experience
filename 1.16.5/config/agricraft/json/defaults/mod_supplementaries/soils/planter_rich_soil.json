@@ -1,0 +1,29 @@
+{
+  "path": "mod_supplementaries/soils/planter_rich_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "farmersdelight",
+    "supplementaries",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "planter_rich_soil",
+  "lang_key": " ",
+  "varients": [
+    {
+      "type": "block",
+      "object": "supplementaries:planter_rich",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "damp",
+  "acidity": "neutral",
+  "nutrients": "very_high",
+  "growth_modifier": 1.8
+}

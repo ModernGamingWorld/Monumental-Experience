@@ -52,11 +52,6 @@ onEvent('server.datapack.high_priority', event => {
                         weight: 3
                     },
                     {
-                        type: "minecraft:item",
-                        weight: 1,
-                        name: "minecraft:music_disc_otherside"
-                    },
-                    {
                         name: "minecraft:nautilus_shell",
                         type: "minecraft:item",
                         weight: 16,

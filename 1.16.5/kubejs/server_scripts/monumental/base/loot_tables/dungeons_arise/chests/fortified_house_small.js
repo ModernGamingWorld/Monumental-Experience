@@ -1,0 +1,176 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 2,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:enderman_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:ender_eye",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_helmet"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_leggings"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_boots"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chainmail_chestplate"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_sword"
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "minecraft:arrow",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 16
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "mysticalagriculture:lapis_lazuli_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 12
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:slime_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:lily_of_the_valley",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:stone_bricks",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:acacia_wood",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 10,
+                        name: "mysticalagriculture:emerald_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 20,
+                        name: "mysticalagriculture:iron_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 3,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "mysticalagriculture:skeleton_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/village/village_weaponsmith"
+                }]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/fortified_house_small.json`, loot_table);;
+});

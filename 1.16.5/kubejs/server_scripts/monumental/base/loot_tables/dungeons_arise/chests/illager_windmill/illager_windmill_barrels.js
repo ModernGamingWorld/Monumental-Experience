@@ -1,0 +1,196 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: 2,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:redstone_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:fermented_spider_eye",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:spider_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:creeper_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:wheat",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:coal_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 6,
+                                max: 8
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:empty",
+                        weight: 15
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:diamond_sword",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:iron_helmet",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:iron_leggings",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:iron_chestplate",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:iron_boots",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: 10
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: {
+                    min: 1,
+                    max: 2
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:gold_nugget",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 24,
+                                max: 32
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:iron_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 8,
+                                max: 14
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:emerald_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 16
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:potion",
+                        functions: [{
+                            function: "minecraft:set_nbt",
+                            tag: "{display:{Name:'{\"text\":\"Beer\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'},CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:4800},{Id:3b,Amplifier:1b,Duration:4800},{Id:10b,Amplifier:0b,Duration:4800},{Id:18b,Amplifier:3b,Duration:9600}],CustomPotionColor:15794030}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_hoe"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:saddle"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:smithing_table"
+                    }
+                ]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/illager_windmill/illager_windmill_barrels.json`, loot_table);
+});

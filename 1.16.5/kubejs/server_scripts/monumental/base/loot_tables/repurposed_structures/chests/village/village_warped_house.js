@@ -1,0 +1,222 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 3,
+                    max: 8,
+                    type: "minecraft:uniform"
+                },
+                entries: [{
+                        name: "mysticalagriculture:gold_essence",
+                        type: "minecraft:item",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_nugget",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gilded_blackstone",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:nether_gold_ore",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:light_weighted_pressure_plate",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:nether_wart",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 5,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:warped_fungus",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:pig_essence",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:cooked_porkchop",
+                        type: "minecraft:item",
+                        weight: 10,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:gold_block",
+                        type: "minecraft:item"
+                    },
+                    {
+                        name: "minecraft:golden_sword",
+                        type: "minecraft:item"
+                    },
+                    {
+                        name: "minecraft:warped_wart_block",
+                        type: "minecraft:item",
+                        weight: 2,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    },
+                    {
+                        name: "minecraft:warped_roots",
+                        type: "minecraft:item",
+                        weight: 5,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2,
+                                type: "minecraft:uniform"
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 0,
+                bonus_rolls: 1,
+                entries: [{
+                        name: "minecraft:pink_banner",
+                        type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                        }]
+                    },
+                    {
+                        type: "minecraft:empty",
+                        weight: 4
+                    },
+                    {
+                        name: "minecraft:blue_banner",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "set_nbt",
+                            tag: "{BlockEntityTag:{Patterns:[{Pattern:gra,Color:10},{Pattern:bri,Color:15},{Pattern:bri,Color:11},{Pattern:tts,Color:11},{Pattern:tts,Color:15},{Pattern:bts,Color:11},{Pattern:bts,Color:15},{Pattern:ms,Color:15},{Pattern:mr,Color:15},{Pattern:ms,Color:11},{Pattern:mr,Color:11},{Pattern:pig,Color:15}]}}"
+                        }]
+                    },
+                    {
+                        name: "mysticalagriculture:emerald_essence",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: 3
+                        }]
+                    },
+                    {
+                        name: "minecraft:golden_hoe",
+                        type: "minecraft:item",
+                        weight: 4,
+                        functions: [{
+                                function: "minecraft:set_damage",
+                                damage: {
+                                    min: 0,
+                                    max: 0.6
+                                }
+                            },
+                            {
+                                function: "minecraft:enchant_with_levels",
+                                levels: {
+                                    min: -10,
+                                    max: 15,
+                                    type: "minecraft:uniform"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/village/village_warped_house.json`, loot_table);;
+})

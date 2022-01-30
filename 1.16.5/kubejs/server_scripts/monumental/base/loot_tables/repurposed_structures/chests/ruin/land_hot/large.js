@@ -1,0 +1,245 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+    type: "minecraft:chest",
+    pools: [{
+            rolls: {
+                min: 2,
+                max: 8,
+                type: "minecraft:uniform"
+            },
+            entries: [{
+                    name: "mysticalagriculture:coal_essence",
+                    type: "minecraft:item",
+                    weight: 12,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 4,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:gold_nugget",
+                    type: "minecraft:item",
+                    weight: 12,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 2,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "mysticalagriculture:nature_essence",
+                    type: "minecraft:item",
+                    weight: 10,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 2,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:poisonous_potato",
+                    type: "minecraft:item",
+                    weight: 5,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 2,
+                            max: 7,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "mysticalagriculture:skeleton_essence",
+                    type: "minecraft:item",
+                    weight: 5,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:stone_shovel",
+                    type: "minecraft:item",
+                    weight: 5,
+                    functions: [{
+                        function: "minecraft:set_damage",
+                        damage: {
+                            min: 0.1,
+                            max: 0.9
+                        }
+                    }]
+                },
+                {
+                    type: "minecraft:item",
+                    name: "mysticalagriculture:emerald_essence",
+                    weight: 1
+                }
+            ]
+        },
+        {
+            rolls: 2,
+            entries: [{
+                    name: "minecraft:compass",
+                    type: "minecraft:item",
+                    weight: 5
+                },
+                {
+                    name: "minecraft:stone_shovel",
+                    type: "minecraft:item",
+                    weight: 5
+                },
+                {
+                    name: "minecraft:clay",
+                    type: "minecraft:item",
+                    weight: 3,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 2,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:writable_book",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:book",
+                    type: "minecraft:item",
+                    weight: 1,
+                    functions: [{
+                        function: "minecraft:enchant_randomly"
+                    }]
+                },
+                {
+                    name: "minecraft:leather_helmet",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:leather_chestplate",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:leather_leggings",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:leather_boots",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:saddle",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:painting",
+                    type: "minecraft:item",
+                    weight: 1,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:lead",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:golden_apple",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:map",
+                    type: "minecraft:item",
+                    weight: 1,
+                    functions: [{
+                        function: "minecraft:exploration_map",
+                        destination: "repurposed_structures:bastion_underground",
+                        decoration: "banner_gray",
+                        zoom: 2,
+                        skip_existing_chunks: false
+                    }]
+                }
+            ]
+        },
+        {
+            rolls: 0,
+            bonus_rolls: 1,
+            entries: [{
+                    name: "minecraft:pink_banner",
+                    type: "minecraft:item",
+                    weight: 25,
+                    functions: [{
+                        function: "set_nbt",
+                        tag: "{BlockEntityTag:{Patterns:[{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:cs,Color:0},{Pattern:bo,Color:3},{Pattern:bo,Color:3},{Pattern:bo,Color:3}]}}"
+                    }]
+                },
+                {
+                    type: "minecraft:empty",
+                    weight: 160
+                },
+                {
+                    name: "minecraft:gray_banner",
+                    type: "minecraft:item",
+                    weight: 140,
+                    functions: [{
+                        function: "set_nbt",
+                        tag: "{BlockEntityTag:{Patterns:[{Pattern:gru,Color:1},{Pattern:gra,Color:1},{Pattern:gra,Color:1},{Pattern:gra,Color:4},{Pattern:gru,Color:4},{Pattern:flo,Color:15},{Pattern:mr,Color:15},{Pattern:mr,Color:1},{Pattern:mc,Color:4},{Pattern:flo,Color:1},{Pattern:tts,Color:1},{Pattern:bts,Color:1}]}}"
+                    }]
+                },
+                {
+                    name: "minecraft:iron_shovel",
+                    type: "minecraft:item",
+                    weight: 100,
+                    functions: [{
+                            function: "minecraft:set_damage",
+                            damage: {
+                                min: 0.1,
+                                max: 0.75
+                            }
+                        },
+                        {
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 5,
+                                max: 25,
+                                type: "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+                ]
+            }
+        ]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/ruin/land_hot/large.json`, loot_table);;
+})

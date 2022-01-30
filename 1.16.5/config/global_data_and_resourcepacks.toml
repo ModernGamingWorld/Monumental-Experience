@@ -1,0 +1,19 @@
+#This config allows you to add or remove folders or single files as Data-/Resourcepacks
+#For that simply specify the file path to the folder/file relative to your .minecraft folder
+[resourcepacks]
+required = [
+    "global_resource_packs/",
+    "global_packs/required_resources/"
+]
+
+[datapacks]
+required = [
+    "global_data_packs/",
+    "resourcepacks/",
+    "global_packs/required_datapacks/"
+]
+
+optional = [
+    "optional_data_packs/",
+    "global_packs/optional_datapacks/"
+]

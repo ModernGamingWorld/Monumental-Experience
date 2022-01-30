@@ -1,0 +1,30 @@
+{
+  "path": "mod_supplementaries/soils/planter_rich_soul_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "farmersdelight",
+    "nethers_delight",
+    "supplementaries",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "planter_rich_soul_soil",
+  "lang_key": " ",
+  "varients": [
+    {
+      "type": "block",
+      "object": "supplementaries:planter_rich_soul",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "arid",
+  "acidity": "neutral",
+  "nutrients": "very_high",
+  "growth_modifier": 1.8
+}

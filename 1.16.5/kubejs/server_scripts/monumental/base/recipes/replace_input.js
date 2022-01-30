@@ -12,6 +12,13 @@ onEvent('recipes', (event) => {
         },
         toReplace: 'naturesaura:tainted_gold',
         replaceWith: 'mana-and-artifice:superheated_purified_vinteum_ingot'
+    },
+    {
+        replaceTarget: {
+            id: 'pamhc2foodextended:rawtofishitem'
+        },
+        toReplace: '#forge:soysauce',
+        replaceWith: '#forge:condiments/soysauce'
     }];
     event.replaceInput({}, 'architects_palette:withered_bone', '#forge:bones/wither');
     event.replaceInput({}, 'minecraft:stick', '#forge:rods/wooden');

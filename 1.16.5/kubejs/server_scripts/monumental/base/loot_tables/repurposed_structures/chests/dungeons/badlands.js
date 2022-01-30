@@ -49,11 +49,6 @@ onEvent('server.datapack.high_priority', event => {
                         functions: [{
                             function: "minecraft:enchant_randomly"
                         }]
-                    },
-                    {
-                        type: "minecraft:item",
-                        weight: 2,
-                        name: "minecraft:music_disc_otherside"
                     }
                 ]
             },

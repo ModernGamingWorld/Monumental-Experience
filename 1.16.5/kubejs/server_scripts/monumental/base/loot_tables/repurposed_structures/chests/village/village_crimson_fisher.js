@@ -1,0 +1,103 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+            rolls: {
+                min: 2,
+                max: 5,
+                type: "minecraft:uniform"
+            },
+            entries: [{
+                    name: "mysticalagriculture:gold_essence",
+                    type: "minecraft:item"
+                },
+                {
+                    name: "minecraft:cooked_porkchop",
+                    type: "minecraft:item",
+                    weight: 2,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "mysticalagriculture:pig_essence",
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:lava_bucket",
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:barrel",
+                    type: "minecraft:item",
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:nether_wart",
+                    type: "minecraft:item",
+                    weight: 3,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "mysticalagriculture:coal_essence",
+                    type: "minecraft:item",
+                    weight: 2,
+                    functions: [{
+                        function: "minecraft:set_count",
+                        count: {
+                            min: 1,
+                            max: 3,
+                            type: "minecraft:uniform"
+                        }
+                    }]
+                },
+                {
+                    name: "minecraft:fishing_rod",
+                    type: "minecraft:item",
+                    weight: 1
+                },
+                {
+                    name: "minecraft:warped_fungus_on_a_stick",
+                    type: "minecraft:item",
+                    weight: 1
+                }
+            ]
+        }]
+    };
+    event.addJson(`repurposed_structures:loot_tables/chests/village/village_crimson_fisher.json`, loot_table);;
+})

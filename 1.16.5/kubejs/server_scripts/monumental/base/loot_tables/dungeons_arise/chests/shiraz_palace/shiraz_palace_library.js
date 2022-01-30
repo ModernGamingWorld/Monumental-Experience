@@ -1,0 +1,187 @@
+onEvent('server.datapack.high_priority', event => {
+    let loot_table = {
+        type: "minecraft:chest",
+        pools: [{
+                rolls: {
+                    min: 2,
+                    max: 3
+                },
+                entries: [{
+                        type: "minecraft:item",
+                        name: "minecraft:nether_wart",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:music_disc_11"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:skeleton_skull"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:book",
+                        functions: [{
+                            function: "minecraft:enchant_with_levels",
+                            levels: {
+                                min: 1,
+                                max: 12
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:tnt",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:redstone_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 12
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:glowstone_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 2,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:prismarine_shard",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 8
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:sponge"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_chestplate"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:iron_helmet"
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:chorus_fruit",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:poppy",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "mysticalagriculture:creeper_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 6
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        name: "minecraft:blue_orchid",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 2
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 5,
+                        name: "minecraft:gold_nugget",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 4,
+                                max: 12
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 15,
+                        name: "mysticalagriculture:gold_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 3
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
+                        weight: 20,
+                        name: "mysticalagriculture:iron_essence",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 4
+                            }
+                        }]
+                    }
+                ]
+            },
+            {
+                rolls: 1,
+                entries: [{
+                    type: "minecraft:loot_table",
+                    name: "minecraft:chests/woodland_mansion"
+                }]
+            }
+        ]
+    }
+    event.addJson(`dungeons_arise:loot_tables/chests/shiraz_palace/shiraz_palace_library.json`, loot_table);;
+})

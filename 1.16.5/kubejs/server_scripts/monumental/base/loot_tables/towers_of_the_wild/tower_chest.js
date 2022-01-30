@@ -122,11 +122,6 @@ onEvent('server.datapack.high_priority', (event) => {
                         name: 'minecraft:book'
                     },
                     {
-                        type: 'minecraft:item',
-                        weight: 1,
-                        name: 'tconstruct:sky_slime_boots'
-                    },
-                    {
                         type: 'item',
                         weight: 2,
                         name: 'apotheosis:potion_charm',
