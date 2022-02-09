@@ -20,7 +20,7 @@ onEvent('recipes', event => {
 		B: '#forge:bitumen',
 		W: '#forge:buckets/water',
 		G: '#forge:gravel'
-	})
+	}).id('AVSP:immersivepetroleum/shaped/asphalt')
 	event.remove({id: 'immersivepetroleum:asphalt2'})
 	event.shaped('12x immersivepetroleum:asphalt', [
 		'SBS',
@@ -31,7 +31,7 @@ onEvent('recipes', event => {
 		B: '#forge:bitumen',
 		W: '#forge:buckets/water',
 		G: '#forge:gravel'
-	})
+	}).id('AVSP:immersivepetroleum/shaped/asphalt2')
 
     event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen')
     event.replaceInput({}, '#forge:bitumen', '#forge:gems/bitumen')

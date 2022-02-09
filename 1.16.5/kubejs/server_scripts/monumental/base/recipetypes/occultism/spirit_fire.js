@@ -28,14 +28,6 @@ onEvent('recipes', (event) => {
             },
             output: 'mysticalagriculture:enderman_essence',
             id: 'occultism:spirit_fire/enderman_essence'
-        },
-    //Occultism
-        {
-            input: {
-                item: 'mysticalagriculture:wood_essence'
-            },
-            output: 'occultism:otherworld_ashes',
-            id: 'occultism:spirit_fire/otherworld_ashes'
         }
     ];
 

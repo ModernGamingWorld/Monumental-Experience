@@ -72,6 +72,7 @@ const itemsToHide = [
 
     //Create
     'create:powdered_obsidian',
+    'create:dough',
 
     //Compact Storage
     'compactstorage:backpack_white',

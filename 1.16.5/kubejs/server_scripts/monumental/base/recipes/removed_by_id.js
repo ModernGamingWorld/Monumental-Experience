@@ -840,6 +840,11 @@ onEvent('recipes', event => {
     event.remove({
         id: 'botania:mana_ring_greater'
     })
+    
+    //Botanical Machinery
+    event.remove({
+        id: 'botanicalmachinery:botania/runic_altar'
+    })
 
     //BloodMagic recipes
     event.remove({
@@ -3863,9 +3868,41 @@ onEvent('recipes', event => {
         id: 'marquot:geewamp_wood_pressure_plate_recipe'
     })
 
+    //MATC
+    event.remove({
+        id: 'matc:prudentium_essence'
+    })
+    event.remove({
+        id: 'matc:tertium_essence'
+    })
+    event.remove({
+        id: 'matc:imperium_essence'
+    })
+    event.remove({
+        id: 'matc:supremium_essence'
+    })
+
     //Mystical Agriculture
     event.remove({
         id: 'mysticalagriculture:inferium_furnace'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_essence_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_essence_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_essence_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_essence_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:insanium_essence_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:mystical_fertilzer'
     })
     event.remove({
         id: 'mysticalagriculture:prudentium_furnace'
