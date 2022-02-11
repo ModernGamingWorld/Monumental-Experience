@@ -109,6 +109,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'aquaculture:neptunium_boots'
     })
+    event.remove({
+        id: 'aquaculture:neptunium_bow'
+    })
 
     //Alex's Mobs Recipes
     event.remove({
@@ -1883,6 +1886,11 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'envirotech:block/ct_lens'
+    })
+
+    //Explorer's Compass
+    event.remove({
+        id: 'explorerscompass:explorers_compass'
     })
 
     //Extended Crafting
@@ -3882,28 +3890,233 @@ onEvent('recipes', event => {
         id: 'matc:supremium_essence'
     })
 
-    //Mystical Agriculture
+    //Mystical Agriculture Coal
     event.remove({
-        id: 'mysticalagriculture:inferium_furnace'
+        id: 'mysticalagradditions:inferium_coal'
     })
+    event.remove({
+        id: 'mysticalagradditions:imperium_coal'
+    })
+    event.remove({
+        id: 'mysticalagradditions:prudentium_coal'
+    })
+    event.remove({
+        id: 'mysticalagradditions:supremium_coal'
+    })
+    event.remove({
+        id: 'mysticalagradditions:tertium_coal'
+    })
+
+    //Mystical Agriculture Apple
+    event.remove({
+        id: 'mysticalagradditions:inferium_apple'
+    })
+    event.remove({
+        id: 'mysticalagradditions:imperium_apple'
+    })
+    event.remove({
+        id: 'mysticalagradditions:supremium_apple'
+    })
+    event.remove({
+        id: 'mysticalagradditions:tertium_apple'
+    })
+    event.remove({
+        id: 'mysticalagradditions:prudentium_apple'
+    })
+
+    //Mystical Agriculture Gemstone
+    event.remove({
+        id: 'mysticalagradditions:inferium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prosperity_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_gemstone'
+    })
+
+    //Mystical Agriculture Misc
+    event.remove({
+        id: 'mysticalagriculture:infusion_altar'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tinkering_table'
+    })
+    event.remove({
+        id: 'mysticalagriculture:infusion_pedestal'
+    })
+
+    //Mystical Agriculture Ingot
+    event.remove({
+        id: 'mysticalagriculture:prosperity_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prosperity_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prosperity_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_ingot_recraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_ingot_block_uncraft'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_ingot'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_ingot_recraft'
+    })
+
+    //Mystical Agriculture Gemstone
+    event.remove({
+        id: 'mysticalagriculture:prosperity_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_gemstone'
+    })
+    event.remove({
+        id: 'mysticalagriculture:soulium_gemstone'
+    })
+
+    //Mystical Agriculture Watering cans
+    event.remove({
+        id: 'mysticalagriculture:tertium_watering_can'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_watering_can'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_watering_can'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_watering_can'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_watering_can'
+    })
+
+    //Mystical Agriculture Essence
     event.remove({
         id: 'mysticalagriculture:tertium_essence_uncraft'
     })
     event.remove({
-        id: 'mysticalagriculture:imperium_essence_uncraft'
+        id: 'mysticalagriculture:inferium_essence_uncraft'
     })
     event.remove({
-        id: 'mysticalagriculture:supremium_essence_uncraft'
+        id: 'mysticalagriculture:essence/appliedenergistics2/logic_press'
     })
     event.remove({
-        id: 'mysticalagriculture:prudentium_essence_uncraft'
+        id: 'mysticalagriculture:essence/appliedenergistics2/silicon_press'
     })
     event.remove({
-        id: 'mysticalagriculture:insanium_essence_uncraft'
+        id: 'mysticalagriculture:essence/minecraft/arrow'
     })
     event.remove({
-        id: 'mysticalagriculture:mystical_fertilzer'
+        id: 'mysticalagriculture:insanium_essence'
     })
+    event.remove({
+        id: 'mysticalagriculture:inferium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_essence'
+    })
+    event.remove({
+        output: '#mysticalagriculture:essences'
+    })
+    event.remove({
+        id: 'mysticalagriculture:imperium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_essence'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_block_uncraft'
+    })
+
+    //Mystical Agriculture Furnace
     event.remove({
         id: 'mysticalagriculture:prudentium_furnace'
     })
@@ -3916,6 +4129,28 @@ onEvent('recipes', event => {
     event.remove({
         id: 'mysticalagriculture:supremium_furnace'
     })
+
+    //Mystical Agriculture Farmland
+    event.remove({
+        id: 'mysticalagriculture:imperium_farmland'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_farmland'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_farmland_till'
+    })
+    event.remove({
+        id: 'mysticalagriculture:prudentium_farmland'
+    })
+    event.remove({
+        id: 'mysticalagriculture:supremium_farmland'
+    })
+    event.remove({
+        id: 'mysticalagriculture:tertium_farmland'
+    })
+
+    //Mystical Agriculture Tools
     event.remove({
         id: 'mysticalagriculture:prudentium_axe'
     })
@@ -3929,9 +4164,6 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:supremium_axe'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_watering_can'
-    })
-    event.remove({
         id: 'mysticalagriculture:tertium_pickaxe'
     })
     event.remove({
@@ -3940,7 +4172,6 @@ onEvent('recipes', event => {
     event.remove({
         id: 'mysticalagriculture:supremium_pickaxe'
     })
-
     event.remove({
         id: 'mysticalagriculture:prudentium_pickaxe'
     })
@@ -3954,6 +4185,17 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:inferium_axe'
     })
     event.remove({
+        id: 'mysticalagriculture:inferium_shovel'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_sword'
+    })
+    event.remove({
+        id: 'mysticalagriculture:inferium_hoe'
+    })
+
+    //Mystical Agriculture Armor
+    event.remove({
         id: 'mysticalagriculture:inferium_chestplate'
     })
     event.remove({
@@ -3966,179 +4208,55 @@ onEvent('recipes', event => {
         id: 'mysticalagriculture:inferium_helmet'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_shovel'
+        id: 'mysticalagriculture:prudentium_chestplate'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_sword'
+        id: 'mysticalagriculture:prudentium_leggings'
     })
     event.remove({
-        id: 'mysticalagradditions:inferium_apple'
+        id: 'mysticalagriculture:prudentium_boots'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_farmland'
+        id: 'mysticalagriculture:prudentium_helmet'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_hoe'
+        id: 'mysticalagriculture:tertium_chestplate'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_farmland_till'
+        id: 'mysticalagriculture:tertium_leggings'
     })
     event.remove({
-        id: 'mysticalagradditions:inferium_coal'
+        id: 'mysticalagriculture:tertium_boots'
     })
     event.remove({
-        id: 'mysticalagradditions:inferium_gemstone'
+        id: 'mysticalagriculture:tertium_helmet'
     })
     event.remove({
-        id: 'mysticalagriculture:inferium_ingot'
+        id: 'mysticalagriculture:imperium_chestplate'
     })
     event.remove({
-        id: 'mysticalagriculture:tertium_ingot'
+        id: 'mysticalagriculture:imperium_leggings'
     })
     event.remove({
-        id: 'mysticalagriculture:imperium_ingot'
+        id: 'mysticalagriculture:imperium_boots'
     })
     event.remove({
-        id: 'mysticalagriculture:supremium_ingot'
+        id: 'mysticalagriculture:imperium_helmet'
     })
     event.remove({
-        id: 'mysticalagriculture:soulium_ingot'
+        id: 'mysticalagriculture:supremium_chestplate'
     })
     event.remove({
-        id: 'mysticalagriculture:infusion_altar'
+        id: 'mysticalagriculture:supremium_leggings'
     })
     event.remove({
-        id: 'mysticalagriculture:infusion_pedestal'
+        id: 'mysticalagriculture:supremium_boots'
     })
     event.remove({
-        id: 'mysticalagriculture:prosperity_ingot'
+        id: 'mysticalagriculture:supremium_helmet'
     })
-    event.remove({
-        id: 'mysticalagriculture:tinkering_table'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prosperity_shard'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prosperity_block_uncraft'
-    })
-    event.remove({
-        id: 'mysticalagriculture:inferium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:inferium_block_uncraft'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_block_uncraft'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_block_uncraft'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_block_uncraft'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_block_uncraft'
-    })
-    event.remove({
-        output: '#mysticalagriculture:essences'
-    })
-    event.remove({
-        id: 'mysticalagradditions:imperium_apple'
-    })
-    event.remove({
-        id: 'mysticalagradditions:imperium_coal'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_farmland'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagriculture:imperium_watering_can'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prosperity_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prosperity_ingot'
-    })
-    event.remove({
-        id: 'mysticalagradditions:prudentium_apple'
-    })
-    event.remove({
-        id: 'mysticalagradditions:prudentium_coal'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_farmland'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_watering_can'
-    })
-    event.remove({
-        id: 'mysticalagriculture:prudentium_ingot'
-    })
-    event.remove({
-        id: 'mysticalagriculture:soulium_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagradditions:supremium_apple'
-    })
-    event.remove({
-        id: 'mysticalagradditions:supremium_coal'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_farmland'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagriculture:supremium_watering_can'
-    })
-    event.remove({
-        id: 'mysticalagradditions:tertium_apple'
-    })
-    event.remove({
-        id: 'mysticalagradditions:tertium_coal'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_essence'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_farmland'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_gemstone'
-    })
-    event.remove({
-        id: 'mysticalagriculture:tertium_watering_can'
-    })
+
+    //Mystical Agradditions
     event.remove({
         id: 'mysticalagradditions:insanium_apple'
     })
@@ -4632,6 +4750,11 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'mekanism:processing/uranium/ingot/from_nuggets'
+    })
+
+    //Nature's Compass
+    event.remove({
+        id: 'naturescompass:natures_compass'
     })
 
     //Natures
