@@ -119,5 +119,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     };
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/gunpowder_barrel.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/gunpowder_barrel.json`, loot_table);;
 });

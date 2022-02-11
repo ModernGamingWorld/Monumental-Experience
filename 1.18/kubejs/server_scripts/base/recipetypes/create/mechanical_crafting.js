@@ -392,8 +392,36 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('immersiveengineering:connector_hv', 2)
             },
+            /*
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_electrum',
+                    X: '#forge:rods/electrum',
+                    C: '#forge:terracotta'
+                },
+                result: Item.of('immersiveengineering:connector_mv_relay', 4)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_copper',
+                    X: '#forge:rods/copper',
+                    C: '#forge:terracotta'
+                },
+                result: Item.of('immersiveengineering:connector_lv_relay', 4)
+            },
+            {
+                pattern: [" W ", "CXC", "CXC"],
+                key: {
+                    W: 'immersiveengineering:wirecoil_steel',
+                    X: '#forge:rods/aluminum',
+                    C: 'immersiveengineering:insulating_glass'
+                },
+                result: Item.of('immersiveengineering:connector_hv_relay', 4)
+            },
             //Immersive Petroleum
-            /*{
+            {
                 pattern: ["PPP", "PGC", "PPP"],
                 key: {
                     P: '#forge:plates/iron',
@@ -401,6 +429,16 @@ onEvent('recipes', (event) => {
                     C: 'immersiveengineering:capacitor_lv'
                 },
                 result: Item.of('immersivepetroleum:gas_generator', 1)
+            },
+            //Industrial Foregoing
+            {
+                pattern: ["ABA", "BCB", "ABA"],
+                key: {
+                    A: '#forge:treated_wood',
+                    B: 'kubejs:compressed_iron_plate',
+                    C: 'thermal:redstone_servo'
+                },
+                result: Item.of('industrialforegoing:machine_frame_pity', 1)
             },*/
             //Iron Furnaces
             {
@@ -482,6 +520,49 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('ironfurnaces:silver_furnace', 1)
             },
+            //Mekanism Generators 
+            /*{
+                pattern: ["PAP", "PAP", "III"],
+                key: {
+                    P: 'mekanismgenerators:solar_generator',
+                    A: '#mekanism:alloys/infused',
+                    I: 'kubejs:compressed_iron_plate'
+                },
+                result: Item.of('mekanismgenerators:advanced_solar_generator', 1)
+            },
+            {
+                pattern: ["OWO", "XCX", "OAO"],
+                key: {
+                    C: 'mekanism:electrolytic_core',
+                    X: '#mekanism:alloys/infused',
+                    W: 'mekanism:steel_casing',
+                    O: '#forge:plates/osmium',
+                    A: '#forge:circuits/basic'
+                },
+                result: Item.of('mekanismgenerators:gas_burning_generator', 1)
+            },
+            {
+                pattern: ["III", "WOW", "CFC"],
+                key: {
+                    W: '#forge:plates/osmium',
+                    I: 'kubejs:compressed_iron_plate',
+                    O: 'routerreborn:furnace',
+                    C: '#forge:plates/bronze',
+                    F: '#forge:circuits/basic'
+                },
+                result: Item.of('mekanismgenerators:heat_generator', 1)
+            },
+            {
+                pattern: ["QQQ", "AIA", "OEO"],
+                key: {
+                    Q: 'mekanismgenerators:solar_panel',
+                    A: '#mekanism:alloys/infused',
+                    I: '#forge:circuits/basic',
+                    E: 'mekanism:energy_tablet',
+                    O: '#forge:plates/osmium'
+                },
+                result: Item.of('mekanismgenerators:solar_generator', 1)
+            },*/
             //Mining Gadget         
             {
                 pattern: ["PWE", "QBZ", "PWE"],
@@ -514,6 +595,18 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('mininggadgets:modificationtable', 1)
             },
+            //Quantum Storage
+            /*{
+                pattern: ["S S", "WQW", "NBN"],
+                key: {
+                    B: 'create:electron_tube',
+                    Q: 'quantumstorage:qsu',
+                    N: '#forge:plates/gold',
+                    W: 'minecraft:iron_bars',
+                    S: '#forge:gears/iron'
+                },
+                result: Item.of('quantumstorage:controller', 1)
+            },*/
             //Refined Storage
             {
                 pattern: ["iei", "xgx", "ibi"],
@@ -597,7 +690,7 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('refinedstorage:256k_fluid_storage_part', 1)
             },
-            //Rftools
+            //Rftools Base
             /*{
                 pattern: ["qqq", "rpr", "qqq"],
                 key: {
@@ -617,6 +710,7 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('rftoolsbase:machine_infuser', 1)
             },*/
+        //Rftools Power
             {
                 pattern: ["rKr", "KFK", "rKr"],
                 key: {
@@ -644,17 +738,61 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('rftoolspower:cell3', 1)
             },
-            {
-                pattern: ["GGG", "bFb", "iii"],
-                key: {
-                    b: '#forge:bucket',
-                    F: '#forge:tank',
-                    G: 'immersiveengineering:insulating_glass',
-                    i: '#forge:plates/steel'
-                },
-                result: Item.of('rftoolsutility:tank', 1)
-            },
             /*{
+                pattern: ["sds", "rRr", "sas"],
+                key: {
+                    r: 'thermal:rf_coil',
+                    R: 'pneumaticcraft:compressed_iron_gear',
+                    d: '#forge:plates/diamond',
+                    s: '#forge:plates/steel',
+                    a: 'extendedcrafting:redstone_catalyst'
+                },
+                result: Item.of('rftoolspower:power_core1', 1)
+            },
+            {
+                pattern: ["ses", "rRr", "sas"],
+                key: {
+                    r: 'thermal:rf_coil',
+                    R: 'pneumaticcraft:compressed_iron_gear',
+                    s: '#forge:gems/dimensional',
+                    a: 'extendedcrafting:redstone_catalyst',
+                    e: '#forge:plates/diamond'
+                },
+                result: Item.of('rftoolspower:power_core2', 1)
+            },
+            {
+                pattern: ["sds", "rRr", "ses"],
+                key: {
+                    r: 'thermal:rf_coil',
+                    R: 'pneumaticcraft:compressed_iron_gear',
+                    s: '#forge:gems/dimensional',
+                    d: '#forge:plates/diamond',
+                    e: '#forge:plates/emerald'
+                },
+                result: Item.of('rftoolspower:power_core3', 1)
+            },
+            {
+                pattern: ["qsq", "rpr", "qaq"],
+                key: {
+                    p: 'rftoolsbase:machine_frame',
+                    q: 'rftoolspower:blazing_rod',
+                    r: 'extendedcrafting:redstone_catalyst',
+                    s: 'rftoolsbase:infused_enderpearl',
+                    a: 'pneumaticcraft:printed_circuit_board'
+                },
+                result: Item.of('rftoolspower:blazing_generator', 1)
+            },
+            {
+                pattern: [" X ", "sFs", " X "],
+                key: {
+                    X: 'botania:blaze_block',
+                    s: '#forge:gems/dimensional',
+                    F: 'rftoolsbase:machine_frame'
+                },
+                result: Item.of('rftoolspower:blazing_infuser', 1)
+            },
+        //Rftools Storage
+            {
                 pattern: ["ToT", "gFg", "TsT"],
                 key: {
                     g: '#forge:gears/quartz',
@@ -666,6 +804,28 @@ onEvent('recipes', (event) => {
                 result: Item.of('rftoolsstorage:modular_storage', 1)
             },
             {
+                pattern: ["ToT", "gFg", "TsT"],
+                key: {
+                    g: 'immersiveengineering:electron_tube',
+                    T: '#forge:sheetmetals/steel',
+                    F: 'immersiveengineering:heavy_engineering',
+                    o: '#forge:gears/enderium',
+                    s: 'immersiveengineering:circuit_board'
+                },
+                result: Item.of('rftoolsstorage:storage_scanner', 1)
+            },*/
+        //Rftools Utility
+            {
+                pattern: ["GGG", "bFb", "iii"],
+                key: {
+                    b: '#forge:bucket',
+                    F: '#forge:tank',
+                    G: 'immersiveengineering:insulating_glass',
+                    i: '#forge:plates/steel'
+                },
+                result: Item.of('rftoolsutility:tank', 1)
+            },
+            /*{
                 pattern: ["RdR", "dMd", "RdR"],
                 key: {
                     M: 'rftoolsutility:charged_porter',
@@ -673,6 +833,17 @@ onEvent('recipes', (event) => {
                     d: '#forge:plates/diamond'
                 },
                 result: Item.of('rftoolsutility:advanced_charged_porter', 1)
+            },
+            {
+                pattern: ["rzr", "oFo", "rPr"],
+                key: {
+                    z: '#forge:storage_blocks/fire_dragon_scale',
+                    P: '#forge:heart',
+                    r: 'extendedcrafting:redstone_catalyst',
+                    F: 'rftoolsbase:machine_frame',
+                    o: '#forge:bones/dragon'
+                },
+                result: Item.of('rftoolsutility:spawner', 1)
             },*/
             {
                 pattern: ["ioi", "oRo", " o "],
@@ -743,8 +914,20 @@ onEvent('recipes', (event) => {
                 },
                 result: Item.of('rftoolsutility:simple_dialer', 1)
             },
-            //Simple Storage Network
+        //Rftools Builder
             /*{
+                pattern: ["qsq", "rpr", "qaq"],
+                key: {
+                    p: 'rftoolsbase:machine_frame',
+                    q: 'immersiveengineering:alloybrick',
+                    r: 'extendedcrafting:redstone_catalyst',
+                    s: 'rftoolsbase:infused_enderpearl',
+                    a: 'pneumaticcraft:printed_circuit_board'
+                },
+                result: Item.of('rftoolsbuilder:builder', 1)
+            },
+            //Simple Storage Network
+            {
                 pattern: ["PPP", "QBQ", "PPP"],
                 key: {
                     P: '#forge:plates/steel',
@@ -752,6 +935,25 @@ onEvent('recipes', (event) => {
                     Q: '#forge:gears/electrum'
                 },
                 result: Item.of('storagenetwork:kabel', 12)
+            },
+            {
+                pattern: ["PQP", "QBQ", "PQP"],
+                key: {
+                    P: '#forge:sheetmetals/electrum',
+                    B: 'storagenetwork:inventory',
+                    Q: '#forge:gears/constantan'
+                },
+                result: Item.of('storagenetwork:request', 1)
+            },
+            {
+                pattern: ["PQP", "SBS", "PQP"],
+                key: {
+                    P: '#forge:plates/steel',
+                    B: 'storagenetwork:kabel',
+                    Q: 'extendedcrafting:redstone_ingot',
+                    S: '#forge:plates/electrum'
+                },
+                result: Item.of('storagenetwork:speed_upgrade', 1)
             },*/
             {
                 pattern: ["PQP", "SBS", "PQP"],
@@ -800,7 +1002,236 @@ onEvent('recipes', (event) => {
                     Q: 'storagenetwork:speed_upgrade'
                 },
                 result: Item.of('storagenetwork:collector', 1)
-            }
+            },
+        //Thermal
+            /*{
+                pattern: [" C ", "IGI", "YXY"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:plates/steel',
+                    G: '#forge:gears/gold',
+                    X: 'immersiveengineering:circuit_board',
+                    Y: '#forge:gears/lapis'
+                },
+                result: Item.of('thermal:dynamo_lapidary', 1)
+            },
+            {
+                pattern: [" C ", "IGI", "GXG"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:plates/steel',
+                    G: '#forge:gears/bronze',
+                    X: 'immersiveengineering:circuit_board'
+                },
+                result: Item.of('thermal:dynamo_compression', 1)
+            },
+            {
+                pattern: [" C ", "IYI", "YXY"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:plates/iron',
+                    X: 'immersiveengineering:circuit_board',
+                    Y: '#forge:gears/invar'
+                },
+                result: Item.of('thermal:dynamo_magmatic', 1)
+            },
+            {
+                pattern: [" C ", "IGI", "YXY"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:plates/steel',
+                    X: 'immersiveengineering:circuit_board',
+                    Y: '#pneumaticcraft:reinforced_stone',
+                    G: '#forge:gears/steel'
+                },
+                result: Item.of('thermal:dynamo_stirling', 1)
+            },
+            {
+                pattern: [" C ", "IGI", "YXY"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:plates/steel',
+                    X: '#forge:dusts/redstone',
+                    Y: '#forge:gears/constantan',
+                    G: '#forge:gears/bronze'
+                },
+                result: Item.of('thermal:dynamo_numismatic', 1)
+            },
+            {
+                pattern: ["CTC", "XSX", "CCC"],
+                key: {
+                    X: 'create:electron_tube',
+                    C: '#forge:sheetmetals/iron',
+                    T: 'pneumaticcraft:printed_circuit_board',
+                    S: 'immersiveengineering:coil_lv'
+                },
+                result: Item.of('immersiveengineering:dynamo', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:plates/steel',
+                    P: 'thermal:rf_coil',
+                    X: 'minecraft:blast_furnace',
+                    Y: '#forge:sand'
+                },
+                result: Item.of('thermal:machine_smelter', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/copper',
+                    P: 'thermal:rf_coil',
+                    X: 'cyclic:tank',
+                    Y: '#thermal:glass/hardened'
+                },
+                result: Item.of('thermal:machine_bottler', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/copper',
+                    P: 'thermal:rf_coil',
+                    X: 'thermal:saw_blade',
+                    Y: '#forge:stone'
+                },
+                result: Item.of('thermal:machine_sawmill', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/invar',
+                    P: 'thermal:rf_coil',
+                    X: '#thermal:glass/hardened',
+                    Y: '#forge:plates/copper'
+                },
+                result: Item.of('thermal:machine_refinery', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: '#forge:rods/blaze',
+                    Y: '#chipped:nether_bricks'
+                },
+                result: Item.of('thermal:machine_pyrolyzer', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/copper',
+                    P: 'thermal:rf_coil',
+                    X: 'minecraft:piston',
+                    Y: 'minecraft:flint'
+                },
+                result: Item.of('thermal:machine_pulverizer', 1)
+            },
+            {
+                pattern: ["IGI", "GTG", "IGI"],
+                key: {
+                    G: '#thermal:glass/hardened',
+                    I: '#forge:sheetmetals/steel',
+                    T: '#forge:gears/bronze'
+                },
+                result: Item.of('thermal:machine_frame', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/copper',
+                    P: 'thermal:rf_coil',
+                    X: 'extendedcrafting:redstone_component',
+                    Y: 'minecraft:bricks'
+                },
+                result: Item.of('thermal:machine_furnace', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/copper',
+                    P: 'thermal:rf_coil',
+                    X: '#forge:workbenches',
+                    Y: '#forge:ingots/tin'
+                },
+                result: Item.of('thermal:machine_crafter', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/invar',
+                    P: 'thermal:rf_coil',
+                    X: '#thermal:glass/hardened',
+                    Y: '#forge:ices/ice'
+                },
+                result: Item.of('thermal:machine_chiller', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: 'minecraft:compass',
+                    Y: '#forge:ingots/tin'
+                },
+                result: Item.of('thermal:machine_centrifuge', 1)
+            },
+            {
+                pattern: ["SXS", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/lumium',
+                    P: 'thermal:rf_coil',
+                    X: 'engineersdecor:small_freezer',
+                    Y: '#thermal:glass/hardened',
+                    S: 'cyclic:terra_preta'
+                },
+                result: Item.of('thermal:machine_insolator', 1)
+            },
+            {
+                pattern: ["XXX", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: 'minecraft:brewing_stand',
+                    Y: '#thermal:glass/hardened'
+                },
+                result: Item.of('thermal:machine_brewer', 1)
+            },
+            {
+                pattern: [" X ", "YCY", "IPI"],
+                key: {
+                    C: 'thermal:machine_frame',
+                    I: '#forge:gears/constantan',
+                    P: 'thermal:rf_coil',
+                    X: 'create:mechanical_press',
+                    Y: '#forge:plates/bronze'
+                },
+                result: Item.of('thermal:machine_press', 1)
+            },
+            {
+                pattern: ["SXS", "YPY", "ICI"],
+                key: {
+                    C: 'thermal:rf_coil',
+                    I: '#forge:gears/invar',
+                    P: 'thermal:machine_frame',
+                    X: 'create:blaze_burner',
+                    Y: '#chipped:nether_bricks',
+                    S: '#thermal:glass/hardened'
+                },
+                result: Item.of('thermal:machine_crucible', 1)
+            }*/
         ]
     };
 

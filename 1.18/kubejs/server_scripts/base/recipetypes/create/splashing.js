@@ -1,20 +1,21 @@
 onEvent('recipes', (event) => {
     var data = {
-        recipes: [/*{
+        recipes: [
+    //Building Gadgets
+            /*{
                 outputs: ['buildinggadgets:construction_block_dense'],
                 input: 'buildinggadgets:construction_block_powder'
             },
             {
-                outputs: [
-                    Item.of('emendatusenigmatica:silicon_gem').chance(0.5),
-                    Item.of('emendatusenigmatica:silicon_gem').chance(0.25)
-                ],
-                input: 'create:limesand'
-            },
-            {
-                outputs: ['upgrade_aquatic:driftwood_log'],
-                input: '#minecraft:logs'
+                outputs: ['betterendforge:dense_snow'],
+                input: 'minecraft:snow_block'
             },*/
+    //Cyclic
+            {
+                outputs: ['cyclic:peat_baked'],
+                input: 'cyclic:peat_unbaked'
+            },
+    //Dustrial Decor
             {
                 outputs: ['dustrial_decor:rusty_iron_door'],
                 input: 'minecraft:iron_door'
@@ -23,14 +24,19 @@ onEvent('recipes', (event) => {
                 outputs: ['dustrial_decor:rusty_iron_trapdoor'],
                 input: 'minecraft:iron_trapdoor'
             },
+    //Emendatus
             /*{
-                outputs: ['betterendforge:dense_snow'],
-                input: 'minecraft:snow_block'
-            },*/
+                outputs: [
+                    Item.of('emendatusenigmatica:silicon_gem').chance(0.5),
+                    Item.of('emendatusenigmatica:silicon_gem').chance(0.25)
+                ],
+                input: 'create:limesand'
+            },
+    //Upgraded Aquatic
             {
-                outputs: ['cyclic:peat_baked'],
-                input: 'cyclic:peat_unbaked'
-            }
+                outputs: ['upgrade_aquatic:driftwood_log'],
+                input: '#minecraft:logs'
+            }*/
         ],
         rusty_items: [
             'quark:rusty_iron_plate_slab',

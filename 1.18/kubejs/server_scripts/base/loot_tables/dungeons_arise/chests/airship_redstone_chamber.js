@@ -180,5 +180,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     };
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/airship_redstone_chamber.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/airship_redstone_chamber.json`, loot_table);;
 });

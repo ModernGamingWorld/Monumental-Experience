@@ -32,6 +32,12 @@ onEvent('server.datapack.high_priority', (event) => {
                     name: "mysticalagriculture:emerald_essence",
                     entryName: "emerald_essence",
                     weight: 15
+                },
+                {
+                    type: "item",
+                    name: "immersiveengineering:circuit_board",
+                    entryName: "circuit_board",
+                    weight: 15
                 }
             ]
         }]

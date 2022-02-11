@@ -195,5 +195,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/greenwood_house_small.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/greenwood_house_small.json`, loot_table);;
 });

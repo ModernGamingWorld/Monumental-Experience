@@ -235,5 +235,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/fortified_house_medium.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/fortified_house_medium.json`, loot_table);;
 });

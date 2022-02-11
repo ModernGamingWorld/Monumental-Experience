@@ -41,8 +41,8 @@ onEvent('server.datapack.high_priority', (event) => {
             },
             {
                 type: "item",
-                name: "minecraft:cobblestone",
-                entryName: "cobblestone",
+                name: "mysticalagriculture:stone_essence",
+                entryName: "stone_essence",
                 weight: 5
             },
             {
@@ -239,14 +239,14 @@ onEvent('server.datapack.high_priority', (event) => {
             },
             {
                 type: "item",
-                name: "minecraft:sugar_cane",
-                entryName: "sugar_cane",
+                name: "mysticalagriculture:nature_essence",
+                entryName: "nature_essence",
                 weight: 1
             },
             {
                 type: "item",
-                name: "minecraft:bone",
-                entryName: "bone",
+                name: "mysticalagriculture:skeleton_essence",
+                entryName: "skeleton_essence",
                 weight: 5
             },
             {
@@ -275,8 +275,8 @@ onEvent('server.datapack.high_priority', (event) => {
             },
             {
                 type: "item",
-                name: "minecraft:vine",
-                entryName: "vine",
+                name: "mysticalagriculture:nature_essence",
+                entryName: "nature_essence",
                 weight: 1
             },
             {

@@ -288,5 +288,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     };
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/house_tower_treasure.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/house_tower_treasure.json`, loot_table);;
 });

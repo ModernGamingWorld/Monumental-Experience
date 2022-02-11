@@ -1,21 +1,19 @@
 onEvent('recipes', (event) => {
     var data = {
         recipes: [
+        //Atum
             /*{
                 input: 'atum:emmer',
                 outputs: [Item.of('atum:emmer_flour', 1), Item.of('atum:emmer_flour', 2).withChance(0.25), Item.of('atum:emmer_seeds').withChance(0.25)],
                 processingTime: 150
             },
-            {
-                input: 'astralsorcery:starmetal',
-                outputs: [Item.of('astralsorcery:stardust', 9)],
-                processingTime: 250
-            },
+        //Astral Sorcery
             {
                 input: 'astralsorcery:starmetal_ingot',
                 outputs: [Item.of('astralsorcery:stardust', 1)],
                 processingTime: 250
             },*/
+        //Big Reactors
             {
                 input: '#forge:ingots/graphite',
                 outputs: [Item.of('bigreactors:graphite_dust', 1)],
@@ -29,6 +27,12 @@ onEvent('recipes', (event) => {
             {
                 input: 'forbidden_arcanus:arcane_crystal',
                 outputs: [Item.of('forbidden_arcanus:arcane_crystal_dust', 1)],
+                processingTime: 200
+            },
+        //Minecraft
+            {
+                input: 'minecraft:red_sandstone',
+                outputs: [Item.of('minecraft:red_sand', 1)],
                 processingTime: 200
             },
             /*{
@@ -52,20 +56,17 @@ onEvent('recipes', (event) => {
                 processingTime: 200
             },
             {
-                input: 'minecraft:red_sandstone',
-                outputs: [Item.of('minecraft:red_sand', 1)],
-                processingTime: 200
-            },
-            {
                 input: '#forge:end_stones',
                 outputs: [Item.of('occultism:crushed_end_stone', 4)],
                 processingTime: 150
             },
+        //PSI
             /*{
                 input: '#forge:dusts/redstone',
                 outputs: ['psi:psidust'],
                 processingTime: 200
             },
+        //Thermal
             {
                 input: 'thermal:sawdust_block',
                 outputs: ['mysticalagriculture:wood_essence', Item.of('emendatusenigmatica:wood_dust', 1)],
@@ -101,6 +102,7 @@ onEvent('recipes', (event) => {
                 outputs: [Item.of('thermal:sulfur_dust', 1)],
                 processingTime: 200
             },
+        //xreliquary
             {
                 input: 'minecraft:creeper_head',
                 outputs: ['xreliquary:catalyzing_gland'],

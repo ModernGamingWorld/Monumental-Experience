@@ -31,34 +31,9 @@ onEvent('recipes', (event) => {
             output: Item.of('immersiveengineering:wirecoil_copper', 1),
             inputs: ['createaddition:copper_spool']
         },
-        /*{
+        {
             output: Item.of('akashictome:tome', {
                 'akashictome:data': {
-                    industrialforegoing: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: "Industrial Foregoing's Manual"
-                            },
-                            'patchouli:book': 'industrialforegoing:industrial_foregoing',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Industrial Foregoing\'s Manual"}]}'
-                            }
-                        }
-                    },
-                    astralsorcery: {
-                        id: 'astralsorcery:tome',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'Astral Tome'
-                            },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Astral Tome"}]}'
-                            }
-                        }
-                    },
                     theoneprobe: {
                         id: 'theoneprobe:probenote',
                         Count: 1,
@@ -107,30 +82,6 @@ onEvent('recipes', (event) => {
                             }
                         }
                     },
-                    eidolon: {
-                        id: 'eidolon:codex',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'Ars Ecclesia'
-                            },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Ars Ecclesia"}]}'
-                            }
-                        }
-                    },
-                    botania: {
-                        id: 'botania:lexicon',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'Lexica Botania'
-                            },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Lexica Botania"}]}'
-                            }
-                        }
-                    },
                     sushigocrafting: {
                         id: 'patchouli:guide_book',
                         Count: 1,
@@ -141,19 +92,6 @@ onEvent('recipes', (event) => {
                             'patchouli:book': 'sushigocrafting:sushigocrafting',
                             display: {
                                 Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Becoming an Itamae (Sushi Go Crafting Manual)"}]}'
-                            }
-                        }
-                    },
-                    thermal: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'Thermalpedia'
-                            },
-                            'patchouli:book': 'thermal:guidebook',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Thermalpedia"}]}'
                             }
                         }
                     },
@@ -191,19 +129,6 @@ onEvent('recipes', (event) => {
                             },
                             display: {
                                 Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Cooking for Blockheads II"}]}'
-                            }
-                        }
-                    },
-                    pneumaticcraft: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'PNC:R Manual'
-                            },
-                            'patchouli:book': 'pneumaticcraft:book',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"PNC:R Manual"}]}'
                             }
                         }
                     },
@@ -282,23 +207,11 @@ onEvent('recipes', (event) => {
                                 Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Sanguine Scientiem"}]}'
                             }
                         }
-                    },
-                    betterendforge: {
-                        id: 'betterendforge:guidebook',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': {
-                                text: 'The End for Dummies'
-                            },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"The End for Dummies"}]}'
-                            }
-                        }
                     }
                 }
             }),
             inputs: ['minecraft:book', '#forge:bookshelves']
-        }*/
+        }
     ];
 
     recipes.forEach((recipe) => {

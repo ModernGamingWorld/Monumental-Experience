@@ -27,6 +27,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('aquaculture:neptunium_helmet', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_helmet', '#forge:ingots/neptunium')
     event.smithing(Item.of('aquaculture:neptunium_leggings', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_leggings', '#forge:ingots/neptunium')
     event.smithing(Item.of('aquaculture:neptunium_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_boots', '#forge:ingots/neptunium')
+    event.smithing(Item.of('aquaculture:neptunium_bow', '{Damage:0}'), '#forge:string', '#forge:ingots/neptunium')
 
     // Aiot Botania
     
@@ -189,6 +190,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('blue_skies:bluebright_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:wooden_pickaxe', 'blue_skies:bluebright_planks')
 
     //Cyclic
+
     event.smithing(Item.of('cyclic:copper_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_pickaxe', '#forge:ingots/copper')
     event.smithing(Item.of('cyclic:amethyst_pickaxe', '{Damage:0}'), 'minecraft:iron_pickaxe', '#forge:gems/amethyst')
     event.smithing(Item.of('cyclic:netherbrick_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_pickaxe', '#forge:netherbricks')
@@ -220,11 +222,8 @@ onEvent('recipes', event => {
     event.smithing(Item.of('cyclic:emerald_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_boots', '#forge:gems/emerald')
     event.smithing(Item.of('cyclic:crystal_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_boots', '#forge:gems/diamond')
 
-    //Doom
-
-    event.smithing(Item.of('doom:argent_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'doom:argent_energy', '#forge:rods/wooden')
-
     //DruidCraft
+
     /*event.smithing(Item.of('druidcraft:moonstone_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_sword', '#forge:gems/moonstone')
     event.smithing(Item.of('druidcraft:bone_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:stone_sword', '#forge:bones')
     event.smithing(Item.of('druidcraft:moonstone_chestplate', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_chestplate', '#forge:gems/moonstone')
@@ -249,6 +248,9 @@ onEvent('recipes', event => {
     event.smithing(Item.of('druidcraft:moonstone_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_hoe', '#forge:gems/moonstone')
     event.smithing(Item.of('druidcraft:moonstone_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_pickaxe', '#forge:gems/moonstone')
     event.smithing(Item.of('druidcraft:bone_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:stone_pickaxe', '#forge:bones')*/
+
+    //Explorer's Compass
+    event.smithing(Item.of('explorerscompass:explorerscompass'), 'minecraft:compass', 'minecraft:cracked_stone_bricks')
 
     //Enigmatic Legacy
 
@@ -336,6 +338,7 @@ onEvent('recipes', event => {
     event.smithing(Item.of('immersiveengineering:pickaxe_steel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:iron_pickaxe', '#forge:ingots/steel')
 
     //Ice and Fire
+
     /*event.smithing(Item.of('iceandfire:dragonbone_bow', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#forge:string', '#architects_palette:withered_bones')
     event.smithing(Item.of('iceandfire:dragonsteel_lightning_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_boots', '#forge:ingots/dragonsteel_lightning')
     event.smithing(Item.of('iceandfire:dragonsteel_ice_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:netherite_boots', '#forge:ingots/dragonsteel_ice')
@@ -395,21 +398,62 @@ onEvent('recipes', event => {
     //Minecraft
 
     event.smithing(Item.of('minecraft:shield', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), '#minecraft:planks', '#forge:ingots/iron')
+    event.smithing(Item.of('minecraft:compass'), '#forge:plates/iron', 'extendedcrafting:redstone_ingot')
+    event.smithing(Item.of('minecraft:bow', '{Damage:0}'), '#forge:rods/wooden', '#forge:string')
+    event.smithing(Item.of('minecraft:crossbow', '{Damage:0}'), 'minecraft:tripwire_hook', '#forge:ingots/iron')
 
     //Mekanism
+
     /*event.smithing(Item.of('mekanism:electric_bow'), 'minecraft:bow', 'mekanism:energy_tablet')*/
 
     //Modular Routers
+
     event.smithing(Item.of('modularrouters:breaker_module', '{modularrouters:{Direction:"NONE",ModuleFilter:{}}}'), 'modularrouters:blank_module', '#forge:tools/pickaxe')
+    event.smithing(Item.of('modularrouters:extruder_module_1', '{modularrouters:{ModuleFilter:{},Direction:"NONE"}}'), 'modularrouters:breaker_module', 'modularrouters:blank_module')
 
-    //Mystical Agriculture
+    //Mystical Agriculture Furnace
 
-    event.smithing(Item.of('mysticalagriculture:inferium_axe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_axe', 'mysticalagriculture:inferium_gemstone')
     event.smithing(Item.of('mysticalagriculture:inferium_furnace'), '#forge:furnace', 'mysticalagriculture:inferium_block')
     event.smithing(Item.of('mysticalagriculture:prudentium_furnace'), 'mysticalagriculture:inferium_furnace', 'mysticalagriculture:prudentium_block')
     event.smithing(Item.of('mysticalagriculture:tertium_furnace'), 'mysticalagriculture:prudentium_furnace', 'mysticalagriculture:tertium_block')
     event.smithing(Item.of('mysticalagriculture:imperium_furnace'), 'mysticalagriculture:tertium_furnace', 'mysticalagriculture:imperium_block')
     event.smithing(Item.of('mysticalagriculture:supremium_furnace'), 'mysticalagriculture:imperium_furnace', 'mysticalagriculture:supremium_block')
+
+    //Mystical Agriculture helmet
+
+    event.smithing(Item.of('mysticalagriculture:inferium_helmet', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_helmet', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_helmet', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_helmet', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_helmet', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:prudentium_helmet', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_helmet', '{Damage:0}'), Item.of('mysticalagriculture:tertium_helmet', '{Damage:0}'), 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_helmet', '{Damage:0}'), Item.of('mysticalagriculture:imperium_helmet', '{Damage:0}'), 'mysticalagriculture:supremium_gemstone')
+
+    //Mystical Agriculture Chestplates
+
+    event.smithing(Item.of('mysticalagriculture:inferium_chestplate', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_chestplate', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_chestplate', '{Damage:0}'), Item.of('mysticalagriculture:imperium_chestplate', '{Damage:0}'), 'mysticalagriculture:supremium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_chestplate', '{Damage:0}'), Item.of('mysticalagriculture:tertium_chestplate', '{Damage:0}'), 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_chestplate', '{Damage:0}'), Item.of('mysticalagriculture:prudentium_chestplate', '{Damage:0}'), 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_chestplate', '{Damage:0}'), Item.of('mysticalagriculture:inferium_chestplate', '{Damage:0}'), 'mysticalagriculture:prudentium_gemstone')
+    
+    //Mystical Agriculture Leggings
+
+    event.smithing(Item.of('mysticalagriculture:inferium_leggings', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_leggings', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_leggings', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_leggings', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_leggings', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:prudentium_leggings', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_leggings', '{Damage:0}'), Item.of('mysticalagriculture:tertium_leggings', '{Damage:0}'), 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_leggings', '{Damage:0}'), Item.of('mysticalagriculture:imperium_leggings', '{Damage:0}'), 'mysticalagriculture:supremium_gemstone')
+    
+    //Mystical Agriculture Boots
+
+    event.smithing(Item.of('mysticalagriculture:inferium_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_boots', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_boots', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:prudentium_boots', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_boots', '{Damage:0}'), Item.of('mysticalagriculture:tertium_boots', '{Damage:0}'), 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_boots', '{Damage:0}'), Item.of('mysticalagriculture:imperium_boots', '{Damage:0}'), 'mysticalagriculture:supremium_gemstone')
+    
+    //Mystical Agriculture Tools
+
+    event.smithing(Item.of('mysticalagriculture:inferium_axe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_axe', 'mysticalagriculture:inferium_gemstone')
     event.smithing(Item.of('mysticalagriculture:inferium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_pickaxe', 'mysticalagriculture:inferium_gemstone')
     event.smithing(Item.of('mysticalagriculture:prudentium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_pickaxe', 'mysticalagriculture:prudentium_gemstone')
     event.smithing(Item.of('mysticalagriculture:tertium_pickaxe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:prudentium_pickaxe', 'mysticalagriculture:tertium_gemstone')
@@ -419,10 +463,26 @@ onEvent('recipes', event => {
     event.smithing(Item.of('mysticalagriculture:prudentium_shovel', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'mysticalagriculture:inferium_shovel', 'mysticalagriculture:prudentium_gemstone')
     event.smithing(Item.of('mysticalagriculture:inferium_hoe', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_hoe', 'mysticalagriculture:inferium_gemstone')
     event.smithing(Item.of('mysticalagriculture:inferium_sword', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_sword', 'mysticalagriculture:inferium_gemstone')
-    event.smithing(Item.of('mysticalagriculture:inferium_chestplate', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_chestplate', 'mysticalagriculture:inferium_gemstone')
-    event.smithing(Item.of('mysticalagriculture:inferium_helmet', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_helmet', 'mysticalagriculture:inferium_gemstone')
-    event.smithing(Item.of('mysticalagriculture:inferium_leggings', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_leggings', 'mysticalagriculture:inferium_gemstone')
-    event.smithing(Item.of('mysticalagriculture:inferium_boots', '{Damage:0,AS_Amulet_Holder:[I;955663911,-1640609137,-1846237562,1038191077]}'), 'minecraft:diamond_boots', 'mysticalagriculture:inferium_gemstone')
+    
+    //Mystical Agriculture Bows
+
+    event.smithing(Item.of('mysticalagriculture:inferium_bow', '{Damage:0}'), 'minecraft:bow', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_bow', '{Damage:0}'), 'mysticalagriculture:inferium_bow', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_bow', '{Damage:0}'), 'mysticalagriculture:prudentium_bow', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_bow', '{Damage:0}'), 'mysticalagriculture:tertium_bow', 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_bow', '{Damage:0}'), 'mysticalagriculture:imperium_bow', 'mysticalagriculture:supremium_gemstone')
+    
+    //Mystical Agriculture Bows
+
+    event.smithing(Item.of('mysticalagriculture:inferium_crossbow', '{Damage:0}'), 'minecraft:crossbow', 'mysticalagriculture:inferium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:prudentium_crossbow', '{Damage:0}'), 'mysticalagriculture:inferium_crossbow', 'mysticalagriculture:prudentium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:tertium_crossbow', '{Damage:0}'), 'mysticalagriculture:prudentium_crossbow', 'mysticalagriculture:tertium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:imperium_crossbow', '{Damage:0}'), 'mysticalagriculture:tertium_crossbow', 'mysticalagriculture:imperium_gemstone')
+    event.smithing(Item.of('mysticalagriculture:supremium_crossbow', '{Damage:0}'), 'mysticalagriculture:imperium_crossbow', 'mysticalagriculture:supremium_gemstone')
+
+    //Nature's Compass
+
+    event.smithing(Item.of('naturescompass:naturescompass'), 'minecraft:compass', '#minecraft:saplings')
 
     //Nature's Aura
 

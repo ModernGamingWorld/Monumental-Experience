@@ -303,5 +303,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/desert_city_big.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/desert_city_big.json`, loot_table);;
 });

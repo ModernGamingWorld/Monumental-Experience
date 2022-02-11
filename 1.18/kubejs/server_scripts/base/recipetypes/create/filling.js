@@ -1,10 +1,12 @@
 onEvent('recipes', (event) => {
-    const recipes = [         
+    const recipes = [    
+    //Astral Sorcery     
         /*{
             input: 'astralsorcery:illumination_powder',
             fluid: Fluid.of('astralsorcery:liquid_starlight', 1000),
             output: 'extendedcrafting:luminessence'
         },*/
+    //Farmer's Delight
         {
             input: 'minecraft:glass_bottle',
             fluid: {
@@ -18,6 +20,7 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('create:chocolate', 250),
             output: 'farmersdelight:hot_cocoa'
         },
+    //Minecraft
         /*{
             input: 'minecraft:glass_bottle',
             fluid: Fluid.of('industrialforegoing:essence', 250),
@@ -29,15 +32,16 @@ onEvent('recipes', (event) => {
             output: 'minecraft:experience_bottle'
         },
         {
-            input: 'upgrade_aquatic:squid_bucket',
-            fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
-            output: 'upgrade_aquatic:glow_squid_bucket'
-        },
-        {
             input: 'minecraft:glass_bottle',
             fluid: Fluid.of('cofh_core:experience', 250),
             output: 'minecraft:experience_bottle'
-        }*/
+        },
+    //Upgraded Aquatic
+        {
+            input: 'upgrade_aquatic:squid_bucket',
+            fluid: Fluid.of('astralsorcery:liquid_starlight', 250),
+            output: 'upgrade_aquatic:glow_squid_bucket'
+        },*/
     ];
     recipes.forEach((recipe) => {
         const re = event.recipes.create.filling(recipe.output, [recipe.fluid, recipe.input]);

@@ -237,5 +237,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/mines_treasure_medium.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/mines_treasure_medium.json`, loot_table);;
 });

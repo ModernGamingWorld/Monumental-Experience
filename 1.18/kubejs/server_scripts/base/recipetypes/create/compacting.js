@@ -19,6 +19,10 @@ onEvent('recipes', (event) => {
                     }
                 ],
                 output: Item.of('minecraft:paper', 6)
+            },
+            {
+                inputs: [Fluid.of('immersiveengineering:concrete', 500)],
+                output: 'immersiveengineering:slab_concrete'
             }
         ],
         recipes_heated: [
@@ -181,7 +185,16 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('extendedcrafting:redstone_component', 1)
             },
-            //Immersive
+            //Industrial Foregoing
+            /*{
+                inputs: ['minecraft:vine'],
+                output: Fluid.of('industrialforegoing:latex', 50)
+            },
+            {
+                inputs: ['minecraft:dandelion'],
+                output: Fluid.of('industrialforegoing:latex', 50)
+            },*/
+            //Immersive Engineering
             {
                 inputs: [
                     '#forge:plates/aluminum',
@@ -395,6 +408,7 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('immersiveengineering:sheetmetal_constantan', 2)
             },
+        //MNA
             /*{
                 inputs: [
                     '#botania:livingrock',
@@ -402,6 +416,7 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('mna:stone_rune_blank', 2)
             },
+        //Pneumaticcraft
             {
                 inputs: [
                     'kubejs:compressed_iron_plate',

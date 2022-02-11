@@ -95,7 +95,12 @@ onEvent('recipes', (event) => {
             {
                 outputs: [Item.of('mysticalagriculture:tertium_essence', 5)],
                 input: 'mysticalagriculture:tertium_block'
-            }
+            },
+        //Minecraft
+            /*{
+                outputs: [Item.of('minecraft:redstone', 5)],
+                input: '#forge:storage_blocks/redstone'
+            }*/
         ]
     };
     data.recipes.forEach((recipe) => {

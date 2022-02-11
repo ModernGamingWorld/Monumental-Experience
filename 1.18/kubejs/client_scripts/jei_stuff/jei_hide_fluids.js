@@ -40,4 +40,10 @@ onEvent('jei.hide.fluids', (event) => {
     event.hide('bigreactors:magentite');
     event.hide('bigreactors:verderium');
     event.hide('bigreactors:rossinite');
+    event.hide('tconstruct:blood');
+    event.hide('tconstruct:venom');
+    event.hide('tconstruct:earth_slime');
+    event.hide('tconstruct:sky_slime');
+    event.hide('tconstruct:ender_slime');
+    event.hide('tconstruct:magma');
 });

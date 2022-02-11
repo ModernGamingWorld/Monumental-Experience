@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
                 output: Fluid.of('immersiveengineering:concrete', 500)
             },
         //MNA
-            {
+            /*{
                 inputs: [
                     'mna:vinteum_dust',
                     'mna:arcane_ash',
@@ -28,20 +28,31 @@ onEvent('recipes', (event) => {
                     '#mna:ma_flowers'
                 ],
                 output: Item.of('mna:arcane_compound', 2)
-            },
-        //Mystical Agriculture
-            {
-                inputs: [
-                    'mysticalagriculture:soulium_dust',
-                    'mysticalagriculture:soulium_dust',
-                    'mysticalagriculture:soulium_dust'
-                ],
-                output: Item.of('mysticalagriculture:soulium_gemstone', 1)
-            }
+            },*/
         ],
         recipes_heated: [
-        //Building Gadgets
+        //Ae2
             /*{
+                inputs: ['thermal:obsidian_glass', '#forge:dusts/quartz', '#forge:dusts/certus_quartz', 'computercraft:cable'],
+                output: Item.of('appliedenergistics2:quartz_fiber', 2)
+            },
+            {
+                inputs: [
+                    'thermal:obsidian_glass',
+                    '#forge:dusts/certus_quartz',
+                    '#forge:dusts/quartz'
+                ],
+                output: Item.of('appliedenergistics2:quartz_glass', 2)
+            },
+            {
+                inputs: [
+                    '#forge:ingots/refined_glowstone',
+                    'appliedenergistics2:quartz_glass'
+                ],
+                output: Item.of('appliedenergistics2:quartz_vibrant_glass', 2)
+            },
+        //Building Gadgets
+            {
                 inputs: [
                     '#forge:dusts/lapis',
                     '#forge:sand',
@@ -57,6 +68,11 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('create:rose_quartz', 1)
             },
+        //Eidolon
+            /*{
+                inputs: ['#forge:ingots/iron', '#forge:ingots/lead'],
+                output: Item.of('eidolon:pewter_ingot', 2)
+            },*/
         //Extended Crafting
             {
                 inputs: [
@@ -118,6 +134,14 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('forbidden_arcanus:obsidian_ingot', 1)
             },
+        //Flux Networks
+            /*{
+                inputs: [
+                    '#forge:dusts/redstone',
+                    '#forge:dusts/obsidian'
+                ],
+                output: Item.of('fluxnetworks:flux_dust', 1)
+            },*/
         //Greater Eye
             {
                 inputs: ['minecraft:ender_eye', '#forge:gems/diamond', '#forge:gems/emerald'],
@@ -130,6 +154,23 @@ onEvent('recipes', (event) => {
             {
                 inputs: ['greater_eye:greater_eye', '#forge:gems/quartz'],
                 output: Item.of('greater_eye:greater_eye_nether', 1)
+            },
+        //Iron Coals
+            {
+                inputs: ['#forge:gems/emerald', 'ironcoals:diamond_coal'],
+                output: Item.of('ironcoals:emerald_coal', 2)
+            },
+            {
+                inputs: ['#forge:gems/diamond', 'ironcoals:gold_coal'],
+                output: Item.of('ironcoals:diamond_coal', 2)
+            },
+            {
+                inputs: ['#forge:ingots/gold', 'ironcoals:iron_coal'],
+                output: Item.of('ironcoals:gold_coal', 2)
+            },
+            {
+                inputs: ['#forge:ingots/iron', 'minecraft:coal'],
+                output: Item.of('ironcoals:iron_coal', 2)
             },
         //Immersive Engineering
             {
@@ -158,20 +199,28 @@ onEvent('recipes', (event) => {
                 output: Item.of('immersiveengineering:insulating_glass', 2)
             },
         //Mna
-            {
+            /*{
                 inputs: ['#forge:ingots/iron', 'mna:vinteum_dust'],
                 output: Item.of('mna:vinteum_coated_iron', 1)
             },
             {
                 inputs: ['#forge:ingots/iron', 'mna:purified_vinteum_dust'],
                 output: Item.of('mna:purified_vinteum_coated_iron', 1)
-            },
+            },*/
         //Minecraft
             {
                 inputs: ['#forge:ender_pearls', 'minecraft:blaze_powder'],
                 output: Item.of('minecraft:ender_eye', 1)
             },
         //Mystical Agriculture
+            {
+                inputs: [
+                    'mysticalagriculture:soulium_dust',
+                    'mysticalagriculture:soulium_dust',
+                    'mysticalagriculture:prosperity_gemstone'
+                ],
+                output: Item.of('mysticalagriculture:soulium_gemstone', 1)
+            },
             {
                 inputs: [
                     'mysticalagriculture:inferium_essence',
@@ -227,6 +276,48 @@ onEvent('recipes', (event) => {
                     'mysticalagriculture:prudentium_essence'
                 ],
                 output: Item.of('mysticalagriculture:prudentium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prudentium_block'
+                ],
+                output: Item.of('mysticalagriculture:prudentium_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_block'
+                ],
+                output: Item.of('mysticalagriculture:prosperity_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:inferium_block'
+                ],
+                output: Item.of('mysticalagriculture:inferium_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:tertium_block'
+                ],
+                output: Item.of('mysticalagriculture:tertium_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:imperium_block'
+                ],
+                output: Item.of('mysticalagriculture:imperium_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:supremium_block'
+                ],
+                output: Item.of('mysticalagriculture:supremium_ingot', 9)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:soulium_block'
+                ],
+                output: Item.of('mysticalagriculture:soulium_ingot', 9)
             },
             {
                 inputs: [
@@ -375,6 +466,14 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('mysticalagradditions:insanium_gemstone', 1)
             },
+        //Thermal
+            /*{
+                inputs: [
+                    Fluid.of('industrialforegoing:latex_fluid', 100),
+                    '#forge:slimeballs'
+                ],
+                output: Item.of('thermal:rubber', 1)
+            },*/
         //Waystones
             {
                 inputs: ['#forge:ender_pearls', '#forge:dyes/purple'],
@@ -399,7 +498,50 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('ae2:formation_core', 1)
             },
-        //Create,
+        //Botania
+            /*{
+                inputs: [
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel',
+                    '#forge:nuggets/manasteel'
+                ],
+                output: Item.of('botania:manasteel_ingot', 3)
+            },
+            {
+                inputs: [
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel',
+                    '#forge:nuggets/terrasteel'
+                ],
+                output: Item.of('botania:terrasteel_ingot', 3)
+            },
+            {
+                inputs: [
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium',
+                    '#forge:nuggets/elementium'
+                ],
+                output: Item.of('botania:elementium_ingot', 3)
+            },*/
+        //Create
             {
                 inputs: [
                     '#forge:dusts/glowstone',
@@ -427,6 +569,29 @@ onEvent('recipes', (event) => {
                 ],
                 output: Item.of('extendedcrafting:black_iron_ingot', 3)
             },
+            /*{
+                inputs: [
+                    '#forge:ingots/compressed_iron',
+                    '#forge:dyes/black'
+                ],
+                output: Item.of('extendedcrafting:black_iron_ingot', 1)
+            },
+            {
+                inputs: [
+                    '#forge:ingots/enderium',
+                    '#forge:ingots/compressed_iron'
+                ],
+                output: Item.of('extendedcrafting:ender_ingot', 1)
+            },
+        //Enviro Core
+            {
+                inputs: [
+                    'create:polished_rose_quartz',
+                    '#forge:dusts/emerald',
+                    'minecraft:ender_eye'
+                ],
+                output: Item.of('envirocore:litherite_crystal', 4)
+            },*/
         //Forbidden Arcanus
             {
                 inputs: [
@@ -547,15 +712,15 @@ onEvent('recipes', (event) => {
             },
             {
                 inputs: [
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot',
-                    'mysticalagriculture:imperium_ingot'
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget',
+                    'mysticalagriculture:imperium_nugget'
                 ],
                 output: Item.of('mysticalagriculture:imperium_ingot', 3)
             },
@@ -575,12 +740,26 @@ onEvent('recipes', (event) => {
             },
             {
                 inputs: [
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget',
+                    'mysticalagriculture:soulium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:soulium_ingot', 3)
+            },
+            /*{
+                inputs: [
                     'mna:superheated_purified_vinteum_ingot',
                     'mysticalagriculture:prosperity_shard',
                     'mysticalagriculture:prosperity_shard'
                 ],
                 output: Item.of('mysticalagriculture:prosperity_ingot', 2)
-            },
+            },*/
             {
                 inputs: [
                     'mysticalagriculture:inferium_essence',
@@ -667,6 +846,20 @@ onEvent('recipes', (event) => {
             },
             {
                 inputs: [
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget',
+                    'mysticalagriculture:tertium_nugget'
+                ],
+                output: Item.of('mysticalagriculture:tertium_ingot', 3)
+            },
+            {
+                inputs: [
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
@@ -726,7 +919,7 @@ onEvent('recipes', (event) => {
                 output: Item.of('mysticalagradditions:supremium_apple', 1)
             },
         //MNA
-            {
+            /*{
                 inputs: ['#forge:ingots/iron', 'mna:vinteum_dust'],
                 output: Item.of('mna:vinteum_coated_iron', 2)
             },
@@ -740,7 +933,7 @@ onEvent('recipes', (event) => {
                     'mna:purified_vinteum_dust'
                 ],
                 output: Item.of('mna:purified_vinteum_ingot', 1)
-            },
+            },*/
         //Minecraft
             {
                 inputs: [
@@ -817,6 +1010,16 @@ onEvent('recipes', (event) => {
                     'refinedstorage:processor_binding'
                 ],
                 output: Item.of('refinedstorage:raw_advanced_processor', 1)
+            },
+            {
+                inputs: [
+                    'immersiveengineering:hemp_fiber',
+                    'immersiveengineering:hemp_fiber',
+                    'bloodmagic:reagentbinding',
+                    'mysticalagriculture:pink_slime_essence',
+                    'mysticalagriculture:pink_slime_essence'
+                ],
+                output: Item.of('refinedstorage:processor_binding', 1)
             },*/
             {
                 inputs: [
@@ -825,7 +1028,51 @@ onEvent('recipes', (event) => {
                     'extendedcrafting:black_iron_ingot'
                 ],
                 output: Item.of('refinedstorage:quartz_enriched_iron', 4)
-            }
+            },
+        //Thermal
+            /*{
+                inputs: [
+                    'thermal:obsidian_glass',
+                    'thermal:obsidian_glass',
+                    '#forge:ingots/enderium'
+                ],
+                output: Item.of('thermal:enderium_glass', 2)
+            },
+            {
+                inputs: [
+                    'thermal:obsidian_glass',
+                    'thermal:obsidian_glass',
+                    '#forge:ingots/lumium'
+                ],
+                output: Item.of('thermal:lumium_glass', 2)
+            },
+            {
+                inputs: [
+                    'thermal:obsidian_glass',
+                    'thermal:obsidian_glass',
+                    '#forge:ingots/signalum'
+                ],
+                output: Item.of('thermal:signalum_glass', 2)
+            },
+            {
+                inputs: [
+                    'immersiveengineering:insulating_glass',
+                    'create:polished_rose_quartz',
+                    '#forge:ingots/obsidian'
+                ],
+                output: Item.of('thermal:obsidian_glass', 1)
+            },
+        //Woot
+            {
+                inputs: [
+                    '#forge:ingots/netherite_scrap',
+                    '#forge:netherrack',
+                    '#forge:netherrack',
+                    '#forge:soul_sand',
+                    '#forge:ingots/compressed_iron'
+                ],
+                output: Item.of('woot:si_ingot', 1)
+            }*/
         ]
     };
 

@@ -982,7 +982,7 @@ onEvent('recipes', (event) => {
             "count": 1
         }
     });*/
-//Rftools
+//Rftools Control
     event.recipes.extendedcrafting.shaped_ender_crafter({
         "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": ["QSQ", "TWT", "QQQ"],
@@ -1121,6 +1121,7 @@ onEvent('recipes', (event) => {
             "item": "rftoolscontrol:graphics_card"
         }
     });
+//Tinkers
     /*event.recipes.extendedcrafting.shaped_ender_crafter({
         "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": [" W ", "TPT", "TQT"],
@@ -1142,6 +1143,7 @@ onEvent('recipes', (event) => {
             "item": "tconstruct:part_chest"
         }
     });
+//Xnet
     event.recipes.extendedcrafting.shaped_ender_crafter({
         "type": "extendedcrafting:shaped_ender_crafter",
         "pattern": ["ICI", "rFr", "jgj"],

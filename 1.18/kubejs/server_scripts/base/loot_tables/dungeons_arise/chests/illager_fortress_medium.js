@@ -233,5 +233,5 @@ onEvent('server.datapack.high_priority', event => {
         ],
         type: "minecraft:chest"
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/illager_fortress_medium.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/illager_fortress_medium.json`, loot_table);;
 });

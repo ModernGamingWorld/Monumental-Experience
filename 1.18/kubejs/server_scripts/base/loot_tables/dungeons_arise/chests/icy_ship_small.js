@@ -321,5 +321,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     };
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/icy_ship_small.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/icy_ship_small.json`, loot_table);;
 });

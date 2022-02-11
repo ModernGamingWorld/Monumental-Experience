@@ -5,6 +5,7 @@ onEvent('recipes', (event) => {
             output: 'kubejs:compressed_iron_plate',
             inputs: ['#forge:ingots/compressed_iron']
         },
+    //Mekanism
         {
             output: 'mekanism:hdpe_sheet',
             inputs: ['mekanism:hdpe_pellet']
@@ -50,7 +51,7 @@ onEvent('recipes', (event) => {
             output: 'pneumaticcraft:compressed_iron_gear',
             inputs: ['#forge:ingots/compressed_iron']
         }
-        //Woot
+    //Woot
         {
             output: 'woot:black_dyeplate',
             inputs: ['#chipped:black_wool']
@@ -115,7 +116,7 @@ onEvent('recipes', (event) => {
             output: 'woot:red_dyeplate',
             inputs: ['#chipped:red_wool']
         },
-    /Woot
+    /Wooden Utilities
         {
             output: 'woodenutilities:wooden_plate',
             inputs: ['#minecraft:planks']

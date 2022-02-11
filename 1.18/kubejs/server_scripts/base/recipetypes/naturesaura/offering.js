@@ -25,7 +25,7 @@ onEvent('recipes', (event) => {
                     count: 2
                 }
             },
-            /*{
+            {
                 input: {
                     item: 'mana-and-artifice:purified_vinteum_ingot'
                 },
@@ -37,7 +37,7 @@ onEvent('recipes', (event) => {
                     count: 2
                 }
             },
-            {
+            /*{
                 input: {
                     item: 'iceandfire:ghost_ingot'
                 },
@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
                     item: 'naturesaura:sky_ingot',
                     count: 3
                 }
-            },
+            },*/
             {
                 input: {
                     item: 'mana-and-artifice:superheated_vinteum_ingot'
@@ -72,7 +72,7 @@ onEvent('recipes', (event) => {
                     item: 'naturesaura:sky_ingot',
                     count: 3
                 }
-            }*/
+            }
         ]
     };
 

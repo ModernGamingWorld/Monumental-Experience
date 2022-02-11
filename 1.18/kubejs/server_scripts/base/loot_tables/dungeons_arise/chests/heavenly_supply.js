@@ -198,5 +198,5 @@ onEvent('server.datapack.high_priority', event => {
         ],
         type: "minecraft:chest"
     }
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/heavenly_supply.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/heavenly_supply.json`, loot_table);;
 });

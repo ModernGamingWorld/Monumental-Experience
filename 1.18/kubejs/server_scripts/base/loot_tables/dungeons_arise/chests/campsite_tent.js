@@ -101,5 +101,5 @@ onEvent('server.datapack.high_priority', event => {
             }
         ]
     };
-    event.addJson(`dungeons_arise:loot_tables/chests/chests/campsite_tent.json`, loot_table);;
+    event.addJson(`dungeons_arise:loot_tables/chests/campsite_tent.json`, loot_table);;
 });
