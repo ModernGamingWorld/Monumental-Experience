@@ -1,3 +1,5 @@
+<center>
+
 About The Pack
 <p><em><strong><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Overviewpng" alt="" /></strong></em></p>
 <p>&nbsp;</p>
@@ -19,3 +21,5 @@ About The Pack
 <p style="text-align: center;"><a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fbisecthosting.com%252fBedrockLegends" target="_blank" rel="noopener noreferrer"><img src="https://media.discordapp.net/attachments/770324141114916874/892813483039682580/BH_BL_PromoCard.png?width=960&amp;height=100" alt="" width="960" height="100" /></a></p>
 <p style="text-align: center;"><br /><em><strong>Use the Code &ldquo;BedrockLegends&rdquo;, and you will save 25% OFF on your first purchase as a new client with Bisect Hosting!&nbsp;</strong></em></p>
 <p><em><strong>&nbsp;</strong></em></p>
+
+  </center>
