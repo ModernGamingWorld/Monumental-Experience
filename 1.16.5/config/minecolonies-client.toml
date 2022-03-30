@@ -5,11 +5,6 @@
 	neighborbuildingrendering = true
 	#minecolonies.config.enablecitizenvoices.comment [Default: true]
 	enablecitizenvoices = true
-
-#All configuration related to mod compatibility
-[compatibility]
-	#Whether to display colony boundaries in JourneyMap [Default: true]
-	mapcolonyborders = true
-	#Whether to display citizen deathpoints in JourneyMap [Default: true]
-	mapdeathpoints = true
+	#When true, the colony borders shown when holding the build tool will be in the colony's team color. When false, the colony you're inside will be white and any other colony will be red. [Default: true]
+	colonyteamborders = true
 

@@ -37,6 +37,15 @@
 	drones_can_be_picked_up = false
 	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
 	oil_world_gen_dimension_blacklist = []
+	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
+	#Range: > 0
+	bandage_cooldown = 160
+	#Time, in ticks, it takes to use a bandage.
+	#Range: > 1
+	bandage_use_time = 40
+	#Health points restored on bandage use (1 health = half a heart).
+	#Range: 1.0 ~ 1.7976931348623157E308
+	bandage_health_restored = 6.0
 
 ["Machine Properties"]
 	#Aerial Interface backwards compat: allow pre-0.8.0 behaviour of getting player's armor inventory from top face, even with Dispenser Upgrade installed
@@ -278,6 +287,10 @@
 	#Number of periodic offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
 	#Range: > 0
 	numPeriodicOffers = 20
+	#Amadrone spawn location, relative to the delivery/pickup position. This is a X/Y/Z triple. See also 'amadrone_spawn_location_relative_to_ground_level' for how the drone's Y position is calculated.
+	amadrone_spawn_location = [30, 30, 0]
+	#Affects Amadrone Y spawning position: when true, the Y position is relative to ground level at the calculated X/Z position. When false, it is relative to the delivery/pickup position.
+	amadrone_spawn_location_relative_to_ground_level = true
 
 [Heat]
 	#Default thermal resistance for fluid blocks

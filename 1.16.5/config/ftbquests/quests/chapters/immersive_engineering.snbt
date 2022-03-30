@@ -18,7 +18,6 @@
 				id: "0000000000000A8B"
 				type: "item"
 				item: "immersiveengineering:manual"
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "0000000000000FD0"

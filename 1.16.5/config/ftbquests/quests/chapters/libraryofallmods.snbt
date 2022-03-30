@@ -95,7 +95,6 @@
 						"patchouli:book": "pneumaticcraft:book"
 					}
 				}
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "7EFAC241B929B048"

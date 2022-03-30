@@ -16,25 +16,6 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
-			shape: "heart"
-			size: 1.5d
-			id: "74F5D211B989EA5D"
-			tasks: [{
-				id: "0D5FB7CDF05420BB"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "pneumaticcraft:book"
-					}
-				}
-				only_from_crafting: true
-			}]
-		}
-		{
-			x: 0.0d
 			y: 4.0d
 			shape: "gear"
 			dependencies: ["0000000000000A8D"]

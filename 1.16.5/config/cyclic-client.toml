@@ -31,6 +31,10 @@
 			#Specify hex color of preview mode.  default #FF0000
 			structure = "#FF0000"
 
+		[cyclic.blocks.text]
+			#True means this will hide the fluid contents chat message (right click) on relevant blocks (pylon, fluid generator, fluid hopper, solidifier, sprinkler, tank, cask)
+			FluidContents = true
+
 	#####################################################################################
 	#Item Rendering properties.  Color MUST have one # symbol and then six spots after so #000000 up to #FFFFFF
 	#####################################################################################
