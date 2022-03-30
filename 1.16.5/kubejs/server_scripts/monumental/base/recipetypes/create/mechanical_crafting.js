@@ -81,7 +81,7 @@ onEvent('recipes', (event) => {
             {
                 pattern: ["AAA", "ABA", "ACA"],
                 key: {
-                    B: 'routerreborn:furnace',
+                    B: '#forge:furnace',
                     A: 'kubejs:compressed_iron_plate',
                     C: 'appliedenergistics2:energy_acceptor'
                 },
@@ -91,7 +91,7 @@ onEvent('recipes', (event) => {
                 pattern: ["ABA", "C D", "ABA"],
                 key: {
                     A: 'kubejs:compressed_iron_plate',
-                    B: 'cyclic:tank',
+                    B: '#forge:tank',
                     C: 'appliedenergistics2:annihilation_core',
                     D: 'appliedenergistics2:formation_core'
                 },
@@ -440,7 +440,7 @@ onEvent('recipes', (event) => {
                 pattern: ["GGG", "bFb", "iii"],
                 key: {
                     b: '#forge:bucket',
-                    F: 'cyclic:tank',
+                    F: '#forge:tank',
                     G: 'immersiveengineering:insulating_glass',
                     i: '#forge:plates/steel'
                 },

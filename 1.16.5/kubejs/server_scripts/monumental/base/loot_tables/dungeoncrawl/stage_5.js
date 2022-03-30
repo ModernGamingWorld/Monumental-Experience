@@ -100,6 +100,11 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
+                    name: "mysticalagriculture:creative_essence",
+                    weight: 1
+                },
+                {
+                    type: "item",
                     name: "minecraft:name_tag",
                     weight: 2
                 },

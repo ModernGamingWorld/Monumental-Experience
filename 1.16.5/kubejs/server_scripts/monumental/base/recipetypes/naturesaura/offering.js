@@ -1,6 +1,19 @@
 onEvent('recipes', (event) => {
     const data = {
         recipes: [
+        //Ae2
+            {
+                input: {
+                    item: 'emendatusenigmatica:certus_quartz_gem'
+                },
+                start_item: {
+                    item: 'naturesaura:calling_spirit'
+                },
+                output: {
+                    item: 'emendatusenigmatica:charged_certus_quartz_gem',
+                    count: 2
+                }
+            },
         //Natures Aura
             {
                 input: {

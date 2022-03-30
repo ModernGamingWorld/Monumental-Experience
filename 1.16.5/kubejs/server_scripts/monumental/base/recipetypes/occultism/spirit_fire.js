@@ -17,6 +17,13 @@ onEvent('recipes', (event) => {
         },
         {
             input: {
+                item: 'emendatusenigmatica:certus_quartz_gem'
+            },
+            output: 'emendatusenigmatica:charged_certus_quartz_gem',
+            id: 'occultism:spirit_fire/charged_certus_quartz_gem'
+        },
+        {
+            input: {
                 item: 'tconstruct:blaze_head'
             },
             output: 'mysticalagriculture:blaze_essence',

@@ -1,0 +1,15 @@
+{
+    "modId": "appliedenergistics2",
+    "group": {
+        "name": "Applied Energistics 2",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "emendatusenigmatica:certus_quartz_gem",
+            "count": 1
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "emendatusenigmatica:charged_certus_quartz_gem" } }
+    ]
+}

@@ -10,6 +10,11 @@ onEvent('tags.items', (event) => {
         'pneumaticcraft:small_tank',
         'pneumaticcraft:medium_tank',
         'pneumaticcraft:large_tank',
-        'pneumaticcraft:etching_tank'
+        'pneumaticcraft:etching_tank',
+        'pneumaticcraft:huge_tank',
+        'mekanism:basic_fluid_tank',
+        'mekanism:advanced_fluid_tank',
+        'mekanism:elite_fluid_tank',
+        'mekanism:ultimate_fluid_tank'
     ]);
 });

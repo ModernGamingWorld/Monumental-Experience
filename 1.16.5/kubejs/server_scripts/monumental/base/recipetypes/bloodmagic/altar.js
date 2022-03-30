@@ -1,6 +1,15 @@
 onEvent('recipes', (event) => {
     data = {
         recipes: [
+        //Ae2
+            {
+                input: 'emendatusenigmatica:certus_quartz_gem',
+                output: 'emendatusenigmatica:charged_certus_quartz_gem',
+                syphon: 500,
+                altarLevel: 0,
+                consumptionRate: 5,
+                drainRate: 1
+            },
         //Blood Magic
             {
                 input: 'psi:psidust_block',

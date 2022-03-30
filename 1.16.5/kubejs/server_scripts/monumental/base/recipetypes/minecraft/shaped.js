@@ -843,6 +843,10 @@ onEvent('recipes', event => {
         w: '#forge:wires/electrum',
         s: 'createaddition:spool'
     })
+    event.shaped(Item.of('immersiveengineering:wirecoil_copper', 2), [" w ", "wsw", " w "], {
+        w: '#forge:wires/copper',
+        s: 'createaddition:spool'
+    })
     event.shaped(Item.of('immersiveengineering:wirecoil_redstone', 2), [" w ", "asa", " w "], {
         w: '#forge:wires/aluminum',
         a: '#forge:dusts/redstone',
@@ -1125,7 +1129,7 @@ onEvent('recipes', event => {
         A: 'kubejs:compressed_iron_plate',
         B: '#forge:gears/osmium',
         C: 'extendedcrafting:redstone_component',
-        D: 'routerreborn:furnace',
+        D: '#forge:furnace',
         E: 'mekanism:steel_casing'
     })
     event.shaped(Item.of('mekanism:module_base', 2), ["BAB", "ACA", "BAB"], {

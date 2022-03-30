@@ -306,7 +306,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: Item.of('byg:brimstone', 2),
-            inputs: ['minecraft:netherrack', 'byg:sythian_wart_block']
+            inputs: ['#forge:netherrack', 'byg:sythian_wart_block']
         },
         //Botania
         {
@@ -419,7 +419,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'minecraft:wheat_seeds',
-            inputs: ['minecraft:wheat']
+            inputs: ['#forge:crops/wheat']
         },
         {
             output: 'minecraft:writable_book',

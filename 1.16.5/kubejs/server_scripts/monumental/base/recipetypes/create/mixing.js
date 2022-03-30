@@ -60,7 +60,7 @@ events.listen('recipes', (event) => {
                     '#forge:dyes',
                     '#forge:dyes',
                     '#forge:dyes',
-                    'minecraft:bone_meal'
+                    '#forge:fertilizer'
                 ],
                 output: Item.of('botania:fertilizer', 1)
             }
@@ -102,35 +102,35 @@ events.listen('recipes', (event) => {
             },
         //BYG
             {
-                inputs: ['minecraft:end_stone', 'minecraft:bone_meal', 'byg:bulbis_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:bulbis_sprouts'],
                 output: Item.of('byg:bulbis_phycelium')
             },
             {
-                inputs: ['minecraft:end_stone', 'minecraft:bone_meal', 'byg:imparius_vine'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:imparius_vine'],
                 output: Item.of('byg:imparius_phylium')
             },
             {
-                inputs: ['minecraft:end_stone', 'minecraft:bone_meal', 'byg:shulkren_moss_blanket'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
                 output: Item.of('byg:shulkren_phylium')
             },
             {
-                inputs: ['minecraft:end_stone', 'minecraft:bone_meal', 'byg:nightshade_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:nightshade_sprouts'],
                 output: Item.of('byg:nightshade_phylium')
             },
             {
-                inputs: ['minecraft:end_stone', 'minecraft:bone_meal', 'byg:ivis_sprout'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:ivis_sprout'],
                 output: Item.of('byg:ivis_phylium')
             },
             {
-                inputs: ['byg:ether_soil', 'minecraft:bone_meal', 'byg:ether_foliage'],
+                inputs: ['byg:ether_soil', '#forge:fertilizer', 'byg:ether_foliage'],
                 output: Item.of('byg:ether_phylium')
             },
             {
-                inputs: ['minecraft:dirt', 'minecraft:bone_meal', 'byg:ether_foliage'],
+                inputs: ['#forge:dirt', '#forge:fertilizer', 'byg:ether_foliage'],
                 output: Item.of('byg:ether_soil')
             },
             {
-                inputs: ['byg:ether_stone', 'minecraft:bone_meal', 'byg:vermilion_sculk_growth'],
+                inputs: ['byg:ether_stone', '#forge:fertilizer', 'byg:vermilion_sculk_growth'],
                 output: Item.of('byg:vermilion_sculk')
             },
         //Create
@@ -434,6 +434,15 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:supremium_essence'
                 ],
                 output: Item.of('mysticalagriculture:supremium_ingot', 1)
+            },
+            {
+                inputs: [
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:inferium_essence',
+                    'mysticalagriculture:inferium_essence',
+                    '#forge:gems/mana_diamond'
+                ],
+                output: Item.of('mysticalagriculture:infusion_crystal', 1)
             },
         //Mystical Agradditions
             {
@@ -1081,23 +1090,23 @@ events.listen('recipes', (event) => {
                 output: Item.of('envirocore:litherite_crystal', 4)
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:bulbis_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:bulbis_sprouts'],
                 output: Item.of('byg:bulbis_phycelium')
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:imparius_vine'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:imparius_vine'],
                 output: Item.of('byg:imparius_phylium')
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
                 output: Item.of('byg:shulkren_phylium')
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:nightshade_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:nightshade_sprouts'],
                 output: Item.of('byg:nightshade_phylium')
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:ivis_sprout'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:ivis_sprout'],
                 output: Item.of('byg:ivis_phylium')
             },
             {
@@ -1126,7 +1135,7 @@ events.listen('recipes', (event) => {
                 inputs: [
                     'mysticalagriculture:imperium_essence',
                     '#forge:hoes',
-                    'minecraft:dirt'
+                    '#forge:dirt'
                 ],
                 output: Item.of('mysticalagriculture:imperium_farmland', 1)
             },
@@ -1194,7 +1203,7 @@ events.listen('recipes', (event) => {
                 inputs: [
                     'mysticalagriculture:prudentium_essence',
                     '#forge:hoes',
-                    'minecraft:dirt'
+                    '#forge:dirt'
                 ],
                 output: Item.of('mysticalagriculture:prudentium_farmland', 2)
             },
@@ -1258,7 +1267,7 @@ events.listen('recipes', (event) => {
                 inputs: [
                     'mysticalagriculture:supremium_essence',
                     '#forge:hoes',
-                    'minecraft:dirt'
+                    '#forge:dirt'
                 ],
                 output: Item.of('mysticalagriculture:supremium_farmland', 2)
             },
@@ -1297,15 +1306,24 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
                     '#mysticalagriculture:infusion_crystals',
-                    'mysticalagriculture:supremium_nugget'
                 ],
                 output: Item.of('mysticalagriculture:tertium_essence', 2)
             },
             {
                 inputs: [
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:prosperity_shard',
+                    'mysticalagriculture:prosperity_shard',
+                    '#mysticalagriculture:infusion_crystals',
+                ],
+                output: Item.of('mysticalagriculture:inferium_essence', 2)
+            },
+            {
+                inputs: [
                     'mysticalagriculture:tertium_essence',
                     '#forge:hoes',
-                    'minecraft:dirt'
+                    '#forge:dirt'
                 ],
                 output: Item.of('mysticalagriculture:tertium_farmland', 2)
             },

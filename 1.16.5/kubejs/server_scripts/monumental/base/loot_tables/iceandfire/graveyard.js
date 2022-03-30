@@ -42,6 +42,18 @@ onEvent('server.datapack.high_priority', (event) => {
             },
             {
                 type: "item",
+                name: "create:creative_blaze_cake",
+                functions: [{
+                    function: "set_count",
+                    count: {
+                        min: 1,
+                        max: 1
+                    }
+                }],
+                weight: 1
+            },
+            {
+                type: "item",
                 name: "mysticalagriculture:iron_essence",
                 functions: [{
                     function: "set_count",

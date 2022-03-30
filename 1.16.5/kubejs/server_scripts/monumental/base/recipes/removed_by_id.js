@@ -724,16 +724,16 @@ onEvent('recipes', event => {
 
     //Botania
     event.remove({
-        id: 'botania:pure_daisy/livingrock'
-    })
-    event.remove({
         id: 'botania:mana_infusion/mana_diamond'
     })
     event.remove({
-        id: 'botania:mana_infusion/manasteel'
+        id: 'botania:mana_spreader'
     })
     event.remove({
-        id: 'botania:mana_spreader'
+        id: 'botania:magnet_ring'
+    })
+    event.remove({
+        id: 'botania:aura_ring_greater'
     })
     event.remove({
         id: 'botania:livingwood_bow'
@@ -743,6 +743,24 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'botania:aura_ring'
+    })
+    event.remove({
+        id: 'botania:water_ring'
+    })
+    event.remove({
+        id: 'botania:dodge_ring'
+    })
+    event.remove({
+        id: 'botania:mining_ring'
+    })
+    event.remove({
+        id: 'botania:pixie_ring'
+    })
+    event.remove({
+        id: 'botania:reach_ring'
+    })
+    event.remove({
+        id: 'botania:magnet_ring_greater'
     })
     event.remove({
         id: 'botania:manasteel_pick'
@@ -1694,9 +1712,6 @@ onEvent('recipes', event => {
     })
 
     //Doom Recipes
-    event.remove({
-        id: 'doom:argent_plate'
-    })
     event.remove({
         id: 'doom:argent_pickaxe'
     })
@@ -3765,6 +3780,12 @@ onEvent('recipes', event => {
     event.remove({
         id: 'minecraft:shield'
     })
+    event.remove({
+        id: 'minecraft:bow'
+    })
+    event.remove({
+        id: 'minecraft:crossbow'
+    })
 
     //Morph O Tool recipes
     event.remove({
@@ -3888,6 +3909,9 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'matc:supremium_essence'
+    })
+    event.remove({
+        id: 'matc:insanium_essence'
     })
 
     //Mystical Agriculture Coal
@@ -4117,6 +4141,9 @@ onEvent('recipes', event => {
     })
 
     //Mystical Agriculture Furnace
+    event.remove({
+        id: 'mysticalagriculture:inferium_furnace'
+    })
     event.remove({
         id: 'mysticalagriculture:prudentium_furnace'
     })

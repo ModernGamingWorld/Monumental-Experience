@@ -462,7 +462,7 @@ onEvent('recipes', (event) => {
                 "tag": "forge:gems/fluix"
             },
             "B": {
-                "item": "cyclic:tank"
+                "tag": "forge:tank"
             },
             "C": {
                 "item": "kubejs:compressed_iron_plate"
@@ -805,7 +805,7 @@ onEvent('recipes', (event) => {
                 "item": "pneumaticcraft:reinforced_stone"
             },
             "B": {
-                "item": "minecraft:note_block"
+                "item": "inventorypets:pet_dubstep"
             },
             "C": {
                 "item": "immersiveengineering:wirecoil_redstone"
@@ -1011,7 +1011,7 @@ onEvent('recipes', (event) => {
                 "tag": "forge:gears/electrum"
             },
             "C": {
-                "item": "create:mechanical_piston"
+                "tag": "forge:piston"
             },
             "D": {
                 "tag": "industrialforegoing:machine_frame/pity"
@@ -1042,7 +1042,7 @@ onEvent('recipes', (event) => {
                 "tag": "industrialforegoing:machine_frame/pity"
             },
             "E": {
-                "item": "routerreborn:furnace"
+                "tag": "forge:furnace"
             }
         },
         "result": {
@@ -1182,7 +1182,7 @@ onEvent('recipes', (event) => {
                 "item": "rftoolscontrol:card_base"
             },
             "C": {
-                "tag": "chipped:glowstone"
+                "tag": "chisel:glowstone"
             }
         },
         "result": {

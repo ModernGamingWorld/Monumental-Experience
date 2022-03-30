@@ -43,6 +43,26 @@ onEvent('recipes', (event) => {
     event.recipes.bloodmagic.soulforge({
         type: 'bloodmagic:soulforge',
         input0: {
+            item: 'mysticalagriculture:prosperity_shard'
+        },
+        input1: {
+            item: 'mysticalagriculture:inferium_essence'
+        },
+        input2: {
+            item: 'mysticalagriculture:inferium_essence'
+        },
+        input3: {
+            tag: 'forge:gems/mana_diamond'
+        },
+        output: {
+            item: 'mysticalagriculture:infusion_crystal'
+        },
+        minimumDrain: 400.0,
+        drain: 100.0
+    })
+    event.recipes.bloodmagic.soulforge({
+        type: 'bloodmagic:soulforge',
+        input0: {
             item: 'bloodmagic:soulforge'
         },
         input1: {

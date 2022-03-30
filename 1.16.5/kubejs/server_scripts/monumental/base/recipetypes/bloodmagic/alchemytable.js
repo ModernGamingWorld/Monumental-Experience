@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
         recipes: [
         //BetterendForge
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', '#forge:mushrooms'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', '#forge:mushrooms'],
                 output: 'betterendforge:end_mycelium',
                 count: 1,
                 syphon: 200,
@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 0
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:bulbis_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:bulbis_sprouts'],
                 output: 'byg:bulbis_phycelium',
                 count: 1,
                 syphon: 200,
@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:imparius_vine'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:imparius_vine'],
                 output: 'byg:imparius_phylium',
                 count: 1,
                 syphon: 200,
@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:shulkren_moss_blanket'],
                 output: 'byg:shulkren_phylium',
                 count: 1,
                 syphon: 200,
@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:nightshade_sprouts'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:nightshade_sprouts'],
                 output: 'byg:nightshade_phylium',
                 count: 1,
                 syphon: 200,
@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#chipped:end_stone', '#forge:fertilizer', 'byg:ivis_sprout'],
+                inputs: ['#forge:end_stones', '#forge:fertilizer', 'byg:ivis_sprout'],
                 output: 'byg:ivis_phylium',
                 count: 1,
                 syphon: 200,
@@ -84,7 +84,7 @@ onEvent('recipes', (event) => {
                 orbLevel: 1
             },
             {
-                inputs: ['#chipped:netherrack', '#forge:fertilizer', '#forge:mushrooms'],
+                inputs: ['#forge:netherrack', '#forge:fertilizer', '#forge:mushrooms'],
                 output: 'byg:mycelium_netherrack',
                 count: 1,
                 syphon: 200,
@@ -93,7 +93,7 @@ onEvent('recipes', (event) => {
             },
         //BloodMagic
             {
-                inputs: ['#forge:crops/potato', '#forge:crops/potato', '#forge:crops/potato', 'minecraft:bone_meal'],
+                inputs: ['#forge:crops/potato', '#forge:crops/potato', '#forge:crops/potato', '#forge:fertilizer'],
                 output: 'bloodmagic:plantoil',
                 count: 1,
                 syphon: 100,
@@ -102,7 +102,7 @@ onEvent('recipes', (event) => {
                 id: 'plantoil_from_taters'
             },
             {
-                inputs: ['#forge:crops', '#forge:crops', '#forge:crops', 'minecraft:bone_meal'],
+                inputs: ['#forge:crops/wheat', '#forge:crops/wheat', '#forge:crops/wheat', '#forge:fertilizer'],
                 output: 'bloodmagic:plantoil',
                 count: 1,
                 syphon: 100,
@@ -154,7 +154,7 @@ onEvent('recipes', (event) => {
                 id: 'string'
             },
             {
-                inputs: ['#forge:sand', '#forge:sand', 'minecraft:water_bucket'],
+                inputs: ['#forge:sand', '#forge:sand', '#forge:buckets/water'],
                 output: 'minecraft:clay',
                 count: 2,
                 syphon: 50,
