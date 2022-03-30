@@ -16,5 +16,5 @@
 	#Range: 1 ~ 10000
 	forestWellRarityPerChunk = 450
 	#Range: 1 ~ 10000
-	mushroomWellRarityPerChunk = 450
+	mushroomWellRarityPerChunk = 350
 

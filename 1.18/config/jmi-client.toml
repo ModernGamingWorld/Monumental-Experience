@@ -4,9 +4,11 @@
 	#Enable FTBChunks Integration
 	ftbChunks = true
 	#Range: 0.0 ~ 1.0
-	claimedChunkOverlayOpacity = 0.25
+	claimedChunkOverlayOpacity = 0.22222299873828888
 	#Disable conflict functions for FTBChunks (MiniMap, Waypoint beam, Death waypoint)
 	disableFTBFunction = true
+	#Show chunk claiming screen first instead of large map screen.
+	showClaimChunkScreen = true
 
 [Waystones]
 	#Enable Waystones Integration

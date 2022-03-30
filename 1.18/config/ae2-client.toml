@@ -2,7 +2,7 @@
 [client]
 	#TODO
 	disableColoredCableRecipesInJEI = true
-	showFacadesInJEI = false
+	showFacadesInJEI = true
 	#TODO
 	enableEffects = true
 	#TODO

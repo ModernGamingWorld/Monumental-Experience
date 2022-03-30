@@ -60,76 +60,53 @@
 				"{id:\"roughlyenoughitems:manual\",rule:{}}"
 			],
 			"filteredStacks": [
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_poison\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_leaping\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_swiftness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:turtle_master\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:clinging\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_strength\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:water_breathing\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_regeneration\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_strength\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:strong_haste\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:awkward\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:bug_pheromones\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:stun\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:strong_soulsteal\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:levitation\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_soulsteal\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_poison_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_turtle_master\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_fire_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strength\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:knockback_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:thick\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_healing\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:strong_resilience\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_water_breathing\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:leaping\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:empty\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:poison_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_lava_vision\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_swiftness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:swiftness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_poison\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_harming\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:invisibility\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_leaping\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:wither\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_invisibility\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:hunger\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_bug_pheromones\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:poison\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:long_resilience\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:luck\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"quark:resilience\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:haste\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:blind\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_regeneration\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:speed_iii\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_clinging\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_slowness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:weakness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:long_knockback_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:strong_knockback_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:strong_turtle_master\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:fire_resistance\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:swimspeed\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:healing\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:soulsteal\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:night_vision\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"alexsmobs:lava_vision\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:slow_falling\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:harming\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:slowness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_night_vision\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_slow_falling\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"cyclic:strong_hunger\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_weakness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:long_slowness\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:mundane\"},type:\"minecraft:item\"}",
-				"{Count:1b,id:\"immersiveengineering:potion_bucket\",tag:{Potion:\"minecraft:regeneration\"},type:\"minecraft:item\"}"
+				"{Amount:1000,FluidName:\"pneumaticcraft:gasoline\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"cyclic:honey\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:biodiesel\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_inferium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:verderium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_soulium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:blutonium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"cyclic:xpjuice\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"sophisticatedcore:xp_still\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_supremium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:yellorium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:redstone_acid\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"biomesoplenty:blood\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:vegetable_oil\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:ethanol\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"cyclic:slime\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:biodiesel\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_prudentium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:cyanite\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:concrete\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:plastic\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:creosote\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:lubricant\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:rossinite\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:etching_acid\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"cyclic:magma\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:lpg\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:potion\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:plantoil\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_imperium\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"minecraft:lava\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"minecraft:milk\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"decorative_blocks:thatch\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:yeast_culture\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"cyclic:biomass\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:oil\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"immersiveengineering:herbicide\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:memory_essence\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:kerosene\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:steam\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:diesel\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"undergarden:virulent_mix_source\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"minecraft:water\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"pneumaticcraft:ethanol\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"reliquary:xp_juice_still\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"bigreactors:magentite\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"mysticalagradditions:molten_tertium\",type:\"minecraft:fluid\"}"
 			]
 		},
 		"enableJeiCompatibilityLayer": true,
@@ -149,7 +126,8 @@
 			// Declares whether entry rendering time should be debugged.
 			"debugRenderTimeRequired": false,
 			// Merges displays with equal contents under 1 display.
-			"mergeDisplayUnderOne": true
+			"mergeDisplayUnderOne": true,
+			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
 			"entrySize": 1.0,
@@ -181,13 +159,16 @@
 			// Declares the command used in servers to cheat items.
 			"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
 			// Declares the command used to change weather.
-			"weatherCommand": "/weather {weather}"
+			"weatherCommand": "/weather {weather}",
+			// Declares the command used to change time.
+			"timeCommand": "/time set {time}"
 		},
 		"miscellaneous": {
 			// Declares whether arrows in containers should be clickable.
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
-			"newFastEntryRendering": true
+			"newFastEntryRendering": true,
+			"cachingFastEntryRendering": false
 		}
 	},
 	"appearance": {
@@ -206,13 +187,14 @@
 		"recipeBorder": "DEFAULT",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
-		"horizontalEntriesBoundaries": 1.0,
+		"horizontalEntriesBoundaries": 0.5,
 		"verticalEntriesBoundaries": 1.0,
 		"horizontalEntriesBoundariesColumns": 50,
 		"verticalEntriesBoundariesRows": 1000,
 		"favoritesHorizontalEntriesBoundaries": 1.0,
 		"favoritesHorizontalEntriesBoundariesColumns": 50,
-		"syntaxHighlightingMode": "COLORFUL"
+		"syntaxHighlightingMode": "COLORFUL",
+		"isFocusModeZoomed": false
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
@@ -221,6 +203,7 @@
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
-		"allowInventoryHighlighting": true
+		"allowInventoryHighlighting": true,
+		"itemCheatingMode": "REI_LIKE"
 	}
 }

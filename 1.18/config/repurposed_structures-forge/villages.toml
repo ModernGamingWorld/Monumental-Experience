@@ -4,8 +4,6 @@
 # 1 for spawning in most chunks and 1001 for no spawn.
 [Spawnrates]
 	#Range: 1 ~ 1001
-	villageMushroomAverageChunkDistance = 24
-	#Range: 1 ~ 1001
 	badlandsVillageAverageChunkDistance = 37
 	#Range: 1 ~ 1001
 	birchVillageAverageChunkDistance = 52
@@ -17,6 +15,8 @@
 	swampVillageAverageChunkDistance = 52
 	#Range: 1 ~ 1001
 	mountainsVillageAverageChunkDistance = 52
+	#Range: 1 ~ 1001
+	villageMushroomAverageChunkDistance = 24
 	#Range: 1 ~ 1001
 	giantTaigaVillageAverageChunkDistance = 47
 	#Range: 1 ~ 1001
@@ -42,6 +42,8 @@
 	#Range: 1 ~ 30
 	mountainsVillageSize = 6
 	#Range: 1 ~ 30
+	mushroomVillageSize = 8
+	#Range: 1 ~ 30
 	giantTaigaVillageSize = 6
 	#Range: 1 ~ 30
 	oakVillageSize = 6
@@ -49,6 +51,4 @@
 	crimsonVillageSize = 6
 	#Range: 1 ~ 30
 	warpedVillageSize = 6
-	#Range: 1 ~ 30
-	mushroomVillageSize = 8
 

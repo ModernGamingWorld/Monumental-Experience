@@ -1,0 +1,3 @@
+#Always render trees in bonsai pot as their item equivalent.
+alwaysRenderAsItem = false
+

@@ -1,5 +1,5 @@
 # Enable forge global version checking
-versionCheck = false
+versionCheck = true
 # does the splashscreen run
 splashscreen = true
 defaultConfigPath = "defaultconfigs"

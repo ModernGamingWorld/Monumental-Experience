@@ -3,41 +3,22 @@
 [gobber2_lucky_block]
 	#Size of Gobber Lucky Block pockets [3-100, default: 4]
 	#Range: 3 ~ 100
-	gobberLuckyBlockSize = 4
+	gobberLuckyBlockSize = 6
 	#Chances of Gobber Lucky Block pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockChance = 20
-	#Minimal height for Gobber Lucky Block pocket generation, [0-384, default: 1]
-	#Range: 0 ~ 384
-	gobberLuckyBlockMinHeight = 1
-	#Maximal height for Gobber Lucky Block pocket generation [0-384, default: 255]
-	#Range: 0 ~ 384
+	#Minimal height for Gobber Lucky Block pocket generation, [-64 to -384, default: -40]
+	#Range: -64 ~ 384
+	gobberLuckyBlockMinHeight = -40
+	#Maximal height for Gobber Lucky Block pocket generation [-64 to -384, default: 255]
+	#Range: -64 ~ 384
 	gobberLuckyBlockMaxHeight = 255
-	#Generate Gobber Lucky Block in the world [true / false]
-	gobberLuckyBlockGeneration = true
-
-#Gobber Lucky Block Deepslate Generation
-[gobber2_lucky_block_deepslate]
-	#Size of Gobber Lucky Block Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberLuckyBlockDeepslateSize = 4
-	#Chances of Gobber Lucky Block Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberLuckyBlockDeepslateChance = 20
-	#Minimal height for Gobber Lucky Block Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMinHeight = -64
-	#Maximal height for Gobber Lucky Block Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberLuckyBlockDeepslateMaxHeight = 0
-	#Generate Gobber Lucky Block Deepslate in the world [true / false]
-	gobberLuckyBlockDeepslateGeneration = true
 
 #Gobber Lucky Block Nether Generation
 [gobber2_lucky_block_nether]
 	#Size of Gobber Lucky Block Nether pockets [3-100, default: 4]
 	#Range: 3 ~ 100
-	gobberLuckyBlockNetherSize = 4
+	gobberLuckyBlockNetherSize = 6
 	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockNetherChance = 20
@@ -47,48 +28,27 @@
 	#Maximal height for Gobber Lucky Block Nether pocket generation [0-255, default: 255]
 	#Range: 0 ~ 255
 	gobberLuckyBlockNetherMaxHeight = 255
-	#Generate Gobber Lucky Block Nether in the world [true / false]
-	gobberLuckyBlockNetherGeneration = true
 
 #Gobber Ore Generation
 [gobber2_ore]
 	#Size of Gobber Ore pockets [3-100, default: 4]
 	#Range: 3 ~ 100
-	gobberOreSize = 4
+	gobberOreSize = 6
 	#Chances of Gobber Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
 	gobberOreChance = 15
-	#Minimal height for Gobber Ore pocket generation, [0-255, default: 20]
-	#Range: 0 ~ 384
-	gobberOreMinHeight = 0
-	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
-	#Range: 0 ~ 384
-	gobberOreMaxHeight = 30
-	#Generate Gobber Ore in the world [true / false]
-	gobberOreGeneration = true
-
-#Gobber Ore Deepslate Generation
-[gobber2_ore_deepslate]
-	#Size of Gobber Ore Deepslate pockets [3-100, default: 4]
-	#Range: 3 ~ 100
-	gobberOreDeepslateSize = 4
-	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
-	#Range: 0 ~ 30
-	gobberOreDeepslateChance = 20
-	#Minimal height for Gobber Ore Deepslate pocket generation, [-64 to 0, default: -64]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMinHeight = -64
-	#Maximal height for Gobber Ore Deepslate pocket generation [-64 to 0, default: 0]
-	#Range: -64 ~ 0
-	gobberOreDeepslateMaxHeight = 0
-	#Generate Gobber Ore Deepslate in the world [true / false]
-	gobberOreDeepslateGeneration = true
+	#Minimal height for Gobber Ore pocket generation, [-64 to -255, default: -40]
+	#Range: -64 ~ 384
+	gobberOreMinHeight = -40
+	#Maximal height for Gobber Ore pocket generation [-64 to -255, default: 15]
+	#Range: -64 ~ 384
+	gobberOreMaxHeight = 15
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]
 	#Size of Gobber Nether Ore pockets [3-100, default: 3]
 	#Range: 3 ~ 100
-	gobberOreNetherSize = 4
+	gobberOreNetherSize = 6
 	#Chances of Gobber Nether Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
 	gobberOreNetherChance = 15
@@ -98,8 +58,6 @@
 	#Maximal height for Gobber Nether Ore pocket generation [0-255, default: 255]
 	#Range: 0 ~ 255
 	gobberOreNetherMaxHeight = 255
-	#Generate Gobber Nether Ore in the world [true / false]
-	gobberOreNetherGeneration = true
 
 #Gobber End Ore Generation
 [gobber2_ore_end]
@@ -109,14 +67,12 @@
 	#Chances of Gobber End Ore pocket being generated [0-30, default: 15]
 	#Range: 0 ~ 30
 	gobberOreEndChance = 15
-	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
+	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 20]
 	#Range: 0 ~ 255
-	gobberOreEndMinHeight = 0
+	gobberOreEndMinHeight = 20
 	#Maximal height for Gobber End Ore pocket generation [0-255, default: 255]
 	#Range: 0 ~ 255
 	gobberOreEndMaxHeight = 255
-	#Generate Gobber End Ore in the world [true / false]
-	gobberOreEndGeneration = true
 
 #Gobber Tool Material Values
 [gobber_tool_material]
@@ -128,10 +84,42 @@
 	gobberToolsSpeed = 9.0
 	#Gobber tool attack damage [1-100, default: 9.0]
 	#Range: 1.0 ~ 100.0
-	gobberToolsDamage = 1.0
+	gobberToolsDamage = 9.0
 	#Gobber tool enchantability [0-50, default: 20]
 	#Range: 1 ~ 50
 	gobberToolsEnchantability = 20
+
+#Nether Gobber Tool Material Values
+[nether_gobber_tool_material]
+	#Nether Gobber tool durability [1-9000, default: 5200]
+	#Range: 0 ~ 9000
+	netherGobberToolsDurability = 5200
+	#Nether Gobber tool mining speed [1-25, default: 12.0]
+	#Range: 1.0 ~ 25.0
+	netherGobberToolsSpeed = 12.0
+	#Nether Gobber tool attack damage [1-100, default: 9.0]
+	#Range: 1.0 ~ 100.0
+	netherGobberToolsDamage = 9.0
+	#Nether Gobber tool enchantability [0-50, default: 25]
+	#Range: 1 ~ 50
+	netherGobberToolsEnchantability = 25
+
+#End Gobber Tool Material Values
+[end_gobber_tool_material]
+	#End Gobber tool durability [1-9000, default: 8000]
+	#Range: 0 ~ 9000
+	endGobberToolsDurability = 8000
+	#End Gobber tool mining speed [1-25, default: 14.0]
+	#Range: 1.0 ~ 25.0
+	endGobberToolsSpeed = 14.0
+	#End Gobber tool attack damage [1-100, default: 9.0]
+	#Range: 1.0 ~ 100.0
+	endGobberToolsDamage = 9.0
+	#End Gobber tool enchantability [0-50, default: 30]
+	#Range: 1 ~ 50
+	endGobberToolsEnchantability = 30
+	#Should Tools be unbreakable when crafted? [true / false]
+	endGobberToolsUnbreakable = true
 
 #Gobber Armor Material Values
 [gobber_armor_material]
@@ -160,21 +148,6 @@
 	#Range: 1 ~ 20
 	gobberBootsProtection = 6
 
-#Nether Gobber Tool Material Values
-[nether_gobber_tool_material]
-	#Nether Gobber tool durability [1-9000, default: 5200]
-	#Range: 0 ~ 9000
-	netherGobberToolsDurability = 5200
-	#Nether Gobber tool mining speed [1-25, default: 12.0]
-	#Range: 1.0 ~ 25.0
-	netherGobberToolsSpeed = 12.0
-	#Nether Gobber tool attack damage [1-100, default: 9.0]
-	#Range: 1.0 ~ 100.0
-	netherGobberToolsDamage = 1.0
-	#Nether Gobber tool enchantability [0-50, default: 25]
-	#Range: 1 ~ 50
-	netherGobberToolsEnchantability = 25
-
 #Nether Gobber Armor Material Values
 [nether_gobber_armor_material]
 	#Nether Gobber armor durability multiplier [1-200, default: 83]
@@ -201,23 +174,6 @@
 	#Nether armor boots protection [1-20, default: 7]
 	#Range: 1 ~ 20
 	netherBootsProtection = 7
-
-#End Gobber Tool Material Values
-[end_gobber_tool_material]
-	#End Gobber tool durability [1-9000, default: 8000]
-	#Range: 0 ~ 9000
-	endGobberToolsDurability = 8000
-	#End Gobber tool mining speed [1-25, default: 14.0]
-	#Range: 1.0 ~ 25.0
-	endGobberToolsSpeed = 14.0
-	#End Gobber tool attack damage [1-100, default: 9.0]
-	#Range: 1.0 ~ 100.0
-	endGobberToolsDamage = 1.0
-	#End Gobber tool enchantability [0-50, default: 30]
-	#Range: 1 ~ 50
-	endGobberToolsEnchantability = 30
-	#Should Tools be unbreakable when crafted? [true / false]
-	endGobberToolsUnbreakable = true
 
 #End Gobber Armor Material Values
 [end_gobber_armor_material]
@@ -279,20 +235,30 @@
 
 #Armor Health Perks Settings
 [armor_health_perk_settings]
-	#Enable/disable Gobber Armor health perks
-	gobberArmorHealthPerks = true
 	#Enable/disable Gobber Armor No Fall Damage
 	gobberArmorNoFallDamage = true
 	#Enable/disable Gobber Armor fire protection
 	gobberArmorFireProtection = true
+	#Enable/disable Gobber Armor water breathing
+	gobberArmorWaterBreathing = true
+	#Enable/disable Gobber Armor health perks
+	gobberArmorHealthPerks = true
 	#Enable/disable Gobber Nether Armor health perks
 	gobberNetherArmorHealthPerks = true
 	#Enable/disable Gobber End Armor health perks
 	gobberEndArmorHealthPerks = true
 	#Enable/disable Gobber Dragon Armor health perks
 	gobberDragonArmorHealthPerks = true
-	#Enable/disable Gobber Armor water breathing
-	gobberArmorWaterBreathing = true
+	#Enable/disable Gobber Armor auto feeding
+	gobberArmorAutofeed = true
+	#Enable/disable Gobber Nether Armor auto feeding
+	gobberNetherArmorAutofeed = true
+	#Enable/disable Gobber End Armor auto feeding
+	gobberEndArmorAutofeed = true
+	#Enable/disable Gobber Dragon Armor auto feeding
+	gobberDragonArmorAutofeed = true
+	#Enable/disable Gobber Dragon Armor flight
+	gobberDragonArmorFlight = true
 
 #Gobber Food Values
 [gobber_foods]

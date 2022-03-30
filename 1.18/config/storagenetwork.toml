@@ -1,6 +1,8 @@
 
 #General settings
 [storagenetwork]
+	#If true, this will prevent jei from crashing on smaller gui scale/screen resolutions because -8<0, and instead pushes the players items down off the screen a bit.  False means everything will try to render perfectly as in older verisons but will not try to prevent any possible crashes
+	offsetItemsPreventJeiCrashNegativeNumbers = true
 	#Enable very spammy logs.  Sometimes useful for debugging. 
 	logSpam = false
 	#
@@ -17,9 +19,6 @@
 	# How many itemstacks from the network are visible to external connections through the storagenetwork:exchange.  Too low and not all items can pass through, too large and there will be packet/buffer overflows.
 	#Range: 1 ~ 5000
 	exchangeBufferSize = 1024
-	#
-	# Set to false to disable the automatic focus of the searchbar - client gui screen
-	enableAutoSearchFocus = true
 	#
 	# Maximum range of the Storage Remote and Crafting Remote.   -1 means unlimited.
 	#Range: -1 ~ 8388607

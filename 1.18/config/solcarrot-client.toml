@@ -1,11 +1,11 @@
 
 ["milestone celebration"]
-	#If true, reaching a new milestone spawns particles.
-	shouldSpawnMilestoneParticles = true
 	#If true, reaching a new milestone plays a ding sound.
 	shouldPlayMilestoneSounds = true
 	#If true, trying a new food spawns particles.
 	shouldSpawnIntermediateParticles = true
+	#If true, reaching a new milestone spawns particles.
+	shouldSpawnMilestoneParticles = true
 
 [miscellaneous]
 	#If true, foods indicate in their tooltips whether or not they have been eaten.

@@ -22,6 +22,8 @@
 	"Print Screen Classnames" = false
 	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
 	"Allowed Screens" = []
+	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
+	"Use Screen List Blacklist" = false
 	#Set to true to make the quark big worldgen features such as stone clusters generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
@@ -42,10 +44,10 @@
 [automation]
 	"Redstone Randomizer" = true
 	"Pistons Move Tile Entities" = false
-	"Obsidian Plate" = false
+	"Obsidian Plate" = true
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
-	"Iron Rod" = false
+	"Iron Rod" = true
 	Gravisand = true
 	"Feeding Trough" = true
 	"Ender Watcher" = true
@@ -105,7 +107,7 @@
 	"Glass Item Frame" = true
 	"Framed Glass" = true
 	"Duskbound Blocks" = true
-	"Compressed Blocks" = true
+	"Compressed Blocks" = false
 	"Celebratory Lamps" = true
 
 	[building.variant_ladders]
@@ -162,6 +164,8 @@
 
 	[building.glass_item_frame]
 		"Glass Item Frames Update Maps" = true
+		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
+		"Item Render Scale" = 1.5
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -197,12 +201,16 @@
 		"Light Level" = 15
 
 [management]
+	"Quick Armor Swapping" = true
 	"Item Sharing" = true
 	"Inventory Sorting" = false
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
+
+	[management.quick_armor_swapping]
+		"Swap Off Hand" = true
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -237,6 +245,7 @@
 	"Ancient Tomes" = true
 	"Ambient Discs" = true
 	Abacus = true
+	"Parrot Eggs" = true
 
 	[tools.trowel]
 		#Amount of blocks placed is this value + 1.
@@ -246,26 +255,32 @@
 
 	[tools.seed_pouch]
 		"Max Items" = 640
-		"Show All Variants In Creative" = false
+		"Show All Variants In Creative" = true
 		"Shift Range" = 3
 
 	[tools.pickarang]
-		#How long it takes before the pickarang starts returning to the player if it doesn't hit anything.
+		#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
 		Timeout = 20
-		#2 is Iron, 3 is Diamond.
+		#Pickarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
 		"Harvest Level" = 3
-		#2 is Iron, 3 is Diamond.
-		"Netherite Harvest Level" = 3
-		#Set to -1 to have the Pickarang be unbreakable.
+		#Flamarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
+		"Netherite Harvest Level" = 4
+		#Pickarang durability. Set to -1 to have the Pickarang be unbreakable.
 		Durability = 800
-		#Set to -1 to have the Flamerang be unbreakable.
+		#Flamarang durability. Set to -1 to have the Flamarang be unbreakable.
 		"Netherite Durability" = 1040
-		#22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
+		#Pickarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
 		"Max Hardness" = 20.0
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
-		#Set this to true to disable the short cooldown between throwing pickarangs.
+		#Set this to true to disable the short cooldown between throwing Pickarangs.
 		"No Cooldown" = false
+		#How long it takes before the Flamarang starts returning to the player if it doesn't hit anything.
+		"Netherite Timeout" = 20
+		#Flamarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
+		"Netherite Max Hardness" = 20.0
+		#Set this to true to disable the short cooldown between throwing Flamarangs.
+		"Netherite No Cooldown" = false
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -278,7 +293,7 @@
 		# - <level> being the Cartographer villager level required for the map to be unlockable
 		# - <min_price> being the cheapest (in Emeralds) the map can be
 		# - <max_price> being the most expensive (in Emeralds) the map can be
-		# - <color> being a hex color (without the #) for the map to display. You can generate one here - http://htmlcolorcodes.com/
+		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
 		# - <name> being the display name of the map
 		#
 		#Here's an example of a map to locate Ice Mountains:
@@ -325,9 +340,25 @@
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Overleveled Books Glow Rainbow" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
+
+	[tools.parrot_eggs]
+		#The chance feeding a parrot will produce an egg
+		Chance = 0.05
+		#How long it takes to create an egg
+		"Egg Time" = 12000
+		"Enable Special Awesome Parrot" = true
+
+	[tools.abacus]
+
+		[tools.abacus.highlight_color]
+			A = 0.4
+			R = 0.0
+			G = 0.0
+			B = 0.0
 
 [tweaks]
 	"Villagers Follow Emeralds" = true
@@ -343,7 +374,7 @@
 	"More Banner Layers" = true
 	"Lock Rotation" = false
 	"Hoe Harvesting" = true
-	"Glass Shard" = false
+	"Glass Shard" = true
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dragon Scales" = true
@@ -351,9 +382,10 @@
 	"Compasses Work Everywhere" = false
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
-	"Automatic Recipe Unlock" = false
+	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
+	"Pig Litters" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -405,6 +437,12 @@
 		Whitelist = []
 		Display = "[  ]"
 		"Display Horizontal" = "<  >"
+		Blacklist = []
+
+		[tweaks.reacharound_placing.color]
+			R = 1.0
+			G = 1.0
+			B = 1.0
 
 	[tweaks.poison_potato_usage]
 		Chance = 0.1
@@ -413,6 +451,10 @@
 	[tweaks.pat_the_dogs]
 		#How many ticks it takes for a dog to want affection after being pet/tamed; leave -1 to disable
 		"Dogs Want Love" = -1
+		#Whether you can pet all mobs
+		"Pet All Mobs" = false
+		#If `petAllMobs` is set, these mobs still can't be pet
+		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 
 	[tweaks.more_banner_layers]
 		#Allowed values: [1,16]
@@ -454,9 +496,22 @@
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
 		"Disable Recipe Book" = false
+		#If enabled, advancements granting recipes will be stopped from loading, potentially reducing the lagspike on first world join.
+		"Filter Recipe Advancements" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
+
+	[tweaks.pig_litters]
+		#Allowed values: [1,)
+		"Min Pig Litter Size" = 2
+		#Allowed values: [1,)
+		"Max Pig Litter Size" = 3
+		"Pigs Eat Golden Carrots" = true
+		#Allowed values: [0,)
+		"Min Golden Carrot Boost" = 0
+		#Allowed values: [0,)
+		"Max Golden Carrot Boost" = 2
 
 [world]
 	"Spiral Spires" = true
@@ -464,12 +519,14 @@
 	"New Stone Types" = true
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
+	"Glimmering Weald" = true
 	"Fairy Rings" = true
 	Corundum = true
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true
 	"Big Stone Clusters" = false
 	"Big Dungeon" = true
+	"Azalea Wood" = true
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1070,11 +1127,9 @@
 		"Spawn Chance" = 0.1
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		"Max Rooms" = 10
-		"Min Start Y" = -10
-		"Max Start Y" = 10
+		"Min Start Y" = -40
+		"Max Start Y" = -20
 		"Chest Chance" = 0.5
-		"Average Distance" = 20
-		"Minimum Distance" = 11
 
 		[world.big_dungeon.biome_config]
 
@@ -1338,6 +1393,7 @@
 [client]
 	"Variant Animal Textures" = true
 	"Usage Ticker" = true
+	"Soul Candles" = true
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
@@ -1356,6 +1412,8 @@
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
+		#If a shiny animal should emit occasional sparkles.
+		"Shiny Sparkles" = true
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
@@ -1401,6 +1459,14 @@
 		"Draw Hud" = true
 		"Hud Height" = 10
 
+	[client.chest_searching]
+
+		[client.chest_searching.overlay_color]
+			A = 0.67
+			R = 0.0
+			G = 0.0
+			B = 0.0
+
 [experimental]
 	"Overlay Shader" = false
 	"Narrator Readout" = false
@@ -1431,12 +1497,13 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
+	"Totem Of Holding" = false
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
+	Backpack = false
+	"Tiny Potato" = true
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1494,7 +1561,7 @@
 		"Disallowed Enchantments" = []
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
 		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
-		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
+		#Set to false to disable the ability to influence enchantment outcomes with candles
 		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
 		"Influence Max" = 4
@@ -1519,4 +1586,13 @@
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
+
+	[oddities.tiny_potato]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - botania
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
+		"Never Use Heart Of Diamond" = false
 

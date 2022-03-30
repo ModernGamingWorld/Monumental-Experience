@@ -19,6 +19,18 @@
 				#settings.chiseling-previews.default.colors.placement.comment
 				placement = [0.0, 0.85, 0.0, 0.65]
 
+		[settings.chiseling-previews.debug]
+			#Indicates if the debug rendering in chiseling and placement previews should be enabled.
+			enabled = false
+
+			[settings.chiseling-previews.debug.mutator]
+
+				[settings.chiseling-previews.debug.mutator.colors]
+					#settings.chiseling-previews.debug.mutator.colors.chiseling.comment
+					chiseling = [0.0, 0.0, 0.85, 0.65]
+					#settings.chiseling-previews.debug.mutator.colors.placement.comment
+					placement = [0.85, 0.85, 0.0, 0.65]
+
 	[settings.selected-tool-mode-icons]
 		#settings.selected-tool-mode-icons.renderer.comment
 		renderer = "chiselsandbits:group"

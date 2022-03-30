@@ -4,9 +4,9 @@ enable_in_world_coloring = true
 #Item used to upgrade the EnderChests
 [upgrade_item_tags]
 	#Items used to make the chests personal
-	personal = ["tag|forge:gems.diamond"]
+	personal = ["tag|forge:gems/diamond"]
 	#Items used to make the chests team chests
-	team = ["tag|forge:gems.emerald"]
+	team = ["tag|forge:gems/emerald"]
 	#Items that upgrade storage capacity by 3
 	small_capacity = ["minecraft:ender_pearl"]
 	#Items that upgrade storage capacity by 9

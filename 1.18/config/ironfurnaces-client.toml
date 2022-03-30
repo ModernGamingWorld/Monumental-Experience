@@ -75,6 +75,14 @@
 		# Default: 20
 		#Range: 2 ~ 72000
 		speed = 20
+		# How many furnaces that needs to be linked in order for the Rainbow Furnace to generate power.
+		# Default: 7
+		#Range: 1 ~ 100000000
+		power_to_generate = 10000
+		# How many furnaces that needs to be linked in order for the Rainbow Furnace to generate power.
+		# Default: 7
+		#Range: 1 ~ 100
+		power = 7
 
 	[furnaces.furance_xp_drop]
 		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
@@ -138,7 +146,7 @@
 
 	[misc.misc]
 		# Enable or disable the Rainbow Content
-		rainbow = false
+		rainbow = true
 		# Show furnace settings errors in chat, used for debugging
 		errors = false
 
@@ -148,5 +156,5 @@
 	[updates.check_updates]
 		# true = check for updates, false = don't check for updates.
 		# Default: true.
-		updates = false
+		updates = true
 

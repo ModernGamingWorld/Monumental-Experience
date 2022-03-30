@@ -15,11 +15,6 @@
         "type": "REGISTRY_NAME",
         "negate": true,
         "value": "minecraft:bamboo_jungle"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": true,
-        "value": "minecraft:bamboo_jungle_hills"
       }
     ]
   ]

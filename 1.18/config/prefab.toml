@@ -2,8 +2,6 @@
 [general]
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
 	"Starting Item" = "Nothing"
-	#Determines if the loft starter house is enabled. This house contains Nether materials in it's construction. Server configuration overrides client.
-	"Enable Loft House" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
 	"Include Spawners in Monster Masher" = true
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
@@ -160,4 +158,6 @@
 		"Bunch of Eggs" = true
 		#Determines if the recipe(s) associated with the Wooden Crate are enabled.
 		"Wooden Crate" = true
+		#Determines if the recipe(s) associated with the Quartz-Crete are enabled.
+		Quartz-Crete = true
 

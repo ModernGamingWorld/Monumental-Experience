@@ -25,6 +25,13 @@
         "negate": false,
         "value": "jungle"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:meadow"
+      }
     ]
   ]
 }

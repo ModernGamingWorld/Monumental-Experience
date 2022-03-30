@@ -24,14 +24,22 @@
 	masterVolumeSlider = true
 	#This adds back the music volume slider to the options screen. Saves you a click!
 	musicVolumeSlider = true
+	#This prevents torches from being placed from your offhand if you have food in your main hand.
+	noOffhandTorchWithFood = true
+	#This option will disable log stripping.
+	disableLogStripping = false
+	#This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
+	paneBuildingSupport = true
+	#This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.
+	noRecipeBookShifting = false
 
 [customization]
 	#Items that count as torches for the offhand-torch tweak options.
 	torchItems = ["minecraft:torch", "minecraft:soul_torch", "tconstruct:stone_torch"]
 	#Items that are allowed to place torches from the offhand if offhandTorchWithToolOnly is enabled.
 	torchTools = ["minecraft:wooden_pickaxe", "minecraft:stone_pickaxe", "minecraft:iron_pickaxe", "minecraft:golden_pickaxe", "minecraft:diamond_pickaxe", "minecraft:netherite_pickaxe", "tconstruct:pickaxe", "tconstruct:hammer"]
-	#Items that will not prevent offhand-torch placement while in offhand, but do not place torches by themselves
-	offhandTorchTools = ["tconstruct:shovel", "tconstruct:excavator"]
 	#Items that count as weapons for the offhand-shield hiding tweak options.
 	shieldWeapons = ["tetra:modular_sword"]
+	#Items that count as shields for the offhand-shield hiding tweak options.
+	shieldItems = ["basicshields:wooden_shield", "basicshields:golden_shield", "basicshields:diamond_shield", "basicshields:netherite_shield"]
 

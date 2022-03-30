@@ -4,6 +4,8 @@ screenShakeScale = 1.0
 #Max amount of sources that can contribute to screen shaking, adjustable for performance and preference reasons. 0 will disable the addition of shake sources
 #Range: > 0
 maxScreenShakers = 256
+#Determines if the experimental settings screen should be disabled
+disableExperimentalSettingsScreen = true
 
 #Slabfish patron hat settings.
 [slabfishSettings]

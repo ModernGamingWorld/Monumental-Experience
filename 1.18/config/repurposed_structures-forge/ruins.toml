@@ -6,9 +6,9 @@
 	#Range: 1 ~ 1001
 	ruinsNetherAverageChunkDistance = 35
 	#Range: 1 ~ 1001
-	ruinsLandWarmAverageChunkDistance = 52
+	ruinsLandWarmAverageChunkDistance = 45
 	#Range: 1 ~ 1001
-	ruinsLandHotAverageChunkDistance = 52
+	ruinsLandHotAverageChunkDistance = 45
 	#Range: 1 ~ 1001
 	ruinsLandColdAverageChunkDistance = 52
 	#Range: 1 ~ 1001

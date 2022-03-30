@@ -4,7 +4,7 @@
 	#Enables the ability of the Matter Cannon to break blocks.
 	matterCannonBlockDamage = false
 	#Enables the ability of Tiny TNT to break blocks.
-	tinyTntBlockDamage = true
+	tinyTntBlockDamage = false
 	#Server operators are not restricted by ME security terminal settings.
 	serverOpsIgnoreSecurity = true
 	#Changes the channel capacity that cables provide in AE2.
@@ -60,10 +60,8 @@
 	matterCannon = 200000
 
 [worldGen]
-	generateMeteorites = true
-	meteoriteBiomeBlacklist = []
 	spawnPressesInMeteorites = false
-	generateQuartzOre = false
+	generateQuartzOre = true
 	quartzOresPerCluster = 7
 	quartzOresClusterAmount = 20
 	quartzOresBiomeBlacklist = []

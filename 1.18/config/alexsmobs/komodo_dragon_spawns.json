@@ -1,40 +1,11 @@
 {
-    "biomes": [
-        [
-            {
-                "type": "BIOME_DICT",
-                "negate": false,
-                "value": "overworld"
-            },
-            {
-                "type": "BIOME_DICT",
-                "negate": false,
-                "value": "mesa"
-            }
-        ],
-        [
-            {
-                "type": "BIOME_DICT",
-                "negate": false,
-                "value": "overworld"
-            },
-            {
-                "type": "BIOME_DICT",
-                "negate": false,
-                "value": "savanna"
-            }
-        ],
-        [
-            {
-                "type": "BIOME_DICT",
-                "negate": false,
-                "value": "overworld"
-            },
-            {
-                "type": "BIOME_CATEGORY",
-                "negate": false,
-                "value": "desert"
-            }
-        ]
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:sparse_jungle"
+      }
     ]
+  ]
 }

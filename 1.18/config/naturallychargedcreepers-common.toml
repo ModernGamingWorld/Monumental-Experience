@@ -1,0 +1,6 @@
+
+[General]
+	#The chance of a creeper being naturally charged.
+	#Range: 0.0 ~ 1.0
+	isChargedChance = 0.1
+

@@ -113,13 +113,13 @@
 	dimensionDenyList = []
 	#Set to 'PRESET_FIRST' to first use names from the custom names list. Set to 'PRESET_ONLY' to use only those custom names. Set to 'MIXED' to have some waystones use custom names, and others random names.
 	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
-	nameGenerationMode = "PRESET_FIRST"
+	nameGenerationMode = "MIXED"
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
-	customWaystoneNames = []
+	customWaystoneNames = ["Sandy City", "Chocolate Island", "Sahara", "The Perimeter", "Pacific", "North Pole", "Nothern", "Asia"]
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
 	spawnInVillages = true
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
-	forceSpawnInVillages = false
+	forceSpawnInVillages = true
 
 [client]
 	#If enabled, the text overlay on waystones will no longer always render at full brightness.
