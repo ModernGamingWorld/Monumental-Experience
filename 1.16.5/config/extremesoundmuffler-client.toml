@@ -3,6 +3,8 @@
 [general]
 	#Blacklisted Sounds - add the name of the sounds to blacklist, separated with comma
 	forbiddenSounds = ["ui.", "music.", "ambient."]
+	#Allow the "ALL" sounds list to include the blacklisted sounds?
+	lawfulAllList = false
 	#Volume set when pressed the mute button by default
 	#Range: 0.0 ~ 0.9
 	defaultMuteVolume = 0.0
@@ -12,8 +14,6 @@
 	showTip = true
 	#Whether or not use the dark theme
 	useDarkTheme = false
-	#Allow the "ALL" sounds list to include the blacklisted sounds?
-	lawfulAllList = false
 
 #Inventory button settings
 [inventory_button]

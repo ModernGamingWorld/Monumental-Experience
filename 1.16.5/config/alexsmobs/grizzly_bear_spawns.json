@@ -22,6 +22,16 @@
         "type": "BIOME_DICT",
         "negate": false,
         "value": "forest"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:jungle_egde"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:modified_jungle_edge"
       }
     ]
   ]

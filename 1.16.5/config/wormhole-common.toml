@@ -7,7 +7,7 @@
 	#How big can the area inside a portal be? Higher numbers can impact performance when activating a portal. Previously build portals won't be affected.
 	#Requires a world reload
 	#Allowed Range: 1 ~ 2000  Default: 400
-	maxPortalSize = 200
+	maxPortalSize = 400
 	#Does a portal require a dimensional core for interdimensional travel? (WIP)
 	#Requires a world reload
 	#Allowed Values: true, false  Default: true
@@ -43,7 +43,7 @@
 	#How much power will be drained when an entity is teleported?
 	#Requires a world reload
 	#Allowed Range: 0 ~ 1000000  Default: 100
-	travelPowerDrain = 250
+	travelPowerDrain = 100
 	#How much energy is drained when an entity is teleported multiplied by the distance?
 	#Requires a world reload
 	#Allowed Range: 0.0 ~ 1000000.0  Default: 0.5

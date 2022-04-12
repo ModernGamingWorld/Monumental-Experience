@@ -23,6 +23,20 @@
         "negate": false,
         "value": "minecraft:bamboo_jungle_hills"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:bamboo_blossom_grove"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:cherry_blossom_grove"
+      }
     ]
   ]
 }

@@ -2,23 +2,38 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:withering_woods"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "icy"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:subzero_hypogeal"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "snowy"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:brimstone_caverns"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "cold"
       }
     ]
   ]

@@ -2,14 +2,27 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "minecraft:badlands"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "savanna"
       }
     ]
   ]
 }
-
-
-
-

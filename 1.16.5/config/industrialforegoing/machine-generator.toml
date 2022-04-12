@@ -1,6 +1,16 @@
 
 [MachineGeneratorConfig]
 
+	[MachineGeneratorConfig.BioReactorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 7200
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 2000000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 20000000
+		maxWaterTankStorage = 16000
+		maxBioFuelTankStorage = 16000
+
 	[MachineGeneratorConfig.PitifulGeneratorConfig]
 		#Amount of Power Produced per Tick - Default: [400FE]
 		powerPerTick = 30
@@ -9,25 +19,15 @@
 		#Amount of FE/t extracted from the Pitiful Generator
 		extractionRate = 1000
 
-	[MachineGeneratorConfig.BioReactorConfig]
-		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
-		maxBioFuelTankStorage = 16000
-		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
-		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 400
-		maxWaterTankStorage = 16000
-
 	[MachineGeneratorConfig.BiofuelGeneratorConfig]
-		#Amount of Power Produced per Tick - Default: [400FE]
-		powerPerTick = 250
-		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 1000000
-		#Amount of FE/t extracted from the Biofuel Generator
-		extractionRate = 500
 		#Burn Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
+		#Amount of Power Produced per Tick - Default: [400FE]
+		powerPerTick = 500
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 500000
+		#Amount of FE/t extracted from the Biofuel Generator
+		extractionRate = 1000
 		#Max Amount of Stored Fluid [Biofuel] - Default: [8000mB]
 		maxBiofuelTankSize = 4000
 

@@ -2,12 +2,12 @@
 #Settings for general things.
 [General]
 	#Should the Handheld Crafting Table be enabled?
-	handheldWorkbench = false
+	handheldWorkbench = true
 
 #Settings for the Crafting Core.
 ["Combination Crafting"]
 	#Should the Crafting Core be enabled?
-	enabled = false
+	enabled = true
 	#How much FE the Crafting Core should hold.
 	#Range: > 0
 	powerCapacity = 5000000
@@ -20,9 +20,9 @@
 	#Should the Extended Crafting Tables be enabled?
 	enabled = true
 	#Should the Auto Crafting Tables be enabled?
-	autoTablesEnabled = false
+	autoTablesEnabled = true
 	#Should the Basic Crafting Table inherit vanilla crafting recipes?
-	useVanillaRecipes = false
+	useVanillaRecipes = true
 	#How much FE the Auto Crafting Tables should hold. Higher tiers use double the previous tier.
 	#Range: > 0
 	autoTablePowerCapacity = 500000
@@ -36,7 +36,7 @@
 #Settings for the Quantum Compressor.
 ["Quantum Compression"]
 	#Should the Quantum Compressor be enabled?
-	enabled = false
+	enabled = true
 	#How much FE the Quantum Compressor should hold.
 	#Range: > 0
 	powerCapacity = 10000000
@@ -58,7 +58,7 @@
 #Settings for Singularities.
 [Singularities]
 	#Should the Singularities be enabled?
-	enabled = false
+	enabled = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
 	defaultMaterialsRequired = 10000
@@ -66,18 +66,18 @@
 	#Range: > 0
 	defaultPowerRequired = 5000000
 	#Should default recipes be generated for Singularities?
-	defaultRecipes = false
+	defaultRecipes = true
 	#The item to use as the Catalyst in default Singularity recipes.
 	defaultCatalyst = "extendedcrafting:ultimate_catalyst"
 	#Should the default recipe for the Ultimate Singularity be generated?
-	ultimateSingularityRecipe = false
+	ultimateSingularityRecipe = true
 
 #Settings for the Recipe Maker.
 ["Recipe Maker"]
 	#Should the Recipe Maker be enabled?
-	enabled = false
+	enabled = true
 	#Should the recipe maker try to use tags when possible?
 	useTags = false
 	#Should the recipe maker add NBT tags when possible?
-	useNBT = false
+	useNBT = true
 

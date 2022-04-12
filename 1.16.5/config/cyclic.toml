@@ -94,13 +94,29 @@
 			#Range: 1 ~ 64000
 			peat_fuel_enriched = 1024
 
+		[cyclic.energy.generator_fuel]
+			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
+			#Range: 1 ~ 6400
+			rf_per_tick = 80
+
+		[cyclic.energy.generator_food]
+			#RF energy per tick generated while burning food in this machine
+			#Range: 1 ~ 6400
+			rf_per_tick = 60
+			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
+			#Range: 1 ~ 6400
+			ticks_per_food = 100
+
 		#####################################################################################
 		#Energy cost for various machines, either per use of an action or per tick (twenty ticks per second).
 		#####################################################################################
 		[cyclic.energy.cost]
+			#Power per recipe in the packager
+			#Range: 0 ~ 64000
+			packager = 50
 			#Power per use disenchanter
 			#Range: 0 ~ 64000
-			disenchanter = 1500
+			disenchanter = 2500
 			#Power per use user
 			#Range: 0 ~ 64000
 			user = 50
@@ -143,22 +159,20 @@
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10
-			#Power per recipe in the packager
-			#Range: 0 ~ 64000
-			packager = 50
 
-		[cyclic.energy.generator_fuel]
-			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
-			#Range: 1 ~ 6400
-			rf_per_tick = 80
-
-		[cyclic.energy.generator_food]
-			#RF energy per tick generated while burning food in this machine
-			#Range: 1 ~ 6400
-			rf_per_tick = 60
-			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
-			#Range: 1 ~ 6400
-			ticks_per_food = 100
+	#####################################################################################
+	#Fluid cost for various machines
+	#####################################################################################
+	[cyclic.fluid]
+		#Cost of magma fluid per action
+		#Range: 1 ~ 64000
+		anvil_magma = 100
+		#Cost of (or payment for if negative) per enchanted book generated
+		#Range: -1000 ~ 16000
+		disenchanter = 100
+		#Payment per void action, if not zero
+		#Range: 0 ~ 16000
+		void_anvil = 25
 
 	#####################################################################################
 	# Item specific configs
@@ -166,6 +180,11 @@
 	[cyclic.items]
 		#Entity ids that cannot be picked up with the Monster all
 		monster_ball_ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
+
+		[cyclic.items.prospector]
+			#Ore Prospector radius around player to search for ores
+			#Range: 1 ~ 99
+			range = 32
 
 		#####################################################################################
 		# Emerald gear settings
@@ -213,40 +232,6 @@
 			#Range: 1 ~ 99
 			leg = 10
 
-		#Wand settings
-		[cyclic.items.teleport_wand]
-			#Maximum distance to activate
-			#Range: 8 ~ 1024
-			range = 128
-
-		#Sack of Holding settings
-		[cyclic.items.tile_transporter]
-			#Block these from being picked up
-			disable_pickup = ["minecraft:spawner", "parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller"]
-
-		#Peat blocks
-		[cyclic.items.peat]
-			#Chance that Peat Bog converts to Peat when wet (is multiplied by the number of surrounding water blocks)
-			#Range: 0.0010000000474974513 ~ 1.0
-			conversionChance = 0.07999999821186066
-
-		#Heart items
-		[cyclic.items.heart]
-			#Experience given when eating a poisoned heart
-			#Range: 0 ~ 99999
-			experience = 500
-			#Maximum number of hearts that can be attained (including initial 10)
-			#Range: 1 ~ 200
-			maximum = 100
-
-		#####################################################################################
-		# Edible chorus settings
-		#####################################################################################
-		[cyclic.items.chorus]
-			#Seconds of noClip per chorus_spectral
-			#Range: 1 ~ 20000
-			ticks = 600
-
 		#####################################################################################
 		# Settings for varios charms (curios)
 		#####################################################################################
@@ -260,6 +245,11 @@
 			#Boost given by item charm_attackspeed
 			#Range: 0.0 ~ 2.0
 			attackspeed = 0.5
+
+			[cyclic.items.charms.charm_torch]
+				#Light level limit for placing torches
+				#Range: 0 ~ 15
+				light_level = 9
 
 			#####################################################################################
 			# Caving Torch Charm settings
@@ -279,26 +269,74 @@
 				#True means left, False means right
 				prefer_left_wall = false
 
-			[cyclic.items.charms.charm_torch]
-				#Light level limit for placing torches
-				#Range: 0 ~ 15
-				light_level = 9
+		#####################################################################################
+		# Edible chorus settings
+		#####################################################################################
+		[cyclic.items.chorus]
+			#Seconds of noClip per chorus_spectral
+			#Range: 1 ~ 20000
+			ticks = 600
 
-		[cyclic.items.prospector]
-			#Ore Prospector radius around player to search for ores
-			#Range: 1 ~ 99
-			range = 32
+		#Wand settings
+		[cyclic.items.teleport_wand]
+			#Maximum distance to activate
+			#Range: 8 ~ 1024
+			range = 256
+
+		#Sack of Holding settings
+		[cyclic.items.tile_transporter]
+			#Block these from being picked up
+			disable_pickup = ["parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller", "exnihilosequentia:*", "refinedstorage:*", "tconstruct:seared_fuel_tank", "tconstruct:smeltery_controller", "tconstruct:seared_drain", "tconstruct:seared_fuel_gauge", "tconstruct:seared_ingot_tank", "tconstruct:seared_ingot_gauge", "tconstruct:seared_melter", "tconstruct:seared_heater", "tconstruct:scorched_drain", "tconstruct:scorched_duct", "tconstruct:scorched_chute", "tconstruct:foundry_controller", "tconstruct:scorched_alloyer", "rftoolspower:cell3", "rftoolspower:cell2", "rftoolspower:cell1", "rftoolspower:cell3", "rftoolspower:cell2", "rftoolspower:cell1"]
+
+		#Peat blocks
+		[cyclic.items.peat]
+			#Chance that Peat Bog converts to Peat when wet (is multiplied by the number of surrounding water blocks)
+			#Range: 0.0010000000474974513 ~ 1.0
+			conversionChance = 0.07999999821186066
+
+		#Heart items
+		[cyclic.items.heart]
+			#Experience given when eating a poisoned heart
+			#Range: 0 ~ 99999
+			experience = 500
+			#Maximum number of hearts that can be attained (including initial 10)
+			#Range: 1 ~ 200
+			maximum = 100
 
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
 	[cyclic.blocks]
 
+		#Ender shelf settings
+		[cyclic.blocks.sound]
+			#Sound Recorder - how far out does it listen to record sounds
+			#Range: 1 ~ 64
+			radius = 8
+
+		#Ender shelf settings
+		[cyclic.blocks.ender_shelf]
+			#Each shelf has five rows.  Set the number of books stored per row here
+			#Range: 1 ~ 64
+			books_per_row = 64
+			#Controller Max distance to search (using manhattan distance)
+			#Range: 1 ~ 256
+			controller_distance = 64
+
+		#Sprinkler settings
+		[cyclic.blocks.sprinkler]
+			#Water consumption
+			#Range: 0 ~ 1000
+			water = 5
+			#Tick rate.  20 will fire one block per second
+			#Range: 1 ~ 20
+			ticks = 20
+
 		#Ender Anchor settings
 		[cyclic.blocks.eye_teleport]
 			#Maximum distance to activate
 			#Range: 2 ~ 256
-			range = 32
+			range = 128
 			#Hunger cost on teleport
 			#Range: 0 ~ 20
 			hunger = 1
@@ -321,50 +359,12 @@
 		#Uncrafter settings
 		[cyclic.blocks.uncrafter]
 			#False will mean you cannot uncraft damaged repairable items. When searching for a recipe, does it ignore all NBT values (such as enchantments, RepairCost, Damage, etc).  For example, if false it will not uncraft damaged or enchanted items
-			nbt_ignored = true
+			nbt_ignored = false
 			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use. For example, if you add 'minecraft:stick' here, all recipes that craft into one or more sticks will be disabled (including two wooden planks).
-			ignore_list = ["minecraft:elytra", "minecraft:tipped_arrow", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
+			ignore_list = ["minecraft:elytra", "minecraft:tipped_arrow", "minecraft:magma_block", "minecraft:stick", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
-			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*"]
+			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "forcecraft:transmutation*"]
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60
-
-		#Sprinkler settings
-		[cyclic.blocks.sprinkler]
-			#Water consumption
-			#Range: 0 ~ 1000
-			water = 5
-			#Tick rate.  20 will fire one block per second
-			#Range: 1 ~ 20
-			ticks = 20
-
-		#Ender shelf settings
-		[cyclic.blocks.ender_shelf]
-			#Each shelf has five rows.  Set the number of books stored per row here
-			#Range: 1 ~ 64
-			books_per_row = 64
-			#Controller Max distance to search (using manhattan distance)
-			#Range: 1 ~ 256
-			controller_distance = 64
-
-		#Ender shelf settings
-		[cyclic.blocks.sound]
-			#Sound Recorder - how far out does it listen to record sounds
-			#Range: 1 ~ 64
-			radius = 8
-
-	#####################################################################################
-	#Fluid cost for various machines
-	#####################################################################################
-	[cyclic.fluid]
-		#Cost of magma fluid per action
-		#Range: 1 ~ 64000
-		anvil_magma = 100
-		#Cost of (or payment for if negative) per enchanted book generated
-		#Range: -1000 ~ 16000
-		disenchanter = 100
-		#Payment per void action, if not zero
-		#Range: 0 ~ 16000
-		void_anvil = 25
 

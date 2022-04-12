@@ -18,7 +18,7 @@ shouldReturnPortalBeUsable = true
 #Sets the default value of the game rule controlling enforced progression.
 progressionRuleDefault = true
 #Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.
-disableUncrafting = true
+disableUncrafting = false
 #If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
 uuid_locking = true
 
@@ -81,7 +81,7 @@ uuid_locking = true
 	canopyCoverage = 1.7000000476837158
 	#Chance that a chunk in the Twilight Forest will contain a twilight oak tree. Higher numbers reduce the number of trees, increasing performance.
 	#Range: > 1
-	twilightOakChance = 48
+	twilightOakChance = 96
 	#This controls the opacity of leaves, changing the amount of light blocked. Can be used to decrease complexity in some lighting checks.
 	#Range: 0 ~ 255
 	leavesLightOpacity = 1
@@ -89,7 +89,7 @@ uuid_locking = true
 	glacierPackedIce = false
 	#If the dimension has per-block skylight values. Disabling this will significantly improve world generation performance, at the cost of flat lighting everywhere.
 	#WARNING: Once chunks are loaded without skylight, that data is lost and cannot easily be regenerated. Be careful!
-	enableSkylight = true
+	enableSkylight = false
 
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]

@@ -1,0 +1,47 @@
+#The height of generated castle, recommended value is below $WORLD_HEIGHT - 144
+#Range: -99999999 ~ 99999999
+castle_height = 110
+#the minimum distance between castle and 0,0
+#Range: 0 ~ 99999999
+castle_spawn_proof = 10000
+#average distance apart in chunks between spawn attempts
+#Range: 0 ~ 99999999
+castle_avg_dist_chunk = 500
+#minimum distance apart in chunks between spawn attempts
+#Range: 0 ~ 99999999
+castle_min_dist_chunk = 300
+#Effect Range of Laputa Core
+#Range: 0 ~ 99999999
+laputa_core_effect_range = 100
+#Range: 0.0 ~ 1.0
+yellow_key_dro_rate = 0.3
+#Range: 0.0 ~ 1.0
+blue_key_dro_rate = 0.1
+#Range: 0.0 ~ 1.0
+red_key_dro_rate = 0.02
+#Player cannot place or destroy blocks in the castle
+no_grief_in_castle = true
+
+#Trading configuration: use the correct item id by pressing F3+H in game. Set 'null' to disable this slot, set both price1 and price2 to 'null' to disable the trading
+[tradings]
+
+	[tradings."castle_in_the_sky:levitation_stone"]
+		"castle_in_the_sky:levitation_stone_price1" = "minecraft:emerald"
+		"castle_in_the_sky:levitation_stone_price2" = "minecraft:compass"
+		"castle_in_the_sky:levitation_stone_output" = "castle_in_the_sky:levitation_stone"
+		"castle_in_the_sky:levitation_stone_profession" = "minecraft:cartographer"
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_price1_min" = 50
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_price1_max" = 64
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_price2_min" = 1
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_price2_max" = 1
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_output_min" = 1
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_output_max" = 1
+		#Range: 1 ~ 64
+		"castle_in_the_sky:levitation_stone_level" = 5
+

@@ -2,13 +2,13 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "300"
+	advancedSolarGeneration = "640"
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
 	energyPerFusionFuel = "550000"
 	#Amount of energy in Joules the Bio Generator produces per tick.
 	bioGeneration = "350"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "50"
+	solarGeneration = "80"
 
 	#Wind Generator Settings
 	[generators.wind_generator]

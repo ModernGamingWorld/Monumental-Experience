@@ -18,7 +18,7 @@ mobDropsEnabled = true
 	#Disable all display-only pedestals
 	passivePedestal = false
 	#Disable recipes to craft spawn eggs from fragments
-	disableSpawnEggRecipes = true
+	disableSpawnEggRecipes = false
 
 #Potions related settings
 [potions]
@@ -398,7 +398,7 @@ mobDropsEnabled = true
 		#Whether entities get angry at player if stealing fails
 		angerOnStealFailure = true
 		#Allows switching stealing from player on and off
-		stealFromPlayers = false
+		stealFromPlayers = true
 
 	#Seeker Shot settings
 	[items.seekerShot]

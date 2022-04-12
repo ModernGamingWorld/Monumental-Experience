@@ -6,7 +6,10 @@
   "armorPoints": 2,
   "enchantability": 12,
   "craftingMaterial": "tag:forge:stone",
+  "creative": false,
   "rarity": 0,
+  "toughness": 0.0,
+  "knockbackResistance": 0.0,
   "capacity": 100000,
   "usage": 70,
   "speedVertical": 0.25,
@@ -16,8 +19,5 @@
   "speedHover": 0.1,
   "sprintSpeedMulti": 1.0,
   "sprintSpeedMultiVertical": 1.0,
-  "sprintFuelMulti": 1.0,
-  "creative": false,
-  "toughness": 0.0,
-  "knockbackResistance": 0.0
+  "sprintFuelMulti": 1.0
 }

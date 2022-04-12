@@ -68,7 +68,7 @@
 #Gobber Lucky Block Generation
 [gobber2_lucky_block]
 	#Generate Gobber Lucky Block in the world [true / false]
-	gobberLuckyBlockGeneration = false
+	gobberLuckyBlockGeneration = true
 	#Size of Gobber Lucky Block pockets [0-100, default: 3]
 	#Range: 0 ~ 100
 	gobberLuckyBlockSize = 3
@@ -91,7 +91,7 @@
 	gobberOreChance = 15
 	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 255
-	gobberOreMaxHeight = 10
+	gobberOreMaxHeight = 30
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]
@@ -99,7 +99,7 @@
 	gobberOreNetherGeneration = true
 	#Size of Gobber Nether Ore pockets [0-100, default: 3]
 	#Range: 0 ~ 100
-	gobberOreNetherSize = 2
+	gobberOreNetherSize = 3
 	#Chances of Gobber Nether Ore pocket being generated [0-100, default: 80]
 	#Range: 0 ~ 100
 	gobberOreNetherChance = 80
@@ -195,7 +195,7 @@
 [armor_health_settings]
 	#Amount of hunger point to restore per interval
 	#Range: 0 ~ 10
-	gobberArmorHunger = 4
+	gobberArmorHunger = 1
 	#Amount of saturation point to restore per interval
 	#Range: 0.0 ~ 10.0
 	gobberArmorSaturation = 0.02

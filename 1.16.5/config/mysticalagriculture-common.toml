@@ -14,7 +14,7 @@
 	#Range: 0.0 ~ 1.0
 	fertilizedEssenceChance = 0.1
 	#Should crops have a chance of dropping a second seed when harvested?
-	secondarySeedDrops = false
+	secondarySeedDrops = true
 	#Should the Wither drop essence when killed with an essence weapon?
 	witherDropsEssence = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
@@ -37,24 +37,28 @@
 	generateProsperityOre = true
 	#How many Prosperity Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
-	prosperitySpawnRate = 6
+	prosperitySpawnRate = 12
 	#The maximum amount of Prosperity Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
-	prosperitySpawnSize = 4
+	prosperitySpawnSize = 8
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 256
 	prosperitySpawnHeight = 50
+	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	prosperityBiomeWhitelist = []
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = true
 	#How many Inferium Ore veins should spawn in a chunk.
 	#Range: 0 ~ 128
-	inferiumSpawnRate = 8
+	inferiumSpawnRate = 16
 	#The maximum amount of Inferium Ore blocks that can spawn in a vein.
 	#Range: 0 ~ 64
-	inferiumSpawnSize = 4
+	inferiumSpawnSize = 8
 	#The maximum Y level that Soulstone veins can spawn.
 	#Range: 0 ~ 128
-	inferiumSpawnHeight = 64
+	inferiumSpawnHeight = 128
+	#The list of biome IDs that Inferium Ore veins can spawn in.
+	inferiumBiomeWhitelist = []
 	#How many Soulstone veins should spawn in a chunk.
 	generateSoulstone = true
 	#How many Soulstone veins should spawn in a chunk.
@@ -62,11 +66,7 @@
 	soulstoneSpawnRate = 4
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
-	soulstoneSpawnSize = 32
-	#The list of biome IDs that Prosperity Ore veins can spawn in.
-	prosperityBiomeWhitelist = []
-	#The list of biome IDs that Inferium Ore veins can spawn in.
-	inferiumBiomeWhitelist = []
+	soulstoneSpawnSize = 64
 	#The list of biome IDs that Soulstone veins can spawn in.
 	soulstoneBiomeWhitelist = []
 

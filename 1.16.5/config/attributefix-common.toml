@@ -14,7 +14,7 @@
 [minecraft_generic_follow_range]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -25,7 +25,7 @@
 [minecraft_generic_knockback_resistance]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -36,7 +36,7 @@
 [minecraft_generic_movement_speed]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -47,7 +47,7 @@
 [minecraft_generic_flying_speed]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -58,7 +58,7 @@
 [minecraft_generic_attack_damage]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -69,7 +69,7 @@
 [minecraft_generic_attack_knockback]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -80,7 +80,7 @@
 [minecraft_generic_attack_speed]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -91,7 +91,7 @@
 [minecraft_generic_armor]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -102,7 +102,7 @@
 [minecraft_generic_armor_toughness]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -113,7 +113,7 @@
 [minecraft_generic_luck]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = -1024.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -124,7 +124,7 @@
 [minecraft_zombie_spawn_reinforcements]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -135,7 +135,7 @@
 [minecraft_horse_jump_strength]
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	min = 0.0
+	min = 4.9E-324
 	#The maximum value for the attribute.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	max = 65536.0

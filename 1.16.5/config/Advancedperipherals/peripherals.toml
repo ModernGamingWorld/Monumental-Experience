@@ -82,6 +82,10 @@
 		#Enable the colony integrator or not.
 		enableColonyIntegrator = true
 
+	[Peripherals.Compass_Turtle]
+		#Enable the compass turtle or not.
+		enableCompassTurtle = true
+
 	[Peripherals.Powered_Peripherals]
 		#Enable RF storage for peripherals, that could use it
 		enablePoweredPeripherals = false
@@ -132,8 +136,4 @@
 		scanEntitiesExtraBlockCost = 0.17
 		#Range: > 1000
 		chatMessageCooldown = 1000
-
-	[Peripherals.Compass_Turtle]
-		#Enable the compass turtle or not.
-		enableCompassTurtle = true
 

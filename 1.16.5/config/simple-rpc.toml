@@ -13,7 +13,6 @@
 	launcherIntegration = false
 	#Internal Version Number. NO TOUCHY!
 	version = 12
-	updater = false
 
 #The Game Loading event
 [init]

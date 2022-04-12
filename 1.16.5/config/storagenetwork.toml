@@ -16,7 +16,7 @@
 	#
 	# How many itemstacks from the network are visible to external connections through the storagenetwork:exchange.  Too low and not all items can pass through, too large and there will be packet/buffer overflows.
 	#Range: 1 ~ 5000
-	exchangeBufferSize = 5000
+	exchangeBufferSize = 1024
 	#
 	# Set to false to disable the automatic focus of the searchbar - client gui screen
 	enableAutoSearchFocus = true

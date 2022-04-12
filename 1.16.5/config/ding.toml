@@ -1,11 +1,6 @@
 
 #Configs related to how ding works
 [ding]
-	#Pitch of the sound (when resources complete reloading)
-	#Range: 0.0 ~ 10.0
-	pitchResourcesReload = 1.0
-	#Play sound when resources complete reloading. Requires game to be restarted.
-	playOnResourcesReload = true
 	#Resource Location based name of the sound file to play when Minecraft finishes loading.
 	#EG: "ui.button.click" or "entity.experience_orb.pickup"
 	#
@@ -14,28 +9,33 @@
 	#
 	#If you want to use external sounds, consider looking into the mod Additional Resources
 	name = "entity.experience_orb.pickup"
-	#Pitch of the sound (when the world loads after connecting to a server)
-	#Range: 0.0 ~ 10.0
-	pitchWorld = 1.0
-	#Resource Location based name of the sound file to play when resources complete reloading.
-	#
-	#Look at the "name" config for more details.
-	nameResourcesReload = "entity.experience_orb.pickup"
-	#Play sound when the world loads after connecting to a server.
-	playOnWorld = true
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
 	pitch = 1.0
-	#Play sound when the game loads.
-	playOnLoad = true
+	#Sound category for the sound played when Minecraft finishes loading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
+	category = "master"
 	#Resource Location based name of the sound file to play when the world finishes loading (after connecting to a server).
 	#
 	#Look at the "name" config for more details.
 	nameWorld = "entity.experience_orb.pickup"
-	#Sound category for the sound played when Minecraft finishes loading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
-	category = "master"
+	#Pitch of the sound (when the world loads after connecting to a server)
+	#Range: 0.0 ~ 10.0
+	pitchWorld = 1.0
 	#Sound category for the sound played when the world finishes loading (after connecting to a server). EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 	categoryWorld = "master"
+	#Resource Location based name of the sound file to play when resources complete reloading.
+	#
+	#Look at the "name" config for more details.
+	nameResourcesReload = "entity.experience_orb.pickup"
+	#Pitch of the sound (when resources complete reloading)
+	#Range: 0.0 ~ 10.0
+	pitchResourcesReload = 1.0
 	#Sound category for the sound played when resources complete reloading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 	categoryResourcesReload = "master"
+	#Play sound when the game loads.
+	playOnLoad = true
+	#Play sound when the world loads after connecting to a server.
+	playOnWorld = false
+	#Play sound when resources complete reloading. Requires game to be restarted.
+	playOnResourcesReload = true
 

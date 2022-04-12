@@ -1,0 +1,18 @@
+{
+  "tierMap": {
+    "livingrock": "TWO",
+    "manasteel": "THREE",
+    "livingwood": "TWO",
+    "gaia_spirit": "FIVE",
+    "element": "FOUR",
+    "terrasteel": "FIVE"
+  },
+  "cruxMap": {
+    "livingrock": "",
+    "manasteel": "",
+    "livingwood": "",
+    "gaia_spirit": "",
+    "element": "",
+    "terrasteel": ""
+  }
+}

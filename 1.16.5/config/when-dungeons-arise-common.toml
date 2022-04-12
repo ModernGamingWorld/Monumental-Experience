@@ -143,7 +143,7 @@
 			thornbornTowersSeparation = 70
 			#Number of Jigsaw iterations when generating an Thornborn Towers.
 			#Range: 0 ~ 1000000
-			thornbornTowersSize = 80
+			thornbornTowersSize = 50
 			#Whether Thornborn Towerss adapt the terrain around them or not.
 			thornbornTowersTransformsTerrain = false
 			#The point in which Thornborn Towers will start spawning. This is based around X = 0, Z = 0.
@@ -196,7 +196,7 @@
 
 		["When Configurations Arise"."Enigmatic Structures"."Small Blimp Spawning Settings"]
 			#Whether Small Blimps generate on your worlds or not.
-			smallBlimpGenerates = false
+			smallBlimpGenerates = true
 			#Maximum separation between Small Blimps (in chunks).
 			#Range: 0 ~ 1000000
 			smallBlimpSpacing = 80
@@ -205,14 +205,14 @@
 			smallBlimpSeparation = 60
 			#Number of Jigsaw iterations when generating an Small Blimp.
 			#Range: 0 ~ 1000000
-			smallBlimpSize = 100
+			smallBlimpSize = 50
 			#Whether Small Blimps adapt the terrain around them or not.
 			smallBlimpTransformsTerrain = false
 			#The point in which Small Blimps will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
 			smallBlimpSpawnpointSeparation = 1
 			#Whether cartographer villagers generate maps for Small Blimps or not.
-			smallBlimpMapTrades = false
+			smallBlimpMapTrades = true
 
 	["When Configurations Arise"."Fungi Structures"]
 
@@ -238,7 +238,7 @@
 
 		["When Configurations Arise"."Fungi Structures"."Mushroom Mines Spawning Settings"]
 			#Whether Mushroom Mines generate on your worlds or not.
-			mushroomMinesGenerates = true
+			mushroomMinesGenerates = false
 			#Maximum separation between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
 			mushroomMinesSpacing = 80
@@ -247,7 +247,7 @@
 			mushroomMinesSeparation = 40
 			#Number of Jigsaw iterations when generating a Mushroom Mine.
 			#Range: 0 ~ 1000000
-			mushroomMinesSize = 100
+			mushroomMinesSize = 50
 			#Whether Mushroom Mines adapt the terrain around them or not.
 			mushroomMinesTransformsTerrain = true
 			#The point in which Mushroom Mines will start spawning. This is based around X = 0, Z = 0.
@@ -402,7 +402,7 @@
 
 		["When Configurations Arise"."Haunted Structures"."Infested Temple Spawning Settings"]
 			#Whether Infested Temples generate on your worlds or not.
-			infestedTempleGenerates = true
+			infestedTempleGenerates = false
 			#Maximum separation between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
 			infestedTempleSpacing = 140
@@ -411,7 +411,7 @@
 			infestedTempleSeparation = 100
 			#Number of Jigsaw iterations when generating an Infested Temple.
 			#Range: 0 ~ 1000000
-			infestedTempleSize = 100
+			infestedTempleSize = 50
 			#Whether Infested Temples adapt the terrain around them or not.
 			infestedTempleTransformsTerrain = false
 			#The point in which Infested Temples will start spawning. This is based around X = 0, Z = 0.
@@ -422,7 +422,7 @@
 
 		["When Configurations Arise"."Haunted Structures"."Plague Asylum Spawning Settings"]
 			#Whether Plague Asylums generate on your worlds or not.
-			plagueAsylumGenerates = true
+			plagueAsylumGenerates = false
 			#Maximum separation between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
 			plagueAsylumSpacing = 240
@@ -431,7 +431,7 @@
 			plagueAsylumSeparation = 200
 			#Number of Jigsaw iterations when generating a Plague Asylum.
 			#Range: 0 ~ 1000000
-			plagueAsylumSize = 35
+			plagueAsylumSize = 20
 			#Whether Plague Asylums adapt the terrain around them or not.
 			plagueAsylumTransformsTerrain = false
 			#The point in which Plague Asylums will start spawning. This is based around X = 0, Z = 0.
@@ -460,7 +460,7 @@
 			#Range: 0 ~ 1000000
 			heavenlyRiderSpawnpointSeparation = 500
 			#Whether cartographer villagers generate maps for Heavenly Riders or not.
-			heavenlyRiderMapTrades = false
+			heavenlyRiderMapTrades = true
 
 		["When Configurations Arise"."Eerie Structures"."Heavenly Conqueror Spawning Settings"]
 			#Whether Heavenly Conquerors generate on your worlds or not.
@@ -480,7 +480,7 @@
 			#Range: 0 ~ 1000000
 			heavenlyConquerorSpawnpointSeparation = 800
 			#Whether cartographer villagers generate maps for Heavenly Conquerors or not.
-			heavenlyConquerorMapTrades = false
+			heavenlyConquerorMapTrades = true
 
 		["When Configurations Arise"."Eerie Structures"."Heavenly Challenger Spawning Settings"]
 			#Whether Heavenly Challengers generate on your worlds or not.
@@ -500,7 +500,7 @@
 			#Range: 0 ~ 1000000
 			heavenlyChallengerSpawnpointSeparation = 1200
 			#Whether cartographer villagers generate maps for Heavenly Challengers or not.
-			heavenlyChallengerMapTrades = false
+			heavenlyChallengerMapTrades = true
 
 		["When Configurations Arise"."Eerie Structures"."Aviary Spawning Settings"]
 			#Whether Aviaries generate on your worlds or not.
@@ -526,7 +526,7 @@
 
 		["When Configurations Arise"."Underworld Structures"."Mining System Spawning Settings"]
 			#Whether Mining Systems generate on your worlds or not.
-			miningSystemGenerates = true
+			miningSystemGenerates = false
 			#Maximum separation between Mining Systems (in chunks).
 			#Range: 0 ~ 1000000
 			miningSystemSpacing = 90
@@ -546,7 +546,7 @@
 
 		["When Configurations Arise"."Underworld Structures"."Scorched Mines Spawning Settings"]
 			#Whether Scorched Mines generate on your worlds or not.
-			scorchedMinesGenerates = true
+			scorchedMinesGenerates = false
 			#Maximum separation between Scorched Mines (in chunks).
 			#Range: 0 ~ 1000000
 			scorchedMinesSpacing = 120
@@ -572,12 +572,12 @@
 			foundrySpacing = 120
 			#Minimum spacing between Foundries (in chunks).
 			#Range: 0 ~ 1000000
-			foundrySeparation = 60
+			foundrySeparation = 40
 			#Number of Jigsaw iterations when generating an Foundry.
 			#Range: 0 ~ 1000000
 			foundrySize = 20
 			#Whether Foundries adapt the terrain around them or not.
-			foundryTransformsTerrain = false
+			foundryTransformsTerrain = true
 			#The point in which Foundries will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
 			foundrySpawnpointSeparation = 1

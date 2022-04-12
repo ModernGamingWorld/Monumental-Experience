@@ -1,12 +1,4 @@
 
-#Update Checker Settings
-[updates]
-
-	[updates.check_updates]
-		# true = check for updates, false = don't check for updates.
-		# Default: true.
-		updates = false
-
 #Furnace Settings
 [furnaces]
 	# The capacity of the recipe cache, higher values use more memory.
@@ -151,4 +143,12 @@
 		rainbow = true
 		# Show furnace settings errors in chat, used for debugging
 		errors = false
+
+#Update Checker Settings
+[updates]
+
+	[updates.check_updates]
+		# true = check for updates, false = don't check for updates.
+		# Default: true.
+		updates = true
 

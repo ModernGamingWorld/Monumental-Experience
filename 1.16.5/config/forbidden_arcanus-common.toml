@@ -165,7 +165,7 @@
 	[items.eternal_stella]
 		#How many times the Eternal Stella can be used before breaking [default: 3]
 		#Range: 1 ~ 100
-		uses = 1
+		uses = 3
 
 [blocks]
 

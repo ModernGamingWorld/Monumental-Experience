@@ -14,7 +14,7 @@
 		#This option will hide your own potion particle effects for your client (other players will still see them).
 		hideOwnParticleEffects = false
 		#This option will hide your shield unless you are holding a weapon.
-		hideShieldUnlessHoldingWeapon = false
+		hideShieldUnlessHoldingWeapon = true
 		#This prevents torches from being placed from your offhand at all.
 		noOffhandTorchAtAll = false
 		#This prevents torches from being placed from your offhand if you have a block in your main hand.

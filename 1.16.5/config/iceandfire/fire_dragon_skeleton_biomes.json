@@ -2,9 +2,14 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:frozen_lake"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "desert"
       }
     ]
   ]

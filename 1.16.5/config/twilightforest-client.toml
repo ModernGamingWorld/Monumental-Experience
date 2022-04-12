@@ -1,5 +1,5 @@
 #Make cicadas silent for those having sound library problems, or otherwise finding them annoying.
-silentCicadas = true
+silentCicadas = false
 #Controls whether various effects from the mod are rendered while in first-person view. Turn this off if you find them distracting.
 firstPersonEffects = true
 #Rotate trophy heads on item model. Has no performance impact at all. For those who don't like fun.
@@ -10,7 +10,7 @@ disableOptifineNagScreen = false
 #Client only: Controls for the Loading screen
 ["Loading Screen"]
 	#Wobble the Loading icon. Has no performance impact at all. For those who don't like fun.
-	enable = false
+	enable = true
 	#How many ticks between each loading screen change. Set to 0 to not cycle at all.
 	#Range: > 0
 	cycleLoadingScreenFrequency = 0

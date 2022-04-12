@@ -10,7 +10,7 @@ baubles_msg = false
 
 ["Wooden Shears Configuration"]
 	#When enabled the Wooden Shears will behave the same as the iron shears.
-	drop_shears_products = true
+	drop_shears_products = false
 
 ["Wooden Solar Panel Configuration"]
 	#Time that the solar panel takes to recharge.

@@ -6,7 +6,10 @@
   "armorPoints": 2,
   "enchantability": 12,
   "craftingMaterial": "tag:forge:ingots/copper",
+  "creative": false,
   "rarity": 0,
+  "toughness": 0.0,
+  "knockbackResistance": 0.0,
   "capacity": 250000,
   "usage": 85,
   "speedVertical": 0.29,
@@ -15,9 +18,6 @@
   "speedHoverDescend": 0.23,
   "speedHover": 0.092,
   "sprintSpeedMulti": 1.05,
-  "sprintSpeedMultiVertical": 1.0,
-  "sprintFuelMulti": 1.4,
-  "creative": false,
-  "toughness": 0.0,
-  "knockbackResistance": 0.0
+  "sprintSpeedMultiVertical": 1.025,
+  "sprintFuelMulti": 1.4
 }

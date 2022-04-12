@@ -610,7 +610,7 @@
 		overworld_spread = 10
 		#Configure the ore Vein Size [Default: 5]
 		#Range: 0 ~ 64
-		overworld_size = 5
+		overworld_size = 9
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
 		generate_in_the_overworld = true
 		#Use spread mechanic instead of random range [Default: true]
@@ -1141,7 +1141,7 @@
 	["Certus Quartz Config"."The Nether"]
 		#Ore Vein Size [Default: 8]
 		#Range: 0 ~ 64
-		nether_size = 4
+		nether_size = 8
 		#Invert Blacklist to Whitelist [Default: false]
 		nether_biome_list_invert = false
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 32]
@@ -1152,7 +1152,7 @@
 		nether_base = 62
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
-		nether_count = 8
+		nether_count = 16
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
 		generate_in_the_nether = true
 		#List of biome IDs in which the ore is not allowed to generate.
@@ -1200,10 +1200,10 @@
 		generate_in_the_end = true
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
-		end_count = 6
+		end_count = 16
 		#Ore Vein Size [Default: 8]
 		#Range: 0 ~ 64
-		end_size = 2
+		end_size = 8
 		#Use spread mechanic instead of random range [Default: true]
 		end_use_spread = true
 
@@ -1225,7 +1225,7 @@
 		#Range: 0 ~ 64
 		nether_count = 8
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = false
+		generate_in_the_nether = true
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		nether_biome_blacklist = []
@@ -1748,7 +1748,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 6
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = false
+		generate_in_the_overworld = true
 		#Use spread mechanic instead of random range [Default: true]
 		overworld_use_spread = true
 
@@ -1765,7 +1765,7 @@
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		end_biome_blacklist = ["byg:purpur_peaks", "byg:bulbis_gardens", "betterendforge:blossoming_spires"]
 		#Activate/Deactivate the Ore Gen in The End [Default: false]
-		generate_in_the_end = false
+		generate_in_the_end = true
 		#Average Ores per Chunk [Default: 5]
 		#Range: 0 ~ 64
 		end_count = 3
@@ -2225,7 +2225,7 @@
 
 	["Iridium Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 		#Baseline Y-Level [Default: 12]
 		#Range: 0 ~ 256
 		overworld_base = 12
@@ -2296,7 +2296,7 @@
 
 	["Peridot Config".Overworld]
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 		#Baseline Y-Level [Default: 20]
 		#Range: 0 ~ 256
 		overworld_base = 20

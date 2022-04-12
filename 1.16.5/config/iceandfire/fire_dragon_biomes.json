@@ -2,23 +2,71 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:embur_bog"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "hot"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "mesa"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
       }
     ],
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:magma_wastes"
-      }
-    ],
-    [
+        "value": "overworld"
+      },
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "byg:brimstone_caverns"
+        "value": "plains"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "wet"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "cold"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "mesa"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "forest"
       }
     ]
   ]

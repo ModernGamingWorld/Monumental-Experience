@@ -11,6 +11,13 @@
         "negate": false,
         "value": "mesa"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:tropic_plains"
+      }
     ]
   ]
 }

@@ -92,10 +92,10 @@
 	fluidMaxTransferRate = 400
 	#FE capacity per Energy Upgrade
 	#Range: > 1
-	fePerEnergyUpgrade = 50000
+	fePerEnergyUpgrade = 2000000
 	#FE transfer rate (FE/t) per Energy Upgrade
 	#Range: > 1
-	feXferPerEnergyUpgrade = 1000
+	feXferPerEnergyUpgrade = 20000
 	#Should block-breaking modules drop XP where appropriate? (ore mining etc.)
 	blockBreakXPDrops = true
 

@@ -6,9 +6,9 @@
 		#Range: 0 ~ 64
 		flatness_delta = 3
 		#Biomes in which Structures can NOT generate in
-		blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:beach", "minecraft:deep_ocean", "minecraft:snowy_beach", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "twilightforest*"]
+		blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:beach", "minecraft:deep_ocean", "minecraft:snowy_beach", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean"]
 		#Dimensions in which Structures can NOT generate in
-		blacklisted_dimensions = ["minecraft:the_nether", "minecraft:the_end", "undergarden:undergarden", "atum:atum", "compactmachines:compact_world", "mythicbotany:alfheim", "twilightforest:twilightforest"]
+		blacklisted_dimensions = ["minecraft:the_nether", "minecraft:the_end", "undergarden:undergarden", "atum:atum", "compactmachines:compact_world", "mythicbotany:alfheim"]
 
 	[structures.castle]
 		#Generate? [default: true]
