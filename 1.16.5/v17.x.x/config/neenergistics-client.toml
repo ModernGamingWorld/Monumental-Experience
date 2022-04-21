@@ -1,0 +1,19 @@
+
+[transfer]
+	#If true, print current recipe type in log.Default:false
+	PrintRecipeType = false
+	#If true, the ingredient currently displayed by JEI will be transferred
+	UseDisplayedIngredient = false
+	#If tag has this mod's item, use it first.
+	ModPreference = []
+	#example:{\"itemName\" : \"minecraft:apple\", \"nbt\": \"{}\"}
+	ItemBlacklist = []
+	#example:{\"itemName\" : \"minecraft:apple\", \"nbt\": \"{}\"}
+	ListItemPreference = []
+
+[crafting-help]
+	#If true, Crafting Helper will match other items even they can't auto-crafting
+	MatchOtherItems = true
+	#If true, it will make all similar ingredient switch at the same time 
+	AllowSynchronousSwitchIngredient = true
+

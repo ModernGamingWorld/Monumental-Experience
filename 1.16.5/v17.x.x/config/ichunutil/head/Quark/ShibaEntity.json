@@ -1,0 +1,21 @@
+{
+  "author": "WenXin2",
+  "forClass": "vazkii.quark.content.experimental.shiba.entity.ShibaEntity",
+  "modelFieldName": "main.head",
+  "eyeOffset": [
+    0.0,
+    0.40625,
+    0.25
+  ],
+  "pupilColour": [
+    0.22745098,
+    0.12941177,
+    0.0627451
+  ],
+  "halfInterpupillaryDistance": 0.1875,
+  "headTopCenter": [
+    0.0,
+    0.625,
+    0.0625
+  ]
+}

@@ -1,0 +1,23 @@
+#The token for the bot
+token = ""
+#The UUID for the bot. If left empty, it will be generated
+uuid = ""
+#The discord server id
+"server id" = 0
+#The channel id for where the chats should be
+"chat channel" = 0
+#The channel id for where the staff chats should be
+"staff channel" = 0
+#The channel id for where the info chats should be
+"info channel" = 0
+#The channel id for where commands will be recognized
+"command channel" = 0
+#The server's name
+"server name" = ""
+
+[formatting]
+	"show rank" = true
+	"show titles" = true
+	"show nicknames" = true
+	"discord tag" = "&8[&eDiscord&8]"
+

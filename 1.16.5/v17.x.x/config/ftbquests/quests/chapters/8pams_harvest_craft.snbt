@@ -1,0 +1,1721 @@
+{
+	id: "695FBD34B746B8CD"
+	group: "33C9D311E461F30C"
+	order_index: 1
+	filename: "8pams_harvest_craft"
+	title: "&6Pam's HarvestCraft"
+	icon: "pamhc2crops:brusselsproutseeditem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -27.75d
+			y: -5.25d
+			shape: "circle"
+			dependencies: [
+				"2886EB64960F7844"
+				"66CEFD7FE7A4BB9D"
+			]
+			size: 1.5d
+			id: "50EF1D5E863E2EF2"
+			tasks: [{
+				id: "6191A5060B7D1286"
+				type: "item"
+				item: "pamhc2foodextended:cherrysodaitem"
+			}]
+			rewards: [{
+				id: "4494043E8394DD70"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "2E37B7805DEEB8AD"
+			tasks: [{
+				id: "45CDFFF1D9CFCA25"
+				type: "item"
+				item: "pamhc2foodextended:colasodaitem"
+			}]
+			rewards: [{
+				id: "48133E2E42A70D01"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "2FCF5E6302CA31C5"
+			tasks: [{
+				id: "05950C248FC9E8B8"
+				type: "item"
+				item: "pamhc2foodextended:gingersodaitem"
+			}]
+			rewards: [{
+				id: "22A2B5D6834714BB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "6A6155A4DA63DE80"
+			tasks: [{
+				id: "73DBCC77E45F8814"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitsodaitem"
+			}]
+			rewards: [{
+				id: "582144407D78CCE0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: -6.75d
+			shape: "circle"
+			dependencies: [
+				"2886EB64960F7844"
+				"66CEFD7FE7A4BB9D"
+			]
+			size: 1.5d
+			id: "0C7B230CCC39E494"
+			tasks: [{
+				id: "336C6FBCED091A9B"
+				type: "item"
+				item: "pamhc2foodextended:grapesodaitem"
+			}]
+			rewards: [{
+				id: "6850954991AAC3F1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "0C52714415FBBD2C"
+			tasks: [{
+				id: "4C98BCB2C529D8EE"
+				type: "item"
+				item: "pamhc2foodextended:lemonlimesodaitem"
+			}]
+			rewards: [{
+				id: "13BBC55481C601CB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "7D5CE253B69A3BBC"
+			tasks: [{
+				id: "3D0E5E9DA59C1767"
+				type: "item"
+				item: "pamhc2foodextended:orangesodaitem"
+			}]
+			rewards: [{
+				id: "40546E7F76C9A2E5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "67D10DE27BEDB585"
+			tasks: [{
+				id: "07A9D19F96143BBE"
+				type: "item"
+				item: "pamhc2foodextended:rootbeersodaitem"
+			}]
+			rewards: [{
+				id: "68AD143C726A0469"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -5.25d
+			shape: "circle"
+			dependencies: ["2886EB64960F7844"]
+			size: 1.5d
+			id: "732058D48C846A19"
+			tasks: [{
+				id: "3D9839E174FE638E"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysodaitem"
+			}]
+			rewards: [{
+				id: "36E6C410D36A8CF2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -0.75d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "4EE786BF8AAD6B6A"
+			tasks: [{
+				id: "13702B24ED8C59B2"
+				type: "item"
+				item: "pamhc2foodcore:applejuiceitem"
+			}]
+			rewards: [{
+				id: "512153D98C2EC6A6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -2.25d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "7CD714017260398A"
+			tasks: [{
+				id: "5FC14DF82979D227"
+				type: "item"
+				item: "pamhc2foodcore:melonjuiceitem"
+			}]
+			rewards: [{
+				id: "6E86095D3605B68C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -3.0d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "40E6B5A5322C64BA"
+			tasks: [{
+				id: "44598109EF461F72"
+				type: "item"
+				item: "pamhc2foodcore:sweetberryjuiceitem"
+			}]
+			rewards: [{
+				id: "77BA1421AFAF5A6F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -5.25d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "6D6BA9BEED92FD99"
+			tasks: [{
+				id: "0EED54C1B1721B8B"
+				type: "item"
+				item: "pamhc2foodextended:blueberryjuiceitem"
+			}]
+			rewards: [{
+				id: "57DBD0BA64B674C9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -0.75d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "70DC7A14F2C3E06F"
+			tasks: [{
+				id: "20E26AFB031FD0CD"
+				type: "item"
+				item: "pamhc2foodextended:kiwijuiceitem"
+			}]
+			rewards: [{
+				id: "6A2569FB13B96C9A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -5.25d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "1A5609D159723F0A"
+			tasks: [{
+				id: "7565482546405834"
+				type: "item"
+				item: "pamhc2foodextended:cherryjuiceitem"
+			}]
+			rewards: [{
+				id: "0FBE5B41D5F535BD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "37283F19AF30D9B3"
+			tasks: [{
+				id: "797BC947384E6CA0"
+				type: "item"
+				item: "pamhc2foodextended:grapejuiceitem"
+			}]
+			rewards: [{
+				id: "7AE74C957E42EB38"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -2.25d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "477EF36C6EDD41B2"
+			tasks: [{
+				id: "05570379B000824C"
+				type: "item"
+				item: "pamhc2foodextended:lemonjuiceitem"
+			}]
+			rewards: [{
+				id: "2882479AB0F6958F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: [
+				"421681DA3B369FF4"
+				"3EB9C4A938D5FBE6"
+			]
+			size: 1.5d
+			id: "01A197846ED46974"
+			tasks: [{
+				id: "7778EA23EB5A93DD"
+				type: "item"
+				item: "pamhc2foodextended:pomegranatejuiceitem"
+			}]
+			rewards: [{
+				id: "0CE271A9E76B09BC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "3ED041EA300F0CD8"
+			tasks: [{
+				id: "137B2C1827E577AE"
+				type: "item"
+				item: "pamhc2foodextended:garlicchickenitem"
+			}]
+			rewards: [{
+				id: "7254E61CA423EC02"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "6531FC16531B61FA"
+			tasks: [{
+				id: "002874D0811799BF"
+				type: "item"
+				item: "pamhc2foodextended:chilidogitem"
+			}]
+			rewards: [{
+				id: "51DDD36F0C51AB6F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.75d
+			shape: "circle"
+			dependencies: ["748E9D2C4F95E658"]
+			size: 1.5d
+			id: "43138ED2A7C7BD00"
+			tasks: [{
+				id: "4E4B0E3584EF94A8"
+				type: "item"
+				item: "pamhc2foodcore:gummybearsitem"
+			}]
+			rewards: [{
+				id: "3D6CFD2F5CCA3421"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -8.25d
+			shape: "circle"
+			dependencies: ["66CEFD7FE7A4BB9D"]
+			size: 1.5d
+			id: "4A4B86944BE53B96"
+			tasks: [{
+				id: "4F1ABA8B37FEB570"
+				type: "item"
+				item: "pamhc2foodcore:friesitem"
+			}]
+			rewards: [{
+				id: "234402CB1EE192DF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "1562E7A8C4E87C7A"
+			tasks: [{
+				id: "18786B14594CFD2F"
+				type: "item"
+				item: "pamhc2foodcore:fishsticksitem"
+			}]
+			rewards: [{
+				id: "4C2615C126E2FA3B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: -8.25d
+			shape: "circle"
+			dependencies: ["66CEFD7FE7A4BB9D"]
+			size: 1.5d
+			id: "036D539C6FEA7BBB"
+			tasks: [{
+				id: "2E17815B407EF8C3"
+				type: "item"
+				item: "pamhc2foodcore:fishandchipsitem"
+			}]
+			rewards: [{
+				id: "37D014ADF3CED6B9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "220AA5F7F6FE08E4"
+			tasks: [{
+				id: "3FA4EB40EFAFB053"
+				type: "item"
+				item: "pamhc2foodcore:basichamburgeritem"
+			}]
+			rewards: [{
+				id: "2E06B8BE41B4C21A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "2FEA56492D0DC2A4"
+			tasks: [{
+				id: "7E45F914A91721E9"
+				type: "item"
+				item: "pamhc2foodcore:basiccheeseburgeritem"
+			}]
+			rewards: [{
+				id: "35035B903E330C4E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "1E0CD828B5B9C3B5"
+			tasks: [{
+				id: "7D117D0F67C7F4CC"
+				type: "item"
+				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}]
+			rewards: [{
+				id: "4C7110D0662DF2D4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "2E1794E1E85E0D2D"
+			tasks: [{
+				id: "6D97AF385852B8B7"
+				type: "item"
+				item: "pamhc2foodcore:bakedvegetablemedlyitem"
+			}]
+			rewards: [{
+				id: "5B1C10FC2988488C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: -6.75d
+			shape: "circle"
+			dependencies: ["66CEFD7FE7A4BB9D"]
+			size: 1.5d
+			id: "1A2BBC827904BE95"
+			tasks: [{
+				id: "2CAF9C03292A1AC5"
+				type: "item"
+				item: "pamhc2foodextended:cornonthecobitem"
+			}]
+			rewards: [{
+				id: "0320BBA83517870C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "421D9B977BA2261A"
+			tasks: [{
+				id: "040C542B73C71C85"
+				type: "item"
+				item: "pamhc2foodextended:epicbltitem"
+			}]
+			rewards: [{
+				id: "7B0A4B6B8531D52A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "465A55120B412175"
+			tasks: [{
+				id: "75AC6892126E40F1"
+				type: "item"
+				item: "pamhc2foodcore:applepieitem"
+			}]
+			rewards: [{
+				id: "7EC775974D7FDA92"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "11221D310C47C37C"
+			tasks: [{
+				id: "74026949F58D227E"
+				type: "item"
+				item: "pamhc2foodcore:sweetberrypieitem"
+			}]
+			rewards: [{
+				id: "5CD7F0ACD847F904"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "3604FA90DDB3000F"
+			tasks: [{
+				id: "03D044DF73ABBB90"
+				type: "item"
+				item: "pamhc2foodextended:gooseberrypieitem"
+			}]
+			rewards: [{
+				id: "7F338C74D76D8ACA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "254FCB3438DB7431"
+			tasks: [{
+				id: "7A59FEFFCEAF3596"
+				type: "item"
+				item: "pamhc2foodextended:plumpieitem"
+			}]
+			rewards: [{
+				id: "72EEC83C21AD9BD3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "1770255237DDF35F"
+			tasks: [{
+				id: "14D4C86D3ACE6AB8"
+				type: "item"
+				item: "pamhc2foodextended:blackberrypieitem"
+			}]
+			rewards: [{
+				id: "7B58081F09272561"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "64A447C694448DC0"
+			tasks: [{
+				id: "6691672D9C00D92C"
+				type: "item"
+				item: "pamhc2foodextended:grapefruitpieitem"
+			}]
+			rewards: [{
+				id: "60B3B50588AF1AF1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "39511467F82D499E"
+			tasks: [{
+				id: "021D0FEDB41880D6"
+				type: "item"
+				item: "pamhc2foodextended:apricotpieitem"
+			}]
+			rewards: [{
+				id: "1FB131153A149A90"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "235896C489903A5C"
+			tasks: [{
+				id: "74A3B41F2BA8F239"
+				type: "item"
+				item: "pamhc2foodextended:strawberrypieitem"
+			}]
+			rewards: [{
+				id: "11A8BE45EA2985B6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -9.75d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "389D9986C2FFA62F"
+			tasks: [{
+				id: "5A1E24DCA70F084A"
+				type: "item"
+				item: "pamhc2foodextended:starfruitpieitem"
+			}]
+			rewards: [{
+				id: "3D623C7BAFBBF8D7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -6.75d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["7AB41D266B1FBCBA"]
+			size: 1.5d
+			id: "3F25ED25EDE0213D"
+			tasks: [{
+				id: "57FF8B037F50A9E6"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+			}]
+			rewards: [{
+				id: "68FAF12D82D77338"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "367A550658E6E1C2"
+			tasks: [{
+				id: "3A9C49D2D825F8D9"
+				type: "item"
+				item: "pamhc2foodcore:baconandeggsitem"
+			}]
+			rewards: [{
+				id: "6A9D0F1492F5BCE1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "7014EDE04EF8EADA"
+			tasks: [{
+				id: "1ED41BA767640F12"
+				type: "item"
+				item: "pamhc2foodcore:chocolatebaconitem"
+			}]
+			rewards: [{
+				id: "459C4B3264F39FAA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.25d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "1722155C8309861A"
+			tasks: [{
+				id: "2C45B2A71442B8E5"
+				type: "item"
+				item: "pamhc2foodcore:melonsmoothieitem"
+			}]
+			rewards: [{
+				id: "361EB51FAE99175E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.25d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "22F6B4DCA1A31E40"
+			tasks: [{
+				id: "53A23BDCEE9C33CD"
+				type: "item"
+				item: "pamhc2foodextended:bananasmoothieitem"
+			}]
+			rewards: [{
+				id: "195F1FC5C88D2DB8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.75d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "50ED0B239F9D2627"
+			tasks: [{
+				id: "68A45EBEBC6B5CC6"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysmoothieitem"
+			}]
+			rewards: [{
+				id: "0AC76EB1F8DC47F0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.25d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "10A5E685E8EBF815"
+			tasks: [{
+				id: "47DCA00D036016C2"
+				type: "item"
+				item: "pamhc2foodextended:kiwismoothieitem"
+			}]
+			rewards: [{
+				id: "1B3758B9E57DBAFA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.25d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "3FD74C4BDDAA5499"
+			tasks: [{
+				id: "55ACE1A186AFBD96"
+				type: "item"
+				item: "pamhc2foodextended:mangosmoothieitem"
+			}]
+			rewards: [{
+				id: "5E505D5565B8414D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.75d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "708D22D6C32F863E"
+			tasks: [{
+				id: "17AAB13F98565876"
+				type: "item"
+				item: "pamhc2foodextended:apricotsmoothieitem"
+			}]
+			rewards: [{
+				id: "0A9C17BF52961410"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.75d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "505AF5AF62DDB97E"
+			tasks: [{
+				id: "193456A3628ED53E"
+				type: "item"
+				item: "pamhc2foodextended:grapesmoothieitem"
+			}]
+			rewards: [{
+				id: "1A0C59FECEF0DFE6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.75d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "4CE6447CDF791B8B"
+			tasks: [{
+				id: "1D019275F6084991"
+				type: "item"
+				item: "pamhc2foodextended:pineapplesmoothieitem"
+			}]
+			rewards: [{
+				id: "1092935BB4F975EB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.75d
+			shape: "circle"
+			dependencies: [
+				"23BD6FBC491C8709"
+				"1554EF2CF2D1A2E5"
+			]
+			size: 1.5d
+			id: "6552879197F40A2A"
+			tasks: [{
+				id: "07CAA491E66324C5"
+				type: "item"
+				item: "pamhc2foodextended:peachsmoothieitem"
+			}]
+			rewards: [{
+				id: "7B0801365FC97048"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -8.25d
+			shape: "gear"
+			size: 1.5d
+			id: "6921E1336281DB5A"
+			tasks: [{
+				id: "59D62FF4E05B5355"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+			rewards: [{
+				id: "6000AAA69E2E6165"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -24.75d
+			y: -8.25d
+			shape: "gear"
+			size: 1.5d
+			id: "66CEFD7FE7A4BB9D"
+			tasks: [{
+				id: "2886EB64960F7844"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+			rewards: [{
+				id: "5B4824CDCDA9BD64"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "748E9D2C4F95E658"
+			tasks: [{
+				id: "7DB3B6F1AFFD63E7"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+			rewards: [{
+				id: "0EE52C8C0A8E1422"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "72DDE74E0AC704E3"
+			tasks: [{
+				id: "0C23B9780A2052B5"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+			rewards: [{
+				id: "01D4C4119FC52A84"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -24.75d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "655AA7C830E7B215"
+			tasks: [{
+				id: "13C0BC1C66A6C9FA"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+			rewards: [{
+				id: "589714CF415DDD2A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -8.25d
+			shape: "gear"
+			size: 1.5d
+			id: "3EB9C4A938D5FBE6"
+			tasks: [{
+				id: "421681DA3B369FF4"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [{
+				id: "44E7F0F76FAD9F06"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "7AB41D266B1FBCBA"
+			tasks: [{
+				id: "60283F3F54ADD2AB"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+			rewards: [{
+				id: "0864615AE65FDC35"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "&e&lYogurt Mania"
+			x: 0.0d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["748E9D2C4F95E658"]
+			size: 1.5d
+			id: "4B2F23A5D6334291"
+			tasks: [{
+				id: "00FAA7B57957F73D"
+				type: "item"
+				item: "pamhc2foodcore:yogurtitem"
+			}]
+			rewards: [{
+				id: "1717D203A57C7BB1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "5CD8BBBD257D6C25"
+			tasks: [{
+				id: "712F779D1481047D"
+				type: "item"
+				item: "pamhc2foodextended:blueberryyogurtitem"
+			}]
+			rewards: [{
+				id: "73F30FEA7B5D1751"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "76868E9B76A54C30"
+			tasks: [{
+				id: "15DC65D874219118"
+				type: "item"
+				item: "pamhc2foodextended:bananayogurtitem"
+			}]
+			rewards: [{
+				id: "11A4A33878E5E95A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "715846000710407E"
+			tasks: [{
+				id: "2931AF1F91719CC3"
+				type: "item"
+				item: "pamhc2foodextended:cherryyogurtitem"
+			}]
+			rewards: [{
+				id: "2A59342111B33A16"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "46468E8C92D33C69"
+			tasks: [{
+				id: "524AAE1FD5AE7364"
+				type: "item"
+				item: "pamhc2foodextended:passionfruityogurtitem"
+			}]
+			rewards: [{
+				id: "2A2FAA042C620AF2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "72C57A218DF3AE44"
+			tasks: [{
+				id: "2B05BE0DF7AE3219"
+				type: "item"
+				item: "pamhc2foodextended:grapeyogurtitem"
+			}]
+			rewards: [{
+				id: "28FEC32D1A0BA542"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "53DAC1CE6E5C7D25"
+			tasks: [{
+				id: "06D19E044AE35D6B"
+				type: "item"
+				item: "pamhc2foodextended:plumyogurtitem"
+			}]
+			rewards: [{
+				id: "04EED983CB90B9EC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "766DBFBEB8DF02E1"
+			tasks: [{
+				id: "4B4C4CAEAA5F0912"
+				type: "item"
+				item: "pamhc2foodextended:mangoyogurtitem"
+			}]
+			rewards: [{
+				id: "56ECE4CB92EFB088"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "45F9382059EC9604"
+			tasks: [{
+				id: "5241D618076C0964"
+				type: "item"
+				item: "pamhc2foodextended:kiwiyogurtitem"
+			}]
+			rewards: [{
+				id: "0B62CE6F82224580"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "612B18917CE7C2B5"
+			tasks: [{
+				id: "583F84F71ACFE006"
+				type: "item"
+				item: "pamhc2foodextended:figyogurtitem"
+			}]
+			rewards: [{
+				id: "46FE7AAE272241D1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "39C227B8EA9AFA71"
+			tasks: [{
+				id: "3144BE72F370E210"
+				type: "item"
+				item: "pamhc2foodextended:apricotyogurtitem"
+			}]
+			rewards: [{
+				id: "2E2BC813D2E7ACA0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "65C06431044152D7"
+			tasks: [{
+				id: "4C16AF4D44D4E508"
+				type: "item"
+				item: "pamhc2foodextended:strawberryyogurtitem"
+			}]
+			rewards: [{
+				id: "1492E377C39D5E5E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["4B2F23A5D6334291"]
+			size: 1.5d
+			id: "084BBE08974C8F14"
+			tasks: [{
+				id: "1886B252AB013062"
+				type: "item"
+				item: "pamhc2foodextended:pearyogurtitem"
+			}]
+			rewards: [{
+				id: "1311DC8C91CCD387"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.25d
+			shape: "gear"
+			size: 1.5d
+			id: "1554EF2CF2D1A2E5"
+			tasks: [{
+				id: "23BD6FBC491C8709"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [{
+				id: "18F54E1850622C4C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -5.25d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "51284C49C7A81B1D"
+			tasks: [{
+				id: "2B0A65FFFA87513E"
+				type: "item"
+				item: "pamhc2foodextended:mochicakeitem"
+			}]
+			rewards: [{
+				id: "3B1DBD2C9FED26F6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "6AE0130548703FA5"
+			tasks: [{
+				id: "1935AAA6507CAE40"
+				type: "item"
+				item: "pamhc2foodextended:misopasteitem"
+			}]
+			rewards: [{
+				id: "152B2CC483FCDD7B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "2354F87D956F5F13"
+			tasks: [{
+				id: "6780A44F06B6B883"
+				type: "item"
+				item: "pamhc2foodextended:curryitem"
+			}]
+			rewards: [{
+				id: "2A011946D104FFF4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "5DFBFF51CC6219BC"
+			tasks: [{
+				id: "667B24E6DA2F6F87"
+				type: "item"
+				item: "pamhc2foodcore:groundrabbititem"
+			}]
+			rewards: [{
+				id: "02A2D95B611D60AA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -5.25d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "5B85D53331FA06F8"
+			tasks: [{
+				id: "0E6D2D31CD708642"
+				type: "item"
+				item: "pamhc2foodextended:almondbutteritem"
+			}]
+			rewards: [{
+				id: "469D457B99199EE1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "791407F453E26F0A"
+			tasks: [{
+				id: "1293A62F89542CB2"
+				type: "item"
+				item: "pamhc2foodextended:cashewbutteritem"
+			}]
+			rewards: [{
+				id: "5EB1550E10C9949C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "622492599C53427D"
+			tasks: [{
+				id: "247A9FDDC411940B"
+				type: "item"
+				item: "pamhc2foodextended:chestnutbutteritem"
+			}]
+			rewards: [{
+				id: "75B69CCEABD033C1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -6.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "38F83AD57A7EE94F"
+			tasks: [{
+				id: "759C287F06E6F534"
+				type: "item"
+				item: "pamhc2foodextended:hazelnutbutteritem"
+			}]
+			rewards: [{
+				id: "543935EF8C1ECC5F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "11BCCA9EF4D38D9D"
+			tasks: [{
+				id: "394E4875309BE366"
+				type: "item"
+				item: "pamhc2foodextended:peanutbutteritem"
+			}]
+			rewards: [{
+				id: "4CB5D695145C0F8C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -24.75d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["66CEFD7FE7A4BB9D"]
+			size: 1.5d
+			id: "145F1D5CC43ED969"
+			tasks: [{
+				id: "73C30C39DDDD600D"
+				type: "item"
+				item: "pamhc2foodextended:applecideritem"
+			}]
+			rewards: [{
+				id: "6631C937CD5C869D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["655AA7C830E7B215"]
+			size: 1.5d
+			id: "000408A2D595B677"
+			tasks: [{
+				id: "3596B8646E94B10C"
+				type: "item"
+				item: "pamhc2foodextended:mushroomoilitem"
+			}]
+			rewards: [{
+				id: "1A2E17D55B1E8AB8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.75d
+			shape: "circle"
+			dependencies: ["748E9D2C4F95E658"]
+			size: 1.5d
+			id: "128CF6EA7E7AD32A"
+			tasks: [{
+				id: "1FB09DA4C7227814"
+				type: "item"
+				item: "pamhc2foodextended:ricepuddingitem"
+			}]
+			rewards: [{
+				id: "6DECD4276D26DD43"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -21.75d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["655AA7C830E7B215"]
+			size: 1.5d
+			id: "2926875082E82806"
+			tasks: [{
+				id: "7745D1DBA757B839"
+				type: "item"
+				item: "pamhc2foodcore:pastaitem"
+			}]
+			rewards: [{
+				id: "639459A1E2CA7B68"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "19F9EE6E5C75CFF4"
+			tasks: [{
+				id: "0E9655631EC92B6B"
+				type: "item"
+				item: "pamhc2foodextended:steakandchipsitem"
+			}]
+			rewards: [{
+				id: "394646D65079D848"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["655AA7C830E7B215"]
+			size: 1.5d
+			id: "660EA626B7026223"
+			tasks: [{
+				id: "2718315C8C76320B"
+				type: "item"
+				item: "pamhc2foodextended:sesameoilitem"
+			}]
+			rewards: [{
+				id: "032C056789B9E950"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -27.75d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["655AA7C830E7B215"]
+			size: 1.5d
+			id: "57CDA85A831A5828"
+			tasks: [{
+				id: "3D9A484D280FE131"
+				type: "item"
+				item: "pamhc2foodextended:firmtofuitem"
+			}]
+			rewards: [{
+				id: "34D4BAA9597BB191"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "69D935A2F18B6E84"
+			tasks: [{
+				id: "06B2730BA85FA610"
+				type: "item"
+				item: "pamhc2foodcore:scrambledeggitem"
+			}]
+			rewards: [{
+				id: "56D6E2DC76C0CE6C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "0A105F4008F3511A"
+			tasks: [{
+				id: "21136ED0A648528B"
+				type: "item"
+				item: "pamhc2foodextended:padthaiitem"
+			}]
+			rewards: [{
+				id: "057E32C54BD53378"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["72DDE74E0AC704E3"]
+			size: 1.5d
+			id: "3840CF42B6210067"
+			tasks: [{
+				id: "605611334933778E"
+				type: "item"
+				item: "pamhc2foodextended:beanburritoitem"
+			}]
+			rewards: [{
+				id: "7CC9143DCC0678E2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -6.75d
+			shape: "circle"
+			dependencies: ["6921E1336281DB5A"]
+			size: 1.5d
+			id: "213B9F29DC1A9312"
+			tasks: [{
+				id: "72F214BDF56FE2DB"
+				type: "item"
+				item: "pamhc2foodcore:groundfishitem"
+			}]
+			rewards: [{
+				id: "55360F8AE90A9FA0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

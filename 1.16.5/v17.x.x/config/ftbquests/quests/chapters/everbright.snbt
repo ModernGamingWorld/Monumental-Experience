@@ -1,0 +1,132 @@
+{
+	id: "548F6C8C65E929D9"
+	group: "09A82B0D5D5E7906"
+	order_index: 3
+	filename: "everbright"
+	title: "&6Everbright"
+	icon: "blue_skies:turquoise_stonebrick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "27CD46C8E6EC2E3B"
+			tasks: [{
+				id: "34BEAE9F7B3C7641"
+				type: "dimension"
+				title: "Enter Everbright"
+				icon: "blue_skies:turquoise_stonebrick"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "291C4D09BF7A7D9F"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["37B01786D1F519C6"]
+			id: "084BFF7D3DD9BB24"
+			tasks: [{
+				id: "0A272A4C6A0D1869"
+				type: "kill"
+				title: "Kill The Summoner"
+				icon: "blue_skies:bright_blinding_keystone"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "49D4292EB66AD8EE"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "519D3F2511FC7976"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["207769EC3251F70E"]
+			id: "17EE59DC9B0C44B7"
+			tasks: [{
+				id: "78C390F75DC274B9"
+				type: "kill"
+				title: "Kill The Starlit Crusher"
+				icon: {
+					id: "blue_skies:starlit_crusher_trophy"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6D575260D0C92ACD"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "460AA304E8529223"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			title: "Collect 4 Dungeon Keys"
+			icon: "blue_skies:blinding_key"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["27CD46C8E6EC2E3B"]
+			id: "37B01786D1F519C6"
+			tasks: [{
+				id: "7A42676AA2769350"
+				type: "item"
+				item: "blue_skies:blinding_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2142AEE9A402FDDF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "Collect 4 Dungeon Keys"
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["084BFF7D3DD9BB24"]
+			id: "207769EC3251F70E"
+			tasks: [{
+				id: "7FB4F19B7B7F9932"
+				type: "item"
+				item: "blue_skies:nature_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0222272917BC9A59"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

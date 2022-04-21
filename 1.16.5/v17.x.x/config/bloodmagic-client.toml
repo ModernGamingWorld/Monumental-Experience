@@ -1,0 +1,36 @@
+
+#Always render the beams between routing nodes.
+#If disabled, the beams will only render while the Node Router is held.
+[client]
+	alwaysRenderRoutingLines = false
+	#When cycling through slots, the Sigil of Holding will skip over empty slots and move to the next occupied one.
+	#If disabled, it will behave identically to the default hotbar.
+	sigilHoldingSkipsEmptySlots = false
+
+#Settings for the position of the Demon Will Gauge HUD element.
+[hud]
+	#Range: 0.0 ~ 1.0
+	DemonWillGaugePosX = 0.01
+	#Range: 0.0 ~ 1.0
+	DemonWillGaugePosY = 0.01
+	#Settings for the position of the basic Blood Altar info HUD element.
+	#Range: 0.0 ~ 1.0
+	bloodAltarGaugeX = 0.01
+	#Range: 0.0 ~ 1.0
+	bloodAltarGaugeY = 0.01
+	#Settings for the position of the advanced Blood Altar info HUD element.
+	#Range: 0.0 ~ 1.0
+	bloodAltarAdvGaugeX = 0.01
+	#Range: 0.0 ~ 1.0
+	bloodAltarAdvGaugeY = 0.01
+	#Settings for the position of the Incense Altar info HUD element.
+	#Range: 0.0 ~ 1.0
+	incenseGaugeX = 0.01
+	#Range: 0.0 ~ 1.0
+	incenseGaugeY = 0.01
+	#Settings for the position of the Sigil of Holding info HUD element.
+	#Range: 0.0 ~ 1.0
+	holdingX = 0.7200000286102295
+	#Range: 0.0 ~ 1.0
+	holdingY = 1.0
+

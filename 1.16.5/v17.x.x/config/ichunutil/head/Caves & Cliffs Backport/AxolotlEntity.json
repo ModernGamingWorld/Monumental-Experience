@@ -1,0 +1,22 @@
+{
+  "author": "WenXin2",
+  "forClass": "com.blackgear.cavesandcliffs.common.entity.AxolotlEntity",
+  "modelFieldName": "body.head",
+  "eyeOffset": [
+    0.0,
+    0.03125,
+    0.3125
+  ],
+  "pupilColour": [
+    0.22745098,
+    0.0,
+    0.42352942
+  ],
+  "halfInterpupillaryDistance": 0.1875,
+  "eyeScale": 0.55,
+  "headTopCenter": [
+    0.0,
+    0.1875,
+    0.15625
+  ]
+}

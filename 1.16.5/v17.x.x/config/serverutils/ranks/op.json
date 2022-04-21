@@ -1,0 +1,14 @@
+{
+  "name": "op",
+  "prefix": "&8[&4Op&8]",
+  "suffix": "",
+  "perms": [
+    "*"
+  ],
+  "parents": [],
+  "cmds": [],
+  "weight": 1000,
+  "rank_up": 0,
+  "next_ranks": [],
+  "rank_up_cost": 0.0
+}

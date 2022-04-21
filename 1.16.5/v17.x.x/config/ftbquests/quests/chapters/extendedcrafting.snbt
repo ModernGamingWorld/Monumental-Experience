@@ -1,0 +1,1089 @@
+{
+	id: "0000000000001402"
+	group: "08B8463E6E996DCD"
+	order_index: 0
+	filename: "extendedcrafting"
+	title: "&3Extended Crafting"
+	icon: "extendedcrafting:basic_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&6Black Iron Ingot x2"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000001403"
+			tasks: [
+				{
+					id: "0000000000001404"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+					count: 2L
+				}
+				{
+					id: "62111571F361C595"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "extendedcrafting:guide"
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "0000000000000FB3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0000000000001403"]
+			size: 1.5d
+			id: "5D440F7A7850DFE9"
+			tasks: [{
+				id: "5FCE1108ECD19622"
+				type: "item"
+				item: {
+					id: "extendedcrafting:redstone_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "57731F0752BE151D"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000001403"]
+			size: 1.5d
+			id: "75740327DCE581AB"
+			tasks: [{
+				id: "34EDD98575836DB1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:black_iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "50A4174931C88089"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["75740327DCE581AB"]
+			size: 1.5d
+			id: "1361D27945758E61"
+			tasks: [{
+				id: "0B219083D0D7A89B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:black_iron_slate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3288A40A2302CD7C"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["75740327DCE581AB"]
+			size: 1.5d
+			id: "784767BA6BF89215"
+			tasks: [{
+				id: "28E13E837DA941FC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:luminessence"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C581BDBBEDC8AD9"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000001403"]
+			size: 1.5d
+			id: "317073F33D19D088"
+			tasks: [{
+				id: "7FEE192D1631AC25"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ender_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "54BC1804623989D8"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["317073F33D19D088"]
+			size: 1.5d
+			id: "51617F598E29F866"
+			tasks: [
+				{
+					id: "2385A2FC0D7162C4"
+					type: "item"
+					item: {
+						id: "extendedcrafting:ender_crafter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1F19524B83D975D0"
+					type: "item"
+					item: {
+						id: "extendedcrafting:ender_alternator"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "11B8A08B281ED016"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["1361D27945758E61"]
+			size: 1.5d
+			id: "50868E3E0294467F"
+			tasks: [{
+				id: "3CE88CB98026B907"
+				type: "item"
+				item: {
+					id: "extendedcrafting:basic_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "40F7905622D727A0"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["50868E3E0294467F"]
+			size: 1.5d
+			id: "2D219501946DA118"
+			tasks: [{
+				id: "31ABCF45049407A7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:basic_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "66F2365E3E40DFBF"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["50868E3E0294467F"]
+			size: 1.5d
+			id: "550F46748DABB754"
+			tasks: [{
+				id: "54A2796DA55AB446"
+				type: "item"
+				item: {
+					id: "extendedcrafting:advanced_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78E5F9AC23E1E9C3"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["550F46748DABB754"]
+			size: 1.5d
+			id: "7A518724A42B36E4"
+			tasks: [{
+				id: "2AE1A9F4F3481CB6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:advanced_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4195D4E12E461FC9"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["550F46748DABB754"]
+			size: 1.5d
+			id: "3533D164E33A16DA"
+			tasks: [{
+				id: "5FF9DF792B56C338"
+				type: "item"
+				item: {
+					id: "extendedcrafting:elite_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3131009D9A7C7D36"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["3533D164E33A16DA"]
+			size: 1.5d
+			id: "7DBD4830F53F1DA2"
+			tasks: [{
+				id: "09C0DD9F7C9F043E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:elite_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1942AFE6ACBEC3A4"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			dependencies: ["4F8DFA8CFB9930CB"]
+			size: 1.5d
+			id: "66D6BAD087254368"
+			tasks: [{
+				id: "6E2ADDCDD9B87EEC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ultimate_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "26893581ECAE4D44"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["66D6BAD087254368"]
+			size: 1.5d
+			id: "614E66CC0E57F8E6"
+			tasks: [{
+				id: "3549C23D03F1142F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ultimate_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BF2B3D15D5491F8"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["3533D164E33A16DA"]
+			size: 1.5d
+			id: "50C4E0BB35B4B0D4"
+			tasks: [{
+				id: "12DC330FD255D60E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:redstone_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["50C4E0BB35B4B0D4"]
+			size: 1.5d
+			id: "7C9ED99426C4FCE7"
+			tasks: [{
+				id: "3B78617916F3C474"
+				type: "item"
+				item: {
+					id: "extendedcrafting:redstone_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "71F470B1F0194122"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 0.0d
+			dependencies: [
+				"50868E3E0294467F"
+				"550F46748DABB754"
+				"3533D164E33A16DA"
+				"50C4E0BB35B4B0D4"
+				"745F8978D3F673F8"
+				"52724A691A5B50E6"
+				"4F8DFA8CFB9930CB"
+				"66D6BAD087254368"
+			]
+			size: 1.5d
+			id: "38A685D0EE23520F"
+			tasks: [{
+				id: "1EED653702C252D9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:the_ultimate_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "470B22528FA28E71"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 8.25d
+			dependencies: [
+				"2D219501946DA118"
+				"7A518724A42B36E4"
+				"7DBD4830F53F1DA2"
+				"7C9ED99426C4FCE7"
+				"24036EBDCDD5AA86"
+				"329139A34B28B4E1"
+				"3EEBB25389231123"
+				"614E66CC0E57F8E6"
+			]
+			size: 1.5d
+			id: "5FE4D90F91A000FA"
+			tasks: [{
+				id: "2A808BAAF96AC265"
+				type: "item"
+				item: {
+					id: "extendedcrafting:the_ultimate_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B12A18649E3252C"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			shape: "circle"
+			dependencies: ["7DBD4830F53F1DA2"]
+			size: 1.5d
+			id: "4695DC46B222580B"
+			tasks: [
+				{
+					id: "430DCBFD2041A027"
+					type: "item"
+					item: {
+						id: "extendedcrafting:crafting_core"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "508E5B8ADCEE622E"
+					type: "item"
+					item: {
+						id: "extendedcrafting:compressor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5391B44EE5F0D6FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "200E1E1914FAD2BB"
+					type: "item"
+					item: {
+						id: "lootbagmod:lootbag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["7A518724A42B36E4"]
+			size: 1.5d
+			id: "4E698DE56BE1B3BB"
+			tasks: [{
+				id: "111FFFA026AF6A0D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:advanced_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7830CEA9D511AD06"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			dependencies: ["7DBD4830F53F1DA2"]
+			size: 1.5d
+			id: "552BF41BCE41B161"
+			tasks: [{
+				id: "69CA8248BC485420"
+				type: "item"
+				item: {
+					id: "extendedcrafting:elite_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "409EF988F5FEDFC1"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["4E698DE56BE1B3BB"]
+			size: 1.5d
+			id: "11E8447E328BAA86"
+			tasks: [{
+				id: "1EDCEFCA82FED147"
+				type: "item"
+				item: {
+					id: "extendedcrafting:advanced_auto_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D6DEC8326F884FD"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["552BF41BCE41B161"]
+			size: 1.5d
+			id: "1E9BCAE9C2169FCC"
+			tasks: [{
+				id: "7E6864D33F3F1993"
+				type: "item"
+				item: {
+					id: "extendedcrafting:elite_auto_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34FD8E06D214203F"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["2D219501946DA118"]
+			size: 1.5d
+			id: "3E49DB25B3820F68"
+			tasks: [{
+				id: "15B7BE546A1F054E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:basic_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "20D9FFEC7FDA75D4"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			shape: "circle"
+			dependencies: ["3E49DB25B3820F68"]
+			size: 1.5d
+			id: "1F45889C9516B2D2"
+			tasks: [{
+				id: "41A05F1E7739A371"
+				type: "item"
+				item: {
+					id: "extendedcrafting:basic_auto_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4417A375F0451721"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			dependencies: ["50C4E0BB35B4B0D4"]
+			size: 1.5d
+			id: "745F8978D3F673F8"
+			tasks: [{
+				id: "60FBF8116ADA9BF2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ender_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["745F8978D3F673F8"]
+			size: 1.5d
+			id: "24036EBDCDD5AA86"
+			tasks: [{
+				id: "222CF88E0778F39A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:ender_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "361D66B6E230F126"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.0d
+			dependencies: ["745F8978D3F673F8"]
+			size: 1.5d
+			id: "52724A691A5B50E6"
+			tasks: [{
+				id: "7B023B41C7B94ADF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:enhanced_ender_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			dependencies: ["52724A691A5B50E6"]
+			size: 1.5d
+			id: "4F8DFA8CFB9930CB"
+			tasks: [{
+				id: "267EBE979ED3E07B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:crystaltine_component"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["52724A691A5B50E6"]
+			size: 1.5d
+			id: "329139A34B28B4E1"
+			tasks: [{
+				id: "704B7FC3FB2A4B59"
+				type: "item"
+				item: {
+					id: "extendedcrafting:enhanced_ender_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A7B320EEC442D4B"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["4F8DFA8CFB9930CB"]
+			size: 1.5d
+			id: "3EEBB25389231123"
+			tasks: [{
+				id: "12FAD775A4C3AA49"
+				type: "item"
+				item: {
+					id: "extendedcrafting:crystaltine_catalyst"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "175D1DAF992CCAE7"
+				type: "item"
+				item: {
+					id: "lootbagmod:lootbag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

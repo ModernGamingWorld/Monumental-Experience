@@ -1,0 +1,34 @@
+
+#Basic configuration options
+#	    'Spacing' and 'Separation' values are useful if you want to tweak
+#	    the amount of structures that generate.
+#	    Keep in mind that spacing has to be higher than separation.
+#	    I.e.: endTowerSpacing = 1, endTowerSeparation = 0 will generate the 'End Tower' on every possible chunk.
+#	    'SpawnpointSeparation', on the other hand, is used to prevent structures from generating near x = 0, z = 0.
+#	    Further customization options are available through datapacks. This includes structure layout, loot, etc."
+["Towers of the Wild: Additions - Configuration"]
+
+	["Towers of the Wild: Additions - Configuration"."End Tower Structure"]
+		#Whether End Towers generate on your worlds or not.
+		endTowerGenerates = true
+		#Maximum distance between End Towers (in chunks).
+		#Range: 0 ~ 1000000
+		endTowerSpacing = 20
+		#Minimum distance between End Towers (in chunks).
+		#Range: 0 ~ 1000000
+		endTowerSeparation = 10
+		#Whether End Towers should integrate Waystones mod or not.
+		endTowerWaystones = true
+
+	["Towers of the Wild: Additions - Configuration"."Nether Tower Structure"]
+		#Whether Nether Towers generate on your worlds or not.
+		netherTowerGenerates = true
+		#Maximum distance between Nether Towers (in chunks).
+		#Range: 0 ~ 1000000
+		netherTowerSpacing = 15
+		#Minimum distance between Nether Towers (in chunks).
+		#Range: 0 ~ 1000000
+		netherTowerSeparation = 5
+		#Whether Nether Towers should integrate Waystones mod or not.
+		netherTowerWaystones = true
+
