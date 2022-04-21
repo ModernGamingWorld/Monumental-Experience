@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Golden Sword",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:iron_sword"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:golden_sword"
+            }
+        }
+    ]
+}

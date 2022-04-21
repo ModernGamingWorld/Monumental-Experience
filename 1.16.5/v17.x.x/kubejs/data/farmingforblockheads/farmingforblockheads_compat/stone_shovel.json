@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Stone Shovel",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:wooden_shovel"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:stone_shovel"
+            }
+        }
+    ]
+}

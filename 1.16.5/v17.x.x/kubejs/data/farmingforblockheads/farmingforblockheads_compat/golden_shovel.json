@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Golden Shovel",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:iron_shovel"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:golden_shovel"
+            }
+        }
+    ]
+}

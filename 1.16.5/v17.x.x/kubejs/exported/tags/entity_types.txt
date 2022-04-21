@@ -1,0 +1,328 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 5, 2022 3:16:25 PM
+
+#alexsmobs:tiger_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+- alexsmobs:kangaroo
+- alexsmobs:moose
+
+#alexsmobs:mimic_octopus_fears
+- minecraft:drowned
+- minecraft:dolphin
+- alexsmobs:orca
+- alexsmobs:hammerhead_shark
+- alexsmobs:mantis_shrimp
+- alexsmobs:cachalot_whale
+- alexsmobs:frilled_shark
+
+#occultism:humans
+- #forge:villagers
+- minecraft:player
+
+#forge:horses
+- minecraft:horse
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals
+
+#undergarden:rotspawn
+- undergarden:rotling
+- undergarden:rotwalker
+- undergarden:rotbeast
+
+#forge:pigs
+- minecraft:pig
+
+#alexsmobs:fly_annoy_targets
+- #alexsmobs:villagers
+- minecraft:player
+
+#forge:parrots
+- minecraft:parrot
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#alexsmobs:crocodile_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+- alexsmobs:kangaroo
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#forge:llamas
+- minecraft:llama
+- minecraft:trader_llama
+
+#alexsmobs:void_portal_ignores
+- alexsmobs:void_portal
+- minecraft:end_crystal
+- minecraft:ender_dragon
+
+#alexsmobs:passive_land_animals
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cow
+- minecraft:donkey
+- minecraft:fox
+- minecraft:horse
+- minecraft:llama
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:wolf
+- alexsmobs:capuchin_monkey
+- alexsmobs:crow
+- alexsmobs:emu
+- alexsmobs:gazelle
+- alexsmobs:mungus
+- alexsmobs:platypus
+- alexsmobs:roadrunner
+- alexsmobs:seal
+- alexsmobs:shoebill
+- alexsmobs:tasmanian_devil
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#alexsmobs:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- undergarden:blisterbomb
+- undergarden:rotten_blisterberry
+- undergarden:goo_ball
+- undergarden:slingshot_ammo
+- undergarden:minion_projectile
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- nasty:skeleton
+
+#minecolonies:hostile
+- minecraft:slime
+
+#forbidden_arcanus:quantum_catcher_blacklisted
+- minecraft:wither
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#forge:sheep
+- minecraft:sheep
+
+#tradingpost:blacklisted_traders
+
+#forge:zombies
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:drowned
+
+#alexsmobs:snow_leopard_targets
+- minecraft:cow
+- minecraft:chicken
+- minecraft:donkey
+- minecraft:horse
+- minecraft:llama
+- minecraft:mule
+- minecraft:parrot
+- minecraft:pig
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:trader_llama
+- alexsmobs:capuchin_monkey
+- alexsmobs:crow
+
+#forge:squid
+- minecraft:squid
+
+#alexsmobs:orca_targets
+- alexsmobs:moose
+- alexsmobs:seal
+- minecraft:polar_bear
+- minecraft:turtle
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#forge:spiders
+- minecraft:spider
+
+#forge:golems/snow
+- minecraft:snow_golem
+
+#alexsmobs:fly_hurt_targets
+- minecraft:drowned
+- minecraft:husk
+- minecraft:zombie_villager
+- minecraft:zombie
+
+#alexsmobs:sunbird_scorch_targets
+- #minecraft:skeletons
+- minecraft:zombie
+- minecraft:husk
+- minecraft:drowned
+- minecraft:phantom
+
+#alexsmobs:crimson_mosquito_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:neutral_land_animals
+- #alexsmobs:villagers
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+
+#forge:cows
+- minecraft:cow
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- enchantwithmob:enchanter
+- hunterillager:hunterillager
+
+#occultism:afrit_allies
+- minecraft:blaze
+
+#forge:villagers
+- minecraft:villager
+
+#alexsmobs:neutral_land_animals
+- minecraft:polar_bear
+- alexsmobs:bald_eagle
+- alexsmobs:elephant
+- alexsmobs:endergrade
+- alexsmobs:grizzly_bear
+- alexsmobs:gorilla
+- alexsmobs:kangaroo
+- alexsmobs:moose
+- alexsmobs:raccoon
+- alexsmobs:rattlesnake
+- alexsmobs:snow_leopard
+- alexsmobs:tiger
+
+#alexsmobs:mantis_shrimp_targets
+- alexsmobs:mimic_octopus
+- alexsmobs:lobster
+- minecraft:shulker
+- minecraft:squid
+- minecraft:guardian
+- minecraft:elder_guardian
+- minecraft:tropical_fish
+
+#alexsmobs:cachalot_whale_targets
+- alexsmobs:mimic_octopus
+- minecraft:squid
+
+#alexsmobs:warped_toad_targets
+- minecraft:silverfish
+- minecraft:spider
+- minecraft:cave_spider
+- alexsmobs:crimson_mosquito
+- alexsmobs:fly
+- alexsmobs:cockroach
+- alexsmobs:warped_mosco
+- alexsmobs:leafcutter_ant
+- alexsmobs:tarantula_hawk
+
+#minecolonies:mob_attack_blacklist
+- minecraft:enderman
+- minecraft:llama
+
+#syp:llamas
+- minecraft:llama
+- minecraft:trader_llama
+
+#forge:chicken
+- minecraft:chicken
+
+#forge:bats
+- minecraft:bat
+
+#undergarden:cavern_creature
+- undergarden:nargoyle
+- undergarden:scintling
+- undergarden:muncher
+- undergarden:sploogie
+
+#alexsmobs:komodo_dragon_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
+- alexsmobs:kangaroo
+
+#alexsmobs:bald_eagle_targets
+- minecraft:rabbit
+- minecraft:salmon
+- alexsmobs:raccoon

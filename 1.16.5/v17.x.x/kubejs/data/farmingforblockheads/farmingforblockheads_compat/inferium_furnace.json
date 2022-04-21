@@ -1,0 +1,18 @@
+{
+    "modId": "mysticalagriculture",
+    "group": {
+        "name": "Inferium Furnace",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "mysticalagriculture:inferium_block"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "mysticalagriculture:inferium_furnace"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Hoe",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:stone_hoe"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_hoe"
+            }
+        }
+    ]
+}

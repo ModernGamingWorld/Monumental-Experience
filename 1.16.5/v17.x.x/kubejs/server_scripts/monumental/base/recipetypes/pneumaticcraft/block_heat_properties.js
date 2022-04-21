@@ -1,0 +1,46 @@
+onEvent('recipes', (event) => {
+    var data = {
+        recipes: [
+        //Emendatus Enigmatica
+            {
+                block: 'emendatusenigmatica:uranium_block',
+                temperature: 438,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'emendatusenigmatica:lead_block'
+                },
+                heatCapacity: 500000
+            },
+            {
+                block: 'emendatusenigmatica:uranium_block',
+                temperature: 438,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'emendatusenigmatica:lead_block'
+                },
+                heatCapacity: 500000
+            },
+        //Quark
+            {
+                block: 'quark:magma_bricks',
+                temperature: 1300,
+                thermalResistance: 500,
+                transformCold: {
+                    block: 'minecraft:magma_block'
+                },
+                heatCapacity: 10000
+            }
+        ]
+    };
+
+    data.recipes.forEach((recipe) => {
+        event.custom({
+            type: 'pneumaticcraft:heat_properties',
+            block: recipe.block,
+            temperature: recipe.temperature,
+            thermalResistance: recipe.thermalResistance,
+            transformCold: recipe.transformCold,
+            heatCapacity: recipe.heatCapacity
+        });
+    });
+});

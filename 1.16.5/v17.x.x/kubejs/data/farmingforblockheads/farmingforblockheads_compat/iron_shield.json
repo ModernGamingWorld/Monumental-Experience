@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Shield",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:shield"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "bettershields:iron_shield"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Chestplate",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_chestplate"
+            }
+        }
+    ]
+}

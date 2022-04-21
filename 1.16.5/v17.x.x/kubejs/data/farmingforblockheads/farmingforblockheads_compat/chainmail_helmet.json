@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Chainmail Helmet",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "woodenutilities:wooden_helmet"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:chainmail_helmet"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Pickaxe",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_pickaxe"
+            }
+        }
+    ]
+}

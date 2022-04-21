@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Chainmail Boots",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "woodenutilities:wooden_boot"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:chainmail_boots"
+            }
+        }
+    ]
+}

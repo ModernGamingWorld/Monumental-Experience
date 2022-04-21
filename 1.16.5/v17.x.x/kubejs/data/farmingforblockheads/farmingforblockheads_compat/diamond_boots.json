@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Diamond Boots",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:golden_boots"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:diamond_boots"
+            }
+        }
+    ]
+}
