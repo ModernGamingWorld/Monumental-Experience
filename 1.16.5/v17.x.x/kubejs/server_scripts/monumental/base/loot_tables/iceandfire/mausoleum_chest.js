@@ -116,6 +116,18 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
+                    name: "enigmaticlegacy:etherium_axe",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 1
+                },
+                {
+                    type: "item",
                     name: "iceandfire:troll_tusk",
                     functions: [{
                         function: "set_count",

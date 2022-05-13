@@ -18,7 +18,7 @@ onEvent('player.logged_in', event => {
         event.player.give('naturescompass:naturescompass')
         event.player.give('sophisticatedbackpacks:backpack')
         event.player.give('multibeds:bed_kit')
-        event.player.give('prefab:item_start_house')
+        event.player.give('prefab:item_moderate_house')
         event.player.give('4x minecraft:cookie')
         event.player.give('2x lootbagmod:lootbag')
         event.player.give('minecraft:crafting_table')

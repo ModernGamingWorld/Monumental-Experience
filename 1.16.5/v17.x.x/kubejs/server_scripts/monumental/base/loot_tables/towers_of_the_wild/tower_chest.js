@@ -111,6 +111,11 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'minecraft:item',
+                        weight: 1,
+                        name: 'enigmaticlegacy:etherium_chestplate'
+                    },
+                    {
+                        type: 'minecraft:item',
                         weight: 3,
                         functions: [
                             {

@@ -1,12 +1,6 @@
 onEvent('recipes', event => {
 	const data = {
 		recipes: [
-			//Alternacraft
-			{
-				start_item: { item: 'alternacraft:painite' },
-				input: { tag: 'forge:ingots/netherite' },
-				output: { item: 'alternacraft:painite_pickaxe' }
-			},
 			//Atum
 			{
 				start_item: { item: 'minecraft:stone_hoe' },
@@ -2020,22 +2014,6 @@ onEvent('recipes', event => {
 				start_item: { item: 'minecraft:iron_chestplate' },
 				input: { item: 'kubejs:compressed_iron_plate' },
 				output: { item: 'pneumaticcraft:compressed_iron_chestplate' }
-			},
-			//Sophisticated Backpacks
-			{
-				start_item: { item: 'sophisticatedbackpacks:backpack' },
-				input: { tag: 'forge:ingots/iron' },
-				output: { item: 'sophisticatedbackpacks:iron_backpack' }
-			},
-			{
-				start_item: { item: 'sophisticatedbackpacks:iron_backpack' },
-				input: { tag: 'forge:ingots/gold' },
-				output: { item: 'sophisticatedbackpacks:gold_backpack' }
-			},
-			{
-				start_item: { item: 'sophisticatedbackpacks:gold_backpack' },
-				input: { tag: 'forge:gems/diamond' },
-				output: { item: 'sophisticatedbackpacks:diamond_backpack' }
 			},
 			//Wooden Utilities
 			{

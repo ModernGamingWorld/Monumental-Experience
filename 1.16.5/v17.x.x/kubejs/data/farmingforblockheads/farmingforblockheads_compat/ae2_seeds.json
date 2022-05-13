@@ -1,0 +1,15 @@
+{
+    "modId": "ae2",
+    "group": {
+        "name": "Ae2 Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        { "output": { "item": "ae2:fluix_crystal_seed" } },
+        { "output": { "item": "ae2:certus_crystal_seed" } }
+    ]
+}

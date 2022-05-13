@@ -117,6 +117,9 @@ onEvent('recipes', event => {
     })
     //Ae2
     event.remove({
+        id: 'appliedenergistics2:inscriber/calculation_processor_print'
+    })
+    event.remove({
         id: 'appliedenergistics2:inscriber/logic_processor_print'
     })
     event.remove({
@@ -462,9 +465,6 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'astralsorcery:shaped/starmetal'
-    })
-    event.remove({
-        id: 'astralsorcery:shaped/wand'
     })
     event.remove({
         id: 'astralsorcery:block_transmutation/craftingtable_altar'
@@ -1162,6 +1162,9 @@ onEvent('recipes', event => {
     event.remove({
         id: 'cyclic:netherbrick_axe'
     })
+    event.remove({
+        id: 'cyclic:fluid_pipe'
+    })
     //CreateAdition
     event.remove({
         id: 'createaddition:crafting/spool'
@@ -1477,6 +1480,30 @@ onEvent('recipes', event => {
     //Enigmatic Legacy
     event.remove({
         id: 'enigmaticlegacy:etherium_helmet'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_chestplate'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_leggings'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_boots'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_pickaxe'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_shovel'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_axe'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_sword'
+    })
+    event.remove({
+        id: 'enigmaticlegacy:etherium_scythe'
     })
     //Forbidden Arcanus
     event.remove({
@@ -2354,21 +2381,6 @@ onEvent('recipes', event => {
     event.remove({
         id: 'matc:insanium_essence'
     })
-    event.remove({
-        id: 'matc:crystals/inferium'
-    })
-    event.remove({
-        id: 'matc:crystals/prudentium'
-    })
-    event.remove({
-        id: 'matc:crystals/tertium'
-    })
-    event.remove({
-        id: 'matc:crystals/imperium'
-    })
-    event.remove({
-        id: 'matc:crystals/supremium'
-    })
     //Mystical essence
     event.remove({
         id: 'mysticalagriculture:essence/appliedenergistics2/logic_press'
@@ -2527,7 +2539,7 @@ onEvent('recipes', event => {
     })
     //Mystical Agriculture Gemstone
     event.remove({
-        id: 'mysticalagradditions:inferium_gemstone'
+        id: 'mysticalagriculture:inferium_gemstone'
     })
     event.remove({
         id: 'mysticalagriculture:imperium_gemstone'
@@ -2580,7 +2592,7 @@ onEvent('recipes', event => {
         id: 'mekanism:energy_cube/basic'
     })
     event.remove({
-        id: 'mekanism:energy_cube/advance'
+        id: 'mekanism:energy_cube/advanced'
     })
     event.remove({
         id: 'mekanism:energy_cube/elite'
@@ -3144,6 +3156,9 @@ onEvent('recipes', event => {
         id: 'naturescompass:natures_compass'
     })
     //Natures Aura
+    event.remove({
+        id: 'naturesaura:altar/tainted_gold_block'
+    })
     event.remove({
         id: 'naturesaura:infused_iron_block'
     })
@@ -3776,17 +3791,7 @@ onEvent('recipes', event => {
     })
     //Storage Drawers
     event.remove({
-        id: 'storagedrawers:iron_backpack'
-    })
-    //Sophisticated Backpacks
-    event.remove({
-        id: 'sophisticatedbackpacks:iron_backpack'
-    })
-    event.remove({
-        id: 'sophisticatedbackpacks:gold_backpack'
-    })
-    event.remove({
-        id: 'sophisticatedbackpacks:diamond_backpack'
+        id: 'storagedrawers:drawer_key'
     })
     //Speedy recipes
     event.remove({
@@ -4162,6 +4167,12 @@ onEvent('recipes', event => {
     })
     event.remove({
         id: 'thermal:fluid_cell_frame'
+    })
+    event.remove({
+        id: 'thermal:energy_cell'
+    })
+    event.remove({
+        id: 'thermal:fluid_cell'
     })
     event.remove({
         id: 'thermal:press_gear_die'

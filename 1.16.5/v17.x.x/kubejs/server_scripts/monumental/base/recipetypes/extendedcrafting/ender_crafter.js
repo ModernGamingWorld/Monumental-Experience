@@ -434,28 +434,6 @@ onEvent('recipes', (event) => {
                 "tag": "forge:ingots/compressed_iron"
             },
             "B": {
-                "item": "appliedenergistics2:64k_fluid_cell_component"
-            },
-            "D": {
-                "item": "extendedcrafting:redstone_component"
-            }
-        },
-        "result": {
-            "item": "appliedenergistics2:64k_fluid_storage_cell",
-            "count": 1
-        }
-    });
-    event.recipes.extendedcrafting.shaped_ender_crafter({
-        "type": "extendedcrafting:shaped_ender_crafter",
-        "pattern": ["XDX", "DBD", "AAA"],
-        "key": {
-            "X": {
-                "item": "appliedenergistics2:quartz_glass"
-            },
-            "A": {
-                "tag": "forge:ingots/compressed_iron"
-            },
-            "B": {
                 "tag": "forge:gems/certus_quartz"
             },
             "D": {

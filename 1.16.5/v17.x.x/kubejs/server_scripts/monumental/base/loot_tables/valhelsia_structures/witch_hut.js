@@ -119,6 +119,18 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 1
+                            }
+                        }],
+                        name: "enigmaticlegacy:etherium_pickaxe"
+                    },
+                    {
+                        type: "minecraft:item",
                         weight: 15,
                         functions: [{
                             function: "minecraft:set_count",

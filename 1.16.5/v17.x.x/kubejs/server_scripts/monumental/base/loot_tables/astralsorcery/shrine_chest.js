@@ -27,6 +27,19 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
+                        weight: 1,
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 1,
+                                type: "minecraft:uniform"
+                            }
+                        }],
+                        name: "enigmaticlegacy:etherium_scythe"
+                    },
+                    {
+                        type: "minecraft:item",
                         weight: 10,
                         functions: [{
                             function: "minecraft:set_count",

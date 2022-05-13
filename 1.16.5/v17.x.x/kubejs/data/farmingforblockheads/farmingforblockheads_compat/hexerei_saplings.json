@@ -1,0 +1,20 @@
+{
+    "modId": "hexerei",
+    "group": {
+      "name": "Hexerei Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "hexerei:mahogany_sapling"
+      },
+      {
+        "output": "hexerei:willow_sapling"
+      }
+    ]
+  }
+  

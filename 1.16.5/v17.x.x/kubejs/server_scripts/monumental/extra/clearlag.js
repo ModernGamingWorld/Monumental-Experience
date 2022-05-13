@@ -19,9 +19,27 @@ var whitelist = ingredient.matchAny([
     'create:chromatic_compound',
     'extendedcrafting:elite_table',
     'extendedcrafting:ultimate_table',
+    'enigmaticlegacy:etherium_helmet',
+    'enigmaticlegacy:etherium_chestplate',
+    'enigmaticlegacy:etherium_leggings',
+    'enigmaticlegacy:etherium_boots',
+    'enigmaticlegacy:etherium_pickaxe',
+    'enigmaticlegacy:etherium_shovel',
+    'enigmaticlegacy:etherium_axe',
+    'enigmaticlegacy:etherium_sword',
+    'enigmaticlegacy:etherium_scythe',
+    'enigmaticlegacy:astral_breaker',
+    'mysticalagriculture:supremium_furnace',
+    'mysticalagriculture:supremium_farmland',
+    'mysticalagriculture:supremium_reprocessor',
+    'mysticalagriculture:supremium_watering_can',
+    'mysticalagriculture:imperium_furnace',
+    'mysticalagriculture:imperium_farmland',
+    'mysticalagriculture:imperium_reprocessor',
+    'mysticalagriculture:imperium_watering_can',
     'matc:supremium_crystal',
     'matc:imperium_crystal',
-    'minecraft:diamond',
+    'minecraft:diamond'
 ])
 
 // Create variable for last clearlag result

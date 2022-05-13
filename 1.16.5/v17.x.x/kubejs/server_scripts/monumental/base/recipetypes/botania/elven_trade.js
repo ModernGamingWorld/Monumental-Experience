@@ -1428,19 +1428,6 @@ onEvent('recipes', event => {
 			inputs: [{ item: 'minecraft:iron_chestplate' }, { item: 'kubejs:compressed_iron_plate' }],
 			output: { item: 'pneumaticcraft:compressed_iron_chestplate' }
 		},
-		//Sophisticated Backpacks
-		{
-			inputs: [{ item: 'sophisticatedbackpacks:backpack' }, { tag: 'forge:ingots/iron' }],
-			output: { item: 'sophisticatedbackpacks:iron_backpack' }
-		},
-		{
-			inputs: [{ item: 'sophisticatedbackpacks:iron_backpack' }, { tag: 'forge:ingots/gold' }],
-			output: { item: 'sophisticatedbackpacks:gold_backpack' }
-		},
-		{
-			inputs: [{ item: 'sophisticatedbackpacks:gold_backpack' }, { tag: 'forge:gems/diamond' }],
-			output: { item: 'sophisticatedbackpacks:diamond_backpack' }
-		},
 		//Wooden Utilities
 		{
 			inputs: [{ item: 'minecraft:leather_horse_armor' }, { tag: 'forge:plates/wooden' }],

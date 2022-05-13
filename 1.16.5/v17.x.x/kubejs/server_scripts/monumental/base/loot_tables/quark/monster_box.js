@@ -290,6 +290,11 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
+                    name: "enigmaticlegacy:etherium_leggings",
+                    weight: 1
+                },
+                {
+                    type: "item",
                     name: "inventorypets:solstice_sword",
                     weight: 1
                 },

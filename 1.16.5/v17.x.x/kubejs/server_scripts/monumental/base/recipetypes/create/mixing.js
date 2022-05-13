@@ -1,4 +1,4 @@
-events.listen('recipes', (event) => {
+onEvent('recipes', (event) => {
     var data = {
         recipes_unheated: [{
                 inputs: [
@@ -382,21 +382,11 @@ events.listen('recipes', (event) => {
             //Mystical Essence
             {
                 inputs: [
-                    'mysticalagriculture:prosperity_shard',
-                    'mysticalagriculture:prosperity_shard',
-                    'mysticalagriculture:prosperity_shard',
-                    'mysticalagriculture:prosperity_shard',
-                    '#mysticalagriculture:infusion_crystals',
-                ],
-                output: Item.of('mysticalagriculture:inferium_essence', 2)
-            },
-            {
-                inputs: [
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
                     'mysticalagriculture:inferium_essence',
-                    '#mysticalagriculture:infusion_crystals'
+                    'matc:inferium_crystal'
                 ],
                 output: Item.of('mysticalagriculture:prudentium_essence', 2)
             },
@@ -406,40 +396,9 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
                     'mysticalagriculture:prudentium_essence',
-                    '#mysticalagriculture:infusion_crystals',
+                    'matc:prudentium_crystal',
                 ],
                 output: Item.of('mysticalagriculture:tertium_essence', 2)
-            },
-            //Mystical Crystals
-            {
-                inputs: [
-                    'mysticalagriculture:inferium_essence',
-                    'mysticalagriculture:inferium_essence',
-                    'mysticalagriculture:inferium_essence',
-                    'mysticalagriculture:inferium_essence',
-                    'mysticalagriculture:prosperity_shard'
-                ],
-                output: Item.of('matc:inferium_crystal', 1)
-            },
-            {
-                inputs: [
-                    'mysticalagriculture:prudentium_essence',
-                    'mysticalagriculture:prudentium_essence',
-                    'mysticalagriculture:prudentium_essence',
-                    'mysticalagriculture:prudentium_essence',
-                    'matc:inferium_crystal'
-                ],
-                output: Item.of('matc:prudentium_crystal', 1)
-            },
-            {
-                inputs: [
-                    'mysticalagriculture:tertium_essence',
-                    'mysticalagriculture:tertium_essence',
-                    'mysticalagriculture:tertium_essence',
-                    'mysticalagriculture:tertium_essence',
-                    'matc:prudentium_crystal'
-                ],
-                output: Item.of('matc:tertium_crystal', 1)
             },
         //Minecraft
             {
@@ -784,27 +743,6 @@ events.listen('recipes', (event) => {
                     'mysticalagriculture:supremium_farmland'
                 ],
                 output: Item.of('mysticalagradditions:insanium_farmland', 2)
-            },
-            //Mystical Crystals
-            {
-                inputs: [
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'matc:tertium_crystal'
-                ],
-                output: Item.of('matc:imperium_crystal', 1)
-            },
-            {
-                inputs: [
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'mysticalagriculture:supremium_essence',
-                    'matc:imperium_crystal'
-                ],
-                output: Item.of('matc:supremium_crystal', 1)
             },
             //Mystical Essence
             {

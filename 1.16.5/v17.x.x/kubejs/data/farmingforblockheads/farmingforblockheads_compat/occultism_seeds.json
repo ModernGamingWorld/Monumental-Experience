@@ -1,7 +1,7 @@
 {
     "modId": "occultism",
     "group": {
-        "name": "Occultism Saplings",
+        "name": "Occultism Seeds",
         "enabledByDefault": true,
         "defaultPayment": {
             "item": "occultism:spirit_attuned_gem"
@@ -11,7 +11,7 @@
     "customEntries": [
         {
             "output": {
-                "item": "occultism:otherworld_sapling_natural"
+                "item": "occultism:datura_seeds"
             }
         }
     ]

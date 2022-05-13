@@ -104,6 +104,18 @@ onEvent('server.datapack.high_priority', (event) => {
                 },
                 {
                     type: "item",
+                    name: "enigmaticlegacy:etherium_boots",
+                    functions: [{
+                        function: "set_count",
+                        count: {
+                            min: 1,
+                            max: 1
+                        }
+                    }],
+                    weight: 5
+                },
+                {
+                    type: "item",
                     name: "minecraft:apple",
                     functions: [{
                         function: "set_count",

@@ -30,6 +30,17 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
+                        name: "enigmaticlegacy:etherium_sword",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
                         name: "minecraft:paper",
                         functions: [{
                             function: "minecraft:set_count",

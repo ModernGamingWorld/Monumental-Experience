@@ -12,6 +12,9 @@ onEvent('recipes', (event) => {
             },
             "middle": {
                 "tag": "forge:plates/enderium"
+            },
+            "bottom": {
+                "item": "appliedenergistics2:printed_silicon"
             }
         }
     });
@@ -27,6 +30,27 @@ onEvent('recipes', (event) => {
             },
             "middle": {
                 "tag": "forge:plates/electrum"
+            },
+            "bottom": {
+                "item": "appliedenergistics2:printed_silicon"
+            }
+        }
+    });
+    event.recipes.appliedenergistics2.inscriber({
+        "type": "appliedenergistics2:inscriber",
+        "mode": "press",
+        "result": {
+            "item": "appliedenergistics2:printed_calculation_processor"
+        },
+        "ingredients": {
+            "top": {
+                "item": "appliedenergistics2:calculation_processor_press"
+            },
+            "middle": {
+                "tag": "appliedenergistics2:crystals/certus"
+            },
+            "bottom": {
+                "item": "appliedenergistics2:printed_silicon"
             }
         }
     });

@@ -50,6 +50,9 @@ const itemsToHide = [
     'astralsorcery:aquamarine_sand_ore',
     'astralsorcery:rock_crystal_ore',
 
+    //Cyclic
+    'cyclic:fluid_pipe',
+
     //Citadel
     'citadel:debug',
 
@@ -151,7 +154,6 @@ const itemsToHide = [
     Item.of('splash_potion').ignoreNBT(),
     Item.of('lingering_potion').ignoreNBT(),
     Item.of('tipped_arrow').ignoreNBT(),
-    Item.of('enchanted_book').ignoreNBT(),
 
     //Occultism
     'occultism:silver_ore_deepslate',

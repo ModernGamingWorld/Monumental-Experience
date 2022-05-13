@@ -197,6 +197,18 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: "minecraft:item",
+                        weight: 1,
+                        name: "enigmaticlegacy:etherium_shovel",
+                        functions: [{
+                            function: "minecraft:set_count",
+                            count: {
+                                min: 1,
+                                max: 1
+                            }
+                        }]
+                    },
+                    {
+                        type: "minecraft:item",
                         weight: 100,
                         name: "mysticalagriculture:coal_essence",
                         functions: [{
