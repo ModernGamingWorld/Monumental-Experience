@@ -341,6 +341,8 @@ onEvent('recipes', event => {
     })
 
     // Materials with non-standard tags that won't work with the above code
+    // Mana
+    event.replaceInput('ars_nouveau:mana_gem_block', '#forge:storage_blocks/arcane')
     // Fluix
     event.replaceOutput('appliedenergistics2:fluix_block', '#forge:storage_blocks/fluix')
     event.replaceInput('appliedenergistics2:fluix_block', '#forge:storage_blocks/fluix')
