@@ -1,4 +1,11 @@
 onEvent('recipes', event => {
+    //ars nouveau
+    event.remove({
+        id: 'ars_nouveau:mana_gem_block'
+    })
+    event.remove({
+        id: 'ars_nouveau:mana_gem_2'
+    })
     //Akashic Tome
     event.remove({
         id: 'akashictome:tome'
@@ -116,6 +123,9 @@ onEvent('recipes', event => {
         id: 'aquaculture:neptunium_bow'
     })
     //Ae2
+    event.remove({
+        id: 'appliedenergistics2:misc/meteors_sky_compass'
+    })
     event.remove({
         id: 'appliedenergistics2:inscriber/calculation_processor_print'
     })
