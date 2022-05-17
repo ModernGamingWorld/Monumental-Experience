@@ -19,10 +19,7 @@ onEvent('recipes', (event) => {
         },
     ];
     event.replaceInput({}, 'astralsorcery:starmetal_ore', '#forge:ores/starmetal');
-    event.replaceInput({}, 'ars_nouveau:mana_gem', '#forge:gems/mana');
     event.replaceInput({}, 'upgrade_aquatic:beachgrass', '#forge:beach_grass');
-    event.replaceInput({}, 'pneumaticcraft:wheat_flour', '#forge:dusts/flour');
-    event.replaceInput({}, 'create:wheat_flour', '#forge:dusts/flour');
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:bricks/nether');
     event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:stone', '#forge:stone', true);
     event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:netherrack', '#forge:netherrack');
