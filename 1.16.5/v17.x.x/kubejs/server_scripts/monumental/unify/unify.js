@@ -395,8 +395,26 @@ onEvent('recipes', event => {
             ['#forge:ingots/gold', 'emendatusenigmatica:gold_rod'],
             ['#forge:ingots/iron', 'emendatusenigmatica:iron_rod'],
             ['#forge:ingots/steel', 'emendatusenigmatica:steel_rod'],
+            ['#forge:ingots/silver', 'emendatusenigmatica:silver_rod'],
+            ['#forge:ingots/aluminum', 'emendatusenigmatica:aluminum_rod'],
+            ['#forge:ingots/lead', 'emendatusenigmatica:lead_rod'],
+            ['#forge:ingots/nickel', 'emendatusenigmatica:nickel_rod'],
+            ['#forge:ingots/uranium', 'emendatusenigmatica:uranium_rod'],
+            ['#forge:ingots/osmium', 'emendatusenigmatica:osmium_rod'],
+            ['#forge:ingots/tin', 'emendatusenigmatica:tin_rod'],
+            ['#forge:ingots/zinc', 'emendatusenigmatica:zinc_rod'],
+            ['#forge:ingots/cobalt', 'emendatusenigmatica:cobalt_rod'],
+            ['#forge:ingots/iridium', 'emendatusenigmatica:iridium_rod'],
+            ['#forge:ingots/bronze', 'emendatusenigmatica:bronze_rod'],
+            ['#forge:ingots/constantan', 'emendatusenigmatica:constantan_rod'],
+            ['#forge:ingots/electrum', 'emendatusenigmatica:electrum_rod'],
+            ['#forge:ingots/enderium', 'emendatusenigmatica:enderium_rod'],
+            ['#forge:ingots/cast_iron', 'emendatusenigmatica:cast_iron_rod'],
             ['#forge:plates/copper', 'immersiveengineering:wire_copper'],
-            ['#forge:ingots/aluminum', 'emendatusenigmatica:aluminum_rod']
+            ['#forge:plates/lead', 'immersiveengineering:wire_lead'],
+            ['#forge:gems/diamond', 'emendatusenigmatica:diamond_rod'],
+            ['#forge:gems/emerald', 'emendatusenigmatica:emerald_rod'],
+            ['#forge:gems/lapis', 'emendatusenigmatica:lapis_rod']
         ]
         
         additionscustoms.forEach(element => {
