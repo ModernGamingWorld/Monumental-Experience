@@ -391,6 +391,9 @@ onEvent('recipes', event => {
 
         let additionscustoms = [
             ['#forge:ingots/copper', 'emendatusenigmatica:copper_rod'],
+            ['#forge:ingots/signalum', 'emendatusenigmatica:signalum_rod'],
+            ['#forge:ingots/invar', 'emendatusenigmatica:invar_rod'],
+            ['#forge:ingots/lumium', 'emendatusenigmatica:lumium_rod'],
             ['#forge:ingots/brass', 'emendatusenigmatica:brass_rod'],
             ['#forge:ingots/gold', 'emendatusenigmatica:gold_rod'],
             ['#forge:ingots/iron', 'emendatusenigmatica:iron_rod'],
