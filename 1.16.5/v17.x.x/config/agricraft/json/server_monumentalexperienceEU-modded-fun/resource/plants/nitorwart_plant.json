@@ -1,0 +1,138 @@
+{
+  "path": "resource/plants/nitorwart_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "resource:nitorwart_plant",
+  "plant_lang_key": "agricraft.plant.nitorwart.name",
+  "seed_lang_key": "agricraft.plant.nitorwart.seed",
+  "desc_lang_key": "agricraft.plant.nitorwart.desc",
+  "seed_items": [],
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "harvestStage": 3,
+  "growth_chance": 0.6,
+  "growth_bonus": 0.025,
+  "tier": 1,
+  "cloneable": false,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 4,
+        "chance": 0.9,
+        "required": true,
+        "type": "item",
+        "object": "minecraft:glowstone_dust",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "arid",
+      "type": "equal",
+      "tolerance_factor": 0.15
+    },
+    "soil_acidity": {
+      "condition": "neutral",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "very_high",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 0,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "conditions": [
+      {
+        "strength": 11,
+        "amount": 1,
+        "min_x": 0,
+        "min_y": -2,
+        "min_z": 0,
+        "max_x": 0,
+        "max_y": -2,
+        "max_z": 0,
+        "type": "block",
+        "object": "minecraft:glowstone",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [
+    "agricraft:brightness"
+  ],
+  "texture": {
+    "render_type": "hash",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/nitor_wart1"
+      ],
+      [
+        "agricraft:plant/nitor_wart1"
+      ],
+      [
+        "agricraft:plant/nitor_wart1"
+      ],
+      [
+        "agricraft:plant/nitor_wart2"
+      ],
+      [
+        "agricraft:plant/nitor_wart2"
+      ],
+      [
+        "agricraft:plant/nitor_wart3"
+      ],
+      [
+        "agricraft:plant/nitor_wart3"
+      ],
+      [
+        "agricraft:plant/nitor_wart4"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/nitor_wart",
+  "seed_model": "agricraft:seed/nitor_wart",
+  "particle_effects": []
+}

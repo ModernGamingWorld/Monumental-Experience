@@ -1,0 +1,121 @@
+{
+  "path": "mod_upgrade_aquatic/plants/tongue_kelp_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "upgrade_aquatic",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "upgrade_aquatic:tongue_kelp_plant",
+  "plant_lang_key": "block.upgrade_aquatic.tongue_kelp",
+  "seed_lang_key": "agricraft.plant.upgrade_aquatic_tongue_kelp.seed",
+  "desc_lang_key": "agricraft.plant.upgrade_aquatic_tongue_kelp.desc",
+  "seed_items": [],
+  "stages": [
+    6,
+    6,
+    12,
+    12,
+    12,
+    18,
+    18,
+    24
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.65,
+  "growth_bonus": 0.025,
+  "tier": 2,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.75,
+        "required": true,
+        "type": "item",
+        "object": "upgrade_aquatic:tongue_kelp",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "watery",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.4
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 5,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:water",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "plus",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ],
+      [
+        "upgrade_aquatic:block/tongue_kelp"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/upgrade_aquatic/tongue_kelp",
+  "seed_model": "agricraft:seed/upgrade_aquatic/tongue_kelp",
+  "particle_effects": []
+}

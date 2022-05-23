@@ -1,0 +1,15 @@
+{
+  "path": "mod_upgrade_aquatic/mutations/white_searocket_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "upgrade_aquatic",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "upgrade_aquatic:white_searocket_plant",
+  "parent1": "vanilla:bluet_plant",
+  "parent2": "vanilla:white_tulip_plant"
+}

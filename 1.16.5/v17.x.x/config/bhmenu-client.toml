@@ -1,14 +1,14 @@
 #The title to display at the top of the entry.
-title = "Need a server?"
+title = "Need a server? - Click here"
 #The description to display below the title.
-description = "Click me to get your own server!"
+description = "Use CODE: BedrockLegends for 25% OFF!"
 #Your partner ID to use in during the ordering process.
 #Without this you will not be credited for the purchases.
 #(Your partner id is not the same as your referral link, please check your client area to find your partner id at https://www.bisecthosting.com/partners/console.php).
-partnerId = ""
+partnerId = "2435"
 #The id of this modpack.
 #(This is BH internal pack id; Find the id here: https://www.bisecthosting.com/partners/console.php)
-pack_id = ""
+pack_id = "16940"
 #Set this to true to use specific language translation keys.
 #This requires a custom mod that adds resource files, such as OpenLoader.
 #Use 'server_entry.title' key for the Title;

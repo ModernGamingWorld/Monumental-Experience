@@ -19,86 +19,17 @@
 				type: "item"
 				item: "minecraft:smithing_table"
 			}]
-			rewards: [
-				{
-					id: "4616A5806AA4743F"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "4C4923F90231ECDB"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: 5.25d
-			shape: "circle"
-			dependencies: ["5D4D943E505E44D6"]
-			size: 1.5d
-			id: "6E048A0EC1F52106"
-			tasks: [{
-				id: "50D51C29DC13AEC6"
+			rewards: [{
+				id: "4616A5806AA4743F"
 				type: "item"
-				item: {
-					id: "minecraft:wooden_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "lootbagmod:lootbag"
 			}]
-			rewards: [
-				{
-					id: "4C94931EA69BCC1A"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "4FA1C0DE2DFD5A9C"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 5.25d
-			shape: "circle"
-			dependencies: ["5D4D943E505E44D6"]
-			size: 1.5d
-			id: "43AD8F0A87929A6F"
-			tasks: [{
-				id: "45262460F9A806C4"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "4FE78C65F7706FDB"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "37246033C3FAC103"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
 		}
 		{
 			x: 0.0d
 			y: 6.75d
 			shape: "circle"
-			dependencies: ["43AD8F0A87929A6F"]
+			dependencies: ["5D4D943E505E44D6"]
 			size: 1.5d
 			id: "0C00DC2733FB8026"
 			tasks: [{
@@ -112,24 +43,17 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "7D51919172DDADBA"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "753B71B39B7A8ADF"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "7D51919172DDADBA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 6.75d
 			shape: "circle"
-			dependencies: ["6E048A0EC1F52106"]
+			dependencies: ["5D4D943E505E44D6"]
 			size: 1.5d
 			id: "1CBBF990E3D046C7"
 			tasks: [{
@@ -143,18 +67,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "59A80281077A2896"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "5FA1DA0258583336"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "59A80281077A2896"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -1.5d
@@ -174,18 +91,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "5111347AAC92542C"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "6C1348AA4A392962"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "5111347AAC92542C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -1.5d
@@ -205,18 +115,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "60ED632E8CA39BB4"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "09A02F4F273B770A"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "60ED632E8CA39BB4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d
@@ -236,18 +139,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "09089BDBA3B0A991"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "2C6FC063C0E32C5C"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "09089BDBA3B0A991"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d
@@ -267,55 +163,17 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "6509484DD2A8FD90"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "6EE89514E25277DF"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 5.25d
-			shape: "circle"
-			dependencies: ["5D4D943E505E44D6"]
-			size: 1.5d
-			id: "51171FB8B7BC2799"
-			tasks: [{
-				id: "16041D542CC77A8A"
+			rewards: [{
+				id: "6509484DD2A8FD90"
 				type: "item"
-				item: {
-					id: "minecraft:wooden_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "lootbagmod:lootbag"
 			}]
-			rewards: [
-				{
-					id: "710D3762EF69DF32"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "60D0AF115DE71895"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
 		}
 		{
 			x: 1.5d
 			y: 6.75d
 			shape: "circle"
-			dependencies: ["51171FB8B7BC2799"]
+			dependencies: ["5D4D943E505E44D6"]
 			size: 1.5d
 			id: "408B73F9437F7650"
 			tasks: [{
@@ -329,18 +187,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "44E398E4B56A12AE"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "0D3999A81E6A59FB"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "44E398E4B56A12AE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 1.5d
@@ -360,18 +211,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "1EDD3D089110B603"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "08F6DE208D034A47"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "1EDD3D089110B603"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 1.5d
@@ -391,18 +235,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "09D95C6F5C1DAFE4"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "29BA49BFD5AE4B0D"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "09D95C6F5C1DAFE4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 1.5d
@@ -422,18 +259,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "6AD7950B44C0647D"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "7B1E7FB870710088"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "6AD7950B44C0647D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d
@@ -453,18 +283,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "5C46804C9BC4C594"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "34879D497BEDBAF9"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "5C46804C9BC4C594"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -1.5d
@@ -484,18 +307,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "74A0AB84ECFFD94D"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "4F1C39F9C8AFFB96"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "74A0AB84ECFFD94D"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 	]
 }

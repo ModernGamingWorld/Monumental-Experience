@@ -43,7 +43,7 @@
     B:SuppressUnneccessaryOxygenRender=true
 
     # Whether or not Enigmatic Legacy should show notification in chat when new mod update is available. [default: true]
-    B:UpdateHandlerEnabled=true
+    B:UpdateHandlerEnabled=false
 }
 
 

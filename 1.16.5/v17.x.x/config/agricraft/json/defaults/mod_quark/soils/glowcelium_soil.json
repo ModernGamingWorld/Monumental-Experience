@@ -1,0 +1,28 @@
+{
+  "path": "mod_quark/soils/glowcelium_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "quark",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "glowcelium_soil",
+  "lang_key": "block.quark.glowcelium",
+  "varients": [
+    {
+      "type": "block",
+      "object": "quark:glowcelium",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "dry",
+  "acidity": "slightly_acidic",
+  "nutrients": "low",
+  "growth_modifier": 0.8
+}

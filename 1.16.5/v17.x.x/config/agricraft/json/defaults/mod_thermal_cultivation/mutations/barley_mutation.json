@@ -1,0 +1,15 @@
+{
+  "path": "mod_thermal_cultivation/mutations/barley_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "thermal_cultivation",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "thermal:barley_plant",
+  "parent1": "vanilla:wheat_plant",
+  "parent2": "thermal:rice_plant"
+}

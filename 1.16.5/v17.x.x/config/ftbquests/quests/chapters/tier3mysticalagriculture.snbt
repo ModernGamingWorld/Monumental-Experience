@@ -855,18 +855,11 @@
 				item: "mysticalagriculture:iron_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000164F"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "281A7EAFD3763693"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "281A7EAFD3763693"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 0.0d
@@ -885,18 +878,11 @@
 				item: "mysticalagriculture:nether_quartz_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000001661"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "22890581743077B2"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "22890581743077B2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -1.5d
@@ -915,18 +901,11 @@
 				item: "mysticalagriculture:glowstone_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000001660"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "4ED318E8AB174918"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "4ED318E8AB174918"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -3.0d
@@ -944,18 +923,11 @@
 				item: "mysticalagriculture:redstone_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000165F"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "15ED519C56C1377A"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "15ED519C56C1377A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -4.5d
@@ -974,18 +946,11 @@
 				item: "mysticalagriculture:obsidian_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000165E"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "10C107A8327835C6"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "10C107A8327835C6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -6.0d
@@ -1003,18 +968,11 @@
 				item: "mysticalagriculture:prismarine_essence"
 				count: 3L
 			}]
-			rewards: [
-				{
-					id: "000000000000165D"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "72DE49CC70652E77"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "72DE49CC70652E77"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1144,18 +1102,11 @@
 				item: "mysticalagriculture:aluminum_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000165C"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "53C0BA4DA898084C"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "53C0BA4DA898084C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1277,18 +1228,11 @@
 				item: "mysticalagriculture:witch_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001667"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "0B04BE08CB8C63D3"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "0B04BE08CB8C63D3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -9.0d
@@ -1307,18 +1251,11 @@
 				item: "mysticalagriculture:copper_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000165A"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "739A4BA502697CCC"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "739A4BA502697CCC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -7.5d
@@ -1337,18 +1274,11 @@
 				item: "mysticalagriculture:tin_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "000000000000165B"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "42EEADDC408BAAAA"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "42EEADDC408BAAAA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -10.5d
@@ -1367,18 +1297,11 @@
 				item: "mysticalagriculture:osmium_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000001659"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "7DF0DAFC69EDB278"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "7DF0DAFC69EDB278"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -12.0d
@@ -1397,18 +1320,11 @@
 				item: "mysticalagriculture:lead_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000001658"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "78CD4EB9262A567C"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "78CD4EB9262A567C"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -13.5d
@@ -1427,18 +1343,11 @@
 				item: "mysticalagriculture:silver_essence"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "0000000000001657"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "0FC1304A0536EEF1"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "0FC1304A0536EEF1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1683,18 +1592,11 @@
 				item: "mysticalagriculture:bronze_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001656"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "467C52E6C9453FBC"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "467C52E6C9453FBC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: 1.5d
@@ -1709,18 +1611,11 @@
 				item: "mysticalagriculture:zinc_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001655"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "564ECD7743AC25E4"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "564ECD7743AC25E4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -15.0d
@@ -1735,18 +1630,11 @@
 				item: "mysticalagriculture:manasteel_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001654"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "7AC77EE9EF1A9885"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "7AC77EE9EF1A9885"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -18.0d
@@ -1761,18 +1649,11 @@
 				item: "mysticalagriculture:ender_biotite_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001653"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "055DBCBDEB2FE9F1"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "055DBCBDEB2FE9F1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -16.5d
@@ -1787,18 +1668,11 @@
 				item: "mysticalagriculture:sky_stone_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001652"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "72AC06D91E42010A"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "72AC06D91E42010A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -24.0d
@@ -1813,18 +1687,11 @@
 				item: "mysticalagriculture:certus_quartz_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001651"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "1D994BBA4245FAA3"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "1D994BBA4245FAA3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -21.0d
@@ -1839,18 +1706,11 @@
 				item: "mysticalagriculture:quartz_enriched_iron_essence"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "0000000000001650"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-				{
-					id: "239F5F0443F46775"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			rewards: [{
+				id: "239F5F0443F46775"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -4.5d

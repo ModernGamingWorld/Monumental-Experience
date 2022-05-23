@@ -46,13 +46,13 @@
 	#Range: 0.0 ~ 1.0
 	AddInaccuracy = 0.7
 	#Explosive Arrow cause Armor to drop
-	ExplosiveArrowOnArmor = true
+	ExplosiveArrowOnArmor = false
 	#Explosive Arrow cause Block to drop
 	ExplosiveArrowOnBlock = true
 	#Explosive Arrow cause Shield to drop
-	ExplosiveArrowOnShield = false
+	ExplosiveArrowOnShield = true
 	#Use blindness instead of nausea for the yellow skeleton
-	UseBlindness = false
+	UseBlindness = true
 	#Explosive Arrow strength
 	#Range: 1.0 ~ 1500.0
 	ExplosiveArrowStrength = 8.0

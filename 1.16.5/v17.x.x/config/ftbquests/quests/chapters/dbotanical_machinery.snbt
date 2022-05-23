@@ -4,6 +4,15 @@
 	order_index: 4
 	filename: "dbotanical_machinery"
 	title: "&dBotanical Machinery"
+	icon: {
+		id: "botanicalmachinery:mana_battery"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

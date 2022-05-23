@@ -1,7 +1,7 @@
 {
 	id: "0000000000000D24"
 	group: "69B9F7247002FE35"
-	order_index: 13
+	order_index: 12
 	filename: "xnet"
 	title: "&2Xnet"
 	icon: "xnet:connector_upgrade"
@@ -87,18 +87,11 @@
 				item: "xnet:router"
 				count: 2L
 			}]
-			rewards: [
-				{
-					id: "0000000000001042"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "0000000000001043"
-					type: "item"
-					item: "chancecubes:chance_cube"
-				}
-			]
+			rewards: [{
+				id: "0000000000001042"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
 		}
 		{
 			x: -12.0d

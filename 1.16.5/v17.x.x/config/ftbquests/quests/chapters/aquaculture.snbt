@@ -284,9 +284,9 @@
 				item: "aquaculture:bobber"
 			}]
 			rewards: [{
-				id: "07CE12E421DDB46B"
+				id: "2DB0862D55201830"
 				type: "item"
-				item: "chancecubes:chance_cube"
+				item: "lootbagmod:lootbag"
 			}]
 		}
 		{
@@ -307,7 +307,7 @@
 				}
 			}]
 			rewards: [{
-				id: "2DB0862D55201830"
+				id: "596F23D7255F2EB8"
 				type: "item"
 				item: "lootbagmod:lootbag"
 			}]

@@ -1,0 +1,14 @@
+{
+  "path": "vanilla/mutations/brown_mushroom_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "vanilla:brown_mushroom_plant",
+  "parent1": "vanilla:potato_plant",
+  "parent2": "vanilla:carrot_plant"
+}

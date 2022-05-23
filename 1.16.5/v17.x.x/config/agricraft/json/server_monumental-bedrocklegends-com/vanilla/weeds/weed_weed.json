@@ -1,0 +1,93 @@
+{
+  "path": "vanilla/weeds/weed_weed.json",
+  "version": "1.16.4",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "agricraft:weed_weed",
+  "weed_lang_key": "agricraft.weed.weed.name",
+  "desc_lang_key": "agricraft.weed.weed.desc",
+  "stages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "spawn_chance": 0.25,
+  "growth_chance": 0.9,
+  "aggressive": true,
+  "lethal": true,
+  "rake_drops": {
+    "products": []
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "damp",
+      "type": "equal",
+      "tolerance_factor": 0.15
+    },
+    "soil_acidity": {
+      "condition": "neutral",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "medium",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1
+    },
+    "min_light": 10,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "texture": {
+    "render_type": "rhombus",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:block/weed_stage_0"
+      ],
+      [
+        "agricraft:block/weed_stage_0"
+      ],
+      [
+        "agricraft:block/weed_stage_1"
+      ],
+      [
+        "agricraft:block/weed_stage_1"
+      ],
+      [
+        "agricraft:block/weed_stage_2"
+      ],
+      [
+        "agricraft:block/weed_stage_2"
+      ],
+      [
+        "agricraft:block/weed_stage_2"
+      ],
+      [
+        "agricraft:block/weed_stage_3"
+      ]
+    ]
+  }
+}

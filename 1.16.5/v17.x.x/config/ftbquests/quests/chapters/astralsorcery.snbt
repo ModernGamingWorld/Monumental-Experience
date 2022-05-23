@@ -75,10 +75,7 @@
 			x: -6.0d
 			y: -2.25d
 			shape: "circle"
-			dependencies: [
-				"000000000000010D"
-				"0000000000000114"
-			]
+			dependencies: ["000000000000010D"]
 			size: 1.5d
 			id: "000000000000010F"
 			tasks: [{
@@ -117,6 +114,7 @@
 			x: -0.75d
 			y: -2.25d
 			shape: "circle"
+			dependencies: ["000000000000010F"]
 			size: 1.5d
 			id: "0000000000000114"
 			tasks: [{

@@ -1,12 +1,12 @@
 [
   {
-    "serverName": "Desired Server",
-    "serverIP": "127.0.0.1",
-    "forceResourcePack": "true"
+    "serverName": "BedrockLegends Monumental Experience!",
+    "serverIP": "monumental.bedrocklegends.com",
+    "forceResourcePack": "false"
   },
   {
-    "serverName": "Another Server!",
-    "serverIP": "192.168.1.1",
+    "serverName": "BedrockLegends Monumental Experience EU!",
+    "serverIP": "monumentalexperienceEU.modded.fun",
     "forceResourcePack": "false"
   }
 ]

@@ -1154,7 +1154,7 @@
 		#Range: 0 ~ 64
 		nether_count = 16
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = true
+		generate_in_the_nether = false
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		nether_biome_blacklist = []
@@ -1197,7 +1197,7 @@
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		end_biome_blacklist = []
 		#Activate/Deactivate the Ore Gen in The End [Default: false]
-		generate_in_the_end = true
+		generate_in_the_end = false
 		#Average Ores per Chunk [Default: 16]
 		#Range: 0 ~ 64
 		end_count = 16
@@ -1225,7 +1225,7 @@
 		#Range: 0 ~ 64
 		nether_count = 8
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = true
+		generate_in_the_nether = false
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		nether_biome_blacklist = []
@@ -1268,7 +1268,7 @@
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		end_biome_blacklist = []
 		#Activate/Deactivate the Ore Gen in The End [Default: false]
-		generate_in_the_end = true
+		generate_in_the_end = false
 		#Average Ores per Chunk [Default: 8]
 		#Range: 0 ~ 64
 		end_count = 8

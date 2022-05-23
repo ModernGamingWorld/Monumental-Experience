@@ -30,6 +30,7 @@
 							"patchouli:book": "storagenetwork:network_book"
 						}
 					}
+					only_from_crafting: true
 				}
 			]
 			rewards: [{

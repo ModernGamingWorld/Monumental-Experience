@@ -1,0 +1,15 @@
+{
+  "path": "mod_pamhc2crops/mutations/cactusfruit_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "pamhc2crops",
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "pamhc2crops:cactusfruit_plant",
+  "parent1": "pamhc2crops:kiwi_plant",
+  "parent2": "vanilla:cactus_plant"
+}

@@ -1,0 +1,142 @@
+{
+  "path": "mod_environmental/plants/red_lotus_flower_plant.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
+  "enabled": true,
+  "mods": [
+    "environmental",
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "environmental:red_lotus_flower_plant",
+  "plant_lang_key": "block.environmental.red_lotus_flower",
+  "seed_lang_key": "agricraft.plant.environmental_red_lotus_flower.seed",
+  "desc_lang_key": "agricraft.plant.environmental_red_lotus_flower.desc",
+  "seed_items": [],
+  "stages": [
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12
+  ],
+  "harvestStage": 4,
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "tier": 2,
+  "cloneable": true,
+  "spread_chance": 0.1,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.75,
+        "required": true,
+        "type": "item",
+        "object": "minecraft:red_dye",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "clip_products": {
+    "products": [
+      {
+        "min": 0,
+        "max": 1,
+        "chance": 0.5,
+        "required": true,
+        "type": "item",
+        "object": "environmental:red_lotus_flower",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ]
+  },
+  "requirement": {
+    "soil_humidity": {
+      "condition": "damp",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_acidity": {
+      "condition": "slightly_acidic",
+      "type": "equal",
+      "tolerance_factor": 0.2
+    },
+    "soil_nutrients": {
+      "condition": "very_high",
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.2
+    },
+    "min_light": 10,
+    "max_light": 16,
+    "light_tolerance_factor": 0.5,
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "conditions": [],
+    "fluid": {
+      "type": "fluid",
+      "object": "minecraft:empty",
+      "useTag": false,
+      "data": "",
+      "ignoredData": []
+    }
+  },
+  "callbacks": [],
+  "texture": {
+    "render_type": "plus",
+    "plant_models": [],
+    "plant_textures": [
+      [
+        "agricraft:plant/environmental/red_lotus_flower0"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower0"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower0"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower1"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower1"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower2"
+      ],
+      [
+        "agricraft:plant/environmental/red_lotus_flower2"
+      ],
+      [
+        "environmental:block/red_lotus_flower"
+      ]
+    ]
+  },
+  "seed_texture": "agricraft:seed/environmental/red_lotus_flower",
+  "seed_model": "agricraft:seed/environmental/red_lotus_flower",
+  "particle_effects": [
+    {
+      "probability": 0.1,
+      "stages": [
+        7
+      ],
+      "particle": "environmental:red_lotus_blossom",
+      "delta_x": 0.3,
+      "delta_y": 0.3,
+      "delta_z": 0.3
+    }
+  ]
+}

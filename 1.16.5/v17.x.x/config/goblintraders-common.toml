@@ -23,6 +23,9 @@
 		restockDelay = 48000
 		#If true, the goblin will try to hit back a player or mob that hit them first
 		canAttackBack = true
+		#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
+		#Range: 1 ~ 1000
+		gruntNoiseInterval = 80
 
 	#Vein Goblin Trader settings
 	[common.vein_goblin_trader]
@@ -43,4 +46,7 @@
 		restockDelay = 48000
 		#If true, the goblin will try to hit back a player or mob that hit them first
 		canAttackBack = true
+		#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
+		#Range: 1 ~ 1000
+		gruntNoiseInterval = 80
 
