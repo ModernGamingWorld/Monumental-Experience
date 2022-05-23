@@ -1,0 +1,246 @@
+
+[debug]
+	#
+	#Set to true to enable debug mode
+	debug = false
+	#
+	#Set to true to enable logging on the ${log} channel.
+	"Enable Logging" = true
+	#
+	#Set to true to add Registry information to itemstack tooltips (Client only)
+	"Registry tooltips" = false
+	#
+	#Set to true to add Tag information to itemstack tooltips (Client only)
+	"Tag tooltips" = false
+	#
+	#Set to true to add NBT information to itemstack tooltips (Client only)
+	"NBT tooltips" = false
+
+[core]
+	#
+	#Set to false to disable the generation of missing default jsons
+	"Generate missing default JSONs" = true
+	#
+	#Set to false to disable automatic JSON writeback.
+	"Enable JSON write back" = true
+	#
+	#Set to false to disable planting of (agricraft) seeds outside crop sticks
+	"Plant outside crop sticks" = true
+	#
+	#Set to true to allow only fertile plants to be able to cause, participate in, or contribute to a spreading / mutation action
+	#(note that this may cause issues with obtaining some specific plants)
+	"Only fertile crops mutate" = false
+	#
+	#Set to false if to disable triggering of mutations by using fertilizers on a cross crop.
+	"Fertilizer mutations" = true
+	#
+	#Set to true to override vanilla farming, meaning vanilla seeds will be converted to agricraft seeds on planting.
+	"Override vanilla farming" = true
+	#
+	#This is a global growth rate multiplier for crops planted on crop sticks.
+	#Range: 0.0 ~ 3.0
+	"Growth rate multiplier" = 1.0
+	#
+	#Set this to true to make only mature crops drop seeds (to encourage trowel usage).
+	"Only mature crops drop seeds" = false
+	#
+	#Set to true to completely disable the spawning of weeds
+	"Disable weeds" = false
+	#
+	#Set to false to disable mature weeds killing plants
+	"Mature weeds kill plants" = true
+	#
+	#Set to false to disable the spreading of weeds
+	"Weeds can spread" = true
+	#
+	#Set this to true to have weeds destroy the crop sticks when they are broken with weeds (to encourage rake usage).
+	"Weeds destroy crop sticks" = false
+	#
+	#Set to false if you wish to disable drops from raking weeds.
+	"Raking weeds drops items" = true
+	#
+	#Defines the seed compost value, if set to zero, seeds will not be compostable
+	#Range: 0.0 ~ 1.0
+	"Seed compost value" = 0.3
+	#
+	#Set to false to disable certain animals eating certain crops (prevents auto-breeding)
+	"animal attracting crops" = true
+	#
+	#Enchantment cost in player levels to enchant the seed bag
+	#Range: 0 ~ 30
+	"seed bag enchant cost" = 10
+	#
+	#The amount of seeds one seed bag can hold
+	#Range: 8 ~ 256
+	"seed bag capacity" = 64
+	#
+	#Set to false if AgriCraft loot modifiers are not allowed to reset grass drops (this overrides the "reset" property in the loot entries
+	"Allow Grass Drop Resets" = true
+
+["resource crops"]
+	#
+	#Set to false to disable the generation of resource crop jsons
+	"Enable resource crop json generation" = true
+	#
+	#Set to false to disable the coal nugget (in case resource crops are disabled, or alternatives are available
+	"Enable coal nugget" = true
+	#
+	#Set to false to disable the diamond nugget (in case resource crops are disabled, or alternatives are available
+	"Enable diamond nugget" = true
+	#
+	#Set to false to disable the emerald nugget (in case resource crops are disabled, or alternatives are available
+	"Enable emerald nugget" = true
+	#
+	#Set to false to disable the quartz nugget (in case resource crops are disabled, or alternatives are available
+	"Enable quartz nugget" = true
+
+[stats]
+	#
+	#Logic to calculate stats from gene pairs, accepted values are: "min", "min", and "mean"
+	"Stat calculation logic" = "max"
+	#
+	#Minimum allowed value of the Gain stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Gain stat min" = 1
+	#
+	#Maximum allowed value of the Gain stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Gain stat max" = 10
+	#
+	#Set to true to hide the Gain stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Gain stat" = false
+	#
+	#Minimum allowed value of the Growth stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Growth stat min" = 1
+	#
+	#Maximum allowed value of the Growth stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Growth stat max" = 10
+	#
+	#Set to true to hide the Growth stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Growth stat" = false
+	#
+	#Minimum allowed value of the Strength stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Strength stat min" = 1
+	#
+	#Maximum allowed value of the Strength stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Strength stat max" = 10
+	#
+	#Set to true to hide the Strength stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Strength stat" = false
+	#
+	#Minimum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Resistance stat min" = 1
+	#
+	#Maximum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Resistance stat max" = 10
+	#
+	#Set to true to hide the Resistance stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Resistance stat" = false
+	#
+	#Minimum allowed value of the Fertility stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Fertility stat min" = 1
+	#
+	#Maximum allowed value of the Fertility stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Fertility stat max" = 10
+	#
+	#Set to true to hide the Fertility stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Fertility stat" = false
+	#
+	#Minimum allowed value of the Mutativity stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Mutativity stat min" = 1
+	#
+	#Maximum allowed value of the Mutativity stat (setting min and max equal will freeze the stat to that value in crop breeding)
+	#Range: 1 ~ 10
+	"Mutativity stat max" = 10
+	#
+	#Set to true to hide the Mutativity stat (hidden stats will not show up in tooltips or seed analysis)
+	#setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
+	"hide Mutativity stat" = false
+
+[irrigation]
+	#
+	#Configures the capacity (in mB) of one tank block
+	#Range: 1000 ~ 40000
+	"Tank capacity" = 8000
+	#
+	#Configures the capacity (in mB) of one channel block
+	#Range: 50 ~ 2000
+	"Channel capacity" = 500
+	#
+	#Configures the rate (in mB/t) at which tanks accrue water while raining (0 disables filling from rainfall)
+	#Range: 0 ~ 50
+	"Rain fill rate" = 5
+	#
+	#Set to false to disable water tanks spawning a water block when broken when sufficiently full
+	"Tanks spawn water block" = true
+	#
+	#The minimum number of ticks between successive starts of irrigation.
+	#Range: 1 ~ 1200
+	"Sprinkler growth interval" = 40
+	#
+	#Every loop, each unobscured plant in sprinkler range has this chance to get a growth tick from the sprinkler.
+	#Range: 0.0 ~ 1.0
+	"Sprinkler growth chance" = 0.2
+	#
+	#Defined in terms of mB per second. The irrigation loop progress will pause when there is insufficient water.
+	#Range: 0 ~ 1000
+	"Sprinkler water usage" = 10
+	#
+	#Set to true to disable particles (Client only)
+	"Disable particles" = false
+
+[decoration]
+	#
+	#When true, entities will be able to climb on grates
+	"Grates always climbable" = true
+
+[compat]
+	#
+	#Set to false if you want all mutations to be shown in JEI all the time instead of having to research them
+	"Progressive JEI" = true
+	#
+	#Defines the mod controlling season logic in case multiple are installed
+	#accepted values are: "betterweather", "sereneseasons"
+	"season logic" = "sereneseasons"
+	#
+	#Defines wether or not additional The One Probe data is rendered only when the magnifying glass is being used
+	"TOP only with magnifying glass" = true
+	#
+	#Set to false to disable compatibility with Blood Magic (in case things break)
+	"Enable Blood Magic compat" = true
+	#
+	#Set to false to disable compatibility with Botany Pots (in case things break)
+	"Enable Botany Pots compat" = true
+	#
+	#Set to false to disable compatibility with Create (in case things break)
+	"Enable Create compat" = true
+	#
+	#Set to false to disable compatibility with Cyclic (in case things break)
+	"Enable Cyclic compat" = true
+	#
+	#Set to false to disable compatibility with Industrial Foregoing (in case things break)
+	"Enable Industrial Foregoing compat" = true
+	#
+	#Set to false to disable compatibility with Immersive Engineering (in case things break)
+	"Enable Immersive Engineering compat" = true
+	#
+	#Set to false to disable compatibility with Straw Golem Reborn (in case things break)
+	"Enable Straw Golem Reborn compat" = true
+	#
+	#Set to false to disable compatibility with Botania (in case things break)
+	"Enable Botania compat" = false
+
