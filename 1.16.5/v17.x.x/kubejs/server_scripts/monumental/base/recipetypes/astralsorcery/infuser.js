@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
                 fluid: 'astralsorcery:liquid_starlight',
                 consumptionChance: 0.1,
                 output: 'astralsorcery:stardust',
-                count: 1,
+                count: 4,
                 duration: 100
             },
         ]

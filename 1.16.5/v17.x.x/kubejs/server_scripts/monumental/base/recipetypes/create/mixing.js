@@ -22,6 +22,14 @@ onEvent('recipes', (event) => {
             },
         ],
         recipes_heated: [
+        //Astral
+            {
+                inputs: [
+                    '#forge:dusts/iron',
+                    Fluid.of('astralsorcery:liquid_starlight', 750)
+                ],
+                output: Item.of('astralsorcery:stardust', 2)
+            },
         //Ae2
             {
                 inputs: ['#thermal:glass/hardened', '#forge:dusts/quartz', '#forge:dusts/certus_quartz', 'computercraft:cable'],
