@@ -321,7 +321,7 @@ onEvent('recipes', (event) => {
                     item: 'blue_skies:pyrope_gem'
                 },
                 D: {
-                    item: 'bloodmagic:masterbloodorb'
+                    item: 'bloodmagic:magicianbloodorb'
                 },
                 E: {
                     tag: 'forge:ingots/obsidian'
