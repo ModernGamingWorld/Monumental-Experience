@@ -1,50 +1,56 @@
+##[general]
 
 [If menu background sounds added by FancyMenu should be played when a world is loaded.]
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
 [If menu background sounds added by FancyMenu should be played or not.]
-B:playbackgroundsounds = 'false';
+B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
-B:enablehotkeys = 'false';
+B:enablehotkeys = 'true';
 B:playmenumusic = 'false';
-B:showdebugwarnings = 'false';
+B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
 
 
+##[customization]
 
 B:advancedmode = 'false';
 B:showcustomizationbuttons = 'false';
 
 
+##[mainmenu]
 
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
-B:hidelogo = 'true';
+B:hidelogo = 'false';
 B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'true';
 
 
+##[mainmenu_splash]
 
 S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '0';
 I:splashx = '0';
-B:hidesplashtext = 'true';
+B:hidesplashtext = 'false';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 
 
+##[loading]
 
-B:allowgameintroskip = 'false';
-S:loadinganimationcolor = '#FFFFFF';
+B:allowgameintroskip = 'true';
+S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
 S:customgameintroskiptext = '';
 
 
+##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
 S:customwindowtitle = '';
@@ -52,6 +58,23 @@ S:customwindowtitle = '';
 B:customwindowicon = 'false';
 
 
+##[world_loading_screen]
+
+B:showloadingscreenanimation = 'true';
+B:showloadingscreenpercent = 'true';
+
+
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
+
+
+##[layouteditor]
 
 I:gridsize = '10';
 B:editordeleteconfirmation = 'true';
@@ -60,18 +83,6 @@ B:showgrid = 'false';
 B:showvanillamovewarning = 'true';
 
 
-
-B:showloadingscreenanimation = 'true';
-B:showloadingscreenpercent = 'true';
-
-
+##[ui]
 
 F:uiscale = '1.0';
-
-
-
-B:show_server_icons = 'true';
-
-
-
-B:show_world_icons = 'true';
