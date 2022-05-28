@@ -36,6 +36,7 @@ onEvent('recipes', e => {
     L: '#forge:plates/iron'
   })
 
+  e.remove({ output: /minecraft:.*bed/ })
   removeRecipeByID(e, [
     'minecraft:stone_pickaxe',
     'minecraft:stone_pressure_plate',
