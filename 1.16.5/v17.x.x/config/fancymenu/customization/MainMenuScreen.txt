@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
   renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -16,40 +19,12 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
-  action = hidebutton
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -137
-  action = movebutton
-  y = -28
-}
-
-customization {
-  identifier = %id=400298%
-  width = 275
-  action = resizebutton
-  height = 45
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_singleplayers.png
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_singleplayers.png
-}
-
-customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -137
   action = movebutton
@@ -57,32 +32,34 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 276
   action = resizebutton
   height = 42
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_multiplayer.png
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_multiplayer.png
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_multiplayer.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_multiplayer.png
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -137
   action = movebutton
@@ -90,27 +67,29 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 276
   action = resizebutton
   height = 44
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_options.png
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_options.png
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_options.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_options.png
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = -137
   action = movebutton
@@ -118,32 +97,64 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 275
   action = resizebutton
   height = 45
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_exit.png
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_exit.png
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_exit.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_exit.png
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -137
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 275
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_singleplayers.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_singleplayers.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = -137
   action = movebutton
@@ -151,27 +162,29 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 274
   action = resizebutton
   height = 45
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_mods.png
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_mods.png
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_mods.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_mods.png
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
@@ -181,88 +194,93 @@ customization {
   x = -154
   width = 313
   action = addtexture
+  actionid = 9dc20cb7-7017-4eac-8f90-b77c7f46fc3b1653697845460
   y = -53
   height = 295
 }
 
 customization {
   orientation = mid-centered
+  restartbackgroundanimations = true
   buttonaction = openlink
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_github.png
+  label = 
+  loopbackgroundanimations = true
   x = -238
   width = 120
+  actionid = c1059932-7552-4e99-bd1a-15fdc0d528301653697845460
   action = addbutton
   y = 203
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_github.png
-  label = 
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_github.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_github.png
   value = https://github.com/BedrockLegends/Monumental-Experience/issues
   height = 43
 }
 
 customization {
   orientation = mid-centered
+  restartbackgroundanimations = true
   buttonaction = openlink
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_discord.png
+  label = 
+  loopbackgroundanimations = true
   x = 119
   width = 115
+  actionid = 1a7034b9-a6bf-49d5-ba93-2785dceacaea1653697845466
   action = addbutton
   y = 172
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_discord.png
-  label = 
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_discord.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_discord.png
   value = https://discord.gg/7jZZxsPZz4
   height = 37
 }
 
 customization {
   orientation = mid-centered
+  restartbackgroundanimations = true
   buttonaction = openlink
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_twitter.png
+  label = 
+  loopbackgroundanimations = true
   x = 120
   width = 100
+  actionid = 98031904-93e4-4e53-a0a4-b6d165cdb5561653697845466
   action = addbutton
   y = 208
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_twitter.png
-  label = 
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_twitter.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_twitter.png
   value = https://twitter.com/Modern_Gaming01
   height = 36
 }
 
 customization {
-  orientation = bottom-right
+  orientation = bottom-left
+  restartbackgroundanimations = true
   buttonaction = openlink
-  x = -200
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_bhpromo.png
+  label = 
+  loopbackgroundanimations = true
+  x = 0
   width = 200
+  actionid = 726ce836-8461-40d1-a6ca-a540b08477261653697845467
   action = addbutton
   y = -69
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_bhpromo.png
-  label = 
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_bhpromo.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_bhpromo.png
   value = https://bisecthosting.com/BedrockLegends
   height = 69
 }
 
 customization {
   orientation = mid-centered
+  restartbackgroundanimations = true
   buttonaction = openlink
+  backgroundhovered = kubejs\assets\packmenu\textures\gui\bh_me_twitch.png
+  label = 
+  loopbackgroundanimations = true
   x = -240
   width = 122
+  actionid = c4de45fc-69f3-4fd9-b2a5-0871ce7dd4ff1653697845467
   action = addbutton
   y = 168
-  backgroundhovered = kubejs/assets/packmenu/textures/gui/bh_me_twitch.png
-  label = 
-  backgroundnormal = kubejs/assets/packmenu/textures/gui/bh_me_twitch.png
+  backgroundnormal = kubejs\assets\packmenu\textures\gui\bh_me_twitch.png
   value = https://www.twitch.tv/bedrocklegends
   height = 41
-}
-
-customization {
-  orientation = top-left
-  shadow = false
-  centered = false
-  x = 877
-  action = addtext
-  y = 503
-  scale = 1.0
-  value = BedrockLegends is proudly sponsored by:
 }
 
