@@ -1,5 +1,6 @@
 onEvent('recipes', e => {
   removeRecipeByID(e, [
+    'twilightforest:uncrafting_table',
     'twilightforest:equipment/knightmetal_pickaxe',
     'twilightforest:equipment/knightmetal_helmet',
     'twilightforest:equipment/knightmetal_boots',
