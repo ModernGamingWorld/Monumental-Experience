@@ -1,5 +1,4 @@
 {
-  "__comment": "Instructions: https://mods.blakebr0.com/docs/cucumber/tags-config",
   "forge:ingots/constantan": "emendatusenigmatica:constantan_ingot",
   "forge:ingots/tungsten": "null",
   "forge:ingots/tin": "emendatusenigmatica:tin_ingot",

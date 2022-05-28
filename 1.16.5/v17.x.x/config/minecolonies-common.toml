@@ -1,6 +1,0 @@
-
-#All configuration items related to the core gameplay
-[gameplay]
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
-	generatesupplyloot = true
-
