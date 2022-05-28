@@ -30,8 +30,10 @@ onEvent('jei.hide.items', e => {
     'createaddition:copper_wire',
     'createaddition:seed_oil_bucket',
     /^createaddition:.+_rod$/,
+	
+	/^cyclic:.*_bucket$/,
 
-    'doggytalents:dog_bed',
+    /^doggytalents:dog_bed$/,
     /^draconicevolution:.+_ore$/,
     'eidolon:lead_ore',
 
@@ -89,7 +91,7 @@ onEvent('jei.hide.items', e => {
     /^pneumaticcraft:.+_bucket$/,
 
     /^quark:.+_ore$/,
-    'quark:ancient_tome',
+    /^quark:ancient_tome$/,
 
     '@rechiseled',
     /^rftoolsbase:dimensionalshard_.+/,
@@ -107,6 +109,22 @@ onEvent('jei.hide.items', e => {
     /^thermal:(apatite|cinnabar|niter|sulfur|coal_coke)_block$/,
     /^thermal:(iron|gold|lapis|diamond|emerald|quartz|copper|tin|lead|silver|nickel|bronze|electrum|invar|constantan|signalum|lumium|enderium)_(block|ingot|nugget|dust|gear|plate)$/,
 
+	'tombstone:grave_key',
+	'tombstone:ghostly_shape',
+	'tombstone:preservation',
+	'tombstone:unstable_intangibleness',
+	'tombstone:diversion',
+	'tombstone:feather_fall',
+	'tombstone:purification',
+	'tombstone:true_sight',
+	'tombstone:prayer',
+	'tombstone:reach',
+	'tombstone:lighting_aquatic_liferesistance',
+	'tombstone:frost_resistance',
+	'tombstone:bone_shield',
+	'tombstone:bait',
+	'tombstone:aquatic_life',
+
     /^twilightforest:force_field_.+/,
     /^twilightforest:.+_miniature_structure$/,
     /^twilightforest:.+door$/,
@@ -119,7 +137,7 @@ onEvent('jei.hide.items', e => {
   ]
 
   itemsToHide.forEach(i => e.hide(i))
-  colors.forEach(c => e.hide(`/^refinedstorage:${c}_.+/`))
+  colors.forEach(c => if(c != 'light_blue') e.hide(`/^refinedstorage:${c}_.+/`))
 })
 
 onEvent('jei.hide.fluids', e => {
