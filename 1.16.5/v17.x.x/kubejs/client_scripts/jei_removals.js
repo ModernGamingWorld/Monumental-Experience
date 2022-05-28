@@ -137,7 +137,7 @@ onEvent('jei.hide.items', e => {
   ]
 
   itemsToHide.forEach(i => e.hide(i))
-  colors.forEach(c => if(c != 'light_blue') e.hide(`/^refinedstorage:${c}_.+/`))
+  colors.forEach(c => { if(c != 'light_blue') e.hide(`/^refinedstorage:${c}_.+/`) })
 })
 
 onEvent('jei.hide.fluids', e => e.hideAll())
