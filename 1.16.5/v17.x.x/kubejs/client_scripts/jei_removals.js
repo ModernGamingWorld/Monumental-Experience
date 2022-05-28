@@ -130,8 +130,18 @@ onEvent('jei.hide.items', e => {
 	'tombstone:aquatic_life',
 
     /^twilightforest:force_field_.+/,
+    /^twilightforest:boss_spawner_.+/,
+    /^twilightforest:shader_bag_.+/,
+    /^twilightforest:castle_door_.+/,
     /^twilightforest:.+_miniature_structure$/,
     /^twilightforest:.+door$/,
+    'twilightforest:uncrafting_table',
+    'twilightforest:cube_of_annihilation',
+    'twilightforest:moon_dial',
+    'twilightforest:cinder_furnace',
+    'twilightforest:cinder_log',
+    'twilightforest:cinder_wood',
+    'twilightforest:slider',
 
     /^undergarden:.+_bucket$/,
     /^upgrade_aquatic:.+_bucket$/,
