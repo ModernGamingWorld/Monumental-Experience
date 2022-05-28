@@ -79,6 +79,10 @@ onEvent('jei.hide.items', e => {
     /^minecraft:infested_.+/,
     'minecraft:bedrock',
     'minecraft:end_portal_frame',
+    'minecraft:chorus_plant',
+    'minecraft:chipped_anvil',
+    'minecraft:damaged_anvil',
+    'minecraft:ender_chest',
 
     /^minecolonies:.+egg/,
     /^mysticalagradditions:.+_(ore|bucket)$/,
@@ -131,6 +135,7 @@ onEvent('jei.hide.items', e => {
 
     /^undergarden:.+_bucket$/,
     /^upgrade_aquatic:.+_bucket$/,
+    'upgrade_aquatic:embedded_ammonite',
 
     /^xreliquary:bullets\/neutral_bullet$/,
     /^xreliquary:magazines\/neutral_magazine$/
