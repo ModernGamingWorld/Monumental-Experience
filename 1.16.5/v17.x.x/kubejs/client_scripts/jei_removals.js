@@ -140,6 +140,7 @@ onEvent('jei.hide.items', e => {
     /^twilightforest:.+_miniature_structure$/,
     /^twilightforest:.+door$/,
     /^twilightforest:.+_leaves$/,
+    /^twilightforest:.+_trophy$/,
     'twilightforest:uncrafting_table',
     'twilightforest:cube_of_annihilation',
     'twilightforest:moon_dial',
