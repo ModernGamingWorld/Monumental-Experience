@@ -30,9 +30,9 @@ onEvent('jei.hide.items', e => {
     'createaddition:copper_wire',
     'createaddition:seed_oil_bucket',
     /^createaddition:.+_rod$/,
-	
-	/^cyclic:.*_bucket$/,
-  'cyclic:uncrafter',
+
+    /^cyclic:.*_bucket$/,
+    'cyclic:uncrafter',
 
     /^doggytalents:dog_bed$/,
     /^draconicevolution:.+_ore$/,
@@ -94,6 +94,7 @@ onEvent('jei.hide.items', e => {
     /^occultism:(obsidian|iron|gold)_dust$/,
     'occultism:lighted_air',
     /^pneumaticcraft:.+_bucket$/,
+
     'prefab:block_compressed_dirt',
     'prefab:block_double_compressed_dirt',
 
@@ -116,21 +117,21 @@ onEvent('jei.hide.items', e => {
     /^thermal:(apatite|cinnabar|niter|sulfur|coal_coke)_block$/,
     /^thermal:(iron|gold|lapis|diamond|emerald|quartz|copper|tin|lead|silver|nickel|bronze|electrum|invar|constantan|signalum|lumium|enderium)_(block|ingot|nugget|dust|gear|plate)$/,
 
-	'tombstone:grave_key',
-	'tombstone:ghostly_shape',
-	'tombstone:preservation',
-	'tombstone:unstable_intangibleness',
-	'tombstone:diversion',
-	'tombstone:feather_fall',
-	'tombstone:purification',
-	'tombstone:true_sight',
-	'tombstone:prayer',
-	'tombstone:reach',
-	'tombstone:lighting_aquatic_liferesistance',
-	'tombstone:frost_resistance',
-	'tombstone:bone_shield',
-	'tombstone:bait',
-	'tombstone:aquatic_life',
+    'tombstone:grave_key',
+    'tombstone:ghostly_shape',
+    'tombstone:preservation',
+    'tombstone:unstable_intangibleness',
+    'tombstone:diversion',
+    'tombstone:feather_fall',
+    'tombstone:purification',
+    'tombstone:true_sight',
+    'tombstone:prayer',
+    'tombstone:reach',
+    'tombstone:lighting_aquatic_liferesistance',
+    'tombstone:frost_resistance',
+    'tombstone:bone_shield',
+    'tombstone:bait',
+    'tombstone:aquatic_life',
 
     /^twilightforest:force_field_.+/,
     /^twilightforest:boss_spawner_.+/,
@@ -138,6 +139,7 @@ onEvent('jei.hide.items', e => {
     /^twilightforest:castle_door_.+/,
     /^twilightforest:.+_miniature_structure$/,
     /^twilightforest:.+door$/,
+    /^twilightforest:.+_leaves$/,
     'twilightforest:uncrafting_table',
     'twilightforest:cube_of_annihilation',
     'twilightforest:moon_dial',
@@ -155,7 +157,7 @@ onEvent('jei.hide.items', e => {
   ]
 
   itemsToHide.forEach(i => e.hide(i))
-  colors.forEach(c => { if(c != 'light_blue') e.hide(`/^refinedstorage:${c}_.+/`) })
+  colors.forEach(c => { if (c != 'light_blue') e.hide(`/^refinedstorage:${c}_.+/`) })
 })
 
 onEvent('jei.hide.fluids', e => e.hideAll())
