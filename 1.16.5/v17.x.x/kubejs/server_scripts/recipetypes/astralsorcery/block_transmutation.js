@@ -18,5 +18,4 @@ onEvent('recipes', e => {
 	blockTransmutation('#forge:workbenches', 'astralsorcery:altar_discovery', 60)
 	blockTransmutation('twilightforest:uncrafting_table', 'astralsorcery:altar_discovery', 60)
 	blockTransmutation('forbidden_arcanus:arcane_crystal_block', 'naturesaura:infused_stone', 2500)
-	blockTransmutation('#forge:storage_blocks/compressed_iron', 'naturesaura:infused_iron', 2500)
 })
