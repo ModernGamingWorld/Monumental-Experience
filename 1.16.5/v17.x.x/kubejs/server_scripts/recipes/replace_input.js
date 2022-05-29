@@ -18,6 +18,9 @@ onEvent('recipes', (event) => {
             replaceWith: ['minecraft:dried_kelp', 'sushigocrafting:dried_seaweed']
         },
     ];
+    event.replaceInput('prefab:block_compressed_stone', 'compressium:stone_1');
+    event.replaceInput('prefab:block_double_compressed_stone', 'compressium:stone_2');
+    event.replaceInput('prefab:block_triple_compressed_stone', 'compressium:stone_3');
     event.replaceInput('prefab:block_compressed_dirt', 'compressium:dirt_1');
     event.replaceInput('prefab:block_double_compressed_dirt', 'compressium:dirt_2');
     event.replaceInput('astralsorcery:starmetal_ore', '#forge:ores/starmetal');
