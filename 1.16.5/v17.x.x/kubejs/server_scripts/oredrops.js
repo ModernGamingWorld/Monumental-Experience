@@ -3,8 +3,6 @@ onEvent('block.loot_tables', e => {
 
 	let addBlockDrop = (selector, resource, type, min, max) => {
 		if (min && max) {
-			e.addSimpleBlock(selector, `emendatusenigmatica:${resource}_${type}`)
-		} else {
 			e.addBlock(selector, table => {
 				table.addPool(pool => {
 					pool.setUniformRolls(min, max)
@@ -12,6 +10,8 @@ onEvent('block.loot_tables', e => {
 					pool.addEntry({ type: 'minecraft:item', name: `emendatusenigmatica:${resource}_${type}` })
 				})
 			})
+		} else {
+			e.addSimpleBlock(selector, `emendatusenigmatica:${resource}_${type}`)
 		}
 	}
 
