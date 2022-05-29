@@ -32,6 +32,7 @@ onEvent('jei.hide.items', e => {
     /^createaddition:.+_rod$/,
 	
 	/^cyclic:.*_bucket$/,
+  'cyclic:uncrafter',
 
     /^doggytalents:dog_bed$/,
     /^draconicevolution:.+_ore$/,
@@ -93,6 +94,8 @@ onEvent('jei.hide.items', e => {
     /^occultism:(obsidian|iron|gold)_dust$/,
     'occultism:lighted_air',
     /^pneumaticcraft:.+_bucket$/,
+    'prefab:block_compressed_dirt',
+    'prefab:block_double_compressed_dirt',
 
     /^quark:.+_ore$/,
     /^quark:ancient_tome$/,
