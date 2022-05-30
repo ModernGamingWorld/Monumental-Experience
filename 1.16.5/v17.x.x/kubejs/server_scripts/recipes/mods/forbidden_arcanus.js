@@ -1,6 +1,7 @@
 onEvent('recipes', e => {
   removeRecipeByID(e, [
     'forbidden_arcanus:aquatic_dragon_scale',
+    'forbidden_arcanus:slimec_pickaxe',
     'forbidden_arcanus:eternal_stella',
     'forbidden_arcanus:arcane_gold_ingot',
     'forbidden_arcanus:corrupti_dust',
@@ -10,6 +11,7 @@ onEvent('recipes', e => {
     'forbidden_arcanus:purifying_soap',
     'forbidden_arcanus:silver_dragon_scale',
     'forbidden_arcanus:bone_pickaxe',
+    'forbidden_arcanus:infernum_pickaxe',
     'forbidden_arcanus:obsidian_pickaxe',
     'forbidden_arcanus:reinforced_arcane_golden_pickaxe',
     'forbidden_arcanus:arcane_golden_pickaxe',
