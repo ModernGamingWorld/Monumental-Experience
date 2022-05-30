@@ -13,6 +13,8 @@ onEvent('recipes', e => {
 
 	// Atum
 	offeringRecipe('minecraft:stone_hoe', 'atum:limestone_cracked', 'atum:limestone_hoe')
+	offeringRecipe('minecraft:stone_axe', 'atum:limestone_cracked', 'atum:limestone_axe')
+	offeringRecipe('minecraft:stone_pickaxe', 'atum:limestone_cracked', 'atum:limestone_pickaxe')
 	offeringRecipe('minecraft:stone_sword', 'atum:limestone_cracked', 'atum:limestone_sword')
 	offeringRecipe('atum:stoneguard_sword', '#forge:ingots/khnumite', 'atum:stoneguard_greatsword')
 	// Aquaculture
