@@ -22,7 +22,7 @@ onEvent('recipes', e => {
 	e.recipes.create.mixing('greater_eye:greater_eye_nether', ['greater_eye:greater_eye', '#forge:gems/quartz']).heated()
 	e.recipes.create.mixing('immersiveengineering:concrete', ['minecraft:light_gray_concrete_powder', 'buildinggadgets:construction_block_powder', Fluid.of('minecraft:water', 250)]).heated()
 	e.recipes.create.mixing('2x immersiveengineering:insulating_glass', ['#forge:dyes/green', '#forge:dusts/iron', '#forge:sand']).heated()
-	e.recipes.create.mixing('4x immersiveengineering:treated_wood_horizontal', ['#minecraft:planks', '#minecraft:planks', '#minecraft:planks', '#minecraft:planks', Fluid.of('#forge:creosote', 500)]).heated()
+	e.recipes.create.mixing('4x immersiveengineering:treated_wood_horizontal', ['#minecraft:planks', '#minecraft:planks', '#minecraft:planks', '#minecraft:planks', { fluidTag: 'forge:creosote', amount: 500 }]).heated()
 	e.recipes.create.mixing('12x immersivepetroleum:asphalt', ['#forge:gems/bitumen', '#forge:gravel', '#forge:sand', '#forge:sand', Fluid.of('minecraft:water', 500)]).heated()
 	e.recipes.create.mixing('2x ironcoals:emerald_coal', ['#forge:gems/emerald', 'ironcoals:diamond_coal']).heated()
 	e.recipes.create.mixing('2x ironcoals:diamond_coal', ['#forge:gems/diamond', 'ironcoals:gold_coal']).heated()

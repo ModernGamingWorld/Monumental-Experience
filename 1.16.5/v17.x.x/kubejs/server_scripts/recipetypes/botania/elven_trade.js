@@ -70,12 +70,15 @@ onEvent('recipes', event => {
 		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:gems/quartz'], `appliedenergistics2:nether_quartz_${t}`)
 		// Aquaculture
 		elvenTradeRecipe([`minecraft:netherite_${t}`, '#forge:ingots/neptunium'], `aquaculture:neptunium_${t}`)
-		// Botania
+		// AIOT
 		elvenTradeRecipe([`minecraft:wooden_${t}`, '#botania:livingwood'], `aiotbotania:livingwood_${t}`)
 		elvenTradeRecipe([`minecraft:stone_${t}`, '#botania:livingrock'], `aiotbotania:livingrock_${t}`)
-		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:ingots/manasteel'], `botania:manasteel_${t}`)
+		// Botania
+		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:ingots/manasteel'], `botania:manasteel_${t == 'pickaxe' ? 'pick' : t}`)
 		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:ingots/elementium'], `botania:elementium_${t}`)
 		// Cyclic
+		elvenTradeRecipe([`minecraft:stone_${t}`, '#forge:sandstone'], `cyclic:sandstone_${t}`)
+		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:bricks/nether'], `cyclic:netherbrick_${t}`)
 		elvenTradeRecipe([`minecraft:diamond_${t}`, '#forge:gems/emerald'], `cyclic:emerald_${t}`)
 		elvenTradeRecipe([`minecraft:netherite_${t}`, '#forge:gems/diamond'], `cyclic:crystal_${t}`)
 		// Druidcraft
@@ -101,16 +104,14 @@ onEvent('recipes', event => {
 		// Aquaculture
 		elvenTradeRecipe([`minecraft:netherite_${t}`, '#forge:ingots/neptunium'], `aquaculture:neptunium_${t}`)
 		// Atum
-		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:iron_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : t}_iron`)
-		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:golden_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : t}_gold`)
-		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:diamond_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : t}_diamond`)
+		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:iron_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_iron`)
+		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:golden_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_gold`)
+		elvenTradeRecipe([`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:diamond_${t}`], `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_diamond`)
 		// Botania
 		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:ingots/manasteel'], `botania:manasteel_${t}`)
 		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:ingots/elementium'], `botania:elementium_${t}`)
 		elvenTradeRecipe([`minecraft:netherite_${t}`, '#forge:ingots/terrasteel'], `botania:terrasteel_${t}`)
 		// Cyclic
-		elvenTradeRecipe([`minecraft:iron_${t}`, '#forge:bricks/nether'], `cyclic:netherbrick_${t}`)
-		elvenTradeRecipe([`minecraft:stone_${t}`, '#forge:sandstone'], `cyclic:sandstone_${t}`)
 		elvenTradeRecipe([`minecraft:diamond_${t}`, '#forge:gems/emerald'], `cyclic:emerald_${t}`)
 		elvenTradeRecipe([`minecraft:netherite_${t}`, '#forge:gems/diamond'], `cyclic:crystal_${t}`)
 		// Druidcraft

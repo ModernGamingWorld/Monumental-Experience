@@ -71,12 +71,12 @@ onEvent('recipes', e => {
 	offeringRecipe('modularrouters:breaker_module', 'modularrouters:blank_module', 'modularrouters:extruder_module_1')
 
 	// ARMORS
-	temp = ['chestplate', 'helmet', 'legs', 'boots']
+	temp = ['chestplate', 'helmet', 'leggings', 'boots']
 	temp.forEach(t => {
 		// Atum
-		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:iron_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : t}_iron`)
-		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:golden_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : t}_gold`)
-		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : t}`, `minecraft:diamond_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : t}_diamond`)
+		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:iron_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_iron`)
+		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:golden_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_gold`)
+		offeringRecipe(`atum:wanderer_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}`, `minecraft:diamond_${t}`, `atum:desert_${t == 'chestplate' ? 'chest' : (t == 'leggings' ? 'legs' : t)}_diamond`)
 		// Aquaculture
 		offeringRecipe(`minecraft:netherite_${t}`, '#forge:ingots/neptunium', `aquaculture:neptunium_${t}`)
 		// Botania
@@ -117,13 +117,13 @@ onEvent('recipes', e => {
 		offeringRecipe(`minecraft:iron_${t}`, '#forge:gems/certus_quartz', `appliedenergistics2:certus_quartz_${t}`)
 		offeringRecipe(`minecraft:iron_${t}`, '#forge:gems/quartz', `appliedenergistics2:nether_quartz_${t}`)
 		// Botania
-		offeringRecipe(`minecraft:iron_${t}`, '#forge:ingots/manasteel', `botania:manasteel_${t}`)
+		offeringRecipe(`minecraft:iron_${t}`, '#forge:ingots/manasteel', `botania:manasteel_${t == 'pickaxe' ? 'pick' : t}`)
 		offeringRecipe(`minecraft:iron_${t}`, '#forge:ingots/elementium', `botania:elementium_${t}`)
 		// Cyclic
-		offeringRecipe(`minecraft:netherite_${t}`, '#forge:gems/diamond', `cyclic:crystal_${t}`)
-		offeringRecipe(`minecraft:diamond_${t}`, '#forge:gems/emerald', `cyclic:emerald_${t}`)
 		offeringRecipe(`minecraft:stone_${t}`, '#forge:sandstone', `cyclic:sandstone_${t}`)
 		offeringRecipe(`minecraft:iron_${t}`, '#forge:bricks/nether', `cyclic:netherbrick_${t}`)
+		offeringRecipe(`minecraft:netherite_${t}`, '#forge:gems/diamond', `cyclic:crystal_${t}`)
+		offeringRecipe(`minecraft:diamond_${t}`, '#forge:gems/emerald', `cyclic:emerald_${t}`)
 		// Druidcraft
 		offeringRecipe(`minecraft:netherite_${t}`, '#forge:gems/moonstone', `druidcraft:moonstone_${t}`)
 		offeringRecipe(`minecraft:stone_${t}`, '#forge:bones', `druidcraft:bone_${t}`)
@@ -135,7 +135,7 @@ onEvent('recipes', e => {
 		offeringRecipe(`minecraft:iron_${t}`, `iceandfire:myrmex_jungle_chitin`, `iceandfire:myrmex_jungle_${t}`)
 		offeringRecipe(`minecraft:iron_${t}`, `iceandfire:myrmex_desert_chitin`, `iceandfire:myrmex_desert_${t}`)
 		// Immersive Engineering
-		offeringRecipe(`minecraft:iron_${t}`, '#forge:ingots/steel', `immersiveengineering:sword_${t}`)
+		offeringRecipe(`minecraft:iron_${t}`, '#forge:ingots/steel', `immersiveengineering:${t}_steel`)
 		// Forbidden Arcanus
 		offeringRecipe(`minecraft:netherite_${t}`, 'forbidden_arcanus:edelwood_stick', `forbidden_arcanus:reinforced_arcane_golden_${t}`)
 		offeringRecipe(`minecraft:netherite_${t}`, '#forge:ingots/arcane_gold', `forbidden_arcanus:arcane_golden_${t}`)
@@ -144,6 +144,6 @@ onEvent('recipes', e => {
 		// Gobber 2
 		offeringRecipe(`minecraft:netherite_${t}`, 'gobber2:gobber2_ingot', `gobber2:gobber2_${t}`)
 		offeringRecipe(`minecraft:netherite_${t}`, 'gobber2:gobber2_ingot_end', `gobber2:gobber2_${t}_end`)
-		offeringRecipe(`gobber2:gobber2_${t}`, 'gobber2:gobber2_ingot_nether', `gobber2:gobber2_${t}_nether`)
+		offeringRecipe(`minecraft:netherite_${t}`, 'gobber2:gobber2_ingot_nether', `gobber2:gobber2_${t}_nether`)
 	})
 })
