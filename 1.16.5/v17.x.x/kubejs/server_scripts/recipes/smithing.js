@@ -1,6 +1,7 @@
 onEvent('recipes', e => {
 	//Atum
 
+	e.smithing(Item.of('atum:limestone_pickaxe'), Item.of('minecraft:stone_pickaxe').ignoreNBT(), 'atum:limestone_cracked')
 	e.smithing(Item.of('atum:limestone_hoe'), Item.of('minecraft:stone_hoe').ignoreNBT(), 'atum:limestone_cracked')
 	e.smithing(Item.of('atum:limestone_sword'), Item.of('minecraft:stone_sword').ignoreNBT(), 'atum:limestone_cracked')
 	e.smithing(Item.of('atum:stoneguard_sword'), Item.of('minecraft:stone_sword').ignoreNBT(), '#forge:ingots/khnumite')
