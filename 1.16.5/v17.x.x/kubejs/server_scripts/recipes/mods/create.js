@@ -108,6 +108,7 @@ onEvent('recipes', e => {
     'create:smelting/ingot_lead_compat_immersiveengineering',
     'create:smelting/lead_ingot_compat_thermal',
     'create:smelting/lead_ingot_compat_eidolon',
-    'create:smelting/ingot_lead_compat_mekanism'
+    'create:smelting/ingot_lead_compat_mekanism',
+    'create_stuff_additions:brasss_pickaxe_recipe'
   ])
 })
