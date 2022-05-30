@@ -254,6 +254,7 @@ onEvent('recipes', e => {
 
 	//Forbidden Arcanus
 
+	e.smithing(Item.of('forbidden_arcanus:infernum_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), 'forbidden_arcanus:obsidian_skull')
 	e.smithing(Item.of('forbidden_arcanus:reinforced_arcane_golden_pickaxe'), Item.of('minecraft:netherite_pickaxe').ignoreNBT(), 'forbidden_arcanus:edelwood_stick')
 	e.smithing(Item.of('forbidden_arcanus:arcane_golden_pickaxe'), Item.of('minecraft:netherite_pickaxe').ignoreNBT(), '#forge:ingots/arcane_gold')
 	e.smithing(Item.of('forbidden_arcanus:slimec_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), 'forbidden_arcanus:golden_feather')
