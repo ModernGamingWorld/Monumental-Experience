@@ -1,5 +1,6 @@
 onEvent('recipes', e => {
   removeRecipeByID(e, [
+    'cyclic:uncrafter',
     'cyclic:netherbrick_pickaxe',
     'cyclic:melter',
     'cyclic:solidifier',
