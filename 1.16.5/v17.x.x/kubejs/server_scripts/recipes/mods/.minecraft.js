@@ -38,6 +38,10 @@ onEvent('recipes', e => {
 
   e.remove({ output: /minecraft:.*bed/ })
   removeRecipeByID(e, [
+    'minecraft:limestone_axe',
+    'minecraft:limestone_pickaxe',
+    'minecraft:limestone_sword',
+    'minecraft:limestone_hoe',
     'minecraft:stone_pickaxe',
     'minecraft:stone_pressure_plate',
     'minecraft:oak_pressure_plate',
