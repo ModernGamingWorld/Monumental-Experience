@@ -12,4 +12,5 @@ onEvent('recipes', e => {
 	altarRecipe('botania:mana_string', 'bloodmagic:soulsnare', 500, 0, 5, 1)
 	altarRecipe('forbidden_arcanus:arcane_crystal_block', 'naturesaura:infused_stone', 25000, 2, 20, 20)
 	altarRecipe('#forge:dusts/coke', 'immersiveengineering:dust_hop_graphite', 2500, 0, 150, 150)
+	altarRecipe('#forge:dusts/iron', 'astralsorcery:stardust', 3000, 0, 150, 150)
 })
