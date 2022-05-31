@@ -5,6 +5,8 @@ onEvent('recipes', e => {
 		'atum:diamond_from_blasting',
 		'atum:limestone_pickaxe',
 		'atum:limestone_axe',
+		'atum:limestone_hoe',
+		'atum:limestone_sword',
 		'atum:limestone_pressure_plate',
 		'atum:palm_pressure_plate',
 		'atum:deadwood_pressure_plate',
