@@ -164,6 +164,7 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('botania:elementium_hoe'), Item.of('minecraft:iron_hoe').ignoreNBT(), '#forge:ingots/elementium')
 	e.smithing(Item.of('botania:manasteel_pick'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/manasteel')
 	e.smithing(Item.of('botania:elementium_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/elementium')
+	e.smithing(Item.of('botania:glass_pickaxe'), Item.of('minecraft:wooden_pickaxe').ignoreNBT(), '#forge:ingots/manasteel')
 	e.smithing(Item.of('botania:manasteel_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/manasteel')
 	e.smithing(Item.of('botania:elementium_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/elementium')
 	e.smithing(Item.of('botania:manasteel_shovel'), Item.of('minecraft:iron_shovel').ignoreNBT(), '#forge:ingots/manasteel')
@@ -193,6 +194,12 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('botania:elementium_sword'), Item.of('minecraft:iron_sword').ignoreNBT(), '#forge:ingots/elementium')
 	e.smithing(Item.of('botania:terrasteel_helmet'), Item.of('minecraft:netherite_helmet').ignoreNBT(), '#forge:ingots/terrasteel')
 	e.smithing(Item.of('botania:terrasteel_chestplate'), Item.of('minecraft:netherite_chestplate').ignoreNBT(), '#forge:ingots/terrasteel')
+
+	//Create Additions
+	e.smithing(Item.of('create_stuff_additions:brass_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), '#forge:ingots/brass')
+	e.smithing(Item.of('create_stuff_additions:brass_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:ingots/brass')
+	e.smithing(Item.of('create_stuff_additions:zinc_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/zinc')
+	e.smithing(Item.of('create_stuff_additions:zinc_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/zinc')
 
 	//Cyclic
 	e.smithing(Item.of('cyclic:netherbrick_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:bricks/nether')
@@ -272,6 +279,9 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('forbidden_arcanus:arcane_gold_chestplate'), Item.of('minecraft:netherite_chestplate').ignoreNBT(), '#forge:ingots/arcane_gold')
 	e.smithing(Item.of('forbidden_arcanus:arcane_gold_helmet'), Item.of('minecraft:netherite_helmet').ignoreNBT(), '#forge:ingots/arcane_gold')
 	e.smithing(Item.of('forbidden_arcanus:draco_arcanus_pickaxe'), Item.of('minecraft:netherite_pickaxe').ignoreNBT(), '#forge:dragon_scales')
+	e.smithing(Item.of('forbidden_arcanus:draco_arcanus_axe'), Item.of('minecraft:netherite_axe').ignoreNBT(), '#forge:dragon_scales')
+	e.smithing(Item.of('forbidden_arcanus:obsidian_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), '#forge:ingots/obsidian')
+	e.smithing(Item.of('forbidden_arcanus:obsidian_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:ingots/obsidian')
 
 	//Gobber Armor
 	e.smithing(Item.of('gobber2:gobber2_helmet_end'), Item.of('minecraft:netherite_helmet').ignoreNBT(), 'gobber2:gobber2_ingot_end')
@@ -488,9 +498,13 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('mysticalagriculture:inferium_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), 'mysticalagriculture:inferium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:inferium_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), 'mysticalagriculture:inferium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:prudentium_pickaxe'), Item.of('mysticalagriculture:inferium_pickaxe').ignoreNBT(), 'mysticalagriculture:prudentium_gemstone')
+	e.smithing(Item.of('mysticalagriculture:prudentium_axe'), Item.of('mysticalagriculture:inferium_axe').ignoreNBT(), 'mysticalagriculture:prudentium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:tertium_pickaxe'), Item.of('mysticalagriculture:prudentium_pickaxe').ignoreNBT(), 'mysticalagriculture:tertium_gemstone')
+	e.smithing(Item.of('mysticalagriculture:tertium_axe'), Item.of('mysticalagriculture:prudentium_axe').ignoreNBT(), 'mysticalagriculture:tertium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:imperium_pickaxe'), Item.of('mysticalagriculture:tertium_pickaxe').ignoreNBT(), 'mysticalagriculture:imperium_gemstone')
+	e.smithing(Item.of('mysticalagriculture:imperium_axe'), Item.of('mysticalagriculture:tertium_axe').ignoreNBT(), 'mysticalagriculture:imperium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:supremium_pickaxe'), Item.of('mysticalagriculture:imperium_pickaxe').ignoreNBT(), 'mysticalagriculture:supremium_gemstone')
+	e.smithing(Item.of('mysticalagriculture:supremium_axe'), Item.of('mysticalagriculture:imperium_axe').ignoreNBT(), 'mysticalagriculture:supremium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:inferium_shovel'), Item.of('minecraft:diamond_shovel').ignoreNBT(), 'mysticalagriculture:inferium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:prudentium_shovel'), Item.of('mysticalagriculture:inferium_shovel').ignoreNBT(), 'mysticalagriculture:prudentium_gemstone')
 	e.smithing(Item.of('mysticalagriculture:inferium_hoe'), Item.of('minecraft:diamond_hoe').ignoreNBT(), 'mysticalagriculture:inferium_gemstone')
