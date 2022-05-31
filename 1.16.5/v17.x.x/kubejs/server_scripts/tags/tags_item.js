@@ -9,6 +9,7 @@ onEvent('item.tags', e => {
   e.add('forge:candles', [/quark:[a-z_]*_candle/, 'eidolon:candle', 'eidolon:candlestick', 'occultism:candle_white', 'supplementaries:candelabra', 'supplementaries:candelabra_silver', 'supplementaries:candle_holder'])
   e.add('forge:cauldron', ['minecraft:cauldron', 'xreliquary:apothecary_cauldron'])
   e.add('forge:chains', ['minecraft:chain', 'decorative_blocks:chain', 'forbidden_arcanus:iron_chain', 'forbidden_arcanus:arcane_golden_chain'])
+  e.add('minecraft:beds', 'undergarden:depthrock_bed')
   e.add('forge:chunks/coal', 'ironcoals:base_coal_chunk')
   e.add('forge:clock', ['minecraft:clock', 'supplementaries:clock_block', 'create:mysterious_cuckoo_clock', 'cyclic:clock', 'create:cuckoo_clock', 'botania:cosmetic_clock_eye'])
   e.add('forge:corals', [/\w+:(?!dead)(\w+)_coral$/])
