@@ -98,10 +98,10 @@ onEvent('recipes', e => {
     'appliedenergistics2:tools/nether_quartz_shovel',
     'appliedenergistics2:tools/nether_quartz_hoe',
     'appliedenergistics2:tools/nether_quartz_sword',
-    'appliedenergistics2:inscriber/engineering_processor_press',
+    'appliedenergistics2:inscriber/engineering_processor',
     'appliedenergistics2:inscriber/silicon_press',
-    'appliedenergistics2:inscriber/calculation_processor_press',
-    'appliedenergistics2:inscriber/logic_processor_press',
+    'appliedenergistics2:inscriber/calculation_processor',
+    'appliedenergistics2:inscriber/logic_processor',
     'appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator',
     'appliedenergistics2:network/blocks/quantum_ring',
     'appliedenergistics2:network/crafting/cpu_crafting_unit',
@@ -195,6 +195,6 @@ onEvent('recipes', e => {
     'ae2extras:network/cells/fluid_storage_cell_16m',
     'ae2extras:network/cells/fluid_storage_cell_16m_storage',
     'extradisks:advanced_storage_housing',
-    'extradisks:withering_processor'
+    'extradisks:raw_withering_processor'
   ])
 })
