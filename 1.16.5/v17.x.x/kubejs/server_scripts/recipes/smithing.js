@@ -199,6 +199,8 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('create_stuff_additions:brass_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), '#forge:ingots/brass')
 	e.smithing(Item.of('create_stuff_additions:brass_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:ingots/brass')
 	e.smithing(Item.of('create_stuff_additions:zinc_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/zinc')
+	e.smithing(Item.of('create_stuff_additions:copper_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/copper')
+	e.smithing(Item.of('create_stuff_additions:copper_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/copper')
 	e.smithing(Item.of('create_stuff_additions:zinc_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/zinc')
 
 	//Cyclic
@@ -280,8 +282,10 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('forbidden_arcanus:arcane_gold_helmet'), Item.of('minecraft:netherite_helmet').ignoreNBT(), '#forge:ingots/arcane_gold')
 	e.smithing(Item.of('forbidden_arcanus:draco_arcanus_pickaxe'), Item.of('minecraft:netherite_pickaxe').ignoreNBT(), '#forge:dragon_scales')
 	e.smithing(Item.of('forbidden_arcanus:draco_arcanus_axe'), Item.of('minecraft:netherite_axe').ignoreNBT(), '#forge:dragon_scales')
+	e.smithing(Item.of('forbidden_arcanus:draco_arcanus_sword'), Item.of('minecraft:netherite_axe').ignoreNBT(), '#forge:dragon_scales')
 	e.smithing(Item.of('forbidden_arcanus:obsidian_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), '#forge:ingots/obsidian')
 	e.smithing(Item.of('forbidden_arcanus:obsidian_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:ingots/obsidian')
+	e.smithing(Item.of('forbidden_arcanus:obsidian_sword'), Item.of('minecraft:diamond_sword').ignoreNBT(), '#forge:ingots/obsidian')
 
 	//Gobber Armor
 	e.smithing(Item.of('gobber2:gobber2_helmet_end'), Item.of('minecraft:netherite_helmet').ignoreNBT(), 'gobber2:gobber2_ingot_end')
