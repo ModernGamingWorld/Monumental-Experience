@@ -200,11 +200,14 @@ onEvent('recipes', e => {
 	e.smithing(Item.of('create_stuff_additions:brass_pickaxe'), Item.of('minecraft:diamond_pickaxe').ignoreNBT(), '#forge:ingots/brass')
 	e.smithing(Item.of('create_stuff_additions:brass_axe'), Item.of('minecraft:diamond_axe').ignoreNBT(), '#forge:ingots/brass')
 	e.smithing(Item.of('create_stuff_additions:brass_sword'), Item.of('minecraft:diamond_sword').ignoreNBT(), '#forge:ingots/brass')
+	e.smithing(Item.of('create_stuff_additions:brass_hoe'), Item.of('minecraft:diamond_hoe').ignoreNBT(), '#forge:ingots/brass')
 	e.smithing(Item.of('create_stuff_additions:zinc_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/zinc')
 	e.smithing(Item.of('create_stuff_additions:zinc_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/zinc')
+	e.smithing(Item.of('create_stuff_additions:zinc_hoe'), Item.of('minecraft:iron_hoe').ignoreNBT(), '#forge:ingots/zinc')
 	e.smithing(Item.of('create_stuff_additions:zinc_sword'), Item.of('minecraft:iron_sword').ignoreNBT(), '#forge:ingots/zinc')
 	e.smithing(Item.of('create_stuff_additions:copper_axe'), Item.of('minecraft:iron_axe').ignoreNBT(), '#forge:ingots/copper')
 	e.smithing(Item.of('create_stuff_additions:copper_pickaxe'), Item.of('minecraft:iron_pickaxe').ignoreNBT(), '#forge:ingots/copper')
+	e.smithing(Item.of('create_stuff_additions:copper_hoe'), Item.of('minecraft:iron_hoe').ignoreNBT(), '#forge:ingots/copper')
 	e.smithing(Item.of('create_stuff_additions:copper_sword'), Item.of('minecraft:iron_sword').ignoreNBT(), '#forge:ingots/copper')
 
 	//Cyclic
