@@ -4,6 +4,7 @@ onEvent('recipes', e => {
     'forbidden_arcanus:slimec_pickaxe',
     'forbidden_arcanus:draco_arcanus_pickaxe',
     'forbidden_arcanus:draco_arcanus_axe',
+    'forbidden_arcanus:draco_arcanus_sword',
     'forbidden_arcanus:eternal_stella',
     'forbidden_arcanus:arcane_gold_ingot',
     'forbidden_arcanus:corrupti_dust',
