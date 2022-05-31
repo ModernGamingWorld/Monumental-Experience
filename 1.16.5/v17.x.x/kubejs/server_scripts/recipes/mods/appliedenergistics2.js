@@ -104,6 +104,7 @@ onEvent('recipes', e => {
     'appliedenergistics2:inscriber/logic_processor',
     'appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator',
     'appliedenergistics2:network/blocks/quantum_ring',
+    'appliedenergistics2:network/blocks/quantum_link',
     'appliedenergistics2:network/crafting/cpu_crafting_unit',
     'appliedenergistics2:network/crafting/patterns_blank',
     'appliedenergistics2:network/parts/import_bus',
