@@ -15,6 +15,7 @@ onEvent('jei.hide.items', e => {
     /^bloodmagic:.+_bucket$/,
     /^blue_skies:.+_ore$/,
     /^blue_skies:ventium_.+_bucket$/,
+    /^betteranimalsplus:.*_bucket$/,
 
     /^cfm:(?!.*spruce).+_(table|chair|cabinet|desk|blinds|fence|gate|crate|bench|mail_box|hedge|counter|drawer|sink_light|sink_dark)$/,
     /^cfm:(?!.*white).+_(sofa|cooler|grill|counter|fence|gate|drawer|kitchen_sink)$/,
