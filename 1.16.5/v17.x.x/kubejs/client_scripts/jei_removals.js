@@ -92,6 +92,7 @@ onEvent('jei.hide.items', e => {
     /^minecolonies:.+egg/,
     /^mysticalagradditions:.+_(ore|bucket)$/,
     /^mysticalagriculture:.+_ore$/,
+    'mysticalagriculture:infusion_crystal',
     /^mythicbotany:.+_ore$/,
 
     /^occultism:(copper|silver)_(ore|ingot|nugget|dust)$/,
