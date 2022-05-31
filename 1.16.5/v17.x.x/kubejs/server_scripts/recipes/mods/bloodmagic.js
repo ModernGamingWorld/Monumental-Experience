@@ -17,6 +17,7 @@ onEvent('recipes', e => {
     'bloodmagic:soulforge/lessertartaricgem',
     'bloodmagic:soulforge/pettytartaricgem',
     'bloodmagic:soulforge/demon_crucible',
-    'bloodmagic:soulforge/demon_crystallizer'
+    'bloodmagic:soulforge/demon_crystallizer',
+    'bloodmagic:alchemytable/leather_from_flesh'
   ])
 })
