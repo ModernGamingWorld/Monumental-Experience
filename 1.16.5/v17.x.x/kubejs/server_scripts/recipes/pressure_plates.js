@@ -18,6 +18,9 @@ onEvent('recipes', e => {
       mod: 'undergarden',
       plates: ['smogstem', 'wigglewood', 'grongle'],
     }, {
+      mod: 'ars_nouveau',
+      plates: ['archwood'],
+    },{
       mod: 'quark',
       plates: ['obsidian'],
       materials: ['#forge:obsidian']
@@ -68,6 +71,9 @@ onEvent('recipes', e => {
     }, {
       mod: 'atum',
       plates: ['palm', 'deadwood']
+    }, {
+      mod: 'hexerei',
+      plates: ['mahogany', 'willow']
     }
   ]
 
