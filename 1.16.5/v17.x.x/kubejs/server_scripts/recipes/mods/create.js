@@ -111,7 +111,12 @@ onEvent('recipes', e => {
     'create:smelting/ingot_lead_compat_mekanism',
     'create_stuff_additions:brasss_pickaxe_recipe',
     'create_stuff_additions:brasss_axe_recipe',
+    'create_stuff_additions:brasss_sword_recipe',
+    'create_stuff_additions:copper_pickaxe_recipe',
+    'create_stuff_additions:copper_axe_recipe',
+    'create_stuff_additions:copper_sword_recipe',
     'create_stuff_additions:zinc_pickaxe_recipe',
-    'create_stuff_additions:zinc_axe_recipe'
+    'create_stuff_additions:zinc_axe_recipe',
+    'create_stuff_additions:zinc_sword_recipe'
   ])
 })
