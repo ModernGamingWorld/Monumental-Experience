@@ -112,11 +112,14 @@ onEvent('recipes', e => {
     'create_stuff_additions:brasss_pickaxe_recipe',
     'create_stuff_additions:brasss_axe_recipe',
     'create_stuff_additions:brasss_sword_recipe',
+    'create_stuff_additions:brasss_hoe_recipe',
     'create_stuff_additions:copper_pickaxe_recipe',
     'create_stuff_additions:copper_axe_recipe',
+    'create_stuff_additions:copper_hoe_recipe',
     'create_stuff_additions:copper_sword_recipe',
     'create_stuff_additions:zinc_pickaxe_recipe',
     'create_stuff_additions:zinc_axe_recipe',
     'create_stuff_additions:zinc_sword_recipe'
+    'create_stuff_additions:zinc_hoe_recipe'
   ])
 })
