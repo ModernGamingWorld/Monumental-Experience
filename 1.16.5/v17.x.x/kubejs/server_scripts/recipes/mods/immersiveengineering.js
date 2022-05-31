@@ -12,6 +12,10 @@ onEvent('recipes', e => {
     w: '#forge:wires/copper',
     s: 'createaddition:spool'
   })
+  e.shaped('2x immersiveengineering:wirecoil_structure_rope', [' w ', 'wsw', ' w '], {
+    w: '#forge:fiber_hemp',
+    s: 'createaddition:spool'
+  })
   e.shaped('2x immersiveengineering:wirecoil_redstone', [' w ', 'asa', ' w '], {
     w: '#forge:wires/aluminum',
     a: '#forge:dusts/redstone',
@@ -93,6 +97,7 @@ onEvent('recipes', e => {
     'immersiveengineering:crafting/wirecoil_steel',
     'immersiveengineering:crafting/wirecoil_electrum',
     'immersiveengineering:crafting/wirecoil_structure_steel',
+    'immersiveengineering:crafting/wirecoil_structure_rope',
     'immersiveengineering:crafting/blastingfurnace_preheater',
     'immersiveengineering:crafting/workbench',
     'immersiveengineering:crafting/concrete',
