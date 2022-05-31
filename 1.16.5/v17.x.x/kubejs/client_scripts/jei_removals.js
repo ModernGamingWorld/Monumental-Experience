@@ -10,6 +10,7 @@ onEvent('jei.hide.items', e => {
     /^ars_nouveau:.+_se$/,
 
     /^astralsorcery:.+_(ore|bucket)$/,
+    'astralsorcery:glow_flower',
     /^atum:.+_ore$/,
     /^bigreactors:.+(ore|bucket)$/,
     /^bloodmagic:.+_bucket$/,
