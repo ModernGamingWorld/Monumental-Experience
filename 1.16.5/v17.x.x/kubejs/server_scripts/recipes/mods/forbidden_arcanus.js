@@ -19,6 +19,7 @@ onEvent('recipes', e => {
     'forbidden_arcanus:reinforced_arcane_golden_pickaxe',
     'forbidden_arcanus:reinforced_arcane_golden_axe',
     'forbidden_arcanus:arcane_golden_pickaxe',
+    'forbidden_arcanus:arcane_golden_axe',
     'forbidden_arcanus:bone_shovel',
     'forbidden_arcanus:obsidian_shovel',
     'forbidden_arcanus:reinforced_arcane_golden_shovel',
