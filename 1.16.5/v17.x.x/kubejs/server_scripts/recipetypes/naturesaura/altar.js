@@ -11,6 +11,7 @@ onEvent('recipes', e => {
 	}
 
 	altarRecipe('forbidden_arcanus:arcane_crystal_block', 'naturesaura:infused_stone', 'naturesaura:overworld', 7500, 40, 'infused_stone')
+	altarRecipe('#forge:dusts/iron', 'astralsorcery:stardust', 'naturesaura:overworld', 3000, 40, 'infused_stone')
 	altarRecipe('#forge:storage_blocks/psimetal', 'naturesaura:tainted_gold_block', 'naturesaura:nether', 30000, 250, 'tainted_gold_block')
 	altarRecipe('#forge:ingots/psimetal', 'naturesaura:tainted_gold', 'naturesaura:nether', 30000, 250, 'tainted_gold')
 })
