@@ -140,5 +140,4 @@ onEvent('recipes', e => {
 	e.recipes.create.mechanical_crafting('thermal:machine_brewer', ['XXX', 'YCY', 'IPI'], { C: 'thermal:machine_frame', I: '#forge:gears/constantan', P: 'thermal:rf_coil', X: 'minecraft:brewing_stand', Y: '#thermal:glass/hardened' })
 	e.recipes.create.mechanical_crafting('thermal:machine_press', [' X ', 'YCY', 'IPI'], { C: 'thermal:machine_frame', I: '#forge:gears/constantan', P: 'thermal:rf_coil', X: 'create:mechanical_press', Y: '#forge:plates/bronze' })
 	e.recipes.create.mechanical_crafting('thermal:machine_crucible', ['SXS', 'YPY', 'ICI'], { C: 'thermal:rf_coil', I: '#forge:gears/invar', P: 'thermal:machine_frame', X: 'create:blaze_burner', Y: '#chipped:nether_bricks', S: '#thermal:glass/hardened' })
-
 });
