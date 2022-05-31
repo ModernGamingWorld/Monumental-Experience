@@ -49,6 +49,8 @@ onEvent('jei.hide.items', e => {
     /^iceandfire:.+_ore$/,
     'iceandfire:silver_pickaxe',
     'iceandfire:copper_pickaxe',
+    'iceandfire:silver_axe',
+    'iceandfire:copper_axe',
 
     /^immersive(engineering|petroleum):.+_bucket$/,
     /^immersiveengineering:(ore|dust|stick|plate|storage|nugget|ingot)_.+/,
