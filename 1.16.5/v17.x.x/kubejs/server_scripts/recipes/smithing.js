@@ -2,6 +2,7 @@ onEvent(`recipes`, e => {
 	let tools = [`sword`, `shovel`, `pickaxe`, `axe`, `hoe`]
 	let armors = [`helmet`, `chestplate`, `leggings`, `boots`]
 	let gobberTypes = ['', '_nether', '_end']
+	let blueSkiesPlankTypes = ['cherry', 'maple', 'frostbright', 'dusk', 'starlit', 'lunar', 'bluebright']
 
 	// Atum
 	e.smithing(`atum:stoneguard_sword`, Item.of(`minecraft:stone_sword`).ignoreNBT(), `#forge:ingots/khnumite`)
@@ -94,6 +95,17 @@ onEvent(`recipes`, e => {
 		// Applied Energistics 2
 		e.smithing(`appliedenergistics2:certus_quartz_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:gems/certus_quartz`)
 		e.smithing(`appliedenergistics2:nether_quartz_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:gems/quartz`)
+		// Blue Skies
+		blueSkiesPlankTypes.forEach(b => {
+			e.smithing(`blue_skies:${b}_${t}`, Item.of(`minecraft:wooden_${t}`).ignoreNBT(), `blue_skies:${b}_planks`)
+		})
+		e.smithing(`blue_skies:lunar_stone_${t}`, Item.of(`minecraft:stone_${t}`).ignoreNBT(), `blue_skies:lunar_cobblestone`)
+		e.smithing(`blue_skies:turquoise_stone_${t}`, Item.of(`minecraft:stone_${t}`).ignoreNBT(), `blue_skies:turquoise_cobblestone`)
+		e.smithing(`blue_skies:pyrope_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#blue_skies:gems/pyrope`)
+		e.smithing(`blue_skies:horizonite_${t}`, Item.of(`minecraft:diamond_${t}`).ignoreNBT(), `#blue_skies:ingots/horizonite`)
+		e.smithing(`blue_skies:charoite_${t}`, Item.of(`minecraft:diamond_${t}`).ignoreNBT(), `#blue_skies:gems/charoite`)
+		e.smithing(`blue_skies:aquite_${t}`, Item.of(`minecraft:diamond_${t}`).ignoreNBT(), `#blue_skies:gems/aquite`)
+		e.smithing(`blue_skies:diopside_${t}`, Item.of(`minecraft:netherite_${t}`).ignoreNBT(), `#blue_skies:gems/diopside`)
 		// Botania
 		e.smithing(`botania:manasteel_${t == `pickaxe` ? `pick` : t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:ingots/manasteel`)
 		e.smithing(`botania:elementium_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:ingots/elementium`)
@@ -160,6 +172,13 @@ onEvent(`recipes`, e => {
 		e.smithing(`atum:desert_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : a)}_diamond`, Item.of(`atum:wanderer_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : a)}`).ignoreNBT(), `minecraft:diamond_${a}`)
 		// Aquaculture
 		e.smithing(`aquaculture:neptunium_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#forge:ingots/neptunium`)
+		// Blue Skies
+		e.smithing(`blue_skies:pyrope_${a}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `#blue_skies:gems/pyrope`)
+		e.smithing(`blue_skies:shadow_${a}`, Item.of(`minecraft:golden_${a}`).ignoreNBT(), `#forge:ingots/shadow_steel`)
+		e.smithing(`blue_skies:horizonite_${a}`, Item.of(`minecraft:diamond_${a}`).ignoreNBT(), `#blue_skies:ingots/horizonite`)
+		e.smithing(`blue_skies:charoite_${a}`, Item.of(`minecraft:diamond_${a}`).ignoreNBT(), `#blue_skies:gems/charoite`)
+		e.smithing(`blue_skies:aquite_${a}`, Item.of(`minecraft:diamond_${a}`).ignoreNBT(), `#blue_skies:gems/aquite`)
+		e.smithing(`blue_skies:diopside_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#blue_skies:gems/diopside`)
 		// Botania
 		e.smithing(`botania:terrasteel_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#forge:ingots/terrasteel`)
 		e.smithing(`botania:manasteel_${a}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `#forge:ingots/manasteel`)
