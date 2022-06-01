@@ -121,6 +121,7 @@ onEvent('recipes', e => {
     'appliedenergistics2:network/parts/planes_formation_fluid',
     'appliedenergistics2:network/parts/quartz_fiber_part',
     'appliedenergistics2:network/parts/panels_semi_dark_monitor',
+    'appliedenergistics2:network/parts/tunnels_me',
     'appliedenergistics2:decorative/quartz_glass',
     'appliedenergistics2:decorative/quartz_vibrant_glass',
     'appliedenergistics2:materials/formationcore',
