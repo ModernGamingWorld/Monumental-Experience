@@ -89,6 +89,7 @@ onEvent('recipes', e => {
 	e.recipes.create.mixing('2x mysticalagradditions:insanium_essence', ['mysticalagriculture:supremium_essence', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:supremium_essence', 'mysticalagriculture:supremium_essence', 'matc:supremium_crystal']).superheated()
 	e.recipes.create.mixing('4x refinedstorage:quartz_enriched_iron', ['#forge:gems/silicon', '#forge:gems/silicon', 'extendedcrafting:black_iron_ingot']).superheated()
 	e.recipes.create.mixing('refinedstorage:processor_binding', ['immersiveengineering:hemp_fiber', 'immersiveengineering:hemp_fiber', 'bloodmagic:reagentbinding', 'mysticalagriculture:pink_slime_essence', 'mysticalagriculture:pink_slime_essence']).superheated()
+	e.recipes.create.mixing('refinedstorage:construction_core', ['refinedstorage:basic_processor', '#forge:dusts/glowstone']).superheated()
 	e.recipes.create.mixing('refinedstorage:destruction_core', ['refinedstorage:basic_processor', '#forge:gems/quartz']).superheated()
 	e.recipes.create.mixing('refinedstorage:raw_improved_processor', ['immersiveengineering:wirecoil_electrum', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding', 'immersiveengineering:wirecoil_electrum']).superheated()
 	e.recipes.create.mixing('refinedstorage:raw_basic_processor', ['extendedcrafting:black_iron_ingot', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding']).superheated()
