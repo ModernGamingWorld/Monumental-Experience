@@ -42,6 +42,13 @@ onEvent('jei.hide.items', e => {
 
     /emendatusenigmatica:.+_(andesite|granite|diorite|sand|gravel|netherrack|blackstone|basalt|soul_soil|end_stone|gabbro|c_limestone|scoria|weathered_limestone|jasper|marble|slate|deepslate|mossy_stone|brimstone|subzero_ash|blue_netherrack|nylium_soul_soil|ether_stone|cryptic_stone|flavolite|sulphuric_rock|violecite|raw_marble)_ore$/,
     /^emendatusenigmatica:.+_bucket$/,
+    /^emendatusenigmatica:.+_dirty_dust$/,
+    /^emendatusenigmatica:.+_crystal$/,
+    /^emendatusenigmatica:.+_gravel$/,
+    /^emendatusenigmatica:.+_fragment$/,
+    /^emendatusenigmatica:.+_crushed$/,
+    /^emendatusenigmatica:.+_shard$/,
+    /^emendatusenigmatica:.+_clump$/,
 
     /^environmental:.+_bucket$/,
     /^forbidden_arcanus:.+_bucket$/,
