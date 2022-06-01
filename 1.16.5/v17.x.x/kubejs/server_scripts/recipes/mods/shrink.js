@@ -3,7 +3,7 @@ onEvent('recipes', e => {
     G: '#forge:ingots/steel',
     E: '#forge:glass',
     P: 'immersiveengineering:circuit_board',
-    D: '#forge:ender_pearls'
+    D: 'rftoolsbase:infused_enderpearl'
   })
 
   removeRecipeByID(e, [
