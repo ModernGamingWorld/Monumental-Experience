@@ -10,6 +10,12 @@ onEvent('recipes', e => {
     A: '#forge:chunks/redstone',
     B: '#forge:rods/wooden'
   })
+  e.shaped('1x minecraft:stick', ['A', 'A'], {
+    A: 'environmental:cattail'
+  })
+  e.shaped('1x minecraft:stick', ['A', 'A'], {
+    A: 'biomesoplenty:cattail'
+  })
   e.shaped('2x minecraft:soul_torch', ['A', 'B', 'C'], {
     A: '#forge:chunks/coal',
     B: '#forge:rods/wooden',
