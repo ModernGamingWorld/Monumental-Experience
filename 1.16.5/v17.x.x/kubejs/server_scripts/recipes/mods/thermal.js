@@ -93,6 +93,8 @@ onEvent('recipes', e => {
     'thermal:smelting/copper_ingot_from_dust_smelting',
     'thermal:smelting/copper_ingot_from_ore_smelting',
     'thermal:rf_coil',
+    'thermal:dynamo_disenchantment',
+    'thermal:dynamo_gourmand',
     'thermal:dynamo_lapidary',
     'thermal:dynamo_compression',
     'thermal:dynamo_magmatic',
