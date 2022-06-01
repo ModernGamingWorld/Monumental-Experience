@@ -97,7 +97,6 @@ onEvent(`recipes`, e => {
 		// Botania
 		e.smithing(`botania:manasteel_${t == `pickaxe` ? `pick` : t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:ingots/manasteel`)
 		e.smithing(`botania:elementium_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:ingots/elementium`)
-		e.smithing(`botania:glass_${t}`, Item.of(`minecraft:wooden_${t}`).ignoreNBT(), `#forge:ingots/manasteel`)
 		// Create Additions
 		e.smithing(`create_stuff_additions:brass_${t}`, Item.of(`minecraft:diamond_${t}`).ignoreNBT(), `#forge:ingots/brass`)
 		e.smithing(`create_stuff_additions:zinc_${t}`, Item.of(`minecraft:iron_${t}`).ignoreNBT(), `#forge:ingots/zinc`)
@@ -179,8 +178,8 @@ onEvent(`recipes`, e => {
 			e.smithing(`gobber2:gobber2_${a}${t}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `gobber2:gobber2_ingot${t}`)
 		})
 		// Immersive Engineering
-		e.smithing(`immersiveengineering:armor_steel_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : a)}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `#forge:plates/steel`)
-		e.smithing(`immersiveengineering:armor_faraday_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : a)}`, Item.of(`minecraft:leather_${a}`).ignoreNBT(), `#forge:plates/aluminum`)
+		e.smithing(`immersiveengineering:armor_steel_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : (a == 'helmet' ? 'head' : 'feet'))}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `#forge:plates/steel`)
+		e.smithing(`immersiveengineering:armor_faraday_${a == `chestplate` ? `chest` : (a == `leggings` ? `legs` : (a == 'helmet' ? 'head' : 'feet'))}`, Item.of(`minecraft:leather_${a}`).ignoreNBT(), `#forge:plates/aluminum`)
 		// Ice and Fire
 		e.smithing(`iceandfire:dragonsteel_lightning_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#forge:ingots/dragonsteel_lightning`)
 		e.smithing(`iceandfire:dragonsteel_ice_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#forge:ingots/dragonsteel_ice`)
@@ -198,8 +197,8 @@ onEvent(`recipes`, e => {
 		e.smithing(`mysticalagriculture:imperium_${a}`, Item.of(`mysticalagriculture:tertium_${a}`).ignoreNBT(), `mysticalagriculture:imperium_gemstone`)
 		e.smithing(`mysticalagriculture:supremium_${a}`, Item.of(`mysticalagriculture:imperium_${a}`).ignoreNBT(), `mysticalagriculture:supremium_gemstone`)
 		// Nature`s Aura
-		e.smithing(`naturesaura:infused_iron_${a == `chestplate` ? `chest` : (a == `leggings` ? `pants` : a)}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `naturesaura:infused_iron`)
-		e.smithing(`naturesaura:sky_${a == `chestplate` ? `chest` : (a == `leggings` ? `pants` : a)}`, Item.of(`minecraft:diamond_${a}`).ignoreNBT(), `naturesaura:sky_ingot`)
+		e.smithing(`naturesaura:infused_iron_${a == `chestplate` ? `chest` : (a == `leggings` ? `pants` : (a == 'boots' ? 'shoes' : a))}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `naturesaura:infused_iron`)
+		e.smithing(`naturesaura:sky_${a == `chestplate` ? `chest` : (a == `leggings` ? `pants` : (a == 'boots' ? 'shoes' : a))}`, Item.of(`minecraft:diamond_${a}`).ignoreNBT(), `naturesaura:sky_ingot`)
 		// Pneumaticcraft
 		e.smithing(`pneumaticcraft:compressed_iron_${a}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `kubejs:compressed_iron_plate`)
 		// PSI
@@ -214,4 +213,22 @@ onEvent(`recipes`, e => {
 		e.smithing(`undergarden:froststeel_${a}`, Item.of(`minecraft:iron_${a}`).ignoreNBT(), `#forge:ingots/froststeel`)
 		e.smithing(`undergarden:utheric_${a}`, Item.of(`minecraft:netherite_${a}`).ignoreNBT(), `#forge:ingots/utherium`)
 	})
+
+	// Undergrden
+	e.smithing(`undergarden:cloggrum_chestplate`, Item.of(`minecraft:iron_chestplate`).ignoreNBT(), `#forge:ingots/cloggrum`)
+	e.smithing(`undergarden:froststeel_chestplate`, Item.of(`minecraft:iron_chestplate`).ignoreNBT(), `#forge:ingots/froststeel`)
+	e.smithing(`undergarden:utheric_chestplate`, Item.of(`minecraft:netherite_chestplate`).ignoreNBT(), `#forge:ingots/utherium`)
+
+	e.smithing(`undergarden:cloggrum_helmet`, Item.of(`minecraft:iron_helmet`).ignoreNBT(), `#forge:ingots/cloggrum`)
+	e.smithing(`undergarden:froststeel_helmet`, Item.of(`minecraft:iron_helmet`).ignoreNBT(), `#forge:ingots/froststeel`)
+	e.smithing(`undergarden:utheric_helmet`, Item.of(`minecraft:netherite_helmet`).ignoreNBT(), `#forge:ingots/utherium`)
+
+	e.smithing(`undergarden:cloggrum_leggings`, Item.of(`minecraft:iron_leggings`).ignoreNBT(), `#forge:ingots/cloggrum`)
+	e.smithing(`undergarden:froststeel_leggings`, Item.of(`minecraft:iron_leggings`).ignoreNBT(), `#forge:ingots/froststeel`)
+	e.smithing(`undergarden:utheric_leggings`, Item.of(`minecraft:netherite_leggings`).ignoreNBT(), `#forge:ingots/utherium`)
+
+	e.smithing(`undergarden:cloggrum_boots`, Item.of(`minecraft:iron_boots`).ignoreNBT(), `#forge:ingots/cloggrum`)
+	e.smithing(`undergarden:froststeel_boots`, Item.of(`minecraft:iron_boots`).ignoreNBT(), `#forge:ingots/froststeel`)
+	e.smithing(`undergarden:utheric_boots`, Item.of(`minecraft:netherite_boots`).ignoreNBT(), `#forge:ingots/utherium`)
+
 })
