@@ -15,4 +15,5 @@ onEvent('recipes', e => {
 	compressorRecipe('immersiveengineering:capacitor_hv', 'immersiveengineering:capacitor_creative')
 	compressorRecipe('botania:fabulous_pool', 'botania:creative_pool')
 	compressorRecipe('rftoolspower:dimensionalcell_advanced', 'rftoolspower:dimensionalcell_creative')
+	compressorRecipe('create:blaze_cake', 'create:creative_blaze_cake')
 })
