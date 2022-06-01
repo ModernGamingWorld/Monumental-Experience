@@ -1,6 +1,7 @@
 onEvent('recipes', e => {
   removeRecipeByID(e, [
     'computercraft:computer_advanced',
+    'computercraft:disk_1',
     'computercraft:cable',
     'computercraft:computer_advanced_upgrade',
     'computercraft:computer_normal',
