@@ -85,6 +85,7 @@ onEvent('recipes', e => {
 
   removeRecipeByID(e, [
     'appliedenergistics2:misc/meteors_sky_compass',
+    'appliedenergistics2:misc/grindstone_crank',
     'appliedenergistics2:inscriber/calculation_processor_print',
     'appliedenergistics2:inscriber/logic_processor_print',
     'appliedenergistics2:inscriber/engineering_processor_print',
