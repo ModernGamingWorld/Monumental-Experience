@@ -16,4 +16,5 @@ onEvent('recipes', e => {
 	compressorRecipe('botania:fabulous_pool', 'botania:creative_pool')
 	compressorRecipe('rftoolspower:dimensionalcell_advanced', 'rftoolspower:dimensionalcell_creative')
 	compressorRecipe('create:blaze_cake', 'create:creative_blaze_cake')
+	compressorRecipe(Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{stored:"256000000"}]}}').weakNBT(), Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{stored:"18446744073709551615.9999"}]}}'))
 })
