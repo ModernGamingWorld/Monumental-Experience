@@ -1,4 +1,6 @@
 onEvent('recipes', e => {
+  e.shapeless('forbidden_arcanus:bat_wing', 'xreliquary:bat_wing')
+
   removeRecipeByID(e, [
     'forbidden_arcanus:aquatic_dragon_scale',
     'forbidden_arcanus:slimec_pickaxe',
