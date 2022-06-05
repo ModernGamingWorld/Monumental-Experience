@@ -13,6 +13,8 @@ onEvent(`recipes`, e => {
 		})
 	}
 
+	// Alex's Mobs
+	offeringRecipe(`minecraft:iron_chestplate`, `alexsmobs:crocodile_scute`, `alexsmobs:crocodile_chestplate`)
 	// AIOT
 	offeringRecipe(`minecraft:netherite_hoe`, `#forge:ingots/terrasteel`, `aiotbotania:terra_hoe`)
 	offeringRecipe(`minecraft:netherite_shovel`, `#forge:ingots/terrasteel`, `aiotbotania:terra_shovel`)
