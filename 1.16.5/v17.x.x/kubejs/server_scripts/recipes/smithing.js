@@ -4,13 +4,15 @@ onEvent(`recipes`, e => {
 	let gobberTypes = ['', '_nether', '_end']
 	let blueSkiesPlankTypes = ['cherry', 'maple', 'frostbright', 'dusk', 'starlit', 'lunar', 'bluebright']
 
+	// AIOT
+	e.smithing(`aiotbotania:terra_hoe`, Item.of(`minecraft:netherite_hoe`).ignoreNBT(), `#forge:ingots/terrasteel`)
+	// Alex's Mobs
+	e.smithing(`alexsmobs:crocodile_chestplate`, Item.of(`minecraft:iron_chestplate`).ignoreNBT(), `alexsmobs:crocodile_scute`)
+	// Aquaculture
+	e.smithing(`aquaculture:neptunium_bow`, `#forge:string`, `#forge:ingots/neptunium`)
 	// Atum
 	e.smithing(`atum:stoneguard_sword`, Item.of(`minecraft:stone_sword`).ignoreNBT(), `#forge:ingots/khnumite`)
 	e.smithing(`atum:stoneguard_greatsword`, Item.of(`atum:stoneguard_sword`).ignoreNBT(), `#forge:ingots/khnumite`)
-	// AIOT
-	e.smithing(`aiotbotania:terra_hoe`, Item.of(`minecraft:netherite_hoe`).ignoreNBT(), `#forge:ingots/terrasteel`)
-	// Aquaculture
-	e.smithing(`aquaculture:neptunium_bow`, `#forge:string`, `#forge:ingots/neptunium`)
 	// Botania
 	e.smithing(`botania:livingwood_bow`, `botania:mana_string`, `botania:livingwood_twig`)
 	e.smithing(`botania:mana_ring`, `botania:mana_tablet`, `#forge:ingots/manasteel`)
