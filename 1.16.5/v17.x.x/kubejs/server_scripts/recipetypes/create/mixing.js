@@ -94,6 +94,8 @@ onEvent('recipes', e => {
 	e.recipes.create.mixing('refinedstorage:raw_improved_processor', ['immersiveengineering:wirecoil_electrum', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding', 'immersiveengineering:wirecoil_electrum']).superheated()
 	e.recipes.create.mixing('refinedstorage:raw_basic_processor', ['extendedcrafting:black_iron_ingot', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding']).superheated()
 	e.recipes.create.mixing('refinedstorage:raw_advanced_processor', ['#forge:gears/diamond', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding']).superheated()
+	e.recipes.create.mixing('extradisks:raw_withering_processor', ['#forge:nether_stars', '#forge:gems/silicon', 'extendedcrafting:redstone_catalyst', 'refinedstorage:processor_binding']).superheated()
+	e.recipes.create.mixing('extrastorage:raw_neural_processor', ['#forge:workbenches', '#forge:gems/quartz', '#forge:obsidian', 'refinedstorage:processor_binding']).superheated()
 	e.recipes.create.mixing('2x thermal:enderium_glass', ['thermal:obsidian_glass', 'thermal:obsidian_glass', '#forge:ingots/enderium']).superheated()
 	e.recipes.create.mixing('2x thermal:lumium_glass', ['thermal:obsidian_glass', 'thermal:obsidian_glass', '#forge:ingots/lumium']).superheated()
 	e.recipes.create.mixing('2x thermal:signalum_glass', ['thermal:obsidian_glass', 'thermal:obsidian_glass', '#forge:ingots/signalum']).superheated()
