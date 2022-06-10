@@ -186,6 +186,8 @@ onEvent('recipes', e => {
     'refinedstorage:raw_basic_processor',
     'refinedstorage:raw_improved_processor',
     'refinedstorage:raw_advanced_processor',
+    'refinedstorage:improved_processor',
+    'refinedstorage:advanced_processor',
     'refinedstorage:constructor',
     'refinedstorage:1k_storage_disk_from_storage_housing',
     'refinedstorage:1k_storage_disk',
