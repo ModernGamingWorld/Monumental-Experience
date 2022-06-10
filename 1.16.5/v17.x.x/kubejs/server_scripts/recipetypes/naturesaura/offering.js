@@ -215,7 +215,7 @@ onEvent(`recipes`, e => {
 		// Forbidden Arcanus
 		offeringRecipe(`minecraft:netherite_${t}`, `#forge:ingots/arcane_gold`, `forbidden_arcanus:arcane_gold_${t}`)
 		// Gobber 2
-		gobberTypes.forEach(t => offeringRecipe(`minecraft:netherite_${t}`, `gobber2:gobber2_ingot${t}`, `gobber2:gobber2_${t}${t}`))
+		gobberTypes.forEach(g => offeringRecipe(`minecraft:netherite_${t}`, `gobber2:gobber2_ingot${g}`, `gobber2:gobber2_${t}${g}`))
 		// Immersive Engineering
 		e.smithing(`minecraft:iron_${t}`, `#forge:plates/steel`, `immersiveengineering:armor_steel_${t == `chestplate` ? `chest` : (t == `leggings` ? `legs` : (t == `helmet` ? `head` : `feet`))}`)
 		e.smithing(`minecraft:leather_${t}`, `#forge:plates/aluminum`, `immersiveengineering:armor_faraday_${t == `chestplate` ? `chest` : (t == `leggings` ? `legs` : (t == `helmet` ? `head` : `feet`))}`)

@@ -331,6 +331,7 @@ onEvent('recipes', e => {
 	materials.forEach(material => {
 		Object.keys(material).forEach(key => {
 			if (key != 'name') {
+				// console.log(`Name: ${material.name} - Key:${key}`)
 				e.replaceOutput(`#forge:${key}s/${material.name}`, material[key])
 				e.replaceInput(`#forge:${key}s/${material.name}`, `#forge:${key}s/${material.name}`)
 			}

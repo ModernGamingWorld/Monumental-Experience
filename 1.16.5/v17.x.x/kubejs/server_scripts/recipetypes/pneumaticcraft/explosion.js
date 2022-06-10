@@ -8,5 +8,5 @@ onEvent('recipes', e => {
 		}).id(`pneumaticcraft:explosion_crafting/${id}`)
 	}
 
-	explosionRecipe('#forge:ingots/steel', ['pneumaticcraft:ingot_iron_compressed'], 20, 'ingot_iron_compressed')
+	explosionRecipe('emendatusenigmatica:steel_ingot', ['pneumaticcraft:ingot_iron_compressed'], 20, 'ingot_iron_compressed')
 })
