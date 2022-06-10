@@ -203,6 +203,9 @@ onEvent('recipes', e => {
     'ae2extras:network/cells/fluid_storage_cell_16m',
     'ae2extras:network/cells/fluid_storage_cell_16m_storage',
     'extradisks:advanced_storage_housing',
-    'extradisks:raw_withering_processor'
+    'extradisks:raw_withering_processor',
+    'extradisks:withering_processor',
+    'extrastorage:neural_processor',
+    'extrastorage:raw_neural_processor'
   ])
 })
