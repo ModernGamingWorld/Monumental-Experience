@@ -20,7 +20,7 @@ onEvent('recipes', e => {
     }, {
       mod: 'ars_nouveau',
       plates: ['archwood'],
-    },{
+    }, {
       mod: 'quark',
       plates: ['obsidian'],
       materials: ['#forge:obsidian']
