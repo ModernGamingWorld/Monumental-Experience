@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "name": "aquaculture:neptunes_bounty_junk_first",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "aquaculture:box/neptunes_bounty_junk",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "aquaculture:neptunes_bounty_loot",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_ingot",
+          "entryName": "neptunium_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_axe",
+          "entryName": "neptunium_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_pickaxe",
+          "entryName": "neptunium_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_shovel",
+          "entryName": "neptunium_shovel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_hoe",
+          "entryName": "neptunium_hoe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_sword",
+          "entryName": "neptunium_sword",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_helmet",
+          "entryName": "neptunium_helmet",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_chestplate",
+          "entryName": "neptunium_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_leggings",
+          "entryName": "neptunium_leggings",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_boots",
+          "entryName": "neptunium_boots",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_fishing_rod",
+          "entryName": "neptunium_fishing_rod",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_fillet_knife",
+          "entryName": "neptunium_fillet_knife",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:neptunium_bow",
+          "entryName": "neptunium_bow",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:smithing_table",
+          "entryName": "smithing_table",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "aquaculture:neptunes_bounty_junk_last",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "aquaculture:box/neptunes_bounty_junk",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

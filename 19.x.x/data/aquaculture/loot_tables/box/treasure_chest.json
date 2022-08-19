@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "name": "aquaculture:treasure_chest_loot",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mysticalagriculture:iron_essence",
+          "entryName": "iron_essence",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:gold_essence",
+          "entryName": "gold_essence",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:diamond_essence",
+          "entryName": "diamond_essence",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:emerald_essence",
+          "entryName": "emerald_essence",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "extendedcrafting:advanced_table",
+          "entryName": "advanced_table",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "gunswithoutroses:diamond_shotgun",
+          "entryName": "diamond_shotgun",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:smithing_table",
+          "entryName": "smithing_table",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
