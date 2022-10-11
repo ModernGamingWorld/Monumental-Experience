@@ -11,5 +11,4 @@ ServerEvents.recipes(e => {
 	}
 
 	heatPropertiesRecipe('alltheores:uranium_block', 438, 500, 'alltheores:lead_block', 500000)
-	heatPropertiesRecipe('quark:magma_bricks', 1300, 500, 'minecraft:magma_block', 10000)
 })
