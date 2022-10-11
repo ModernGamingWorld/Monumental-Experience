@@ -8,12 +8,12 @@ ServerEvents.recipes(e => {
 		}).id(`pneumaticcraft:pressure_chamber/${id}`)
 	}
 
-	pressureChamberRecipe(['#forge:gems/quartz', '#forge:dusts/fluix', 'appliedenergistics2:logic_processor'], ['2x appliedenergistics2:annihilation_core'], 4, 'annihilation_core')
+	pressureChamberRecipe(['#forge:gems/quartz', '#forge:dusts/fluix', 'ae2:logic_processor'], ['2x ae2:annihilation_core'], 4, 'annihilation_core')
 	pressureChamberRecipe(['#forge:gems/certus_quartz', '#forge:dusts/fluix', 'ae2:logic_processor'], ['2x ae2:formation_core'], 4, 'formation_core')
 	pressureChamberRecipe(['#forge:grain'], ['2x create:wheat_flour'], 1.5, 'wheat_flour')
 	//pressureChamberRecipe(['#forge:plastic', 'createaddition:capacitor', 'immersiveengineering:wirecoil_electrum', '#forge:slimeballs'], ['pneumaticcraft:capacitor'], 1, 'pneumaticcraft_capacitor')
-	pressureChamberRecipe(['immersiveengineering:wirecoil_electrum', 'immersiveengineering:wirecoil_redstone', '#forge:plastic', 'immersiveengineering:circuit_board'], ['2x pneumaticcraft:empty_pcb'], 1, 'pneumaticcraft_empty_pcb')
-	pressureChamberRecipe(['immersiveengineering:wirecoil_redstone', 'immersiveengineering:wirecoil_electrum', 'create:electron_tube', '#forge:plastic'], ['pneumaticcraft:transistor'], 1, 'pneumaticcraft_transistor')
+	//pressureChamberRecipe(['immersiveengineering:wirecoil_electrum', 'immersiveengineering:wirecoil_redstone', '#forge:plastic', 'immersiveengineering:circuit_board'], ['2x pneumaticcraft:empty_pcb'], 1, 'pneumaticcraft_empty_pcb')
+	//pressureChamberRecipe(['immersiveengineering:wirecoil_redstone', 'immersiveengineering:wirecoil_electrum', 'create:electron_tube', '#forge:plastic'], ['pneumaticcraft:transistor'], 1, 'pneumaticcraft_transistor')
 	pressureChamberRecipe(['alltheores:steel_ingot'], ['pneumaticcraft:ingot_iron_compressed'], 1, 'ingot_iron_compressed')
 	pressureChamberRecipe(['refinedstorage:basic_processor', '#forge:dusts/glowstone'], ['refinedstorage:construction_core'], 4, 'construction_core')
 	pressureChamberRecipe(['refinedstorage:basic_processor', '#forge:gems/quartz'], ['refinedstorage:destruction_core'], 4, 'destruction_core')
