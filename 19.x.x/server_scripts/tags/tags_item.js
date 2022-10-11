@@ -34,7 +34,7 @@ ServerEvents.tags('item', e => {
   //e.add('forge:slime_block', ['#tconstruct:slime_block', '#quark:slime_blocks'])
   //e.add('forge:tallow', ['quark:tallow', 'eidolon:tallow', 'occultism:tallow'])
   //e.add('forge:tools/bucket', ['minecraft:bucket', 'botania:open_bucket', 'naturesaura:color_changer', 'forbidden_arcanus:edelwood_bucket'])
-  //e.add('forge:tools/hammer', ['emendatusenigmatica:enigmatic_hammer', 'framedblocks:framed_hammer', 'mcwroofs:roofing_hammer', 'atum:nebu_hammer', 'blue_skies:crushing_hammer', 'createaddition:overcharged_hammer', 'iceandfire:troll_weapon_hammer', 'dungeons_gear:great_hammer'])
+  e.add('forge:tools/hammer', ['alltheores:copper_ore_hammer', 'alltheores:iron_ore_hammer', 'alltheores:bronze_ore_hammer', 'alltheores:invar_ore_hammer', 'alltheores:platinum_ore_hammer', 'framedblocks:framed_hammer', 'mcwroofs:roofing_hammer', 'blue_skies:crushing_hammer', 'gobber2:gobber2_hammer_nether', 'gobber2:gobber2_hammer_end', 'doom:sentinelhammer'])
   e.add('forge:tools/pickaxes', /blue_skies:.*_pickaxe/, /mysticalagriculture:.*_pickaxe/, /create_sa:.*_pickaxe/)
   e.add('forge:tools/hoes', [/naturesaura:.*_hoe/, /blue_skies:.*_hoe/, /mysticalagriculture:.*_hoe/, /aquaculture:.*_hoe/, /ae2:.*_hoe/, /forbidden_arcanus:.*_hoe/, /create_sa:.*_hoe/])
   e.add('forge:tools/swords', /blue_skies:.*_sword/, /mysticalagriculture:.*_sword/, /create_sa:.*_sword/, /forbidden_arcanus:.*_sword/, /ae2:.*_sword/, /immersiveengineering:.*sword_/)
