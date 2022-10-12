@@ -40,9 +40,9 @@ ServerEvents.recipes(e => {
     'twilightforest:wood/mangrove_plate',
     'twilightforest:wood/darkwood_plate',
     'twilightforest:wood/time_plate',
-    'twilightforest:wood/trans_plate',
-    'twilightforest:wood/mine_plate',
-    'twilightforest:wood/sort_plate',
+    'twilightforest:wood/transformation_plate',
+    'twilightforest:wood/mining_plate',
+    'twilightforest:wood/sorting_plate',
     'twilightforest:berry_torch'
   ])
 })
