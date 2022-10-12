@@ -1,4 +1,4 @@
-onEvent('player.logged_in', e => {
+onEvent('PlayerEvents.loggedIn', e => {
 	if (!e.player.stages.has('starting_items')) {
 		e.player.stages.add('starting_items')
 
