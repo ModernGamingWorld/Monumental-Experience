@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Black Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:black_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:black_bed" } }
+    ]
+}

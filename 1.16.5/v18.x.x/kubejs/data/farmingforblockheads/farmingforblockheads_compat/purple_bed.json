@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Purple Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:purple_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:purple_bed" } }
+    ]
+}

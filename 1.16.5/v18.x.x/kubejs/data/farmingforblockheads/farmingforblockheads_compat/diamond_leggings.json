@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Diamond Leggings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:golden_leggings"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:diamond_leggings"
+            }
+        }
+    ]
+}

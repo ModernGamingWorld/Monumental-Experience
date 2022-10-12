@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Gold Shield",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "bettershields:iron_shield"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "bettershields:gold_shield"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Diamond Shield",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "bettershields:gold_shield"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "bettershields:diamond_shield"
+            }
+        }
+    ]
+}

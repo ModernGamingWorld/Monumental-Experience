@@ -1,0 +1,18 @@
+{
+    "modId": "mysticalagriculture",
+    "group": {
+        "name": "Tertium Furnace",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "mysticalagriculture:prudentium_furnace"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "mysticalagriculture:tertium_furnace"
+            }
+        }
+    ]
+}

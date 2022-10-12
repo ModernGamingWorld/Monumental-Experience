@@ -1,0 +1,18 @@
+{
+    "modId": "immersiveengineering",
+    "group": {
+        "name": "Immersive Engineering Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "libraryferret:emerald_coins_jtl"
+        },
+        "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "immersiveengineering:seed"
+            }
+        }
+    ]
+}

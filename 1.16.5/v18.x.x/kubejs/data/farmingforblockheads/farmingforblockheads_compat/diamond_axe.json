@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Diamond Axe",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:golden_axe"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:diamond_axe"
+            }
+        }
+    ]
+}

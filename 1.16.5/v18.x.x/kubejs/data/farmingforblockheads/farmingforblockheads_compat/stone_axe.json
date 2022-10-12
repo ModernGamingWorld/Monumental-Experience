@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Stone Axe",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:wooden_axe"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:stone_axe"
+            }
+        }
+    ]
+}

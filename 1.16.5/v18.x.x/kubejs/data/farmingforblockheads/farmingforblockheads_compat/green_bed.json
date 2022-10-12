@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Green Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:green_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:green_bed" } }
+    ]
+}

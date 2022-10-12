@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Golden Helmet",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:iron_helmet"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:golden_helmet"
+            }
+        }
+    ]
+}

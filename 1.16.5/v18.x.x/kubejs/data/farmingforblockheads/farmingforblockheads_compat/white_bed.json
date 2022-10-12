@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft White Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:white_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:white_bed" } }
+    ]
+}

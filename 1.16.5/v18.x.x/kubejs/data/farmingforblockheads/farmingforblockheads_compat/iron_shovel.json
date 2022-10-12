@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Shovel",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:stone_shovel"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_shovel"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Magenta Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:magenta_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:magenta_bed" } }
+    ]
+}

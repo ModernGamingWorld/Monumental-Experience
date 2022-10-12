@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Blue Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:blue_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:blue_bed" } }
+    ]
+}

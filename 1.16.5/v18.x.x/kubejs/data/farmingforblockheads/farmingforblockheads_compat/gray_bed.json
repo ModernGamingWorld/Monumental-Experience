@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Gray Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:gray_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:gray_bed" } }
+    ]
+}

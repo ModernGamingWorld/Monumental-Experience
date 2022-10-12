@@ -1,0 +1,7 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 9, 2022 10:06:34 PM
+
+#minecraft:load
+- dis_enchanting_book:load/load
+- dis_enchanting_book:item/loop
+- dis_enchanting_book:load/load
+- dis_enchanting_book:item/loop

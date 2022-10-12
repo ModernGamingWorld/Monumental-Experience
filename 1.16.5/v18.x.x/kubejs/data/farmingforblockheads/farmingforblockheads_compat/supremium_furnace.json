@@ -1,0 +1,18 @@
+{
+    "modId": "mysticalagriculture",
+    "group": {
+        "name": "Supremium Furnace",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "mysticalagriculture:imperium_furnace"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "mysticalagriculture:supremium_furnace"
+            }
+        }
+    ]
+}

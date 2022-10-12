@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Golden Hoe",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:iron_hoe"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:golden_hoe"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Chainmail Leggings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:leather_leggings"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:chainmail_leggings"
+            }
+        }
+    ]
+}

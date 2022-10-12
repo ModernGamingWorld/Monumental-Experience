@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Sword",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:stone_sword"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_sword"
+            }
+        }
+    ]
+}

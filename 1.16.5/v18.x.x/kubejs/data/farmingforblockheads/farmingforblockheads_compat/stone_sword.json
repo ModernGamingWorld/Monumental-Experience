@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Stone Sword",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:wooden_sword"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:stone_sword"
+            }
+        }
+    ]
+}

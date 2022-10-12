@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Chainmail Chestplate",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:chainmail_chestplate"
+            }
+        }
+    ]
+}

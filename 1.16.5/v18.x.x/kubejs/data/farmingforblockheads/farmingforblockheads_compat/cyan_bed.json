@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Cyan Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:cyan_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:cyan_bed" } }
+    ]
+}

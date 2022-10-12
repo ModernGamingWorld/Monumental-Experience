@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Brown Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:brown_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:brown_bed" } }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Lime Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:lime_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:lime_bed" } }
+    ]
+}

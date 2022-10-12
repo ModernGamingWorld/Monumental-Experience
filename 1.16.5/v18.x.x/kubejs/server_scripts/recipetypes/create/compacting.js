@@ -1,0 +1,33 @@
+onEvent('recipes', e => {
+    e.recipes.create.compacting('6x minecraft:paper', ['#forge:dusts/wood', '#forge:dusts/wood', '#forge:dusts/wood', '#forge:dusts/wood', Fluid.of('minecraft:water', 250)])
+
+
+    e.recipes.create.compacting('extendedcrafting:advanced_catalyst', ['extendedcrafting:advanced_component', 'extendedcrafting:advanced_component', 'extendedcrafting:advanced_component', 'extendedcrafting:advanced_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).heated()
+    e.recipes.create.compacting('extendedcrafting:ender_catalyst', ['extendedcrafting:ender_component', 'extendedcrafting:ender_component', 'extendedcrafting:ender_component', 'extendedcrafting:ender_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).heated()
+    e.recipes.create.compacting('extendedcrafting:advanced_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', '#forge:ingots/gold', '#forge:ingots/gold', '#forge:ingots/gold']).heated()
+    e.recipes.create.compacting('extendedcrafting:ender_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', 'extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot']).heated()
+    e.recipes.create.compacting('extendedcrafting:basic_catalyst', ['extendedcrafting:basic_component', 'extendedcrafting:basic_component', 'extendedcrafting:basic_component', 'extendedcrafting:basic_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).heated()
+    e.recipes.create.compacting('extendedcrafting:basic_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', '#forge:ingots/steel', '#forge:ingots/steel', '#forge:ingots/steel']).heated()
+    e.recipes.create.compacting('extendedcrafting:redstone_catalyst', ['extendedcrafting:redstone_component', 'extendedcrafting:redstone_component', 'extendedcrafting:redstone_component', 'extendedcrafting:redstone_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).heated()
+    e.recipes.create.compacting('extendedcrafting:redstone_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', 'extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot']).heated()
+    e.recipes.create.compacting('immersiveengineering:slab_concrete', [Fluid.of('immersiveengineering:concrete', 500)]).heated()
+    e.recipes.create.compacting('2x immersiveengineering:alloybrick', ['#forge:sandstone', '#forge:sandstone', '#forge:sandstone', '#forge:sandstone', 'compressium:sand_2', '#engineersdecor:brick_blocks']).heated()
+    e.recipes.create.compacting('2x immersiveengineering:cokebrick', ['immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', 'immersiveengineering:alloybrick', '#forge:sandstone', '#chipped:light_gray_concrete']).heated()
+    e.recipes.create.compacting('2x immersiveengineering:blastbrick', ['immersiveengineering:cokebrick', '#chipped:red_nether_bricks', Fluid.of('cyclic:magma', 250)]).heated()
+    e.recipes.create.compacting(Fluid.of('industrialforegoing:latex', 50), ['minecraft:vine']).heated()
+    e.recipes.create.compacting(Fluid.of('industrialforegoing:latex', 50), ['minecraft:dandelion']).heated()
+    e.recipes.create.compacting('4x pneumaticcraft:reinforced_stone', ['kubejs:compressed_iron_plate', 'minecraft:smooth_stone']).heated()
+
+
+    e.recipes.create.compacting('extendedcrafting:enhanced_ender_catalyst', ['extendedcrafting:enhanced_ender_component', 'extendedcrafting:enhanced_ender_component', 'extendedcrafting:enhanced_ender_component', 'extendedcrafting:enhanced_ender_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:enhanced_ender_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', 'extendedcrafting:enhanced_ender_ingot', 'extendedcrafting:enhanced_ender_ingot', 'extendedcrafting:enhanced_ender_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:crystaltine_catalyst', ['extendedcrafting:crystaltine_component', 'extendedcrafting:crystaltine_component', 'extendedcrafting:crystaltine_component', 'extendedcrafting:crystaltine_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:crystaltine_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', 'extendedcrafting:crystaltine_ingot', 'extendedcrafting:crystaltine_ingot', 'extendedcrafting:crystaltine_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:elite_catalyst', ['extendedcrafting:elite_component', 'extendedcrafting:elite_component', 'extendedcrafting:elite_component', 'extendedcrafting:elite_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:elite_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', '#forge:gems/mana_diamond', '#forge:gems/mana_diamond', '#forge:gems/mana_diamond']).superheated()
+    e.recipes.create.compacting('extendedcrafting:ultimate_component', ['extendedcrafting:black_iron_slate', 'extendedcrafting:luminessence', '#forge:gems/emerald', '#forge:gems/emerald', '#forge:gems/emerald']).superheated()
+    e.recipes.create.compacting('extendedcrafting:ultimate_catalyst', ['extendedcrafting:ultimate_component', 'extendedcrafting:ultimate_component', 'extendedcrafting:ultimate_component', 'extendedcrafting:ultimate_component', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_ingot']).superheated()
+    e.recipes.create.compacting('extendedcrafting:the_ultimate_component', ['extendedcrafting:basic_component', 'extendedcrafting:redstone_component', 'extendedcrafting:ender_component', 'extendedcrafting:enhanced_ender_component', 'extendedcrafting:crystaltine_component', 'extendedcrafting:ultimate_component']).superheated()
+    e.recipes.create.compacting('extendedcrafting:the_ultimate_catalyst', ['extendedcrafting:basic_catalyst', 'extendedcrafting:redstone_catalyst', 'extendedcrafting:ender_catalyst', 'extendedcrafting:enhanced_ender_catalyst', 'extendedcrafting:crystaltine_catalyst', 'extendedcrafting:ultimate_catalyst']).superheated()
+    e.recipes.create.compacting('2x immersiveengineering:blastbrick_reinforced', ['#forge:plates/steel', 'immersiveengineering:blastbrick']).superheated()
+})

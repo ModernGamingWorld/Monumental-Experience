@@ -1,0 +1,14 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Minecraft Orange Bed",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:orange_wool"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        { "output": { "item": "minecraft:orange_bed" } }
+    ]
+}

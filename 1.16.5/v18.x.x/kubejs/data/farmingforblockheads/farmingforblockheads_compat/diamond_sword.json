@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Diamond Sword",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:golden_sword"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:diamond_sword"
+            }
+        }
+    ]
+}

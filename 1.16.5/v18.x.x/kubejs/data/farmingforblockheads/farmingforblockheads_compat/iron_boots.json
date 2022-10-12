@@ -1,0 +1,18 @@
+{
+    "modId": "minecraft",
+    "group": {
+        "name": "Iron Boots",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": {
+                "item": "minecraft:iron_boots"
+            }
+        }
+    ]
+}
