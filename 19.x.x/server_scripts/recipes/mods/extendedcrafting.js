@@ -1,4 +1,4 @@
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
   e.shaped('extendedcrafting:basic_table', ['CDC', 'ABA', 'CDC'], {
     A: '#forge:plates/iron',
     B: 'immersiveengineering:craftingtable',
