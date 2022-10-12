@@ -50,6 +50,7 @@ ServerEvents.recipes(e => {
     'minecraft:dark_oak_pressure_plate',
     'minecraft:crimson_pressure_plate',
     'minecraft:warped_pressure_plate',
+    'minecraft:mangrove_pressure_plate',
     'minecraft:polished_blackstone_pressure_plate',
     'minecraft:light_weighted_pressure_plate',
     'minecraft:heavy_weighted_pressure_plate',
