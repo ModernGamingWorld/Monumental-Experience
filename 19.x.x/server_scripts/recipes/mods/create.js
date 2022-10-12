@@ -9,32 +9,22 @@ ServerEvents.recipes(e => {
   e.shaped('4x create:copper_casing', ['AAA', 'CSC', 'AAA'], {
     A: '#forge:sheetmetals/copper',
     C: '#forge:plates/copper',
-    S: '#structurize:timber_frames/timber_frames'
-  })
-  e.shaped('4x create:refined_radiance_casing', ['AAA', 'CSC', 'AAA'], {
-    A: '#minecraft:logs',
-    C: 'create:refined_radiance',
-    S: '#structurize:timber_frames/timber_frames'
+    S: 'supplementaries:timber_frame'
   })
   e.shaped('4x create:brass_casing', ['AAA', 'CSC', 'AAA'], {
     A: 'createdeco:brass_sheet_metal',
     C: '#forge:plates/brass',
-    S: '#structurize:timber_frames/timber_frames'
+    S: 'supplementaries:timber_frame'
   })
   e.shaped('4x create:andesite_casing', ['AAA', 'CSC', 'AAA'], {
     A: 'create:layered_andesite',
     C: 'create:andesite_alloy',
     S: 'prefab:item_bundle_of_timber'
   })
-  e.shaped('4x create:shadow_steel_casing', ['AAA', 'CSC', 'AAA'], {
-    A: '#minecraft:logs',
-    C: 'create:shadow_steel',
-    S: '#structurize:timber_frames/timber_frames'
-  })
   e.shaped('create:schematicannon', [' C ', 'LDL', 'SIS'], {
     L: '#minecraft:logs',
     D: 'minecraft:dispenser',
-    C: 'reliquary:apothecary_cauldron',
+    C: '#forge:cauldron',
     S: 'minecraft:smooth_stone',
     I: 'compressium:iron_1'
   })
@@ -80,6 +70,7 @@ ServerEvents.recipes(e => {
     'create:crafting/kinetics/basin',
     'create:crafting/kinetics/empty_blaze_burner',
     'create:crafting/kinetics/large_cogwheel',
+    'create:crafting/kinetics/large_cogwheelfrom_little',
     'create:crafting/kinetics/mechanical_piston',
     'create:crafting/kinetics/mechanical_press',
     'create:crafting/schematics/schematicannon',
