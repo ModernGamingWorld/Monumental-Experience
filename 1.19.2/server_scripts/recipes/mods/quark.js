@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
     'quark:tweaks/crafting/utility/tools/stone_axe',
     'quark:tweaks/crafting/utility/tools/stone_sword',
     'quark:tweaks/crafting/utility/tools/stone_shovel',
-    'quark:tweaks/crafting/utility/tools/stone_pickaxe'
+    'quark:tweaks/crafting/utility/tools/stone_pickaxe',
+    'quark:tweaks/crafting/utility/tools/stone_hoe'
   ])
 })
