@@ -146,7 +146,7 @@ ServerEvents.recipes(e => {
 		//offeringRecipe(`minecraft:stone_${t}`, `#forge:bones`, `druidcraft:bone_${t}`)
 		// Forbidden Arcanus
 		offeringRecipe(`minecraft:netherite_${t}`, `forbidden_arcanus:edelwood_stick`, `forbidden_arcanus:reinforced_arcane_golden_${t}`)
-		offeringRecipe(`minecraft:netherite_${t}`, `#forge:ingots/arcane_gold`, `forbidden_arcanus:deorum_{t}`)
+		offeringRecipe(`minecraft:netherite_${t}`, `#forge:ingots/arcane_gold`, `forbidden_arcanus:deorum_${t}`)
 		offeringRecipe(`minecraft:netherite_${t}`, `#forge:dragon_scales`, `forbidden_arcanus:draco_arcanus_${t}`)
 		offeringRecipe(`minecraft:diamond_${t}`, `#forge:ingots/obsidian`, `forbidden_arcanus:obsidian_${t}`)
 		// Gobber 2
