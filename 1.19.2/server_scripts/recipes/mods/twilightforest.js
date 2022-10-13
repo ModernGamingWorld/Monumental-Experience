@@ -1,14 +1,17 @@
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
   removeRecipeByID(e, [
     'twilightforest:uncrafting_table',
     'twilightforest:equipment/fiery_helmet',
     'twilightforest:equipment/fiery_fiery_helmet',
     'twilightforest:equipment/fiery_chestplate',
     'twilightforest:equipment/fiery_iron_chestplate',
+    'twilightforest:equipment/fiery_fiery_chestplate',
     'twilightforest:equipment/fiery_leggings',
     'twilightforest:equipment/fiery_iron_leggings',
+    'twilightforest:equipment/fiery_fiery_leggings',
     'twilightforest:equipment/fiery_boots',
     'twilightforest:equipment/fiery_iron_boots',
+    'twilightforest:equipment/fiery_fiery_boots',
     'twilightforest:equipment/fiery_sword',
     'twilightforest:equipment/fiery_iron_sword',
     'twilightforest:equipment/fiery_pickaxe',
@@ -43,9 +46,9 @@ onEvent('recipes', e => {
     'twilightforest:wood/mangrove_plate',
     'twilightforest:wood/darkwood_plate',
     'twilightforest:wood/time_plate',
-    'twilightforest:wood/trans_plate',
-    'twilightforest:wood/mine_plate',
-    'twilightforest:wood/sort_plate',
+    'twilightforest:wood/transformation_plate',
+    'twilightforest:wood/mining_plate',
+    'twilightforest:wood/sorting_plate',
     'twilightforest:berry_torch'
   ])
 })
