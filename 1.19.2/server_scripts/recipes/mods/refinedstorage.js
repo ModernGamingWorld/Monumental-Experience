@@ -1,4 +1,4 @@
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
   e.shaped('refinedstorage:constructor', ['ECE', 'RMR', 'EIE'], {
     E: 'refinedstorage:quartz_enriched_iron',
     C: 'refinedstorage:construction_core',
