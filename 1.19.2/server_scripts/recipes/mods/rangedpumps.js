@@ -1,4 +1,4 @@
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
   e.shaped('rangedpumps:pump', ['OPO', 'LDL', 'OPO'], {
     O: '#forge:plates/steel',
     P: '#forge:tools/pickaxes',
