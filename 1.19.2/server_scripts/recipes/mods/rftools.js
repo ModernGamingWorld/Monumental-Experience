@@ -1,4 +1,4 @@
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
   e.shaped('rftoolscontrol:craftingstation', ['rMr', 'CFC', 'rMr'], {
     M: 'rftoolscontrol:card_base',
     C: 'immersiveengineering:craftingtable',
