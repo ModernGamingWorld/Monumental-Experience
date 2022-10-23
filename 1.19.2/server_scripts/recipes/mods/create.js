@@ -61,6 +61,10 @@ ServerEvents.recipes(e => {
     C: 'create:cogwheel',
     V: '#forge:plates/iron'
   })
+  e.shaped('8x createaddition:spool', ['A', 'B', 'A'], {
+    A: '#forge:treated_wood_slab',
+    B: '#forge:rods/iron'
+  })
 
   removeRecipeByID(e, [
     'createaddition:crafting/spool',
