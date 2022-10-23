@@ -49,6 +49,7 @@ ServerEvents.recipes(e => {
     'forbidden_arcanus:obsidian_hoe',
     'forbidden_arcanus:reinforced_arcane_golden_hoe',
     'forbidden_arcanus:arcane_golden_hoe',
+    'forbidden_arcanus:aurum_pressure_plate',
     'forbidden_arcanus:deorum_pressure_plate',
     'forbidden_arcanus:fungyss_pressure_plate',
     'forbidden_arcanus:cherry_pressure_plate',
