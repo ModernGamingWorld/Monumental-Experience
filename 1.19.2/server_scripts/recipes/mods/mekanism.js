@@ -122,7 +122,7 @@ ServerEvents.recipes(e => {
   e.shaped('mekanism:configurator', [' BC', ' AB', 'D  '], {
     A: 'mekanism:energy_tablet',
     B: '#mekanism:alloys/infused',
-    C: '#forge:gears/lapis',
+    C: 'mysticalagriculture:lapis_lazuli_essence',
     D: '#forge:rods/steel'
   })
   e.shaped('mekanism:crusher', ['ABA', 'DCD', 'ABA'], {
