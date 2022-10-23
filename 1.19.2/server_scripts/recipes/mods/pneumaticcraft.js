@@ -34,6 +34,11 @@ ServerEvents.recipes(e => {
     G: '#forge:plates/gold',
     S: 'pneumaticcraft:compressed_iron_gear'
   })
+  e.shaped('pneumaticcraft:air_compressor', ['III', 'ITI', 'IFI'], {
+    I: '#pneumaticcraft:reinforced_stone_bricks',
+    T: 'pneumaticcraft:pressure_tube',
+    F: '#forge:furnaces'
+  })
 
   removeRecipeByID(e, [
     'pneumaticcraft:reinforced_stone',
