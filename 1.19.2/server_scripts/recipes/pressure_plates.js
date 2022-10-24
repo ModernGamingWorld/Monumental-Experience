@@ -5,6 +5,10 @@ ServerEvents.recipes(e => {
       plates: ['canopy', 'twilight_oak', 'mangrove', 'dark', 'time', 'transformation', 'mining', 'sorting'],
       item_name: 'pressure_plate'
     }, {
+      mod: 'undergarden',
+      plates: ['depthrock', 'shiverstone', 'tremblecrust'],
+      materials: ['undergarden:depthrock', 'undergarden:shiverstone', 'undergarden:tremblecrust']
+    }, {
       mod: 'ars_nouveau',
       plates: ['archwood'],
     }, {
@@ -45,6 +49,16 @@ ServerEvents.recipes(e => {
     }, {
       mod: 'blue_skies',
       plates: ['bluebright', 'starlit', 'frostbright', 'lunar', 'dusk', 'maple', 'cherry', 'crystallized']
+    }, {
+      mod: 'hexerei',
+      plates: ['mahogany', 'willow', 'polished_mahogany', 'polished_willow']
+    }, {
+      mod: 'undergarden',
+      plates: ['depthrock', 'shiverstone', 'tremblecrust'],
+      materials: ['undergarden:depthrock', 'undergarden:shiverstone', 'undergarden:tremblecrust']
+    }, {
+      mod: 'undergarden',
+      plates: ['smogstem', 'wigglewood', 'grongle'],
     }
   ]
 
