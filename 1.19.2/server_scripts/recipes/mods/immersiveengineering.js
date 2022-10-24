@@ -62,6 +62,8 @@ ServerEvents.recipes(e => {
     'immersivepetroleum:hydrotreater/sulfur_recovery',
     'immersiveengineering:crafting/strip_lv',
     'immersiveengineering:crafting/strip_mv',
+    'immersiveengineering:crafting/blueprint_components',
+    'immersiveengineering:crafting/furnace_heater',
     'immersiveengineering:blueprint/component_steel',
     'immersiveengineering:blueprint/component_iron',
     'immersiveengineering:concrete',
