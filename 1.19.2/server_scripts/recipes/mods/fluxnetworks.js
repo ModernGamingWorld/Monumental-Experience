@@ -9,6 +9,11 @@ ServerEvents.recipes(e => {
     f: 'fluxnetworks:flux_dust',
     e: 'fluxnetworks:flux_core'
   })
+  e.shaped('fluxnetworks:flux_point', ['xcx', 'cbc', 'xcx'], {
+    b: 'extendedcrafting:redstone_catalyst',
+    c: 'fluxnetworks:flux_core',
+    x: '#forge:plastic'
+  })
 
   removeRecipeByID(e, [
     'fluxnetworks:basicfluxstorage',
