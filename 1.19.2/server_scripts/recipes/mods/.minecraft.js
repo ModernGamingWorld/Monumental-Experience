@@ -5,35 +5,35 @@ ServerEvents.recipes(e => {
   e.shaped('2x minecraft:torch', ['A', 'B'], {
     A: '#forge:chunks/coal',
     B: '#forge:rods/wooden'
-  })
+  }).id(`monumentalexperience:minecraft/shaped/torch`)
   e.shaped('2x minecraft:redstone_torch', ['A', 'B'], {
     A: 'extendedcrafting:redstone_nugget',
     B: '#forge:rods/wooden'
-  })
+  }).id(`monumentalexperience:minecraft/shaped/compass`)
   e.shaped('1x minecraft:stick', ['A', 'A'], {
     A: 'biomesoplenty:cattail'
-  })
+  }).id(`monumentalexperience:minecraft/shaped/redstone_torch`)
   e.shaped('2x minecraft:soul_torch', ['A', 'B', 'C'], {
     A: '#forge:chunks/coal',
     B: '#forge:rods/wooden',
     C: '#minecraft:soul_fire_base_blocks'
-  })
+  }).id(`monumentalexperience:minecraft/shaped/soul_torch`)
   e.shaped('minecraft:piston', ['TTT', 'PXP', 'PRP'], {
     R: 'extendedcrafting:redstone_ingot',
     P: 'immersiveengineering:concrete',
     T: '#minecraft:planks',
     X: '#forge:gears/iron',
-  })
+  }).id(`monumentalexperience:minecraft/shaped/piston`)
   e.shaped('minecraft:sticky_piston', ['TTT', 'PXP', 'PRP'], {
     R: 'extendedcrafting:redstone_ingot',
     P: 'immersiveengineering:concrete',
     T: '#minecraft:planks',
     X: '#forge:slimeballs',
-  })
+  }).id(`monumentalexperience:minecraft/shaped/sticky_piston`)
   e.shaped('minecraft:compass', [' S ', 'SQS', ' S '], {
     Q: 'extendedcrafting:redstone_ingot',
     S: '#forge:plates/iron',
-  })
+  }).id(`monumentalexperience:minecraft/shaped/compass`)
 
   removeRecipeByID(e, [
     'minecraft:limestone_axe',
