@@ -1,0 +1,127 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "name": "sub",
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "hunterillager:boomerang",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "name": "main",
+      "entries": [
+        {
+          "type": "item",
+          "name": "mysticalagriculture:coal_essence",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:cow_essence",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:iron_essence",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:emerald_essence",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
