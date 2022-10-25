@@ -70,12 +70,15 @@ JEIEvents.hideItems( e => {
     /^immersiveposts:(stick)_(copper|gold|lead|silver|nickel|constantan|electrum|uranium)$/,
 
     /^industrialforegoing:.+_bucket$/,
+    'industrialforegoing:infinity_nuke$',
     /^ironfurnaces:augment_.+/,
     'libraryferret:fake_iron_block',
     'libraryferret:fake_gold_block',
     'libraryferret:fake_emerald_block',
     'libraryferret:fake_diamond_block',
     'libraryferret:fake_netherite_block',
+    'lootbundles:loot_bundle',
+    'lootbundles:fragment',
     /^materialis:molten_.+_bucket$/,
 
     /^mcwbridges:(?!.*spruce).+_(log_bridge_middle|bridge|bridge_pier|bridge_stair)$/,
