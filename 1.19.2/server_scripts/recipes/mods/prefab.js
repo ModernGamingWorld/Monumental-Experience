@@ -176,6 +176,7 @@ ServerEvents.recipes(e => {
     'prefab:block_compressed_stone',
     'prefab:double_compressed_stone_to_compressed_stone',
     'prefab:triple_compressed_stone_to_compressed_stone',
+    'prefab:house',
     'prefab:aqua_base',
     'prefab:aqua_base_improved',
     'prefab:defense_bunker',
