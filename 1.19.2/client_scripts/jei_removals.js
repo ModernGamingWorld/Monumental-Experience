@@ -72,6 +72,7 @@ JEIEvents.hideItems( e => {
     /^industrialforegoing:.+_bucket$/,
     'industrialforegoing:infinity_nuke$',
     /^ironfurnaces:augment_.+/,
+    /^ironfurnaces:upgrade_.+/,
     'libraryferret:fake_iron_block',
     'libraryferret:fake_gold_block',
     'libraryferret:fake_emerald_block',
