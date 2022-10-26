@@ -39,6 +39,11 @@ ServerEvents.recipes(e => {
     T: 'pneumaticcraft:pressure_tube',
     F: '#forge:furnaces'
   })
+  e.shaped('pneumaticcraft:small_tank', ['BIB', 'IGI', 'BIB'], {
+    B: '#forge:ingots/obsidian',
+    I: '#forge:ingots/compressed_iron',
+    G: 'cyclic:tank'
+  })
 
   removeRecipeByID(e, [
     'pneumaticcraft:reinforced_stone',
