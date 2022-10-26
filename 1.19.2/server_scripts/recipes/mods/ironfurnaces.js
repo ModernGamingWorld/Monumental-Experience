@@ -15,6 +15,7 @@ ServerEvents.recipes(e => {
     'ironfurnaces:furnaces/silver_furnace2',
     'ironfurnaces:upgrades/upgrade_iron',
     'ironfurnaces:upgrades/upgrade_gold',
+    'ironfurnaces:upgrades/upgrade_obsidian',
     'ironfurnaces:upgrades/upgrade_diamond',
     'ironfurnaces:upgrades/upgrade_emerald',
     'ironfurnaces:upgrades/upgrade_crystal',
