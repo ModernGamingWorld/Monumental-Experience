@@ -14,6 +14,11 @@ ServerEvents.recipes(e => {
     c: 'fluxnetworks:flux_core',
     x: '#forge:plastic'
   })
+  e.shaped('4x fluxnetworks:flux_core', ['fof', 'oeo', 'fof'], {
+    o: '#forge:ingots/obsidian',
+    f: 'fluxnetworks:flux_dust',
+    e: 'cyclic:ender_eye_reuse'
+  })
 
   removeRecipeByID(e, [
     'fluxnetworks:basicfluxstorage',
