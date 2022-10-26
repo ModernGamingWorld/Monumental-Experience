@@ -12,6 +12,10 @@ ServerEvents.recipes(e => {
       mod: 'ars_nouveau',
       plates: ['archwood'],
     }, {
+      mod: 'cyclic',
+      plates: ['obsidian', 'copper', 'netherite'],
+      materials: ['#forge:ingots/obsidian', '#forge:ingots/copper', '#forge:nuggets/netherite']
+    }, {
       mod: 'quark',
       plates: ['obsidian', 'azalea', 'blossom'],
       materials: ['#forge:obsidian', 'quark:azalea_planks', 'quark:blossom_planks']
