@@ -209,6 +209,34 @@ ServerEvents.recipes(e => {
     },
     result: Item.of('ae2:cell_component_256k').toJson()
   }).id('monumentalexperience:mechanical_crafting/ae2/cell_component_256k')
+  
+ //Cylic
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['CPC', 'XBX', 'CWC'],
+    key: {
+      B: Ingredient.of('minecraft:blast_furnace').toJson(),
+      C: Ingredient.of('#forge:ingots/obsidian').toJson(),
+      P: Ingredient.of('create:electron_tube').toJson(),
+      W: Ingredient.of('createaddition:capacitor').toJson(),
+      X: Ingredient.of('immersiveengineering:insulating_glass').toJson()
+    },
+    result: Item.of('cyclic:melter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/cyclic/melter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['CPC', 'XBX', 'CWC'],
+    key: {
+      B: Ingredient.of('create:basin').toJson(),
+      C: Ingredient.of('#forge:ingots/obsidian').toJson(),
+      P: Ingredient.of('#forge:gems/lapis').toJson(),
+      W: Ingredient.of('createaddition:capacitor').toJson(),
+      X: Ingredient.of('immersiveengineering:insulating_glass').toJson()
+    },
+    result: Item.of('cyclic:solidifier').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/cyclic/solidifier')
+ 
  //Create
 
   e.custom({
@@ -589,7 +617,7 @@ ServerEvents.recipes(e => {
     type: "create:mechanical_crafting",
     pattern: ['PPP', 'PBP', 'PPP'],
     key: {
-      P: Ingredient.of('#forge:plates/emerald').toJson(),
+      P: Ingredient.of('#forge:gems/emerald').toJson(),
       B: Ingredient.of('ironfurnaces:diamond_furnace').toJson(),
     },
     result: Item.of('ironfurnaces:emerald_furnace').toJson(),
@@ -607,4 +635,695 @@ ServerEvents.recipes(e => {
     },
     result: Item.of('ironcoals:aeon_coal').toJson(),
   }).id('monumentalexperience:mechanical_crafting/ironcoals/aeon_coal')
+
+  //Mekanism Generators
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['QQQ', 'AIA', 'OEO'],
+    key: {
+      A: Ingredient.of('#mekanism:alloys/infused').toJson(),
+      I: Ingredient.of('#forge:circuits/basic').toJson(),
+      E: Ingredient.of('mekanism:energy_tablet').toJson(),
+      O: Ingredient.of('#forge:plates/osmium').toJson(),
+      Q: Ingredient.of('mekanismgenerators:solar_panel').toJson(),
+    },
+    result: Item.of('mekanismgenerators:solar_generator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mekanismgenerators/solar_generator')
+  
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['III', 'WOW', 'CFC'],
+    key: {
+      W: Ingredient.of('#forge:plates/osmium').toJson(),
+      I: Ingredient.of('kubejs:compressed_iron_plate').toJson(),
+      C: Ingredient.of('#forge:plates/bronze').toJson(),
+      O: Ingredient.of('#forge:furnace').toJson(),
+      F: Ingredient.of('#forge:circuits/basic').toJson()
+    },
+    result: Item.of('mekanismgenerators:heat_generator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mekanismgenerators/heat_generator')
+  
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['OWO', 'XCX', 'OAO'],
+    key: {
+      W: Ingredient.of('mekanism:steel_casing').toJson(),
+      A: Ingredient.of('#forge:circuits/basic').toJson(),
+      C: Ingredient.of('mekanism:electrolytic_core').toJson(),
+      X: Ingredient.of('#mekanism:alloys/infused').toJson(),
+      O: Ingredient.of('#forge:plates/osmium').toJson()
+    },
+    result: Item.of('mekanismgenerators:gas_burning_generator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mekanismgenerators/gas_burning_generator')
+  
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PAP', 'PAP', 'III'],
+    key: {
+      P: Ingredient.of('mekanismgenerators:solar_generator').toJson(),
+      A: Ingredient.of('#mekanism:alloys/infused').toJson(),
+      I: Ingredient.of('kubejs:compressed_iron_plate').toJson()
+    },
+    result: Item.of('mekanismgenerators:advanced_solar_generator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mekanismgenerators/advanced_solar_generator')
+
+  //Mining Gadgets
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PPP', 'QBQ', 'PPP'],
+    key: {
+      P: Ingredient.of('#forge:sheetmetals/iron').toJson(),
+      B: Ingredient.of('immersiveengineering:circuit_board').toJson(),
+      Q: Ingredient.of('mininggadgets:upgrade_empty').toJson(),
+    },
+    result: Item.of('mininggadgets:modificationtable').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mininggadgets/modificationtable')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PWP', 'QBQ', 'PWP'],
+    key: {
+      P: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('#forge:gears/diamond').toJson(),
+      Q: Ingredient.of('immersiveengineering:insulating_glass').toJson(),
+      W: Ingredient.of('#forge:gems/lapis').toJson()
+    },
+    result: Item.of('mininggadgets:upgrade_empty').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mininggadgets/upgrade_empty')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['SEE', 'SQZ', 'SEE'],
+    key: {
+      S: Ingredient.of('#forge:plates/diamond').toJson(),
+      Q: Ingredient.of('cyclic:laser').toJson(),
+      E: Ingredient.of('#forge:plates/iron').toJson(),
+      Z: Ingredient.of('extendedcrafting:redstone_component').toJson()
+    },
+    result: Item.of('mininggadgets:mininggadget_simple').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mininggadgets/mininggadget_simple')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['SEE', 'SQZ', 'SEE'],
+    key: {
+      S: Ingredient.of('#forge:plates/diamond').toJson(),
+      Q: Ingredient.of('mininggadgets:mininggadget_simple').toJson(),
+      E: Ingredient.of('#forge:plates/iron').toJson(),
+      Z: Ingredient.of('extendedcrafting:redstone_component').toJson()
+    },
+    result: Item.of('mininggadgets:mininggadget_fancy').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mininggadgets/mininggadget_fancy')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PWE', 'QBZ', 'PWE'],
+    key: {
+      P: Ingredient.of('#forge:plates/diamond').toJson(),
+      B: Ingredient.of('mininggadgets:mininggadget_fancy').toJson(),
+      Q: Ingredient.of('mininggadgets:upgrade_empty').toJson(),
+      W: Ingredient.of('createaddition:capacitor').toJson(),
+      Z: Ingredient.of('create:electron_tube').toJson(),
+      E: Ingredient.of('#forge:plates/iron').toJson()
+    },
+    result: Item.of('mininggadgets:mininggadget').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/mininggadgets/mininggadget')
+
+  //Refined Storage
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XGX', 'IBI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      G: Ingredient.of('ae2:cell_component_1k').toJson(),
+      X: Ingredient.of('ae2:quartz_vibrant_glass').toJson(),
+      I: Ingredient.of('#forge:silicon').toJson(),
+      B: Ingredient.of('extendedcrafting:redstone_component').toJson()
+    },
+    result: Item.of('refinedstorage:1k_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/1k_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XBX', 'IXI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      B: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      X: Ingredient.of('refinedstorage:1k_storage_part').toJson(),
+      I: Ingredient.of('refinedstorage:basic_processor').toJson(),
+    },
+    result: Item.of('refinedstorage:4k_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/4k_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XBX', 'IXI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      B: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      X: Ingredient.of('refinedstorage:4k_storage_part').toJson(),
+      I: Ingredient.of('refinedstorage:improved_processor').toJson(),
+    },
+    result: Item.of('refinedstorage:16k_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/16k_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XBX', 'IXI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      B: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      X: Ingredient.of('refinedstorage:16k_storage_part').toJson(),
+      I: Ingredient.of('refinedstorage:advanced_processor').toJson(),
+    },
+    result: Item.of('refinedstorage:64k_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/64k_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XGX', 'IBI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      B: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      X: Ingredient.of('ae2:quartz_vibrant_glass').toJson(),
+      I: Ingredient.of('#forge:silicon').toJson(),
+      G: Ingredient.of('ae2:fluid_cell_component_1k').toJson(),
+    },
+    result: Item.of('refinedstorage:64k_fluid_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/64k_fluid_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IEI', 'XGX', 'IXI'],
+    key: {
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      X: Ingredient.of('refinedstorage:64k_fluid_storage_part').toJson(),
+      I: Ingredient.of('refinedstorage:basic_processor').toJson(),
+      G: Ingredient.of('cyclic:tank').toJson(),
+    },
+    result: Item.of('refinedstorage:256k_fluid_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/256k_fluid_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PEP', 'SRS', 'PSP'],
+    key: {
+      P: Ingredient.of('refinedstorage:improved_processor').toJson(),
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      S: Ingredient.of('refinedstorage:256k_fluid_storage_part').toJson(),
+      R: Ingredient.of('#pneumaticcraft:fluid_tanks').toJson(),
+    },
+    result: Item.of('refinedstorage:1024k_fluid_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/1024k_fluid_storage_part')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PEP', 'SRS', 'PSP'],
+    key: {
+      P: Ingredient.of('refinedstorage:advanced_processor').toJson(),
+      E: Ingredient.of('refinedstorage:quartz_enriched_iron').toJson(),
+      S: Ingredient.of('refinedstorage:1024k_fluid_storage_part').toJson(),
+      R: Ingredient.of('#pneumaticcraft:fluid_tanks').toJson(),
+    },
+    result: Item.of('refinedstorage:4096k_fluid_storage_part').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/refinedstorage/4096k_fluid_storage_part')
+
+//Rftools
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['ioi', 'oRo', ' o '],
+    key: {
+      o: Ingredient.of('#forge:eyes').toJson(),
+      i: Ingredient.of('#forge:plates/steel').toJson(),
+      R: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+    },
+    result: Item.of('rftoolsutility:charged_porter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/charged_porter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['RdR', 'dMd', 'RdR'],
+    key: {
+      M: Ingredient.of('rftoolsutility:charged_porter').toJson(),
+      d: Ingredient.of('#forge:plates/diamond').toJson(),
+      R: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+    },
+    result: Item.of('rftoolsutility:advanced_charged_porter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/advanced_charged_porter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rqr', 'TFT', 'rqr'],
+    key: {
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      T: Ingredient.of('immersiveengineering:wirecoil_redstone').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      q: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+    },
+    result: Item.of('rftoolsutility:dialing_device').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/dialing_device')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['RzR', 'zFz', 'RzR'],
+    key: {
+      z: Ingredient.of('extendedcrafting:luminessence').toJson(),
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      R: Ingredient.of('extendedcrafting:redstone_catalyst').toJson()
+    },
+    result: Item.of('rftoolsutility:matter_beamer').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/matter_beamer')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['QRQ', 'RFR', 'QRQ'],
+    key: {
+      Q: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      R: Ingredient.of('extendedcrafting:redstone_catalyst').toJson()
+    },
+    result: Item.of('rftoolsutility:matter_booster').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/matter_booster')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['iii', 'rFr', 'oso'],
+    key: {
+      o: Ingredient.of('#forge:eyes').toJson(),
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+      i: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      s: Ingredient.of('cyclic:eye_redstone').toJson()
+    },
+    result: Item.of('rftoolsutility:matter_receiver').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/matter_receiver')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['oso', 'rFr', 'iii'],
+    key: {
+      o: Ingredient.of('#forge:eyes').toJson(),
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+      i: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      s: Ingredient.of('cyclic:eye_redstone').toJson()
+    },
+    result: Item.of('rftoolsutility:matter_transmitter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/matter_transmitter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rYr', 'TAT', 'rYr'],
+    key: {
+      T: Ingredient.of('immersiveengineering:wirecoil_redstone').toJson(),
+      A: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      Y: Ingredient.of('extendedcrafting:redstone_catalyst').toJson()
+    },
+    result: Item.of('rftoolsutility:simple_dialer').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/simple_dialer')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rzr', 'oFo', 'rPr'],
+    key: {
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+      P: Ingredient.of('#forge:heart').toJson(),
+      z: Ingredient.of('#forge:dragon_scales').toJson(),
+      o: Ingredient.of('#forge:bones').toJson()
+    },
+    result: Item.of('rftoolsutility:spawner').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/spawner')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['GGG', 'bFb', 'iii'],
+    key: {
+      b: Ingredient.of('#forge:buckets/empty').toJson(),
+      F: Ingredient.of('#pneumaticcraft:fluid_tanks').toJson(),
+      G: Ingredient.of('immersiveengineering:insulating_glass').toJson(),
+      i: Ingredient.of('#forge:plates/steel').toJson()
+    },
+    result: Item.of('rftoolsutility:tank').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsutility/tank')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['ToT', 'gFg', 'TsT'],
+    key: {
+      o: Ingredient.of('#forge:plates/steel').toJson(),
+      F: Ingredient.of('immersiveengineering:heavy_engineering').toJson(),
+      g: Ingredient.of('#forge:gears/quartz').toJson(),
+      T: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      s: Ingredient.of('create:electron_tube').toJson()
+
+    },
+    result: Item.of('rftoolsstorage:modular_storage').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsstorage/modular_storage')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['ToT', 'gFg', 'TsT'],
+    key: {
+      o: Ingredient.of('#forge:gears/enderium').toJson(),
+      F: Ingredient.of('immersiveengineering:heavy_engineering').toJson(),
+      g: Ingredient.of('immersiveengineering:electron_tube').toJson(),
+      T: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      s: Ingredient.of('immersiveengineering:circuit_board').toJson()
+
+    },
+    result: Item.of('rftoolsstorage:storage_scanner').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsstorage/storage_scanner')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['qsq', 'rpr', 'qaq'],
+    key: {
+      p: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      q: Ingredient.of('rftoolspower:blazing_rod').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+      a: Ingredient.of('pneumaticcraft:printed_circuit_board').toJson(),
+      s: Ingredient.of('rftoolsbase:infused_enderpearl').toJson()
+
+    },
+    result: Item.of('rftoolspower:blazing_generator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/blazing_generator')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rKr', 'KFK', 'rKr'],
+    key: {
+      K: Ingredient.of('rftoolspower:power_core1').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      F: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+
+    },
+    result: Item.of('rftoolspower:cell1').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/cell1')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rKr', 'KPK', 'rKr'],
+    key: {
+      K: Ingredient.of('rftoolspower:power_core2').toJson(),
+      P: Ingredient.of('rftoolspower:cell1').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+
+    },
+    result: Item.of('rftoolspower:cell2').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/cell2')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['rKr', 'KPK', 'rKr'],
+    key: {
+      K: Ingredient.of('rftoolspower:power_core3').toJson(),
+      P: Ingredient.of('rftoolspower:cell2').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+
+    },
+    result: Item.of('rftoolspower:cell2').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/cell3')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['qqq', 'rpr', 'qqq'],
+    key: {
+      q: Ingredient.of('#pneumaticcraft:reinforced_stone').toJson(),
+      p: Ingredient.of('#forge:gears/electrum').toJson(),
+      r: Ingredient.of('#forge:plates/electrum').toJson(),
+
+    },
+    result: Item.of('rftoolsbase:machine_base').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsbase/machine_base')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['qsq', 'rpr', 'qsq'],
+    key: {
+      q: Ingredient.of('#forge:gems/dimensional').toJson(),
+      p: Ingredient.of('#forge:gears/electrum').toJson(),
+      r: Ingredient.of('#forge:gems/diamond').toJson(),
+      s: Ingredient.of('#forge:dusts/redstone').toJson()
+
+    },
+    result: Item.of('rftoolsbase:machine_infuser').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsbase/machine_infuser')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['qsq', 'rpr', 'qaq'],
+    key: {
+      q: Ingredient.of('immersiveengineering:alloybrick').toJson(),
+      p: Ingredient.of('rftoolsbase:machine_frame').toJson(),
+      r: Ingredient.of('extendedcrafting:redstone_catalyst').toJson(),
+      s: Ingredient.of('rftoolsbase:infused_enderpearl').toJson(),
+      a: Ingredient.of('pneumaticcraft:printed_circuit_board').toJson()
+
+    },
+    result: Item.of('rftoolsbuilder:builder').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsbuilder/builder')
+
+//Storage Networks
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'QBQ', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('storagenetwork:speed_upgrade').toJson(),
+      B: Ingredient.of('storagenetwork:inventory').toJson()
+
+    },
+    result: Item.of('storagenetwork:collector').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/collector')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PSP', 'QBQ', 'PTP'],
+    key: {
+      P: Ingredient.of('minecraft:sea_lantern').toJson(),
+      Q: Ingredient.of('immersiveengineering:coil_mv').toJson(),
+      B: Ingredient.of('storagenetwork:inventory_remote').toJson(),
+      T: Ingredient.of('#forge:storage_blocks/steel').toJson(),
+      S: Ingredient.of('immersiveengineering:insulating_glass').toJson()
+
+    },
+    result: Item.of('storagenetwork:crafting_remote').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/crafting_remote')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'QBQ', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('storagenetwork:stack_upgrade').toJson(),
+      B: Ingredient.of('storagenetwork:inventory').toJson()
+
+    },
+    result: Item.of('storagenetwork:exchange').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/exchange')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'QBQ', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('create:mechanical_crafter').toJson()
+
+    },
+    result: Item.of('storagenetwork:inventory').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/inventory')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'QBQ', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:sheetmetals/electrum').toJson(),
+      Q: Ingredient.of('#forge:gears/constantan').toJson(),
+      B: Ingredient.of('storagenetwork:inventory').toJson()
+
+    },
+    result: Item.of('storagenetwork:request').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/request')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('#forge:plates/electrum').toJson()
+
+    },
+    result: Item.of('storagenetwork:speed_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/speed_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('#forge:plates/copper').toJson()
+
+    },
+    result: Item.of('storagenetwork:slow_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/slow_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('#forge:chests/wooden').toJson()
+
+    },
+    result: Item.of('storagenetwork:stock_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/stock_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('minecraft:comparator').toJson()
+
+    },
+    result: Item.of('storagenetwork:operation_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/operation_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('#minecraft:coals').toJson()
+
+    },
+    result: Item.of('storagenetwork:single_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/single_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['PQP', 'SBS', 'PQP'],
+    key: {
+      P: Ingredient.of('#forge:plates/steel').toJson(),
+      Q: Ingredient.of('extendedcrafting:redstone_ingot').toJson(),
+      B: Ingredient.of('storagenetwork:kabel').toJson(),
+      S: Ingredient.of('#forge:rods/blaze').toJson()
+
+    },
+    result: Item.of('storagenetwork:stack_upgrade').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/stack_upgrade')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('storagenetwork:inventory_remote').toJson(),
+
+    },
+    result: Item.of('storagenetwork:picker_remote').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/picker_remote')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:import_kabel').toJson(),
+      B: Ingredient.of('storagenetwork:inventory_remote').toJson(),
+
+    },
+    result: Item.of('storagenetwork:collector_remote').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/collector_remote')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:request').toJson(),
+      B: Ingredient.of('storagenetwork:inventory_remote').toJson(),
+
+    },
+    result: Item.of('storagenetwork:builder_remote').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/builder_remote')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('#forge:piston').toJson(),
+
+    },
+    result: Item.of('storagenetwork:export_kabel', 2).toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/export_kabel')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('minecraft:observer').toJson(),
+
+    },
+    result: Item.of('storagenetwork:filter_kabel', 2).toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/filter_kabel')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('#forge:barrels/wooden').toJson(),
+
+    },
+    result: Item.of('storagenetwork:import_filter_kabel', 2).toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/import_filter_kabel')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('#forge:hopper').toJson(),
+
+    },
+    result: Item.of('storagenetwork:import_kabel', 2).toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/import_kabel')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' Q ', 'QBQ', ' Q '],
+    key: {
+      Q: Ingredient.of('storagenetwork:kabel').toJson(),
+      B: Ingredient.of('#forge:chests/wooden').toJson(),
+
+    },
+    result: Item.of('storagenetwork:storage_kabel', 2).toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/storage_kabel')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' S ', 'QBQ', ' T '],
+    key: {
+      T: Ingredient.of('#forge:storage_blocks/glowstone').toJson(),
+      Q: Ingredient.of('#forge:gears/electrum').toJson(),
+      B: Ingredient.of('storagenetwork:master').toJson(),
+      S: Ingredient.of('immersiveengineering:insulating_glass').toJson()
+
+    },
+    result: Item.of('storagenetwork:inventory_remote').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/storagenetwork/inventory_remote')
 })
