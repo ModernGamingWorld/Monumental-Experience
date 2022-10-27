@@ -379,5 +379,6 @@ ServerEvents.recipes(e => {
     'mekanismgenerators:generator/advanceed_solar',
     'mekanismgenerators:generator/gas_burning',
     'mekanismgenerators:generator/solar'
+    'mekanismgenerators:generator/heat'
   ])
 })
