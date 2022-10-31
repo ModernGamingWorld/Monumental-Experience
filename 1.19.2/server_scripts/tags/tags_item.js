@@ -2,6 +2,7 @@ ServerEvents.tags('item', e => {
   //#region ADDITIONS
   //e.add('chipped:glowstone', /rechiseled:glowstone_/)
   //e.add('forge:beach_grass', 'upgrade_aquatic:beachgrass')
+  e.add('forge:plastic', 'pneumaticcraft:plastic')
   e.add('forge:sheetmetals/copper', 'createdeco:copper_sheet_metal')
   e.add('forge:nuggets/ender_pearl', 'extendedcrafting:ender_nugget')
   e.add('forge:blocks/quartz', [/rechiseled:quartz_block/, /chipped:quartz_block/])
