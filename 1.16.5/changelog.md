@@ -34,7 +34,6 @@
 - **OAuth**
 - **Fancy Menu**
 - **Paragliders**
-- **Serene Seasons**
 - **ShetiPhianCore**
 - **Simple Discord RPC**
 - **Villager Names**
