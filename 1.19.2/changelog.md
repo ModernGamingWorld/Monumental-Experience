@@ -13,7 +13,7 @@
 - [Morph-O-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool)
 - [Stoneborn Ui Overhaul](https://www.curseforge.com/minecraft/texture-packs/stoneborn-dwarven-fantasy-inspired-ui-overhaul)
 - [Cull Leaves](https://www.curseforge.com/minecraft/mc-mods/cull-leaves)
-
+- [Nasty Mobs](https://www.curseforge.com/minecraft/mc-mods/nasty-mobs)
  
 
 **Removed**
