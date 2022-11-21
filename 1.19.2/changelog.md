@@ -26,6 +26,7 @@
  
 
 **Fixes**
+- **Nasty Mobs** Dropping **Armor** Whenever an **Explosive** Arrow hit you
 
  
 
