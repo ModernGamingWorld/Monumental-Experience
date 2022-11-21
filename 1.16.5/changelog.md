@@ -2,24 +2,30 @@
 
 **Always remember to backup your world(s) before updating!**
 
+ 
 
 **Added**
 
+ 
 
 **Removed**
-- No mods removed.
+- No mods were **removed**.
 
+ 
 
 **Changes**
 - No New **changes**.
 
+ 
 
 **Fixes**
 
+ 
 
 **Quests**
-- No **changes**.
+- No New **changes**.
 
+ 
 
 **Updated**
 - **Aquaculture 2**
@@ -38,19 +44,19 @@
 - **Simple Discord RPC**
 - **Villager Names**
 
-
 **Forge Version**
 - 36.2.39
 
+ 
 
 **Reporting Issues**
-- Report any issues you might find in our [Discord](https://discord.gg/zbpAY5eNMF) under #tickets !
+- Report any issues you might find in our [Discord](https://discord.gg/zbpAY5eNMF) under #tickets
 
-
+ 
 
 **Need a server to play with your friends? or just don't know how to set one up?**
 
-**Get 25% off any game servers on your first month!**
+**Get 25% off any game servers in your first month!**
 
 **Code: BedrockLegends |** [Bisecthosting.com/BedrockLegends](https://bisecthosting.com/BedrockLegends)
 
