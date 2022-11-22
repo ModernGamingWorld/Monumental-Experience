@@ -6,6 +6,7 @@
  
 
 **Added**
+
 - [OAuth](https://www.curseforge.com/minecraft/mc-mods/oauth)
 - [Enigmatic Legacy](https://www.curseforge.com/minecraft/mc-mods/enigmatic-legacy)
 - [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace)
@@ -22,30 +23,36 @@
  
 
 **Changes**
+
 - Updated Some **Configs**
 
  
 
 **Fixes**
+
 - **Nasty Mobs** Dropping **Armor** Whenever an **Explosive** Arrow hit you
 
  
 
 **Quests**
+
 - No New **changes**.
 
  
 
 **Updated**
+
 - **Forge** from version **43.1.47** to **43.1.53**
 - All **mods** that **could** be **updated** have been **updated**.
 
 **Forge Version**
+
 - 43.1.53
 
  
 
 **Reporting Issues**
+
 - Report any issues you might find in our [Discord](https://discord.gg/zbpAY5eNMF) under #tickets
 
  
