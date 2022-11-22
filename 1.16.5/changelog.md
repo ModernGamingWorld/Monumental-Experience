@@ -9,11 +9,13 @@
  
 
 **Removed**
+
 - No mods were **removed**.
 
  
 
 **Changes**
+
 - No New **changes**.
 
  
@@ -23,19 +25,21 @@
  
 
 **Quests**
+
 - No New **changes**.
 
  
 
 **Updated**
+
 - **Aquaculture 2**
 - **Ars Nouveau**
 - **GeckoLib**
 - **Chunk Pregenerator**
 - **Collective**
-- **Draconic Evolution
-- **Dungeons Gear
-- **Dungeons Libraries
+- **Draconic Evolution**
+- **Dungeons Gear**
+- **Dungeons Libraries**
 - **FerriteCore**
 - **OAuth**
 - **Fancy Menu**
@@ -45,11 +49,13 @@
 - **Villager Names**
 
 **Forge Version**
+
 - 36.2.39
 
  
 
 **Reporting Issues**
+
 - Report any issues you might find in our [Discord](https://discord.gg/zbpAY5eNMF) under #tickets
 
  
