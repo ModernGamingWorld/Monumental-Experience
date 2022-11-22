@@ -1,6 +1,7 @@
 <h1>v2.0.64</h1>
 
 **Always remember to backup your world(s) before updating!**
+**Don't Post Bug Reports For 1.19.2**
 
  
 
