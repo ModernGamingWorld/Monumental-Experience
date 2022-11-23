@@ -76,8 +76,7 @@
 
 **Added**
  
-- [Modular Routers](https://www.curseforge.com/minecraft/mc-mods/modular-routers)
-- 
+- [Modular Routers](https://www.curseforge.com/minecraft/mc-mods/modular-routers) 
 
 **Removed**
 
@@ -90,9 +89,7 @@
 
  
 
-**Fixes**
-
-- **Nasty Mobs** Dropping **Armor** Whenever an **Explosive** Arrow hit you
+**Fixes**=
 
  
 
