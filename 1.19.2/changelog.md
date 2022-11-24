@@ -134,6 +134,7 @@
 **Added**
  
 - [Modular Routers](https://www.curseforge.com/minecraft/mc-mods/modular-routers) 
+- [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) 
 - Create Mixing Recipes
 
 **Removed**
