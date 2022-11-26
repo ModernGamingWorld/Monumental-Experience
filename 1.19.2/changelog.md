@@ -142,6 +142,7 @@
 - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
 - Create Mixing Recipes
 - Thermal Mechanical Crafting Recipes
+- Back Rftools Base Machine Frame Mechanical Crafting Recipe
 
 **Removed**
 
