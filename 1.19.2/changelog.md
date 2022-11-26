@@ -136,6 +136,10 @@
 - [Modular Routers](https://www.curseforge.com/minecraft/mc-mods/modular-routers) 
 - [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) 
 - [Carry On](https://www.curseforge.com/minecraft/mc-mods/carry-on) 
+- [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core)
+- [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)
+- [Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration)
+- [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
 - Create Mixing Recipes
 
 **Removed**
