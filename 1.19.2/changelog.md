@@ -140,7 +140,7 @@
 - [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)
 - [Thermal Integration](https://www.curseforge.com/minecraft/mc-mods/thermal-integration)
 - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
-- Create Mixing Recipes
+- Back some Create Mixing Recipes
 - Thermal Mechanical Crafting Recipes
 - Back Rftools Base Machine Frame Mechanical Crafting Recipe
 
