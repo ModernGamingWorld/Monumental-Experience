@@ -201,7 +201,7 @@
 
 **Added**
  
-- Back somemore Create Mixing Recipes
+- Back Somemore Create Mixing Recipes
 
 **Removed**
 
@@ -227,12 +227,12 @@
 
 **Updated**
 
-- **Forge** from version **43.1.53** to **43.1.57**
+- **Forge** from version **43.1.57** to **43.1.58**
 - All **mods** that **could** be **updated** have been **updated**.
 
 **Forge Version**
 
-- 43.1.57
+- 43.1.58
 
  
 
