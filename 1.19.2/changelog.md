@@ -203,6 +203,7 @@
  
 - Back Somemore Create Mixing Recipes
 - Cyclic Honey Bucket to forge:buckets/honey
+- Back Farming For Blockheads Compat
 
 **Removed**
 
@@ -211,7 +212,7 @@
 
 **Changes**
 
-- No New **Changes**
+- Cut Pneumaticcraft Oil Lake Surface chance in half from 25% to 13%
 
  
 
