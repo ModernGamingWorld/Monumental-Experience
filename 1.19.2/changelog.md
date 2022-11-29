@@ -202,10 +202,11 @@
 **Added**
  
 - Back Somemore Create Mixing Recipes
+- Cyclic Honey Bucket to forge:buckets/honey
 
 **Removed**
 
-- No **Mods**
+- **Thermal** Lead, Nickel, Silver, and Tin Ore Gen
  
 
 **Changes**
