@@ -204,6 +204,7 @@
 - Back 95% of Custom Create Heated Mixing Recipes
 - Cyclic Honey Bucket to forge:buckets/honey
 - Back Farming For Blockheads Compat
+- Back 95% of Custom Thermal Bottle Recipes, Missing one due to Astral Sorc not being updated to new versions
 
 **Removed**
 
