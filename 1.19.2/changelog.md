@@ -201,7 +201,7 @@
 
 **Added**
  
-- Back Somemore Create Mixing Recipes
+- Back 95% of Custom Create Heated Mixing Recipes
 - Cyclic Honey Bucket to forge:buckets/honey
 - Back Farming For Blockheads Compat
 
