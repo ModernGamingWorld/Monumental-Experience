@@ -219,7 +219,7 @@
 
  
 
-**Fixes**=
+**Fixes**
 
 - Missing Resource Packs Not Working on Loading Up
  
@@ -232,12 +232,11 @@
 
 **Updated**
 
-- **Forge** from version **43.1.57** to **43.1.58**
 - All **mods** that **could** be **updated** have been **updated**.
 
 **Forge Version**
 
-- 43.1.58
+- 43.1.57
 
  
 
