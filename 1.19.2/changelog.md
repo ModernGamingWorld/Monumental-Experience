@@ -207,6 +207,7 @@
 - Back 95% of Custom Thermal Bottle Recipes, Missing one due to Astral Sorc not being updated to new versions
 - Back All Create Custom Compacting Recipes from 1.16.5, now ported to 1.19.2
 - Back All Create Custom Pressing Recipes from 1.16.15, now ported to 1.19.2
+- Back 90% of the Custom Natures Aura Offering Custom Tool System Recipes
 
 **Removed**
 
