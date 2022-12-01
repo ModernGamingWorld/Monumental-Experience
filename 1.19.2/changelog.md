@@ -200,7 +200,8 @@
  
 
 **Added**
- 
+
+- [What's That Slot?](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot)  
 - Back 95% of Custom Create Heated Mixing Recipes
 - Cyclic Honey Bucket to forge:buckets/honey
 - Back Farming For Blockheads Compat
