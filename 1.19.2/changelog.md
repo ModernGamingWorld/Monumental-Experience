@@ -268,6 +268,7 @@
 **Added**
 
 - Custom Morph O Tool Recipe back
+- Custom Iron Jetpacks Recipes
 
 **Removed**
 
