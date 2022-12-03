@@ -325,7 +325,11 @@
 
 **Added**
 
-- 
+- [Easy Magic](https://www.curseforge.com/minecraft/mc-mods/easy-magic)
+- [Easy Anvils](https://www.curseforge.com/minecraft/mc-mods/easy-anvils)
+- [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
+- [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight)
+- [Raided](https://www.curseforge.com/minecraft/mc-mods/raided)
 
 **Removed**
 
