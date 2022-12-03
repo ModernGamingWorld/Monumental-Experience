@@ -392,7 +392,8 @@
 - [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
 - [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight)
 - [Raided](https://www.curseforge.com/minecraft/mc-mods/raided)
-- [Jumbo Furnace](https://www.curseforge.com/minecraft/mc-mods/jumbo-furnace)
+- Nether's Delight Machete to the Tool System, Iron is not included in this
+- Back Custom EnderCrafter Recipes, Some are still missing
 
 **Removed**
 
