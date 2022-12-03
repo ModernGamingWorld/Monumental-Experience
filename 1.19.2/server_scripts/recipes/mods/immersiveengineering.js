@@ -71,6 +71,8 @@ ServerEvents.recipes(e => {
     'immersiveengineering:crafting/treated_wood_horizontal_from_packaged',
     'immersiveengineering:crafting/treated_wood_horizontal',
     'immersiveengineering:crafting/insulating_glass',
+    'immersiveengineering:alloysmelter/insulating_glass',
+    'immersiveengineering:arcfurnace/insulating_glass',
     'immersiveengineering:crafting/cokebrick',
     'immersiveengineering:crafting/blastbrick',
     'immersiveengineering:crafting/blastbrick_reinforced',

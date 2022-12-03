@@ -229,6 +229,7 @@ ServerEvents.recipes(e => {
     'refinedstorage:storage_monitor',
     'refinedstorage:upgrade',
     'refinedstorage:cable',
-    'refinedstorage:controller'
+    'refinedstorage:controller',
+    'thermal:compat/refinedstorage/smelter_refinedstorage_alloy_quartz_enriched_iron'
   ])
 })

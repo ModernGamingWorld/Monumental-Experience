@@ -112,6 +112,7 @@ ServerEvents.recipes(e => {
     'create_sa:zinc_axe_recipe',
     'create_sa:zinc_sword_recipe',
     'create_sa:zinc_hoe_recipe',
-    'createaddition:crushing/diamond_ore'
+    'createaddition:crushing/diamond_ore',
+    'createaddition:compat/mekanism/rose_quartz_metallurgic_infusing'
   ])
 })

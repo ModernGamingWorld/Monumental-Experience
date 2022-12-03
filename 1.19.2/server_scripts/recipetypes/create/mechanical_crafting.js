@@ -251,6 +251,18 @@ ServerEvents.recipes(e => {
     result: Item.of('create:crushing_wheel', 2).toJson()
   }).id('monumentalexperience:mechanical_crafting/create/crushing_wheel')
  
+ //Industrial Foregoing
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['ABA', 'BCB', 'ABA'],
+    key: {
+      C: Ingredient.of('thermal:redstone_servo').toJson(),
+      B: Ingredient.of('kubejs:compressed_iron_plate').toJson(),
+      A: Ingredient.of('#forge:treated_wood').toJson()
+    },
+    result: Item.of('industrialforegoing:machine_frame_pity').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/industrialforegoing/machine_frame_pity')
+
  //Immersive Engineering
   e.custom({
     type: "create:mechanical_crafting",
@@ -285,6 +297,17 @@ ServerEvents.recipes(e => {
     },
     result: Item.of('immersiveengineering:heavy_engineering').toJson(),
   }).id('monumentalexperience:mechanical_crafting/immersiveengineering/heavy_engineering')
+  
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' G ', ' I ', ' T '],
+    key: {
+      G: Ingredient.of('thermal:upgrade_augment_3').toJson(),
+      I: Ingredient.of('immersiveengineering:electron_tube').toJson(),
+      T: Ingredient.of('#forge:plates/copper').toJson()
+    },
+    result: Item.of('immersiveengineering:circuit_board').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/immersiveengineering/circuit_board')
   
   e.custom({
     type: "create:mechanical_crafting",
@@ -807,7 +830,7 @@ ServerEvents.recipes(e => {
       B: Ingredient.of('extendedcrafting:redstone_component').toJson(),
       X: Ingredient.of('ae2:quartz_vibrant_glass').toJson(),
       I: Ingredient.of('#forge:silicon').toJson(),
-      G: Ingredient.of('ae2:fluid_cell_component_1k').toJson(),
+      G: Ingredient.of('ae2:fluid_storage_cell_1k').toJson(),
     },
     result: Item.of('refinedstorage:64k_fluid_storage_part').toJson(),
   }).id('monumentalexperience:mechanical_crafting/refinedstorage/64k_fluid_storage_part')
@@ -1045,6 +1068,61 @@ ServerEvents.recipes(e => {
     },
     result: Item.of('rftoolspower:cell2').toJson(),
   }).id('monumentalexperience:mechanical_crafting/rftoolspower/cell3')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['sds', 'rRr', 'sas'],
+    key: {
+      r: Ingredient.of('thermal:rf_coil').toJson(),
+      R: Ingredient.of('#forge:gears/compressed_iron').toJson(),
+      d: Ingredient.of('#forge:plates/diamond').toJson(),
+      s: Ingredient.of('#forge:plates/steel').toJson(),
+      a: Ingredient.of('extendedcrafting:redstone_catalyst').toJson()
+
+    },
+    result: Item.of('rftoolspower:power_core1').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/power_core1')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['ses', 'rRr', 'sas'],
+    key: {
+      r: Ingredient.of('thermal:rf_coil').toJson(),
+      R: Ingredient.of('#forge:gears/compressed_iron').toJson(),
+      e: Ingredient.of('#forge:plates/diamond').toJson(),
+      s: Ingredient.of('rftoolsbase:dimensionalshard').toJson(),
+      a: Ingredient.of('extendedcrafting:redstone_catalyst').toJson()
+
+    },
+    result: Item.of('rftoolspower:power_core2').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/power_core2')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['sds', 'rRr', 'ses'],
+    key: {
+      r: Ingredient.of('thermal:rf_coil').toJson(),
+      R: Ingredient.of('#forge:gears/compressed_iron').toJson(),
+      e: Ingredient.of('#forge:plates/emerald').toJson(),
+      s: Ingredient.of('rftoolsbase:dimensionalshard').toJson(),
+      d: Ingredient.of('#forge:plates/diamond').toJson()
+
+    },
+    result: Item.of('rftoolspower:power_core3').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolspower/power_core3')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['qpq', 'rir', 'qpq'],
+    key: {
+      i: Ingredient.of('thermal:enderium_glass').toJson(),
+      p: Ingredient.of('#forge:gears/lapis').toJson(),
+      q: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      r: Ingredient.of('#forge:sheetmetals/electrum').toJson()
+
+    },
+    result: Item.of('rftoolsbase:machine_frame').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/rftoolsbase/machine_base')
 
   e.custom({
     type: "create:mechanical_crafting",
@@ -1326,4 +1404,310 @@ ServerEvents.recipes(e => {
     },
     result: Item.of('storagenetwork:inventory_remote').toJson(),
   }).id('monumentalexperience:mechanical_crafting/storagenetwork/inventory_remote')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/steel').toJson(),
+      G: Ingredient.of('#forge:gears/gold').toJson(),
+      X: Ingredient.of('immersiveengineering:circuit_board').toJson(),
+      Y: Ingredient.of('#forge:gears/lapis').toJson()
+
+    },
+    result: Item.of('thermal:dynamo_lapidary').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_lapidary')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/iron').toJson(),
+      G: Ingredient.of('#forge:gears/silver').toJson(),
+      X: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      Y: Ingredient.of('minecraft:experience_bottle').toJson()
+
+    },
+    result: Item.of('thermal:dynamo_disenchantment').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_disenchantment')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/iron').toJson(),
+      G: Ingredient.of('#forge:gears/copper').toJson(),
+      X: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      Y: Ingredient.of('#forge:plates/tin').toJson()
+
+    },
+    result: Item.of('thermal:dynamo_gourmand').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_gourmand')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'GXG'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/steel').toJson(),
+      G: Ingredient.of('#forge:gears/bronze').toJson(),
+      X: Ingredient.of('immersiveengineering:circuit_board').toJson(),
+
+    },
+    result: Item.of('thermal:dynamo_compression').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_compression')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IYI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/iron').toJson(),
+      X: Ingredient.of('immersiveengineering:circuit_board').toJson(),
+      Y: Ingredient.of('#forge:gears/invar').toJson(),
+
+    },
+    result: Item.of('thermal:dynamo_magmatic').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_magmatic')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/steel').toJson(),
+      X: Ingredient.of('immersiveengineering:circuit_board').toJson(),
+      Y: Ingredient.of('#pneumaticcraft:reinforced_stone').toJson(),
+      G: Ingredient.of('#forge:gears/steel').toJson(),
+
+    },
+    result: Item.of('thermal:dynamo_stirling').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_stirling')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' C ', 'IGI', 'YXY'],
+    key: {
+      C: Ingredient.of('thermal:rf_coil').toJson(),
+      I: Ingredient.of('#forge:plates/steel').toJson(),
+      X: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      Y: Ingredient.of('#forge:gears/constantan').toJson(),
+      G: Ingredient.of('#forge:gears/bronze').toJson(),
+
+    },
+    result: Item.of('thermal:dynamo_numismatic').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/dynamo_numismatic')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:plates/steel').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#forge:furnace').toJson(),
+      Y: Ingredient.of('#forge:sand').toJson(),
+
+    },
+    result: Item.of('thermal:machine_smelter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_smelter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/copper').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#pneumaticcraft:fluid_tanks').toJson(),
+      Y: Ingredient.of('#thermal:glass/hardened').toJson(),
+
+    },
+    result: Item.of('thermal:machine_bottler').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_bottler')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/copper').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('thermal:saw_blade').toJson(),
+      Y: Ingredient.of('#forge:stone').toJson(),
+
+    },
+    result: Item.of('thermal:machine_sawmill').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_sawmill')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/invar').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#thermal:glass/hardened').toJson(),
+      Y: Ingredient.of('#forge:plates/copper').toJson(),
+
+    },
+    result: Item.of('thermal:machine_refinery').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_refinery')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/constantan').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#forge:rods/blaze').toJson(),
+      Y: Ingredient.of('#forge:bricks/nether').toJson(),
+
+    },
+    result: Item.of('thermal:machine_pyrolyzer').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_pyrolyzer')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/copper').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#forge:piston').toJson(),
+      Y: Ingredient.of('minecraft:flint').toJson(),
+
+    },
+    result: Item.of('thermal:machine_pulverizer').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_pulverizer')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/copper').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('extendedcrafting:redstone_component').toJson(),
+      Y: Ingredient.of('minecraft:bricks').toJson(),
+
+    },
+    result: Item.of('thermal:machine_furnace').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_furnace')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/copper').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#forge:workbenches').toJson(),
+      Y: Ingredient.of('#forge:ingots/tin').toJson(),
+
+    },
+    result: Item.of('thermal:machine_crafter').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_crafter')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/invar').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#thermal:glass/hardened').toJson(),
+      Y: Ingredient.of('thermal:ice_charge').toJson(),
+
+    },
+    result: Item.of('thermal:machine_chiller').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_chiller')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/constantan').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('#forge:compasses').toJson(),
+      Y: Ingredient.of('#forge:ingots/tin').toJson(),
+
+    },
+    result: Item.of('thermal:machine_centrifuge').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_centrifuge')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['SXS', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/lumium').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('engineersdecor:small_freezer').toJson(),
+      Y: Ingredient.of('#thermal:glass/hardened').toJson(),
+      S: Ingredient.of('cyclic:terra_preta').toJson()
+
+    },
+    result: Item.of('thermal:machine_insolator').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_insolator')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['XXX', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/constantan').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('minecraft:brewing_stand').toJson(),
+      Y: Ingredient.of('#thermal:glass/hardened').toJson()
+
+    },
+    result: Item.of('thermal:machine_brewer').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_brewer')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: [' X ', 'YCY', 'IPI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/constantan').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('create:mechanical_press').toJson(),
+      Y: Ingredient.of('#forge:plates/bronze').toJson()
+
+    },
+    result: Item.of('thermal:machine_press').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_press')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['SXS', 'YPY', 'ICI'],
+    key: {
+      C: Ingredient.of('thermal:machine_frame').toJson(),
+      I: Ingredient.of('#forge:gears/invar').toJson(),
+      P: Ingredient.of('thermal:rf_coil').toJson(),
+      X: Ingredient.of('create:blaze_burner').toJson(),
+      Y: Ingredient.of('#forge:bricks/nether').toJson(),
+      S: Ingredient.of('#thermal:glass/hardened').toJson()
+
+    },
+    result: Item.of('thermal:machine_crucible').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_crucible')
+
+  e.custom({
+    type: "create:mechanical_crafting",
+    pattern: ['IGI', 'GTG', 'IGI'],
+    key: {
+      G: Ingredient.of('#thermal:glass/hardened').toJson(),
+      I: Ingredient.of('#forge:sheetmetals/steel').toJson(),
+      T: Ingredient.of('#forge:gears/bronze').toJson()
+
+    },
+    result: Item.of('thermal:machine_frame').toJson(),
+  }).id('monumentalexperience:mechanical_crafting/thermal/machine_frame')
 })

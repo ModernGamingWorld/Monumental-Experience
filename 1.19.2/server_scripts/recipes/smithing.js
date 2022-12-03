@@ -51,6 +51,9 @@ ServerEvents.recipes(e => {
 		e.smithing(`mysticalagriculture:supremium_bow`, `mysticalagriculture:imperium_bow`, `mysticalagriculture:supremium_block`)
 	// Nature`s Compass
 		e.smithing(`naturescompass:naturescompass`, `minecraft:compass`, `#minecraft:saplings`)
+	// Nether's Delight
+		e.smithing(`nethersdelight:golden_machete`, Item.of(`nethersdelight:iron_machete`), `#forge:ingots/gold`)
+		e.smithing(`nethersdelight:diamond_machete`, Item.of(`nethersdelight:golden_machete`), `#forge:gems/diamond`)
 	// Occultism
 		e.smithing(`occultism:iesnium_pickaxe`, Item.of(`minecraft:diamond_pickaxe`), `#forge:ingots/iesnium`)
 	// Twilight Forest
