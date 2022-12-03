@@ -377,7 +377,7 @@
 
 ---------------
 
-**v2.0.70**
+**v2.0.69**
 
 **Always remember to backup your world(s) before updating!**
 
@@ -392,8 +392,10 @@
 - [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
 - [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight)
 - [Raided](https://www.curseforge.com/minecraft/mc-mods/raided)
+- [Alex's Delight](https://www.curseforge.com/minecraft/mc-mods/alexs-delight)
 - Nether's Delight Machete to the Tool System, Iron is not included in this
 - Back Custom EnderCrafter Recipes, Some are still missing
+- Back Thermal Pulverizer Recipes
 
 **Removed**
 
