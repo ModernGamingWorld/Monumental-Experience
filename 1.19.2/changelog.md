@@ -392,6 +392,7 @@
 - [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)
 - [Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/nethers-delight)
 - [Raided](https://www.curseforge.com/minecraft/mc-mods/raided)
+- [Jumbo Furnace](https://www.curseforge.com/minecraft/mc-mods/jumbo-furnace)
 
 **Removed**
 
