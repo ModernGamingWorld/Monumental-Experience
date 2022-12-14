@@ -570,6 +570,9 @@
 **Added**
 
 - **Botania and the Custom Recipes that go with it**
+- [Chisel & Bits](https://www.curseforge.com/minecraft/mc-mods/chisels-bits)
+- [Not Enough Wands](https://www.curseforge.com/minecraft/mc-mods/not-enough-wands)
+- [End Remastered](https://www.curseforge.com/minecraft/mc-mods/endremastered)
 
 **Removed**
 
@@ -581,7 +584,6 @@
 - No New **Changes**
 
  
-
 **Fixes**
 
 - No New **Fixes**
@@ -601,7 +603,6 @@
 
 - 43.2.0
 
- 
 
 **Reporting Issues**
 
