@@ -690,8 +690,11 @@
 - New Dragon Breath Custom Recipe
 - New Comparator Custom Recipe
 - Back Missing Minecraft Custom Recipes
+- Chainmail armor to the tool system
 
 **Removed**
+
+- Chain Mail Armor Default Recipes
 
 - **Nothing**
  
@@ -714,11 +717,12 @@
 
 **Updated**
 
+- **Forge** from version **43.2.0** to **43.2.1**
 - All **mods** that **could** be **updated** have been **updated**.
 
 **Forge Version**
 
-- 43.2.0
+- 43.2.1
 
 
 **Reporting Issues**
