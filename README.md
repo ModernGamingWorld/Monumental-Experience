@@ -8,7 +8,7 @@ About The Pack
 <p><em><strong>&nbsp;</strong></em></p>
 <p style="text-align: center;"><em><strong><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Community.png" alt="" width="1123" height="220" /><a href="https://discord.gg/zbpAY5eNMF" target="_blank" rel="noopener noreferrer"><img src="https://www.bisecthosting.com/images/CF/A_Bit_of_Everything/BH_BOE_Discord.png" alt="" width="400" height="200" /></a></strong></em></p>
 <p style="text-align: center;"><em><strong><a href="https://twitter.com/bedrocklegends" target="_blank" rel="noopener noreferrer"><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_TwitterCard.png" alt="" width="400" height="344" /></a></strong></em></p>
-<p><br /><a href="https://www.curseforge.com/minecraft/modpacks/monumental-experience/issues" target="_blank" rel="noopener noreferrer"><em><strong><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Issues.png" alt="" width="1123" height="220" /></strong></em></a></p>
+<p><br /><a href="https://discord.io/BedrockLegendsSupport" target="_blank" rel="noopener noreferrer"><em><strong><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Issues.png" alt="" width="1123" height="220" /></strong></em></a></p>
 <p>&nbsp;</p>
 <p style="text-align: center;"><em><strong><img src="https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_AddiitonalCredits.png" alt="" width="1123" height="220" /></strong><strong>Ridanisaurus &amp; NillerMedDild - Guidance with KubeJs Scripts!</strong></em></p>
 <p style="text-align: center;"><em><strong>NillerMedDild - Permission to Use some of Enigmatica 6 Conigs within the Modpack!</strong></em></p>
