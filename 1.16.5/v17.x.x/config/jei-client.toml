@@ -1,7 +1,0 @@
-[advanced]
-CenterSearch = true
-MaxColumns = 18
-
-[search]
-TooltipSearchMode = "REQUIRE_PREFIX"
-ResourceIdSearchMode = "REQUIRE_PREFIX"

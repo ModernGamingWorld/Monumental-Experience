@@ -1,2 +1,0 @@
-windSources = ["fire", "campfire#lit=true", "soul_campfire#lit=true"]
-paraglidingConsumesStamina = false

@@ -1,9 +1,0 @@
-{
-	exhaustion_per_block: 25.0d
-	max_blocks: 128
-	merge_tags: [
-		"minecraft:base_stone_overworld"
-		"ftbultimine:menril_logs"
-		"forge:ores/*"
-	]
-}

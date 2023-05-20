@@ -1,4 +1,0 @@
-[overworld]
-biome_size = "LARGE"
-temperature_variation_scheme = "LARGE_ZONES"
-rainfall_variation_scheme = "RANDOM"

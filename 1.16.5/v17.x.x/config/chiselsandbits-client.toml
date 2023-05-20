@@ -1,9 +1,0 @@
-[performance]
-
-[performance.model-building]
-thead-count = 2
-
-[compat]
-
-[compat.jei]
-inject-bits = false

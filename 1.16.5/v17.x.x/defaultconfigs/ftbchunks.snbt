@@ -1,4 +1,0 @@
-{
-	chunk_load_offline: false
-	max_force_loaded_chunks: 10
-}

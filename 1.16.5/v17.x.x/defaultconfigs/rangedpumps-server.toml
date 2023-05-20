@@ -1,5 +1,0 @@
-[pump]
-speed = 4
-tankCapacity = 16000
-energyCapacity = 100000
-energyUsagePerDrain = 250

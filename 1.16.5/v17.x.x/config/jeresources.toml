@@ -1,4 +1,0 @@
-hiddenTabs = ["enchantment", "worldgen"]
-enchantsBlacklist = ["flimflam", "soulBound", "ars_nouveau:reactive"]
-diyData = false
-disableLootManagerReloading = true

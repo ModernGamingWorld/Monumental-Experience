@@ -1,6 +1,0 @@
-[MachineCoreConfig]
-
-[MachineCoreConfig.DissolutionChamberConfig]
-powerPerTick = 25000
-maxStoredPower = 2500000
-maxInputTankSize = 64000

@@ -1,7 +1,0 @@
-[worldgen]
-
-[worldgen.marble]
-enabled = false
-
-[worldgen.ancient_shrine]
-biomeCategoryNames = ["savanna", "forest", "icy", "swamp", "taiga", "plains"]

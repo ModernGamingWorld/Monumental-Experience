@@ -1,7 +1,0 @@
-[General]
-enchantableJetpacks = true
-
-[Recipe]
-cells = false
-thrusters = false
-capacitors = false
