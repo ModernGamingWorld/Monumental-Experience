@@ -1,0 +1,144 @@
+
+[structures]
+
+	[structures.global]
+		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
+		#Range: 0 ~ 64
+		flatness_delta = 4
+		#How many chunks need to be at least between two structures? (in chunks) [default: 5]
+		#Range: 0 ~ 64
+		min_structure_distance = 5
+
+	[structures.castle]
+		#Spawn Chance [default: 0.5]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.5
+		#The size of the structure [default: 32]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 32
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.castle_ruin]
+		#Spawn Chance [default: 0.6]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.6
+		#The size of the structure [default: 32]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 32
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.desert_house]
+		#Spawn Chance [default: 0.7]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.7
+		#The size of the structure [default: 20]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 20
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.forge]
+		#Spawn Chance [default: 0.7]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.7
+		#The size of the structure [default: 20]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 20
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.player_house]
+		#Spawn Chance [default: 0.7]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.7
+		#The size of the structure [default: 18]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 18
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.spawner_dungeon]
+		#Spawn Chance [default: 0.8]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.8
+		#The size of the structure [default: 18]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 18
+		#The margin around the structure [default: 0].
+		#Range: 0 ~ 50
+		margin = 0
+
+	[structures.tower_ruin]
+		#Spawn Chance [default: 0.8]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.8
+		#The size of the structure [default: 22]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 22
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.witch_hut]
+		#Spawn Chance [default: 0.85]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.85
+		#The size of the structure [default: 13]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 13
+		#The margin around the structure [default: 3].
+		#Range: 0 ~ 50
+		margin = 3
+
+	[structures.big_tree]
+		#Spawn Chance [default: 0.7]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.7
+		#The size of the structure [default: 25]. Used in the calculations that check whether the surface area is flat enough to generate the structure.
+		#Range: 0 ~ 100
+		size = 25
+		#The margin around the structure [default: 12].
+		#Range: 0 ~ 50
+		margin = 12
+
+	[structures.spawner_room]
+		#Spawn Chance [default: 0.9]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 0.9
+		#The margin around the structure [default: 0].
+		#Range: 0 ~ 50
+		margin = 0
+
+	[structures.deep_spawner_room]
+		#Spawn Chance [default: 1.0]. 
+		# 1.0 = generate the structure always, 0.0 = never generate the structure
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 1.0
+		#The margin around the structure [default: 0].
+		#Range: 0 ~ 50
+		margin = 0
+
+[blocks]
+
+	[blocks.doused_torch]
+		#Enable/Disable the Doused Torch Feature. If disabled Water will no longer transform normal Torches into Doused Torches. 
+		# Doused Torches will however still generate in structures. [default: false]
+		disable = false
+

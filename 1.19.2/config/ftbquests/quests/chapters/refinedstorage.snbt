@@ -1,0 +1,1742 @@
+{
+	id: "000000000000084B"
+	group: "7E54189F6BA49858"
+	order_index: 3
+	filename: "refinedstorage"
+	title: "&aRefined Storage"
+	icon: "refinedstorage:machine_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Start of Refined Storage"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "000000000000084C"
+			tasks: [
+				{
+					id: "000000000000084D"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+				}
+				{
+					id: "00000000000007BE"
+					type: "item"
+					item: "refinedstorage:machine_casing"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000012B6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "532EB32BFE61DBB4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "000000000000084E"
+			tasks: [{
+				id: "000000000000084F"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [
+				{
+					id: "00000000000012C6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0F1AE71019B5B8C8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000850"
+			tasks: [
+				{
+					id: "0000000000000851"
+					type: "item"
+					item: "refinedstorage:storage_monitor"
+				}
+				{
+					id: "0000000000000852"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+				{
+					id: "0000000000000853"
+					type: "item"
+					item: "refinedstorage:fluid_grid"
+				}
+				{
+					id: "0000000000000854"
+					type: "item"
+					item: "refinedstorage:crafter_manager"
+				}
+				{
+					id: "0000000000000855"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "0000000000000856"
+					type: "item"
+					item: "refinedstorage:crafting_monitor"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000012DA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "43B436ED68AB7582"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000857"
+			tasks: [{
+				id: "0000000000000858"
+				type: "item"
+				item: "refinedstorage:relay"
+			}]
+			rewards: [
+				{
+					id: "00000000000012CA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1264DBBA1FE8D9D7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000859"
+			tasks: [{
+				id: "000000000000085A"
+				type: "item"
+				item: "refinedstorage:1k_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012C2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3171FF2C6A0C5125"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "gear"
+			dependencies: ["0000000000000859"]
+			size: 2.0d
+			id: "000000000000072E"
+			tasks: [{
+				id: "000000000000072F"
+				type: "item"
+				item: "refinedstorage:4k_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012BE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6946FEE944DB817A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			shape: "gear"
+			dependencies: ["000000000000072E"]
+			size: 2.0d
+			id: "0000000000000730"
+			tasks: [{
+				id: "0000000000000731"
+				type: "item"
+				item: "refinedstorage:16k_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012BC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4ED7C80D7108C8D0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000734"
+			tasks: [{
+				id: "0000000000000735"
+				type: "item"
+				item: "refinedstorage:security_manager"
+			}]
+			rewards: [
+				{
+					id: "00000000000012CC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "259BEFCDA689BE47"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000736"
+			tasks: [
+				{
+					id: "0000000000000737"
+					type: "item"
+					item: "refinedstorage:disk_manipulator"
+				}
+				{
+					id: "0000000000000756"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000012D0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "16FCD2ED6D956489"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "000000000000073A"
+			tasks: [{
+				id: "000000000000073B"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [
+				{
+					id: "00000000000012DE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "58E87CDAD9FB2D19"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["000000000000073A"]
+			size: 2.0d
+			id: "000000000000073C"
+			tasks: [{
+				id: "000000000000073D"
+				type: "item"
+				item: {
+					id: "refinedstorage:portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000012E0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "40AF31EC98E214D4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "000000000000073E"
+			tasks: [{
+				id: "000000000000073F"
+				type: "item"
+				item: "refinedstorage:detector"
+			}]
+			rewards: [
+				{
+					id: "00000000000012BA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1385D9D3928CB53A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			title: "Let's Start Getting Some Storage Space"
+			x: -24.0d
+			y: -0.5d
+			shape: "heart"
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "0000000000000740"
+			tasks: [{
+				id: "0000000000000741"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+			rewards: [
+				{
+					id: "0000000000001905"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "67181BBF7FD6793C"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000742"
+			tasks: [{
+				id: "0000000000000759"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012D2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "018FE461E4CBFA40"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000744"
+			tasks: [{
+				id: "0000000000000745"
+				type: "item"
+				item: "refinedstorage:network_transmitter"
+			}]
+			rewards: [
+				{
+					id: "00000000000012CE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "64D1B0358577AE20"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000746"
+			tasks: [{
+				id: "0000000000000747"
+				type: "item"
+				item: "refinedstorage:network_receiver"
+			}]
+			rewards: [
+				{
+					id: "46899D812CBA2BC9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "407E40A08C24A991"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000748"
+			tasks: [{
+				id: "0000000000000749"
+				type: "item"
+				item: "refinedstorage:fluid_interface"
+			}]
+			rewards: [
+				{
+					id: "00000000000012C8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3BA9E69ED614ED09"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["0000000000000740"]
+			size: 2.0d
+			id: "000000000000074A"
+			tasks: [{
+				id: "000000000000074B"
+				type: "item"
+				item: "refinedstorage:1k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000128E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4ED59BD7288331F3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000074A"]
+			size: 2.0d
+			id: "000000000000074C"
+			tasks: [{
+				id: "000000000000074D"
+				type: "item"
+				item: "refinedstorage:4k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001290"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3F87B915ADAB12F6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000074C"]
+			size: 2.0d
+			id: "000000000000074E"
+			tasks: [{
+				id: "000000000000074F"
+				type: "item"
+				item: "refinedstorage:16k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001292"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2B07B9C06E1DAECC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000074E"]
+			size: 2.0d
+			id: "0000000000000750"
+			tasks: [{
+				id: "0000000000000751"
+				type: "item"
+				item: "refinedstorage:64k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001294"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C7C60C3311C2FF6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000752"
+			tasks: [{
+				id: "0000000000000753"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [
+				{
+					id: "00000000000012C0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5BAA09470C12EFF7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000754"
+			tasks: [{
+				id: "0000000000000755"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+			rewards: [
+				{
+					id: "00000000000012C4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "55B1007DD4637BAD"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["0000000000000740"]
+			size: 2.0d
+			id: "000000000000075D"
+			tasks: [{
+				id: "000000000000075E"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000128C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4B016348A6BA96F4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["000000000000075D"]
+			size: 2.0d
+			id: "000000000000075F"
+			tasks: [{
+				id: "0000000000000760"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000128A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28C18F2C2B676518"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["000000000000075F"]
+			size: 2.0d
+			id: "0000000000000761"
+			tasks: [{
+				id: "0000000000000762"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001288"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7312F2F6B637A6C8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["0000000000000761"]
+			hide: false
+			size: 2.0d
+			id: "0000000000000763"
+			tasks: [{
+				id: "0000000000000764"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001286"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "476B3A49C15292FB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "0000000000000768"
+			tasks: [
+				{
+					id: "0000000000000769"
+					type: "item"
+					item: "refinedstorage:wireless_crafting_monitor"
+				}
+				{
+					id: "000000000000076A"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+				{
+					id: "000000000000076B"
+					type: "item"
+					item: "refinedstorage:wireless_fluid_grid"
+				}
+				{
+					id: "000000000000076D"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000012DC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "34E2019FC422C946"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			title: "Let's Start Improvements With Some Upgrades"
+			x: 11.5d
+			y: 0.0d
+			shape: "heart"
+			size: 1.5d
+			id: "000000000000076E"
+			tasks: [{
+				id: "000000000000076F"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+			rewards: [
+				{
+					id: "679172BAD049747B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "73ABF920E4A2D599"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "0000000000000770"
+			tasks: [{
+				id: "0000000000000771"
+				type: "item"
+				item: "refinedstorage:fortune_1_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012EC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "404C11E99510CB53"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "00000000000007BF"
+			tasks: [{
+				id: "00000000000007C0"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012E8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "27B05549766A24BC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "00000000000007C1"
+			tasks: [{
+				id: "00000000000007C2"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012E4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7BCC0E3F40696D9F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "00000000000007C3"
+			tasks: [{
+				id: "00000000000007C4"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012EA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "07EF1EDCE273308A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "00000000000007C5"
+			tasks: [{
+				id: "00000000000007C6"
+				type: "item"
+				item: "refinedstorage:silk_touch_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012E2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3E3E0526680B4B01"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["000000000000076E"]
+			size: 2.0d
+			id: "00000000000007C7"
+			tasks: [{
+				id: "00000000000007C8"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012E6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3CAA34E61C25718F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["0000000000000770"]
+			size: 2.0d
+			id: "00000000000007C9"
+			tasks: [{
+				id: "00000000000007CA"
+				type: "item"
+				item: "refinedstorage:fortune_2_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012EE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4C42BE3816065FBE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["000000000000084C"]
+			size: 2.0d
+			id: "00000000000007CD"
+			tasks: [{
+				id: "00000000000007CE"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "00000000000012B8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4279B21FDA8CFC18"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -4.0d
+			shape: "gear"
+			size: 2.0d
+			id: "000000000000088E"
+			tasks: [{
+				id: "000000000000088F"
+				type: "item"
+				item: "extradisks:256k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "0000000000001296"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "25A4D17E52704C8B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["000000000000088E"]
+			size: 2.0d
+			id: "0000000000000891"
+			tasks: [{
+				id: "0000000000000892"
+				type: "item"
+				item: "extradisks:256k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001298"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0318D6D0EC27A936"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "000000000000089D"
+			tasks: [{
+				id: "000000000000089E"
+				type: "item"
+				item: "extradisks:1024k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "000000000000129A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "02086DB790C58E28"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["000000000000089D"]
+			size: 2.0d
+			id: "000000000000089F"
+			tasks: [{
+				id: "00000000000008A0"
+				type: "item"
+				item: "extradisks:1024k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000129C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6DD2D188D829EAB0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "00000000000008A1"
+			tasks: [{
+				id: "00000000000008A2"
+				type: "item"
+				item: "extradisks:4096k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012A0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "57D9C4EE6500798E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["00000000000008A1"]
+			size: 2.0d
+			id: "00000000000008A3"
+			tasks: [{
+				id: "00000000000008A4"
+				type: "item"
+				item: "extradisks:4096k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000129E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28E81A386BC71109"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["00000000000008A7"]
+			size: 2.0d
+			id: "00000000000008A5"
+			tasks: [{
+				id: "00000000000008A6"
+				type: "item"
+				item: "extradisks:16384k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "00000000000012A2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0CE412FFE86EF93A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "00000000000008A7"
+			tasks: [{
+				id: "00000000000008A8"
+				type: "item"
+				item: "extradisks:16384k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012A4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0EC5CDBE17F549A7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["00000000000008AF"]
+			size: 2.0d
+			id: "00000000000008AD"
+			tasks: [{
+				id: "00000000000008AE"
+				type: "item"
+				item: "extradisks:16384k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001284"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0620220D55D7C9AC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: 11.5d
+			shape: "gear"
+			size: 2.0d
+			id: "00000000000008AF"
+			tasks: [{
+				id: "00000000000008B0"
+				type: "item"
+				item: "extradisks:16384k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "0000000000001282"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "251027583D5CDA6A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: 11.5d
+			shape: "gear"
+			size: 2.0d
+			id: "00000000000008B1"
+			tasks: [{
+				id: "00000000000008B2"
+				type: "item"
+				item: "extradisks:65536k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "000000000000127E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "70F95881F383BA60"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -24.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["00000000000008B1"]
+			size: 2.0d
+			id: "00000000000008B3"
+			tasks: [{
+				id: "00000000000008B4"
+				type: "item"
+				item: "extradisks:65536k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001280"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "69FCB10BD7B17E57"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["00000000000008B7"]
+			size: 2.0d
+			id: "00000000000008B5"
+			tasks: [{
+				id: "00000000000008B6"
+				type: "item"
+				item: "extradisks:262144k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "000000000000127A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "160D783AD46495EF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 11.5d
+			shape: "gear"
+			size: 2.0d
+			id: "00000000000008B7"
+			tasks: [{
+				id: "00000000000008B8"
+				type: "item"
+				item: "extradisks:262144k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "000000000000127C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4EA0CEF553D36519"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["00000000000008BB"]
+			size: 2.0d
+			id: "00000000000008B9"
+			tasks: [{
+				id: "00000000000008BA"
+				type: "item"
+				item: "extradisks:1048576k_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001276"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "58A854A9A372C217"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 11.5d
+			shape: "gear"
+			size: 2.0d
+			id: "00000000000008BB"
+			tasks: [{
+				id: "00000000000008BC"
+				type: "item"
+				item: "extradisks:1048576k_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "0000000000001278"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0B0E04EFD61A9A8E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["00000000000007C9"]
+			size: 2.0d
+			id: "000000000000019F"
+			tasks: [{
+				id: "00000000000001A0"
+				type: "item"
+				item: "refinedstorage:fortune_3_upgrade"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "00A8354931F1014C"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["0000000000000742"]
+			size: 2.0d
+			id: "00000000000001A1"
+			tasks: [{
+				id: "00000000000001A2"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012D4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1AC0A898E1E310EB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["00000000000001A1"]
+			size: 2.0d
+			id: "00000000000001A3"
+			tasks: [{
+				id: "00000000000001A4"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "375A25EEE76C6C17"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -12.0d
+			shape: "gear"
+			dependencies: ["00000000000001A3"]
+			size: 2.0d
+			id: "00000000000001A5"
+			tasks: [{
+				id: "00000000000001A6"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_block"
+			}]
+			rewards: [
+				{
+					id: "00000000000012D8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "51AFF5C23DD902E7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["00000000000001AB"]
+			size: 2.0d
+			id: "00000000000001A9"
+			tasks: [{
+				id: "00000000000001AA"
+				type: "item"
+				item: "extradisks:65536k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "00000000000012A8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "68AF099FF0300DD7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -28.0d
+			y: -4.0d
+			shape: "gear"
+			size: 2.0d
+			id: "00000000000001AB"
+			tasks: [{
+				id: "00000000000001AC"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012A6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2A58C62C4557B9C7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["0000000000000721"]
+			size: 2.0d
+			id: "00000000000001AD"
+			tasks: [{
+				id: "00000000000001AE"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "0000000000001274"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "68AF8972305F0A9A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 11.5d
+			shape: "gear"
+			size: 2.0d
+			id: "0000000000000721"
+			tasks: [{
+				id: "0000000000000722"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_part"
+			}]
+			rewards: [
+				{
+					id: "0000000000001272"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2A7C4829DA42894C"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -32.0d
+			y: -4.0d
+			shape: "gear"
+			size: 2.0d
+			id: "0000000000000723"
+			tasks: [{
+				id: "0000000000000724"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012AC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5EB3705CDBEE2F02"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -32.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["0000000000000723"]
+			size: 2.0d
+			id: "0000000000000725"
+			tasks: [{
+				id: "0000000000000726"
+				type: "item"
+				item: "extradisks:262144k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "00000000000012AA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "42BEA1CAFE1B10EB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -36.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["0000000000000729"]
+			size: 2.0d
+			id: "0000000000000727"
+			tasks: [{
+				id: "0000000000000728"
+				type: "item"
+				item: "extradisks:1048576k_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "00000000000012AE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "699FC4FBB8499403"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -36.0d
+			y: -4.0d
+			shape: "gear"
+			size: 2.0d
+			id: "0000000000000729"
+			tasks: [{
+				id: "000000000000072A"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012B0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "791DCA316D82C54E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -40.0d
+			y: -4.0d
+			shape: "gear"
+			size: 2.0d
+			id: "000000000000072B"
+			tasks: [{
+				id: "000000000000072C"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [
+				{
+					id: "00000000000012B2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "09146752235B5015"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -40.0d
+			y: -8.0d
+			shape: "gear"
+			dependencies: ["000000000000072B"]
+			size: 2.0d
+			id: "000000000000072D"
+			tasks: [{
+				id: "0000000000000732"
+				type: "item"
+				item: "extradisks:infinite_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "00000000000012B4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "63CA1E40AE79F938"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

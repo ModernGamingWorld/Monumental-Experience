@@ -1,0 +1,384 @@
+{
+	id: "0000000000002065"
+	group: "4814F40AB34427B6"
+	order_index: 8
+	filename: "9natures_aura"
+	title: "&dNature's Aura"
+	icon: "naturesaura:aura_bloom"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000002066"
+			tasks: [{
+				id: "0000000000002067"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "341EAE415E9662AA"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["0000000000002066"]
+			size: 1.5d
+			id: "0000000000002068"
+			tasks: [{
+				id: "0000000000002069"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "78242F54D73DDAEE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["0000000000002068"]
+			size: 1.5d
+			id: "000000000000206A"
+			tasks: [{
+				id: "000000000000206B"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "13223B3F14268D15"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 2.25d
+			y: -8.25d
+			dependencies: ["000000000000206A"]
+			size: 1.5d
+			id: "000000000000206C"
+			tasks: [{
+				id: "000000000000206D"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+			rewards: [
+				{
+					id: "140C5AFB03D7BB56"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["000000000000206A"]
+			size: 1.5d
+			id: "000000000000206E"
+			tasks: [{
+				id: "000000000000206F"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0103138B2F64ECAB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			dependencies: ["000000000000206E"]
+			size: 1.5d
+			id: "00000000000020B9"
+			tasks: [{
+				id: "00000000000020BA"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "72BFE2FE8D0E27C2"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -6.0d
+			dependencies: ["00000000000020BD"]
+			size: 1.5d
+			id: "00000000000020BB"
+			tasks: [{
+				id: "00000000000020BC"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F10C3BF92D26595"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -3.0d
+			size: 1.5d
+			id: "00000000000020BD"
+			tasks: [{
+				id: "00000000000020BE"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+			}]
+			rewards: [
+				{
+					id: "2585835C68132640"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -9.0d
+			dependencies: [
+				"00000000000020BB"
+				"000000000000206E"
+			]
+			size: 1.5d
+			id: "00000000000020BF"
+			tasks: [{
+				id: "00000000000020C0"
+				type: "item"
+				item: "naturesaura:token_joy"
+			}]
+			rewards: [
+				{
+					id: "1D4AB8148F8845B8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -12.0d
+			dependencies: ["00000000000020BF"]
+			size: 1.5d
+			id: "00000000000020C1"
+			tasks: [{
+				id: "00000000000020C2"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+			rewards: [
+				{
+					id: "7E71E3CF21BABE48"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -9.0d
+			dependencies: ["00000000000020C1"]
+			size: 1.5d
+			id: "00000000000020C3"
+			tasks: [{
+				id: "00000000000020C4"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [
+				{
+					id: "0960A68FDC365D6D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["00000000000020BD"]
+			size: 1.5d
+			id: "00000000000020C5"
+			tasks: [{
+				id: "00000000000020C6"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35B899C0DCA8A0B9"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -3.0d
+			dependencies: ["00000000000020C5"]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "00000000000020C7"
+			tasks: [{
+				id: "00000000000020C8"
+				type: "item"
+				item: "naturesaura:token_fear"
+			}]
+			rewards: [
+				{
+					id: "6AAFCB15D210F7D2"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -9.0d
+			dependencies: ["00000000000020C1"]
+			size: 1.5d
+			id: "00000000000020C9"
+			tasks: [{
+				id: "00000000000020CA"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [
+				{
+					id: "4B0D2586AF172A9F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -12.0d
+			dependencies: [
+				"00000000000020C3"
+				"00000000000020C9"
+			]
+			size: 1.5d
+			id: "00000000000020CB"
+			tasks: [{
+				id: "00000000000020CC"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
+			rewards: [
+				{
+					id: "359C18D346C6659F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["00000000000020BB"]
+			size: 1.5d
+			id: "00000000000020CD"
+			tasks: [{
+				id: "00000000000020CE"
+				type: "item"
+				item: "naturesaura:token_sorrow"
+			}]
+			rewards: [
+				{
+					id: "12F2A8CD411574B0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -6.0d
+			dependencies: [
+				"00000000000020C7"
+				"00000000000020CD"
+				"00000000000020C3"
+			]
+			size: 1.5d
+			id: "00000000000020CF"
+			tasks: [{
+				id: "00000000000020D0"
+				type: "item"
+				item: "naturesaura:offering_table"
+			}]
+			rewards: [
+				{
+					id: "50FAA7692005FBE4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -12.0d
+			dependencies: ["00000000000020CB"]
+			size: 1.5d
+			id: "00000000000020D1"
+			tasks: [{
+				id: "00000000000020D2"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [
+				{
+					id: "7923440D30289262"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,286 @@
+{
+	id: "0000000000000D1D"
+	group: "5271FC3947DEACC8"
+	order_index: 5
+	filename: "tier6mysticalagriculture"
+	title: "&4(Tier6) &9Mystical Agriculture"
+	icon: "mysticalagriculture:nether_star_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D20"]
+			size: 1.5d
+			id: "0000000000000D1E"
+			tasks: [{
+				id: "0000000000000D1F"
+				type: "item"
+				item: "mysticalagradditions:insanium_coal"
+			}]
+			rewards: [
+				{
+					id: "0000000000001330"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3F5E71E9B5CB3E69"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000000D20"
+			tasks: [{
+				id: "0000000000000D21"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "000000000000195A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "17BF2062113E9EF6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0000000000000D20"]
+			size: 1.5d
+			id: "0000000000000255"
+			tasks: [
+				{
+					id: "0000000000000256"
+					type: "item"
+					item: "mysticalagriculture:nether_star_seeds"
+				}
+				{
+					id: "00000000000014A9"
+					type: "item"
+					item: "mysticalagradditions:nether_star_crux"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000132A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "551E8C304C747393"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D20"]
+			size: 1.5d
+			id: "0000000000000257"
+			tasks: [
+				{
+					id: "0000000000000258"
+					type: "item"
+					item: "mysticalagriculture:dragon_egg_seeds"
+				}
+				{
+					id: "00000000000014AA"
+					type: "item"
+					item: "mysticalagradditions:dragon_egg_crux"
+				}
+				{
+					id: "0000000000000D22"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000132C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "61D3DC32D8266A02"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["0000000000000255"]
+			size: 1.5d
+			id: "0000000000000259"
+			tasks: [{
+				id: "000000000000025A"
+				type: "item"
+				item: "mysticalagriculture:nether_star_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "0000000000001328"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4098A739F9F5E06D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			shape: "circle"
+			dependencies: ["0000000000000257"]
+			size: 1.5d
+			id: "000000000000025B"
+			tasks: [{
+				id: "000000000000025C"
+				type: "item"
+				item: "mysticalagriculture:dragon_egg_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "000000000000132E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28116863DFF653A8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			shape: "circle"
+			dependencies: [
+				"0000000000000D20"
+				"6154CB94B9600DE0"
+			]
+			size: 1.5d
+			id: "4ED3A2EE2432AC2F"
+			tasks: [{
+				id: "4BF93A1CC1492A6F"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_seeds"
+			}]
+			rewards: [
+				{
+					id: "3311262DCDBD7397"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C3006058BA1946E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "circle"
+			dependencies: [
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
+			size: 1.5d
+			id: "2F69D1B6AA39F12C"
+			tasks: [{
+				id: "5A1E91E85E24D0B5"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "043AB5D6826BA6F5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "369C970686631014"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D20"]
+			size: 1.5d
+			id: "3F285BBF604A25C0"
+			tasks: [{
+				id: "42D45DAF0D335D7D"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+			rewards: [
+				{
+					id: "7D3BE180D4C30D24"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7FE74DE951DB6F9D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D20"]
+			size: 1.5d
+			id: "473DFF326A5D5A88"
+			tasks: [{
+				id: "75CD88A27E7C37DF"
+				type: "item"
+				item: "mysticalagradditions:insanium_apple"
+			}]
+			rewards: [
+				{
+					id: "03B259A6D4E2627A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "657893BCB1289A38"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1499 @@
+{
+	id: "0000000000000CF6"
+	group: "5271FC3947DEACC8"
+	order_index: 1
+	filename: "tier2mysticalagriculture"
+	title: "&4(Tier2) &9Mystical Agriculture"
+	icon: "mysticalagriculture:nature_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000CF7"
+			tasks: [{
+				id: "0000000000000CF8"
+				type: "item"
+				item: "mysticalagradditions:prudentium_coal"
+			}]
+			rewards: [
+				{
+					id: "0000000000001142"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "76F1BB157CD4F3B6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000000CF9"
+			tasks: [{
+				id: "0000000000000CFC"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0000000000001933"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "46C6EAB369B6ADF1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000CFD"
+			tasks: [{
+				id: "0000000000000CFE"
+				type: "item"
+				item: "mysticalagriculture:prudentium_gemstone"
+			}]
+			rewards: [
+				{
+					id: "0000000000001145"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2DA3041B242D6B2E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000CFF"
+			tasks: [{
+				id: "0000000000000086"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [
+				{
+					id: "0000000000001143"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "31408B25372937EB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000D00"
+			tasks: [{
+				id: "0000000000000D01"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:prudentium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000114B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2C2BCDDCFDBD0A8D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000D02"
+			tasks: [{
+				id: "0000000000000D03"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001147"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1D1A8DED482E5222"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D02"]
+			size: 1.5d
+			id: "0000000000000D04"
+			tasks: [{
+				id: "0000000000000D05"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001148"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "19B425BE2A4AD510"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["0000000000000D04"]
+			size: 1.5d
+			id: "0000000000000D06"
+			tasks: [{
+				id: "0000000000000D07"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001149"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2F948A15ED6D2BDF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000D06"]
+			size: 1.5d
+			id: "0000000000000D08"
+			tasks: [{
+				id: "0000000000000D09"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000114A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "16F8E6AB45045CDB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000D0A"
+			tasks: [{
+				id: "0000000000000D0B"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [
+				{
+					id: "0000000000001144"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7E61DF056803D704"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000D0C"
+			tasks: [{
+				id: "0000000000000D0D"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_watering_can"
+					Count: 1b
+					tag: {
+						Active: 0
+						Water: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001146"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1829F44F1B6B1F7A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000D0E"
+			tasks: [{
+				id: "0000000000000D0F"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "0000000000001141"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2B1B4FCFE3347ECC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000000097"
+			tasks: [{
+				id: "0000000000000098"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [
+				{
+					id: "0000000000001930"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "020EE92A27F3C5EE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000000099"
+			tasks: [{
+				id: "000000000000009A"
+				type: "item"
+				item: "mysticalagriculture:nature_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001184"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "03221813F96A54FC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "000000000000009B"
+			tasks: [{
+				id: "000000000000009C"
+				type: "item"
+				item: "mysticalagriculture:dye_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001182"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1CA643246D859F50"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "000000000000009D"
+			tasks: [{
+				id: "0000000000001475"
+				type: "item"
+				item: "mysticalagriculture:coal_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000117E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "296D8814225A6253"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000001476"
+			tasks: [{
+				id: "0000000000001477"
+				type: "item"
+				item: "mysticalagriculture:nether_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001180"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3E235F8B3C2A9484"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "0000000000001478"
+			tasks: [{
+				id: "0000000000001479"
+				type: "item"
+				item: "mysticalagriculture:coral_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000117C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3B9ED478DEF06EF3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000A3"
+			tasks: [{
+				id: "000000000000147A"
+				type: "item"
+				item: "mysticalagriculture:sulfur_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000117B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2A70DB49B352A19D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000A5"
+			tasks: [{
+				id: "000000000000147B"
+				type: "item"
+				item: "mysticalagriculture:pig_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000115E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "643D3E89573A075D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "000000000000147C"
+			tasks: [{
+				id: "000000000000147D"
+				type: "item"
+				item: "mysticalagriculture:chicken_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001161"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "028FEB8FE8CB3E99"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 17.25d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "000000000000147E"
+			tasks: [{
+				id: "00000000000000AA"
+				type: "item"
+				item: "mysticalagriculture:cow_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001164"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "03A487A80AFFB445"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 17.25d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000AB"
+			tasks: [{
+				id: "00000000000000AC"
+				type: "item"
+				item: "mysticalagriculture:sheep_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001166"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "392DB8DFD922A4BD"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 17.25d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000AD"
+			tasks: [{
+				id: "00000000000000AE"
+				type: "item"
+				item: "mysticalagriculture:squid_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001169"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "42AA0AC7F2976A6C"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000AF"
+			tasks: [{
+				id: "00000000000000B0"
+				type: "item"
+				item: "mysticalagriculture:fish_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001153"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "414F977A34D3D02B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000B1"
+			tasks: [{
+				id: "00000000000000B2"
+				type: "item"
+				item: "mysticalagriculture:slime_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001150"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4B9BB3633B9559DE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 17.25d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000097"]
+			size: 1.5d
+			id: "00000000000000B3"
+			tasks: [{
+				id: "00000000000007DD"
+				type: "item"
+				item: "mysticalagriculture:turtle_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000114E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3BE948BE1ADC34DB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["0000000000000099"]
+			size: 1.5d
+			id: "00000000000007E0"
+			tasks: [{
+				id: "00000000000007E1"
+				type: "item"
+				item: "mysticalagriculture:nature_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0000000000001185"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "46AA72C4EEC56906"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["000000000000009B"]
+			size: 1.5d
+			id: "00000000000007E2"
+			tasks: [{
+				id: "00000000000007E3"
+				type: "item"
+				item: "mysticalagriculture:dye_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0000000000001183"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6E2616AC54282F76"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["0000000000001476"]
+			size: 1.5d
+			id: "00000000000007E4"
+			tasks: [{
+				id: "00000000000007E5"
+				type: "item"
+				item: "mysticalagriculture:nether_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0000000000001181"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "031BB880A9D5F406"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["000000000000009D"]
+			size: 1.5d
+			id: "00000000000007E6"
+			tasks: [{
+				id: "00000000000007E7"
+				type: "item"
+				item: "mysticalagriculture:coal_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "000000000000117F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "50973BED9C241173"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["0000000000001478"]
+			size: 1.5d
+			id: "00000000000007E8"
+			tasks: [{
+				id: "00000000000007E9"
+				type: "item"
+				item: "mysticalagriculture:coral_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "000000000000117D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7D379D63FCBACA52"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["00000000000000AD"]
+			size: 1.5d
+			id: "00000000000007EA"
+			tasks: [{
+				id: "00000000000007EB"
+				type: "item"
+				item: "mysticalagriculture:squid_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0000000000001168"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "40F2F7F6B4E65360"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["00000000000000AB"]
+			size: 1.5d
+			id: "00000000000007EC"
+			tasks: [{
+				id: "00000000000007ED"
+				type: "item"
+				item: "mysticalagriculture:sheep_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0000000000001167"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4E798320ACE30FBF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["000000000000147E"]
+			size: 1.5d
+			id: "00000000000007EE"
+			tasks: [{
+				id: "00000000000007EF"
+				type: "item"
+				item: "mysticalagriculture:cow_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0000000000001165"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4D539BF38DE7962A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["000000000000147C"]
+			size: 1.5d
+			id: "00000000000007F0"
+			tasks: [{
+				id: "00000000000007F1"
+				type: "item"
+				item: "mysticalagriculture:chicken_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0000000000001160"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "07C84436D02CEACA"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["00000000000000A5"]
+			size: 1.5d
+			id: "00000000000007F2"
+			tasks: [{
+				id: "00000000000007F3"
+				type: "item"
+				item: "mysticalagriculture:pig_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "000000000000115F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "716DB6C9684BC7DC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["00000000000000B1"]
+			size: 1.5d
+			id: "00000000000007F4"
+			tasks: [{
+				id: "00000000000007F5"
+				type: "item"
+				item: "mysticalagriculture:slime_essence"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0000000000001152"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5E41668C5C530213"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["00000000000000B3"]
+			size: 1.5d
+			id: "00000000000007F6"
+			tasks: [{
+				id: "00000000000007F7"
+				type: "item"
+				item: "mysticalagriculture:turtle_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "000000000000114F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "69FFBF771D4D0E9E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["00000000000000AF"]
+			size: 1.5d
+			id: "00000000000007F8"
+			tasks: [{
+				id: "00000000000007F9"
+				type: "item"
+				item: "mysticalagriculture:fish_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0000000000001154"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6683EB690BAB821B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000A3"]
+			size: 1.5d
+			id: "00000000000000E3"
+			tasks: [{
+				id: "00000000000000E4"
+				type: "item"
+				item: "mysticalagriculture:sulfur_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "000000000000117A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0374756333FB9F3A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000B5"
+			tasks: [{
+				id: "00000000000000B6"
+				type: "item"
+				item: "mysticalagriculture:honey_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001178"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "517B1367F0BCF348"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000B7"
+			tasks: [{
+				id: "00000000000000B8"
+				type: "item"
+				item: "mysticalagriculture:rubber_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001176"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "66396A97066050B1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000B9"
+			tasks: [{
+				id: "00000000000000BA"
+				type: "item"
+				item: "mysticalagriculture:silicon_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001174"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0C2ED8BD3BEC0BD1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000BB"
+			tasks: [{
+				id: "00000000000000BC"
+				type: "item"
+				item: "mysticalagriculture:aluminum_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001172"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "45C07527F22037EF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000BD"
+			tasks: [{
+				id: "00000000000000BE"
+				type: "item"
+				item: "mysticalagriculture:copper_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001170"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "55772137CAD1F194"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000BF"
+			tasks: [{
+				id: "00000000000000C0"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000116E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "18A2F2C4BF451F77"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "00000000000000C3"
+			tasks: [{
+				id: "00000000000000C4"
+				type: "item"
+				item: "mysticalagriculture:mystical_flower_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000116A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0846AB7A83D5F6EA"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000B5"]
+			size: 1.5d
+			id: "000000000000036A"
+			tasks: [{
+				id: "000000000000036B"
+				type: "item"
+				item: "mysticalagriculture:honey_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000001179"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "40F715854603CD55"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000B7"]
+			size: 1.5d
+			id: "000000000000147F"
+			tasks: [{
+				id: "0000000000001480"
+				type: "item"
+				item: "mysticalagriculture:rubber_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000001177"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2CC876636C08A48E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000B9"]
+			size: 1.5d
+			id: "0000000000001481"
+			tasks: [{
+				id: "0000000000001482"
+				type: "item"
+				item: "mysticalagriculture:silicon_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000001175"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "31DE3ED93C5EFFA4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000BB"]
+			size: 1.5d
+			id: "0000000000001483"
+			tasks: [{
+				id: "0000000000001484"
+				type: "item"
+				item: "mysticalagriculture:aluminum_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000001173"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2A98A159256C7427"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000BD"]
+			size: 1.5d
+			id: "0000000000001485"
+			tasks: [{
+				id: "0000000000001486"
+				type: "item"
+				item: "mysticalagriculture:copper_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0000000000001171"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "712FCA9F432E7EF4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000BF"]
+			size: 1.5d
+			id: "0000000000001487"
+			tasks: [{
+				id: "0000000000001488"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "000000000000116F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "324F83E4F71E4231"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["00000000000000C3"]
+			size: 1.5d
+			id: "000000000000148B"
+			tasks: [{
+				id: "0000000000000379"
+				type: "item"
+				item: "mysticalagriculture:mystical_flower_essence"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "000000000000116B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "45D566A9589DE276"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "15F5E68ACFDBAF93"
+			tasks: [{
+				id: "6068F24534B496AB"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+			rewards: [
+				{
+					id: "23A93C3E596FDC64"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7E3B311D854852F8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000CF9"]
+			size: 1.5d
+			id: "63C6F404AE2B5922"
+			tasks: [{
+				id: "0E9C08883F37BDE5"
+				type: "item"
+				item: "mysticalagriculture:prudentium_reprocessor"
+			}]
+			rewards: [
+				{
+					id: "06B025E63390ED33"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5C2EC7AC07EFCA59"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

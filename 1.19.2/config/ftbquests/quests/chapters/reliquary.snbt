@@ -1,0 +1,764 @@
+{
+	id: "6D99A1049F28674F"
+	group: "6B2D545E7A3D7242"
+	order_index: 1
+	filename: "reliquary"
+	title: "&4Reliquary"
+	icon: {
+		id: "reliquary:mercy_cross"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 0.0d
+			size: 1.5d
+			id: "777D3AD4238D67F1"
+			tasks: [{
+				id: "48CB6E5BB844DAFD"
+				type: "item"
+				item: {
+					id: "reliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000011DC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "532BEA1C3A7D528D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			size: 1.5d
+			id: "12716CCE86843DC5"
+			tasks: [{
+				id: "43E973707DA57955"
+				type: "item"
+				item: "reliquary:destruction_catalyst"
+			}]
+			rewards: [
+				{
+					id: "07F803AD78CCD805"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "29D91B13FE2E1A4E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			size: 1.5d
+			id: "59B26797208079AD"
+			tasks: [{
+				id: "37A38DE764DB126B"
+				type: "item"
+				item: {
+					id: "reliquary:ender_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000011E9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "134C562E4EAD5EDA"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			size: 1.5d
+			id: "4C0CD098FCD4A87B"
+			tasks: [{
+				id: "5F935E4CF08C0FCC"
+				type: "item"
+				item: "reliquary:glacial_staff"
+			}]
+			rewards: [
+				{
+					id: "00000000000011D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2C94BC4566667234"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			size: 1.5d
+			id: "149E12023C348322"
+			tasks: [{
+				id: "1A700577B83D24B6"
+				type: "item"
+				item: {
+					id: "reliquary:harvest_rod"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000011DA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4BD2D852315E08E5"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			size: 1.5d
+			id: "3B1FDBD5A81F222E"
+			tasks: [{
+				id: "7D3733E026A79979"
+				type: "item"
+				item: "reliquary:hero_medallion"
+			}]
+			rewards: [
+				{
+					id: "00000000000011EB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "07E7A6DE49BE22EC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			size: 1.5d
+			id: "49CF77206144D632"
+			tasks: [{
+				id: "415696311E641F43"
+				type: "item"
+				item: "reliquary:holy_hand_grenade"
+			}]
+			rewards: [
+				{
+					id: "00000000000011DB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "230630F0C0C2A5F5"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			size: 1.5d
+			id: "0000000000001472"
+			tasks: [
+				{
+					id: "0000000000001473"
+					type: "item"
+					item: "reliquary:infernal_chalice"
+				}
+				{
+					id: "525A3E2421E56990"
+					type: "item"
+					item: "reliquary:emperor_chalice"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000011E7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "48B3BEB28A266E9E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			size: 1.5d
+			id: "0000000000000A9B"
+			tasks: [{
+				id: "0000000000000AB3"
+				type: "item"
+				item: "reliquary:fortune_coin"
+			}]
+			rewards: [
+				{
+					id: "00000000000011D4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "58F2F70C1AF1FBF8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			size: 1.5d
+			id: "0000000000000AB4"
+			tasks: [{
+				id: "0000000000000ABA"
+				type: "item"
+				item: "reliquary:ice_magus_rod"
+			}]
+			rewards: [
+				{
+					id: "00000000000011D7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C634054514F078E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			size: 1.5d
+			id: "0000000000000ABB"
+			tasks: [
+				{
+					id: "0000000000000ABC"
+					type: "item"
+					item: "reliquary:infernal_claws"
+				}
+				{
+					id: "0000000000000ABF"
+					type: "item"
+					item: "reliquary:infernal_claw"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000011D8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5341B3ED009E7B7D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			size: 1.5d
+			id: "0000000000000ABD"
+			tasks: [{
+				id: "0000000000000ABE"
+				type: "item"
+				item: "reliquary:lantern_of_paranoia"
+			}]
+			rewards: [
+				{
+					id: "00000000000011DD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "63F2DA714BCC6709"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			size: 1.5d
+			id: "0000000000000AC0"
+			tasks: [{
+				id: "0000000000000AC1"
+				type: "item"
+				item: "reliquary:crimson_cloth"
+			}]
+			rewards: [
+				{
+					id: "00000000000011DE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "63BD6D64343E8D9B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			size: 1.5d
+			id: "0000000000000AC2"
+			tasks: [{
+				id: "0000000000000AC3"
+				type: "item"
+				item: "reliquary:pyromancer_staff"
+			}]
+			rewards: [{
+				id: "00000000000011E3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			size: 1.5d
+			id: "0000000000000AC4"
+			tasks: [{
+				id: "0000000000000AC5"
+				type: "item"
+				item: {
+					id: "reliquary:serpent_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000011E0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			size: 1.5d
+			id: "0000000000000AC6"
+			tasks: [{
+				id: "0000000000000AC7"
+				type: "item"
+				item: "reliquary:sojourner_staff"
+			}]
+			rewards: [
+				{
+					id: "00000000000011ED"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1EB4732E541AF9F1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			size: 1.5d
+			id: "0000000000000AC8"
+			tasks: [{
+				id: "0000000000000AC9"
+				type: "item"
+				item: {
+					id: "reliquary:rending_gale"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:feather"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000011E6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "171C0562459901DB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			size: 1.5d
+			id: "0000000000000ACA"
+			tasks: [{
+				id: "0000000000000ACB"
+				type: "item"
+				item: "reliquary:rod_of_lyssa"
+			}]
+			rewards: [
+				{
+					id: "00000000000011DF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7D6D4E7C791C3D94"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			size: 1.5d
+			id: "0000000000000ACC"
+			tasks: [{
+				id: "0000000000000ACD"
+				type: "item"
+				item: "reliquary:shears_of_winter"
+			}]
+			rewards: [
+				{
+					id: "00000000000011E4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "385F2455AA0D1E3B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			size: 1.5d
+			id: "0000000000000ACE"
+			tasks: [{
+				id: "0000000000000ACF"
+				type: "item"
+				item: "reliquary:twilight_cloak"
+			}]
+			rewards: [
+				{
+					id: "00000000000011E1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0D72ED4AB484E267"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			size: 1.5d
+			id: "0000000000000AD0"
+			tasks: [{
+				id: "0000000000000AD1"
+				type: "item"
+				item: {
+					id: "reliquary:witch_hat"
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000011EF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0837A36007AD0D3A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			size: 1.5d
+			id: "0000000000000AD2"
+			tasks: [{
+				id: "0000000000000AD3"
+				type: "item"
+				item: "reliquary:witherless_rose"
+			}]
+			rewards: [
+				{
+					id: "00000000000011E5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3BF8105D48369FE5"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			size: 1.5d
+			id: "0000000000000AD4"
+			tasks: [
+				{
+					id: "0000000000000AD5"
+					type: "item"
+					item: "reliquary:barrel_assembly"
+				}
+				{
+					id: "0000000000000AD6"
+					type: "item"
+					item: "reliquary:hammer_assembly"
+				}
+				{
+					id: "0000000000000AD7"
+					type: "item"
+					item: "reliquary:handgun"
+				}
+				{
+					id: "0000000000000AD8"
+					type: "item"
+					item: "reliquary:grip_assembly"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000011E2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28245CCE10C9C719"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			size: 1.5d
+			id: "0000000000000AD9"
+			tasks: [{
+				id: "0000000000000ADA"
+				type: "item"
+				item: "reliquary:alkahestry_altar"
+			}]
+			rewards: [
+				{
+					id: "00000000000011EA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3FF22809C8FECB3F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			size: 1.5d
+			id: "53655F2C60635C67"
+			tasks: [{
+				id: "63BAEDA150806248"
+				type: "item"
+				item: "reliquary:apothecary_cauldron"
+			}]
+			rewards: [
+				{
+					id: "00000000000011E8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "632E045457BB75E2"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			size: 1.5d
+			id: "7B09BA50D55F0FCD"
+			tasks: [{
+				id: "06621B4CF7BB6CD2"
+				type: "item"
+				item: "reliquary:apothecary_mortar"
+			}]
+			rewards: [
+				{
+					id: "00000000000011EC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "71CAE185EB936CA8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			size: 1.5d
+			id: "5AFFACEBDE7748D5"
+			tasks: [{
+				id: "0C362089F7521458"
+				type: "item"
+				item: "reliquary:fertile_lily_pad"
+			}]
+			rewards: [
+				{
+					id: "00000000000011EE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0A086D78BB4248BC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			size: 1.5d
+			id: "0B46D4AD87572C57"
+			tasks: [{
+				id: "3D3FFF0EDE4E7488"
+				type: "item"
+				item: "reliquary:interdiction_torch"
+			}]
+			rewards: [
+				{
+					id: "00000000000011D9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "12B899C17C9D9911"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			size: 1.5d
+			id: "0705E999C51A014B"
+			tasks: [{
+				id: "7FD0943970C54B56"
+				type: "item"
+				item: "reliquary:wraith_node"
+			}]
+			rewards: [
+				{
+					id: "00000000000011D5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5A6EC06ACAD29668"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

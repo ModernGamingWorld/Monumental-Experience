@@ -1,0 +1,836 @@
+{
+	id: "0000000000000766"
+	group: "4E2A2310634498BA"
+	order_index: 1
+	filename: "mining_gadget"
+	title: "&4Gadgets"
+	icon: {
+		id: "mininggadgets:mininggadget"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000000767"
+			tasks: [{
+				id: "000000000000076C"
+				type: "item"
+				item: "mininggadgets:upgrade_empty"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7F636411FA2C3BE1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000772"
+			tasks: [{
+				id: "0000000000000773"
+				type: "item"
+				item: "mininggadgets:modificationtable"
+			}]
+			rewards: [
+				{
+					id: "000000000000100D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7709BF149DF43A43"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000774"
+			tasks: [{
+				id: "0000000000000775"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001004"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2680D2362954F0F9"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000776"
+			tasks: [{
+				id: "0000000000000777"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_1"
+			}]
+			rewards: [
+				{
+					id: "0000000000001005"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2B8CFB59FA455AC1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["0000000000000776"]
+			size: 1.5d
+			id: "0000000000000778"
+			tasks: [{
+				id: "0000000000000779"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_2"
+			}]
+			rewards: [
+				{
+					id: "0000000000001006"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "59FDFA456370AAB3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["0000000000000778"]
+			size: 1.5d
+			id: "000000000000077A"
+			tasks: [{
+				id: "000000000000077B"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_3"
+			}]
+			rewards: [
+				{
+					id: "0000000000001007"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7A3A95C091B7DB80"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["000000000000077A"]
+			size: 1.5d
+			id: "000000000000077C"
+			tasks: [{
+				id: "000000000000077E"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_4"
+			}]
+			rewards: [
+				{
+					id: "0000000000001008"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "11A47BB63502FB17"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["000000000000077C"]
+			size: 1.5d
+			id: "000000000000077F"
+			tasks: [{
+				id: "0000000000000780"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+			rewards: [
+				{
+					id: "0000000000001009"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1D19920CCD38F449"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000781"
+			tasks: [{
+				id: "0000000000000782"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_1"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "73F9A429948E5FF6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["0000000000000781"]
+			size: 1.5d
+			id: "0000000000000783"
+			tasks: [{
+				id: "0000000000000784"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_2"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "541705F64F1C44FC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["0000000000000783"]
+			size: 1.5d
+			id: "0000000000000785"
+			tasks: [{
+				id: "0000000000000786"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_3"
+			}]
+			rewards: [
+				{
+					id: "0000000000001000"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0B77D0333BCA6532"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000787"
+			tasks: [{
+				id: "0000000000000788"
+				type: "item"
+				item: "mininggadgets:upgrade_range_1"
+			}]
+			rewards: [
+				{
+					id: "000000000000100E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2D2574307B51248D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["0000000000000787"]
+			size: 1.5d
+			id: "0000000000000789"
+			tasks: [{
+				id: "000000000000078A"
+				type: "item"
+				item: "mininggadgets:upgrade_range_2"
+			}]
+			rewards: [
+				{
+					id: "000000000000100F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0BA02F640B035BB3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["0000000000000789"]
+			size: 1.5d
+			id: "000000000000078B"
+			tasks: [{
+				id: "000000000000078C"
+				type: "item"
+				item: "mininggadgets:upgrade_range_3"
+			}]
+			rewards: [
+				{
+					id: "0000000000001010"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3C0563C256E0415F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["0000000000000774"]
+			size: 1.5d
+			id: "000000000000078D"
+			tasks: [{
+				id: "000000000000078E"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_1"
+			}]
+			rewards: [
+				{
+					id: "0000000000001003"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1220B7D68FC93A33"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["000000000000078D"]
+			size: 1.5d
+			id: "000000000000078F"
+			tasks: [{
+				id: "0000000000000790"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_2"
+			}]
+			rewards: [
+				{
+					id: "0000000000001002"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6073D7F195D789E2"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["000000000000078F"]
+			size: 1.5d
+			id: "0000000000000791"
+			tasks: [{
+				id: "0000000000000792"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_3"
+			}]
+			rewards: [
+				{
+					id: "0000000000001001"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "47411B33D49C699B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000793"
+			tasks: [{
+				id: "0000000000000794"
+				type: "item"
+				item: "mininggadgets:upgrade_silk"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7584E18C45E6E602"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+				{
+					id: "7B66446005446EE4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+				{
+					id: "565013857BE3F454"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000795"
+			tasks: [{
+				id: "0000000000000796"
+				type: "item"
+				item: "mininggadgets:upgrade_void_junk"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "32BF4C1BE57282A0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000797"
+			tasks: [{
+				id: "0000000000000798"
+				type: "item"
+				item: "mininggadgets:upgrade_magnet"
+			}]
+			rewards: [
+				{
+					id: "000000000000100A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "136BAD3C128368F0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "0000000000000799"
+			tasks: [{
+				id: "000000000000079A"
+				type: "item"
+				item: "mininggadgets:upgrade_three_by_three"
+			}]
+			rewards: [
+				{
+					id: "000000000000100C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "607EE81676437F62"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "000000000000079B"
+			tasks: [{
+				id: "000000000000079C"
+				type: "item"
+				item: "mininggadgets:upgrade_light_placer"
+			}]
+			rewards: [
+				{
+					id: "0000000000000FFB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5FEB548FCD76309E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["0000000000000767"]
+			size: 1.5d
+			id: "000000000000079D"
+			tasks: [{
+				id: "000000000000079E"
+				type: "item"
+				item: "mininggadgets:upgrade_freezing"
+			}]
+			rewards: [
+				{
+					id: "000000000000100B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1F7B66155940000A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			size: 1.5d
+			id: "0000000000001F54"
+			tasks: [{
+				id: "0000000000001F55"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001F64"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "37C6F378AF5CA3A1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			size: 1.5d
+			id: "0000000000001F56"
+			tasks: [{
+				id: "0000000000001F57"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001F65"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "25D3C529368D0E88"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			size: 1.5d
+			id: "0000000000001F58"
+			tasks: [{
+				id: "0000000000001F59"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						template_id: [I;
+							1480606922
+							-1165931906
+							-1914804027
+							-727964380
+						]
+						mode: 0b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001F66"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "30AFA3CFE516216D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			size: 1.5d
+			id: "0000000000001F5A"
+			tasks: [{
+				id: "0000000000001F5B"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001F67"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4AC56438EF7BFDCD"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["0000000000001F62"]
+			size: 1.5d
+			id: "0000000000001F5C"
+			tasks: [{
+				id: "0000000000001F5D"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t1"
+			}]
+			rewards: [
+				{
+					id: "0000000000001F69"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "37B4EDB4213CA828"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["0000000000001F5C"]
+			size: 1.5d
+			id: "0000000000001F5E"
+			tasks: [{
+				id: "0000000000001F5F"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t2"
+			}]
+			rewards: [
+				{
+					id: "0000000000001F6A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4A39FC34757685E0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["0000000000001F5E"]
+			size: 1.5d
+			id: "0000000000001F60"
+			tasks: [{
+				id: "0000000000001F61"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t3"
+			}]
+			rewards: [
+				{
+					id: "0000000000001F6B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "78644F327AEC976B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			size: 1.5d
+			id: "0000000000001F62"
+			tasks: [{
+				id: "0000000000001F63"
+				type: "item"
+				item: "buildinggadgets:construction_paste"
+			}]
+			rewards: [
+				{
+					id: "0000000000001F68"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2205FB7432B36744"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: ["0000000000001F58"]
+			size: 1.5d
+			id: "0000000000001F6C"
+			tasks: [{
+				id: "0000000000001F6D"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
+			rewards: [
+				{
+					id: "0000000000001F6F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4FC1F736FBE1B897"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

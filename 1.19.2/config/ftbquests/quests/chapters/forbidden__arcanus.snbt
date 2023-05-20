@@ -1,0 +1,100 @@
+{
+	id: "3A9B2F0E39646AEB"
+	group: "4814F40AB34427B6"
+	order_index: 7
+	filename: "forbidden__arcanus"
+	title: "&dForbidden and Arcanus"
+	icon: "forbidden_arcanus:forbiddenmicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000000733"]
+			size: 1.5d
+			id: "7A3548DE49290357"
+			tasks: [{
+				id: "0EFC30344E297705"
+				type: "item"
+				item: "forbidden_arcanus:forbiddenmicon"
+			}]
+			rewards: [{
+				id: "0000000000000FC4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.75d
+			size: 1.5d
+			id: "0000000000000733"
+			tasks: [{
+				id: "0000000000000738"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+			rewards: [{
+				id: "0000000000000FC2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.75d
+			dependencies: ["0000000000000733"]
+			size: 1.5d
+			id: "0000000000000739"
+			tasks: [{
+				id: "0000000000000743"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+			rewards: [{
+				id: "0000000000000FC3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"0000000000000733"
+				"0000000000000739"
+			]
+			size: 1.5d
+			id: "0000000000000757"
+			tasks: [{
+				id: "0000000000000758"
+				type: "item"
+				item: "forbidden_arcanus:deorum_ingot"
+			}]
+			rewards: [{
+				id: "0000000000000FC1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.75d
+			dependencies: ["0000000000000733"]
+			size: 1.5d
+			id: "000000000000075C"
+			tasks: [{
+				id: "0000000000000765"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_log"
+			}]
+			rewards: [{
+				id: "0000000000000FC0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

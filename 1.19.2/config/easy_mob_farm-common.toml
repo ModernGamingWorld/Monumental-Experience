@@ -1,0 +1,174 @@
+
+#Bo's Easy Mob Farm
+[General]
+	#Enable/Disable owner messages about full storage to avoid lagging systems.
+	informOwnerAboutFullStorage = true
+	#Enable/Disable full storage log messages for the server logs.
+	logFullStorage = true
+	#Number of roll's to get the loot preview for a captured mob. Higher numbers require more server load, but giving a more completed overview.
+	#Range: 1 ~ 5
+	lootPreviewRolls = 2
+	#Enable/Disable the drop sound for the loot drops.
+	playDropSound = true
+
+["Animal Plains Farms"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	animalPlainsFarmProcessTime = 300
+	#Supported Mobs for the animal plains farm.
+	animalPlainsFarmMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+	#Defines the sound which is played when a loot drop is performed.
+	animalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+
+["Bee Hive Farms"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	beeHiveFarmProcessTime = 300
+	#Supported Mobs for the bee hive farm.
+	beeHiveFarmMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+	#Defines the sound which is played when a loot drop is performed.
+	beeHiveFarmDropSound = "minecraft:block.beehive.exit"
+
+["Creative Mob Farm"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	creativeMobFarmProcessTime = 60
+	#Defines the sound which is played when a loot drop is performed.
+	creativeMobFarmDropSound = "minecraft:entity.chicken.egg"
+
+["Desert Farm"]
+	#Defines after how many seconds a drop is performed.
+	#Range: 10 ~ 3600
+	desertFarmProcessTime = 300
+	#Supported Mobs for the dessert farm.
+	desertFarmMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+	#Defines the sound which is played when a loot drop is performed.
+	desertFarmDropSound = "minecraft:block.sand.hit"
+
+["Jungle Farm"]
+	#Defines after how many seconds a drop is performed.
+	#Range: 10 ~ 3600
+	jungleFarmProcessTime = 300
+	#Supported Mobs for the dessert farm.
+	jungleFarmMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+	#Defines the sound which is played when a loot drop is performed.
+	jungleFarmDropSound = "minecraft:block.azalea.hit"
+
+["Monster Plains Cave Farm"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	monsterPlainsCaveFarmProcessTime = 300
+	#Supported Mobs for the monster plains cave farm.
+	monsterPlainsCaveFarmMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+	#Defines the sound which is played when a loot drop is performed.
+	monsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+
+["Nether Fortress Farm"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	netherFortressFarmProcessTime = 300
+	#Supported Mobs for the nether fortress farm.
+	netherFortressFarmMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+	#Defines the sound which is played when a loot drop is performed.
+	netherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+
+["Ocean Farm"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	oceanFarmProcessTime = 300
+	#Supported Mobs for the ocean farm.
+	oceanFarmMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+	#Defines the sound which is played when a loot drop is performed.
+	oceanFarmDropSound = "minecraft:entity.fish.swim"
+
+["Swamp Farm"]
+	#Defines after how many seconds a loot drop is performed.
+	#Range: 10 ~ 3600
+	swampFarmProcessTime = 300
+	#Supported Mobs for the swamp farm.
+	swampFarmMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+	#Defines the sound which is played when a loot drop is performed.
+	swampFarmDropSound = "minecraft:entity.slime.squish"
+
+["Catch Cage (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	catchCageMobCatchingLuck = 6
+	#Catchable mobs with the catch cage.
+	catchCageMobs = ["minecraft:panda", "minecraft:polar_bear"]
+
+["Catch Cage small (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	catchCageSmallMobCatchingLuck = 3
+	#Catchable mobs with the catch cage small.
+	catchCageSmallMobs = ["minecraft:chicken", "minecraft:rabbit", "minecraft:parrot"]
+
+["Collar small (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	collarSmallMobCatchingLuck = 3
+	#Catchable mobs with the collar small.
+	collarSmallMobs = ["minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:horse", "minecraft:pig", "minecraft:sheep"]
+
+["Fishing bowl (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	fishingBowlMobCatchingLuck = 3
+	#Catchable mobs with the fishing bowl.
+	fishingBowlMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:atlantic_cod", "aquaculture:atlantic_halibut", "aquaculture:atlantic_herring", "aquaculture:blackfish", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:pollock", "aquaculture:rainbow_trout"]
+
+["Fishing net small (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	fishingNetSmallMobCatchingLuck = 3
+	#Catchable mobs with the fishing net small.
+	fishingNetSmallMobs = ["minecraft:cod", "minecraft:salmon", "minecraft:squid", "minecraft:glow_squid", "minecraft:drowned"]
+
+["Insect net (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	insectNetMobCatchingLuck = 3
+	#Catchable mobs with the insect net.
+	insectNetMobs = ["productivebees:hepatizon_bee", "productivebees:signalum_bee", "productivebees:tourmaline_bee", "productivebees:bumble_bee", "productivebees:onyx_bee", "productivebees:redstone_bee", "productivebees:allthemodium_bee", "productivebees:garnet_bee", "productivebees:salty_bee", "productivebees:rose_quartz_bee", "productivebees:topaz_bee", "productivebees:creeper_bee", "productivebees:green_carpenter_bee", "productivebees:silver_bee", "productivebees:slimesteel_bee", "productivebees:ender_bee", "productivebees:morganite_bee", "productivebees:pig_iron_bee", "productivebees:tertium_bee", "productivebees:ametrine_bee", "productivebees:pink_slimy_bee", "productivebees:amethyst_bee", "productivebees:agate_bee", "productivebees:nether_gobber_bee", "productivebees:sunstone_bee", "productivebees:vibranium_bee", "productivebees:rock_crystal_bee", "productivebees:spectrum_bee", "productivebees:malachite_bee", "productivebees:blizz_bee", "productivebees:moldavite_bee", "productivebees:tungsten_bee", "productivebees:compressed_iron_bee", "productivebees:manasteel_bee", "productivebees:ammolite_bee", "productivebees:ghostly_bee", "productivebees:soulsteel_bee", "productivebees:magmatic_bee", "productivebees:resonant_ender_bee", "minecraft:bee", "productivebees:osmium_bee", "productivebees:supremium_bee", "productivebees:nickel_bee", "productivebees:skeletal_bee", "productivebees:bismuth_bee", "productivebees:starmetal_bee", "productivebees:starry_bee", "productivebees:yellow_black_carpenter_bee", "productivebees:ender_slimy_bee", "productivebees:black_opal_bee", "productivebees:iridium_bee", "productivebees:coral_bee", "productivebees:silicon_bee", "productivebees:patrick_bee", "productivebees:black_diamond_bee", "productivebees:iolite_bee", "productivebees:glowing_bee", "productivebees:gold_bee", "productivebees:knightslime_bee", "productivebees:mason_bee", "productivebees:plastic_bee", "productivebees:hoarder_bee", "productivebees:red_shroom_bee", "productivebees:benitoite_bee", "productivebees:invar_bee", "productivebees:emeraldite_bee", "productivebees:sodalite_bee", "productivebees:rancher_bee", "productivebees:menril_bee", "productivebees:radioactive_bee", "productivebees:spinel_bee", "productivebees:lapis_bee", "productivebees:slimy_bee", "productivebees:sweat_bee", "productivebees:sulfur_bee", "productivebees:blue_banded_bee", "productivebees:elementium_bee", "productivebees:nomad_bee", "productivebees:fire_crystal_bee", "productivebees:cats_eye_bee", "productivebees:ashy_mining_bee", "productivebees:jasper_bee", "productivebees:regenerative_bee", "productivebees:water_crystal_bee", "productivebees:ostrum_bee", "productivebees:oily_bee", "productivebees:peridot_bee", "productivebees:earth_crystal_bee", "productivebees:quartz_enriched_iron_bee", "productivebees:electrum_bee", "productivebees:end_gobber_bee", "productivebees:soul_lava_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:spacial_bee", "productivebees:netherite_bee", "productivebees:prosperity_bee", "productivebees:silky_bee", "productivebees:lumium_bee", "productivebees:legendary_salvage_bee", "productivebees:cobalt_bee", "productivebees:niter_bee", "productivebees:sugarbag_bee", "productivebees:alexandrite_bee", "productivebees:bloody_bee", "productivebees:cinnabar_bee", "productivebees:moonstone_bee", "productivebees:leafcutter_bee", "productivebees:uraninite_bee", "productivebees:carnelian_bee", "productivebees:aluminum_bee", "productivebees:aquamarine_bee", "productivebees:epic_salvage_bee", "productivebees:fluix_bee", "productivebees:coal_bee", "productivebees:rose_gold_bee", "productivebees:digger_bee", "productivebees:amethyst_bronze_bee", "productivebees:blazing_bee", "productivebees:dye_bee", "productivebees:draconium_bee", "productivebees:grave_bee", "productivebees:turquoise_bee", "productivebees:cupid_bee", "productivebees:insanium_bee", "productivebees:diamond_bee", "productivebees:uncommon_salvage_bee", "productivebees:spirit_bee", "productivebees:ichor_slimy_bee", "productivebees:neon_cuckoo_bee", "productivebees:kamikaz_bee", "productivebees:copper_bee", "productivebees:gobber_bee", "productivebees:brass_bee", "productivebees:bronze_bee", "productivebees:green_sapphire_bee", "productivebees:rare_salvage_bee", "productivebees:lepidolite_bee", "productivebees:titanium_bee", "productivebees:chocolate_bee", "productivebees:blitz_bee", "productivebees:amber_bee", "productivebees:energized_glowstone_bee", "productivebees:lumber_bee", "productivebees:citrine_bee", "productivebees:inferium_bee", "productivebees:pearl_bee", "productivebees:common_salvage_bee", "productivebees:brown_shroom_bee", "productivebees:queens_slime_bee", "productivebees:crimson_bee", "productivebees:warped_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:dark_gem_bee", "productivebees:apatite_bee", "productivebees:destabilized_redstone_bee", "productivebees:constantan_bee", "productivebees:hematophagous_bee", "productivebees:phosphophyllite_bee", "productivebees:refined_glowstone_bee", "productivebees:enderium_bee", "productivebees:fey_bee", "productivebees:calorite_bee", "productivebees:iesnium_bee", "productivebees:tektite_bee", "productivebees:geode_bee", "productivebees:fluorite_bee", "productivebees:pure_bee", "productivebees:reed_bee", "productivebees:cosmic_dust_bee", "productivebees:withered_bee", "productivebees:manyullyn_bee", "productivebees:pendorite_bee", "productivebees:arcane_bee", "productivebees:alfsteel_bee", "productivebees:sky_slimy_bee", "productivebees:draconic_bee", "productivebees:awakened_bee", "productivebees:zinc_bee", "productivebees:jade_bee", "productivebees:opal_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:chrysoprase_bee", "productivebees:terrasteel_bee", "productivebees:platinum_bee", "productivebees:basalz_bee", "productivebees:prudentium_bee", "productivebees:inert_crystal_bee", "productivebees:zircon_bee", "productivebees:emerald_bee", "productivebees:kunzite_bee", "productivebees:collector_bee", "productivebees:iron_bee", "productivebees:air_crystal_bee", "productivebees:chocolate_mining_bee", "productivebees:awakened_supremium_bee", "productivebees:refined_obsidian_bee", "productivebees:pyrope_bee", "productivebees:ruby_bee", "productivebees:white_diamond_bee", "productivebees:lead_bee", "productivebees:sapphire_bee", "productivebees:kyanite_bee", "productivebees:tanzanite_bee", "productivebees:steel_bee", "productivebees:euclase_bee", "productivebees:farmer_bee", "productivebees:resin_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:desh_bee", "productivebees:soulium_bee", "productivebees:quarry_bee", "productivebees:pepto_bismol_bee", "productivebees:tin_bee", "productivebees:heliodor_bee", "productivebees:imperium_bee", "productivebees:unobtainium_bee", "productivebees:wasted_radioactive_bee"]
+
+["Urn small (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	urnSmallMobCatchingLuck = 3
+	#Catchable mobs with the urn small.
+	urnSmallMobs = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:spider", "minecraft:skeleton", "minecraft:husk", "minecraft:zombie", "minecraft:zombie_villager"]
+
+["Witch Bottle (Mob Catching Item)"]
+	#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+	#Range: 0 ~ 100
+	witchBottleMobCatchingLuck = 10
+	#Catchable mobs with the witch bottle.
+	witchBottleMobs = ["minecraft:enderman", "minecraft:slime", "minecraft:witch"]
+
+["Bee Settings"]
+	#Enable/Disable honeycomb drops.
+	beeDropHoneycomb = true
+
+["Blaze Settings"]
+	#Enable/Disable blaze rod drops.
+	blazeDropBlazeRod = false
+
+["Chicken Settings"]
+	#Enable/Disable chicken egg drops.
+	chickenDropEggs = true
+	#Enable/Disable raw chicken drops.
+	chickenDropRawChicken = true
+
+["Cow Settings"]
+	#Enable/Disable cow raw beef drops.
+	cowDropRawBeef = true
+
+["Sheep Settings"]
+	#Enable/Disable sheep raw mutton drops.
+	sheepDropRawMutton = true
+
+["Slime Settings"]
+	#Enable/Disable slime drops regardless of size.
+	slimeDropSlime = true
+

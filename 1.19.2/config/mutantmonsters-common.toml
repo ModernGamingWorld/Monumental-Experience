@@ -1,0 +1,13 @@
+#Mutant Creeper spawn weight.
+#Range: 0 ~ 100
+mutant_creeper_spawn_weight = 5
+#Mutant Enderman spawn weight.
+#Range: 0 ~ 100
+mutant_enderman_spawn_weight = 5
+#Mutant Skeleton spawn weight.
+#Range: 0 ~ 100
+mutant_skeleton_spawn_weight = 5
+#Mutant Zombie spawn weight.
+#Range: 0 ~ 100
+mutant_zombie_spawn_weight = 5
+

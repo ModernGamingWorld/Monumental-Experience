@@ -1,0 +1,796 @@
+{
+	id: "0000000000001F70"
+	group: "55E5AF04A54B89DD"
+	order_index: 1
+	filename: "extreme_reactor"
+	title: "&2Extreme Reactors"
+	icon: "bigreactors:basic_reactorcasing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000001F71"
+			tasks: [
+				{
+					id: "0000000000001F72"
+					type: "item"
+					title: "Any #forge:ingots/graphite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/graphite"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "587AC38544F8AB11"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+					only_from_crafting: true
+				}
+			]
+			rewards: [
+				{
+					id: "07A0AD71CEE85512"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: 0.0d
+			dependencies: ["0000000000001F71"]
+			size: 1.5d
+			id: "0000000000001F73"
+			tasks: [{
+				id: "0000000000001F74"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+			}]
+			rewards: [
+				{
+					id: "64B9C4100DF1621B"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "0000000000001F77"
+			tasks: [{
+				id: "0000000000001F78"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "7461BF2E08432DA3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "0000000000001F79"
+			tasks: [{
+				id: "0000000000001F7A"
+				type: "item"
+				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+			rewards: [
+				{
+					id: "2898E191E38708BC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "0000000000001F7B"
+			tasks: [{
+				id: "0000000000001F7C"
+				type: "item"
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+			rewards: [
+				{
+					id: "038CC66D4C397422"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "0000000000001F7D"
+			tasks: [
+				{
+					id: "7C3EAFF297B63C64"
+					type: "item"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "3AFC58AAE0E6B3E3"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.75d
+			y: 3.75d
+			dependencies: ["0000000000001F8F"]
+			size: 1.5d
+			id: "0000000000001F8D"
+			tasks: [{
+				id: "0000000000001F8E"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
+			rewards: [
+				{
+					id: "354FE3E5C12831EF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.75d
+			shape: "gear"
+			dependencies: ["0000000000001F71"]
+			size: 1.5d
+			id: "0000000000001F8F"
+			tasks: [{
+				id: "0000000000001F90"
+				type: "item"
+				title: "Any #forge:ingots/cyanite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/cyanite"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "594DEA26EF0AB9D4"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "0000000000001F96"
+			tasks: [
+				{
+					id: "0000000000001F98"
+					type: "item"
+					item: "bigreactors:basic_turbinerotorblade"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "01F2196EB3024E32"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 5.25d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "0000000000001F9B"
+			tasks: [{
+				id: "0000000000001F9C"
+				type: "item"
+				item: "bigreactors:basic_turbinerotorbearing"
+			}]
+			rewards: [
+				{
+					id: "29D3DB839ED2A2B7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "0000000000001FA1"
+			tasks: [
+				{
+					id: "59EBF52F809D195F"
+					type: "item"
+					item: "bigreactors:basic_turbinepowertapfe_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "0770AC8A02F4B0DD"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F71"]
+			size: 1.5d
+			id: "2CE7F5DF4186E56E"
+			tasks: [
+				{
+					id: "66A63B1572DE93C6"
+					type: "item"
+					item: "bigreactors:basic_reactorfuelrod"
+				}
+			]
+			rewards: [
+				{
+					id: "0B6C496258000B98"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["0000000000001F71"]
+			size: 1.5d
+			id: "1A343A075606AF7A"
+			tasks: [{
+				id: "574AFA19148550B8"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcasing"
+			}]
+			rewards: [
+				{
+					id: "1B20FE0619C20D2E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "779EFB856BF05CB9"
+			tasks: [{
+				id: "41FAC493FDC483C8"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "3FD2B43E267F5654"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 0.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "147EB90EF39D4DD2"
+			tasks: [{
+				id: "09F377D323378A91"
+				type: "item"
+				item: "bigreactors:reinforced_reactorglass"
+			}]
+			rewards: [
+				{
+					id: "6F001BD18A1B6983"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "6EFC3BB7A4761D2D"
+			tasks: [{
+				id: "0A1C96A79A78D580"
+				type: "item"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}]
+			rewards: [
+				{
+					id: "30C2DB74D5412DC0"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			shape: "circle"
+			dependencies: ["0000000000001F8F"]
+			size: 1.5d
+			id: "64F10D8E7E3F254D"
+			tasks: [{
+				id: "63ACABE22694EDAE"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+			}]
+			rewards: [
+				{
+					id: "3D8B53950990DD66"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "76A70AF5E5261C0D"
+			tasks: [{
+				id: "590963311F5615F8"
+				type: "item"
+				item: "bigreactors:reinforced_reactorglass"
+			}]
+			rewards: [
+				{
+					id: "1760623C973C515F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "0417E05A0BF420C4"
+			tasks: [{
+				id: "4963E4EB8FFEA861"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecontroller"
+			}]
+			rewards: [
+				{
+					id: "659825241C5BF4A5"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "2DB17B55615AD4D3"
+			tasks: [{
+				id: "4DD6C793C1F4C232"
+				type: "item"
+				item: "bigreactors:reinforced_turbinerotorbearing"
+			}]
+			rewards: [
+				{
+					id: "4719025E3F83CE4D"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 9.75d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "5BFADD93D0650AEE"
+			tasks: [
+				{
+					id: "686A11673655AEBD"
+					type: "item"
+					item: "bigreactors:reinforced_turbinerotorblade"
+				}
+			]
+			rewards: [
+				{
+					id: "0AB1D85C906949D7"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -0.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "367D8E5BB1E05EBD"
+			tasks: [{
+				id: "52319CFB7650E550"
+				type: "item"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+			}]
+			rewards: [
+				{
+					id: "1966E7CFC951A0BE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: 2.25d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "2FB2D80861312E73"
+			tasks: [{
+				id: "2082E85E97469971"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcomputerport"
+			}]
+			rewards: [
+				{
+					id: "43F0D2FB5B5DA444"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "10DC957F4A6DBDB0"
+			tasks: [{
+				id: "64B910CB45D33898"
+				type: "item"
+				item: "bigreactors:reinforced_reactorredstoneport"
+			}]
+			rewards: [
+				{
+					id: "6807FA6CB7F204FE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "1317F5067CAECF1B"
+			tasks: [
+				{
+					id: "4D9E516A9AAB0F14"
+					type: "item"
+					item: "bigreactors:reinforced_reactorfluidport_forge_active"
+				}
+				{
+					id: "62ACD5D31AFD2411"
+					type: "item"
+					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
+				}
+				{
+					id: "36CC6484768F756E"
+					type: "item"
+					item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "60C646CB6C679682"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -5.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["1A343A075606AF7A"]
+			size: 1.5d
+			id: "3DFDA3D16A1E598C"
+			tasks: [{
+				id: "28EE67DD41ECCF95"
+				type: "item"
+				item: "bigreactors:reinforced_reactorchargingportfe"
+			}]
+			rewards: [
+				{
+					id: "502BC5CB29B84BE2"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "4DEEA3A5673250AF"
+			tasks: [{
+				id: "667C4BE7DA946C7B"
+				type: "item"
+				item: "bigreactors:basic_reactorredstoneport"
+			}]
+			rewards: [{
+				id: "5388778A7EC0D384"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.75d
+			shape: "circle"
+			dependencies: ["0000000000001F73"]
+			size: 1.5d
+			id: "0350691BD64E8EA7"
+			tasks: [{
+				id: "4CBC2DDCC040784C"
+				type: "item"
+				item: "bigreactors:basic_reactorchargingportfe"
+			}]
+			rewards: [
+				{
+					id: "6F2BDA3C6327B605"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "60C197A1F6067304"
+			tasks: [
+				{
+					id: "1CCFBD923ECF8BB7"
+					type: "item"
+					item: "bigreactors:reinforced_turbinepowertapfe_active"
+				}
+				{
+					id: "704260FA100E821D"
+					type: "item"
+					item: "bigreactors:reinforced_turbinepowertapfe_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "7CFF119488292B76"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 9.75d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "52C4759B97BA4435"
+			tasks: [
+				{
+					id: "3E36EFA9B0618D91"
+					type: "item"
+					item: "bigreactors:reinforced_turbinefluidport_forge_active"
+				}
+				{
+					id: "06AD9C62B17C7A08"
+					type: "item"
+					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "0C89BF0E89590D0A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 9.75d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "4BA217E1E1F79262"
+			tasks: [{
+				id: "6760A5CC934009CF"
+				type: "item"
+				item: "bigreactors:basic_turbineglass"
+			}]
+			rewards: [{
+				id: "0F64607517ED60B0"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 0.75d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "29E65331C0CEE6E1"
+			tasks: [
+				{
+					id: "680569D77AFF1D8D"
+					type: "item"
+					item: "bigreactors:basic_turbinefluidport_forge_passive"
+				}
+				{
+					id: "6182CE50ABFE4588"
+					type: "item"
+					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+				}
+			]
+			rewards: [
+				{
+					id: "75A9F82AC29F2388"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 6.75d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "6C400C9B26A2997C"
+			tasks: [{
+				id: "4BBB33BE89315DA9"
+				type: "item"
+				item: "bigreactors:reinforced_turbineredstoneport"
+			}]
+			rewards: [{
+				id: "03FAA92E87C10F18"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.75d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "255DBC58B15D7EF8"
+			tasks: [{
+				id: "7CD096F7D6A6D74A"
+				type: "item"
+				item: "bigreactors:reinforced_turbineredstoneport"
+			}]
+			rewards: [
+				{
+					id: "154166046DB9B1CC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			shape: "circle"
+			dependencies: ["64F10D8E7E3F254D"]
+			size: 1.5d
+			id: "44BACDBD27122D62"
+			tasks: [{
+				id: "1E35957A66014977"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecomputerport"
+			}]
+			rewards: [
+				{
+					id: "337C81E055DFBB74"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: 8.25d
+			shape: "circle"
+			dependencies: ["0000000000001F8D"]
+			size: 1.5d
+			id: "3732D0AB31DB89C5"
+			tasks: [{
+				id: "040192DB9056E048"
+				type: "item"
+				item: "bigreactors:basic_turbinechargingportfe"
+			}]
+			rewards: [
+				{
+					id: "294D5EE8EA77CB15"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,909 @@
+{
+	id: "0000000000000D19"
+	group: "5271FC3947DEACC8"
+	order_index: 4
+	filename: "tier5mysticalagriculture"
+	title: "&4(Tier5) &6Mystical Agriculture"
+	icon: "mysticalagriculture:diamond_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000000D1A"
+			tasks: [{
+				id: "0000000000000028"
+				type: "item"
+				item: "mysticalagradditions:supremium_coal"
+			}]
+			rewards: [
+				{
+					id: "0000000000001338"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "596FA5BBFD247A8E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "0000000000000D1B"
+			tasks: [{
+				id: "0000000000000D1C"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "36232701A3C2AF14"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2A5C6BC50D56965F"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: [
+				"0000000000000147"
+				"0000000000000D1B"
+			]
+			size: 1.5d
+			id: "000000000000015B"
+			tasks: [{
+				id: "000000000000015C"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "0000000000001336"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6B3A65196434CA33"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"0000000000000149"
+				"0000000000000D1B"
+			]
+			size: 1.5d
+			id: "000000000000015D"
+			tasks: [{
+				id: "000000000000015E"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [
+				{
+					id: "000000000000133E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "766CB641CBFB9FF1"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"000000000000014F"
+				"000000000000015D"
+			]
+			size: 1.5d
+			id: "0000000000000161"
+			tasks: [{
+				id: "0000000000000162"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [
+				{
+					id: "000000000000133C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3116C7A6EFA42D66"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"000000000000014D"
+				"0000000000000D1B"
+			]
+			size: 1.5d
+			id: "0000000000000163"
+			tasks: [{
+				id: "0000000000000164"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:supremium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3408E5C4B9DAA748"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28B9E5800803B197"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: [
+				"000000000000015D"
+				"0000000000000151"
+			]
+			size: 1.5d
+			id: "0000000000000165"
+			tasks: [{
+				id: "0000000000000166"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A71D39E1DB1479B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7F33F50982D1102A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"0000000000000165"
+				"0000000000000153"
+			]
+			size: 1.5d
+			id: "0000000000000167"
+			tasks: [{
+				id: "0000000000000168"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1FEC327B0FEE406D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "19E1E7F713C4DBAC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"0000000000000167"
+				"0000000000000155"
+			]
+			size: 1.5d
+			id: "0000000000000169"
+			tasks: [{
+				id: "000000000000016A"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7ADF0B659305757F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0A9838D779E80ECF"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: [
+				"0000000000000169"
+				"0000000000000157"
+			]
+			size: 1.5d
+			id: "000000000000016B"
+			tasks: [{
+				id: "000000000000016C"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32AAB02D315980C5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6CF28780D3E02343"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: [
+				"000000000000015D"
+				"0000000000000159"
+			]
+			size: 1.5d
+			id: "000000000000016D"
+			tasks: [{
+				id: "000000000000016E"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_watering_can"
+					Count: 1b
+					tag: {
+						Active: 0
+						Water: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B23F69401EDDBC8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "748F632C894FE0BA"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "000000000000016F"
+			tasks: [{
+				id: "7F84BD1C4FB85B15"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000133A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7CBF48BB826CFCCB"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "000000000000023D"
+			tasks: [{
+				id: "000000000000023E"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [{
+				id: "3ABAD8CA5D1543C6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			dependencies: ["000000000000023D"]
+			size: 1.5d
+			id: "0000000000000241"
+			tasks: [{
+				id: "0000000000000242"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000135E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "473D80BF5A16E4A5"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000000245"
+			tasks: [{
+				id: "0000000000000246"
+				type: "item"
+				item: "mysticalagriculture:diamond_seeds"
+			}]
+			rewards: [
+				{
+					id: "28B6E434FDF237B1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "54E66052F1ACFBAD"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000000247"
+			tasks: [{
+				id: "0000000000000248"
+				type: "item"
+				item: "mysticalagriculture:emerald_seeds"
+			}]
+			rewards: [
+				{
+					id: "15E8E0788ACC38BF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "03B4050AC32AB79E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000000249"
+			tasks: [{
+				id: "000000000000024A"
+				type: "item"
+				item: "mysticalagriculture:netherite_seeds"
+			}]
+			rewards: [
+				{
+					id: "7FE3509C6DDFFF4F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "541AFCF8B61CB061"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["0000000000000249"]
+			size: 1.5d
+			id: "000000000000024B"
+			tasks: [{
+				id: "000000000000024C"
+				type: "item"
+				item: "mysticalagriculture:netherite_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "6207CB4CCE3C468E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28DEB03DE33CF1A8"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["0000000000000247"]
+			size: 1.5d
+			id: "000000000000024D"
+			tasks: [{
+				id: "000000000000024E"
+				type: "item"
+				item: "mysticalagriculture:emerald_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "378447D857EDE1FA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3E8497CCF707D961"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["0000000000000245"]
+			size: 1.5d
+			id: "000000000000024F"
+			tasks: [{
+				id: "0000000000000250"
+				type: "item"
+				item: "mysticalagriculture:diamond_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "625B41132654421E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6F778C5E75607701"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 7.5d
+			dependencies: ["0000000000000241"]
+			size: 1.5d
+			id: "0000000000000251"
+			tasks: [{
+				id: "0000000000000252"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "17C1A05288AEE758"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "61703C659445A5F6"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "00000000000014A5"
+			tasks: [{
+				id: "00000000000014A6"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_seeds"
+			}]
+			rewards: [
+				{
+					id: "0000000000001332"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7150EEC90A2D5324"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["00000000000014A5"]
+			size: 1.5d
+			id: "00000000000014A7"
+			tasks: [{
+				id: "00000000000014A8"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_essence"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "0000000000001334"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2BB06002D25A78DC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000001939"
+			tasks: [{
+				id: "000000000000193A"
+				type: "item"
+				item: "mysticalagriculture:enderium_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000194C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "14455F63D3CE4CFC"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["0000000000001939"]
+			size: 1.5d
+			id: "000000000000193B"
+			tasks: [{
+				id: "000000000000193C"
+				type: "item"
+				item: "mysticalagriculture:enderium_essence"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5705FE52BDF8470F"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "000000000000193D"
+			tasks: [{
+				id: "000000000000193E"
+				type: "item"
+				item: "mysticalagriculture:yellorium_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000194B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "43D551D916CB3154"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["000000000000193D"]
+			size: 1.5d
+			id: "000000000000193F"
+			tasks: [{
+				id: "0000000000001940"
+				type: "item"
+				item: "mysticalagriculture:yellorium_essence"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7DDDB2A8B0B38CBF"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0000000000001941"
+			tasks: [{
+				id: "0000000000001942"
+				type: "item"
+				item: "mysticalagriculture:cyanite_seeds"
+			}]
+			rewards: [
+				{
+					id: "000000000000194A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4F01B93134095532"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			dependencies: ["0000000000001941"]
+			size: 1.5d
+			id: "0000000000001943"
+			tasks: [{
+				id: "0000000000001944"
+				type: "item"
+				item: "mysticalagriculture:cyanite_essence"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3B2465FCEF622E79"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "6154CB94B9600DE0"
+			tasks: [{
+				id: "6F2F72502A6558BA"
+				type: "item"
+				item: "mysticalagriculture:draconium_seeds"
+			}]
+			rewards: [
+				{
+					id: "61C758D8CA0ABBBE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "70AEF1EDABB84825"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["6154CB94B9600DE0"]
+			size: 1.5d
+			id: "29B12CAC8F562132"
+			tasks: [{
+				id: "0E901BB802DEE3A3"
+				type: "item"
+				item: "mysticalagriculture:draconium_essence"
+			}]
+			rewards: [
+				{
+					id: "65777EE9F9BA1CC7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7E499C3D14F6D33A"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "0D637340D79A61D4"
+			tasks: [{
+				id: "15D0F4448F6ED73E"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+			rewards: [
+				{
+					id: "46EA1FC70F878D5D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "676B1479F5FB40EE"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0000000000000D1B"]
+			size: 1.5d
+			id: "049F254315ADCAEE"
+			tasks: [{
+				id: "0E4EF04476F3F31F"
+				type: "item"
+				item: "mysticalagradditions:supremium_apple"
+			}]
+			rewards: [
+				{
+					id: "0F12B49AEA3A4F3C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7F7E234DAD201E0E"
+					type: "item"
+					item: "lootbundles:loot_bundle"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			shape: "circle"
+			dependencies: ["000000000000015D"]
+			size: 1.5d
+			id: "41306C6DF917096A"
+			tasks: [{
+				id: "41481B104E6377FC"
+				type: "item"
+				item: "mysticalagriculture:supremium_bow"
+			}]
+			rewards: [{
+				id: "43233FE77412FC16"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["000000000000015D"]
+			size: 1.5d
+			id: "2D7AD2B10A36D1BC"
+			tasks: [{
+				id: "300AD337CC825095"
+				type: "item"
+				item: "mysticalagriculture:supremium_crossbow"
+			}]
+			rewards: [{
+				id: "72F0B78D94410AE8"
+				type: "item"
+				item: "lootbundles:loot_bundle"
+			}]
+		}
+	]
+}

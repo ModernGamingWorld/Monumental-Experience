@@ -1,0 +1,16 @@
+[
+  {
+    "dimension": "ad_astra:venus",
+    "mob": [
+      "alexsmobs:fly"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "ad_astra:infernal_venus_barrens",
+    "mob": [
+      "alexsmobs:fly"
+    ],
+    "result": "deny"
+  }
+]
