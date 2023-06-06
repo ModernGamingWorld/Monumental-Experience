@@ -1,1468 +1,1469 @@
 {
-	id: "356D5B3D1EF13F83"
-	group: "68BD27E8D0136E3E"
-	order_index: 3
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "atinkers_construct"
-	title: "&aTinker's Construct"
+	group: "68BD27E8D0136E3E"
 	icon: {
-		id: "tconstruct:mud_bricks"
 		Count: 1b
 		ForgeCaps: {
 			"dungeons_libraries:built_in_enchantments": {
 				BuiltInEnchantments: [ ]
 			}
 		}
+		id: "tconstruct:mud_bricks"
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "356D5B3D1EF13F83"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			size: 2.0d
 			id: "270BFEA4255D70A3"
-			tasks: [{
-				id: "5D4FE62BD2723E2E"
-				type: "item"
-				item: {
-					id: "tconstruct:grout"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "11B40A518C04B93D"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "5D4FE62BD2723E2E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:grout"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: 5.0d
 			dependencies: ["270BFEA4255D70A3"]
-			size: 2.0d
 			id: "4AD21A796C38A73C"
-			tasks: [{
-				id: "5E5E5B6DEEF00C0C"
-				type: "item"
-				item: {
-					id: "tconstruct:seared_brick"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "42BFF12AB6BEA2DE"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "5E5E5B6DEEF00C0C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:seared_brick"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			x: 5.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "6DC93CD9F0C4A89C"
+			rewards: [{
+				id: "114C39616B9A2AD2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
 			tasks: [
 				{
 					id: "29FF9428F2A77037"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_melter"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_melter"
 					}
+					type: "item"
 				}
 				{
 					id: "50784B7C11A7FFD2"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_heater"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_heater"
 					}
+					type: "item"
 				}
 			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AD21A796C38A73C"]
+			id: "038AD5941C393F59"
 			rewards: [{
-				id: "114C39616B9A2AD2"
-				type: "item"
+				id: "0008B3302BFFBE5E"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -5.0d
-			y: 5.0d
 			shape: "circle"
-			dependencies: ["4AD21A796C38A73C"]
 			size: 2.0d
-			id: "038AD5941C393F59"
 			tasks: [
 				{
 					id: "55B5A292B2CE9329"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_faucet"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_faucet"
 					}
+					type: "item"
 				}
 				{
 					id: "145E04415BA9360F"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_channel"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_channel"
 					}
+					type: "item"
 				}
 			]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AD21A796C38A73C"]
+			id: "60D8266CD6C249BF"
 			rewards: [{
-				id: "0008B3302BFFBE5E"
-				type: "item"
+				id: "00276853C0FB7A8C"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -5.0d
-			y: 7.0d
 			shape: "circle"
-			dependencies: ["4AD21A796C38A73C"]
 			size: 2.0d
-			id: "60D8266CD6C249BF"
 			tasks: [
 				{
 					id: "4E0962BABE3664E0"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_fuel_tank"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_fuel_tank"
 					}
+					type: "item"
 				}
 				{
 					id: "2F86FA03B0A1E788"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_fuel_gauge"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_fuel_gauge"
 					}
+					type: "item"
 				}
 			]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4AD21A796C38A73C"]
+			id: "59CDC14994110C13"
 			rewards: [{
-				id: "00276853C0FB7A8C"
-				type: "item"
+				id: "41B0C93C0E964815"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: 5.0d
-			y: 7.0d
 			shape: "circle"
-			dependencies: ["4AD21A796C38A73C"]
 			size: 2.0d
-			id: "59CDC14994110C13"
 			tasks: [
 				{
 					id: "0A23E7B92CE582DD"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_basin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_basin"
 					}
+					type: "item"
 				}
 				{
 					id: "407C2D59F380E130"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_table"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_table"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "41B0C93C0E964815"
-				type: "item"
-				item: {
-					id: "lootbagmod:lootbag"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: 5.0d
+			y: 7.0d
 		}
 		{
-			x: -5.0d
-			y: 9.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "0466034B2D9C5252"
-			tasks: [{
-				id: "6957BE3D61EF7D80"
-				type: "item"
-				item: {
-					id: "tconstruct:seared_lantern"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "7480C19BA431A27C"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6957BE3D61EF7D80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:seared_lantern"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
 		}
 		{
-			x: 5.0d
-			y: 9.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "77C1FABF5014716F"
+			rewards: [{
+				id: "121D8E9400DA7F83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
 			tasks: [
 				{
 					id: "06F31408784FF731"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_drain"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_drain"
 					}
+					type: "item"
 				}
 				{
 					id: "1CD2F04E5AA3FB24"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_duct"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_duct"
 					}
+					type: "item"
 				}
 				{
 					id: "72A5474E2901A88C"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_chute"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_chute"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "121D8E9400DA7F83"
-				type: "item"
-				item: {
-					id: "lootbagmod:lootbag"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: 5.0d
+			y: 9.0d
 		}
 		{
-			x: 0.0d
-			y: 9.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "63B8C1973F3F3622"
-			tasks: [{
-				id: "463DF86F6F03C5CB"
-				type: "item"
-				item: {
-					id: "tconstruct:seared_ladder"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "55B44DE130B614D9"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "463DF86F6F03C5CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:seared_ladder"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			x: -5.0d
-			y: 11.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "1B836EB71D165A5E"
+			rewards: [{
+				id: "633155079FE80B85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
 			tasks: [
 				{
 					id: "1CE7C2BC2CDEC4D0"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_glass"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_glass"
 					}
+					type: "item"
 				}
 				{
 					id: "23DC7E87473CAFCF"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_glass_pane"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_glass_pane"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "633155079FE80B85"
-				type: "item"
-				item: {
-					id: "lootbagmod:lootbag"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -5.0d
+			y: 11.0d
 		}
 		{
-			x: -10.0d
-			y: 0.0d
-			size: 2.0d
 			id: "1FA4FCA018BE8EB9"
-			tasks: [{
-				id: "2AB834888A2985CF"
-				type: "item"
-				item: {
-					id: "tconstruct:pattern"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 4L
-			}]
 			rewards: [{
 				id: "3654387F21FEA7D1"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "2AB834888A2985CF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:pattern"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
 		}
 		{
-			x: -10.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["1FA4FCA018BE8EB9"]
-			size: 2.0d
 			id: "02EBD6C35EB62C88"
-			tasks: [{
-				id: "4B32177A24B38FE6"
-				type: "item"
-				item: {
-					id: "tconstruct:crafting_station"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "474856758046EFCF"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "4B32177A24B38FE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:crafting_station"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
 		}
 		{
-			x: -12.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["1FA4FCA018BE8EB9"]
-			size: 2.0d
 			id: "7B2F377502E227FB"
-			tasks: [{
-				id: "555001B3BF93CBCE"
-				type: "item"
-				item: {
-					id: "tconstruct:tinker_station"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "4C306A24CCBB7ABA"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "555001B3BF93CBCE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:tinker_station"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
 		}
 		{
-			x: -8.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["1FA4FCA018BE8EB9"]
-			size: 2.0d
 			id: "56449497DEDCB6EF"
-			tasks: [{
-				id: "189C91DCA2824E25"
-				type: "item"
-				item: {
-					id: "tconstruct:part_builder"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "4D9C65FE06E600BF"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "189C91DCA2824E25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:part_builder"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
 		}
 		{
-			x: -5.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["1FA4FCA018BE8EB9"]
-			size: 2.0d
 			id: "3193B102733E8581"
-			tasks: [{
-				id: "151D36D36220A1BA"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "4D3C72E7B0CF1D55"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "151D36D36220A1BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:tinkers_chest"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
 		}
 		{
-			x: -15.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["1FA4FCA018BE8EB9"]
-			size: 2.0d
 			id: "05CDBA5D73B9CC5B"
+			shape: "circle"
+			size: 2.0d
 			tasks: [{
 				id: "6A716D67188970BF"
-				type: "item"
 				item: {
-					id: "tconstruct:part_chest"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "tconstruct:part_chest"
 				}
+				type: "item"
 			}]
+			x: -15.0d
+			y: 0.0d
 		}
 		{
-			x: 5.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["79EC4DC61D465229"]
-			size: 2.0d
 			id: "7109573FEB5054F3"
-			tasks: [{
-				id: "0E5CB521C6895375"
-				type: "item"
-				item: {
-					id: "tconstruct:earth_cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "144F9899C4663441"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "0E5CB521C6895375"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:earth_cake"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			x: 10.0d
-			y: 0.0d
-			size: 2.0d
 			id: "79EC4DC61D465229"
-			tasks: [{
-				id: "083E841BE0CF6176"
-				type: "item"
-				item: {
-					id: "minecraft:egg"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "34134B1D83F4E048"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "083E841BE0CF6176"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:egg"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
 		}
 		{
-			x: 10.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["79EC4DC61D465229"]
-			size: 2.0d
 			id: "5CADC1551E36C88C"
-			tasks: [{
-				id: "37F61313474FD0FE"
-				type: "item"
-				item: {
-					id: "tconstruct:sky_cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "3815B0E3F2AA5052"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "37F61313474FD0FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:sky_cake"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
 		}
 		{
-			x: 15.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["79EC4DC61D465229"]
-			size: 2.0d
 			id: "30C7CF47C159DC97"
-			tasks: [{
-				id: "58752A62C4127B82"
-				type: "item"
-				item: {
-					id: "tconstruct:blood_cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "6B81334522F77B18"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "58752A62C4127B82"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:blood_cake"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
 		}
 		{
-			x: 10.0d
-			y: -5.0d
-			shape: "circle"
 			dependencies: ["79EC4DC61D465229"]
-			size: 2.0d
 			id: "158E098530E69B35"
-			tasks: [{
-				id: "69AE133FBB3C4A6E"
-				type: "item"
-				item: {
-					id: "tconstruct:ender_cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "315E3D4B3CF779F0"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "69AE133FBB3C4A6E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:ender_cake"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
 		}
 		{
-			x: 5.0d
-			y: -5.0d
-			shape: "circle"
 			dependencies: ["79EC4DC61D465229"]
-			size: 2.0d
 			id: "4FF18AA5D1242711"
-			tasks: [{
-				id: "2F6032EB33FD5832"
-				type: "item"
-				item: {
-					id: "tconstruct:magma_cake"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "53F5F6F6717060EF"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2F6032EB33FD5832"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:magma_cake"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
 		}
 		{
-			x: 5.0d
-			y: 11.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "60F3528F2730A3BE"
-			tasks: [{
-				id: "5F9CCE62D3653C16"
-				type: "item"
-				item: {
-					id: "tconstruct:cast_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "0A4A66D2EC41BFC1"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5F9CCE62D3653C16"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:cast_chest"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
 		}
 		{
-			x: 5.0d
-			y: 3.0d
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "08D6271E940B8F78"
-			tasks: [{
-				id: "0A4FAE976C340593"
-				type: "item"
-				item: {
-					id: "tconstruct:seared_bricks"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "6C97CFA8B6E6A136"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "0A4FAE976C340593"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:seared_bricks"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
 		}
 		{
-			x: 7.0d
-			y: 3.0d
-			shape: "circle"
 			dependencies: ["08D6271E940B8F78"]
-			size: 2.0d
 			id: "0D71941D8ADA7E9B"
-			tasks: [{
-				id: "23F2105C914C6DF7"
-				type: "item"
-				item: {
-					id: "tconstruct:tinkers_anvil"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "64A9EA56851CD878"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "23F2105C914C6DF7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:tinkers_anvil"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
 		}
 		{
-			x: -20.0d
-			y: 0.0d
-			size: 2.0d
 			id: "28E07696BBB8FF60"
+			size: 2.0d
 			tasks: [{
 				id: "3BD4079830A87E82"
-				type: "item"
 				item: {
-					id: "tconstruct:nether_grout"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "tconstruct:nether_grout"
 				}
+				type: "item"
 			}]
+			x: -20.0d
+			y: 0.0d
 		}
 		{
-			x: -20.0d
-			y: 5.0d
 			dependencies: ["28E07696BBB8FF60"]
-			size: 2.0d
 			id: "744E4A6A68ADF96D"
-			tasks: [{
-				id: "6F3A1C3BB3EA93DA"
-				type: "item"
-				item: {
-					id: "tconstruct:scorched_brick"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "29C2CD2D94B0FD08"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "6F3A1C3BB3EA93DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:scorched_brick"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: 5.0d
 		}
 		{
-			x: -25.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["744E4A6A68ADF96D"]
-			size: 2.0d
 			id: "66938F84A010B6C0"
-			tasks: [{
-				id: "2CEBD61F0BDB2023"
-				type: "item"
-				item: {
-					id: "tconstruct:scorched_ladder"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "08EEF61A96C38CC5"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2CEBD61F0BDB2023"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:scorched_ladder"
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 5.0d
 		}
 		{
-			x: -15.0d
-			y: 5.0d
-			shape: "circle"
 			dependencies: ["744E4A6A68ADF96D"]
-			size: 2.0d
 			id: "49B1B3081D88C16F"
+			rewards: [{
+				id: "6B392C164665F96F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
 			tasks: [
 				{
 					id: "461FC9C1BFCF15E4"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_faucet"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_faucet"
 					}
+					type: "item"
 				}
 				{
 					id: "7BFBE07FBEA2E125"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_channel"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_channel"
 					}
+					type: "item"
 				}
 			]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["744E4A6A68ADF96D"]
+			id: "49F51FD0329DD2F6"
 			rewards: [{
-				id: "6B392C164665F96F"
-				type: "item"
+				id: "2AA33C5D5D272B5C"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -15.0d
-			y: 7.0d
 			shape: "circle"
-			dependencies: ["744E4A6A68ADF96D"]
 			size: 2.0d
-			id: "49F51FD0329DD2F6"
 			tasks: [
 				{
 					id: "527241CA506A9487"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_fuel_tank"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_fuel_tank"
 					}
+					type: "item"
 				}
 				{
 					id: "09A01D56D7C32787"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_fuel_gauge"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_fuel_gauge"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2AA33C5D5D272B5C"
-				type: "item"
-				item: {
-					id: "lootbagmod:lootbag"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -15.0d
+			y: 7.0d
 		}
 		{
-			x: -25.0d
-			y: 7.0d
-			shape: "circle"
 			dependencies: ["744E4A6A68ADF96D"]
-			size: 2.0d
 			id: "356B62D4057063AE"
+			shape: "circle"
+			size: 2.0d
 			tasks: [{
 				id: "06101D84EE04C073"
-				type: "item"
 				item: {
-					id: "tconstruct:scorched_ingot_tank"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "tconstruct:scorched_ingot_tank"
 				}
+				type: "item"
 			}]
+			x: -25.0d
+			y: 7.0d
 		}
 		{
-			x: -5.0d
-			y: 3.0d
-			shape: "circle"
 			dependencies: ["4AD21A796C38A73C"]
-			size: 2.0d
 			id: "575AEB2A6E2AC99B"
+			rewards: [{
+				id: "09693A0ADD0E44A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
 			tasks: [
 				{
 					id: "26E5053E930F4E6B"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_ingot_tank"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_ingot_tank"
 					}
+					type: "item"
 				}
 				{
 					id: "77A8550193386E59"
-					type: "item"
 					item: {
-						id: "tconstruct:seared_ingot_gauge"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:seared_ingot_gauge"
 					}
+					type: "item"
 				}
 			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["744E4A6A68ADF96D"]
+			id: "7A0B5B0E2277B3D8"
 			rewards: [{
-				id: "09693A0ADD0E44A3"
-				type: "item"
+				id: "57480548B6E091C2"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -25.0d
-			y: 9.0d
 			shape: "circle"
-			dependencies: ["744E4A6A68ADF96D"]
 			size: 2.0d
-			id: "7A0B5B0E2277B3D8"
 			tasks: [
 				{
 					id: "35ECBD03A6E09CFD"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_table"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_table"
 					}
+					type: "item"
 				}
 				{
 					id: "5F8837EC5C735725"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_basin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_basin"
 					}
+					type: "item"
 				}
 			]
+			x: -25.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["744E4A6A68ADF96D"]
+			id: "340CA195FC3CFCF9"
 			rewards: [{
-				id: "57480548B6E091C2"
-				type: "item"
+				id: "31F593305AACC556"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -15.0d
-			y: 9.0d
 			shape: "circle"
-			dependencies: ["744E4A6A68ADF96D"]
 			size: 2.0d
-			id: "340CA195FC3CFCF9"
 			tasks: [
 				{
 					id: "0A5008E604AEC920"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_glass"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_glass"
 					}
+					type: "item"
 				}
 				{
 					id: "4DDC0659715C1F1B"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_glass_pane"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_glass_pane"
 					}
+					type: "item"
 				}
 			]
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["744E4A6A68ADF96D"]
+			id: "08F8DF0CF04DBB00"
 			rewards: [{
-				id: "31F593305AACC556"
-				type: "item"
+				id: "2246FC648202B885"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
-		}
-		{
-			x: -15.0d
-			y: 11.0d
 			shape: "circle"
-			dependencies: ["744E4A6A68ADF96D"]
 			size: 2.0d
-			id: "08F8DF0CF04DBB00"
 			tasks: [
 				{
 					id: "1B9D6902CB1F4847"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_drain"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_drain"
 					}
+					type: "item"
 				}
 				{
 					id: "233E953494BACDA8"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_duct"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_duct"
 					}
+					type: "item"
 				}
 				{
 					id: "2AE67BBB005D2E8E"
-					type: "item"
 					item: {
-						id: "tconstruct:scorched_chute"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
+						id: "tconstruct:scorched_chute"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2246FC648202B885"
-				type: "item"
-				item: {
-					id: "lootbagmod:lootbag"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
+			x: -15.0d
+			y: 11.0d
 		}
 		{
-			x: -25.0d
-			y: 11.0d
-			shape: "circle"
 			dependencies: ["744E4A6A68ADF96D"]
-			size: 2.0d
 			id: "55865559616DB593"
-			tasks: [{
-				id: "3CC209D34D7A1C65"
-				type: "item"
-				item: {
-					id: "tconstruct:scorched_alloyer"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "2D5887EEB15E10DE"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "3CC209D34D7A1C65"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:scorched_alloyer"
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 11.0d
 		}
 		{
-			x: -25.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["29E0401BD00AD999"]
-			size: 2.0d
 			id: "7A127F89007B9D54"
-			tasks: [{
-				id: "135907B1E10783E7"
-				type: "item"
-				item: {
-					id: "tconstruct:scorched_anvil"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "3BDD745AFA14BC24"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "135907B1E10783E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:scorched_anvil"
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.0d
 		}
 		{
-			x: -25.0d
-			y: 3.0d
 			dependencies: ["744E4A6A68ADF96D"]
-			size: 2.0d
 			id: "29E0401BD00AD999"
-			tasks: [{
-				id: "118A7D6D9154EE32"
-				type: "item"
-				item: {
-					id: "tconstruct:scorched_bricks"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [{
 				id: "299305B3915179DE"
-				type: "item"
 				item: {
-					id: "lootbagmod:lootbag"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
+					id: "lootbundles:loot_bundle"
 				}
+				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				id: "118A7D6D9154EE32"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tconstruct:scorched_bricks"
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 3.0d
 		}
 	]
+	title: "&aTinker's Construct"
 }

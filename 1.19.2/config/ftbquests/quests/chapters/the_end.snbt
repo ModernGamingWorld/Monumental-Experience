@@ -1,230 +1,222 @@
 {
-	id: "0000000000000BAB"
-	group: "09A82B0D5D5E7906"
-	order_index: 1
-	filename: "the_end"
-	title: "&6End"
-	icon: "minecraft:end_stone"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "09A82B0D5D5E7906"
+	icon: "minecraft:end_stone"
+	id: "0000000000000BAB"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: 2.0d
-			y: 1.0d
-			shape: "gear"
 			dependencies: ["05F78814951547EF"]
 			id: "0000000000000BAC"
-			tasks: [{
-				id: "0000000000000BAD"
-				type: "item"
-				item: "minecraft:dragon_head"
-			}]
 			rewards: [{
 				id: "000000000000105A"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000BAD"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 		{
-			x: 6.0d
-			y: 1.0d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000BAE"
-			tasks: [{
-				id: "0000000000000BAF"
+			rewards: [{
+				id: "000000000000105C"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				title: "Any #forge:end_stones"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 32L
+				id: "0000000000000BAF"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "forge:end_stones"
 					}
 				}
-				count: 32L
-			}]
-			rewards: [{
-				id: "000000000000105C"
+				title: "Any #forge:end_stones"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 6.0d
+			y: 1.0d
 		}
 		{
-			x: 2.0d
-			y: -3.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000CF2"
-			tasks: [{
-				id: "0000000000000BB3"
+			rewards: [{
+				id: "0000000000001062"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				title: "Any #forge:ender_pearls"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "0000000000000BB3"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ender_pearls"
 					}
 				}
-				count: 16L
-			}]
-			rewards: [{
-				id: "0000000000001062"
+				title: "Any #forge:ender_pearls"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 2.0d
+			y: -3.5d
 		}
 		{
-			x: 6.0d
-			y: -3.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000BB4"
-			tasks: [{
-				id: "0000000000000BB5"
+			rewards: [{
+				id: "0000000000001066"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				title: "Any #forge:shulker_boxes"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "38FA522739208087"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "forge:shulker_boxes"
 					}
 				}
-			}]
-			rewards: [{
-				id: "0000000000001066"
+				title: "Any #forge:shulker_boxes"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 6.0d
+			y: -3.5d
 		}
 		{
-			x: 4.0d
-			y: -3.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
-			id: "0000000000000BB6"
-			tasks: [{
-				id: "0000000000000BB7"
+			id: "77A01B66325D6E73"
+			rewards: [{
+				id: "0000000000001064"
+				item: "lootbundles:loot_bundle"
 				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65AAEDAB1E2E9EBA"
 				item: {
-					id: "minecraft:shulker_shell"
 					Count: 1b
 					ForgeCaps: {
 						"agricraft:gene_inspector": {
 							agri_flag: 0b
 						}
 					}
+					id: "minecraft:shulker_shell"
 				}
-			}]
-			rewards: [{
-				id: "0000000000001064"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 4.0d
+			y: -3.5d
 		}
 		{
-			x: 2.0d
-			y: 5.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000BB8"
-			tasks: [{
-				id: "0000000000000BB9"
-				type: "item"
-				item: "minecraft:end_crystal"
-			}]
 			rewards: [{
 				id: "0000000000001056"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000BB9"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
 		}
 		{
-			x: 6.0d
-			y: 5.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000CF3"
-			tasks: [{
-				id: "0000000000000BBB"
-				type: "item"
-				item: "minecraft:dragon_breath"
-				count: 2L
-			}]
 			rewards: [{
 				id: "0000000000001058"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				count: 2L
+				id: "0000000000000BBB"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 		{
-			x: 10.0d
-			y: -3.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000CF4"
+			rewards: [{
+				id: "0000000000001068"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "0000000000000BBD"
-				type: "item"
-				title: "Any #chipped:purpur_block"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "chipped:purpur_block"
 					}
 				}
-			}]
-			rewards: [{
-				id: "0000000000001068"
+				title: "Any #chipped:purpur_block"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 10.0d
+			y: -3.5d
 		}
 		{
-			x: 0.0d
-			y: -3.5d
-			shape: "gear"
 			dependencies: ["0000000000000BAC"]
 			id: "0000000000000BBE"
-			tasks: [{
-				id: "0000000000000BBF"
-				type: "item"
-				item: "minecraft:ender_eye"
-				count: 16L
-			}]
 			rewards: [{
 				id: "0000000000001060"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "0000000000000BBF"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
 		}
 		{
+			id: "05F78814951547EF"
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2CB77ED2B6115EEB"
+				type: "dimension"
+			}]
 			title: "The End"
 			x: -2.0d
 			y: 1.0d
-			shape: "heart"
-			size: 1.5d
-			id: "05F78814951547EF"
-			tasks: [{
-				id: "2CB77ED2B6115EEB"
-				type: "dimension"
-				dimension: "minecraft:the_end"
-			}]
 		}
 		{
-			x: -2.25d
-			y: -2.25d
 			dependencies: ["05F78814951547EF"]
 			id: "3E415B1BA846A36E"
-			tasks: [{
-				id: "28D66A0D762C2015"
-				type: "kill"
-				entity: "minecraft:shulker"
-				value: 25L
-			}]
 			rewards: [
 				{
 					id: "265CC75CAA5CED99"
@@ -233,39 +225,39 @@
 				}
 				{
 					id: "28F194C4FFCCB272"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "28D66A0D762C2015"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.25d
+			y: -2.25d
 		}
 		{
-			x: -4.5d
-			y: -1.0d
 			dependencies: ["05F78814951547EF"]
 			id: "409E08430F1F6A8F"
-			tasks: [{
-				id: "7535A677A2CE5D1D"
-				type: "kill"
-				entity: "minecraft:enderman"
-				value: 40L
-			}]
 			rewards: [{
 				id: "72501EBD64AF78D5"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7535A677A2CE5D1D"
+				type: "kill"
+				value: 40L
+			}]
+			x: -4.5d
+			y: -1.0d
 		}
 		{
-			x: -5.5d
-			y: 1.0d
 			dependencies: ["05F78814951547EF"]
 			id: "008020412D0EEB2E"
-			tasks: [{
-				id: "7334B308BCD0AF8A"
-				type: "kill"
-				entity: "minecraft:ender_dragon"
-				value: 5L
-			}]
 			rewards: [
 				{
 					id: "08DB44C91D61765A"
@@ -274,22 +266,22 @@
 				}
 				{
 					id: "471CC3137C32FC90"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7334B308BCD0AF8A"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.5d
+			y: 1.0d
 		}
 		{
-			x: -4.5d
-			y: 3.5d
 			dependencies: ["05F78814951547EF"]
 			id: "5D555F26663BF6A4"
-			tasks: [{
-				id: "132AE4E68A11B8BC"
-				type: "kill"
-				entity: "minecraft:endermite"
-				value: 20L
-			}]
 			rewards: [
 				{
 					id: "58E85A9CB10AA04C"
@@ -298,10 +290,19 @@
 				}
 				{
 					id: "5C056B1BD76A8040"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 			]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "132AE4E68A11B8BC"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.5d
+			y: 3.5d
 		}
 	]
+	title: "&6End"
 }

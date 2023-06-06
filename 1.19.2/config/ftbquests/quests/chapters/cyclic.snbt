@@ -1,1339 +1,1335 @@
 {
-	id: "55A3B294C8EAE69C"
-	group: "69B9F7247002FE35"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "cyclic"
-	title: "&2Cyclic"
+	group: "69B9F7247002FE35"
 	icon: {
-		id: "patchouli:guide_book"
 		Count: 1b
+		id: "patchouli:guide_book"
 		tag: {
 			"patchouli:book": "cyclic:cyclic_guide_book"
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "55A3B294C8EAE69C"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			shape: "gear"
 			dependencies: ["0999CAD7C21998FD"]
-			size: 1.5d
 			id: "71B3DADD7E201D00"
+			rewards: [
+				{
+					id: "611E174DFE0E8DE1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E7FF2CC085DB56C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "72BC9B71DA03D22F"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "cyclic:cyclic_guide_book"
 					}
 				}
 				only_from_crafting: true
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "611E174DFE0E8DE1"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "3E7FF2CC085DB56C"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-			]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -4.5d
-			subtitle: "This Quest Lines does not feature everything Cyclic has to Offer, but most is here"
-			size: 1.5d
 			id: "0999CAD7C21998FD"
-			tasks: [{
-				id: "27F453E4C08C3079"
-				type: "checkmark"
-				title: "Welcome to Cyclic"
-			}]
 			rewards: [{
 				id: "58EF7735FCAAF338"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			subtitle: "This Quest Lines does not feature everything Cyclic has to Offer, but most is here"
+			tasks: [{
+				id: "27F453E4C08C3079"
+				title: "Welcome to Cyclic"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			title: "All The Apples"
-			x: -4.5d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "44C30FD761A8D2F8"
+			rewards: [{
+				id: "7ADFC1078F633C37"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6D1A79B430DC8080"
-					type: "item"
 					item: "cyclic:apple_ender"
+					type: "item"
 				}
 				{
 					id: "4FF1C3B4C54D8712"
-					type: "item"
 					item: "cyclic:apple_lofty_stature"
+					type: "item"
 				}
 				{
 					id: "42CA508D1FF3F1E0"
-					type: "item"
 					item: "cyclic:apple_honey"
+					type: "item"
 				}
 				{
 					id: "3B9CF6C5382DAD1C"
-					type: "item"
 					item: "cyclic:apple_chorus"
+					type: "item"
 				}
 				{
 					id: "205915A7E8E25D14"
-					type: "item"
 					item: "cyclic:apple_bone"
+					type: "item"
 				}
 				{
 					id: "323E092E06864979"
-					type: "item"
 					item: "cyclic:apple_prismarine"
+					type: "item"
 				}
 				{
 					id: "735D91562B781054"
-					type: "item"
 					item: "cyclic:apple_lapis"
+					type: "item"
 				}
 				{
 					id: "7550C437F1BA15AC"
-					type: "item"
 					item: "cyclic:apple_iron"
+					type: "item"
 				}
 				{
 					id: "6D81408716A52A85"
-					type: "item"
 					item: "cyclic:apple_diamond"
+					type: "item"
 				}
 				{
 					id: "44702F894DBACB7B"
-					type: "item"
 					item: "cyclic:apple_emerald"
+					type: "item"
 				}
 				{
 					id: "3E696AFD586854E2"
-					type: "item"
 					item: "cyclic:apple_chocolate"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7ADFC1078F633C37"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Apples"
+			x: -4.5d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "7F30DA7C66E4BE52"
+			rewards: [{
+				id: "0F5C48A5B264FDB0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "4F769E506C585EC5"
-					type: "item"
 					item: "cyclic:workbench"
+					type: "item"
 				}
 				{
 					id: "1406259A5FDCB058"
-					type: "item"
 					item: "cyclic:crafter"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0F5C48A5B264FDB0"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: -4.5d
-			y: 4.5d
-			shape: "circle"
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "47A08CCDCD002FA2"
-			tasks: [{
-				id: "5D2D7B2FCAB15882"
-				type: "item"
-				item: "cyclic:forester"
-			}]
 			rewards: [{
 				id: "25EAB526459F8826"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5D2D7B2FCAB15882"
+				item: "cyclic:forester"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
 		}
 		{
-			x: 4.5d
-			y: 4.5d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "49D284E5CFFE0107"
-			tasks: [{
-				id: "65C12E53425D71E2"
-				type: "item"
-				item: "cyclic:harvester"
-			}]
 			rewards: [{
 				id: "31B6AA45EA4325D4"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "65C12E53425D71E2"
+				item: "cyclic:harvester"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			x: -4.5d
-			y: 6.0d
-			shape: "circle"
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "13B6BA865C4AC8D1"
-			tasks: [{
-				id: "23DC31DF4E7F0CCE"
-				type: "item"
-				item: "cyclic:structure"
-			}]
 			rewards: [{
 				id: "67106CD2D80B2B49"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "23DC31DF4E7F0CCE"
+				item: "cyclic:structure"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
 		}
 		{
-			x: 4.5d
-			y: 6.0d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "459446A5334D448D"
+			rewards: [{
+				id: "38AE194900A23320"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "7CB65D4FC2198B62"
-					type: "item"
 					item: "cyclic:placer_fluid"
+					type: "item"
 				}
 				{
 					id: "790BCCFD0D869EFC"
-					type: "item"
 					item: "cyclic:collector_fluid"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "38AE194900A23320"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 4.5d
+			y: 6.0d
 		}
 		{
-			x: -4.5d
-			y: 7.5d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "2BFAA1C487854A1D"
-			tasks: [{
-				id: "41EAA9C6C793C0FC"
-				type: "item"
-				item: "cyclic:collector"
-			}]
 			rewards: [{
 				id: "11878420832DD1BC"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "41EAA9C6C793C0FC"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
 		}
 		{
-			x: 4.5d
-			y: 7.5d
-			shape: "circle"
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "114E0B410A500B44"
+			rewards: [{
+				id: "2E3198F8F931AB48"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3C253F54C36B8004"
-					type: "item"
 					item: "cyclic:placer"
+					type: "item"
 				}
 				{
 					id: "07482FA067943456"
-					type: "item"
 					item: "cyclic:breaker"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2E3198F8F931AB48"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 4.5d
+			y: 7.5d
 		}
 		{
-			x: -4.5d
-			y: 9.0d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "0FBFC6C3FAE536F0"
-			tasks: [{
-				id: "628F6309B4E4903E"
-				type: "item"
-				item: "cyclic:user"
-			}]
 			rewards: [{
 				id: "298D31898F12BCE3"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "628F6309B4E4903E"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
 		}
 		{
-			x: 4.5d
-			y: 9.0d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "32E83439A539472A"
-			tasks: [{
-				id: "26677566E3B9B1A6"
-				type: "item"
-				item: "cyclic:dropper"
-			}]
 			rewards: [{
 				id: "07B200202CDDA356"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "26677566E3B9B1A6"
+				item: "cyclic:dropper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
 		}
 		{
-			x: 0.0d
-			y: 9.0d
 			dependencies: ["7F30DA7C66E4BE52"]
-			size: 1.5d
 			id: "06C7345C3F9CDCE9"
-			tasks: [{
-				id: "65FD6FE8A2FC3A79"
-				type: "item"
-				item: "cyclic:miner"
-			}]
 			rewards: [{
 				id: "05FB7A598F701746"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "65FD6FE8A2FC3A79"
+				item: "cyclic:miner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "2196DF1529C13DD0"
+			rewards: [{
+				id: "754E1B99E505250B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1508B16455DC27D7"
-					type: "item"
 					item: "cyclic:hopper_fluid"
+					type: "item"
 				}
 				{
 					id: "00E9AB24BF6D7E0F"
-					type: "item"
 					item: "cyclic:hopper_gold"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "754E1B99E505250B"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			title: "All The Charms"
-			x: 4.5d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "5CCE8AE67C986C4A"
+			rewards: [{
+				id: "28263797E2789FB3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "16B5F30E1C9CE325"
-					type: "item"
 					item: {
-						id: "cyclic:charm_void"
 						Count: 1b
+						id: "cyclic:charm_void"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "02F23F26B7833CD9"
-					type: "item"
 					item: {
-						id: "cyclic:charm_antidote"
 						Count: 1b
+						id: "cyclic:charm_antidote"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7B8FA091D3D7710A"
-					type: "item"
 					item: {
-						id: "cyclic:charm_fire"
 						Count: 1b
+						id: "cyclic:charm_fire"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6301E5237D33BD92"
-					type: "item"
 					item: {
-						id: "cyclic:charm_wither"
 						Count: 1b
+						id: "cyclic:charm_wither"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "13BB10DB544E7852"
-					type: "item"
 					item: {
-						id: "cyclic:charm_water"
 						Count: 1b
+						id: "cyclic:charm_water"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "34AADB8681FBFA31"
-					type: "item"
 					item: {
-						id: "cyclic:charm_speed"
 						Count: 1b
+						id: "cyclic:charm_speed"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0AA19CD6CC91EE5E"
-					type: "item"
 					item: {
-						id: "cyclic:charm_wing"
 						Count: 1b
+						id: "cyclic:charm_wing"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "58554B831B004304"
-					type: "item"
 					item: {
-						id: "cyclic:soulstone"
 						Count: 1b
+						id: "cyclic:soulstone"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "303CCE3314006E97"
-					type: "item"
 					item: {
-						id: "cyclic:charm_torch"
 						Count: 1b
+						id: "cyclic:charm_torch"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "28263797E2789FB3"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Charms"
+			x: 4.5d
+			y: 1.5d
 		}
 		{
-			x: 6.0d
-			y: 1.5d
 			dependencies: ["5CCE8AE67C986C4A"]
-			size: 1.5d
 			id: "27D501E41345B64B"
+			rewards: [{
+				id: "7FD648AFFCB1214E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "7D5AB881E48C1EDA"
-				type: "item"
 				item: {
-					id: "cyclic:charm_ultimate"
 					Count: 1b
+					id: "cyclic:charm_ultimate"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "7FD648AFFCB1214E"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 6.0d
+			y: 1.5d
 		}
 		{
-			title: "All The Scepter"
-			x: -4.5d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "2C24540F5F1D6AB9"
+			rewards: [{
+				id: "09E9A8D7BD033864"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1C28BCF90B29C0B3"
-					type: "item"
 					item: {
-						id: "cyclic:build_scepter"
 						Count: 1b
+						id: "cyclic:build_scepter"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0B79B34B3E0467C2"
-					type: "item"
 					item: {
-						id: "cyclic:replace_scepter"
 						Count: 1b
+						id: "cyclic:replace_scepter"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "12A3D101E0E05C5A"
-					type: "item"
 					item: {
-						id: "cyclic:offset_scepter"
 						Count: 1b
+						id: "cyclic:offset_scepter"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "09E9A8D7BD033864"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Scepter"
+			x: -4.5d
+			y: 1.5d
 		}
 		{
-			title: "All The Spikes"
-			x: -4.5d
-			y: 3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "4ADB0B8EE8975C68"
+			rewards: [{
+				id: "27A5F69EB277620B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "17CD325F729B61D0"
-					type: "item"
 					item: "cyclic:spikes_diamond"
+					type: "item"
 				}
 				{
 					id: "40A735FACE24E8A9"
-					type: "item"
 					item: "cyclic:spikes_iron"
+					type: "item"
 				}
 				{
 					id: "5B5B4005FBBC0FA5"
-					type: "item"
 					item: "cyclic:spikes_curse"
+					type: "item"
 				}
 				{
 					id: "27B0BFB6483E04D1"
-					type: "item"
 					item: "cyclic:spikes_fire"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "27A5F69EB277620B"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Spikes"
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			x: 4.5d
-			y: 3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "7E0054C8A223FACF"
-			tasks: [{
-				id: "72155D488997B3AA"
-				type: "item"
-				item: "cyclic:sprinkler"
-			}]
 			rewards: [{
 				id: "7474B95D682095E7"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "72155D488997B3AA"
+				item: "cyclic:sprinkler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			x: -3.0d
-			y: 3.0d
-			shape: "circle"
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "5B1CCA31F31D85E7"
-			tasks: [{
-				id: "26373CF3327E0BFD"
-				type: "item"
-				item: "cyclic:shearing"
-			}]
 			rewards: [{
 				id: "70A1C4B986B5FE13"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "26373CF3327E0BFD"
+				item: "cyclic:shearing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			x: -3.0d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "728CDFB8DA5781C5"
+			rewards: [{
+				id: "1A7A53428DAF7823"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5BCD09155F18C20D"
-					type: "item"
 					item: "cyclic:terra_glass"
+					type: "item"
 				}
 				{
 					id: "13FC04C671F84BC0"
-					type: "item"
 					item: "cyclic:dark_glass_connected"
+					type: "item"
 				}
 				{
 					id: "48A8298F8FDC993A"
-					type: "item"
 					item: "cyclic:dark_glass"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "1A7A53428DAF7823"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			title: "All The Rings"
-			x: -1.5d
-			y: 3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "35890834D5F88ADB"
+			rewards: [{
+				id: "3EB11F2A74D34372"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "31A2F54DA16F53BA"
-					type: "item"
 					item: "cyclic:charm_xp_speed"
+					type: "item"
 				}
 				{
 					id: "1CEBF55004CC1D2C"
-					type: "item"
 					item: {
-						id: "cyclic:charm_knockback_resistance"
 						Count: 1b
+						id: "cyclic:charm_knockback_resistance"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4A6B29F21E699213"
-					type: "item"
 					item: {
-						id: "cyclic:charm_luck"
 						Count: 1b
+						id: "cyclic:charm_luck"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2557BFE7844CDCD7"
-					type: "item"
 					item: "cyclic:charm_xp_blocker"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3EB11F2A74D34372"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Rings"
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			x: 4.5d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "46EB7CF76297DA28"
-			tasks: [{
-				id: "28C43697D10FD81E"
-				type: "item"
-				item: "cyclic:clock"
-			}]
 			rewards: [{
 				id: "554130D8908DAA03"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "28C43697D10FD81E"
+				item: "cyclic:clock"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
 		}
 		{
-			x: 6.0d
-			y: -1.5d
 			dependencies: ["46EB7CF76297DA28"]
-			size: 1.5d
 			id: "053D3F53C4C6D4AC"
+			rewards: [{
+				id: "03899AA292F61C5F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5639A1B68B5A3DF8"
-					type: "item"
 					item: "cyclic:wireless_transmitter"
+					type: "item"
 				}
 				{
 					id: "0391B3389677A244"
-					type: "item"
 					item: "cyclic:wireless_receiver"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "03899AA292F61C5F"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 6.0d
+			y: -1.5d
 		}
 		{
-			title: "Anvils"
-			x: -4.5d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "7E094A47AE3C4087"
+			rewards: [{
+				id: "7210256F7FB55166"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "7CFA402CB61C18E5"
-					type: "item"
 					item: "cyclic:anvil_void"
+					type: "item"
 				}
 				{
 					id: "59C83CC54BAE0558"
-					type: "item"
 					item: "cyclic:anvil"
+					type: "item"
 				}
 				{
 					id: "0C365CF84D798D18"
-					type: "item"
 					item: "cyclic:anvil_magma"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7210256F7FB55166"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "Anvils"
+			x: -4.5d
+			y: -1.5d
 		}
 		{
-			x: -1.5d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "28130E0530A4DD16"
+			rewards: [{
+				id: "456B56CA565C50D6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "33600C212D86468A"
-					type: "item"
 					item: {
-						id: "cyclic:charm_boostpotion"
 						Count: 1b
+						id: "cyclic:charm_boostpotion"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4115E7A814BB74BA"
-					type: "item"
 					item: {
-						id: "cyclic:charm_antipotion"
 						Count: 1b
+						id: "cyclic:charm_antipotion"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "05E14CDC1C576059"
-					type: "item"
 					item: {
-						id: "cyclic:charm_stone"
 						Count: 1b
+						id: "cyclic:charm_stone"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "456B56CA565C50D6"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			x: 3.0d
-			y: 3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "7E8D36265A1D8780"
+			rewards: [{
+				id: "4A60212C433D2A8A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "58812A6529BDE3F3"
-					type: "item"
 					item: "cyclic:sound_recorder"
+					type: "item"
 				}
 				{
 					id: "04344C7B671E9FF4"
-					type: "item"
 					item: "cyclic:sound_player"
+					type: "item"
 				}
 				{
 					id: "3F59C2CF0851017F"
-					type: "item"
 					item: "cyclic:soundproofing"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4A60212C433D2A8A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			x: 1.5d
-			y: 3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "548025BF2BD831E7"
-			tasks: [
-				{
-					id: "0B65082A0447BDC6"
-					type: "item"
-					item: "cyclic:wireless_energy"
-					count: 2L
-				}
-				{
-					id: "4210E5BEDBFAFCA1"
-					type: "item"
-					item: "cyclic:wireless_item"
-					count: 2L
-				}
-				{
-					id: "05F088D93F928FBF"
-					type: "item"
-					item: "cyclic:wireless_fluid"
-					count: 2L
-				}
-			]
 			rewards: [{
 				id: "497CE3305F6215AC"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "0B65082A0447BDC6"
+					item: "cyclic:wireless_energy"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4210E5BEDBFAFCA1"
+					item: "cyclic:wireless_item"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "05F088D93F928FBF"
+					item: "cyclic:wireless_fluid"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			x: 3.0d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "2071070C65C8B216"
-			tasks: [{
-				id: "4EA6EF5C3C6EFE38"
-				type: "item"
-				item: "cyclic:doorbell"
-			}]
 			rewards: [{
 				id: "197EE498EAC7B656"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "4EA6EF5C3C6EFE38"
+				item: "cyclic:doorbell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 		{
-			x: 1.5d
-			y: 1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "59C985A4B2F4FAB1"
-			tasks: [{
-				id: "5FCF7E1F14A03040"
-				type: "item"
-				item: "cyclic:inventory_cake"
-			}]
 			rewards: [{
 				id: "24B6F1133B84EDE1"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "5FCF7E1F14A03040"
+				item: "cyclic:inventory_cake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			title: "All The Cards"
-			x: -3.0d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "0309D8877D93EC69"
+			rewards: [{
+				id: "38CDD7D1A13C8373"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2D9725142ED7FE62"
-					type: "item"
 					item: "cyclic:blockstate_data"
+					type: "item"
 				}
 				{
 					id: "2541AA7FA599986C"
-					type: "item"
 					item: "cyclic:sound_data"
+					type: "item"
 				}
 				{
 					id: "04A05AA0A4A1DC3E"
-					type: "item"
 					item: {
-						id: "cyclic:settings_data"
 						Count: 1b
+						id: "cyclic:settings_data"
 						tag: { }
 					}
+					type: "item"
 				}
 				{
 					id: "1C03156921FAB53A"
-					type: "item"
 					item: "cyclic:shape_data"
+					type: "item"
 				}
 				{
 					id: "1F09F098383292EB"
-					type: "item"
 					item: {
-						id: "cyclic:filter_data"
 						Count: 1b
 						ForgeCaps: {
 							Parent: {
-								Size: 9
 								Items: [ ]
+								Size: 9
 							}
 						}
+						id: "cyclic:filter_data"
 					}
-				}
-				{
-					id: "499DBCC565487CB3"
 					type: "item"
-					item: "cyclic:location"
 				}
 			]
-			rewards: [{
-				id: "38CDD7D1A13C8373"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "All The Cards"
+			x: -3.0d
+			y: -1.5d
 		}
 		{
-			x: -1.5d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "01D8941EDBF0450B"
+			rewards: [{
+				id: "2E620EBA09855E09"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "02D2F51DFCD805B0"
-					type: "item"
 					item: {
-						id: "cyclic:charm_attack_speed"
 						Count: 1b
+						id: "cyclic:charm_attack_speed"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7C2C2054A3F5172B"
-					type: "item"
 					item: {
-						id: "cyclic:charm_crit"
 						Count: 1b
+						id: "cyclic:charm_crit"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4F851B07BE8167A1"
-					type: "item"
 					item: {
-						id: "cyclic:charm_starvation"
 						Count: 1b
+						id: "cyclic:charm_starvation"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2E620EBA09855E09"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -1.5d
+			y: -1.5d
 		}
 		{
-			x: 3.0d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "2B1C5098DF5A1734"
+			rewards: [{
+				id: "6E8774BA79481EE1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "6F242EFA3AF843DE"
-					type: "item"
 					item: {
-						id: "cyclic:quiver_damage"
 						Count: 1b
+						id: "cyclic:quiver_damage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "33693A44BEC377D7"
-					type: "item"
 					item: {
-						id: "cyclic:quiver_lightning"
 						Count: 1b
+						id: "cyclic:quiver_lightning"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6E8774BA79481EE1"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 3.0d
+			y: -1.5d
 		}
 		{
-			x: -3.0d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "4F6DC55FC9DF785A"
+			rewards: [{
+				id: "4DCF4B5A43B7FAA1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "1F6A76613A98E07A"
-					type: "item"
 					item: "cyclic:fan_slab"
+					type: "item"
 				}
 				{
 					id: "1B155F7B4710660A"
-					type: "item"
 					item: "cyclic:fan"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4DCF4B5A43B7FAA1"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			x: -1.5d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "3D8C7EFF580B13AE"
+			rewards: [{
+				id: "40669364BE60E8C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5028221D342F0954"
-					type: "item"
 					item: {
-						id: "cyclic:scythe_brush"
 						Count: 1b
+						id: "cyclic:scythe_brush"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "5D4531E2F65EEF10"
-					type: "item"
 					item: {
-						id: "cyclic:scythe_forage"
 						Count: 1b
+						id: "cyclic:scythe_forage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2385DB4DEA185172"
-					type: "item"
 					item: {
-						id: "cyclic:scythe_leaves"
 						Count: 1b
+						id: "cyclic:scythe_leaves"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "15928489FB32AA06"
-					type: "item"
 					item: {
-						id: "cyclic:scythe_harvest"
 						Count: 1b
+						id: "cyclic:scythe_harvest"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "40669364BE60E8C8"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			x: 1.5d
-			y: -1.5d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "32D2AF221D8016CD"
+			rewards: [{
+				id: "66DBB7979ADDA52E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "54F495E6BCE419AD"
-					type: "item"
 					item: {
-						id: "cyclic:charm_invisible"
 						Count: 1b
+						id: "cyclic:charm_invisible"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4918141200FD9E05"
-					type: "item"
 					item: {
-						id: "cyclic:charm_magicdefense"
 						Count: 1b
+						id: "cyclic:charm_magicdefense"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "66DBB7979ADDA52E"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			x: 3.0d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "2A8CF21E8DCF99DC"
+			rewards: [{
+				id: "5C57FE0055830096"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "30A38DB61566BC47"
-					type: "item"
 					item: "cyclic:detector_item"
+					type: "item"
 				}
 				{
 					id: "536C12D4AFC41F8C"
-					type: "item"
 					item: "cyclic:detector_entity"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5C57FE0055830096"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			x: 1.5d
-			y: 0.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "1F935A3DD39BCC81"
+			rewards: [{
+				id: "512AD9658B31BCFE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "5CCAE78029901841"
-					type: "item"
 					item: "cyclic:crafting_stick"
+					type: "item"
 				}
 				{
 					id: "3B9D43156E23F521"
-					type: "item"
 					item: {
-						id: "cyclic:crafting_bag"
 						Count: 1b
 						ForgeCaps: {
 							Parent: {
-								Size: 9
 								Items: [ ]
+								Size: 9
 							}
 						}
+						id: "cyclic:crafting_bag"
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "512AD9658B31BCFE"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			x: -4.5d
-			y: -3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "0B3DF75DAF522808"
+			rewards: [{
+				id: "2447A1629B624E85"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "457503B871FDCAA1"
-					type: "item"
 					item: "cyclic:experience_pylon"
+					type: "item"
 				}
 				{
 					id: "4FB7B9326F30B75B"
-					type: "item"
 					item: "cyclic:experience_food"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2447A1629B624E85"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			x: 4.5d
-			y: -3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "16763868489E0EEF"
+			rewards: [{
+				id: "168CC5467A79A6AC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "73A64F7DAAD2B9FE"
-					type: "item"
 					item: {
-						id: "cyclic:boomerang_stun"
 						Count: 1b
+						id: "cyclic:boomerang_stun"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "005657BD2916627B"
-					type: "item"
 					item: {
-						id: "cyclic:boomerang_carry"
 						Count: 1b
+						id: "cyclic:boomerang_carry"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7498C0C42DD220CA"
-					type: "item"
 					item: {
-						id: "cyclic:boomerang_damage"
 						Count: 1b
+						id: "cyclic:boomerang_damage"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "168CC5467A79A6AC"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 4.5d
+			y: -3.0d
 		}
 		{
-			x: 3.0d
-			y: -3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "33DE77CD127DA011"
+			rewards: [{
+				id: "138B8734276E7B70"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "32925DF2066E18A4"
-					type: "item"
 					item: "cyclic:plate_launch_redstone"
+					type: "item"
 				}
 				{
 					id: "32FE1DC9874E3870"
-					type: "item"
 					item: "cyclic:plate_launch"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "138B8734276E7B70"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 3.0d
+			y: -3.0d
 		}
 		{
-			x: -3.0d
-			y: -3.0d
 			dependencies: ["71B3DADD7E201D00"]
-			size: 1.5d
 			id: "691D7667C7EC69ED"
+			rewards: [{
+				id: "4F9C7EEEB43507A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [
 				{
 					id: "49C1320F5D7C3561"
-					type: "item"
 					item: "cyclic:scaffold_replace"
+					type: "item"
 				}
 				{
 					id: "16146A84E192857D"
-					type: "item"
 					item: "cyclic:scaffold_fragile"
+					type: "item"
 				}
 				{
 					id: "73028F261261661F"
-					type: "item"
 					item: "cyclic:scaffold_responsive"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4F9C7EEEB43507A9"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
+	title: "&2Cyclic"
 }

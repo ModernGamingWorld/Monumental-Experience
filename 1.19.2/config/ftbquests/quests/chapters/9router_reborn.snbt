@@ -1,127 +1,128 @@
 {
-	id: "0000000000001FC5"
-	group: "7E54189F6BA49858"
-	order_index: 4
-	filename: "9router_reborn"
-	title: "&aRouter Reborn"
-	icon: "routerreborn:router"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9router_reborn"
+	group: "7E54189F6BA49858"
+	icon: "routerreborn:router"
+	id: "0000000000001FC5"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
 			id: "0000000000001FC6"
-			tasks: [{
-				id: "0000000000001FC7"
-				type: "item"
-				item: "routerreborn:barrel_t1"
-			}]
 			rewards: [{
 				id: "0000000000001FD8"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FC7"
+				item: "routerreborn:barrel_t1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 2.0d
-			y: 0.0d
 			id: "0000000000001FC8"
-			tasks: [{
-				id: "0000000000001FC9"
-				type: "item"
-				item: "routerreborn:barrel_t2"
-			}]
 			rewards: [{
 				id: "0000000000001FD9"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FC9"
+				item: "routerreborn:barrel_t2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
 			id: "0000000000001FCA"
-			tasks: [{
-				id: "0000000000001FCB"
-				type: "item"
-				item: "routerreborn:barrel_t3"
-			}]
 			rewards: [{
 				id: "0000000000001FDA"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FCB"
+				item: "routerreborn:barrel_t3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -2.0d
 			id: "0000000000001FCC"
-			tasks: [{
-				id: "0000000000001FCD"
-				type: "item"
-				item: "routerreborn:router"
-			}]
 			rewards: [{
 				id: "0000000000001FD5"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FCD"
+				item: "routerreborn:router"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 		{
-			x: 2.0d
-			y: -2.0d
 			dependencies: [
 				"0000000000001FD0"
 				"0000000000001FCC"
 			]
 			id: "0000000000001FCE"
-			tasks: [{
-				id: "0000000000001FCF"
-				type: "item"
-				item: "routerreborn:controller"
-			}]
 			rewards: [{
 				id: "0000000000001FD6"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FCF"
+				item: "routerreborn:controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			x: 4.0d
-			y: -2.0d
 			id: "0000000000001FD0"
-			tasks: [{
-				id: "0000000000001FD1"
-				type: "item"
-				item: "routerreborn:coppercoil"
-			}]
 			rewards: [{
 				id: "0000000000001FD7"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			tasks: [{
+				id: "0000000000001FD1"
+				item: "routerreborn:coppercoil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			x: 2.0d
-			y: -4.0d
 			id: "0000000000001FD2"
+			rewards: [{
+				id: "0000000000001FD4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000001FD3"
-				type: "item"
 				item: {
-					id: "routerreborn:pickaxe"
 					Count: 1b
+					id: "routerreborn:pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "0000000000001FD4"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 2.0d
+			y: -4.0d
 		}
 	]
+	title: "&aRouter Reborn"
 }

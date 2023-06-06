@@ -1,334 +1,335 @@
 {
-	id: "000000000000000A"
-	group: "69B9F7247002FE35"
-	order_index: 5
-	filename: "industrialforegoing"
-	title: "&2Industrial Foregoing"
-	icon: "industrialforegoing:mob_slaughter_factory"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrialforegoing"
+	group: "69B9F7247002FE35"
+	icon: "industrialforegoing:mob_slaughter_factory"
+	id: "000000000000000A"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "0000000000000266"
+			rewards: [{
+				id: "0000000000000FD6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			shape: "heart"
 			size: 1.5d
-			id: "0000000000000266"
 			tasks: [
 				{
 					id: "0000000000000267"
-					type: "item"
 					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
 				}
 				{
 					id: "5E863629E205CCC8"
-					type: "item"
 					item: {
-						id: "patchouli:guide_book"
 						Count: 1b
+						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "industrialforegoing:industrial_foregoing"
 						}
 					}
 					only_from_crafting: true
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000000FD6"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000268"
-			tasks: [{
-				id: "0000000000000269"
-				type: "item"
-				item: "industrialforegoing:animal_rancher"
-			}]
 			rewards: [{
 				id: "0000000000000FDE"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000269"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 		{
-			x: -2.5d
-			y: 0.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "000000000000026A"
-			tasks: [{
-				id: "000000000000026B"
-				type: "item"
-				item: "industrialforegoing:animal_feeder"
-			}]
 			rewards: [{
 				id: "0000000000000FDC"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000026B"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
 		}
 		{
-			x: -2.0d
-			y: 2.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "000000000000026C"
-			tasks: [{
-				id: "000000000000026D"
-				type: "item"
-				item: "industrialforegoing:animal_baby_separator"
-			}]
 			rewards: [{
 				id: "0000000000000FDA"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000026D"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			x: -2.5d
-			y: 1.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000270"
-			tasks: [{
-				id: "0000000000000271"
-				type: "item"
-				item: "industrialforegoing:sewer"
-			}]
 			rewards: [{
 				id: "0000000000000FDB"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000271"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
 		}
 		{
-			x: -2.5d
-			y: -1.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000272"
-			tasks: [{
-				id: "0000000000000273"
-				type: "item"
-				item: "industrialforegoing:sewage_composter"
-			}]
 			rewards: [{
 				id: "0000000000000FDD"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000273"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000274"
-			tasks: [{
-				id: "0000000000000275"
-				type: "item"
-				item: "industrialforegoing:plant_sower"
-			}]
 			rewards: [{
 				id: "0000000000000FD7"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000275"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			x: -1.0d
-			y: 2.5d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000276"
-			tasks: [{
-				id: "0000000000000277"
-				type: "item"
-				item: "industrialforegoing:plant_fertilizer"
-			}]
 			rewards: [{
 				id: "0000000000000FD8"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000277"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
 		}
 		{
-			x: 1.0d
-			y: 2.5d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "000000000000027A"
-			tasks: [{
-				id: "000000000000027B"
-				type: "item"
-				item: "industrialforegoing:plant_gatherer"
-			}]
 			rewards: [{
 				id: "0000000000000FD9"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000027B"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			x: 2.5d
-			y: 1.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000284"
-			tasks: [{
-				id: "0000000000000285"
-				type: "item"
-				item: "industrialforegoing:mob_slaughter_factory"
-			}]
 			rewards: [{
 				id: "0000000000000FE5"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000285"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
 		}
 		{
-			x: 3.5d
-			y: 1.0d
-			shape: "gear"
 			dependencies: ["0000000000000284"]
 			id: "0000000000000286"
-			tasks: [{
-				id: "0000000000000287"
-				type: "item"
-				item: "industrialforegoing:meat_feeder"
-			}]
 			rewards: [{
 				id: "0000000000000FE6"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000287"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
 		}
 		{
-			x: 2.5d
-			y: -1.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000288"
-			tasks: [{
-				id: "0000000000000289"
-				type: "item"
-				item: "industrialforegoing:biofuel_generator"
-			}]
 			rewards: [{
 				id: "0000000000000FE3"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000289"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			x: 2.0d
-			y: -2.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "000000000000028C"
-			tasks: [{
-				id: "000000000000028D"
-				type: "item"
-				item: "industrialforegoing:bioreactor"
-			}]
 			rewards: [{
 				id: "0000000000000FE2"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000028D"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			x: 2.0d
-			y: 2.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "000000000000028E"
-			tasks: [{
-				id: "000000000000028F"
-				type: "item"
-				item: "industrialforegoing:water_condensator"
-			}]
 			rewards: [{
 				id: "0000000000000FE7"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000028F"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			x: 2.5d
-			y: 0.0d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000290"
-			tasks: [{
-				id: "0000000000000291"
-				type: "item"
-				item: "industrialforegoing:spores_recreator"
-			}]
 			rewards: [{
 				id: "0000000000000FE4"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000291"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -2.5d
-			shape: "gear"
 			dependencies: ["0000000000000296"]
 			id: "0000000000000294"
-			tasks: [{
-				id: "0000000000000295"
-				type: "item"
-				item: "industrialforegoing:latex_processing_unit"
-			}]
 			rewards: [{
 				id: "0000000000000FE0"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000000295"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			x: -1.0d
-			y: -2.5d
-			shape: "gear"
 			dependencies: ["0000000000000266"]
 			id: "0000000000000296"
-			tasks: [{
-				id: "0000000000000297"
-				type: "item"
-				item: "industrialforegoing:fluid_extractor"
-				count: 4L
-			}]
 			rewards: [{
 				id: "0000000000000FDF"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				count: 4L
+				id: "0000000000000297"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			x: 1.0d
-			y: -2.5d
-			shape: "gear"
 			dependencies: ["0000000000000294"]
 			id: "0000000000000298"
-			tasks: [{
-				id: "0000000000000299"
-				type: "item"
-				item: "industrialforegoing:plastic"
-				count: 64L
-			}]
 			rewards: [{
 				id: "0000000000000FE1"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				count: 64L
+				id: "0000000000000299"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 	]
+	title: "&2Industrial Foregoing"
 }

@@ -1,0 +1,11 @@
+#Can be used to disable the ritual globally.
+enabled = true
+#Can be used to change the duration of the ritual, higher values take longer.
+#Default value: 8
+#Range: 0 ~ 100
+duration = 8
+#Can be used to change the range of the ritual, in blocks away from the brazier
+#Default range: 3.0
+#Range: 0.0 ~ 100.0
+range = 3.0
+

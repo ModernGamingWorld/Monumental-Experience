@@ -1,0 +1,958 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "09A82B0D5D5E7906"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "4D9197FB03EF6360"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [""]
+			id: "1FE49E1F5E046F0F"
+			rewards: [{
+				id: "65E5C2152A6FB50C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Craft a Nasa Workbench."
+			tasks: [{
+				id: "52B7EAED52EB0F37"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E6F1C7EC88FF79"]
+			description: [""]
+			id: "4752A206456F0893"
+			rewards: [{
+				id: "226BD59BAE9FE698"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Create a Steel Plate."
+			tasks: [{
+				icon: "immersiveengineering:plate_steel"
+				id: "368DFC5E3F636673"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/steel"
+					}
+				}
+				title: "Steel Plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [""]
+			id: "746884699E1F3AD1"
+			rewards: [{
+				id: "371CBB97BF63E513"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a rocket nose cone."
+			tasks: [{
+				id: "0085C6F14C7AB1D6"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [""]
+			id: "095005D325C74581"
+			rewards: [{
+				id: "222C0BFB59413E2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft an engine frame."
+			tasks: [{
+				id: "62EB277748C4612A"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [""]
+			id: "06075D202F626C65"
+			rewards: [{
+				id: "6B4700106484FE4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft an engine fan."
+			tasks: [{
+				id: "52BE7F75857BBF6F"
+				item: "ad_astra:engine_fan"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: false
+			id: "59822C508A5BD9C7"
+			rewards: [
+				{
+					id: "44E568EF4ED1BC50"
+					item: "ad_astra:astrodux"
+					type: "item"
+				}
+				{
+					id: "533399AC6988C43E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Craft a Compressor."
+			tasks: [{
+				id: "1890B1B47B0BB45E"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B296596CD127449"
+				"4C6B7F5D47CD0C70"
+			]
+			description: [""]
+			id: "0FA5162711FED7A9"
+			rewards: [{
+				id: "4B4458A4E199FE87"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Craft a tier 1 rocket."
+			tasks: [{
+				id: "331FD4BA8D6F561F"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [""]
+			id: "360C3457CEEA22D5"
+			rewards: [{
+				id: "7483035210BCA4EB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a rocket fin."
+			tasks: [{
+				id: "2E70024134381787"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "4C6B7F5D47CD0C70"
+			rewards: [{
+				id: "62ECDCA766D91974"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft 2 steel tanks."
+			tasks: [{
+				count: 2L
+				id: "3A4C3A7FC3CF8C82"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			title: "Steel Tank"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [""]
+			id: "6B296596CD127449"
+			rewards: [{
+				id: "5D2C2E4AE1CA4E76"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Lets Craft a Steel Engine"
+			tasks: [{
+				id: "0E1EB05D2D59C9F7"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [""]
+			id: "2671CAFB7B1E1933"
+			rewards: [{
+				id: "0AF6BB24E0E1805D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Craft a tier 2 rocket."
+			tasks: [{
+				id: "420005A7BFD0CB9F"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6252590716097C6D"
+				"2BAF03664A5D36AF"
+			]
+			description: [""]
+			id: "7E159E3826EA1F3E"
+			rewards: [{
+				id: "21E46B681BD2B0DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Craft a tier 3 rocket."
+			tasks: [{
+				id: "728AA15A066ACB86"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [""]
+			id: "2704D6F0E2508095"
+			rewards: [{
+				id: "63FFB29B17E72C96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Craft a tier 4 rocket."
+			tasks: [{
+				id: "76678E00BBA321BD"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [""]
+			id: "7C64107F52DF00BC"
+			rewards: [{
+				id: "5590FCE9CD689D5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a Rocket Launch Pad."
+			tasks: [{
+				id: "09CEA707F1B332F0"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Rocket Launch Pad"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FA5162711FED7A9"]
+			description: [""]
+			id: "4D71E2AFA32631E7"
+			rewards: [{
+				id: "05A8E66E3DEC0AEB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Create a Desh Ingot."
+			tasks: [{
+				id: "69F619C6465F361A"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [""]
+			id: "4F405ACDA98FE821"
+			rewards: [{
+				id: "7E571AB8B4F8D81F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Create a Desh Plate."
+			tasks: [{
+				id: "5832D63EED662D86"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			description: [""]
+			id: "20D22E8DA314D5BD"
+			rewards: [{
+				id: "0E11ECC842B8CB83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft 2 desh tank."
+			tasks: [{
+				count: 2L
+				id: "037394A19E2F960D"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			title: "Desh Tank"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20D22E8DA314D5BD"]
+			description: [""]
+			id: "4CCF5B1FD6AEE7E8"
+			rewards: [{
+				id: "1C5CE723B263E779"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a desh engine."
+			tasks: [{
+				id: "757EF8304D723FB2"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2671CAFB7B1E1933"]
+			description: [""]
+			id: "6252590716097C6D"
+			rewards: [{
+				id: "325099448CECA466"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Create an Ostrum Ingot."
+			tasks: [{
+				id: "6CFA08BC68D2B19E"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			description: [""]
+			id: "1E4561B23E3570CF"
+			rewards: [{
+				id: "0142DD5F10C55D8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Create a Ostrum Plate."
+			tasks: [{
+				id: "2696A1C47F1236FD"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			description: [""]
+			id: "2DD4057509AD751B"
+			rewards: [{
+				id: "1F224876D89F9153"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft x2 ostrum tank."
+			tasks: [{
+				count: 2L
+				id: "209D8C8B33CA4D23"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			title: "Ostrum Tank"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2DD4057509AD751B"]
+			description: [""]
+			id: "232CF11DCCB0D0F3"
+			rewards: [{
+				id: "4E90B8D667C51416"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft an ostrum engine."
+			tasks: [{
+				id: "59EEACE333D96B7A"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			description: [""]
+			id: "2BAF03664A5D36AF"
+			rewards: [{
+				id: "657C58811A1E7328"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Create a Calorite Ingot."
+			tasks: [{
+				id: "61EB7F59F856998D"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [""]
+			id: "4C96E292607EF7DA"
+			rewards: [{
+				id: "35DCD264510063CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Create a Calorite Plate."
+			tasks: [{
+				id: "7973B1A11F91F18F"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			description: [""]
+			id: "52587C1149251FC4"
+			rewards: [{
+				id: "553C816C73361C6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft x2 calorite tank."
+			tasks: [{
+				count: 2L
+				id: "7D3F557E00A3AF5E"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			title: "Calorite Tank"
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52587C1149251FC4"]
+			description: [""]
+			id: "06D51049CF6977D3"
+			rewards: [{
+				id: "641D7B77F35FEB33"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a calorite engine."
+			tasks: [{
+				id: "27C94E21D6C05E50"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5C714C816CE3365B"]
+			description: [""]
+			id: "119A781265B7FCA0"
+			rewards: [{
+				id: "7A4E2855F14260FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft an oxygen loader."
+			tasks: [{
+				id: "2BDB6A9DD1A3435D"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["119A781265B7FCA0"]
+			description: [""]
+			id: "1C53888B7546DE90"
+			rewards: [{
+				id: "5B21FE9A3BE34239"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft an oxygen distributor."
+			tasks: [{
+				id: "120874D5602DC887"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "5C714C816CE3365B"
+			rewards: [{
+				id: "5D0D30FDEAE61B18"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Craft an oxygen tank."
+			tasks: [{
+				id: "5C3D3C88E6591F1E"
+				item: "ad_astra:oxygen_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C64107F52DF00BC"]
+			description: [""]
+			id: "30A6B9619242AD4F"
+			rewards: [{
+				id: "00F612DED530BC4B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Craft a rover."
+			tasks: [{
+				id: "43F56800B98C2934"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "1809D70D466A620D"
+			rewards: [{
+				id: "1A6CF97F2663AE84"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Land on Glacio"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_stone"
+				id: "018DE522C5232C05"
+				title: "Glacio"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Glacio"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			id: "4AED9280BCB3CE39"
+			rewards: [{
+				id: "3DD01A30FE02F78B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Land on Mars"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_stone"
+				id: "78CC4BD68487BDEE"
+				title: "Mars"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Mars"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			id: "4C77B32633B5B1A0"
+			rewards: [{
+				id: "14D0826200A2C891"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Land on Mercury"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_stone"
+				id: "270179CCE996FC6B"
+				title: "Mercury"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Mercury"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			id: "77BBDC91E0C13E6F"
+			rewards: [{
+				id: "592C224DDD2D0575"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Land on the Moon"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_stone"
+				id: "60E45C434CF49E92"
+				title: "Moon"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Moon"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			id: "12B46D169B7161B1"
+			rewards: [{
+				id: "6AAAC95CACD1F1F3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Land on Venus"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_stone"
+				id: "189832361DA469D9"
+				title: "Venus"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Venus"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1809D70D466A620D"
+				"77BBDC91E0C13E6F"
+				"4AED9280BCB3CE39"
+				"4C77B32633B5B1A0"
+				"12B46D169B7161B1"
+				"09AF1B00A4FFACCC"
+			]
+			description: [""]
+			icon: "supplementaries:globe_sepia"
+			id: "7663B0A12827A162"
+			rewards: [{
+				id: "0D349C399B3C6C8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Claim this by exploring all planets."
+			tasks: [{
+				icon: "botania:tiny_planet"
+				id: "2C11EDA3440ECCFA"
+				type: "checkmark"
+			}]
+			title: "Planet Explorer"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59822C508A5BD9C7"]
+			id: "56E6F1C7EC88FF79"
+			rewards: [{
+				id: "33DD735925B5175A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Create a Steel Ingot."
+			tasks: [{
+				id: "16026224456B1256"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": { }
+				}
+				id: "swplanets:kyber_crystal"
+			}
+			id: "09AF1B00A4FFACCC"
+			rewards: [{
+				id: "67C6E77A63376551"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			subtitle: "Land on the Tatooine"
+			tasks: [{
+				dimension: "swplanets:tatooine"
+				id: "590C79F09DB16AA0"
+				type: "dimension"
+			}]
+			title: "Visit Planet: Tatooine"
+			x: -1.0d
+			y: 7.5d
+		}
+	]
+	subtitle: ["To the moon and beyond..."]
+	title: "&6Ad Astra!"
+}

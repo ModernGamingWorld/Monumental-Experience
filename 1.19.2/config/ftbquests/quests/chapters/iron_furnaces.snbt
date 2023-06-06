@@ -1,452 +1,453 @@
 {
-	id: "00000000000019ED"
-	group: "69B9F7247002FE35"
-	order_index: 4
-	filename: "iron_furnaces"
-	title: "&2Iron Furnaces"
-	icon: "ironfurnaces:million_furnace"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "69B9F7247002FE35"
+	icon: "ironfurnaces:million_furnace"
+	id: "00000000000019ED"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
+			id: "00000000000019EE"
+			rewards: [{
+				id: "41944CBF6DD2D220"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000019EF"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			title: "&5Furnace"
 			x: 0.0d
 			y: 0.0d
-			shape: "heart"
-			size: 1.5d
-			id: "00000000000019EE"
-			tasks: [{
-				id: "00000000000019EF"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
-			rewards: [{
-				id: "41944CBF6DD2D220"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019EE"]
+			id: "00000000000019F0"
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F1"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
 			title: "&5Copper Furnace"
 			x: 0.0d
 			y: -4.0d
-			shape: "gear"
-			dependencies: ["00000000000019EE"]
-			id: "00000000000019F0"
-			tasks: [{
-				id: "00000000000019F1"
-				type: "item"
-				item: "ironfurnaces:copper_furnace"
-			}]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
-			shape: "gear"
 			dependencies: ["00000000000019F0"]
 			id: "00000000000019F2"
+			shape: "gear"
 			tasks: [{
 				id: "00000000000019F3"
-				type: "item"
 				item: "ironfurnaces:iron_furnace"
+				type: "item"
 			}]
+			x: 4.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["00000000000019F2"]
+			id: "00000000000019F4"
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F5"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
 			title: "&5Silver Furnace"
 			x: 4.0d
 			y: -2.0d
-			shape: "gear"
-			dependencies: ["00000000000019F2"]
-			id: "00000000000019F4"
-			tasks: [{
-				id: "00000000000019F5"
-				type: "item"
-				item: "ironfurnaces:silver_furnace"
-			}]
 		}
 		{
+			dependencies: ["00000000000019F4"]
+			id: "00000000000019F6"
+			rewards: [{
+				id: "00000000000019FB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F7"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
 			title: "&5Golden Furnace"
 			x: 8.0d
 			y: -2.0d
-			shape: "gear"
-			dependencies: ["00000000000019F4"]
-			id: "00000000000019F6"
-			tasks: [{
-				id: "00000000000019F7"
-				type: "item"
-				item: "ironfurnaces:gold_furnace"
-			}]
-			rewards: [{
-				id: "00000000000019FB"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019F6"]
+			id: "00000000000019F8"
+			rewards: [{
+				id: "00000000000019FA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F9"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
 			title: "&5Diamond Furnace"
 			x: 8.0d
 			y: -4.0d
-			shape: "gear"
-			dependencies: ["00000000000019F6"]
-			id: "00000000000019F8"
-			tasks: [{
-				id: "00000000000019F9"
-				type: "item"
-				item: "ironfurnaces:diamond_furnace"
-			}]
-			rewards: [{
-				id: "00000000000019FA"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019F8"]
+			id: "00000000000019FC"
+			rewards: [{
+				id: "00000000000019FE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019FD"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
 			title: "&5Emerald Furance"
 			x: 7.0d
 			y: -5.0d
-			shape: "gear"
-			dependencies: ["00000000000019F8"]
-			id: "00000000000019FC"
-			tasks: [{
-				id: "00000000000019FD"
-				type: "item"
-				item: "ironfurnaces:emerald_furnace"
-			}]
-			rewards: [{
-				id: "00000000000019FE"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019FC"]
+			id: "00000000000019FF"
+			rewards: [{
+				id: "0000000000001A01"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A00"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
 			title: "&5Crystal Furnaces"
 			x: 8.0d
 			y: -6.0d
-			shape: "gear"
-			dependencies: ["00000000000019FC"]
-			id: "00000000000019FF"
-			tasks: [{
-				id: "0000000000001A00"
-				type: "item"
-				item: "ironfurnaces:crystal_furnace"
-			}]
-			rewards: [{
-				id: "0000000000001A01"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019FF"]
+			id: "0000000000001A02"
+			rewards: [{
+				id: "0000000000001A04"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A03"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
 			title: "&5Obsidian Furnace"
 			x: 4.0d
 			y: -6.0d
-			shape: "gear"
-			dependencies: ["00000000000019FF"]
-			id: "0000000000001A02"
-			tasks: [{
-				id: "0000000000001A03"
-				type: "item"
-				item: "ironfurnaces:obsidian_furnace"
-			}]
-			rewards: [{
-				id: "0000000000001A04"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["0000000000001A02"]
+			id: "0000000000001A05"
+			rewards: [{
+				id: "0000000000001A07"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A06"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
 			title: "&5Netherite Furnace"
 			x: 0.0d
 			y: -6.0d
-			shape: "gear"
-			dependencies: ["0000000000001A02"]
-			id: "0000000000001A05"
-			tasks: [{
-				id: "0000000000001A06"
-				type: "item"
-				item: "ironfurnaces:netherite_furnace"
-			}]
-			rewards: [{
-				id: "0000000000001A07"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["0000000000001A05"]
+			id: "0000000000001A08"
+			rewards: [{
+				id: "0000000000001A0A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A09"
+				item: "ironfurnaces:allthemodium_furnace"
+				type: "item"
+			}]
 			title: "&5AlltheModium Furnace"
 			x: -4.0d
 			y: -6.0d
-			shape: "gear"
-			dependencies: ["0000000000001A05"]
-			id: "0000000000001A08"
-			tasks: [{
-				id: "0000000000001A09"
-				type: "item"
-				item: "ironfurnaces:allthemodium_furnace"
-			}]
-			rewards: [{
-				id: "0000000000001A0A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["0000000000001A08"]
+			id: "0000000000001A0B"
+			rewards: [{
+				id: "0000000000001A0D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A0C"
+				item: "ironfurnaces:vibranium_furnace"
+				type: "item"
+			}]
 			title: "&5Vibranium Furnace"
 			x: -3.0d
 			y: -5.0d
-			shape: "gear"
-			dependencies: ["0000000000001A08"]
-			id: "0000000000001A0B"
-			tasks: [{
-				id: "0000000000001A0C"
-				type: "item"
-				item: "ironfurnaces:vibranium_furnace"
-			}]
-			rewards: [{
-				id: "0000000000001A0D"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["0000000000001A0B"]
+			id: "0000000000001A0E"
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A0F"
+				item: "ironfurnaces:unobtainium_furnace"
+				type: "item"
+			}]
 			title: "&5Unobtainium Furnace"
 			x: -4.0d
 			y: -4.0d
-			shape: "gear"
-			dependencies: ["0000000000001A0B"]
-			id: "0000000000001A0E"
-			tasks: [{
-				id: "0000000000001A0F"
-				type: "item"
-				item: "ironfurnaces:unobtainium_furnace"
-			}]
 		}
 		{
+			dependencies: ["00000000000019EE"]
+			id: "0000000000001A10"
+			rewards: [{
+				id: "0000000000001A12"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A11"
+				item: "ironfurnaces:item_spooky"
+				type: "item"
+			}]
 			title: "&5Pumpkin Furnace"
 			x: -4.0d
 			y: 0.0d
-			shape: "gear"
-			dependencies: ["00000000000019EE"]
-			id: "0000000000001A10"
-			tasks: [{
-				id: "0000000000001A11"
-				type: "item"
-				item: "ironfurnaces:item_spooky"
-			}]
-			rewards: [{
-				id: "0000000000001A12"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["00000000000019EE"]
+			id: "0000000000001A13"
+			rewards: [{
+				id: "0000000000001A15"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A14"
+				item: "ironfurnaces:item_xmas"
+				type: "item"
+			}]
 			title: "&5Furnace Wrapping Paper"
 			x: 4.0d
 			y: 0.0d
-			shape: "gear"
-			dependencies: ["00000000000019EE"]
-			id: "0000000000001A13"
-			tasks: [{
-				id: "0000000000001A14"
-				type: "item"
-				item: "ironfurnaces:item_xmas"
-			}]
-			rewards: [{
-				id: "0000000000001A15"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
-			x: -10.0d
-			y: 0.0d
-			shape: "heart"
-			size: 1.5d
 			id: "0000000000001A16"
-			tasks: [{
-				id: "0000000000001A17"
-				type: "item"
-				item: "minecraft:blast_furnace"
-			}]
 			rewards: [{
 				id: "4B3585A3C05BC88B"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001A17"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0000000000001A16"]
+			id: "0000000000001A18"
+			rewards: [{
+				id: "0000000000001A1A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A19"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
 			title: "&5Blasting"
 			x: -10.0d
 			y: -4.0d
-			shape: "gear"
-			dependencies: ["0000000000001A16"]
-			id: "0000000000001A18"
-			tasks: [{
-				id: "0000000000001A19"
-				type: "item"
-				item: "ironfurnaces:augment_blasting"
-			}]
-			rewards: [{
-				id: "0000000000001A1A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			id: "0000000000001A1B"
+			rewards: [{
+				id: "4B145A3976827D67"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001A1C"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
 			title: "&5Smoker"
 			x: -8.0d
 			y: 0.0d
-			shape: "heart"
-			size: 1.5d
-			id: "0000000000001A1B"
-			tasks: [{
-				id: "0000000000001A1C"
-				type: "item"
-				item: "minecraft:smoker"
-			}]
-			rewards: [{
-				id: "4B145A3976827D67"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
-			x: -8.0d
-			y: -4.0d
-			shape: "gear"
 			dependencies: ["0000000000001A1B"]
 			id: "0000000000001A1D"
-			tasks: [{
-				id: "0000000000001A1E"
-				type: "item"
-				item: "ironfurnaces:augment_smoking"
-			}]
 			rewards: [{
 				id: "0000000000001A1F"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A1E"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
 		}
 		{
+			id: "0000000000001A20"
+			rewards: [{
+				id: "77F12641B134FDA3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "15D80923F9002AE2"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
 			title: "&5Sugar"
 			x: 10.0d
 			y: 0.0d
-			shape: "heart"
-			size: 1.5d
-			id: "0000000000001A20"
-			tasks: [{
-				id: "15D80923F9002AE2"
-				type: "item"
-				item: "minecraft:sugar"
-			}]
-			rewards: [{
-				id: "77F12641B134FDA3"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
+			dependencies: ["0000000000001A20"]
+			id: "0000000000001A22"
+			rewards: [{
+				id: "0000000000001A24"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A23"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
 			title: "&5Speed Upgrade"
 			x: 10.0d
 			y: -4.0d
-			shape: "gear"
-			dependencies: ["0000000000001A20"]
-			id: "0000000000001A22"
-			tasks: [{
-				id: "0000000000001A23"
-				type: "item"
-				item: "ironfurnaces:augment_speed"
-			}]
-			rewards: [{
-				id: "0000000000001A24"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
 		}
 		{
-			title: "&5Coal"
-			x: 12.0d
-			y: 0.0d
+			id: "0000000000001A25"
+			rewards: [{
+				id: "56D808BCABBBF7A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			shape: "heart"
 			size: 1.5d
-			id: "0000000000001A25"
 			tasks: [{
 				id: "0000000000001A26"
-				type: "item"
-				title: "Any minecraft:coals"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:coals"
 					}
 				}
-			}]
-			rewards: [{
-				id: "56D808BCABBBF7A3"
+				title: "Any minecraft:coals"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			title: "&5Coal"
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			x: 12.0d
-			y: -4.0d
-			shape: "gear"
 			dependencies: ["0000000000001A25"]
 			id: "0000000000001A27"
-			tasks: [{
-				id: "0000000000001A28"
-				type: "item"
-				item: "ironfurnaces:augment_fuel"
-			}]
 			rewards: [{
 				id: "0000000000001A29"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A28"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
 		}
 		{
-			title: "&5Rainbow Parts"
-			x: 0.0d
-			y: -10.0d
-			shape: "gear"
 			dependencies: ["0000000000001A05"]
 			id: "0000000000001A2A"
+			rewards: [{
+				id: "0000000000001A2C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "0000000000001A2B"
-					type: "item"
 					item: "ironfurnaces:rainbow_core"
+					type: "item"
 				}
 				{
-					id: "0000000000001A2D"
-					type: "item"
-					item: "ironfurnaces:rainbow_plating"
 					count: 8L
+					id: "0000000000001A2D"
+					item: "ironfurnaces:rainbow_plating"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000001A2C"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			title: "&5Rainbow Parts"
+			x: 0.0d
+			y: -10.0d
 		}
 		{
-			x: -4.0d
-			y: -10.0d
-			shape: "gear"
 			dependencies: ["0000000000001A2A"]
 			id: "0000000000001A2E"
-			tasks: [{
-				id: "0000000000001A2F"
-				type: "item"
-				item: "ironfurnaces:million_furnace"
-			}]
 			rewards: [{
 				id: "0000000000001A30"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A2F"
+				item: "ironfurnaces:million_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
 		}
 	]
+	title: "&2Iron Furnaces"
 }

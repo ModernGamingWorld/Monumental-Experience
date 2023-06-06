@@ -1,150 +1,103 @@
 {
-	id: "5F8FDCEDD1F79152"
-	group: "69B9F7247002FE35"
-	order_index: 2
-	filename: "create_additions"
-	title: "&2Create Additions"
-	icon: "createaddition:electric_motor"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_additions"
+	group: "69B9F7247002FE35"
+	icon: "createaddition:electric_motor"
+	id: "5F8FDCEDD1F79152"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
 			id: "40249A12B86B5422"
+			rewards: [{
+				id: "77DC53079AD5711E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32653CB57CD2DFD0"
-				type: "item"
 				item: "createaddition:electric_motor"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "77DC53079AD5711E"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -4.0d
 			id: "7BCAF3000074933F"
+			rewards: [{
+				id: "427EA1011299D1E4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D4C5CE9DCC36788"
-				type: "item"
 				item: "createaddition:alternator"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "427EA1011299D1E4"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
 			id: "55B145C21A4C44B2"
+			rewards: [{
+				id: "634F6FCAE6C600EA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02E4F378D5C4C5FF"
-				type: "item"
 				item: "createaddition:rolling_mill"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "634F6FCAE6C600EA"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 4.0d
-			y: -4.0d
 			id: "1033E1724C8058AF"
+			rewards: [{
+				id: "6F0E443BB40A36CB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A5B9CF53EFC559B"
-				type: "item"
 				item: "createaddition:connector"
-			}]
-			rewards: [
-				{
-					id: "6F0E443BB40A36CB"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: -4.0d
-			y: 0.0d
-			id: "0D51A1AB8E0559E3"
-			tasks: [{
-				id: "0F69C1978C36B02A"
 				type: "item"
-				item: "createaddition:multimeter"
 			}]
-			rewards: [
-				{
-					id: "4ABADD992ECE054D"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 4.0d
+			y: -4.0d
 		}
 		{
+			id: "6A925B34FF7FE307"
+			rewards: [{
+				id: "275624FC5E75CA34"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF4CA9BE1847B7D"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -4.0d
-			id: "6A925B34FF7FE307"
-			tasks: [
-				{
-					id: "3DF4CA9BE1847B7D"
-					type: "item"
-					item: "createaddition:gold_spool"
-				}
-			]
-			rewards: [
-				{
-					id: "275624FC5E75CA34"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			id: "1FBE63FB1C8A6E71"
-			tasks: [{
-				id: "68ACD6D1DC1D99A3"
-				type: "item"
-				item: "createaddition:heater"
-			}]
-			rewards: [
-				{
-					id: "7637B1CAD877D23D"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -2.0d
 			id: "4ABA11EF0B7B7E72"
+			rewards: [{
+				id: "658049D58D81EC8F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31A8DEB42E0E9442"
-				type: "item"
 				item: "createaddition:capacitor"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "658049D58D81EC8F"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 2.0d
+			y: -2.0d
 		}
 	]
+	title: "&2Create Additions"
 }

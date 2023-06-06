@@ -1,182 +1,151 @@
 {
-	id: "489DC8B78F542008"
-	group: "55E5AF04A54B89DD"
-	order_index: 2
-	filename: "flux_networks"
-	title: "&2Flux Networks"
-	icon: "fluxnetworks:flux_dust"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flux_networks"
+	group: "55E5AF04A54B89DD"
+	icon: "fluxnetworks:flux_dust"
+	id: "489DC8B78F542008"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			id: "25A17BC359CA2EF1"
+			rewards: [{
+				id: "1D93A4C4A154362B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
-			id: "25A17BC359CA2EF1"
 			tasks: [{
 				id: "42A2F4F324F4AFB3"
-				type: "item"
 				item: "fluxnetworks:flux_dust"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "1D93A4C4A154362B"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -4.5d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "03E30AA4E577F4DA"
+			rewards: [{
+				id: "6C4DA385E1130E88"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "332724FB2C037A7A"
-				type: "item"
 				item: "fluxnetworks:flux_configurator"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "6C4DA385E1130E88"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 0.0d
+			y: -4.5d
 		}
 		{
-			x: -4.5d
-			y: 0.0d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "09F88FBB1DB656F2"
+			rewards: [{
+				id: "0335BC2FE5872289"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "0085DACBCB37ED75"
-				type: "item"
 				item: "fluxnetworks:flux_controller"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0335BC2FE5872289"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: -4.5d
+			y: 0.0d
 		}
 		{
-			x: -4.5d
-			y: -4.5d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "58066F76E37B0DC6"
+			rewards: [{
+				id: "22942E5B34B8ABFB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [
 				{
 					id: "3631AA420236ED46"
-					type: "item"
 					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
 				}
 				{
 					id: "107427A9C9A12FDE"
-					type: "item"
 					item: "fluxnetworks:herculean_flux_storage"
+					type: "item"
 				}
 				{
 					id: "7A4FC1F9B771B9BA"
-					type: "item"
 					item: "fluxnetworks:gargantuan_flux_storage"
-				}
-			]
-			rewards: [
-				{
-					id: "22942E5B34B8ABFB"
 					type: "item"
-					item: "lootbundles:loot_bundle"
 				}
 			]
+			x: -4.5d
+			y: -4.5d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "2913BB23E7E1D7D5"
+			rewards: [{
+				id: "2F03A2D516BC0F8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [
 				{
 					id: "2DE953B430667B79"
-					type: "item"
 					item: "fluxnetworks:flux_plug"
+					type: "item"
 				}
 				{
 					id: "6086931B7D9B9A70"
-					type: "item"
 					item: "fluxnetworks:flux_point"
-				}
-			]
-			rewards: [
-				{
-					id: "2F03A2D516BC0F8B"
 					type: "item"
-					item: "lootbundles:loot_bundle"
 				}
 			]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: -4.5d
-			y: 4.5d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "2F2F6DDDC03983DA"
+			rewards: [{
+				id: "2D3365EA6F235DFE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "7DFCB9B9A9FF2C2F"
-				type: "item"
 				item: "fluxnetworks:flux_block"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "2D3365EA6F235DFE"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: -4.5d
+			y: 4.5d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
-			shape: "circle"
-			dependencies: [
-				"0000000000000AE6"
-				"25A17BC359CA2EF1"
-			]
+			dependencies: ["25A17BC359CA2EF1"]
 			id: "45D913CA9EA5D570"
+			rewards: [{
+				id: "40EE9576389975B6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "5C1A60FDE90150A6"
-				type: "item"
 				item: "fluxnetworks:flux_core"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "40EE9576389975B6"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 4.5d
+			y: 0.0d
 		}
 	]
+	title: "&2Flux Networks"
 }

@@ -171,14 +171,14 @@
 		# Default: 9
 		#Range: 1 ~ 100
 		power = 9
-		# How much RF to generate per tick
-		# Default: 1000
-		#Range: 1 ~ 100000
-		generation = 1000
 		# How much power the Rainbow Furnace will generate.
 		# Default: 50000
 		#Range: 1 ~ 100000000
 		rainbow_generation = 50000
+		# How much RF to generate per tick
+		# Default: 1000
+		#Range: 1 ~ 100000
+		generation = 1000
 
 	[furnaces.recipeMaxXPLevel]
 		# How many levels of experience that can be stored in recipes stored in the furnace, after the experience stored in the recipe reaches this value (in levels) it will be voided.
@@ -277,5 +277,5 @@
 	[updates.check_updates]
 		# true = check for updates, false = don't check for updates.
 		# Default: true.
-		updates = false
+		updates = true
 

@@ -1,363 +1,364 @@
 {
-	id: "0000000000001DF3"
-	group: "4814F40AB34427B6"
-	order_index: 10
-	filename: "psi"
-	title: "&dPSI"
-	icon: "psi:cad_assembly_ivory_psimetal"
-	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "psi"
+	group: "4814F40AB34427B6"
+	icon: "psi:cad_assembly_ivory_psimetal"
+	id: "0000000000001DF3"
+	order_index: 10
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: -3.75d
-			shape: "circle"
-			size: 1.5d
 			id: "0000000000001DF4"
-			tasks: [{
-				id: "0000000000001DF5"
-				type: "item"
-				item: "psi:cad_assembly_iron"
-			}]
 			rewards: [{
 				id: "0000000000001E0C"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001DF5"
+				item: "psi:cad_assembly_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
 		}
 		{
-			x: 6.0d
-			y: -3.75d
-			shape: "circle"
 			dependencies: ["0000000000001E00"]
-			size: 1.5d
 			id: "0000000000001DF6"
-			tasks: [{
-				id: "0000000000001DF7"
-				type: "item"
-				item: "psi:psidust"
-				count: 16L
-			}]
 			rewards: [{
 				id: "0000000000001E0F"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "0000000000001DF7"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.75d
 		}
 		{
-			x: 9.0d
-			y: -1.0d
-			shape: "circle"
 			dependencies: ["0000000000001DF6"]
-			size: 1.5d
 			id: "0000000000001DF8"
-			tasks: [{
-				id: "0000000000001DF9"
-				type: "item"
-				item: {
-					id: "psi:spell_bullet"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "0000000000001E11"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001DF9"
+				item: {
+					Count: 1b
+					id: "psi:spell_bullet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
 		}
 		{
-			x: 9.0d
-			y: 1.5d
-			shape: "circle"
 			dependencies: ["0000000000001DF6"]
-			size: 1.5d
 			id: "0000000000001DFA"
-			tasks: [{
-				id: "0000000000001DFB"
-				type: "item"
-				item: "psi:cad_core_basic"
-			}]
 			rewards: [{
 				id: "0000000000001E12"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001DFB"
+				item: "psi:cad_core_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
 		}
 		{
-			x: 9.0d
-			y: -3.75d
-			shape: "circle"
 			dependencies: ["0000000000001DF6"]
-			size: 1.5d
 			id: "0000000000001DFC"
-			tasks: [{
-				id: "0000000000001DFD"
-				type: "item"
-				item: "psi:cad_socket_basic"
-			}]
 			rewards: [{
 				id: "0000000000001E10"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001DFD"
+				item: "psi:cad_socket_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.75d
 		}
 		{
-			x: 6.0d
-			y: 1.5d
-			shape: "circle"
 			dependencies: ["0000000000001DF6"]
-			size: 1.5d
 			id: "0000000000001DFE"
-			tasks: [{
-				id: "0000000000001DFF"
-				type: "item"
-				item: "psi:programmer"
-			}]
 			rewards: [{
 				id: "0000000000001E13"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001DFF"
+				item: "psi:programmer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 		{
-			x: 3.0d
-			y: -3.75d
-			shape: "circle"
 			dependencies: ["0000000000001DF4"]
-			size: 1.5d
 			id: "0000000000001E00"
-			tasks: [{
-				id: "0000000000001E01"
-				type: "item"
-				item: "psi:cad_assembler"
-			}]
 			rewards: [{
 				id: "0000000000001E0E"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001E01"
+				item: "psi:cad_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.75d
 		}
 		{
-			x: 3.0d
-			y: 1.5d
-			shape: "circle"
 			dependencies: [
 				"0000000000001E00"
 				"0000000000001DFE"
 				"0000000000001E04"
 			]
-			size: 1.5d
 			id: "0000000000001E02"
-			tasks: [{
-				id: "0000000000001E03"
-				type: "item"
-				item: "psi:cad_assembly_psimetal"
-			}]
 			rewards: [{
 				id: "0000000000001E14"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001E03"
+				item: "psi:cad_assembly_psimetal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 		{
-			x: 3.0d
-			y: 4.5d
 			dependencies: ["0000000000001DFE"]
-			size: 1.5d
 			id: "0000000000001E04"
-			tasks: [{
-				id: "0000000000001E05"
-				type: "item"
-				item: "psi:psimetal"
-			}]
 			rewards: [{
 				id: "0000000000001E15"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001E05"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			x: 0.0d
-			y: 1.5d
 			dependencies: ["0000000000001E02"]
-			size: 1.5d
 			id: "0000000000001E06"
-			tasks: [{
-				id: "0000000000001E07"
-				type: "item"
-				item: "psi:psigem"
-			}]
 			rewards: [{
 				id: "0000000000001E16"
+				item: "lootbundles:loot_bundle"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001E07"
+				item: "psi:psigem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			x: 0.0d
-			y: 0.0d
 			dependencies: ["0000000000001DF4"]
-			size: 1.5d
 			id: "0000000000001E0A"
+			rewards: [{
+				id: "0000000000001E0D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "0000000000001E0B"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "psi:encyclopaedia_psionica"
 					}
 				}
-			}]
-			rewards: [{
-				id: "0000000000001E0D"
 				type: "item"
-				item: "lootbagmod:lootbag"
 			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 1.5d
-			y: 3.0d
-			shape: "circle"
 			dependencies: ["0000000000001E02"]
-			size: 1.5d
 			id: "0000000000001E17"
+			rewards: [{
+				id: "0000000000001E1A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0000000000001E18"
-					type: "item"
 					item: "psi:ebony_psimetal"
+					type: "item"
 				}
 				{
 					id: "0000000000001E19"
-					type: "item"
 					item: "psi:ivory_psimetal"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000001E1A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
-			shape: "circle"
 			dependencies: [
 				"0000000000001E06"
 				"0000000000001E04"
 			]
-			size: 1.5d
 			id: "0000000000001E1C"
+			rewards: [{
+				id: "0000000000001E2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0000000000001E1D"
-					type: "item"
 					item: "psi:cad_socket_transmissive"
+					type: "item"
 				}
 				{
 					id: "0000000000001E20"
-					type: "item"
 					item: "psi:cad_socket_huge"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000001E2D"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: 6.0d
-			y: 4.5d
-			shape: "circle"
 			dependencies: ["0000000000001E04"]
-			size: 1.5d
 			id: "0000000000001E21"
+			rewards: [{
+				id: "0000000000001E2A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0000000000001E22"
-					type: "item"
 					item: "psi:cad_core_hyperclocked"
+					type: "item"
 				}
 				{
 					id: "0000000000001E23"
-					type: "item"
 					item: "psi:cad_core_radiative"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000001E2A"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: 6.0d
+			y: 4.5d
 		}
 		{
-			x: -3.0d
-			y: 1.5d
-			shape: "circle"
 			dependencies: ["0000000000001E06"]
-			size: 1.5d
 			id: "0000000000001E24"
+			rewards: [{
+				id: "0000000000001E2B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0000000000001E25"
-					type: "item"
 					item: {
-						id: "psi:psimetal_exosuit_helmet"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"agricraft:gene_inspector": {
 								agri_flag: 0b
 							}
 						}
+						id: "psi:psimetal_exosuit_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
 				{
 					id: "0000000000001E26"
-					type: "item"
 					item: {
-						id: "psi:psimetal_exosuit_chestplate"
 						Count: 1b
+						id: "psi:psimetal_exosuit_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0000000000001E27"
-					type: "item"
 					item: {
-						id: "psi:psimetal_exosuit_leggings"
 						Count: 1b
+						id: "psi:psimetal_exosuit_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0000000000001E28"
-					type: "item"
 					item: {
-						id: "psi:psimetal_exosuit_boots"
 						Count: 1b
+						id: "psi:psimetal_exosuit_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "0000000000001E2B"
-				type: "item"
-				item: "lootbagmod:lootbag"
-			}]
+			x: -3.0d
+			y: 1.5d
 		}
 	]
+	title: "&dPSI"
 }

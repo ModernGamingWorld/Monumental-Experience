@@ -1,920 +1,921 @@
 {
-	id: "50B320AF33BC346F"
-	group: "4814F40AB34427B6"
-	order_index: 9
-	filename: "occultism"
-	title: "&dOccultism"
-	icon: "occultism:dictionary_of_spirits"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "4814F40AB34427B6"
+	icon: "occultism:dictionary_of_spirits"
+	id: "50B320AF33BC346F"
+	order_index: 9
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			shape: "gear"
-			size: 1.5d
 			id: "444BD809DE0649EF"
-			tasks: [{
-				id: "77DC0D91908387EC"
-				type: "item"
-				item: "occultism:dictionary_of_spirits"
-			}]
 			rewards: [
 				{
 					id: "2D407E2EED2C0099"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "67B19A2E4F537EFF"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "77DC0D91908387EC"
+				item: "occultism:dictionary_of_spirits"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["444BD809DE0649EF"]
-			size: 1.5d
 			id: "5A24F6BDCE5C7812"
-			tasks: [{
-				id: "221AF8DF66E559F3"
-				type: "item"
-				item: "occultism:datura"
-				only_from_crafting: false
-			}]
 			rewards: [
 				{
 					id: "4CAD2E8EE8EB037B"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "2F64A2506F11D8BA"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "221AF8DF66E559F3"
+				item: "occultism:datura"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			title: "SprintFire"
-			x: 4.5d
-			y: -5.0d
 			dependencies: [
 				"27875826DF93B15D"
 				"5A24F6BDCE5C7812"
 			]
-			size: 1.5d
 			id: "21BAB068C6A15E87"
-			tasks: [{
-				id: "4A5C76B7A8B8FCC4"
-				type: "checkmark"
-				title: "Spirit Fire"
-			}]
 			rewards: [
 				{
 					id: "486D460649B99410"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "441908545830DDAA"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			size: 1.5d
+			tasks: [{
+				id: "4A5C76B7A8B8FCC4"
+				title: "Spirit Fire"
+				type: "checkmark"
+			}]
+			title: "SprintFire"
+			x: 4.5d
+			y: -5.0d
 		}
 		{
-			x: 2.5d
-			y: -5.0d
-			shape: "circle"
 			dependencies: ["21BAB068C6A15E87"]
-			size: 1.5d
 			id: "50085FE1C68B9514"
-			tasks: [{
-				id: "268D16EFD0C2DC43"
-				type: "item"
-				item: "occultism:purified_ink"
-			}]
 			rewards: [
 				{
 					id: "5B8A4ED4136AAE80"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "12A3C4E6CB5705A0"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 4.5d
-			y: -7.0d
 			shape: "circle"
 			size: 1.5d
-			id: "27875826DF93B15D"
 			tasks: [{
-				id: "6C85C3A14A6350F1"
+				id: "268D16EFD0C2DC43"
+				item: "occultism:purified_ink"
 				type: "item"
-				item: "occultism:spirit_attuned_crystal"
 			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "27875826DF93B15D"
 			rewards: [
 				{
 					id: "7D7918C4FD4F0F83"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "21875B6FCBEE53A4"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6C85C3A14A6350F1"
+				item: "occultism:spirit_attuned_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
 		}
 		{
-			x: 6.5d
-			y: -5.0d
-			shape: "circle"
 			dependencies: ["21BAB068C6A15E87"]
-			size: 1.5d
 			id: "54B6EA522AA41B3B"
-			tasks: [{
-				id: "444C507CADAE1BC0"
-				type: "item"
-				item: {
-					id: "occultism:divination_rod"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "67E97020B66018BD"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "5CA181D602B777FA"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "444C507CADAE1BC0"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
 		}
 		{
-			x: 6.0d
-			y: 0.0d
-			shape: "circle"
 			dependencies: ["21BAB068C6A15E87"]
-			size: 1.5d
 			id: "2B3B6C6DFD3D8047"
-			tasks: [{
-				id: "208E379DBB679B45"
-				type: "item"
-				item: "occultism:chalk_white_impure"
-			}]
 			rewards: [
 				{
 					id: "081AF1F38CA746B1"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "493C6BFF76DAF4EB"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "208E379DBB679B45"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			x: 9.0d
-			y: 0.0d
 			dependencies: ["2B3B6C6DFD3D8047"]
-			size: 1.5d
 			id: "1F47062C6C72F322"
-			tasks: [{
-				id: "364A551B24B849A3"
-				type: "item"
-				item: {
-					id: "occultism:chalk_white"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "415B1BA28D177C57"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "4BE06BC20658CE43"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 9.0d
-			y: -5.25d
-			shape: "circle"
-			dependencies: ["1F47062C6C72F322"]
 			size: 1.5d
-			id: "4DD2DFC26BB48436"
 			tasks: [{
-				id: "4CE8A45B109D443E"
-				type: "item"
-				item: "occultism:brush"
-			}]
-			rewards: [
-				{
-					id: "69C62AE05A558AD4"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "51A4B71F43DD0F0F"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 12.0d
-			y: 0.0d
-			shape: "circle"
-			dependencies: ["1F47062C6C72F322"]
-			size: 1.5d
-			id: "11B3542738141F5B"
-			tasks: [{
-				id: "2A0C707983902D12"
-				type: "item"
-				item: "occultism:sacrificial_bowl"
-			}]
-			rewards: [
-				{
-					id: "2ACB6435716C869B"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "044234FAB567368B"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 13.5d
-			y: 0.0d
-			shape: "circle"
-			dependencies: ["11B3542738141F5B"]
-			size: 1.5d
-			id: "31271104AC29C7A4"
-			tasks: [{
-				id: "4EAD38271C6A8E82"
-				type: "item"
-				item: "occultism:golden_sacrificial_bowl"
-			}]
-			rewards: [
-				{
-					id: "2FDD9C7B0CD86A80"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "1130EDD465993312"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 12.0d
-			y: -5.25d
-			shape: "circle"
-			dependencies: ["1F47062C6C72F322"]
-			size: 1.5d
-			id: "56DEA0B20B32846F"
-			tasks: [{
-				id: "1363E707BE33D0E0"
-				type: "item"
-				item: "occultism:candle_white"
-			}]
-			rewards: [
-				{
-					id: "4291757268DFBAD8"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "5EC50EF6A6D1BD8F"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 9.0d
-			y: 5.25d
-			shape: "circle"
-			dependencies: ["1F47062C6C72F322"]
-			size: 1.5d
-			id: "305E7B8DCFBBD2E7"
-			tasks: [{
-				id: "6990AAF34957D97C"
-				type: "item"
+				id: "364A551B24B849A3"
 				item: {
-					id: "occultism:chalk_gold"
 					Count: 1b
+					id: "occultism:chalk_white"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "4DD2DFC26BB48436"
+			rewards: [
+				{
+					id: "69C62AE05A558AD4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "51A4B71F43DD0F0F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4CE8A45B109D443E"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "11B3542738141F5B"
+			rewards: [
+				{
+					id: "2ACB6435716C869B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "044234FAB567368B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2A0C707983902D12"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B3542738141F5B"]
+			id: "31271104AC29C7A4"
+			rewards: [
+				{
+					id: "2FDD9C7B0CD86A80"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1130EDD465993312"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4EAD38271C6A8E82"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "56DEA0B20B32846F"
+			rewards: [
+				{
+					id: "4291757268DFBAD8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5EC50EF6A6D1BD8F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1363E707BE33D0E0"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "305E7B8DCFBBD2E7"
 			rewards: [
 				{
 					id: "1225DBEEB447E1E6"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "430C38E576C53D93"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6990AAF34957D97C"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.25d
 		}
 		{
-			x: 6.0d
-			y: 5.25d
-			shape: "circle"
 			dependencies: ["305E7B8DCFBBD2E7"]
-			size: 1.5d
 			id: "3F52B20820415653"
-			tasks: [{
-				id: "5BC88F312090F246"
-				type: "item"
-				item: "occultism:storage_controller"
-			}]
 			rewards: [
 				{
 					id: "5BF5CCF16FE244E5"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "7DB350291CA2D781"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5BC88F312090F246"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.25d
 		}
 		{
-			x: 6.0d
-			y: 7.5d
-			shape: "circle"
 			dependencies: ["3F52B20820415653"]
-			size: 1.5d
 			id: "71561BC90B1AE12C"
-			tasks: [{
-				id: "580E48A313F59A32"
-				type: "item"
-				item: "occultism:storage_stabilizer_tier1"
-			}]
 			rewards: [
 				{
 					id: "7A85DBF40B1D445A"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "74897251E0B98D81"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "580E48A313F59A32"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
 		}
 		{
-			x: 6.0d
-			y: 9.0d
-			shape: "circle"
 			dependencies: ["71561BC90B1AE12C"]
-			size: 1.5d
 			id: "6F1158E925D2DECA"
-			tasks: [{
-				id: "3E2F98FD4D747CF4"
-				type: "item"
-				item: "occultism:storage_stabilizer_tier2"
-			}]
 			rewards: [
 				{
 					id: "577D3F18C1687929"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "50C4BCB518E44782"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3E2F98FD4D747CF4"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
 		}
 		{
-			x: 9.0d
-			y: 10.5d
-			shape: "circle"
 			dependencies: [
 				"595F63AB5814AEC9"
 				"28CF0AB2B92E9857"
 			]
-			size: 1.5d
 			id: "0D0FAB60B2DD6245"
-			tasks: [{
-				id: "26FB812C87CA72A1"
-				type: "item"
-				item: "occultism:storage_stabilizer_tier4"
-			}]
 			rewards: [
 				{
 					id: "239EC970EA6F2E23"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "0164C3C065D6E625"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "26FB812C87CA72A1"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
 		}
 		{
-			x: 6.0d
-			y: 10.5d
-			shape: "circle"
 			dependencies: ["6F1158E925D2DECA"]
-			size: 1.5d
 			id: "595F63AB5814AEC9"
-			tasks: [{
-				id: "7605364F46252AFB"
-				type: "item"
-				item: "occultism:storage_stabilizer_tier3"
-			}]
 			rewards: [
 				{
 					id: "27C91715CDFF37DC"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "0C9F9E7E22A5B231"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7605364F46252AFB"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
 		}
 		{
-			x: 12.0d
-			y: 5.25d
-			shape: "circle"
 			dependencies: ["305E7B8DCFBBD2E7"]
-			size: 1.5d
 			id: "644DC41060CCB1C6"
-			tasks: [{
-				id: "5D52C451C2CE5D75"
-				type: "item"
-				item: {
-					id: "occultism:chalk_purple"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "5624D5809578EF77"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "1642620E777F3682"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 12.0d
-			y: 7.5d
 			shape: "circle"
-			dependencies: ["644DC41060CCB1C6"]
 			size: 1.5d
-			id: "0AB07C1EB6DDABB2"
-			tasks: [
-				{
-					id: "792A303E32B1B6CF"
-					type: "item"
-					item: "occultism:book_of_binding_afrit"
-				}
-				{
-					id: "5CE014363E46166B"
-					type: "item"
-					item: "occultism:afrit_essence"
-				}
-			]
-			rewards: [
-				{
-					id: "717293A4AAF8F9B5"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "1195ED0E6FA592A4"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
-		}
-		{
-			x: 12.0d
-			y: 10.5d
-			shape: "circle"
-			dependencies: ["0AB07C1EB6DDABB2"]
-			size: 1.5d
-			id: "28CF0AB2B92E9857"
 			tasks: [{
-				id: "746D7E4D06E684E1"
-				type: "item"
+				id: "5D52C451C2CE5D75"
 				item: {
-					id: "occultism:chalk_red"
 					Count: 1b
+					id: "occultism:chalk_purple"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["644DC41060CCB1C6"]
+			id: "0AB07C1EB6DDABB2"
+			rewards: [
+				{
+					id: "717293A4AAF8F9B5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1195ED0E6FA592A4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "792A303E32B1B6CF"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+				{
+					id: "5CE014363E46166B"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0AB07C1EB6DDABB2"]
+			id: "28CF0AB2B92E9857"
 			rewards: [
 				{
 					id: "11CC405A104DAD63"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "52118FFD646498B0"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "746D7E4D06E684E1"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
 		}
 		{
-			x: 15.0d
-			y: 5.25d
-			shape: "circle"
 			dependencies: ["644DC41060CCB1C6"]
-			size: 1.5d
 			id: "5E07E11AF8655869"
-			tasks: [{
-				id: "1EE31D354EE759CA"
-				type: "item"
-				item: "minecraft:feather"
-			}]
 			rewards: [
 				{
 					id: "641316764C16136E"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "7972F9A2B15889DB"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1EE31D354EE759CA"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.25d
 		}
 		{
-			x: 15.0d
-			y: 7.5d
-			shape: "circle"
 			dependencies: ["644DC41060CCB1C6"]
-			size: 1.5d
 			id: "45527CE18DD0DF3C"
+			rewards: [
+				{
+					id: "45AA805ACD192ED1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "49E8E981B0A2D5A3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "5B16099FE4837322"
-				type: "item"
 				item: {
-					id: "occultism:infused_pickaxe"
 					Count: 1b
+					id: "occultism:infused_pickaxe"
 					tag: {
 						Damage: 0
 						spiritName: "Azakslamarmur"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "45AA805ACD192ED1"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "49E8E981B0A2D5A3"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 15.0d
+			y: 7.5d
 		}
 		{
-			x: 15.0d
-			y: 10.5d
-			shape: "circle"
 			dependencies: ["45527CE18DD0DF3C"]
-			size: 1.5d
 			id: "64CF13469BED83A1"
-			tasks: [{
-				id: "592CEE8B970BA575"
-				type: "item"
-				item: "occultism:iesnium_ore"
-			}]
 			rewards: [
 				{
 					id: "645DA3C093EA9BF3"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "2D58EF830CB42675"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "592CEE8B970BA575"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
 		}
 		{
-			x: 17.25d
-			y: 10.5d
-			shape: "circle"
 			dependencies: ["64CF13469BED83A1"]
-			size: 1.5d
 			id: "060751F858637DCB"
-			tasks: [{
-				id: "3372C7B7D676DD6E"
-				type: "item"
-				item: "occultism:dimensional_mineshaft"
-			}]
 			rewards: [
 				{
 					id: "15363897427B622D"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "5C0258CCF02B2EF5"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3372C7B7D676DD6E"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			x: 17.25d
+			y: 10.5d
 		}
 		{
-			x: 17.25d
-			y: 12.0d
-			shape: "circle"
 			dependencies: ["060751F858637DCB"]
-			size: 1.5d
 			id: "3B316C9E45843F13"
+			rewards: [
+				{
+					id: "461E39CEE48C4B5F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "61E9B5B5D82226AE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "345D07D9F7DF0772"
-				type: "item"
 				item: {
-					id: "occultism:miner_foliot_unspecialized"
 					Count: 1b
+					id: "occultism:miner_foliot_unspecialized"
 					tag: {
 						Damage: 0
 						spiritName: "Cacresmur"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "461E39CEE48C4B5F"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "61E9B5B5D82226AE"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 17.25d
+			y: 12.0d
 		}
 		{
-			x: 17.25d
-			y: 13.5d
-			shape: "circle"
 			dependencies: ["3B316C9E45843F13"]
-			size: 1.5d
 			id: "73757DA86183D592"
+			rewards: [
+				{
+					id: "653DA604F7F7AF25"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "18D63257475DC92A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "1F3B91ED1F33323B"
-				type: "item"
 				item: {
-					id: "occultism:miner_djinni_ores"
 					Count: 1b
+					id: "occultism:miner_djinni_ores"
 					tag: {
 						Damage: 0
 						spiritName: "Azakmeeed"
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "653DA604F7F7AF25"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "18D63257475DC92A"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 17.25d
+			y: 13.5d
 		}
 		{
-			x: 12.0d
-			y: 12.75d
-			shape: "circle"
 			dependencies: ["64CF13469BED83A1"]
-			size: 1.5d
 			id: "4715F05728D3A0BF"
+			rewards: [
+				{
+					id: "5C10EE4EADF11F2F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2389FCF5065315C1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "01563B6AD178052B"
-				type: "item"
 				item: {
-					id: "occultism:iesnium_pickaxe"
 					Count: 1b
+					id: "occultism:iesnium_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5C10EE4EADF11F2F"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "2389FCF5065315C1"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 12.0d
+			y: 12.75d
 		}
 		{
-			x: 6.0d
-			y: 2.25d
-			shape: "circle"
 			dependencies: ["305E7B8DCFBBD2E7"]
-			size: 1.5d
 			id: "78B003C135E83E32"
+			rewards: [{
+				id: "5BFC696C67083208"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "6533A57994D6A87F"
-				type: "item"
 				item: {
-					id: "occultism:satchel"
 					Count: 1b
+					id: "occultism:satchel"
 					tag: {
 						spiritName: "Azururakark"
 					}
 				}
-			}]
-			rewards: [{
-				id: "5BFC696C67083208"
 				type: "item"
-				item: "lootbundles:loot_bundle"
 			}]
+			x: 6.0d
+			y: 2.25d
 		}
 		{
-			x: 12.0d
-			y: 2.25d
-			shape: "circle"
 			dependencies: ["305E7B8DCFBBD2E7"]
-			size: 1.5d
 			id: "17099709BD3EA55E"
-			tasks: [{
-				id: "4FF9FC3DAA8441BF"
-				type: "item"
-				item: {
-					id: "occultism:soul_gem"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "77926818A9DB098E"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "1F098E3B403D26ED"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4FF9FC3DAA8441BF"
+				item: {
+					Count: 1b
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.25d
 		}
 		{
-			x: 9.0d
-			y: 2.25d
-			shape: "circle"
 			dependencies: ["305E7B8DCFBBD2E7"]
-			size: 1.5d
 			id: "5881F7BE5201E029"
+			rewards: [
+				{
+					id: "437A0E112DDE4ECC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "33251ED1FD064DFD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "2FDD2971BFB257DE"
-				type: "item"
 				item: {
-					id: "occultism:otherworld_goggles"
 					Count: 1b
+					id: "occultism:otherworld_goggles"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "437A0E112DDE4ECC"
-					type: "item"
-					item: "lootbagmod:lootbag"
-				}
-				{
-					id: "33251ED1FD064DFD"
-					type: "item"
-					item: "lootbundles:loot_bundle"
-				}
-			]
+			x: 9.0d
+			y: 2.25d
 		}
 		{
-			x: 4.0d
-			y: 4.0d
-			shape: "circle"
 			dependencies: ["3F52B20820415653"]
-			size: 1.5d
 			id: "00A94D7F0604C742"
-			tasks: [{
-				id: "04785438820A7D4C"
-				type: "item"
-				item: {
-					id: "occultism:storage_remote"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "6274F7AA43D4D505"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "74E20B4A6675FCB1"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 3.75d
-			y: 7.5d
 			shape: "circle"
-			dependencies: ["3F52B20820415653"]
 			size: 1.5d
-			id: "5C2DB615F2090F5E"
 			tasks: [{
-				id: "57E882743B3B4A35"
-				type: "item"
+				id: "04785438820A7D4C"
 				item: {
-					id: "occultism:stable_wormhole"
 					Count: 1b
+					id: "occultism:storage_remote"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F52B20820415653"]
+			id: "5C2DB615F2090F5E"
 			rewards: [
 				{
 					id: "5B9322FDA991298B"
+					item: "lootbundles:loot_bundle"
 					type: "item"
-					item: "lootbagmod:lootbag"
 				}
 				{
 					id: "238E99DE34CD15C5"
-					type: "item"
 					item: "lootbundles:loot_bundle"
+					type: "item"
 				}
 			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "57E882743B3B4A35"
+				item: {
+					Count: 1b
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 7.5d
 		}
 	]
+	title: "&dOccultism"
 }

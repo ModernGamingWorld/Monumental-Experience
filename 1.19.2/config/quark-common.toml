@@ -38,6 +38,10 @@
 	"Enable Onboarding" = true
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
+	#Set to false to disable Quark's item info when viweing recipe/uses for an item in JEI
+	"Enable Jei Item Info" = true
+	#For JEI info purposes, add any items here to specifically disable their JEI info from Quark. Note that Quark already only shows info that's relevant to which features are enabled
+	"Suppressed Info" = []
 
 [categories]
 	Automation = true
@@ -93,6 +97,12 @@
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire", "bloodmagic:altar", "bloodmagic:alchemytable", "bloodmagic:demoncrucible", "bloodmagic:demoncrystallizer", "bloodmagic:alchemytable", "bloodmagic:soulforge", "bloodmagic:alchemicalreactionchamber", "bloodmagic:incensealtar", "eidolon:soul_enchanter", "eidolon:worktable", "occultism:sacrificial_bowl"]
+		#Set to false to refrain from registering any behaviors for blocks that have optional dispense behaviors already set.
+		#An optional behavior is one that will defer to the generic dispense item behavior if its condition fails.
+		#e.g. the Shulker Box behavior is optional, because it'll throw out the item if it fails, whereas TNT is not optional.
+		#If true, it'll attempt to use the previous behavior before trying to place the block in the world.
+		#Requires a game restart to re-apply.
+		"Wrap Existing Behaviors" = true
 
 [building]
 	"Wooden Posts" = true
@@ -525,6 +535,7 @@
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Slimes To Magma Cubes" = true
+	"Diamond Repair" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -649,6 +660,8 @@
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
 		"Harvest Level" = 2
+		"Display Fortune In Tooltip" = true
+		"Italic Tooltip" = true
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -696,6 +709,14 @@
 		"Ignore Anti Overlap" = false
 		"Enable Doors" = true
 		"Enable Fence Gates" = true
+
+	[tweaks.diamond_repair]
+		#List of changes to apply to repair items, format is "<item>=<repair_item>" as seen in the defualt.
+		#Multiple repair items can be applied for the same base item, and as long as at least one is provided, any vanilla option will be removed.
+		#To use multiple items, comma separate them (e.g. "minecraft:diamond_sword=minecraft:diamond,minecraft:emerald")If you want the vanilla option back, you must add it again manually.
+		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
+		"Unrepairable Items" = []
+		"Enable Jei Hints" = true
 
 [world]
 	"Spiral Spires" = true
@@ -1508,7 +1529,8 @@
 		"Show Saturation" = true
 		"Food Compression Threshold" = 4
 		"Fuel Time Divisor" = 200
-		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
+		#The value of each shank of food.
+		#Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
 		#A list of additional stacks to display on each enchantment
@@ -1517,6 +1539,11 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		#Should item attributes be colored relative to your current equipped item?
+		#e.g. if wearing an Iron Helmet, the armor value in a Diamond Helmet will show as green, and vice versa would be red.
+		#If set to false, item attributes will show in white or red if they're negative values.
+		"Show Upgrade Status" = true
+		"Animate Up Down Arrows" = true
 
 	[client.greener_grass]
 		"Affect Leaves" = true
@@ -1587,6 +1614,9 @@
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
+		#Force Elytra to only work in specific dimensions
+		"Enable Dimension Locked Elytra" = true
+		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
