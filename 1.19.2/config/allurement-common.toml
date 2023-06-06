@@ -49,6 +49,16 @@
 		#Crossbow enchantment that applies the user's active effects to their arrows
 		"Enable Spread of Ailments" = true
 
+[curses]
+
+	[curses.ascension_curse]
+		#Curse that causes the cursed item to float upwards when dropped
+		"Enable Curse of Ascension" = true
+
+	[curses.fleeting_curse]
+		#Curse that causes nearby entities to repel the cursed item
+		"Enable Curse of Fleeting" = true
+
 [tweaks]
 
 	[tweaks.horse_armor]
@@ -92,14 +102,4 @@
 		#The amount of experience per level, if level scaling is removed (experimental)
 		#Range: > 0
 		"Experience per level" = 50
-
-[curses]
-
-	[curses.ascension_curse]
-		#Curse that causes the cursed item to float upwards when dropped
-		"Enable Curse of Ascension" = true
-
-	[curses.fleeting_curse]
-		#Curse that causes nearby entities to repel the cursed item
-		"Enable Curse of Fleeting" = true
 
