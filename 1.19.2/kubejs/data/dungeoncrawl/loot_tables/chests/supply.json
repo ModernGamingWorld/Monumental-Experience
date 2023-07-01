@@ -1,0 +1,536 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_item",
+              "loot_level": 0
+            }
+          ],
+          "name": "minecraft:air"
+        }
+      ],
+      "name": "guaranteed items",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 6.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_potion",
+              "loot_level": 1
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "name": "guaranteed potions",
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 24.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:torch"
+        }
+      ],
+      "name": "guaranteed torches",
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:nature_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:nature_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:nature_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_slice",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_beef",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_porkchop",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_chicken",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_rabbit",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_mutton",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:coal_essence",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:iron_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:skeleton_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:zombie_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:chicken_essence",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:flint",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:spider_essence",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalagriculture:creeper_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass_bottle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:egg",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brick",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_hide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smithing_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "dungeoncrawl:material_blocks"
+            }
+          ],
+          "name": "minecraft:air",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10.0,
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
+        }
+      ],
+      "name": "supply",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 10.0,
+        "min": 8.0
+      }
+    }
+  ]
+}
