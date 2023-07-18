@@ -1,5 +1,0 @@
-#Enable arcade machine sounds
-useArcadeSounds = true
-#Enable mob sounds for arcade machines
-useArcadeMobSounds = true
-
