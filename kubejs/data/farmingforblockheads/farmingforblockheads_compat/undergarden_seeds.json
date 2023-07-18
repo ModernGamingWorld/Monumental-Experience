@@ -1,0 +1,17 @@
+{
+  "modId": "undergarden",
+  "silent": true,
+  "group": {
+    "name": "Undergarden Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "undergarden:regalium_crystal"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "undergarden:gloomgourd_seeds"
+    }
+  ]
+}

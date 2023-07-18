@@ -1,0 +1,8 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
+
+#fishofthieves:default_pondie_spawns
+- fishofthieves:charcoal (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:orchid (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:bronze (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:bright (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:moonsky (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

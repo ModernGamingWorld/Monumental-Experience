@@ -1,0 +1,17 @@
+{
+  "modId": "immersiveengineering",
+  "silent": true,
+  "group": {
+    "name": "Immersive Engineering Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "immersiveengineering:ersatz_leather"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "immersiveengineering:seed"
+    }
+  ]
+}

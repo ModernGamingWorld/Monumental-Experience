@@ -1,0 +1,17 @@
+{
+  "modId": "naturesaura",
+  "silent": true,
+  "group": {
+    "name": "Natures Aura Sapling",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "naturesaura:gold_fiber"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "naturesaura:ancient_sapling"
+    }
+  ]
+}

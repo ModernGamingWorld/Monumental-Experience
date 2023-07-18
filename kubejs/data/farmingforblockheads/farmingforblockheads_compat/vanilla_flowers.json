@@ -1,0 +1,56 @@
+{
+  "modId": "minecraft",
+  "silent": true,
+  "group": {
+    "name": "Vanilla Flowers",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:dandelion"
+    },
+    {
+      "output": "minecraft:poppy"
+    },
+    {
+      "output": "minecraft:dandelion"
+    },
+    {
+      "output": "minecraft:allium"
+    },
+    {
+      "output": "minecraft:azure_bluet"
+    },
+    {
+      "output": "minecraft:red_tulip"
+    },
+    {
+      "output": "minecraft:orange_tulip"
+    },
+    {
+      "output": "minecraft:white_tulip"
+    },
+    {
+      "output": "minecraft:pink_tulip"
+    },
+    {
+      "output": "minecraft:oxeye_daisy"
+    },
+    {
+      "output": "minecraft:cornflower"
+    },
+    {
+      "output": "minecraft:lily_of_the_valley"
+    },
+    {
+      "output": "minecraft:wither_rose"
+    },
+    {
+      "output": "minecraft:spore_blossom"
+    }
+  ]
+}

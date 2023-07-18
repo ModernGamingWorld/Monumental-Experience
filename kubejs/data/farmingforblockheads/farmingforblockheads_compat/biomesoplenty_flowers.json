@@ -1,0 +1,47 @@
+{
+  "modId": "biomesoplenty",
+  "silent": true,
+  "group": {
+    "name": "Biomes O Plenty Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": [
+    {
+      "output": "biomesoplenty:rose"
+    },
+    {
+      "output": "biomesoplenty:violet"
+    },
+    {
+      "output": "biomesoplenty:lavender"
+    },
+    {
+      "output": "biomesoplenty:wildflower"
+    },
+    {
+      "output": "biomesoplenty:orange_cosmos"
+    },
+    {
+      "output": "biomesoplenty:pink_daffodil"
+    },
+    {
+      "output": "biomesoplenty:pink_hibiscus"
+    },
+    {
+      "output": "biomesoplenty:glowflower"
+    },
+    {
+      "output": "biomesoplenty:wilted_lily"
+    },
+    {
+      "output": "biomesoplenty:blue_hydrangea"
+    },
+    {
+      "output": "biomesoplenty:goldenrod"
+    }
+  ]
+}

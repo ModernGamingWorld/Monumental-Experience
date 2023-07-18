@@ -1,0 +1,8 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
+
+#fishofthieves:default_wrecker_spawns
+- fishofthieves:rose (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:sun (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:blackcloud (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:snow (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:moon (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

@@ -1,0 +1,207 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 5, 2023, 1:06:43 PM
+
+#twilightforest:pattern_item/naga
+- twilightforest:naga (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#botania:pattern_item/dreamwood_twig
+- botania:sapling (from Botania-1.19.2-438-FORGE.jar)
+
+#alexsmobs:pattern_for_australia_1
+- alexsmobs:australia_1 (from alexsmobs-1.21.1.jar)
+
+#minecraft:pattern_item/creeper
+- minecraft:creeper (from Default)
+
+#alexsmobs:pattern_for_australia_0
+- alexsmobs:australia_0 (from alexsmobs-1.21.1.jar)
+
+#botania:pattern_item/lexicon
+- botania:lexicon (from Botania-1.19.2-438-FORGE.jar)
+
+#botania:pattern_item/spark_isolated
+- botania:spark_isolated (from Botania-1.19.2-438-FORGE.jar)
+
+#botania:pattern_item/spark_recessive
+- botania:spark_recessive (from Botania-1.19.2-438-FORGE.jar)
+
+#twilightforest:pattern_item/hydra
+- twilightforest:hydra (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#twilightforest:pattern_item/ur_ghast
+- twilightforest:ur_ghast (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#immersiveengineering:wolf_l
+- immersiveengineering:wolf_l (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#botania:pattern_item/spark_dispersive
+- botania:spark_dispersive (from Botania-1.19.2-438-FORGE.jar)
+
+#immersiveengineering:treated_wood
+- immersiveengineering:treated_wood (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#twilightforest:pattern_item/quest_ram
+- twilightforest:quest_ram (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:pattern_item/piglin
+- minecraft:piglin (from Default)
+
+#twilightforest:pattern_item/alpha_yeti
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#alexsmobs:pattern_for_brazil
+- alexsmobs:brazil (from alexsmobs-1.21.1.jar)
+
+#immersiveengineering:ornate
+- immersiveengineering:ornate (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#immersiveengineering:windmill
+- immersiveengineering:windmill (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#twilightforest:pattern_item/snow_queen
+- twilightforest:snow_queen (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#minecraft:pattern_item/globe
+- minecraft:globe (from Default)
+
+#immersiveengineering:wolf_r
+- immersiveengineering:wolf_r (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#minecraft:pattern_item/mojang
+- minecraft:mojang (from Default)
+
+#botania:pattern_item/livingwood_twig
+- botania:flower (from Botania-1.19.2-438-FORGE.jar)
+
+#minecraft:no_item_required
+- minecraft:square_bottom_left (from Default)
+- minecraft:square_bottom_right (from Default)
+- minecraft:square_top_left (from Default)
+- minecraft:square_top_right (from Default)
+- minecraft:stripe_bottom (from Default)
+- minecraft:stripe_top (from Default)
+- minecraft:stripe_left (from Default)
+- minecraft:stripe_right (from Default)
+- minecraft:stripe_center (from Default)
+- minecraft:stripe_middle (from Default)
+- minecraft:stripe_downright (from Default)
+- minecraft:stripe_downleft (from Default)
+- minecraft:small_stripes (from Default)
+- minecraft:cross (from Default)
+- minecraft:straight_cross (from Default)
+- minecraft:triangle_bottom (from Default)
+- minecraft:triangle_top (from Default)
+- minecraft:triangles_bottom (from Default)
+- minecraft:triangles_top (from Default)
+- minecraft:diagonal_left (from Default)
+- minecraft:diagonal_up_right (from Default)
+- minecraft:diagonal_up_left (from Default)
+- minecraft:diagonal_right (from Default)
+- minecraft:circle (from Default)
+- minecraft:rhombus (from Default)
+- minecraft:half_vertical (from Default)
+- minecraft:half_horizontal (from Default)
+- minecraft:half_vertical_right (from Default)
+- minecraft:half_horizontal_bottom (from Default)
+- minecraft:border (from Default)
+- minecraft:curly_border (from Default)
+- minecraft:gradient (from Default)
+- minecraft:gradient_up (from Default)
+- minecraft:bricks (from Default)
+- botania:fish (from Botania-1.19.2-438-FORGE.jar)
+- botania:axe (from Botania-1.19.2-438-FORGE.jar)
+- botania:hoe (from Botania-1.19.2-438-FORGE.jar)
+- botania:pickaxe (from Botania-1.19.2-438-FORGE.jar)
+- botania:shovel (from Botania-1.19.2-438-FORGE.jar)
+- botania:sword (from Botania-1.19.2-438-FORGE.jar)
+
+#runelic:pattern_item/runelic
+- runelic:runelic_a (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_b (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_c (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_d (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_e (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_f (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_g (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_h (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_i (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_j (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_k (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_l (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_m (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_n (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_o (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_p (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_q (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_r (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_s (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_t (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_u (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_v (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_w (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_x (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_y (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_z (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_0 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_1 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_2 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_3 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_4 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_5 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_6 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_7 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_8 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_9 (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_slash (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_period (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_dash (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_comma (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_plus (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_asterisk (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_right_bracket (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_left_bracket (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_apostrophe (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_and (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_percent (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_dollar (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_hashtag (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_quote (from Runelic-Forge-1.19.2-14.1.4.jar)
+- runelic:runelic_exclamation (from Runelic-Forge-1.19.2-14.1.4.jar)
+
+#alexsmobs:pattern_for_bear
+- alexsmobs:bear (from alexsmobs-1.21.1.jar)
+
+#twilightforest:pattern_item/knight_phantom
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#botania:pattern_item/spark_dominant
+- botania:spark_dominant (from Botania-1.19.2-438-FORGE.jar)
+
+#minecraft:pattern_item/skull
+- minecraft:skull (from Default)
+
+#twilightforest:pattern_item/lich
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#immersiveengineering:wolf
+- immersiveengineering:wolf (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#botania:pattern_item/terrasteel
+- botania:logo (from Botania-1.19.2-438-FORGE.jar)
+
+#minecraft:pattern_item/flower
+- minecraft:flower (from Default)
+
+#twilightforest:pattern_item/minoshroom
+- twilightforest:minoshroom (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#immersiveengineering:hammer
+- immersiveengineering:hammer (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#immersiveengineering:bevels
+- immersiveengineering:bevels (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#botania:pattern_item/tiny_potato
+- botania:tiny_potato (from Botania-1.19.2-438-FORGE.jar)
+
+#alexsmobs:pattern_for_new_mexico
+- alexsmobs:new_mexico (from alexsmobs-1.21.1.jar)

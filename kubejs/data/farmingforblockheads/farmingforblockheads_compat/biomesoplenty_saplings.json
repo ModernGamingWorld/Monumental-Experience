@@ -1,0 +1,65 @@
+{
+  "modId": "biomesoplenty",
+  "silent": true,
+  "group": {
+    "name": "Biomes O Plenty Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "biomesoplenty:origin_sapling"
+    },
+    {
+      "output": "biomesoplenty:flowering_oak_sapling"
+    },
+    {
+      "output": "biomesoplenty:yellow_autumn_sapling"
+    },
+    {
+      "output": "biomesoplenty:orange_autumn_sapling"
+    },
+    {
+      "output": "biomesoplenty:maple_sapling"
+    },
+    {
+      "output": "biomesoplenty:fir_sapling"
+    },
+    {
+      "output": "biomesoplenty:redwood_sapling"
+    },
+    {
+      "output": "biomesoplenty:white_cherry_sapling"
+    },
+    {
+      "output": "biomesoplenty:pink_cherry_sapling"
+    },
+    {
+      "output": "biomesoplenty:mahogany_sapling"
+    },
+    {
+      "output": "biomesoplenty:jacaranda_sapling"
+    },
+    {
+      "output": "biomesoplenty:palm_sapling"
+    },
+    {
+      "output": "biomesoplenty:willow_sapling"
+    },
+    {
+      "output": "biomesoplenty:dead_sapling"
+    },
+    {
+      "output": "biomesoplenty:magic_sapling"
+    },
+    {
+      "output": "biomesoplenty:umbran_sapling"
+    },
+    {
+      "output": "biomesoplenty:hellbark_sapling"
+    }
+  ]
+}

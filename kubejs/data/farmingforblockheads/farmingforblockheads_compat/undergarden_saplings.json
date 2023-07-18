@@ -1,0 +1,23 @@
+{
+  "modId": "undergarden",
+  "silent": true,
+  "group": {
+    "name": "Undergarden Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "undergarden:regalium_crystal"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "undergarden:wigglewood_sapling"
+    },
+    {
+      "output": "undergarden:smogstem_sapling"
+    },
+    {
+      "output": "undergarden:grongle_sapling"
+    }
+  ]
+}

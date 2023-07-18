@@ -1,0 +1,8 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
+
+#fishofthieves:default_wildsplash_spawns
+- fishofthieves:russet (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:sandy (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:ocean (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:muddy (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:coral (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

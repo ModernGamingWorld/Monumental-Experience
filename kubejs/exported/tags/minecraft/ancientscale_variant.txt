@@ -1,0 +1,8 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
+
+#fishofthieves:default_ancientscale_spawns
+- fishofthieves:almond (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:sapphire (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:smoke (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:bone (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
+- fishofthieves:starshine (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

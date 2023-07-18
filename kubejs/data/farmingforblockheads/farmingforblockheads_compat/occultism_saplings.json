@@ -1,0 +1,17 @@
+{
+  "modId": "occultism",
+  "silent": true,
+  "group": {
+    "name": "Occultism Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "occultism:spirit_attuned_gem"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "occultism:otherworld_sapling_natural"
+    }
+  ]
+}
