@@ -1,0 +1,40 @@
+
+[general_fog]
+	DEFAULT_OPACITY = 80
+	DEFAULT_START_FOG = 0
+	END_FOG_MULTIPLYER = 1.15
+	START_FOG_MULTIPLYER = 0.066
+
+[cave_fog]
+	enabled = true
+	y_start = 100
+	y_end = -36
+	min_opacity = 110
+	min_start_fog = 0
+	min_end_fog = 100
+
+[biome_fog]
+	enabled = true
+	check_radius = 35
+	vertical_factor = 0.25
+	checks_for_side = 10
+	colors_list = ["minecraft:desert;C2B280;1.2;0.75;1", "minecraft:beach;C2B280;1.2;0.75;1", "minecraft:badlands;FF9100;1.2;0.75;1", "minecraft:mesa;FF9100;1.2;0.75;1", "minecraft:savana;FFDD2C;1;0.85;1", "minecraft:forest;E2FFFF;1.1;0.95;0.9", "minecraft:mushroom_island;EAA2FF;0.6;0.5;1", "minecraft:mountain;94CAFF;1.5;0.5;1.5", "minecraft:ice_spikes;39AAFF;1.5;0.7;0.85", "minecraft:frozen_ocean;39AAFF;1.5;0.7;0.85", "minecraft:deep_frozen_ocean;39AAFF;1.5;0.7;0.85", "minecraft:frozen_peaks;DBF0FF;39AAFF;1.5;0.7;0.85", "minecraft:swamp;005F0A;1.2;0.75;1", "minecraft:the_nether;B50000;1.3;0.75;1", "minecraft:the_end;660066;1;0.75;1"]
+
+[cloud_fog]
+	Y_START = 100
+	Y_END = 275
+	max_fog_start = 0
+	max_fog_end = 80
+	max_opacity_factor = 3.0
+	enabled = true
+
+[rain_fog]
+	opacity_factor = 2.0
+	enabled = true
+
+[night_fog]
+	enabled = true
+	night_end_fog = 60
+	night_start_fog = 30
+	night_opacity = 1.5
+

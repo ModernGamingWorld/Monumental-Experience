@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dars_nouveau"
+	group: "4814F40AB34427B6"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "ars_nouveau:source_gem"
+	}
+	id: "081CCF5281E72EEC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "337CC2A7B9390596"
+			size: 1.5d
+			tasks: [{
+				id: "09DDFED3987719F9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:novice_spell_book"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["337CC2A7B9390596"]
+			id: "71FF7AF5F076979D"
+			rewards: [{
+				id: "516876107263B0E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4DD080D74AD28CC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:enchanting_apparatus"
+					}
+					type: "item"
+				}
+				{
+					id: "616F16065F588A7B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:arcane_core"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "26B2CEFF6E425E3C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:arcane_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71FF7AF5F076979D"]
+			id: "1D966DF8CCD35CBF"
+			rewards: [{
+				id: "4F84BC28791751A7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1FDB541DD32448CE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:amulet_of_mana_regen"
+					}
+					type: "item"
+				}
+				{
+					id: "6DBDA40758430EA0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:ring_of_greater_discount"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71FF7AF5F076979D"]
+			id: "7D67ED69D5AF7786"
+			rewards: [{
+				id: "6D0D1057486D788F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "21C7E5F0C18A29CC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "arsomega:arcane_bloom_crop"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D67ED69D5AF7786"]
+			id: "2B7A8AF699EB49A5"
+			rewards: [{
+				id: "3C423728A38FD31C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "65954F52A87181EC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:spell_parchment"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B7A8AF699EB49A5"]
+			id: "5606FAFF311DC384"
+			rewards: [{
+				id: "7CC60F112025572B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3BA0403F87E312C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71FF7AF5F076979D"]
+			id: "5E74BEEE04048D54"
+			rewards: [{
+				id: "0850F34D2BFC3057"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "291BB8307B40D04F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ars_nouveau:relay"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["337CC2A7B9390596"]
+			id: "3B2AAF6EA3D43321"
+			rewards: [{
+				id: "7CFA57CEE8101293"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "789E4BCD290F946E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B2AAF6EA3D43321"]
+			id: "5E0459E489CB9ED7"
+			rewards: [{
+				id: "48064A3756F13EA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3CDF6EB79C2B212F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ars_nouveau:volcanic_sourcelink"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B2AAF6EA3D43321"]
+			id: "0C6BED124083F2B9"
+			rewards: [{
+				id: "2C3CAC27337CCE3C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "36D22EA5E436D083"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ars_nouveau:scribes_table"
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C6BED124083F2B9"]
+			id: "7D9BFAF0A1556707"
+			rewards: [
+				{
+					id: "71C845AC86C9EC9E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "05C690B289796329"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "596C4648E0A9B989"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "arsomega:magic_clay"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7F5F37B15037B308"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "arsomega:marvelous_clay"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "070AD55C7FB85DE2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "arsomega:mystic_clay"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "77F61B78BCCCDC5C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "arsomega:arcane_clay"
+					}
+					type: "item"
+				}
+			]
+			x: -11.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D9BFAF0A1556707"]
+			id: "5CBA2B2C866BB535"
+			rewards: [
+				{
+					id: "39A1AEFCCFAAF82E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "134AA4FF5C791338"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2D642E922ED0C373"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_cut"
+					}
+					type: "item"
+				}
+				{
+					id: "1FB1F095C9205D40"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_phantom_block"
+					}
+					type: "item"
+				}
+				{
+					id: "64A42B74E453C841"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_launch"
+					}
+					type: "item"
+				}
+				{
+					id: "33C130B9C3F19927"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_bounce"
+					}
+					type: "item"
+				}
+				{
+					id: "48383A3137F2CFD0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_pull"
+					}
+					type: "item"
+				}
+				{
+					id: "56D760062D6EAEA1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_interact"
+					}
+					type: "item"
+				}
+				{
+					id: "6A43649F83E4DF03"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_pickup"
+					}
+					type: "item"
+				}
+				{
+					id: "11B567223A5BAAEB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_summon_steed"
+					}
+					type: "item"
+				}
+				{
+					id: "60244B4FCA6E2799"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_harvest"
+					}
+					type: "item"
+				}
+				{
+					id: "18B5B9C739A39C2B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_craft"
+					}
+					type: "item"
+				}
+				{
+					id: "241D6663626603DB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_summon_wolves"
+					}
+					type: "item"
+				}
+				{
+					id: "4C7AD656ACF4FE2E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_redstone_signal"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3B7EFDA65F2B42"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_snare"
+					}
+					type: "item"
+				}
+				{
+					id: "18527F2DB12B110C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ars_nouveau:glyph_summon_decoy"
+					}
+					type: "item"
+				}
+			]
+			x: -14.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["337CC2A7B9390596"]
+			id: "339C5F802A65F15B"
+			rewards: [{
+				id: "7390D9DA63F47669"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "52A869E6D1B8446A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "&dArs Nouveau"
+}

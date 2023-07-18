@@ -1,0 +1,4 @@
+#Enable compat for Apotheosis if it is installed. Allows for using the full range of changes Apotheosis applies to vanilla enchantments.
+#Should only really be disabled if compat breaks due to internal changes.
+apotheosis_compat = true
+

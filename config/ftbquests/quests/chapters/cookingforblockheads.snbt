@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cookingforblockheads"
+	group: "33C9D311E461F30C"
+	icon: "cookingforblockheads:cow_jar"
+	id: "00000000000006C8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "00000000000006C9"
+			rewards: [{
+				id: "124B7720FBE253A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				icon: "cookingforblockheads:oven"
+				id: "444AD3821C2DAABA"
+				title: "Welcome to Cooking for Blockheads Quest Page"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000006C9"]
+			id: "58ADC487009FDAEB"
+			rewards: [{
+				id: "4A863D0741D8B693"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "223F4F96704B4345"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000006C9"]
+			id: "08FB0E0A7862CD52"
+			rewards: [{
+				id: "4B5BA0E59C283603"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "395AEBC25B198FA5"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000006C9"]
+			id: "75442B8E5E207AB5"
+			rewards: [{
+				id: "22B73D12AAC79C6B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6B1298DCFA68BBF6"
+				item: "cookingforblockheads:no_filter_edition"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "0F0305CC163B8C44"
+			rewards: [{
+				id: "15D3117B26157747"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "606B727DE1075E36"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1817C1FC2B646739"
+					item: "cookingforblockheads:orange_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "317A7191842F5E50"
+					item: "cookingforblockheads:magenta_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C83CC11E2AA153B"
+					item: "cookingforblockheads:light_blue_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39C68774EC958554"
+					item: "cookingforblockheads:yellow_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3956D5E97E68A0BD"
+					item: "cookingforblockheads:lime_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D589C7C27D835B4"
+					item: "cookingforblockheads:pink_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4BF81DBA250732FF"
+					item: "cookingforblockheads:gray_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7973214EF18EFD22"
+					item: "cookingforblockheads:light_gray_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0AA715342E897850"
+					item: "cookingforblockheads:cyan_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6FB8B6E1CDFF9626"
+					item: "cookingforblockheads:purple_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7BCA7708C938C9D1"
+					item: "cookingforblockheads:blue_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B804F56F321F07B"
+					item: "cookingforblockheads:brown_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "78A09A088AA0B16C"
+					item: "cookingforblockheads:green_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5CE6945DBE8D127A"
+					item: "cookingforblockheads:red_kitchen_floor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C957D16E4A88983"
+					item: "cookingforblockheads:black_kitchen_floor"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "6FF0912EE7A9BD25"
+			rewards: [{
+				id: "3AC59F546DC5E664"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1ACCCF5102047B74"
+				item: "cookingforblockheads:cabinet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "3D5FD91884B94BDD"
+			rewards: [{
+				id: "3EC721DDCC5E5721"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0B637848D9562460"
+				item: "cookingforblockheads:hanging_corner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "41FD45FBE8D6E3B4"
+			rewards: [{
+				id: "26185F0EC8B85DFB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2F01BEFBA7AA8FB8"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["41FD45FBE8D6E3B4"]
+			id: "03FEE9741A585EFB"
+			rewards: [{
+				id: "37834485F89140C8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6E76834574E9935A"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "7D65B3192D68143B"
+			rewards: [{
+				id: "1BF5F13DB18B211B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "238D5494D455C59B"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["7D65B3192D68143B"]
+			id: "60F2ACFAA66E48C1"
+			rewards: [{
+				id: "64C87AB51DA192AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "63F020CB9576754C"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
+				{
+					id: "480AC4E674907717"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "514847FCAF0A48C7"
+			rewards: [{
+				id: "3828A9DF8357AEEC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0005A358C3F813CB"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "2FDCF8EC40DD9779"
+			rewards: [{
+				id: "0365040AAC12804C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6C8E3172029B9585"
+				item: "cookingforblockheads:milk_jar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2FDCF8EC40DD9779"]
+			id: "3CBD10B64D38C12A"
+			rewards: [{
+				id: "6475B61A55D8EDBE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "79CD1908E3F47E87"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "4F8C0B4899BC0292"
+			rewards: [{
+				id: "004E936FA9DB8269"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2588504CA55F7466"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "0FA89EEABB131BCB"
+			rewards: [{
+				id: "24843DF3AAAB17C6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DB2CF99C6CAF18E"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "46E81C62379C93BF"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "0104A659249EF2E4"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "3B1A050413E1375E"
+			rewards: [{
+				id: "20E8DB67C0368295"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3F4BFAD945C2445D"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "61B552A4EF81854A"
+			rewards: [{
+				id: "5F99374B94F7033B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3D0D8746BA1D3957"
+				item: "cookingforblockheads:corner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "7B7A80D3CFB6922E"
+			rewards: [{
+				id: "364FF60C6162C25A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "62C066FD844B3155"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75442B8E5E207AB5"]
+			id: "55C42164491349A9"
+			rewards: [{
+				id: "1952380900308349"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "31FF752A36579436"
+					item: "refinedcooking:kitchen_station"
+					type: "item"
+				}
+				{
+					id: "247EDA4942F724A8"
+					item: "refinedcooking:kitchen_access_point"
+					type: "item"
+				}
+				{
+					id: "19CC2A8C80D59AEB"
+					item: "refinedcooking:kitchen_network_card"
+					type: "item"
+				}
+			]
+			title: "Refined Cooking"
+			x: -7.5d
+			y: 8.25d
+		}
+		{
+			id: "5CE940EC58300A0B"
+			rewards: [{
+				id: "3778E9FD992B81CC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "19B0DA1CD5800CA0"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.25d
+		}
+	]
+	title: "&6Cooking For Blockheads"
+}

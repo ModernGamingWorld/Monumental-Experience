@@ -1,0 +1,30 @@
+
+[General]
+	#How much durability should the helmet use for every food eaten, when it is a unpowered helmet.
+	#Range: 0 ~ 64
+	durability_consumption = 1
+	#How much energy should the helmet use for every food eaten, when it is a powered helmet.
+	#Range: 0 ~ 5000
+	energy_consumption = 10
+	#Can the helmet break while feeding? If this is false, the helmet stops feeding you when durability to low. Only when the helmet isn't powered by Energy.
+	can_helmet_break = false
+	#Defines how much ticks are between food checks. 20 ticks = 1 second
+	#Range: 1 ~ 200
+	feed_ticks = 20
+	#Should the helmet wait until the food can be eaten completely, without any hunger loss by early eating?
+	hungry_enough_wait = true
+	#Should the 'hungry_enough_wait' option be ignored when the player is low on hearts? (less or equal 50%)
+	ignore_hungry_enough_wait_when_heart_low = true
+	#If enabled all eatable items, that also can be smelted are blacklisted.
+	blacklist_smeltables = false
+	#The here stated items can't be used as FeederHelmet
+	helmet_blacklist = []
+	#The here stated items can be used as Feeder Helmet, even when they aren't helmets at all (You can't put everything in you helmet slot)
+	helmet_whitelist = []
+	#All here stated items aren't consumable by the FeederHelmet
+	food_blacklist = ["minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:porkchop", "minecraft:beef", "minecraft:mutton", "minecraft:salmon", "minecraft:chicken", "minecraft:rabbit", "minecraft:potato", "minecraft:chorus_fruit", "minecraft:pufferfish", "minecraft:poisonous_potato"]
+	#All here stated items are additionally to all default items eatable. This can be very dangerous, because it is possible that the helmet doesn't eat it, but uses it!!!
+	food_whitelist = []
+	#Set this to true to ignore all eatable items and only use food listed in the whitelist.
+	food_whitelist_only = false
+

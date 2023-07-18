@@ -1,0 +1,1002 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "69B9F7247002FE35"
+	icon: "immersiveengineering:workbench"
+	id: "0000000000000A89"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000000A8A"
+			rewards: [{
+				id: "046490E7072B9997"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000A8B"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000A8A"]
+			id: "0000000000000631"
+			rewards: [{
+				id: "61711C39C61394B4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000632"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000633"
+			rewards: [{
+				id: "711C294B617561C3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 27L
+				id: "0000000000000634"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "blast furnace"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000635"
+			rewards: [{
+				id: "111DD0AB963F1522"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 27L
+				id: "0000000000000636"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "coke oven"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000633"]
+			id: "0000000000000637"
+			rewards: [{
+				id: "7CBAD02DD9049165"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 27L
+					id: "0000000000000638"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "0000000000000639"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "reinforced blast furnace"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000063A"
+			rewards: [{
+				id: "41E5E549A45843A6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 4L
+					id: "000000000000063B"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "000000000000063C"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "silo"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000063D"
+			rewards: [{
+				id: "434DF6FFD647F84D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 4L
+					id: "0000000000001418"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "000000000000063F"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "tank"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000640"
+			rewards: [{
+				id: "02446B2D778F6CDB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 9L
+					id: "0000000000000641"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0000000000000642"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000643"
+					item: "immersiveengineering:generator"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "0000000000000644"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "0000000000000645"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0000000000000646"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Diesel Generator"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000001419"
+			rewards: [{
+				id: "55D88F95C5CB0CA3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 4L
+					id: "0000000000000648"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0000000000000649"
+					item: "immersiveengineering:coil_hv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000064A"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "000000000000064B"
+					item: "immersiveengineering:coil_lv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000064C"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000064D"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+			]
+			title: "lightning rod"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000064E"
+			rewards: [{
+				id: "2E2D4098B4DFE82C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "000000000000064F"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000650"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "0000000000000651"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "0000000000000652"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000655"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "metal press"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000656"
+			rewards: [{
+				id: "37674C69D7F3AF93"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 10L
+					id: "0000000000000673"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0000000000000674"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "0000000000000675"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000676"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0000000000000677"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000678"
+			rewards: [{
+				id: "0984D4B6CB16330C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8L
+					id: "0000000000000679"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "000000000000067A"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000067B"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "000000000000067C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "000000000000067D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000067E"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "Sawmill"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000141A"
+			rewards: [{
+				id: "4F5EE2E4762FBEC4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 6L
+					id: "0000000000000680"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000681"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000682"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0000000000000683"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0000000000000684"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000685"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "assembler"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000686"
+			rewards: [{
+				id: "0E33CC57FAE87447"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 6L
+					id: "0000000000000687"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000688"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000689"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "000000000000068A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000068B"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "000000000000068C"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "fermenter"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000068D"
+			rewards: [{
+				id: "34E14A9F90E43A16"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "000000000000068E"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "000000000000068F"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "0000000000000690"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0000000000000691"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000692"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000693"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "squeezer"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000694"
+			rewards: [{
+				id: "2A1324F57A8F2917"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8L
+					id: "0000000000000695"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000696"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000697"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0000000000000698"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "0000000000000699"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "000000000000069A"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "refinery"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000069B"
+			rewards: [{
+				id: "78B3637BF5FF2152"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 5L
+					id: "000000000000069C"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000141B"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000000000000141C"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					id: "000000000000069F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "000000000000141D"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "00000000000006A1"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "mixer"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "00000000000006A2"
+			rewards: [{
+				id: "00EDF2E21BF00AE4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					id: "00000000000006A3"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "00000000000006A4"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "00000000000006AF"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000006B0"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "00000000000006B3"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000006B4"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "bottling machine"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "00000000000006B5"
+			rewards: [{
+				id: "0F88A0BD15B3EEC2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 5L
+					id: "00000000000006B6"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000006B7"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "00000000000006B8"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000006B9"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000006BA"
+					item: "immersiveengineering:slab_treated_wood_packaged"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000006BB"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "automated workbench"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "00000000000006BC"
+			rewards: [{
+				id: "32765CA24B03E1AC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8L
+					id: "00000000000006BD"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "00000000000006BE"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "00000000000006BF"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00000000000006C0"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00000000000006C1"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "00000000000006C2"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "00000000000006C3"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "00000000000006C6"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "00000000000006C7"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "00000000000006CB"
+			rewards: [{
+				id: "1B8D76F73A2C6C1A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 6L
+					id: "00000000000006CC"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "00000000000006CD"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "00000000000006CE"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "000000000000071E"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "000000000000071F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000720"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+			]
+			title: "excavator"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			id: "0000000000000959"
+			rewards: [{
+				id: "0000000000000FD2"
+				item: "lootbagmod:lootbag"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000000000095A"
+				item: "immersivepetroleum:projector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "000000000000095B"
+			rewards: [{
+				id: "751B183924DA4A0C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 11L
+					id: "000000000000095C"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "000000000000095D"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "000000000000095E"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					id: "000000000000095F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000960"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000961"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000962"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000963"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "pumpjack"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000631"]
+			id: "0000000000000964"
+			rewards: [{
+				id: "660E9E2CEB31B023"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 25L
+					id: "0000000000000965"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0000000000000966"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "0000000000000967"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "0000000000000968"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "0000000000000969"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "000000000000096A"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Distillation Tower"
+			x: -5.0d
+			y: 2.0d
+		}
+	]
+	title: "&2Immersive Engineering"
+}

@@ -1,0 +1,32 @@
+
+#General settings
+[general]
+	#Is Enabled?
+	enabled = true
+	#Cost
+	#Range: > -2147483648
+	cost = 650
+	#Is Starter Glyph?
+	starter = false
+	#The maximum number of times this glyph may appear in a single spell
+	#Range: > 1
+	per_spell_limit = 2147483647
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 4
+	#Limits the number of times a given augment may be applied to a given effect
+	#Example entry: "glyph_amplify=5"
+	augment_limits = []
+	#The max block tier that can be made, anything above this will never be made regardless of power leve (amp amount plus bonuses). Tier 0 is coal, order goes coal, copper, iron, redstone, gold, emerald, diamond, and netherite
+	#Range: 0 ~ 10
+	maxTier = 6
+	#The extra power level required for each tier, a linear value. Numbers larger than 5 or smaller than -5 can break progression, so be careful.
+	#Range: -20 ~ 20
+	extraAmpCost = 0
+	#How many levels of amplify the focus of alchemy is worth
+	#Range: 0 ~ 20
+	focusBonus = 5
+	#How many levels of amplify the advanced focus of alchemy is worth. Should be higher than the normal focus value.
+	#Range: 0 ~ 20
+	advancedFocusBonus = 10
+

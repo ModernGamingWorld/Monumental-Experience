@@ -1,0 +1,23 @@
+
+#Common changes
+[common]
+	#Lava monsters' maximum health.
+	monsterHealth = 16.0
+	#The amount of armor lava monsters have.
+	monsterArmor = 0.0
+	#The distance a lava monster will begin attacking. (maximum of 35)
+	monsterRange = 17.0
+	#Ticks a monster must wait after attacking before it can start winding up again.
+	attackCooldown = 80
+	#Number of fireballs shot with each attack.
+	attackShots = 3
+	#Ticks between each fireball shot in an attack.
+	attackSpacing = 6
+	#Ticks it takes before a monster can start an attack.
+	attackWindup = 60
+
+	#Spawning
+	[common.spawning]
+		#Allows you to choose which dimensions the Lava Monster spawns in. Add dimensions by their registry name/id, and separate them with commas, no spaces.
+		dimensionWhitelist = "minecraft:overworld,minecraft:the_nether,good_nights_sleep:nightmare"
+

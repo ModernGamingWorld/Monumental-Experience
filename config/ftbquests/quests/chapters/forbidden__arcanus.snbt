@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden__arcanus"
+	group: "4814F40AB34427B6"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": { }
+		}
+		id: "forbidden_arcanus:arcane_crystal"
+	}
+	id: "3A9B2F0E39646AEB"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000000733"
+			rewards: [{
+				id: "0000000000000FC2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000738"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0000000000000733"]
+			id: "0000000000000739"
+			rewards: [{
+				id: "0000000000000FC3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000743"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"0000000000000733"
+				"0000000000000739"
+			]
+			id: "0000000000000757"
+			rewards: [{
+				id: "0000000000000FC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000758"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000733"]
+			id: "000000000000075C"
+			rewards: [{
+				id: "0000000000000FC0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000765"
+				item: "forbidden_arcanus:edelwood_log"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.75d
+		}
+	]
+	title: "&dForbidden and Arcanus"
+}

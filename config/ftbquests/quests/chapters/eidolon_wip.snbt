@@ -1,0 +1,547 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon_wip"
+	group: "4814F40AB34427B6"
+	icon: "eidolon:unholy_symbol"
+	id: "0000000000000E7F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				""
+				""
+				""
+			]
+			id: "0000000000000E80"
+			rewards: [{
+				id: "5855578CE2117C3E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "eidolon:codex"
+				id: "0000000000000E81"
+				type: "checkmark"
+			}]
+			title: "Welcome to Eidolon!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000E85"]
+			description: [
+				""
+				""
+				""
+				""
+			]
+			icon: "eidolon:wooden_altar"
+			id: "0000000000000E83"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "0000000000000ECE"
+					item: "eidolon:candle"
+					title: "Candle"
+					type: "item"
+				}
+				{
+					id: "477C6466D66B8235"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2DD18645C347F995"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000E84"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "0000000000000E96"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+			]
+			title: "Basic Altar"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000E80"]
+			description: [
+				""
+				""
+				""
+				""
+			]
+			id: "0000000000000E85"
+			rewards: [{
+				id: "69F1C4DFE3566A62"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "This is going to be spooky..."
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+					id: "eidolon:warlock_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0000000000000E86"
+				title: "Chants"
+				type: "checkmark"
+			}]
+			title: "Signs and Chants"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000E80"]
+			description: [
+				""
+				""
+			]
+			icon: "eidolon:brazier"
+			id: "0000000000000E87"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000000EC6"
+					item: "eidolon:stone_hand"
+					title: "Stone Hand"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0000000000000EC7"
+					item: "eidolon:enchanted_ash"
+					title: "Enchanted Ash"
+					type: "item"
+				}
+				{
+					id: "788AC61CCBD509C8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "20F906EA40E8697E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000E88"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0000000000000E89"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			title: "Rituals"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E87"]
+			description: [
+				""
+				""
+			]
+			id: "0000000000000E8A"
+			rewards: [
+				{
+					id: "2223B1C38A8D38E8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5D50C8FFD11D878D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000E8B"
+				item: "eidolon:necrotic_focus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E80"]
+			description: [""]
+			icon: "eidolon:pewter_ingot"
+			id: "0000000000000E8E"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000EBC"
+					item: "eidolon:pewter_blend"
+					title: "Pewter Blend"
+					type: "item"
+				}
+				{
+					id: "5EF903B792EE97DB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "0000000000000E8F"
+					item: "eidolon:pewter_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000EBB"
+					item: "eidolon:pewter_inlay"
+					type: "item"
+				}
+			]
+			title: "Pewter"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000E8E"]
+			description: [
+				""
+				""
+				""
+			]
+			id: "0000000000000E90"
+			min_width: 300
+			rewards: [
+				{
+					id: "0000000000000EBF"
+					item: "eidolon:soul_shard"
+					title: "Soul Shard"
+					type: "item"
+				}
+				{
+					id: "155B8402AA450932"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "246258F746DD7157"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000E91"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000E87"]
+			description: [
+				""
+				""
+			]
+			id: "0000000000000E92"
+			rewards: [
+				{
+					id: "0442678E2E853F06"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4ABAE27C18D9DEED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "0000000000000E93"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			title: "Crystallization Ritual"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000E8E"]
+			id: "0000000000000E94"
+			rewards: [
+				{
+					id: "688404CA374E65D5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0CED8522EFC77217"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000E95"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E83"]
+			description: [
+				""
+				""
+			]
+			id: "0000000000000E9D"
+			rewards: [
+				{
+					id: "491EAA0DC6768291"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6726F0119F6B0899"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000E9E"
+				item: "eidolon:goblet"
+				type: "item"
+			}]
+			title: "Sacrifices"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E9D"]
+			description: [
+				""
+				""
+			]
+			id: "0000000000000E9F"
+			rewards: [{
+				id: "54959D3176251CDD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000EA0"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E9F"]
+			description: [""]
+			icon: "eidolon:stone_altar"
+			id: "0000000000000EA1"
+			rewards: [{
+				id: "2D701D4733C06261"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000EA2"
+					item: "eidolon:stone_altar"
+					type: "item"
+				}
+				{
+					id: "0000000000000EA3"
+					item: "eidolon:unholy_effigy"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000E90"]
+			description: [
+				""
+				""
+				""
+				""
+			]
+			icon: "eidolon:arcane_gold_ingot"
+			id: "0000000000000EAA"
+			rewards: [
+				{
+					count: 16
+					id: "0000000000000EC4"
+					item: "eidolon:soul_shard"
+					title: "Soul Shard"
+					type: "item"
+				}
+				{
+					id: "371F3AFEF50D7226"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "0000000000000EAB"
+					item: "eidolon:arcane_gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000000EAC"
+					item: "eidolon:lesser_soul_gem"
+					type: "item"
+				}
+				{
+					id: "0000000000000EC3"
+					item: "eidolon:shadow_gem"
+					type: "item"
+				}
+			]
+			title: "Alchemy Practice!"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000E8A"]
+			description: [
+				""
+				""
+				""
+				""
+				""
+			]
+			icon: "eidolon:sanguine_amulet"
+			id: "0000000000000EAD"
+			rewards: [{
+				id: "297669E2FC3CC68D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000EAE"
+					item: "eidolon:sanguine_amulet"
+					type: "item"
+				}
+				{
+					id: "0000000000000EBA"
+					item: {
+						Count: 1b
+						id: "eidolon:sapping_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sanguine Items"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000EAA"]
+			description: [
+				""
+				""
+			]
+			id: "0000000000000EB2"
+			rewards: [{
+				id: "1DC1013F4F3DBD9D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000EB3"
+				item: {
+					Count: 1b
+					id: "eidolon:reversal_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0000000000000E9F"
+				"0000000000000EAC"
+			]
+			description: [""]
+			id: "0000000000000EB8"
+			rewards: [{
+				id: "1EA1625F5624654A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000EB9"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "&dEidolon"
+}
