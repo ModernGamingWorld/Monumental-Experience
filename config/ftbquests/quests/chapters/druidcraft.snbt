@@ -1,0 +1,759 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "druidcraft"
+	group: "4814F40AB34427B6"
+	icon: "druidcraft:hemp"
+	id: "0000000000001340"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001341"
+			rewards: [{
+				id: "23CCC860CD83038C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Acquire some blazing &6Fiery Glass"
+			tasks: [{
+				id: "0000000000001342"
+				item: "druidcraft:fiery_glass"
+				type: "item"
+			}]
+			title: "&6Fiery Glass"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["0000000000001341"]
+			id: "0000000000001343"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000001346"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "00000000000013D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2BE59CECDC3F9F02"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "&7A little brighter than regular torches. &7Waterproof too!"
+			tasks: [{
+				count: 4L
+				id: "0000000000001344"
+				item: "druidcraft:fiery_torch"
+				type: "item"
+			}]
+			title: "&6Fiery Torches"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: ["Acquire some &bMoonstone&f."]
+			id: "0000000000001348"
+			rewards: [
+				{
+					id: "7655826C58644CC5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "524C5841B48D97C2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001349"
+				item: "druidcraft:moonstone"
+				type: "item"
+			}]
+			title: "&bMoonstone"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "000000000000134C"
+			rewards: [{
+				id: "654D3A22442A032E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Moonstone Boots"
+			tasks: [{
+				id: "000000000000134D"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Boots"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "000000000000134E"
+			rewards: [{
+				id: "00000000000013A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Moonstone Leggings"
+			tasks: [{
+				id: "000000000000134F"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Leggings"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "0000000000001350"
+			rewards: [{
+				id: "00000000000013A0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Chestplate"
+			tasks: [{
+				id: "0000000000001351"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Chestplate"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "0000000000001352"
+			rewards: [{
+				id: "000000000000139C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Helmet"
+			tasks: [{
+				id: "0000000000001353"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+					id: "druidcraft:moonstone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Helmet"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "0000000000001354"
+			rewards: [{
+				id: "2A688684EA6DCA71"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Sword"
+			tasks: [{
+				id: "0000000000001355"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Sword"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "0000000000001356"
+			rewards: [{
+				id: "2812CDF2C09565C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Pickaxe"
+			tasks: [{
+				id: "0000000000001357"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Pickaxe"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "0000000000001358"
+			rewards: [{
+				id: "6588A60C5D8B9776"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Shovel"
+			tasks: [{
+				id: "0000000000001359"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Shovel"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "000000000000135A"
+			rewards: [{
+				id: "4458F3B5B87C1A49"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Axe"
+			tasks: [{
+				id: "000000000000135B"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Axe"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001348"]
+			id: "000000000000135C"
+			optional: true
+			rewards: [{
+				id: "564161C05D911A26"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Moonstone Shield"
+			tasks: [{
+				id: "000000000000135D"
+				item: {
+					Count: 1b
+					id: "druidcraft:moonstone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bMoonstone Shield"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001360"
+			rewards: [{
+				id: "220D812437F6F040"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Sword"
+			tasks: [{
+				id: "0000000000001361"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001362"
+			rewards: [{
+				id: "092344798E05FEA9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Pickaxe"
+			tasks: [{
+				id: "0000000000001363"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001364"
+			rewards: [{
+				id: "606E3DEE5701920D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Shovel"
+			tasks: [{
+				id: "0000000000001365"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001366"
+			rewards: [{
+				id: "2746C52B579F92F5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Axe"
+			tasks: [{
+				id: "0000000000001367"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001368"
+			optional: true
+			rewards: [{
+				id: "0BEC0871C4D55927"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Shield"
+			tasks: [{
+				id: "0000000000001369"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "000000000000136A"
+			rewards: [{
+				id: "5D99819E995E63FC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Bone Boots"
+			tasks: [{
+				id: "000000000000136B"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "000000000000136C"
+			rewards: [{
+				id: "15FC8733A4A489C0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Bone Leggings"
+			tasks: [{
+				id: "000000000000136D"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "000000000000136E"
+			rewards: [{
+				id: "68FF10756639D85A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Chestplate"
+			tasks: [{
+				id: "000000000000136F"
+				item: {
+					Count: 1b
+					id: "druidcraft:bone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001372"]
+			id: "0000000000001370"
+			rewards: [{
+				id: "6478B045D32340B1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Bone Helmet"
+			tasks: [{
+				id: "0000000000001371"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+					id: "druidcraft:bone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -1.5d
+		}
+		{
+			description: ["Acquire a Bone."]
+			id: "0000000000001372"
+			rewards: [{
+				id: "65668274047137BF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&7..an old bone?"
+			tasks: [{
+				id: "0000000000001373"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "&7The Bone"
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001381"]
+			id: "0000000000001377"
+			rewards: [{
+				id: "76DEFB5A11C41C7F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Chitin Boots"
+			tasks: [{
+				id: "0000000000001378"
+				item: {
+					Count: 1b
+					id: "druidcraft:chitin_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Chitin Boots"
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001381"]
+			id: "0000000000001379"
+			rewards: [{
+				id: "5F2226CA1AD9A7F7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft Chitin Leggings"
+			tasks: [{
+				id: "000000000000137A"
+				item: {
+					Count: 1b
+					id: "druidcraft:chitin_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Chitin Leggings"
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000001381"]
+			id: "000000000000137B"
+			rewards: [{
+				id: "00DA7A718572218D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Chitin Chestplate"
+			tasks: [{
+				id: "000000000000137C"
+				item: {
+					Count: 1b
+					id: "druidcraft:chitin_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Chitin Chestplate"
+			x: 8.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001381"]
+			id: "000000000000137D"
+			rewards: [{
+				id: "70F63740A413F11A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Chitin Helmet"
+			tasks: [{
+				id: "000000000000137E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+					id: "druidcraft:chitin_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Chitin Helmet"
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001381"]
+			id: "000000000000137F"
+			rewards: [{
+				id: "0AA55A7C044DCDF5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Chitin Shield"
+			tasks: [{
+				id: "0000000000001380"
+				item: {
+					Count: 1b
+					id: "druidcraft:chitin_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Chitin Shield"
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "0000000000001381"
+			rewards: [
+				{
+					id: "0000000000001396"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "651715F4E355ECE4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&7Chitin. Dropped by the large Beetle &7Mob."
+			tasks: [{
+				id: "0000000000001382"
+				item: "druidcraft:chitin"
+				type: "item"
+			}]
+			title: "&3Chitin"
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000013DA"]
+			id: "00000000000013D6"
+			rewards: [{
+				id: "00000000000013D9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&7Craft a Lamp of Growth"
+			tasks: [{
+				id: "00000000000013D7"
+				item: "druidcraft:growth_lamp"
+				type: "item"
+			}]
+			title: "&aLamp of Growth"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			id: "00000000000013DA"
+			rewards: [{
+				id: "5E0809C6D1A6558E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&7Acquire some &8Rockroot"
+			tasks: [{
+				id: "00000000000013DB"
+				item: "druidcraft:rockroot"
+				type: "item"
+			}]
+			title: "&8Rockroot"
+			x: 0.0d
+			y: 8.25d
+		}
+	]
+	title: "&dDruidcraft"
+}

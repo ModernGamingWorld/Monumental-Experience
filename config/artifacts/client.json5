@@ -1,0 +1,10 @@
+{
+	// Whether the Kitty Slippers and Bunny Hoppers change the player's hurt sounds
+	"modifyHurtSounds": true,
+	// Whether models for gloves should be shown in first person
+	"showFirstPersonGloves": true,
+	// Whether artifacts should have tooltips explaining their effects
+	"showTooltips": true,
+	// Whether mimics can use textures from Lootr or Quark
+	"useModdedMimicTextures": true
+}

@@ -1,0 +1,158 @@
+{
+  "enderchests": {
+    "hud": true
+  },
+  "minecraft": {
+    "fluid_storage": true,
+    "item_storage.show_name_amount": 5,
+    "furnace": true,
+    "harvest_tool.show_unbreakable": true,
+    "chicken_egg": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "animal_owner": true,
+    "energy_storage.detailed": false,
+    "animal_owner.fetch_names": true,
+    "harvest_tool.effective_tool": true,
+    "note_block": true,
+    "beehive": true,
+    "item_storage.detailed_amount": 54,
+    "player_head": true,
+    "block_states": false,
+    "lectern": true,
+    "entity_armor": true,
+    "item_storage": true,
+    "item_storage.normal_amount": 9,
+    "harvest_tool": true,
+    "armor_stand": true,
+    "fluid_storage.detailed": false,
+    "horse_stats": true,
+    "item_tooltip": true,
+    "entity_health": true,
+    "energy_storage": true,
+    "entity_armor.max_for_render": 40,
+    "breaking_progress": true,
+    "enchantment_power": true,
+    "tnt_stability": true,
+    "item_storage.items_per_line": 9,
+    "villager_profession": true,
+    "mob_breeding": true,
+    "entity_health.icons_per_line": 10,
+    "item_frame": true,
+    "crop_progress": true,
+    "total_enchantment_power": true,
+    "potion_effects": true,
+    "command_block": true,
+    "mob_growth": true,
+    "painting": true,
+    "harvest_tool.new_line": false,
+    "entity_health.max_for_render": 40,
+    "entity_health.show_fractions": false,
+    "chiseled_bookshelf": true,
+    "mob_spawner": true,
+    "redstone": true
+  },
+  "tombstone": {
+    "graves": true
+  },
+  "entangled": {
+    "entangled_block_component": true
+  },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "globalxp": {
+    "display": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.visitor_cost": true,
+    "colony.pack": true,
+    "colony.colonist": true,
+    "domum.materials": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "info": true,
+    "showcustomname": true
+  }
+}

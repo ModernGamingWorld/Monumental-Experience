@@ -1,0 +1,541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "astralsorcery"
+	group: "4814F40AB34427B6"
+	icon: "astralsorcery:tome"
+	id: "0000000000000105"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000010D"]
+			id: "0000000000000109"
+			rewards: [{
+				id: "00000000000013AA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000010A"
+				item: "astralsorcery:tome"
+				type: "item"
+			}]
+			title: "&6Astral Tome"
+			x: -15.0d
+			y: -2.25d
+		}
+		{
+			id: "000000000000010B"
+			rewards: [{
+				id: "00000000000013AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000010C"
+				item: "astralsorcery:marble_bricks"
+				type: "item"
+			}]
+			title: "Shrine"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "000000000000010D"
+			rewards: [{
+				id: "00000000000013A3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000010E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gems/aquamarine"
+					}
+				}
+				title: "Any Aquamarine"
+				type: "item"
+			}]
+			title: "&6Aquamarine"
+			x: -9.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["000000000000010D"]
+			id: "000000000000010F"
+			rewards: [{
+				id: "00000000000013BA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000110"
+				item: "astralsorcery:wand"
+				type: "item"
+			}]
+			title: "&6Resonating Wand"
+			x: -6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"000000000000010B"
+				"000000000000012E"
+			]
+			id: "0000000000000111"
+			rewards: [{
+				id: "00000000000013B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000112"
+				item: "astralsorcery:altar_discovery"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["000000000000010F"]
+			id: "0000000000000114"
+			rewards: [{
+				id: "00000000000013BB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000115"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "&6Ender Pearl"
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			id: "0000000000000116"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000117"
+				item: {
+					Count: 1b
+					id: "astralsorcery:constellation_paper"
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"000000000000010B"
+				"000000000000011A"
+			]
+			id: "0000000000000118"
+			rewards: [{
+				id: "00000000000013B5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000119"
+				item: "astralsorcery:black_marble_raw"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.75d
+		}
+		{
+			id: "000000000000011A"
+			rewards: [{
+				id: "00000000000013B4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000011B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"000000000000010D"
+				"000000000000011E"
+			]
+			id: "000000000000011C"
+			rewards: [{
+				id: "00000000000013AF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000011D"
+				item: "astralsorcery:well"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "000000000000011E"
+			rewards: [{
+				id: "00000000000013B0"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000011F"
+				item: {
+					Count: 1b
+					id: "astralsorcery:rock_crystal"
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Rock Crystal"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["000000000000011C"]
+			id: "0000000000000120"
+			rewards: [{
+				id: "00000000000013B6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000121"
+				item: "astralsorcery:liquid_starlight_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"000000000000010D"
+				"0000000000000126"
+			]
+			id: "0000000000000122"
+			rewards: [{
+				id: "00000000000013A8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000123"
+				item: "astralsorcery:illumination_powder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000122"]
+			id: "0000000000000124"
+			rewards: [{
+				id: "00000000000013A9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000125"
+				item: "astralsorcery:nocturnal_powder"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			id: "0000000000000126"
+			rewards: [{
+				id: "00000000000013A7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000127"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/glowstone"
+					}
+				}
+				title: "Any Glowstone"
+				type: "item"
+			}]
+			title: "&6Glowstone Dust"
+			x: -0.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000000120"]
+			id: "0000000000000128"
+			rewards: [{
+				id: "00000000000013B3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000129"
+				item: "astralsorcery:altar_attunement"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000120"]
+			id: "000000000000012A"
+			rewards: [{
+				id: "0000000000001566"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000012B"
+				item: "astralsorcery:infused_wood"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000012A"]
+			id: "000000000000012C"
+			rewards: [{
+				id: "0000000000001567"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000012D"
+				item: {
+					Count: 1b
+					id: "astralsorcery:resonator"
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			id: "000000000000012E"
+			rewards: [{
+				id: "00000000000013B8"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000012F"
+				item: "astralsorcery:glass_lens"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["000000000000012E"]
+			id: "0000000000000130"
+			rewards: [{
+				id: "00000000000013B9"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000131"
+				item: "astralsorcery:spectral_relay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			id: "0000000000000132"
+			rewards: [{
+				id: "00000000000013B2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000133"
+				item: "astralsorcery:hand_telescope"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"000000000000010B"
+				"000000000000013A"
+			]
+			id: "0000000000000138"
+			rewards: [{
+				id: "00000000000013AD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000139"
+				item: "astralsorcery:starmetal_ore"
+				type: "item"
+			}]
+			title: "&6Starmetal Ore"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "000000000000013A"
+			rewards: [{
+				id: "00000000000013AC"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "000000000000013B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "astralsorcery:starmetal"
+					}
+				}
+				title: "Any Starmetal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000132"
+				"0000000000000140"
+			]
+			id: "000000000000013E"
+			rewards: [{
+				id: "00000000000013B1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000013F"
+				item: "astralsorcery:telescope"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000000013A"]
+			id: "0000000000000140"
+			rewards: [{
+				id: "00000000000013AB"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000141"
+				item: "astralsorcery:attunement_altar"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			id: "0000000000000142"
+			rewards: [{
+				id: "0000000000001568"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000143"
+				item: {
+					Count: 1b
+					id: "astralsorcery:resonator"
+					tag: {
+						astralsorcery: {
+							upgrades: [
+								0
+								1
+								2
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+	title: "&dAstral Sorcery"
+}

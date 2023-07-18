@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_monumental_quest_book"
+	group: ""
+	id: "00000000000010BB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "00000000000010BC"
+		rewards: [{
+			id: "00000000000010BE"
+			item: "lootbagmod:lootbag"
+			type: "item"
+		}]
+		tasks: [{
+			id: "00000000000010BD"
+			title: "This quest book is built as more of a guide/layout for the end user to follow."
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome to Monumental Quest Book"
+}

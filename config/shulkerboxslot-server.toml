@@ -1,0 +1,3 @@
+#If enabled, renders the equipped shulker box on players.
+renderShulkerBox = true
+

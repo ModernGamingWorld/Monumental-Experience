@@ -1,0 +1,13 @@
+
+[blocks]
+	#The color of the range box of Vacuum Chest
+	vacuumChestRangeColor = "0000FF"
+	#The color of the range box of XP Vacuum
+	vacuumXpRangeColor = "00FF00"
+	#The color of the range box of Powered Spawner
+	poweredSpawnerRangeColor = "FF0000"
+
+[ioconfig]
+	#Neighbour Transparency [0-1]
+	neighbourTransparency = 0.4
+

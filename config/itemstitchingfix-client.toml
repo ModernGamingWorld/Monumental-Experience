@@ -1,0 +1,4 @@
+#Set the method used by item stitching fix.
+#Allowed Values: VANILLA, UNLERP, OUTLINE, PIXEL
+method = "VANILLA"
+

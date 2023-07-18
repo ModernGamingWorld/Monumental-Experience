@@ -1,0 +1,7 @@
+{
+	/* Enter all wwoo biomes that should be deactivated here
+	   (only works when compatible mode is activated in wwoo.json5)
+	   Here is an example: ["andesite_crags", "bayou", "snowy_thermal_taiga"]
+	*/
+	"banned_biomes": []
+}

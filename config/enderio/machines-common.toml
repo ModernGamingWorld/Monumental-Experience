@@ -1,0 +1,129 @@
+#The amount of entities that will turn off powered spawner if in range.
+maxentities = 2
+#The way a powered spawner spawns an entity. Possible options: 'ENTITYPE' Spawns the same entity types as the soul vial. 'COPY' Spawns an exact copy of the mob in the soul vial
+"Spawn Type" = "ENTITYTYPE"
+#The maximum amount of spawners before the spawners suffers a loss of efficiency
+maxspawners = 10
+#The energy required for each painting operation
+#Range: > 1
+paintingMachineEnergyCost = 2000
+
+[energy]
+
+	[energy.alloySmelter]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 30
+
+	[energy.crafter]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 10
+
+	[energy.impulseHopper]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 16
+
+	[energy.poweredSpawner]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 160
+
+	[energy.sagMill]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 30
+
+	[energy.slicer]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 30
+
+	[energy.soulBinder]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 30
+
+	[energy.stirlingGenerator]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base number of 'burn ticks' performed per machine tick.
+		#Range: > 1
+		burnSpeed = 1
+		#The base amount of energy produced in uI/t.
+		#Range: > 1
+		generation = 40
+
+	[energy.paintingMachine]
+		#The base energy capacity in uI.
+		#Range: > 1
+		capacity = 100000
+		#The base energy consumption in uI/t.
+		#Range: > 1
+		usage = 30
+		#The energy required for each painting operation
+		#Range: > 1
+		energyCost = 2000
+
+	[energy.phtovoltaic_cell_rates]
+		#Production rate at midday without rain or thunder
+		#Range: > 1
+		simple = 10
+		#Range: > 1
+		basic = 40
+		#Range: > 1
+		advanced = 80
+		#Range: > 1
+		vibrant = 160
+
+[enchanter]
+	#The lapis cost is enchant level multiplied by this value.
+	lapisCostFactor = 3.0
+	#The final XP cost for an enchantment is multiplied by this value. To halve costs set to 0.5, to double them set it to 2.
+	levelCostFactor = 0.75
+	#Base level cost added to all recipes in the enchanter.
+	baseLevelCost = 2
+
+[phtovoltaic_cell_rates]
+	#Production rate at midday without rain or thunder
+	#Range: > 1
+	simple = 10
+	#Range: > 1
+	basic = 40
+	#Range: > 1
+	advanced = 80
+	#Range: > 1
+	vibrant = 160
+
+[capacitor_bank_capacity]
+	#Capacity for capacitor banks
+	#Range: > 1
+	basic = 1000000
+	#Range: > 1
+	advanced = 5000000
+	#Range: > 1
+	vibrant = 25000000
+
