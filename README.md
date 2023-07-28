@@ -19,7 +19,7 @@ ask in one of the support channels.
 ## 💵 How can I support this project?
 
 There are two main ways you can help support the development of
-Monumental Experience and remember Donating is not required.
+Monumental Experience and me (ModernGamingWorld), please remember Donating/supporting me or the project is not required.
 
 -   [Ko-Fi](https://ko-fi.com/moderngamingworld "Option 1 to support me").
 -   [Patreon](patreon.com/ModernGamingWorld "Option 1 to support me").
