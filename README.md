@@ -1,5 +1,5 @@
 ![Header](https://www.bisecthosting.com/images/CF/Monumental_Experience/BH_ME_Overview.png)
-[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_64h.png "Modern's Forgotten Universe")](https://discord.io/modernsforgottenuniverse)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/patreon-singular_64h.png "ModernGamingWorld")](patreon.com/ModernGamingWorld)[![Ko-fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_64h.png "ModernGamingWorld")](https://ko-fi.com/moderngamingworld)
+[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-singular_64h.png "Modern's Forgotten Universe")](https://discord.gg/QcXg4ET5wb)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/patreon-singular_64h.png "ModernGamingWorld")](patreon.com/ModernGamingWorld)[![Ko-fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_64h.png "ModernGamingWorld")](https://ko-fi.com/moderngamingworld)
 
 Monumental Experience is a Minecraft modpack that offers a unique and challenging gameplay experience for players who are looking for something new. This modpack features magnificent structures, harder recipes, harder mobs, and a variety of biomes for players to explore and make their homes.
 
@@ -13,7 +13,7 @@ Overall, Monumental Experience is an exciting modpack that offers a fresh take o
 ## 🔧 Where to go when something doesn\'t work
 
 Please either report an issue on
-Modern's Forgotten Universe [Discord Sever](https://discord.gg/ATdtPejdJ8). and
+Modern's Forgotten Universe [Discord Sever](https://discord.gg/QcXg4ET5wb). and
 ask in one of the support channels.
 
 ## 💵 How can I support this project?
