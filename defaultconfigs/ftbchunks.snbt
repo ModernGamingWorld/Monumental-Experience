@@ -6,7 +6,7 @@
 	
 	# Allow players to force-load chunks while they are offline. This may not take effect until each player re-logs in server, for immediate effect use 'force_load_mode'
 	# Default: true
-	chunk_load_offline: false
+	chunk_load_offline: true
 	
 	# Blacklist for dimensions where chunks can't be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End
 	# Default: []
@@ -34,13 +34,13 @@
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 	# Default: 500
 	# Range: -∞ ~ +∞
-	max_claimed_chunks: 130
+	max_claimed_chunks: 250
 	
 	# Max force loaded chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 	# Default: 25
 	# Range: -∞ ~ +∞
-	max_force_loaded_chunks: 10
+	max_force_loaded_chunks: 25
 	
 	# Requires you to claim chunks in order to edit and interact with blocks
 	# Default: false
