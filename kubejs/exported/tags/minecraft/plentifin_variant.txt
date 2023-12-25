@@ -1,8 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
-
-#fishofthieves:default_plentifin_spawns
-- fishofthieves:olive (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:amber (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:cloudy (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:bonedust (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:watery (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

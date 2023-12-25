@@ -128,6 +128,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "create:andesite_alloy"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_block"
         },
         {

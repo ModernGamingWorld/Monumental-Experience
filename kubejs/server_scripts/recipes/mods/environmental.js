@@ -1,7 +1,0 @@
-ServerEvents.recipes(e => {
-  removeRecipeByID(e, [
-    'environmental:willow_pressure_plate',
-    'environmental:cherry_pressure_plate',
-    'environmental:wisteria_pressure_plate',
-  ])
-})

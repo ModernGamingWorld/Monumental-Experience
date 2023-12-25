@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "modernrecipes:boats"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "item": "minecolonies:supplychestdeployer"
+  }
+}

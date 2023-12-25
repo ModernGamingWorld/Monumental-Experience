@@ -7,6 +7,7 @@ JEIEvents.addItems( e => {
     'chipped:mason_table',
     'chipped:alchemy_bench',
     'chipped:mechanist_workbench',
+    'earthmobsmod:mud_bucket',
 
     'immersiveengineering:dust_hop_graphite',
     'immersiveengineering:ingot_hop_graphite',
@@ -21,6 +22,7 @@ JEIEvents.addItems( e => {
     'mekanism:nugget_refined_glowstone',
     'mekanism:block_refined_obsidian',
     'mekanism:block_refined_glowstone',
+    'minecraft:bucket',
 
     'rechiseled:chisel',
 
@@ -36,6 +38,9 @@ JEIEvents.addItems( e => {
     'structurize:side_framed_horizontal_oak_oak_timber_frame',
     'structurize:clay_oak_shingle',
     'structurize:clay_shingle_slab',
+    'skilltree:copper_ring',
+    'skilltree:iron_ring',
+    'skilltree:golden_ring'
   ]
 
   itemsToAdd.forEach(i => e.add(i))

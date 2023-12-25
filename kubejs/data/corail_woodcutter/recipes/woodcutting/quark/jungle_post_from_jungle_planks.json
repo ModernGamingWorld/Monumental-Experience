@@ -1,0 +1,1 @@
+{"conditions":[{"type":"forge:mod_loaded","modid":"quark"},{"type":"forge:item_exists","item":"quark:jungle_post"},{"type":"quark:flag","flag":"wooden_posts"}],"type":"corail_woodcutter:woodcutting","ingredient":{"tag":"forge:planks/jungle"},"result":"quark:jungle_post","count":1}

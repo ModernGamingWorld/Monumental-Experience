@@ -88,7 +88,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:fish_essence",
+          "name": "mysticalagriculture:fish_essence"
         },
         {
           "type": "minecraft:item",
@@ -118,7 +118,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mysticalagriculture:fish_essence",
+          "name": "mysticalagriculture:fish_essence"
         },
         {
           "type": "minecraft:item",

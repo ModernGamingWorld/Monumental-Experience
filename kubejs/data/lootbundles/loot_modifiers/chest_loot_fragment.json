@@ -1,0 +1,12 @@
+{
+    "conditions": [
+        {
+            "condition": "minecraft:alternative",
+            "terms": [
+            ]
+        }
+    ],
+    "type": "lootbundles:loot_fragment",
+    "probability": 0.4,
+    "maxCount": 0
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW",
+        "CHC",
+        "FWS"
+    ],
+    "key": {
+        "W": {
+            "item": "upgrade_aquatic:driftwood_planks"
+        },
+        "H": {
+            "item": "upgrade_aquatic:driftwood_beehive"
+        },
+        "C": {
+            "tag": "forge:honeycombs"
+        },
+        "F": {
+            "tag": "forge:campfires"
+        },
+        "S": {
+            "tag": "modernrecipes:tools/shears"
+        }
+    },
+    "result": {
+        "item": "productivebees:advanced_driftwood_beehive"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "upgrade_aquatic"
+        }
+    ]
+}

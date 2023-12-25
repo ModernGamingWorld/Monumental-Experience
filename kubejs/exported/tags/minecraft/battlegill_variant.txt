@@ -1,8 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
-
-#fishofthieves:default_battlegill_spawns
-- fishofthieves:jade (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:sky (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:rum (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:sand (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:bittersweet (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

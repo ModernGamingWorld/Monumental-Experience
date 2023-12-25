@@ -482,7 +482,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mysticalagriculture:enderman_essence",
+          "name": "mysticalagriculture:enderman_essence"
         },
         {
           "type": "minecraft:item",

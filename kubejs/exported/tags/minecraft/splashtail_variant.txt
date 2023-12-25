@@ -1,8 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
-
-#fishofthieves:default_splashtail_spawns
-- fishofthieves:ruby (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:sunny (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:indigo (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:umber (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:seafoam (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)

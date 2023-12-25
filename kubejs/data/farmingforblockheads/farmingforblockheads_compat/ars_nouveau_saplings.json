@@ -5,7 +5,7 @@
     "name": "Ars Nouveau Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "ars_nouveau:source_gem"
+      "item": "ars_nouveau:manipulation_essence"
     },
     "defaultCategory": "farmingforblockheads:saplings"
   },

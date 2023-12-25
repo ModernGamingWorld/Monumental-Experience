@@ -1,8 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 1, 2023, 9:50:59 PM
-
-#fishofthieves:default_stormfish_spawns
-- fishofthieves:ancient (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:shores (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:wild (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:shadow (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
-- fishofthieves:twilight (from fish_of_thieves-mc1.19.2-v2.2.3-forge.jar)
