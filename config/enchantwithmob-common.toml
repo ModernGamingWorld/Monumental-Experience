@@ -8,6 +8,10 @@ alwayEnchantableMobs = []
 alwayEnchantableAncientMobs = []
 #Disables the specific mob enchant. Use the full name(This config only disabled mob enchant when mob spawn. not mean delete complete, eg: enchantwithmob:thorn.
 disableMobEnchants = []
+#Allow the poison cloud for projectile. Use the full name(eg: minecraft:arrow.
+allowPoisonCloudProjectiles = ["minecraft:arrow", "minecraft:snowball", "earthmobsmod:melon_seeds", "earthmobsmod:zombie_flesh", "conjurer_illager:throwing_card", "conjurer_illager:bouncy_ball", "tofucraft:fukumame", "tofucraft:nether_fukumame", "tofucraft:soul_fukumame"]
+#Allow the multi shot for projectile. Use the full name(eg: minecraft:arrow.
+allowMultiShotProjectiles = ["minecraft:arrow", "minecraft:snowball", "earthmobsmod:melon_seeds", "earthmobsmod:zombie_flesh", "conjurer_illager:throwing_card", "conjurer_illager:bouncy_ball", "tofucraft:fukumame", "tofucraft:nether_fukumame", "tofucraft:soul_fukumame"]
 #Whitelist the projectile mob enchant for mob. Use the full name(eg: minecraft:zombie.
 whitelistShootEntity = ["minecraft:skeleton", "minecraft:pillager", "minecraft:shulker", "minecraft:llama", "conjurer_illager:conjurer", "earthmobsmod:bone_spider", "earthmobsmod:lobber_zombie", "earthmobsmod:lobber_drowned", "earthmobsmod:melon_golem", "minecraft:piglin", "minecraft:snow_golem", "minecraft:player"]
 #Enable the the spawning of enchanted animal mobs. [true / false]
@@ -28,8 +32,6 @@ UniversalEnchant = false
 #Set The Effective Difficulty Base Enchanted Mob Spawn Percent [(Difficulty Base Percent * Difficulty id) + (Effective Difficulty Percent * Effective Difficulty)]
 #Range: 0.0 ~ 1.0
 "Effective Difficulty Enchanted Spawn Percent" = 0.025
-#Allow the poison cloud for projectile. Use the full name(eg: minecraft:arrow.
-allowPoisonCloudProjectiles = ["minecraft:arrow", "minecraft:snowball", "earthmobsmod:melon_seeds", "earthmobsmod:zombie_flesh", "conjurer_illager:throwing_card", "conjurer_illager:bouncy_ball", "tofucraft:fukumame", "tofucraft:nether_fukumame", "tofucraft:soul_fukumame"]
-#Allow the multi shot for projectile. Use the full name(eg: minecraft:arrow.
-allowMultiShotProjectiles = ["minecraft:arrow", "minecraft:snowball", "earthmobsmod:melon_seeds", "earthmobsmod:zombie_flesh", "conjurer_illager:throwing_card", "conjurer_illager:bouncy_ball", "tofucraft:fukumame", "tofucraft:nether_fukumame", "tofucraft:soul_fukumame"]
+#Set the MobEnchant on the EnderDragon. If you want more harder fight. should set it! eg: enchantwithmob:thorn.
+"Buffed Dragon" = []
 

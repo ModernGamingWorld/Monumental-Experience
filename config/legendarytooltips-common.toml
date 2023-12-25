@@ -18,7 +18,7 @@
 
 	[client.visual_options]
 		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
-		name_separator = true
+		name_separator = false
 		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
 		borders_match_rarity = true
 		# If enabled, tooltips will display a drop shadow.
@@ -26,14 +26,14 @@
 		# If enabled, items showing a custom border will have a special shine effect when hovered over.
 		shine_effect = true
 		# If enabled, tooltip titles will be drawn centered.
-		centered_title = true
+		centered_title = false
 		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
 		enforce_minimum_width = false
 		# If enabled, some unnecessary text and spacing will be removed from equipment tooltips.
 		compact_tooltips = true
 		# Which items should have a 3D model rendered in the tooltip.  If set to "equipment", the model will only be rendered for items with durability.
 		#Allowed Values: NONE, EQUIPMENT, ALL
-		render_item_model = "EQUIPMENT"
+		render_item_model = "NONE"
 
 	# Entry types:
 	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
@@ -98,20 +98,20 @@
 	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
 	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
 	[client.colors]
-		level0_colors = [-6723294, -10864099, -266991104, -401208832]
-		level1_colors = ["auto", "auto", "auto", "auto"]
-		level2_colors = ["auto", "auto", "auto", "auto"]
-		level3_colors = ["auto", "auto", "auto", "auto"]
-		level4_colors = ["auto", "auto", "auto", "auto"]
-		level5_colors = ["auto", "auto", "auto", "auto"]
-		level6_colors = ["auto", "auto", "auto", "auto"]
-		level7_colors = ["auto", "auto", "auto", "auto"]
-		level8_colors = ["auto", "auto", "auto", "auto"]
-		level9_colors = ["auto", "auto", "auto", "auto"]
-		level10_colors = ["auto", "auto", "auto", "auto"]
-		level11_colors = ["auto", "auto", "auto", "auto"]
-		level12_colors = ["auto", "auto", "auto", "auto"]
-		level13_colors = ["auto", "auto", "auto", "auto"]
-		level14_colors = ["auto", "auto", "auto", "auto"]
-		level15_colors = ["auto", "auto", "auto", "auto"]
+		level0_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level1_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level2_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level3_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level4_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level5_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level6_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level7_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level8_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level9_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level10_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level11_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level12_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level13_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level14_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
+		level15_colors = ["#FF996922", "#FF5A3A1D", "#F0160A00", "#F0160A00"]
 

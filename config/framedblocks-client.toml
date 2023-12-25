@@ -16,6 +16,8 @@
 	#If DETAILED, connected textures are supported as above and on most faces when interacting with other framed blocks
 	#Allowed Values: NONE, FULL_FACE, FULL_CON_FACE, DETAILED
 	conTexMode = "FULL_FACE"
+	#If true, an alternate renderer will be used for the placement preview. May solve issues with certain shaders
+	altGhostRenderer = false
 
 [overlay]
 	#If set to HIDDEN, the State Lock overlay will be completely hidden
@@ -58,4 +60,9 @@
 	#If set to DETAILED, the Item Frame Background overlay will show detailed info
 	#Allowed Values: HIDDEN, ICON, DETAILED
 	itemFrameBackgroundMode = "DETAILED"
+	#If set to HIDDEN, the Camo Rotation overlay will be completely hidden
+	#If set to ICON, the Camo Rotation overlay will only show an icon
+	#If set to DETAILED, the Camo Rotation overlay will show detailed info
+	#Allowed Values: HIDDEN, ICON, DETAILED
+	camoRotationMode = "DETAILED"
 

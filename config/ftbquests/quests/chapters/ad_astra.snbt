@@ -18,7 +18,14 @@
 			id: "1FE49E1F5E046F0F"
 			rewards: [{
 				id: "65E5C2152A6FB50C"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -44,6 +51,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -69,9 +77,15 @@
 			description: [""]
 			id: "746884699E1F3AD1"
 			rewards: [{
-				count: 2
 				id: "4B0B6FDDBB9A6560"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a rocket nose cone."
@@ -96,6 +110,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft an engine frame."
@@ -112,9 +127,15 @@
 			description: [""]
 			id: "06075D202F626C65"
 			rewards: [{
-				count: 2
 				id: "749DA57023BEF804"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft an engine fan."
@@ -145,6 +166,7 @@
 						}
 						id: "lootbundles:loot_bundle"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -166,7 +188,14 @@
 			id: "0FA5162711FED7A9"
 			rewards: [{
 				id: "4B4458A4E199FE87"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -185,16 +214,18 @@
 		}
 		{
 			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
+			description: [""]
 			id: "360C3457CEEA22D5"
 			rewards: [{
-				count: 2
 				id: "096FD173DCAC8114"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a rocket fin."
@@ -219,6 +250,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft 2 steel tanks."
@@ -245,6 +277,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a steel engine."
@@ -261,9 +294,15 @@
 			description: [""]
 			id: "2671CAFB7B1E1933"
 			rewards: [{
-				count: 2
 				id: "0AF6BB24E0E1805D"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a tier 2 rocket."
@@ -284,9 +323,15 @@
 			description: [""]
 			id: "7E159E3826EA1F3E"
 			rewards: [{
-				count: 3
 				id: "21E46B681BD2B0DE"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "gear"
@@ -308,9 +353,16 @@
 			description: [""]
 			id: "2704D6F0E2508095"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "63FFB29B17E72C96"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 2
 				type: "item"
 			}]
 			shape: "gear"
@@ -340,6 +392,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a Rocket Launch Pad."
@@ -356,9 +409,15 @@
 			description: [""]
 			id: "4D71E2AFA32631E7"
 			rewards: [{
-				count: 2
 				id: "3FA1C66BA244C66A"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -376,9 +435,15 @@
 			description: [""]
 			id: "4F405ACDA98FE821"
 			rewards: [{
-				count: 2
 				id: "0648EE5D226ACC1B"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Create a Desh Plate."
@@ -395,9 +460,15 @@
 			description: [""]
 			id: "20D22E8DA314D5BD"
 			rewards: [{
-				count: 2
 				id: "7676042A1F742CFD"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft 2 desh tank."
@@ -416,9 +487,15 @@
 			description: [""]
 			id: "4CCF5B1FD6AEE7E8"
 			rewards: [{
-				count: 2
 				id: "548BB69758E4577D"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a desh engine."
@@ -434,9 +511,15 @@
 			description: [""]
 			id: "6252590716097C6D"
 			rewards: [{
-				count: 2
 				id: "4355681DE5C4749D"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -454,9 +537,15 @@
 			description: [""]
 			id: "1E4561B23E3570CF"
 			rewards: [{
-				count: 2
 				id: "5A18C72EA15C2F07"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Create a Ostrum Plate."
@@ -473,9 +562,15 @@
 			description: [""]
 			id: "2DD4057509AD751B"
 			rewards: [{
-				count: 2
 				id: "68D5CB037D7C85E8"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft x2 ostrum tank."
@@ -494,9 +589,15 @@
 			description: [""]
 			id: "232CF11DCCB0D0F3"
 			rewards: [{
-				count: 2
 				id: "55D48FE6BAD7A23A"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft an ostrum engine."
@@ -512,9 +613,15 @@
 			description: [""]
 			id: "2BAF03664A5D36AF"
 			rewards: [{
-				count: 2
 				id: "434377055461975A"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -532,9 +639,15 @@
 			description: [""]
 			id: "4C96E292607EF7DA"
 			rewards: [{
-				count: 2
 				id: "0961D1D5B39E35D4"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "diamond"
@@ -552,9 +665,15 @@
 			description: [""]
 			id: "52587C1149251FC4"
 			rewards: [{
-				count: 2
 				id: "4D980D60AC9F66F1"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft x2 calorite tank."
@@ -573,9 +692,15 @@
 			description: [""]
 			id: "06D51049CF6977D3"
 			rewards: [{
-				count: 2
 				id: "1041CF623E34F841"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a calorite engine."
@@ -591,12 +716,32 @@
 			dependencies: ["5C714C816CE3365B"]
 			description: [""]
 			id: "119A781265B7FCA0"
-			rewards: [{
-				count: 2
-				id: "5809681F8885A99D"
-				item: "mekanism:ingot_steel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5809681F8885A99D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "mekanism:ingot_steel"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2925F379AC0297A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			subtitle: "Craft an oxygen loader."
 			tasks: [{
 				id: "2BDB6A9DD1A3435D"
@@ -612,7 +757,14 @@
 			id: "1C53888B7546DE90"
 			rewards: [{
 				id: "5B21FE9A3BE34239"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft an oxygen distributor."
@@ -628,9 +780,15 @@
 			description: [""]
 			id: "5C714C816CE3365B"
 			rewards: [{
-				count: 2
 				id: "1207C19126452AF3"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft an oxygen tank."
@@ -648,7 +806,14 @@
 			id: "30A6B9619242AD4F"
 			rewards: [{
 				id: "00F612DED530BC4B"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -670,7 +835,14 @@
 			id: "2B2678BC6A915B7F"
 			rewards: [{
 				id: "66516C25CD9CB20E"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a space suit."
@@ -694,7 +866,14 @@
 			id: "41A61BC69C4D312A"
 			rewards: [{
 				id: "7BF30D2C093ED097"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -717,9 +896,15 @@
 			description: [""]
 			id: "67C5C8F6BAC5FD8E"
 			rewards: [{
-				count: 2
 				id: "7F0F5457110B6CAC"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft space pants."
@@ -743,7 +928,14 @@
 			id: "3448D2CCD81CEE76"
 			rewards: [{
 				id: "422CC3F2D8BAFBA0"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -781,9 +973,15 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "4FFF2DBE183BEE77"
-					item: "lootbundles:loot_bundle"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -809,7 +1007,14 @@
 			id: "1672C7230AC9A309"
 			rewards: [{
 				id: "5F2A5DB42363321D"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -840,6 +1045,7 @@
 					}
 					id: "lootbundles:loot_bundle"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -856,9 +1062,15 @@
 			description: [""]
 			id: "4AF4A6CAB336E810"
 			rewards: [{
-				count: 2
 				id: "47526CB4F804F8F9"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a Space Helmet."
@@ -882,7 +1094,14 @@
 			id: "7F68496ACEE438A8"
 			rewards: [{
 				id: "152BFB211A4DC39E"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a Netherite Space Helmet."
@@ -905,9 +1124,15 @@
 			description: [""]
 			id: "55E319FB2064089E"
 			rewards: [{
-				count: 2
 				id: "608E6FB3F06E9DD9"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			subtitle: "Craft a Jet Suit Helmet."
@@ -930,9 +1155,15 @@
 			description: [""]
 			id: "5E7BE4204163DF17"
 			rewards: [{
-				count: 2
 				id: "50441D002A2BE86A"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -956,9 +1187,15 @@
 			description: [""]
 			id: "08124906392F9F58"
 			rewards: [{
-				count: 2
 				id: "374A63A3DDCEFE44"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -982,9 +1219,15 @@
 			description: [""]
 			id: "7A1C602E2598D42F"
 			rewards: [{
-				count: 2
 				id: "59736CF3EAEA31B9"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "hexagon"

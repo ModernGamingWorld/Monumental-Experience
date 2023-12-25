@@ -270,7 +270,7 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink;http://discord.io/bedrocklegendssupport%btnaction_splitter_fm%
+  buttonaction = openlink;https://discord.gg/QcXg4ET5wb%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/customimages/menu/bh_me_github.png
   label = 
   loopbackgroundanimations = true
@@ -286,7 +286,7 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink;https://discord.io/bedrocklegends%btnaction_splitter_fm%
+  buttonaction = openlink;https://discord.gg/QcXg4ET5wb%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/customimages/menu/bh_me_discord.png
   label = 
   loopbackgroundanimations = true
@@ -318,7 +318,7 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://bisecthosting.com/BedrockLegends%btnaction_splitter_fm%
+  buttonaction = openlink;https://bisecthosting.com/ModernGamingWorld%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/customimages/menu/horizontal_dark_wordmark.png
   label = 
   loopbackgroundanimations = true

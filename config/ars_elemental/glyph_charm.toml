@@ -11,9 +11,6 @@
 	#The maximum number of times this glyph may appear in a single spell
 	#Range: > 1
 	per_spell_limit = 2147483647
-	#The tier of the glyph
-	#Range: 1 ~ 99
-	glyph_tier = 2
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "glyph_amplify=5"
 	augment_limits = []
@@ -26,4 +23,10 @@
 	#Set the max hp limit for Charm, mobs with more max hp will be immune.
 	#Range: > 0
 	charm_hp_limit = 150
+	#The tier of the glyph
+	#Range: 1 ~ 99
+	glyph_tier = 2
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []
 

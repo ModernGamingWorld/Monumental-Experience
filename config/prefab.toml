@@ -4,7 +4,7 @@
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
 	"Starting Item" = "Nothing"
 	#Can new players for a world receive a starting item?. Server configuration overrides client.
-	"New Players Get Starting Item" = true
+	"New Players Get Starting Item" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
 	"Include Spawners in Monster Masher" = true
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.

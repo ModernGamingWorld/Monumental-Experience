@@ -1,0 +1,78 @@
+#Configure Mutant More's Mutant Shulker Turret on client and server side (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The damage dealt to mobs caught in the explosion caused when a Mutant Shulker Bullet fired by the Mutant Shulker Turret collides with blocks or mobs
+# usually set to 8.0
+"Mutant Shulker Bullet Damage" = 8.0
+#
+# If Mutant Shulker Bullets fired by the Mutant Shulker Turret destroy blocks when they explode
+# usually set to false
+"Mutant Shulker Bullet Griefing" = false
+#
+# If blocks destroyed by Mutant Shulker Bullets fired by the Mutant Shulker Turret exploding drop themselves as items, allowing them to be recovered, impacts performance
+# usually set to true
+"Mutant Shulker Bullet Griefing Drops Blocks" = true
+#
+# The size of explosions caused when Mutant Shulker Bullets fired by the Mutant Shulker Turret collide with blocks or mobs
+# usually set to 2.0
+"Mutant Shulker Bullet Explosion Size" = 2.0
+#
+# The length in ticks (20 ticks in a second) that the Levitation effect is applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker Turret for
+# usually set to 100 ticks (5 seconds)
+"Mutant Shulker Bullet Levitation Length" = 100
+#
+# The level of the Levitation effect applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker Turret
+# usually set to 3 (Levitation 4)
+"Mutant Shulker Bullet Levitation Level" = 3
+#
+# The damage dealt to mobs hit by a Shulker Bullet fired by the Mutant Shulker Turret collides with blocks or mobs
+# usually set to 4.0
+"Shulker Bullet Damage" = 4.0
+#
+# The length in ticks (20 ticks in a second) that the Levitation effect is applied to mobs hit by Shulker Bullets fired by the Mutant Shulker Turret for
+# usually set to 200 ticks (10 seconds)
+"Shulker Bullet Levitation Length" = 200
+#
+# The level of the Levitation effect applied to mobs hit by Shulker Bullets fired by the Mutant Shulker Turret
+# usually set to 0 (Levitation 1)
+"Shulker Bullet Levitation Level" = 0
+#
+# If the Mutant Shulker Turret stops targeting mobs that it has caused to levitate and starts to target mobs that still don't have the Levitation effect instead
+# usually set to true
+"Ignores Levitating Mobs" = true
+#
+# The amount of time in ticks (20 ticks in a second) that each of the Mutant Shulker Turret's heads has to wait after shooting before it can shoot again
+# usually set to 60 ticks (3 seconds)
+"Shoot Cooldown" = 60
+#
+# If the Mutant Shulker Turret's horizontal movement is locked, preventing it from being moved on the X or Z axis, helps keep the Mutant Shulker Turret in one place
+# usually set to true
+"Locked Horizontal Movement" = true
+#
+# The Mutant Shulker Turret's max health
+# usually set to 200.0
+"Max Health" = 200.0
+#
+# The percent of max health that the Mutant Shulker Turret is healed when repaired using a valid item
+# usually set to 50%
+"Repair Heal Percent" = 50
+#
+# The Mutant Shulker Turret's resistance to attack knockback
+# usually set to 1.0 (immune to knockback)
+"Knockback Resistance" = 1.0
+#
+# The Mutant Shulker Turret's armour value
+# usually set to 10.0
+Armour = 10.0
+#
+# The Mutant Shulker Turret's armour toughness value
+# usually set to 0.0
+"Armour Toughness" = 0.0
+#
+# The distance that the Mutant Shulker Turret can target mobs from
+# usually set to 30.0
+"Follow Range" = 30.0
+#
+# If the Mutant Shulker Turret can harm mobs that it can't target
+# usually set to false
+"Friendly Fire" = false
+

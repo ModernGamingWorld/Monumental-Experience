@@ -12,7 +12,14 @@
 			id: "243FE6DE4B32FE14"
 			rewards: [{
 				id: "56710A274D894E82"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -28,7 +35,14 @@
 			id: "33A0B100143D7823"
 			rewards: [{
 				id: "727757E5AE8424FF"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -48,7 +62,14 @@
 			id: "6328D16D9CCAEBA1"
 			rewards: [{
 				id: "1D4F4F2A8CFD38E4"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -69,7 +90,14 @@
 			id: "64189C0449703942"
 			rewards: [{
 				id: "5AF0F80BEC60C062"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -90,7 +118,14 @@
 			id: "1B4A1A2ED45E15A7"
 			rewards: [{
 				id: "74A6B747B917157E"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -110,7 +145,14 @@
 			id: "0A43A668C392EDC0"
 			rewards: [{
 				id: "2D893EF9F75A20E8"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -131,7 +173,14 @@
 			id: "4C0C96DF07A64D5F"
 			rewards: [{
 				id: "1850AC68D2B611BB"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -151,7 +200,14 @@
 			id: "290ADE56D0EB2FE6"
 			rewards: [{
 				id: "75D217255AC6505C"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -171,7 +227,14 @@
 			id: "3D8093D30EDE3A76"
 			rewards: [{
 				id: "68A5964474B783C2"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -192,7 +255,14 @@
 			id: "3E0548E49138C47C"
 			rewards: [{
 				id: "107189D71224B12E"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d

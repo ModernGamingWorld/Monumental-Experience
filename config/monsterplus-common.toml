@@ -1,0 +1,20 @@
+
+[spawnconfig]
+	#Spawn configs:
+	#Will the Abyssologer affect players with Darkness?
+	do_abyssologer_darkness = true
+	#Will the Abyssologer spawn?
+	spawn_abyssologer = true
+	#Will the Crystal Zombie spawn?
+	spawn_crystal_zombie = true
+	#Will the Swamp Zombie spawn?
+	spawn_swamp_zombie = true
+	#Will the Glow Skeleton spawn?
+	spawn_glow_skeleton = true
+	#Will the Lava Squid spawn?
+	spawn_lava_squid = true
+	#Will the Mother Lava Squid spawn?
+	spawn_mother_lava_squid = true
+	#Will the Overgrown Skeleton spawn?
+	spawn_overgrown_skeleton = true
+

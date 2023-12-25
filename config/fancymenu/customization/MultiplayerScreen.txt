@@ -18,7 +18,7 @@ customization {
   action = addbutton
   y = -52
   label = Create Your Own!
-  value = https://bisecthosting.com/BedrockLegends
+  value = https://bisecthosting.com/ModernGamingWorld
   height = 20
 }
 

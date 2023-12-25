@@ -41,7 +41,7 @@
 	#Choose the menu row that the Create config button appears on in the in-game menu
 	#Set to 0 to disable the button altogether
 	#Range: 0 ~ 5
-	ingameMenuConfigButtonRow = 0
+	ingameMenuConfigButtonRow = 3
 	#.
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
 	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
@@ -50,6 +50,18 @@
 	#.
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
 	ignoreFabulousWarning = false
+
+	#.
+	#Configure your vision range when submerged in Create's custom fluids
+	[client.fluidFogSettings]
+		#.
+		#The vision range through honey will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		honey = 1.0
+		#.
+		#The vision range though chocolate will be multiplied by this factor
+		#Range: 0.125 ~ 256.0
+		chocolate = 1.0
 
 	#.
 	#Settings for the Goggle Overlay
@@ -131,16 +143,4 @@
 		#.
 		#Additionally display materials of a Rail Network while f3 debug mode is active
 		showExtendedTrackGraphOnF3 = false
-
-	#.
-	#Configure your vision range when submerged in Create's custom fluids
-	[client.fluidFogSettings]
-		#.
-		#The vision range through honey will be multiplied by this factor
-		#Range: 0.125 ~ 256.0
-		honey = 1.0
-		#.
-		#The vision range though chocolate will be multiplied by this factor
-		#Range: 0.125 ~ 256.0
-		chocolate = 1.0
 

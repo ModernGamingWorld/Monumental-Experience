@@ -1,7 +1,7 @@
 
 [General]
 	#Show additional information in the tooltip of certain items and blocks
-	beginnerTooltips = true
+	beginnerTooltips = false
 	#By default, mega torches only block natural spawns (i.e. from low light levels). Setting this to false will also block spawns from spawners
 	blockOnlyNaturalSpawns = true
 	#If this setting is enabled, the mega torch will block all natural spawn attempts from Lycanites Mobs in its radius

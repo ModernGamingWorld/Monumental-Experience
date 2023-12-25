@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 250
+	cost = 125
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -20,4 +20,7 @@
 	#Potion duration, in seconds
 	#Range: > 0
 	potion_time = 45
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []
 

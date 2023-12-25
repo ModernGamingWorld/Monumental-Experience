@@ -9,7 +9,8 @@
     "simpleSpawningCondition": false,
     "neutralFishBehavior": false,
     "displayAllFishVariantInCreativeTab": false,
-    "dropAndPickFishesWithVariant": false
+    "dropAndPickFishesWithVariant": false,
+    "displayTrophySpawnEggInCreativeTab": false
   },
   "spawnRate": {
     "trophyProbability": 0.15,

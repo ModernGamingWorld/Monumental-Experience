@@ -67,6 +67,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "platforms": {
+    "hud": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -115,9 +118,9 @@
   },
   "create": {
     "filter": true,
+    "backtank_capacity": true,
     "goggles.requires_goggles": true,
     "goggles": true,
-    "copper_backtank": true,
     "blaze_burner": true,
     "exact_block": true,
     "crafting_blueprint": true,
@@ -178,6 +181,12 @@
   "globalxp": {
     "display": true
   },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
   "modularrouters": {
     "router": true
   },
@@ -195,8 +204,18 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "delightful": {
+    "crop_progress": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.visitor_cost": true,
+    "colony.pack": true,
+    "colony.colonist": true,
+    "domum.materials": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

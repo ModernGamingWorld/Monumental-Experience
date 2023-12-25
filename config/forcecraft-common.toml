@@ -11,6 +11,8 @@
 	timeTorchLogging = true
 	#Disable recovery hearts from dropping [Default: false]
 	disableRecoveryHearts = false
+	#Enables screen shake when in Liquid Force [Default: false]
+	enableForceShake = false
 	#The max amount of food stacks stored in the baconator [Default: 4]
 	#Range: > 1
 	baconatorMaxStacks = 4
@@ -26,6 +28,12 @@
 	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
 	#Examples: "minecraft:shulker_box" would stop it inserting into shulkers
 	furnaceOutputBlacklist = [""]
+	#How many ticks in between ticking neighbour blocks [Default: 5]
+	#Range: > 0
+	timeTorchRate = 5
+	#The amount of ticks the Time Torch applies to neighbour blocks [Default: 3]
+	#Range: > 1
+	timeTorchAmount = 3
 
 #Fortune messages
 [fortunes]
@@ -58,4 +66,7 @@
 	#The max level of Speed that can be applied to a Force Rod [Default: 3]
 	#Range: 1 ~ 5
 	rodSpeedCap = 3
+	#The level of Regeneration given to the player when standing in Liquid Force (0 = Regeneration 1) [Default: 0]
+	#Range: 0 ~ 16
+	liquidRegenLevel = 0
 

@@ -13,4 +13,6 @@
 	randomite = true
 	#Enable / Disable patch for Mining Master
 	miningmaster = true
+	#Enable / Disable patch for Thermal
+	thermal = true
 

@@ -12,7 +12,14 @@
 			id: "00000000000019EE"
 			rewards: [{
 				id: "41944CBF6DD2D220"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "heart"
@@ -29,6 +36,18 @@
 		{
 			dependencies: ["00000000000019EE"]
 			id: "00000000000019F0"
+			rewards: [{
+				id: "338F20FA25587208"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "00000000000019F1"
@@ -42,6 +61,18 @@
 		{
 			dependencies: ["00000000000019F0"]
 			id: "00000000000019F2"
+			rewards: [{
+				id: "22FC3BB3FB22E9A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "00000000000019F3"
@@ -54,6 +85,18 @@
 		{
 			dependencies: ["00000000000019F2"]
 			id: "00000000000019F4"
+			rewards: [{
+				id: "6E815EA22CD1B231"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "00000000000019F5"
@@ -69,7 +112,14 @@
 			id: "00000000000019F6"
 			rewards: [{
 				id: "00000000000019FB"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -87,7 +137,14 @@
 			id: "00000000000019F8"
 			rewards: [{
 				id: "00000000000019FA"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -105,7 +162,14 @@
 			id: "00000000000019FC"
 			rewards: [{
 				id: "00000000000019FE"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -123,7 +187,14 @@
 			id: "00000000000019FF"
 			rewards: [{
 				id: "0000000000001A01"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -141,7 +212,14 @@
 			id: "0000000000001A02"
 			rewards: [{
 				id: "0000000000001A04"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -159,7 +237,14 @@
 			id: "0000000000001A05"
 			rewards: [{
 				id: "0000000000001A07"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -173,60 +258,18 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0000000000001A05"]
-			id: "0000000000001A08"
-			rewards: [{
-				id: "0000000000001A0A"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "0000000000001A09"
-				item: "ironfurnaces:allthemodium_furnace"
-				type: "item"
-			}]
-			title: "&5AlltheModium Furnace"
-			x: -4.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0000000000001A08"]
-			id: "0000000000001A0B"
-			rewards: [{
-				id: "0000000000001A0D"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "0000000000001A0C"
-				item: "ironfurnaces:vibranium_furnace"
-				type: "item"
-			}]
-			title: "&5Vibranium Furnace"
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0000000000001A0B"]
-			id: "0000000000001A0E"
-			shape: "gear"
-			tasks: [{
-				id: "0000000000001A0F"
-				item: "ironfurnaces:unobtainium_furnace"
-				type: "item"
-			}]
-			title: "&5Unobtainium Furnace"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["00000000000019EE"]
 			id: "0000000000001A10"
 			rewards: [{
 				id: "0000000000001A12"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -244,7 +287,14 @@
 			id: "0000000000001A13"
 			rewards: [{
 				id: "0000000000001A15"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -261,7 +311,14 @@
 			id: "0000000000001A16"
 			rewards: [{
 				id: "4B3585A3C05BC88B"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "heart"
@@ -279,7 +336,14 @@
 			id: "0000000000001A18"
 			rewards: [{
 				id: "0000000000001A1A"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -296,7 +360,14 @@
 			id: "0000000000001A1B"
 			rewards: [{
 				id: "4B145A3976827D67"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "heart"
@@ -315,7 +386,14 @@
 			id: "0000000000001A1D"
 			rewards: [{
 				id: "0000000000001A1F"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -331,7 +409,14 @@
 			id: "0000000000001A20"
 			rewards: [{
 				id: "77F12641B134FDA3"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "heart"
@@ -350,7 +435,14 @@
 			id: "0000000000001A22"
 			rewards: [{
 				id: "0000000000001A24"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -367,7 +459,14 @@
 			id: "0000000000001A25"
 			rewards: [{
 				id: "56D808BCABBBF7A3"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "heart"
@@ -393,7 +492,14 @@
 			id: "0000000000001A27"
 			rewards: [{
 				id: "0000000000001A29"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -410,7 +516,14 @@
 			id: "0000000000001A2A"
 			rewards: [{
 				id: "0000000000001A2C"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"
@@ -436,7 +549,14 @@
 			id: "0000000000001A2E"
 			rewards: [{
 				id: "0000000000001A30"
-				item: "lootbundles:loot_bundle"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "gear"

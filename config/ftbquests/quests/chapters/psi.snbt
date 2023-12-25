@@ -5,14 +5,15 @@
 	group: "4814F40AB34427B6"
 	icon: "psi:cad_assembly_ivory_psimetal"
 	id: "0000000000001DF3"
-	order_index: 10
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			id: "0000000000001DF4"
 			rewards: [{
-				id: "0000000000001E0C"
+				id: "0497CB138566BA45"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -31,6 +32,7 @@
 			rewards: [{
 				id: "0000000000001E0F"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -50,6 +52,7 @@
 			rewards: [{
 				id: "0000000000001E11"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -72,6 +75,7 @@
 			rewards: [{
 				id: "0000000000001E12"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -90,6 +94,7 @@
 			rewards: [{
 				id: "0000000000001E10"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -108,6 +113,7 @@
 			rewards: [{
 				id: "0000000000001E13"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -126,6 +132,7 @@
 			rewards: [{
 				id: "0000000000001E0E"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -148,6 +155,7 @@
 			rewards: [{
 				id: "0000000000001E14"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -166,6 +174,7 @@
 			rewards: [{
 				id: "0000000000001E15"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -183,6 +192,7 @@
 			rewards: [{
 				id: "0000000000001E16"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -200,6 +210,7 @@
 			rewards: [{
 				id: "0000000000001E0D"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			size: 1.5d
@@ -223,6 +234,7 @@
 			rewards: [{
 				id: "0000000000001E1A"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -249,8 +261,9 @@
 			]
 			id: "0000000000001E1C"
 			rewards: [{
-				id: "0000000000001E2D"
+				id: "500B63518494B70E"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -276,6 +289,7 @@
 			rewards: [{
 				id: "0000000000001E2A"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"
@@ -301,6 +315,7 @@
 			rewards: [{
 				id: "0000000000001E2B"
 				item: "lootbundles:loot_bundle"
+				random_bonus: 1
 				type: "item"
 			}]
 			shape: "circle"

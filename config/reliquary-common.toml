@@ -226,7 +226,7 @@ mobDropsEnabled = true
 		#Whether the infernal tear starts absorbing immediately after it is set to item type
 		absorbWhenCreated = false
 		#List of items that can be consumed by infernal tear with their experience point value
-		entityLootTableList = ["minecraft:emerald|63", "minecraft:sandstone|1", "minecraft:gravel|1", "minecraft:diamond|125", "minecraft:gunpowder|8", "minecraft:nether_star|500", "minecraft:iron_ingot|63", "minecraft:charcoal|2", "minecraft:soul_sand|2", "minecraft:lapis_lazuli|8", "minecraft:obsidian|4", "minecraft:end_stone|1", "minecraft:gold_ingot|63", "minecraft:netherrack|1", "minecraft:flint|2", "minecraft:clay|4", "minecraft:chorus_fruit|2", "minecraft:quartz|16", "minecraft:honeycomb|4", "minecraft:netherite_scrap|250"]
+		itemExperienceList = ["minecraft:emerald|63", "minecraft:sandstone|1", "minecraft:gravel|1", "minecraft:diamond|125", "minecraft:gunpowder|8", "minecraft:nether_star|500", "minecraft:iron_ingot|63", "minecraft:charcoal|2", "minecraft:soul_sand|2", "minecraft:lapis_lazuli|8", "minecraft:obsidian|4", "minecraft:end_stone|1", "minecraft:gold_ingot|63", "minecraft:netherrack|1", "minecraft:flint|2", "minecraft:clay|4", "minecraft:chorus_fruit|2", "minecraft:quartz|16", "minecraft:honeycomb|4", "minecraft:netherite_scrap|250"]
 
 	#Kraken Shell settings
 	[items.krakenShell]

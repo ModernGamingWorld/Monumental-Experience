@@ -20,19 +20,19 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 1024
+	motor_max_input = 5000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 2048
+	motor_capacity = 5000
 
 #Alternator
 [alternator]
 	#Alternator max input in FE (Energy transfer, not generation).
 	#Range: > 0
-	generator_max_output = 1024
+	generator_max_output = 5000
 	#Alternator internal capacity in FE.
 	#Range: > 0
-	generator_capacity = 2048
+	generator_capacity = 5000
 	#Alternator efficiency relative to base conversion rate.
 	#Range: 0.01 ~ 1.0
 	generator_efficiency = 0.75
@@ -48,32 +48,43 @@
 
 #Wires
 [wires]
-	#Connector max input in FE/t (Energy transfer).
+	#Small Connector max input in FE/t (Energy transfer).
 	#Range: > 0
-	connector_max_input = 1024
-	#Connector max output in FE/t (Energy transfer).
+	small_connector_max_input = 1024
+	#Small Connector max output in FE/t (Energy transfer).
 	#Range: > 0
-	connector_max_output = 1024
-	#Connector internal input buffer in FE.
-	#Range: > 0
-	connector_input_capacity = 2048
-	#Max wire length in blocks.
+	small_connector_max_output = 1024
+	#Small Connector max wire length in blocks.
 	#Range: 0 ~ 256
-	wire_length = 12
+	small_connector_wire_length = 16
+	#Large Connector max input in FE/t (Energy transfer).
+	#Range: > 0
+	large_connector_max_input = 4096
+	#Large Connector max output in FE/t (Energy transfer).
+	#Range: > 0
+	large_connector_max_output = 4096
+	#Large Connector max wire length in blocks.
+	#Range: 0 ~ 256
+	large_connector_wire_length = 32
 	#Ignore checking if block face can support connector.
-	connector_ignore_face_check = false
+	connector_ignore_face_check = true
+	#Allows blocks attached to a connector to freely pass energy to and from the connector network.
+	connector_allow_passive_io = true
+	#Small Connector With Light energy consumption in FE/t.
+	#Range: > 0
+	small_light_connector_consumption = 1
 
 #Accumulator
 [accumulator]
 	#Accumulator max input in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_input = 1024
+	accumulator_max_input = 5000
 	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_output = 1024
+	accumulator_max_output = 5000
 	#Accumulator internal capacity per block in FE.
 	#Range: > 0
-	accumulator_capacity = 2048000
+	accumulator_capacity = 2000000
 	#Accumulator max multiblock height.
 	#Range: 1 ~ 8
 	accumulator_max_height = 5
@@ -81,23 +92,32 @@
 	#Range: 1 ~ 8
 	accumulator_max_width = 3
 
+#Portable Energy Interface
+[portable_energy_interface]
+	#PEI max input in FE/t (Energy transfer).
+	#Range: > 0
+	pei_max_input = 5000
+	#PEI max output in FE/t (Energy transfer).
+	#Range: > 0
+	pei_max_output = 5000
+
 #Tesla Coil
 [tesla_coil]
 	#Tesla Coil max input in FE/t (Energy transfer).
 	#Range: > 0
-	tesla_coil_max_input = 8192
+	tesla_coil_max_input = 10000
 	#Tesla Coil charge rate in FE/t.
 	#Range: > 0
-	tesla_coil_charge_rate = 4096
+	tesla_coil_charge_rate = 5000
 	#Tesla Coil charge rate in FE/t for recipes.
 	#Range: > 0
-	tesla_coil_recipe_charge_rate = 1024
+	tesla_coil_recipe_charge_rate = 2000
 	#Tesla Coil internal capacity in FE.
 	#Range: > 0
-	tesla_coil_capacity = 32000
+	tesla_coil_capacity = 40000
 	#Energy consumed when Tesla Coil is fired (in FE).
 	#Range: > 0
-	tesla_coil_hurt_energy_required = 1024
+	tesla_coil_hurt_energy_required = 1000
 	#Hurt range (in blocks/meters).
 	#Range: > 0
 	tesla_coil_hurt_range = 3
@@ -125,13 +145,4 @@
 	#Barbed Wire Damage.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	barbed_wire_damage = 2.0
-
-#Portable Energy Interface
-[portable_energy_interface]
-	#PEI max input in FE/t (Energy transfer).
-	#Range: > 0
-	pei_max_input = 4096
-	#PEI max output in FE/t (Energy transfer).
-	#Range: > 0
-	pei_max_output = 4096
 

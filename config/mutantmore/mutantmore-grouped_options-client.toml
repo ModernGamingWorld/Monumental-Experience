@@ -1,0 +1,12 @@
+#Configure groups of Mutant More config options on client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# 
+# If health bars for the mutants in Mutant More should appear while fighting them
+# usually set to false
+"Show Health Bars On" = false
+#
+# 
+# If battle music is prevented from playing when fighting the mutants in Mutant More
+# usually set to false
+"Play Battle Music Off" = false
+

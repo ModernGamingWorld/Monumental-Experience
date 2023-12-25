@@ -1,0 +1,14 @@
+#Configure Mutant More's Mutant Blaze on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# If a health bar for the Mutant Shulker should appear while fighting it
+# usually set to false
+"Show Boss Bar" = false
+#
+# If battle music should play when fighting the Mutant Blaze
+# usually set to true
+"Play Battle Music" = true
+#
+# If the Mutant Blaze should appear armoured with Nether Bricks
+# usually set to true
+"Armoured Texture" = true
+

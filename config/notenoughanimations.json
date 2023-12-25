@@ -1,20 +1,12 @@
 {
   "configVersion": 8,
   "animationSmoothingSpeed": 20.0,
-  "holdingItems": [
-    "minecraft:clock",
-    "minecraft:recovery_compass",
-    "minecraft:soul_lantern",
-    "minecraft:compass",
-    "minecraft:torch",
-    "minecraft:lantern",
-    "minecraft:soul_torch"
-  ],
+  "holdingItems": [],
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,
   "enableOffhandHiding": true,
   "enableRotationLocking": true,
-  "enableLadderAnimation": true,
+  "enableLadderAnimation": false,
   "ladderAnimationAmplifier": 0.35,
   "ladderAnimationArmHeight": 1.7,
   "ladderAnimationArmSpeed": 2.0,

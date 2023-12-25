@@ -1,0 +1,38 @@
+#Configure Mutant More's Mutant Shulker Shield on client and server side (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The Mutant Shulker Shield's durability
+# usually set to 672
+Durability = 672
+#
+# The damage dealt to mobs caught in the explosion caused when a Mutant Shulker Bullet fired by the Mutant Shulker Shield collides with blocks or mobs
+# usually set to 8.0
+"Bullet Damage" = 8.0
+#
+# The amount of time in ticks (20 ticks in a second) that the Mutant Shulker Shield can't be used for after using it to shoot a Mutant Shulker Bullet
+# usually set to 200 ticks (10 seconds)
+"Shoot Cooldown" = 200
+#
+# If Mutant Shulker Bullets fired by the Mutant Shulker Shield destroy blocks when they explode
+# usually set to false
+"Bullet Griefing" = false
+#
+# If blocks destroyed by Mutant Shulker Bullets fired by the Mutant Shulker Shield exploding drop themselves as items, allowing them to be recovered, impacts performance
+# usually set to true
+"Bullet Griefing Drops Blocks" = true
+#
+# The size of explosions caused when Mutant Shulker Bullets fired by the Mutant Shulker Shield collide with blocks or mobs
+# usually set to 2.0
+"Bullet Explosion Size" = 2.0
+#
+# The length in ticks (20 ticks in a second) that the Levitation effect is applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker Shield for
+# usually set to 100 (5 seconds)
+"Bullet Levitation Length" = 100
+#
+# The level of the Levitation effect applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker Shield
+# usually set to 3 (Levitation 4)
+"Bullet Levitation Level" = 3
+#
+# The amount that the Mutant Shulker Shield decreases the speed of mobs holding it
+# usually set to 0.0125
+"Carrying Movement Speed Decrease" = 0.0125
+

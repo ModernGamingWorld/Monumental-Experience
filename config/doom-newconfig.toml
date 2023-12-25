@@ -22,6 +22,20 @@
 	"Mason Trades Toggle" = true
 
 [Weapons]
+	#Range: > 1
+	"Max Uses of Marauder Axe" = 24
+	#Range: > 1
+	"Damage of Marauder Axe" = 200
+	#Range: > 1
+	"Max Uses of Crucible" = 24
+	#Range: > 1
+	"Damage of Darklord Crucible" = 200
+	#Range: > 1
+	"Max Uses of Darklord Crucible" = 24
+	#Range: > 1
+	"Max Uses of Sentienl Hammer" = 24
+	#Range: > 1
+	"Damage of Sentienl Hammer" = 25
 	"Should Rockets/BFG Break Blocks" = false
 	"Should Weapons Be Centered" = false
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -52,20 +66,6 @@
 	"Chainsaw Damage" = 2.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Max Meathook Distance" = 32.0
-	#Range: > 1
-	"Max Uses of Marauder Axe" = 24
-	#Range: > 1
-	"Damage of Marauder Axe" = 200
-	#Range: > 1
-	"Max Uses of Crucible" = 24
-	#Range: > 1
-	"Damage of Darklord Crucible" = 200
-	#Range: > 1
-	"Max Uses of Darklord Crucible" = 24
-	#Range: > 1
-	"Max Uses of Sentienl Hammer" = 24
-	#Range: > 1
-	"Damage of Sentienl Hammer" = 25
 
 ["Mob Settings:Imps"]
 	#Sets Imp Max Health

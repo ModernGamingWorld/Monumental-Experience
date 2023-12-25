@@ -12,10 +12,10 @@
 	#The chance that a sleeping bag will break upon usage
 	#Range: 0.0 ~ 1.0
 	sleepingBagBreakage = 0.0
-	#The value that will be multiplied by a player's luck then added/subtracted from the sleepingBagBreakage value
-	#Range: -1.0 ~ 1.0
-	sleepingBagBreakageLuckMultiplier = 0.0
 	#List of debuffs to apply to players after using the sleeping bag
 	#Format: effect;duration(secs);power
 	sleepingBagDebuffs = []
+	#The value that will be multiplied by a player's luck then added/subtracted from the sleepingBagBreakage value
+	#Range: -1.0 ~ 1.0
+	sleepingBagBreakageLuckMultiplier = 0.0
 

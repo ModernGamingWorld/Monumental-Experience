@@ -14,5 +14,9 @@
   "warnMissingRegistryEntry": {
     "desc:": "Prevents crashes for missing registry entries(e.g. a mod update structure ids) and turns them into a log error message instead, default: true",
     "warnMissingRegistryEntry": true
+  },
+  "disableLegacyRandomCrashes": {
+    "desc:": "Prevents crashes for multithreaded access of thread specific randoms, default: true",
+    "disableLegacyRandomCrashes": true
   }
 }

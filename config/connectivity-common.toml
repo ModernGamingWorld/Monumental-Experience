@@ -8,10 +8,10 @@
 	debugPrintMessages = false
 	#Set the max login timeout in ticks. 20 ticks = 1 sec, default = 120 seconds
 	#Range: 600 ~ 20000
-	logintimeout = 7200
+	logintimeout = 2400
 	#Set the ingame disconnect timeout for disconnecting players. Default = 60sec
 	#Range: 15 ~ 400
-	disconnectTimeout = 400
+	disconnectTimeout = 60
 	#Set the amount of minutes for which network packet history data is saved. Default = 5 minutes
 	#Range: 1 ~ 400
 	packetHistoryMinutes = 5

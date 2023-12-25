@@ -22,4 +22,7 @@
 	#WARNING! THE FOLLOWING ALLOWS FOR MAJOR GRIEFING!!
 	#Only enable if you understand players could loose their stuff...
 	allow_toss = false
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []
 

@@ -140,7 +140,7 @@
 	#Oredictionificator Settings
 	[general.oredictionificator]
 		#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add in accidental conversions of things that are not actually equivalent.
-		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/", "forge:storage_blocks/"]
+		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/", "forge:raw_materials/", "forge:storage_blocks/"]
 
 	#Pump Settings
 	[general.pump]
@@ -149,12 +149,12 @@
 		maxPumpRange = 80
 		#If enabled makes Water and Heavy Water blocks be removed from the world on pump.
 		pumpWaterSources = false
-		#Fluidic Plenisher stops after this many blocks.
-		#Range: 1 ~ 1000000
-		maxPlenisherNodes = 4000
 		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
 		#Range: 1 ~ 1000
 		pumpHeavyWaterAmount = 10
+		#Fluidic Plenisher stops after this many blocks.
+		#Range: 1 ~ 1000000
+		maxPlenisherNodes = 4000
 
 	#Quantum Entangloporter Settings
 	[general.quantum_entangloporter]

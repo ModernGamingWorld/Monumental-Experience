@@ -19,4 +19,7 @@
 	augment_limits = []
 	#Allows the glyph to hit players, and disenchant held items. Cool but kinda grief-y feature.
 	affect_players = false
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []
 

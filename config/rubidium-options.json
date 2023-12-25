@@ -1,6 +1,6 @@
 {
   "quality": {
-    "weather_quality": "DEFAULT",
+    "weather_quality": "FANCY",
     "leaves_quality": "DEFAULT",
     "enable_vignette": true
   },
@@ -15,10 +15,12 @@
     "chunk_builder_threads": 0,
     "always_defer_chunk_updates": false,
     "animate_only_visible_textures": true,
-    "use_entity_culling": true,
+    "use_entity_culling": false,
     "use_particle_culling": true,
-    "use_fog_occlusion": true,
-    "use_block_face_culling": true
+    "use_fog_occlusion": false,
+    "use_block_face_culling": true,
+    "use_compact_vertex_format": true,
+    "use_translucent_face_sorting": false
   },
   "notifications": {
     "hide_donation_button": true

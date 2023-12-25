@@ -29,16 +29,16 @@
     B:DisableQuoteSubtitles=false
 
     # Whether or not button for accessing Ender Chest should be added to inventory GUI when player has Ring of Ender equipped. [default: true]
-    B:EnderChestButtonEnabled=false
+    B:EnderChestButtonEnabled=true
 
     # Allows to set offset for Ender Chest button on X axis. [range: -32768 ~ 32768, default: 0]
-    I:EnderChestButtonOffsetX=-5
+    I:EnderChestButtonOffsetX=-75
 
     # Allows to set offset for Ender Chest button on X axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
     I:EnderChestButtonOffsetXCreative=0
 
     # Allows to set offset for Ender Chest button on Y axis. [range: -32768 ~ 32768, default: 0]
-    I:EnderChestButtonOffsetY=0
+    I:EnderChestButtonOffsetY=-39
 
     # Allows to set offset for Ender Chest button on Y axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
     I:EnderChestButtonOffsetYCreative=0
@@ -53,13 +53,13 @@
     B:MagnetRingButtonEnabled=true
 
     # Allows to set offset for Magnet Effects button on X axis. [range: -32768 ~ 32768, default: 0]
-    I:MagnetRingButtonOffsetX=-5
+    I:MagnetRingButtonOffsetX=-52
 
     # Allows to set offset for Magnet Effects button on X axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
     I:MagnetRingButtonOffsetXCreative=0
 
     # Allows to set offset for Magnet Effects button on Y axis. [range: -32768 ~ 32768, default: 0]
-    I:MagnetRingButtonOffsetY=0
+    I:MagnetRingButtonOffsetY=-20
 
     # Allows to set offset for Magnet Effects button on Y axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
     I:MagnetRingButtonOffsetYCreative=0

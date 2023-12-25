@@ -1,3 +1,12 @@
 Rick,
 Bob,
-Eve
+Eve,
+Modern,
+Julo,
+Buzz,
+Woody,
+Spongebob,
+Sandy,
+Squidward,
+Grotts,
+Legion

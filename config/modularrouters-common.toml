@@ -60,6 +60,8 @@
 	extruderPushEntities = true
 	#Should Breaker & Extruder Mk1 Modules respect the harvest level of the pickaxe used to craft them? (e.g. craft with an Iron Pickaxe => can't break Obsidian
 	breakerHarvestLevelLimit = true
+	#Dimension ID's which the Sender Mk3 cannot send to or from, and the Player Module cannot operate (both router dimension and player dimension are checked). This can be wildcarded, e.g. 'somemod:*' blacklists all dimensions added by the mod 'somemod'
+	dimensionBlacklist = []
 
 [Router]
 	#Base tick interval (in server ticks) for a router; router will run this often

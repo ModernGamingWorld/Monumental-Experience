@@ -3,37 +3,38 @@
 "Enable Elder Guardian" = true
 
 [Wither]
-	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
-	"Enable Health" = true
+	#Handles the Damage Resistances and Vulnerabilities
+	"Enable Resistances & Vulnerabilities" = true
 	#How difficulty is handled for the Wither.
 	"Enable Difficulty Settings" = true
-	#Handles various small features, such as the explosion
-	"Enable Misc" = true
-	#Bonus Experience and Drops
-	"Enable Rewards" = true
 	#Wither will spawn deadly Minions
 	"Enable Minions" = true
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	"Enable Attack" = true
-	#Handles the Damage Resistances and Vulnerabilities
-	"Enable Resistances & Vulnerabilities" = true
-
 	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
-	[Wither.Health]
-		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 720.0
-		#Maximum bonus regeneration per second given by "Bonus Regeneration".
-		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
-		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Maximum Bonus Regeneration" = 2.0
-		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Regeneration" = 2.4
-		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 3 seconds.
-		#Range: 0.0 ~ 2.0
-		"Bonus Regeneration Ratio When Hit" = 0.6
+	"Enable Health" = true
+	#Bonus Experience and Drops
+	"Enable Rewards" = true
+	#Handles various small features, such as the explosion
+	"Enable Misc" = true
+
+	#Handles the Damage Resistances and Vulnerabilities
+	[Wither."Resistances & Vulnerabilities"]
+		#Percentage Melee Damage Reduction (at max difficulty) while the Wither is above half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction above half health" = 0.24
+		#Cap for 'Melee Damage reduction above half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction before half health" = 0.24
+		#Percentage Melee Damage Reduction (at max difficulty) as the Wither drops below half health.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction below half health" = 0.48
+		#Cap for 'Melee Damage Reduction below half health'
+		#Range: 0.0 ~ 1.0
+		"Max Melee Damage reduction below half health" = 0.48
+		#Bonus magic damage based off missing health. 250 means that every 250 missing health the damage will be amplified by 100%. E.g. The first Wither (with 300 max health) is at 50 health (so it's missing 250hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (250 / 250 + 1)' = 'magic_damage * 2'.
+		#Range: 0.0 ~ 1024.0
+		"Magic Damage Bonus" = 250.0
 
 	#How difficulty is handled for the Wither.
 	[Wither."Difficulty Settings"]
@@ -59,34 +60,6 @@
 			Blacklist = ["botania:pink_wither"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
-
-	#Handles various small features, such as the explosion
-	[Wither.Misc]
-		#How much explosion power (after the invulnerability) will the Wither have at max difficulty. Explosion Radius is capped to 13. Base Wither Explosion Power is 7.0. Setting this to 0 will not increase the Wither Explosion Power
-		#Range: 0.0 ~ 8.0
-		"Explosion Power Bonus" = 8.0
-		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
-		#Range: > -1
-		"Explosion Causes Fire at Difficulty" = -1
-		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
-		"Faster Breaking Blocks" = true
-		#The Wither will break even blocks below him when hit.
-		"Bigger Breaking Blocks" = true
-		#If true the Wither will break even blocks that are wither-proof. Unbreakable blocks will still be unbreakable, so it's really useful with other mods as in vanilla Wither Proof Blocks are all the unbreakable blocks.
-		"Ignore Wither-proof Blocks" = false
-		#The wither can only be spawned in the Nether.
-		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
-		#Requires Minecraft restart.
-		"Wither Nether Only" = false
-
-	#Bonus Experience and Drops
-	[Wither.Rewards]
-		#How much more experience (percentage, 60 means +6000%) will Wither drop at max Difficulty.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience" = 60.0
-		#If true default mod drops are added to the Wither.
-		#Note that replacing the Wither loot table (e.g. via DataPack) will automatically remove the Injected loot.
-		"Inject Default Loot" = true
 
 	#Wither will spawn deadly Minions
 	[Wither.Minions]
@@ -180,35 +153,68 @@
 			#Range: 0.0 ~ 1.0
 			"Bonus when near" = 0.6
 
-	#Handles the Damage Resistances and Vulnerabilities
-	[Wither."Resistances & Vulnerabilities"]
-		#Percentage Melee Damage Reduction (at max difficulty) while the Wither is above half health.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction above half health" = 0.24
-		#Cap for 'Melee Damage reduction above half health'
-		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction before half health" = 0.24
-		#Percentage Melee Damage Reduction (at max difficulty) as the Wither drops below half health.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction below half health" = 0.48
-		#Cap for 'Melee Damage Reduction below half health'
-		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction below half health" = 0.48
-		#Bonus magic damage based off missing health. 250 means that every 250 missing health the damage will be amplified by 100%. E.g. The first Wither (with 300 max health) is at 50 health (so it's missing 250hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (250 / 250 + 1)' = 'magic_damage * 2'.
-		#Range: 0.0 ~ 1024.0
-		"Magic Damage Bonus" = 250.0
+	#Bonus Health and Bonus regeneration. The feature even fixes the Wither health bar not updating on spawn.
+	[Wither.Health]
+		#Increase Wither's Health by this value at max difficulty (scales accordingly at lower difficulties)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus per Difficulty" = 720.0
+		#Maximum bonus regeneration per second given by "Bonus Regeneration".
+		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
+		#Note that this bonus health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when reaches half health.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Maximum Bonus Regeneration" = 2.0
+		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Regeneration" = 2.4
+		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 3 seconds.
+		#Range: 0.0 ~ 2.0
+		"Bonus Regeneration Ratio When Hit" = 0.6
+
+	#Bonus Experience and Drops
+	[Wither.Rewards]
+		#How much more experience (percentage, 60 means +6000%) will Wither drop at max Difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience" = 60.0
+		#If true default mod drops are added to the Wither.
+		#Note that replacing the Wither loot table (e.g. via DataPack) will automatically remove the Injected loot.
+		"Inject Default Loot" = true
+
+	#Handles various small features, such as the explosion
+	[Wither.Misc]
+		#How much explosion power (after the invulnerability) will the Wither have at max difficulty. Explosion Radius is capped to 13. Base Wither Explosion Power is 7.0. Setting this to 0 will not increase the Wither Explosion Power
+		#Range: 0.0 ~ 8.0
+		"Explosion Power Bonus" = 8.0
+		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
+		#Range: > -1
+		"Explosion Causes Fire at Difficulty" = -1
+		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
+		"Faster Breaking Blocks" = true
+		#The Wither will break even blocks below him when hit.
+		"Bigger Breaking Blocks" = true
+		#If true the Wither will break even blocks that are wither-proof. Unbreakable blocks will still be unbreakable, so it's really useful with other mods as in vanilla Wither Proof Blocks are all the unbreakable blocks.
+		"Ignore Wither-proof Blocks" = false
+		#The wither can only be spawned in the Nether.
+		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
+		#Requires Minecraft restart.
+		"Wither Nether Only" = false
 
 ["Elder Guardian"]
-	#More damage and attack speed based off Elder Guardians Defeated
-	"Enable Attack" = true
 	#Handles the Damage Resistances
 	"Enable Resistances" = true
 	#Elder Guardians will spawn Elder Minions.
 	"Enable Minions" = true
-	#Bonus Health and Health regeneration.
-	"Enable Health" = true
 	#Bonus Experience and Dragon Egg per player
 	"Enable Rewards" = true
+	#Bonus Health and Health regeneration.
+	"Enable Health" = true
+	#More damage and attack speed based off Elder Guardians Defeated
+	"Enable Attack" = true
+
+	#Handles the Damage Resistances
+	["Elder Guardian".Resistances]
+		#Percentage Damage Reduction for each Elder Guardian Defeated.
+		#Range: 0.0 ~ 1.0
+		"Damage Reduction per Elder Guardian Defeated" = 0.3
 
 	#Base feature for the Elder Guardian harder fights.
 	["Elder Guardian".Base]
@@ -218,21 +224,6 @@
 		#Range: 4.9E-324 ~ 1.7976931348623157E308
 		"Adventure mode Range" = 48.0
 
-	#More damage and attack speed based off Elder Guardians Defeated
-	["Elder Guardian".Attack]
-		#Percentage Bonus damage per defeated Elder Guardian.
-		#Range: 0.0 ~ 128.0
-		"Bonus Damage per Elder Guardian Defeated" = 0.0
-		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
-		#Range: 0 ~ 60
-		"Attack Duration Reduction per Elder Guardian Defeated" = 25
-
-	#Handles the Damage Resistances
-	["Elder Guardian".Resistances]
-		#Percentage Damage Reduction for each Elder Guardian Defeated.
-		#Range: 0.0 ~ 1.0
-		"Damage Reduction per Elder Guardian Defeated" = 0.3
-
 	#Elder Guardians will spawn Elder Minions.
 	["Elder Guardian".Minions]
 		#Elder Guardians will spawn Elder Minions every this tick value (20 ticks = 1 sec).
@@ -241,18 +232,6 @@
 		#The base cooldown is reduced by this value for each missing Elder Guardian.
 		#Range: > 0
 		"Cooldown Reduction per Missing Elder" = 60
-
-	#Bonus Health and Health regeneration.
-	["Elder Guardian".Health]
-		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 0.5
-		#Adds absorption health to Elder Guradians (health that doesn't regen)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Absorption Health" = 40.0
-		#Health Regen per second
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Regen" = 0.5
 
 	#Bonus Experience and Dragon Egg per player
 	["Elder Guardian".Rewards]
@@ -266,64 +245,42 @@
 		#Note that replacing the Elder Guardian loot table (e.g. via DataPack) will automatically remove the Injected loot.
 		"Inject Default Loot" = true
 
+	#Bonus Health and Health regeneration.
+	["Elder Guardian".Health]
+		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus per Difficulty" = 0.5
+		#Adds absorption health to Elder Guradians (health that doesn't regen)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Absorption Health" = 40.0
+		#Health Regen per second
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Regen" = 0.5
+
+	#More damage and attack speed based off Elder Guardians Defeated
+	["Elder Guardian".Attack]
+		#Percentage Bonus damage per defeated Elder Guardian.
+		#Range: 0.0 ~ 128.0
+		"Bonus Damage per Elder Guardian Defeated" = 0.0
+		#How many ticks faster will Elder Guardian attack (multiplied by defeated Elder Guardians). Vanilla Attack Duration is 60 ticks (3 secs)
+		#Range: 0 ~ 60
+		"Attack Duration Reduction per Elder Guardian Defeated" = 25
+
 ["Ender Dragon"]
-	#Bonus Experience and Dragon Egg per player
-	"Enable Rewards" = true
-	#Handles the Damage Resistances and Vulnerabilities
-	"Enable Resistances & Vulnerabilities" = true
-	#Mini things that are just annoying.
-	"Enable Larva" = true
 	#Bonus Health and Bonus regeneration.
 	"Enable Health" = true
 	#Makes the dragon hit harder in various different ways
 	"Enable Attack" = true
+	#Mini things that are just annoying.
+	"Enable Larva" = true
+	#Bonus Experience and Dragon Egg per player
+	"Enable Rewards" = true
 	#Shulkers that will make you float around.
 	"Enable Minions" = true
 	#Makes more Crystal spawn and with more cages.
 	"Enable Crystals" = true
-
-	#Bonus Experience and Dragon Egg per player
-	["Ender Dragon".Rewards]
-		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Experience" = 36.0
-		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
-		"Dragon Egg per Player" = true
-		#If true default mod drops are added to the Ender Dragon.
-		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.
-		"Inject Default Loot" = true
-
 	#Handles the Damage Resistances and Vulnerabilities
-	["Ender Dragon"."Resistances & Vulnerabilities"]
-		#Melee Damage reduction at max difficulty while the Ender Dragon is at the center.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage reduction while at the center" = 0.24
-		#Melee Damage is increased by this percentage while the Ender Dragon is not at the center.
-		#Range: 0.0 ~ 1.0
-		"Melee Damage increase while not at the center" = 0.24
-		#Damage reduction when hit by explosions (firework rockets excluded).
-		#Range: 0.0 ~ 1.0
-		"Explosion Damage reduction" = 0.667
-
-	#Mini things that are just annoying.
-	["Ender Dragon".Larva]
-		#At which difficulty the Ender Dragon starts spawning Larvae
-		#Range: > 0
-		"Larva at Difficulty" = 1
-		#As the Ender Dragon starts spawning Minions, every how much difficulty she will spawn one more Minions
-		#Range: > 0
-		"Bonus Larva Every Difficulty" = 1
-		#Maximum Larva spawned by the Ender Dragon
-		#Range: > 0
-		"Max Larvae Spawned" = 7
-		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
-		#Range: > 0
-		"Minimum Cooldown" = 800
-		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
-		#Range: > 0
-		"Maximum Cooldown" = 1400
-		#If true, Larvae will take only 10% damage from the Ender Dragon.
-		"Reduced Dragon Damage" = true
+	"Enable Resistances & Vulnerabilities" = true
 
 	#Bonus Health and Bonus regeneration.
 	["Ender Dragon".Health]
@@ -342,22 +299,6 @@
 		#Bonus regeneration (also bonus crystal regen) will be multiplied by this ratio when the Dragon has been hit in the last 3 seconds.
 		#Range: 0.0 ~ 2.0
 		"Bonus Regeneration Ratio When Hit" = 0.4
-
-	#How difficulty is handled for the Dragon.
-	["Ender Dragon"."Difficulty Settings"]
-		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
-		#Range: > 1
-		"Max Difficulty" = 8
-		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
-		#Range: > 0
-		"Starting Difficulty" = 0
-		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
-		"Sum Killed Dragons Difficulty" = false
-		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Difficulty per Player" = 0.25
-		#Set to false to disable the first Dragon killed message.
-		"Show First Killed Dragon Message" = true
 
 	#Makes the dragon hit harder in various different ways
 	["Ender Dragon".Attack]
@@ -389,6 +330,53 @@
 		#The dragon will fire (up to) this more fireballs at max difficulty. The bonus fireballs have a slight shotting error so aren't all directly aimed at the player.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Fireballs" = 15.0
+
+	#Mini things that are just annoying.
+	["Ender Dragon".Larva]
+		#At which difficulty the Ender Dragon starts spawning Larvae
+		#Range: > 0
+		"Larva at Difficulty" = 1
+		#As the Ender Dragon starts spawning Minions, every how much difficulty she will spawn one more Minions
+		#Range: > 0
+		"Bonus Larva Every Difficulty" = 1
+		#Maximum Larva spawned by the Ender Dragon
+		#Range: > 0
+		"Max Larvae Spawned" = 7
+		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
+		#Range: > 0
+		"Minimum Cooldown" = 800
+		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
+		#Range: > 0
+		"Maximum Cooldown" = 1400
+		#If true, Larvae will take only 10% damage from the Ender Dragon.
+		"Reduced Dragon Damage" = true
+
+	#Bonus Experience and Dragon Egg per player
+	["Ender Dragon".Rewards]
+		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Experience" = 36.0
+		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
+		"Dragon Egg per Player" = true
+		#If true default mod drops are added to the Ender Dragon.
+		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.
+		"Inject Default Loot" = true
+
+	#How difficulty is handled for the Dragon.
+	["Ender Dragon"."Difficulty Settings"]
+		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
+		#Range: > 1
+		"Max Difficulty" = 8
+		#How much difficulty will players start with when joining a world? Note that this will apply when the player joins the world if the current player difficulty is below this value.
+		#Range: > 0
+		"Starting Difficulty" = 0
+		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
+		"Sum Killed Dragons Difficulty" = false
+		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Bonus Difficulty per Player" = 0.25
+		#Set to false to disable the first Dragon killed message.
+		"Show First Killed Dragon Message" = true
 
 	#Shulkers that will make you float around.
 	["Ender Dragon".Minions]
@@ -437,4 +425,16 @@
 		"Crystal Respawn Per Difficulty" = 3.0
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
+
+	#Handles the Damage Resistances and Vulnerabilities
+	["Ender Dragon"."Resistances & Vulnerabilities"]
+		#Melee Damage reduction at max difficulty while the Ender Dragon is at the center.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage reduction while at the center" = 0.24
+		#Melee Damage is increased by this percentage while the Ender Dragon is not at the center.
+		#Range: 0.0 ~ 1.0
+		"Melee Damage increase while not at the center" = 0.24
+		#Damage reduction when hit by explosions (firework rockets excluded).
+		#Range: 0.0 ~ 1.0
+		"Explosion Damage reduction" = 0.667
 

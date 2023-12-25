@@ -22,10 +22,15 @@ customization {
 }
 
 customization {
+  identifier = %id=9755%
+  action = hidebutton
+}
+
+customization {
   advanced_height = 69
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://bisecthosting.com/BedrockLegends%btnaction_splitter_fm%
+  buttonaction = openlink;https://bisecthosting.com/ModernGamingWorld%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/customimages/menu/horizontal_dark_wordmark.png
   label = 
   advanced_width = 200
@@ -55,10 +60,5 @@ customization {
   y = -37
   backgroundnormal = config/fancymenu/customimages/menu/bh_me_twitch.png
   height = 37
-}
-
-customization {
-  identifier = %id=9755%
-  action = hidebutton
 }
 

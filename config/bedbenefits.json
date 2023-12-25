@@ -1,6 +1,6 @@
 {
   "restoreHealth": {
-    "healAmount": 10.0,
+    "healAmount": 5.0,
     "requiredFoodAmount": 0
   },
   "sleepOffEffects": {

@@ -1,0 +1,10 @@
+#Configure Mutant More's Mutant Shulker on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# If a health bar for the Mutant Shulker should appear while fighting it
+# usually set to false
+"Show Boss Bar" = false
+#
+# If battle music should play when fighting the Mutant Shulker
+# usually set to true
+"Play Battle Music" = true
+

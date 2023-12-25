@@ -1,0 +1,312 @@
+
+#Configure Mutant More's Mutant Shulker on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!Stat Options
+[stat_config]
+	#
+	# The amount of Experience dropped by the Mutant Shulker when it dies
+	# usually set to 60
+	"Experience Reward" = 60
+	#
+	# The Mutant Shulker's max health
+	# usually set to 300
+	"Max Health" = 300.0
+	#
+	# The Mutant Shulker's movement speed
+	# usually set to 0.275D
+	"Movement Speed" = 0.275
+	#
+	# The speed that the Mutant Shulker moves while flying
+	# usually set to 1.0
+	"Flying Movement Speed" = 1.0
+	#
+	# The Mutant Shulker's resistance to attack knockback
+	# usually set to 1.0 (no knockback)
+	"Knockback Resistance" = 1.0
+	#
+	# The Mutant Shulker's armour value
+	# usually set to 10.0
+	Armour = 10.0
+	#
+	# The Mutant Shulker's armour toughness value
+	# usually set to 0.0
+	"Armour Toughness" = 0.0
+	#
+	# The distance that the Mutant Shulker can target players from
+	# usually set to 64.0
+	"Follow Player Distance" = 64.0
+	#
+	# The distance that the Mutant Shulker can target non-player entities from
+	# usually set to 15.0
+	"Follow Non-Player Distance" = 25.0
+	#
+	# The damage dealt to mobs caught in the explosion caused when a Mutant Shulker Bullet fired by the Mutant Shulker collides with blocks or mobs
+	# usually set to 8.0
+	"Mutant Shulker Bullet Damage" = 8.0
+	#
+	# The amount of times that a Mutant Shulker Bullet fired by the Mutant Shulker can be hit before it is destroyed
+	# usually set to 3
+	"Mutant Shulker Bullet Hits" = 3
+	#
+	# The size of explosions caused when Mutant Shulker Bullets fired by the Mutant Shulker collide with blocks or mobs
+	# usually set to 2.0
+	"Mutant Shulker Bullet Explosion Size" = 2.0
+	#
+	# The length in ticks (20 ticks in a second) that the Levitation effect is applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker for
+	# usually set to 100 ticks (5 seconds)
+	"Mutant Shulker Bullet Levitation Length" = 100
+	#
+	# The level of the Levitation effect applied to mobs hit by Mutant Shulker Bullets fired by the Mutant Shulker
+	# usually set to 3 (Levitation 4)
+	"Mutant Shulker Bullet Levitation Level" = 3
+	#
+	# The damage that the Mutant Shulker's bite attack deals
+	# usually set to 25.0
+	"Bite Damage" = 25.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Shulker disables its target's Shield for if they block its bite attack
+	# usually set to 160 ticks (8 seconds)
+	"Bite Disable Shield Length" = 160
+	#
+	# The damage that the Mutant Shulker deals when flying into mobs
+	# usually set to 10.0
+	"Fly Damage" = 10.0
+	#
+	# The damage that the Mutant Shulker's anvil crush attack deals
+	# usually set to 30.0
+	"Anvil Crush Damage" = 30.0
+	#
+	# The damage that the explosion caused when the Mutant Shulker dies deals
+	# usually set to 30.0
+	"Death Explosion Damage" = 30.0
+	#
+	# If the Mutant Shulker's attacks ignore the brief invulnerability mobs get when damaged
+	# Makes sure the Mutant Shulker's attacks always hit when they're supposed to
+	# usually set to true
+	"Ignores Invulnerability Time" = true
+	#
+	# The amount that the Mutant Shulker heals itself while in its shell every shell heal intervalusually set to 1.0
+	"Shell Heal Amount" = 1.0
+	#
+	# The interval in ticks (20 ticks in a second) between the Mutant Shulker healing itself while in its shellusually set to 20 ticks (1 second)
+	"Shell Heal Interval" = 10
+
+#AI Options
+[ai_config]
+	#
+	# If the Mutant Shulker enters its shell to heal
+	# usually set to true
+	"Enters Shell" = true
+	#
+	# If the Mutant Shulker leaves its shell after healing
+	# usually set to true
+	"Leaves Shell" = true
+	#
+	# If the Mutant Shulker uses its fly ability
+	# usually set to true
+	"Uses Fly" = true
+	#
+	# If the Mutant Shulker uses its anvil crush attack
+	# usually set to true
+	"Uses Anvil Crush" = true
+	#
+	# If the Mutant Shulker uses its scatter traps attack
+	# usually set to true
+	"Uses Scatter Traps" = true
+	#
+	# If the Mutant Shulker uses its scatter traps attack while in its shell
+	# usually set to true
+	"Uses Scatter Traps In Shell" = true
+	#
+	# If the Mutant Shulker uses its bite attack
+	# usually set to true
+	"Uses Bite" = true
+	#
+	# If the Mutant Shulker uses its shoot attack
+	# usually set to true
+	"Uses Shoot" = true
+	#
+	# If the Mutant Shulker uses its shoot attack while in its shell
+	# usually set to true
+	"Uses Shoot In Shell" = true
+	#
+	# If the Mutant Shulker attacks players
+	# usually set to true
+	"Attacks Players" = true
+	#
+	# If the Mutant Shulker enters its shell to heal if below full health when it doesn't have a target
+	# usually set to true
+	"No Target Enter Shell" = true
+	#
+	# The amount of health that the Mutant Shulker must heal while in its shell before leaving the shell when it does have a target
+	# usually set to 25.0
+	"Leave Shell Health Healed" = 25.0
+	#
+	# The percentage of max health that the Mutant Shulker must be at or below to enter its shell to heal
+	# usually set to 50%
+	"Enter Shell Health Threshold" = 50
+	#
+	# The amount of time in ticks (20 ticks in a second) after leaving its shell before the Mutant Shulker can enter its shell to heal again
+	# usually set to 400 ticks (20 seconds)
+	"Enter Shell Cooldown" = 400
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will enter its shell if below max health when it doesn't have a target
+	# usually set to 1 in 25
+	"No Target Enter Shell Chance" = 25
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will enter its shell if its health is at or below enter shell health threshold when it has a target
+	# usually set to 1 in 5
+	"Targeting Enter Shell Chance" = 5
+	#
+	# The amount that the Mutant Shulker's movement speed is multiplied when it's pursuing a target
+	# usually set to 1.5
+	"Following Movement Speed Multiplier" = 1.5
+	#
+	# The distance to its target that the Mutant Shulker tries to reach
+	# usually set to 0.0
+	"Follow Target Wanted Distance" = 0.0
+	#
+	# The percentage of max health that the Mutant Shulker must be at or below to use its fly ability
+	# usually set to 75%
+	"Fly Health Threshold" = 75
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Shulker can fly for before having to land
+	# usually set to 400 ticks (20 seconds)
+	"Stop Flying Time" = 400
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Shulker has to wait after flying before it can fly again
+	# usually set to 600 ticks (30 seconds)
+	"Flying Cooldown" = 600
+	#
+	# If the Mutant Shulker enters its shell when it finishes flying
+	# usually set to true
+	"Enters Shell After Flying" = true
+	#
+	# If the Mutant Shulker stops flying if it gets hurt while doing so
+	# usually set to true
+	"Getting Hit Cancels Flying" = true
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will use its anvil crush attack (only used while in its shell)
+	# usually set to 1 in 35
+	"Anvil Crush Chance" = 35
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will use its scatter traps attack
+	# usually set to 1 in 100
+	"Scatter Traps Chance" = 100
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will use its scatter traps attack while in its shell
+	# usually set to 1 in 100
+	"Scatter Traps In Shell Chance" = 100
+	#
+	# The maximum distance from its target that the Mutant Shulker can be to use its bite attack
+	# usually set to 4.0
+	"Maximum Bite Distance" = 4.0
+	#
+	# The maximum distance from its target that the Mutant Shulker can be to damage them using its bite attack
+	# usually set to 5.0
+	"Maximum Bite Damage Distance" = 5.0
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will use its shoot attack
+	# usually set to 1 in 15
+	"Shoot Chance" = 15
+	#
+	# The maximum amount of Mutant Shulker Bullets that can be nearby for the Mutant Shulker to shoot more
+	# usually set to 0
+	"Shoot Max Nearby Mutant Shulker Bullets" = 0
+	#
+	# The chance every tick (20 ticks in a second) if the Mutant Shulker isn't using an ability, that it will use its shoot attack while in its shell
+	# usually set to 1 in 25
+	"Shoot In Shell Chance" = 25
+	#
+	# The maximum amount of Mutant Shulker Bullets that can be nearby for the Mutant Shulker to shoot more while in its shell
+	# usually set to 4
+	"Shoot In Shell Max Nearby Mutant Shulker Bullets" = 4
+	#
+	# If the Mutant Shulker can teleport to avoid being hit
+	# usually set to true
+	"Teleports To Avoid Being Hit" = true
+	#
+	# The chance that the Mutant Shulker will teleport to avoid being hit
+	# usually set to 1 in 5
+	"Teleport to Avoid Being Hit Chance" = 5
+	#
+	# If the Mutant Shulker can teleport to follow its target
+	# usually set to true
+	"Teleports to Follow Target" = true
+	#
+	# If the Mutant Shulker can teleport to confuse its target while flying
+	# usually set to true
+	"Teleports While Flying" = true
+	#
+	# If the Mutant Shulker can teleport to avoid its target while in its shell
+	# usually set to true
+	"Teleports While in Shell" = true
+	#
+	# The chance every tick (20 ticks in a second) that the Mutant Shulker will teleport to follow its target, confuse its target while flying or teleport to avoid its target while in its shell
+	# usually set to 1 in 125
+	"Basic Teleport Chance" = 125
+	#
+	# If the Mutant Shulker teleports to avoid water
+	# usually set to true
+	"Teleports in Water" = true
+	#
+	# If the Mutant Shulker teleports to avoid falling into the void and dying
+	# usually set to true
+	"Teleports to Avoid Falling Into The Void" = true
+
+#Griefing Options
+[griefing_config]
+	#
+	# If Mutant Shulker Bullets fired by the Mutant Shulker destroy blocks when they explode
+	# usually set to true
+	"Mutant Shulker Bullet Griefing" = true
+	#
+	# If blocks destroyed by Mutant Shulker Bullets fired by the Mutant Shulker exploding drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Mutant Shulker Bullet Griefing Drops Blocks" = false
+	#
+	# If the Mutant Shulker destroys blocks when it explodes when dying
+	# usually set to true
+	"Death Griefing" = true
+	#
+	# If blocks destroyed by Mutant Shulker exploding when dying drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Death Griefing Drops Blocks" = false
+	#
+	# If the Mutant Shulker breaks blocks it flies into
+	# usually set to true
+	"Flight Griefing" = true
+	#
+	# If blocks the Mutant Shulker breaks by flying drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Flight Griefing Drops Blocks" = false
+	#
+	# If the Mutant Shulker breaks certain types of blocks it walks into, helps with pathfinding
+	# usually set to true
+	"Walk Griefing" = true
+	#
+	# If blocks the Mutant Shulker breaks by walking drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Walk Griefing Drops Blocks" = false
+	#
+	# If the Mutant Shulker breaks blocks around it after getting hurt, similarly to the Wither, helps prevent cheesing
+	# usually set to true
+	"Hurt Griefing" = true
+	#
+	# If blocks the Mutant Shulker breaks after getting hurt drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Hurt Griefing Drops Blocks" = true
+
+#Spawn Options
+[spawn_config]
+	#
+	# If the Mutant Shulker naturally despawnsNot recommended unless Spawns Naturally is set to true
+	# usually set to false
+	Despawns = false
+	#
+	# If a Shulker has a chance to be replaced by a Mutant Shulker when spawning
+	# usually set to false
+	"Spawns Naturally" = false
+	#
+	# How often a Shulker is replaced by a Mutant Shulker when spawning
+	# usually set to 1 in 75
+	"Natural Spawn Chance" = 75
+

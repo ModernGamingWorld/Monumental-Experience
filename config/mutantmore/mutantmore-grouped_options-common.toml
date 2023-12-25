@@ -1,0 +1,37 @@
+#Configure groups of Mutant More config options on client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# 
+# If all mobs in Mutant More are prevented from breaking blocks or harming buildings in any way
+# usually set to false
+"Mob Griefing Off" = false
+#
+# 
+# If everything in Mutant More drops blocks when destroying them, allowing them to be recovered
+# usually set to false
+"Griefing Drops Blocks On" = false
+#
+# 
+# If all mutants from Mutant More have a chance to replace their regular versions when spawning
+# usually set to false
+"Mutant Spawning On" = false
+#
+# 
+# If all mutants from Mutant More naturally despawn, not recommended unless Mutant Spawning is on
+# usually set to false
+"Mutant Despawning On" = false
+#
+# 
+# If the parts that some mutants from Mutant More explode into have a glowing effect, making them easier to find, lowers immersion
+# usually set to false
+"Mutants Explode Into Parts On" = false
+#
+# 
+# If hostile mobs from Mutant More are prevented from attacking players
+# usually set to false
+"Mutants Attack Players Off" = false
+#
+# 
+# If friendly mobs from Mutant More are allowed to harm their allies
+# usually set to false
+"Friendly Fire On" = false
+

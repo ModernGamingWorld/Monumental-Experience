@@ -10,11 +10,25 @@
 	quests: [
 		{
 			id: "0000000000001403"
-			rewards: [{
-				id: "78DC091FE11AA600"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "78DC091FE11AA600"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00110EF746683D04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -44,11 +58,18 @@
 		{
 			dependencies: ["0000000000001403"]
 			id: "5D440F7A7850DFE9"
-			rewards: [{
-				id: "7C333E03FC1C80E7"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C333E03FC1C80E7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C58BFF0509C3170"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -70,11 +91,25 @@
 		{
 			dependencies: ["0000000000001403"]
 			id: "75740327DCE581AB"
-			rewards: [{
-				id: "7BB2021D113DA25A"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7BB2021D113DA25A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EA10D3811121FF5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -96,11 +131,25 @@
 		{
 			dependencies: ["75740327DCE581AB"]
 			id: "1361D27945758E61"
-			rewards: [{
-				id: "34122DA4F9D1153D"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34122DA4F9D1153D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "546A4969C6E25925"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -122,11 +171,25 @@
 		{
 			dependencies: ["75740327DCE581AB"]
 			id: "784767BA6BF89215"
-			rewards: [{
-				id: "44448356163A0ED2"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "44448356163A0ED2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A811C38E7FA194C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -148,11 +211,25 @@
 		{
 			dependencies: ["0000000000001403"]
 			id: "317073F33D19D088"
-			rewards: [{
-				id: "322D2C482FFFBBE3"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "322D2C482FFFBBE3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12FA77BFAD2430C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -174,11 +251,25 @@
 		{
 			dependencies: ["317073F33D19D088"]
 			id: "51617F598E29F866"
-			rewards: [{
-				id: "3C044EF649BD6EDF"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3C044EF649BD6EDF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28B511BA372B9D0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [
@@ -215,11 +306,25 @@
 		{
 			dependencies: ["1361D27945758E61"]
 			id: "50868E3E0294467F"
-			rewards: [{
-				id: "209D26462C91789F"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "209D26462C91789F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "71A2F417E413EFAA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "3CE88CB98026B907"
@@ -240,11 +345,25 @@
 		{
 			dependencies: ["50868E3E0294467F"]
 			id: "2D219501946DA118"
-			rewards: [{
-				id: "0586FD1E30EA4217"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0586FD1E30EA4217"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59A96D89D4334A43"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -266,11 +385,25 @@
 		{
 			dependencies: ["50868E3E0294467F"]
 			id: "550F46748DABB754"
-			rewards: [{
-				id: "67158D945D3325CB"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "67158D945D3325CB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48AD899DD60BBB42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "54A2796DA55AB446"
@@ -291,11 +424,25 @@
 		{
 			dependencies: ["550F46748DABB754"]
 			id: "7A518724A42B36E4"
-			rewards: [{
-				id: "53119B37A9B6BB81"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53119B37A9B6BB81"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23108798EDE7DA8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -317,11 +464,25 @@
 		{
 			dependencies: ["550F46748DABB754"]
 			id: "3533D164E33A16DA"
-			rewards: [{
-				id: "53C5152E65D431CA"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53C5152E65D431CA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49F3BE5993D13182"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "5FF9DF792B56C338"
@@ -342,11 +503,25 @@
 		{
 			dependencies: ["3533D164E33A16DA"]
 			id: "7DBD4830F53F1DA2"
-			rewards: [{
-				id: "3B21B7E2299F53EB"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3B21B7E2299F53EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60FE55C684FFCB02"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -368,11 +543,25 @@
 		{
 			dependencies: ["4F8DFA8CFB9930CB"]
 			id: "66D6BAD087254368"
-			rewards: [{
-				id: "11F917624C20D8D4"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "11F917624C20D8D4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5130655CE21C394B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "6E2ADDCDD9B87EEC"
@@ -393,11 +582,25 @@
 		{
 			dependencies: ["66D6BAD087254368"]
 			id: "614E66CC0E57F8E6"
-			rewards: [{
-				id: "7CA8E57E3F4E2EFC"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CA8E57E3F4E2EFC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D19A8622FEDB1D8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -419,11 +622,25 @@
 		{
 			dependencies: ["3533D164E33A16DA"]
 			id: "50C4E0BB35B4B0D4"
-			rewards: [{
-				id: "5A6F5E632AC108B5"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5A6F5E632AC108B5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "060151ED4079D344"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "12DC330FD255D60E"
@@ -444,11 +661,25 @@
 		{
 			dependencies: ["50C4E0BB35B4B0D4"]
 			id: "7C9ED99426C4FCE7"
-			rewards: [{
-				id: "3F4328F73FA89077"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F4328F73FA89077"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "713EA88EC4C2D234"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -479,11 +710,25 @@
 				"66D6BAD087254368"
 			]
 			id: "38A685D0EE23520F"
-			rewards: [{
-				id: "723F9F79CD29FFF5"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "723F9F79CD29FFF5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19C1D0907EDB455D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "1EED653702C252D9"
@@ -513,11 +758,25 @@
 				"614E66CC0E57F8E6"
 			]
 			id: "5FE4D90F91A000FA"
-			rewards: [{
-				id: "728EC076B119FA3F"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "728EC076B119FA3F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17158BC492709941"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "2A808BAAF96AC265"
@@ -546,7 +805,19 @@
 				}
 				{
 					id: "4129638349548C90"
-					item: "lootbundles:loot_bundle"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6AE15460345DF6C0"
+					item: "chancecubes:chance_cube"
 					type: "item"
 				}
 			]
@@ -586,11 +857,25 @@
 		{
 			dependencies: ["7A518724A42B36E4"]
 			id: "4E698DE56BE1B3BB"
-			rewards: [{
-				id: "545BB405969154BA"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "545BB405969154BA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40200E394311689D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "111FFFA026AF6A0D"
@@ -611,11 +896,25 @@
 		{
 			dependencies: ["7DBD4830F53F1DA2"]
 			id: "552BF41BCE41B161"
-			rewards: [{
-				id: "0EF31B7FBB85C9E0"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0EF31B7FBB85C9E0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B3E6C8F8B7004DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "69CA8248BC485420"
@@ -636,11 +935,25 @@
 		{
 			dependencies: ["4E698DE56BE1B3BB"]
 			id: "11E8447E328BAA86"
-			rewards: [{
-				id: "53262E947B7D3F43"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53262E947B7D3F43"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "398CCD6399CB3566"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -662,11 +975,25 @@
 		{
 			dependencies: ["552BF41BCE41B161"]
 			id: "1E9BCAE9C2169FCC"
-			rewards: [{
-				id: "6626ECBEFD2FE20A"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6626ECBEFD2FE20A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E5BE49FD925DC81"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -688,11 +1015,25 @@
 		{
 			dependencies: ["2D219501946DA118"]
 			id: "3E49DB25B3820F68"
-			rewards: [{
-				id: "40FAAE1C07B75A1D"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "40FAAE1C07B75A1D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07B52450FE90F541"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "15B7BE546A1F054E"
@@ -713,11 +1054,25 @@
 		{
 			dependencies: ["3E49DB25B3820F68"]
 			id: "1F45889C9516B2D2"
-			rewards: [{
-				id: "3E2F2DDB9FDEB33B"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E2F2DDB9FDEB33B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66F228784D87B268"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -739,11 +1094,25 @@
 		{
 			dependencies: ["50C4E0BB35B4B0D4"]
 			id: "745F8978D3F673F8"
-			rewards: [{
-				id: "13148654D0B85888"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13148654D0B85888"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "323BBB386DE6BD42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "60FBF8116ADA9BF2"
@@ -764,11 +1133,25 @@
 		{
 			dependencies: ["745F8978D3F673F8"]
 			id: "24036EBDCDD5AA86"
-			rewards: [{
-				id: "1C38BD626815EF4B"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1C38BD626815EF4B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05E463B7F2BD2067"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -790,11 +1173,25 @@
 		{
 			dependencies: ["745F8978D3F673F8"]
 			id: "52724A691A5B50E6"
-			rewards: [{
-				id: "2815451FD015410B"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2815451FD015410B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E0ABF97C9B78011"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "7B023B41C7B94ADF"
@@ -815,11 +1212,25 @@
 		{
 			dependencies: ["52724A691A5B50E6"]
 			id: "4F8DFA8CFB9930CB"
-			rewards: [{
-				id: "0F4C741874B011ED"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0F4C741874B011ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "319E64D14CB57E45"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "267EBE979ED3E07B"
@@ -840,11 +1251,25 @@
 		{
 			dependencies: ["52724A691A5B50E6"]
 			id: "329139A34B28B4E1"
-			rewards: [{
-				id: "40E079AAE6247CE4"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "40E079AAE6247CE4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7200E8A68EF1A102"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -866,11 +1291,25 @@
 		{
 			dependencies: ["4F8DFA8CFB9930CB"]
 			id: "3EEBB25389231123"
-			rewards: [{
-				id: "262FD75EDD8F67A9"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "262FD75EDD8F67A9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03083E998CABC7E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{

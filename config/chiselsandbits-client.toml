@@ -100,7 +100,7 @@
 	[performance.model-building]
 		#mod.scena.config.performance.model-building.thread-count.comment
 		#Range: 1 ~ 16
-		thread-count = 8
+		thread-count = 6
 
 [gui]
 

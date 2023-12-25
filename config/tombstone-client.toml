@@ -67,8 +67,6 @@
 	marker_type = "SPARK"
 	#Display the combinations in item tooltip [false/true|default:true]
 	show_tooltip_combine = true
-	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]
-	show_fishing_marker = true
 	#Period where graves produce fog [DAY/NIGHT/BOTH|default:NIGHT]
 	#Allowed Values: DAY, NIGHT, BOTH, NEVER
 	fog_period = "NIGHT"

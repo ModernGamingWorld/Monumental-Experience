@@ -1,0 +1,6 @@
+
+[snad]
+	#The growth speed increase value that snad gives.
+	#Range: 1 ~ 20
+	speed = 2
+
