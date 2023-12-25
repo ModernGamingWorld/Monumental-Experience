@@ -1,0 +1,344 @@
+
+["Armor Stats"]
+	#Range: > 1
+	"Doom Armor Helmet Stat" = 25
+	#Range: > 1
+	"Doom Armor Chestplate Stat" = 18
+	#Range: > 1
+	"Doom Armor Leggings Stat" = 20
+	#Range: > 1
+	"Doom Armor Boots Stat" = 15
+	#Range: > 1
+	"Doom Armor Toughness" = 24
+	#Range: > 1
+	"Doom Armor Knockback Res" = 4
+
+[Misc]
+	"Soulcube Effect Toggle" = true
+	"Daisy Effect Toggle" = true
+	"Villager Trades Toggle" = true
+	"Weapon Trades Toggle" = true
+	"Toolsmith Trades Toggle" = true
+	"Mason Trades Toggle" = true
+
+[Weapons]
+	#Range: > 1
+	"Max Uses of Marauder Axe" = 24
+	#Range: > 1
+	"Damage of Marauder Axe" = 200
+	#Range: > 1
+	"Max Uses of Crucible" = 24
+	#Range: > 1
+	"Damage of Darklord Crucible" = 200
+	#Range: > 1
+	"Max Uses of Darklord Crucible" = 24
+	#Range: > 1
+	"Max Uses of Sentienl Hammer" = 24
+	#Range: > 1
+	"Damage of Sentienl Hammer" = 25
+	"Should Rockets/BFG Break Blocks" = false
+	"Should Weapons Be Centered" = false
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Argent Bolts Damage" = 14.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"BFGBall Damage" = 100.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"BFG Dragon Damage" = 30.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"BFG AoE Damage" = 10.5
+	#Adds mob to list of mobs that can hurt by the BFG. Supports Registry Names (minecraft:cow)
+	"BFG Damage Whitelist" = [""]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Bullet Damage" = 5.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Chaingun Damage" = 5.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Plasma Gun Damage" = 1.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Rocket Damage" = 20.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Shotgun Damage" = 10.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Unmaykr Damage" = 2.5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Grenade Damage" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Chainsaw Damage" = 2.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Max Meathook Distance" = 32.0
+
+["Mob Settings:Imps"]
+	#Sets Imp Max Health
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Imp Max health" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Imp Ranged Damage damage" = 4.0
+
+["Mob Settings:Pinky"]
+	#Sets Pinky Max Health
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Pinky Max Health" = 75.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Pinky Melee Damage" = 3.0
+
+["Mob Settings:Spectre"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Spectre Max Health" = 75.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Spectre Melee Damage" = 3.0
+
+["Mob Settings:Lost Soul"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Lost Soul Max Health" = 10.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Lost Soul Melee Damage" = 1.0
+
+["Mob Settings:Cacodemon"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cacodemon Max Health" = 80.0
+	#Sets Cacodemon Ranged Damage
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cacodemon Ranged Damage damage" = 5.0
+
+["Mob Settings:Archvile"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archvile Max Health" = 100.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archvile Ranged Damage damage" = 5.0
+
+["Mob Settings:Baron of Hell"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Baron of Hell Max Health" = 180.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Baron of Hell Ranged Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Baron of Hell Melee Damage" = 7.0
+
+["Mob Settings:Gladiator"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Max Health" = 240.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Ranged Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Ranged Damage For 2nd Phase" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gladiator Melee Damage" = 7.0
+
+["Mob Settings:Mancubus"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Mancubus Max Health" = 80.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Mancubus Melee Damage" = 4.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Mancubus Ranged Damage" = 6.0
+
+["Mob Settings:Revenant"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Revenant Max Health" = 45.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Revenant Ranged Damage" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Revenant Melee Damage" = 3.0
+
+["Mob Settings:Zombieman"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Zombieman Max Health" = 15.0
+
+["Mob Settings:Arachnotron"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Arachnotron Max Health" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Arachnotron Ranged Damage" = 5.0
+
+["Mob Settings:Gargoyle"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gargoyle Max Health" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gargoyle Ranged Damage" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gargoyle Melee Damage" = 2.0
+
+["Mob Settings:Chaingunner"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Chaingunner Max Health" = 15.0
+
+["Mob Settings:Shotgun Guy"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Shotgun Guy Max Health" = 15.0
+
+["Mob Settings:Marauder"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Marauder Max Health" = 300.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Marauder Axe Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Marauder Shotgun Damage" = 10.5
+
+["Mob Settings:Pain Elemental"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Pain Elemental Max Health" = 80.0
+
+["Mob Settings:Hellknight"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Hellknight Max Health" = 90.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets the Ranged Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Hellknight Melee Damage" = 4.0
+
+["Mob Settings:Hellknight 2016"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Hellknight 2016 Max Health" = 90.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Hellknight 2016 Melee Damage" = 4.0
+
+["Mob Settings:Cyberdemon"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cyberdemon Max Health" = 300.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cyberdemon Ranged Damage" = 9.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cyberdemon Melee Damage" = 7.0
+
+["Mob Settings:Unwilling"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Unwilling Max Health" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Unwilling Melee Damage" = 2.0
+
+["Mob Settings:Possessed Scientist"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Possessed Scientist/Worker Max Health" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Possessed Scientist/Worker Melee Damage" = 2.0
+
+["Mob Settings:Possessed Soldier"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Possessed Solider Max Health" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Possessed Solider Ranged Damage" = 2.0
+
+["Mob Settings:Mechazombie"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets the Mechazombie Health" = 25.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Mechazombie Ranged Damage" = 3.0
+
+["Mob Settings:Cueball"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cueball Max Health" = 1.0
+
+["Mob Settings:Prowler"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Prowler Max Health" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets the Prowler Damage" = 4.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Prowler Ranged Damage" = 4.0
+
+["Mob Settings:Stone Imps"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Stone Imp Max Health" = 15.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Stone Imp Melee Damage" = 2.0
+
+["Mob Settings:Gorenest"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Gorenest Max Health" = 5.0
+	#Gore Nest Wave Mobs List
+	"Gore Nest Wave Mobs" = ["doom:hellknight", "doom:possessed_scientist", "doom:imp", "doom:pinky", "doom:cacodemon", "doom:chaingunner", "doom:gargoyle", "doom:hellknight2016", "doom:lost_soul", "doom:possessed_soldier", "doom:shotgunguy", "doom:unwilling", "doom:zombieman", "doom:arachnotron", "doom:archvile", "doom:mechazombie", "doom:painelemental", "doom:mancubus"]
+
+["Mob Settings:Tentacle"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Tentacle Max Health" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Tentacle Melee Damage" = 1.0
+
+["Mob Settings:Spider Mastermind"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Spider Mastermind Max Health" = 300.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Spider Mastermind Ranged Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Spider Mastermind Melee Damage" = 4.0
+
+["Mob Settings:Whiplash"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Whiplash Max Health" = 90.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Whiplash Melee Damage" = 4.0
+
+["Mob Settings:Doom Hunter"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Doomhunter Max Health" = 150.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Doomhunter Ranged Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Doomhunter Melee Damage" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Doomhunter Melee Damage For 2nd Phase" = 5.0
+
+["Mob Settings:Armored Baron"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Armored Baron Max Health" = 240.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Armored Baron Melee Damage" = 7.0
+
+["Mob Settings:Summoner"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Summoner Max Health" = 100.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Summoner Ranged Damage" = 3.0
+	#Summoner Wave Mobs List
+	"Summoner Wave Mobs List" = ["doom:imp", "doom:lost_soul", "doom:stone_imp"]
+
+["Mob Settings:Maykr Drone"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Maykr Drone Max Health" = 50.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Maykr Drone Ranged Damage" = 5.0
+
+["Mob Settings:Blood Maykr"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Blood Maykr Max Health" = 100.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Blood Maykr Ranged Damage" = 10.0
+
+["Mob Settings:Archmaykr"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Max Health" = 400.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Ranged Damage" = 14.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Ranged Damage For 2nd Phase" = 14.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Ranged Damage For 3nd Phase" = 28.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Ranged Damage For 4th Phase" = 42.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Archmaykr Ranged Damage For 5th Phase" = 56.0
+
+["Mob Settings:Motherdemon"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Motherdemon Max Health" = 500.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Motherdemon Ranged Damage" = 14.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Motherdemon Extra Ranged Damage For 2nd Phase" = 14.0
+
+["Mob Settings:Turret"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Turret Max Health" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Turret Ranged Damage" = 6.0
+
+["Mob Settings:Icon of Sin"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Icon of Sin Max Health" = 1000.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Icon of Sin Melee Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Icon of Sin Extra Melee Damage For 2nd Phase" = 7.0
+	#Icon of Sin Wave Mobs List
+	"Icon of Sin Wave Mobs" = ["doom:gladiator", "doom:mancubus", "doom:mancubus", "doom:marauder", "doom:marauder", "doom:firebronebaron", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:baron2016", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:whiplash", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:gargoyle", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:cacodemon", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:painelemental", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:prowler", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:imp", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:pinky", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul", "doom:lost_soul"]
+

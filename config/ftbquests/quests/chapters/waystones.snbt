@@ -1,0 +1,33 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "13753248AA9B544D"
+	id: "0965D5B5D7483B3B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["Waystones are your first step to traveling throught the world and its dimensions!"]
+		id: "1B37DB71994B18CE"
+		rewards: [{
+			id: "7482CC922B8DCB3B"
+			type: "xp_levels"
+			xp_levels: 3
+		}]
+		tasks: [{
+			id: "432E4CA13FAC47C8"
+			item: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "&3Waystones"
+}

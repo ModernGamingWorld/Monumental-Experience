@@ -1,0 +1,34 @@
+
+[Theater]
+
+	[Theater.placement]
+		#
+		# The average distance between structures of this type, measured in chunks.
+		# Default: 40
+		#Range: > 1
+		spacing = 40
+		#
+		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
+		# Default: 35
+		#Range: > 0
+		offset = 35
+		#
+		# Percent chance of generating in an allowed chunk.
+		# Default: 50
+		#Range: 0 ~ 100
+		probability = 50
+
+	[Theater.structures]
+
+		[Theater.structures.structure]
+
+			[Theater.structures.structure.biomes]
+				#
+				# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+				# - Biome: "minecraft:plains"
+				# - Tag: "#minecraft:is_forest"
+				# - Prefix an entry with ! to exclude it: "!#minecraft:is_ocean"
+				# Example: ["#minecraft:is_forest", "!minecraft:flower_forest"] This will include all biomes tagged as forests except for flower forests.
+				# Default: ["minecraft:dark_forest"]
+				biomes = ["minecraft:dark_forest"]
+

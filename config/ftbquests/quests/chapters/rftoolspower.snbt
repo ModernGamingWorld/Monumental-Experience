@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftoolspower"
+	group: "69B9F7247002FE35"
+	icon: "rftoolspower:power_core1"
+	id: "00000000000008CC"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "00000000000008CD"
+			rewards: [{
+				id: "65FD8C05788D41DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000008CE"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008CD"]
+			id: "00000000000008CF"
+			rewards: [{
+				id: "0000000000001238"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008D0"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000008D5"]
+			id: "00000000000008D1"
+			rewards: [{
+				id: "0000000000001234"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008D2"
+				item: "rftoolspower:dimensionalcell"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008D1"]
+			id: "00000000000008D3"
+			rewards: [{
+				id: "0000000000001236"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008D4"
+				item: "rftoolspower:dimensionalcell_advanced"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008CD"]
+			id: "00000000000008D5"
+			rewards: [{
+				id: "0000000000001232"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008D6"
+				item: "rftoolspower:dimensionalcell_simple"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008CD"]
+			id: "00000000000008D9"
+			rewards: [{
+				id: "000000000000122A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008DA"
+				item: "rftoolspower:power_core1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000008D9"]
+			id: "00000000000008DB"
+			rewards: [{
+				id: "000000000000122C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008DC"
+				item: "rftoolspower:cell1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000008CD"]
+			id: "00000000000008DD"
+			rewards: [{
+				id: "000000000000122E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008DE"
+				item: "rftoolspower:power_core2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000008DD"]
+			id: "00000000000008DF"
+			rewards: [{
+				id: "0000000000001230"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008E0"
+				item: "rftoolspower:cell2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000008CD"]
+			id: "00000000000008E1"
+			rewards: [{
+				id: "0000000000001228"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008E2"
+				item: "rftoolspower:power_core3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000008E1"]
+			id: "00000000000008E3"
+			rewards: [{
+				id: "0000000000001226"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000008E4"
+				item: "rftoolspower:cell3"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	title: "&2Rftools Power"
+}

@@ -1,0 +1,16 @@
+
+#Settings
+[settings]
+	#Enable Graveyards type from a datapack [true / false]
+	enableGraveyard = false
+	#Enable Dungeons type from a datapack [true / false]
+	enableDungeon = false
+	#Enable Twilight Forest type from a datapack [true / false]
+	enableTwilight = false
+	#Enable Buildings type from a datapack [true / false]
+	enableBuildings = false
+	#Enable Buildings type from a datapack [true / false]
+	enableBuildingsNether = false
+	#Enable Buildings type from a datapack [true / false]
+	enableBuildingsEnd = false
+

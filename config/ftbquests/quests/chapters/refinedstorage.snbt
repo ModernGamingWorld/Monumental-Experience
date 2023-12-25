@@ -1,0 +1,1743 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refinedstorage"
+	group: "7E54189F6BA49858"
+	icon: "refinedstorage:machine_casing"
+	id: "000000000000084B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "000000000000084C"
+			rewards: [{
+				id: "532EB32BFE61DBB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [
+				{
+					id: "000000000000084D"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					id: "00000000000007BE"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
+			title: "The Start of Refined Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "000000000000084E"
+			rewards: [{
+				id: "00000000000012C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000084F"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000850"
+			rewards: [{
+				id: "43B436ED68AB7582"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0000000000000851"
+					item: "refinedstorage:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "0000000000000852"
+					item: "refinedstorage:grid"
+					type: "item"
+				}
+				{
+					id: "0000000000000853"
+					item: "refinedstorage:fluid_grid"
+					type: "item"
+				}
+				{
+					id: "0000000000000854"
+					item: "refinedstorage:crafter_manager"
+					type: "item"
+				}
+				{
+					id: "0000000000000855"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "0000000000000856"
+					item: "refinedstorage:crafting_monitor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000857"
+			rewards: [{
+				id: "1264DBBA1FE8D9D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000858"
+				item: "refinedstorage:relay"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000859"
+			rewards: [{
+				id: "00000000000012C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000085A"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0000000000000859"]
+			id: "000000000000072E"
+			rewards: [{
+				id: "00000000000012BE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000072F"
+				item: "refinedstorage:4k_storage_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["000000000000072E"]
+			id: "0000000000000730"
+			rewards: [{
+				id: "00000000000012BC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000731"
+				item: "refinedstorage:16k_storage_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000734"
+			rewards: [{
+				id: "00000000000012CC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000735"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000736"
+			rewards: [{
+				id: "16FCD2ED6D956489"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0000000000000737"
+					item: "refinedstorage:disk_manipulator"
+					type: "item"
+				}
+				{
+					id: "0000000000000756"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "000000000000073A"
+			rewards: [{
+				id: "00000000000012DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000073B"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000073A"]
+			id: "000000000000073C"
+			rewards: [{
+				id: "00000000000012E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000073D"
+				item: {
+					Count: 1b
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "000000000000073E"
+			rewards: [{
+				id: "00000000000012BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000073F"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0000000000000740"
+			rewards: [{
+				id: "0000000000001905"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000741"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
+			title: "Let's Start Getting Some Storage Space"
+			x: -24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000742"
+			rewards: [{
+				id: "00000000000012D2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000759"
+				item: "refinedstorage:64k_fluid_storage_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000744"
+			rewards: [{
+				id: "64D1B0358577AE20"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000745"
+				item: "refinedstorage:network_transmitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			hide_dependency_lines: true
+			id: "0000000000000746"
+			rewards: [{
+				id: "46899D812CBA2BC9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000747"
+				item: "refinedstorage:network_receiver"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000748"
+			rewards: [{
+				id: "00000000000012C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000749"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000740"]
+			id: "000000000000074A"
+			rewards: [{
+				id: "000000000000128E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000074B"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000074A"]
+			id: "000000000000074C"
+			rewards: [{
+				id: "3F87B915ADAB12F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000074D"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000074C"]
+			id: "000000000000074E"
+			rewards: [{
+				id: "2B07B9C06E1DAECC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000074F"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000074E"]
+			id: "0000000000000750"
+			rewards: [{
+				id: "0000000000001294"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000751"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000752"
+			rewards: [{
+				id: "00000000000012C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000753"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000754"
+			rewards: [{
+				id: "00000000000012C4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000755"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0000000000000740"]
+			id: "000000000000075D"
+			rewards: [{
+				id: "000000000000128C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000075E"
+				item: "refinedstorage:64k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000075D"]
+			id: "000000000000075F"
+			rewards: [{
+				id: "000000000000128A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000760"
+				item: "refinedstorage:256k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000075F"]
+			id: "0000000000000761"
+			rewards: [{
+				id: "0000000000001288"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000762"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000761"]
+			hide: false
+			id: "0000000000000763"
+			rewards: [{
+				id: "0000000000001286"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000764"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "0000000000000768"
+			rewards: [{
+				id: "00000000000012DC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0000000000000769"
+					item: "refinedstorage:wireless_crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "000000000000076A"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+				{
+					id: "000000000000076B"
+					item: "refinedstorage:wireless_fluid_grid"
+					type: "item"
+				}
+				{
+					id: "000000000000076D"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "000000000000076E"
+			rewards: [{
+				id: "679172BAD049747B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000076F"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Let's Start Improvements With Some Upgrades"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "0000000000000770"
+			rewards: [{
+				id: "404C11E99510CB53"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000771"
+				item: "refinedstorage:fortune_1_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "00000000000007BF"
+			rewards: [{
+				id: "00000000000012E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007C0"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "00000000000007C1"
+			rewards: [{
+				id: "7BCC0E3F40696D9F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007C2"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "00000000000007C3"
+			rewards: [{
+				id: "00000000000012EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007C4"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "00000000000007C5"
+			rewards: [{
+				id: "00000000000012E2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007C6"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000076E"]
+			id: "00000000000007C7"
+			rewards: [{
+				id: "00000000000012E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007C8"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000770"]
+			id: "00000000000007C9"
+			rewards: [{
+				id: "00000000000012EE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000007CA"
+				item: "refinedstorage:fortune_2_upgrade"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000084C"]
+			id: "00000000000007CD"
+			rewards: [{
+				id: "00000000000012B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 12L
+				id: "00000000000007CE"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "000000000000088E"
+			rewards: [{
+				id: "0000000000001296"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000088F"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000088E"]
+			id: "0000000000000891"
+			rewards: [{
+				id: "0000000000001298"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000892"
+				item: "extradisks:256k_storage_disk"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "000000000000089D"
+			rewards: [{
+				id: "000000000000129A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000089E"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000089D"]
+			id: "000000000000089F"
+			rewards: [{
+				id: "6DD2D188D829EAB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008A0"
+				item: "extradisks:1024k_storage_disk"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "00000000000008A1"
+			rewards: [{
+				id: "00000000000012A0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008A2"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000008A1"]
+			id: "00000000000008A3"
+			rewards: [{
+				id: "000000000000129E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008A4"
+				item: "extradisks:4096k_storage_disk"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00000000000008A7"]
+			id: "00000000000008A5"
+			rewards: [{
+				id: "00000000000012A2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008A6"
+				item: "extradisks:16384k_storage_disk"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "00000000000008A7"
+			rewards: [{
+				id: "0EC5CDBE17F549A7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008A8"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000008AF"]
+			id: "00000000000008AD"
+			rewards: [{
+				id: "0000000000001284"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008AE"
+				item: "extradisks:16384k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 7.5d
+		}
+		{
+			id: "00000000000008AF"
+			rewards: [{
+				id: "0000000000001282"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008B0"
+				item: "extradisks:16384k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 11.5d
+		}
+		{
+			id: "00000000000008B1"
+			rewards: [{
+				id: "000000000000127E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008B2"
+				item: "extradisks:65536k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00000000000008B1"]
+			id: "00000000000008B3"
+			rewards: [{
+				id: "0000000000001280"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008B4"
+				item: "extradisks:65536k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00000000000008B7"]
+			id: "00000000000008B5"
+			rewards: [{
+				id: "160D783AD46495EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008B6"
+				item: "extradisks:262144k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 7.5d
+		}
+		{
+			id: "00000000000008B7"
+			rewards: [{
+				id: "000000000000127C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008B8"
+				item: "extradisks:262144k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00000000000008BB"]
+			id: "00000000000008B9"
+			rewards: [{
+				id: "0000000000001276"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008BA"
+				item: "extradisks:1048576k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.5d
+		}
+		{
+			id: "00000000000008BB"
+			rewards: [{
+				id: "0000000000001278"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000008BC"
+				item: "extradisks:1048576k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00000000000007C9"]
+			id: "000000000000019F"
+			rewards: [{
+				id: "00000000000012F0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001A0"
+				item: "refinedstorage:fortune_3_upgrade"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000742"]
+			id: "00000000000001A1"
+			rewards: [{
+				id: "1AC0A898E1E310EB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001A2"
+				item: "refinedstorage:256k_fluid_storage_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00000000000001A1"]
+			id: "00000000000001A3"
+			rewards: [{
+				id: "375A25EEE76C6C17"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001A4"
+				item: "refinedstorage:1024k_fluid_storage_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00000000000001A3"]
+			id: "00000000000001A5"
+			rewards: [{
+				id: "51AFF5C23DD902E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001A6"
+				item: "refinedstorage:4096k_fluid_storage_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00000000000001AB"]
+			id: "00000000000001A9"
+			rewards: [{
+				id: "00000000000012A8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001AA"
+				item: "extradisks:65536k_storage_disk"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -8.0d
+		}
+		{
+			id: "00000000000001AB"
+			rewards: [{
+				id: "00000000000012A6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001AC"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000721"]
+			id: "00000000000001AD"
+			rewards: [{
+				id: "0000000000001274"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00000000000001AE"
+				item: "extradisks:infinite_fluid_storage_disk"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			id: "0000000000000721"
+			rewards: [{
+				id: "0000000000001272"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000722"
+				item: "extradisks:infinite_fluid_storage_part"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.5d
+		}
+		{
+			id: "0000000000000723"
+			rewards: [{
+				id: "00000000000012AC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000724"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000723"]
+			id: "0000000000000725"
+			rewards: [{
+				id: "00000000000012AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000726"
+				item: "extradisks:262144k_storage_disk"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0000000000000729"]
+			id: "0000000000000727"
+			rewards: [{
+				id: "00000000000012AE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000728"
+				item: "extradisks:1048576k_storage_disk"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -8.0d
+		}
+		{
+			id: "0000000000000729"
+			rewards: [{
+				id: "00000000000012B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000072A"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -4.0d
+		}
+		{
+			id: "000000000000072B"
+			rewards: [{
+				id: "00000000000012B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "000000000000072C"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["000000000000072B"]
+			id: "000000000000072D"
+			rewards: [{
+				id: "00000000000012B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000732"
+				item: "extradisks:infinite_storage_disk"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -8.0d
+		}
+	]
+	title: "&aRefined Storage"
+}

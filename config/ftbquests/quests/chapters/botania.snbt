@@ -1,0 +1,1232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "4814F40AB34427B6"
+	icon: "botania:lexicon"
+	id: "000000000000080C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "559B4D0387390BFE"
+			rewards: [
+				{
+					id: "30E5A464F02B9EB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C8E4771972F49D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "botania:mana_pearl"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0CA131FEA3FEE8A1"
+				item: {
+					Count: 1b
+					id: "botania:lexicon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559B4D0387390BFE"]
+			id: "513DB5A7FB70412B"
+			rewards: [{
+				id: "16645912BD0414F4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7AB99C92DE5F5B20"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "&3&lRunic Altar"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["513DB5A7FB70412B"]
+			id: "5998CC4FF418389C"
+			rewards: [{
+				id: "43CE00D99B507BA7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7273CE04509C52EB"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "43AEAE52B44E49F5"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "5CB85A179DA093E9"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "0F6C93F678FF8359"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "08548DD00000F3E8"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "4A39C70964BAD4AB"
+			rewards: [{
+				id: "56BFF6FCC473F315"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1D8D5CCFE5AF1FC8"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "1CD9128C32A51295"
+			rewards: [{
+				id: "22CF1D885D6D0AC4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "687F196658F4F15D"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "5AD1DFFFC6FE9BB6"
+			rewards: [{
+				id: "255773224D30CE6A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2C11EEC322BA7705"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "00084AA2AC916E82"
+			rewards: [{
+				id: "3D9759F9733916ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "77630F3A720A4AFA"
+				item: "botania:cobble_rod"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "5117D7F5AAB6D772"
+			rewards: [{
+				id: "44ADE3794E31511E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "139A0F6D5919BEB4"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "3D7DFE46B18BA6E4"
+			rewards: [{
+				id: "48C3A5F3815F5B8D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "60295C1B56621D94"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "39EF5949DB36C4BE"
+			rewards: [{
+				id: "1FD0481E16814245"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1C517E1419DCDB06"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "25CE7122AE2393A5"
+			rewards: [{
+				id: "7EFA790722B8A614"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "102680E61CBF4666"
+				item: "botania:fire_rod"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "4437C80ABFDD483E"
+			rewards: [{
+				id: "5D9D031093DB4D73"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1CC8EF5E7B6E81A2"
+				item: "botania:smelt_rod"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "4D4C34474FF1431C"
+			rewards: [{
+				id: "67DDFDC342BE0D76"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "49164BD99D788587"
+				item: {
+					Count: 1b
+					id: "botania:tornado_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "5D1DC7B7E5A33050"
+			rewards: [{
+				id: "790D4761BE192665"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5ED6641544748CBB"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39EF5949DB36C4BE"]
+			id: "65EA4E399B97F4B4"
+			rewards: [{
+				id: "2F9FC164C716CC97"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "27618DF7F8ADBFD9"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "475480C0F2124596"
+			rewards: [{
+				id: "55437DDEEE82FEEB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "188DDC9091A62A3E"
+				item: {
+					Count: 1b
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUIDLeast: -5197804532391713060L
+						baubleUUIDMost: -1408741145259391332L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5998CC4FF418389C"]
+			id: "26EEEDC2E38ECD95"
+			rewards: [{
+				id: "260F62FEB8B02587"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "22A20B945ACD6853"
+				item: {
+					Count: 1b
+					id: "botania:travel_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["559B4D0387390BFE"]
+			id: "77222BB09AB11CDC"
+			rewards: [{
+				id: "6C3C92673B5C808A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "206EA4FDA949C975"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77222BB09AB11CDC"]
+			id: "1DED0C63C8D0EE02"
+			rewards: [{
+				id: "1A95CC4878978342"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "612674624548C9AA"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1DED0C63C8D0EE02"]
+			icon: "botania:natura_pylon"
+			id: "0D8A3BD084C2993F"
+			rewards: [{
+				id: "308D263E32D7F2FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "5117E81A321657E2"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "579D0F2278FFC732"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "553DD2A4CC6FD302"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DCC39563260E46A"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "618F249354838D11"
+					item: "botania:livingwood"
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D8A3BD084C2993F"]
+			id: "726087373F891060"
+			rewards: [{
+				id: "7AF074E8DFC1B8C3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "2EB4ECCD429AF7C3"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["726087373F891060"]
+			id: "546E6C69BBB957D2"
+			rewards: [{
+				id: "66FAD87ECE7D4B46"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3DD465C94436948A"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["726087373F891060"]
+			id: "318532A84C9A4737"
+			rewards: [{
+				id: "53640330956DF995"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5992B1AB0A982285"
+				item: "botania:open_bucket"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D8A3BD084C2993F"]
+			id: "1B8E507D747A2F9D"
+			rewards: [{
+				id: "61B98F71DD3359C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "1E2D610974BCB6AB"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B8E507D747A2F9D"]
+			id: "224262EB3381CE95"
+			rewards: [{
+				id: "505FC1F4474AB9B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "66EBEB519CAC59DA"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["726087373F891060"]
+			id: "0440C00C16A0AE98"
+			rewards: [{
+				id: "4B75252CFF18D197"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "282493B246F808F0"
+				item: "botania:starfield"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 6.0d
+		}
+		{
+			id: "3E4E1BDAC6D74E4D"
+			rewards: [{
+				id: "51041CC0F6D3472E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "390D3E5FD99B174C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E4E1BDAC6D74E4D"]
+			id: "36E94042B69762CB"
+			rewards: [{
+				id: "04743D3662A5A2CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5D67753CF12CCDB8"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["36E94042B69762CB"]
+			id: "20272492DBF80FB2"
+			rewards: [
+				{
+					id: "16654296A13EC8A1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "57D34FFE7EAEC902"
+					item: "botania:mana_pearl"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "5891F7AEF009BB5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "botania:livingrock"
+					}
+					title: "Living Rock"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14771F41B638CD6F"
+					item: "botania:livingwood"
+					type: "item"
+				}
+			]
+			x: -8.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["20272492DBF80FB2"]
+			id: "2906779D5BBA3C19"
+			rewards: [{
+				id: "2FD11C0A96FA1BFE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4C66AAD33BD15A6B"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "28FCD2B61213237E"
+					item: "botania:redstone_spreader"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["20272492DBF80FB2"]
+			id: "368995DB2677D155"
+			rewards: [
+				{
+					id: "0986F13ED7299A2A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "71CA395B63279AEF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "botania:mana_pearl"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "67F229F18F25ABB4"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["20272492DBF80FB2"]
+			id: "2D64491644AB79ED"
+			rewards: [{
+				id: "6AF8AB58EBD16944"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "246BFDFC15DE42C3"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36E94042B69762CB"]
+			id: "0C2F888DACBDE8D9"
+			rewards: [{
+				id: "3D87D82C75FD035D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3103D9BEFCBF9974"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["224262EB3381CE95"]
+			id: "4BB52D362DAB3B2B"
+			rewards: [{
+				id: "031DDC7BFA8E459E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "520C9DD0A75A7A63"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["368995DB2677D155"]
+			id: "617E8920C8AE1308"
+			rewards: [{
+				id: "1EA61E401B2BBC70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "44A80DB6198A0453"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["368995DB2677D155"]
+			id: "413377E898BA3A38"
+			rewards: [{
+				id: "6D8CE74234BCC026"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "250B43649D620D75"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["368995DB2677D155"]
+			id: "43977E09057EDB7B"
+			rewards: [{
+				id: "6394996CC5E0101E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0F029C2A8FB9FEAC"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["368995DB2677D155"]
+			id: "3FC57160B1F730FB"
+			rewards: [{
+				id: "2AFD571E1893E72B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2E64FC41229C3AE1"
+				item: "botania:mana_glass"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["368995DB2677D155"]
+			id: "0AB6168DF82745D8"
+			rewards: [{
+				id: "506579D463DADAF9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2865B45A7E2EBA11"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["4BB52D362DAB3B2B"]
+			id: "0C7DAACB1BF109AD"
+			rewards: [{
+				id: "1A2D2B1C5F8D8F6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "56DC8A87872784A7"
+				item: {
+					Count: 1b
+					id: "botania:dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BB52D362DAB3B2B"]
+			id: "336AC5F3D0058CC6"
+			rewards: [{
+				id: "622CF583DE91349A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "622252A0329FF134"
+				item: "botania:keep_ivy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4BB52D362DAB3B2B"]
+			id: "1766605071770856"
+			rewards: [{
+				id: "0A035C8C4EF8FFC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1965BD9697CC0BB3"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BB52D362DAB3B2B"]
+			id: "785FA8714AA51670"
+			rewards: [{
+				id: "53D62BFD08DE938B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7008CDA4A2C1C008"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+	]
+	title: "&dBotania"
+}

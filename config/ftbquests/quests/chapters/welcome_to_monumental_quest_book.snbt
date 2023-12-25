@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_monumental_quest_book"
+	group: ""
+	id: "00000000000010BB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "00000000000010BC"
+			rewards: [{
+				id: "00000000000010BE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000010BD"
+				title: "This quest book is built as more of a guide/layout for the end user to follow."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3BDB0D53A2E0769A"
+			rewards: [
+				{
+					id: "076794154C79267A"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "46B2745177283C52"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:enigmatic_amulet"
+						tag: {
+							AssignedColor: 0.1f
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "604DDBE52C5C3BC8"
+				title: "Harder?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Welcome to Monumental Quest Book"
+}

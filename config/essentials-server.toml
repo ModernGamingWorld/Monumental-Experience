@@ -1,0 +1,18 @@
+#Range of the Brazier anti-witch effect
+#Set to 0 to disable
+#Range: 0 ~ 512
+brazier_range = 64
+#Percent of normal speed Fertile Soil should work at
+#Set to 0 to disable
+#Range: 0.0 ~ 100.0
+fertile_rate = 100.0
+#Range of signals through Redstone Receivers/Transmitters
+#Range: 0 ~ 128
+wireless_range = 32
+#Range of signals through Circuit Wire
+#Range: 1 ~ 128
+redstone_range = 16
+#Maximum Transport Chutes in a line
+#Range: 0 ~ 128
+chute_limit = 16
+

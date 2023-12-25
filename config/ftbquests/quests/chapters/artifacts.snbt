@@ -1,0 +1,967 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "68BD27E8D0136E3E"
+	icon: "artifacts:mimic_spawn_egg"
+	id: "0E7A010E0337174E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "74FFC784B56976ED"
+			rewards: [{
+				id: "2BCDBC82143F1ECF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2090EA7CE5779D98"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "6E28228ED7CBD94A"
+			rewards: [{
+				id: "607010D20805E0D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "77947EC631D45BBC"
+				item: {
+					Count: 1b
+					id: "artifacts:golden_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "47DE0AD75AC9D1D1"
+			rewards: [{
+				id: "4DE926E31940DEA7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "10385314020A8DD6"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "55E3A4D1CF3BF0AB"
+			rewards: [{
+				id: "024FF72036BFBA6B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "58E49541CA8A317D"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "03279B5D1FE6EC58"
+			rewards: [{
+				id: "6EEEE247CD14EB2F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4CA3E44451C2069D"
+				item: {
+					Count: 1b
+					id: "artifacts:kitty_slippers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "43DD193D14168911"
+			rewards: [{
+				id: "4FC0CE187EF0F5C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4B3882F3C6518ED7"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "08D732F65F30A9FF"
+			rewards: [{
+				id: "2A52980C5D209BAB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "12895B0D74CF8531"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "47C1057631F0F092"
+			rewards: [{
+				id: "4A62B19939F55175"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4F2FF24D0498C787"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "556EA8CC1BC5F680"
+			rewards: [{
+				id: "2381F0DF36FC880F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "63EF0C08FD34202D"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "0085D987D324D9B5"
+			rewards: [{
+				id: "6011F89785026B20"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "14DFD9AD45873832"
+				item: {
+					Count: 1b
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "3A3B19AF7B794B22"
+			rewards: [{
+				id: "4872DAD0CF972DD9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6B7D9836EE275CA0"
+				item: {
+					Count: 1b
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "0B983BE5506C3C79"
+			rewards: [{
+				id: "37B3C54B99B95DA8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "05D0E7CCEE8A640C"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "73EDB9A33F043F31"
+			rewards: [{
+				id: "605E388AD8783337"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "458AF28262A710B4"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "51565D4B01D724DF"
+			rewards: [{
+				id: "6C94B8D6572D6578"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "40CA9BC14938AB38"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "0F159B741172C5DF"
+			rewards: [{
+				id: "7BF957ABACCBDDCE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "189E0336B71DBA69"
+				item: {
+					Count: 1b
+					id: "artifacts:lucky_scarf"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "43308BD91662BE5D"
+			rewards: [{
+				id: "383894963AD13B40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7381B895FE115B98"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "2CBAB744CCA58E6C"
+			rewards: [{
+				id: "3201960F63E5E33A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4B38A8D13594A08B"
+				item: {
+					Count: 1b
+					id: "artifacts:villager_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "7E587D157AAF37D6"
+			rewards: [{
+				id: "338A3DEA44A44C0B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "288DE7361B7126AA"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "49E0D470C4346CA3"
+			rewards: [{
+				id: "69C3D2FCEF160239"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0B9B6F3F7A91AE9C"
+				item: {
+					Count: 1b
+					id: "artifacts:cross_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "38DF9AB5DC016595"
+			rewards: [{
+				id: "147453E522F0C681"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "69F21BD40D2630E4"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "75721CC2400D51F5"
+			rewards: [{
+				id: "757E5C798BD15CF8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7A97A605E185A85F"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "13DD317CCE29C0FA"
+			rewards: [{
+				id: "6F4147C8CD7A3FD6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "263849F02A83F003"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "3429AC4A807E7913"
+			rewards: [{
+				id: "41249AC7792A36DC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3E79600D0069C90E"
+				item: {
+					Count: 1b
+					id: "artifacts:thorn_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "641CBC3DE2BEC913"
+			rewards: [{
+				id: "5D757939618CD3C3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "78E2D5F29320B4D8"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "753DEB12E821BCE7"
+			rewards: [{
+				id: "665FEEEFA288195F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0077998C3B85E71A"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "58AC032DAE9DBD2F"
+			rewards: [{
+				id: "5C0ED8CA2DF5106C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "25ED34687C7B8AB1"
+				item: {
+					Count: 1b
+					id: "artifacts:obsidian_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "211B45DDAE540822"
+			rewards: [{
+				id: "5340E2084E8819A2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "375F96E0F28C7BF9"
+				item: {
+					Count: 1b
+					id: "artifacts:antidote_vessel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "151A703608668F37"
+			rewards: [{
+				id: "7D33486B18FD860A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "37D7E8E92D383FC9"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "53582F08F390CF5B"
+			rewards: [{
+				id: "62E8786E9CE6DA87"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5B53C52CBA5989C3"
+				item: {
+					Count: 1b
+					id: "artifacts:helium_flamingo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "534FEDDAD78A844D"
+			rewards: [{
+				id: "6238EAA9C424B51F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "279D7D87E9C1AC14"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "699734A9DE00AA08"
+			rewards: [{
+				id: "739602CE0474EFFB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4B032F5567715B7E"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "5266D16379E3E55B"
+			rewards: [{
+				id: "2FB0CD4EC45F0779"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "21F423F7BCDE16FD"
+				item: {
+					Count: 1b
+					id: "artifacts:power_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			id: "5060563872CBF7EC"
+			rewards: [{
+				id: "0D6F82D0C63AAB06"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "774F4E5E1DF57987"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "1C29599C2EB5121F"
+			rewards: [{
+				id: "044BFAB8A9E5AD61"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "455C9CB2E00B1770"
+				item: {
+					Count: 1b
+					id: "artifacts:pocket_piston"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "13A20626101B5149"
+			rewards: [{
+				id: "07821FA281A11A94"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3CC9D60D08787FF2"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "46B37A136BFC1ADE"
+			rewards: [{
+				id: "63E5B2C63881CB06"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5CBE75359039BCA5"
+				item: {
+					Count: 1b
+					id: "artifacts:eternal_steak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "794012F63D140514"
+			rewards: [{
+				id: "71A90A4AC6C74E70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5E83A07887C2695A"
+				item: {
+					Count: 1b
+					id: "artifacts:everlasting_beef"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.06d
+			y: -3.06d
+		}
+	]
+	subtitle: ["Artifacts can be found randomly around the world."]
+	title: "&aArtifacts"
+}

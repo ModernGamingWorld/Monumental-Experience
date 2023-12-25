@@ -1,0 +1,81 @@
+
+["Miscellaneous Settings"]
+	#----------------------------------------------------------------------------------------------------+
+	# Enables the dungeon crawl developer tools. Do not use this for normal gameplay.
+	#
+	enable_tools = false
+	#----------------------------------------------------------------------------------------------------+
+	# Enables extended debug logging to help detecting errors. Enabled by default.
+	#
+	extended_debug = true
+
+["World Generation"]
+	#----------------------------------------------------------------------------------------------------+
+	# Experimental. Prevents caves, ravines, etc.. from interfering with a dungeon.
+	#
+	bury = false
+	#----------------------------------------------------------------------------------------------------+
+	# When enabled, the dungeons will ignore caves instead of trying to adjust to them (by not generating specific blocks).
+	#
+	solid = false
+	#----------------------------------------------------------------------------------------------------+
+	# Whether falling blocks like sand or gravel should drop down after being placed during dungeon generation.
+	#
+	tick_falling_blocks = true
+
+["Dungeon Placement"]
+	#----------------------------------------------------------------------------------------------------+
+	# The cell size of the grid used to generate the dungeons in chunks. Each cell of this grid can only contain one dungeon.
+	# You can also see this as the average distance between two adjacent dungeons in chunks.
+	# !! Has to be higher than the separation! !! 
+	# Reduce this value to make the dungeons more common, increase it to make them more rare.
+	# Halving it will quadruple the amount of dungeons, doubling it would have the opposite effect.
+	#
+	#Range: 9 ~ 4096
+	spacing = 24
+	#----------------------------------------------------------------------------------------------------+
+	# The minimum distance between two adjacent dungeons in chunks. Has to be lower than the spacing!
+	# The closer the separation is to the spacing, the more grid-aligned and predictable the dungeon placement will be.
+	# Generally, bigger values allow for less, and smaller values for more randomness.
+	# !! Has to be lower than the spacing! !!
+	#
+	#Range: 8 ~ 4095
+	separation = 12
+
+["Dungeon Settings"]
+	#----------------------------------------------------------------------------------------------------+
+	# Whether the dungeons should have secret rooms or not.
+	#
+	secret_rooms = true
+	#----------------------------------------------------------------------------------------------------+
+	#
+	#Whether the dungeons should generate at a fixed height or not. Enable this if the dungeons are generating too high.
+	fixed_generation_height = false
+	#----------------------------------------------------------------------------------------------------+
+	# Whether loot tables of certain spawner entities should be overwritten.
+	# For example, wither skeletons from dungeon spawners will never drop skulls if this is enabled.
+	#
+	overwrite_entity_loot_tables = true
+	#----------------------------------------------------------------------------------------------------+
+	# Whether the hell stage should be built with blocks from the overworld instead from the nether.
+	#
+	no_nether_blocks = false
+	#----------------------------------------------------------------------------------------------------+
+	# The activation range for the spawners in the dungeons.
+	#
+	#Range: 1 ~ 64
+	spawner_activation_range = 12
+	#----------------------------------------------------------------------------------------------------+
+	# The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
+	#
+	#Range: 1 ~ 128
+	spawner_entities = 6
+	#----------------------------------------------------------------------------------------------------+
+	# Whether custom mob spawners with equipment, etc.. should be used.
+	#
+	custom_spawners = true
+	#----------------------------------------------------------------------------------------------------+
+	# Whether mobs from spawners should despawn naturally or not.
+	#
+	natural_despawn = true
+

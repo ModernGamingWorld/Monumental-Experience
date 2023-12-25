@@ -1,0 +1,60 @@
+
+[general_fog]
+	#the default fog's opacity from 0 to 255
+	default_opacity = 80
+	#the default fog's start distance from the player
+	default_start_fog = 25
+	#the default fog's end distance from the player multiplier (multiplies the vanilla fog end by this amount)
+	END_FOG_MULTIPLYER = 1.15
+
+[night_fog]
+	enabled = true
+	#the night fog's opacity multiplier
+	night_opacity = 1.5
+	#the night fog's start distance from the player
+	night_start_fog = 0
+	#the night fog's end distance from the player
+	night_end_fog = 60
+
+[cave_fog]
+	enabled = true
+	#y value where cave fog starts
+	y_start = 100
+	#y value where the cave fog ends
+	y_end = -36
+	#the cave fog's opacity and the y_end y value from 0 to 255
+	min_opacity = 110
+	#the cave fog's start distance from the player the y_end y value
+	min_start_fog = 0
+	#the cave fog's end distance from the player the y_end y value
+	min_end_fog = 100
+
+[biome_fog]
+	enabled = true
+	#the radius in which the mod will check for different biomes and calculate the correct fog color
+	check_radius = 20
+	#the vertical multiplier for the radius check
+	vertical_factor = 0.25
+	#how many checks for the diameter of the circle that check for biomes will be made (higher value = better accuracy)
+	checks_for_side = 8
+	#list of properties for each biome, the values mean: <biome_id>;<color in hex>;<opacity multiplier>;<fog start multiplier>;<fog end multiplier>
+	colors_list = ["minecraft:desert;C2B280;1.2;0.75;1", "minecraft:beach;C2B280;1.2;0.75;1", "minecraft:badlands;FF9100;1.2;0.75;1", "minecraft:mesa;FF9100;1.2;0.75;1", "minecraft:savana;FFDD2C;1;0.85;1", "minecraft:forest;E2FFFF;1.1;0.95;0.9", "minecraft:mushroom_island;EAA2FF;0.6;0.5;1", "minecraft:mountain;94CAFF;1.5;0.5;1.5", "minecraft:ice_spikes;39AAFF;1.5;0.7;0.85", "minecraft:frozen_ocean;39AAFF;1.5;0.7;0.85", "minecraft:deep_frozen_ocean;39AAFF;1.5;0.7;0.85", "minecraft:frozen_peaks;DBF0FF;39AAFF;1.5;0.7;0.85", "minecraft:swamp;005F0A;1.2;0.75;1", "minecraft:the_nether;B50000;1.3;0.75;1", "minecraft:the_end;660066;1;0.75;1"]
+
+[cloud_fog]
+	enabled = true
+	#y value at which cloud fog starts
+	y_start = 100
+	#y value at which cloud fog ends
+	y_end = 275
+	#the cloud fog's start distance from the player when in the middle of the cloud fog (in between the start and end value)
+	max_fog_start = 0
+	#the cloud fog's end distance from the player when in the middle of the cloud fog (in between the start and end value)
+	max_fog_end = 80
+	#the cloud fog's opacity multiplier when in the middle of the cloud fog (in between the start and end value)
+	max_opacity_factor = 3.0
+
+[rain_fog]
+	enabled = true
+	#the rain fog's opacity multiplier
+	opacity_factor = 2.0
+

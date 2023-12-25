@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_additions"
+	group: "69B9F7247002FE35"
+	icon: "createaddition:electric_motor"
+	id: "5F8FDCEDD1F79152"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40249A12B86B5422"
+			rewards: [{
+				id: "77DC53079AD5711E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32653CB57CD2DFD0"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7BCAF3000074933F"
+			rewards: [{
+				id: "427EA1011299D1E4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D4C5CE9DCC36788"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "55B145C21A4C44B2"
+			rewards: [{
+				id: "634F6FCAE6C600EA"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02E4F378D5C4C5FF"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1033E1724C8058AF"
+			rewards: [{
+				id: "6F0E443BB40A36CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A5B9CF53EFC559B"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "6A925B34FF7FE307"
+			rewards: [{
+				id: "275624FC5E75CA34"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF4CA9BE1847B7D"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4ABA11EF0B7B7E72"
+			rewards: [{
+				id: "658049D58D81EC8F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31A8DEB42E0E9442"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "&2Create Additions"
+}

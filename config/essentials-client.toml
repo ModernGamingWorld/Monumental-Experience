@@ -1,0 +1,7 @@
+#Should the Wrench show up in the creative menu?
+creative_wrench = true
+#How should very large and small numbers be displayed?
+#Options are: NORMAL, SCIENTIFIC, ENGINEERING, and HEX
+#Allowed Values: NORMAL, SCIENTIFIC, ENGINEERING, HEX
+num_display = "SCIENTIFIC"
+

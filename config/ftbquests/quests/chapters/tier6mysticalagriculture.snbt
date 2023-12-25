@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier6mysticalagriculture"
+	group: "5271FC3947DEACC8"
+	icon: "mysticalagriculture:nether_star_seeds"
+	id: "0000000000000D1D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000D20"]
+			id: "0000000000000D1E"
+			rewards: [{
+				id: "0000000000001330"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000D1F"
+				item: "mysticalagradditions:insanium_coal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "0000000000000D20"
+			rewards: [{
+				id: "000000000000195A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000D21"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000D20"]
+			id: "0000000000000255"
+			rewards: [{
+				id: "000000000000132A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000256"
+					item: "mysticalagriculture:nether_star_seeds"
+					type: "item"
+				}
+				{
+					id: "00000000000014A9"
+					item: "mysticalagradditions:nether_star_crux"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000D20"]
+			id: "0000000000000257"
+			rewards: [{
+				id: "000000000000132C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000258"
+					item: "mysticalagriculture:dragon_egg_seeds"
+					type: "item"
+				}
+				{
+					id: "00000000000014AA"
+					item: "mysticalagradditions:dragon_egg_crux"
+					type: "item"
+				}
+				{
+					id: "0000000000000D22"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000255"]
+			id: "0000000000000259"
+			rewards: [
+				{
+					id: "0000000000001328"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4098A739F9F5E06D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 9L
+				id: "000000000000025A"
+				item: "mysticalagriculture:nether_star_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000257"]
+			id: "000000000000025B"
+			rewards: [{
+				id: "000000000000132E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 9L
+				id: "000000000000025C"
+				item: "mysticalagriculture:dragon_egg_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0000000000000D20"
+				"6154CB94B9600DE0"
+			]
+			id: "4ED3A2EE2432AC2F"
+			rewards: [{
+				id: "3311262DCDBD7397"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4BF93A1CC1492A6F"
+				item: "mysticalagriculture:awakened_draconium_seeds"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4ED3A2EE2432AC2F"
+				"6154CB94B9600DE0"
+			]
+			id: "2F69D1B6AA39F12C"
+			rewards: [{
+				id: "043AB5D6826BA6F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5A1E91E85E24D0B5"
+				item: "mysticalagriculture:awakened_draconium_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000D20"]
+			id: "3F285BBF604A25C0"
+			rewards: [{
+				id: "7D3BE180D4C30D24"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "42D45DAF0D335D7D"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000D20"]
+			id: "473DFF326A5D5A88"
+			rewards: [{
+				id: "657893BCB1289A38"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "lootbundles:loot_bundle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "75CD88A27E7C37DF"
+				item: "mysticalagradditions:insanium_apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	title: "&4(Tier6) &9Mystical Agriculture"
+}

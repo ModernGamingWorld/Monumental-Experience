@@ -1,0 +1,60 @@
+
+["Dog Render"]
+	#When enabled, dogs with points in pack puppy will have chests on their side.
+	render_chest = true
+	#If disabled will use the default minecraft wolf skin for all dog textures.
+	enable_dt_textures = true
+	#When enabled, dogs with points in wolf mount will have a saddle on.
+	render_saddle = true
+	#When enabled, Dogs will have wings when at level 5 pillow paw.
+	render_wings = false
+	#When enabled, Dogs will show injured texture while incapacitated.
+	render_incapacitated_overlay = true
+	#When sneaking, a part of the dog's name will be rendered with a certain color
+	#and the length of the part is based on the health percentage the dog has left
+	render_health_in_name = true
+	#Render a universal dog inventory access button in your inventory gui.
+	#If this is turned off, you can still access the button via the dog's
+	#GUI in Talents > Pack Puppy.
+	dog_inv_button_in_inv = true
+	#If the defeault incapacitated texture proof too much graphic.
+	#You can substitute this friendlier texture instead.
+	render_incap_txt_less_graphic = false
+	#Render dogs' name whose owner is not you with different color.
+	render_diffowner_name_different = true
+	#Attempt to block third parties from rendering overlays which may conflict
+	#with DT's built-in tag. It is recommended that this be achieved via the target third-party's
+	#configurations if they have the option to disable nametag overlay for certain mobs
+	#(Which they should). This option should only be used as the last resort.
+	block_third_party_nametag = false
+	#Show a fun icon on world loading screen.
+	world_load_icon = true
+	#Determine if dogs will render their armor.
+	render_armor = true
+	#By defeault, a copy of the Classical (Vanilla Wolf Texture) provided by the mod
+	#is used to render The Classical Skin, this is to avoid conflicts with resources packs
+	#like Fresh Animations which are directly using the in-game wolf texture. Turning this on
+	#will make DTN directly reference the in-game texture.
+	use_vanilla_res_for_classical = false
+	#Determine if dogs still render with a red overlay upon hurt like they usually do.
+	#This can be toggled on if user prefer to not having the red overlay and rely on the animation
+	#to indicate hurting.
+	block_red_overlay_when_hurt = false
+	#Display extra smoke when dog is on fire.
+	display_smoke_when_on_fire = true
+	#By default, dogs will render item in their mouth, regardless of models.
+	#This can be disabled if you prefer not to render it on some
+	#less compatible model.
+	mouth_item_force_render = true
+	#Enables the particle effect on Full Kami dogs.
+	enable_kami_particles = false
+	#Do not render dogs' name whose owner is not you.
+	render_diffowner_name_dont = false
+	#ALways render dog nametags regardless even if player blocks it by F1 mode.
+	always_render_dog_name = false
+	#Specify the max latency allowed before force adjusting the animation time
+	#clientside to sync with server's animation time. The unit is in ticks.
+	#Provide a non positive integer to disable this. Value from 0 to 7 both inclusive will be defaulted to 7.
+	#Range: > -2147483648
+	max_animation_latency_allowed = 10
+

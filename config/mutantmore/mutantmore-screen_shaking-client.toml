@@ -1,0 +1,14 @@
+#Configure Mutant More's battle music on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# A list of allowed screen shake priorities:
+#`effect` for screen shakes created purely for effect (like when a Fire Slash is passing by),
+#`player_action` for meaningful actions that the player performs (like using a Blazing Scimitar to create a Fire Slash),
+#`weak_mob_action` for actions performed by mobs that are meaningful but not extremely important (like the Mutant Wither Skeleton's basic attack)
+#or `strong_mob_action` for important and meaningful actions performed by mobs (like the Mutant Wither Skeleton's strong attack or a mutant intro animation),
+# usually set to `effect`, `player_action` and `strong_mob_action`
+"Allowed Screen Shake Priorities" = ["effect", "player_action", "strong_mob_action"]
+#
+# The intensity of screen shakes
+# usually set to 0.75
+"Screen Shake Intensity" = 0.75
+

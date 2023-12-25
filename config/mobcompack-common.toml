@@ -1,0 +1,10 @@
+
+#Modify spawn weights
+["Spawn Weights"]
+	#Changes natural spawn weight of Jaw Breakers
+	#Range: 0 ~ 1000
+	crystalslimespawn = 15
+	#Changes natural spawn weight of Jaw Breakers
+	#Range: 0 ~ 1000
+	jawbreakerspawn = 10
+
