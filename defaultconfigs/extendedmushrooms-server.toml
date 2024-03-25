@@ -1,0 +1,15 @@
+
+#Options that affect mod behavior.
+[behavior]
+	#Whether or not mushroom caps can be harvested with shears.
+	mushroomCapsWithShearsEnabled = true
+	#Whether or not mushroom stems can be harvested without silk touch enchantment.
+	mushroomStemsWithoutSilkTouchEnabled = true
+
+#Options that affect blocks and entities.
+[balancing]
+	#Whether or not sheeps and mushroom sheeps can eat mushrooms from ground.
+	sheepEatMushroomFromGroundEnabled = true
+	#Whether or not sheeps and mushroom sheeps change their fleece to the mushroom type when eating a mushroom from ground or while feeding.
+	sheepAbsorbMushroomTypeEnabled = true
+
