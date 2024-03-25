@@ -1,5 +1,0 @@
-
-[compat]
-	#Additional compatibility features for third-party mods, disable if broken by a third-party mod update.
-	create = true
-

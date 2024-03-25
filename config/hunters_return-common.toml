@@ -1,7 +1,0 @@
-#Add Item for What Hunter Illager can eatable [example: minecraft:apple]
-"Hunter's Food Whitelist" = ["minecraft:apple", "minecraft:cooked_beef", "minecraft:cooked_chicken", "minecraft:cooked_mutton", "minecraft:cooked_porkchop", "minecraft:beef", "minecraft:chicken", "minecraft:mutton", "minecraft:porkchop"]
-#Add Item for What Hunter Illager has in own Inventory [example: minecraft:apple]
-"Hunter's Food In Inventory Whitelist" = ["minecraft:apple", "minecraft:cooked_beef", "minecraft:cooked_chicken", "minecraft:cooked_mutton", "minecraft:cooked_porkchop", "minecraft:beef", "minecraft:chicken", "minecraft:mutton", "minecraft:porkchop"]
-#Add Entity for What Hunter Illager can hunt [example: minecraft:chicken]
-"Hunter's Hunt Entity Whitelist" = ["minecraft:chicken", "minecraft:rabbit", "minecraft:pig", "minecraft:cow", "minecraft:sheep", "earthmobsmod:wooly_cow", "earthmobsmod:horned_sheep"]
-
