@@ -24,7 +24,7 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_distance": 33,
+    "fog_distance": 0,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
@@ -42,7 +42,7 @@
     "player_name_tag": true
   },
   "extra_settings": {
-    "overlay_corner": "BOTTOM_RIGHT",
+    "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
     "show_fps": false,
     "show_f_p_s_extended": true,
@@ -54,11 +54,17 @@
     "advancement_toast": true,
     "recipe_toast": true,
     "system_toast": true,
-    "tutorial_toast": false,
+    "tutorial_toast": true,
     "instant_sneak": false,
     "prevent_shaders": false
   },
   "notification_settings": {
-    "hide_r_s_o_recommendation": true
+    "hide_r_s_o_recommendation": false
+  },
+  "super_secret_settings": {
+    "fetch_sodium_extra_crowdin_translations": false,
+    "sodium_extra_crowdin_project_identifier": "sodium-extra",
+    "fetch_sodium_crowdin_translations": false,
+    "sodium_crowdin_project_identifier": "sodium-fabric"
   }
 }

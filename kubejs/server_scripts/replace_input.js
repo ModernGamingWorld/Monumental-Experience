@@ -41,6 +41,10 @@ ServerEvents.recipes(e => {
 
     e.replaceInput({},'#forge:leather', 'material_elements:leather_sheet');
 
+    e.replaceInput({},'mekanism:salt', '#forge:salt');
+
+    e.replaceInput({},'croptopia:salt', '#forge:salt');
+
     //Tool Changes
     
     e.replaceInput({},'#alltheores:ore_hammers', '#forge:tools/hammers');

@@ -14,6 +14,14 @@
 		morePlayerInformation = true
 		#If true, the player detector can observe players which aren't in the same dimension as the detector itself. `playerDetMaxRange` needs to be infinite(-1) for it to work.
 		chatBoxMultiDimensional = true
+		#If true, add random error to `getPlayerPos` player position that varies based on how far the player is from the detector. Prevents getting the exact position of players far from the detector.
+		enablePlayerPosRandomError = false
+		#The maximum amount of error (in blocks) that can be applied to each axis of the player's position.
+		#Range: > 0
+		playerPosRandomErrorAmount = 1000
+		#If random error is enabled: this is the maximum range at which an exact player position is returned, before random error starts to be applied.
+		#Range: > 0
+		playerPosPreciseMaxRange = 100
 
 	[Peripherals.Energy_Detector]
 		#Enable the Energy Detector or not.

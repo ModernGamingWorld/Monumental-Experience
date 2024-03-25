@@ -38,6 +38,8 @@
 	eggnog = true
 	wreath = true
 	snow_globe = true
+	#Only make sense to turn off with both ginger and gumdrops off
+	gingerbread_golem = true
 
 [sleds]
 	enabled = true

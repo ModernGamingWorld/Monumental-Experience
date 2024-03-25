@@ -107,6 +107,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "appliedcooking": {
     "kitchen_station": true
   },
@@ -209,13 +212,6 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
-  },
-  "jadecolonies": {
-    "colony.citizens": true,
-    "colony.visitor_cost": true,
-    "colony.pack": true,
-    "colony.colonist": true,
-    "domum.materials": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

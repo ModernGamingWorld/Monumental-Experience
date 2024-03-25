@@ -49,6 +49,11 @@
         "type_visual_replace_failed_notification": "HOTBAR"
     },
     "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
         "scroll_to_chest": {
             "main": {
                 "keys": ""

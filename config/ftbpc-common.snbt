@@ -1,0 +1,10 @@
+{
+	# When enabled, players will be able to use beds in the nether.
+	# Default: false
+	allow_beds_in_the_nether: false
+	
+	# If non-zero, set the jigsaw feature size limit to this value.
+	# Default: 0
+	# Range: 0 ~ 256
+	extended_jigsaw_range: 0
+}

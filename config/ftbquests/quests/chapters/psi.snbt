@@ -5,17 +5,24 @@
 	group: "4814F40AB34427B6"
 	icon: "psi:cad_assembly_ivory_psimetal"
 	id: "0000000000001DF3"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "0000000000001DF4"
-			rewards: [{
-				id: "0497CB138566BA45"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0497CB138566BA45"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06809F8FCBC8CD26"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -29,12 +36,19 @@
 		{
 			dependencies: ["0000000000001E00"]
 			id: "0000000000001DF6"
-			rewards: [{
-				id: "0000000000001E0F"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E0F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "54378E500939D48A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -49,12 +63,19 @@
 		{
 			dependencies: ["0000000000001DF6"]
 			id: "0000000000001DF8"
-			rewards: [{
-				id: "0000000000001E11"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E11"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56C24EC80BF5D110"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -72,12 +93,19 @@
 		{
 			dependencies: ["0000000000001DF6"]
 			id: "0000000000001DFA"
-			rewards: [{
-				id: "0000000000001E12"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E12"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22AAAFDE58ED45CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -91,12 +119,19 @@
 		{
 			dependencies: ["0000000000001DF6"]
 			id: "0000000000001DFC"
-			rewards: [{
-				id: "0000000000001E10"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E10"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73EC3215BA2C0975"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -110,12 +145,19 @@
 		{
 			dependencies: ["0000000000001DF6"]
 			id: "0000000000001DFE"
-			rewards: [{
-				id: "0000000000001E13"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E13"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "623D981AF3A2F32E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -129,12 +171,19 @@
 		{
 			dependencies: ["0000000000001DF4"]
 			id: "0000000000001E00"
-			rewards: [{
-				id: "0000000000001E0E"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E0E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "478C673F957D3E6D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -152,12 +201,19 @@
 				"0000000000001E04"
 			]
 			id: "0000000000001E02"
-			rewards: [{
-				id: "0000000000001E14"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E14"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06EA66EB8DED898B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [{
@@ -171,12 +227,19 @@
 		{
 			dependencies: ["0000000000001DFE"]
 			id: "0000000000001E04"
-			rewards: [{
-				id: "0000000000001E15"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E15"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ED10263CA7EE6B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001E05"
@@ -189,12 +252,19 @@
 		{
 			dependencies: ["0000000000001E02"]
 			id: "0000000000001E06"
-			rewards: [{
-				id: "0000000000001E16"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E16"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0750C58BD2D6EA81"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001E07"
@@ -207,12 +277,19 @@
 		{
 			dependencies: ["0000000000001DF4"]
 			id: "0000000000001E0A"
-			rewards: [{
-				id: "0000000000001E0D"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E0D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3ECF522E19FC0C6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001E0B"
@@ -231,12 +308,19 @@
 		{
 			dependencies: ["0000000000001E02"]
 			id: "0000000000001E17"
-			rewards: [{
-				id: "0000000000001E1A"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E1A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "770E2A467DA9CE6F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [
@@ -260,12 +344,19 @@
 				"0000000000001E04"
 			]
 			id: "0000000000001E1C"
-			rewards: [{
-				id: "500B63518494B70E"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "500B63518494B70E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20FD4452C15143D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [
@@ -286,12 +377,19 @@
 		{
 			dependencies: ["0000000000001E04"]
 			id: "0000000000001E21"
-			rewards: [{
-				id: "0000000000001E2A"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E2A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73469E8D96E76EDA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [
@@ -312,12 +410,19 @@
 		{
 			dependencies: ["0000000000001E06"]
 			id: "0000000000001E24"
-			rewards: [{
-				id: "0000000000001E2B"
-				item: "lootbundles:loot_bundle"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0000000000001E2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40577C1C7D56900A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			tasks: [
@@ -375,5 +480,5 @@
 			y: 1.5d
 		}
 	]
-	title: "&dPSI"
+	title: "&d&oPSI"
 }

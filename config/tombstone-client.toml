@@ -51,7 +51,7 @@
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
 	favorite_grave = "GRAVE_SIMPLE"
 	#Favorite grave marble
-	#Allowed Values: DARK, WHITE
+	#Allowed Values: DARK, WHITE, BLUE, GREEN, CARMIN
 	favorite_grave_marble = "DARK"
 	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
 	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS

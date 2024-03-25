@@ -1,6 +1,6 @@
 {
   "chunkSaveDelay": {
-    "desc:": "Delay before a chunk is saved to disk, default: 300 seconds. If you enable the noSaveAll config, it is suggest to set this to 180.",
+    "desc:": "Delay before a chunk is saved to disk, default: 300 seconds",
     "chunkSaveDelay": 300
   },
   "debugLogging": {

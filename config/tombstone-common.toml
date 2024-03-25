@@ -94,6 +94,9 @@
 	unhandled_beneficial_effects = ["extraalchemy", "astralsorcery:potiontimefreeze", "xreliquary:flight_potion"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
+	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
+	#Range: 1000 ~ 100000
+	easter_egg_spawn_rarity = 5000
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -210,4 +213,6 @@
 	duration_voodoo_poppet_effects = 60
 	#Allows to disenchant enchanted books with the Book of Disenchantment
 	can_disenchant_enchanted_book = false
+	#The worlds that can't be discovered by lost tablets
+	lost_tablet_denied_worlds = []
 

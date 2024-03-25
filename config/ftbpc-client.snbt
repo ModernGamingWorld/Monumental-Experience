@@ -1,0 +1,38 @@
+{
+	# When enabled, toasts regarding the advancement progression will be disabled.
+	# Default: false
+	disable_advancements_toasts: false
+	
+	# When enabled, toasts regarding the recipe unlocks will be disabled.
+	# Default: false
+	disable_recipe_toasts: false
+	
+	# When enabled, toasts regarding the in-game start tutorial will be disabled.
+	# Default: true
+	disable_tutorial_toasts: true
+	
+	# When enabled, the advancements button will be removed from the pause menu.
+	# Default: false
+	remove_advancements_from_pause: false
+	
+	# The seed to use for the world. Only used if world_uses_static_seed is enabled.
+	# Default: ""
+	static_seed: ""
+	
+	# When enabled, the world will always use the same seed, regardless of the world name.
+	# Default: false
+	world_uses_static_seed: false
+	pause_screen: {
+		# When enabled, the support provider will be enabled in the top left of the pause screen. This is used for modpacks to provide support information.
+		# Default: true
+		enable_support_provider: true
+		
+		# The URL to open when the support provider's Discord icon is clicked. If this is empty, the Discord icon will not be shown.
+		# Default: "https://go.ftb.team/discord"
+		support_discord_url: "https://go.ftb.team/discord"
+		
+		# The URL to open when the support provider's GitHub icon is clicked. If this is empty, the GitHub icon will not be shown.
+		# Default: "https://go.ftb.team/support-modpack"
+		support_github_url: "https://go.ftb.team/support-modpack"
+	}
+}

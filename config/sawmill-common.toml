@@ -1,0 +1,26 @@
+
+[general]
+	#Allow crafting non-block items
+	allow_non_blocks = true
+	#Allows crafting non wood variant items (crafting table for example)
+	allow_non_variant = true
+	#List of Mod ids you want to completely exclude from sawmill recipes. All recipes from these mods will be ignored.For more fine control use the sawmill:blacklist item tag
+	mod_blacklist = []
+	#Makes so planks recipes can only craft items with 1 input plank. Disable to allow more recipes
+	limit_planks_input_to_one = true
+	#Makes Sawmill GUI slightly wider
+	wider_gui = false
+	#Determines if GUI will have search bar or not. Automatic only enables the bar statically when you have enough mods that add wood recipes. Dynamic changes the gui dynamically depending on how many recipe its displaying
+	#Allowed Values: OFF, ON, AUTOMATIC, DYNAMIC
+	search_bar_mode = "AUTOMATIC"
+	#At how many recipes the search bar should appear
+	#Range: 0 ~ 200
+	search_bar_threshold = 32
+	#Maximum discount that sawmill will given when converting recipes. Unit is percentage of input item
+	#Range: 0.0 ~ 1.0
+	max_discount = 0.35
+
+	#This is a map of wood object type to its cost in planks. Its used to add some discount to some special blocks.Change this if say you want all fences to cost 1 plank. Not all keys will work here bt you can try modded ones if you hae Every Compat
+	[general.special_recipe_costs]
+		stairs = 1.0
+

@@ -10,18 +10,25 @@
 	quests: [
 		{
 			id: "23F31ACD244BB388"
-			rewards: [{
-				id: "0000000000000FB0"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "5F64CCDCD687E17B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -39,18 +46,25 @@
 				"4CAA4CCB61E0254A"
 			]
 			id: "44B24BB7FA72F232"
-			rewards: [{
-				id: "0000000000000FB2"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FB2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "63968DA915270ED0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				count: 6L
@@ -67,18 +81,25 @@
 				"44B24BB7FA72F232"
 			]
 			id: "0737BA2F57A1C51B"
-			rewards: [{
-				id: "0000000000000FAD"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FAD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "61E42277BAFB907C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				count: 6L
@@ -95,18 +116,25 @@
 				"23F31ACD244BB388"
 			]
 			id: "4CAA4CCB61E0254A"
-			rewards: [{
-				id: "0000000000000FAF"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FAF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "5D46EBFAC25F3879"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				count: 6L
@@ -119,18 +147,25 @@
 		}
 		{
 			id: "76081CFE45D76A77"
-			rewards: [{
-				id: "0000000000000FAC"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FAC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "046360C4C94DA871"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -210,18 +245,25 @@
 		}
 		{
 			id: "7DF18F354774E0B1"
-			rewards: [{
-				id: "0000000000000FB1"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FB1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "6F57D94AA23FFB94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -240,18 +282,25 @@
 		}
 		{
 			id: "06D597A41AC54426"
-			rewards: [{
-				id: "0000000000000FAE"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "0000000000000FAE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "00AC57D7AAE93F9D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -270,5 +319,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&4Dark Utilities"
+	title: "&4&oDark Utilities"
 }

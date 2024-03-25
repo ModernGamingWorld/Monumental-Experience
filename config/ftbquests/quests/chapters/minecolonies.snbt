@@ -1,0 +1,1634 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "68BD27E8D0136E3E"
+	icon: "minecolonies:supplycampdeployer"
+	id: "339B9FD46A5F4CF4"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: 2.25d
+		y: -11.089285714285712d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Minecolonies is an interactive Town building mod that allows you to create your own thriving Town within Minecraft."
+				""
+				"It depicts real-life scenarios by providing you with different craftable options to build your own Town and enhance your gaming experience. Featuring many NPC workers such as: Builders, Crafters, Farmers, Fishermen, Guards, Barracks, Miners, Smeltery, Baker, Cook/Restuarant, Deliveryman, Animal Herders and many more planned for development. As well as a specialized buildings such as: Warehouse, Citizen Huts and a Townhall. Minecolonies gives you the ability to create a colony as rich and unique as every player"
+				""
+				"You have full control of how to build your Town. You determine how many workers you want or need, what type of workers, where they will live, and hire or fire as you see fit. Creating a Town at your own pace. It is your Town to design and develop, you are the designer, administrator and boss."
+				""
+				"Your Town deserves the best security you can have. Strategically add Guard Towers or Tower Barracks to protect your Town from hostile mobs and barbarians that will attack on random nights. Give them the best weapons and armour your Town has to offer. They need to be fed well to work and protect it better. Keep a busy farmer to supply the baker and the cook at the restaurant, so no one goes hungry."
+			]
+			icon: "moblassos:contract"
+			id: "7BD92050166191A6"
+			min_width: 400
+			rewards: [
+				{
+					id: "27949755972CF646"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A290CE97995365E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "29F0CA2EE73B2E04"
+				type: "checkmark"
+			}]
+			title: "Welcome to &aMineColonies"
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7BD92050166191A6"]
+			description: [
+				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp. You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony. They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+				""
+				"Before you place the Supply Camp, you need to have a large enough flat, clear piece of land that is as large as the camp area."
+				""
+				"For the Supply Ship, you need an area of water at least one block larger than the build area. Not all Camps or Ships are the same size."
+			]
+			id: "01BA5896FE1F2896"
+			min_width: 300
+			rewards: [
+				{
+					id: "39F08DFC5F22AD90"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19FF27869545BD5C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Step 1: Supply Camp/Supply Ship"
+			tasks: [{
+				id: "3245902090120C9A"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^minecolonies:.*supply.*"
+					}
+				}
+				title: "Supply Camp/Supply Ship"
+				type: "item"
+			}]
+			title: "&aThe Supply Ship or Supply Camp"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level)."
+				""
+				"Make sure you scout your area carefully before you decide where you want to place your Town Hall. Your colony will start with a 4 chunk radius (4 chunks in each direction) from the Town Hall block. Make sure this is where you want your colony to be."
+				""
+				"After you have carefully decided where you want to place your Town Hall (remember, the position where you placed the Town Hall block will be the center of your colony’s protected area. Once placed, the area will be set and cannot be changed), use your build tool to place the Town Hall block.Right-click the ground in the area you want to place the Town Hall. The building GUI will display showing the 3D preview of the building. You will be able to use the arrow buttons to move the building to the location you desire."
+				""
+				"&lNote:&r Make sure you use the + and - options in the GUI to make sure you have the ground level of the hut where you want the ground level to be. Not all hut blocks sit on the ground.Once you commit to the placement of the Town Hall (green checkmark), the Town Hall block will be placed."
+			]
+			id: "649F6004232F335C"
+			min_width: 400
+			rewards: [
+				{
+					id: "7D4407EED118685F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48A5AD05D5E117C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The center of your colony"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_town_hall"
+				criterion: ""
+				icon: "minecolonies:blockhuttownhall"
+				id: "607EDC7794E2FC97"
+				type: "advancement"
+			}]
+			title: "&aThe Town Hall"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01BA5896FE1F2896"]
+			description: [
+				"Before anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
+				""
+				"Before you choose a place to build the Builder’s Hut, take into account the distances among the other possible building sites and obstacles like water, trees, caves, mountains, lava sources, etc. After you have selected a place for the hut, you have to craft the Builder’s Hut block and place it with your build tool. Once the hut is placed, the Builder will be automatically assigned (or you can manually assign one with the best Traits for a Builder if you changed this in the settings tab in the Town Hall’s GUI."
+				""
+				"Now you will have to issue the build assignment so the Builder can build their own hut first. The Builder will ask for the materials they need. Make sure to check the Resource Scroll or the second page of the Builder’s Hut GUI to see what materials the Builder is requesting for any build/upgrade. Any material in the list that is still missing will be in red letters. Once the Builder’s Hut is built you can now build anything you want, like worker huts, buildings, decorations, or your own schematics."
+				""
+				"&lNote:&r The Builder can only build or upgrade any other hut up to the level of their own hut. So, in order for the Builder to upgrade any building, the Builder’s Hut must be upgraded first. Then the Builder will be able to upgrade any other building(s)."
+			]
+			id: "59C805F0C3A3E7E0"
+			min_width: 400
+			rewards: [
+				{
+					id: "5B15372A620E1AC4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BE4573860F3F2AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Step 2: Builder’s Hut"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/check_out_guide"
+				criterion: ""
+				icon: "minecolonies:blockhutbuilder"
+				id: "4F6E4CB69D98EDEC"
+				type: "advancement"
+			}]
+			title: "&aThe Builder"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."
+				""
+				"The Tavern is like a House in that it houses citizens, however, the Tavern houses four instead of one and can’t be upgraded to house more.Every so often, visitors will come to the Tavern. You can recruit these visitors (with items) to live and work in your colony. Don’t attack them, they’ll fight back! Upgrading the Tavern will garner more and better visitors.Recruiting used to be part of the Town Hall but has been moved here."
+				""
+				"&lNote:&r The Tavern can only be upgraded to level 3, not level 5. You can also only have 1 Tavern per colony."
+			]
+			id: "25B2ADF0164EBDD7"
+			min_width: 300
+			rewards: [
+				{
+					id: "4A08A2E843EC1873"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "608709948F3E447D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+				icon: "minecolonies:blockhuttavern"
+				id: "750DE8A0B2B0E73A"
+				type: "advancement"
+			}]
+			title: "Tavern"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The Forester will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn’t have cobblestone placed beneath it."
+				""
+				"&lNote:&r Foresters require hoes (for breaking leaves)."
+			]
+			id: "10EFBDB2DF3301F4"
+			rewards: [
+				{
+					id: "04375BABEE036993"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E93BFED182C5C69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Forester’s Hut is where the Forester will go in between chopping down trees"
+			tasks: [{
+				advancement: "minecolonies:production/build_lumberjack"
+				criterion: ""
+				icon: "minecolonies:blockhutlumberjack"
+				id: "09030FEDC1E5D140"
+				type: "advancement"
+			}]
+			title: "Forester’s Hut"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"Once they are hired, the Miner will create a shaft downward and then branch out."
+				""
+				"The shaft the Miner creates downwards will go to a specific depth depending on the level of the Mine:"
+				"Mine Level 1 - Y level 50"
+				"Mine Level 2 - Y level 30"
+				"Mine Level 3+ - Bedrock"
+			]
+			id: "3B3160E21CBAD118"
+			rewards: [
+				{
+					id: "54FF9C842F9B4547"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "714C9425D490BCC4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Mine is where the Miner will mine for ores and materials"
+			tasks: [{
+				advancement: "minecolonies:production/build_miner"
+				criterion: ""
+				icon: "minecolonies:blockhutminer"
+				id: "27744B08226BEEE5"
+				type: "advancement"
+			}]
+			title: "Mine"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["08E6410AC63CC533"]
+			description: [
+				"Items will be stored in racks.The level of the Warehouse will determine how many Couriers will be able to use it at the same time. Level up the Warehouse to increase the amount of Couriers that can work in it. Leveling up the Warehouse will also increase its storage capacity."
+				""
+				"&lNote:&r You can only have one Warehouse per colony."
+			]
+			id: "6B327509E285B9BA"
+			rewards: [
+				{
+					id: "2A14FB505A827A7B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E2F0CF31E60E03C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Warehouse is the central storage from where a Courier will store and retrieve everything your workers harvest, craft, or need"
+			tasks: [{
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+				icon: "minecolonies:blockhutwarehouse"
+				id: "0A3B972C6B8BC15B"
+				type: "advancement"
+			}]
+			title: "Warehouse"
+			x: -5.535714285714285d
+			y: -6.062499999999993d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The University is where a Researcher will research various upgrades to your colony."
+				""
+				"As you level up the University, you can hire more researchers."
+			]
+			id: "1AFDAA3909136444"
+			rewards: [
+				{
+					id: "1AA0C174AEFC204D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41DBE13731082C0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Step 3: Rest of the Colony"
+			tasks: [{
+				id: "0D6D50DCDF2533BB"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			title: "&aThe University"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0E86F1602C93A043"]
+			description: [
+				"The Fisher requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work, and the water must be near his hut."
+				""
+				"Upgrading the Fisher’s Hut will expand the range at which the Fisher can fish, and the higher the level of the Fisher’s Hut, the more loot the Fisher will be fishing out (instead of fish). This includes prismarine and sponges!"
+			]
+			id: "01D6457585743B28"
+			rewards: [
+				{
+					id: "6E8A1139DC338E96"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46A4D6992FE7F567"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Fisher’s Hut is where the Fisher will catch fish"
+			tasks: [{
+				advancement: "minecolonies:production/build_fisherman"
+				criterion: ""
+				icon: "minecolonies:blockhutfisherman"
+				id: "0ACDCA568DFA0CE2"
+				type: "advancement"
+			}]
+			title: "Fisher’s Hut"
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["25B2ADF0164EBDD7"]
+			description: [
+				"When citizens are hungry, they will come to the Restaurant and the Cook will give them food. The Assistant Cook also works at the Restaurant. They craft needed food to help supply the colony."
+				""
+				"&lNote:&r You can only hire an Assistant Cook when the Restaurant is level 3 or higher."
+			]
+			id: "2B0E3E6924D17A76"
+			rewards: [
+				{
+					id: "3CCBB983AAA02AA1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A1024DD0E2C14E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Restaurant is where the Cook will cook food, provided they have the necessary ingredients and fuel"
+			tasks: [{
+				advancement: "minecolonies:production/build_cook"
+				criterion: ""
+				icon: "minecolonies:blockhutcook"
+				id: "4285DAAF98FF19CB"
+				type: "advancement"
+			}]
+			title: "Restaurant"
+			x: -4.107142857142861d
+			y: -5.098214285714285d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The crops the Farmer currently cultivates are wheat, carrots, potatoes, beets, melons, pumpkins, and most crops from other mods (as long as they have normal growth behavior). Before the Farmer can start, you will have to give the Farmer a hoe, an axe (for harvesting crops), and the crop you want to cultivate."
+				""
+				"The Farmer will also craft seeds, carved pumpkins, hay bales, composted dirt, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+				""
+				"For the Farmer to start, you will also need to place fields. Place the Field block (it looks like a scarecrow) in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI. Here you will place the seed of the crop you want this specific field to cultivate. (For potatoes, carrots, and other plants without seeds, just put the raw potato/carrot/etc in the Field.) If you decide later to change the type of crop you want cultivated in that farmland, just go into the Field’s GUI and switch the seed there."
+				""
+				"&lNote:&r The Farmer can only learn a set number of recipes based on their hut level."
+			]
+			id: "0E86F1602C93A043"
+			min_width: 400
+			rewards: [
+				{
+					id: "5BCED356A27FAFEC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6ECF96F81DA83B04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Farm is where the Farmer will grow crops for your colony"
+			tasks: [
+				{
+					advancement: "minecolonies:production/build_farmer"
+					criterion: ""
+					icon: "minecolonies:blockhutfarmer"
+					id: "5D6834E6E9C495E5"
+					type: "advancement"
+				}
+				{
+					id: "52DF6E10091661A5"
+					item: "minecolonies:blockhutfield"
+					type: "item"
+				}
+			]
+			title: "Farm \\& Fields"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The level of the Courier’s Hut will dictate how many items the Courier can deliver, so if you want them to carry more materials/tools, upgrade their hut. Upgrading the hut will also increase the amount of requests they can keep track of at a time."
+				""
+				"The greater a Courier’s Agility skill, the faster they’ll run. The greater their Adaptability skill, the more huts they can visit before going back to the Warehouse."
+				""
+				"&lNote:&r You MUST build the Warehouse to at least level 1 so the Courier can do their work."
+			]
+			id: "08E6410AC63CC533"
+			rewards: [
+				{
+					id: "383CC2D7759B6B6A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "037C55DE8F24AB77"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse"
+			tasks: [{
+				advancement: "minecolonies:production/build_delivery_person"
+				criterion: ""
+				icon: "minecolonies:blockhutdeliveryman"
+				id: "419989B0F51EEC39"
+				type: "advancement"
+			}]
+			title: "Courier’s Hut"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E86F1602C93A043"]
+			description: [
+				"They can also create dirt if you have the setting enabled, which the Builder can use in buildings. The Composter uses compost barrels to make compost or dirt."
+				""
+				"&lHint:&r The higher the level of the Composter’s Hut, the more compost barrels the Composter will be able to use."
+			]
+			id: "70C6E443BB9BA72A"
+			rewards: [
+				{
+					id: "0E9E9F16BFD60DA4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F9CC01439027B91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers"
+			tasks: [{
+				advancement: "minecolonies:production/build_composter"
+				criterion: ""
+				icon: "minecolonies:blockhutcomposter"
+				id: "5AD8B7AB8958984E"
+				type: "advancement"
+			}]
+			title: "Composter’s Hut"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["01D6457585743B28"]
+			description: [
+				"You will have to capture and bring in two chickens to the Chicken Farmer’s Hut, as the Chicken Farmer will not catch and bring in any chickens."
+				""
+				"&lNote:&r The Chicken Farmer will only keep two chickens alive per hut level, so at level 5 they will have ten chickens in their holding pens to breed and butcher."
+			]
+			id: "47DA70D77F240688"
+			rewards: [
+				{
+					id: "536752FB8F491749"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0547E4BE85C9C5BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Chicken Farmer’s Hut is where the Chicken Farmer will raise chickens, collect eggs, and butcher chickens for food"
+			tasks: [{
+				id: "6E7F5BAF2C1B01E2"
+				item: "minecolonies:blockhutchickenherder"
+				type: "item"
+			}]
+			x: -6.285714285714285d
+			y: -9.276785714285715d
+		}
+		{
+			dependencies: ["47DA70D77F240688"]
+			description: [
+				"You will have to capture and bring in two pigs to the Swineherd’s Hut, as the Swineherd will not catch and bring in any pigs."
+				""
+				"&lNote:&r The Swineherd will only keep two pigs alive per hut level, so at level 5 they will have ten pigs in their holding pens to breed and butcher."
+			]
+			id: "44B24D443F699CF6"
+			rewards: [
+				{
+					id: "662881CD5ACE6189"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B72176BB2DEA701"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Swineherd’s Hut is where the Swineherd will breed and butcher pigs for food"
+			tasks: [{
+				id: "23F29ABD0441CCA6"
+				item: "minecolonies:blockhutswineherder"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -8.776785714285715d
+		}
+		{
+			dependencies: ["44B24D443F699CF6"]
+			description: [
+				"You will have to capture and bring in two sheep to the Shepherd’s Hut, as the Shepherd will not catch and bring in any sheep."
+				""
+				"&lNote:&r The Shepherd will only keep two sheep alive per hut level, so at level 5 they will have ten sheep in their holding pens to breed and butcher."
+			]
+			id: "1A3C9F124B6E687F"
+			rewards: [
+				{
+					id: "0B8E28CCA5212BA8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "02B0DADBADB8D901"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Shepherd’s Hut is where the Shepherd will breed and butcher sheep for food and wool"
+			tasks: [{
+				id: "3478BD6047A8313E"
+				item: "minecolonies:blockhutshepherd"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1A3C9F124B6E687F"]
+			description: [
+				"You will have to capture and bring in two cows to the Cowhand’s Hut, as the Cowhand will not catch and bring in any cows."
+				""
+				"&lNote:&r The Cowhand will only keep two cows alive per hut level, so at level 5 they will have ten cows in their holding pens to breed and butcher."
+			]
+			id: "527567CD8C852ED6"
+			rewards: [
+				{
+					id: "1555B887FE98C3AA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34C1FE1F812F2B2C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Cowhand’s Hut is where the Cowhand will breed, butcher, and milk (if you have the option enabled) cows for food and leather"
+			tasks: [{
+				id: "4AA93698FF316FF7"
+				item: "minecolonies:blockhutcowboy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: ["The Flower Shop cannot be built until you have a level 3 Composter’s Hut (or three level 1 Composter’s Huts, or another equivalent) and have finished the research in the University."]
+			id: "7BA609263896CABC"
+			rewards: [
+				{
+					id: "0A393672C16D99BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "51E1A8ACACFCD233"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Flower Shop is where your Florist will grow flowers for your colony, if given compost and an axe"
+			tasks: [{
+				advancement: "minecolonies:production/build_florist"
+				criterion: ""
+				icon: "minecolonies:blockhutflorist"
+				id: "0B6E1FE3D4E6E475"
+				type: "advancement"
+			}]
+			title: "Flower Shop"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"A citizen will randomly level up their Intelligence as long as they’re assigned to the Library. Being a Library Student is their full-time job, so you can’t have one citizen work at the Library and another worker hut at the same time."
+				""
+				"&lNote:&r The Library cannot be built until you finish the research in the University."
+			]
+			id: "0D7C129C45728971"
+			min_width: 300
+			rewards: [
+				{
+					id: "7999DD23B30A312A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E101259A29A3BD8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Library is a way for you to raise your adult citizens’ Intelligence skill, which influences all other skill increases (at other jobs)"
+			tasks: [{
+				advancement: "minecolonies:production/build_library"
+				criterion: ""
+				icon: "minecolonies:blockhutlibrary"
+				id: "62C8DC9720910F1C"
+				type: "advancement"
+			}]
+			title: "Library"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: ["&cNote:&r The Crusher’s Hut cannot be built until you have a level 1 Stonemason’s Hut and have finished the research in the University."]
+			id: "238C2A741A6C8CA5"
+			rewards: [
+				{
+					id: "25E970502F1E77AD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E36A39365EE74CA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Crusher’s Hut is where the Crusher will take items and crush them into other blocks"
+			tasks: [{
+				advancement: "minecolonies:production/build_crusher"
+				criterion: ""
+				icon: "minecolonies:blockhutcrusher"
+				id: "0101F33216743D5F"
+				type: "advancement"
+			}]
+			title: "Crusher’s Hut"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"The Blacksmith will work when they receive a request for any of those items from another worker."
+				""
+				"&lNote:&r The Blacksmith’s Hut cannot be built until you have a level 3 Mine (or three level 1 Mines, or another equivalent) and have finished the research in the University."
+			]
+			id: "60247F70F86D4E33"
+			min_width: 300
+			rewards: [
+				{
+					id: "2A3F72469DD25416"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0059190869C940B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Blacksmith is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items)"
+			tasks: [{
+				advancement: "minecolonies:production/build_blacksmith"
+				criterion: ""
+				icon: "minecolonies:blockhutblacksmith"
+				id: "16B9357028035C3F"
+				type: "advancement"
+			}]
+			title: "Blacksmith’s Hut"
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2B0E3E6924D17A76"]
+			description: [
+				"They will only do this upon request, whether from the Cook, the postbox, or as a minimum stock in the Warehouse."
+				""
+				"The Baker can also craft some non-vanilla breads:"
+				""
+				"- Sweet bread, made from wheat and a honey bottle. Available at Bakery level 3. Has slightly higher saturation than normal bread, also gives you a speed boost and removes poison."
+				""
+				"- Milk-infused bread, made from wheat and a milk bucket. Available at Bakery level 4. Removes all potion effects (like milk buckets do)."
+				""
+				"- Golden bread, made from wheat and a gold ingot. Available at Bakery level 5. Instantly heals 2 hearts."
+				""
+				"- Chorus bread, made from wheat and a chorus fruit. Available after completing the Know the End research in the University. Has higher saturation than normal bread and teleports you to the surface after eating it."
+			]
+			id: "7E47815F9083FC5F"
+			min_width: 300
+			rewards: [
+				{
+					id: "537F9690FFBC469C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "654D6A8372835219"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Baker will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies"
+			tasks: [{
+				advancement: "minecolonies:production/build_baker"
+				criterion: ""
+				icon: "minecolonies:blockhutbaker"
+				id: "5006A8FC894CEC21"
+				type: "advancement"
+			}]
+			title: "Bakery"
+			x: -4.785714285714285d
+			y: -4.205357142857139d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"The Carpenter will also craft a few other items, including cactus planks, shingles, timber frames, compost barrels, and racks. For them to do this, you must teach the Sawmill the recipes and the Carpenter must receive a request for an item from another worker."
+				""
+				"&lNote:&r The Sawmill cannot be built until you have a level 3 Forester’s Hut (or three level 1 Forester’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			id: "4A81B022AAEF4B12"
+			min_width: 300
+			rewards: [
+				{
+					id: "7BD8AE2EB0F89B68"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "157183CC4EDBF4A0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Sawmill is where the Carpenter will craft any items made of at least 75% wood that do not include ingots, stone, redstone (or produce a redstone signal), or string"
+			tasks: [{
+				advancement: "minecolonies:production/build_sawmill"
+				criterion: ""
+				icon: "minecolonies:blockhutsawmill"
+				id: "4E9BA44792F89BC4"
+				type: "advancement"
+			}]
+			title: "Sawmill"
+			x: 6.999999999999993d
+			y: -6.125000000000007d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"Doing this will make the block the Sifter is sifting disappear."
+				""
+				"&lNote:&r The Sifter’s Hut cannot be built until you have a level 3 Fisher’s Hut (or three level 1 Fisher’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			id: "714AB886BD12D987"
+			min_width: 300
+			rewards: [
+				{
+					id: "4E09E39124B6EB13"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3DF338C0301DF48D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Sifter’s Hut is where the Sifter will sift through dirt, gravel, sand, or soul sand to find loot"
+			tasks: [{
+				advancement: "minecolonies:production/build_sifter"
+				criterion: ""
+				icon: "minecolonies:blockhutsifter"
+				id: "428E5D130C25010B"
+				type: "advancement"
+			}]
+			title: "Sifter’s Hut"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. A higher level will also have a higher chance to double and even triple the ingot output per block of ore. The Smelter’s Strength level will sometimes determine the chance to double or triple the ingot output of ores, according to the Smeltery level."
+				""
+				"&lNote:&r The Smeltery cannot be built until you have a level 2 Mine (or two level 1 Mines) and have finished the research in the University."
+			]
+			id: "2B10D2581C1C4ABD"
+			min_width: 300
+			rewards: [
+				{
+					id: "00EFB5A3FCD5BA71"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C52DD279FBE6095"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Smeltery is where the Smelter will smelt ores into ingots"
+			tasks: [{
+				advancement: "minecolonies:production/build_smeltery"
+				criterion: ""
+				icon: "minecolonies:blockhutsmeltery"
+				id: "337C142DEFF2E8C5"
+				type: "advancement"
+			}]
+			title: "Smeltery"
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"They can also pop chorus fruits! The Stone Smelter will only work when they have been taught the recipe, receive a request from another worker, and have the needed materials."
+				""
+				"&lNote:&r The Stone Smeltery cannot be built until you have a level 3 Smeltery (or three level 1 Smelteries, or another equivalent) and have finished the research in the University."
+			]
+			id: "3817F83F1C62CDE7"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D03E47971599B2C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A8CAE84F4509D26"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Stone Smeltery is where the Stone Smelter will smelt cobblestone into stone, stone bricks into cracked stone bricks, clay balls into bricks, clay blocks into terracotta, terracotta into glazed terracotta, all types of stone into all types of smooth stone, and logs into charcoal"
+			tasks: [{
+				advancement: "minecolonies:production/build_stone_smeltery"
+				criterion: ""
+				icon: "minecolonies:blockhutstonesmeltery"
+				id: "34526FFC19F6A674"
+				type: "advancement"
+			}]
+			title: "Stone Smeltery"
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["60247F70F86D4E33"]
+			description: [
+				"They can also craft end stone from cobblestone and an ender pearl, but only if you have completed the Know the End research in the University. The Stonemason will only work when they receive a request from another worker and have the needed materials. You will also need to teach the Stonemason’s Hut the recipes you want the Stonemason to craft."
+				""
+				"&lNote:&r The Stonemason’s Hut cannot be built until you have a level 1 Blacksmith’s Hut and have finished the research in the University."
+			]
+			id: "1975972CC169BF29"
+			min_width: 300
+			rewards: [
+				{
+					id: "5B451F36617EF0B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A9E134AA8256081"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Stonemason’s Hut is where the Stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, basalt, and/or ores (no ingots or redstone items)"
+			tasks: [{
+				advancement: "minecolonies:production/build_stonemason"
+				criterion: ""
+				icon: "minecolonies:blockhutstonemason"
+				id: "25FED4F6D64E4D75"
+				type: "advancement"
+			}]
+			title: "Stonemason’s Hut"
+			x: 5.321428571428569d
+			y: -9.205357142857146d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				" The new Guard will need a bed in a house in order to spawn. However, once they are hired at the Guard Tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The Guard will patrol a set distance around their tower, which is based on their tower’s level."
+			]
+			id: "5AAE0B90988577A3"
+			rewards: [
+				{
+					id: "0E7D9F1FB95D70A2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4FE12EAFB092F146"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Guard Tower will employ and house 1 Guard to protect your colony"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_guard_tower"
+				criterion: ""
+				icon: "minecolonies:blockhutguardtower"
+				id: "168905A0417A71C9"
+				type: "advancement"
+			}]
+			title: "Guard Tower"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"The Barracks is the ultimate protection for your colony. The Barracks will hold 4 Barracks Towers within its structure. The Barracks Towers (unlike the normal Guard Towers) will employ and house 1 Guard for every level built! Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen. Each Barracks Tower can house and employ 5 Guards for a total of 20 Guards for your colony."
+				""
+				"&lNote:&r The Barracks cannot be built until you have a level 3 Guard Tower (or three level 1 Guard Towers, or another equivalent) and have finished the research in the University."
+			]
+			id: "774730F99DCFB203"
+			min_width: 300
+			rewards: [
+				{
+					id: "757E61AFBD66DA1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3907FF066EB20041"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Step 4: Guards are the protecting force for your colony"
+			tasks: [{
+				advancement: "minecolonies:military/build_barracks"
+				criterion: ""
+				icon: "minecolonies:blockhutbarracks"
+				id: "33F574192C6C48DE"
+				type: "advancement"
+			}]
+			title: "&aThe Military"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["774730F99DCFB203"]
+			description: [
+				"Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The Barracks Tower locations are predetermined by the Barracks that you choose. They are placed in specific locations to fit within the Barracks."
+				""
+				"Guard(s) will patrol a set distance around their tower, which is based on their tower’s level."
+				""
+				"&lNote:&r If you place Barracks/Barracks Towers near your colony border and level them up, your border will expand."
+			]
+			id: "733931C5D0F16985"
+			min_width: 300
+			rewards: [
+				{
+					id: "5D22EA51E35CFE84"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A632427C488530C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Barracks Towers will employ and house 1 Guard for every level built (unlike the normal Guard Towers, which can only have 1 Guard at a time)"
+			tasks: [{
+				advancement: "minecolonies:military/build_all_barracks_towers"
+				criterion: ""
+				icon: "minecolonies:blockhutbarrackstower"
+				id: "1CF307C748232CC4"
+				type: "advancement"
+			}]
+			title: "Build all 4 Barracks Towers"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["774730F99DCFB203"]
+			description: [
+				"This also allows them to level up without a risk of dying to mobs. A new Archer in Training will need a bed in a house in order to spawn. However, once they are hired at the Archery, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The number of students that can be trained at a time depends on the level of the Archery."
+				""
+				"&lNote:&r The Archery cannot be built until you have a level 3 Barracks (or three level 1 Barracks, or another equivalent) and have finished the research in the University."
+			]
+			id: "48C80615EA9AB99B"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D54C1F95A6A2B93"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6155FAF9A24E3F0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Archery is where your Archers in Training will train to become Archer Guards"
+			tasks: [{
+				advancement: "minecolonies:military/build_archery"
+				criterion: ""
+				icon: "minecolonies:blockhutarchery"
+				id: "7AD0497E30F4CD72"
+				type: "advancement"
+			}]
+			title: "Archery"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["774730F99DCFB203"]
+			description: [
+				"This also allows them to level up without a risk of dying to mobs. A new Knight in Training will need a bed in a house in order to spawn. However, once they are hired at the Combat Academy, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
+				""
+				"The number of students that can be trained at a time depends on the level of the Academy."
+				""
+				"The Knights in Training require a sword and shield to practice. They will attack the practice dummies, a pumpkin on top of a bale of hay.The Knights in Training are not actual Guards even though they will be dressed as Knight Guards. They will not help defend the colony."
+				""
+				"&lNote:&r The Combat Academy cannot be built until you have a level 3 Barracks (or three level 1 Barracks, or another equivalent) and have finished the research in the University ."
+			]
+			id: "56D88CF6B3413703"
+			min_width: 300
+			rewards: [
+				{
+					id: "01594380480775C2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43823C6CE877CF2A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Combat Academy is where your Knights in Training will train to become Knight Guards"
+			tasks: [{
+				advancement: "minecolonies:military/build_combat_academy"
+				criterion: ""
+				icon: "minecolonies:blockhutcombatacademy"
+				id: "417DD44AB8E1C120"
+				type: "advancement"
+			}]
+			title: "Combat Academy"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BA609263896CABC"]
+			description: [
+				"It has no worker, and increases colonists’ happiness just by existing.The Undertaker will visit the Mystical Site when there are no colonists to bury. Doing so will increase their Mana skill, and as such, their chance of resurrecting a killed citizen."
+				""
+				"&lNote:&r The Mystical Site cannot be built until you have finished the research in the University."
+			]
+			id: "7E7E7C776B35E3F8"
+			rewards: [
+				{
+					id: "0BCD4C3F50885FEF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F6A1C6E1835B520"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Mystical Site is a simple building to increase a colony’s overall happiness level"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_mysticalsite"
+				criterion: ""
+				icon: "minecolonies:blockhutmysticalsite"
+				id: "7455CD71F15626F2"
+				type: "advancement"
+			}]
+			title: "Mystical Site"
+			x: 7.214285714285715d
+			y: -3.776785714285708d
+		}
+		{
+			dependencies: ["0E86F1602C93A043"]
+			description: [
+				"he Beekeeper breeds bees and harvests honeycombs or honey bottles (you can choose which on the second page of the Apiary’s GUI).The level of the Apiary determines the max number of hives the Beekeeper can take care of."
+				""
+				"&lNote:&r If the Beekeeper is asking for hives but there are some nearby, make sure you’ve set the hives for them to take care of with the hive tool. This tool is accessed from the second page of the Apiary GUI"
+			]
+			id: "17BFF813E6FCC0E3"
+			rewards: [
+				{
+					id: "0C0BACB7ECA4589E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "311026F5C7D5914C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Apiary is where the Beekeeper works"
+			tasks: [{
+				id: "026AC0A53DB9521C"
+				item: "minecolonies:blockhutbeekeeper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3817F83F1C62CDE7"]
+			description: [
+				"The Concrete Mixer will only make concrete and concrete powder when they receive a request for a block and have the needed materials. (All their recipes are pretaught)."
+				""
+				"&lNote:&r The Concrete Mixer’s Hut cannot be built until you have a level 1 Crusher’s Hut and have finished the research in the University."
+			]
+			id: "7A0C2FFA2D60BC8E"
+			min_width: 300
+			rewards: [
+				{
+					id: "2E3A69C48DC723D3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "225A8EE2B2DFE791"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Concrete Mixer will craft all types of concrete powder and place them in flowing water (built in to their hut), then mine the resulting concrete"
+			tasks: [{
+				id: "4986616A0A345ED3"
+				item: "minecolonies:blockhutconcretemixer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A0C2FFA2D60BC8E"]
+			description: [
+				"They won’t dye concrete or concrete powder, though. The Dyer will only do this if they receive a request from another worker and have the necessary materials. The Dyer’s Hut automatically knows how to make green dye and red sand, but you must teach it the recipes for the other dyes and the dyed items."
+				""
+				"&lNote:&r The Dyer cannot be built until you have a level 3 Flower Shop (or three level 1 Flower Shops, or another equivalent) and have finished the research in the University."
+			]
+			id: "4A902A3B87897627"
+			min_width: 300
+			rewards: [
+				{
+					id: "197FCF0834A0266F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6DF88F76393A9D0B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Dyer’s Hut is where the Dyer will craft dyes and dye other items, including red nether bricks and dark prismarine"
+			tasks: [{
+				id: "2AF81FDA1A566D3A"
+				item: "minecolonies:blockhutdyer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AAE0B90988577A3"]
+			description: [
+				"The Enchanter will collect XP from other workers to create the enchanted books. The higher their Mana level, the more XP they will collect per trip. They will not apply the enchanted books to tools and armor, you must do that yourself."
+				""
+				"The higher the level of the Enchanter’s Tower, the higher the level of the enchanted books the Enchanter will produce (the Enchanter’s Knowledge level also contributes to this)."
+				""
+				"The Enchanter can also craft some magical scrolls upon request:"
+				"- The Ultrasafe Colony Teleport Scroll, crafted with 3 paper, a compass, and the build tool. (Outputs 3 scrolls)."
+				"- The Ultrasafe Colony Group Teleport Scroll, crafted with 3 Ultrasafe Colony Teleport Scrolls. The Enchanter’s Tower must be at least level 2 for the Enchanter to craft this scroll."
+				"- The Spatial Guard Reinforcements Scroll, crafted with 1 Ultrasafe Colony Teleport Scroll, 5 lapis lazuli, 1 ender pearl, and 1 paper. (Outputs 2 scrolls). The More Scrolls research in the University must be completed for the Enchanter to craft this scroll."
+				"- The Worker-Where-Are-You Scroll, crafted with 1 Ultrasafe Colony Teleport Scroll, 6 glowstone dust, and 2 paper. (Outputs 5 scrolls.) The More Scrolls research in the University must be completed for the Enchanter to craft this scroll."
+			]
+			id: "29F9218058834A42"
+			min_width: 400
+			rewards: [
+				{
+					id: "2A75882AA4767A6D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FAAF90CC94B6B90"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Enchanter’s Tower is where the Enchanter will create enchanted books, as long as they have Ancient Tomes"
+			tasks: [{
+				advancement: "minecolonies:production/build_enchanter"
+				criterion: ""
+				icon: "minecolonies:blockhutenchanter"
+				id: "49E34CAE749CD6BE"
+				type: "advancement"
+			}]
+			title: "Enchanter’s Tower"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A81B022AAEF4B12"]
+			description: [
+				"For the Fletcher to work, they must receive a request from another worker and have the necessary materials. The Fletcher’s Hut must also have been taught the crafting recipes for all the items you want the Fletcher to be able to craft."
+				""
+				"&lNote:&r The Fletcher’s Hut cannot be built until you have a level 1 Sawmill and have finished the research in the University."
+			]
+			id: "3336D55229F6F291"
+			min_width: 300
+			rewards: [
+				{
+					id: "44BEA7191A76D585"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BD7E46F44A739C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Fletcher’s Hut is where the Fletcher will craft arrows and items that use string or wool, such as bows, fishing poles, and paintings"
+			tasks: [{
+				id: "2D13311545CC0E68"
+				item: "minecolonies:blockhutfletcher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B10D2581C1C4ABD"]
+			description: [
+				"For the Glassblower to work, they must receive a request from another worker and have the necessary materials, including fuel if they’re smelting sand into glass. The Glassblower’s Hut must also have been taught the crafting recipe for glass panes."
+				""
+				"&lNote:&r The Glassblower’s Hut cannot be built until you have a level 3 Smeltery (or three level 1 Smelteries, or another equivalent) and have finished the research in the University."
+			]
+			id: "2366B14A748E7116"
+			min_width: 300
+			rewards: [
+				{
+					id: "7DB3226E1CA53EE4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1CB3D6173846B0D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Glassblower’s Hut is where the Glassblower will smelt sand into glass and make glass panes from glass blocks"
+			tasks: [{
+				id: "3EBCD07E7A718A9E"
+				item: "minecolonies:blockhutglassblower"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.88392857142857d
+		}
+		{
+			dependencies: ["607E70E027A50834"]
+			description: [
+				"The recommended maximum grave count per Graveyard level is below. This is not mandatory, and the actual amount will vary between styles."
+				""
+				"&lNote:&r The Graveyard cannot be built until you have finished the research in the University."
+			]
+			id: "638182A810BDACB7"
+			rewards: [
+				{
+					id: "70859B655387D8BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D04BED8E3D212E4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Graveyard is where the Undertaker will bury your deceased citizens"
+			tasks: [{
+				id: "6B5B7395705E1FA1"
+				item: "minecolonies:blockhutgraveyard"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["638182A810BDACB7"]
+			description: [
+				"The Healer will heal them with various items."
+				""
+				"&lNote:&r The Hospital cannot be built until you have finished the research in the University."
+			]
+			id: "59CDAF55C55D8CEA"
+			rewards: [
+				{
+					id: "1F6F7F15290EFCC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CBE7678D79B0A66"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Hospital is where injured or sick citizens go"
+			tasks: [{
+				id: "5C0E259D767B2020"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: 6.142857142857139d
+			y: -2.5982142857142776d
+		}
+		{
+			dependencies: ["59C805F0C3A3E7E0"]
+			description: [
+				"The House is also a way to get more citizens for your colony.Each level of the House will house one citizen."
+				""
+				"For additional citizens to spawn, you first have to have enough space in your House(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one House at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the Tavern, wait for a traveler to show up, and then give them the items they request to recruit them."
+				""
+				"&lNote:&r To have over 25 citizens, you must first complete the research in the University."
+			]
+			id: "0DD2F97CCD2B06D3"
+			min_width: 300
+			rewards: [
+				{
+					id: "32705DBF145518A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "429E8C46008EE881"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Citizens will go to the House they are assigned to at night to sleep"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_citizen"
+				criterion: ""
+				icon: "minecolonies:blockhutcitizen"
+				id: "36D889058892FE7C"
+				type: "advancement"
+			}]
+			title: "House"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["527567CD8C852ED6"]
+			description: [
+				"You will have to capture and bring in two rabbits to the Rabbit Hutch, as the Rabbit Herder will not catch and bring in any rabbits."
+				""
+				"&lNote:&r The Rabbit Herder will only keep two rabbits alive per hut level, so at level 5 they will have ten rabbits in their holding pens to breed and butcher. This means they will be faster at producing and collecting meat and other drops."
+			]
+			id: "69246A49A21C1818"
+			rewards: [
+				{
+					id: "42C256A9C10D6F99"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C73678B3E79CF96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Rabbit Hutch is where the Rabbit Herder will raise and butcher rabbits"
+			tasks: [{
+				id: "665D9A2330FEFEFA"
+				item: "minecolonies:blockhutrabbithutch"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1975972CC169BF29"]
+			description: [
+				"The Mechanic’s Hut is where the Mechanic will craft redstone items, rails, minecarts, clocks, compasses, sea lanterns, torches, lanterns, jack-o-lanterns, storage blocks (like blocks of iron, coal, quartz, etc), dried kelp blocks, blue ice, packed ice, enchantment tables, ender chests, tripwire hooks, sticky pistons, gates, multi-pistons, glowstone blocks, anything made with blaze rods, and many other items that no other crafter can make. For the Mechanic to work, they must receive a request from another worker and have the necessary materials. The Mechanic’s Hut must also have been taught the crafting recipes for all the items you want the Mechanic to be able to craft."
+				""
+				"&lNote:&r The Mechanic’s Hut cannot be built until you have a level 3 Blacksmith’s Hut (or three level 1 Blacksmith’s Huts, or another equivalent) and have finished the research in the University."
+			]
+			id: "136DFA76D880E5CF"
+			min_width: 300
+			rewards: [
+				{
+					id: "513E64D17223CE55"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BDF98796849596C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Mechanic is part of the supply production of your colony"
+			tasks: [{
+				id: "2AF2A67B1EAE89EC"
+				item: "minecolonies:blockhutmechanic"
+				type: "item"
+			}]
+			x: 6.1785714285714235d
+			y: -9.705357142857142d
+		}
+		{
+			dependencies: ["0E86F1602C93A043"]
+			description: [
+				"The Plantation’s level determines how many crops the Planter can plant at a time."
+				""
+				"The Planter can also craft paper, books, sugar, and anything made with bamboo. The Planter will only make these items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+				""
+				"&lNote:&r The Plantation cannot be built until you have a level 3 Farm (or three level 1 Farms, or another equivalent) and have finished the research in the University."
+			]
+			id: "702CD866C68E99FA"
+			rewards: [
+				{
+					id: "456FE46AC3746461"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2036D04433BB08C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Plantation is where the Planter will grow either sugar cane, bamboo, or cactus"
+			tasks: [{
+				id: "088566B6F1B10128"
+				item: "minecolonies:blockhutplantation"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1AFDAA3909136444"]
+			description: [
+				"Paper will increase the leveling speed of the Pupils.The level of the School determines how many Pupils can be taught at a time."
+				""
+				"&lNote:&r The School cannot be built until you finish the research in the University."
+			]
+			id: "607E70E027A50834"
+			rewards: [
+				{
+					id: "40F84547891690CB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1EAF7EA328650300"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The School is where the Teacher will level up the Pupils’ (children) skills"
+			tasks: [{
+				id: "61F9BEA1867DF4E9"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B3160E21CBAD118"]
+			id: "4FBC0947A746EC91"
+			rewards: [
+				{
+					id: "4DBBB03FB13BA9A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00E324619427D1B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/deep_mine"
+				criterion: ""
+				id: "130A99A1327FC79D"
+				type: "advancement"
+			}]
+			title: "Have a Miner mine to bedrock"
+			x: -5.0d
+			y: -7.5d
+		}
+	]
+	title: "&a&oMineColonies"
+}

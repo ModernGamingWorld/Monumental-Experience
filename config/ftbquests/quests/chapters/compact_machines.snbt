@@ -9,22 +9,31 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["071125FC42EBEAB9"]
 			hide_text_until_complete: false
 			id: "0000000000001CDC"
-			rewards: [{
-				id: "57F09E055029F1ED"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "57F09E055029F1ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "66AED60772775873"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
 			tasks: [{
 				id: "0000000000001CDD"
 				item: "compactmachines:wall"
@@ -36,18 +45,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CDF"
-			rewards: [{
-				id: "7C56604E4978D1E4"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "7C56604E4978D1E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "131C167AA838DDBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CE0"
@@ -60,18 +76,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CE1"
-			rewards: [{
-				id: "2861DBA2621223FB"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "2861DBA2621223FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "0DF136C062B5FA87"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CE2"
@@ -84,18 +107,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CE3"
-			rewards: [{
-				id: "2675DFF0B9C18902"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "2675DFF0B9C18902"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "2338282605FA53E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CE4"
@@ -108,18 +138,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CE5"
-			rewards: [{
-				id: "7CFC55090244192E"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "7CFC55090244192E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "7AF434E22278C131"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CE6"
@@ -132,18 +169,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CE7"
-			rewards: [{
-				id: "5E33A36992F2C60B"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "5E33A36992F2C60B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "0E6FD5E882226938"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CE8"
@@ -156,18 +200,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CE9"
-			rewards: [{
-				id: "4C469B6389CC2014"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "4C469B6389CC2014"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "7222ECF57B39A495"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CEA"
@@ -180,18 +231,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CEB"
-			rewards: [{
-				id: "4A4A90C61AEF8820"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "4A4A90C61AEF8820"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "5364AF7B01998D46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0000000000001CEC"
@@ -204,18 +262,25 @@
 		{
 			dependencies: ["0000000000001CDC"]
 			id: "0000000000001CED"
-			rewards: [{
-				id: "2DB8728B71C4785D"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
+			rewards: [
+				{
+					id: "2DB8728B71C4785D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
 					}
-					id: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "69B74BD89FB411D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -249,5 +314,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&aCompact Machines"
+	title: "&a&oCompact Machines"
 }

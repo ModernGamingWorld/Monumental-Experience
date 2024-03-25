@@ -1,7 +1,7 @@
 #Determines whether Reliquary items will be generated in chest loot (mostly mob drops, very rarely some lower level items)
 chestLootEnabled = true
 #Determines wheter Reliquary mob drops have crafting recipes
-dropCraftingRecipesEnabled = false
+dropCraftingRecipesEnabled = true
 #Whether mobs drop the Reliquary mob drops. This won't remove mob drop items from registry and replace them with something else, but allows to turn off the additional drops when mobs are killed by player. If this is turned off the mob drop crafting recipes turned on by the other setting can be used.
 mobDropsEnabled = true
 

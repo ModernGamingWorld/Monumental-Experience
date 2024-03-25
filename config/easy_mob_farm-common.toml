@@ -2,7 +2,7 @@
 #Bo's Easy Mob Farm
 [General]
 	#Enable/Disable owner messages about full storage to avoid lagging systems.
-	informOwnerAboutFullStorage = true
+	informOwnerAboutFullStorage = false
 	#Enable/Disable full storage log messages for the server logs.
 	logFullStorage = true
 	#Number of roll's to get the loot preview for a captured mob. Higher numbers require more server load, but giving a more completed overview.

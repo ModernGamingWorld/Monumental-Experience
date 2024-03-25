@@ -19,6 +19,9 @@
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2
+	#Defines the level max of the perk ShadowWalker [0..10|default:10]
+	#Range: 0 ~ 10
+	level_max_shadow_walker = 10
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -132,6 +135,8 @@
 	allow_familiar_stone = true
 	#Merchant Stone [false/true|default:true]
 	allow_merchant_stone = true
+	#Prayer Stone [false/true|default:true]
+	allow_prayer_stone = true
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -154,4 +159,6 @@
 	#Cooldown in second after using a tablet [60..1200|default:300]
 	#Range: 60 ~ 1200
 	tablet_cooldown = 300
+	#Prevents to craft Enchanted Grave Key [false/true|default:false]
+	disable_enchanted_grave_key_recipe = false
 

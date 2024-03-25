@@ -425,3 +425,8 @@
 	#Range: 0.1 ~ 0.9
 	bow_zoom_value = 0.45
 
+#Hammer/Excavator Full Damage
+[full_damage]
+	#Hammer/Excavator Full Damage [true/false, default: true]
+	full_damage = false
+

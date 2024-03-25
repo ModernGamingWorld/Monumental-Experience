@@ -15,7 +15,6 @@ ServerEvents.recipes(e => {
     'mysticalagriculture:prudentium_farmland_till',
     'mysticalagriculture:supremium_farmland_till',
     'mysticalagriculture:tertium_farmland_till',
-    'mysticalagradditions:insanium_farmland',
     'mysticalagradditions:insanium_farmland_till',
     'mysticalagradditions:insanium_essence_uncraft',
     'matc:prudentium_essence',

@@ -8,6 +8,7 @@ JEIEvents.addItems( e => {
     'chipped:alchemy_bench',
     'chipped:mechanist_workbench',
     'earthmobsmod:mud_bucket',
+    'forcecraft:fluid_force_source',
 
     'immersiveengineering:dust_hop_graphite',
     'immersiveengineering:ingot_hop_graphite',
