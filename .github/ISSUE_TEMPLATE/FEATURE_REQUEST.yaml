@@ -1,7 +1,7 @@
 name: 🔮 Suggestions
 description: For suggesting changes / additions / mods
 title: "[Suggestion]: "
-labels: [suggestion]
+labels: [Suggestion]
 body:
   - type: markdown
     attributes:
