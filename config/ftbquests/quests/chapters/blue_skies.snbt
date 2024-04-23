@@ -1,0 +1,2269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skies"
+	group: "09A82B0D5D5E7906"
+	icon: "blue_skies:star_flare"
+	id: "74560EE6653E7696"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/bluski.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.8571428571428541d
+			y: -3.232142857142861d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.8928571428571459d
+			y: -3.1964285714285694d
+		}
+		{
+			height: 1.6d
+			image: "kubejs:textures/item/blskmo1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.2d
+			image: "kubejs:textures/item/blskmo2.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -3.857142857142854d
+			y: 1.7678571428571388d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/item/blskmo3.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 5.250000000000007d
+			y: 2.125d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the Nature Dungeon, home of the Starlit Crusher."]
+			id: "41ACBFB2805BFB3E"
+			min_width: 300
+			rewards: [
+				{
+					id: "6D1248869EF2B514"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13EC94FF8FE422DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "* Everbright"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "194B3E848E0D1775"
+				title: "Visit Dimension: &2The Everbright"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the Poison Dungeon, lair of the Arachnarch."]
+			id: "663C8A3A0D93AE0F"
+			min_width: 300
+			rewards: [
+				{
+					id: "10A05D0ABEBD8550"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "344D41D4DC142CA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "* Everdawn"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "7A41DDD1A82B7B5A"
+				title: "Visit Dimension: &2The Everdawn"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"41ACBFB2805BFB3E"
+				"663C8A3A0D93AE0F"
+			]
+			dependency_requirement: "one_completed"
+			id: "2C084EC64C064C08"
+			rewards: [
+				{
+					count: 8
+					id: "38BFAA78F50DBD2C"
+					item: "blue_skies:cooked_carabeef"
+					type: "item"
+				}
+				{
+					id: "57564EE7C8A6328E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06B74315BD914EDB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D6A73C9093EAA6D"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C084EC64C064C08"]
+			id: "7843EA1D75051743"
+			rewards: [
+				{
+					count: 4
+					id: "15C2D4C1DF52B8F7"
+					item: "blue_skies:bluebright_chest"
+					type: "item"
+				}
+				{
+					id: "2EA1F7B288FAEB20"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75F703B498064087"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3773BF56F3FC773D"
+				item: {
+					Count: 1b
+					id: "blue_skies:pyrope_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7843EA1D75051743"]
+			id: "7C217A533C98933B"
+			rewards: [
+				{
+					count: 16
+					id: "762F1501280B7250"
+					item: "blue_skies:azulfo_horn"
+					type: "item"
+				}
+				{
+					id: "52236F57AB68B0B0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7213A4AB4EEF7EA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "333DA7623110E275"
+				item: {
+					Count: 1b
+					id: "blue_skies:aquite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C217A533C98933B"]
+			id: "294597E7511AF1C2"
+			rewards: [
+				{
+					count: 24
+					id: "00859B424B90E294"
+					item: "blue_skies:bug_guts"
+					type: "item"
+				}
+				{
+					id: "725BD4999F06BE67"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "651C342B0DF6F17B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0127D3AC3F128953"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["294597E7511AF1C2"]
+			id: "0114DA1F84199E73"
+			rewards: [
+				{
+					id: "43ADBD45C4A900DF"
+					item: "blue_skies:astrolabe"
+					type: "item"
+				}
+				{
+					id: "4C0D0B50248F0A95"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14930F366390550C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "03350457867F7771"
+				item: "blue_skies:charoite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "4D9D49F45A79E00A"
+			rewards: [
+				{
+					id: "3FD6E095831DD6E2"
+					item: {
+						Count: 1b
+						id: "blue_skies:prepared_food"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4EE87A53B3AA5B1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "713250EB366557C6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D6293C7093BE59A"
+				item: "blue_skies:falsite_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "4E3C85B95539C402"
+			rewards: [
+				{
+					id: "3F6C1CE8CEFE8E46"
+					item: "blue_skies:warding_pearl"
+					type: "item"
+				}
+				{
+					id: "6FD44B83011FD026"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B198EBCEC6B6DE4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48578570F50C86FA"
+				item: "blue_skies:warding_pearl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41ACBFB2805BFB3E"]
+			id: "5B2813DDE61E5F81"
+			rewards: [
+				{
+					count: 12
+					id: "53AA5BB267565614"
+					item: "blue_skies:pine_fruit"
+					type: "item"
+				}
+				{
+					id: "570C55B6B05D5873"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65EC2C8CAB1B9888"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C03F9A5355F6218"
+				item: "blue_skies:soul_fragment"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41ACBFB2805BFB3E"]
+			hide_dependency_lines: true
+			id: "3C7802679071506E"
+			rewards: [
+				{
+					id: "76686036828E1511"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0E18AE51D55C31C8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/summdung.png"
+					}
+				}
+				id: "2D39742BF94C46F2"
+				structure: "blue_skies:everbright_blinding_dungeon"
+				title: "Find and enter the Summoner's dungeon"
+				type: "structure"
+			}]
+			title: "&9The Summoner's Blinding Dungeon"
+			x: -3.874999999999993d
+			y: 3.732142857142854d
+		}
+		{
+			dependencies: ["3C7802679071506E"]
+			hide: true
+			hide_dependency_lines: true
+			id: "017789C6FBA28DEA"
+			rewards: [
+				{
+					id: "4A3DB21ACB7EF7F6"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "blue_skies:summoner"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CA212A9BFB45C7F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "016C0B80B59C7AF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1b
+					id: "blue_skies:summoner_spawn_egg"
+					tag: { }
+				}
+				id: "6F07E0A32AB2406E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.374999999999993d
+			y: 4.982142857142854d
+		}
+		{
+			dependencies: ["2C084EC64C064C08"]
+			id: "3189F82B3A0C0EE1"
+			rewards: [
+				{
+					id: "53A117AC3BBF0028"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E593D048B0D348E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04851780CA37E7AD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:spears"
+					}
+				}
+				title: "Make any kind of spear"
+				type: "item"
+			}]
+			title: "&9The Trident in the Blue Skies Dimension"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7843EA1D75051743"]
+			id: "0645E719B181BD61"
+			rewards: [
+				{
+					id: "00522B2B76CCCF9D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0545A447601D6C8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "373F77C4B1636CA9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:pyrope_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:pyrope_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:pyrope_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:pyrope_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&cPyrope Tools"
+				type: "item"
+			}]
+			title: "&cPyrope Tools"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7843EA1D75051743"]
+			id: "6CFE636DAD494C51"
+			rewards: [
+				{
+					id: "10366CB0A990E42A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3AEC083109CA55A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "351781B048121384"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62364798CBD56BCD"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00AE6A1E242A65BE"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35467CE4D491A80F"
+					item: {
+						Count: 1b
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cPyrope  Armor"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C217A533C98933B"]
+			id: "374314B98907B290"
+			rewards: [
+				{
+					id: "7A5F5A7887A56123"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C8C4C68A213405E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C0FE9AE1F00C5A8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:aquite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:aquite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:aquite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:aquite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&9Aquite Tools"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["294597E7511AF1C2"]
+			id: "478D91746DC7BE35"
+			rewards: [
+				{
+					id: "7155E01D72751B29"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "311F8AD80150E575"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B92D4E8D22D9237"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:diopside_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:diopside_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:diopside_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:diopside_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&2Diopside Tools"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0114DA1F84199E73"]
+			id: "5998D83CEAC8D229"
+			rewards: [
+				{
+					id: "6E6A221C1CB230F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4A2E3D1A4F9A43C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40C7EF520F1642F9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:charoite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:charoite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:charoite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:charoite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&5Charoite Toola"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C217A533C98933B"]
+			id: "6C661BC12504B5F6"
+			rewards: [
+				{
+					id: "732DDBBF8413637F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "471CE0C29832EE83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "783F88568A664D5C"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C939BAE54E4F3F5"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "611A20B1E535F6AB"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C6FBBFB68E25E7B"
+					item: {
+						Count: 1b
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Aquite Armor"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["294597E7511AF1C2"]
+			id: "330BEDEDF5174FD2"
+			rewards: [
+				{
+					id: "0152F49083039C70"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "065232E4C345B9D8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AEFD81DE227EF77"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E059B99B0408F9B"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C219BF6B4579411"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E2B8FDC7D2FB4F"
+					item: {
+						Count: 1b
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Diopside Armor"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0114DA1F84199E73"]
+			id: "1C30C85D7D012914"
+			rewards: [
+				{
+					id: "58AFD11C42BE8566"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4215B46B91FD5B21"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7069ADDD701AFDE0"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "281CCB926336B9FE"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CF62ACE2E7C0B26"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CDD4F5E1FFE2A08"
+					item: {
+						Count: 1b
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Charoite Armor"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C084EC64C064C08"]
+			id: "030131F4F552E1FB"
+			rewards: [
+				{
+					id: "2579B8D37C51BF81"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14D0B7B4D2216461"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B629CEC83C1E91D"
+				item: "blue_skies:moonstone_lantern"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C7802679071506E"]
+			hide: true
+			hide_dependency_lines: true
+			id: "57C189D791ADCF49"
+			rewards: [
+				{
+					id: "1AB58933EC485C8C"
+					item: "chancecubes:chance_cube"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B44C2E5C3270E23"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "067D8BB289321535"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:summoner_drops"
+					}
+				}
+				title: "Collect any of the Summoner's drops"
+				type: "item"
+			}]
+			x: -4.374999999999993d
+			y: 4.982142857142854d
+		}
+		{
+			dependencies: ["41ACBFB2805BFB3E"]
+			hide_dependency_lines: true
+			id: "3BB20A9B6C8E206F"
+			rewards: [
+				{
+					id: "260EF12115F50F92"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30C9B31A645C0069"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "blue_skies:nature_stone"
+				id: "34DBBDE5D774CA1D"
+				structure: "blue_skies:nature_dungeon"
+				type: "structure"
+			}]
+			title: "&9The Natur's Dungeon"
+			x: -6.482142857142854d
+			y: 3.7678571428571317d
+		}
+		{
+			dependencies: ["3BB20A9B6C8E206F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6A76EABEB0655C25"
+			rewards: [
+				{
+					id: "60DE7779A20E2EAF"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "blue_skies:starlit_crusher"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B940A45631D452"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30D21DB4B56A6DA9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "blue_skies:starlit_crusher_spawn_egg"
+					tag: { }
+				}
+				id: "2BFE9D16723B4A52"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.982142857142854d
+			y: 5.017857142857132d
+		}
+		{
+			dependencies: ["3BB20A9B6C8E206F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "35C4891A6E5BBE81"
+			rewards: [
+				{
+					id: "0E8658E7BF568C8E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65A95876A179EB53"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4820A5BF5C340886"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:starlit_crusher_drops"
+					}
+				}
+				title: "Collect any of the Starlit Crusher drops"
+				type: "item"
+			}]
+			x: -6.982142857142854d
+			y: 5.017857142857132d
+		}
+		{
+			dependencies: ["20A5F775133EA736"]
+			id: "135213F1292A078E"
+			rewards: [
+				{
+					id: "144ABCCEFB44EEA9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D12FB81A40544EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35F48ABECA642B21"
+				item: {
+					Count: 1b
+					id: "blue_skies:moonstone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["456C960BCF327B58"]
+			id: "1154A75FF6AA6661"
+			rewards: [
+				{
+					count: 12
+					id: "58971DA5E0E8FB4D"
+					item: "blue_skies:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "3EBB6BE7176255BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49AF9EE00073FE51"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "547257A9868721C6"
+				item: "blue_skies:bag_of_spoils"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20A5F775133EA736"]
+			id: "456C960BCF327B58"
+			rewards: [
+				{
+					count: 16
+					id: "705AE30FF21460BA"
+					item: "blue_skies:crescent_fruit"
+					type: "item"
+				}
+				{
+					id: "6FC956E7E45E34F1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79646AA3D1EFBC48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B8AF352DB480FFE"
+				item: "blue_skies:fox_pelt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["456C960BCF327B58"]
+			id: "2B62DC26BE1348BB"
+			rewards: [
+				{
+					count: 16
+					id: "057A44744BB2594B"
+					item: "blue_skies:moonstone_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4081D330313EEA33"
+					item: "blue_skies:sunstone_crystal"
+					type: "item"
+				}
+				{
+					id: "04C86D05DAF5A405"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3177927CF67554B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38A2F806C62B2219"
+				item: "blue_skies:camel_saddle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["663C8A3A0D93AE0F"]
+			id: "20A5F775133EA736"
+			rewards: [
+				{
+					count: 64
+					id: "6351BE4A8E037BBF"
+					item: "blue_skies:polished_rimestone"
+					type: "item"
+				}
+				{
+					id: "02E6FAECB75F1DA6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11EB16D84FD5EA12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "451F24A8D4BD82C4"
+				item: {
+					Count: 1b
+					id: "blue_skies:moonstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20A5F775133EA736"]
+			id: "161BF1763C114498"
+			rewards: [
+				{
+					id: "530CF0E226549E47"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "703843DA18032DE7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56CEA6861F049BED"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["161BF1763C114498"]
+			id: "4DD7E4B904F1504C"
+			rewards: [
+				{
+					id: "777D665804D8FFBB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46D6A07A06DAA848"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C111367588773FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:horizonite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&6Horizonite Tools"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["161BF1763C114498"]
+			id: "72B4975C73DEBB6B"
+			rewards: [
+				{
+					id: "6F5CFB52FB3463BD"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E5B273319E2895"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "136CABA8E4B7BEAA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F2A6BD1FFFEB75E"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EFDBA1878E2F682"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1174D60EF3CCCB20"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1747F390ACA0D3C8"
+					item: {
+						Count: 1b
+						id: "blue_skies:horizonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "75363036F9175784"
+			rewards: [
+				{
+					id: "687805BA0B04EF03"
+					item: "blue_skies:star_emitter"
+					type: "item"
+				}
+				{
+					id: "6614AE0555B61B02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22604192DC2590C7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E3416406801DD53"
+				item: "blue_skies:star_emitter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["161BF1763C114498"]
+			id: "76DD3732F076A321"
+			rewards: [
+				{
+					count: 4
+					id: "4E6C3D225C9BE962"
+					item: "blue_skies:everbright_charoite_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0BCF878EE048E9A7"
+					item: "blue_skies:everbright_emerald_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "438EF50D9B2214F1"
+					item: "blue_skies:ventium_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F74D21D7A286B52"
+					item: "blue_skies:horizonite_ore"
+					type: "item"
+				}
+				{
+					id: "4587C5346EC67967"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "158CE7D28F630705"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71D3147A423894E0"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: 7.508928571428562d
+			y: 0.5625000000000071d
+		}
+		{
+			dependencies: ["663C8A3A0D93AE0F"]
+			hide_dependency_lines: true
+			id: "094607CA20877658"
+			rewards: [
+				{
+					id: "0A4811DB63334A46"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04D2B23AECD57E4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/alche.png"
+					}
+				}
+				id: "747AF53CF9EDA8D7"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				title: "Find and enter the Alchemist's dungeon"
+				type: "structure"
+			}]
+			title: "&9The Alchemist's Blinding Dungeon"
+			x: 3.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["663C8A3A0D93AE0F"]
+			hide_dependency_lines: true
+			id: "67AC4227929EC5F9"
+			rewards: [
+				{
+					id: "1645682B911DCC3C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22C08897384B14EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/poidung.png"
+					}
+				}
+				id: "291EB1597817026E"
+				structure: "blue_skies:poison_dungeon"
+				title: "Find and enter the Poison dungeon"
+				type: "structure"
+			}]
+			title: "&9The Poison Dungeon"
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4D9D49F45A79E00A"]
+			id: "0323B0B3D6905A80"
+			rewards: [
+				{
+					count: 16
+					id: "33FE5D0D37803B7B"
+					item: "blue_skies:cherry"
+					type: "item"
+				}
+				{
+					id: "5D2D732C6809BC7A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D7233CEB6E7DA46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DF18AD72C1D1C1E"
+				item: "blue_skies:ventium_ingot"
+				type: "item"
+			}]
+			x: -5.026785714285722d
+			y: 0.0625d
+		}
+		{
+			dependencies: ["0323B0B3D6905A80"]
+			id: "729762F02CF749E8"
+			rewards: [
+				{
+					count: 8
+					id: "40BDD6A2978CE829"
+					item: "blue_skies:black_brewberry"
+					type: "item"
+				}
+				{
+					id: "2268B51C3C2272E8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31B4257C753D9BF5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02F285C333BEEBD9"
+				item: {
+					Count: 1b
+					id: "blue_skies:ventium_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.419642857142868d
+			y: 1.0982142857142847d
+		}
+		{
+			dependencies: ["0323B0B3D6905A80"]
+			id: "70CBD6D1E43DD08C"
+			rewards: [
+				{
+					count: 8
+					id: "235AF159A41407BE"
+					item: "blue_skies:pink_brewberry"
+					type: "item"
+				}
+				{
+					id: "4270EA1D71B28978"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "095C40388852A0E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "777694D71918F380"
+				item: "blue_skies:ventium_bucket"
+				type: "item"
+			}]
+			x: -6.562500000000007d
+			y: 0.9553571428571388d
+		}
+		{
+			dependencies: ["094607CA20877658"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4051BAFC14B957F5"
+			rewards: [
+				{
+					id: "1FC999F64618DCC2"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "blue_skies:alchemist"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C522176664FB6CF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52FE818FC1197479"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1b
+					id: "blue_skies:alchemist_spawn_egg"
+					tag: { }
+				}
+				id: "7DC0E3DAB8C6A235"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.223214285714292d
+			y: 5.026785714285715d
+		}
+		{
+			dependencies: ["094607CA20877658"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6EB5FB43AF467429"
+			rewards: [
+				{
+					id: "5CF655ACF07E97C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76EC6DF526AA3DB2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "454FEA86647AD1B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:alchemist_drops"
+					}
+				}
+				title: "Collect any of the Alchemist's drops"
+				type: "item"
+			}]
+			x: 3.223214285714292d
+			y: 5.026785714285715d
+		}
+		{
+			dependencies: ["67AC4227929EC5F9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0BBE7107955F0C37"
+			rewards: [
+				{
+					id: "277BBE83B5CAF748"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61E11B9254B0123C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4634B9BDF8742327"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:arachnarch_drops"
+					}
+				}
+				title: "Collect any of the Arachnarch's drops"
+				type: "item"
+			}]
+			x: 6.223214285714299d
+			y: 5.026785714285715d
+		}
+		{
+			dependencies: ["67AC4227929EC5F9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "14B4343601ACC676"
+			rewards: [
+				{
+					id: "156634FB0E945C2D"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "blue_skies:arachnarch"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BD6108B2839340E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "23A83B1C8B38B8C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "blue_skies:arachnarch_spawn_egg"
+					tag: { }
+				}
+				id: "4603949C702D2CBD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.223214285714299d
+			y: 5.026785714285715d
+		}
+		{
+			dependencies: ["70CBD6D1E43DD08C"]
+			id: "380D72E1EBCE6502"
+			rewards: [
+				{
+					count: 8
+					id: "6E4D08344D4F1A6A"
+					item: "blue_skies:cooked_grittle_flatfish"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "53F673D3895CD5E9"
+					item: "blue_skies:cooked_municipal_monkfish"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6332D73586E09630"
+					item: "blue_skies:cooked_charscale_moki"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "79FA4E55908831F4"
+					item: "blue_skies:cooked_horizofin_tunid"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3AEA3871FDE97B43"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2D11A5BC261677CA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B427DC3EE226F04"
+					item: "blue_skies:ventium_grittle_flatfish_bucket"
+					type: "item"
+				}
+				{
+					id: "3C23063BAE5759B4"
+					item: "blue_skies:ventium_municipal_monkfish_bucket"
+					type: "item"
+				}
+				{
+					id: "635CB505BF86143A"
+					item: "blue_skies:ventium_charscale_moki_bucket"
+					type: "item"
+				}
+				{
+					id: "16D273B4C725F237"
+					item: "blue_skies:ventium_horizofin_tunid_bucket"
+					type: "item"
+				}
+			]
+			x: -7.491071428571438d
+			y: 0.5624999999999929d
+		}
+		{
+			dependencies: ["2C084EC64C064C08"]
+			description: ["You can get the key by trading with the Gatekeeper."]
+			hide_dependency_lines: true
+			id: "05A5684D3A12FDBB"
+			rewards: [
+				{
+					id: "5F52A927DBD336E7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36B620F1C4D8ECAC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C8EF4C2AE756A5B"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05A5684D3A12FDBB"]
+			description: ["You can get the key by trading with the Gatekeeper or buy it in the shop."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5A344ECF1E5172AD"
+			rewards: [
+				{
+					id: "04D2F36672CE66A2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C7D76B5533EFBC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "57DA016F8F61A54B"
+				item: "blue_skies:nature_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05A5684D3A12FDBB"]
+			description: ["You can get the key by trading with the Gatekeeper or buy it in the shop."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2FA12080898C0772"
+			rewards: [
+				{
+					id: "1D3FE7A80E3DA3D5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41F2185078475D25"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76028EDBE36ABC01"
+				item: "blue_skies:poison_key"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0323B0B3D6905A80"]
+			id: "6BD25630E4D56A59"
+			rewards: [
+				{
+					count: 8
+					id: "19C7A611A3C1E37E"
+					item: "blue_skies:brewberry"
+					type: "item"
+				}
+				{
+					id: "5594EA0A4F4EE4C6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04B74132133FD878"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A9E8C90788969D4"
+				item: "blue_skies:tool_box"
+				type: "item"
+			}]
+			x: -6.098214285714292d
+			y: -0.0446428571428612d
+		}
+		{
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "0AF8077771A3D4B2"
+			rewards: [
+				{
+					count: 6
+					id: "7A2D78D1DF5431C6"
+					item: "blue_skies:winter_leaves"
+					type: "item"
+				}
+				{
+					id: "1EB52497DAAC4D37"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F4BDF802C2A6A06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FC786799E47E188"
+				item: "blue_skies:snowcap_pinhead"
+				type: "item"
+			}]
+			x: -2.7410714285714306d
+			y: -0.6875000000000071d
+		}
+		{
+			dependencies: ["0AF8077771A3D4B2"]
+			id: "02F22A0F41E310B9"
+			rewards: [
+				{
+					count: 12
+					id: "7EF95B9BA23EE6EB"
+					item: "blue_skies:star_flare"
+					type: "item"
+				}
+				{
+					id: "74C26CA3ADCB4626"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FEEF51E19D3D08B"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: -2.919642857142861d
+			y: 0.3124999999999929d
+		}
+		{
+			dependencies: ["5B2813DDE61E5F81"]
+			id: "61219066E1E82111"
+			rewards: [
+				{
+					count: 4
+					id: "130D15A6B6B73E0F"
+					item: "blue_skies:pearl"
+					type: "item"
+				}
+				{
+					id: "5C6FEF977FDABF46"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B98D04060F7428B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19E9A47DD38431AA"
+				item: "blue_skies:pearl"
+				type: "item"
+			}]
+			x: -3.669642857142861d
+			y: -2.473214285714292d
+		}
+		{
+			dependencies: ["503203997E8D59A7"]
+			description: ["Just a beautiful block."]
+			id: "2FB342873B0CE5F9"
+			rewards: [
+				{
+					id: "10968D24B8E165FF"
+					item: "blue_skies:cherry_pie"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BC6D6004F8BE5F0"
+					item: "blue_skies:crystal_sandstone_pillar"
+					type: "item"
+				}
+				{
+					id: "44F3E5E513B60B43"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C9442FAF4C9869D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Why not?"
+			tasks: [{
+				count: 64L
+				id: "18EA724B89224D12"
+				item: "blue_skies:cinderstone"
+				type: "item"
+			}]
+			title: "&6&lThe Cinderstone"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20A5F775133EA736"]
+			id: "503203997E8D59A7"
+			rewards: [
+				{
+					count: 12
+					id: "4225FE1035CE66C4"
+					item: "blue_skies:fiery_beans"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6A0FD98BCC8D2C0A"
+					item: "blue_skies:pine_fruit"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1ED8F3E279444016"
+					item: "blue_skies:scalefruit"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "29D0864AAA840C72"
+					item: "blue_skies:winter_leaves"
+					type: "item"
+				}
+				{
+					id: "28665297EEADB8DC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D9D15682F2491EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "165BAE5C4A06110D"
+				item: "blue_skies:food_prep_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "&3&oBlue Skies"
+}

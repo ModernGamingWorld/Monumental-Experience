@@ -1,0 +1,26 @@
+#Configure Mutant More's mob heating system on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# If the survival hearts change appearance when you're fully heated
+# usually set to true
+"Show Heat Hearts" = true
+#
+# If a pure orange overlay is added to the screen when you heat up
+# usually set to false
+"Show Pure Orange Heat Overlay" = false
+#
+# If a flame overlay is added to the screen when you heat up, appears over pure orange
+# usually set to false
+"Show Static Flame Heat Overlay" = false
+#
+# If an animated flame overlay is added to the screen when you heat up, appears over static flames
+# usually set to true
+"Show Animated Flame Heat Overlay" = true
+#
+# If orange edges are added to the screen when you heat up, appears over animated flames
+# usually set to false
+"Show Orange Edges Heat Overlay" = false
+#
+# If an ash overlay is added to the screen when you heat up, appears over orange edges
+# usually set to true
+"Show Ash Heat Overlay" = true
+

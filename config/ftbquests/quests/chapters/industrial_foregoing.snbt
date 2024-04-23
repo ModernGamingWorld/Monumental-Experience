@@ -1,0 +1,2718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "69B9F7247002FE35"
+	icon: "industrialforegoing:block_breaker"
+	id: "3A7FC6101E64D06C"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -3.2857142857142847d
+			y: -12.589285714285715d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=yYCPnj_bbRA&list=PLjCIWUQ2Rykw1dLX9i055F_8PcSEgJBuj&index=1"
+			height: 1.0d
+			hover: ["&dYouTube Tutorial:&r &oPart 4"]
+			image: "industrialforegoing:textures/items/machine_hull.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=I04FY6j3nMQ&list=PLjCIWUQ2Rykw1dLX9i055F_8PcSEgJBuj&index=3"
+			height: 1.0d
+			hover: ["&9YouTube Tutorial:&r &oPart 2"]
+			image: "industrialforegoing:items/diamond_gear"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=c3JivbWIxFc&list=PLjCIWUQ2Rykw1dLX9i055F_8PcSEgJBuj&index=4"
+			height: 1.0d
+			hover: ["&aYouTube Tutorial:&r &oPart 1"]
+			image: "industrialforegoing:items/processing_addon_1"
+			rotation: 20.0d
+			width: 1.0d
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=25bqrao9KqI&list=PLjCIWUQ2Rykw1dLX9i055F_8PcSEgJBuj&index=2"
+			height: 1.0d
+			hover: ["&cYouTube Tutorial:&r &oPart 3"]
+			image: "industrialforegoing:items/straw"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/item/dragons.png"
+			rotation: -45.0d
+			width: 7.0d
+			x: 6.5d
+			y: -10.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DA972D85BB3C86C"]
+			description: [
+				"&6Industrial Foregoing&r is a mod that allows you to &o&aautomate&r most of minecraft's functions."
+				""
+				"It has machines for everything!"
+				""
+				"- &2Mob&r and &2Animal&r farming"
+				"- &aPlant&r farming"
+				"- A suite of &bInfinity Tools&r"
+				"- Big &eItem&r/&9Fluid&r &nStorage&r and &eItem&r/&9Fluid&r &nTransporters&r"
+				"- &cPower&r generation"
+				"- &dEnchantments&r sorting and creation"
+				"- &3Ore&r collection"
+				""
+				"And &o&bmuch more&r..."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			id: "484AA004E235D07D"
+			min_width: 300
+			rewards: [
+				{
+					id: "7C1E9AEF68C6511F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49C50BB7D014C967"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&o&nCoke Oven&r quest*"
+			tasks: [{
+				id: "5CDCDDFD361DFFBD"
+				type: "checkmark"
+			}]
+			title: "Welcome to &3Industrial Foregoing"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["371982593B9A363C"]
+			id: "1A4674A6B818BFE8"
+			rewards: [
+				{
+					id: "616170A2924AE0D5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37FE50EE677778EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "073103F5A75FCF47"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0EA9E52B67B533DF"]
+			id: "0773B45F80E9EB41"
+			rewards: [
+				{
+					id: "6BD7ABFCFFA45084"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FB8352BDE188934"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "01DCB25E5418893B"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["484AA004E235D07D"]
+			id: "55C0841BBDCA69F4"
+			rewards: [
+				{
+					id: "0C76268242CF08C0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73FF5E55321CC346"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1375E29C154020A9"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "&aPity Machine Frame"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "513ED8B3BE23BF6E"
+			rewards: [
+				{
+					id: "2272E28F1258ABEF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5ECEF39D7A3F1987"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "46517576F726EA51"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			title: "&bSimple Machine Frame"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"513ED8B3BE23BF6E"
+				"00E7410F65814081"
+			]
+			id: "5C2CBC6B89014BEC"
+			rewards: [
+				{
+					id: "7B10D191ABBE9863"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55A7CFBAB3C21848"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D3115B5D816CE73"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "&dAdvanced Machine Frame"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CA0780203130557"]
+			id: "054B2BA570F930BC"
+			rewards: [
+				{
+					id: "1C6743BD3E5474F6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6139B7D6179351CC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D67EEB063B3CEF2"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "&6Supreme Machine Frame"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "0CAD4E1A68F3DA0A"
+			rewards: [
+				{
+					id: "1D0B9032A6554203"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0DB2BE7DB9500CC0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7C5C10C174758873"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			title: "&aThe Black Hole Controller"
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			hide_dependency_lines: true
+			id: "7445BC964E4997E9"
+			rewards: [
+				{
+					id: "3067670C1B74778D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C1375DB7B0BE1D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D61AF67D1F225BA"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			title: "&aPity Black Hole Tank"
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			hide_dependency_lines: true
+			id: "6678E675B2953C23"
+			rewards: [
+				{
+					id: "1A3529FC83C5E022"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0629946EE4C9FD25"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "093B1B928EF19EEB"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			title: "&3Common Black Hole Tank"
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "11312D1DA1B0B740"
+			rewards: [
+				{
+					id: "06B6D7CF8B181FD7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08DE5731E123FE47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2476CA6854F0E77F"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			title: "&6Supreme Black Hole Tank"
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "4EC639CAA771FB58"
+			rewards: [
+				{
+					id: "479A2CB96C351F2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "38C5DDE95336E3D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "145CB14289DDCBE7"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			title: "&bSimple Black Hole Tank"
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			hide_dependency_lines: true
+			id: "656EB0A3579F4119"
+			rewards: [
+				{
+					id: "10EB9DDB0CD898AC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "557F25C4CBAC2AE7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E5AB8D37CED9078"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			title: "&3Common Black Hole Unit"
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			hide_dependency_lines: true
+			id: "247099216FB9A068"
+			rewards: [
+				{
+					id: "454110DF630EC6FB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3261D2EDBEF7E939"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53BAED0F51A8FD34"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			title: "&aPity Black Hole Unit"
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "7B7BAE2DC1D7DE57"
+			rewards: [
+				{
+					id: "5C2C1249F028E47C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07B7CADCA9D415F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EF83B57041442DE"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			title: "&bSimple Black Hole Unit"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "330E4A7591F2FD1A"
+			rewards: [
+				{
+					id: "769E8FB89655A534"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22C3BBD68199A0D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00711F35F4710383"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			title: "&dAdvanced Black Hole Unit"
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "5B584592AC60C2EA"
+			rewards: [
+				{
+					id: "748CD179FE57FE02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04B587B20F261DCC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "428D12C5BF2797ED"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			title: "&6Supreme Black Hole Unit"
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "241FC2CDF86571E6"
+			rewards: [
+				{
+					id: "43FEDC5D6BBCC566"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "794271C1F7F4B74A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07E07E432B5FB305"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			title: "&dAdvanced Black Hole Tank"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			id: "3AE8F1E0E7CE1434"
+			rewards: [
+				{
+					id: "1472AD595C21FE18"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "726A739C7C19680B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0EC7B27179FDB5B4"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "4C841CDCB034ACB5"
+			rewards: [
+				{
+					id: "26D9358D0DFCBF85"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E721608C3B898FB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0965BB77913DBA44"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "5BAD582523A809FA"
+			rewards: [
+				{
+					id: "2A271CA368102972"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1282641955C1A56E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1337A00FF100C83C"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "2971172A19254B68"
+			rewards: [
+				{
+					id: "45864C683999242C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C791BA73C38F38E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51AB45A3DABA266E"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "05C7970BCDAB942A"
+			rewards: [
+				{
+					id: "726D1EB0F38E2D56"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25BC560751428929"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1252335E81303047"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "4C6FC968CBEF995B"
+			rewards: [
+				{
+					id: "45EBBA83829ECB95"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "795319E8589943AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "20B8585391153D77"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "7701F04BB50DCC28"
+			rewards: [
+				{
+					id: "4B720570344B55B9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E3F46D5D041DD6D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CE39540E3F0FC48"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "6D7788993C5B9139"
+			rewards: [
+				{
+					id: "483C449824322254"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6620EE8B544C9885"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "778C256ACACD690E"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "6611B10CFF5DD33C"
+			rewards: [
+				{
+					id: "5AD1157F6455476D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "24A8CB2BBF16C50B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CB9AAA61B973F75"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "645548A4E940BB5C"
+			rewards: [
+				{
+					id: "639888ADC9A191A3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01F414D5AB207E7E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18F56609A124BFD9"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "2C9ACEED49DDF974"
+			rewards: [
+				{
+					id: "25F9ED2F9E135844"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1144B0D9A7A262DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E639758FA07724B"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "1325B383BCCD6534"
+			rewards: [
+				{
+					id: "23612101811CF8FB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D455F757A4EB6D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3603EF2961846C40"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			hide_dependency_lines: true
+			id: "02CFF7F97A942D8C"
+			rewards: [
+				{
+					id: "61422962475D7786"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D00532BEE65EE68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "584B9DB0E79ACFEB"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "301887B504EF4F82"
+			rewards: [
+				{
+					id: "31BA54EB004ACEFC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AC8ECA8669E2590"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "68D5216F8D5E1A00"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "1193ABAFF90CD90C"
+			rewards: [
+				{
+					id: "50C840607B3F49B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49B23863F5209043"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "46FC3DAEFC427B1B"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "5DFA1C0FA80815F4"
+			rewards: [
+				{
+					id: "189F71B55950CE33"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2993B6B71A81CF10"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B962E6A8C6DD143"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2227AB6625806066"
+			rewards: [
+				{
+					id: "213109345699F59A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D234F8C7515327F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EC6A0AEF6C612DD"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			hide_dependency_lines: true
+			id: "0ADFE9AD2310EE3B"
+			rewards: [
+				{
+					id: "7BAE61A91CAFD0E3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63676C4C11B9B4B2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ADE80FF3CA939F5"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "6FA7CF416D1C9C9D"
+			rewards: [
+				{
+					id: "11D9CE9E2627F33D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45EE2066D2CDD490"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A2FBF9B25E0B831"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "3B22A51CC6F798F1"
+			rewards: [
+				{
+					id: "44C5E9BB1DE2305F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B2043CAA041A3B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69084C208003E1AB"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "2649F8D4FD0ADA63"
+			rewards: [
+				{
+					id: "48D602445D1E57CB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "656817884EE30C77"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B8E66D5B58A319E"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			description: [
+				"&6Addons&r can increase:"
+				""
+				"- &o&9Range&r"
+				"- &o&eSpeed&r"
+				"- &o&cEfficiency&r"
+				""
+				"&6Addons&r are most important for &nquickier&r progress."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:range_addon10"
+				tag: {
+					TitaniumAugment: {
+						Range: 10.0f
+					}
+				}
+			}
+			id: "41B9C21ACFDC2E1A"
+			rewards: [
+				{
+					id: "6462F0C625366FAE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17E2657F4750F325"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "34C5A702E4E32C95"
+				type: "checkmark"
+			}]
+			title: "&3Addons"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66F1BCEE09A2680D"]
+			id: "01CC7AB47AE60276"
+			rewards: [
+				{
+					id: "5403725811DAADB2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E59685791E610BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "578A40D1561A3126"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "54AD9CDE86A81ADC"
+			rewards: [
+				{
+					id: "38AF4741F5D3D6ED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "006CB0C723527A07"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "713DEDE411F98C44"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "6FE4903548616B87"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+			]
+			title: "Plant Gatherer \\& Sower"
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "23F8D2B6939329F3"
+			rewards: [
+				{
+					id: "5EDFF708E26E86B1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "139004EB933FA042"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "652C171739659AAD"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.2142857142857153d
+			y: -9.125d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "74C23539C132EABF"
+			rewards: [
+				{
+					id: "4C2472E8D6E6E278"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CF93E2A333C8E8D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1CCB825000A8CE9C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.2142857142857153d
+			y: -8.125d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			hide: true
+			id: "51C0F60980038AB9"
+			rewards: [
+				{
+					id: "7D35AAD1963BE22D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "15DAF2C9951DC0FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "59AA73691072E253"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "30B059CB97415938"
+			rewards: [
+				{
+					id: "166C4A1BFB4F8203"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "332F16573B38FCBE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0930A913B569691D"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "26526DBD1CC48848"
+			rewards: [
+				{
+					id: "4D435E5076DFE053"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A34D19180BD85E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1430D02A96678D88"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "7113E27E75B373C4"
+			optional: true
+			rewards: [
+				{
+					id: "56AB8583337E9991"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F84E053664CAD25"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "521BEE68C16E960E"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "139CFD1AA7AC0319"
+			optional: true
+			rewards: [
+				{
+					id: "0FFEC3E3AED79D30"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DB5D72C57F8E7CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14D659C0EBB6BFEA"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "3C72F1176556D81D"
+			optional: true
+			rewards: [
+				{
+					id: "3591BB388290A9D6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25896F89576D9245"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A716B440B5EF762"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "66F1BCEE09A2680D"
+			rewards: [
+				{
+					id: "5803AEBC8ECFCDD3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5017C20306DB2DA9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09CAE11C932A223A"
+					item: "industrialforegoing:animal_feeder"
+					type: "item"
+				}
+				{
+					id: "2BEBBB25C7007D2C"
+					item: "industrialforegoing:animal_rancher"
+					type: "item"
+				}
+				{
+					id: "01DA0830963EB153"
+					item: "industrialforegoing:animal_baby_separator"
+					type: "item"
+				}
+			]
+			title: "Animal Factory"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FA7CF416D1C9C9D"]
+			id: "371982593B9A363C"
+			rewards: [
+				{
+					id: "3AA16C471B748050"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B97B667A3574AC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C813D179A8012C5"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "00E7410F65814081"
+			rewards: [
+				{
+					id: "1D1C0A7E2E59231A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2714F899E705BBC2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3A280991D7E36DF2"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "09907A62A610CEB1"
+			rewards: [
+				{
+					id: "19E97FD8B7AB8846"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50A317C502688193"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "678B11AEB76F8344"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "5A2A5523A425B7F3"
+			rewards: [
+				{
+					id: "4C91671E469FDCF6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "160F0450C225DD60"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60E762274329A1FC"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "12D8D3A9F88EFBA9"
+			rewards: [
+				{
+					id: "2DDDA5727B3458D9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64966A46A99EA3EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "75DD0C71099A37ED"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.2142857142857153d
+			y: -8.125d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide_dependency_lines: true
+			id: "76E70BD18B5A5BF6"
+			rewards: [
+				{
+					id: "433F3F5F737A8319"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3D4515593495471F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D9913F3180B3C29"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_charger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.2142857142857153d
+			y: -8.625d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "4ABF34DC1EC7A108"
+			rewards: [
+				{
+					id: "50DB44187FE4D67A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "72D15CD6405066A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D9F1BE88708E67E"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "7442DAC1ACAFC4B3"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CB0BDE36E5D179E"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "&dThe Laser Drill"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ABF34DC1EC7A108"]
+			description: ["Using &dPurple Laser Lens&r you can mine &7Ether Gas&r, which is needed for creation of the &6Supremium Machine Frame&r."]
+			id: "504E97B6BB638F87"
+			rewards: [
+				{
+					id: "372D5BE3AAA03244"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7DED054FAC6C6C95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E1A48B768B1EF7A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "industrialforegoing:laser_lenses"
+					}
+				}
+				title: "Any Laser Lens"
+				type: "item"
+			}]
+			title: "The Laser Lenses"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "135C0EE181AFECE7"
+			optional: true
+			rewards: [
+				{
+					id: "453438D565BFCD87"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EE13E27AC60D483"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "779EEA5CB0181A70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:plant_fertilizer"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "45FE60D77F541D08"
+			rewards: [
+				{
+					id: "743C5246C2898639"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BF6DF828A5F6A1A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B4B47208FFD9392"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:meat_feeder"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["414AFCC463FD81BA"]
+			id: "3C86D092F681C644"
+			rewards: [
+				{
+					id: "09780BB71AF4BD97"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "603FC32E00EA29D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AC4A2599ED43A0C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:mechanical_dirt"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C2FFA549CAA9F5D"]
+			id: "537CEDC602B81DDE"
+			rewards: [
+				{
+					id: "5D3CCE001AF853F2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7727F823D31346DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5150198CAFCD9AA2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:sludge_refiner"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "6ED7A16DEDC19809"
+			optional: true
+			rewards: [
+				{
+					id: "47C3FF0F307F6589"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76F9D7B72D04AC91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09E0B0BFC3FED086"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "48B63DD48437F047"
+			rewards: [
+				{
+					id: "337E70A2A8F93BE3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ED5F6DCEEBCC12C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "113C683D6127A891"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D736EEA2C2543DE"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4EBF793DA10D3692"
+					item: "industrialforegoing:world_transporter_type"
+					type: "item"
+				}
+			]
+			title: "Item \\& Fluid Transport"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A4674A6B818BFE8"]
+			id: "0EA9E52B67B533DF"
+			rewards: [
+				{
+					id: "48EC9B32489DB9A5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C697211E9178A8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CA3A2FA058EB9D5"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			title: "Rubber"
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3B22A51CC6F798F1"]
+			id: "7CECD479E8AE4B29"
+			rewards: [
+				{
+					id: "672C5F2E7AEDF3E8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "652715CE673BFB37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6117998F32E709D6"
+				item: "industrialforegoing:biofuel_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CECD479E8AE4B29"]
+			id: "7AC01E9564AE9325"
+			rewards: [
+				{
+					id: "2D95AE856FC125C4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E2FA079979A553D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A936CCD6E13A9E8"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["504E97B6BB638F87"]
+			id: "3CA0780203130557"
+			rewards: [
+				{
+					id: "4449C6186376C5AC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "198841ADE0965F7F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69605D0154F3316F"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00E7410F65814081"]
+			id: "5726B7CB040A0F4E"
+			rewards: [
+				{
+					id: "7D885B4AF588D861"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4961C604813B9D1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E2A607687543DAB"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"45FE60D77F541D08"
+				"5726B7CB040A0F4E"
+				"5C2CBC6B89014BEC"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "2FC30855F5EB4FCF"
+			rewards: [
+				{
+					id: "60082E6BB92C152F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D6C5731A3C26532"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "4BB51D82816F6E31"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			hide_dependency_lines: true
+			id: "616CFD4078D67B51"
+			rewards: [
+				{
+					id: "635904F864EBD67C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E894396B4EFFB59"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "3AE63F706CF41E9B"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			title: "Conveyor Belt"
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["616CFD4078D67B51"]
+			hide: true
+			id: "3027584AA6138E6D"
+			rewards: [
+				{
+					id: "02831EF6E03EFEAC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D5957F7C2EF0390"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "706E6BE855C4AE5C"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+					type: "item"
+				}
+				{
+					id: "1D7CB07E1E6F7A29"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+					type: "item"
+				}
+			]
+			title: "Conveyor Insertion \\& Extraction"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["616CFD4078D67B51"]
+			hide: true
+			id: "06094615950AC062"
+			optional: true
+			rewards: [
+				{
+					id: "0500385AAF95D60F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B5ED1F9CB77DB86"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F78346AC1AA58B4"
+					item: "industrialforegoing:conveyor_detection_upgrade"
+					type: "item"
+				}
+				{
+					id: "3DB99B677678BCDD"
+					item: "industrialforegoing:conveyor_bouncing_upgrade"
+					type: "item"
+				}
+				{
+					id: "1A64390CFB75F256"
+					item: "industrialforegoing:conveyor_dropping_upgrade"
+					type: "item"
+				}
+				{
+					id: "387D0194F77E1870"
+					item: "industrialforegoing:conveyor_blinking_upgrade"
+					type: "item"
+				}
+				{
+					id: "4C5292076C0A9E83"
+					item: "industrialforegoing:conveyor_splitting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Other Conveyor Upgrades"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "427C3AFC0FF131CD"
+			optional: true
+			rewards: [
+				{
+					id: "08A6121FBEBF34A4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F55C12E3F23466E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "62B10DA5B0939647"
+					item: "industrialforegoing:fluid_placer"
+					type: "item"
+				}
+				{
+					id: "03B095E09D58AE1B"
+					item: "industrialforegoing:fluid_collector"
+					type: "item"
+				}
+			]
+			title: "Fluid Placer \\& Collector"
+			x: -7.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "2CCFEE98FE3B2E97"
+			optional: true
+			rewards: [
+				{
+					id: "779633B6CA8202CF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E66000277EDEC7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "796061CC713A9A91"
+					item: "industrialforegoing:block_breaker"
+					type: "item"
+				}
+				{
+					id: "294C729B9EBD7A3C"
+					item: "industrialforegoing:block_placer"
+					type: "item"
+				}
+			]
+			title: "Block Breaker \\& Placer"
+			x: -9.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			id: "7914FE37B65E78BF"
+			optional: true
+			rewards: [
+				{
+					id: "790DE2D9D94FD816"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E47F5170150E481"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A4281E7BC8070FA"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+				{
+					id: "3EB946438B2233EA"
+					item: "industrialforegoing:spores_recreator"
+					type: "item"
+				}
+				{
+					id: "5443D997E8CF4165"
+					item: "industrialforegoing:water_condensator"
+					type: "item"
+				}
+				{
+					id: "4391354D69FE0D69"
+					item: "industrialforegoing:dye_mixer"
+					type: "item"
+				}
+			]
+			title: "Useful misc. Machines"
+			x: -8.5d
+			y: -7.25d
+		}
+		{
+			dependencies: ["54AD9CDE86A81ADC"]
+			id: "7C2FFA549CAA9F5D"
+			rewards: [
+				{
+					id: "4DE4039B10287B19"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "283CDE3EDB75F547"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67612826C7E7F4A4"
+				item: "industrialforegoing:sludge_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "1DF44866B52B13A1"
+			rewards: [
+				{
+					id: "346D83BCD4308413"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "129BE87CC34066D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "27A2CF11531E1699"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.2142857142857153d
+			y: -7.625d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "414AFCC463FD81BA"
+			rewards: [
+				{
+					id: "3180326C57888968"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37EFEB7324869C31"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "584761BFB39CBED2"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "22702838FC507A2E"
+			optional: true
+			rewards: [
+				{
+					id: "17971E326A3D81AE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35694D89A63E08DC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BC5A77A97F5FEA3"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "224C07AC71C5F40E"
+			optional: true
+			rewards: [
+				{
+					id: "7CB97184FF4747D4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "657803EB261726FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "353C9F6B5E56C76E"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "1684D52FDAAC894B"
+			optional: true
+			rewards: [
+				{
+					id: "293BE3E5C51814F1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5FDACDBCF264F501"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "720D4B73408CD1F0"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0773B45F80E9EB41"]
+			hide_dependency_lines: true
+			id: "442F62E575CC0B28"
+			rewards: [
+				{
+					id: "18F1DDF09B781F62"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E5E3FAA2516DAFF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55852231E24FD528"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "4A8C60412E59E971"
+			optional: true
+			rewards: [
+				{
+					id: "462E332A3F4A372A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CCE803047D37732"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18A5C86DE82D9671"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "2782EA80C1C74EBD"
+			optional: true
+			rewards: [
+				{
+					id: "08D7BBF0E1671311"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "750DB1BD5201EB7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EFA144FCF33A935"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "4F3EF1574F31A7E2"
+			optional: true
+			rewards: [
+				{
+					id: "73F6F220E36FE4BE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05C83DAB7D86606C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D1F3F6898F4E776"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "34AA079FFAFC64BD"
+			optional: true
+			rewards: [
+				{
+					id: "2D82E826330F6543"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A36688243CCE405"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "363855E6A408A2E5"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			id: "28B3591BFC0FA08B"
+			rewards: [
+				{
+					id: "140111BE89DD2936"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35F3773FCF9BF201"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12A0A25980EA485E"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "0810E8E735ADA134"
+			rewards: [
+				{
+					id: "6624C055AD588150"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EDD42F2EFDC342A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "10C89041A4B1FADD"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.2142857142857153d
+			y: -9.125d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "4A399C387FD1A3EA"
+			rewards: [
+				{
+					id: "6955ACDC728773C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B87D8F4F9E85C3C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7FB10C555EEBCBA8"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.7142857142857153d
+			y: -9.625d
+		}
+		{
+			dependencies: ["76E70BD18B5A5BF6"]
+			id: "1107B2E4F6B13A99"
+			rewards: [
+				{
+					id: "00ACD2F479E8B9AA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E0EF366236709D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "17FA9E082982A0B9"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7142857142857153d
+			y: -9.625d
+		}
+	]
+	title: "&2&oIndustrial Foregoing"
+}

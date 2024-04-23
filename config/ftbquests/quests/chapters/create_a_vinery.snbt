@@ -1,0 +1,548 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_a_vinery"
+	group: "33C9D311E461F30C"
+	id: "3EB81455ED32A16B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6DF4CA576368F188"]
+			id: "4672DA9AAD537CB7"
+			rewards: [
+				{
+					id: "2FDBDD22E5A1303A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26A66F98AC3B6C66"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Located on Cherry Trees"
+			tasks: [{
+				icon: "vinery:cherry_leaves"
+				id: "136427C61391F86A"
+				observe_type: 0
+				timer: 10L
+				title: "Spot a Cherry Bush"
+				to_observe: "vinery:cherry_leaves"
+				type: "observation"
+			}]
+			title: "You Spotted Cherry Leaves"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			id: "6DF4CA576368F188"
+			rewards: [
+				{
+					id: "6E6CC3FF6B14597D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "480C68F5299E5069"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "7622842BCEF7BD00"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "vinery:vinery"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4672DA9AAD537CB7"]
+			id: "06B0C0BDEB877F22"
+			rewards: [
+				{
+					id: "2DE4BCE6A023E9E4"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "2D9EEA6C7E93A7A7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45AFBD089F1E8787"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1E4C447C794513DB"
+				title: "Shear Cherry Leaves"
+				type: "custom"
+			}]
+			title: "Shear Cherry Leaves for Cherries"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06B0C0BDEB877F22"]
+			id: "31736F4629CDFE6B"
+			rewards: [
+				{
+					id: "271D15EB6F914528"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50FF7BCE775C7136"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Grab 3 Cherries"
+			tasks: [{
+				count: 3L
+				id: "60550B3AAAB79197"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6DF4CA576368F188"]
+			id: "15968F214CD2BDC1"
+			rewards: [
+				{
+					id: "0385ECB6215328BB"
+					item: "vinery:red_grape"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "645E90C1E9D11B90"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "33A3202C17FE7201"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "66DF04D3025FC669"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:grape"
+					}
+				}
+				title: "Any #vinery:grape"
+				type: "item"
+			}]
+			title: "Find White or Purple Grapes (Next Step)"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15968F214CD2BDC1"]
+			id: "77E6B7E15E4C6115"
+			rewards: [
+				{
+					id: "6BBC21E3CEF7B45B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55F35D2A0A400C13"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3E7E6F1C188DB079"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "Making our first Grape Juice"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15968F214CD2BDC1"]
+			description: [""]
+			id: "67A02FBD5FE69721"
+			rewards: [
+				{
+					id: "6FE2711685CD52A1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4A185E2A22714F48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5062A04C90AD5E95"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:white_grape_seeds"
+							}
+							{
+								Count: 1b
+								id: "vinery:red_grape_seeds"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Grape Seeds"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A02FBD5FE69721"]
+			id: "5831A01403284812"
+			rewards: [
+				{
+					id: "3416782B59805B89"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C61DE5C933E56E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "386B8B25388CFD32"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			title: "Plant Seeds on Grapevine Stems"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6B7E15E4C6115"]
+			id: "53526AA74B8A2364"
+			rewards: [
+				{
+					id: "0C8BE529EC57D83D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7386A22CF6C875EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5F156F2A4755B0F8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/grape"
+					}
+				}
+				title: "Any #forge:crops/grape"
+				type: "item"
+			}]
+			title: "Put Grapes in Grapevine pot"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DF4CA576368F188"]
+			description: [""]
+			id: "24EF25CAEFDF7D1C"
+			rewards: [
+				{
+					id: "60F91B2AFBBE5715"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "0C9BE5DD749797D1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03B62ECD209305F1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3D6432B7EA723B4B"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53526AA74B8A2364"]
+			id: "5CD91363F5D625C2"
+			rewards: [
+				{
+					id: "3E48447B4DE74211"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "672EDF925C44E008"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "434A96B8254F37C3"
+				item: {
+					Count: 1b
+					id: "vinery:red_grapejuice_wine_bottle"
+					tag: {
+						Year: 77
+					}
+				}
+				type: "item"
+			}]
+			title: "You made Red Grape Juice!"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5CD91363F5D625C2"]
+			description: [""]
+			id: "6F787E98EBE66BFE"
+			rewards: [
+				{
+					id: "6EC95A7ADD41F083"
+					item: {
+						Count: 1b
+						id: "vinery:red_grapejuice_wine_bottle"
+						tag: {
+							Year: 77
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "27DFDFD85FA24801"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "47594B9835AF4860"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76737C9E0159839D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2E148F01F8684280"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "Make other wines with your Aging Barrel"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24EF25CAEFDF7D1C"]
+			id: "45EECE3AE6EEE65B"
+			rewards: [
+				{
+					id: "3E1A339CD7C93554"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "62107BAED42CD811"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Mash Apples"
+			tasks: [{
+				id: "253A4C241E68CFA4"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6F787E98EBE66BFE"
+				"45EECE3AE6EEE65B"
+			]
+			id: "0B6CE229DBFC4409"
+			rewards: [
+				{
+					id: "5344E009122AC950"
+					item: "vinery:apple_mash"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CEA9263EAC0D5A6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17591BB20F30376B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0A820D97C04C9F82"
+				item: {
+					Count: 1b
+					id: "vinery:apple_juice"
+					tag: {
+						Year: 77
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F787E98EBE66BFE"]
+			id: "0BD7332774E5C7AC"
+			rewards: [
+				{
+					id: "475A3E45811D46D6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "68F4582553C17E25"
+					type: "item"
+				}
+				{
+					id: "157CE2290A077F65"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2FD07BBEF2A69624"
+				item: {
+					Count: 1b
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 77
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F787E98EBE66BFE"]
+			id: "537BB208FF90B1F5"
+			rewards: [
+				{
+					id: "27604045DD32483A"
+					item: "minecraft:coal"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "37593CDFEFC305BB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E0891E579797D48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "40668616BCADA506"
+				item: "vinery:wood_fired_oven"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Who doesn't want their own vinery to make their own wine?"]
+	title: "&6&oVinery"
+}

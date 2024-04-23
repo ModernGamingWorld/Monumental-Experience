@@ -1,0 +1,18 @@
+{
+  "wanderingVillager": {
+    "isRareTrade": true,
+    "enabled": true,
+    "emeraldCost": 23,
+    "maxUses": 8,
+    "villagerExp": 1,
+    "priceMultiplier": 0.5
+  },
+  "shepherdOffer": {
+    "tier": "EXPERT",
+    "enabled": true,
+    "emeraldCost": 23,
+    "maxUses": 8,
+    "villagerExp": 1,
+    "priceMultiplier": 0.5
+  }
+}

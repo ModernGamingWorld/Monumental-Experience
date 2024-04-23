@@ -1,0 +1,2300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_agriculture"
+	group: "5271FC3947DEACC8"
+	icon: "thermal:flax"
+	id: "47BCBDF551D36028"
+	images: [
+		{
+			height: 1.5d
+			image: "kubejs:textures/item/agricul_b.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "kubejs:textures/item/agricul_a.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "aiotbotania:item/alfsteel_hoe"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_hoe"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0714285714285836d
+			y: -5.624999999999993d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.107142857142868d
+			y: -5.660714285714285d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.7142857142857153d
+			y: -5.517857142857146d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.750000000000007d
+			y: -5.482142857142854d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:textures/item/far_hat.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/agcul.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.857142857142861d
+			y: -8.871428571428574d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "79E2640D359C6E10"
+			rewards: [
+				{
+					id: "263AC85F1F559CFB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "16271DB941FF323C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "662A027AA084F2E3"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "7559F5BC8A78974C"
+			rewards: [
+				{
+					id: "5AF293F064C09470"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A91862A6C7FF8AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A511BD441042EA8"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "1F552C0DA2741587"
+			rewards: [
+				{
+					id: "0709A01E1FE970FC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40BEDE8694AB5906"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6741DD6CC1155958"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "03D6822411AF1DD9"
+			rewards: [
+				{
+					id: "158AC5F27CB44946"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "23618898DB558464"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01F0F762672FB9DA"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "3916DED23F800E93"
+			rewards: [
+				{
+					id: "33B15547F9351055"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "265313A19806D6F4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "576BB7EDF7B2187B"
+				item: "thermal:flax_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "6DEFAC2ABAC068DD"
+			rewards: [
+				{
+					id: "49D86DEDDAA6A22F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48EAA2BA85E45FF0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D050CCF2AFCB70C"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "313FAE0043E75DF0"
+			rewards: [
+				{
+					id: "3184818EBC1508A7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0506A7549461A44C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F50D85344B18267"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "44756C77E963E90C"
+			rewards: [
+				{
+					id: "631ADC61AF00666D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "343B18D1222FCB44"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67070AA9E2B76A5F"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79E2640D359C6E10"]
+			id: "52275937BDA24F08"
+			rewards: [
+				{
+					id: "530BA9FC51E63958"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19B4FC9CE216CE43"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "680D1B7F0B6E5129"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/wheat"
+					}
+				}
+				title: "Any #forge:crops/wheat"
+				type: "item"
+			}]
+			title: "Wheat"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03D6822411AF1DD9"]
+			id: "413C3145970C3311"
+			rewards: [
+				{
+					id: "59AFE611A0F07AE0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "242DD19E8765F263"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53703F4ED45CEC7C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/beetroot"
+					}
+				}
+				title: "Any #forge:crops/beetroot"
+				type: "item"
+			}]
+			title: "Beetroot"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "268C28EFED471EBB"
+			rewards: [
+				{
+					id: "57D2E920D5970EF2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "720D06611C8F04CB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08B105CDCF18F081"
+				item: {
+					Count: 1b
+					id: "quark:seed_pouch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "2BD67FC070D9F48D"
+			rewards: [
+				{
+					id: "58B3D94BE2F1BB45"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "356EFCB7DC542DFA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21F9CA67302A0DA0"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "1D942F24F0200718"
+			rewards: [
+				{
+					id: "0D9A1DD8E05AF3E5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "02CFAD7C215798B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64591A46F47C0E7C"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26BAC59CF7834E41"]
+			id: "23D25FCB0C893400"
+			rewards: [
+				{
+					id: "55AF9C22674D7352"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "604E04EF6A8989E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DDC4CC987043858"
+				item: "thermal:apple_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["313FAE0043E75DF0"]
+			id: "6306100328FD1576"
+			rewards: [
+				{
+					id: "7BAF233B7BC8BC66"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0DA97E272313C159"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "292E810079EF5EF5"
+				item: "thermal:carrot_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44756C77E963E90C"]
+			id: "015D871BC79CEBA5"
+			rewards: [
+				{
+					id: "319E694CBA9FF576"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47CA53C8CEBBC644"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38EF98FC83BE17E3"
+				item: "thermal:potato_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["413C3145970C3311"]
+			id: "1CEB6B0EE29F2F24"
+			rewards: [
+				{
+					id: "2F1D875E3641869B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5922A2EAFCBB82CB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "529925BC2FA27F89"
+				item: "thermal:beetroot_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "06CBD180CD184FBC"
+			rewards: [
+				{
+					id: "6E354918A7CFD16C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FDB0836C9BA2E39"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C019392CA79962"
+				item: "thermal:corn_seeds"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "33C8FF95807426B4"
+			rewards: [
+				{
+					id: "12F067BE4DB75764"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B6BA517BBC87604"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FC6885F347C722C"
+				item: "thermal:onion_seeds"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "6D66FA9FF2740FC5"
+			rewards: [
+				{
+					id: "722123C2C694DEAE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0DD9BB84647F9A7E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EA12B3DB153516D"
+				item: "thermal:radish_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "2CB6E6F205CA3EAC"
+			rewards: [
+				{
+					id: "647C6BCA6E87D2F1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C0DD607189E2A33"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55DCD0DF18D02851"
+				item: "thermal:rice_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "24ECADE3CD4193E0"
+			rewards: [
+				{
+					id: "47B7F68F5FBC2815"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50B2371E4F9AC813"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2820F6732012C71E"
+				item: "thermal:sadiroot_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "775ADED3E0FEE5C0"
+			rewards: [
+				{
+					id: "001DACC1348E907D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34FDD4B78565226F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FDD6E3F961B3ACB"
+				item: "thermal:bell_pepper_seeds"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "4CF3B507D85AB4FC"
+			rewards: [
+				{
+					id: "56B9E15EC70B9C16"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E31BAE9E46B2431"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43577C9AC9337537"
+				item: "thermal:eggplant_seeds"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CF3B507D85AB4FC"]
+			id: "63F323CCEFB22465"
+			rewards: [
+				{
+					id: "58839F6444844C28"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A7A2C3FA934A352"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ED217EF355CD0C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/eggplant"
+					}
+				}
+				title: "Any #forge:crops/eggplant"
+				type: "item"
+			}]
+			title: "Eggplant"
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63F323CCEFB22465"]
+			id: "518D4A2268207F0C"
+			rewards: [
+				{
+					id: "2226AF33485296A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "564D02EC34A9364F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "210B42FDF4C0E68E"
+				item: "thermal:eggplant_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06CBD180CD184FBC"]
+			id: "4FFD17BA9503CE3B"
+			rewards: [
+				{
+					id: "47AA382BC2FB3646"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BB5DFF55D846A64"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09E7FF595B3BAFAD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/corn"
+					}
+				}
+				title: "Any #forge:crops/corn"
+				type: "item"
+			}]
+			title: "Corn"
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FFD17BA9503CE3B"]
+			id: "5D5E30C6606C36BE"
+			rewards: [
+				{
+					id: "0FA1D18979E88B8E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CA5054F7481E080"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133DACE75DAF9406"
+				item: "thermal:corn_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33C8FF95807426B4"]
+			id: "099B9747D9845771"
+			rewards: [
+				{
+					id: "361A1CDDB026E02B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "701B4D7EF9F29F82"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A5586A0DA86E44F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/onion"
+					}
+				}
+				title: "Any #forge:crops/onion"
+				type: "item"
+			}]
+			title: "Onion"
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["099B9747D9845771"]
+			id: "45A698E634E3674C"
+			rewards: [
+				{
+					id: "6213F0616CA2355C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1749B740ED3BF206"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D3891A12EB8F436"
+				item: "thermal:onion_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D66FA9FF2740FC5"]
+			id: "740AC4E27E6A2D59"
+			rewards: [
+				{
+					id: "07248D157A4FFCB4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "482551296E1E1D05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A86EB2239C52DE6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/radish"
+					}
+				}
+				title: "Any #forge:crops/radish"
+				type: "item"
+			}]
+			title: "Radish"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["740AC4E27E6A2D59"]
+			id: "2542A89BCD71D5D4"
+			rewards: [
+				{
+					id: "59C9B045FE49D505"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C3F6E78DE55FEA0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D3F38FECB91FDE7"
+				item: "thermal:radish_block"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24ECADE3CD4193E0"]
+			id: "659D8C33A176393D"
+			rewards: [
+				{
+					id: "19F32515FF676933"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52FD62358919E92B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F728B1FA9AD2E87"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/sadiroot"
+					}
+				}
+				title: "Any #forge:crops/sadiroot"
+				type: "item"
+			}]
+			title: "Sadiroot"
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["659D8C33A176393D"]
+			id: "0065F99FD9EDA8E2"
+			rewards: [
+				{
+					id: "3E9B83219B934ACE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "189D56ECE53566CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67B267D4F87F7A99"
+				item: "thermal:sadiroot_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "42B04FFE3871CAF4"
+			rewards: [
+				{
+					id: "740A9550B32B011C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "249381187566225A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "123B926E7258D860"
+				item: "thermal:green_bean_seeds"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "261C0F3A757E5615"
+			rewards: [
+				{
+					id: "536A9759F0A47250"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "644BFC6ABC8BE750"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68F97C7B803228FD"
+				item: "thermal:tomato_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42B04FFE3871CAF4"]
+			id: "70DFFD8234BB10BE"
+			rewards: [
+				{
+					id: "7D1CD5E86086817A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53E36BBB56587F08"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E19FE6C242DBD20"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/green_bean"
+					}
+				}
+				title: "Any #forge:crops/green_bean"
+				type: "item"
+			}]
+			title: "Green Beans"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70DFFD8234BB10BE"]
+			id: "7AA47A81B471C92E"
+			rewards: [
+				{
+					id: "293D9618AB057F07"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6FE471FF5EA26E4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "243D64AE34EB5084"
+				item: "thermal:green_bean_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["775ADED3E0FEE5C0"]
+			id: "0EC9F6381F602588"
+			rewards: [
+				{
+					id: "41FD565461D7D42A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C6A1E0B2EA308EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D62519F96F21039"
+				item: "thermal:bell_pepper"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EC9F6381F602588"]
+			id: "454479551B26E365"
+			rewards: [
+				{
+					id: "31F2B802C9A0E564"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "234923F3B7407BE0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E9414C7A98AA151"
+				item: "thermal:bell_pepper_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["261C0F3A757E5615"]
+			id: "003ECD975D1EBE31"
+			rewards: [
+				{
+					id: "7A59FC6AE81BAD2B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "360B1340A29FBA75"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0FDD9A5F3783F0"
+				item: "thermal:tomato"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["003ECD975D1EBE31"]
+			id: "1A64008E92ED3521"
+			rewards: [
+				{
+					id: "0969BB79D8479D66"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D26A5CC0D88F419"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D581DEE62CA3C1C"
+				item: "thermal:tomato_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "26BAC59CF7834E41"
+			rewards: [
+				{
+					id: "1B4D755845191869"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23DBF36686D44125"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30953103745C6A04"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52275937BDA24F08"]
+			id: "1DAED41708F59166"
+			rewards: [
+				{
+					id: "6A69588684466FCC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E7F51F544A4D5FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31515EB53115F460"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "376292C2B5855BA3"
+			rewards: [
+				{
+					id: "210147F189F2A169"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "653405ED6EF8AF04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "541BEDC0444DB3F6"
+				item: "thermal:barley_seeds"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["376292C2B5855BA3"]
+			id: "6AC13BD922F8EA74"
+			rewards: [
+				{
+					id: "26B9BCB36F25B170"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "227049EBBA32D38D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68719DB25A6DCBE8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/barley"
+					}
+				}
+				title: "Any #forge:crops/barley"
+				type: "item"
+			}]
+			title: "Barley"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CB6E6F205CA3EAC"]
+			id: "3B386ADCE3D0D09C"
+			rewards: [
+				{
+					id: "5FA14335A4523B5B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30BC893BB3B7E881"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26C144B17FF1BAC4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/rice"
+					}
+				}
+				title: "Any #forge:crops/rice"
+				type: "item"
+			}]
+			title: "Rice"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AC13BD922F8EA74"]
+			id: "0CFE5B6399802E31"
+			rewards: [
+				{
+					id: "6E2B60526F3B6687"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "405044544DA3CCDA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65930CF23AA8F04A"
+				item: "thermal:barley_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B386ADCE3D0D09C"]
+			id: "55B531114FD82527"
+			rewards: [
+				{
+					id: "1EB6C6E62D3EBBB5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "507AEF6F4C69080B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66448DF57FC973FB"
+				item: "thermal:rice_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "23C845F1F06011E5"
+			rewards: [
+				{
+					id: "668E3237E1666BEA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "440BFE6AA6BB98B2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ACC427F54F5179A"
+				item: "thermal:spinach_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23C845F1F06011E5"]
+			id: "4F1A84D6D25FC6EB"
+			rewards: [
+				{
+					id: "186AE867C5CDDEED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35CC658586FA0B3A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B567462D2BAF731"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/spinach"
+					}
+				}
+				title: "Any #forge:crops/spinach"
+				type: "item"
+			}]
+			title: "Spinach"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F1A84D6D25FC6EB"]
+			id: "39286FCE4608FEBB"
+			rewards: [
+				{
+					id: "12A83D3E3A59B6DD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D07873ADA9C6C6E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0823FD19E8BF0E16"
+				item: "thermal:spinach_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "46783DEC79D20577"
+			rewards: [
+				{
+					id: "6480A16480DCCC7D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5A6F0E1A73B72DC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "435211113A97338B"
+				item: "thermal:amaranth_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46783DEC79D20577"]
+			id: "0E72BEAA65AD7D70"
+			rewards: [
+				{
+					id: "56AA297D2A914BA2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66006F696B449923"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D62395D6D627131"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/amaranth"
+					}
+				}
+				title: "Any #forge:crops/amaranth"
+				type: "item"
+			}]
+			title: "Amaranth"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E72BEAA65AD7D70"]
+			id: "219022631E925C7A"
+			rewards: [
+				{
+					id: "76188D17319E58A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "028901A5999593BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12ADF6CF0090D537"
+				item: "thermal:amaranth_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7559F5BC8A78974C"]
+			id: "4174D2186D8714D6"
+			rewards: [
+				{
+					id: "1FD85922320689A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7609B9FF01FF0455"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A2534497AD7BD25"
+				item: {
+					Count: 1b
+					id: "minecraft:pumpkin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F552C0DA2741587"]
+			id: "5A33ACCBCF0E9D34"
+			rewards: [
+				{
+					id: "121E718CD549DD02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "57E7AF214FC7A3A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ACCD255A365A50F"
+				item: {
+					Count: 1b
+					id: "minecraft:melon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3916DED23F800E93"]
+			id: "0FEA23EE539787AD"
+			rewards: [
+				{
+					id: "3EDE51BC3306AA48"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5035F417B71DE5AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DC01DE25B287EE2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/flax"
+					}
+				}
+				title: "Any #forge:crops/flax"
+				type: "item"
+			}]
+			title: "Flax"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FEA23EE539787AD"]
+			id: "78DD46AAF70ADCD7"
+			rewards: [
+				{
+					id: "4B5A8ECB65AAFE7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4505E6818F2F9FA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B37E1942C9EA480"
+				item: "thermal:flax_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DEFAC2ABAC068DD"]
+			id: "1E16F68DCB08F9A1"
+			rewards: [
+				{
+					id: "624FC706A8C2AB29"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7152A97520BC3BF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C5CF5B31BF53689"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "3B51E5842826FC29"
+			rewards: [
+				{
+					id: "788AC2EC1BE94BC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CE556993A783CC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A291E810A304C9"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B51E5842826FC29"]
+			id: "6D747A7B5625970A"
+			rewards: [
+				{
+					id: "25E4EF4A007986C0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3454D0C0B904D0B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ECD774734E509F1"
+				item: "thermal:bamboo_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "7C6B9862257DF97A"
+			rewards: [
+				{
+					id: "430666649E6D54A5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55E26C3F1295CB58"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "284AC96F92259177"
+				item: {
+					Count: 1b
+					id: "minecraft:sugar_cane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C6B9862257DF97A"]
+			id: "7AD134B23E35658D"
+			rewards: [
+				{
+					id: "3E3E23675EEE8F9E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "315EF9B4441D5D45"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DDD16B0A8694725"
+				item: "thermal:sugar_cane_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D255DD5D32DA110"]
+			id: "16752C75AB6B8752"
+			rewards: [
+				{
+					id: "46E961C35BACD0B0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66B6388FC2EC96CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42360D05077EB6E3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/peanut"
+					}
+				}
+				title: "Any #forge:crops/peanut"
+				type: "item"
+			}]
+			title: "Peanuts"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "1D255DD5D32DA110"
+			rewards: [
+				{
+					id: "4819FF8FB3A49030"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E36DFA8A352F1A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49FBD1D3B0A32F47"
+				item: "thermal:peanut_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16752C75AB6B8752"]
+			id: "2AFC0B5C9297996F"
+			rewards: [
+				{
+					id: "1E385E2EAA129CE2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46160A608D1378A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DD48B2393A940E1"
+				item: "thermal:peanut_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "0CEFB0FBF2421E0B"
+			rewards: [
+				{
+					id: "2FCD325CF46B5D7B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "44D84B8B165BF54F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C2C468D7FBC5653"
+				item: {
+					Count: 1b
+					id: "cyclic:sprinkler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			id: "0263B1BADC2C043F"
+			min_width: 300
+			rewards: [
+				{
+					id: "635C6B7822EE7C60"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D80FFA70B0D9956"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "316363CE3CBF935C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			description: ["Snad will increase the growth rate for sugarcane, cacti and any other plantable crop."]
+			hide_dependency_lines: true
+			id: "46848689837985E6"
+			rewards: [
+				{
+					id: "37EA40687788BB89"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11AF13C47A8773F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5394AB3EB2C182FF"
+				item: "snad:snad"
+				type: "item"
+			}]
+			title: "The Snad"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "40467D90AE966A2B"
+			rewards: [
+				{
+					id: "54A85B182DD23EC5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3FF451DD20D45C89"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37CFA08861EB1EFE"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "3EF924184E526FA5"
+			rewards: [
+				{
+					id: "110D54AADA2BC4A3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "055BEEBE28D0AE7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30C19D1A747E5F30"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "098DF6FFD516862B"
+			rewards: [
+				{
+					id: "145C2F638C00E38E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C5A583239F7703C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E3C35F0706E6731"
+				item: {
+					Count: 1b
+					id: "cyclic:terra_preta"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "57F4AF264DBB2F1A"
+			rewards: [
+				{
+					id: "55A10DD150348989"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "35DF22F325FCC395"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40D25A66318BB49E"
+				item: {
+					Count: 1b
+					id: "cyclic:terra_glass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "4A3108020F9C7C13"
+			rewards: [
+				{
+					id: "2B3266D0CEAE37B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "54DF130F1D009A4A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4640180968EE603B"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "75A7F6E7A82C6FD6"
+			rewards: [
+				{
+					id: "0A4C8DAB7999470A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C56B0D719AF6291"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "720BAEBDC728FAAC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:market"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "611DDC4A90F93E77"
+			rewards: [
+				{
+					id: "7277BBF6EB164AF4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19B8040B564EE9A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "6089A7A48D8D8DE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:green_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&aGreen Fertilizer"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "1F0B32B83E5F8978"
+			rewards: [
+				{
+					id: "56C31E2FD197871E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59D56288F39055B5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "607F8888C86AFE13"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:red_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&cRed Fertilizer"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "1C011ED99A09AE75"
+			rewards: [
+				{
+					id: "7E089D1AE44B4578"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3469B04A8C453F9C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "45E4464FAD56B2FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:yellow_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&eYellow Fertilizer"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "4C1502994FB98C67"
+			rewards: [
+				{
+					id: "0B8925F0130D5AD2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16D33C622C5032EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DA3160B4F33ECD4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0263B1BADC2C043F"]
+			hide_dependency_lines: true
+			id: "3BDFF367362863B4"
+			rewards: [
+				{
+					id: "5BE1B602EB4AD5E6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11C69FA182E43407"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05EE840CF91C71FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:chicken_nest"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+	]
+	title: "&6&oBasic Agriculture"
+}

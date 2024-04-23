@@ -1,0 +1,66 @@
+#Configure Mutant More's Wither Bomb on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The damage dealt to mobs snapped by Mutant Shulker Traps that were spawned by the Mutant Shulker
+# usually set to 10.0
+"Mutant Shulker Damage" = 10.0
+#
+# The damage dealt to mobs snapped by Mutant Shulker Traps that were placed by a Player
+# usually set to 10.0
+"Player Damage" = 10.0
+#
+# If Mutant Shulker Traps spawned by the Mutant Shulker can snap mobs permanently instead of only one time
+# usually set to false
+"Mutant Shulker Multi-Use" = false
+#
+# If Mutant Shulker Traps placed by a Player can snap mobs permanently instead of only one time
+# usually set to true
+"Player Multi-Use" = true
+#
+# If Mutant Shulker Traps spawned by the Mutant Shulker transform into Shulker bullets after a certain amount of time
+# usually set to true
+"Turns to Bullet" = true
+#
+# The amount of time in ticks (20 ticks in a second) before a Mutant Shulker Bullet spawned by the Mutant Shulker transforms into a Shulker Bullet
+# usually set to 300 ticks (15 seconds)
+"Turn to Bullet Time" = 300
+#
+# The amount of time in ticks (20 ticks in a second) that a Mutant Shulker Trap applies the Slowness effect to a mob for after snapping them
+# usually set to 80 ticks (4 seconds)
+"Slowness Length" = 80
+#
+# The level of the Slowness effect applied to mobs when snapped by a Mutant Shulker Trap
+# usually set to 1 (Slowness 2)
+"Slowness Level" = 1
+#
+# The thorns damage dealt to mobs that harm the Mutant Shulker Trap
+# usually set to 4.0
+"Thorns Damage" = 4.0
+#
+# The Mutant Shulker Trap's max health
+# usually set to 5.0
+"Max Health" = 5.0
+#
+# The Mutant Shulker Trap's armour value
+# usually set to 5.0
+Armour = 5.0
+#
+# The Mutant Shulker Trap's armour toughness value
+# usually set to 0.0
+"Armour Toughness" = 0.0
+#
+# The Mutant Shulker Trap's resistance to attack knockback
+# usually set to 1.0 (no knockback)
+"Knockback Resistance" = 1.0
+#
+# The damage dealt to mobs hit by a Shulker Bullet that a Mutant Shulker Trap transformed into
+# usually set to 2.0
+"Shulker Bullet Damage" = 8.0
+#
+# The length in ticks (20 ticks in a second) that the Levitation effect is applied to mobs hit by Shulker Bullets that Mutant Shulker Traps transformed into
+# usually set to 100 ticks (5 seconds)
+"Shulker Bullet Levitation Length" = 100
+#
+# The level of the Levitation effect applied to mobs hit by Shulker Bullets that Mutant Shulker Traps transformed into
+# usually set to 0 (Levitation 1)
+"Shulker Bullet Levitation Level" = 0
+

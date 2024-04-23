@@ -1,0 +1,2699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: "68BD27E8D0136E3E"
+	icon: {
+		Count: 1b
+		id: "aquaculture:neptunium_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "00000000000009CF"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.285714285714285d
+			y: -6.410714285714288d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=FGDPc1QN8ZQ"
+			height: 1.0d
+			hover: ["Need a Tutorial?"]
+			image: "botania:item/goldfish"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D3"
+			rewards: [
+				{
+					id: "5C56DAA817F6CE67"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1BF2C18ABB2B79A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D4"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D5"
+			rewards: [
+				{
+					id: "0128C231E062FBEC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56C1CD15233777AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D6"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D7"
+			rewards: [
+				{
+					id: "3B123E8547E0C07C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1786D6E1D0663D9B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D8"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D9"
+			rewards: [
+				{
+					id: "55F03A69BA65BB29"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "567DF8AF2E7DF816"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DA"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DB"
+			rewards: [
+				{
+					id: "3A6772987FF66C7B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "790409F29D87DD95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DC"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DD"
+			rewards: [
+				{
+					id: "65DB89DCCD7821AA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4851406F50A3BAFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DE"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DF"
+			rewards: [
+				{
+					id: "5397BE6175AC22C7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A8A44C7B466BE7B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009E0"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: 7.35d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E1"
+			rewards: [
+				{
+					id: "45AFE161CE924680"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "141B1BFCE6FE7B1C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009E2"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 8.049999999999999d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E3"
+			rewards: [
+				{
+					id: "05CA8BD5E3E8B9C5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74ABB373D0D5B1B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E4"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E5"
+			rewards: [
+				{
+					id: "7BEF77697D1DF565"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "323D945AF79EA0C3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E6"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E7"
+			rewards: [
+				{
+					id: "10D61DCCAAC5EEB3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "44F51CBBE98B765B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E8"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E9"
+			rewards: [
+				{
+					id: "651E661460D24C85"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C75AD3871C64B10"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EA"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009EB"
+			rewards: [
+				{
+					id: "58D965C11BE637BE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "046E933679204AB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EC"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009ED"
+			rewards: [
+				{
+					id: "6DB0F56A69CFED78"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1430DD5FA8E75E2E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EE"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009EF"
+			rewards: [
+				{
+					id: "3388FBF6E8ADDFB4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "163876F770EFFEBD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F0"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F1"
+			rewards: [
+				{
+					id: "49ED0511EE0D1AF5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B585E82B938EE0D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F2"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F3"
+			rewards: [
+				{
+					id: "70A003AE2C61EDA3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6525AD89499E1F8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F4"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F5"
+			rewards: [
+				{
+					id: "778754D80E2B84D6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F88F022C1B26F39"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F6"
+				item: {
+					Count: 1b
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F7"
+			rewards: [
+				{
+					id: "0D6F07F341129DA5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04EC5344674453B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F8"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F9"
+			rewards: [
+				{
+					id: "5584AA57D34604D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E89CDDE57A8720F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009FA"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FB"
+			rewards: [
+				{
+					id: "1D9227CEFC73337B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34D33794E30CDD18"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "00000000000009FC"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 9.799999999999999d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FD"
+			rewards: [
+				{
+					id: "10303357152CB2C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "697A1FB4B1AAECF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "00000000000009FE"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FF"
+			rewards: [
+				{
+					id: "1A2D4C123842B567"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2D9B6CC46022940C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "0000000000000A00"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A01"
+			rewards: [
+				{
+					id: "256BE94967F759CB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "167CC625D9B46612"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Mushroom Island"
+			tasks: [{
+				id: "0000000000000A02"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 4.55d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A03"
+			rewards: [
+				{
+					id: "27C3D5712CFCF9A7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B3882F9F49287AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Mushroom Island"
+			tasks: [{
+				id: "0000000000000A04"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A05"
+			rewards: [
+				{
+					id: "6AB31665800B86A3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34FE9404DC4466DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A06"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A07"
+			rewards: [
+				{
+					id: "63BA9B89D0C95685"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48F26AF32A8A5231"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A08"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A0B"
+			rewards: [
+				{
+					id: "72140BCAB30AD257"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E7917006A6775F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A0C"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 9.799999999999999d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A0F"
+			rewards: [
+				{
+					id: "4E376BA10BA2CA55"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2420688E2A87AAD6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Swamp"
+			tasks: [{
+				id: "0000000000000A10"
+				item: {
+					Count: 1b
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.85d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A11"
+			rewards: [{
+				id: "3BF1FFF769A80DFD"
+				item: "lootbundles:loot_bundle"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Swamp"
+			tasks: [{
+				id: "0000000000000A12"
+				item: "aquaculture:box_turtle"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A17"
+			rewards: [
+				{
+					id: "7401124E08A49E49"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "106D359DB1DAD302"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Anywhere"
+			tasks: [{
+				id: "0000000000000A18"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A19"
+			rewards: [
+				{
+					id: "2E39B8E69F71F6B9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67BC3F7B7FAD3DB7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CE9CA09E61ACEA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1A"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1B"
+			rewards: [
+				{
+					id: "5D7CD6D7597DD075"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4756B1570E0DDADD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39DDEC19A5227B6F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1C"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A1B"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1D"
+			rewards: [
+				{
+					id: "4FA0F95ED2C2013E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F9049394EBAA6A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C9AA621DF060317"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1E"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A1D"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1F"
+			rewards: [
+				{
+					id: "3ECB25A203EEA3A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ED1456E498531AE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "54FCB5F15221D69A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A20"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CB54778353322B0"]
+			id: "0000000000000A21"
+			rewards: [
+				{
+					id: "7A9A2750EDA6838E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2596D434CF769845"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Has a chance to not use durability."
+			tasks: [{
+				id: "0000000000000A22"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A23"
+			rewards: [
+				{
+					id: "2C815B02C67DF647"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3BDC066F5ADB6075"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Increased Luck."
+			tasks: [{
+				id: "0000000000000A24"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A25"
+			rewards: [
+				{
+					id: "694FDC3C43D30A68"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E0DB285A3F7E198"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Has a chance to not use durability."
+			tasks: [{
+				id: "0000000000000A26"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A27"
+			rewards: [
+				{
+					id: "4A6DCA01DD6B8B30"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5875B3563E09B132"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Casts further."
+			tasks: [{
+				id: "0000000000000A28"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A29"
+			rewards: [
+				{
+					id: "693A38E1A58E89C8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43EA102043690D5B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Casts shorter."
+			tasks: [{
+				id: "0000000000000A2A"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A2B"
+			rewards: [
+				{
+					id: "625F9FAE9533E5D8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "495A5DE6E9A32D98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A chance to catch two things."
+			tasks: [{
+				id: "0000000000000A2C"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A2D"
+			rewards: [
+				{
+					id: "27E60F006EE9A1E9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40CE7D01760E6F5B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Longer opportunity to reel in a fish."
+			tasks: [{
+				id: "0000000000000A2E"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A25"]
+			id: "0000000000000A2F"
+			rewards: [
+				{
+					id: "4DC7279D62C25230"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C2C9B66B20B6DE6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Chance to not use durability and increased luck."
+			tasks: [{
+				id: "0000000000000A30"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["200D9343E9BCE109"]
+			description: ["The Tackle Box. In it, you can store all of the hooks, bait \\& bobbers, fishing lines. Oh and also bait."]
+			id: "0000000000000A83"
+			rewards: [
+				{
+					id: "6424CAC2FE17703D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7198206CAF9D0065"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A84"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A83"]
+			description: ["A dyeable fishing line that can be dyed like leather armor."]
+			id: "0000000000000A85"
+			rewards: [
+				{
+					id: "10D0462505EDB3E0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "276767B1E5DF7F38"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E3389280DA74866"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fishing_line"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A85"]
+			description: ["A dyeable bobber that can be dyed like leather armor."]
+			id: "0000000000000A87"
+			rewards: [
+				{
+					id: "2C93C37A4291DC25"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A96AA52DBDEC6BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A88"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A8C"
+			rewards: [
+				{
+					id: "5343D46C08B25CCD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:oak_planks"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "556A519920C892FA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F613A5CC3B5BCE1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A8D"
+				item: {
+					Count: 1b
+					id: "aquaculture:wooden_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A8C"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A8E"
+			rewards: [
+				{
+					id: "0CD4E6B31BCC1E19"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cobblestone"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "677C834D6010C513"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3AA7EE2D4AA60740"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A8F"
+				item: {
+					Count: 1b
+					id: "aquaculture:stone_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A8E"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A90"
+			rewards: [
+				{
+					id: "2D0CE5FF52276397"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E1537F198477FED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0447E8A086932CB5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A91"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A90"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A92"
+			rewards: [
+				{
+					id: "35BD8984CA8A47AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11B4DAFDE2C3F90F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "265CD46F17DAF35D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A93"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A92"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A94"
+			rewards: [
+				{
+					id: "43B2EBAC19C7E9E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "354AE709E0A56C4D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "33C53AF8446953AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A95"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A96"
+			rewards: [
+				{
+					id: "2378BD20CA123BD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05674470E1B40BA6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01188C3CA108DA0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A97"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000ADB"
+			rewards: [
+				{
+					id: "6549C8FD2444D352"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11CA95A939B2007E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "An audible alert when a fish is approaching."
+			tasks: [{
+				id: "0000000000000ADC"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer sees better underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000ADD"
+			rewards: [
+				{
+					id: "294658B3DB824AD0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E5B1C02676C33F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000ADE"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer breathes underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000ADF"
+			rewards: [
+				{
+					id: "21E9590CAF1F3A73"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13C3E04FF8B6A85A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000000000AE0"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer \"falls\" underwater."]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "0000000000000AE1"
+			rewards: [
+				{
+					id: "5BB50A6717432143"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "429C0F06D6EC73B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000000000AE2"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer \"falls\" underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE3"
+			rewards: [
+				{
+					id: "3A102737D14A2177"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C13AE6087EC1E0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0000000000000AE4"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Deal extra damage underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE5"
+			rewards: [
+				{
+					id: "361411BF80ED240A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "18BA7E377384140F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0000000000000AE6"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Doesn't have a mining speed penalty when underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE7"
+			rewards: [
+				{
+					id: "6EB5F083BF5DDC4B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EB964A3294CF8E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AE8"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Doesn't have a mining speed penalty when underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE9"
+			rewards: [
+				{
+					id: "4B4E1FF64CB3CD02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "202A39E0720B9E5E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEA"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Deal extra damage underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AEB"
+			rewards: [
+				{
+					id: "2AFC121E51919E9A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47E2F1FD6993FC4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEC"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Land tilled with this hoe will always be hydrated"]
+			hide_dependency_lines: true
+			id: "0000000000000AED"
+			rewards: [
+				{
+					id: "606EFC41EBBB8225"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "247ACEEB263651F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEE"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Normal arrows fired from this bow are not impeded underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AEF"
+			rewards: [
+				{
+					id: "6A637387EFD0D9C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76D8544DC3C26EE9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0000000000000AF0"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75A7F6E7A82C6FD6"]
+			description: [
+				"&9Aquaculture&r adds new fishing rods to the game."
+				""
+				"You can still use the vanilla wooden fishing rod and modded fishing rods to catch Aquaculture fish."
+				""
+				"But only the Aquaculture fishing rods are able to get equipment attached, that adds various mechanics that improve your fishing capabilities."
+			]
+			icon: "aquaculture:fish_bones"
+			id: "29B8B607653A5DCF"
+			min_width: 300
+			rewards: [
+				{
+					id: "006E4245551DE79A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "264D54E300BB1614"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oMarket&r quest*"
+			tasks: [{
+				id: "65751E28D91F1BD7"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9Aquaculture"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: [
+				"A worm farm is a block you can craft to obtain worms that can be used as bait for fishing."
+				""
+				"You can use any of the same items that can be used in the composter."
+				""
+				"Just right click on the worm farm with an empty hand or a non-compostable item to get the worms out."
+			]
+			id: "200D9343E9BCE109"
+			rewards: [
+				{
+					id: "58EBE23B5C9B7109"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5AB068FDFDC6F907"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "747D8E53DBE64D1C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:worm_farm"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["200D9343E9BCE109"]
+			description: ["You can obtain &eLeeches&r and &eMinnows&r by fishing, and &eWorms&r in a &eWorm Farm&r."]
+			id: "7CB54778353322B0"
+			rewards: [
+				{
+					id: "6A1395164CB4AEEE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470235A9D5AB71A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B77B6033B9CE866"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29C5F273AF768CA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "54ED9DBEF113E648"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "You can use use bait to increase your chances of catching a fish"
+			tasks: [
+				{
+					id: "3DEDFD93B6B3E7F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C2755FCCF2A8A33"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FB0E54A8FE31E73"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Baits"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["1 Driftwood = 4 Planks"]
+			hide_dependency_lines: true
+			id: "2A85265CE54A03DD"
+			rewards: [
+				{
+					id: "392FBBDF59B4C465"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1446DBF35BBF28D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BFF36980CDD8C80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:driftwood"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["1 Tin Can = 7 Iron Nuggets"]
+			hide_dependency_lines: true
+			id: "6FF0C371CE762C6A"
+			rewards: [
+				{
+					id: "5139CD27209D4748"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "399066BEF2DCD848"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F6CFCD4AF1B10C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:tin_can"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Just a Souvenir"]
+			hide_dependency_lines: true
+			id: "55A0F4A599D3C5EF"
+			rewards: [
+				{
+					id: "7065321046611CBA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2846513AE0E83316"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78A6EC9157814F0E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:message_in_a_bottle"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "22EF8C7D7A1FC05A"
+			rewards: [
+				{
+					id: "128CD8F62B071CB3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7CED87E236CF0D97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "0665CB61F12EDE4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:boulti"
+				}
+				type: "item"
+			}]
+			x: 7.7d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "2B0E9DE7DED23FA7"
+			rewards: [
+				{
+					id: "1194834F4F80292C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4057C26872D4B393"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3E9486769B6DB14F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:arrau_turtle"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0CC956CC59C9230C"
+			rewards: [
+				{
+					id: "2D282E0F6A43DA22"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FEABBAE0DF753B5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "737AFACAC1A30A2B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:starshell_turtle"
+				}
+				type: "item"
+			}]
+			x: 7.714285714285715d
+			y: -0.0535714285714306d
+		}
+		{
+			dependencies: ["67B5D04DDD4C617C"]
+			hide_dependency_lines: true
+			id: "7B845F14F8BF24D9"
+			rewards: [
+				{
+					id: "3BD6CED7343B264B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:fish_fillet_cooked"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40A5F69A4224EA2B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7E8CAFAD7DC48CDB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46850ECAEB94EBC8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fish_fillet_cooked"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B845F14F8BF24D9"]
+			hide_dependency_lines: true
+			id: "2C5C27518167A681"
+			rewards: [
+				{
+					id: "688EF123FA9110C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:turtle_soup"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75CB1832D0E1010A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1623B5311F33C74D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "670B273AE88BE641"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:turtle_soup"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B845F14F8BF24D9"]
+			hide_dependency_lines: true
+			id: "0741A2D68BFA7C4E"
+			rewards: [
+				{
+					id: "44392698F9423CA7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:sushi"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F68B7F6C8ED06EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "78D9902F1A8094EB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F01667469B610B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:sushi"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			description: [
+				"&6Neptune's Bounty&r is rare treasure loot."
+				""
+				"&dLuck of the Sea&r enchantment increases the chance of getting &6Neptune's Bounty&r."
+			]
+			id: "49C85FBF01906661"
+			rewards: [
+				{
+					id: "3AF990C16DD2BC2C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunes_bounty"
+					}
+					type: "item"
+				}
+				{
+					id: "6FF39DEEECEC20B5"
+					item: "chancecubes:chance_cube"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0773C5730F94CE42"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A62D4ED65C4A5E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunes_bounty"
+				}
+				type: "item"
+			}]
+			title: "&aNeptune's Bounty"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: [
+				"You can make tools and armor from Neptunium. This material has various properties when underwater."
+				""
+				"You can obtain &eNeptunium Ingots&r from &eNeptune's Bounty&r."
+			]
+			hide_dependency_lines: true
+			id: "53BE9B73AB5E9736"
+			rewards: [
+				{
+					id: "1790B319F3E2C261"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "163BDAC31EF8F133"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "439F989F9D7A07C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunium_ingot"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53BE9B73AB5E9736"]
+			id: "1B3191327BAB7083"
+			rewards: [
+				{
+					id: "0DCF07EB1D1C54F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "553DB9E8A862B478"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D0C50565E5BAFB6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunium_block"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000A8C"]
+			id: "67B5D04DDD4C617C"
+			rewards: [
+				{
+					id: "7B0450DF246A91DB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "625DCCE8D5E1520D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A4FB75491570274"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fish_fillet_raw"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+	]
+	title: "&a&oAquaculture"
+}

@@ -1,0 +1,676 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_storage_network"
+	group: "7E54189F6BA49858"
+	icon: "toms_storage:ts.inventory_connector"
+	id: "5164395CDB9E390D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			icon: "toms_storage:ts.inventory_proxy"
+			id: "15F6FC38CA52AAAB"
+			rewards: [
+				{
+					id: "509D1E087673FC62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22CEFE83B1F8C0DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "53D19971B43869A8"
+				type: "checkmark"
+			}]
+			title: "&f&lWelcome to Tom's Simple Storage "
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "76199D604106DA00"
+			rewards: [
+				{
+					id: "40CD971876D30286"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E6A880FE020CE8C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "64311E854D9C943D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_connector"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "1820F2AAEE16E283"
+			rewards: [
+				{
+					id: "717402805CA2EDB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7033DC6A4B58BD22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5C015A7DEAF65C23"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.storage_terminal"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1820F2AAEE16E283"]
+			id: "5C2F31B1E1B34BE2"
+			rewards: [
+				{
+					id: "01E3D9569C0E9DF9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F59D3A283C2D939"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0FD10AA8BE987870"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.crafting_terminal"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "1BA22008EB73A2E6"
+			rewards: [
+				{
+					id: "2E6D712E5D5509B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "71FCB1A2E29A368E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2FE86E1296D433C1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.trim"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "7AF6D28AD4696F00"
+			rewards: [
+				{
+					id: "54E92A37BA1DA8F8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A66D2CC472535D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "51943D657352CA1D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.open_crate"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "31266C79E612F903"
+			rewards: [
+				{
+					id: "04717A89362BAB0C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70CFAEC9FD009A2B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6AA30A3D4D1F7C4C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "66784B5E6CF56843"
+			rewards: [
+				{
+					id: "2BEBE1245BD6F061"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73FD030A19072B80"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "789781B474CA8EA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_framed"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "3C63CDB473F8341E"
+			rewards: [
+				{
+					id: "66FDB1C2255D75F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "386981EB997949EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "471862657C5AE4E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_hopper_basic"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C63CDB473F8341E"]
+			id: "325C9E26297FFFA0"
+			rewards: [
+				{
+					id: "2BE04EEF67BC88A9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C4D34E6E2E287DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "392F5E7B5FDB1A8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.level_emitter"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "474ED1E79C740AAC"
+			rewards: [
+				{
+					id: "7EA3411442DAF8CE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "383F772FBA322E19"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "32EA6F6682A7A8D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["474ED1E79C740AAC"]
+			id: "66B8214F01DF24F0"
+			rewards: [
+				{
+					id: "35A35AB69D7F9C53"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "542809FF122B8C8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "38E3E0F2C2F11FF9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector_framed"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["474ED1E79C740AAC"]
+			id: "104ECB251BDE1B0B"
+			rewards: [
+				{
+					id: "46C0C3D85C00420D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00A89A204CF4C071"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "520D17181C11D22D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector_filtered"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "60EBAC6CF5F415AE"
+			rewards: [
+				{
+					id: "1D6F14F50305D30D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A8D2700D0B17EFA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "35492E25BF860EA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C63CDB473F8341E"]
+			id: "64E366B6645CD04A"
+			rewards: [
+				{
+					id: "2883215E9909E5DB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16519510BFDF4A04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "192894F0F8817766"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_proxy"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C2F31B1E1B34BE2"]
+			id: "3784D91672D27614"
+			rewards: [
+				{
+					id: "24F82C4B2D781326"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30E3484EB9F38029"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "&oRequires level 2 Beacon"
+			tasks: [{
+				id: "2FF107FE344A4067"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.wireless_terminal"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3784D91672D27614"]
+			id: "2223C841C71C7A80"
+			rewards: [
+				{
+					id: "5E552D884F43E626"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "755FC9E9A1E34622"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "&oRequires level 4 Beacon"
+			tasks: [{
+				id: "0FA084774BFB8B00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.adv_wireless_terminal"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+	]
+	title: "&a&oTom's Simple Storage"
+}

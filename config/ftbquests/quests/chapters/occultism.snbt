@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "4814F40AB34427B6"
+	icon: "occultism:dictionary_of_spirits"
+	id: "50B320AF33BC346F"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			id: "444BD809DE0649EF"
+			rewards: [
+				{
+					id: "2D407E2EED2C0099"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0ADEB97E421AB3E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "77DC0D91908387EC"
+				item: "occultism:dictionary_of_spirits"
+				type: "item"
+			}]
+			title: "Welcome to &5Occultism!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["444BD809DE0649EF"]
+			id: "5A24F6BDCE5C7812"
+			rewards: [
+				{
+					id: "4CAD2E8EE8EB037B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48E529A9805E27BE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "221AF8DF66E559F3"
+				item: "occultism:datura"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"27875826DF93B15D"
+				"5A24F6BDCE5C7812"
+			]
+			id: "21BAB068C6A15E87"
+			rewards: [
+				{
+					id: "441908545830DDAA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "664878A5ACAEE006"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4A5C76B7A8B8FCC4"
+				title: "Spirit Fire"
+				type: "checkmark"
+			}]
+			title: "SprintFire"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["21BAB068C6A15E87"]
+			id: "50085FE1C68B9514"
+			rewards: [
+				{
+					id: "12A3C4E6CB5705A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67994B285D1FE4D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "268D16EFD0C2DC43"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "27875826DF93B15D"
+			rewards: [
+				{
+					id: "21875B6FCBEE53A4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "388F2B1CE69783E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6C85C3A14A6350F1"
+				item: "occultism:spirit_attuned_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["21BAB068C6A15E87"]
+			id: "54B6EA522AA41B3B"
+			rewards: [
+				{
+					id: "67E97020B66018BD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "238FF4AFED013AB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "444C507CADAE1BC0"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["21BAB068C6A15E87"]
+			id: "2B3B6C6DFD3D8047"
+			rewards: [
+				{
+					id: "081AF1F38CA746B1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "493C6BFF76DAF4EB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "72BBBB7014C4966B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "208E379DBB679B45"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B3B6C6DFD3D8047"]
+			id: "1F47062C6C72F322"
+			rewards: [
+				{
+					id: "415B1BA28D177C57"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "467462ABEC81361C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "364A551B24B849A3"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "4DD2DFC26BB48436"
+			rewards: [
+				{
+					id: "69C62AE05A558AD4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25CA20E9A185D890"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4CE8A45B109D443E"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "11B3542738141F5B"
+			rewards: [
+				{
+					id: "2ACB6435716C869B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5006C752AD8F19E4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2A0C707983902D12"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B3542738141F5B"]
+			id: "31271104AC29C7A4"
+			rewards: [
+				{
+					id: "2FDD9C7B0CD86A80"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "62DF57480D0FE50A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4EAD38271C6A8E82"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "56DEA0B20B32846F"
+			rewards: [
+				{
+					id: "4291757268DFBAD8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E87BF4BD9F7AB47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1363E707BE33D0E0"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1F47062C6C72F322"]
+			id: "305E7B8DCFBBD2E7"
+			rewards: [
+				{
+					id: "1225DBEEB447E1E6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0031E09303A7E517"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6990AAF34957D97C"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["305E7B8DCFBBD2E7"]
+			id: "3F52B20820415653"
+			rewards: [
+				{
+					id: "5BF5CCF16FE244E5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23528BD4D239EBAC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5BC88F312090F246"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3F52B20820415653"]
+			id: "71561BC90B1AE12C"
+			rewards: [
+				{
+					id: "74897251E0B98D81"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A5E1971DA1D8B83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "580E48A313F59A32"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71561BC90B1AE12C"]
+			id: "6F1158E925D2DECA"
+			rewards: [
+				{
+					id: "577D3F18C1687929"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E2B9860D1C97043"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3E2F98FD4D747CF4"
+				item: "occultism:storage_stabilizer_tier2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"595F63AB5814AEC9"
+				"28CF0AB2B92E9857"
+			]
+			id: "0D0FAB60B2DD6245"
+			rewards: [
+				{
+					id: "239EC970EA6F2E23"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25DB91DDA9E6DA02"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "26FB812C87CA72A1"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6F1158E925D2DECA"]
+			id: "595F63AB5814AEC9"
+			rewards: [
+				{
+					id: "27C91715CDFF37DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39BE10B2B9F5DA77"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7605364F46252AFB"
+				item: "occultism:storage_stabilizer_tier3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["305E7B8DCFBBD2E7"]
+			id: "644DC41060CCB1C6"
+			rewards: [
+				{
+					id: "5624D5809578EF77"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28D3618C89092DE3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5D52C451C2CE5D75"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["644DC41060CCB1C6"]
+			id: "0AB07C1EB6DDABB2"
+			rewards: [
+				{
+					id: "717293A4AAF8F9B5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B95E49537E7E596"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "792A303E32B1B6CF"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+				{
+					id: "5CE014363E46166B"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0AB07C1EB6DDABB2"]
+			id: "28CF0AB2B92E9857"
+			rewards: [
+				{
+					id: "11CC405A104DAD63"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76D00AC5C7680834"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "746D7E4D06E684E1"
+				item: {
+					Count: 1b
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["644DC41060CCB1C6"]
+			id: "5E07E11AF8655869"
+			rewards: [
+				{
+					id: "641316764C16136E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69E88AF4023A0015"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1EE31D354EE759CA"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["644DC41060CCB1C6"]
+			id: "45527CE18DD0DF3C"
+			rewards: [
+				{
+					id: "45AA805ACD192ED1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4402F2338AD5A6F1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5B16099FE4837322"
+				item: {
+					Count: 1b
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Azakslamarmur"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["45527CE18DD0DF3C"]
+			id: "64CF13469BED83A1"
+			rewards: [
+				{
+					id: "645DA3C093EA9BF3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00D19330023BD7E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "592CEE8B970BA575"
+				item: "occultism:iesnium_ore"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["64CF13469BED83A1"]
+			id: "060751F858637DCB"
+			rewards: [
+				{
+					id: "15363897427B622D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F1D72E08DAF4964"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3372C7B7D676DD6E"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			x: 17.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["060751F858637DCB"]
+			id: "3B316C9E45843F13"
+			rewards: [
+				{
+					id: "461E39CEE48C4B5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CB10747742569A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "345D07D9F7DF0772"
+				item: {
+					Count: 1b
+					id: "occultism:miner_foliot_unspecialized"
+					tag: {
+						Damage: 0
+						spiritName: "Cacresmur"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B316C9E45843F13"]
+			id: "73757DA86183D592"
+			rewards: [
+				{
+					id: "653DA604F7F7AF25"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AD30AA5F7002E95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1F3B91ED1F33323B"
+				item: {
+					Count: 1b
+					id: "occultism:miner_djinni_ores"
+					tag: {
+						Damage: 0
+						spiritName: "Azakmeeed"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["64CF13469BED83A1"]
+			id: "4715F05728D3A0BF"
+			rewards: [
+				{
+					id: "5C10EE4EADF11F2F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29B1C87F0484BDF6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "01563B6AD178052B"
+				item: {
+					Count: 1b
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["305E7B8DCFBBD2E7"]
+			id: "78B003C135E83E32"
+			rewards: [
+				{
+					id: "5BFC696C67083208"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B6CF41E97E03B71"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6533A57994D6A87F"
+				item: {
+					Count: 1b
+					id: "occultism:satchel"
+					tag: {
+						spiritName: "Azururakark"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["305E7B8DCFBBD2E7"]
+			id: "17099709BD3EA55E"
+			rewards: [
+				{
+					id: "77926818A9DB098E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "02DE7C6C8BA2A20B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4FF9FC3DAA8441BF"
+				item: {
+					Count: 1b
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["305E7B8DCFBBD2E7"]
+			id: "5881F7BE5201E029"
+			rewards: [
+				{
+					id: "437A0E112DDE4ECC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "612322B6AF2CD385"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2FDD2971BFB257DE"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3F52B20820415653"]
+			id: "00A94D7F0604C742"
+			rewards: [
+				{
+					id: "6274F7AA43D4D505"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64BC8F17E308B545"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "04785438820A7D4C"
+				item: {
+					Count: 1b
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F52B20820415653"]
+			id: "5C2DB615F2090F5E"
+			rewards: [
+				{
+					id: "5B9322FDA991298B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "133388DF48069AE9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "57E882743B3B4A35"
+				item: {
+					Count: 1b
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 7.5d
+		}
+	]
+	title: "&d&oOccultism"
+}

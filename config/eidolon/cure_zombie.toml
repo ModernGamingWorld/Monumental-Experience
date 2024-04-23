@@ -1,0 +1,16 @@
+#The delay in ticks before the spell is cast
+#Range: > 0
+delay = 10
+#The cost of casting this spell
+#Range: > 0
+cost = 20
+#Cooldown for this prayer spell
+#Range: > 21000
+cooldown = 21000
+#Base reputation gained from this prayer spell
+#Range: > 0
+base_rep = 10
+#Altar Power multiplier for reputation gained with this prayer spell
+#Range: 0.0 ~ 1.7976931348623157E308
+power_multiplier = 0.25
+

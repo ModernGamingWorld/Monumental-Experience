@@ -1,0 +1,10 @@
+#The delay in ticks before the spell is cast
+#Range: > 0
+delay = 10
+#The cost of casting this spell
+#Range: > 0
+cost = 40
+#The amount of damage dealt by the spell
+#Range: 1.0 ~ 2.147483647E9
+damage = 10.0
+

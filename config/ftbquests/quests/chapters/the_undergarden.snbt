@@ -1,0 +1,1731 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "09A82B0D5D5E7906"
+	icon: "undergarden:catalyst"
+	id: "25AB2217A80C31F4"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/undgard.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.0892857142857153d
+			y: -2.482142857142854d
+		}
+		{
+			height: 5.5d
+			image: "kubejs:textures/item/mastic.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.035714285714285d
+			y: 2.2857142857142847d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/item/stborn.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=qWsCVcNR22I"
+			height: 1.0d
+			hover: ["Need a Tutorial?"]
+			image: "undergarden:item/catalyst"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
+			id: "22CB282DCBCEB69E"
+			min_width: 300
+			rewards: [
+				{
+					id: "332A2AEDDE00D36C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00A8C732402933EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "2279BFD21422EC36"
+				title: "Visit Dimension: &2The Undergarden"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "4DCC1256167B4A02"
+			rewards: [
+				{
+					id: "170F5DA59109B40C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D9D9B233432091A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A tough, slippery metal, defined by its slowing capabilities"
+			tasks: [{
+				count: 12L
+				id: "05BA1CD5E0265BBA"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Froststeel Ingot"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "38E7968EE55F1CBA"
+			rewards: [
+				{
+					id: "7BC873F127FA41F5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "556010E672B10B4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "An odd metal crafted from the fossils of extinct species"
+			tasks: [{
+				count: 12L
+				id: "0E962555454654DF"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			title: "Cloggrum Ingot"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "2719884CCC39D86A"
+			rewards: [
+				{
+					id: "76202AF5E4B5F3F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7808051267023A7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B563EB3B24D83AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&aCloggrum Tools"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DCC1256167B4A02"]
+			id: "28D846F1A27576D3"
+			rewards: [
+				{
+					id: "0A44E4EE6DD4F8FC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47FAB6DF54132475"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "318908A0B5609520"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:froststeel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&bFroststeel Tools"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4DCC1256167B4A02"]
+			id: "1683730DCB6DA81B"
+			rewards: [
+				{
+					id: "15DAECC9F539EDF3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F0A9E5743DC1461"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B05054EFEA1CCA1"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C1E2BA6CE95A7F2"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4735D8CD268A2F3D"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E6B3E8684F86501"
+					item: {
+						Count: 1b
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bFroststeel Armor"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "566794569F565F0F"
+			rewards: [
+				{
+					id: "2604F90612C00269"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4FCD2BEEEAFE09A3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "528FA6DC40336E1B"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59C0DC6CA3BA0B15"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450FE4D5C87F12CB"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7127972FB3B26CB9"
+					item: {
+						Count: 1b
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aCloggrum Armor"
+			x: -4.642857142857146d
+			y: 1.892857142857146d
+		}
+		{
+			dependencies: ["05654EDE65DA6992"]
+			id: "47522EEC2217553B"
+			rewards: [
+				{
+					id: "2DE3CD74EB9D28D4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D43BF9125B1E31F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A metal said to have come from the Otherside"
+			tasks: [{
+				count: 12L
+				id: "634E615EED22C3CD"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			title: "Utherium Crystal"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47522EEC2217553B"]
+			id: "2B550F8B05657F3F"
+			rewards: [
+				{
+					id: "50CB46C9C1A29924"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A28E1C00474ADFA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DFE5ADE92CBBB85"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:utherium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&cUtherium Tools"
+				type: "item"
+			}]
+			x: -4.8214285714285765d
+			y: 4.0714285714285765d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "40D83771AC679627"
+			rewards: [
+				{
+					id: "651CBF582826014D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "665B09844A999E69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A soft, lustrous metal used for trading with Stoneborn"
+			tasks: [{
+				id: "1BD76589CF4F8665"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40D83771AC679627"]
+			id: "74350A7A5E4054A6"
+			rewards: [
+				{
+					id: "61C67AA51CC38FC4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C186FD9C1781A0D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "655C3FE8E6042E2C"
+				item: "undergarden:regalium_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "244AEAF3766BC263"
+			rewards: [
+				{
+					id: "6946B60DC7CCDA1F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "182D44DCDB2F7B5B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A unreliable, yet strong metal, forged from the remains of a Forgotten Guardian"
+			tasks: [{
+				id: "225F0943F4F57BA2"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["244AEAF3766BC263"]
+			id: "0E9EC02D319CA4F9"
+			rewards: [
+				{
+					id: "0007195A4969B44F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76AECA48BABE3280"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B4DD0A15143E283"
+				item: {
+					Count: 1b
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E9EC02D319CA4F9"]
+			id: "6DA8E38176240BF9"
+			rewards: [
+				{
+					id: "58A6459D1B6F57A1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "51C7AED4FCBF91BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DAF533CFEE72BA8"
+				item: {
+					Count: 1b
+					id: "undergarden:forgotten_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49A216DDB328FBBB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "737F21E70E5FBE77"
+			rewards: [
+				{
+					id: "34E2B91E06FD847D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B87F79110E62A90"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26109EF8DFC06D3C"
+				item: "undergarden:bloody_stew"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23A1B82E43BAD28E"]
+			hide: true
+			hide_dependency_lines: true
+			id: "07D4CA0D8D7E3A04"
+			rewards: [
+				{
+					id: "2109767939B706A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52CB75FF4773E1AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F0C71312B2F90EC"
+				item: "undergarden:inky_stew"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E0C0B7E0D181AB7"]
+			hide: true
+			hide_dependency_lines: true
+			id: "11529DCB56C0B1B8"
+			rewards: [
+				{
+					id: "3F68DC5000C6116E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37E90A491303CB29"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66DD65B4730D7209"
+				item: "undergarden:indigo_stew"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33869137677DD0ED"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2A315FBE28220A0C"
+			rewards: [
+				{
+					id: "5189267518EAF07E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "372F64E2F17F0967"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62312A1171B30011"
+				item: "undergarden:veiled_stew"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "5F0AB251E58815C1"
+			rewards: [
+				{
+					id: "78CC438338A6529D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2EEB86C1FAF4C426"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38FE40431DFCC606"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BF2061B8EEE8FCA"]
+			id: "42D920B478FF5F5D"
+			rewards: [
+				{
+					id: "5EFBB05489264C5C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C77D3552B1FE4A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52A4C69D7D7006C5"
+				item: "undergarden:roasted_underbeans"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D72DD1FE5962442"]
+			id: "5D77047A4C62530B"
+			rewards: [
+				{
+					id: "687DE2DB73F3602D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F3CBF26B95737FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BA972E2D323C5BA"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BDB84E1BDDB47F8"]
+			id: "09A7653BAB11C109"
+			rewards: [
+				{
+					id: "3F03E02C912FA4BD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7BF3A9428C3AA60F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "203304297DD9163C"
+				item: "undergarden:dweller_steak"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "496D40C70C74585A"
+			rewards: [
+				{
+					id: "268D0BF6F1FCD54F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20F20A3C8966372B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47A4679A8E0D8CCF"
+				item: "undergarden:gloomper_leg"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["281349257023A982"]
+			id: "3AC45B5FE4BE35AE"
+			rewards: [
+				{
+					id: "20AE6E8F99138574"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35EC1B9D9D24D9D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "263C3037FA3782C0"
+				item: {
+					Count: 1b
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.142857142857146d
+			y: 1.4285714285714306d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "281349257023A982"
+			rewards: [
+				{
+					id: "6157F9E5B875773B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "743C63DD282FF5DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A smooth piece of Depthrock, the perfect ammunition for a Slingshot"
+			tasks: [{
+				id: "1A80248392B11E5B"
+				item: "undergarden:depthrock_pebble"
+				type: "item"
+			}]
+			x: -1.2857142857142847d
+			y: 0.1428571428571459d
+		}
+		{
+			dependencies: ["3AC45B5FE4BE35AE"]
+			id: "34B8A8C0B0F2E35C"
+			rewards: [
+				{
+					id: "304401A51199A4D7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "715C0C87DB7231BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A makeshift projectile explosive, often sold by shady Stoneborn"
+			tasks: [{
+				id: "5C41E14054EF56FF"
+				item: "undergarden:blisterbomb"
+				type: "item"
+			}]
+			x: -1.1785714285714306d
+			y: 3.0357142857142847d
+		}
+		{
+			dependencies: ["3F6B2C93D0E29313"]
+			description: ["A bed unique to the Undergarden, with the same functions and features as the original bed in Overworld it saves your spawn point in the Undergarden."]
+			id: "031FA36C93EAC7E0"
+			rewards: [
+				{
+					id: "3DCF65824228F441"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59B1E3DD27F0E9AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Using it in the Overworld will cause a violent explosion"
+			tasks: [{
+				id: "3216E90CAFB8586E"
+				item: "undergarden:depthrock_bed"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "747EA5D7DB4FAAF4"
+			rewards: [
+				{
+					id: "619391BC79921F97"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A19F4520EF9E704"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "597D06E854FA11A5"
+				item: "undergarden:cooked_gwibling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "41B18BDA2A85AB8B"
+			rewards: [
+				{
+					id: "698A4CF380B16BE3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "384D23E17D912BBB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "417EC28C33C2CDB5"
+				item: "undergarden:blisterberry"
+				type: "item"
+			}]
+			x: 0.1071428571428541d
+			y: 1.4285714285714306d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7E41BB42E7D6CA23"
+			rewards: [
+				{
+					id: "756BF2B8EEA68996"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D1A7EE5C6A57DDD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "686715237BA9B22D"
+				item: "undergarden:masticator_scales"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E41BB42E7D6CA23"]
+			id: "0B17FCE31C587C65"
+			rewards: [
+				{
+					id: "5FDA7E2F06A11A11"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30C4EB30FDF52A80"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "7FB037AD82C1BA8F"
+				item: {
+					Count: 1b
+					id: "undergarden:masticated_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:thorns"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.6d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			id: "05654EDE65DA6992"
+			rewards: [
+				{
+					id: "44382E5C98E2A01D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77460F9B12C76857"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AE98B8ED8FBE250"
+				item: "undergarden:utheric_shard"
+				type: "item"
+			}]
+			x: -3.642857142857146d
+			y: 0.6785714285714306d
+		}
+		{
+			dependencies: ["47522EEC2217553B"]
+			id: "1B9C5615EE6A3231"
+			rewards: [
+				{
+					id: "4F3FBA3E4B2E29CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14CF7179245AE025"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "41D16BF73CF74740"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F86ACE951E75E1F"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "506BB5B3FA44A97E"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1270A3EC8882A91F"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cUtherium Armor"
+			x: -2.6785714285714235d
+			y: 3.142857142857146d
+		}
+		{
+			dependencies: ["566794569F565F0F"]
+			id: "1BB9516B59911612"
+			rewards: [
+				{
+					id: "4C9853359EAAF8E2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5EF0820E6F2F6BFB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69BD9F77F23FB73A"
+				item: {
+					Count: 1b
+					id: "undergarden:cloggrum_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.428571428571431d
+			y: 3.000000000000007d
+		}
+		{
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "34DBCA9A018BBCF7"
+			rewards: [
+				{
+					id: "41066635FB9F5FD1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "60FCD4CC8A6C1E7D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2213A5EC182DD9A6"
+				item: "undergarden:cloggrum_lantern"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05654EDE65DA6992"]
+			description: ["The &cShard Torch&r deals two hearts of damage to &eRotling&r, &eRotwalker&r and &eRotbeast&r. So seams pretty much handy to have some in your inventory."]
+			id: "04BD3F5AFF96BFBC"
+			rewards: [
+				{
+					id: "2AB0588BB7621AF3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E7F889F03C911A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2E8F677DA2AD28F7"
+				item: "undergarden:shard_torch"
+				type: "item"
+			}]
+			title: "Shard Torch"
+			x: -2.9642857142857153d
+			y: 1.892857142857146d
+		}
+		{
+			dependencies: [
+				"5D72DD1FE5962442"
+				"34B8A8C0B0F2E35C"
+			]
+			id: "376899AF8855E106"
+			rewards: [
+				{
+					id: "5C0735260DFB958C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B3F048EB6B78E1E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "TNT"
+			tasks: [{
+				id: "1F87318A6E5418C6"
+				item: "undergarden:boomgourd"
+				type: "item"
+			}]
+			x: -0.9285714285714306d
+			y: 4.571428571428569d
+		}
+		{
+			dependencies: ["3AC45B5FE4BE35AE"]
+			description: ["By shooting mobs they will not be able to move, so be careful and &4don't step&r on &2Goo&r."]
+			id: "61568F9B352B8373"
+			rewards: [
+				{
+					id: "5425AC952F766AAC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "655D63AEC6BE97DC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "1D6DFEE65BB11E79"
+				item: "undergarden:goo_ball"
+				type: "item"
+			}]
+			title: "Scintling Goo Ball"
+			x: -1.9285714285714306d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3BF2061B8EEE8FCA"]
+			description: ["The &aDwellers&r can be ridden like &9Horses&r in Overworld, except the Dweller doesn't need to be tamed, but you'll be needing a &dUnderbean on a Stick&r to control the Dweller and of course a &esaddle&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/dweller.png"
+				}
+			}
+			id: "6BDB84E1BDDB47F8"
+			rewards: [
+				{
+					id: "6508F799840B4F81"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0BEEFC90B8122DF0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Need a ride?"
+			tasks: [
+				{
+					id: "7D6732D5E4CE50E8"
+					item: {
+						Count: 1b
+						id: "undergarden:underbean_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "759B709B5FED1ABA"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			title: "The Dweller"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			description: ["Obtained by shearing the &aMogs&r."]
+			id: "3F6B2C93D0E29313"
+			rewards: [
+				{
+					id: "5C469CF4050CEF1E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "199D8DCAB59373D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "20EA335969FEFB4E"
+				item: "undergarden:mogmoss"
+				type: "item"
+			}]
+			title: "Mogmoss"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "3239B50135CCE2D2"
+			rewards: [
+				{
+					id: "3E327BFE6887232B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60C0E72B07C8307D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CAAAEA57E13BA78"
+				item: "undergarden:glitterkelp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "5D72DD1FE5962442"
+			rewards: [
+				{
+					id: "058836C69D16D14F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "621FC778374B02FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "771488DE7485A2A5"
+				item: "undergarden:gloomgourd"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41B18BDA2A85AB8B"]
+			id: "3BF2061B8EEE8FCA"
+			rewards: [
+				{
+					id: "2D90E5681EF07673"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "49BA70692D1DBF71"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "556A09312476EB32"
+				item: "undergarden:underbeans"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			hide_dependency_lines: true
+			id: "0E0C0B7E0D181AB7"
+			rewards: [
+				{
+					id: "4B1FA47135675DE5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E5400993EAD4960"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C60E22559511B22"
+				item: "undergarden:indigo_mushroom"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			hide_dependency_lines: true
+			id: "23A1B82E43BAD28E"
+			rewards: [
+				{
+					id: "09B3DECDE5EE7627"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "204706A439B7E0A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "607A1AA80DDE45E9"
+				item: "undergarden:ink_mushroom"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			hide_dependency_lines: true
+			id: "49A216DDB328FBBB"
+			rewards: [
+				{
+					id: "4A726D59A3CE0BC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "588C63457BFD270F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BEF77BA31C8636C"
+				item: "undergarden:blood_mushroom"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22CB282DCBCEB69E"]
+			hide_dependency_lines: true
+			id: "33869137677DD0ED"
+			rewards: [
+				{
+					id: "1C74F499FD944CC9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C5E9E9FDCE987ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "21EE31EF9A489D0F"
+				item: "undergarden:veil_mushroom"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["244AEAF3766BC263"]
+			id: "01F96446DB3F864A"
+			rewards: [
+				{
+					id: "2EF40DF98C3F095B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79A32752C714966D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BA76670F7098616"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:forgotten_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "¬&3Forgotten Tools"
+				type: "item"
+			}]
+			x: 3.7857142857142847d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4DCC1256167B4A02"]
+			id: "42BCB957E51FB666"
+			rewards: [
+				{
+					id: "2CF9E2B37A2ED07F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5817011582B68110"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE23FB21C01C25B"
+				item: {
+					Count: 1b
+					id: "undergarden:froststeel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "08720E186AC71B27"
+			rewards: [
+				{
+					id: "7634FEE938E11E94"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07DFBF5F01454ED9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76496B6BB88282BC"
+				item: {
+					Count: 1b
+					id: "undergarden:cloggrum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E7968EE55F1CBA"]
+			id: "7D34E77C13BD6BFF"
+			rewards: [
+				{
+					id: "5C49A3BC756EEFD9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "575AFBE967019589"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "581B4753494705D2"
+				item: {
+					Count: 1b
+					id: "undergarden:cloggrum_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.714285714285715d
+			y: 1.7857142857142847d
+		}
+		{
+			dependencies: ["47522EEC2217553B"]
+			id: "50C68EC2F46D33EA"
+			rewards: [
+				{
+					id: "314E436D7256CB76"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5238F5A18982FF7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01E9C44176986FEE"
+				item: {
+					Count: 1b
+					id: "undergarden:utherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AC45B5FE4BE35AE"]
+			id: "008F690976117793"
+			rewards: [
+				{
+					id: "4E9307B2BF6062D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D145B4AC3ACEED8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Ammo for Slingshot"
+			tasks: [{
+				id: "6B1AE3503C1C6B34"
+				item: "undergarden:gronglet"
+				type: "item"
+			}]
+			x: -2.3214285714285765d
+			y: 0.8571428571428541d
+		}
+	]
+	title: "&3&oThe Undergarden"
+}

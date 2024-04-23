@@ -1,0 +1,4510 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "69B9F7247002FE35"
+	icon: "immersiveengineering:workbench"
+	id: "274D317B89DAB373"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=daGgkT0pECk"
+			height: 3.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "kubejs:textures/item/immer_tutorial.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.321428571428584d
+			y: -9.232142857142861d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -7.571428571428569d
+			y: -10.303571428571434d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F8B1B5084313565"]
+			id: "774B1D4152A0B4ED"
+			rewards: [
+				{
+					id: "54EA3177E068BEB6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12DBD9972A92DD7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20C035B018336E50"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "7AEE26C5734D4C0D"
+			rewards: [
+				{
+					id: "4ACF4A9A3412F773"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A107A6E251BCC39"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "500C93B20B6FAAEB"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7AEE26C5734D4C0D"]
+			id: "3EC13E3F2F7804B4"
+			rewards: [
+				{
+					id: "0082C2AA3CFC9ED6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3082FD91CE0F1C38"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BBF16745D8590FA"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"&2Immersive Engineering&r is a tech mod."
+				""
+				"Overall, it's about &o&brealism-inspired&r technology. It adds a number of structures that create a more realistic setting for power generation using the &cRF&r system."
+				""
+				"It is best known for its multiblock machines, characterized by their &3Industrial&r look. Both single and multiblock machines operate on &o&b3&r Tiers of &cPower&r, &elow&r voltage being &o&b256&r &cRF&r/t, &9medium&r being &o&b1,024&r &cRF&r/t and &dhigh&r corresponding to &o&b4,096&r &cRF&r/t."
+			]
+			id: "2F8B1B5084313565"
+			min_width: 310
+			rewards: [
+				{
+					id: "715369CF97B4EE9C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A0BBE31ACB3DDF6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				icon: "immersiveengineering:manual"
+				id: "5C318DBAF7CF4826"
+				type: "checkmark"
+			}]
+			title: "Welcome to &eImmersive Engineering"
+			x: -8.25d
+			y: -9.75d
+		}
+		{
+			dependencies: ["316399F0B5F729CA"]
+			description: [
+				"The &2Engineer's Workbench&r is a &nprofessional&r worktable for the &o&beducated engineer&r."
+				""
+				"It is widely used to construct the items described in &9Engineer's Blueprints&r. A wide variety of blueprints &o&bcan be crafted&r, as detailed in the respective manual entry, whereas a few select ones can &o&bonly be discovered&r in the world or &o&bpurchased from villagers&r."
+				""
+				"To use a &o&bblueprint&r in the &2Workbench&r, put it in the slot on the left of the &o&bGUI&r and the &o&bnecessary ingredients&r in the &o&bsix slots&r in the middle. The resulting items can then be &o&bretrieved&r from the right side. Hovering your mouse over these output slots will &o&binform you exactly which materials&r are needed for each item."
+			]
+			id: "39C8CD6102B26BFE"
+			min_width: 400
+			rewards: [
+				{
+					id: "6CAA3713D7B416C4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "18B48DB885C3439A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D57E16F56AE2326"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["174228D87BAF69B2"]
+			id: "6CDC36440B2D017E"
+			rewards: [
+				{
+					id: "62B8250FA83A9B6C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1527071A2C1F0132"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AF957724ABA0601"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 23
+						}
+					}
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["03C417DE427BC2BA"]
+			id: "0884D6C10B1047A2"
+			rewards: [
+				{
+					id: "1094A952EBA9B569"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "284D7A64411528F1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BF3E3F14FFD73F3"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			description: [
+				"The &3Coke Oven&r is the first &o&bimportant&r machine you will need to create in order to proceed with &eImmersive Engineering&r."
+				""
+				"It is made with &3Coke Bricks&r. To form a &3Coke Oven&r, arrange &o&b27&r of these blocks in a &o&b3x3x3&r solid cube, and &aright-click&r &o&bone of the sides' center blocks&r with an &6Engineer's Hammer&r."
+				""
+				"The Coke Oven is easy to use; putting &0Coal&r (or a &0Block of Coal&r) in the &nleft slot&r in the &o&bGUI&r will &astart&r it. After about &o&b50&r seconds, that &0Coal&r will produce &o&b1&r &3Coal Coke&r and &o&b500&r mB of &dCreosote Oil&r. The &0Block of Coal&r, it will take about &o&b450&r seconds and produce &o&b1&r &3Block of Coal Coke&r and &o&b5,000&r mB of &dCreosote Oil&r, making it more efficient."
+				""
+				"Wooden logs can be used in a &aCoke Oven&r as well. After about &o&b45&r seconds, that &aWood&r will produce one &8Charcoal&r and &o&b250&r mB of &dCreosote Oil&r."
+				""
+				"Items can be inserted into the &ntop &ror sides or removed from the &nbottom&r of the &3Coke Oven&r automatically using a &6Hopper&r or similar item &o&btransportation&r block."
+				""
+				"To remove &dCreosote Oil&r from the &dCoke Oven&r, placing empty portable &o&bfluid containers&r in the top-right corner slot will fill it with &o&b1,000&r mB of &dCreosote Oil&r, transferring the filled container to the bottom-right slot of the &o&bGUI&r."
+				""
+				"To automatically remove &dCreosote Oil&r, a &ePump&r can be used and placed directly against the &3Coke Oven&r. The side of the &ePump&r facing away from the &3Coke Oven&r can be &o&bhammered&r with an &6Engineer's Hammer&r to &coutput&r and &b&ohammered&r while &asneaking&r to configure the (inaccessible) opposite side to accept &9input&r. The &ePump&r does need to be &cpowered&r and requires a &cRedstone&r signal."
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "0DA972D85BB3C86C"
+			min_width: 570
+			rewards: [
+				{
+					id: "6050D7C35BAAC091"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E2D2634F6286D8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Hot Topic!"
+			tasks: [{
+				count: 27L
+				id: "7BDC06A5B2C203AA"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "&aCoke Oven"
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DA972D85BB3C86C"]
+			description: [
+				"The &4Crude Blast Furnace&r is used to increase the &0Carbon&r contents in &7Iron&r, turning it into &3Steel&r. To achieve this, only pure, &o&bhigh-carbon fuels&r may be used for the furnace, specifically &3Coal Coke&r and &8Charcoal&r. This operation takes &o&b60&r seconds per ingot. One &3Coal Coke&r burns long enough to smelt one ingot, which produces one &eSlag&r piece. A &3Block of Coal Coke&r smelts &o&b10&r ingots (so it's &o&b11.11&r% more fuel efficient). A &7Block of Iron&r smelts in less time than &o&b9&r single pieces."
+				""
+				"Along with &3Steel&r, the furnace will also create &eSlag&r, which you must remove or the furnace will cease to function. While it is technically a &8waste&r product, there are various ways to &o&brecycle&r it."
+				""
+				"To form a &4Blast Furnace&r, arrange &o&b27&r &4Blast Bricks&r in a &o&b3x3x3&r cube, and &aright click&r &o&bone of the sides' center blocks&r with an &6Engineer's Hammer&r."
+				""
+				"The &4Crude Blast Furnace&r is not automateable. All in- and &coutputs&r must be arranged manually through its &o&bGUI&r. If you want to &o&bautomate&r the creation of &3Steel&r, you should probably look into creating an &2Improved Blast Furnace&r. &aHoppers&r, &cConveyor Belts&r and other item transporters &o&bcan't&r hook up to the &4Crude Blast Furnace&r, but they can with the &2Improved Blast Furnace&r."
+			]
+			icon: "immersiveengineering:blast_furnace"
+			id: "449C41A3AFBBE8E9"
+			min_width: 500
+			rewards: [
+				{
+					id: "7B207FAED5C0FB20"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49B2A5B3760D14FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "4C382E60831988A1"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "&aCrude Blast Furnace"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["449C41A3AFBBE8E9"]
+			description: [
+				"The &dAlloy Kiln&r is a &o&bsimple furnace&r made out of heat resistant sandstone and bricks."
+				""
+				"Within it, temperatures are &nhigh enough&r to allow metals to be &o&bmelted into a fluid state&r and mixed, creating an &o&balloy&r."
+				""
+				"This allows the creation of &nimportant alloys&r like &eElectrum&r and &aConstantan&r without requiring the tedious mixing of dusts."
+				""
+				"To form the &dAlloy Kiln&r, arrange &o&b8&r of the &o&bKiln Bricks&r in a &o&b2x2x2&r cube, and &eRight-click&r one of the sides' blocks with an &6Engineer's Hammer&r."
+			]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "5921FE935A2D7325"
+			min_width: 310
+			rewards: [
+				{
+					id: "2EBA3FA8C5C1937C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DD60289BC546C73"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "5755A435D3A62F9C"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			title: "&aAlloy Kiln"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["449C41A3AFBBE8E9"]
+			description: [
+				"The &2Improved Blast Furnace&r is the upgraded tier of the &4Crude Blast Furnace&r, capable of &o&bautomation&r and also of greater speeds once &9Blast Furnace Preheaters&r are added."
+				""
+				"As an upgrade of the &4Crude Blast Furnace&r, the original &cBlast Bricks&r may be upgraded to &cReinforced Blast Bricks&r by adding a &aSteel Plate&r."
+				""
+				"The &2Improved Blast Furnace&r is created by assembling &o&b27&r &cReinforced Blast Bricks&r in a &o&b3x3&r cube and placing a &7Hopper&r on the top-center block. Using an &6Engineer's Hammer&r on the &o&bfront face&r completes the structure."
+				""
+				"The &2Improved Blast Furnace&r has hatches to &o&bautomatically&r export &3Steel&r and &eSlag&r into adjacent &ninventories&r. &3Coal Coke&r and &bIron&r may be dropped into the &ntop&r of the furnace. &3Steel&r leaves through the &nfront&r, and &eSlag&r leaves through the &nback&r. The holes on either side are for adding the &9Blast Furnace Preheaters&r."
+			]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "0A0D08D0032BAF5B"
+			min_width: 500
+			rewards: [
+				{
+					id: "30E11475BCC55B89"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3880E8AFDF148871"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 27L
+					id: "6357A4BD83AD9BC6"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "626FA6F700BF5698"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "&aImproved Blast Furnace"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["62EB37B4A020EF65"]
+			description: [
+				"The &aEngineer's Crafting Table&r is a &o&bsimple upgrade&r to the normal &9Crafting Table&r. In addition to the polished, treated wood surface, it &nkeeps the ingredient inside&r the crafting grid when the &o&binterface is closed&r."
+				""
+				"It also features a &o&bsmall drawer&r to store some of your &o&bcrafting components&r."
+			]
+			id: "316399F0B5F729CA"
+			min_width: 300
+			rewards: [
+				{
+					id: "3A237B87F3451087"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7FD6A0B6E4B7AC22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F741F4CF386668"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "45A6D0EB9BD00422"
+			rewards: [
+				{
+					id: "798D3AA048F5BAE0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A5DBA806A25F63D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C80FF7983314472"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45A6D0EB9BD00422"]
+			id: "34A02E18A7E09F28"
+			rewards: [
+				{
+					id: "29ACE759D60235D8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5964E0E736687783"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "201A9374BCAD69B9"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45A6D0EB9BD00422"]
+			id: "68136624609D6D1A"
+			rewards: [
+				{
+					id: "4C854C3DE681868F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "369AD7AFBD24832D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B8E4182FD7DC609"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["68136624609D6D1A"]
+			id: "612BB1D116F3B1A9"
+			rewards: [
+				{
+					id: "0EDF8A07EECF3A4C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CE0C8CFED373E7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "59D765C3543EA0D2"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "79457F98DFB88BC1"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68136624609D6D1A"]
+			id: "4FC7D81A4EB93629"
+			rewards: [
+				{
+					id: "70729D2D1781CF15"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "187DAA837781C613"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "07E4052EB15447C1"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D8AE0629E9972F3"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68136624609D6D1A"]
+			id: "61E95FF8935D144C"
+			rewards: [
+				{
+					id: "38583A17A37CB716"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29F1EF876B091F42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3190D14AEFD0B098"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0B73AA64D50A2EF1"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34A02E18A7E09F28"]
+			id: "56B290A06D1D8F08"
+			rewards: [
+				{
+					id: "78066D767C10F14E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13C29F9CE14D025B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C89909C5F4EC994"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["612BB1D116F3B1A9"]
+			id: "7C5BD576678F93F2"
+			rewards: [
+				{
+					id: "47712B5DA43F24BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ECF66A89C8BB6D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08BFBB5DD192623A"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4FC7D81A4EB93629"]
+			id: "408666D28CDAC1C0"
+			rewards: [
+				{
+					id: "77956CF3776C9A30"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65AE4A01C5201E52"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C26F27F226ECD96"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["61E95FF8935D144C"]
+			id: "2881CCC6BC14F7F8"
+			rewards: [
+				{
+					id: "3BC18407173E2D00"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "409102EF1CB916EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DF9FA066EB0FE53"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C5BD576678F93F2"]
+			id: "126E307DC35BF444"
+			rewards: [
+				{
+					id: "7C9DEA523B84ABC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C11F38321AB2C6D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "351489AA5A24AC49"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C62B8481B8DD35A"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["408666D28CDAC1C0"]
+			id: "25244CCCCE484427"
+			rewards: [
+				{
+					id: "2C65A8E9D84D87BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48E3D679445F38BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "10E222B8E28D0EF2"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E496C83F901F190"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2881CCC6BC14F7F8"]
+			id: "5FA0C99BF80AA097"
+			rewards: [
+				{
+					id: "5775E3542B41F838"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E7FF5CFFFCD499D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "57D74B29F01D6B55"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D7DE08764D44592"
+					item: "immersiveengineering:wirecoil_redstone"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["126E307DC35BF444"]
+			id: "05926A9C5859717D"
+			rewards: [
+				{
+					id: "35AFD504CBCB0DAD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65BBC74F2D96ACFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7448BFFC67E75C97"
+					item: "immersiveengineering:wirecoil_structure_rope"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B9DDA15D97544AF"
+					item: "immersiveengineering:wirecoil_structure_steel"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A0D08D0032BAF5B"]
+			id: "47709C807D643108"
+			rewards: [
+				{
+					id: "7C714E2868DAADB3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C1178FCAABDFF6C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "686223212991043C"
+				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			hide_dependency_lines: true
+			id: "010775AE2C4FFF0F"
+			rewards: [
+				{
+					id: "788E80DF35DBAEC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59DD6C08D0818763"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 8L
+				id: "6E77D88CF5B2ACBB"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["010775AE2C4FFF0F"]
+			hide_dependency_lines: true
+			id: "2C02528FF8BDF5AC"
+			rewards: [
+				{
+					id: "099AF047D9D567BC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "29F9E7D3DFEEDA9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4944FAB8A78EE0FB"
+				item: "immersiveengineering:conveyor_dropper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2C02528FF8BDF5AC"]
+			hide_dependency_lines: true
+			id: "7FF68EAFD478A4DA"
+			rewards: [
+				{
+					id: "5B30CDF644B134DD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3A081B5533B74918"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "4B55DC110060CE35"
+				item: "immersiveengineering:conveyor_splitter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7FF68EAFD478A4DA"]
+			hide_dependency_lines: true
+			id: "3A6650812CFEE8E3"
+			rewards: [
+				{
+					id: "1115D4839E25230A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50CA9BEBA49B6C20"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "41C149D6E3DF9F81"
+				item: "immersiveengineering:conveyor_vertical"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3A6650812CFEE8E3"]
+			hide_dependency_lines: true
+			id: "5DBF51806B6682AF"
+			rewards: [
+				{
+					id: "0ED957291BAF4418"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30E02B754BE98B59"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "069FFD25AC53348B"
+				item: "immersiveengineering:conveyor_redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5DBF51806B6682AF"]
+			hide_dependency_lines: true
+			id: "17A81B79712C25FD"
+			rewards: [
+				{
+					id: "6709392169E2BF6A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "479DAEF92953CD56"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "296467CC7D4EF07A"
+				item: "immersiveengineering:conveyor_extract"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F00E38513D06DF9"]
+			id: "63768F7BC7BD0188"
+			rewards: [
+				{
+					id: "2F0067AB80CFB004"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1BEBEB72FE6EEB97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3319B3D746C5AE5F"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0884D6C10B1047A2"]
+			id: "7F00E38513D06DF9"
+			rewards: [
+				{
+					id: "78DAAA9A7BF3C913"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07C39C95E6CD54A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "70343EB62D023CCA"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "1AFBE29BB6CC2C0D"
+			rewards: [
+				{
+					id: "2403F754C70A5DB3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3263037D9729013A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27B4C42FC8A60009"
+					item: "immersiveengineering:component_iron"
+					type: "item"
+				}
+				{
+					id: "63D2991D4E23BCC7"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+			]
+			title: "Mechanical Componets"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EC13E3F2F7804B4"]
+			id: "174228D87BAF69B2"
+			rewards: [
+				{
+					id: "3CB900AFC585D26D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66301EB911058EFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BEDA424DCC8EB6F"
+				item: "immersiveengineering:voltmeter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "40DAC53EDC8E99ED"
+			rewards: [
+				{
+					id: "0DA52E54072B0910"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03E4B940DF7E8A40"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "140FD8135B050589"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+				{
+					id: "3D91009F483E0672"
+					item: "immersiveengineering:mold_gear"
+					type: "item"
+				}
+				{
+					id: "2EC9B016A9034B68"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+			]
+			x: -0.2857142857142776d
+			y: -3.375d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "0DB786DDE5B01845"
+			rewards: [
+				{
+					id: "1ECE679DF863B92D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "732734313CAA1643"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "453E862D69DC4CD2"
+				item: "immersiveengineering:charging_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0DB786DDE5B01845"]
+			id: "494269546D4E54AC"
+			rewards: [
+				{
+					id: "31CA9DFF3EFCFF24"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A05A0D1ED8557ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43D24B7AB8693A52"
+				item: "immersiveengineering:electric_lantern"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0DB786DDE5B01845"]
+			id: "0EB15268A3577974"
+			rewards: [
+				{
+					id: "5EC223B3D63F6DD8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D4FAA2174215958"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46B4F115F2767D06"
+				item: "immersiveengineering:breaker_switch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DB786DDE5B01845"]
+			id: "128A39BB4A423C00"
+			rewards: [
+				{
+					id: "4CF7540F16C295A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48A58D4C5CF02ADB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "308ADA1E55A23064"
+				item: "immersiveengineering:lantern"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DA972D85BB3C86C"]
+			id: "62EB37B4A020EF65"
+			rewards: [
+				{
+					id: "5B5B8DC1562B0D10"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B07AB53B67F303B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "614AE07607D504FC"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["735412C77BE7A82A"]
+			description: [
+				"The &6Metal Press&r is a &o&b3×1×3&r multiblock machine. It stamps &ePlates&r, &dRods&r, and &2Wires&r out of &o&bmetal ingots&r."
+				""
+				"After the blocks are in place, use an &dEngineer's Hammer&r on the &o&bpiston&r to complete the multiblock."
+				""
+				"&ePower&r is &ainput&r through the &ntop&r, and items through the &cconveyors&r, obviously in the &o&bdirection of movement&r. The lower middle block is the &credstone control port&r, &eRight-clicking&r it with an &4Engineer's Screwdriver&r allows you to &o&binvert&r the &nredstone control&r."
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "2774D37126FE6785"
+			min_width: 500
+			rewards: [
+				{
+					id: "40AFCA6588FCC98D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CF1CE683DD8FF57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Metal Press is a 3x1x3 multi-block"
+			tasks: [
+				{
+					id: "236B9F42E0351902"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4335796AE6BCA8CD"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "3E689D69A5B9BA62"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "626D394EC9364504"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0A71774E0DB9BCA3"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "&aMetal Press"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1DCDA89DA49A8EF0"]
+			description: [
+				"&eHigh-Voltage&r architecture might be &o&bfascinating&r, but it's not very useful unless you have &na generator&r that can actually create the &o&brequired output for it&r."
+				""
+				"The &6Diesel Generator&r is one of the few ways of generating this sort of &eenergy&r. It is created as a complex &o&b3x5x3&r multiblock structure and will run off of &2Biodiesel&r or other types of &o&bcombustible fuel&r. Due to its high &coutput&r, it will work through fuel &o&bvery quickly&r, so make sure you have a &o&bsufficient fuel production&r to run it."
+				""
+				"The structure is built from &dEngineering&r, &eGenerator&r and &cRadiator&r blocks as well as &9Fluid Pipes&r and &3Scaffolding&r. After it is fully arranged, &eRight-clicking&r the &o&bcentral Generator&r with an &dEngineer's Hammer&r will complete the multiblock structure."
+				""
+				"&2Fuel&r is to be &ainput&r at the &nbottom&r corners of the &6Generator&r, whereas energy will be &coutput&r to up to &o&b3&r &aconnections&r on the &ntop&r. The &o&b4,096&rFlux/t the &o&bgenerator outputs&r will be &nsplit&r between &nall&r &o&bconnected points&r. The generator &o&bwill only run&r when &nat least&r one &o&boutput can accept energy&r."
+				""
+				"The small terminal on the side will turn &coff&r the generator if supplied with a &credstone signal&r, this behavior can be &o&binverted&r by use of the &4Engineer's Screwdriver&r."
+			]
+			icon: "immersiveengineering:diesel_generator"
+			id: "18A75E664BAC6425"
+			min_width: 500
+			rewards: [
+				{
+					id: "39086C27208B7EEB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F94ECA62D3ED5D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Diesel Generator is a 3x5x3 multi-block"
+			tasks: [
+				{
+					count: 5L
+					id: "2BCB1479405676BE"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2FE072415255F25C"
+					item: "immersiveengineering:generator"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "2861D7C9D50903B3"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "62A89BC9363C275C"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					id: "332193AD8263C2A6"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "25408BD850BBFFB6"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "&aDiesel Generator"
+			x: -2.607142857142861d
+			y: -1.732142857142854d
+		}
+		{
+			dependencies: ["47ACCCE2F34C5B99"]
+			description: [
+				"The &6Arc Furnace&r is a &o&b5×5×5&r multiblock machine used for &o&bsmelting ores&r and &o&bgrits&r into &o&bingots&r, creating &o&balloys&r including &3steel&r, and &o&brecycling&r certain tools and armor. To form the structure, &eRight-click&r the &ncauldron&r with an &dEngineer's Hammer&r."
+				""
+				"For it to operate, the &6Arc Furnace&r needs &epower&r and &o&b3&r working &0Graphite Electrodes&r. Alloy recipies need &o&badditional additives&r. Most recipes create &7Slag&r as a byproduct. &7Slag&r must be &nremoved&r from the machine or it will cease to &o&bfunction&r, and &o&bdegrading electrodes&r need to be &nreplaced&r over time."
+				""
+				"&eEnergy&r is input through the &o&b3&r &9connectors&r at the back, and supplying the &6control panel&r at the front with a &credstone signal&r will turn &noff&r the machine. &eRight-clicking&r the panel, '&o&bbucket&r' or vat will open the &o&binterface&r."
+				""
+				"The &dInterface&r may look confusing upon first seeing it, but it's quite straight forward. The &o&b3&r slots &o&bat the top&r are for the &0Graphite Electrodes&r. The &o&b12&r slots on &o&bthe left&r are the input slots for &nmetals&r and &nores&r. The &o&b4&r slots on &o&bthe right&r are for \"&o&badditives&r\". An example of these would be adding &3Coke Dust&r to melting &7Iron&r in order to create &3Steel&r."
+				""
+				"&eInputs&r and &aadditives&r are inserted through the &o&b2&r hatches at &o&bthe top&r of the structure, &einputs&r to &o&bthe left&r and &aadditives&r to &o&bthe right&r of the &nelectrodes&r. The &o&b7&r slots at &o&bthe bottom&r are &o&b6&r &coutput&r slots and a slot for &7slag&r. The &6Arc Furnace&r will &nautomatically&r push &coutput&r and &7slag&r to &o&bconnected inventories&r (this includes &4Conveyor Belts&r)."
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "7B7585BC5EAECAC7"
+			min_width: 500
+			rewards: [
+				{
+					id: "5AC7D7DC0E5BC398"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2D3E16056E6A29FB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Arc Furnace is a 5x5x5 multi-block"
+			tasks: [
+				{
+					count: 8L
+					id: "44E948774E27956B"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6B9C965372EF2FE0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alltheores:steel_block"
+					}
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "4ACA2B384E45BE54"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3E0AA8A437DCFA84"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "15781EC4B7875E56"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "3D445F6BFD571047"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "0F72373CF9611103"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "291BC35A40CC4C8F"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "19BF1236C0B3D07B"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+			]
+			title: "&aArc Furnace"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5921FE935A2D7325"]
+			description: [
+				"The &2Crusher&r is a &o&b3×5×3&r multiblock. Crushing an ore is an &o&beffective way&r of &o&bincreasing&r their yield, for each ore creates &ntwo dusts&r which you can then smelt."
+				""
+				"This &o&bindustrial-size crusher&r is a quick way of doing so. The machine's processing speed depends on the power supplied to it."
+				""
+				"Applying a &credstone signal&r to the &o&bcontrol panel&r at the front will halt the crushers process, this behavior can be &ninverted&r by use of the &4Engineer's Screwdriver&r."
+				""
+				"The structure is formed by &eRight+clicking&r the central block of the front with an &dEngineer's Hammer&r. The front is the wide side of the structure which has a &o&blight engineering block&r at the bottom."
+				""
+				"However, it is &o&bnot only used&r for crushing ores. Every living being &o&bto fall into the machine&r will take grave &cdamage&r and the crusher will output the &o&brelevant drops&r. Likewise, all items that &o&bcannot be processed&r will be &ndestroyed&r."
+			]
+			icon: "immersiveengineering:crusher"
+			id: "47ACCCE2F34C5B99"
+			min_width: 500
+			rewards: [
+				{
+					id: "0100644DD4A097BA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "255556319D181F23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "1EFA66DBABC31C03"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "69EE28DD743D7EE6"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "2686404CCFC1FE9D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "135607605983DE1A"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0F7389CCD75D3994"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "&aCrusher"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["78B6A586B9B0458C"]
+			description: [
+				"The &2Excavator&r is one of the pinnacles of &o&bmodern engineering&r. It is able to &ndig up&r minerals from veins &o&binaccessible&r by normal mining."
+				""
+				"In return however, the &2Excavator&r is a complex &o&b8x3x7&r multiblock structure which requires &o&b4,096&r&cRF&r/t in order to operate."
+				""
+				"The &2Excavator&r is made of &o&btwo parts&r:"
+				"• The &9Bucket Wheel&r is the &o&bcenter part&r, and is formed by &eRight-Clicking&r with an &dEngineers Hammer&r on the the &nmiddle&r &3Block of Steel&r."
+				"• The &6Engine&r is the &o&bother part&r, and is formed by &eRight-clicking&r the &dEngineers Hammer&r on the &cHeavy Engineering Block&r in the &ncenter&r of the &o&bback side&r."
+				""
+				"The &eenergy input&r for the &o&bengine&r is on &nits side&r, the &o&bback features&r a &credstone control panel&r and the &aitem output&r."
+				""
+				"As the &2Excavator&r digs up &o&bores&r, the yield of the vein &o&bslowly decreases&r, but a &o&bvein of minerals&r can provide up to &o&b38,400&r blocks of ore."
+			]
+			icon: "immersiveengineering:excavator"
+			id: "3AD4622409437713"
+			min_width: 470
+			rewards: [
+				{
+					id: "6F05C2BDBAA417E4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6671905605C09247"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Excavator is a 8x3x7 multi-block"
+			tasks: [
+				{
+					count: 4L
+					id: "1A62C725C298A89F"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "563A14DD29167D63"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "084F1DD8FFFCC65C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6A276E00FC998336"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6663ED14B8AF53B8"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "1A0164E7AA48A574"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "291BC297F060D699"
+					item: "alltheores:steel_block"
+					type: "item"
+				}
+			]
+			title: "&aExcavator"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["735412C77BE7A82A"]
+			description: [
+				"It is used to &o&bdetect&r and &o&banalyze&r &2Mineral Deposits&r that can be &o&bextracted&r by an &6Excavator&r."
+				""
+				"The &6Core Sample Drill&r is placed as a &nsingle block&r but stands &o&b3&r blocks tall. The bottom block accepts (&cRF&r) &eenergy&r."
+				""
+				"The &6Core Sample Drill&r takes &o&b10&r seconds by default to do its work (&o&b200&r ticks, &o&b8,000&r&cRF&r per use). When complete, it can be &eRight-clicked&r to receive a &dCore Sample&r."
+				""
+				"The &o&bsample shows&r that how much &9water&r, &6lava&r or &eoil&r does this chunk have in &o&bmB&r, and what type of deposit &o&bthe chunk has&r. It is possible that the chunk &ndoes not&r have any of the &nliquids&r or &nminerals&r."
+				""
+				"Hovering over the &6Core Sample Drill&r will show the chunk boundaries that it scans, in &6orange&r."
+			]
+			id: "78B6A586B9B0458C"
+			min_width: 400
+			rewards: [
+				{
+					id: "2CA0B20B4B0AE676"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F0195A221D0798C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D5EE172CD3E35BD"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			title: "&aCore Sample Drill"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "03DBAC047E439AC4"
+			rewards: [
+				{
+					id: "409365A159EEF590"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F59BB0E4A94ABC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12D16EA1971994E5"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["03DBAC047E439AC4"]
+			id: "6A5ABE89DE5B977D"
+			rewards: [
+				{
+					id: "2A0AE8D74E474A6C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3240C1FCA36DA8EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02C171076C5E67FC"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A5ABE89DE5B977D"]
+			id: "25EBB3837B49E752"
+			rewards: [
+				{
+					id: "35AFDE108901E333"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35D02F687A4A2B82"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E615576F2DF2ADD"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0DA972D85BB3C86C"]
+			id: "198000430D8AB9D8"
+			rewards: [
+				{
+					id: "3FD020E92443E299"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C136DA017E803D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52F2BBD69A10B594"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["62EB37B4A020EF65"]
+			id: "576873A2E3A4D8ED"
+			rewards: [
+				{
+					id: "0EDA042199556C4F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CFDF97F953F97B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "079EF0BC98DD0605"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:treated_wood"
+					}
+				}
+				title: "Any Treated Wood"
+				type: "item"
+			}]
+			title: "The Treated Wood"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["316399F0B5F729CA"]
+			description: [
+				"With the great speed and versatility of &cRedstone Wires&r and the unique properties of a &3Vacuum Tube&r, it's now possible to greatly the &o&breduce the footprint&r of &ncomplex redstone circuits&r."
+				""
+				"Using the &9Circuit Table&r, you can create much &6smaller logic circuits&r. To do so, you will need a &o&bbackplane&r, some &o&bvacuum tubes&r and some solder like &o&blead&r or &o&bcopper wires&r. The table also needs to be supplied with energy through the input at its back."
+				""
+				"Using the &o&bvarious components&r, you then &o&bselect&r the pattern of circuit you want to make and decide the &o&binput values&r, as well as the designated &coutput&r. The available &9in&r- and &coutputs&r are the &o&b16&r colored channels of a &cRedstone wire&r, as well as &o&b8&r \"&nRegisters&r\". These allow for a &o&btemporary storage&r of a value within the block that handles &o&bthe logic&r - more on this later."
+				""
+				"After &o&bsetting the operator&r, &9in&r- and &coutputs&r, you see the required &o&blist of components&r next to the &o&binput slots&r on the left. The amount of components required depends on the &o&bcomplexity of the circuit&r, with &o&bNAND&r being the easiest &nto produce&r. As long as enough components are present, you can then take the &ncompleted circuit&r from &o&bthe output&r on the right."
+				""
+				"&eHelpful shortcuts&r:"
+				"- When &o&bhovering over&r a &9in&r- or &coutput&r button, &o&bpress a numbered key&r to change it to the &nnumbered register&r. Press a &o&bletter&r to &o&bcycle&r through the &ncolors&r starting with that letter."
+				"- Pick up a &o&bfinished logic circuit&r and &eclick&r it on the &o&bcenter of the circuit table's&r interface to &ncopy&r the &o&binstructions&r to the table."
+			]
+			id: "0933E0EF37133C32"
+			min_width: 500
+			rewards: [
+				{
+					id: "614D8038CE92A359"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "232CEEF544FD6B79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43004C78941976C9"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["449C41A3AFBBE8E9"]
+			id: "566C0FA15F2021F1"
+			rewards: [
+				{
+					id: "2736AB83DC077F23"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16F1C2D83FD8B237"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "23D8DBFB41FF2A75"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Steel"
+				type: "item"
+			}]
+			title: "Steel Ingots"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5921FE935A2D7325"]
+			id: "2D665540B859B8BE"
+			rewards: [
+				{
+					id: "434BC3B1B9186AF9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17FB68A162552AC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "74E95EE78BA14CBA"
+					item: "alltheores:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A7DD23F29FA6509"
+					item: "thermal:rose_gold_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17A40B16BB399E70"
+					item: "alltheores:invar_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "58279BF25AB31A0B"
+					item: "alltheores:constantan_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "781628B94083FD6A"
+					item: "alltheores:electrum_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0D44639DCE8909C0"
+					item: "alltheores:bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "Alloy Ingots"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5921FE935A2D7325"]
+			id: "0700605567B0BE90"
+			rewards: [
+				{
+					id: "2E01FD9284BA7268"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C38D8102B300DF9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "375EE73290DBEA12"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"39C8CD6102B26BFE"
+				"19B5CFD1781BE157"
+			]
+			id: "28313C2FE2F8A148"
+			rewards: [
+				{
+					id: "3EE44569CD5FF491"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30A5473D3FF8A801"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15AB16421BB70AC3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:circuit_board"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0933E0EF37133C32"]
+			id: "0B56E423C6D000E3"
+			rewards: [
+				{
+					id: "70E9FFF43530302D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B5819CFA9FBC54E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2ACE7EB1623DF9A0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:logic_circuit"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "4C15C2BDE902C515"
+			rewards: [
+				{
+					id: "3639DB26A4C7E67D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "424BC51DF82E7AAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6A87676302B415B0"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bannerpatterns"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Banner Patterns"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "3A9D48E33CA28949"
+			rewards: [
+				{
+					id: "3AF96F6785F4A49E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28C6B0FCD0DC3CFB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "22D77EBDE80F580C"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bullet"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Common Projectiles"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "7B325907CA9380E7"
+			rewards: [
+				{
+					id: "7F7D3B1F5AEA1EAC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "590B907EBDC64AC3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05901F0F7DD1C88F"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Crafting Componets"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "1421DD5F9BC68D79"
+			rewards: [
+				{
+					id: "155CC39FF4C1335F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "273FEECA15DFF06A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "48F949A5DC4D6572"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Arc Furnace Electrodes"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "32328A2A7AEE2269"
+			rewards: [
+				{
+					id: "17EA8FD928165ABC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E7010D19678F7FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "71C37BC9A8840422"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Metal Press Molds"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			hide_dependency_lines: true
+			id: "0436AB1658174EA4"
+			rewards: [
+				{
+					id: "37B249A8B396FEA6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6A2BDD635A87812C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5CA633D409431983"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "specialBullet"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Specialized Projectiles"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["47ACCCE2F34C5B99"]
+			description: [
+				"The &6Mixer&r is a &o&b3x3x3&r multi-block. It accepts &aitems&r, &9liquid&r, and &eenergy&r, and produces new &9liquids&r from the result. For example, &7liquid concrete&r can be mixed from &1water&r, &esand&r, &3gravel&r, and &7clay&r."
+				""
+				"The multiblock is completed by using the &dEngineer's Hammer&r on the central &3Iron Sheetmetal&r block."
+				""
+				"&9Fluids&r are &ainput&r into the mixer through the port at the &nbottom&r of its powersupply. &eItems&r can be input via the two hatches at the &nback&r. The &o&bfluid port&r at the &nfront&r serves as the &o&bfluid output&r."
+				""
+				"Applying a &credstone signal&r to the &dcontrol panel&r at the &nfront&r will halt the machine's process, this behavior can be &o&binverted&r by use of the &4Engineer's Screwdriver&r."
+			]
+			icon: "immersiveengineering:mixer"
+			id: "735412C77BE7A82A"
+			min_width: 500
+			rewards: [
+				{
+					id: "40CC544A0684239B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AF24D7241CEAF05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "7929B8F6D3D69EC2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1A574C21B279C241"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72243E4DFF604550"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "490F1B2EC27CE774"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "6E9D6EC276325353"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					id: "15B7D4194BA3FBBF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+			]
+			title: "&aMixer"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["735412C77BE7A82A"]
+			description: [
+				"The Industrial  Squeezer is a 3x3x3 multiblock structure that &o&bpresses juice&r or &o&boil&r out of &o&borganic materials&r."
+				""
+				"After it is fully arranged, &eRight-click&r on the central &2Wooden Barrel&r from side that has the &3Engineering Blocks&r with an &dEngineer's Hammer&r to complete the multiblock structure."
+				""
+				"&eItems&r can be input into the &6Squeezer&r via the &o&b2&r hatches at the &nback&r that are marked with &9blue&r dots. The hatch with the &6orange&r dot serves as an &citem output&r and the block below it to &9output fluids&r. Applying a &credstone signal&r to the &dcontrol panel&r at the &nfront&r will halt the machine's process, this behavior can be &o&binverted&r by use of the &4Engineer's Screwdriver&r."
+				""
+				"The following &nlist&r shows various items that can be &o&bsqueezed&r into &ePlant Oil&r."
+				""
+				"&cMelon Seeds&r ---> &o&b20&rmB"
+				"&6Pumpkin Seeds&r ---> &o&b40&rmB"
+				"&4Tomato Seeds&r ---> &o&b60&rmB"
+				"&cBeetroot Seeds&r ---> &o&b60&rmB"
+				"&eWheat Seeds&r ---> &o&b80&rmB"
+				"&2Cabbage Seeds&r ---> &o&b80&rmB"
+				"&7Industrial Hemp Seeds&r ---> &o&b120&rmB"
+			]
+			icon: "immersiveengineering:squeezer"
+			id: "1F980CFE55E589A6"
+			min_width: 500
+			rewards: [
+				{
+					id: "0A09A815679BB6CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48E806DF42F552A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "52F2687E119993DF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A842C7C752D9F88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:wooden_barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "2C314156F3507E1D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:piston"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5585CBF76125BA27"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "598710D029A1402C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD64B2FB4266325"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7DA128F7E449D9F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_fence"
+					}
+					type: "item"
+				}
+			]
+			title: "&aIndustrial Squeezer"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0B2DF0B5F4247A3F"
+				"1F980CFE55E589A6"
+			]
+			description: [
+				"The &6Refinery&r is a complex &o&b3x5x3&r multiblock that can refine one or two fluids into another. The most common application of this is production of &2Biodiesel&r."
+				""
+				"After it is complete, &eRight-clicking&r the central &3Heavy Engineering Block&r with an &dEngineer's Hammer&r will finish the multiblock."
+				""
+				"&9Fluids&r are &ainput&r through the &o&b2&r ports on &o&beither side of the block&r and &coutput&r through the &6orange&r marked port at the &nfront&r. Using &o&bbuckets&r to interact with the refinery's tanks is also &o&bpossible&r. Applying a &credstone signal&r to the &dcontrol panel&r at the &nfront&r will halt the machine's process, this behavior can be &o&binverted&r by use of the &4Engineer's Screwdriver&r."
+				""
+				"Most refinery processes require the addition of a &5catalyst&r to enable the reaction. This &5catalyst&r is &nnot consumed&r, but the process &nwill not&r work &o&bwithout it&r."
+				""
+				"To produce &2Biodiesel&r, combine &nequal parts&r &ePlant Oil&r and &3Ethanol&r while using &7Nitrate Dust&r as a &5catalyst&r."
+			]
+			icon: "immersiveengineering:refinery"
+			id: "1DCDA89DA49A8EF0"
+			min_width: 510
+			rewards: [
+				{
+					id: "5BE03EFFE13A7D6E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66FFF4B092E5CFB1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "1DB7E63B664D66D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2A043EECD69CDADC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "183B50FF3796D313"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "25D9947E30215476"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:heavy_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A05C601FED10358"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "76A32951A5C517D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+			]
+			title: "&aRefinery"
+			x: -4.25d
+			y: -1.732142857142854d
+		}
+		{
+			dependencies: ["47ACCCE2F34C5B99"]
+			description: [
+				"The &6Fermenter&r is a &o&b3x3x3&r multiblock structure that &nextracts&r &7Ethanol&r from certain &efruits&r, &agrains&r and &2vegetables&r through a &nfermenting process&r."
+				""
+				"After it is fully arranged, &eRight-click&r the central &3Cauldron&r with an &dEngineer's Hammer&r to complete the multiblock structure."
+				""
+				"&eItems&r can be input into the &6Fermenter&r via the &o&b2&r hatches at the &nback&r that are marked with &9blue&r dots. The hatch with the &6orange&r dot serves as an &citem output&r and the block below it to &9output fluids&r. Applying a &credstone signal&r to the &dcontrol panel&r at the &nfront&r will halt the machine's process, this behavior can be &o&binverted&r by use of the &4Engineer's Screwdriver&r."
+				""
+				"The following &nlist&r shows various items that can be &o&bfermented&r into &7Ethanol&r."
+				""
+				"&cMelon Slice&r ---> &o&b20&rmB"
+				"&4Beetroot&r ---> &o&b40&rmB"
+				"&cSweet Berries&r ---> &o&b50&rmB"
+				"&4Tomato&r ---> &o&b80&rmB"
+				"&eSugar Cane&r ---> &o&b80&rmB"
+				"&aPotato&r ---> &o&b80&rmB"
+				"&cApple&r ---> &o&b80&rmB"
+				"&eGlow Berries&r ---> &o&b100&rmB"
+				"&6Honey Bottle&r ---> &o&b250&rmB"
+			]
+			icon: "immersiveengineering:fermenter"
+			id: "0B2DF0B5F4247A3F"
+			min_width: 500
+			rewards: [
+				{
+					id: "1862AB392F0BE590"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79D7951F2D077DD2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4AE010398D0F76DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A59D3A7DA1D4BF5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "787C75B2820A48E5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					id: "5B5EE9C3D0290A8F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "459EDF051684AF2F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cauldron"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "631880E138C5A539"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "&aFermenter"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57175CF690ADCCBE"]
+			id: "19B5CFD1781BE157"
+			rewards: [
+				{
+					id: "743CABA566F3E8B9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B1AB8C4FF836823"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "524E7087D55202C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:plate_duroplast"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["735412C77BE7A82A"]
+			description: [
+				"It turns 1 Log into 6 Planks."
+				""
+				"The multiblock is completed by using the &eEngineer's Hammer&r on the central &eIron Sheetmetal&r block."
+			]
+			icon: "immersiveengineering:sawmill"
+			id: "7CE764054ECB1C45"
+			rewards: [
+				{
+					id: "2113BF17F7359979"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2ED74F87FB0C4A08"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Sawmill is a 3×5×3 wood-processing multi-block"
+			tasks: [
+				{
+					count: 4L
+					id: "1A9A4CC96BBA94AC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:conveyor_basic"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6CE29B90DB476BA5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2D4960F89D46CE0B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6DD88EC1F137312C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:heavy_engineering"
+					}
+					type: "item"
+				}
+				{
+					id: "37D0E4E1BC5A2D57"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49BBABB6245F3513"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "&aSawmill"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CE764054ECB1C45"]
+			id: "787A66DC52550EBF"
+			rewards: [
+				{
+					id: "4F07B705134DD83B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E04A6922FBC1A54"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Can be used to make paper"
+			tasks: [{
+				id: "3B930A490EA23536"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/wood"
+					}
+				}
+				title: "Wood dust"
+				type: "item"
+			}]
+			title: "Wood dust"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["787A66DC52550EBF"]
+			id: "2F492EC973058DF2"
+			rewards: [
+				{
+					id: "05CA12AFA35ED3F0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A8F034EAD91961F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 30L
+				id: "5FA7CCD8BBE3D2EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			title: "Paper"
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63768F7BC7BD0188"]
+			description: [
+				"After it is fully arranged, the player must &aright-click&r the &o&bbottom-center&r &3Iron Sheetmetal&r of any side of the multi-block with an &eEngineer's Hammer&r, then the multi-block is &o&bcomplete&r."
+				""
+				"The &2Sheetmetal Silo&r will store &o&b41,472&r &eitems&r (the size of &o&b24&r &aChests&r). They, however, &o&ball must be the same item&r."
+				""
+				"Items can be &9piped&r into the &o&btop block&r, and &cremoved&r through the &o&bbottom block&r. Removal of items requires a &cRedstone&r signal."
+				""
+				"The &2Silo&r will &nvisually show&r the item being stored and it's amount on &neach side&r of the &2Silo&r."
+			]
+			icon: "immersiveengineering:silo"
+			id: "07D2F9D6128C2437"
+			min_width: 300
+			rewards: [
+				{
+					id: "2F87770E94742644"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D9BC602989EEA33"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Silo is a 3x3x7 multi-block used for storing items"
+			tasks: [
+				{
+					count: 4L
+					id: "1BC3985A186C2DE9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:treated_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "2425F1DF441AB3CF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "&aSilo"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63768F7BC7BD0188"]
+			description: [
+				"After it is fully arranged, the player must &aright-click&r the &3Iron Sheetmetal&r at the &o&bbottom center&r of any side (not the &nsheetmetal&r on the &nfence&r layer) with an &eEngineer's Hammer&r, then the multi-block is &o&bcomplete&r."
+				""
+				"The &dTank&r will store &o&b512,000&r mB (&o&b512&r &3Buckets&r). Liquids can be &9piped&r into the top or bottom blocks. For liquid to be &cremoved&r a &cRedstone&r signal is required, additionally, a &6Fluid Pump&r can be used to &o&bspeed up&r the output."
+				""
+				"The &dTank&r will &o&bvisually&r show the liquid being stored and its amount on &neach side&r of it."
+			]
+			icon: "immersiveengineering:tank"
+			id: "41F93E64432175D5"
+			min_width: 300
+			rewards: [
+				{
+					id: "16F0C59CD28E664F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4389701DBC4F9A13"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Tank is a 3x3x5 multi-block used for storing liquids"
+			tasks: [
+				{
+					count: 4L
+					id: "35BEABEB468122C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:treated_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "6D10733EC5EA7861"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "&aTank"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			description: [
+				"The &2Assembler&r is a &o&b3x3x3&r multi-block, and is used to &o&bautomatically&r craft items."
+				""
+				"After it is fully arranged, the player must &aright-click&r the one of the &cConveyor Belt&r with an &eEngineer's Hammer&r. Then the multi-block is &o&bcomplete&r."
+				""
+				"Recipes can be set inside of the &2Assembler&r. The &o&bfluid tanks&r in the &2Assembler&r will automatically fill liquid containers used in recipes, such as &9Water Buckets&r."
+				""
+				"The &2Assembler&r will &o&bautomatically&r craft the set recipes if it has the correct materials. Crafted items will remain into the &o&binventory&r of the &2Assembler&r."
+				""
+				"If an inventory (such as a &eChest&r or &cConveyor Belt&r (for easy automation)) is connected to the end of the &2Assembler&r, the crafted item will move into that &o&binventory&r."
+			]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:assembler"
+			id: "22C1FDD2FC9A3AC2"
+			min_width: 350
+			rewards: [
+				{
+					id: "6052146003329566"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2ECDEF2758B5A76B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Assembler is a 3x3x3 multi-block"
+			tasks: [
+				{
+					count: 2L
+					id: "32E749CF7FA401B3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:conveyor_basic"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3535901AD299A947"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3212A41D0B0C0623"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6530D1F0F0965C18"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "77700BB741B2E029"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2A3AC6CAEA0716FF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:slab_sheetmetal_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "&aAssembler"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			description: [
+				"The &2Automated Engineer's Workbench&r is a &o&b3x2x3&r multi-block. It is an automated version of the &9Engineer's Workbench&r."
+				""
+				"After it is fully arranged, &aright-click&r the &o&bmiddle&r &4Treated Wood Slab&r with an &eEngineer's Hammer&r to complete the multiblock structure."
+			]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:auto_workbench"
+			id: "387FC4D9C4010FD8"
+			min_width: 300
+			rewards: [
+				{
+					id: "05BA5E34F5221FC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47EAEED899F26D33"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "182926726251E7AD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:conveyor_basic"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5D2CFCB47E515535"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "723390D8EE816E6D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					id: "68A2AE6ADE2E8ABA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "473306021E3400C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:heavy_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11DC6A1C09FD66E6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:slab_treated_wood_horizontal"
+					}
+					type: "item"
+				}
+			]
+			title: "&aAutomated Engineer's Workbench"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["68136624609D6D1A"]
+			description: [
+				"It generates energy from lightning."
+				""
+				"After it is fully arranged, the player must right-click the middle block of any side (which should be a &eLight Engineering Block&r) with an &eEngineer's Hammer&r, Then the multi-block is complete."
+				""
+				"Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically. One lightning strike will generate 16,000,000 RF."
+				""
+				"All of the energy goes to the center block, but that energy will be dispersed to the blocks surrounding it."
+			]
+			icon: "immersiveengineering:lightning_rod"
+			id: "26EA569336CAF392"
+			min_width: 300
+			rewards: [
+				{
+					id: "23AB590431E7F8B8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D8546AEA5A0EE36"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "he Lightning Rod is a 3x3x3 multi-block"
+			tasks: [
+				{
+					count: 4L
+					id: "3A5DFF18260DB509"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:capacitor_hv"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5033D7BD876E5985"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2705BCCCE7D7062A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:coil_hv"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0867C37D50B917BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:treated_fence"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3EF0BA7D78E869C6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "21CD1C476AEFCC5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:coil_lv"
+					}
+					type: "item"
+				}
+			]
+			title: "&aLightning Rod"
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28313C2FE2F8A148"]
+			description: [
+				"The &dLogic Unit&r is the block in which &o&bcompleted logic circuits&r are slotted &nto be used&r. It has enough space for a total of &o&b10&r &acircuits&r, and features a full &o&b8&r &ainbuilt registers&r, allowing it to be used for &nany circuit&r."
+				""
+				"For a &o&blogic unit&r to interface with the colored &credstone systems&r, it needs to have a &4Redstone Interface Connector&r attached to its side."
+				""
+				"Every time any of the &o&battached connectors&r change their state, the &o&blogic unit cycles&r through its circuits and performs all &o&b10&r operations."
+				""
+				"If a &o&bcircuit uses a register&r as an &coutput&r, the resulting value is kept in the register and may be used &o&bby later circuit&r as an &9input&r."
+				""
+				"The same &o&binterface connector&r used to &9input&r can be used as an &coutput&r as well."
+			]
+			id: "40FC88EF7AB90115"
+			min_width: 400
+			rewards: [
+				{
+					id: "52A35BD1143E0F83"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C5F49DB875872EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "383BC8B4E56B9F93"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:logic_unit"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["63262E8059EF0690"]
+			id: "7B3389E19277246F"
+			rewards: [
+				{
+					id: "51CD132951A23B14"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3BFFD9DE1074D1B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AF3DFE3D1AEAF72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:jerrycan"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["774B1D4152A0B4ED"]
+			id: "63262E8059EF0690"
+			rewards: [
+				{
+					id: "248590FC989AC23D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "599AEAFF35FB0FCC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A1C65CB6A265041"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:earmuffs"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1AFBE29BB6CC2C0D"]
+			description: [
+				"With exchangeable &3Drill Heads&r and upgrades, itsproperties are almost entirely modifiable."
+				""
+				"To modify it, place it in an &dEngineer's Workbench&r."
+				""
+				"The &3Drill&r runs off of &eBiodiesel&r and can be filled directly in the &2Refinery&r."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:drill"
+				tag: { }
+			}
+			id: "6BEC1C688BC24782"
+			min_width: 250
+			rewards: [
+				{
+					id: "427484525E78F3CF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26BDAF1BC7FC2CEC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0988D75F473379E6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:drill"
+					}
+					type: "item"
+				}
+				{
+					id: "7DDA49799EE5E2B6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:drillhead_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AFBE29BB6CC2C0D"]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:buzzsaw"
+			}
+			id: "0D12560C7131D6BF"
+			rewards: [
+				{
+					id: "5A2F9497B2B578D9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6134FD41F83D8C38"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C1A28F58AC9F86F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:buzzsaw"
+					}
+					type: "item"
+				}
+				{
+					id: "08134AA685F34D8F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sawblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D12560C7131D6BF"]
+			id: "23F3A1E0FF956C20"
+			rewards: [
+				{
+					id: "134F8F0BD31A6424"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C6E5BF871D706D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F8B4C81C09371F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rockcutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AE4CDC66BC9506C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:grindingdisk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Better Sawblade"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BEC1C688BC24782"]
+			id: "5B59588EE09FBC5A"
+			rewards: [
+				{
+					id: "103ECF728B2A2E5E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66B7D53057D01914"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Better Drill Head"
+			tasks: [{
+				id: "6DB9BA694153F655"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:drillhead_steel"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06E5134C2F756BED"]
+			id: "19735588D10C4BFB"
+			rewards: [
+				{
+					id: "0F9A785ED042A139"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A3048EBA4C6B42A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EF32F6E9D5A5A57"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: 4.107142857142854d
+			y: -0.8571428571428541d
+		}
+		{
+			dependencies: ["1AFBE29BB6CC2C0D"]
+			id: "06E5134C2F756BED"
+			rewards: [
+				{
+					id: "6622EAC4729BA05B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DA2ACA8A546494F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49DFC523481A07D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 2.9285714285714306d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06E5134C2F756BED"]
+			id: "0FFFB0B253579F80"
+			rewards: [
+				{
+					id: "6258E914FC8E6A89"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D5A2EB99039727A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "145668DEB38D3FB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:chemthrower"
+				}
+				type: "item"
+			}]
+			x: 2.607142857142854d
+			y: -0.3571428571428541d
+		}
+		{
+			dependencies: ["0FFFB0B253579F80"]
+			id: "7F21CEDBB09A9FD5"
+			rewards: [
+				{
+					id: "0FCF8E6BBEE64A8D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C6E4E45D2D1D5B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "311C5E5F013D1FBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:turret_chem"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.6785714285714235d
+		}
+		{
+			dependencies: ["19735588D10C4BFB"]
+			id: "7DDD4F4DE84653F0"
+			rewards: [
+				{
+					id: "78A1BC6512F811ED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E7D32160B754939"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53F42326EBE0CBEB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:turret_gun"
+				}
+				type: "item"
+			}]
+			x: 4.9285714285714235d
+			y: -0.1785714285714306d
+		}
+		{
+			dependencies: [
+				"6BEC1C688BC24782"
+				"0D12560C7131D6BF"
+			]
+			id: "2E91AD00CF0B2D44"
+			rewards: [
+				{
+					id: "2A4C29309E76F406"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2EFE8A7301006287"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E5DE28DC7CD1E4B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_drill_waterproof"
+					}
+					type: "item"
+				}
+				{
+					id: "6409BD4DB50A8E88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_drill_capacity"
+					}
+					type: "item"
+				}
+				{
+					id: "69B73AB77BB8C1A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_drill_fortune"
+					}
+					type: "item"
+				}
+				{
+					id: "39B195F0EE5F4D92"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_drill_lube"
+					}
+					type: "item"
+				}
+				{
+					id: "0E14950290E0A950"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_drill_damage"
+					}
+					type: "item"
+				}
+				{
+					id: "16EBF9AFB0BAF4FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+					}
+					type: "item"
+				}
+			]
+			title: "Mining Drill \\& Buzzsaw's Upgrades"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06E5134C2F756BED"]
+			id: "5A040E75321F8E80"
+			rewards: [
+				{
+					id: "03A23C27629AA0F4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04DEBFE8FF3475B9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "300EFB1C23D088AA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_revolver_bayonet"
+					}
+					type: "item"
+				}
+				{
+					id: "7D629B70E039330C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_revolver_magazine"
+					}
+					type: "item"
+				}
+				{
+					id: "276405C4342739CE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_chemthrower_focus"
+					}
+					type: "item"
+				}
+				{
+					id: "695FA6927C3B6A0E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_railgun_scope"
+					}
+					type: "item"
+				}
+				{
+					id: "319C3E250764C4DC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_railgun_capacitors"
+					}
+					type: "item"
+				}
+				{
+					id: "630E34814EE43AB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_shield_shock"
+					}
+					type: "item"
+				}
+				{
+					id: "5FA23803A71D7002"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_chemthrower_multitank"
+					}
+					type: "item"
+				}
+				{
+					id: "33DFF7B3017367C4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:toolupgrade_shield_flash"
+					}
+					type: "item"
+				}
+			]
+			title: "Weapon Upgrades"
+			x: 3.6785714285714235d
+			y: 0.1428571428571388d
+		}
+		{
+			dependencies: ["566C0FA15F2021F1"]
+			id: "7E4D6AC50193B3E2"
+			rewards: [
+				{
+					id: "0A45B32C456F2B28"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45B46EE9893F2018"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "1E31004C15EEB8D8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:armor_steel_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54E8A9529757690D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:armor_steel_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C7256380E65F3A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:armor_steel_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19CB6A6222BE118C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:armor_steel_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Armor"
+			x: -10.2d
+			y: -5.3999999999999995d
+		}
+		{
+			dependencies: ["39C8CD6102B26BFE"]
+			id: "575039EFF672065E"
+			rewards: [
+				{
+					id: "768F83B02C9DF9B9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5035236F6A80DDB7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "01A5CEF736EBEACB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:electron_tube"
+				}
+				type: "item"
+			}]
+			title: "Vacuum Tube"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["575039EFF672065E"]
+			id: "5A53ADA9B9BFDCBD"
+			rewards: [
+				{
+					id: "7C15C6C1BA2BAA4E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E042F857A5D37E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "641206CF70FBB845"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "immersiveengineering:component_electronic_adv"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DCDA89DA49A8EF0"]
+			description: [
+				"The &6Bottling Machine&r is a &o&b3x2x3&r multiblock used to fill &o&bliquid into containers&r."
+				""
+				"After it is fully arranged, &eRight-clicking&r the middle &cConveyor Belt&r with an &dEngineer's Hammer&r will complete the multiblock structure. The direction of the &cconveyors&r is &nimportant&r. "
+				""
+				"The machine can store &o&b8&r buckets of &9fluid&r, which is input through the ports on the &o&bmetal tank&r. &eEnergy&r is input through the &o&bconnection&r at the &ntop&r of the opposing side."
+				""
+				"Generally, the &6Bottling Machine&r will be able to fill &o&bany container&r that has a &o&bfilled version available&r (&7bucket&r, &bglass bottle&r). It will also accept other items that can store &9fluids&r, like the &2Mining Drill&r or a &3Jerrycan&r. "
+				""
+				"The machine will &nhold&r onto a container until it is &ncompletely full&r, or the machine is not being supplied with &o&bany more fluid&r. This allows it to fill even &o&blarger containers&r, provided it receives a &o&bsteady input of fluid&r. This behavior can be &ndisabled&r by &eShift+Right-clicking&r it with an &dEngineer's Hammer&r."
+			]
+			icon: "immersiveengineering:bottling_machine"
+			id: "57175CF690ADCCBE"
+			min_width: 500
+			rewards: [
+				{
+					id: "7D8100A6CCB1B1D4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56CD06E1F6278B7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7C0EF5DBD0285D10"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:sheetmetal_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "373166722786E515"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+				{
+					id: "4DC7DC7F9C0C854D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71BE95CA2FFE0380"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "09C8C5883DAD9E57"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:conveyor_basic"
+					}
+					type: "item"
+				}
+				{
+					id: "623EA6E58C484FD0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fluid_pump"
+					}
+					type: "item"
+				}
+			]
+			title: "&aBottling Machine"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["575039EFF672065E"]
+			id: "03C417DE427BC2BA"
+			rewards: [
+				{
+					id: "2AD210382198F968"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "72F5F09F56B4C615"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13798F0E86577AB2"
+				item: "immersiveengineering:toolupgrade_revolver_electro"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B3E0CA28670D860"]
+			id: "4E4A8825B02F665B"
+			rewards: [
+				{
+					id: "44411D621F4B80EF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5AA1CE56352FDFBE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "729E0A206A9B8B50"
+				item: "immersiveengineering:connector_bundled"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["612BB1D116F3B1A9"]
+			id: "1B3E0CA28670D860"
+			rewards: [
+				{
+					id: "2093BB669FBFAFA2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B29C67B389C636E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3AC3EF56D31085A4"
+				item: "immersiveengineering:connector_redstone"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+	]
+	title: "&2&oImmersive Engineering"
+}

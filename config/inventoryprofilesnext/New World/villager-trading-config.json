@@ -1,0 +1,62 @@
+{
+    "globalBookmarks": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ],
+        "___+++___ wandering ___+++___": [
+        ],
+        "woodworker": [
+        ]
+    },
+    "globalBookmarks1": {
+        "___+++___ wandering ___+++___": [
+        ],
+        "cleric": [
+        ],
+        "woodworker": [
+        ],
+        "fisherman": [
+        ],
+        "shepherd": [
+        ]
+    },
+    "globalBookmarks2": {
+        "___+++___ wandering ___+++___": [
+        ],
+        "cleric": [
+        ],
+        "woodworker": [
+        ],
+        "fisherman": [
+        ],
+        "shepherd": [
+        ]
+    }
+}

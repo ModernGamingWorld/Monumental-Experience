@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "2969F58CC6EA9A10", title: "&b&l&oChallenges" }
+		{ id: "62AD16E73710A992", title: "&9&l&oEnergy" }
+		{ id: "5271FC3947DEACC8", title: "&9&l&oFarming" }
+		{ id: "33C9D311E461F30C", title: "&9&l&oFood" }
+		{ id: "68BD27E8D0136E3E", title: "&9&l&oMisc" }
+		{ id: "4814F40AB34427B6", title: "&9&l&oMagic" }
+		{ id: "6B2D545E7A3D7242", title: "&9&l&oMobs" }
+		{ id: "7E54189F6BA49858", title: "&9&l&oStorage" }
+		{ id: "4E2A2310634498BA", title: "&9&l&oTools" }
+		{ id: "69B9F7247002FE35", title: "&9&l&oTechnology" }
+		{ id: "09A82B0D5D5E7906", title: "&9&l&oTravel Across Dimensions" }
+	]
+}

@@ -1,0 +1,54 @@
+#Configure Mutant More's Blazing Scimitar on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# If the Blazing Scimitar's Fire Slashes set blocks they collide with on fire
+# usually set to false
+"Fire Slash Griefing" = false
+#
+# The cooldown in ticks (20 ticks in a second) that is applied to the Blazing Scimitar when shooting a Fire Slash
+# usually set to 30 ticks (1.5 seconds)
+"Shoot Fire Slash Speed" = 30
+#
+# The cooldown in ticks (20 ticks in a second) that is applied to the Blazing Scimitar when shooting a Fire Slash if the player holding it is wearing the entire set of Mutant Wither Skeleton Armour
+# usually set to 10 ticks (0.5 seconds)
+"Fully Armoured Shoot Fire Slash Speed" = 10
+#
+# The amount of durability used when shooting a Fire Slash using a Blazing Scimitar
+# usually set to 5
+"Shoot Fire Slash Durability Consumption" = 5
+#
+# The damage that the Blazing Scimitar's Fire Slashes deal
+# usually set to 5.0
+"Fire Slash Damage" = 5.0
+#
+# The amount of time in seconds that mobs are set on fire for when hit by the Blazing Scimitar's Fire Slash
+# usually set to 5 seconds
+"Fire Slash Set Mob On Fire Length" = 5
+#
+# The amount of health healed when defeating a mob using a Blazing Scimitar if the player holding it is wearing the entire set of Mutant Wither Skeleton Armour
+# usually set to 2.0
+"Health Leech Amount" = 2.0
+#
+# The amount of time in ticks (20 ticks in a second) that a mob hurt by a Blazing Scimitar is withered for if the player holding it is wearing the entire set of Mutant Wither Skeleton Armour
+# usually set to 60 ticks (3 seconds)
+"Wither Mobs Length" = 60
+#
+# The level of the Wither effect applied to a mob hurt by a Blazing Scimitar if the player holding it is wearing the entire set of Mutant Wither Skeleton Armour
+# usually set to 0 (Wither 1)
+"Wither Mobs Level" = 0
+#
+# The Blazing Scimitar's durability
+# usually set to 175
+Durability = 175
+#
+# The Blazing Scimitar's attack speed
+# usually set to -2.6F
+"Attack Speed" = -2.6
+#
+# The Blazing Scimitar's attack damage
+# usually set to 6.0
+"Attack Damage" = 6.0
+#
+# The Blazing Scimitar's enchantment value
+# usually set to 15
+"Enchantment Value" = 15
+

@@ -1,0 +1,13 @@
+
+[general]
+	#Allowed Container Types
+	containers = ["minecraft:crafting", "fastbench:fastbench"]
+	#Enable integration with Cursed Earth
+	"cursed earth integration" = true
+	#Time before explosion in ticks
+	#Range: > 1
+	timer = 150
+	#Number of uses when charged
+	#Range: > 1
+	uses = 256
+

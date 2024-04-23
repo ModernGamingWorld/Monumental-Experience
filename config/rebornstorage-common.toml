@@ -1,0 +1,43 @@
+
+#General Settings
+[general]
+	#Power requirement for Frame blocks
+	#Range: 0 ~ 1000
+	multiblock_crafter_frame_cost = 0
+	#Power requirement for Heat exchanger blocks
+	#Range: 0 ~ 1000
+	multiblock_crafter_heat_cost = 0
+	#Power requirement for Crafting Cpu blocks
+	#Range: 0 ~ 1000
+	multiblock_crafter_cpu_cost = 5
+	#Power requirement for Storage blocks
+	#Range: 0 ~ 1000
+	multiblock_crafter_storage_cost = 10
+
+#Multiblock Settings
+[multiblock]
+	#Maximum X size
+	#Range: 3 ~ 64
+	multiblock_crafter_max_x = 16
+	#Maximum Y size
+	#Range: 3 ~ 64
+	multiblock_crafter_max_y = 16
+	#Maximum Z size
+	#Range: 3 ~ 64
+	multiblock_crafter_max_z = 16
+	#Maximum X size
+	#Range: 3 ~ 64
+	multiblock_crafter_min_x = 3
+	#Maximum Y size
+	#Range: 3 ~ 64
+	multiblock_crafter_min_y = 3
+	#Maximum Z size
+	#Range: 3 ~ 64
+	multiblock_crafter_min_z = 3
+	#Range: > 0
+	advanced_wireless_transmitter_range = 1000
+	#Range: 0 ~ 100000
+	advanced_wireless_transmitter_cost = 100
+	#Range: 0 ~ 100000
+	advanced_wireless_transmitter_range_booster_range = 500
+

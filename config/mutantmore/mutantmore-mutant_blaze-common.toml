@@ -1,0 +1,361 @@
+
+#Configure Mutant More's Mutant Blaze on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+# 
+# Stat Options:
+[stat_config]
+	#
+	# The amount of Experience dropped by the Mutant Blaze when it dies
+	# usually set to 50
+	"Experience Reward" = 50
+	#
+	# The Mutant Blaze's max health
+	# usually set to 300
+	"Max Health" = 300.0
+	#
+	# The Mutant Blaze's movement speed
+	# usually set to 0.25
+	"Movement Speed" = 0.25
+	#
+	# The speed of the Mutant Blaze's strafing while it flies
+	# usually set to 0.2
+	"Flying Strafe Speed" = 0.2
+	#
+	# The speed that the Mutant Blaze changes direction while strafing
+	# usually set to 0.004
+	"Flying Strafe Direction Change Speed" = 0.004
+	#
+	# The speed that the Mutant Blaze follows its target while flying
+	# usually set to 0.25
+	"Flying Movement Speed" = 0.25
+	#
+	# The speed that the Mutant Blaze moves vertically while flying
+	# usually set to 0.1
+	"Flying Vertical Speed" = 0.1
+	#
+	# The Mutant Blaze's resistance to attack knockback
+	# usually set to 1.0 (no knockback)
+	"Knockback Resistance" = 1.0
+	#
+	# The Mutant Blaze's armour value
+	# usually set to 10.0
+	Armour = 10.0
+	#
+	# The Mutant Blaze's armour toughness value
+	# usually set to 0.0
+	"Armour Toughness" = 0.0
+	#
+	# The distance that the Mutant Blaze can target players from
+	# usually set to 64.0
+	"Follow Player Distance" = 64.0
+	#
+	# The distance that the Mutant Blaze can target non-player entities from
+	# usually set to 25.0
+	"Follow Non-Player Distance" = 25.0
+	#
+	# The damage that the Mutant Blaze's fireballs deal
+	# usually set to 12.0
+	"Fireball Damage" = 12.0
+	#
+	# The damage dealt to mobs caught in an explosion created by one of the Mutant Blaze's fireballs
+	# usually set to 10.0
+	"Fireball Explosion Damage" = 10.0
+	#
+	# The radius of the explosions created by the Mutant Blaze's fireballs
+	# usually set to 3.0
+	"Fireball Explosion Radius" = 3.0
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by one of the Mutant Blaze's fireballs
+	# usually set to 5 seconds
+	"Fireball Set Mob On Fire Length" = 5
+	#
+	# The damage that the Mutant Blaze's rod projectiles deal
+	# usually set to 4.0
+	"Rod Damage" = 4.0
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by one of the Mutant Blaze's rod projectiles
+	# usually set to 3 seconds
+	"Rod Set Mob On Fire Length" = 3
+	#
+	# If the Mutant Blaze gets stunned briefly when directly hit by one of its own fireballs
+	# usually set to true
+	Stunnable = true
+	#
+	# The damage dealt by the Mutant Blaze's shockwave attack, performed after it has been stunned
+	# usually set to 20.0
+	"Stun Shockwave Damage" = 20.0
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by the Mutant Blaze's shockwave attack, performed after it has been stunned
+	# usually set to 7 seconds
+	"Stun Shockwave Set Mob On Fire Length" = 7
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Blaze disables mobs' shields for if they block its shockwave attack, performed after it has been stunned
+	# usually set to 100 ticks (5 seconds)
+	"Stun Shockwave Disable Shield Length" = 100
+	#
+	# The area around the Mutant Blaze that it can harm mobs in when using its shockwave attack, performed after it has been stunned
+	# usually set to 7.5
+	"Stun Shockwave Area" = 7.5
+	#
+	# If the Mutant Blaze's attacks ignore the brief invulnerability mobs get when damaged
+	# Makes sure the Mutant Blaze's attacks always hit when they're supposed to
+	# usually set to true
+	"Ignores Invulnerability Time" = true
+	#
+	# The amount of time in ticks (20 ticks in a second) that it takes for the Mutant Blaze to regenerate a broken shield
+	# usually set to 200 ticks (10 seconds)
+	"Shield Regenerate Time" = 200
+
+#
+# 
+# AI Options:
+[ai_config]
+	#
+	# If the Mutant Blaze uses its fireball attack
+	# usually set to true
+	"Uses Fireball Attack" = true
+	#
+	# If the Mutant Blaze uses its rod shot attack
+	# usually set to true
+	"Uses Rod Shot Attack" = true
+	#
+	# If the Mutant Blaze uses its flight ability
+	# usually set to true
+	"Uses Flight Ability" = true
+	#
+	# If the Mutant Blaze avoids and tries to escape areas where it is forced to crouch (which would prevent it from flying)
+	# usually set to true
+	"Avoids Corridors" = true
+	#
+	# If the Mutant Blaze tries to run away from its target if they get too close to it
+	# usually set to true
+	"Avoids Target" = true
+	#
+	# The maximum distance from its target that the Mutant Blaze can be to run away from them
+	# usually set to 10.0
+	"Avoid Target Maximum Range" = 10.0
+	#
+	# The minimum distance from its target that the Mutant Blaze can be to stop running away from them
+	# usually set to 15.0
+	"Stop Avoiding Target Minimum Distance" = 15.0
+	#
+	# The amount that the Mutant Blaze's movement speed is multiplied when it's running away from its target
+	# usually set to 1.35
+	"Avoid Target Movement Speed Multiplier" = 1.35
+	#
+	# The amount that the Mutant Blaze's movement speed is multiplied when it's trying to escape an area where it is forced to crouch
+	# usually set to 1.5
+	"Flee Corridors Movement Speed Multiplier" = 1.5
+	#
+	# If the Mutant Blaze attacks players
+	# usually set to true
+	"Attacks Players" = true
+	#
+	# The amount that the Mutant Blaze's movement speed is multiplied when it's pursuing a target
+	# usually set to 1.35
+	"Following Movement Speed Multiplier" = 1.35
+	#
+	# The distance to its target that the Mutant Blaze tries to reach
+	# usually set to 20.0
+	"Follow Target Wanted Distance" = 20.0
+	#
+	# The percentage of max health that the Mutant Blaze must be at or below to start flying
+	# usually set to 50%
+	"Flight Health Threshold" = 50
+	#
+	# The distance below its target that the Mutant Blaze must be to start flying regardless of its health
+	# usually set to 10.0 blocks below its target
+	"Flight Below Target Start Distance" = 10.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Blaze can fly for before attempting to land
+	# usually set to 300 ticks (15 seconds)
+	"Stop Flying Time" = 300
+	#
+	# The height above its target or desired landing spot that the Mutant Blaze flys at
+	# usually set to 2.0
+	"Flight Height" = 2.0
+	#
+	# The horizontal area that the Mutant Blaze searches for a valid landing spot in
+	# usually set to 15
+	"Flight Land Search Range Horizontal" = 15
+	#
+	# The vertical area that the Mutant Blaze searches for a valid landing spot in
+	# usually set to 10
+	"Flight Land Search Range Vertical" = 10
+	#
+	# The minimum distance from its target that the Mutant Blaze must be to start approaching its target while flying
+	# usually set to 20.0
+	"Flight Approach Target Minimum Distance" = 20.0
+	#
+	# The maximum distance from its target that the Mutant Blaze must be to start avoiding its target while flying
+	# usually set to 15.0
+	"Flight Avoid Target Maximum Distance" = 15.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that must pass after flying before the Mutant Blaze can start to fly again
+	# usually set to 400 ticks (20 seconds)
+	"Flight Cooldown" = 400
+	#
+	# The percentage of max health that the Mutant Blaze must be at or below to shoot 2 extra fireballs
+	# usually set to 75%
+	"Shoot Extra Fireballs Health Threshold 1" = 75
+	#
+	# The percentage of max health that the Mutant Blaze must be at or below to shoot another 2 extra fireballs
+	# usually set to 50%
+	"Shoot Extra Fireballs Health Threshold 2" = 50
+	#
+	# The amount of time in ticks (20 ticks in a second) that must pass after shooting a fireball before the Mutant Blaze can shoot again
+	# usually set to 100 ticks (5 seconds)
+	"Shoot Cooldown" = 100
+	#
+	# The amount of time in ticks (20 ticks in a second) that must pass after using the rod shot attack before the Mutant Blaze can use rod shot again
+	# usually set to 600 ticks (30 seconds)
+	"Rod Shot Cooldown" = 600
+	#
+	# The maximum amount of hostile Rodlings that can be nearby for the Mutant Blaze to be able to shoot Rodlings while using its rod shot attack
+	# usually set to 1
+	"Rodling Shot Maximum Nearby Rodlings" = 1
+	#
+	# The amount of Rodlings shot by the Mutant Blaze when using its rod shot attack
+	# usually set to 2
+	"Rodling Shot Rodling Amount" = 2
+	#
+	# The percentage of max health that the Mutant Blaze must be at or below to have a chance of shooting armoured Rodlings when using its rod shot attack
+	# usually set to 50%
+	"Rodling Shot Armoured Rodlings Health Threshold" = 50
+	#
+	# The percentage of max health that the Mutant Blaze must be at or below to have a chance of shooting shielded Rodlings when using its rod shot attack
+	# usually set to 25%
+	"Rodling Shot Shielded Rodlings Health Threshold" = 25
+	#
+	# The chance in percent that the Mutant Blaze will shoot an armoured Rodling when using it's rod shot attack when below a certain amount of health
+	# usually set to 50%
+	"Rodling Shot Shoot Armoured Rodlings Chance" = 50
+	#
+	# The chance in percent that the Mutant Blaze will shoot a shielded Rodling when using it's rod shot attack when below a certain amount of health
+	# usually set to 50%
+	"Rodling Shot Shoot Shielded Rodlings Chance" = 50
+
+#
+# 
+# Death Options:
+[death_config]
+	#
+	# If the Mutant Blaze explodes into its parts upon death
+	# setting to false will make it drop the loot from loot table data/mutantmore/loot_tables/entities/mutant_blaze_part in addition to its regular loot
+	# usually set to true
+	"Explode Into Parts" = true
+	#
+	# If the parts the Mutant Blaze explodes into upon death have a glowing effect, making them easier to find, lowers immersion
+	# usually set to false
+	"Parts Glow" = false
+	#
+	# The damage that the parts the Mutant Blaze explodes into upon death deal when colliding with an entity
+	# usually set to 8.0
+	"Part Collision Damage" = 8.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the parts the Mutant Blaze explodes into upon death wither mobs they collide with for
+	# usually set to 150 ticks (7.5 seconds)
+	"Part Collision Set Mob On Fire Length" = 150
+	#
+	# The amount of time in ticks (20 ticks in a second) that the parts the Mutant Blaze explodes into upon death persist for before despawning
+	# usually set to 6000 ticks (5 minutes)
+	"Part Persist Length" = 6000
+	#
+	# The amount of parts that the Mutant Blaze explodes into upon death
+	# usually set to 32
+	"Part Amount" = 32
+	#
+	# The amount of parts that the Mutant Blaze explodes into upon death that are replaced by tamable Rodlings
+	# usually set to 1
+	"Rodling Part Amount" = 1
+
+#
+# 
+# Griefing Options:
+[griefing_config]
+	#
+	# If the Mutant Blaze breaks certain types of blocks it walks into, helps with pathfinding
+	# usually set to true
+	"Walk Griefing" = true
+	#
+	# If blocks the Mutant Blaze breaks by walking drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Walk Griefing Drops Blocks" = false
+	#
+	# If the Mutant Blaze's fireballs break blocks when they explode
+	# usually set to true
+	"Fireball Griefing" = true
+	#
+	# If blocks the Mutant Blaze's fireballs break when exploding drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Fireball Griefing Drops Blocks" = false
+	#
+	# If the Mutant Blaze's fireballs create fire when they explode
+	# usually set to true
+	"Fireball Explosion Fire" = true
+	#
+	# If the Mutant Blaze's rod projectiles break blocks that they collide with
+	# usually set to true
+	"Rod Griefing" = true
+	#
+	# If blocks the Mutant Blaze's rod projectiles break on collision drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Rod Griefing Drops Blocks" = false
+	#
+	# If the Mutant Blaze's rod projectiles set fire to blocks they hit
+	# usually set to true
+	"Rod Fire" = true
+	#
+	# If the Mutant Blaze sets nearby blocks on fire
+	# usually set to true
+	"Heat Griefing" = true
+	#
+	# The chance per tick (20 ticks in a second) that the Mutant Blaze will try to set a nearby block on fire
+	# usually set to 1 in 20
+	"Heat Griefing Chance" = 20
+	#
+	# If the Mutant Blaze breaks blocks around it after getting hurt, similarly to the Wither, helps prevent cheesing
+	# usually set to true
+	"Hurt Griefing" = true
+	#
+	# If blocks the Mutant Blaze breaks after getting hurt drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Hurt Griefing Drops Blocks" = true
+
+#
+# 
+# Heat Options:
+[heat_config]
+	#
+	# The horizontal distance to the Mutant Blaze mobs need to be to start heating up
+	# usually set to 10.0
+	"Heat Range" = 10.0
+	#
+	# The vertical distance to the Mutant Blaze mobs need to be to start heating up
+	# usually set to 5.0
+	"Heat Range Y" = 5.0
+	#
+	# The amount per tick (there are 20 ticks per second) that mobs heat up when near the Mutant Blaze
+	# usually set to 0.005
+	"Heat Speed" = 0.005
+	#
+	# If the Mutant Blaze can heat and damage mobs that are immune to fire
+	# usually set to false
+	"Heats Fire Immune Mobs" = false
+
+#
+# 
+# Spawn Options:
+[spawn_config]
+	#
+	# If the Mutant Blaze naturally despawnsNot recommended unless Spawns Naturally is set to true
+	# usually set to false
+	Despawns = false
+	#
+	# If a Blaze has a chance to be replaced by a Mutant Blaze when spawning
+	# usually set to false
+	"Spawns Naturally" = false
+	#
+	# How often a Blaze is replaced by a Mutant Blaze when spawning
+	# usually set to 1 in 100
+	"Natural Spawn Chance" = 100
+

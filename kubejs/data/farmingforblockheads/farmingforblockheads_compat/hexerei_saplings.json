@@ -1,0 +1,20 @@
+{
+  "modId": "hexerei",
+  "silent": true,
+  "group": {
+    "name": "Hexerei Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "hexerei:book_of_shadows"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "hexerei:mahogany_sapling"
+    },
+    {
+      "output": "hexerei:mahogany_sapling"
+    }
+  ]
+}

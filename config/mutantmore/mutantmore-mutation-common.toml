@@ -1,0 +1,40 @@
+#Configure Mutant More's mutations on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The chance (in percent) that Formula Y will successfully mutate a mob
+# usually set to 10%
+#Range: 0 ~ 100
+"Formula Y Mutate Chance" = 10
+#
+# The chance (in percent) that Compound Z will successfully mutate a mob
+# usually set to 100%
+#Range: 0 ~ 100
+"Compound Z Mutate Chance" = 100
+#
+# The speed that a Mutation Cloud spawned by Formula Y follows its target at
+# usually set to 0.2
+"Formula Y Cloud Movement Speed" = 0.2
+#
+# The speed that a Mutation Cloud spawned by Compound Z follows its target at
+# usually set to 0.4
+"Compound Z Cloud Movement Speed" = 0.4
+#
+# The horizontal area that Mutation Clouds search for mobs to mutate in
+# usually set to 12.0
+"Mutation Cloud Search Range" = 12.0
+#
+# The vertical area that Mutation Clouds search for mobs to mutate in
+# usually set to 6.0
+"Mutation Cloud Search Range Y" = 6.0
+#
+# If the mutation process should behave more similarly to in Mutant Creatures and Mutant Beasts
+# usually set to false
+"Classic Mutations" = false
+#
+# The minimum amount of time in ticks (20 ticks in a second) that the classic mutation process can take
+# usually set to 100 ticks (5 seconds)
+"Classic Mutation Minimum Time" = 100
+#
+# The maximum amount of time in ticks (20 ticks in a second) that the classic mutation process can take
+# usually set to 300 ticks (15 seconds)
+"Classic Mutation Maximum Time" = 300
+

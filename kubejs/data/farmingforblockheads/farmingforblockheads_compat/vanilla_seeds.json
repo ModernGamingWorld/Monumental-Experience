@@ -1,0 +1,26 @@
+{
+  "modId": "minecraft",
+  "silent": true,
+  "group": {
+    "name": "Vanilla Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:wheat_seeds"
+    },
+    {
+      "output": "minecraft:melon_seeds"
+    },
+    {
+      "output": "minecraft:pumpkin_seeds"
+    },
+    {
+      "output": "minecraft:beetroot_seeds"
+    }
+  ]
+}

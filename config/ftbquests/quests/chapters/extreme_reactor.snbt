@@ -1,0 +1,1222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactor"
+	group: "62AD16E73710A992"
+	icon: "bigreactors:basic_reactorcasing"
+	id: "0000000000001F70"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			id: "0000000000001F71"
+			rewards: [
+				{
+					id: "07A0AD71CEE85512"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FA945C18C395933"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [
+				{
+					count: 16L
+					id: "0000000000001F72"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/graphite"
+						}
+					}
+					title: "Any #forge:ingots/graphite"
+					type: "item"
+				}
+				{
+					id: "587AC38544F8AB11"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Graphite and Book"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F71"]
+			id: "0000000000001F73"
+			rewards: [
+				{
+					id: "64B9C4100DF1621B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5592BA613ADACE7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F74"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "0000000000001F77"
+			rewards: [
+				{
+					id: "7461BF2E08432DA3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "601E9B1F9B7F2135"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F78"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "0000000000001F79"
+			rewards: [
+				{
+					id: "2898E191E38708BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21F5A308B13D870C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F7A"
+				item: "bigreactors:basic_reactorcontrolrod"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "0000000000001F7B"
+			rewards: [
+				{
+					id: "038CC66D4C397422"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "580C63BCA9799E30"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F7C"
+				item: "bigreactors:basic_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "0000000000001F7D"
+			rewards: [
+				{
+					id: "3AFC58AAE0E6B3E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "450B8623654C3F8C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7C3EAFF297B63C64"
+				item: "bigreactors:basic_reactorpowertapfe_passive"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0000000000001F8F"]
+			id: "0000000000001F8D"
+			rewards: [
+				{
+					id: "354FE3E5C12831EF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2800B3ACD668173D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F8E"
+				item: "bigreactors:basic_turbinecasing"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0000000000001F71"]
+			id: "0000000000001F8F"
+			rewards: [
+				{
+					id: "594DEA26EF0AB9D4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E0AD8D9A0505949"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F90"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/cyanite"
+					}
+				}
+				title: "Any #forge:ingots/cyanite"
+				type: "item"
+			}]
+			title: "Cyanite"
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "0000000000001F96"
+			rewards: [
+				{
+					id: "01F2196EB3024E32"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6269ED3349353B68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "0000000000001F98"
+				item: "bigreactors:basic_turbinerotorblade"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "0000000000001F9B"
+			rewards: [
+				{
+					id: "29D3DB839ED2A2B7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21ED0D09ADCC8A02"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001F9C"
+				item: "bigreactors:basic_turbinerotorbearing"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "0000000000001FA1"
+			rewards: [
+				{
+					id: "0770AC8A02F4B0DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C1474B09E7EAD35"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "59EBF52F809D195F"
+				item: "bigreactors:basic_turbinepowertapfe_passive"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0000000000001F71"]
+			id: "2CE7F5DF4186E56E"
+			rewards: [
+				{
+					id: "0B6C496258000B98"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49F078ED7C84D1A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "66A63B1572DE93C6"
+				item: "bigreactors:basic_reactorfuelrod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0000000000001F71"]
+			id: "1A343A075606AF7A"
+			rewards: [
+				{
+					id: "1B20FE0619C20D2E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36C7775E571643F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "574AFA19148550B8"
+				item: "bigreactors:reinforced_reactorcasing"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "779EFB856BF05CB9"
+			rewards: [
+				{
+					id: "3FD2B43E267F5654"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E3B4FD4D96F2F93"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "41FAC493FDC483C8"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "147EB90EF39D4DD2"
+			rewards: [
+				{
+					id: "6F001BD18A1B6983"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "329DC31ED96E0D90"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "09F377D323378A91"
+				item: "bigreactors:reinforced_reactorglass"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "6EFC3BB7A4761D2D"
+			rewards: [
+				{
+					id: "30C2DB74D5412DC0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2472792E40120CB9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0A1C96A79A78D580"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0000000000001F8F"]
+			id: "64F10D8E7E3F254D"
+			rewards: [
+				{
+					id: "3D8B53950990DD66"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C65F9E33B7BBB0D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "63ACABE22694EDAE"
+				item: "bigreactors:reinforced_turbinecasing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "76A70AF5E5261C0D"
+			rewards: [
+				{
+					id: "1760623C973C515F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C5BBC8BF4199C25"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "590963311F5615F8"
+				item: "bigreactors:reinforced_turbineglass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "0417E05A0BF420C4"
+			rewards: [
+				{
+					id: "659825241C5BF4A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F4511B9993C60DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4963E4EB8FFEA861"
+				item: "bigreactors:reinforced_turbinecontroller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "2DB17B55615AD4D3"
+			rewards: [
+				{
+					id: "4719025E3F83CE4D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1CFBE5BFEB444B57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4DD6C793C1F4C232"
+				item: "bigreactors:reinforced_turbinerotorbearing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "5BFADD93D0650AEE"
+			rewards: [
+				{
+					id: "0AB1D85C906949D7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7FB8422C7EC05358"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "686A11673655AEBD"
+				item: "bigreactors:reinforced_turbinerotorblade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "367D8E5BB1E05EBD"
+			rewards: [
+				{
+					id: "1966E7CFC951A0BE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13016D64B12399B4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "52319CFB7650E550"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "2FB2D80861312E73"
+			rewards: [
+				{
+					id: "43F0D2FB5B5DA444"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F4AD7A615842F07"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2082E85E97469971"
+				item: "bigreactors:reinforced_reactorcomputerport"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "10DC957F4A6DBDB0"
+			rewards: [
+				{
+					id: "6807FA6CB7F204FE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B1699AFBF72648D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "64B910CB45D33898"
+				item: "bigreactors:reinforced_reactorredstoneport"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "1317F5067CAECF1B"
+			rewards: [
+				{
+					id: "60C646CB6C679682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "687577EA1927ED9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4D9E516A9AAB0F14"
+					item: "bigreactors:reinforced_reactorfluidport_forge_active"
+					type: "item"
+				}
+				{
+					id: "62ACD5D31AFD2411"
+					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
+					type: "item"
+				}
+				{
+					id: "36CC6484768F756E"
+					item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A343A075606AF7A"]
+			id: "3DFDA3D16A1E598C"
+			rewards: [
+				{
+					id: "502BC5CB29B84BE2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B5ABBA90754BB7F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "28EE67DD41ECCF95"
+				item: "bigreactors:reinforced_reactorchargingportfe"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "4DEEA3A5673250AF"
+			rewards: [
+				{
+					id: "5388778A7EC0D384"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34B3129F156DF1AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "667C4BE7DA946C7B"
+				item: "bigreactors:basic_reactorredstoneport"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0000000000001F73"]
+			id: "0350691BD64E8EA7"
+			rewards: [
+				{
+					id: "6F2BDA3C6327B605"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "710472259F220CBB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4CBC2DDCC040784C"
+				item: "bigreactors:basic_reactorchargingportfe"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "60C197A1F6067304"
+			rewards: [
+				{
+					id: "7CFF119488292B76"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00858E7A7BB24617"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1CCFBD923ECF8BB7"
+				item: "bigreactors:reinforced_turbinepowertapfe_active"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "52C4759B97BA4435"
+			rewards: [
+				{
+					id: "0C89BF0E89590D0A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6129A6AAADA369AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3E36EFA9B0618D91"
+					item: "bigreactors:reinforced_turbinefluidport_forge_active"
+					type: "item"
+				}
+				{
+					id: "06AD9C62B17C7A08"
+					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "4BA217E1E1F79262"
+			rewards: [
+				{
+					id: "0F64607517ED60B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "563FBFBB4232D1DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "6760A5CC934009CF"
+				item: "bigreactors:basic_turbineglass"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "29E65331C0CEE6E1"
+			rewards: [
+				{
+					id: "75A9F82AC29F2388"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28F43B7228027EA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "680569D77AFF1D8D"
+					item: "bigreactors:basic_turbinefluidport_forge_passive"
+					type: "item"
+				}
+				{
+					id: "6182CE50ABFE4588"
+					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "6C400C9B26A2997C"
+			rewards: [
+				{
+					id: "03FAA92E87C10F18"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A2D6D32AEDF4489"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4BBB33BE89315DA9"
+				item: "bigreactors:reinforced_turbineredstoneport"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "255DBC58B15D7EF8"
+			rewards: [
+				{
+					id: "154166046DB9B1CC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66550413A4D3B757"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7CD096F7D6A6D74A"
+				item: "bigreactors:reinforced_turbineredstoneport"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["64F10D8E7E3F254D"]
+			id: "44BACDBD27122D62"
+			rewards: [
+				{
+					id: "337C81E055DFBB74"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "617E09163DDCCE83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1E35957A66014977"
+				item: "bigreactors:reinforced_turbinecomputerport"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0000000000001F8D"]
+			id: "3732D0AB31DB89C5"
+			rewards: [
+				{
+					id: "294D5EE8EA77CB15"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "631F9A7FFEA3E4D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "040192DB9056E048"
+				item: "bigreactors:basic_turbinechargingportfe"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 8.25d
+		}
+	]
+	title: "&2Extreme Reactors"
+}

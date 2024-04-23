@@ -1,0 +1,741 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: "4814F40AB34427B6"
+	icon: "psi:cad_assembler"
+	id: "401A2800884DF5AB"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -2.9642857142857153d
+		y: -9.687500000000004d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46F4F5E48985FAF7"]
+			description: [
+				"Psi is a magical tech spell programming mod inspired by Mahouka. Don't worry if that doesn't make any sense."
+				""
+				"The core of Psi is a system where you can create action sequences (\"Spells\") to be executed in the world."
+				""
+				"This system is followed by a leveling system containing ingame documentation and tutorials of the various concepts and pieces you'll get. The mod makes use of basic mathematical concepts, such as Vectors in its systems, which allows for great flexibility on what spells can do."
+				""
+				"To learn more abot the mod visit the &3YouTube Tutorial&r by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Psi Mod Showcase\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=NuGnAbZLIaQ\"}}"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "psi:encyclopaedia_psionica"
+				}
+			}
+			id: "2199E3F98CBE32D2"
+			min_width: 300
+			rewards: [
+				{
+					id: "476F4635BCB7DEAF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3612F76622B51E7B"
+					item: {
+						Count: 1b
+						id: "psi:spell_bullet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&oPulverizer&r quest*"
+			tasks: [{
+				id: "6535A1EE3A418236"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9PSI"
+			x: -3.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2199E3F98CBE32D2"]
+			id: "2E7BB8DDADBEC97C"
+			rewards: [
+				{
+					id: "2D23C36FE3BC927B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7A6F5718637249BE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2766C123B1264E62"
+				item: "psi:cad_assembly_iron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E7BB8DDADBEC97C"]
+			id: "3F9C610D103C09D6"
+			rewards: [
+				{
+					id: "1422EC50431CBA38"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "5C0E0AFBE64FB741"
+					item: "wfc:waffle"
+					type: "item"
+				}
+				{
+					id: "7B8933941200CA19"
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78B66E37835ADD18"
+				item: "psi:cad_assembler"
+				type: "item"
+			}]
+			title: "&9The CAD Assembler"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F9C610D103C09D6"]
+			id: "6586BB71EF1174BC"
+			rewards: [
+				{
+					id: "62EDB1EE7C9F8CD2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "18D6ED44454524DC"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "635010C12FFDD525"
+				item: "psi:programmer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["25125239A63BE73C"]
+			id: "5510D1C3EF2C5A2D"
+			rewards: [
+				{
+					id: "0A059EA6855BA575"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "119F7DBFC9171D55"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5CBFDB06075784B1"
+				item: "psi:cad_core_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2E7BB8DDADBEC97C"]
+			id: "25125239A63BE73C"
+			rewards: [
+				{
+					id: "7CBA376BF8764E9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "67B750FC8C1B32E2"
+					item: "psi:psidust"
+					type: "item"
+				}
+				{
+					id: "57C85C96568DAA29"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "19EC8354CD5CD140"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25125239A63BE73C"]
+			id: "096089F11EC6834B"
+			rewards: [
+				{
+					id: "691409B23CC2C66C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "799723492190E5E7"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4DB27354B42095F1"
+				item: "psi:cad_socket_basic"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25125239A63BE73C"]
+			id: "7235A2AD047464BA"
+			rewards: [
+				{
+					id: "18864FF886A405F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4C46DFE5D874FFF1"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3FB461BFB4857071"
+				item: "psi:cad_battery_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F9C610D103C09D6"]
+			id: "2BFC556EB2EEDEF7"
+			rewards: [
+				{
+					id: "5EF31DC9F0084520"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55C7A14EF66793AD"
+					type: "choice"
+				}
+				{
+					id: "5DB3B9B12DCF3C3E"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1BF22604D4818517"
+				item: "psi:cad_assembly_gold"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6586BB71EF1174BC"
+				"2BFC556EB2EEDEF7"
+			]
+			id: "0207849E69D27C5F"
+			rewards: [
+				{
+					id: "04C40B185358485E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E71FF69D370E52F"
+					item: "psi:psimetal"
+					type: "item"
+				}
+				{
+					id: "7C5B42136792AE6A"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "06B319E9D132D664"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0207849E69D27C5F"]
+			id: "1344DDBE83C21D84"
+			rewards: [
+				{
+					id: "34ADC0DAF35DBC20"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "74CB633428B8A2AA"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5176992000A89383"
+				item: "psi:cad_core_overclocked"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "0377A62C1E15B089"
+			rewards: [
+				{
+					id: "1B2067B736E4E434"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A8224F70BF57AE6"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "30A1F9D4E6B661CD"
+				item: "psi:cad_core_hyperclocked"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0207849E69D27C5F"]
+			id: "53D4DDE907CA29E7"
+			rewards: [
+				{
+					id: "427F6A147117560B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "3157F269654EEAC4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "217ED0DC288DBB0D"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "40B6CF78D33A024C"
+				item: "psi:cad_assembly_psimetal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0207849E69D27C5F"]
+			id: "4200C7C613B9D363"
+			rewards: [
+				{
+					id: "619810DD7FCBD9A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11CF0759A880646A"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2E2B6CB2E3C81D66"
+				item: "psi:cad_socket_large"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "40738223B514D24E"
+			rewards: [
+				{
+					id: "0A4E898817F3829D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4219BA927C65C275"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "15D4686FDE2C8A05"
+				item: "psi:cad_socket_huge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0207849E69D27C5F"]
+			id: "549B6F549E9A039A"
+			rewards: [
+				{
+					id: "7CFC6F5A8A358488"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "21519CA3D797695F"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5FBCAB92A4A25530"
+				item: "psi:cad_battery_extended"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "4DFC46068C290703"
+			rewards: [
+				{
+					id: "6E9E4051C8C41496"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F2C190E8EA4F2D4"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "08B338EEC9908C20"
+				item: "psi:cad_battery_ultradense"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53D4DDE907CA29E7"]
+			id: "0587224962685509"
+			rewards: [
+				{
+					id: "3D7CBF1136A3517D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7BAE11A60258DA55"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "50E2DDDD566B712D"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "69F533C7DFC161E8"
+				item: "psi:psigem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "37AA694E8446E34A"
+			rewards: [
+				{
+					id: "60E82865A316D91F"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "7D64AE4324D31678"
+					type: "loot"
+				}
+				{
+					id: "33F2502F16349A63"
+					type: "loot"
+				}
+				{
+					id: "35889C521653A456"
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0D900D01D2A3AFC9"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_exosuit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62898EEE0E4D28B9"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_exosuit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B2A78E01559E726"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_exosuit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "528FE5C2DF8C2311"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_exosuit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9The Armor Set"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "4F89DC81F3E94D3F"
+			rewards: [
+				{
+					id: "5256AE0F6616920C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "0F0B4FD12DCCBF3D"
+					type: "loot"
+				}
+				{
+					id: "7AE02A2947FA55DD"
+					type: "loot"
+				}
+				{
+					id: "4721DD376DCCF016"
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0B47CF2E98A24494"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C7B6A02DA94FA96"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03C3C0F95CD1834C"
+					item: {
+						Count: 1b
+						id: "psi:psimetal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9The Tool Set"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "6F77AA68898125B5"
+			rewards: [
+				{
+					id: "1D7AF99A2978A69B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "3A8DE0D1AB2CB86B"
+					type: "loot"
+				}
+				{
+					id: "7D83E0070A59367A"
+					type: "loot"
+				}
+				{
+					id: "51A4434F48C92CA0"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B37C772B8C1079A"
+				item: {
+					Count: 1b
+					id: "psi:psimetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9The Sword"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "534D440D27B71DE0"
+			rewards: [
+				{
+					id: "79EC908042C48657"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0649BE8DA73E5535"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7804ED5FA5903398"
+				item: "psi:ebony_psimetal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0587224962685509"]
+			id: "473794F6258770E8"
+			rewards: [
+				{
+					id: "6C1DD1A9D62099F6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "10705744D2310D6C"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4C5FF92058BB603C"
+				item: "psi:ivory_psimetal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["473794F6258770E8"]
+			id: "5ECDFFE48B7FABC7"
+			rewards: [
+				{
+					id: "60443C68B579C1C9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2BCBC3D595C314AD"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2A11D0281DB566A6"
+				item: "psi:cad_assembly_ivory_psimetal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["534D440D27B71DE0"]
+			id: "317A38E05BA83482"
+			rewards: [
+				{
+					id: "31F9509B0377592C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "671077FA1AC3D4EA"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7530F621277CFCB5"
+				item: "psi:cad_assembly_ebony_psimetal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+	]
+	title: "&d&oPSI"
+}

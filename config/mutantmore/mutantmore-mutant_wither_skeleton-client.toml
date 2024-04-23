@@ -1,0 +1,22 @@
+#Configure Mutant More's Mutant Wither Skeleton on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# If a health bar for the Mutant Wither Skeleton should appear while fighting it
+# usually set to false
+"Show Boss Bar" = false
+#
+# If battle music should play when fighting the Mutant Wither Skeleton
+# usually set to true
+"Play Battle Music" = true
+#
+# If the Mutant Wither Skeleton's eyes light on fire when performing certain attacks
+# usually set to true
+"Eyes Set Fire" = true
+#
+# If the Mutant Wither Skeleton's feet become covered in lava when it walks on or jumps out of lava
+# usually set to true
+"Lava Feet" = true
+#
+# If the Mutant Wither Skeleton's leaves a trail of fire when jumping out of lava
+# usually set to true
+"Lava Jump Trail" = true
+

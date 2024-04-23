@@ -1,0 +1,10 @@
+#Max Energy Stored, range 100 - 1000000, default 100000
+#Range: 100 ~ 1000000
+maxEnergyStored = 100000
+#Ticks per craft in ticks, range 1 - 2048, default 20
+#Range: 1 ~ 2048
+ticksPerCraft = 20
+#Energy per tick of crafting, range 1 - 8192, default 40
+#Range: 1 ~ 8192
+energyPerTick = 40
+

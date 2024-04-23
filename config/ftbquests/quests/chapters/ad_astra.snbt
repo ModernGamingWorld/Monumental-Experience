@@ -1,0 +1,2665 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "09A82B0D5D5E7906"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "4D9197FB03EF6360"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -8.67857142857143d
+			y: -5.575000000000003d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=qBKKDaYy-CU"
+			height: 2.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "kubejs:textures/item/planet.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 0.0d
+			y: 1.6505376344086022d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 5.50179211469534d
+			y: 1.6505376344086022d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -10.0d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"&n&bFinally!&r"
+				""
+				"The time for your awaits has arrived just in time."
+				""
+				"Here’s very simple, you only need a &6NASA&r. Yes! &6NASA&r Workbench, one on which placing certain ingredients or components, a &9Rocket&r will be constructed."
+				""
+				"Unlike &cGalacticCraft&r mod’s way of doing this, you do not require a &9Blueprint&r, only the needed &nresources&r."
+			]
+			hide_dependency_lines: true
+			id: "1FE49E1F5E046F0F"
+			min_width: 300
+			rewards: [
+				{
+					id: "5955D1989AD96E68"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "131D0CC09CD96C3A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "52B7EAED52EB0F37"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59822C508A5BD9C7"]
+			id: "4752A206456F0893"
+			rewards: [
+				{
+					count: 2
+					id: "14B5A4D68CF5B0B2"
+					item: "alltheores:steel_plate"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2781C094AD07763A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3A22AA53E55EEA17"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "368DFC5E3F636673"
+				item: "alltheores:steel_plate"
+				type: "item"
+			}]
+			title: "Steel Plate"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FA5162711FED7A9"]
+			description: [
+				"Many of the resources needed to create a &9Space Station&r, require you to first go to the &7Moon&r! Still, here’s the list of needs and what the &9Space Station&r looks like:"
+				""
+				"&o&b32&r Desh Ingots, &o&b32&r Steel Ingots, &o&b64&r Iron Plates, and  &o&b32&r Desh Plates"
+				""
+				"There’s no air on your &9Space Station&r, you must use your knowledge to create &dOxygen&r."
+				""
+				"You can expand wide, and height as you, please. The space in the horizon is infinite, vertical measurement takes the same as &aOverworld&r!"
+				""
+				"There are certain conditions when &dOxygen&r isn’t present on your &9Space Station&r, or in general, around any planet, you visit; &1Water&r will &nfreeze&r or &nevaporate&r depending on the planet’s temperatures, and many entities from &aEarth&r/&aOverworld&r will die if &dOxygen&r isn’t present in the area. I think you got the idea."
+				""
+				"There’s no &ngravity&r present, meaning you’ll fall slowly, and &nfall damage&r isn’t present. Although, the use of Shift helps to descend."
+				""
+				"Falling from any &9Space Station&r, makes you “&nteleport&r”, rather called stranded on the planet making its orbit."
+				""
+				"{image:kubejs:textures/item/spac_estation.png width:190 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			id: "2A34E6A4457FBC88"
+			min_width: 500
+			rewards: [
+				{
+					id: "66363654FF540D00"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "33B1D7DDE189AA60"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "&oPlanet Explorer"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				icon: "ad_astra:earth_globe"
+				id: "155BAACB3D94FBC5"
+				title: "&bThe Space Station"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A34E6A4457FBC88"]
+			description: [
+				"Congrats! You made it to the &7Moon&r!"
+				""
+				"You brought &dOxygen&r with you, right? &bRIGHT&r?!"
+				""
+				"Aside. The &7Moon&r has its ores, hostile, and neutral creatures, and environmental conditions."
+				""
+				"Must be said, the &7Moon’s&r surface has craters, and multiple caves, and is layered first by &3Moon Sand&r. Below, there’s &8Moon Stone&r, and &7Soul Soil&r. "
+			]
+			id: "08F8129B6F2BA30B"
+			rewards: [
+				{
+					id: "388731653B5C6BCF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A7AAD317530266B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "255577F4C28C846D"
+				title: "Visit: &2The Moon"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A34E6A4457FBC88"]
+			description: [
+				"Welcome to the &cred&r planet, known as &4Mars&r."
+				""
+				"There’s a new enemy to your list of threats; &9Martian Raptors&r, they move fast, a living breathing nightmare fuel for those unprotected."
+				""
+				"Absolutely, you can craft multiple decoration blocks with &aMars Sand&r, and &3Mars Stone&r!"
+			]
+			id: "2E8D25268A8F9ED6"
+			rewards: [
+				{
+					id: "4120741CA5E2A873"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1C1735D00D6E0EA0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "27E0647FC786EDE9"
+				title: "Visit Planet: &2Mars"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A34E6A4457FBC88"]
+			description: ["A great place to collect plentiful &6Lava&r and &6Magma&r blocks. There are no new minerals other than &7Iron&r!"]
+			id: "79310D27A711F77B"
+			rewards: [
+				{
+					id: "041A1589A52F58D2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "04D2A1D5926952B5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "1712CE2CAED7046D"
+				title: "Visit Planet: &2Mercury"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A34E6A4457FBC88"]
+			description: ["This planet has its trickery. Has own &bstructure&r, new &bores&r, and &benemies&r."]
+			id: "3D7A2D3CB598967F"
+			rewards: [
+				{
+					id: "5832F4F32714B4A5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6003C444554DECB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "771ACB8C178BD714"
+				title: "Visit Planet: &2Venus"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A34E6A4457FBC88"]
+			description: [
+				"A hope for humanity, to find another suitable place to live in the vast universe after &aEarth&r."
+				""
+				"For some could be kind of harsh, but it’s the only one so far… &9Glacio&r is all &nfrozen&r. Yet has &dOxygen&r all around. When crafting the last tier of &6Rockets&r, your &bSpace Exploring&r map will yet again have a new option."
+				""
+				"The new &eSolar System&r to explore has only a planet, which is &9Glacio&r. And it’s called &5Proxima Century&r."
+				""
+				"Doesn’t have a star like we do, is purple… and bigger. Doesn’t have a hostile creature. But only a single passive. The &dGlacian Ram&r."
+				""
+				"These are the ores found on the planet &9Glacio&r. Moreover, this planet's height/layers are similar to &aEarth&r/&aOverworld&r. Meaning there’s a &0Deepslate&r layer, although in this layer only rare minerals of the shown above would be generated."
+				""
+				"Be &nextremely careful&r about where you step! There’s a bunch of &bPowder-Snow-Lakes&r around. One might just freeze to death if not careful enough!"
+			]
+			id: "4D2B259D747D3C8E"
+			min_width: 400
+			rewards: [
+				{
+					id: "34AE7EE89AF81C55"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "448DCF3FED8EAD92"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "6D177F1FDA225E96"
+				title: "Visit Planet: &2Glacio"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B372900C379161F"]
+			description: [
+				"The &5Compressor&r automatically presses down &bIngots&r into &bPlates&r."
+				""
+				"You won’t constantly need to &3Hammer&r down &bIngot&r to &bPlates&r, by hand."
+				""
+				"Each made &bPlate&r, consumes &b2,000&r RF!"
+				""
+				"One may use &9Hoppers&r or &eConduit-type&r blocks from other mods to extract and/or insert items into it!"
+			]
+			hide_dependency_lines: false
+			id: "59822C508A5BD9C7"
+			rewards: [
+				{
+					id: "425C981F5472B9D2"
+					item: "alltheores:steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5A388D3620A7C5AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3B5AFC83D2F1F97D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1890B1B47B0BB45E"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C64107F52DF00BC"]
+			description: [
+				"Assemble your &a&oTier 1&r Rocket and fly to the &bMoon&r."
+				""
+				"When you get into a &6Rocket&r, you won’t be moved into the &bMoon&r right away."
+				""
+				"You need to select where you want to go, on this selection and screen; you’ll also be able to create your &9Space Station&r!"
+				""
+				"&l•&r 1: Select the &dPlanetary System&r you want to travel, so far you have a &aTier 1&r Rocket; and only you are capable to be in the &eSolar System&r."
+				""
+				"&l•&r 2: Select the &7Planet&r; some planets have natural satellites, and &aEarth&r or &9Overworld&r has the &7Moon&r."
+				""
+				"&l•&r 3: On their selection, you can either create a &9Space Station&r on &aEarth&r or &7Moon’s&r orbit. You can have only one &9Space Station&r per planet in &nSingle Player&r, you can also travel to other &nplayer’s Stations&r via teleportation methods or their &npermission&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "0FA5162711FED7A9"
+			min_width: 300
+			rewards: [
+				{
+					id: "1FD129124612BA71"
+					item: "ad_astra:light_gray_flag"
+					type: "item"
+				}
+				{
+					id: "4E8495B5EB38946D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4907B8308371F634"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0F12D1FA7B1D7DB6"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6FA4D7825EA13345"
+					item: "alltheores:steel_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0CF59A3A1563AFD1"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "015459F385EB47C4"
+					item: "ad_astra:steel_tank"
+					type: "item"
+				}
+				{
+					id: "158F9549BAF43998"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+			]
+			title: "&aTier 1&r Rocket"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA5162711FED7A9"]
+			description: [
+				"Assemble your &o&6Tier 2&r Rocket and fly to the &cMars&r."
+				""
+				"Congratulations! You're now able to craft a &2Tier 2&r Rocket. Now with the possibility to travel into &4Mars&r."
+				""
+				"You may always come back to your previous planets. Did you love more the &7Moon&r? Understandable. Now! The &6Rocket&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "2671CAFB7B1E1933"
+			rewards: [
+				{
+					id: "46F844AA9E2F7809"
+					item: "ad_astra:orange_flag"
+					type: "item"
+				}
+				{
+					id: "689533A9D61ECE55"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4798B0DAEC72989E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2927D9D95893FE90"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "4561319A8739225F"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E3000D3D8F6E021"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00D7C96B30C930C2"
+					item: "ad_astra:desh_tank"
+					type: "item"
+				}
+				{
+					id: "3ED03F5222EB6660"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+			]
+			title: "&6Tier 2&r Rocket"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2671CAFB7B1E1933"]
+			description: [
+				"With the accessibility to &5Ostrum&r, one can now travel to the planets &aVenus&r and &8Mercury&r."
+				""
+				"To go into them, the temperatures will make you suffer if you don’t have &nwell-accommodated&r armor against their fiery atmospheres. You can always &ncheese it&r a little when using &bPotions of Fire Resistance&r! Now, to craft a &9Tier 3&r Rocket!"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_3_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "7E159E3826EA1F3E"
+			rewards: [
+				{
+					id: "07ED6156975851C4"
+					item: "ad_astra:green_flag"
+					type: "item"
+				}
+				{
+					id: "5CB15682EA88C61A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4DA0ACDD9DC613AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "71DAC35694C42494"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "30538E64714D606C"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2AACC4B28F8BC011"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "323367CEE1913679"
+					item: "ad_astra:ostrum_tank"
+					type: "item"
+				}
+				{
+					id: "5BFC060426C8A85E"
+					item: "ad_astra:ostrum_engine"
+					type: "item"
+				}
+			]
+			title: "&9Tier 3&r Rocket"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E159E3826EA1F3E"]
+			description: [
+				"The lastly made &6Rockets&r, also the accessibility to fly around with a &6Space Suit&r!"
+				""
+				"Go, assemble your &5Tier 4&r Rocket and fly to the &9Glacio&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "2704D6F0E2508095"
+			rewards: [
+				{
+					id: "2FD65AE38C9CCCE2"
+					item: "ad_astra:light_blue_flag"
+					type: "item"
+				}
+				{
+					id: "283D0C4D633AF272"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7B73E3F156DCA7BD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "031A8D9435E2E05E"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "07F28CD68D499B21"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35E8C3FC2511EE4A"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C33A13BD174423E"
+					item: "ad_astra:calorite_tank"
+					type: "item"
+				}
+				{
+					id: "76F65E7CAFEBDBED"
+					item: "ad_astra:calorite_engine"
+					type: "item"
+				}
+			]
+			title: "&5Tier 4&r Rocket"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			description: [
+				"Required for a &6Rocket&r to be launched!"
+				""
+				"Place them on the floor, and have a wide area; due to being a &n3x3 wide block&r."
+				""
+				"It’s a simple process. Find a fitting place, and be sure it has a &n3x3 wide sky access&r. Careful to those underneath the &ePad&r if you're in a multi-flooring building. The flames of the &6Rocket&r will &ndamage entities&r."
+				""
+				"Secondly, place the &eLaunching Pad&r."
+				""
+				"Third, and last… place the &6Rocket&r!"
+				""
+				"The hub, and press the “&b&nspace bar&r” to go into space!"
+				""
+				"&l&b&oSee you on the Moon!"
+			]
+			id: "7C64107F52DF00BC"
+			min_width: 300
+			rewards: [
+				{
+					id: "6DB7685E40D5D887"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "64710D6F893C583A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09CEA707F1B332F0"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Rocket Launch Pad"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FA5162711FED7A9"]
+			description: [
+				"An important mineral to collect, &6Desh&r is required to advance machinery and upgrade your &6Rocket&r to &2Tier 2&r."
+				""
+				"&6Desh&r utility becomes futile, due to its versatility like &3Iron&r. Must be harvested with an &bIron Pickaxe&r."
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:moon_desh_ore"
+			id: "4D71E2AFA32631E7"
+			rewards: [
+				{
+					id: "41350AFAE9815D19"
+					item: "ad_astra:desh_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CDA4CC17DEC30DB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "01998F68ABAAE9CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "69F619C6465F361A"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "The Desh Ore"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D71E2AFA32631E7"]
+			id: "4F405ACDA98FE821"
+			rewards: [
+				{
+					count: 2
+					id: "01EA0873DE3E9B43"
+					item: "ad_astra:desh_plate"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "669E40301E256ECB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "388CA157607D671A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "5832D63EED662D86"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			title: "Desh Plate"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2671CAFB7B1E1933"]
+			description: [
+				"An sturdy metal capable to resist a certain degree of heat. Naturally coming from &4Mars&r, that’s logical."
+				""
+				"Must be harvested with an &3Iron Pickaxe&r or stronger material."
+				""
+				"This material is required to craft &9Tier 3&r Rockets and the next Tier of an &aAstronaut’s Suit&r!"
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:mars_ostrum_ore"
+			id: "6252590716097C6D"
+			rewards: [
+				{
+					id: "4E3F942276BBF5B8"
+					item: "ad_astra:ostrum_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0FE1A6DC7691CC76"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0738821F0B13B54A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "6CFA08BC68D2B19E"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "The Ostrum Ore"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6252590716097C6D"]
+			id: "1E4561B23E3570CF"
+			rewards: [
+				{
+					count: 2
+					id: "3B96722382995DC6"
+					item: "ad_astra:ostrum_plate"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "56DB5095483FF6AB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "40251B2408671388"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2696A1C47F1236FD"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E159E3826EA1F3E"]
+			description: [
+				"A mineral it’s only found on &aVenus&r, the most heat-resistant metal on the mod so far. Rare as &aEmeralds&r on &aEarth&r/&aOverworld&r."
+				""
+				"The deeper one goes, the more &5Calorite&r a player will find. There are also structures in &aVenus&r, where &5Calorite&r and &0Netherite&r can be found."
+			]
+			hide_dependency_lines: true
+			icon: "ad_astra:venus_calorite_ore"
+			id: "2BAF03664A5D36AF"
+			rewards: [
+				{
+					id: "41AB0B3A67008E82"
+					item: "ad_astra:calorite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41AC0792420895FE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "340306EC9DC66D37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61EB7F59F856998D"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "The Calorite Ore"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BAF03664A5D36AF"]
+			id: "4C96E292607EF7DA"
+			rewards: [
+				{
+					count: 2
+					id: "3F145FC3150692CD"
+					item: "ad_astra:calorite_plate"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2710B2ADAB5C7092"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "68E60ED554945E2C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7973B1A11F91F18F"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59822C508A5BD9C7"]
+			description: [
+				"Machinery which &brefines&r, &0Oil&r into &eFuel&r; not any &eFuel&r! But &6Rocket Fuel&r!"
+				""
+				"This kind cannot be &nrenewable&r, further playing."
+				""
+				"There’s another fuel, which it’s &nbetter&r and &nrenewable&r."
+			]
+			id: "54006D933C82CD9C"
+			rewards: [
+				{
+					id: "7915210774780A6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C4A0413BCA186AB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E15481FB8249D05"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B372900C379161F"]
+			description: [
+				"The &6Solar Panel&r generator requires &eSunlight&r to generate energy &nrenewably&r."
+				""
+				"Their quantities of production vary through the day, the high noon is when most can be generated."
+				""
+				"Blocking this generator's access to &eSunlight&r in a &b3x3&r made out of &nsolid blocks&r; &cWILL STOP GENERATING&r."
+			]
+			id: "6EC6398F9967690A"
+			rewards: [
+				{
+					id: "6EBB9C8A5ADD184E"
+					item: "ad_astra:desh_plate"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D29F11649E91C8F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "345044D3D64BFA70"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33FC29BAB195DEC6"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5AF5CB8C17AD7258"]
+			description: [
+				"There’s no plenty of machinery for &9Ad Astra&r mod, in the occasions where machines are required to do certain tasks, there’s no better option than a simple &7Coal Generator&r."
+				""
+				"Energy Capacity: &b9,000&r RF"
+				""
+				"Depending on which fuel item it’s used, the more RF/Energy it’s created. For example!"
+				""
+				"&l• &r&oStick&r: It’s capable to smelt 0.5 of an item; meaning to smelt a single item; one must use 2 Sticks. The energy value of a Stick, it’s &b1,000&r RF."
+				""
+				"&l•&r &oWooden Plank&r: On the other hand, common vanilla, and like planks; can smelt down 1.5 items, sense of one item and a half. The value of energy obtained will be &b3,000&r RF."
+				""
+				"&l•&r &oCoal&r: At last, capable to smelt 8 items peruse, the value of energy produced within this fuel is: &b16,000&r RF!"
+			]
+			id: "1B372900C379161F"
+			min_width: 300
+			rewards: [
+				{
+					id: "6DCEE218441F9E68"
+					item: "minecraft:coal_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19D3F5C203FCB24E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48FCB8CAA9306FDD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ACB5285AAFF0A24"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54006D933C82CD9C"]
+			description: [
+				"You’re going to space, you got a &bSpace Suit&r, surely your ready?"
+				""
+				"Astronauts need &dOxygen&r to be capable to stand or at least survive outer space."
+				""
+				"Just “air” won't function! You must craft an &aOxygen Loader&r."
+				""
+				"Creates &dOxygen&r via processing &9Water&r!"
+				""
+				"Conversion makes it slow, and tedious in the beginning, that said; &n1 Bucket&r of &9Water&r makes &n50mB&r of &dOxygen&r Gas; do &nremember&r: &b1,000&rmB of any Gas or Fluids it’s equal to &n1 complete Bucket&r! You're going to need &n20 buckets of water&r, to create a single bucket of &dOxygen&r."
+				""
+				"Inserting a &bSpace Suit&r (Chestsplate), the set will be given &dOxygen&r, depending on how badly it’s the planet that you're on. &dOxygen&r will be consumed rapidly or simply none. If on &aEarth&r, or in a place where &dOxygen&r it’s given constantly, the &dOxygen&r from the Suit &nwon’t be consumed&r!"
+			]
+			id: "119A781265B7FCA0"
+			min_width: 300
+			rewards: [
+				{
+					id: "0574CBCDB7DF4258"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3D757BB39C227B3C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BDB6A9DD1A3435D"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["119A781265B7FCA0"]
+			description: [
+				"Take it to believe for an &2Oxygen Dispenser&r of sorts. Instead of Loading your &dOxygen&r, liberates such &dOxygen&r to create a space where you can breathe!"
+				""
+				"An &2Oxygen Distributor&r requires &1Water&r and &cEnergy&r to create &dOxygen&r and to distribute it in an &bArea&r. Make multiple of these. In this way, you’ll be able to have your commodities at Space."
+				""
+				"Need a set-up? This is just an example, with other mods installed this setup can be even more compacted!"
+				""
+				"{image:kubejs:textures/item/oxdistri.png width:150 height:75 align:1}"
+				""
+				"Careful about where you got holes around your base. &dOxygen&r can escape, rapidly! Meaning you're losing the &dOxygen&r, one your trying to distribute; for the idea of survival. Surely you need to move cables or pipes from the outside, craft &aDucts&r!"
+			]
+			id: "1C53888B7546DE90"
+			min_width: 500
+			rewards: [
+				{
+					id: "606440F736CAD609"
+					item: "alltheores:steel_block"
+					type: "item"
+				}
+				{
+					id: "2B996BD2CBBA1AA5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34BB26E0CF359652"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "120874D5602DC887"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			id: "5C714C816CE3365B"
+			rewards: [
+				{
+					id: "423DBCE5EAB50FAB"
+					item: "alltheores:steel_plate"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12DB1D0FF80F94FE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7684141349EF1324"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C3D3C88E6591F1E"
+				item: "ad_astra:oxygen_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F405ACDA98FE821"]
+			description: ["Your &bHorse&r on the Moon"]
+			id: "30A6B9619242AD4F"
+			rewards: [
+				{
+					id: "68335585658962AE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0FC966E9A870F240"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "43F56800B98C2934"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08F8129B6F2BA30B"]
+			description: [
+				"Who said there wasn’t &eCheese&r on the &7Moon&r?! Ha!"
+				""
+				"&eCheese&r can be eaten straight away, recovering &n2 Hunger Drumsticks&r / &n4 Points of Hunger&r."
+				""
+				"This Ore is easily mined with a &0Flint Pickaxe&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "33D6E68ED02850F8"
+			min_width: 240
+			rewards: [
+				{
+					id: "3469FD267A0B127A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7669B41AB06661BF"
+					item: "croptopia:cheeseburger"
+					type: "item"
+				}
+				{
+					id: "244FA29D0D11F6C9"
+					item: "ad_astra:yellow_flag"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "A souvenir from your first space exploration."
+			tasks: [{
+				id: "7C2433D8D5CA6CB7"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54006D933C82CD9C"]
+			id: "4F55D24F78EBC335"
+			rewards: [
+				{
+					id: "1E496CF3224C0981"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "27274FB6D98CAD15"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "733D89BCC5D65263"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "312A4742AE5FB80C"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["54006D933C82CD9C"]
+			description: [
+				"The &0Oil&r."
+				""
+				"This resource is &nnonrenewable&r, and only found in vast open oceans."
+				""
+				"About &b16-32&r buckets can be picked and extracted from these."
+				""
+				"Later on in the mod progression you’ll find a better fuel, that is renewable!"
+			]
+			id: "2DB72EDF04FE44CC"
+			rewards: [
+				{
+					id: "4239B546082D833D"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "5ADC971783BDF0BF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "390FB9C1058648E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "17FD308FE04CBDE6"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			title: "Oil Bucket"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C53888B7546DE90"]
+			description: [
+				"To some, a &9Water Pump&r might seem useless, although becomes a necessity for those in space."
+				""
+				"The need for water is not for &nhydration&r, but rather how to create &dOxygen&r!"
+				""
+				"A &9Water Pump&r to work must have a &nSolid&r source of &1Water&r below it. It is recommended to have an infinite water source set up, either 1x3 or 2x2, this machine requires &cEnergy&r to work."
+				""
+				"Use &ePipes&r to extract the fluid."
+			]
+			id: "79ADB518AE82CB83"
+			rewards: [
+				{
+					id: "69C8AFC84B0B887C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "3BBBD352BAFDAAE6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1731915784993495"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2177665E8F0942D0"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"&bSuits&r prepared for space, if you are safe from the vacuum void, and freezing temperatures of outer space; were you even ready?"
+				""
+				"With a &bSpace Suit&r, one’s ability to survive and last for prolonged periods."
+				""
+				"Highly &nenchantable&r!"
+			]
+			hide_dependency_lines: true
+			id: "4AF4A6CAB336E810"
+			rewards: [
+				{
+					id: "1FBB597D1EEB5E13"
+					item: "alltheores:steel_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E331D7BDFFB041F"
+					item: "thermal:white_rockwool"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2AC81BB5553D431C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "719DE03F625F5F89"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "30DD34CEB410BF72"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7584EC4C41028C36"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "653180F7CE88C390"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ACB47BBA1396A04"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bThe Space Suit"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AF4A6CAB336E810"]
+			description: [
+				"The more planets you explore in your &eSolar System&r, the more difficult weather conditions might come to mind. "
+				""
+				"Those being high or low temperatures, a firstly made &bAstronaut Suit&r won’t help anymore. You gotta take even stronger resources! Time to make a &6Netherite Space Suit&r."
+				""
+				"If the &0Netherite Armor&r used was &nenchanted&r, the &6Netherite Space Suit&r will carry the &nenchantments&r with it!"
+			]
+			id: "7F68496ACEE438A8"
+			rewards: [
+				{
+					id: "2721C27A1B532001"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "329CECC7FBD2A18A"
+					item: "ad_astra:desh_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3AAC4C7EC9AD8F4A"
+					item: "ad_astra:ostrum_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "594AD46E5E09285E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57161612AA6D8EEB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "57FF8274F5186A6A"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FE360D3136B4CD3"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350EBC4712CF3615"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27A4C43605CAFCF7"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&7The Netherite Space Suit"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F68496ACEE438A8"]
+			description: [
+				"The &eJetpack Suits&r. A way to protect you further, armor-wise, flight included, and fiery resistance."
+				""
+				"&eJetpacks&r are late-endgame. They require &cEnergy&r, and &dOxygen&r on &9Chestplate&r which has the largest capacity: &n4 buckets&r!"
+				""
+				"If the &aNetherite Space Suit&r had &nenchantments&r, they will also be translated into the &aJet Suit&r pieces."
+				""
+				"No matter what planet you are on, thanks to the &aJet Suits&r heavy platings, now you’ll walk &nnormally&r on many planets."
+			]
+			id: "55E319FB2064089E"
+			rewards: [
+				{
+					count: 2
+					id: "5CC1A56369D4999D"
+					item: "ad_astra:calorite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3E96931F80CDFFC5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14094E0793FD8D78"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "720D008E26930CEE"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B527C18BD9C3190"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6362D6CE4BFF93E3"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B65C5F346077DEB"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6The Jet Suit"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			id: "62301F0FF50EAC7B"
+			rewards: [
+				{
+					id: "224E7DDAB2159B0A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C55AE01EC9C296E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A58996F4AA93E7B"
+				item: "ad_astra_giselle_addon:automation_nasa_workbench"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2ACB47BBA1396A04"]
+			hide: true
+			id: "550C5C9C44A4368F"
+			rewards: [
+				{
+					id: "104AD0BEF4031EBC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "760D7BDAAF53349E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39C3EEE8A8893896"
+				item: "ad_astra_giselle_addon:gravity_normalizer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["566C0FA15F2021F1"]
+			description: [
+				"&bAd Astra&r! (translation: \"To the Stars!\") is a space mod with a focus on technology, travel and exploration."
+				""
+				"We've got everything you need to become an &bAstronaut&r: &6Rockets&r, &aSpace Suits&r, &dSpace Stations&r and machines."
+				""
+				"Why not take a stroll on the &3Moon&r? Build a self-sustaining bunker on &4Mars&r? Go mining on &8Venus&r? The entire &eSolar System&r, better yet, &bMilky Way&r, is at your disposal!"
+				""
+				"&oFive celestial bodies&r:"
+				"&3The Moon&r, &4Mars&r, &8Venus&r, &7Mercury&r and &9Glacio&r, in two different &eSolar Systems&r. Each planet expresses a distinctive flair, with specific mobs and unique materials."
+				""
+				"&oVehicles&r:"
+				"Four &6Rocket&r tiers for interplanetary travel and a rover for traversing the rough, alien terrain ahead."
+				""
+				"&oTechnology&r:"
+				"Standard processing machines and &bGenerators&r, along with &dOxygen&r generation and distribution, &aFuel&r refining, &1Water&r pumping, cable, fluid pipes and a rocket workbench."
+				""
+				"&oBuilding&r:"
+				"Spruce up your builds with over &n250 building blocks&r, ranging from planet-specific bricks and stones to space station deco and metal plating."
+				""
+				"An in-game &5Guidebook&r, explaining everything you need to progress and prosper in &dAd Astra&r!"
+			]
+			icon: "ad_astra:astrodux"
+			id: "5AF5CB8C17AD7258"
+			min_width: 550
+			rewards: [
+				{
+					id: "047449AFAF8BA4BF"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "674DEC3EDDFE9DA7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E2D5F16D7558514"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSteel Ingots&r quest*"
+			tasks: [{
+				id: "4895F6B4A42C4B56"
+				type: "checkmark"
+			}]
+			title: "Welcome to &4Ad Astra!"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AF5CB8C17AD7258"]
+			description: ["Ad Astra uses a &aHammer&r to make &bPlates&r from &bIngots&r."]
+			id: "272944F0EB797B53"
+			rewards: [
+				{
+					id: "70F4BA6EE4FA3B9F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D5BA665AA1DE245"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BCDFAC70EA8968A"
+				item: {
+					Count: 1b
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["272944F0EB797B53"]
+			description: ["The &2Wrench&r helps to consider a connected side of a pipe as &bExtract&r, &3Insert&r, or &cNone&r to disconnect."]
+			id: "11CA37D3611CCACC"
+			rewards: [
+				{
+					id: "2274FDFB7307C879"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3381238770437D1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2668F41ECED2B236"
+				item: "ad_astra:wrench"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			id: "43D8AC18BDE717C3"
+			rewards: [
+				{
+					id: "7080EC1A160A18E0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B0FD97B841CD027"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "687A599665385D1C"
+				item: "ad_astra:oxygen_gear"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: [
+				"The &eSteel Cable&r moves energy connecting."
+				""
+				"This way, you can place &3Generators&r far from &nmachinery&r, and not be plenty in a single room."
+			]
+			id: "6B1779C367844F28"
+			rewards: [
+				{
+					id: "2408C03F7E3555AB"
+					item: "ad_astra:steel_cable"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7EFAB828CD1064B3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5DC83DF574E17F7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69C2F9D3388CFFC0"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F405ACDA98FE821"]
+			description: [
+				"When obtaining &6Desh&r, a wider window of progression is opened to your advantage."
+				""
+				"Now you are capable to create better &9Cables&r around your settlements."
+				""
+				"&5Desh Cables&r are an upgrade for &3Steel Cables&r; those can only transfer &b1,024 RF&r per Tick, while &6Desh&r is &b4,096 RF&r per Tick."
+				""
+				"If needing help configuring the faces of these cables here’s a handy tool! &2The Wrench&r."
+			]
+			id: "6B177A0B4E218617"
+			min_width: 300
+			rewards: [
+				{
+					id: "3C2762CB0A12ED86"
+					item: "ad_astra:desh_cable"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E17DAF82334B3DD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0306C0FE30541324"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32558DC232F12832"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F405ACDA98FE821"]
+			description: [
+				"When obtaining &6Desh&r, a wider window of progression is opened to your advantage."
+				""
+				"Now you are capable to create &9Pipes&r around your settlements."
+				""
+				"&5Desh Fluid Pipes&r can transfer &nany fluid&r through them at a rate of &b128mB&r per tick."
+				""
+				"If needing help configuring the faces of these cables here’s a handy tool! &2The Wrench&r."
+			]
+			id: "7C42AC4BFB30BC68"
+			rewards: [
+				{
+					id: "546A72E2418BF31F"
+					item: "ad_astra:desh_fluid_pipe"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7497AAC3786BA808"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3DD869E6BA28EC76"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A922DB6272B3FF7"
+				item: "ad_astra:desh_fluid_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E4561B23E3570CF"]
+			id: "73805176E5FB649A"
+			rewards: [
+				{
+					id: "202144DCB8FF6B16"
+					item: "ad_astra:ostrum_fluid_pipe"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65A94B692B9EB73D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5AA3FF9F8DF71297"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45649FC69F433598"
+				item: "ad_astra:ostrum_fluid_pipe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			description: ["&eDucts&r connect to &dPipes&r or &2Cables&r depending on which one is used. These are completely sealed, air cannot escape!"]
+			id: "0D95EF4C5CE8354E"
+			rewards: [
+				{
+					id: "53708EC225469B9E"
+					item: "ad_astra:cable_duct"
+					type: "item"
+				}
+				{
+					id: "0E475127492B18C8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0DACAC1F0EF1D7C4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AD81C6A4547161C"
+				item: "ad_astra:cable_duct"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F405ACDA98FE821"]
+			description: ["&eDucts&r connect to &dPipes&r or &2Cables&r depending on which one is used. These are completely sealed, air cannot escape!"]
+			id: "76092227927A26CD"
+			rewards: [
+				{
+					id: "55AF624651FED5C9"
+					item: "ad_astra:fluid_pipe_duct"
+					type: "item"
+				}
+				{
+					id: "032A7EAED6687A07"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "60A7671627A2A5E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09CEDF70ADC1464D"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E4561B23E3570CF"]
+			description: [
+				"The &1Energizer&r stores energy within, to then provide energy to those nearby and has been prioritized on this buffer. Just &bright-click&r the wanted item into the &1Energizer&r."
+				""
+				"The total capacity of an &1Energizer&r is &b2,000,000 RF&r. Each stage of energy given has a different color. This can be visualized above."
+				""
+				"{image:kubejs:textures/item/energizervis.png width:190 height:55 align:1}"
+			]
+			id: "3412837F098AEE4B"
+			min_width: 300
+			rewards: [
+				{
+					id: "14AD01D3C08604FF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7CC5CEBED19066D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D3754A3BA578176"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E4561B23E3570CF"]
+			description: [
+				"The &dCryo Freezer&r, uses &9Ice&r and &9Ice-equivalent&r blocks of items to create &5Cryo Fuel&r, this type of Fuel can only be used on &6Rockets&r, and is &nrenewable&r!"
+				""
+				"Different kinds of &9Ice&r give a ratio separated."
+				""
+				"Remember: &b1,000mB&r units it’s equal to &n1 bucket&r of any fluid."
+				""
+				"&l-&r &o&9Ice Shards&r&b = 25.0mB&r"
+				"&l-&r &o&9Ice&r = &b1.0mB&r"
+				"&l-&r &o&9Packed Ice&r = &b2.0mB&r"
+				"&l-&r &o&9Blue Ice&r = &b5.0mB&r"
+			]
+			id: "0736CEF59E0D1C73"
+			rewards: [
+				{
+					id: "5946954A594D8107"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "452740AF7E32FD82"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "41AD86C0DDC371A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D0797BA32F79D22"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E4561B23E3570CF"]
+			id: "059B64C9EE255298"
+			rewards: [
+				{
+					id: "1AB9B436703B9ED8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1E294AD97C1D9398"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CE04FF96A58B04C"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA5162711FED7A9"]
+			description: [
+				"The &bIce Shard Ore&r can be found on &7Moon&r, &4Mars&r and &9Glacio&r. The Ore dropping &bIce Shards&r."
+				""
+				"This mineral, later on, could be used to create &dCryo Fuel&r, a renewable and better Fuel in Ad Astra mod! "
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ad_astra:moon_ice_shard_ore"
+			id: "7E3E3302523EA6FC"
+			rewards: [
+				{
+					id: "27E6DC6F404E356B"
+					item: "ad_astra:ice_shard"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "02B7868DA518F583"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5D8395072A364712"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "1020CABF583F45B3"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "&bThe Ice Shard Ore"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C53888B7546DE90"]
+			hide: true
+			id: "44F54D1B5C3DA1D3"
+			rewards: [
+				{
+					id: "635F88B0E1C9EF76"
+					item: "ad_astra:vent"
+					type: "item"
+				}
+				{
+					id: "4E602241E718D12D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "371EF9A1E3457CF0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "69A5413255BE9AFD"
+				item: "ad_astra:vent"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FE49E1F5E046F0F"]
+			id: "230A35728908D6C3"
+			rewards: [
+				{
+					id: "3CD40BF0441AC11D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6564397E9125F41F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "79CFAEC622DD06AD"
+				item: "ad_astra_giselle_addon:rocket_sensor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08F8129B6F2BA30B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3C4D3BBD3F347C20"
+			rewards: [
+				{
+					id: "25EB5FECC09AC43C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A35C13C5E2C4D0F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6735D38EC5A50F72"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_breathing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&bSpace Breathing"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E8D25268A8F9ED6"]
+			hide: true
+			hide_dependency_lines: true
+			id: "206BB835A802E1AF"
+			rewards: [
+				{
+					id: "59CE3C07937B570B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "273B2824B0344DDD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5648910BC95B9C02"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:gravity_normalizing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&bGravity Normalizing"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79310D27A711F77B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "76C7F63D7DC16130"
+			rewards: [
+				{
+					id: "6492E921BE60A075"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "74142C4C148DD240"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "761C4F1D2A0FC495"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_fire_proof"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&bSpace Fire Proof"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D7A2D3CB598967F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "564B6576D124C0EF"
+			rewards: [
+				{
+					id: "5FA58EBD74A5D225"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "41CB4ED05BA0B510"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FF5B212B5132DEE"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:acid_rain_proof"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&bAcid Rain Proof"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11CA37D3611CCACC"]
+			hide: true
+			id: "26098891B2554F10"
+			rewards: [
+				{
+					id: "76F43C33A4673EEA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "36A3C766E9EF1D81"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A6CFADE18A10892"
+				item: "ad_astra_giselle_addon:sliding_door_key"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E4561B23E3570CF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "19527BC2BAA625E9"
+			rewards: [
+				{
+					id: "2060C140F9528607"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2FC3BA83ED250AFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C308699B60638E1"
+				item: {
+					Count: 1b
+					id: "ad_astra_giselle_addon:netherite_oxygen_can"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["119A781265B7FCA0"]
+			id: "015787761FB67DEC"
+			rewards: [
+				{
+					id: "53EB9D06CEF555B2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "01D7472427EB2CD3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F15B3A5AA9A5358"
+				item: {
+					Count: 1b
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C4D3BBD3F347C20"]
+			hide: true
+			hide_dependency_lines: true
+			id: "699F832EA9B48450"
+			optional: true
+			rewards: [
+				{
+					id: "4A5EAD9BCF60432D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42186BB03F02096F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6ED314FF4221E154"
+				item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
+				type: "item"
+			}]
+			x: -9.039795918367354d
+			y: -0.5102040816326507d
+		}
+		{
+			dependencies: ["76C7F63D7DC16130"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4D305E02390F1E19"
+			optional: true
+			rewards: [
+				{
+					id: "5A3AEB163DA5E34F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C61C987996ACBDB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "27E3100DAA167A3A"
+				item: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
+				type: "item"
+			}]
+			x: -9.039795918367354d
+			y: 0.8897959183673492d
+		}
+		{
+			dependencies: ["206BB835A802E1AF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4DE016CD48FBAFB4"
+			optional: true
+			rewards: [
+				{
+					id: "4CD4AA58C8C82132"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2632A7A5C42A0E5F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "790FC243C532D944"
+				item: "ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade"
+				type: "item"
+			}]
+			x: -9.039795918367354d
+			y: 0.18979591836734921d
+		}
+		{
+			dependencies: ["564B6576D124C0EF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "43F262B2966A3059"
+			optional: true
+			rewards: [
+				{
+					id: "6F7B654EA5D7D806"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3746C89D14ED4223"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "56F94863B03BB602"
+				item: "ad_astra_giselle_addon:pneumatic_acid_rain_proof_upgrade"
+				type: "item"
+			}]
+			x: -9.039795918367354d
+			y: 1.5897959183673493d
+		}
+		{
+			dependencies: ["3C4D3BBD3F347C20"]
+			hide: true
+			hide_dependency_lines: true
+			id: "51055F148288D235"
+			optional: true
+			rewards: [
+				{
+					id: "7EF348BFDE4426DC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "71CEEE8D6073C847"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6729858B8580D858"
+				item: "ad_astra_giselle_addon:module_space_breathing_unit"
+				type: "item"
+			}]
+			x: -7.01428571428572d
+			y: -0.5178571428571388d
+		}
+		{
+			dependencies: ["206BB835A802E1AF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "715D01C62498F8EC"
+			optional: true
+			rewards: [
+				{
+					id: "3DE4A24822CCBF9B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "29C865BCFEF6E0FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2FE55E4A33A2A622"
+				item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
+				type: "item"
+			}]
+			x: -7.01428571428572d
+			y: 0.18214285714286116d
+		}
+		{
+			dependencies: ["76C7F63D7DC16130"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5C6CCBCDE1D63EE7"
+			optional: true
+			rewards: [
+				{
+					id: "2917B5DBC2B14E2E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1A0B55AF5AC4C0A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "68F6E7388ED4B52E"
+				item: "ad_astra_giselle_addon:module_space_fire_proof_unit"
+				type: "item"
+			}]
+			x: -7.01428571428572d
+			y: 0.8750000000000071d
+		}
+		{
+			dependencies: ["564B6576D124C0EF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2CCC1F92C8F62601"
+			optional: true
+			rewards: [
+				{
+					id: "3C8A75685A06CBA4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "15CFC69CCA1D931B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3E42C06690BA50EB"
+				item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
+				type: "item"
+			}]
+			x: -7.01428571428572d
+			y: 1.5821428571428613d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			id: "3A64248CA8BDEB2F"
+			rewards: [
+				{
+					count: 2
+					id: "54DC71F729FD6492"
+					item: "alltheores:iron_rod"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "65BA06F3B11F719A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "19A117C6E51B064C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6597BEDED7E63674"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4752A206456F0893"]
+			id: "6184E80EF558B5DC"
+			rewards: [
+				{
+					id: "29B54509A679A802"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "47F70397D7DE9B40"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38509796C6DD622B"
+				item: "ad_astra:engine_fan"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30A6B9619242AD4F"]
+			id: "16542BE4B43F7950"
+			rewards: [
+				{
+					id: "680F2462FCB81BA2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3B40C650CD1950BD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62F1A6F08A31FFAB"
+				item: "ad_astra_giselle_addon:fuel_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "&3&oAd Astra!"
+}

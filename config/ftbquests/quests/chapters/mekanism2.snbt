@@ -1,0 +1,3451 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism2"
+	group: "69B9F7247002FE35"
+	icon: "mekanism:digital_miner"
+	id: "23983F4DC524B14B"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -15.717857142857142d
+			y: -7.407142857142862d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/wiki/Main_Page"
+			height: 2.2d
+			hover: ["Mekanism Wiki"]
+			image: "kubejs:textures/item/mekanism2.png"
+			rotation: 0.0d
+			width: 6.56d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -8.5d
+			y: -6.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0650996C7818ADB5"]
+			description: [
+				"The &eMetallurgic Infuser&r is used to craft core crafting components throughout &dMekanism&r."
+				""
+				"The machine works by infusing a &9material&r &nmiddle-left slot&r with an &6infuser&r &nfar-left slot&r."
+				""
+				"This is the one of couple of ways how to get &3Steel Ingots&r."
+			]
+			id: "162CE44400A63575"
+			rewards: [
+				{
+					id: "70C35C52EF5F81E1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7602353BA7BEF796"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Starting Machine"
+			tasks: [{
+				id: "28277BA9F319240D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["685159786B4BCA0A"]
+			description: [
+				"The &9Enrichment Chamber&r uses energy to extract dusts out of certain blocks and ores. Not to be mistaken with the &aCrusher&r, this machine is the &7Pulverizer&r equivalent in other mods."
+				""
+				"Can also be used to turn &oCoal&r or &oCharcoal&r into &0Enriched Carbon&r, &oRedstone&r into &cEnriched Redstone&r, &oDiamond&r into &bEnriched Diamond&r, &oTin Dust&r into &7Enriched Tin&r, &oGold Dust&r into &6Enriched Gold&r and &oRefined Obsidian Dust&r into &dEnriched Obsidian&r, all for use in the &eMetallurgic Infuser&r."
+				""
+				"This breaks &n3 raw ores&r down into &n4 dusts&r."
+				""
+				"The &9Enrichment Chamber&r is the start of your &6Ore Factory&r. It can also be upgraded to a factory machine, increasing the slots of use."
+			]
+			id: "08DDE018A804BFE7"
+			min_width: 300
+			rewards: [
+				{
+					id: "1CDD6CB081209F8D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77B36FF640F246DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Breaks Raw Ores into Dusts"
+			tasks: [{
+				id: "1AE233B4CCFE99F7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["685159786B4BCA0A"]
+			description: [
+				"The &6Osmium Compressor&r is used to create &dRefined Obsidian Ingots&r and &eGlowstone Ingots&r."
+				""
+				"It fuses liquid &bOsmium&r (melted down &bOsmium&r Ingots placed in the machine's &nbottom&r slot) with the originating materials to create their corresponding ingots."
+			]
+			id: "195729280394ABFB"
+			rewards: [
+				{
+					id: "6EECC2150BDCDDCA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "438D9FA226C8DC79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6934C61AFEB0443D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C25D42C36175BF4"]
+			description: [
+				"The &9Crusher&r crushes, among other things, &3Ores&r into &7Dirty Dusts&r, &aIngots&r into &eDusts&r and &6Biomatter&r into &2Bio Fuel&r."
+				""
+				"This is useful to convert &o&bclumps&r into &o&bdirty dust&r, which can go through an &dEnrichment Chamber&r to create the &o&bore dust&r, which then can be smelted into an &aingot&r."
+			]
+			id: "7AE502EDB73BD57A"
+			rewards: [
+				{
+					id: "13513EBBD15E5744"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74EA17437C90F599"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "It's Crushing Time"
+			tasks: [{
+				id: "431D7329CFCAF880"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4BDE773C3359D584"]
+			description: [
+				"The &9Digital Miner&r can be configured to mine ores only within a certain area. The &9Digital Miner&r can also be set to &nsilk touch&r ores, but this results in higher power consumption."
+				""
+				"Like all other &7Mekanism&r machines, the &9Digital Miner&r can automatically remove ores from its &einventory&r for automated processing by other machines."
+				""
+				"This machine &ncan mine for you&r!"
+				""
+				"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
+			]
+			id: "7EA6B942D1294ED6"
+			min_width: 300
+			rewards: [
+				{
+					id: "79E643398D88E4E9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "345A984D8BB4E83D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "36FE95268A543F7C"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			description: [
+				"&aFluid Tanks&r are storage blocks to store fluids."
+				""
+				"The amount of fluid (mb) a fluid tank can store is based on its tier."
+				""
+				"It will retain its inventory when broken. You may use a &dMechanical Pipe&r that is set to &cPull&r in order to extract the fluid out of the tank."
+				""
+				"It has a &o&bbucket&r mode which can be toggled to scoop up liquids with it. Very useful for &6lava&r in the beginning!"
+			]
+			hide_dependency_lines: true
+			id: "6DB1AAAD926486BC"
+			rewards: [
+				{
+					id: "50C0B9E92E37A9F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "121143707BA8780A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "54BEF9EA9F1D4374"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.35d
+		}
+		{
+			dependencies: [
+				"1FC7E9DBF92BE6AA"
+				"4204702AA6FBF40B"
+				"6E95E958201D50BE"
+			]
+			description: [
+				"&6Robit&r is &dMekanism's&r mechanical companion."
+				""
+				"He can act as a &oCrafting Grid&r, a &oFurnace&r, an &oAnvil&r, a &oChest&r, or simply a &ccute little buddy&r."
+			]
+			hide_dependency_lines: false
+			id: "4BDE773C3359D584"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "19B2F3485EE46C22"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78F6216A949577EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "171E6682D1578C63"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"&9Tier Installers&r are used to upgrade various machines into their &3Factory&r equivalent."
+				""
+				"&aRight-click&r on the machine with the &9Tier Installer&r and it will upgrade that machine to a &3Factory&r - its level (Basic, Advanced, or Elite) depending on the level of the &9Factory Installer&r used."
+				""
+				"&aBasic Tier Installers&r can be used on any machine that has a &3Factory&r associated with it that has not yet been turned into one."
+				""
+				"However, &4Advanced Tier Installers&r can only be used on &aBasic Factories&r, while &9Elite Tier Installers&r can only be used on &4Advanced Factories&r, and &dUltimate Tier Installers&r can only be used on &9Elite Factories&r."
+				""
+				"This is intended so that the player does not &nskip any tiers&r in the &b&oupgrade chain&r, e.g. going from &aBasic Factory&r to &dUltimate Factory&r instantly."
+			]
+			hide_dependency_lines: true
+			id: "07AD45DCF9EE3C2E"
+			rewards: [
+				{
+					id: "0A02057B6D89A76B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "569D04E473439574"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "28A769E7676E358F"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -15.4d
+			y: -0.3500000000000001d
+		}
+		{
+			dependencies: ["07AD45DCF9EE3C2E"]
+			id: "493FAE3A6088518E"
+			rewards: [
+				{
+					id: "618F929811AA93AB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2BA7AD32A5E4B203"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "646785A06E01D173"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -15.4d
+			y: 0.3500000000000001d
+		}
+		{
+			dependencies: ["493FAE3A6088518E"]
+			id: "3E30EC9CA875A1F9"
+			rewards: [
+				{
+					id: "611FEC4159711954"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75402BB0E807B2A0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3AA211725EA97D18"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -15.4d
+			y: 1.0499999999999996d
+		}
+		{
+			dependencies: ["3E30EC9CA875A1F9"]
+			id: "220C38510116BF36"
+			rewards: [
+				{
+					id: "0B2F06290D7C0350"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6FDF74CAE0FFED4E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "56A8A51990C7F0A1"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -15.4d
+			y: 1.7499999999999998d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"The &9Quantum Entangloporter&r from &dMekanism&r is a machine that allows &bliquids&r/&eitems&r/&cenergy&r/&3gas&r to be sent from one &9Quantum Entangloporter&r to another through a &achannel&r."
+				""
+				"The &9Quantum Entangloporter&r is similar to the &0Tesseract&r, but the &9Quantum Entangloporter&r can send and receive &3gasses&r while the &0Tesseract&r cannot."
+			]
+			id: "7CC49360D07086B8"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "38F83888D3D5F706"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F7E547504C952AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Wireless Power, Gases, Fluids, Everything."
+			tasks: [{
+				id: "0526878F9506FB48"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"An &4Energy Cube&r is an advanced type of battery that is compatible with multiple energy systems."
+				""
+				"&cEnergy&r can be input from &o&b5&r sides, and output on &o&b1&r side. The output side has a special marking which looks like a &nsmall panel&r."
+				""
+				"Rotate the Cube by &eright-clicking&r with a &awrench&r."
+				""
+				"&4Energy Cubes&r can be transported by &ashift-right-clicking&r with a &ewrench&r. This will “break” the Cube, but all its energy will be &nsafely stored inside&r."
+				""
+				"When the Cube is in your &einventory&r, &nholding shift&r will display additional data about the Cube’s energy level."
+			]
+			hide_dependency_lines: true
+			id: "09408C6DCAC90318"
+			rewards: [
+				{
+					id: "774E2861D9B560C2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12444C13FB300F18"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "19C3A9D5E656FAA5"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -16.1d
+			y: -0.3500000000000001d
+		}
+		{
+			dependencies: ["09408C6DCAC90318"]
+			id: "10909A87C1953F7C"
+			rewards: [
+				{
+					id: "134FB9474D3F857C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FE86D2E43633B46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3939A98E3276095B"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -16.1d
+			y: 0.34999999999999987d
+		}
+		{
+			dependencies: ["10909A87C1953F7C"]
+			id: "1DA058C68CF437DC"
+			rewards: [
+				{
+					id: "3AD5358F1A2BEC5E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6645B1A02C2FF28A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "0485F28A3916A974"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -16.1d
+			y: 1.0499999999999996d
+		}
+		{
+			dependencies: ["1DA058C68CF437DC"]
+			id: "7AF982B6D8FD6C03"
+			rewards: [
+				{
+					id: "3DA683539989618A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77FD4D8805D9806E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "50A250703B09FA5A"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -16.1d
+			y: 1.7499999999999998d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "166971866A9234C7"
+			rewards: [
+				{
+					id: "430DDB23111A81A2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D913283A6C5F2B4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "72CE838EFDDE6479"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -15.049999999999999d
+			y: -2.8d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			id: "7940E814260C556F"
+			rewards: [
+				{
+					id: "4B09E8C839B2D1AE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A902F0EF873492E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "2FE06FDA0A3A66C7"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -15.75d
+			y: -2.8d
+		}
+		{
+			dependencies: ["7940E814260C556F"]
+			id: "019D5A05A2134C7E"
+			rewards: [
+				{
+					id: "56657AA4DEB08FD7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C3BF510AB65ACDF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "0DD9B2119BB50C80"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -16.45d
+			y: -2.8d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			hide_dependency_lines: true
+			id: "0498A578D0EC3254"
+			rewards: [
+				{
+					id: "22FCFDA273E247A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4ED7DB542DEE1402"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "5E51F5B17F77573E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -14.7d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0498A578D0EC3254"
+				"166971866A9234C7"
+			]
+			id: "6D7CABCFB50D8B0D"
+			rewards: [
+				{
+					id: "21F43173EBCAD3DC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36BD55057C4D3DB3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "05F2EEE4DE21E2ED"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -15.4d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6D7CABCFB50D8B0D"
+				"7940E814260C556F"
+			]
+			id: "347C16F0F7CFAACF"
+			rewards: [
+				{
+					id: "38AEB9B0E4436AC3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "366D1BABF6E1A836"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "48AC2274973C4509"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -16.099999999999998d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"347C16F0F7CFAACF"
+				"019D5A05A2134C7E"
+			]
+			id: "4AA150A009E904DA"
+			rewards: [
+				{
+					id: "72CB13ECB9F2543D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05DD5E896FDA9D1E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "7E9FCA38BA758B41"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -16.8d
+			y: -3.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"This is the way how to obtain &3Steel&r in &dMekanism&r."
+				""
+				"A &3Steel Ingot&r is created by smelting &3Steel Dust&r in any type of furnace."
+				""
+				"Infusing &7Iron&r with &b&o10&r units of &0Carbon&r in a &eMetallurgic Infuser&r will give you &7Enriched Iron&r."
+				""
+				"Infusing the &7Enriched Iron&r with a further &b&o10&r units of &0Carbon&r will give you &3Steel Dust&r,"
+				""
+				"&3Steel&r is a major crafting component in a lot of recipes in Mekanism."
+			]
+			hide_dependency_lines: true
+			id: "1B6DDF50D00CBB31"
+			min_width: 300
+			rewards: [
+				{
+					id: "359564E423587F10"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "51B58DA0012C8962"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 16L
+				id: "6B88F1F9DF50C1E4"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			title: "Steel"
+			x: -8.52857142857143d
+			y: 0.914285714285711d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			description: ["&aUniversal Cables&r are &dMekanism's&r way to transfer power."]
+			id: "23F165DEAD225B10"
+			rewards: [
+				{
+					id: "70218C9C74451F4F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2944B2F56A190271"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "56F8A49135418FD8"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "&aBasic Universal Cable"
+			x: -11.332142857142857d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["23F165DEAD225B10"]
+			id: "618ECDB3FB534A8A"
+			rewards: [
+				{
+					id: "4FF1B2939F1EE050"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01E134B6D612729C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "445F3D8AA18A518A"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			title: "&cAdvanced Universal Cables"
+			x: -10.982142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["618ECDB3FB534A8A"]
+			id: "7553689BC9202E14"
+			rewards: [
+				{
+					id: "2F64D0F6CD3E9237"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C765327C4F9E6A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "6EC6D1463C65EBF2"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			title: "&9Elite Universal Cables"
+			x: -11.332142857142857d
+			y: 3.1785714285714306d
+		}
+		{
+			dependencies: ["7553689BC9202E14"]
+			id: "32E093F004E8CAC6"
+			rewards: [
+				{
+					id: "173D02A4708F6147"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F8C6EDE57770580"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "1ECDAF49CF1BC952"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			title: "&dUltimate Universal Cables"
+			x: -11.682142857142857d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			description: [
+				"&aMechanical Pipe&r is the fluid pipe for &dMekanism&r logistics."
+				""
+				"It can be used to connect to any blocks with &nFluid Handlers&r in them."
+			]
+			id: "2EF4DD5CC254CC80"
+			rewards: [
+				{
+					id: "7C7B24E30898CB57"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3ED52F0BE3D05BBD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "45B151086147D98D"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			title: "&aBasic Mechanical Pipe"
+			x: -9.932142857142857d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["2EF4DD5CC254CC80"]
+			id: "1A72F7DA24E1BB09"
+			rewards: [
+				{
+					id: "21C5896575709895"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6EEB5EE9808184FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "131392325AEB228E"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
+			title: "&cAdvanced Mechanical Pipe"
+			x: -9.582142857142857d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["1A72F7DA24E1BB09"]
+			id: "5B3FDF651D845DF1"
+			rewards: [
+				{
+					id: "6A4BE079AE58572C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35C0F3DB22A64827"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "78C482BF65B20673"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			title: "&9Elite Mechanical Pipe"
+			x: -9.932142857142857d
+			y: 3.1785714285714306d
+		}
+		{
+			dependencies: ["5B3FDF651D845DF1"]
+			id: "01C3B23461807007"
+			rewards: [
+				{
+					id: "5998A3E91DB54010"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76A9F9BE6D0E1A74"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "25D5626BBA7615F0"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
+			title: "&dUltimate Mechanical Pipe"
+			x: -10.282142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			description: [
+				"&aPressurized Tubes&r are used to transport &bGases&r."
+				""
+				"The &3Pump Rate limitation&r declared in the tooltip only regards the active pumping."
+				""
+				"The &aPipe&r can take in more if the Device can output itself and there is enough buffer in the network."
+			]
+			id: "4434D7B66521D69A"
+			rewards: [
+				{
+					id: "327B02005E268D7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4993C7171E0831E2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "685BFFC7BDA40FC3"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			title: "&aBasic Pressurized Tube"
+			x: -7.132142857142858d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			description: [
+				"The &aLogistical Transporter&r is the basic item transport pipe for &dMekanism&r logistics."
+				""
+				"With the &6Configurator&r the player can choose to \"&bpaint&r\" the pipe with colors that can be detected by the pipe's color sorter by &eShift+Right-Clicking&r the center of a transporter with a &6Configurator&r."
+				""
+				"It has 2 other cousins called the &9Diversion Transporter&r and the &cRestrictive Transporter&r."
+			]
+			id: "5B681BC43371CC5C"
+			rewards: [
+				{
+					id: "525191C0C38334EB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34C673E3216A9587"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "3F972BE9DFCA1EB5"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			title: "&aBasic Logistical Transporter"
+			x: -8.532142857142858d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			description: [
+				"Similar to the &eUniversal Cable&r, the &aThermodynamic Conductor&r is &dMekanism's&r way of transferring power in the form of heat (essentially a heat pipe)."
+				""
+				"Transfer is lossy, depending on the biome the conductor is in. Warmer biomes have a higher transfer efficiency (i.e., less heat is lost), while colder biomes are lower (i.e., more heat is lost)."
+			]
+			id: "531E3FF1F2865C67"
+			rewards: [
+				{
+					id: "0F5F5F024524C225"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C4FD1B726B2ECCB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "5F4FEC0FD7C5CC33"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "&aBasic Thermodynamic Conductor"
+			x: -5.732142857142858d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["4434D7B66521D69A"]
+			id: "768F9EBD3E115CA6"
+			rewards: [
+				{
+					id: "5BBD05813DDA2EE2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79E5EAD61DF1D9C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "2E82ABE762A77F41"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
+			title: "&cAdvanced Pressurized Tubes"
+			x: -6.7821428571428575d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["768F9EBD3E115CA6"]
+			id: "6424D99CBA76895B"
+			rewards: [
+				{
+					id: "3AFF0FFDDCBE99C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F471B87A22DD345"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "460D2FF854258953"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			title: "&9Elite Pressurized Tubes"
+			x: -7.132142857142858d
+			y: 3.1785714285714306d
+		}
+		{
+			dependencies: ["6424D99CBA76895B"]
+			id: "546F7FF099D2696E"
+			rewards: [
+				{
+					id: "55467C6A0E141456"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "18DA4689BB23A70E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "1E066CC63A95B288"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
+			title: "&dUltimate Pressurized Tubes"
+			x: -7.482142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["5B681BC43371CC5C"]
+			id: "30B3469DAA8D5A0A"
+			rewards: [
+				{
+					id: "29B33A640EDE25AD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "656A1799772B1A40"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "631FDADA57127F2E"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			title: "&cAdvanced Logistical Transporter"
+			x: -8.182142857142857d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["30B3469DAA8D5A0A"]
+			id: "46AB23E922C51517"
+			rewards: [
+				{
+					id: "54DCE4F5AC82E07B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "72155B37A772F26F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "1F7689D1D5DB5E8C"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			title: "&9Elite Logistical Transporter"
+			x: -8.532142857142858d
+			y: 3.1785714285714306d
+		}
+		{
+			dependencies: ["46AB23E922C51517"]
+			id: "6C8431C216A66C1F"
+			rewards: [
+				{
+					id: "07650317DBED0A50"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F6BB51649E38CDF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "62A00D9DD3A8CA8E"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			title: "&dUltimate Logistical Transporter"
+			x: -8.882142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["531E3FF1F2865C67"]
+			id: "7522F2DC9038ED92"
+			rewards: [
+				{
+					id: "71E959132BFF7C08"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A2D87BAC12ECC92"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "7B1C318ACC88ED60"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "&cAdvanced Thermodynamic Conductor"
+			x: -5.382142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["7522F2DC9038ED92"]
+			id: "55E2F8C6A71E7328"
+			rewards: [
+				{
+					id: "65405EE32E0A388E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B6710CFD44A57EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "72F178B9B6C32B15"
+				item: "mekanism:elite_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "&9Elite Thermodynamic Conductor"
+			x: -5.732142857142858d
+			y: 3.1785714285714306d
+		}
+		{
+			dependencies: ["55E2F8C6A71E7328"]
+			id: "5E2F9E27E6B4DF74"
+			rewards: [
+				{
+					id: "37C0766120159902"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11F84A24C99B3244"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 8L
+				id: "744EA1745278F562"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				type: "item"
+			}]
+			title: "&dUltimate Thermodynamic Conductor"
+			x: -6.082142857142858d
+			y: 2.8285714285714305d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			description: [
+				"The &dRefined Obsidian Ingot&r is used to create the most durable and powerful &aTools&r and &aArmor&r in the game as well as a few other items."
+				""
+				"However, it also the most expensive to obtain."
+			]
+			id: "31B73D16C0199785"
+			rewards: [
+				{
+					id: "5536EAEA6B5F6335"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C5408E30C47908D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69CEEFADCFA28675"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			description: ["&6Glowstone Ingots&r can be used for making &eGlowstone Armor&r, &eRefined Glowstone Tools&r and &eTeleporter Frames&r."]
+			id: "58445E5B3957ACC8"
+			rewards: [
+				{
+					id: "5FBD4F8489140279"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22A8F36FB6C6F5EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "532EE85D4748D50D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"18D88932916C7A98"
+				"407EFAF528871014"
+			]
+			description: [
+				"The &dPurification Chamber&r uses &bOxygen&r to refine ores. Each &aOre&r makes &b&o3 clumps&r and each &aRaw Ore&r makes &o&b2 clumps&r and each &aShard&r only gives &o&b1 clump&r."
+				""
+				"&aClumps&r can then be placed in a &9Crusher&r to be turned to &o&bdirty dusts&r, which can be enriched in an &cEnrichment Chamber&r to create &o&bregular dusts&r, then through a &esmelter&r to be turned to an &6ingot&r."
+				""
+				"This will &n&bDOUBLE&r your ingot output."
+				""
+				"This machine requires &bOxygen&r to run, which is created by pumping &9water&r into an &6Electrolytic Separator&r."
+			]
+			id: "6C25D42C36175BF4"
+			min_width: 300
+			rewards: [
+				{
+					id: "72407C98355E1643"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F95256343522D16"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "It makes Clumps"
+			tasks: [{
+				id: "4983AE3B954BF2FE"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["685159786B4BCA0A"]
+			description: [
+				"The &aEnergized Smelter&r is your basic electric furnace that uses &cenergy&r instead of fuel to smelt items."
+				""
+				"It can be upgraded into a &dSmelting Factory&r, increasing the total number of smelting slots up to a &nmaximum of&r &o&b9&r."
+			]
+			id: "488DBE69595F38F8"
+			optional: true
+			rewards: [
+				{
+					id: "0580468E89B5204A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48B68E492300DD91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Mekanism's Powered Furnace"
+			tasks: [{
+				id: "5A081977DB9407EA"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &9Electrolytic Separator&r sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to create some very useful gases from some rather ordinary fluids."
+				""
+				"As the liquid is electrolyzed, the component gases will be stored in its &ainternal tanks&r. Should either tank fill completely, the &9Separator&r will turn &coff&r. Connecting a &dPressurized Tube&r or other compatible pipe to both tanks will remove the gas."
+				""
+				"If you are only using a single gas, selecting &b&odump&r for the unused gas will vent it to the environment, preventing that internal tank from filling completely and stopping the &9Separator&r."
+				""
+				"You'll need a bunch of these if you plan on making an &6Ore Processing Factory&r."
+				""
+				"To start, make one of these and we'll break down the most basic fluid: &1Water&r."
+			]
+			id: "18D88932916C7A98"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D99900D5F35E9D8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "130F7113A7CED310"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Time to Break It Down"
+			tasks: [{
+				id: "054CC6FB5173F8A3"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "The Start of a Tier 2 Ore Factory"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["407EFAF528871014"]
+			description: [
+				"A &6Gas-Burning Generator&r creates power by consuming any burnable gas for example the &3Hydrogen&r produced by an &aElectrolytic Separator&r or &7Ethylene&r."
+				""
+				"The &6Gas-Burning Generator&r has its own internal storage tank with a capacity of &o&b18,000&r units. &9Gas Tanks&r can be used to expand the &3Hydrogen&r storage capacity of your system."
+				""
+				"&4Note&r: &3Hydrogen&r is burned at a maximum rate of &o&b256 mB/t&r, generating up to &o&b20,480 RF/t&r, and &7Ethylene&r is burned at a maximum rate of &o&b6.4 mB/t&r, generating up to &o&b72,192 RF/t&r. So, burning &3Hydrogen&r will not produce more power than it costs to run an &6Electrolytic Separator&r. Use for &7Ethylene&r instead."
+			]
+			id: "3EC9D0DA61B45328"
+			min_width: 300
+			rewards: [
+				{
+					id: "3935FBDE13C26304"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E39D873BF66D9E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Burn Gases into Power!"
+			tasks: [{
+				id: "2C13E8B67BC61E34"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["263220DCCDB90E29"]
+			description: [
+				"The &dChemical Injection Chamber&r uses &3Hydrogen Chloride&r gas to turn &aOres&r into &o&b4 Shards&r and &aRaw Ores&r into &o&b8 Shards&r. "
+				""
+				"It is the start of 4x ore processing and requires a steady supply of &3Hydrogen Chloride&r, which in turn requires the player to have a &cThermal Evaporation Plant&r running."
+				""
+				"This machine is the next step to your &6Ore Processing Factory&r. Add this to the left of your &dPurification Chamber&r to build on to your current ore factory!"
+			]
+			id: "4F1C04C0F6769825"
+			rewards: [
+				{
+					id: "56F78F8FB89E9900"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "767F6996CF8873D4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "443DCB7E2E45F3DD"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			title: "The Start of a Tier 3 Ore Factory"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			description: [
+				"The &9Chemical Infuser&r combines two gases to create another gas."
+				""
+				"The gas gauges on the &nleft&r and &nright&r side of its &bGUI&r are the input tanks, and correspond to correspond with the left and right sides of the machine."
+				""
+				"The gauge in the &nmiddle&r is for the resulting gas, which likewise is output through the front of the machine."
+				""
+				"You'll need this to combine &3Chlorine&r with &bHydrogen&r to create &7Hyrdogen Chloride&r, which is then used in our &dChemical Injection Chamber&r."
+			]
+			id: "04E2D539E33B7B0F"
+			rewards: [
+				{
+					id: "68E9C26CCCFA5C18"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0AD6D6646BDEC194"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31D203EC92BEA66F"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F1C04C0F6769825"]
+			description: [
+				"To get &3Hydrogen Chloride&r for our machines, we'll need to first create &aBrine&r."
+				""
+				"The &cThermal Evaporation Plant&r is a multiblock structure with the purpose of converting &9Water&r to &eBrine&r."
+				""
+				"The structure has a &o&b4x4&r block base with a height of &o&b3&r blocks to a maximum height of &o&b18&r, where the base is made with only &3Thermal Evaporation Blocks&r, and the walls contains a &eThermal Evaporation Controller&r, and at least &o&b2&r &dThermal Evaporation Valves&r."
+				""
+				"Pump in &9Water&r, and you'll start collecting &eBrine&r, which can be pumped into an &aElectrolytic Separator&r to extract &6Chlorine&r from the gas."
+				""
+			]
+			id: "603877AB96321F1A"
+			min_width: 350
+			rewards: [
+				{
+					id: "6DB516DDFD5C695C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "06F5F593F62850C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "716D483EFC35F6F3"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "33D7942176AD257D"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4BAD2AADFE32215A"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1112E4E2CCEB2467"]
+			description: [
+				"We will need to add 3 more machines to our current setup."
+				""
+				"The &6Chemical Dissolution Chamber&r is the first machine in the 5x ore processing setup. It turns &aRaw Ores&r into &2Slurry&r using &7Sulfuric Acid&r."
+				""
+				"The machine uses &o&b100mB&r of &7Sulfuric Acid&r for every ore dissolved and outputs &o&b1000mb&r of &2Slurry&r. This &2Slurry&r needs washing in the &dChemical Washer&r."
+			]
+			id: "4F436770D30D8520"
+			rewards: [
+				{
+					id: "7BE35D42E1266617"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F6BF6C6BE556D75"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FE5AA0FF1F9BB51"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "The Start of a Tier 4 Ore Factory"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: [
+				"The &2Rotary Condensentrator&r is used for converting substances between liquid and gaseous forms at a rate of 1:1."
+				""
+				"It has two modes: &3Decondensentrating&r, which turns &aLiquids&r into &7Gases&r, and &dCondensentrating&r, which turns &7Gases&r into &aLiquids&r."
+				""
+				"To make &4Sulfuric Acid&r, you'll need to create &aWater Vapor&r."
+				""
+				"Pump some &9Water&r into this machine and it'll convert it into &bVapor&r. "
+			]
+			id: "4236B9F071BE18F3"
+			rewards: [
+				{
+					id: "0331485A1FEFCB6C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A153251521B062D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50D9504BFFB97A27"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: [
+				"The &9Chemical Oxidizer&r is used for making gases from materials. It is a crucial machine needed for Mekanism's 5x ore production system."
+				""
+				"Okay, let's start with making &6Sulfur Dioxide&r first."
+				""
+				"Start by placing &7Gunpowder&r in a separate &aChemical Injection Chamber&r with &3Hydrogen Chloride&r to create &eSulfur Dust&r. Or you can just pulverize &eSulfur&r from &oThermal Series&r into &eSulfur Dust&r."
+				""
+				"Feeding the &eSulfur Dust&r into this machine, the &aChemical Oxidizer&r, will create &6Sulfur Dioxide&r. "
+				""
+				"Now we need to create &6Sulfur Trioxide&r. Send the &6Sulfur Dioxide&r into a &cChemical Infuser&r to combine it with &bOxygen&r to create &6Sulfur Trioxide&r."
+				""
+				"Send the &6Trioxide&r to another &cChemical Infuser&r to combine it with &bWater Vapor&r to create &eSulfuric Acid&r."
+			]
+			id: "2E274BEEF2B0B8C7"
+			min_width: 300
+			rewards: [
+				{
+					id: "24A636A2403CF961"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F2FD9C2E209CDAF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21BFDF262D2A9DB3"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "54D899FF6AE13553"
+					item: "thermal:sulfur_dust"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			description: [
+				"The &cThermal Evaporation Plant&r multi-block produces &eBrine&r based on the internal temperature."
+				""
+				"There are several methods to increase the temperature of the plant, including building them in a desert!"
+				""
+				"The &aFuelwood Heater&r burns buckets of &6Lava&r, which can them be piped in using a pipe that transfers heat."
+				""
+				"The &eResistive Heater&r uses &cRF/FE&r to produce heat, and can be set to use whatever &cRF/FE&r you want it to use."
+			]
+			id: "027084AE2DF5EBA6"
+			optional: true
+			rewards: [
+				{
+					id: "6FA4F8AAF1F33D21"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "502A3932A46F82A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E75525A5D88EF23"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:fuelwood_heater"
+							}
+							{
+								Count: 1b
+								id: "mekanism:resistive_heater"
+							}
+						]
+					}
+				}
+				title: "Heaters"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"The &6Teleporter Portal&r is a multi-block structure that allows the player to teleport between &aTeleporters&r on the same frequency. They are configured by &eright-clicking&r the &aTeleporter&r block at the base of the &aTeleporter&r."
+				""
+				"Their security can be configured as \"&bPublic&r\" (any player can teleport between &aTeleporters&r on this frequency) or \"&bPrivate&r\" (only the player who created/belonging to that frequency may use or add &6Teleporter Portals&r to it). They can be used to travel between dimensions."
+				""
+				"To create a custom Portal, place down a single Teleporter block. Connect power to the block."
+				""
+				"Create a \"Portal Frame\" with the teleporter block being the base of the portal."
+				""
+				"The final product will be a &n4x3 portal structure&r, with the two blocks in the middle creating the portal."
+			]
+			id: "7B0DFA55B4D8B16D"
+			min_required_dependencies: 44
+			min_width: 300
+			rewards: [
+				{
+					id: "02DD8A00EB294645"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E52ACA3964F9768"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "2C1730C4F7CB8377"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+				{
+					id: "68FE61A81A5C1390"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+			]
+			title: "Custom Portals!"
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"The &aEnergy Tablet&r is a portable, rechargeable battery pack that can be charged with up to &b1,000kJ&r of energy and can then be used to power other devices (not tools)."
+				""
+				"It is also an ingredient in many recipes in &dMekanism&r."
+			]
+			hide_dependency_lines: false
+			id: "1FC7E9DBF92BE6AA"
+			rewards: [
+				{
+					id: "1BB3A10917293715"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78034D852A1EFCBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Portable Battery Pack"
+			tasks: [{
+				id: "79EF9001D76FD91D"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "3C8D9278B81BB37A"
+			rewards: [
+				{
+					id: "47356F417DEC46D5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A2FF9188C694273"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "46C5C0922839BDCA"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: -16.8d
+			y: -0.3500000000000001d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "0ACE573560A19309"
+			rewards: [
+				{
+					id: "6FE52E73EF46E4CC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6614AE8BC17ABE6D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1B5CF4B0B6D3F6F9"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: -16.8d
+			y: -1.05d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "763FB27929E053BE"
+			rewards: [
+				{
+					id: "76C03E48F03C2170"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "32C3C29DC6757967"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "43E4874F23459DB1"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: -16.8d
+			y: 1.05d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "001DE8028CAF0A08"
+			rewards: [
+				{
+					id: "440421F2493EF7E4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "636C0E7B355CAA94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "126FB3CA8F2CCF11"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: -16.8d
+			y: 0.34999999999999987d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "09830BB2A23E94B4"
+			rewards: [
+				{
+					id: "451094685147C85D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5113300A6E9E1E36"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "70A4BDDF6392DC9D"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: -16.8d
+			y: 1.7499999999999998d
+		}
+		{
+			dependencies: ["166971866A9234C7"]
+			hide_dependency_lines: true
+			id: "515A60B89ED5440D"
+			rewards: [
+				{
+					id: "3B1848D1C903C357"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48E4270CDD17DC39"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "0872B5A950703C8A"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			x: -16.8d
+			y: 2.45d
+		}
+		{
+			dependencies: ["1FC7E9DBF92BE6AA"]
+			description: ["The &2Configurator&r is used to configure many of the items in &dMekanism&r, from changing pipes to \"&cPull&r or &9Push&r\" or rotating machines."]
+			id: "5E116409DC7D30BB"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "1DCE5FC45A37AF7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2328FFCF39687BEB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Mekanism's Wrench"
+			tasks: [{
+				id: "2612CACBDDF9AD1A"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D88932916C7A98"]
+			description: [
+				"To start breaking down &9water&r, we'll need a &nwater source&r."
+				""
+				"The &2Kitchen Sink&r provides &ninfinite water&r, and can easily be set up to pump out &9water&r."
+				""
+				"Of course you can always use the &oclassic&r infinite water source with a &ePump&r from &dMekanism&r."
+				""
+				"Pump the water into your &aElectrolytic Separator&r to split the water into &3Hydrogen&r and &7Oxygen&r."
+			]
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "minecraft:water"
+							}
+						}]
+					}
+				}
+			}
+			id: "407EFAF528871014"
+			min_width: 300
+			rewards: [
+				{
+					id: "30B2193FC8F6FB68"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2921DB2700E3C38F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16DAFC5C5846015A"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "&9Infinite Water Source"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DB1AAAD926486BC"]
+			id: "30F8BA43B1BB9035"
+			rewards: [
+				{
+					id: "390294C4EB21A97D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50691B73084EC847"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "5FFEF5D6055A67B1"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: -5.95d
+			y: 0.7000000000000002d
+		}
+		{
+			dependencies: ["30F8BA43B1BB9035"]
+			id: "5F94483E05D2F528"
+			rewards: [
+				{
+					id: "323827EFC1CB6293"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "566F7A471A16CF19"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "05059B48A8F56BC5"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: 0.7d
+		}
+		{
+			dependencies: ["5F94483E05D2F528"]
+			id: "712CB147B5873121"
+			rewards: [
+				{
+					id: "31BA66152F2FF285"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C2E92B2681BFA24"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "33F9C615B944909A"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -3.85d
+			y: 0.35d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			description: [
+				"&aChemical Tanks&r are used to store &7Gases&r."
+				""
+				"They can be placed as a block and can interact with &dPressurized Tubes&r."
+				""
+				"They come in the four tiers, each tier being double the capacity and output rate of its predecessor."
+			]
+			hide_dependency_lines: true
+			id: "41EB0C570FC54F43"
+			rewards: [
+				{
+					id: "790502EE6BDB1A67"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "621E9F010C414AD8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "665B9818855C0028"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["41EB0C570FC54F43"]
+			id: "1162544BA1B2B0F3"
+			rewards: [
+				{
+					id: "57EE68003FFE524C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A8E08FECFADD3A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "78CFB8D559DA92AE"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
+			x: -5.95d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1162544BA1B2B0F3"]
+			id: "4C4B1602E2AFC314"
+			rewards: [
+				{
+					id: "07F962B06FE6F26E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "042B07AAA4D89346"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1D2AE44FA5391B71"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4C4B1602E2AFC314"]
+			id: "0C0D0B80B3FA26F2"
+			rewards: [
+				{
+					id: "00FEE563E45E5BDF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00ABA486B3816AAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "5FD0078940E64A4C"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: -3.85d
+			y: -1.4d
+		}
+		{
+			dependencies: ["7778937DF377C1B4"]
+			description: [
+				"Generates power from the &6sun&r!"
+				""
+				"Produces about &b17.6FE/t&r."
+			]
+			id: "74200A48498DD7F8"
+			rewards: [
+				{
+					id: "1E6C75D9763B6024"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "467EB53D4DFBFCB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22ACFEB806D68385"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F62B5510FA881CD"]
+			description: [
+				"The &aHeat Generator&r has 2 modes to generate power:"
+				""
+				"&9Passive:&r Surrounding the generator with &6lava&r source or flowing blocks creates passive power by creating heat. Place one &6lava&r source block on top, and let it flow over the sides. Make sure to connect pipes first!"
+				""
+				"&9Active:&r Placing combustible materials such as &0coal&r or &2wood&r into the generator will burn the fuel to create power."
+			]
+			id: "0650996C7818ADB5"
+			rewards: [
+				{
+					id: "65ED19E4D92D0339"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E1E7878B46494F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Basic Power Gen"
+			tasks: [{
+				id: "7BA12BAB8271E170"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B43DB1A6B0A7B44"]
+			description: ["&9Bio-Generator&r produce electricity from &2Bio Fuel&r. It produces around &o&b140FE/t&r."]
+			id: "6CD1720B76F47806"
+			rewards: [
+				{
+					id: "34CB8D47C6E58307"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "572A4FAAAAE6FD92"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36B12984060A90FD"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74200A48498DD7F8"]
+			description: [
+				"&dAdvanced Solar Generastor&r produces &b105.6FE/t&r."
+				""
+				"It also can be used to add extra heat to &2Thermal Evaporation Plants&r."
+			]
+			id: "4EDD96EB60EF5814"
+			rewards: [
+				{
+					id: "0CF857ACCA5DEF60"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69B7E49640B2140D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F0B3CA66BE1AEE1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0650996C7818ADB5"]
+			description: [
+				"This is a great option for generating power."
+				""
+				"This generates around &b40FE/t&r, and increases based on &nhow high you are&r."
+				""
+				"The higher the &o&bY level&r, the more &cpower&r it produces!"
+			]
+			id: "7778937DF377C1B4"
+			rewards: [
+				{
+					id: "1D6A763B8BF34C64"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D4F64E9FE8EE328"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Generates Power from the Wind"
+			tasks: [{
+				id: "50624A39AD15A8A6"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&dMekanism&r is a tech mod that will change the way you play &aMinecraft&r."
+				""
+				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+				""
+				"This mod features Hydrogen-Powered &cJetpacks&r, a &bMini-Robotic&r friend, &6Reactors&r, a &2Digital Miner&r to automate mining, and much more."
+			]
+			icon: "alltheores:raw_osmium"
+			id: "58B125BD4876054C"
+			min_width: 300
+			rewards: [
+				{
+					id: "25ADD15D577DAF08"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60787CDC45620A71"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oAdvanced Alloy&r quest*"
+			tasks: [{
+				id: "10CE7D11B912F418"
+				item: "alltheores:raw_osmium"
+				type: "item"
+			}]
+			title: "Welcome to&r &dMekanism:&r Phase one"
+			x: -15.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			id: "6F62B5510FA881CD"
+			rewards: [
+				{
+					id: "1AD16DF8CA3F7184"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37B7295EF08B249C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Base Crafting Ingot"
+			tasks: [{
+				id: "52967F83338A3AC3"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}]
+			title: "Osmium"
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			description: [
+				"So far, to &bDOUBLE&r our ingot output, your setup should look something like this:"
+				""
+				"&7Raw Ore&r goes into your &aPurification Chamber&r, which is being fed &3Oxygen&r from an &6Electrolytic Separator&r."
+				""
+				"It then outputs the product into the &9Crusher&r, which converts the ore clumps into &o&bdirty dusts&r. This &7Dirty Dust&r is fed into an &bEnrichment Chamber&r, which converts the &7Dirty Dust&r into the regular &eOre Dust&r."
+				""
+				"The &bEnrichment Chamber&r then feeds into your &4Smelter&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mekanism:block/combiner/front_active"
+				}
+			}
+			id: "263220DCCDB90E29"
+			rewards: [
+				{
+					id: "1B6948E5F38437A6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34DA62BC2A6249D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "46C4C1AD9FA5BEE2"
+				title: "Our Setup So Far"
+				type: "checkmark"
+			}]
+			title: "Ore Factory: &eTier 2"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4F1C04C0F6769825"
+				"04E2D539E33B7B0F"
+			]
+			description: [
+				"So now, you should have &o&b5&r machines ready to go to process your &aOres&r. "
+				""
+				"Your factory should be something like this:"
+				"&dChemical Injection Chamber&r => &6Purifying Chamber&r => &eCrusher&r => &2Enrichment Chamber&r => &3Smelter&r."
+				""
+				"We can do even better then that!"
+				"Well buckle up, it's about to get crazy!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mekanism:block/crusher/front_active"
+				}
+			}
+			id: "1112E4E2CCEB2467"
+			min_width: 300
+			rewards: [
+				{
+					id: "393E612A753A686C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2543D8BCB94D1632"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "57F40CFA03BD36EF"
+				title: "The Hard Part"
+				type: "checkmark"
+			}]
+			title: "Ore Factory: &9Tier 3"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1112E4E2CCEB2467"]
+			description: [
+				"The &9Pressurized Reaction Chamber&r (&bPRC&r) is used primarily to create &2Substrate&r (to create &bHDPE Pellets&r), &bHDPE Pellets&r (to create &dHDPE Sheets&r), and &3Ethylene&r (an efficient source of fuel used in the &cGas-Burning Generator&r). "
+				""
+				"The &9Pressurized Reaction Chamber&r accepts a &o&bliquid&r, a &o&bgas&r, and a &o&bmaterial(s)&r; it uses these three substances to create another material(s) and some leftover gas."
+				""
+				"Like many other &dMekanism&r machines, it has &nconfigurable sides&r; by default, it accepts &b&ogas from the left&r, accepts &b&oliquid from the back&r, and &b&ooutputs gas on the right&r."
+			]
+			id: "587A19FC348387C5"
+			min_width: 300
+			rewards: [
+				{
+					id: "15689668AF5D79CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CE5281897F50B76"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C162E39F2ACA72F"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			description: [
+				"&2Bio Fuel&r is  a type of fuel used inside of a &dBio-Generator&r. Beyond that &2Bio Fuel&r is used in the &9Pressurized Reaction Chamber&r to create &7Ethylene&r."
+				""
+				"The &cCrusher&r can also break down natural substances into &2Bio Fuel&r!"
+			]
+			id: "3B43DB1A6B0A7B44"
+			rewards: [
+				{
+					id: "1AFAD502123E2354"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E92B06F6327E065"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "05138E2E906020F3"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			title: "Bio Fuel"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B43DB1A6B0A7B44"]
+			description: [
+				"When &2Bio Fuel&r is combined with &9Water&r and &3Hydrogen&r in a &aPressurized Reaction Chamber&r it creates &cSubstrates&r. It also creates &7Ethylene&r as a by-product."
+				""
+				"These are needed to create &bHDPE pellets&r, which is used for end-game crafts like the &bMeka-suit&r."
+			]
+			id: "5047792C6EF6D2AD"
+			rewards: [
+				{
+					id: "7D5C470AAB81D1F4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C4EEB0910A08B10"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "1F6A5B58DF94730B"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			title: "Substrates"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5047792C6EF6D2AD"]
+			description: ["Combining &3Oxygen&r, &7Ethylene&r, and a &eSubstrate&r in a &9Pressurized Reaction Chamber&r will create an &bHDPE Pellet&r."]
+			id: "76A38CCA5816CDAD"
+			rewards: [
+				{
+					id: "4992F1A8050979FC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "18D3C507E195B4DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "62E8F3CC847BBD3D"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			title: "HDPE Pellets"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76A38CCA5816CDAD"]
+			description: ["To get an &bHDPE Sheet&r, place &b3 HDPE Pellets&r in an &9Enrichment Chamber&r."]
+			id: "47106CE1937C4340"
+			rewards: [
+				{
+					id: "02107F88B4BA9F84"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B9E9694D8C2B3E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EE6F07986BAFC3B"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &0Enriched Carbon&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&0Enriched Carbon&r helps you to create a bunch of &7Enriched Iron&r, &3Steel Dust&r, &3Steel Block 1x&r and &6Hohlraum&r."
+			]
+			id: "0F326EEEC2EBE4E5"
+			rewards: [
+				{
+					id: "2E05E5F34A9044DE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F3808FDC9A38DAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B60ACBCC3B46D1D"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: [
+				"The &2Chemical Washer&r turns &3Slurry&r into &eClean Slurry&r using &9Water&r."
+				""
+				"The &eClean Slurry&r then needs to be further refined by pumping it into a &dChemical Crystallizer&r."
+				""
+				"&9Water&r is piped in through the &ntop&r of the machine."
+				""
+				"It will be &b&o#2&r of your &b&oTier 4&r &6Ore Processing Factory&r."
+			]
+			id: "4AFF81D3D0E78255"
+			min_width: 300
+			rewards: [
+				{
+					id: "0A6179095CA49584"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30D52C40EC2C0469"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Giving Ores a Bath"
+			tasks: [{
+				id: "1DA159AA61B37545"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: [
+				"The &dChemical Crystallizer&r turns &eClean Slurry&r from the &9Chemical Washer&r and turns it into &aCrystals&r, which the &3Chemical Injection Chamber&r can process after."
+				""
+				"This machine will be &o&b#3&r in your &o&bTier 4&r &6Ore Processing Factory&r."
+			]
+			id: "3999760881C855FA"
+			min_width: 300
+			rewards: [
+				{
+					id: "51362F9506EB3B21"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "106382E71C44DBDF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Turns Ore Slurry into Crystals"
+			tasks: [{
+				id: "6F2B3A4206C129B0"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3999760881C855FA"
+				"4AFF81D3D0E78255"
+			]
+			description: [
+				"A basic layout of your factory should be like this: "
+				""
+				"&aRaw Ore&r goes into your &dChemical Dissolution Chamber&r => pumps &3A GAS&r to &9Chemical Washer&r => pumps &3A GAS&r to &6Chemical Crystallizer&r =>  outputs crystals to &4Chemical Injection Chamber&r => outputs shards to &1Purification Chamber&r => outputs clumps to &aCrusher&r => outputs dirty dusts to &dEnrichment Chamber&r => outputs clean dust to &cSmelter&r."
+				""
+				"{image:kubejs:textures/item/mekanism_flowchart.png width:300 height:110 align:1 fit:true}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mekanism:block/dimensional_stabilizer/top_active"
+				}
+			}
+			id: "3C49F2EEDCCAF1DF"
+			min_width: 300
+			rewards: [
+				{
+					id: "5E9A08D5C7DB312F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3940A85ABDFF032A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B3B58C438FD4397"
+				title: "Tier 4 Ore Processing Factory Summary"
+				type: "checkmark"
+			}]
+			title: "Ore Factory: &dTier 4"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: [
+				"The &6Chargepad&r is a wireless electric charging station."
+				""
+				"Any rechargeable items from any mod you have in your &einventory&r will be charged while standing on it."
+			]
+			id: "4204702AA6FBF40B"
+			rewards: [
+				{
+					id: "53DE9CA73DACDD9A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05747F992E7EAE9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6190BE8B67130AB5"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4236B9F071BE18F3"
+				"2E274BEEF2B0B8C7"
+			]
+			description: ["Now that we have completed the &d&oMekanism:&r &oPhase one&r, it's time to move towards making &dAntimatter Pellets&r and trying to build some &4Reactors&r."]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "7E4A95B6443F23BC"
+			rewards: [
+				{
+					id: "16246A6C1C4EB058"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B300E6755DC4169"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Path to Reactors"
+			tasks: [{
+				id: "60BF6E0420C91050"
+				type: "checkmark"
+			}]
+			title: "&dMekanism:&r Phase two"
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "6E95E958201D50BE"
+			rewards: [
+				{
+					id: "1945A2556CC87847"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EAFC60F3903C433"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39FC2ACB1E15C42E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:personal_storage"
+					}
+				}
+				title: "Personal Storage"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &cEnriched Redstone&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&cEnriched Redstone&r helps you to create a bunch of &4Infused Alloy&r, &bRose Quarz&r and &aBasic Control Circuits&r."
+			]
+			id: "2EE4A691FB043B1D"
+			rewards: [
+				{
+					id: "43172E721AFFCECE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "003B2E69AFD4D7B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B051100771D6FC3"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &bEnriched Diamond&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&bEnriched Diamond&r helps you to create a bunch of &9Reinforced Alloy&r and &dRefined Obsidian Dust&r."
+			]
+			id: "745904D1CC1BC8A5"
+			rewards: [
+				{
+					id: "56FC491120ECCCEE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "087E7EFD38ECFBA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "195E2A79C5958D6A"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &dEnriched Obsidian&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&dEnriched Obsidian&r helps you to create a bunch of &5Atomic Alloy&r."
+			]
+			id: "2562A7B1BA0A8190"
+			rewards: [
+				{
+					id: "39190215EB362C2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60B91F4EE831E441"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3AEAE09273596536"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "685159786B4BCA0A"
+			rewards: [
+				{
+					id: "7F981EFA2AF27812"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "330DF0AF5D8B1AC6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72EED8EA9FD836D8"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &6Enriched Gold&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&6Enriched Gold&r helps you to create a bunch of &0Netherite Dust&r and &eGilded Blackstone&r."
+			]
+			id: "5E87DF3AC9AEA8C5"
+			rewards: [
+				{
+					id: "47A530DC7DFD23C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A246391B0B6BA0A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43FDFD89FE4F16C6"
+				item: "mekanism:enriched_gold"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			description: [
+				"The &3Enriched Tin&r give &n8x the amount&r of mb in a &eMetallurgic Infuser&r."
+				""
+				"&3Enriched Tin&r helps you to create a bunch of &6Bronze Dust&r and &6Bronze&r."
+			]
+			id: "0E5471047F7C07F3"
+			rewards: [
+				{
+					id: "0E697B2820C7ABC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07DC92E3590A7323"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "08A74FC11F45F771"
+				item: "mekanism:enriched_tin"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41EB0C570FC54F43"]
+			description: [
+				"The &6Jetpack&r is an item that allows the player to fly, equippable in the chestplate slot."
+				""
+				"It uses &3Hydrogen&r gas as a fuel, of which it can store up to &o&b24,000mB&r."
+			]
+			hide_dependency_lines: true
+			id: "006A26D253D4D1C2"
+			optional: true
+			rewards: [
+				{
+					id: "2058E57DE7824238"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12264AFF248E7EB1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "210CB8067DE0602D"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B681BC43371CC5C"]
+			description: [
+				"The &2Restrictive Transporter&r is the cousin of the &6Logistical Transporter&r."
+				""
+				"Think of it as the dense mode in &3Thermal Expansion&r &bI&otem Ducts&r or &4Red Power 2&r &o&bRestriction Pipes&r."
+				""
+				"This makes the Logistical configuration to a &o1000&r mere blocks, meaning it has the lowest priority in the logistical system, useful for making an overflow system as well as an item voiding system, as this is the last option where items in the logistical system will go."
+				""
+				"This is the &oOpposite&r of the &9Diversion Transporter&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "6D33D87F46F08FEE"
+			optional: true
+			rewards: [
+				{
+					id: "450843BF91649FC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "705AB40CA307B9EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "5935B47DEF82FEEE"
+				item: "mekanism:restrictive_transporter"
+				type: "item"
+			}]
+			x: -7.832142857142858d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["5B681BC43371CC5C"]
+			description: [
+				"Part of &dMekanism&r logistics, the &6Diversion Transporter&r is a special transporter that has configurable &credstone&r sensitivity. Since &6Logistical Transporters&r do not have a redstone sensitivity option, this is needed when you want to add &credstone&r sensitivity to your logistics system."
+				""
+				"You can configure each side of Diversion Transporter separately to the following options by &eShift+Right Clicking&r with a &2Configurator&r: &b&oAlways active&r, &b&oActive with signal&r, and &b&oActive without signal&r."
+				""
+				"&cRedstone&r sensitivity of all transmitters other than the &6Logistical Transporter&r are configurable by themselves, but cannot be done separately for each side."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "24360EEB124A8745"
+			optional: true
+			rewards: [
+				{
+					id: "3386B91F45F6CA66"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B83E23A5EA3B257"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				count: 2L
+				id: "4361C596880E5D25"
+				item: "mekanism:diversion_transporter"
+				type: "item"
+			}]
+			title: "Diversion Transporter"
+			x: -9.232142857142858d
+			y: 2.4785714285714304d
+		}
+		{
+			dependencies: ["41EB0C570FC54F43"]
+			description: ["The &4Flamethrower&r is a ranged weapon which uses &3Hydrogen&r gas as its fuel."]
+			hide_dependency_lines: true
+			id: "7F38E9C6DA5B99EA"
+			optional: true
+			rewards: [
+				{
+					id: "13AA2245D793B929"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B134F29E2828D81"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2ADDE24DC501BFDE"
+				item: "mekanism:flamethrower"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4204702AA6FBF40B"]
+			description: [
+				"&9Free Runners&r are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing &cfall damage&r as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."
+				""
+				"&9Free Runners&r can be charged inside of various power-related generators or storage devices, like the &aAdvanced Solar Generator&r or the &2Energy Cube&r."
+			]
+			hide_dependency_lines: true
+			id: "095E1C928584FAAC"
+			optional: true
+			rewards: [
+				{
+					id: "4377CEDB12E14C08"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4495178B5A79EAAF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D1446769C4F7480"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41EB0C570FC54F43"]
+			description: [
+				"The &dScuba Tank&r is a piece of equipment worn on the backpack (the chest armor slot) that provides underwater respiration when a Scuba Mask is worn (on the helmet armor slot)."
+				""
+				"Like the &cJetpack&r, the &dScuba Tank&r must be filled with &3Oxygen&r gas in order to function."
+				""
+				"The &eScuba Mask&r is an utility head armor piece, used in conjunction with the &dScuba Tank&r to breathe underwater."
+			]
+			hide_dependency_lines: true
+			id: "7653935BDE025D18"
+			optional: true
+			rewards: [
+				{
+					id: "28971BDC273636F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DA45B11E03A0946"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3DDA76DECA25A858"
+					item: "mekanism:scuba_mask"
+					type: "item"
+				}
+				{
+					id: "133C8AA7EE020FC0"
+					item: "mekanism:scuba_tank"
+					type: "item"
+				}
+			]
+			title: "Scuba Gear"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC7E9DBF92BE6AA"]
+			description: [
+				"The &dAtomic Disassembler&r is &o&bMekanism's&r an &o&ball-in-one&r tool, essentially the ultimate, electronic version of the &o&bpaxel&r."
+				""
+				"The &dAtomic Disassembler&r has &o&b4&r different settings which may be &o&bcycled through&r by &eShift+Scroll-button&r or using the &nItem mode switch keybind&r:"
+				""
+				"&2Normal&r (&o&b20²&r) - The default setting. Works as if a &o&bdiamond&r version of every tool with &o&dEfficiency II&r."
+				"&3Slow&r (8²) - Works as if a &o&bdiamond&r version of every tool."
+				"&6Fast&r (128²) - Works as if a &o&bdiamond&r version of every tool with &o&dEfficiency V&r."
+				"&cOff&r (0²) - &o&bDoes not affect&r the world around it, &o&bexcept&r for mobs. Good setting to leave it on if you &o&bintend to use it as your main weapon&r... and don't want to dig yourself into a death trap."
+			]
+			id: "57E30971FCEF6709"
+			min_width: 500
+			rewards: [
+				{
+					id: "715F37E4F95328C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "272728DFD02FDE11"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AD35B06822B93AA"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+	]
+	title: "&2&oMekanism:&r &o&fPhase one"
+}

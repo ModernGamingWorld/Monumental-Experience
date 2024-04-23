@@ -1,0 +1,2134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "69B9F7247002FE35"
+	icon: "pneumaticcraft:seismic_sensor"
+	id: "00000000000000AE"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -7.821428571428569d
+			y: -16.589285714285715d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=nhtfd7PjUhY"
+			height: 1.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "pneumaticcraft:textures/gui/icon/gui_info.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/liquid_export_piece.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/place_piece.png"
+			rotation: 75.0d
+			width: 1.0d
+			x: -10.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/liquid_import_piece.png"
+			rotation: -40.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/dig_piece.png"
+			rotation: -55.0d
+			width: 1.0d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/item_drop_piece.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/progwidgets/harvest_piece.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:item/manual"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -13.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["566C0FA15F2021F1"]
+			description: [
+				"&9PneumaticCraft: Repressurized&r is all about &o&blogistics&r, &o&bautomation&r, and generally blowing things up for profit."
+				""
+				"Mastering pressurized air and heat will be the beginning of your journey. "
+			]
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			id: "00000000000000AF"
+			rewards: [
+				{
+					id: "00000000000000B1"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pneumatic_wrench"
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+					title: "Pneumatic Wrench"
+					type: "item"
+				}
+				{
+					id: "1F3EA5114054095F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4ADB15C46B158741"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSteel Ingots&r quest*"
+			tasks: [{
+				id: "7B56DD5D9F4BBB68"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "Welcome to &6PneumaticCraft: Repressurized"
+			x: -8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["00000000000000AF"]
+			description: [
+				"To begin your journey with &dPNC:R&r, you’ll need to obtain some &3Compressed Iron&r. The process for making this is quite dangerous without a pressure chamber. Be sure to stand well back!"
+				""
+				"Once you’ve acquired the materials, build a &o&b3x3x3&r pressure chamber. The &dPNC:R&r Manual will show you how."
+			]
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			id: "00000000000000B3"
+			min_width: 300
+			rewards: [
+				{
+					id: "434BA55C325145BC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0595033BA486B467"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 23L
+					id: "00000000000000B4"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00000000000000BA"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "00000000000000BB"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+			]
+			title: "Ethically Sourced"
+			x: -16.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["00000000000000B3"]
+			description: [
+				"While it won’t have you being visited by danger noodles from space or irradiating the countryside for the next millennium, Pressurized Air can be dangerous in its own right and going over pressure can cause that block to burst and be lost."
+				""
+				"A simple redstone cut-off can be built for your new Air Compressor with a bit of Redstone and a Repeater."
+			]
+			icon: "pneumaticcraft:air_compressor"
+			id: "00000000000000BD"
+			min_width: 300
+			rewards: [
+				{
+					id: "12D02AC3A5ECD538"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "25561B0033D65F21"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000000BE"
+					item: "pneumaticcraft:pressure_gauge_module"
+					type: "item"
+				}
+				{
+					icon: "pneumaticcraft:air_compressor"
+					id: "00000000000000BF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pneumaticcraft:air_compressor"
+								}
+								{
+									Count: 1b
+									id: "pneumaticcraft:liquid_compressor"
+								}
+							]
+						}
+					}
+					title: "Air Compressor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00000000000000C0"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+			]
+			title: "Air Compressor"
+			x: -16.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["00000000000000B3"]
+			description: ["Even the best laid plans can be brought to ruin by unexpected events. Install security upgrades in your compressor and pressure chamber to prevent rapid unscheduled disassembly."]
+			id: "00000000000000C3"
+			rewards: [
+				{
+					id: "0663F8D28EF79B5F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "41CE9AB2C9151BD2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "00000000000000C4"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			title: "Security Upgrades"
+			x: -17.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00000000000000B3"]
+			description: [
+				"Solid fuels can be potent, but they lack finesse as they’ll continue to generate pressure until the entire piece of fuel has burned, even if the compressor is disabled by redstone."
+				""
+				"Consider upgrading to a safer fuel source."
+			]
+			icon: "pneumaticcraft:liquid_compressor"
+			id: "00000000000000C7"
+			min_width: 300
+			rewards: [
+				{
+					id: "796E57D1A7B1480C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66454FF373176C6D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07969B05E7B03A24"
+					item: "pneumaticcraft:pressure_gauge_module"
+					type: "item"
+				}
+				{
+					id: "707B2893DDB5687C"
+					item: "pneumaticcraft:liquid_compressor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0A35E0FC9BF0D4C2"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00000000000000EA"]
+			description: ["Despite its name, the Kerosene Lamp is capable of using all of the same fuels as the Liquid Compressor and can light an area up to 30 blocks in radius. Perfect for keeping the terrors at bay. Try using a few to safely light up your base."]
+			id: "00000000000000CA"
+			rewards: [
+				{
+					id: "000000000000022D"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:medium_tank"
+						tag: {
+							BlockEntityTag: {
+								SavedTanks: {
+									Tank: {
+										Amount: 16000
+										FluidName: "pneumaticcraft:kerosene"
+									}
+								}
+							}
+						}
+					}
+					title: "Medium Fluid Tank"
+					type: "item"
+				}
+				{
+					id: "15AAF55C42686AF8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "417E747D584EE125"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000CB"
+				item: "pneumaticcraft:kerosene_lamp"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00000000000000AF"]
+			description: ["Where pressurized air is your primary power supply, heat is a secondary but just as vital mechanic. Advanced Compressors and other machines rely on either heating them up or cooling them down to run properly."]
+			icon: "minecraft:packed_ice"
+			id: "00000000000000CC"
+			rewards: [
+				{
+					id: "00000000000000CE"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:camo_applicator"
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+					title: "Camouflage Applicator"
+					type: "item"
+				}
+				{
+					id: "0849F9D6C05FAEEC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4F68DDB0C2080E47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "00000000000000CD"
+				title: "-173 Fahrenheit or Celsius?"
+				type: "checkmark"
+			}]
+			title: "Subzero"
+			x: -12.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["00000000000000CC"]
+			description: [
+				"Built on the principle of swirling high pressure air in a special chamber to create a temperature differential, the Vortex Tube allows you to finely control the amount of heating or cooling it does by controlling the pressure."
+				""
+				"The Vortex Tube isn’t the only way to generate Heat, however. Looking up uses on Heat Pipes in JEI will bring up a variety of blocks and liquids that may be used for heating and cooling as well. "
+				""
+				"Lastly, PneumaticCraft has built in support for Mekanism’s Heat system and compatibility with Integrated Dynamics. Some notable heat sources include:"
+				""
+				"● External Heater"
+				"● Resistive Heater"
+				"● Fuelwood Heater"
+			]
+			id: "00000000000000CF"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "00000000000000D1"
+					item: "pneumaticcraft:heat_sink"
+					random_bonus: 1
+					title: "Heat Sink"
+					type: "item"
+				}
+				{
+					id: "1264F3DC0886C0D5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4F6C3F53B84F0085"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000D0"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["00000000000000CF"]
+			description: ["&6Heat Pipe&r is useful for transmitting heat between blocks quickly and without loss to the environment. Use it to move heat from a Vortex Tube to one or more machines. Heat can also be used to directly power a Furnace."]
+			id: "00000000000000D2"
+			rewards: [
+				{
+					id: "747E69484868B52C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "33BEA6ABC859C518"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "00000000000000D3"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			title: "Heat Pipe"
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["00000000000000CF"]
+			description: [
+				"You may have noted by now that the Vortex Tube uses a lot of air and does not respond to redstone. In order to turn it off, the air supply must be cut. A Regulator Tube Module allows you to do just that."
+				""
+				"Place it in line in your Pressure Tube and apply a redstone signal to it. A signal of 15 will fully disable the flow of air, turning off any machines down the line."
+			]
+			id: "00000000000000D5"
+			rewards: [
+				{
+					id: "476CA4CF21A60235"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "11353084215F6F37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000D6"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["00000000000000D2"]
+			description: [
+				"The &6Heat Frame&r is placed on any inventory and allows the inventory to make use of heat or cold to perform crafting operations. When heated, it smelts items as a furnace would. When cooled, it can make a variety of useful items."
+				""
+				"In order to cool liquids, fill a PneumaticCraft tank or a bucket and place it inside the inventory. The cooled items will appear in the chest as long as there's room."
+			]
+			id: "00000000000000D9"
+			rewards: [
+				{
+					id: "638440329E3E8D54"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78F0B7CE6B9ED12C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000DA"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00000000000000D2"]
+			description: [
+				"The &eUniversal Sensor&r is a powerful block that will output a redstone signal based on various conditions, such as detecting a nearby player, when a player right clicks a block, the presence of blocks, light level, or even the current heat of a block."
+				""
+				"When reading heat, try aiming it at a heat pipe or a PNC:R machine, rather than at an inventory with a heat frame."
+			]
+			id: "00000000000000DC"
+			rewards: [
+				{
+					id: "00000000000000DE"
+					item: "pneumaticcraft:block_tracker_upgrade"
+					title: "Block Tracker Upgrade"
+					type: "item"
+				}
+				{
+					id: "00000000000000DF"
+					item: "pneumaticcraft:gps_tool"
+					title: "GPS Tool"
+					type: "item"
+				}
+				{
+					id: "40313AE190C78E6A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B80E0B503576E36"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000DD"
+				item: "pneumaticcraft:universal_sensor"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000000AF"]
+			description: ["Go scoop up a bucket of oil like some filthy mongrel. You’ll find it commonly above ground and it’s easily spotted by watching your minimap."]
+			id: "00000000000000E0"
+			rewards: [
+				{
+					id: "4CFD4FAD424AFB9E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "07876792CD93F251"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "00000000000000E1"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			title: "Crude and Un-Cultured"
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			description: [
+				"The Gas Lift can be used to pump up fluids from the world. Place it above a source block of any fluid, insert drill pipes, and provide air. The pipes will extend down to a source and the lift will attempt to pull all nearby connected source blocks."
+				""
+				"Sneak + Right click any PNC:R block with a Pneumatic Wrench to instantly pick it up while retaining the stored air and upgrades. This also works on Pressure Chamber Valves."
+			]
+			icon: "pneumaticcraft:gas_lift"
+			id: "00000000000000E2"
+			rewards: [
+				{
+					id: "00000000000000E5"
+					item: "pneumaticcraft:seismic_sensor"
+					title: "Seismic Sensor"
+					type: "item"
+				}
+				{
+					id: "224DF0FE5A9EA0EC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "095B4F6031398505"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000000E3"
+					item: "pneumaticcraft:gas_lift"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "00000000000000E4"
+					item: "pneumaticcraft:drill_pipe"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00000000000000E0"]
+			description: [
+				"The &eRefinery&r is built by placing the &eController&r and stacking 2-4 outputs on top of it. Be sure to insulate all of the sides! Consider using a logistics network to extract the outputs for further processing. Supply heat and oil to begin the process. "
+				""
+				"A Comparator reading from the Controller is an excellent way of controlling your Vortex Tube to prevent wasting fuel."
+			]
+			icon: "pneumaticcraft:refinery_output"
+			id: "00000000000000E7"
+			rewards: [
+				{
+					id: "1C4C811B04E457DF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6A8076C5FC861579"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000000E8"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00000000000000E9"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
+			title: "Oil Refinery"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00000000000000E7"]
+			description: [
+				"TPP for short, this machine uses a combination of heat and pressure to transform solids and liquids. It has even found use in the kitchen in recent years. "
+				""
+				"Placing the machines in a row allows them to share both heat and pressure through their sides. "
+			]
+			id: "00000000000000EA"
+			rewards: [
+				{
+					count: 4
+					id: "00000000000000ED"
+					item: "pneumaticcraft:dispenser_upgrade"
+					title: "Dispenser Upgrade"
+					type: "item"
+				}
+				{
+					id: "527C7820AB3D55F4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "23ABEEB8E4178E05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "00000000000000EB"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			title: "Thermopneumatic Processing"
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["00000000000000F8"]
+			description: ["Extremely valuable for creating Speed Upgrades."]
+			id: "00000000000000EE"
+			rewards: [
+				{
+					id: "2B033126E29B1F5C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F3C7DCE051A4846"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000EF"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			title: "Lubricant"
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["00000000000000EA"]
+			description: ["Need more? Consider converting some of your other fuels."]
+			id: "00000000000000F1"
+			rewards: [
+				{
+					id: "30CFFF40CB81F93A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "69F44E0F10E0F310"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F2"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			title: "LPG"
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["00000000000000F1"]
+			description: ["A drop in the sea to come."]
+			id: "00000000000000F4"
+			rewards: [
+				{
+					id: "475DC2CAEDA075B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6BB011C013B99AF6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F5"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			title: "Molten Plastic"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["00000000000000EA"]
+			description: ["It's a decent fuel... but perhaps a little transformation is in order."]
+			id: "00000000000000F8"
+			rewards: [
+				{
+					id: "6780C34752AA1B7C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "03CA20FD230ECD3F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000F9"
+				item: "pneumaticcraft:diesel_bucket"
+				type: "item"
+			}]
+			title: "Diesel"
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"00000000000000F4"
+				"00000000000000EE"
+			]
+			description: ["The Fluid Mixer is primarily used as the final step in the Biodiesel processing chain. It also creates a very useful byproduct, Glycerol."]
+			id: "00000000000000FB"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000105"
+					item: "minecraft:red_mushroom"
+					random_bonus: 7
+					title: "Red Mushroom"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000000106"
+					item: "minecraft:podzol"
+					random_bonus: 2
+					title: "Podzol"
+					type: "item"
+				}
+				{
+					id: "00F7CE303FB4EDEC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "49BA65E3E8D5E38D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Mixin’ It Up"
+			tasks: [{
+				id: "00000000000000FC"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00000000000000FB"]
+			description: [
+				"The first step to producing renewable plastic and lubricant, creating Yeast Culture with a TPP will require precise heat control."
+				""
+				"Experiment with low power heat sources such as torches, varying levels of insulation, or even different biomes or dimensions to find a way to produce the culture reliably."
+			]
+			icon: "minecraft:red_mushroom_block"
+			id: "00000000000000FD"
+			rewards: [
+				{
+					id: "35AAE28F5E6BA690"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0F2B9E99661781EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000FE"
+				item: "pneumaticcraft:yeast_culture_bucket"
+				type: "item"
+			}]
+			title: "Yeast Culture"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			description: ["Ethanol could be burned on its own, but it could be refined, which is definitely worth doing!"]
+			id: "0000000000000100"
+			rewards: [
+				{
+					id: "0E4AFD2F8E41636B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4A9B9384DCA3464E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000101"
+				item: "pneumaticcraft:ethanol_bucket"
+				type: "item"
+			}]
+			title: "Ethanol"
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			description: ["Or any seed, for that matter."]
+			id: "0000000000000103"
+			rewards: [
+				{
+					id: "753C7B3F121FAE0C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "283EB39D4259EF43"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Give Peas a Chance"
+			tasks: [{
+				id: "0000000000000104"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+				type: "item"
+			}]
+			title: "Vegetable Oil"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"0000000000000103"
+				"0000000000000100"
+			]
+			description: ["A sustainable way forward."]
+			id: "0000000000000107"
+			rewards: [
+				{
+					id: "4C7A17EE7A2830D4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2C5CBC4B6EAFE377"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000108"
+				item: "pneumaticcraft:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "Biodiesel"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["000000000000011D"]
+			description: [
+				"&2Logistics Frames&r and Modules are the heart and soul of the logistics network. Frames can be installed on any inventory and configured with a Logistical Configurator."
+				""
+				"For more complex setups, it may be necessary to ‘extend’ the machine by using other inventories. "
+				""
+				"For example, you may use a requester frame on a furnace to pull items into it, then pull the result out with a hopper. A provider frame on the hopper can then send back into the network."
+			]
+			id: "000000000000010B"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "000000000000010D"
+					item: "pneumaticcraft:logistics_frame_requester"
+					title: "Logistic Requester Frame"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "000000000000010E"
+					item: "pneumaticcraft:logistics_frame_passive_provider"
+					title: "Logistic Passive Provider Frame"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "000000000000010F"
+					item: "pneumaticcraft:logistics_frame_storage"
+					title: "Logistic Storage Frame"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "00000000000006FF"
+					item: "pneumaticcraft:logistics_frame_active_provider"
+					title: "Logistic Active Provider Frame"
+					type: "item"
+				}
+				{
+					id: "79A416C07D9A1393"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "000000000000010C"
+				item: "pneumaticcraft:logistics_module"
+				type: "item"
+			}]
+			title: "Logistics"
+			x: -8.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: ["A blast resistant chest that retains its contents when broken."]
+			id: "0000000000000110"
+			rewards: [
+				{
+					id: "219EF0CD481D371E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "351D9113070D2675"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000111"
+				item: "pneumaticcraft:reinforced_chest"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0000000000000110"]
+			description: ["An advanced version of the Reinforced Chest featuring a larger inventory, per slot item type and quantity filtering, ranged item collection, and the ability to push and pull items to and from nearby inventories."]
+			hide: true
+			id: "0000000000000114"
+			rewards: [
+				{
+					id: "0000000000000118"
+					item: "pneumaticcraft:magnet_upgrade"
+					title: "Magnet Upgrade"
+					type: "item"
+				}
+				{
+					id: "174D9624AABA77CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C290830D7E48EFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000115"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0000000000000110"]
+			description: ["Filterable and fast, PNC Hoppers can be oriented however you like and accept multiple useful upgrades. Check their GUI for more info."]
+			icon: "pneumaticcraft:omnidirectional_hopper"
+			id: "0000000000000119"
+			rewards: [
+				{
+					id: "751CB740FB6F2E3B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2F2C572F255CE0A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000011A"
+					item: "pneumaticcraft:omnidirectional_hopper"
+					type: "item"
+				}
+				{
+					id: "000000000000011B"
+					item: "pneumaticcraft:liquid_hopper"
+					type: "item"
+				}
+			]
+			title: "Hoppers"
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["00000000000000AF"]
+			description: [
+				"The Logistics system for PNC:R is quite powerful, though it requires some fore-thought in implementation and has an upkeep cost in air for moving items and fluid around. "
+				""
+				"When used over a pressure tube network, it allows for instantaneous movement of large amounts of items and fluids through the same line simultaneously."
+			]
+			id: "000000000000011D"
+			rewards: [
+				{
+					id: "000000000000011F"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:logistics_configurator"
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "335760A44009BF75"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0440C94EB6AA4FA5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				icon: "pneumaticcraft:logistics_core"
+				id: "000000000000011E"
+				title: "The Logical Path Forward"
+				type: "checkmark"
+			}]
+			title: "The Logical Path Forward"
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: [
+				"&eRedstone Modules&r are used to read and output redstone signals by transmitting them over a pipe network.This does not require air to use."
+				""
+				"Install a Module Expansion Card into one to allow it to perform much more complicated operations, such as acting as a clock, a signal counter, or a toggle. "
+			]
+			id: "0000000000000120"
+			rewards: [
+				{
+					id: "4025DC217F66D512"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1DD449DBFEE7A1DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0000000000000121"
+				item: "pneumaticcraft:redstone_module"
+				type: "item"
+			}]
+			title: "Redstone Modules"
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0000000000000120"]
+			description: [
+				"&aModule Expansion Cards&r are inserted into various tube modules to enhance their capabilities. Regulator Tube Modules, Pressure Gauge Tube Modules, Redstone Modules,and Air Grate Modules all benefit greatly from it."
+				""
+				"Consider upgrading the redstone control on your compressor using a combination of an advanced Pressure Gauge Module and some redstone modules."
+			]
+			hide: true
+			id: "0000000000000123"
+			rewards: [
+				{
+					id: "078918B68D9DAEAA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1285D22ACD68593A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Raspberry Pi"
+			tasks: [{
+				id: "0000000000000124"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["000000000000010B"]
+			description: ["&eLogistics Drones&r are handy little helpers in places where you don’t want to run a full air infrastructure. Experiment with some logistics frames and deploy a logistics drone to move the items for you."]
+			id: "0000000000000126"
+			rewards: [
+				{
+					id: "176A149619290CF4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14092C62D927DC98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Flying Circus"
+			tasks: [{
+				id: "0000000000000127"
+				item: "pneumaticcraft:logistics_drone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0000000000000126"]
+			description: [
+				"Craft and deploy a &9Harvest Drone&r to automate a crop farm or a tree farm. Use a Collector Drone to keep things tidy."
+				""
+				"Refer to the PNC Manual or the item tooltips for instructions on how they work."
+			]
+			id: "0000000000000129"
+			rewards: [
+				{
+					id: "000000000000012B"
+					item: "pneumaticcraft:collector_drone"
+					title: "Collector Drone"
+					type: "item"
+				}
+				{
+					id: "519B23D4E8F14630"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "718CDCF9B5625CDA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000012A"
+				item: "pneumaticcraft:harvesting_drone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000129"]
+			description: [
+				"The &2Charging Station&r is vital for keeping drones charged automatically. Place one down and insert a &dDispenser Upgrade&r into it to allow it to charge entities above it. Nearby drones will automatically seek out available charging stations when needed."
+				""
+				"Standing on such a &2Charging Station&r will also charge items in your inventory."
+			]
+			id: "000000000000012C"
+			min_width: 300
+			rewards: [
+				{
+					id: "000000000000012E"
+					item: "pneumaticcraft:dispenser_upgrade"
+					title: "Dispenser Upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0000000000000700"
+					item: "pneumaticcraft:volume_upgrade"
+					title: "Volume Upgrade"
+					type: "item"
+				}
+				{
+					id: "713E2BE9EBD7365C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1132690FB0A27F9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "000000000000012D"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			description: ["Install one or more Item Life Upgrades in your drones to help them stay in working order. They can occasionally take damage from environmental hazards and these upgrades will cause them to self repair."]
+			id: "000000000000012F"
+			rewards: [
+				{
+					id: "0C1D964A8495B2F5"
+					item: "pneumaticcraft:item_life_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C0009365DF60E7F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4AD68FC02806265D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "In Her Time of Need"
+			tasks: [{
+				id: "0000000000000130"
+				item: "pneumaticcraft:item_life_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			description: ["Install a Standby Upgrade in a drone to conserve a little air."]
+			id: "0000000000000132"
+			rewards: [
+				{
+					id: "1F96DAE6A7D78038"
+					item: "pneumaticcraft:standby_upgrade"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "634FE6E4802E2C8C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4581CA398741F561"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000133"
+				item: "pneumaticcraft:standby_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			description: ["Install some Inventory Upgrades in your Collector Drone."]
+			id: "0000000000000135"
+			rewards: [
+				{
+					count: 4
+					id: "0000000000000137"
+					item: "pneumaticcraft:inventory_upgrade"
+					random_bonus: 2
+					title: "Inventory Upgrade"
+					type: "item"
+				}
+				{
+					id: "42E847D55E51FAF3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "46B0E7A1B8CD3C45"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0000000000000136"
+				item: "pneumaticcraft:inventory_upgrade"
+				type: "item"
+			}]
+			title: "Inventory Upgrade"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			description: ["Install a few Range Upgrades in your Collector Drone."]
+			id: "0000000000000138"
+			rewards: [
+				{
+					id: "000000000000013A"
+					item: "pneumaticcraft:range_upgrade"
+					random_bonus: 1
+					title: "Range Upgrade"
+					type: "item"
+				}
+				{
+					id: "1D10FC28F441C70F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34DBD2307E57E0A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "He's Going the Distance"
+			tasks: [{
+				id: "0000000000000139"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["000000000000012C"]
+			description: ["Speed things up with a few of these in your Drones, or many other blocks."]
+			id: "000000000000013B"
+			rewards: [
+				{
+					id: "000000000000013D"
+					item: "pneumaticcraft:speed_upgrade"
+					random_bonus: 1
+					title: "Speed Upgrade"
+					type: "item"
+				}
+				{
+					id: "3DED2ED77A54A6E3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2E3B2F1333D10854"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000013C"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000129"]
+			description: [
+				"&dProgrammable Drones&r are the pinnacle of PNC:R’s automation capabilities and the options are near limitless as they can interact with blocks and entities, wield weapons and tools, and perform their actions based on complex conditions."
+				""
+				"Take a dive into this visual programming language and see what you can come up with! If you’re short of ideas, try some of these:"
+				""
+				""
+				"● Automate &o&3Botania’s Runic Altar&r"
+				"● Automate &o&dPNC:R’s Biodiesel&r"
+			]
+			icon: "pneumaticcraft:programmer"
+			id: "000000000000013E"
+			min_width: 300
+			rewards: [
+				{
+					count: 64
+					id: "0000000000000140"
+					item: "pneumaticcraft:programming_puzzle"
+					title: "Programming Puzzle Piece"
+					type: "item"
+				}
+				{
+					id: "1B22C8E67962C325"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "714AFBB0A95E0DEC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000013F"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "0000000000000141"
+					item: "pneumaticcraft:programmer"
+					type: "item"
+				}
+			]
+			title: "Programmable Drones"
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["000000000000013E"]
+			description: ["&cRemotes&r are programmable interface devices that work by manipulating global variables. You can use these for remote redstone when combined with a Universal Sensor, or they can be used to control programmable drones."]
+			id: "0000000000000142"
+			rewards: [
+				{
+					id: "2A87AAECA69D7DBD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66BD8ACEFE5C4384"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000143"
+				item: "pneumaticcraft:remote"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"00000000000000BF"
+				"00000000000000F5"
+				"00000000000000AF"
+			]
+			description: ["Cooling &ePlastic&r by &o&bdumping&r a bucket in the world will get you started, but surely there’s a better way?"]
+			id: "0000000000000145"
+			min_width: 220
+			rewards: [
+				{
+					count: 4
+					id: "0000000000000147"
+					item: "pneumaticcraft:plastic"
+					random_bonus: 2
+					title: "Plastic Sheet"
+					type: "item"
+				}
+				{
+					id: "2ED2567C31C358A7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66E522545585CB55"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "0000000000000146"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			title: "Plastic Sheets"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0000000000000145"]
+			description: ["The pinnacle of stay-at-home shopping. Click a button and your order is there before you know it. "]
+			id: "0000000000000148"
+			rewards: [
+				{
+					id: "705F9A21C798611B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "61569FB222502857"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "40D65403FB9F1981"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000149"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			title: "Prime Delivery"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0000000000000148"]
+			description: ["Always available from Amadron, any time, any day. But your local Pressure Mechanic commonly carries them as an initial trade as well…"]
+			id: "000000000000014B"
+			rewards: [
+				{
+					id: "66CC5735333316AB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4CE49760DAD9E64C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000014C"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["000000000000014B"]
+			description: [
+				"Used to prepare Empty PCBs for etching. This can be a slow process without speed upgrades… Consider setting a threshold around 60-70% to have a decent chance of etching while waiting less. Automating this process is highly recommended."
+				""
+				"Failed PCBs can be recycled."
+			]
+			id: "000000000000014E"
+			rewards: [
+				{
+					id: "5BEB5FDA9D2FBCF1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3619B0A7B6492B0B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000014F"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["000000000000014E"]
+			description: [
+				"The next step of creating Circuit Boards is to etch them in this tank, which can hold and simultaneously process as many as 25 Empty PCBs."
+				""
+				"The acid is only consumed if heat is applied while etching a board."
+				""
+				"Doing so significantly speeds up the etching process and a single bucket will last for many PCBs."
+			]
+			icon: "pneumaticcraft:etching_tank"
+			id: "0000000000000151"
+			rewards: [
+				{
+					id: "4475F60614EB8A8E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2299F169EA252EEE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000152"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+				{
+					id: "0000000000000153"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "Etching Tank"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0000000000000165"]
+			description: [
+				"The &6Assembly Table&r provides a simpler way of making circuit boards and provides access to other advanced recipes."
+				""
+				"Each piece has limitations on where it can be placed. Refer to the PNC:R manual for the exact placement rules."
+				""
+				"A simple layout can be done in a 2x3 space, however:"
+				""
+				"&eIO&r (&bimport&r), &2Controller&r, &eIO&r (&bexport&r), &dDrill&r, &9Table&r, &6Laser&r"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "pneumaticcraft:assembly_controller"
+			id: "0000000000000155"
+			min_width: 300
+			rewards: [
+				{
+					id: "7C525CBDD6882553"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66DBA541DACD7B47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0000000000000157"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "0000000000000158"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "0000000000000159"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "000000000000015A"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "000000000000015B"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "000000000000015C"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+			]
+			title: "Assembly Table"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["0000000000000151"]
+			id: "000000000000015E"
+			rewards: [
+				{
+					id: "7FE2DCEFE1B29405"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6759428D12668E83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000015F"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["000000000000015E"]
+			id: "0000000000000160"
+			rewards: [
+				{
+					id: "0000000000000162"
+					item: "pneumaticcraft:transistor"
+					random_bonus: 1
+					title: "Transistor"
+					type: "item"
+				}
+				{
+					id: "7F2D9D3EC0F2F22B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "07CA3610A655C92F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000161"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0000000000000160"]
+			id: "0000000000000165"
+			rewards: [
+				{
+					id: "32CA6EE82C68E686"
+					item: "pneumaticcraft:capacitor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "063F065F30143094"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7E6451CB460DF5D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000166"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0000000000000148"]
+			description: [
+				"Insert it into the Assembly Controller and provide air to get it started. Speed upgrades are highly recommended."
+				""
+				"The Drill \\& Laser program allows the Assembly Table to craft recipes that require only a drill or laser. In most cases there’s no reason to use the individual programs."
+			]
+			hide: true
+			id: "0000000000000168"
+			rewards: [
+				{
+					id: "607DE0B5B82A54E8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6BEF489863F7CEAC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000169"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+				type: "item"
+			}]
+			title: "Assembly Program"
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0000000000000110"]
+			description: [
+				"Portable Fluid Storage. Also capable of filling buckets and other tanks for automation purposes."
+				""
+				"Stack them vertically and right click with a Pneumatic Wrench to form a multiblock tank."
+			]
+			id: "000000000000016B"
+			rewards: [
+				{
+					id: "000000000000016D"
+					item: "pneumaticcraft:medium_tank"
+					title: "Medium Fluid Tank"
+					type: "item"
+				}
+				{
+					id: "5F75956379E87547"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7D63BAB61C09BE50"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "000000000000016C"
+				item: "pneumaticcraft:small_tank"
+				type: "item"
+			}]
+			title: "Fluid Tanks"
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00000000000000C7"]
+			description: [
+				"With advanced machining methods, stronger pressure tubes may be made and higher pressure attained."
+				""
+				"&5Advanced Compressors&r must be kept cool, and therefore are not always the best option for a given task."
+				""
+				"Some machines will only begin to work, however, at the pressures made by an advanced compressor."
+			]
+			hide: true
+			id: "0000000000000415"
+			min_width: 300
+			rewards: [
+				{
+					id: "203F5B8BBDE0769B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E4C97CCF7FD0FD3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000416"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"00000000000000BD"
+				"00000000000000C7"
+				"00000000000000C3"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Keeping things under pressure is only one side of the coin. Creating a vacuum can be very beneficial as well."
+				""
+				"A &ePressure Chamber&r in Vacuum can be used to extract enchants from items."
+			]
+			id: "0000000000000417"
+			rewards: [
+				{
+					id: "5DB0CD41D591D6D7"
+					item: "pneumaticcraft:memory_stick"
+					title: "Memory Stick"
+					type: "item"
+				}
+				{
+					id: "1E88A1685DF08A7B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2105A47A3DB83160"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21143E58D15BD52D"
+				item: "pneumaticcraft:vacuum_pump"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0000000000000417"]
+			description: [
+				"Recent advancements in Pneumatic technology now allow for the forced removal of the magical core of Spawners found throughout the world. Once extracted, they can be empowered to run more quickly by inserting them in a modified spawner and spinning them up with air."
+				""
+				"To begin, prepare the area around a spawner for a fight. Disabling it with Torches or by Hacking it are recommended."
+				""
+				"Place the &eSpawner Extractor&r on top of the spawner, connect a &eVacuum Pump&r to the Extractor, and begin pumping the air out. As the Extractor reaches the requisite negative pressure, things will begin happening."
+				""
+				"The Extractor only works while the player is nearby, so stay close."
+				""
+				"As it works, mobs will be forcibly spawned in the area."
+				""
+				"The Extractor will slow down as more mobs accumulate in the area. Kill them quickly."
+				""
+				"Be prepared for large waves of mobs. Things can get hectic."
+				""
+				"When the process has finished, sneak + right-click the Extractor with a &ePneumatic Wrench&r to avoid the need to charge from scratch the next time. An extractor with some volume upgrades should be able to extract cores from several spawners before needing to be re-charged. "
+			]
+			id: "4B5AB08C3B301C77"
+			min_width: 400
+			rewards: [
+				{
+					id: "731019328607025F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "31453C4CC1CF2848"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Helter Skelter"
+			tasks: [{
+				id: "1E88BA8D1F832AB0"
+				item: "pneumaticcraft:spawner_extractor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["000000000000041F"]
+			description: [
+				"Your gateway to custom spawning."
+				""
+				"Not every mob is readily available from natural spawners. Thankfully, there is a way of recreating the magic of the Spawner Core: &eThe Vacuum Trap&r."
+				""
+				"The process begins similarly to the &eSpawner Extractor&r, hook the &eVacuum Trap&r up to a &eVacuum Pump&r and pull out all of the air. Volume upgrades are recommended and a Spawner Core is required. Sneak + Right Click the charged Trap with a &ePneumatic Wrench&r to pick it up. Now place it down near most any mob and Sneak + Right Click it with an empty hand to open it. Nearby mobs will be sucked in and be added to the Core."
+				""
+				"Multiple mob types can be stored in a Core, making mixed spawners possible. "
+				""
+				"A &eSpawner Core&r with only one mob in it is still valid for use in a &ePressurized Spawner&r; very useful for hard to capture or rare mobs."
+				""
+				"The Trap works more efficiently if it has &eMemory Essence&r in the internal tank, meaning it takes fewer mobs to completely fill it. "
+				""
+				"Random mobs may be released from a core by Sneak + Right Clicking it on the ground, allowing easier transportation of mobs even before the Pressurized Spawner is available. "
+			]
+			icon: "pneumaticcraft:vacuum_trap"
+			id: "054880171AA4E59A"
+			min_width: 400
+			rewards: [
+				{
+					id: "40C5DC75A117083D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1C6C5A6C96BDA1EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4433752A8B6A6BB6"
+					item: "pneumaticcraft:vacuum_trap"
+					type: "item"
+				}
+				{
+					id: "15CBDBCAC83D93B5"
+					item: "pneumaticcraft:spawner_core"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0000000000000419"]
+			description: [
+				"Once the Extraction process has finished, be sure to break the empty spawner (any pick will do) and take it with you. It's required for crafting a &ePressurized Spawner&r."
+				""
+				"Consider keeping a spare empty spawner at your base. The Spawner Extractor can be placed atop it to simplify recharging it for future projects."
+			]
+			id: "6C0DE0F020ECD0ED"
+			min_width: 300
+			rewards: [
+				{
+					id: "6012484435BE11A1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "00A487ECD4C898FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Spinning in Their Graves"
+			tasks: [{
+				id: "29DB946F03ACE003"
+				item: "pneumaticcraft:pressurized_spawner"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00000000000000D2"]
+			description: ["&3Thermal Laggings&r are insulating covers for machines to help with keeping heat. They greatly reduce heat loss, and you can interact with machines through them!"]
+			id: "11D71F1F1AB7FBE2"
+			min_width: 225
+			rewards: [
+				{
+					id: "3464BD1CF9DAB82E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0CDD0A1177AD3107"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "135A07E2CE99ACF8"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			title: "Thermal Lagging"
+			x: -12.5d
+			y: -8.5d
+		}
+	]
+	title: "&2&oPNC: Repressurized"
+}

@@ -1,0 +1,158 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = options_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1708277896400
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:0ec0a6a1-1d48-4123-9b65-30746a675d76-1708277896400] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = fff374fd-35f9-4db9-a951-72d2549cb4d7-1708277896401
+  [executable_action_instance:fd7da9df-da1b-48a7-9e85-ee19ec0e3f44-1708277896401][action_type:openlink] = https://bisecthosting.com/ModernGamingWorld
+  [executable_block:fff374fd-35f9-4db9-a951-72d2549cb4d7-1708277896401][type:generic] = [executables:fd7da9df-da1b-48a7-9e85-ee19ec0e3f44-1708277896401;]
+  backgroundnormal = [source:local]config/fancymenu/customimages/menu/vertical_light_text.png
+  backgroundhovered = [source:local]config/fancymenu/customimages/menu/horizontal_dark_wordmark.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4dd8f9a8-bff7-468e-9c59-c949866962af1687391689908
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  advanced_width = 200
+  advanced_height = 69
+  x = 0
+  y = -69
+  width = 200
+  height = 69
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 658f1e7c-60dc-4cb7-8829-84f8033aa095-1708277896401
+  [loading_requirement_container_meta:658f1e7c-60dc-4cb7-8829-84f8033aa095-1708277896401] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 4d204350-6550-4a5c-99fa-cbc9b7b8e16b-1708277896401
+  [executable_action_instance:65c6b230-d50d-44f1-878a-f1613741dcc3-1708277896401][action_type:openlink] = https://www.twitch.tv/moderngamingworld
+  [executable_block:4d204350-6550-4a5c-99fa-cbc9b7b8e16b-1708277896401][type:generic] = [executables:65c6b230-d50d-44f1-878a-f1613741dcc3-1708277896401;]
+  backgroundnormal = [source:local]config/fancymenu/customimages/menu/bh_me_twitch.png
+  backgroundhovered = [source:local]config/fancymenu/customimages/menu/bh_me_twitch.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 745c3640-53db-44a3-8485-afc07233b0ef1687391829689
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
+  advanced_width = 120
+  advanced_height = 37
+  x = -120
+  y = -37
+  width = 120
+  height = 37
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e99afbd9-865e-4b29-a450-49afe706aadb-1708277896401
+  [loading_requirement_container_meta:e99afbd9-865e-4b29-a450-49afe706aadb-1708277896401] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 812fc66d-ce8b-4bfd-94b2-81094a6b1993-1708277896401
+  [executable_block:812fc66d-ce8b-4bfd-94b2-81094a6b1993-1708277896401][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 9755
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 09f73766-0324-471d-bccb-685336709543-1708277896401
+  [loading_requirement_container_meta:09f73766-0324-471d-bccb-685336709543-1708277896401] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 30c25afd-749a-49a4-8393-cfa2ce44a800-1708277896401
+  [executable_block:30c25afd-749a-49a4-8393-cfa2ce44a800-1708277896401][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 345184
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
+  x = -155
+  y = -20
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 12a342aa-b6cf-418a-b331-a232444f41f0-1708277896401
+  [loading_requirement_container_meta:12a342aa-b6cf-418a-b331-a232444f41f0-1708277896401] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

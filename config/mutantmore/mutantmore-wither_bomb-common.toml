@@ -1,0 +1,38 @@
+#Configure Mutant More's Wither Bomb on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The range that a Wither Bomb can detect mobs that cause it to activate in
+# usually set to 7.5
+"Detection Range" = 7.5
+#
+# The range that a Wither Bomb deal damage to mobs in once it has been activated
+# usually set to 7.5
+"Damage Range" = 7.5
+#
+# The amount of time in ticks (20 ticks in a second) that the Wither Bomb withers mobs caught in its damage range for when active
+# usually set to 220 ticks (11 seconds)
+"Wither Length" = 220
+#
+# The level of the Wither effect applied to mobs caught within an active Wither Bomb's damage range
+# usually set to 3 (Wither 4)
+"Wither Level" = 3
+#
+# The amount of time in ticks (20 ticks in a second) that the Wither Bomb slows mobs caught in its damage range for when active
+# usually set to 260 ticks (13 seconds)
+"Slowness Length" = 260
+#
+# The level of the Slowness effect applied to mobs caught within an active Wither Bomb's damage range
+# usually set to 1 (Slowness 2)
+"Slowness Level" = 1
+#
+# The amount of time in ticks (20 ticks in a second) that the Wither Bomb blinds mobs caught in its damage range for when active
+# usually set to 180 ticks (9 seconds)
+"Blindness Length" = 180
+#
+# The interval in ticks (20 ticks in a second) between an active Wither Bomb causing damage to mobs caught in its damage range
+# usually set to 10 ticks (0.5 seconds)
+"Damage Interval" = 10
+#
+# The damage dealt to mobs caught inside an active Wither Bomb's damage range every damage interval
+# usually set to 1.0
+Damage = 1.0
+

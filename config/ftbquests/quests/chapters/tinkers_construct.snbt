@@ -1,0 +1,1149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers_construct"
+	group: "4E2A2310634498BA"
+	icon: {
+		Count: 1b
+		id: "tconstruct:creative_slot"
+		tag: {
+			slot: "upgrades"
+		}
+	}
+	id: "3D67528F44964049"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/tin.png"
+			rotation: 48.0d
+			width: 1.0d
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/gold.png"
+			rotation: 26.0d
+			width: 1.0d
+			x: 1.5714285714285694d
+			y: -6.374999999999993d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/purple.png"
+			rotation: -47.0d
+			width: 1.0d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/silver.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -5.160714285714278d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/gray.png"
+			rotation: -37.0d
+			width: 1.0d
+			x: 4.642857142857146d
+			y: -1.9107142857142847d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/copper.png"
+			rotation: 27.0d
+			width: 1.0d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.2142857142857082d
+			y: -8.826785714285712d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			description: [
+				"The Tinkers' Construct mod focuses on weapon and tool manufacturing."
+				""
+				"The mod adds patterns for tool and weapon parts that allow the player to create hundreds of combinations; each with their own strengths, weaknesses, and effects. After the tool or weapon is created, additional materials may be installed to boost the item's abilities, or to simulate vanilla enchantments."
+				""
+				"t introduces a multi-block structure called the Smeltery, which is used to craft metal tools and parts and some decorative blocks, as well as providing a method of doubling ore output."
+				""
+				"Getting Started:"
+				""
+				"Grout is an item added by the Tinkers' Construct mod. It is made by placing Gravel, Sand and Clay inside of a crafting grid. The block can be placed as the world for aesthetic purposes, but is meant as an intermediary step in the production of Seared Bricks, by smelting the Grout in a furnace."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/tc.png"
+				}
+			}
+			id: "247794E3ED9E0D65"
+			rewards: [
+				{
+					count: 16
+					id: "64EFCE813161BD06"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					id: "349F93CD3A7159B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DDFFC36E378FAC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by crafting all the &b&l&oFound by Exploring the world&r quest*"
+			tasks: [{
+				count: 8L
+				id: "63C5A844C39B1BCE"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			title: "&2&lWelcome to Tinkers' Construct"
+			x: -0.5d
+			y: -8.232142857142858d
+		}
+		{
+			dependencies: [
+				"0439FE4D6A198C0D"
+				"3A38A35C846F5AF7"
+				"0E36DB826101024D"
+			]
+			id: "3061B917B5DC581C"
+			rewards: [
+				{
+					id: "084B7F9C868504F5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0F53CF60BA5DAB19"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "1815040EC42D1585"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "4418A410E016BFC2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D05125B3A8EAB48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3782BFE1CDA317DE"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D4038F9AB73B8C0"]
+			id: "236DE6E8512DE567"
+			rewards: [
+				{
+					count: 8
+					id: "5D97C2C696BB9C90"
+					item: "tconstruct:clear_glass"
+					type: "item"
+				}
+				{
+					id: "4E0978A60630EC9D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "608791F7938332F1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4972C29DCDA9FDE3"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["236DE6E8512DE567"]
+			id: "0E36DB826101024D"
+			rewards: [
+				{
+					id: "26164F63BE6CEE21"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "75490F4F48108CD3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "143238EC0698535E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C57A12EDD141233"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			title: "Part 3"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["236DE6E8512DE567"]
+			id: "0439FE4D6A198C0D"
+			rewards: [
+				{
+					id: "35019E5D4B7E7E3B"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "5C3DE6CDCB246BAE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "054030993D6EF8F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44794AAC78C8218D"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "2CFE4B59EDDE80CE"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			title: "Part 1"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["236DE6E8512DE567"]
+			id: "3A38A35C846F5AF7"
+			rewards: [
+				{
+					count: 8
+					id: "062DBAC1572FB59E"
+					item: "tconstruct:lavawood"
+					type: "item"
+				}
+				{
+					id: "7F8F9246C77EF35B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "436A5631E2785835"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "56A84AAAFA9814A5"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4A7AD683CF9FDF7F"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			title: "Part 2"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["247794E3ED9E0D65"]
+			id: "1D4038F9AB73B8C0"
+			rewards: [
+				{
+					count: 32
+					id: "6A6DE6FBB479F4E0"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "4D3B9A19F61C0AA5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "256630778BA66029"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "2418682F2FE82838"
+				item: "tconstruct:seared_bricks"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:crafting_station"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "27B61D861AA4513B"
+			rewards: [
+				{
+					id: "2F0993169D475757"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "26B5F7C4E8C84A78"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "367E64C7FA429B5C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:crafting_stations"
+					}
+				}
+				title: "Any tconstruct:crafting_station"
+				type: "item"
+			}]
+			title: "Crafting Station"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinker_station"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "2B78996C7CE9DB9C"
+			rewards: [
+				{
+					id: "6A2E2ECAFA582BBF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0EB6D041E8232A5E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22B1610C55883514"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:tinker_stations"
+					}
+				}
+				title: "Any tconstruct:tinker_station"
+				type: "item"
+			}]
+			title: "Tinker Station"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:part_builder"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "4EF27C3B4382348E"
+			rewards: [
+				{
+					id: "0F67E46963FC85BA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "74695F9A1F3EAB70"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "165C17AE561EEE03"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:part_builders"
+					}
+				}
+				title: "Any tconstruct:part_builder"
+				type: "item"
+			}]
+			title: "Part Builder"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			id: "31B21AC67654A1EE"
+			rewards: [
+				{
+					id: "6D0FF7CBDCA340EE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1960E0A47314CC9D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14AAAF63D637AA54"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			id: "415385C2E88B3B36"
+			rewards: [
+				{
+					id: "4E41C494F88667E0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "67DDDEB576EB6A1C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25117E6B27EB5FE4"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3061B917B5DC581C"]
+			id: "2E220E25CB12ECAD"
+			rewards: [
+				{
+					id: "487C3B58FCA3ED16"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "52CE794E5CE2ACC9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "046F297DEBCFCCD3"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["247794E3ED9E0D65"]
+			id: "1DC03339E7D90151"
+			rewards: [
+				{
+					count: 16
+					id: "0E171B66948DEF40"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "05CE040CDE0059B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6AC2AEAFA83FB825"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3F00A059FF0E89E9"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DC03339E7D90151"]
+			id: "34A04DFB7BC9D7C3"
+			rewards: [
+				{
+					id: "5158A644FE486DA3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "442FC7A08F11ED24"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "5A21AEA8C74C9B98"
+					item: "tconstruct:earth_slime_crystal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2873EF7BDD8EE808"
+					item: "tconstruct:sky_slime_crystal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "15ED3E8E2383A2BA"
+					item: "tconstruct:ichor_slime_crystal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "701403C89ADB3743"
+					item: "tconstruct:ender_slime_crystal"
+					type: "item"
+				}
+			]
+			title: "Crystals"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["247794E3ED9E0D65"]
+			id: "5F3D0594173B14B7"
+			rewards: [
+				{
+					count: 3
+					id: "6569497E95F2338C"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "1A39924F371F584B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "227227D6611F3D3C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 3L
+				id: "3271C83621600A34"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F3D0594173B14B7"]
+			id: "1AE2A9004E1663A6"
+			rewards: [
+				{
+					count: 3
+					id: "2358F224F2AB4952"
+					item: "tconstruct:iron_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "07EC8EBB85C222C8"
+					item: "tconstruct:slimesteel_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6CC1853A38B50765"
+					item: "tconstruct:seared_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "25EBE306B852C0C6"
+					item: "tconstruct:gold_reinforcement"
+					type: "item"
+				}
+				{
+					id: "33A73E2B6FDF0D36"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7805E26804B3D14B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6B192811AB693B0D"
+					item: "tconstruct:iron_reinforcement"
+					type: "item"
+				}
+				{
+					id: "668E27EB7F41B383"
+					item: "tconstruct:slimesteel_reinforcement"
+					type: "item"
+				}
+				{
+					id: "64013E238393F780"
+					item: "tconstruct:seared_reinforcement"
+					type: "item"
+				}
+				{
+					id: "72AEBFF2DA8B6CA7"
+					item: "tconstruct:gold_reinforcement"
+					type: "item"
+				}
+			]
+			title: "Reinforcements"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1AE2A9004E1663A6"]
+			id: "0FCCDD7C75FC8564"
+			rewards: [
+				{
+					count: 3
+					id: "3962EA441FA109D6"
+					item: "tconstruct:emerald_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D6800FC57920BA6"
+					item: "tconstruct:bronze_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A84D9F82C60BEE6"
+					item: "tconstruct:cobalt_reinforcement"
+					type: "item"
+				}
+				{
+					id: "3F66B6B038B84FC3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59B02B4063F6CF23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6DCC64BA08D0EFC5"
+					item: "tconstruct:emerald_reinforcement"
+					type: "item"
+				}
+				{
+					id: "1024535A7F3D4A74"
+					item: "tconstruct:bronze_reinforcement"
+					type: "item"
+				}
+				{
+					id: "659DF012CBA0E19E"
+					item: "tconstruct:cobalt_reinforcement"
+					type: "item"
+				}
+			]
+			title: "More Reinforcements"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34A04DFB7BC9D7C3"]
+			id: "42F70BC5685E4299"
+			rewards: [
+				{
+					id: "3A91D25AA8AF2B3D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35A0D154A1104491"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "52E0F0A22084C3B0"
+					item: {
+						Count: 1b
+						id: "tconstruct:slime_boots"
+						tag: {
+							Damage: 0
+							HideFlags: 3
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:overslime_friend"
+								}
+								{
+									level: 1
+									name: "tconstruct:bouncy"
+								}
+								{
+									level: 1
+									name: "tconstruct:leaping"
+								}
+							]
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+							tic_stats: {
+								"tconstruct:armor": 0.0f
+								"tconstruct:durability": 546.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:overslime_friend": 1b
+								upgrades: 5
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34FB22DE829106D9"
+					item: {
+						Count: 1b
+						id: "tconstruct:slime_leggings"
+						tag: {
+							Damage: 0
+							HideFlags: 3
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:overslime_friend"
+								}
+								{
+									level: 1
+									name: "tconstruct:shulking"
+								}
+								{
+									level: 1
+									name: "tconstruct:pockets"
+								}
+							]
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+							tic_stats: {
+								"tconstruct:armor": 0.0f
+								"tconstruct:durability": 630.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:overslime_friend": 1b
+								"tconstruct:total_item_slots": 18
+								upgrades: 5
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01535BE6955D2708"
+					item: {
+						Count: 1b
+						id: "tconstruct:slime_chestplate"
+						tag: {
+							Damage: 0
+							HideFlags: 3
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:overslime_friend"
+								}
+								{
+									level: 1
+									name: "tconstruct:wings"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+							tic_stats: {
+								"tconstruct:armor": 0.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 672.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:elyta": 1b
+								"tconstruct:overslime_friend": 1b
+								upgrades: 5
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&5Slime Set"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42F70BC5685E4299"]
+			id: "0B6AEE7A98A236F3"
+			rewards: [
+				{
+					id: "5BFDE510A13ED2D3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "758ACECBA04A7275"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 8L
+					id: "17EBF6608340B4F5"
+					item: "tconstruct:cobalt_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "310DD39B8C6E356B"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "097BC6073AC4CA93"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/rose_gold"
+						}
+					}
+					title: "Rose Gold"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4858304E390CC4B2"
+					item: "tconstruct:queens_slime_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5CF64747778B654A"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0C50677FEA3E8A4C"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1EA65243E75B816C"
+					item: "tconstruct:pig_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Tool and Weapon Casts"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCCDD7C75FC8564"]
+			id: "7E77E5B9D1FAC02C"
+			rewards: [
+				{
+					id: "3E7491ED664DF88E"
+					item: "tconstruct:broad_axe_head_cast"
+					type: "item"
+				}
+				{
+					id: "5E9C1FCC9C9379AC"
+					item: "tconstruct:hammer_head_cast"
+					type: "item"
+				}
+				{
+					id: "32FBFB3A88B90A23"
+					item: "tconstruct:broad_blade_cast"
+					type: "item"
+				}
+				{
+					id: "1BB90C1E2761240A"
+					item: "tconstruct:wire_cast"
+					type: "item"
+				}
+				{
+					id: "6181AF472439FB4D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0E7FC4AF41C0D047"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7462669B2EF4BE2E"
+					item: "tconstruct:ingot_cast"
+					type: "item"
+				}
+				{
+					id: "5D96BFAB49C11829"
+					item: "tconstruct:gem_cast"
+					type: "item"
+				}
+				{
+					id: "604F2C7199CBB124"
+					item: "tconstruct:nugget_cast"
+					type: "item"
+				}
+				{
+					id: "6062966044BA52F8"
+					item: "tconstruct:repair_kit_cast"
+					type: "item"
+				}
+				{
+					id: "00095490E7953089"
+					item: "tconstruct:rod_cast"
+					type: "item"
+				}
+				{
+					id: "127F5AB36D7E306F"
+					item: "tconstruct:plate_cast"
+					type: "item"
+				}
+				{
+					id: "36BA34AA04EC1B24"
+					item: "tconstruct:gear_cast"
+					type: "item"
+				}
+				{
+					id: "058E6FC384DD29D5"
+					item: "tconstruct:large_plate_cast"
+					type: "item"
+				}
+				{
+					id: "1340F64ABBE1C4D8"
+					item: "tconstruct:tool_handle_cast"
+					type: "item"
+				}
+				{
+					id: "22B6672965393232"
+					item: "tconstruct:tough_handle_cast"
+					type: "item"
+				}
+				{
+					id: "551FDD153CF5B576"
+					item: "tconstruct:tool_binding_cast"
+					type: "item"
+				}
+				{
+					id: "7E95621374784E22"
+					item: "tconstruct:small_axe_head_cast"
+					type: "item"
+				}
+				{
+					id: "6CA5E1D678DC6BEB"
+					item: "tconstruct:pick_head_cast"
+					type: "item"
+				}
+				{
+					id: "5E0694CC8255D2F5"
+					item: "tconstruct:small_blade_cast"
+					type: "item"
+				}
+			]
+			title: "Useful Casts"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B6AEE7A98A236F3"
+				"7E77E5B9D1FAC02C"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tconstruct:hepatizon_block"
+				}
+			}
+			id: "03D428D3BB5C4C60"
+			rewards: [
+				{
+					id: "546EF23F2D18A5DE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "585AA6D1E61AAFE6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "1107C993BDC032BA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:tinkers_anvils"
+					}
+				}
+				title: "Any tconstruct:tinkers_anvils"
+				type: "item"
+			}]
+			title: "Tinker's Anvil"
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+	title: "&4&oTinkers Construct"
+}

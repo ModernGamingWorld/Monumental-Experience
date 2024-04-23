@@ -1,0 +1,5 @@
+
+[Common]
+	#Villagers should not take damage when walking in berry bushes.
+	disableVillagerDamage = true
+

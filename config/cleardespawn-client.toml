@@ -1,0 +1,8 @@
+
+[general]
+	#Blinking start time before the item despawns, in seconds
+	#Range: 0 ~ 36000
+	flashStartTime = 20
+	#Set to true to have item flash faster as it gets closer to despawning
+	urgentFlash = true
+

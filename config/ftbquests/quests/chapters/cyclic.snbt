@@ -1,0 +1,4036 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cyclic"
+	group: "69B9F7247002FE35"
+	icon: "cyclic:user"
+	id: "53AA952BECFDE713"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.154761904761898d
+			y: -15.607142857142854d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 6.5d
+			y: -17.5d
+		}
+		{
+			height: 2.5d
+			image: "cyclic:blocks/magnet/face"
+			rotation: 45.0d
+			width: 2.5d
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:items/lightning_scepter_arc"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:items/lightning_scepter_arc"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:blocks/spike/spikes_curse_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -17.25d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:blocks/spike/spikes_curse_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -17.25d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:blocks/spike/spikes_curse_side"
+			rotation: 180.0d
+			width: 3.0d
+			x: 5.0d
+			y: -17.75d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:blocks/spike/spikes_curse_side"
+			rotation: 180.0d
+			width: 3.0d
+			x: 8.0d
+			y: -17.75d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:textures/blocks/_unused/gold_ore.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.214285714285715d
+			y: -13.767857142857139d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:textures/blocks/_unused/redstone_ore.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5714285714285694d
+			y: -13.767857142857139d
+		}
+		{
+			height: 1.0d
+			image: "cyclic:textures/blocks/ores/diamond.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.857142857142861d
+			y: -13.767857142857139d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/item/fire.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/item/firef.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: -17.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"&6Cyclic&r is a mod by &dLothrazar&r. It features helpful items, blocks, inventory features, world generation, simple machines, gameplay tweaks, new villagers, and more changes that do not follow any particular theme."
+				""
+				"In the words of the author:"
+				""
+				"\"&o&bI just went ahead and added all the features that I wished were in the base game into one mod. So just a ton of random items and changes that have no consistent theme other than I thought they would be fun&r\"."
+			]
+			id: "6725FEA36C75E603"
+			min_width: 300
+			rewards: [
+				{
+					id: "10DCC5D8725A015A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A43F20AA6B6059B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+				id: "5CB01BF4976EB60C"
+				type: "checkmark"
+			}]
+			title: "Welcome to &aCyclic"
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &2Block Placer&r will place a block from its &einventory&r in the direction it is facing &o&bwhenever it can&r."
+				""
+				"The &9Fluid Placer&r places fluid from its internal &atank&r in the direction it is facing, &o&bif possible&r."
+			]
+			hide_dependency_lines: true
+			id: "111138B59C810AD6"
+			min_width: 250
+			rewards: [
+				{
+					id: "05F611069A5FF59B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D596A1E147A5FCB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7463402FAE2D897B"
+					item: "cyclic:placer"
+					type: "item"
+				}
+				{
+					id: "4AB1A3ECF75F58BE"
+					item: "cyclic:placer_fluid"
+					type: "item"
+				}
+			]
+			title: "Block \\& Fluid Placer"
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&2Block Breaker&r can be used to break the block placed directly in &o&bfront&r of it, like a &o&bplayer would&r. &2Block Breaker&r doesn't require &cenergy&r to operate."
+				""
+				"&2Block Breaker&r do not have &o&binternal item storage&r, so the broken blocks (or its loot) &cwill not&r be picked up. The &9Item Collector&r it's a good solution to pick up items without any cost of &4energy&r."
+			]
+			hide_dependency_lines: true
+			id: "7B2B5E663DAD0BA1"
+			min_width: 250
+			rewards: [
+				{
+					id: "1B3ABB4ECBC35A03"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0EB3FCBF508B5759"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "550AD6B345546727"
+				item: "cyclic:breaker"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D439E19BDC4A7AA"]
+			description: [
+				"The &2Item User&r is a powerful machine that uses the item given to it to &nright&r/&nleft&r click the block in &o&bfront&r of it with a configurable &o&btime delay&r."
+				""
+				"The &2Item User&r requires &cenergy&r to operate."
+			]
+			hide_dependency_lines: true
+			id: "59AF21CC68FA1FA5"
+			min_width: 250
+			rewards: [
+				{
+					id: "7B409DCA4DD467BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "62C1EF9C3550A438"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "039B0F2A499D34AC"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0D5815CC13FE563D"]
+			description: ["&2Precise Dropper&r drops blocks from its internal buffer at a configurable &o&bstack size&r, &o&bdistance&r, and &o&bdelay&r."]
+			hide_dependency_lines: true
+			id: "4A65BC007F778F5D"
+			min_width: 250
+			rewards: [
+				{
+					id: "6DB62B7E7DA7C9E9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75C4CD11C70BB033"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6117BDDE75538647"
+				item: "cyclic:dropper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"The &2Forester&r will attempt to place &asaplings&r in the area between &o&b1x1&r and &o&b21x21&r in front of itself, and &3harvest&r them when the saplings grow into &7trees&r, but will not pick up items."
+				""
+				"It's time for &9Item Collector,&r again!"
+				""
+				"The &6Harvester&r will gently &o&bfarm crops&r in an area between &o&b1x1&r and &o&b25x25&r horizontally, and vertically in both direction between &o&b1&r and &o&b64&r blocks, &o&breplanting&r the &eseeds&r (if any) after breaking the &ecrop&r."
+			]
+			hide_dependency_lines: true
+			id: "7B72F9ACBD2A55AC"
+			min_width: 300
+			rewards: [
+				{
+					id: "71128C08756FD8A5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0ED29ED826DD2591"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "774A20C92351FAD4"
+					item: "cyclic:forester"
+					type: "item"
+				}
+				{
+					id: "2F6CAE9073CBE0F8"
+					item: "cyclic:harvester"
+					type: "item"
+				}
+			]
+			title: "Forester \\& Harvester"
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1D439E19BDC4A7AA"]
+			description: [
+				"Mines a configurable area between &o&b1x1&r and &o&b25x25&r horizontally, and vertically in both direction between &o&b1&r and &o&b64&r blocks. in front of the &2Miner&r."
+				""
+				"Will attempt to mine with any &o&btool you provide it&r."
+				""
+				"&eBlockstate Data Card&r can be used on a block to &o&bread&r and &o&bremember&r its block state."
+				""
+				"&aSneak&r while using to filter on the block only. Can store a list of &o&b18&r blockstates. Put in any &3Crafting&r grid to erase the list. It can distinguish between identical blocks in different states such as &o&brotated stairs&r, &o&bdouble slabs&r, etc. if in exact [&o&bblockstate&r] mode."
+			]
+			hide_dependency_lines: true
+			icon: "cyclic:miner"
+			id: "4B61F4CF32C2F44A"
+			min_width: 300
+			rewards: [
+				{
+					id: "26148F6F7181A48E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "02EAE0A7102B2769"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "79CD517E5784566A"
+					item: "cyclic:miner"
+					type: "item"
+				}
+				{
+					id: "67DCC27CF9938A58"
+					item: "cyclic:blockstate_data"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"The &2Shape Builder&r is an advanced building machine, and has a &o&bfixed set of shapes&r such as &ePyramid&r, &9Sphere&r, &cCylander&r, etc."
+				""
+				"Using &cpower&r and &ablocks&r you can build &b&oany shape you want&r. Also can be used &4Shape Data Cards&r for &o&bcustom shapes&r."
+				""
+				"Place in a &6Shape Computer&r or a &2Shape Builder&r to load with data, then click on a block to load its block."
+				""
+				"Place &o&b2&r &9GPS Cards&r and &o&b1&r &cShape Card&r, then you can &o&bread&r, &o&bcopy&r, &o&bpaste&r, and &o&bmerge&r shapes together."
+			]
+			hide_dependency_lines: true
+			icon: "cyclic:structure"
+			id: "4C0292782F9B81F4"
+			min_width: 250
+			rewards: [
+				{
+					id: "40DC3C108562EFCA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "047507BE1035FDB1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "722D332723E86FCD"
+					item: "cyclic:structure"
+					type: "item"
+				}
+				{
+					id: "4095E2F1BCB00C2F"
+					item: "cyclic:computer_shape"
+					type: "item"
+				}
+				{
+					id: "47684E6BBA07A004"
+					item: "cyclic:shape_data"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1616AAE1E95EB35D"
+					item: "cyclic:location_data"
+					type: "item"
+				}
+			]
+			title: "The Shape Builder"
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D439E19BDC4A7AA"]
+			description: [
+				"The &2Item Collector&r picks up nearby items and stores them in its &einternal buffer&r. Items can be taken directly out of the buffer, or &o&bpiped out&r."
+				""
+				"The &2Item Collector&r operates in a area between &o&b1x1&r and &o&b25x25&r horizontally, and vertically in both direction between &o&b1&r and &o&b64&r blocks. Toggle preview switch &non&r/&noff&r to see working area. &2Item Collector&r accepts &3Filter Data Card&r as well."
+				""
+				"The &9Fluid Collector &rcollects fluid from the area between &o&b1x1&r and &o&b25x25&r in front of and between &o&b1&r and &o&b64&r below it, &o&breplacing&r the collected fluids with blocks from its &einternal buffer&r."
+				""
+				"Will &cnot&r collect fluid unless it has &o&breplacement blocks&r in its buffer, &nto prevent lag&r."
+			]
+			hide_dependency_lines: true
+			id: "50C3683D4BE69085"
+			min_width: 300
+			rewards: [
+				{
+					id: "3DE2BF5DDCCB42DC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5390C0F3CC6747A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5F3EE4D376ADFA02"
+					item: "cyclic:collector"
+					type: "item"
+				}
+				{
+					id: "0AC583C3CCF369D7"
+					item: "cyclic:collector_fluid"
+					type: "item"
+				}
+			]
+			title: "Item \\& Fluid Collector"
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"Set the recipe, and &1Crafting Machine&r will autocraft as many as it can. "
+				""
+				"Input slots are on the left slots, outputs on the right. Also works with &o&bpipes&r/&o&bcables&r/&o&bhoppers&r for &9input&r and &coutput&r."
+				""
+				"&dPackage&r matching items together. Compatible with all &o&b2x2&r, &o&b3x3&r recipes that are specifically merging identical items together such as &7Iron Blocks&r or &4Bricks&r."
+			]
+			hide_dependency_lines: true
+			id: "5CC5BC642537960F"
+			min_width: 300
+			rewards: [
+				{
+					id: "5B33C5DBB1EFB352"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "581744FF83754161"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2E214277D98045BB"
+					item: "cyclic:crafter"
+					type: "item"
+				}
+				{
+					id: "7CA6C18363EEFE7A"
+					item: "cyclic:packager"
+					type: "item"
+				}
+			]
+			title: "Crafting Machine \\& Packager"
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &dWorkbench&r is  a simple &eCrafting Table&r that &nkeeps&r its inventory when closed."]
+			id: "07D94600EFF47688"
+			rewards: [
+				{
+					id: "0F48A4294B11EB6D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00B37CCC322F3718"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00CC1955B6704E63"
+				item: "cyclic:workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["70D20CD1E662D529"]
+			id: "08D359D021E423FE"
+			rewards: [
+				{
+					id: "3B840ACF16CA466A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36AA4F60C6A71F51"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0752B71B5BFB4EED"
+				item: "cyclic:gem_amber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["70D20CD1E662D529"]
+			id: "0C5C34A36AF49CD8"
+			rewards: [
+				{
+					id: "6BA878076143B805"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FE71452994C977C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A28AB5B7385E05D"
+				item: "cyclic:gem_obsidian"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["158B65BD64114835"]
+			description: ["The &dSolidification Chamber&r combines various &o&bfluids&r and &o&bingredients&r to &o&bsolidify&r them into something else, usually to make &o&bnew crafting ingredients&r such as &6Crysallized Amber&r, &5Crysallized Obsidian&r, &cEnriched Peat&r, etc..."]
+			id: "70D20CD1E662D529"
+			min_width: 300
+			rewards: [
+				{
+					id: "52B0FDB3DD8236CF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20ACFA913E594CBE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B07BF8474B017E3"
+				item: "cyclic:solidifier"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0D5815CC13FE563D"]
+			description: ["The &2Melter&r, as its name implies, melts ingredients into various liquids using &cenergy&r."]
+			id: "158B65BD64114835"
+			rewards: [
+				{
+					id: "23CAC882779206AA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56AEFA61EFE297E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CC953B0F4280CEE"
+				item: "cyclic:melter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: [
+				"&2Uncrafting Grinder&r will lookup and reverse any &eVanilla&r &o&b2x2&r or &o&b3x3&r recipe."
+				""
+				"May not work with specialized &dModded&r &nrecipes&r/&nmachine recipes&r."
+			]
+			id: "0704DAF4B84D0581"
+			rewards: [
+				{
+					id: "33FEF34389944B75"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6257F7DA6794D67B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "434C4FDBA4FF57C3"
+				item: "cyclic:uncrafter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29A9BBF53AA9CD4A"]
+			description: [
+				"The &2Storage Bag&r can be used as a &o&3portable inventory&r with &o&b81&r slots of storage space."
+				""
+				"&eRight-click&r with the bag in hand to open it. The bag can be set to &o&bpickup&r items, &o&brefill&r your hotbar, or to &o&bdeposit&r its items into &nany&r inventory on &eRight-click&r."
+			]
+			id: "46C2F0D83ECD1BA9"
+			rewards: [
+				{
+					id: "5C3518D5352196C0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36830F572D6C835C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24C918BCC923B17D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 81
+						}
+					}
+					id: "cyclic:storage_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&fStorage Bag"
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["46C2F0D83ECD1BA9"]
+			description: [
+				"The &2Ender Bag&r provides a portable interface to your &dEnder Chest&r."
+				""
+				"Anything you store in your &dEnder Chest&r inventory can be accessed via the &2Ender Bag&r, and vice versa."
+			]
+			id: "6C13DD18D4B70D14"
+			rewards: [
+				{
+					id: "3CC28C40461C5E4C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05B6148E4C73FCD1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10353EBE2025B585"
+				item: "cyclic:ender_bag"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["46C2F0D83ECD1BA9"]
+			description: [
+				"The &2Sack of Holding&r is is used to transport a container with its contents."
+				""
+				"&aShift+Right-click&r on a tile entity to &o&bpick it up&r, and &aRight-click&r to &o&bplace it down&r."
+				""
+				"All items of the container stays &o&bintact&r."
+			]
+			id: "0C3C98FBE3F3110B"
+			rewards: [
+				{
+					id: "38E6B28E770BF047"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6520A9E86A1F31F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F18638E6F5DDD62"
+				item: "cyclic:tile_transporter_empty"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &9Monster Ball&r can be thrown at a creature to &o&bcapture it&r."
+				""
+				"The creature &o&bwill remain&r in the ball until you &aRight-click&r a block with the &9Monster Ball&r in hand to &o&brelease it&r."
+				""
+				"An &o&beasier&r alternative to transporting &emobs&r with leashes or minecarts."
+			]
+			hide_dependency_lines: true
+			id: "69D348A55F4E48A4"
+			min_width: 300
+			rewards: [
+				{
+					id: "708A2B76290C2E2E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34D1C0A4F4FFEED4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "731D5CF0FBEA2932"
+				item: "cyclic:magic_net"
+				title: "Monster Ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["50C8020FC4A7313B"]
+			description: [
+				"&4Ender Orb&r is an &3Ender Pearl&r that can be &o&bthrown&r, &o&bpicked up&r, and &nthrown again&r."
+				""
+				"&1Ender Orb Translocator&r ia an &o&denhanced&r &3Ender Pearl&r that also &o&bcarries the user&r when thrown."
+			]
+			id: "712BFCF2C39AD263"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "73AA1CFB150E0B61"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "09F13B193BFDDD3D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "193E9A77A2F3C262"
+					item: {
+						Count: 1b
+						id: "cyclic:ender_pearl_reuse"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62CB5209FABA9607"
+					item: {
+						Count: 1b
+						id: "cyclic:ender_pearl_mounted"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Ender Orbs"
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &6Torch Launcher&r shoots a &2Torch&r with considerable force in the direction you are &o&bfacing&r, placing the &2Torch&r wherever it lands."
+				""
+				"Automatically consumes &2Torches&r in your inventory to &o&brefill itself&r."
+			]
+			hide_dependency_lines: true
+			id: "46114E63F64D2795"
+			rewards: [
+				{
+					id: "684C7C12E19DC99C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7D2C126D294D37F4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C0CF9C4D542FCDC"
+				item: {
+					Count: 1b
+					id: "cyclic:torch_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["40D728B0C5A8EB5D"]
+			description: [
+				"&cEnergy Cable&r:"
+				"Transport energy between blocks. Has &o&bextraction&r mode with a &3filter&r &o&bGUI&r, and a &eyellow&r blocked state to &0disable&r the flow. Maximum of &o&b32,000&r &cRF&r/t."
+				""
+				"&aItem Cable&r:"
+				"Can only transport items and energy between blocks. Has &o&bextraction&r mode with a &3filter&r &o&bGUI&r, and a &eyellow&r blocked state to &0disable&r the flow. Max speed is &o&b64&r &aitems&r/t in &neach direction&r."
+				""
+				"&9Fluid Cable:"
+				"Pipe liquid between blocks. Has extraction mode with a &3filter&r &o&bGUI&r, and a &eyellow&r blocked state to &0disable&r the flow. Also &o&bcollects&r fluid from the world. Maximum of &o&b16&r &7buckets&r/t."
+			]
+			id: "2715C4F1B35B34D3"
+			min_width: 300
+			rewards: [
+				{
+					id: "55B6C65A2B23ED2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F3640C8FC102EFB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7DE6B05F3089B6DC"
+					item: "cyclic:energy_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "731F196235A89B0F"
+					item: "cyclic:item_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39062D76C73F976D"
+					item: "cyclic:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Cables"
+			x: -0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2715C4F1B35B34D3"]
+			description: [
+				"The &9Wireless Redstone Transmitter&r and &cWireless Redstone Receiver&r allow you to transmit redstone signals between distant points."
+				""
+				"Place a Wireless Receiver in the world and use a &dGPS Marker&r on it to store its &o&bcoordinates&r. Then insert the &dGPS Marker&r into a &9Redstone Transmitter&r."
+				""
+				"Anytime the &9Transmitter&r receives a redstone signal, it will cause all linked &cReceivers&r to receive &o&bthe same signal&r."
+				""
+				"&eRight-click&r on a block with the &dGPS Marker&r in hand to save its position to the Marker. Markers with &o&bsaved locations&r can be used in multiple machines from this mod such as &6Shape Builder&r."
+			]
+			id: "5416FE933966639A"
+			min_width: 350
+			rewards: [
+				{
+					id: "7AA1EB6AAD499317"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "156087DF02F3F912"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12D6F67857246870"
+					item: "cyclic:wireless_receiver"
+					type: "item"
+				}
+				{
+					id: "0841164B8F19F704"
+					item: "cyclic:wireless_transmitter"
+					type: "item"
+				}
+				{
+					id: "67719FD758784D3F"
+					item: "cyclic:location_data"
+					type: "item"
+				}
+			]
+			title: "Wireless Redstone Receiver \\& Transmitter"
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: [
+				"The &dDisenchanter&r can &o&btake an enchantment off&r of an item and apply it to a &ebook&r."
+				""
+				"Only one &denchantment&r is stripped at a time, so items with multiple &denchantments&r will need to be disenchanted &o&bmultiple&r times."
+			]
+			id: "56FAB0452F74878E"
+			min_width: 300
+			rewards: [
+				{
+					id: "28405999D4498F7E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C6A0562C8FF1426"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ABFA858AC392049"
+				item: "cyclic:disenchanter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["07DB9D794A472F53"]
+			description: [
+				"The &5Battery&r stores &o&b6,4000,000&r&cRF&r."
+				""
+				"&cPower&r can be transferred &o&bto&r and &o&bfrom&r the &5Battery&r via &6Cables&r or by placing machines directly adjacent to the &5Battery&r."
+				""
+				"&aItems&r can also be &o&bcharged&r in the charge slot on bottom right corner."
+			]
+			id: "42B4E694DFD02ACD"
+			min_width: 300
+			rewards: [
+				{
+					id: "54F8525C6F632B41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A48568508EC5EB8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "0A2D0874C9F87702"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:battery"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"Place the &9Fishing Net &rin water and give it a &aFishing Rod&r and it will &o&bautomatically catch fish&r. "
+				""
+				"Caught fish will be &o&bdropped&r in the world and need to be picked up &b&omanually&r or by other machines like &2Item Collector&r for example."
+			]
+			hide_dependency_lines: true
+			id: "7A8D7FBC53A73A56"
+			rewards: [
+				{
+					id: "1D756D41304173D8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76B7B1BEF72E8E09"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12B9C905C3230F5E"
+				item: "cyclic:fisher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"When worn, &dClimbing Gloves&r allow the player to &o&bclimb vertical surfaces&r as if a ladder or vines were present."
+				""
+				"Can be equipped as an accessory in the &6Curios Slot&r: &eHands&r."
+			]
+			hide_dependency_lines: true
+			id: "7A750DF10E92B471"
+			min_width: 300
+			rewards: [
+				{
+					id: "350C2465A4679BA8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C2D35DE07B69368"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CEC16449285E66D"
+				item: {
+					Count: 1b
+					id: "cyclic:glove_climb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"75F7F9650B677DD4"
+				"6211CC4AF98746E6"
+				"412C40C9937931B9"
+				"014B08B3D6ABAB99"
+			]
+			description: ["When in your &o&binventory&r or worn as an &o&baccessory&r, combines the protection effects of the &eAntidote Charm&r, &cWither Charm&r, &6Fire Charm&r, and &5Void Charm&r."]
+			id: "6B9D2BB968B4463F"
+			min_width: 275
+			rewards: [
+				{
+					id: "3941A258AC690876"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F7B37BA0734F88D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "65D23378984ECA3B"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_ultimate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.499999999999993d
+			y: -7.821428571428569d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: [
+				"When consumed, grants the player &o&b1&r permanent, extra &cHeart&r."
+				""
+				"Multiple can be consumed for additional &cHearts&r."
+			]
+			id: "2F3642D6B0CAF95F"
+			min_width: 220
+			rewards: [
+				{
+					id: "3F288A2089821625"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6469837F8F0CCA12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "2A7B3E4E5DF7C4FA"
+				item: "cyclic:heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: ["Eat will show the &o&bnames&r a few nearby &o&bstructures&r, and their horizontal straight-line distance to your position."]
+			id: "2640A7557D30E133"
+			rewards: [
+				{
+					id: "11ED32AB72250BB7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CA2EC1D52C58E49"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CAEFB67ACF55FAC"
+				item: "cyclic:apple_ender"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["70D20CD1E662D529"]
+			description: ["Rich &6food&r that has &b&ono effects&r. Used for &o&bcrafting&r."]
+			hide_dependency_lines: true
+			id: "6115BE7A9E526397"
+			min_width: 220
+			rewards: [
+				{
+					id: "46CB566FA7175047"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "049BD93D643B6E4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1A097B809EF9736E"
+				item: "cyclic:apple_honey"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: ["Grants &o&bpotion effects&r when eaten."]
+			id: "5C822E5CC5CF1E13"
+			rewards: [
+				{
+					id: "05E9B2D81868B2E9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "465D6A4CBFD717CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E4A6AC3B511692F"
+				item: "cyclic:apple_prismarine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: ["Utility buffs include &o&bswim speed&r, &o&bconduit&r, &o&bwater breathing&r, &o&bnight vision&r."]
+			id: "50FF985123C1A518"
+			rewards: [
+				{
+					id: "2B04E58E3FA2B781"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A6EACAE4F1CB75F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "155E49380DA984C2"
+				item: "cyclic:apple_lapis"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: ["Lower levels of &o&bhealth boost&r and &o&bresistance&r."]
+			id: "12E931060AA686AD"
+			rewards: [
+				{
+					id: "042CB4437D9F3357"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3571EA913E474AB4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C92B7F5C5E5E47E"
+				item: "cyclic:apple_iron"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["03A5107ACD2BC3E2"]
+			description: [
+				"Eating an &bDiamond Apple&r will give you &o&b60&r seconds worth of &6Resistance V&r and &2Health Boost V&r for short tough fights."
+				""
+				"Must be &ngrown&r and &nharvested&r from a &asprout&r."
+			]
+			id: "24BA2DD2922C87EA"
+			min_width: 250
+			rewards: [
+				{
+					id: "3917E4B6F20892A6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A82074B489C61BD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C8A359334E5C8D7"
+				item: "cyclic:apple_diamond"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03A5107ACD2BC3E2"]
+			description: [
+				"Eating an &2Emerald Apple&r will give you &o&bexplorative buffs&r include &eHaste III&r, &6Luck II&r, &cStrenght II&r, &dSlow Falling II&r."
+				""
+				"Must be &ngrown&r and &nharvested&r from a &asprout&r."
+			]
+			id: "32671A03395F3A0B"
+			min_width: 250
+			rewards: [
+				{
+					id: "3FDCF7C7CDD2CDBC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F7A9D80BFE6D6FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23379175BBA29860"
+				item: "cyclic:apple_emerald"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["40D728B0C5A8EB5D"]
+			description: [
+				"&2Block Rotatator&r its not really a &9Wrench&r."
+				""
+				"This sipmle tool can be used to &o&brotate&r simple blocks such as stairs, slabs, and similar compatible blocks that face certain directions. Try hitting blocks from &o&bdifferent angles&r."
+			]
+			id: "01B091232C2CB515"
+			rewards: [
+				{
+					id: "26FC562780DC90CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F704CC93C47DF57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4E1A484C0D6E3505"
+				item: {
+					Count: 1b
+					id: "cyclic:rotation_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"Use this cable &2Wrench&r by &eright-clicking&r on a &o&bCyclic&r &9Cable&r to change the cable's settings such as &o&bimport filter&r, &o&bblocked&r, &o&bnormal&r."
+				""
+				"Blocked state only appears while player is &nsneaking&r/&ncrouching&r."
+			]
+			id: "40D728B0C5A8EB5D"
+			rewards: [
+				{
+					id: "36DE0FD31EBE8497"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42CE82EF08EF767A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CDD921492462705"
+				item: "cyclic:cable_wrench"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			hide_dependency_lines: true
+			id: "0F6D2FC0B1C93686"
+			rewards: [
+				{
+					id: "2AF71FB3485B201F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57BAE3C7E9522EF3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "38343145F3EFC461"
+					item: {
+						Count: 1b
+						id: "cyclic:crystal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55F8F1387A633B6D"
+					item: {
+						Count: 1b
+						id: "cyclic:crystal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2551C2E4DDBC84"
+					item: {
+						Count: 1b
+						id: "cyclic:crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2637AFC0BEDBEEF7"
+					item: {
+						Count: 1b
+						id: "cyclic:crystal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Crystallized Obsidian Armor"
+			x: 7.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["&6Engraved Thunder&r can launch a projectile that will spawn a &o&bnatural lightning bolt&r when it lands."]
+			hide_dependency_lines: true
+			id: "365F9E68BAB68011"
+			rewards: [
+				{
+					id: "4CBA4B2D241821F2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A0F423BE6E1E6EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1FB3029FE23883E5"
+				item: {
+					Count: 1b
+					id: "cyclic:lightning_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0F6D2FC0B1C93686"]
+			id: "25757FFA41256265"
+			optional: true
+			rewards: [
+				{
+					id: "7E4805B43237416A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "32588A90455E3BBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "289A1F06265BCA59"
+				item: {
+					Count: 1b
+					id: "cyclic:crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&fCrystal Sword"
+			x: 8.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &6Frost Bringer&r can launch &b&o3&r frozen projectiles that applies the &o&bparalyze potion effect&r to &o&ball enemies&r."]
+			hide_dependency_lines: true
+			id: "05EF86CA0EF6DF50"
+			rewards: [
+				{
+					id: "27F719D8058A0D7B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EB7CF639851A607"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "254251C616BA9F86"
+				item: {
+					Count: 1b
+					id: "cyclic:ice_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: ["&6Duskflame Hex&r can launch &o&b3&r projectiles that &o&bburn&r and &o&bdamage entities&r. Does &nnot set fire&r to the world."]
+			hide_dependency_lines: true
+			id: "00868CB5F30D0513"
+			rewards: [
+				{
+					id: "196A6B7D2E1207ED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A1DA505EE2E830E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "206D0EAAC53C2444"
+				item: {
+					Count: 1b
+					id: "cyclic:fire_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C9253A014A20BEC"]
+			description: [
+				"&aEmerald Apple Sprout&r can be plant below a leaf block to grow an &2Emerald Apple&r."
+				""
+				"&3Diamond Apple Sprout&r can be plant below a leaf block to grow an &bDiamond Apple&r."
+			]
+			id: "03A5107ACD2BC3E2"
+			rewards: [
+				{
+					id: "1029D2EAAAB2B172"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2130D2297DE37043"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50E3CC1E1919816E"
+					item: {
+						Count: 1b
+						id: "cyclic:apple_sprout_emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "589DA80E044AF51A"
+					item: {
+						Count: 1b
+						id: "cyclic:apple_sprout_diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: [
+				"Similar to &o&bmilk&r, when eaten it &o&bclears out&r potion effects."
+				""
+				"However it only &o&bremoves harmful ones&r like &cpoison&r, and not &o&bbeneficial ones&r such as &6regeneration&r or &dnight vision&r."
+			]
+			id: "0C9253A014A20BEC"
+			rewards: [
+				{
+					id: "40D5CFD9C4325066"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "433BE1DADF377E4D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67A355322A849203"
+				item: {
+					Count: 1b
+					id: "cyclic:apple_chocolate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6115BE7A9E526397"]
+			description: ["Grants &o&bpotion effects&r when eaten."]
+			id: "7AD7E8CB7A7528C8"
+			rewards: [
+				{
+					id: "3AF7D673D564632A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42CEE9D40E29C298"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "566E5F7C30E279C3"
+				item: {
+					Count: 1b
+					id: "cyclic:apple_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			id: "0D5815CC13FE563D"
+			rewards: [
+				{
+					id: "46464E4E8D2CFA1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F364D58354E291C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3F4AD21D987A74FC"
+				item: "cyclic:compressed_cobblestone"
+				type: "item"
+			}]
+			title: "Compressed Cobblestone"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0D5815CC13FE563D"]
+			id: "1D439E19BDC4A7AA"
+			rewards: [
+				{
+					id: "00B1735C5D2A2058"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F681FEB1751E6E6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "568556A09B1D9B83"
+				item: "cyclic:flint_block"
+				type: "item"
+			}]
+			title: "Flint Block"
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["158B65BD64114835"]
+			description: [
+				"The &2Crashing Macerator&r can grind up materials or break down components."
+				""
+				"Grinding recipes sometimes have a &o&bchance&r for a bonus &6extra&r product."
+			]
+			id: "7BFC05180E238D6F"
+			rewards: [
+				{
+					id: "2DCB59D78FBF77D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CA0216D56A43D06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12EFD3DDE2AF2671"
+				item: "cyclic:crusher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["07D94600EFF47688"]
+			description: [
+				"&2Combustion Generator&r can generate &cPower&r from anything that burns as &o&bfuel&r in &3Furnaces&r."
+				""
+				"Burn time is the same number of ticks as the furnace time, for example &o&b1&r &0Coal&r = &o&b1,600&r ticks."
+				""
+				"The &2Combustion Generator&r producing &o&b80&r&cRF&r/t and can hold &o&b640,000&r&cRF&r."
+				""
+				"Placing the &2Generator&r on top of a &5Battery&r will increase the holding capacity up to &o&b6,400,000&r&cRF&r."
+			]
+			id: "56B9D8C9CA55ED9B"
+			min_width: 260
+			rewards: [
+				{
+					id: "77CC3A7CD9EC4FD1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13C5D15EFCE2EAEC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69033DE8DE3DDEF8"
+				item: "cyclic:generator_fuel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["56B9D8C9CA55ED9B"]
+			description: [
+				"&2Devouring Generator&r can generate &cPower&r from &o&bfood type&r items."
+				""
+				"Burn time and energy per tick are set up for example:"
+				"It uses both &cfood&r and &esaturation&r values, multiplied by &o&b100&r. &6Bread&r has &o&b5&r &nfood value&r + &o&b0.6&r &o(&o&b60&r&o%)&r &nsaturation value&r x &o&b100&r, will burn for &o&b560&r ticks."
+				""
+				"The &2Devouring Generator&r producing &o&b60&r &cRF&r/t and can hold &o&b640,000&r&cRF&r."
+				""
+				"Placing the &2Generator&r on top of a &5Battery&r will increase the holding capacity up to &o&b6,400,000&r&cRF&r."
+			]
+			id: "0531DBF5FB8B45B5"
+			min_width: 300
+			rewards: [
+				{
+					id: "5CB7E0967D232BD8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E5A4A5CDB3F932D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38CD3120367D61E0"
+				item: "cyclic:generator_food"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["56B9D8C9CA55ED9B"]
+			description: [
+				"&6Evaporate &rliquids to generate &cEnergy&r. "
+				""
+				"&a&oFuel types&r:"
+				"&bSteam&r and &3Oxygen&r can generate &o&b20&r&cRF&r/t."
+				"&6Lava&r and &dHydrogen&r can generate &o&b40&r&cRF&r/t."
+				"&2Biofuel&r and &9Refined Fuel&r can generate &o&b100&r&cRF&r/t."
+				""
+				"Can hold &o&b640,000&r&cRF&r. Placing the &2Generator&r on top of a &5Battery&r will increase the holding capacity up to &o&b6,400,000&r&cRF&r."
+			]
+			id: "192D58B48A3C355D"
+			min_width: 300
+			rewards: [
+				{
+					id: "726E8010CA679FE7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31EB24618E79113B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35AD1AA2CE30D338"
+				item: "cyclic:generator_fluid"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["70F97C794A75D24A"]
+			description: [
+				"The &2Material Generator&r can generate &cPower&r from &b&ocertain mob drop&r items."
+				""
+				"Here is the List of all items can be used as fuel:"
+				""
+				"&o&b1&rx &aBiomass&r burns for &o&b100&r ticks and generates in total &o&b1,000&r&cRF&r or &o&b10&r&cRF&r/t."
+				"&o&b1&rx &cRotten Flesh&r burns for &o&b400&r ticks and generates in total &o&b8,000&r&cRF&r or &o&b20&r&cRF&r/t."
+				"&o&b1&rx &4Redstone&r burns for &o&b300&r ticks and generates in total &o&b12,000&r&cRF&r or &o&b40&r&cRF&r/t."
+				"&o&b1&rx &7Bones&r burns for &o&b400&r ticks and generates in total &o&b16,000&r&cRF&r or &o&b40&r&cRF&r/t."
+				"&o&b1&rx &eGlowstone&r burns for &o&b800&r ticks and generates in total &o&b32,000&r&cRF&r or &o&b40&r&cRF&r/t."
+				"&o&b1&rx &3Gunpowder&r burns for &o&b400&r ticks and generates in total &o&b32,000&r&cRF&r or &o&b80&r&cRF&r/t."
+				"&o&b1&rx &6Magma Cream&r burns for &o&b1,000&r ticks and generates in total &o&b60,000&r&cRF&r or &o&b60&r&cRF&r/t."
+				"&o&b1&rx &8Ender Pearls&r burns for &o&b1,600&r ticks and generates in total &o&b64,000&r&cRF&r or &o&b40&r&cRF&r/t."
+				"&o&b1&rx &dSpider Eye&r burns for &o&b1,200&r ticks and generates in total &o&b72,000&r&cRF&r or &o&b60&r&cRF&r/t."
+				"&o&b1&rx &aPhantom Membrane&r burns for &o&b1,000&r ticks and generates in total &o&b100,000&r&cRF&r or &o&b100&r&cRF&r/t."
+				"&o&b1&rx &5Fermented Spider Eye&r burns for &o&b1,600&r ticks and generates in total &o&b128,000&r&cRF&r or &o&b80&r&cRF&r/t."
+				"&o&b1&rx &6Ender Eye&r burns for &o&b1,600&r ticks and generates in total &o&b128,000&r&cRF&r or &o&b80&r&cRF&r/t."
+				"&o&b1&rx &bGhast Tear&r burns for &o&b2,400&r ticks and generates in total &o&b240,000&r&cRF&r or &o&b100&r&cRF&r/t."
+				"&o&b1&rx &4TNT&r burns for &o&b3,200&r ticks and generates in total &o&b384,000&r&cRF&r or &o&b120&r&cRF&r/t."
+				"&o&b1&rx &dDragon Breath&r burns for &o&b6,400&r ticks and generates in total &o&b640,000&r&cRF&r or &o&b100&r&cRF&r/t."
+				"&o&b1&rx &9Shulker Shell&r burns for &o&b800&r ticks and generates in total &o&b1,000,000&r&cRF&r or &o&b1,250&r&cRF&r/t."
+				"&o&b1&rx &2Peat&r burns for &o&b4,000&r ticks and generates in total &o&b1,000,000&r&cRF&r or &o&b250&r&cRF&r/t."
+				"&o&b1&rx &6Enriched Peat&r burns for &o&b1,000&r ticks and generates in total &o&b1,000,000&r&cRF&r or &o&b1,000&r&cRF&r/t."
+				"&o&b1&rx &eNether Star&r burns for &o&b4,000&r ticks and generates in total &o&b9,600,000&r&cRF&r or &o&b2,400&r&cRF&r/t."
+			]
+			id: "69FC947E12CAECD3"
+			min_width: 500
+			rewards: [
+				{
+					id: "049494447556E7F4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B5502EB1EF72D70"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CA3FA16F780E244"
+				item: "cyclic:generator_item"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2715C4F1B35B34D3"]
+			description: ["Wireless transmisison of &o&benergy&r, &o&bitems&r and &o&bfluid&r."]
+			id: "5EBC58751715CB63"
+			min_width: 220
+			rewards: [
+				{
+					id: "19CD8E227027F05F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5AAE558617BB4B59"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "052D13ADABD0F061"
+					item: "cyclic:wireless_energy"
+					type: "item"
+				}
+				{
+					id: "2F54B508573B1065"
+					item: "cyclic:wireless_item"
+					type: "item"
+				}
+				{
+					id: "6A980953F78C23B3"
+					item: "cyclic:wireless_fluid"
+					type: "item"
+				}
+			]
+			title: "The Transfere Nodes"
+			x: 0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: ["The &9Powered Diamond Anvil&r repairs equipment using &cEnergy&r."]
+			id: "68E18D5DF5023935"
+			rewards: [
+				{
+					id: "2517B916884B4BF3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01717D0096395EE3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45A15FB3BFC04F3E"
+				item: "cyclic:anvil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["56B9D8C9CA55ED9B"]
+			description: [
+				"When these blocks can see they skylight during the day, they will generate small amounts of &cEnergy&r."
+				""
+				"The &2Solar Panel Generator&r producing &o&b4&r &cRF&r/&o&b3&r seconds and can hold &o&b64,000&r&cRF&r."
+				""
+				"Placing the &2Solar Panel&r on top of a &5Battery&r will increase the holding capacity up to &o&b6,400,000&r&cRF&r."
+			]
+			id: "5FB3DC36C823F337"
+			min_width: 250
+			rewards: [
+				{
+					id: "7DD1CD78864D2E9A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E1994C0EA2840DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2B563FA8E474D0D2"
+				item: "cyclic:generator_solar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0D5815CC13FE563D"]
+			id: "70F97C794A75D24A"
+			rewards: [
+				{
+					id: "46BF4AD2894EA143"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5DE4772BC3453C01"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4484416DD1B1FBFF"
+				item: "cyclic:eye_redstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["70F97C794A75D24A"]
+			description: [
+				"The &2Ender Book&r is a &dmagical book&r that stores the player's current location as a &9Waypoint&r."
+				""
+				"The location can be created with &dGPS Data Card&r by &aRight-clicking&r on a block to save location coordinates."
+				""
+				"&aSneak+Scroll-Wheel&r to &o&bpick&r location, then &aSneak+Right-click&r to &o&bteleport&r."
+				""
+				"Jump to cancel the teleportation. The &6Ender Book&r uses durability for &o&beach&r teleportation, which can be repaired on a &8Anvil&r with &7Ender Pearls&r."
+			]
+			id: "7707FFC50E4E1E30"
+			optional: true
+			rewards: [
+				{
+					id: "54D94513AB471FD4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "053FD42D7A822AB5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A562A746A1441AF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "cyclic:ender_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["56B9D8C9CA55ED9B"]
+			description: [
+				"The &dClaystone Battery&r holds &o&b16,000&r&cRF&r."
+				""
+				"Powered with &credstone&r this block will output power down if &o&bpossible&r."
+			]
+			id: "07DB9D794A472F53"
+			rewards: [
+				{
+					id: "507F918DF9B4EA31"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D1DBF6FCB7CF5FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56DCEAA0E3E30084"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:battery_clay"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &2Lunchbox&r is basically a &eBackpack&r but only for food items."
+				""
+				"Fill the &2Lunchbox&r with your favorite food and it will let you eat them in order &o&bleft to right&r. "
+				""
+				"&aSneak+Right-click&r to open &2Lunchbox&r &o&bGUI&r. There is &o&b7&r slots to store your food."
+			]
+			hide_dependency_lines: true
+			id: "5D1AA4FDAD9837F5"
+			min_width: 300
+			rewards: [
+				{
+					id: "26A2BE67C7DA448D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1993CEA9F2AD8B9A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "081954FFF4571CE6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 7
+						}
+					}
+					id: "cyclic:lunchbox"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["70D20CD1E662D529"]
+			description: [
+				"&2Biomass&r can be created with &o&b4&r &aleaves&r, &o&b4&r &cflower&r and &o&b1&r &2sapling&r or can be made in &dSolidification Chamber&r with small amount of &9water&r and just &o&b3&r pieces of &aleaves&r."
+				""
+				"Combine with various organic material in a &6Melter&r to create &aFluid Biomass&r, which can be used in a &dSolidification Chamber&r to make &eDry Peat Bog&r even cheaper."
+			]
+			id: "3DB09BB0FE14BDF1"
+			rewards: [
+				{
+					id: "77CA8402200AB3D3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "608E37B99CFE63FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7E54BE5E64DF3A3B"
+				item: "cyclic:biomass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3DB09BB0FE14BDF1"]
+			description: [
+				"&2Dry Peat Bog&r, when placed next to water, will slowly turn into a"
+				"&cSaturated Peat Deposit&r, which can be &o&bsmelted&r to create fuel for the &eMaterial Generator&r."
+			]
+			id: "2AE6C08D0BB52193"
+			min_width: 300
+			rewards: [
+				{
+					id: "160F099C2FBEAACB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63B9D42244D5B96D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66225E796E3A400C"
+				item: "cyclic:peat_unbaked"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2AE6C08D0BB52193"]
+			description: [
+				"To get &2Saturated Peat Deposits&r place a &9Dry Peat Bog&r next to water. Over time the &9Dry Peat Bog&r becomes &csaturated&r and can be &o&bharvested&r."
+				""
+				"Once &o&bharvested&r, it can be &o&bsmelted&r to create fuel for the &eMaterial Generator&r."
+			]
+			id: "12F94FBF6FF889D4"
+			min_width: 300
+			rewards: [
+				{
+					id: "7309A563B817EC31"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B0AA75373D612FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5444D2D83E2FD0C4"
+				item: "cyclic:peat_baked"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"12F94FBF6FF889D4"
+				"69FC947E12CAECD3"
+			]
+			description: [
+				"The &2Peat Farm&r takes water, which can be pumped in via a &6Sink&r (the cheapest way), and &9Dry Peat Bog&r as its &einputs&r and &o&bautomatically builds&r a &o&b15x15&r &aPeat Bog&r farm surrounding itself."
+				""
+				"When &9Dry Peat Bog&r becomes &csaturated&r, the &2Peat Farm&r will &o&bautomatically harvest&r it and place more &9Dry Peat Bog&r in its place, but it will not collect it. To collect &cSaturated Bod Deposit&r use an &eItem Collector&r."
+				""
+				"If you like you can build something like this:"
+				""
+				"{image:kubejs:textures/item/peat_farm.png width:250 height:100 align:1}"
+			]
+			id: "0800B5987F3A1286"
+			min_width: 300
+			rewards: [
+				{
+					id: "0D28207F84275FB7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D5E8B123CB6F8D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43AEDCF1E39221FD"
+				item: "cyclic:peat_farm"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["12F94FBF6FF889D4"]
+			description: [
+				"&2Peat&r is smelted from &eSaturated Peat Deposits&r and used in a &9Material Generator&r to generate &cEnergy&r."
+				""
+				"It can also be combined with &8Fluid Biomass&r in a &dSolidification Chamber&r to create &6Enriched Peat&r."
+				""
+				"&2Peat&r can produce &o&b1,000,000&r&cRF&r in &o&b4,000&r ticks."
+			]
+			id: "751F395036D1D98C"
+			min_width: 300
+			rewards: [
+				{
+					id: "1450FD5A3AF26A5E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "462D7F5B1712ED43"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FD9C6041D5CD0D4"
+				item: "cyclic:peat_fuel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"70D20CD1E662D529"
+				"751F395036D1D98C"
+			]
+			description: [
+				"Created by combining &aPeat&r with &8Fluid Biomass&r in a &dSolidification Chamber&r and used to provide even quicker power in a &9Material Generator&r."
+				""
+				"&2Enriched Peat&r can produce &o&b1,000,000&r&cRF&r in &o&b1,000&r ticks."
+			]
+			id: "0C43D3B8AE4CE1B9"
+			min_width: 250
+			rewards: [
+				{
+					id: "3C48F0EA9A20698C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0FF67B2426ABE06F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "072936CA024044AD"
+				item: "cyclic:peat_fuel_enriched"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&eCyclic&r offers &o&b3&r different types of &2Boomerang&r."
+				""
+				"The &2Boomerang&r thrown will &o&bgather&r items and &o&breturns to you&r."
+				""
+				"The &9Sharpened Boomerang&r thrown will &o&bgather&r items, &o&battacks&r your enemies and &o&breturns to you&r."
+				""
+				"The &cMagic Boomerang&r thrown will &o&bgather&r items, &o&bstuns&r your enemies and &o&breturns to you&r."
+			]
+			hide_dependency_lines: true
+			id: "6EBA6F2A9457ACCB"
+			min_width: 300
+			rewards: [
+				{
+					id: "55788C3101124D78"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C38A9462FA95E42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CF6D31F2C16C6B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:boomerang_carry"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:boomerang_damage"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:boomerang_stun"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "The Boomerangs"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["40D728B0C5A8EB5D"]
+			description: [
+				"&2Antimatter Evaporator&r"
+				""
+				"&aLeft-click&r to cycle between &9Water&r, &6Lava&r, and &3Generic Fluid&r modes."
+				""
+				"&eRight-click&r to &nclear&r a &o&b9x9&r area of the selected &o&bfluid type&r from the world."
+			]
+			id: "070FF5E11330C712"
+			rewards: [
+				{
+					id: "2FB087A8E46BB8B6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46CDC8FEEBCC74B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "091B3EBA39BB0CCE"
+				item: {
+					Count: 1b
+					id: "cyclic:antimatter_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &2Crate&r is a container, like a chest, that is &6Reinforced&r to survive &cExplosions&r and &0Wither&r attacks."
+				""
+				"Let's do some &o&bmath&r, shall we?"
+				"Requered crafting materials are &o&b4&r &6Chests&r + &o&b4&r &7Iron Bars&r and + &o&b1&r piece of &eSandstone&r = &o&b2&r &2Crates&r."
+				""
+				"&o&b1&r &6Chest&r = &o&b27&r storage space x &o&b4&r = &o&b108&r storage space."
+				"&o&b1&r &2Crate&r = &o&b81&r storage space x &o&b2&r = &o&b162&r storage space."
+				""
+				"The final result is: &o&b54&r storage space more + can be used like &dShulker Box&r or &3Backpack&r + &cExpolosions&r proof."
+				""
+				"Pretty much awesome, &o&bright&r?"
+			]
+			id: "29A9BBF53AA9CD4A"
+			min_width: 300
+			rewards: [
+				{
+					id: "73242F4DAB70E416"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EDD1D6575FF1D42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "672403FFA6FD775D"
+				item: "cyclic:crate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			description: ["&9Waterbreathing Charm&r prevent &o&bdrowning damage&r after air is empty."]
+			id: "07792B7C1D015548"
+			min_width: 230
+			rewards: [
+				{
+					id: "1EEFCD80EC61932D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "36FA23E4842FEA9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D40A3AF1267DC3D"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_water"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"&dSpeed Charm&r gives you a &o&bpassive speed boost&r, can be stacked with &o&bspeed potions&r."
+				""
+				"&aRight-click&r in your inventory to turn it &coff&r."
+				""
+				"By default gives you &o&b50&r% boost, it can be changed in the &o&bconfig file&r."
+			]
+			id: "58C249347FF04A6B"
+			rewards: [
+				{
+					id: "2A751F93049E1342"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39B8F0C36DEE924A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2B18A8370D0CAF59"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			description: ["When the &dAnti-Gravity Charm&r is active, you can &ejump&r without &o&bfalling&r at the expense of &ndurability&r while you &o&bremain in the air&r."]
+			id: "5BA6B77BE246D554"
+			rewards: [
+				{
+					id: "22C1A4E9B8684DE7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "27271E3E863D46EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "28EAB3EBFD0F6348"
+				item: {
+					Count: 1b
+					id: "cyclic:antigravity"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			description: ["With the &4Void Charm&r in your &o&binventory&r or &o&bworn&r as an accessory, &o&bsaves&r you from the &5void&r; it &o&bdetects&r if you have fallen down below y=-&o&b30&r and &o&bteleports&r you way up into the &nsky instead&r."]
+			id: "014B08B3D6ABAB99"
+			min_width: 220
+			rewards: [
+				{
+					id: "19078FD6C099FCF9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "62838937E3ABDE7F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F9A64E75F42EEA7"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_void"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			description: ["With the &eAntidote Charm&r in your &o&binventory&r or &o&bworn&r as an accessory, protects you from &cpoison&r at the &nexpense of durability&r."]
+			id: "6211CC4AF98746E6"
+			rewards: [
+				{
+					id: "78DD0DC25AEF3B24"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1EB1C15AFDECA825"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "141903FD61887918"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_antidote"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			description: ["With the &6Fire Charm&r in your &o&binventory&r or &o&bworn&r as an accessory, &o&bprotects&r you from &6fire&r damage at the &nexpense of durability&r."]
+			id: "412C40C9937931B9"
+			min_width: 220
+			rewards: [
+				{
+					id: "29EFDA71EE3DC226"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "782FED6FC8A6511D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B6ED26001097082"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			description: ["With the &cWither Charm&r in your &o&binventory&r or &o&bworn&r as an accessory, &o&bprotects&r you from the &5Wither&r status effect at the &nexpense of durability&r."]
+			id: "75F7F9650B677DD4"
+			min_width: 230
+			rewards: [
+				{
+					id: "1B94AEC65A317A0C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1145545A204267D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1454CF9122322915"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_wither"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C9253A014A20BEC"]
+			description: ["Immune to &cdamage&r and death by &estarvation&r."]
+			id: "3F475779165E0324"
+			rewards: [
+				{
+					id: "7AE9C99E83714DE1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7CAF7EC6CD2EA5CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72ACCCAFF07EABC8"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_starvation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &2Cask&r is a small tank for storing fluids. It holds &o&b8,000&r&9mB&r of any fluid."
+				""
+				"&9Fluids&r can be &ninserted&r and &nremoved&r both by &o&bpipes&r and by &o&bbuckets&r and other handheld fluid &o&bcontainers&r."
+			]
+			id: "6927029B7A2F22DC"
+			rewards: [
+				{
+					id: "1ECB697CCFE1A772"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43A691E4D67F451F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A2C468C2E721E06"
+				item: "cyclic:cask"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["29A9BBF53AA9CD4A"]
+			description: [
+				"Unlike the &2Crate&r the &6Mini-Crate&r &o&bcan not&r keep contents when broken, but is still &cExplosion&r proof with &o&b15&r slots of storage space."
+				""
+				"The &6Mini-Crate&r can also be &9waterlogged&r. "
+			]
+			id: "058EF4481C711CFB"
+			optional: true
+			rewards: [
+				{
+					id: "3D15678AACB0418B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45A2671AC8493087"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "54DB3F33DCE2AD28"
+				item: "cyclic:crate_mini"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["158B65BD64114835"]
+			description: [
+				"The &6Magma Anvil&r repairs equipment using &o&bliquid&r &6Magma&r."
+				""
+				"Pipe it in from a &9Tank&r or something else."
+			]
+			id: "245A3BCBD0F3CBA3"
+			rewards: [
+				{
+					id: "6B06BDC94BC4435A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "46CC2E088F9AE918"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02CF9056C762BDA6"
+				item: "cyclic:anvil_magma"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: ["Enables glowing &dNight Vision&r while worn, you can also turn it &9on&r and &coff&r by &aRight-clicking&r."]
+			id: "39BC1DF4449AE224"
+			min_width: 210
+			rewards: [
+				{
+					id: "04B65B170D966C90"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CD867FAD2A061ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3016526D054A998D"
+				item: {
+					Count: 1b
+					id: "cyclic:glowing_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6927029B7A2F22DC"]
+			description: [
+				"The &9Fluid Storage Tank&r is the big brother of the &2Cask&r, able to store more fluid. It holds &o&b64,000&r&9mB&r of any fluid."
+				""
+				"Just like by &2Cask&r the fluids can be &ainserted&r and &cremoved&r by &o&bpipes&r, &o&bbuckets&r and other handheld fluid &o&bcontainers&r."
+			]
+			id: "48C4F0E10BD59390"
+			optional: true
+			rewards: [
+				{
+					id: "7450AAE825D6707C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "408BC226CAD8FDD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76DAB0A3EB18C738"
+				item: "cyclic:tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &6Building Scepter&r is a powerful tool that comes in &o&b3&r forms; &9Fill&r, &2Place&r, and &aExchange&r."
+				""
+				"For each, &aLeft-clicking&r on any block will change the &o&bsize&r of the area that will be affected. &aSneak+Left-clicking&r will select the block to be &o&bplaced&r by the scepter. &aRight-click&r with the scepter to &o&bplace&r or &o&bexchange&r blocks from your &dinventory&r."
+				""
+				"• The &9Fill Scepter&r places blocks in the &o&bspecified-shape&r around the block you &aRight-click&r on."
+				"• The &eExchange Scepter&r swaps all blocks with your &o&bselected&r block in a shape around the block you &aRight-click&r."
+				"• The &2Place Scepter&r is similar to the &9Fill Scepter&r, except the blocks are placed on the &o&bsurface&r of the block you &aRight-click&r."
+			]
+			hide_dependency_lines: true
+			id: "26452FCF811B8C70"
+			min_width: 290
+			rewards: [
+				{
+					id: "0C58E4C901973798"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2F4AEF1B45FE1AA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A93B27A3905590B"
+					item: {
+						Count: 1b
+						id: "cyclic:build_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1468F7617E4C71EE"
+					item: {
+						Count: 1b
+						id: "cyclic:replace_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F96A6768A19735B"
+					item: {
+						Count: 1b
+						id: "cyclic:offset_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tha Building Scepters"
+			x: 8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			hide_dependency_lines: true
+			id: "7B6502DC3F4EA51D"
+			rewards: [
+				{
+					id: "404E44A7EDD1F785"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7240A0E1C29556BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "26B21883E4401162"
+					item: {
+						Count: 1b
+						id: "cyclic:emerald_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35FC8896DED752CC"
+					item: {
+						Count: 1b
+						id: "cyclic:emerald_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BB76A8B2F53FBD8"
+					item: {
+						Count: 1b
+						id: "cyclic:emerald_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42FB4B4884A9ACF1"
+					item: {
+						Count: 1b
+						id: "cyclic:emerald_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aEmerald Armor"
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7B6502DC3F4EA51D"]
+			id: "576FCDF8CFB316D0"
+			optional: true
+			rewards: [
+				{
+					id: "69A778C659221540"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "05681A62008420DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "13F4FB02268585B0"
+				item: {
+					Count: 1b
+					id: "cyclic:emerald_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["26452FCF811B8C70"]
+			description: [
+				"The &9Block&r &cRandomized&r will &o&bmixup the blocks&r in the nearby &o&b5x5x1&r area, to help you &o&bvary the texture&r of your &o&bwall&r or &o&bpathway&r."
+				""
+				"&aLeft-click&r to change &o&bsize&r. It affects a flat area along the face of &o&bwhatever you hit&r. Tile entities are &nignored&r like &eChests&r etc."
+			]
+			id: "71677437CB510BD1"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "355DFBB6C4759A64"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2818D4EF7748E209"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2DDEEA2768CA1003"
+				item: {
+					Count: 1b
+					id: "cyclic:randomize_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &dSpawner Seeker&r can be used to find the nearest &3spawner&r to your &o&bcurrent location&r."]
+			hide_dependency_lines: true
+			id: "50C8020FC4A7313B"
+			rewards: [
+				{
+					id: "4C6CC211B888BDEF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "763507A72C904B4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0739523600D1C12C"
+				item: "cyclic:spawner_seeker"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &2Ore Prospector&r searches out for &o&bores&r behind the block you &o&bclick on&r."]
+			hide_dependency_lines: true
+			id: "5CC2572A6AFA6225"
+			rewards: [
+				{
+					id: "39F275CF435B6D41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53B4D5574C24DC47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6053D27BEDC2411D"
+				item: {
+					Count: 1b
+					id: "cyclic:prospector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"The &2Spawn Detector&r tells you &o&bexactly&r which mobs can spawn on the &o&btargeted block&r."
+				""
+				"Natural spawns only, ignores mob &o&bspawner blocks&r. Useful for making &aSlime&r, &dWitch&r, and &0Wither Skeleton&r farms."
+			]
+			hide_dependency_lines: true
+			id: "4D9DDA85969BBFFC"
+			rewards: [
+				{
+					id: "783C460CE84892FE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F77FEC28828EAB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64CF6485D5CC595B"
+				item: {
+					Count: 1b
+					id: "cyclic:spawn_inspector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &2Cave-finder&r searches out for empty space &o&bbehind&r the block you &o&bclick on&r."
+				""
+				"Works in any &o&bdirection&r. If you hit the &o&btop&r of a block it &o&bsearches down&r, if you hit the &o&bside&r it searches &o&bbehind&r. Always in a &nstraight line&r."
+				""
+				"Great for finding &ecaves&r while &o&bbranch mining&r."
+			]
+			hide_dependency_lines: true
+			id: "0D62356F401B3DA5"
+			rewards: [
+				{
+					id: "29BA141BEE892B9E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B52CBB43B90E713"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4EDE89C12CC250BD"
+				item: {
+					Count: 1b
+					id: "cyclic:spelunker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: ["Summons a beam of &6Evoker Fangs&r in whatever direction youre facing. Must be used on an &o&bentity&r or a &o&bblock&r."]
+			hide_dependency_lines: true
+			id: "44D6FE9D5A0F1C95"
+			rewards: [
+				{
+					id: "66CB3B36CDC43723"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "202371BCB7FA1D50"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63AF09F56A846F6E"
+				item: {
+					Count: 1b
+					id: "cyclic:evoker_fang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46114E63F64D2795"]
+			description: [
+				"The Scepter: &9Water Infusion&r turns nearby &o&bflowing water&r into &o&bsource water&r. Fills &aLakes&r and &2Rivers&r out &nvery quickly&r."
+				""
+				"The Scepter: &bIce Infusion&r turns nearby &o&bwater&r blocks into &o&bice&r. Costs &ndurability&r to use."
+			]
+			id: "082F5708E4CBEDFF"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "11B2C3D13DDF0D1A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2063FD33A9DC1A3B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "27CA97D973F16F4B"
+					item: {
+						Count: 1b
+						id: "cyclic:spell_water"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1328178365ED7A05"
+					item: {
+						Count: 1b
+						id: "cyclic:spell_ice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Water \\& Ice Infusion"
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&2Teleporter&r that works only vertically, and only if it can find an &o&bempty space&r with a surface above."
+				""
+				"Works on &o&byourself&r, or &o&btarget&r another entity."
+			]
+			hide_dependency_lines: true
+			id: "623F0EBC8907241C"
+			rewards: [
+				{
+					id: "464B0DFD26238CF8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "349472BB70065D5D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0904FF5ACDA226F6"
+				item: {
+					Count: 1b
+					id: "cyclic:elevation_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: [
+				"The &6Ender Scepter&r when held and charged, can be used to &dteleport&r large distances &o&bto the block that you're looking at&r."
+				""
+				"Automatically consumes &8Ender Pearls&r in your &einventory&r to &o&brepair itself&r."
+			]
+			hide_dependency_lines: true
+			id: "46072B7ED11F5ACD"
+			rewards: [
+				{
+					id: "0FE9D8D4BDD2DE51"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "561242473149C6BE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DBD5E2CB1B3E7B8"
+				item: {
+					Count: 1b
+					id: "cyclic:teleport_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"With the &2Stirrups&r you can &o&bmount any entity&r (without the control of the &3saddle&r)."
+				""
+				"With the &9Inverted Stirrups&r you can &o&bpickup target entity&r on top of you. Use it on the &emob&r again &nto put down&r."
+			]
+			hide_dependency_lines: true
+			id: "52714FCD3C896CBE"
+			min_width: 250
+			rewards: [
+				{
+					id: "2DE319B04895AB90"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "148371B37F23FCF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40EDC1BC0FFC3EAC"
+					item: {
+						Count: 1b
+						id: "cyclic:stirrups"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12248B7A6E5DD669"
+					item: {
+						Count: 1b
+						id: "cyclic:stirrups_reverse"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Stirrups"
+			x: 8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&bEnder Wing&r warps you to &dworld spawn&r at the cost of &ndurability&r."
+				""
+				"&6Ender Wing Prime&r warps you &eback home&r at cost of &ndurability&r."
+				""
+				"If you have an active &dRespawn Anchor&r in the &cNether&r and you are &o&bcurrently&r in the &cNether&r, you will be &nteleported there&r."
+				""
+				"Otherwise, you will be &o&bteleported&r to your &9Bed&r if you are in the &2Overworld&r and you have slept in a &9Bed&r to set your &nrespawn point&r."
+			]
+			hide_dependency_lines: true
+			id: "325B6F126D0767D3"
+			min_width: 300
+			rewards: [
+				{
+					id: "1E7D88A3EACC4539"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6590947E19265616"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EADA4AEB8212DE4"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_world"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661C57366341BCA5"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_home"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Ender Wings"
+			x: 9.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&2Dark Glass&r, unlike regular glass, does not let &o&blight&r pass through."
+				""
+				"Oh, and it's also immune &eexplosions&r, &nincluding&r those caused by the &0Wither&r."
+			]
+			hide_dependency_lines: true
+			id: "699028CBA84DE2E5"
+			rewards: [
+				{
+					id: "0D5D5404F8FDDF3D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "35FCF0F6A7F0F93C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "617C60C6C13989F0"
+				item: "cyclic:dark_glass"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["699028CBA84DE2E5"]
+			description: ["Self-connecting textures. &o&bFancy ones&r!"]
+			id: "698834C8ADBD4105"
+			optional: true
+			rewards: [
+				{
+					id: "41551682180C520F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1B002EF621D315B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "659065EA1DFCCBF3"
+				item: "cyclic:dark_glass_connected"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["&6Chaos Reaper&r confuses nearby hostiles so they &o&battack each other&r."]
+			hide_dependency_lines: true
+			id: "43785D0B805EF403"
+			rewards: [
+				{
+					id: "5E695CCCE289AA38"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5FBEC8A921D2FF5A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D62329E3D7272D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:wand_hypno"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["&2Spirit Seeker&r spawns homing &o&bmissiles&r at nearby &o&bhostile&r targets."]
+			hide_dependency_lines: true
+			id: "17BA956856BA4359"
+			rewards: [
+				{
+					id: "0F890862A0F5C182"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CDC59EFC137DF5E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "49317103C3B0E395"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:wand_missile"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0C5C34A36AF49CD8"]
+			description: [
+				"&6Range Cannon&r is a range weapon and shooting &clasers&r from the distance on &b&oentities&r, very fast."
+				""
+				"&6Range Cannon&r uses &cenergy&r as &o&bammo&r."
+			]
+			hide_dependency_lines: true
+			id: "69E5861F0687F04D"
+			rewards: [
+				{
+					id: "3AA85A16CA81AE39"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "356A4C00E58CE41F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FF1B2A41CD299D4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:laser_cannon"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["08D359D021E423FE"]
+			description: [
+				"The &6Experience Pylon&r &o&bautomatically&r collects nearby &eExperience Orbs&r and stores them as &aFluid Experience&r in its internal buffer."
+				""
+				"&aFluid Experience&r can be pumped &9into&r and &cout&r of the &6Pylon&r."
+			]
+			id: "34B7340DFB66C492"
+			rewards: [
+				{
+					id: "6F25547D076B85F7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "470E1393B033C090"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ED85031A866811A"
+				item: "cyclic:experience_pylon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"&cSummonig Flute&r saves the &o&bID&r of a &o&btarget entity&r on use."
+				""
+				"Using it later it will attempt to &dsummon the entity&r to you, if the &o&bdimensions match&r."
+			]
+			hide_dependency_lines: true
+			id: "0DB461D1B41D2D95"
+			min_width: 260
+			rewards: [
+				{
+					id: "3E35B307748A485C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7457FB732D9FE924"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "323FFB9E4479A5FF"
+				item: "cyclic:flute_summoning"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"Eating &cEnder Inventory Cake&r will unlock a &nsecond&r &eInventory&r."
+				""
+				"You can set a &o&bkeybind&r to access that &eInventory&r. It has &o&bstorage space&r like a single &2Chest&r."
+			]
+			hide_dependency_lines: true
+			id: "1CF0A7BAA7BCAC02"
+			min_width: 300
+			rewards: [
+				{
+					id: "57F5862104D3E90A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42B53F788044C5CC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6030151E47C289F1"
+				item: "cyclic:inventory_cake"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &4Altar of Destruction&r will &o&bprevent&r damage and desturction of nearby &6explosions&r."]
+			hide_dependency_lines: true
+			id: "52BD883638EFA6E0"
+			min_width: 250
+			rewards: [
+				{
+					id: "0ABB84DAA584E880"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "527BB5CD603B832B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EF80412EB336F0E"
+				item: "cyclic:altar_destruction"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0C9253A014A20BEC"]
+			description: ["Grants &o&bpotion effects&r when eaten."]
+			id: "3D48F61AB3EEA1D2"
+			rewards: [
+				{
+					id: "48EAC3065359EE3A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56BBC70D382DE737"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E8E24ECCB7EDC18"
+				item: "cyclic:apple_chorus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: ["The &6Fireball&r is throwable like a &o&bfire charge&r, and can be also used as a &o&bcrafting ingredient&r."]
+			hide_dependency_lines: true
+			id: "73B9BCBB301AF65B"
+			min_width: 210
+			rewards: [
+				{
+					id: "51028DC908FCBF37"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F9DE15A079F9A35"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22466652747769E2"
+				item: "cyclic:fireball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"70D20CD1E662D529"
+				"73B9BCBB301AF65B"
+			]
+			description: ["The &9Dark Fireball&r is throwable like a &o&bfire charge&r."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2667DCB5038FEB1C"
+			min_width: 220
+			optional: true
+			rewards: [
+				{
+					id: "2F168D5B2A40BC76"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "292B99E42F8B86BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18D4C7C4C25C865B"
+				item: "cyclic:fireball_dark"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &eSpark&r creates a &b&oinvisible light sources&r."
+				""
+				"To &cremove&r the &b&oinvisible light sources&r &aRight-click&r with a &eSpark&r on it."
+			]
+			hide_dependency_lines: true
+			id: "02C2AA000B9D61F9"
+			rewards: [
+				{
+					id: "29181D8AFEB93194"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "599573E22D547045"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DE6D55F9AB81C2B"
+				item: "cyclic:spark"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6725FEA36C75E603"]
+			description: [
+				"The &cRedstone Clock&r emits a redstone signal with a &o&bconfigurable delay&r, length, and signal."
+				""
+				"Useful for contraptions that need to work on a &o&btimer&r."
+			]
+			hide_dependency_lines: true
+			id: "57CFC72F2748231B"
+			rewards: [
+				{
+					id: "229D59A0D26E121D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06E4B5300143D8B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2EA95DB474040451"
+				item: "cyclic:clock"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.0d
+		}
+	]
+	title: "&2&oCyclic"
+}

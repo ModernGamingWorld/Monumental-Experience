@@ -1,0 +1,60 @@
+{
+  "enableAutomaticRespawn": {
+    "desc:": "Enables automatic respawning of structures, default:true",
+    "enableAutomaticRespawn": true
+  },
+  "minutesUntilRespawn": {
+    "desc:": "Sets the time after which a structure can respawn, the timer starts after the last activity within the structure. default:2.880 minutes(48h)",
+    "minutesUntilRespawn": 2880
+  },
+  "increaseDifficultyWithRespawn": {
+    "desc:": "Enables increased difficulty with in respawned dungeons(mobs can get enchanted items/potions effects), default: true",
+    "increaseDifficultyWithRespawn": true
+  },
+  "dimensionBlackList": {
+    "desc:": "List of blacklisted dimension ids, e.g. minecraft:overworld   Seperate multiple entries by , ",
+    "dimensionBlackList": []
+  },
+  "respawnableStructureIDs": {
+    "desc:": "List of structure IDs that should respawn (others may still be detected and respawn, but this is the surefire way): e.g. minecraft:mansion",
+    "respawnableStructureIDs": [
+      "minecraft:desert_pyramid",
+      "minecraft:end_city",
+      "minecraft:fortress",
+      "minecraft:igloo",
+      "minecraft:jungle_temple",
+      "minecraft:mineshaft",
+      "minecraft:ocean_monument",
+      "minecraft:stronghold",
+      "minecraft:woodland_mansion"
+    ]
+  },
+  "blacklistedStructures": {
+    "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
+    "blacklistedStructures": []
+  },
+  "dungeonChestLoottables": {
+    "desc:": "List of loot tables of chests considered to be dungeon loot, partially used for detecting dungeons. Adding additional modded ones improves detection",
+    "dungeonChestLoottables": [
+      "chests/abandoned_mineshaft",
+      "chests/bastion_bridge",
+      "chests/bastion_hoglin_stable",
+      "chests/bastion_other",
+      "chests/bastion_treasure",
+      "chests/ancient_city",
+      "chests/ancient_city_ice_box",
+      "chests/desert_pyramid",
+      "chests/end_city_treasure",
+      "chests/igloo_chest",
+      "chests/jungle_temple_dispenser",
+      "chests/jungle_temple",
+      "chests/nether_bridge",
+      "chests/pillager_outpost",
+      "chests/simple_dungeon",
+      "chests/stronghold_corridor",
+      "chests/stronghold_crossing",
+      "chests/stronghold_library",
+      "chests/woodland_mansion"
+    ]
+  }
+}

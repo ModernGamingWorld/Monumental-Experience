@@ -1,0 +1,2532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "7E54189F6BA49858"
+	icon: "refinedstorage:crafting_grid"
+	id: "372634F2F65A999C"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -8.660714285714285d
+		y: -9.064285714285717d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C2F31B1E1B34BE2"]
+			description: [
+				"&9Refined Storage&r is a mass storage mod that offers the player a network-based storage system, allowing them to store items and fluids on a massively expandable device network."
+				""
+				"Items and fluids can be stored in one of the many storage capabilities that the mod offers. Any storage devices connected to the same network are accessible to the player through one simple Grid interface, allowing the player to access the inventories of many devices through a single unified &9GUI&r."
+			]
+			icon: "refinedstorage:construction_core"
+			id: "34C6AE4B8382A490"
+			min_width: 300
+			rewards: [
+				{
+					id: "025EE2929242F24E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0F8CB231A36E0123"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oCrafting Terminal&r quest*"
+			tasks: [{
+				count: 16L
+				id: "0CDCDF15E33EFE1B"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "Welcome to &eRefined Storage"
+			x: -7.982142857142861d
+			y: -8.457142857142859d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			description: [
+				"&9Cable&r is used to connect devices to the &6Controller&r."
+				""
+				"&9Cables&r are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+			]
+			hide_dependency_lines: true
+			id: "7F3705767153FE11"
+			rewards: [
+				{
+					id: "45F850E018F389CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "295F1A02D20CAD6E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "32CF1733A3C67574"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			title: "Cables"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Controller&r is the core of the &dRefined Storage&r network. You need to connect all the &dRefined Storage&r devices to this block."
+				""
+				"You are supposed to connect every device that depends on the storage network connection to the &6Controller&r."
+				""
+				"You can connect devices with &5Cables&r. "
+				""
+				"&5Cables&r are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+				""
+				"The &6Controller&r accepts and consumes &cForge Energy&r (FE). If the &6Controller&r runs out of energy, the network will be turned off until there is sufficient energy provided again."
+				""
+				"When the &6Controller&r is broken, it will maintain its energy."
+				""
+				"Each &dRefined Storage&r network can only have a single &6Controller&r. If you connect another &6Controller&r to an already existing network, the &6Controller&r will &n&bbreak&r."
+			]
+			id: "751EE40D0D827E2A"
+			min_width: 300
+			rewards: [
+				{
+					id: "0B864796E25A4423"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "39A72E65EA489D1A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AE9A3DA55E5A0BE"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["13A383F8F11B1C35"]
+			description: [
+				"The &dGrid&r allows access to the items and fluids in the storage network."
+				""
+				"The player can extract items or fluids from the central &nGUI&r."
+				""
+				"Useful controls:"
+				"- &bLeft Click&r takes at most 64 items"
+				"- &bRight Click&r takes at most 32 items"
+				"- &bMiddle Mlick&r takes 1 item "
+				"- &bSHIFT+Mouse Scroll&r in the &ePlayer&r inventory pushes 1 item to or from the &ePlayer’s&r inventory"
+				"- &bSHIFT+Mouse Scroll&r in the &eGrid&r inventory pushes 1 item to or from the &eGrid&r inventory"
+				"- &bCTRL+Mouse Scroll&r pushes 1 item to or from the &ePlayer’s&r mouse"
+				"- &bSHIFT&r pushes the items to the &ePlayer’s&r inventory"
+				"- &bSHIFT+CTRL&r forces the crafting window to open &oeven if the item or fluid is available&r"
+				"- &bCTRL+X&r clears crafting matrix"
+				"- &bRight Click&r on search bar clears the search query"
+				"- &bTab&r selects the search bar when the &eGrid&r isn’t in autoselection mode"
+				"- When in the crafting start &nGUI&r, pressing &bSHIFT&r skips the crafting preview window"
+			]
+			id: "3B052108DAD029F3"
+			min_width: 400
+			rewards: [
+				{
+					id: "111082E5F5481C23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "609D1DA636EE832C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4111CC031948C92C"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Crafting Grid&r is the same as a regular &eGrid&r, but has a crafting inventory."
+				""
+				"When an item is crafted, it won’t just clear the crafting slots, but it’ll try to retrieve the same items from the storage network again."
+				""
+				"The &6Crafting Grid&r integrates with &bJEI&r so the player can use recipe transferring."
+				""
+				"If you don’t have some required items, but autocrafting is available for said items, you can press &bCTRL+CLICK&r to start autocrafting for said items. Note that you need a &7Pattern&r configured for these items."
+			]
+			id: "238560B94FCB5858"
+			min_width: 300
+			rewards: [
+				{
+					id: "1DBA51A36997BBC2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "43E2E13D255262C1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2AA4678146FC99C8"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["751EE40D0D827E2A"]
+			description: [
+				"The &4Disk Drive&r is the block in which you store storage disks or fluid storage disks."
+				""
+				"A &n&bnegative&r or &n&bpositive&r priority can be chosen where a higher priority gets higher precedence to place items in."
+				""
+				"There is also a &n&bwhitelist&r and &n&0blacklist&r to only allow or forbid some items or fluids from entering the storage disks or fluid storage disks respectively."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+			]
+			id: "4F6B8F1E46496251"
+			min_width: 300
+			rewards: [
+				{
+					id: "04B12B0A2221EBA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "03F1ED79F9EEA3E5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48B9DC98B0DBAC29"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			id: "7B449448A6B419AB"
+			rewards: [
+				{
+					id: "143A4BA0DC2C5237"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "364F905BD4EB1B8B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "005912177D6288AD"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -8.4d
+		}
+		{
+			dependencies: ["7B449448A6B419AB"]
+			id: "59BAED982A758B11"
+			rewards: [
+				{
+					id: "3D700119BB685B6E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "160DCAAD3BB52844"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0ACF705A29899152"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -8.4d
+		}
+		{
+			dependencies: ["59BAED982A758B11"]
+			id: "39CA620DBAA4BB46"
+			rewards: [
+				{
+					id: "3D82AEB54DD3DC3B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "79DC94670DE1C150"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2B51BABBB82B9B18"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			x: 2.4499999999999997d
+			y: -8.4d
+		}
+		{
+			dependencies: ["39CA620DBAA4BB46"]
+			id: "323FC67EF4744102"
+			rewards: [
+				{
+					id: "6F72E7F673B4194B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "42C14ACC85787707"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3BC8A51D8B6D1645"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -8.4d
+		}
+		{
+			dependencies: ["323FC67EF4744102"]
+			id: "79AAA7606992C5BC"
+			rewards: [
+				{
+					id: "58D020118A00206E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3395164F92B4C538"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "683E6ABC1EB93FBE"
+				item: {
+					Count: 1b
+					id: "extradisks:256k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -8.4d
+		}
+		{
+			dependencies: ["79AAA7606992C5BC"]
+			id: "2E0E0880D10A3185"
+			rewards: [
+				{
+					id: "77473B7DFABD7F65"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "046E56B5B241F5CE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4E5C5AD46C01055D"
+				item: {
+					Count: 1b
+					id: "extradisks:1024k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -8.4d
+		}
+		{
+			dependencies: ["2E0E0880D10A3185"]
+			id: "3CC2A9A753015DD0"
+			rewards: [
+				{
+					id: "6375CB4B6E00B856"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "26FF0A7CABA93875"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7D073B49F1B92A58"
+				item: {
+					Count: 1b
+					id: "extradisks:4096k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -8.4d
+		}
+		{
+			dependencies: ["3CC2A9A753015DD0"]
+			id: "6408C889100DD050"
+			rewards: [
+				{
+					id: "02A4CAB010446721"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "013F95C4080C3C48"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6D29B8FADECEC672"
+				item: {
+					Count: 1b
+					id: "extradisks:16384k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.3d
+			y: -8.4d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "1303C22577B51875"
+			rewards: [
+				{
+					id: "3162418A2C917526"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "403F2D6268E06EFB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AA801E108A50BE3"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "1E9AA00A54C7954E"
+			rewards: [
+				{
+					id: "34A52BF80385F6A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "63049E40E31A5762"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C729B14DA0DFFF8"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "271745798EAA6DB7"
+			rewards: [
+				{
+					id: "185FFF345B2E20F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0E95FEC6813347B2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39C96C66AE816D36"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			description: [
+				"A &cNetwork Transmitter&r sends a network signal to a &9Network Receiver&r that is specified in the given &2Network Card&r."
+				""
+				"In order for the &cNetwork Transmitter&r to work the &6Controller&r where the &cNetwork Transmitter&r is connected to has to be &nchunkloaded&r."
+				""
+				"The &cNetwork Transmitter&r can work in the current dimension or across different dimensions."
+			]
+			id: "64F7C68943AD30E2"
+			rewards: [
+				{
+					id: "66FDCF051A35E417"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4AABC9BC7DF21C0B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B48E15B3C2940D0"
+				item: "refinedstorage:network_transmitter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64F7C68943AD30E2"]
+			description: [
+				"The &9Network Receiver&r receives a signal from the &cNetwork Transmitter&r."
+				""
+				"In order for the &9Network Receiver&r to work reliably the &9Network Receiver&r has to be &nchunkloaded&r."
+			]
+			id: "31D5150198BF3854"
+			rewards: [
+				{
+					id: "49437049BE931B3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "652A9B409E521163"
+					type: "random"
+				}
+				{
+					id: "52DAD6AA5D41BCC3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+				{
+					id: "1B1C943495CD09CC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17709CA6CCD12C64"
+				item: "refinedstorage:network_receiver"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31D5150198BF3854"]
+			description: [
+				"The &5Wireless Transmitter&r is used to send signals to wireless network items in &bRefined Storage&r."
+				""
+				"The default range is &n&b16 blocks&r, but can be upgraded with &eRange Upgrades&r. Keep in mind, you are not limited to &n&b1 Wireless Transmitter&r! You can spread multiple around in your world, each maximally upgraded with &eRange Upgrades&r."
+				""
+				"Note that every &5Wireless Transmitter&r needs to be connected to the network through a &3Cable&r or &9Network Receiver&r."
+				""
+				"The wireless signal starts from the &5Wireless Transmitter’s&r position, so, if you place &l2&r transmitters next to each other you’ll only have a net gain of &n1 block&r."
+				""
+				"Instead, you have to spread your wireless transmitters around."
+			]
+			id: "3928133420A9BA6F"
+			min_width: 300
+			rewards: [
+				{
+					id: "5656274A0693C178"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "350430268D783546"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60E65DDBF9C25926"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &9Importer&r imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."
+				""
+				"By default, it will import all accessible slots (place the &9Importer&r on the correct side, where the slot or fluid tank is reachable) but the player can use the &n&bwhitelist&r or &n&0blacklist&r as well."
+			]
+			id: "1AFBE843D9AA37F8"
+			rewards: [
+				{
+					id: "1181DC5D79F79536"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6766362A9BF1FEFE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "075CE7D9989A7673"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &5Exporter&r extracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."
+				""
+				"Before being able to export anything, the player has to choose the items or fluids to export."
+				""
+				"The chosen items can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The &5Exporter&r should face the block it’s exporting to in a way that the wanted slot or fluid tank is possible to reach from that side."
+			]
+			id: "22E06C03B43EAC2F"
+			rewards: [
+				{
+					id: "147B50088CAEFAD6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6366D1F4122923AA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "400909A2EDD79B6E"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &dExternal Storage&r provides the storage network with storage of the inventory or fluid tank in front of the device."
+				""
+				"A &n&bnegative&r or &n&bpositive&r priority can be chosen, where a higher priority gets higher precedence to place items in."
+				""
+				"There is also a &n&bwhitelist&r and &n&0blacklist&r option to only allow or forbid some items or fluids from entering the connected inventory."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+			]
+			id: "31D9FC9FE28C5D4B"
+			rewards: [
+				{
+					id: "2ABFF7EB888D5172"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "673FF8D0ECD07B4D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33FE161C9E3F60A4"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &6Crafter&r crafts items with patterns. It can take &2Speed Upgrades&r to increase the crafting speed."
+				""
+				"With processing patterns, the &6Crafter&r has to face the correct input side of the machine."
+				""
+				"A &6Crafter&r can be chained by letting them face each other. This is useful when connecting a &6Crafter&r to a single machine. When you run out of slots in your first &6Crafter&r, the one facing the machine, you can put another &6Crafter&r behind the first &6Crafter&r to get additional &7Pattern&r slots."
+				""
+				"The Crafter has 4 modes:"
+				"- &o&bIgnore redstone signal (default)&r"
+				"- &o&bRedstone signal unlocks autocrafting&r"
+				"- &o&bRedstone signal locks autocrafting&r"
+				"- &o&bRedstone pulse inserts next set&r"
+				""
+				"The (un)locking mechanism is used to block the &6Crafter&r, so it can’t insert items or fluids into the connected inventory."
+				""
+				"“&nBlocking mode&r” can be achieved with the “&nRedstone pulse inserts next set&r” mode."
+			]
+			hide_dependency_lines: true
+			id: "6C2F805FED9B1B4D"
+			min_width: 400
+			rewards: [
+				{
+					id: "3507F940967E5642"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "477DEFFB1733252A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "11F69D5825667CB6"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			description: [
+				"The &2Wrench&r is a tool that can do two things:"
+				""
+				"- Rotate blocks"
+				"- Break Refined Storage covers"
+				""
+				"Simply &n&bsneak+right click&r when using the &2Wrench&r."
+			]
+			id: "2AB06C9BCCC878DF"
+			rewards: [
+				{
+					id: "3D7469D62E769846"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "49B7BBB9147C9465"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FD4C5F99673FE13"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["23A5BD1206C9DA71"]
+			description: [
+				"The &dSecurity Manager&r can store security cards."
+				""
+				"From it’s &bGUI&r, you can configure what permissions each player (that is bound with a &9Security Card&r) has."
+				""
+				"Once the &9Security Card&r is inserted in the top slots, the permissions for that player will be restricted to the ones configured."
+			]
+			id: "5041D32679CA118B"
+			rewards: [
+				{
+					id: "249FE5A01478CB55"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "27CDC645865DFA98"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6708EA1EEAB5BC54"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			id: "5E1D127D8ADF4C03"
+			rewards: [
+				{
+					id: "013D76D17AB649A3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3EABDA22E5C9E8C0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3250D4ECB343F93A"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			title: "Pattern"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			description: [
+				"The &eInterface&r acts as a combination of the &dImporter&r and the &9Exporter&r."
+				""
+				"The &dImporter&r needs to be connected to an inventory to import items or fluids. It has no internal inventory and you can’t insert items directly to the &dImporter&r."
+				""
+				"In comparison with the &dImporter&r the &eInterface&r has an internal inventory to receive items and import them (through piping, hoppers, etc)."
+				""
+				"The &eInterface&r does &lNOT&r extract items from adjacent inventories automatically, you have to actually insert them in the Interface through piping, hoppers, etc."
+				""
+				"There is also an option for exporting items from the system. These items can be piped out through a piping system from another mod, hoppers, etc. and can be configured to be &nNBT&r or &ndamage&r sensitive."
+				""
+				"&bClick&r an item in the export slots to configure that to be exported. Use left or right &bclick&r on the item to change the amount. Use &bshift&r to clear the slot."
+			]
+			id: "4CA8D19FCE537859"
+			min_width: 300
+			rewards: [
+				{
+					id: "3933A8C9571FD253"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0884B1F0D8DADE06"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62E5CE0BDEFCBBC6"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E9AA00A54C7954E"]
+			description: ["The &cUpgrade&r is the base item used for every type of &nupgrade&r."]
+			hide_dependency_lines: true
+			id: "248C80D834309577"
+			rewards: [
+				{
+					id: "203BCC7DC475086C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "165D187E9B48BDFE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B0415A95AEA0930"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Speed Upgrade&r will increase the speed of the device that it is being inserted to."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "7DB39218E8B03474"
+			rewards: [
+				{
+					id: "53135B8DEB96F988"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6AEC638CF9839DA8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "441B938657D152D1"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Range Upgrade&r increases the range of the &eWireless Transmitter&r."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "686E3FDCD3EEA72D"
+			rewards: [
+				{
+					id: "7BFE496F02B06267"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1D44972FA1EBA4D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "64D76A17FBC34BAE"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Crafting Upgrade&r will schedule a crafting task when the item being used in a device is needed but not available."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "09E9D4243A52B968"
+			rewards: [
+				{
+					id: "56C4F9CE551E8803"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "522396F78C22EA40"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "40832888B2D73AAF"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DB39218E8B03474"]
+			description: [
+				"The &2Stack Upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+				""
+				"It can be combined with &bSpeed Upgrades&r to let the device go to the next slot quicker."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "4463E8EFD952B475"
+			rewards: [
+				{
+					id: "6319843C17848711"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4EE8566E7E81394B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "04E6085612AE5E0B"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			id: "0BA00C5545282571"
+			rewards: [
+				{
+					id: "54F75E7225B1F779"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4B7FC14DF924C1E5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53811755FD5D668E"
+				item: "refinedstorage:destruction_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			id: "4BB571A75E50C307"
+			rewards: [
+				{
+					id: "7CBF2AC8D2200EDC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "71BE560A73715399"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E9723791D125AFD"
+				item: "refinedstorage:construction_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			id: "2B707F3AAD089BFC"
+			rewards: [
+				{
+					id: "416CDB53BEB49BC6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5D80F80B75F3144A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D97E7A2A4119D29"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B707F3AAD089BFC"]
+			id: "2FC82AE5DCCF9E5B"
+			rewards: [
+				{
+					id: "03C1AC62581C4B21"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "17F2449AF52A0D75"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04F1093070CCD9A8"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FC82AE5DCCF9E5B"]
+			id: "435A8A6E546DDFB9"
+			rewards: [
+				{
+					id: "1CDCE19F4F95F62E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "634BC33282E4803A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "57D8A46CC20FE1C4"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["435A8A6E546DDFB9"]
+			id: "38C693695D270B8B"
+			rewards: [
+				{
+					id: "6452EA229A9B9C04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "43DF3CFBD6D05D97"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1370A6B90E1B70E8"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "65DB695B84418794"
+			optional: true
+			rewards: [
+				{
+					id: "29425EB8EF55A1DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "19BB8C8CE97FB194"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "479D5186C3C1F1D0"
+				item: "extradisks:withering_processor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D87A1C6831BE313"]
+			id: "30667B72A059A8EE"
+			rewards: [
+				{
+					id: "417F3658D58CD2D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4DD9AEC74E75CF23"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "3E58AD26485E9FC9"
+				item: "extradisks:infinite_storage_disk"
+				type: "item"
+			}]
+			x: 9.799999999999999d
+			y: -8.4d
+		}
+		{
+			dependencies: ["686E3FDCD3EEA72D"]
+			id: "072A61CA0618DBFA"
+			rewards: [
+				{
+					id: "063DA3D1C6EFD6D8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A54914CE2274AD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "22EE5BADB98DE8BA"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["686E3FDCD3EEA72D"]
+			id: "408B09DB8D15C6DE"
+			rewards: [
+				{
+					id: "373A6332B38E6734"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2488E087F00CF1AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1971AF5095DCA121"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AFBE843D9AA37F8"]
+			id: "3F14B7FCEBE82944"
+			rewards: [
+				{
+					id: "52F768295901F1E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5F65ECDBB68D2CC6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB37A39C627D011"
+				item: "extrastorage:advanced_importer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22E06C03B43EAC2F"]
+			id: "1E937D3ECBE9EC25"
+			rewards: [
+				{
+					id: "03CC3DE9BDE2E3AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "342474AB60FED88F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B545D194696B50E"
+				item: "extrastorage:advanced_exporter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "670FA77EB5E9DF57"
+			rewards: [
+				{
+					id: "3B57DA0A085046F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "407969D1FA3F9390"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16DC4BD909093C1E"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &2Constructor&r places items or fluids from the storage network in the world."
+				""
+				"No other blocks can be in front of the &2Constructor&r (&nexcept fluids&r) and it should be possible for the block to be placed (for example: &nsaplings need dirt&r)."
+				""
+				"The &2Constructor&r can also drop items in the world instead of placing actual blocks. When provided with a &aStack Upgrade&r, it’ll drop stacks of items at a time."
+			]
+			id: "7E2B119FF3B42555"
+			rewards: [
+				{
+					id: "1747CA6AD3FBFC4F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3AAF765F545B1E6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D415351B38A7844"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &8Destructor&r destroys blocks or fluids in front of it and puts the drops in the storage network."
+				""
+				"The &8Destructor&r has the ability to only break certain blocks or fluids, with the &n&bwhitelist&r and &n&0blacklist&r option. Said &n&bwhitelist&r and &n&0blacklist&r can be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The &8Destructor&r can also pick up items in the world instead of destroying blocks."
+			]
+			id: "1582D0B1B524191D"
+			rewards: [
+				{
+					id: "042CED1B70E1A6B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "63E9CDFEEDE667CB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40AD906EF67E04FB"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CA8D19FCE537859"]
+			id: "151C3F2EECCDA5A9"
+			rewards: [
+				{
+					id: "15B090DAA080E2CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "42BB8C5639C782F0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A621A231AD6A41E"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &5Disk Manipulator&r adds a fast way of transferring items between &n&bstorage&r disks or &n&bfluid&r storage disks and the &n&bstorage network&r."
+				""
+				"The player can configure the &5Disk Manipulator&r to have a certain &n&bwhitelist&r or &0&nblacklist&r of items that can be transferred."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The player can also choose whether to &n&binsert&r items to the storage network or &n&bextract&r items from the storage network."
+			]
+			id: "318FF6E869BC41B1"
+			min_width: 300
+			rewards: [
+				{
+					id: "341D8563F4406A6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "66549C0C0FE901AB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "010D0463756C2A4E"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			id: "16373BCA95F4800F"
+			rewards: [
+				{
+					id: "4CA435DBB6BA7EEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "30102602559A8796"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2AA63CC341E438B7"
+				item: "refinedstorage:64k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -7.35d
+		}
+		{
+			dependencies: ["16373BCA95F4800F"]
+			id: "1106FC7CD11A9227"
+			rewards: [
+				{
+					id: "3C1C41292B253050"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5AD5693A643FA560"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "04F431E652B3148E"
+				item: "refinedstorage:256k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -7.35d
+		}
+		{
+			dependencies: ["1106FC7CD11A9227"]
+			id: "258014F5AF79D6E9"
+			rewards: [
+				{
+					id: "7E8CA30FFC087B23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "478EF445C6B4AB2D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "43D38189988A646F"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 2.4499999999999997d
+			y: -7.35d
+		}
+		{
+			dependencies: ["258014F5AF79D6E9"]
+			id: "7BF7F8BFBB497449"
+			rewards: [
+				{
+					id: "2C5783E1CDDE5454"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "5CBFDD03FF279696"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "058909C2471C131E"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -7.35d
+		}
+		{
+			dependencies: ["7BF7F8BFBB497449"]
+			id: "25C183A2F9F2DF8B"
+			rewards: [
+				{
+					id: "0636655682604699"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "79D5D312BC0D91B4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1EE924BE9564E4AB"
+				item: {
+					Count: 1b
+					id: "extradisks:16384k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -7.35d
+		}
+		{
+			dependencies: ["25C183A2F9F2DF8B"]
+			id: "03F1264432CD200D"
+			rewards: [
+				{
+					id: "79BA304AC7FA8A79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "49F28C7454BB4F46"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0FA017D0B1A4D0E0"
+				item: {
+					Count: 1b
+					id: "extradisks:65536k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -7.35d
+		}
+		{
+			dependencies: ["03F1264432CD200D"]
+			id: "4A1159DBBEE2793D"
+			optional: true
+			rewards: [
+				{
+					id: "3D8E8831244ACDF9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0ACD6F5EEF2543C3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5C6BA65B17D1A073"
+				item: {
+					Count: 1b
+					id: "extradisks:262144k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -7.35d
+		}
+		{
+			dependencies: ["4A1159DBBEE2793D"]
+			id: "028E0B778EE2A256"
+			rewards: [
+				{
+					id: "48877E123D07C714"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1DB9C5DEFA95CCD2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1AB5783F51F694D4"
+				item: {
+					Count: 1b
+					id: "extradisks:1048576k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.3d
+			y: -7.35d
+		}
+		{
+			dependencies: ["028E0B778EE2A256"]
+			id: "271C48310803A824"
+			rewards: [
+				{
+					id: "18C1BB9790BF324F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4AE21E57658A5AA5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "2CEAB9B0038039E3"
+				item: {
+					Count: 1b
+					id: "extradisks:infinite_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.499999999999993d
+			y: -7.371428571428574d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "12DD335832256B5A"
+			rewards: [
+				{
+					id: "126938B7F778D754"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "638C45B66FD19285"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2478266965FFF480"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "550A3E2F952A2526"
+			rewards: [
+				{
+					id: "45C62FB2C1A2B9EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6E2D3941EA910F48"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5876347EC3781134"
+				item: "rebornstorage:super_advanced_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Fluid Grid&r is the same as a regular &eGrid&r, but is used for viewing fluids in the fluid storage of your storage network."
+				""
+				"To insert a fluid, players can &bShift+Click&r on a fluid container like a bucket in their player inventory while in the &6Fluid Grid&r &bGUI&r."
+				""
+				"The player can also click the fluid container in the &bGUI&r to insert it."
+				""
+				"Players can extract the fluid by clicking on it. The &6Fluid Grid&r will then fill a bucket with the selected fluid."
+				""
+				"&dRefined Storage&r will first search an empty bucket in your inventory. If none is found, a bucket will be searched in your storage network."
+				""
+				"Some fluids cannot be filled in a bucket, then the only way to extract those fluids is by using an &aExporter&r."
+			]
+			id: "13FFBFD61A86BB4F"
+			min_width: 300
+			rewards: [
+				{
+					id: "109A2432051D535E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "08A844B2E7F26BF2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3966F9B0B226C9AE"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Pattern Grid&r is the same as a regular &eGrid&r, but also allows for the creation of patterns."
+				""
+				"By default, the &6Pattern Grid&r creates regular crafting patterns."
+				""
+				"To create processing patterns, toggle the “&nprocessing&r” checkbox."
+				""
+				"To create oredict sensitive patterns, toggle the “&noredict&r” checkbox."
+				""
+				"To define valid alternatives for an item or fluid, use &bCTRL+CLICK&r on the input slot and specify the allowed tags that can be used during autocrafting. Items or fluids from that tag are then marked as valid alternatives if the original item or fluid can’t be found in the storage network."
+				""
+				"You can also define valid alternatives by clicking on the item or fluid and then clicking on “&nAlternatives&r”."
+				""
+				"You can re-insert a &3Pattern&r in the output slot to modify and (possibly) &noverride&r it."
+				""
+				"The &6Pattern Grid&r integrates with &bJEI&r so the player can use recipe transferring."
+				""
+				"You don’t necessarily need the actual items in your storage network to create a &aPattern&r for it."
+			]
+			id: "4C1079E3C126054C"
+			min_width: 400
+			rewards: [
+				{
+					id: "5411B099685AA3BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "21B07AF6A8C9BB05"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "534356BE2B1B4BAC"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3928133420A9BA6F"]
+			id: "3E2EFE5EE594FB4D"
+			rewards: [
+				{
+					id: "4EF582BABA2CD95D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "13D64967A49E3C82"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2142D374610BF1B7"
+				item: "rebornstorage:advanced_wireless_transmitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "671F9D5C29A934C0"
+			rewards: [
+				{
+					id: "7B8DE0161F990C69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "01E98C9EE48DEA5D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "671DC8D5B13668F8"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "6A06FCDD5338B755"
+			rewards: [
+				{
+					id: "259C49CBB373434A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "24F8B5411EACA68D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AA748EDBEB12829"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6A06FCDD5338B755"
+				"671F9D5C29A934C0"
+			]
+			id: "4628D5373AA80FE0"
+			rewards: [
+				{
+					id: "35CCB496D45401DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "32624E5B1428F7F9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "503E9C2D89CE502C"
+				item: {
+					Count: 1b
+					id: "rebornstorage:super_wireless_crafting_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5357142857142847d
+			y: -0.6214285714285737d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			hide_dependency_lines: true
+			id: "5B86A9C08F2F2E8F"
+			rewards: [
+				{
+					id: "46833E90DB81AF54"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "17DE3791C1C3FAF5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "68628AF936507F26"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			title: "Processor Binding"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62E3FB695EC3FFB9"]
+			description: ["The &3Machine Casing&r is used to craft the various &dRefined Storage&r devices."]
+			id: "13A383F8F11B1C35"
+			rewards: [
+				{
+					id: "2857B3D4231B1781"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "25A8018E58988D6C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "109B6B800964B625"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			description: ["Silicon can be obtained by smelting &3Quartz&r or &bCertus Quartz&r dust from &nAE2&r."]
+			id: "62E3FB695EC3FFB9"
+			rewards: [
+				{
+					id: "73AF03CAC60605C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "52E95B17E394DA66"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "48ED5F4C7AF4509D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:silicon"
+					}
+				}
+				title: "Silicon"
+				type: "item"
+			}]
+			title: "Silicon"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["38C693695D270B8B"]
+			description: [
+				"&1The Multiblock Crafter&r is used to supplement or replace &bCrafters&r by allowing you to place &b&n78&r crafting Patterns per Reborn Storage &eCrafting Storage&r block, instead of the normal 9 Patterns per Refined Storage &2Crafter&r."
+				""
+				"To increase speed of the multiblock crafter, you need to add more &dCrafting CPUs&r, and to increase the amount of stored Patterns, you need to add more &9Crafting Storages&r."
+				""
+				"The multiblock crafter has a minimum size of &n&b3x3x4&r and a maximum size of &n&b16x16x16&r."
+				""
+				"To create a multiblock crafter, the outside edges must consist of &6Crafting Frames&r, the outside walls must consist of &8Heat Conductors&r, and the center must consist of at least 1 &5Crafting CPU&r and 1 &cCrafting Storage&r."
+			]
+			hide_dependency_lines: true
+			icon: "rebornstorage:multiblock_heat"
+			id: "1177E0D6D6488D80"
+			min_width: 300
+			rewards: [
+				{
+					id: "04A830B6B7256F21"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3AF5517D2013AC94"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 24L
+					id: "7502606A45C1FB9F"
+					item: "rebornstorage:multiblock_frame"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "37C391502002F247"
+					item: "rebornstorage:multiblock_heat"
+					type: "item"
+				}
+				{
+					id: "66C19FF6586F5A0F"
+					item: "rebornstorage:multiblock_cpu"
+					type: "item"
+				}
+				{
+					id: "0D0C22DD471840CF"
+					item: "rebornstorage:multiblock_storage"
+					type: "item"
+				}
+			]
+			title: "The Multiblock Crafter"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &cPortable Grid is&r a portable storage that isn’t connected to a network. It allows you to interact with a &aStorage Disk&r while not being connected to a network."
+				""
+				"As soon as you insert a &aStorage Disk&r, you can access the contents of your &aStorage Disk&r in the grid view."
+				""
+				"It’s essentially a &5Disk Drive&r and &dGrid&r in one block or item. It can be placed in the world, or, be used as a handheld device as well."
+				""
+				"To place it in the world hold the &cPortable Grid&r while &n&bsneaking&r."
+			]
+			id: "24FF3C75636F197F"
+			min_width: 300
+			rewards: [
+				{
+					id: "6289C06D2C131743"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "1FC22370B941036D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ECB1D3DB00CAD66"
+				item: {
+					Count: 1b
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &4Relay&r acts as &3Cable&r, but can be turned on or off depending on the redstone configuration."
+				""
+				"Devices connected after the &4Relay&r will be on or off depending if the &4Relay&r is on."
+			]
+			id: "0054D586610CC752"
+			rewards: [
+				{
+					id: "5D30250B24CD661D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "02064F5499891876"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EBD86DF2D3963D1"
+				item: "refinedstorage:relay"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CA8D19FCE537859"]
+			description: [
+				"The &1Fluid Interface&r is the same as an &eInterface&r but for fluids."
+				""
+				"It has 2 internal tanks, one for &ninput&r and one for &noutput&r."
+				""
+				"The &1Fluid Interface&r has an input slot to import the contents of fluid containers (like a filled bucket). You can also interact with the input tank by using pipes from other mods."
+				""
+				"Click a fluid container (like a filled bucket) in the “&oOut&r” slot to configure the output fluid."
+				""
+				"Use &nleft&r or &nright&r &bclick&r on the fluid to change the mB amount. Use &nshift&r to clear the fluid slot."
+				""
+				"You can also interact with the output tank by using pipes from other mods."
+			]
+			hide: true
+			id: "7BB366BDAA2E786B"
+			min_width: 300
+			rewards: [
+				{
+					id: "0AF73D0948783C59"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "72363C741EFC6778"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "686FBC075B1B8947"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			description: [
+				"The &aDetector&r emits a redstone signal if an item, or fluid, count matches a given amount. It is also possible to be &nNBT&r or &ndamage&r sensitive."
+				""
+				"Types of criteria:"
+				"- Criteria &o&l&6<&r Emits a signal when lower than the given amount."
+				"- Criteria &o&l&6>&r Emits a signal when higher than the given amount."
+				"- Criteria &o&l&6=&r Emits a signal when equal to the given amount."
+				""
+				"When no item/fluid, is specified, the criteria won’t care about the count of a specific item/fluid, but rather the count of all items/fluids, in the storage."
+				""
+				"When the &aDetector&r is in fluid mode, the amount given is in &bmillibuckets&r (mB). If you want to check for &n1 bucket&r of a fluid, use &o1000&r, not &o1&r."
+			]
+			id: "7407982A0C66B69F"
+			min_width: 300
+			rewards: [
+				{
+					id: "571EE561AB34A4E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7785DD3F6BBF7D8F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23DEC8A031E91437"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			description: [
+				"The &6Storage Monitor&r displays the current amount of a certain &bitem&r or &bfluid&r in your storage system."
+				""
+				"Use &n&bSHIFT+right click&r on the block to open a &nGUI&r to configure the item or fluid being displayed."
+			]
+			id: "569A93903C89051A"
+			rewards: [
+				{
+					id: "1D06E2B06BD744AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "21DF28BB15C6F16F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B7B418A12A5E70D"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["271745798EAA6DB7"]
+			description: [
+				"A &1Network Card&r stores the coordinates of a &dNetwork Receiver&r."
+				""
+				"The player has to insert the &1Network Card in&r a &eNetwork Transmitter&r."
+			]
+			hide: true
+			id: "4DE55B68AB69EFC7"
+			rewards: [
+				{
+					id: "6EE9D67EEFAAFA67"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "509662495D27FE0D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "336CCFC764A3AA2C"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &8Security Card&r is bound to a player by &bright clicking&r."
+				""
+				"The &8Security Card&r has to be inserted into a &cSecurity Manager&r, and can be configured from there as well."
+			]
+			id: "23A5BD1206C9DA71"
+			rewards: [
+				{
+					id: "1E6399DD8EA3FCA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "4325943DBA8646F8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "785DABAACCAD6938"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &7Filter&r is an item that can be used in any &eGrid&r."
+				""
+				"In the &8Filter’s&r &bGUI&r, which can be opened by pressing &bRight+Click&r while holding the filter in hand, the player can specify which items and fluids can be visible."
+				""
+				"The &eGrid&r can filter fluids in the &9Fluid Grid&r and items in any other &6Grid&r by toggling between item and fluid mode."
+				""
+				"The &8Filter&r can be set in a &b&nwhitelist&r or &n&0blacklist&r mode, too."
+			]
+			id: "4CD2762D5F14616E"
+			min_width: 300
+			rewards: [
+				{
+					id: "3CDD1FA1BF78A203"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0667F33E2C053F99"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EEA93B81B8711EF"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Regulator Upgrade&r is an upgrade that can be inserted into an &eExporter&r to keep certain items or fluids in stock in the connected inventory."
+				""
+				"It will try to keep the connected inventory stocked by using items or fluids from the storage network."
+				""
+				"As soon as the upgrade is inserted, you can &bRight+Click&r on a filtered item or fluid in the &eExporter&r &bGUI&r to configure the amount to keep in stock."
+				""
+				"Additionally, the &2Regulator Upgrade&r can be combined with a &bCrafting Upgrade&r to start autocrafting tasks when the stock from the storage network runs out."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "0FF90163DE483308"
+			min_width: 300
+			rewards: [
+				{
+					id: "60FD139D6BFF15B9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C3CB816DA8820B9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "47D6A72DA2DBB493"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Fortune Upgrade&r will make the &eDestructor&r use a certain fortune level (depending on which &2Fortune Upgrade&r you have) on the block it is breaking."
+				""
+				"This upgrade has 3 versions:"
+				"- &o&bFortune I&r"
+				"- &o&bFortune II&r"
+				"- &o&bFortune III&r"
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0392CD3A3ACA67B6"
+			rewards: [
+				{
+					id: "7F3E9EAE76279EB9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14521211DABAC9E2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0717C9D96928927E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_1_upgrade"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_2_upgrade"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_3_upgrade"
+							}
+						]
+					}
+				}
+				title: "Fortune Upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Silk Touch Upgrade&r makes the &eDestructor&r use &bSilk Touch&r on the blocks that it is breaking."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "55233C139BCB0E61"
+			rewards: [
+				{
+					id: "5F636033555948F9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "63DD5BC623C1E958"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "545E7FE2A38D4A1F"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6408C889100DD050"]
+			id: "09620DD595AC74C4"
+			rewards: [
+				{
+					id: "68FDB090EB6014B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "7DD76C6AF16814F8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4C20EAF5C64FBF78"
+				item: {
+					Count: 1b
+					id: "extradisks:65536k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.4d
+		}
+		{
+			dependencies: ["09620DD595AC74C4"]
+			id: "35C0D0CA4B31913C"
+			rewards: [
+				{
+					id: "0855B3B162D5B7DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "72ECDCD14F29CDC4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3F7587DB7BDA3603"
+				item: {
+					Count: 1b
+					id: "extradisks:262144k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.7d
+			y: -8.4d
+		}
+		{
+			dependencies: ["35C0D0CA4B31913C"]
+			id: "6D87A1C6831BE313"
+			rewards: [
+				{
+					id: "2215AFAC2B93FF83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "0F642DC1CAD97297"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "39194984ECCA870C"
+				item: {
+					Count: 1b
+					id: "extradisks:1048576k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: -8.4d
+		}
+	]
+	title: "&a&oRefined Storage"
+}

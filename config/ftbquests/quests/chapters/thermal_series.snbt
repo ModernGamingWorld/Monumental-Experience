@@ -1,0 +1,2839 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "69B9F7247002FE35"
+	icon: "thermal:machine_smelter"
+	id: "23D1C8B375310D6F"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: 2.5d
+		y: -6.1107142857142875d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"263ADC92D1D72D46"
+				"43888C85062C0A7E"
+			]
+			description: ["&9Thermal Series&r is a modular series of mods that adds a content-rich blend of &dmagic&r and &2technology&r to your Minecraft experience!"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			id: "34E6071AFEF22783"
+			min_width: 300
+			rewards: [
+				{
+					id: "5B405A5B5E3ACC09"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7930D9C6CB1845C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&o&nCPU Core S1000&r quest*"
+			tasks: [{
+				id: "3FD5DEE198375814"
+				item: "thermal:wrench"
+				type: "item"
+			}]
+			title: "Welcome to &9Thermal Series"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			id: "312F95AAB1491DA0"
+			rewards: [
+				{
+					id: "34B3D5BC71D0AD39"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4FF0F81DA3DB210B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E71D79EC1B0A0E8"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			id: "5B9EE9E57931D3F7"
+			rewards: [
+				{
+					id: "7BB4E575B977D51B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EE920BD9073DBDB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Powered Furnace"
+			tasks: [{
+				id: "5EA2B58CB977FB98"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B9EE9E57931D3F7"]
+			id: "46F4F5E48985FAF7"
+			rewards: [
+				{
+					id: "771D621FE58BB118"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7AC686597E52FCF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Breaks Ores into Dusts"
+			tasks: [{
+				id: "2ABCC22A2D9CCDB1"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46F4F5E48985FAF7"]
+			id: "2B8E8DCB6297AE9C"
+			rewards: [
+				{
+					id: "666B1655DA10FCAE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "333ABC63E160A65C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Alloy Maker"
+			tasks: [{
+				id: "2A0F432B8827DD01"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Multiservo Press&r can be used to create &o&bplates&r, &o&bgears&r, &o&brods&r, etc. using &aCasts&r."]
+			hide_dependency_lines: true
+			id: "74E8A2BC29BB20AD"
+			rewards: [
+				{
+					id: "18A2E620D8C2D3DA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7916257C2337D218"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0557B422243B5639"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: ["The &6Aqueous Accumulator&r creates an &o&binfinite water source&r when placed between two &9Water&r source blocks."]
+			id: "38927231CC75A693"
+			rewards: [
+				{
+					id: "4682098CC7A2F95B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F0A524C9E02DD67"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "369080242A149963"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: [
+				"&9Magma Crucible&r can convert certain blocks into liquids."
+				""
+				"This is useful for generating &6Lava&r from &3Cobblestone&r, &cNetherrack&r, &0Obsidian&r, etc."
+			]
+			id: "4FE99376342ADFF6"
+			rewards: [
+				{
+					id: "18CB554486B3BBA2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "68307C95ED122A12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "16D8B7C59A69F581"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Fluid Encapsulator&r can be used to combine &eLiquids&r with &cItems&r."]
+			id: "7268CF67620F9DF3"
+			rewards: [
+				{
+					id: "4F11727FB7166241"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C143BA3127E3EE0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "69195402B0BB28B2"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: ["&6Tinker's Workbench&r can be used to &o&bcharge&r items, &o&baugment&r machines, or &o&bfill up&r items with liquid."]
+			id: "4DA9ACD33EC2B458"
+			rewards: [
+				{
+					id: "4738B3474AA6B1C6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "531FDAE71D4674E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12DE8780A2033994"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: ["&6Energetic Infuser&r charges the items placed inside."]
+			id: "27173F39706C7206"
+			rewards: [
+				{
+					id: "640E5B9EDE59FE2D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47FCAC7AC441C1A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16276167112963A4"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "1614F88098B6C392"
+			rewards: [
+				{
+					id: "426C02E5F0D2AA7F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "119A2FD6F8DE58BE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31C7A94C3C2BD7E2"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "6349795EB7EEA91D"
+			rewards: [
+				{
+					id: "77D47BE7D1EA49FF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "584EF5E7F8E391F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6666ED336EDA3949"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "478D30FD3445BA25"
+			rewards: [
+				{
+					id: "75E29670610C4766"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B7E029BA86312AE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DB1AE5931A771C7"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Sawmill&r can sawing &aLogs&r into &3Planks&r and &eSawdust&r as a by-product."]
+			id: "6916318D8812430A"
+			rewards: [
+				{
+					id: "2A6E2471C7C9D5DA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "625BFF62F60CB4A2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2B54D8907E264555"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4DA9ACD33EC2B458"]
+			description: [
+				"This is a &2Base Upgrade&r for all machines and items."
+				""
+				"While you can put several &2Base Upgrades&r into a machine, only the &nhighest tier&r takes effect."
+			]
+			id: "7EC6FE3537E7B171"
+			rewards: [
+				{
+					id: "7FAFB6B1196DB36A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "622C89EC438FEF76"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&7Base Upgrade:&r &fTier 1"
+			tasks: [{
+				id: "06D301C595A76F87"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -8.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: [
+				"&6Redstone Flux Cell&r can be &denchant&r with &9Holding&r to increase the storage!"
+				""
+				"&aHolding I&r - &b1.5M RF&r"
+				"&aHolding II&r - &b2.0M RF&r"
+				"&aHolding III&r - &b2.5M RF&r"
+				"&aHolding IV&r - &b3.0M RF&r "
+			]
+			hide_dependency_lines: true
+			id: "7A9FCF5E7C79680F"
+			rewards: [
+				{
+					id: "22CF9E3F626C2466"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E24E351866F96EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Storing Power"
+			tasks: [{
+				id: "328F2D76F84B944B"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&9Fluid Cell&r can be &denchant&r with &6Holding&r to increase the storage!"
+				""
+				"&aHolding I&r - &b48mB&r"
+				"&aHolding II&r - &b64mB&r"
+				"&aHolding III&r - &b80mB&r"
+				"&aHolding IV&r - &b96mB&r "
+			]
+			id: "43888C85062C0A7E"
+			rewards: [
+				{
+					id: "6F84EEFD52232CAD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2EF15BDF07D79581"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Storing Fluids"
+			tasks: [{
+				id: "39E20C94A892CABD"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EC6FE3537E7B171"]
+			id: "0F94542AE5589187"
+			rewards: [
+				{
+					id: "49CD614E0A05ADA0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "677305C4EAF3FF22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&6Base Upgrade:&r &fTier 2"
+			tasks: [{
+				id: "7C94EAA6CFC007B1"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 5.8999999999999995d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F94542AE5589187"]
+			id: "372D3A38C2470ACD"
+			rewards: [
+				{
+					id: "4AC1A131C644709A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0AB269868667DABC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&5Base Upgrade:&r &fTier 3"
+			tasks: [{
+				id: "389F3A8A7E7711A7"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 6.8999999999999995d
+			y: -8.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "6D691F281AD63BBA"
+			rewards: [
+				{
+					id: "04F9B11302470022"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46C438EC3908D574"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "242323EF509F0111"
+				item: "thermal:explosive_grenade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "337AE10599BA4F58"
+			rewards: [
+				{
+					id: "7B0FE3743065C23B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "435DF4AC35D4D0D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "78CE7AB5CD977073"
+				item: "thermal:phyto_grenade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "466419BE13B2FD6B"
+			rewards: [
+				{
+					id: "6B269887B66B71C2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "275952B1E8C682CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "2953A293E8A3799B"
+				item: "thermal:fire_grenade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "6698698FF0D6C88C"
+			rewards: [
+				{
+					id: "4E77133F970B4E8A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C666AA70F2B8E9A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "23BD05C6456097DF"
+				item: "thermal:earth_grenade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "68E4C006C253F895"
+			rewards: [
+				{
+					id: "1438C23B6D01B3B0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23EE44597DE9F198"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "05E69378D60D2B8F"
+				item: "thermal:ice_grenade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "5CB392505E3A8A73"
+			rewards: [
+				{
+					id: "6F91D15148F5E7DF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C1AAF7BDDFBDDEE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "734CA448FCD5F0FA"
+				item: "thermal:lightning_grenade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "775100B36355D634"
+			rewards: [
+				{
+					id: "722353B58CC50FD2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2ECB1D7DEEBAD5BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Very handy Granades"
+			tasks: [
+				{
+					id: "34CE3510345D9E97"
+					item: "thermal:basalz_powder"
+					type: "item"
+				}
+				{
+					id: "0E4D8CCCAC565FB9"
+					item: "thermal:blitz_powder"
+					type: "item"
+				}
+				{
+					id: "2EE4AA085957D382"
+					item: "thermal:blizz_powder"
+					type: "item"
+				}
+				{
+					id: "1CC6B9C89BEA9262"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					id: "091F08A2069DDDB8"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "647109D05CD26770"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "&9The Main Ingredients"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Blast Chiller&r converts items from a &o&bliquid&r to a &o&bsolid&r, some requiring &o&bcasts&r."]
+			hide_dependency_lines: true
+			id: "39AE0E0BF312B5A0"
+			rewards: [
+				{
+					id: "00AE0F7CCDC925B7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20411A91E8CB3824"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "01231804600C2974"
+				item: {
+					Count: 1b
+					id: "thermal:machine_chiller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Crystallizer&r can be used to make &aGems&r and &bCrystals&r form &3Dusts&r and &dShards&r using &cenergy&r and &1water&r."]
+			hide_dependency_lines: true
+			id: "2873D46D48583A69"
+			rewards: [
+				{
+					id: "0AEC79945CAA2790"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C070ABBF5520120"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D39B45C642711DE"
+				item: {
+					Count: 1b
+					id: "thermal:machine_crystallizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: [
+				"&9Phytogenic Insolater&r works like a &aBotany Pot&r, &cGarden Cloche&r, etc."
+				""
+				"When given &1water&r and a &eseed&r, it will grow the seed."
+			]
+			id: "5641548A1631166E"
+			rewards: [
+				{
+					id: "393000C342972166"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5ACDB5790C78F870"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "16E6216832C39D53"
+				item: {
+					Count: 1b
+					id: "thermal:machine_insolator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Fractionating Still&r can convert &eliquids&r into &citems&r or other &nuseful&r liquids."]
+			hide_dependency_lines: true
+			id: "150D86ADA62F80E1"
+			rewards: [
+				{
+					id: "09C23CCFC46447F5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F19A60D08D17041"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "539B45CD23CE2E12"
+				item: {
+					Count: 1b
+					id: "thermal:machine_refinery"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D9AB50A41F60628"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B8E7B9DDA29FB59"
+			optional: true
+			rewards: [
+				{
+					id: "40024E665E262405"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AB85E09CD0DCB3D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4B34E8442215663F"
+					item: {
+						Count: 1b
+						id: "thermal:beekeeper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33E053FCC16EAD48"
+					item: {
+						Count: 1b
+						id: "thermal:beekeeper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "567657917997143F"
+					item: {
+						Count: 1b
+						id: "thermal:beekeeper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678541F6E0F17528"
+					item: {
+						Count: 1b
+						id: "thermal:beekeeper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27652872E0A597F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "39AC8EE470E124F9"
+			optional: true
+			rewards: [
+				{
+					id: "7FC9F02F26902392"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D561073B232C13D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "79215DBCB03F97C2"
+					item: {
+						Count: 1b
+						id: "thermal:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D144E865F02BE1D"
+					item: {
+						Count: 1b
+						id: "thermal:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42DD8477BE248711"
+					item: {
+						Count: 1b
+						id: "thermal:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4F5134634047EF"
+					item: {
+						Count: 1b
+						id: "thermal:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7BB08C03EE57E36B"
+			optional: true
+			rewards: [
+				{
+					id: "5A5C192A11BB392E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "095BB627F964C273"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "084451E7C2C0FDAA"
+					item: {
+						Count: 1b
+						id: "thermal:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E7076E25FD656C3"
+					item: {
+						Count: 1b
+						id: "thermal:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "587CFC8DEB967DA7"
+					item: {
+						Count: 1b
+						id: "thermal:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F6DDCA59202FC9"
+					item: {
+						Count: 1b
+						id: "thermal:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "7D9AB50A41F60628"
+			rewards: [
+				{
+					id: "25D0C53686A8AC29"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CD698AC25610203"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C72BFBF0256C418"
+				item: {
+					Count: 1b
+					id: "thermal:device_hive_extractor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "27652872E0A597F1"
+			rewards: [
+				{
+					id: "5DDC50E8DC20C013"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07CA73A13BABDAE8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E437CABAF5E82C7"
+				item: {
+					Count: 1b
+					id: "thermal:device_fisher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "5918DE6BD2248972"
+			rewards: [
+				{
+					id: "33247E82EAB3D114"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43864B4FB3C59049"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "5FB009BBC0DD5B8B"
+				item: {
+					Count: 1b
+					id: "thermal:ender_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "01A37A358F4E1C04"
+			rewards: [
+				{
+					id: "1299726370B19639"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "24929035559B745D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "3AA82BC8020DD25B"
+				item: {
+					Count: 1b
+					id: "thermal:glowstone_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "17E5421030EC345E"
+			rewards: [
+				{
+					id: "02FADE79E853F1AD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21B3856C3EB6D8CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "7F19C77BF4E54E23"
+				item: {
+					Count: 1b
+					id: "thermal:slime_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "4C60E56E22848E84"
+			rewards: [
+				{
+					id: "7CD30D611E1F3C80"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6FF1C72DD7C19BA1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "68E6D967DABBEDC7"
+				item: {
+					Count: 1b
+					id: "thermal:redstone_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "2305507D674B0A5F"
+			optional: true
+			rewards: [
+				{
+					id: "42809A0DBB2AA848"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "13D2280A708FE612"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "223C00300360562D"
+				item: {
+					Count: 1b
+					id: "thermal:fire_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7FF5E9B6868E0F23"
+			optional: true
+			rewards: [
+				{
+					id: "5CEA988707F5751E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D62D3DF6F626FD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "5CC0D37F53078CBE"
+				item: {
+					Count: 1b
+					id: "thermal:detonator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "6A838D47C25E3984"
+			optional: true
+			rewards: [
+				{
+					id: "79CDB29DCA238689"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C7B7F112900D5C3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B792081B65C19DB"
+				item: {
+					Count: 1b
+					id: "thermal:ender_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "5CCC622455E34098"
+			optional: true
+			rewards: [
+				{
+					id: "28294B74A5CBB02D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E3F9E95E5341FBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "71F82096151B2DFF"
+				item: {
+					Count: 1b
+					id: "thermal:glowstone_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "7DC19B1BD97D4276"
+			optional: true
+			rewards: [
+				{
+					id: "68CC6F6F28701B49"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CA2A9F31B3AA38F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F4886EE4A2A98EB"
+				item: {
+					Count: 1b
+					id: "thermal:redstone_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "719A4465311C4204"
+			optional: true
+			rewards: [
+				{
+					id: "416D0D695F42440C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C7161D9228383C4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38DE1CC878F6B4B0"
+				item: {
+					Count: 1b
+					id: "thermal:slime_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "05D1EC1F25E8E95A"
+			optional: true
+			rewards: [
+				{
+					id: "0B15E68111754F86"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C431872270140F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "37CD3959ED811793"
+				item: {
+					Count: 1b
+					id: "thermal:phyto_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "1A0827B9DF3CAF89"
+			optional: true
+			rewards: [
+				{
+					id: "3E7F16FA264DAAEE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76F324C1CEEA0A3E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B3B5EB896A0862B"
+				item: {
+					Count: 1b
+					id: "thermal:earth_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "2AD5F05E14805F78"
+			optional: true
+			rewards: [
+				{
+					id: "783E2D92F6DDE146"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29699FD05E40166B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "366E9415AB5C2BFC"
+				item: {
+					Count: 1b
+					id: "thermal:lightning_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "69B55F2EDB4A186A"
+			optional: true
+			rewards: [
+				{
+					id: "4F2C8F7414DE1D90"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31DEC9CB52405629"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "565CFBF390A7E381"
+				item: {
+					Count: 1b
+					id: "thermal:ice_tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF5E9B6868E0F23"]
+			hide_dependency_lines: true
+			id: "0C5B33746B7D40D4"
+			optional: true
+			rewards: [
+				{
+					id: "36CD6CEB5AF3D2B5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6693B9A16DC1B3E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "420ACF9935A3A4C2"
+				item: {
+					Count: 1b
+					id: "minecraft:tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Sequential Fabricator&r can be used as a &eAuto-Crafter&r."]
+			hide_dependency_lines: true
+			id: "2FD368E6A9CBDE9D"
+			rewards: [
+				{
+					id: "0913316EE4490B3A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "228038C25C57B626"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D0C1F7D80BB6C96"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Alchemical Imbuer&r can create &dLiquid Potions&r that can be bottled into &ePotions&r."]
+			hide_dependency_lines: true
+			id: "6F7582203DEE5326"
+			rewards: [
+				{
+					id: "40E26F8F405A5D57"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "44EB2C24701EBA1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "63B964E9117C69DB"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: [
+				"&9Pyrolyzer&r works like a &7Coke Oven&r, but simplified."
+				""
+				"Insert \"fuel\" like &0Coal&r and it'll produce &3Coal Coke&r and a by-product."
+			]
+			hide_dependency_lines: true
+			id: "6AB7B75ED30BDC8D"
+			rewards: [
+				{
+					id: "3CFF4BD46E2BB597"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E2F060AD6EA074E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "776E56DD5C6DD442"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["312F95AAB1491DA0"]
+			description: ["&9Centrifugal Separator&r can be used to &o&bseparate&r items into their &o&bcrafting components&r."]
+			hide_dependency_lines: true
+			id: "5093D52C64D7C5F6"
+			rewards: [
+				{
+					id: "53CFC9FFA9BDE57A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6DE98E4E55C0B7A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F778952FFF07C90"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: ["&6Decoctive Deffuser&r can be used to spreads &dPotion Effects&r to an area."]
+			hide_dependency_lines: true
+			id: "62B7B50F811DB8EF"
+			rewards: [
+				{
+					id: "5F50C5E3BA4E5921"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D8D196AD8E80C29"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Spreads Potion Effects to an area"
+			tasks: [{
+				id: "6246F549067542F0"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			id: "13CDCE59419CE93D"
+			rewards: [
+				{
+					id: "6BF68B170242980A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06B9A55B7FED9902"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "041CA741168BE8E7"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "5D4B762BF2B7FBFC"
+			rewards: [
+				{
+					id: "2EA53D44B6BB807E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03758ED1694B8EE7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1400E0769A47D1A4"
+				item: "thermal:device_soil_infuser"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			description: [
+				"&6Igneous Extruder&r can produce several types of &7Stone&r."
+				""
+				"Place &o&b1&r &eLava&r source block on one side, and &o&b1&r &9Water&r source block on the other to generate cobblestone. Check the &dJEI&r to see the other kinds of stone you can create!"
+			]
+			id: "2B80E4B53C19B90A"
+			rewards: [
+				{
+					id: "3681E34858E4D89E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E88980A0FB3706D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "443B0BE63D5F19C5"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "1E24ECB864C70CA7"
+			rewards: [
+				{
+					id: "1D56AD9519FBA0EE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "109DDBF06913DFF1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C332D9FDE2A1B4B"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "3DA93308D19BA85F"
+			rewards: [
+				{
+					id: "672CED170C14BF63"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20DFCC9FE1F8ECF2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power by Burning Items!"
+			tasks: [{
+				id: "4BEE939AC38768ED"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "2F71FCE4E576C977"
+			rewards: [
+				{
+					id: "5550E89B3CCB25FB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2029CE92ECE4F92C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Lava!"
+			tasks: [{
+				id: "52A52D9AC73D57A6"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "7FE2EED58AB791E8"
+			rewards: [
+				{
+					id: "48926CFB286A1BEE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23998BDA85798591"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Liquid Fuel!"
+			tasks: [{
+				id: "6E5C2E9D729210C9"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "40ADAB71DB70EF32"
+			rewards: [
+				{
+					id: "05E89A50756F792F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "529460AC9CA4910E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Food?"
+			tasks: [{
+				id: "795A2D642A7B7D50"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "2EAE9EDE6EFA59F0"
+			rewards: [
+				{
+					id: "6E405B841E5D04E1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75E86BD31D0408B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Enchanted Items!"
+			tasks: [{
+				id: "0E3CDD1130A56248"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "72C1C2CE02DCBDFF"
+			rewards: [
+				{
+					id: "4C5C09E8CFA91363"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76513043F4321AA3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Generates Power using Gems!"
+			tasks: [{
+				id: "7B973B2B2EED7921"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "467CDD14AE21A850"
+			rewards: [
+				{
+					id: "46BE8D4C89528470"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F0F5E41E53CC617"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Fuel Efficiency of Dynamos"
+			tasks: [{
+				id: "3D6A9C7EE22C2ADF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_fuel_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_fuel_augment_4"
+							}
+						]
+					}
+				}
+				title: "Multi-Cycle Injectors"
+				type: "item"
+			}]
+			x: 6.85d
+			y: -6.3d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "7C83735C2D746162"
+			rewards: [
+				{
+					id: "30CD00DCCC259E2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D1A1E4214A322A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Generation Rate at the Cost of Efficiency"
+			tasks: [{
+				id: "3861678346D376C1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:dynamo_output_augment_4"
+							}
+						]
+					}
+				}
+				title: "Auxiliary Reaction Chamber"
+				type: "item"
+			}]
+			x: 7.549999999999999d
+			y: -6.3d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "79366EC1EE27ED4B"
+			rewards: [
+				{
+					id: "3D56F94FD97D484B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "784D7784787B5334"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases RF Transfer, and slightly increases the Capacity"
+			tasks: [{
+				id: "775A7E11D20688CD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:rf_coil_xfer_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_xfer_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_xfer_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_xfer_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_xfer_augment_4"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_xfer_augment_5"
+							}
+						]
+					}
+				}
+				title: "High-Flux RF Coil"
+				type: "item"
+			}]
+			x: 7.550000000000001d
+			y: -9.45d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "7D49A41E4D63A596"
+			rewards: [
+				{
+					id: "457E8CD8E7033160"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "518682FBB676258C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Reduces Catalyst Usage"
+			tasks: [{
+				id: "6C996D5E63879519"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:machine_catalyst_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_catalyst_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_catalyst_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_catalyst_augment_3"
+							}
+						]
+					}
+				}
+				title: "Catalytic Reclamation Chamber"
+				type: "item"
+			}]
+			x: 7.199999999999999d
+			y: -8.75d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "3320ADFD7DC4CA00"
+			rewards: [
+				{
+					id: "416BF4A646C819DA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34CF46379BE5E210"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases RF Capacity, and slightly increases the RF Transfer"
+			tasks: [{
+				id: "7B5C9FA866C0588A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:rf_coil_storage_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_storage_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_storage_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_storage_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_storage_augment_4"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_storage_augment_5"
+							}
+						]
+					}
+				}
+				title: "Stabilized RF Coil"
+				type: "item"
+			}]
+			x: 6.849999999999999d
+			y: -9.45d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "58C6BAC128155B4E"
+			rewards: [
+				{
+					id: "1464D2EBC4B039D4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E7D293D00E54B96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Secondary Output"
+			tasks: [{
+				id: "497485048E0AD20D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:machine_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_output_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_output_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_output_augment_3"
+							}
+						]
+					}
+				}
+				title: "Auxiliary Process Sieve"
+				type: "item"
+			}]
+			x: 6.499999999999999d
+			y: -8.75d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "0837E35C9C6881B4"
+			rewards: [
+				{
+					id: "0A2C5DAED94ADEA7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "727A2CB3AA4E8041"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases RF Capacity and Transfer Rate"
+			tasks: [{
+				id: "2F608F433D9A3363"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:rf_coil_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_augment_4"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:rf_coil_augment_5"
+							}
+						]
+					}
+				}
+				title: "Expanded RF Coil"
+				type: "item"
+			}]
+			title: "Expanded RF Coil"
+			x: 6.1499999999999995d
+			y: -9.45d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "61E2FC5D363A5CA4"
+			rewards: [
+				{
+					id: "27BEE23C2CEDDB39"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46EE2EFE9850B727"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Efficiency at the cost of Speed"
+			tasks: [{
+				id: "1E0593F1AA073CFD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:machine_efficiency_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_efficiency_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_efficiency_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_efficiency_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_efficiency_augment_4"
+							}
+						]
+					}
+				}
+				title: "Flux Efficiency"
+				type: "item"
+			}]
+			x: 5.8d
+			y: -8.75d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "74DD4F8A13EAD3ED"
+			rewards: [
+				{
+					id: "0797A4CF230F5A8F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F10E082F71F594E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Processing Speed, but Reduces Efficiency"
+			tasks: [{
+				id: "46E665F97A2BECB6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:machine_speed_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_speed_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_speed_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_speed_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:machine_speed_augment_4"
+							}
+						]
+					}
+				}
+				title: "Flux Linkage Amplifier"
+				type: "item"
+			}]
+			x: 5.449999999999999d
+			y: -9.45d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "483C1F4D099369A2"
+			rewards: [
+				{
+					id: "2D16E53DA810686F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BE85E81C98DC0A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Allows Storage of XP"
+			tasks: [{
+				id: "66656B02B957573F"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 5.799999999999999d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "6D35E56FC874C841"
+			rewards: [
+				{
+					id: "5219C84547ECB804"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "723C7E3BF878A4AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1726C6AB09496E0C"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 5.449999999999999d
+			y: -6.3d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "6DF4B859ACBCD408"
+			rewards: [
+				{
+					id: "716EA69402F4901F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C529ADBB750B4BF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases Tank Storage"
+			tasks: [{
+				id: "5DFD1C0334466FF2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:fluid_tank_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_4"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_5"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:fluid_tank_augment_6"
+							}
+						]
+					}
+				}
+				title: "Expanded Tank Construction"
+				type: "item"
+			}]
+			x: 6.499999999999999d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "234CD79746FCAA18"
+			rewards: [
+				{
+					id: "2FB2BED54FD0CA31"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58E4F416DBE324F4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Voids By-products"
+			tasks: [{
+				id: "784D4494897AF202"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 6.1499999999999995d
+			y: -6.3d
+		}
+		{
+			dependencies: ["34E6071AFEF22783"]
+			hide_dependency_lines: true
+			id: "00C24A7DFEAEE956"
+			rewards: [
+				{
+					id: "2398885EEBB8A4A5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04EA399020CC7D82"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Increases AoE Effect"
+			tasks: [{
+				id: "705AE21001A4E9C7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:area_radius_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:area_radius_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:area_radius_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:area_radius_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal_extra:area_radius_augment_4"
+							}
+						]
+					}
+				}
+				title: "Radial Enchancement"
+				type: "item"
+			}]
+			x: 7.199999999999999d
+			y: -7.0d
+		}
+		{
+			dependencies: ["62B7B50F811DB8EF"]
+			hide: true
+			id: "1714E1048F01E1AA"
+			rewards: [
+				{
+					id: "3E85CA862534E855"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05102820AD41CC0D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases Duration of Potion Effect"
+			tasks: [{
+				id: "501A3B2548F6DB3E"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62B7B50F811DB8EF"]
+			hide: true
+			id: "22A1C68078EFB38B"
+			rewards: [
+				{
+					id: "6AC97E583A42A305"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2703D963D53DF41F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Amplifies Potion Effect"
+			tasks: [{
+				id: "08ED05EBDFF0B4D9"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.25d
+		}
+	]
+	title: "&2&oThermal Series"
+}

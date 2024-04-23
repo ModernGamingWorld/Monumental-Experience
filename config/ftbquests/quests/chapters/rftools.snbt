@@ -1,0 +1,3187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftools"
+	group: "69B9F7247002FE35"
+	icon: "rftoolsutility:crafter3"
+	id: "79702386FC1072FA"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.8214285714285836d
+			y: -8.638392857142847d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=o4MPt9MfRLs"
+			height: 0.5d
+			hover: ["You&cTube&r Tutorial: &2xNet&r &oBasics"]
+			image: "xnet:block/cable0/connector"
+			rotation: 45.0d
+			width: 0.5d
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			click: "Automating XNet Using Logic Channels"
+			height: 0.5d
+			hover: ["You&cTube&r Tutorial: &oAutomating&r &2xNet&r &ousing logic channels"]
+			image: "xnet:block/cable2/connector"
+			rotation: 45.0d
+			width: 0.5d
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=Y4adJ7dxXgY"
+			height: 0.5d
+			hover: ["You&cTube&r Tutorial: &2xNet&r &oRouters"]
+			image: "xnet:block/cable1/connector"
+			rotation: 45.0d
+			width: 0.5d
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -3.5d
+			y: -4.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9RFTools&r is a technological mod which main feature is the ability to create and maintain dimensions using &cRF&r energy."
+				""
+				"This includes:"
+				""
+				"- &o&bRFTools Utility&r"
+				"- &o&bRFTools Power&r"
+				"- &o&bRFTools Builder&r"
+				"- &o&bxNet&r"
+			]
+			icon: "rftoolsbase:manual"
+			id: "6C41E2026808192B"
+			min_width: 300
+			rewards: [
+				{
+					id: "54AAC364236C6B2C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "751CD4B386E9E9DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Rftools"
+			tasks: [{
+				id: "322920B144ECD8CB"
+				type: "checkmark"
+			}]
+			title: "Welcome to &cRFTools"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			description: [
+				"The &dSmart Wrench&r can be used to easily remove tech blocks and also select blocks for &o&bspecial functionality&r."
+				""
+				"Use as a normal wrench: &aSneak+Right+click&r to pick up and &eRight+click&r to rotate. &eRight+click&r in the air to change mode."
+				""
+				"If the wrench is in &2Select Mode&r, then it can be used to perform specialized operations on (&o&bfor example&r) blocks like the &3Shield Projector&r."
+			]
+			id: "60FAF6D4F7C0045F"
+			rewards: [
+				{
+					id: "649FFF76336880FF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "251EF7CC9A40B066"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "56F9A2549A76DD88"
+				item: "rftoolsbase:smartwrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["60FAF6D4F7C0045F"]
+			description: ["The &9Machine Frame&r is a basic ingredient by &cRFTools&r mod. It is used to craft various machines in this mod."]
+			id: "7DF063A7E5F71A24"
+			rewards: [
+				{
+					id: "1A56894B287141EB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "404D321431006517"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6E6214A804561D5B"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "&bMachine Frame"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"&6Crafters&r are machines that will automatically craft items given a recipe, the necessary components and &cRF&r power. Multi-step crafting can be done in a single machine, limited only by the number of recipe slots."
+				""
+				"• &o&aCrafter&r: &oTier 1&r can remember &o&b2&r recipes."
+				"• &o&cCrafter&r: &oTier 2&r can remember &o&b4&r recipes."
+				"• &o&dCrafter&r: &oTier 3&r can remember &o&b8&r recipes."
+				""
+				"The &6Crafter's&r interface consists of &o&b4&r main parts. At the &o&btop-left&r is a list of memorised recipes. At the &o&btop-right&r is a crafting grid used to program in the recipes. In the &o&bmiddle&r is the &9input&r inventory and the &coutput&r is at the &o&bbottom-left&r. There are also several buttons and a filter slot."
+				""
+				"• The &eKeep Inventory&r toggle instructs the crafter to always leave one item of each type in the &9input&r inventory."
+				"• The &eCrafting Destination&r toggle instructs the crafter to deliver its output to the &9input&r inventory. Very useful in &b&omulti-step crafting&r."
+				"• The &3Filter&r slot accepts an &2RFTools Storage Filter Module&r which is used to prevent unwanted items entering the &6Crafter&r."
+				"• The &9R&r button tells the &6Crafter&r to remember the current position of items in the &9input&r and &coutput&r inventories. This is useful for ensuring that there's always space for components in &o&bmulti-step crafting&r."
+				"• The &3F&r button tells the &6Crafter&r to forget the memorised inventory layout."
+				"• The &cRedstone Mode&r button is used to toggle between &o&bActive with&r &cRedstone&r, &o&bActive without&r &cRedstone&r and &o&bIgnore&r &cRedstone&r."
+				"• The &dSpeed&r button toggles between normal crafting speed and &o&bturbo&r."
+			]
+			id: "2A7DBB02C3F24F3C"
+			min_width: 500
+			rewards: [
+				{
+					id: "4F49F545FACAF2B7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6BBC02CF6FD5D02F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24563437B84A65D0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rftools:crafter"
+					}
+				}
+				title: "Any #rftools:crafter"
+				type: "item"
+			}]
+			title: "Crafters"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"The &6Builder&r consumes &cRF&r to construct areas in the world with blocks fed into its &o&binventory&r or relocating preexisting areas. "
+				""
+				"Unless specified with a complex &9Shape Card&r, the &6Builder&r will draw blocks at random from the &asupply chest&r on &ntop&r. &9Shape Cards&r are required to instruct the &6Builder&r on where to work."
+				""
+				"&eSneak+Right click&r your &9Shape Card&r on the &6Builder&r, and then go &eSneak+Right click&r it on the &o&bfirst&r and &o&bsecond&r corner of the area you want to work with."
+				""
+				"Now you can also &eRight click&r the &9Shape Card&r into the &o&bair&r to configure it further, changing the &nshape&r, the &nsize&r, the &ndimensions&r and &o&bect.&r."
+				""
+				"Once you’re done, place the &9Shape Card&r into the &6Builder&r to &2start&r working! Depending on which card you have, the &6Builder&r will &o&bbuild&r in the selected area, &o&bquarry&r out the selected area, &o&bpump fluids&r and &o&bect.&r."
+				""
+				"In all these cases, you’ll need &cPower&r and an &aInventory&r &nabove&r or &nbelow&r the &6Builder&r to &ngrab&r/&nput&r blocks into."
+				""
+				"Clicking the &dlifebuoy icon&r in the &6Builder&r will activate &o&bpreview mode&r, and you’ll be able to see an outline of the area you’re working with."
+			]
+			id: "682086057646D4A9"
+			min_width: 500
+			rewards: [
+				{
+					id: "78492D8FF2E3FFED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4A36A7839FF8FE27"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DF35EA9DA7E7454"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["682086057646D4A9"]
+			description: ["The &eDefault Shape Card&r is used for the &6Builder&r. The &eBuilder&r will place blocks from its inventory in the selected area. Also can be used for describing a shape for the &dShield Projector&r."]
+			id: "285F5229F9886964"
+			rewards: [
+				{
+					id: "4249B2C89CEC07D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26664ED07F499846"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4D232005308C6653"
+				item: "rftoolsbuilder:shape_card_def"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			description: ["The various &2Pump Card&r will &o&bpump up liquids&r from the selected area, so you’ll need some sort of &9Tank&r &nabove&r or &nbelow&r the &6Builder&r."]
+			id: "1577F5904F74CAC2"
+			optional: true
+			rewards: [
+				{
+					id: "221EFE989A829969"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22043ED0FC24B2F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "10D0F13092D018DE"
+				item: "rftoolsbuilder:shape_card_pump"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			description: [
+				"The &2Quarry Card&r describes a shape for the &eBuilder&r. In addition to the shape you can also specify that you want to void certain blocks."
+				""
+				"There are many different variations of the &2Quarry Card&r, like &aClearing&r/&nnon&r-&aClearing&r, &6Fortune&r or &dSilk Touch&r."
+				""
+				"The &aClearing Cards&r will also actually dig the block and leave a hole in the world, while the normal &2Quarry Cards&r will replace what they dig with &7Dirt&r. You can also Configure the Card to &nvoid&r certain blocks, like &3stones&r or &7dirt&r."
+			]
+			id: "0BEF5569A44508CC"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "35D9E845C37EF89D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20CB66D8877A0ED9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "04A6DEF1E226A3F1"
+				item: "rftoolsbuilder:shape_card_quarry"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			description: ["With the &0Void Card&r you can &o&bvoid ares&r with the &6Builder&r."]
+			id: "5D55CF2A574853CF"
+			optional: true
+			rewards: [
+				{
+					id: "1864E77ED4A2E4D5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "032DE8E204590A9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A3E24855E306C7D"
+				item: "rftoolsbuilder:shape_card_void"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			description: [
+				"&3Machine Bases&r are similar to &9Machine Frames&r in that they are a crafting material, however the resulting machines are slightly different."
+				""
+				"&3Machine Bases&r produce machines that are a &o&boquarter of a block high&r, and usually have some form of &credstone&r &eoutput&r or &9input&r."
+				""
+				"When you place one of these machines, the direction it faces is determined by which edge of the block your cursor is closest to."
+				""
+				"It may help to imagine an &o&bX&r on the side of the block you are placing the machine on, then think about which 'quarter' of the &o&bX&r you're looking at."
+				""
+				"The &eoutput&r will be facing this direction and the &9input&r will come from the opposite direction."
+				""
+				"This is particularly useful for placing these machines in &o&bcramped spaces&r or on &o&bwalls&r - which is one of the more convenient features of these blocks."
+				""
+				"Of course, if you don't like the direction the block is facing in, you can always &dWrench it&r - just &eRight+click&r with the wrench in &6Wrench Mode&r to change the direction it's facing in."
+				""
+				"The &3Machine Base&r does nothing on its own, but is used in many recipes as the base for other blocks."
+			]
+			id: "5AF02F4038D42793"
+			min_width: 350
+			rewards: [
+				{
+					id: "65FB75342BB53C69"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "10AB93CF5CC49901"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "097530CA252C35ED"
+				item: "rftoolsbase:machine_base"
+				type: "item"
+			}]
+			title: "&3Machine Base"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Counter&r is a simple block that will count &credstone&r &o&bpulses&r and emit a &credstone&r &o&bsignal&r when it reaches a certain number. Then it starts over."
+				""
+				"Its &o&bGUI&r has two values - '&2Counter&r' (the maximum number it can count up to) and '&9Current&r' (the number it's currently at)."
+				""
+				"Once &9Current&r is equal to &2Counter&r, it emits a &credstone&r &o&bsignal&r. Another &credstone&r &o&bpulse&r will turn off the signal and reset &2Counter&r to &o&b0&r."
+			]
+			id: "5BCE68F5A09D41F5"
+			min_width: 300
+			rewards: [
+				{
+					id: "6475E1666A88E5AF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E96CE8BABDF6B77"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7428E84402337000"
+				item: "rftoolsutility:counter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Inventory Checker&r emits a &credstone&r &o&bsignal&r if the inventory behind it has more than a certain number of items in a &nspecified slot&r."
+				""
+				"Both the slot and the item can be defined in the &b&oGUI&r, alongside an optional &aItem Tag&r, and whether to ignore or &o&omatch&r the &o&bdamage&r of the &o&bspecified&r item. These can also be left blank to match any item that goes in the slot."
+				""
+				"&dRemember&r, slot counts start at &o&bzero&r!"
+			]
+			id: "6D7333BF4080FD46"
+			min_width: 250
+			rewards: [
+				{
+					id: "779D4B96B7D50AA7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CD358CC5475FB5A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1893EFDE81DB4E39"
+				item: "rftoolsutility:invchecker"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"&cRedstone Transmitter&r will wirelessly send out a &o&bredstone signal&r on a specific &dchannel&r when it gets a &o&bredstone signal&r. Use this in combination with the &eRedstone Receiver&r block."
+				""
+				"If you place this block down it will create a &dchannel&r. You can also link this &cTransmitter&r to existing &dchannels&r by &aRight clicking&r on another &cTransmitter&r or &eReceiver&r."
+				""
+				"Use a &eRedstone Receiver&r to receive redstone signals. Using the &o&bGUI&r of this block you can give this &dchannel&r a name which makes it &neasier to recognize&r."
+				""
+				"&eRedstone Receiver&r will receive a &o&bredstone signal&r from a linked &cRedstone Transmitter&r. To link this &eReceiver&r with a &cTransmitter&r right-select the &cTransmitter&r (or another linked &eReceiver&r) with this block."
+				""
+				"Enabling '&nanalog mode&r' causes the power level of &o&btransmitted signals&r to be preserved at the receiving end."
+				""
+				"Use a &cRedstone Transmitter&r or a &3Button Module&r in a &6Screen&r to send &o&bredstone signals&r."
+			]
+			id: "4ABAA892B2FF4921"
+			min_width: 300
+			rewards: [
+				{
+					id: "4D4BCD71507E03C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41438BED27EC5FCB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1B2832B3BFFE885C"
+					item: "rftoolsutility:redstone_transmitter"
+					type: "item"
+				}
+				{
+					id: "297E600E242A0D5A"
+					item: "rftoolsutility:redstone_receiver"
+					type: "item"
+				}
+			]
+			title: "Redstone Transmitter \\& Receiver"
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Sensor&r can detect various things directly in front of its &9input&r (either &o&b1&r block, &o&b3&r blocks or &o&b5&r blocks)."
+				""
+				"It can detect blocks being placed, &o&acrop growth level&r, &o&3number of entities&r and so on."
+			]
+			id: "5C7EC68C8BF7AFE8"
+			min_width: 250
+			rewards: [
+				{
+					id: "63EAD9687566D224"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "725484EBEBDF01C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6217DB5FB29F70FE"
+				item: "rftoolsutility:sensor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"This block has &o&b3&r &credstone&r &9inputs&r and &o&b1&r &eoutput&r."
+				""
+				"Using the &o&bGUI&r you can make &o&bany possible combination&r of those three inputs into a single output."
+				""
+				"For every &o&binput combination&r you can set the &eoutput&r to &coff&r, &eon&r or &3keep&r. In '&3keep&r' the state of the &eoutput&r will be the same as it was before the &9input&r was &o&bswitched&r to this state."
+			]
+			id: "20ACD98053928296"
+			min_width: 250
+			rewards: [
+				{
+					id: "4E936331E14034E8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61D746B035481D1B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2417810F96A040E0"
+				item: "rftoolsutility:logic"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Analog&r can do calculations on an input signal based on the comparison result of the &o&bA&r and &o&bB&r inputs."
+				""
+				"&aRight clicking&r on the block will bring up its &o&bGUI&r, with a picture of the &eOutput&r (&o&b0&r), &9Input&r (&o&bI&r), and the two side inputs (&o&bA&r) and (&o&bB&r)."
+				""
+				"Below the picture of the &2Analog&r, we have three possible conditions: &o&bA&r = &o&bB&r, &o&bA&r is &cLess&r than &o&bB&r, and A is &9Greater&r than &o&bB&r."
+				""
+				"In all three conditions, we can do some basic arithmetic on the &9input&r, allowing us to multiply the strength of the &9input&r, and add to it as well. For example, you could take the &o&binput strength, double it, and add 10&r."
+				""
+				"If you want to &o&bdivide&r the signal, or take points off, you can multiply it by a number &cless&r than &o&b1&r, or add a negative number respectively. For example, multiplying the strength by &o&b0.5&r is equivalent to dividing it by two, and adding &o&b-10&r is the same as taking away &o&b10&r."
+				""
+				"Since we're working with &credstone signals&r here, anything &nabove 15&r or &nbelow 0&r is capped to full strength signal or no signal, respectively."
+				""
+				"&o&bIsn't math fun?&r"
+			]
+			id: "6C052AB11C771F27"
+			min_width: 300
+			rewards: [
+				{
+					id: "3A4624FFBED1C933"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DAFB85C494D4E57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43DF5DE3750E6674"
+				item: "rftoolsutility:analog"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: ["This block simply displays a number from &o&b0&r to &o&bF&r (&3hexadecimal&r) corresponding to the strength of the &9input&r &o&bsignal&r."]
+			id: "1AFE50D6BF0DB19A"
+			min_width: 250
+			rewards: [
+				{
+					id: "093DA03FC10B0C17"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0181E9E698686D27"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "29D76E3E788E29A2"
+				item: "rftoolsutility:digit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			description: [
+				"&2xNet&r is an &o&aitem&r, &o&9fluid&r, &o&cenergy&r, and &o&3information&r transportation mod that is all about efficiency."
+				""
+				"The &eCable System&r is designed in such way that you should be able to make huge &eCable Systems&r without any overhead. &eCables&r (for example) are not tile entities and have very simply models. This makes transporting items accross a cable of &o&b12,000&r blocks long just as efficient as doing it on a &o&b5&r block long &eCable&r."
+				""
+				"At the &6core&r of this mod is a &dNetwork&r. A &dNetwork&r is basically a single section of connected &eCables&r connected (via &nconnectors&r) to various blocks (chests, machines, ...) and one &6Controller&r. The &6Controller&r is the block that does the actual work for that &dNetwork&r."
+				""
+				"Every &dNetwork&r can have &o&b8&r &1Channels&r &o&bmaximum&r. Every &1Channel&r has a type (&cenergy&r, &aitem&r, &9fluid&r, &blogic&r, ...) that you can configure in the &6Controller&r. Depending on the type of a &1Channel&r and the machines that are connected to that &1Channel&r various things can happen."
+			]
+			hide_dependency_lines: true
+			id: "6DEF153CC59F8027"
+			min_width: 500
+			rewards: [
+				{
+					id: "468F601493D4B283"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BC19E19FE0BBEB8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "616450752E51E49F"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			title: "&2xNet"
+			x: 8.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			description: ["&eSneak+Right click&r this on a normal &cConnector&r to upgrade it to an &dAdvanced Connector&r."]
+			id: "365A6D42421BE3FD"
+			optional: true
+			rewards: [
+				{
+					id: "73F31B0F8CBBC981"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7231A0C31785890B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "33A2B9FB5D605328"
+				item: "xnet:connector_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			description: [
+				"If you want to go beyond the &o&b8&r &aChannel&r limit or you want to connect multiple distinct &dNetworks&r you can make a &5Routing Network&r using &2Routers&r."
+				""
+				"A single &2Router&r is already sufficient to connect up to &o&b6&r (&neach side&r of the &2Router&r) &aChannels&r but using routing &1Cables&r and routing &cConnectors&r you can also make a routing &dNetwork&r out of &2Routers&r."
+				""
+				"Note that on a &nsingle&r routing &dNetwork&r you can only have &o&b32&r published &aChannels&r."
+			]
+			id: "03E0E9E4FF65A1D0"
+			min_width: 300
+			rewards: [
+				{
+					id: "46812362456A8D7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35FB65EB60A16DD3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "61BF09383666D7EE"
+					item: "xnet:router"
+					type: "item"
+				}
+				{
+					id: "6A83AF02E3C02A1E"
+					item: "xnet:wireless_router"
+					type: "item"
+				}
+			]
+			title: "&eThe Routers"
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["03E0E9E4FF65A1D0"]
+			description: [
+				"An &3Antenna Base&r has to be placed on top of a &6Wireless Router&r."
+				""
+				"To increase transmission range place &o&b1&r or &o&b2&r &aAntennas&r on &ntop&r of an &3Antenna Base&r."
+				"&o&b1&r Antenna increases range by &o&b100&r blocks and consumes &o&b20&r &cRF&r/t/&9channel&r."
+				"&o&b2&r Antennas increases range by &o&b500&r blocks and consumes &o&b50&r &cRF&r/t/&9channel&r."
+				""
+				"An &dAntenna Dish&r can increase very extreme wireless range by placing on &ntop&r of an &3Antenna Base&r."
+				"The &cPower&r usage will also be increased to &o&b200&r &cRF&r/t/&9channel&r."
+			]
+			id: "5816B362FAC90FD2"
+			min_width: 350
+			rewards: [
+				{
+					id: "40EDCE631B326BCD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "423DA48D6004EFFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0119D232828253CB"
+					item: "xnet:antenna_base"
+					type: "item"
+				}
+				{
+					id: "7088C0F1F3DDDAC4"
+					item: "xnet:antenna"
+					type: "item"
+				}
+				{
+					id: "11370737A382FF09"
+					item: "xnet:antenna_dish"
+					type: "item"
+				}
+			]
+			title: "&9The Antenna"
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			id: "6F55900506DA5023"
+			rewards: [
+				{
+					id: "2A4C54015C5970ED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D7394197EB7EE24"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D39D681526F2047"
+					item: "xnet:redstone_proxy"
+					type: "item"
+				}
+				{
+					id: "76AF1DC32A3A9068"
+					item: "xnet:redstone_proxy_upd"
+					type: "item"
+				}
+			]
+			title: "&cThe Redstone Proxys"
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"&cRFTools&r offers a quick and easy way to &o&bteleport&r around the world. The two main blocks you’ll need are &3Transmitters&r and &6Receivers&r."
+				""
+				"The &3Matter Transmitter&r is a device that can &o&bteleport players&r to any other &6Matter Receiver&r. Use the &9Dialing Device&r to dial a &3Matter Transmitter&r to a &6Receiver&r."
+				""
+				"&dInfusing&r this machine causes &o&breduced power consumption&r and &o&bincreased teleportation speed&r."
+				""
+				"The &6Matter Receiver&r is &o&bwhere a player can teleport too&r from a &3Matter Transmitter&r."
+				""
+				"&dInfusing&r this machine causes &o&breduced power consumption&r."
+				""
+				"Note that it is &nvery important&r that the &6Matter Receiver&r has &nenough power&r. If not the player risks &nbad effects&r when teleporting."
+				""
+				"With the &9Dialing Device&r you can link a &3Matter Transmitter&r to a &6Matter Receiver&r. Note that the &3Matter Transmitter&r &nhas to be nearby&r but the &6Matter Receiver&r &ncan be very far away&r (even in another &o&bdimension&r)."
+				""
+				"&dInfusing&r this machine &o&breduces power usage&r."
+				""
+				"To &o&bdial&r you first have to &o&bselect&r a &3Matter Transmitter&r. If there is only one nearby then it will be &o&bautomatically selected&r. After that you have to &o&bselect&r a &6Matter Receiver&r (in the &nbottom&r list) and chose either '&o&bDial&r' or '&o&bDial Once&r'. With '&o&bDial Once&r' the connection will be interrupted as soon as someone teleports."
+				""
+				"Step on it and &o&bWoosh&r! &2Teleportation&r!"
+			]
+			id: "5B8997EA5EC2D7BB"
+			min_width: 500
+			rewards: [
+				{
+					id: "0A1CB8D7A0B740A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26E1D1686E7A4F48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A6F6D0412C6A287"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "116D82288F3E9FD4"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					id: "0E8561CDB7DF67F9"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7DF063A7E5F71A24"
+				"7277E270DAF637A6"
+			]
+			description: [
+				"The &2Machine Infuser&r uses &dDimensional Shards&r to improve the efficiency of a lot of machines."
+				""
+				"For most things, &dinfusing&r them will reduce their &cpower&r requirements. Some devices will have &o&badditional benefits&r from &dinfusion&r."
+				""
+				"Take any of those machines, place them into the &2Machine Infuser&r with &o&b4&r stacks of &dDimensional Shards&r and some &cpower&r, and you’ll have successfully &dinfused&r that machine, unlocking said bonus and powering up your machine!"
+				""
+				"&dInfusing&r the &2Infuser&r will cause it to use &b&oless power&r."
+			]
+			id: "71405CB3BB7606C1"
+			min_width: 300
+			rewards: [
+				{
+					id: "4698B7AECFD4E6ED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "537D042B517BF018"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AE45060837F5F5B"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B8997EA5EC2D7BB"]
+			description: [
+				"&2Teleportation&r is cool and all, but what if you could teleport to your &6Receivers&r without having to place down a &3Transmitter&r every time?"
+				""
+				"Introducing the &cCharged Porter&r! &eSneak+Right click&r on any &6Receiver&r you can access to save it into the &cPorter&r."
+				""
+				"Providing the &cPorter&r has power, you can then simply &eRight click&r it and &o&bteleport&r there &nimmediately&r!"
+				""
+				"While the regular &cPorter&r can only store &o&bone&r &6Receiver&r, the &6Advanced&r one can have up to &o&b8&r, and you can switch between them by &eSneak+Right clicking&r it into the &o&bair&r."
+				""
+				"Try it out! It's gonna be &o&9awesome&r!"
+			]
+			id: "389FA0ADD01A73AC"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "4A9D59CF0F468BC2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D465CF0B3D6C0A3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2D19A5CE1761834F"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:advanced_charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"&2Powercells&r store massive amounts of &cPower&r."
+				""
+				"They can be placed either individually, or they can be placed next to one another to form a &o&bmultiblock structure&r. &2Powercells&r will automatically distribute &cRF&r between themselves and their neighbors, and will join up into a multiblock &nregardless of tier&r."
+				""
+				"Powercells have no &o&bUI&r, but can be configured to &9input&r, &eoutput&r, or ignore power &o&bby hitting the desired side&r with a &3Smart Wrench&r in &dWrench Mode&r. &9Blue&r is input, &eYellow&r is output, and a &nblank side is neither&r."
+				""
+				"• &3Powercell&r (&olow&r) can hold &o&b500,000&r&cRF&r each"
+				"• &8Powercell&r (&ohigh&r) can hold &o&b4,000,000&r&cRF&r each"
+				"• &0Powercell&r (&ohigh&r) can hold &o&b20,000,000&r&cRF&r each"
+			]
+			id: "1FE11C4B88FBDC4E"
+			min_width: 300
+			rewards: [
+				{
+					id: "75A222D5806A62C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31DEA4F18C494B69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A2F3A25EC7F141B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rftools:powercell"
+					}
+				}
+				title: "Any #rftools:powercell"
+				type: "item"
+			}]
+			title: "Power Cells"
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"The &6Dimensional Cell&r is a &o&bmulti-dimensional power storage&r."
+				""
+				"Similarly to the &2Powercell&r, they can store and transmit vast amounts of power. However, unlike &2Powercells&r, they do not have to be next to one another to share their &cRF&r. Instead, &6Dimensional Cells&r are &o&bLinked&r by a &9Powercell Card&r."
+				""
+				"The Cell's &o&bGUI&r has &o&b3&r slots. The &o&btop left&r slot is used for creating a &o&bnew link&r, the &b&obottom&r slot is for &o&bprogramming&r a new &9Powercell Card&r to the &6Dimensional Cell's&r current link, and the &o&btop-right&r slot is for &o&binserting&r items to be charged with &cRF&r, such as a &3Charged Porter&r."
+				""
+				"There is a drawback to &6Dimensional Cells&r, however; when set to &eOutput Mode&r, there is a small cost to drawing &cRF&r from remote cells. It's not a lot, usually just a few percent, but it adds up. Luckily, &6Dimensional Cells&r can be &dInfused&r to reduce this cost."
+				""
+				"• &3Dimensional Cell&r (Simple) holds &o&b250,000&r&cRF&r, and can input or output up to &o&b1,250&r&cRF&r/t"
+				"• &4Dimensional Cell&r (Medium) holds &o&b1,000,000&r&cRF&r, and can input or output up to &o&b5,000&r&cRF&r/t"
+				"• &5Dimensional Cell&r (Advanced) holds &o&b4,000,000&r&cRF&r, and can input or output up to &o&b20,000&r&cRF&r/t"
+				""
+				"This &o&bspeed&r can be &o&bboosted&r via &dInfusion&r."
+			]
+			id: "0609473B4EF78B7D"
+			min_width: 500
+			rewards: [
+				{
+					id: "78BF9F82EFDED697"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FD9CEF12C908719"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "273093C32FEB3671"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+				{
+					id: "0F865B41A1FCF6F9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "rftools:dimensionalcell"
+						}
+					}
+					title: "Any #rftools:dimensionalcell"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			description: [
+				"&9Dimensional Shard Ore&r can be found &o&bunderground&r in &nsmall clusters&r in various dimensions. It is affected by &dFortune&r, and drops &bDimensional Shards&r when broken."
+				""
+				"These are used in several more complicated recipes, and can also be used to &o&difuse machines&r."
+			]
+			id: "7277E270DAF637A6"
+			min_width: 250
+			rewards: [
+				{
+					id: "47FFCF462A98570E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77DDBB86F7AEDB31"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 64L
+				id: "367807983732D1B9"
+				item: {
+					Count: 1b
+					id: "rftoolsbase:dimensionalshard"
+					tag: { }
+				}
+				title: "Dimensional Shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36ACEF60B952FA33"]
+			description: [
+				"This item can store several &cRedstone&r channels (&eRight click&r on a &aRedstone Transmitter&r or &9Redstone Receiver&r to add the channel)."
+				""
+				"You can then put it in a &2Tablet&r which allows you to &o&bexamine and change redstone signals from anywhere&r."
+			]
+			id: "02CC11CFB7361A56"
+			min_width: 250
+			rewards: [
+				{
+					id: "510594A7CF124C1F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DDA01F5B5B8B415"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D2C3105C533B7B1"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:redstone_information"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			description: [
+				"The &6Tablet&r can be used to remotely access various machines."
+				""
+				"&aSneak+Right click&r to open the internal tablet &o&bGUI&r where you can install up to &o&b6&r &cModules&r."
+				""
+				"&aRight clicking&r the &6Tablet&r will give you the &o&bGUI&r of the current &cModule&r."
+				""
+				"Note that to be able to access the remote machine it will have to be near enough or &o&bchunkloaded&r. If it is &o&bproperly chunk loaded&r then the &6Tablet&r will also work from another &dDimension&r."
+			]
+			hide_dependency_lines: true
+			id: "36ACEF60B952FA33"
+			min_width: 250
+			rewards: [
+				{
+					id: "3F900744CA4B512A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B7A02C5F0411F83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "05065293DD883643"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolsbase:tablet"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"36ACEF60B952FA33"
+				"2ACF97FF7EE9A9B7"
+			]
+			id: "577C38B7B7C62805"
+			optional: true
+			rewards: [
+				{
+					id: "0B5EC2264CFA0091"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "067D2EE270620D7D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "051C855CC6B57223"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolscontrol:console_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["36ACEF60B952FA33"]
+			description: [
+				"Using &eRight click&r you can link this item to a &6Screen&r and after that place it in a &2Tablet&r."
+				""
+				"This allows you to look at the &6Screen&r from anywhere (provided the &6Screen&r is &o&bchunk loaded&r)"
+			]
+			id: "26585C71DB45BE85"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "582C08417358C207"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F0476BC52B4BC87"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7B7CB7C2E79E08FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolsutility:screen_link"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			id: "56A67A439A833C23"
+			rewards: [
+				{
+					id: "4273B934387CD66E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45FDB307CC22B76F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2DC9A27892B96447"
+				item: "rftoolscontrol:card_base"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56A67A439A833C23"]
+			id: "535A5D1D8FA580BE"
+			rewards: [
+				{
+					id: "3C4D21987CDA9DE8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "530BBB1B4AC0A334"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F66B28CFF2188C9"
+				item: "rftoolscontrol:ram_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["56A67A439A833C23"]
+			id: "6E1E2D401F38F789"
+			rewards: [
+				{
+					id: "229AE969AA6E7A20"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C22AE9D19D9DFC3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71E025C4638520E6"
+				item: "rftoolscontrol:cpu_core_500"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6E1E2D401F38F789"]
+			id: "263ADC92D1D72D46"
+			rewards: [
+				{
+					id: "14983D17A1CA3C16"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F4B3C1FD4D439ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F9362DD76830518"
+				item: "rftoolscontrol:cpu_core_1000"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["263ADC92D1D72D46"]
+			id: "75276E483CF0F462"
+			rewards: [
+				{
+					id: "6381618E27EE8DFE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F77BEC74C8004A0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09E2D5261FECB659"
+				item: "rftoolscontrol:cpu_core_2000"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["56A67A439A833C23"]
+			id: "3AEA60A5C5122C20"
+			rewards: [
+				{
+					id: "334D39A535B7FDFC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59CED851470FB47F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C75005253C787A6"
+				item: "rftoolscontrol:network_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3AEA60A5C5122C20"]
+			id: "0215923B51C7A8F5"
+			rewards: [
+				{
+					id: "30E156F27E2CAA5B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B1BE4BBF8882264"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B2270F924E7EFEC"
+				item: "rftoolscontrol:advanced_network_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["56A67A439A833C23"]
+			id: "02F7FAF784E7904C"
+			rewards: [
+				{
+					id: "4E9C177A874D14BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B5791C1C6F9E009"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "359E2A329ED3D75C"
+				item: "rftoolscontrol:graphics_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"56A67A439A833C23"
+				"7DF063A7E5F71A24"
+			]
+			id: "51E0AAEB1F1FC784"
+			rewards: [
+				{
+					id: "69F255D0928A30AA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E845D06CA1FDF4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71F06256CCE5848C"
+				item: "rftoolscontrol:craftingstation"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &6Screen&r is a versatile block that can display all kinds of information."
+				""
+				"This depends on the &9Modules&r you have installed. The &6Screen&r needs &cpower&r that is remotely supplied by a nearby &2Screen Controller&r. &eRight click&r with an &o&bempty hand&r to open the &6Screen&r user interface."
+				""
+				"In the &o&bGUI&r you can install &9Modules&r (or you can install them by &eRight clicking&r the &9Module&r on the &6Screen&r)."
+				""
+				"Many &9Modules&r (like the &cEnergy Module&r) need a target to work on. To set that target you must first &eSneak+Right click&r the &9Module&r on the machine you want to monitor."
+				""
+				"When the &9Module&r is installed in the &6Screen&r there are also various display options that you can set by opening the &nspecific module&r &o&bGUI&r (accessed through the normal &aScreen&r &o&bGUI&r)."
+				""
+				"In that &o&bGUI&r you can also enable 'full bright' mode and by using the &dWrench&r you can change the size and transparency of the &6Screen&r."
+			]
+			id: "2ACF97FF7EE9A9B7"
+			min_width: 300
+			rewards: [
+				{
+					id: "6EDE9D0D8D92D706"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "079439D46CB070C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2BF8D9C9FA63A2DB"
+				item: "rftoolsutility:screen"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			description: ["The &2Liquid Card&r can be used to &o&bplace liquids&r by the &eBuilder&r."]
+			id: "6FA5FA3D80EEA800"
+			optional: true
+			rewards: [
+				{
+					id: "3089B18821D1A5BE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D9E5760CCA92078"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F6860609028010E"
+				item: "rftoolsbuilder:shape_card_liquid"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"&dShield Projectors&r are machines that will create an &9Energy Shield&r of a predefined shape and size. All projectors are operated in an identical manner but higher tier &dShield Projectors&r can project larger shields. &dShields&r are impervious to all &cdamage&r and are thus exceptionally useful for mob farms and similar dangerous situations."
+				""
+				"• &aShield Projector&r: &oTier 1&r can create shields of up to &o&b256&r blocks."
+				"• &cShield Projector&r: &oTier 2&r can create shields of up to &o&b1,024&r blocks."
+				"• &9Shield Projector&r: &oTier 3&r can create shields of up to &o&b4,096&r blocks."
+				"• &dShield Projector&r: &oTier 4&r can create shields of up to &o&b32,768&r blocks."
+				""
+				"Shields can:"
+				""
+				"• &b&oPrevent&r players, items and/or mobs from passing"
+				"• &b&oAllow&r players, items and/or mobs to pass"
+				"• &b&oDamage&r players, items and/or mobs on contact"
+				"• &b&oDeal&r 'generic' damage, or 'player' damage"
+				""
+				"A shield consists of a &dShield Projector&r, a number of connected &eShield Template&r blocks, and a power source. When activated, all connected &eShield Template&r blocks will become the shield. &eShield Template&r blocks come in four separate colors to allow shields to touch each other without merging. This might be useful for adding an invulnerable door to your mob killing room. Each set of connected template blocks requires a separate &dShield Projector&r."
+			]
+			id: "5FA7FE85BF0BE6A5"
+			min_width: 350
+			rewards: [
+				{
+					id: "6263440FFF0948B9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A0DFF9D7502648F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "128EF3E38BF4E167"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block1"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block3"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block4"
+								}
+							]
+						}
+					}
+					title: "Shield Projectors"
+					type: "item"
+				}
+				{
+					id: "1DB268BF37D3413C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:blue_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:red_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:green_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:yellow_shield_template_block"
+								}
+							]
+						}
+					}
+					title: "Shield Templates"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: ["The &2Coal Generator&r which generates &o&b60&r &cRF&r/t when fueled with &0Coal&r or &8Charcoal&r."]
+			id: "421CBFCA164B527D"
+			optional: true
+			rewards: [
+				{
+					id: "1D412457B4114301"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "203750875945FEF3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A749E1B0CEB43DD"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"The &6Blazing Generator&r can generate power out of &eBlaze Rods&r."
+				""
+				"But before you can do that the rods have to be processed by the &2Blazing Agitator&r. Using a little bit of &cpower&r the &2Agitator&r will slowly build up the potenty of &eBlaze Rods&r that are placed in the &9input&r area. Note that &eBlaze Rods&r adjacent to other &eBlaze Rods&r will &o&bimprove the quality and speed&r at which this happens, and also the &6Blazing Generator&r can generate &cPower&r from up to &o&b4&r &eBlazing Rods&r and works best if it can generate &cPower&r &ncontstantly&r."
+				""
+				"Powering up a generator requires time before it can fully use the full potential of &eBlazing Rod&r."
+				""
+				"It is worth while to spend some time improving &eBlazing Rods&r until you have &o&btop-quality rods&r that you can use to improve the quality of other &eBlazing Rods&r procued by this &2Agitator&r. For that reason there are &o&b9&r buttons that you can use to prevent fully processed &eBlazing Rods&r from going to the &coutput&r area."
+			]
+			icon: "rftoolspower:blazing_generator"
+			id: "6C162CEB5F82FA25"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "426FC2F885BA5659"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75C0ECA3C88A67FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "297C1B3B4DB33811"
+					item: "rftoolspower:blazing_generator"
+					type: "item"
+				}
+				{
+					id: "3A9BC979D35EDBBF"
+					item: "rftoolspower:blazing_agitator"
+					type: "item"
+				}
+				{
+					id: "5E9BB9FF1528A0A5"
+					item: "rftoolspower:blazing_rod"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"&eBlazing Rods&r as produced by the &6Blazing Agitator&r can be improved even further by infusing them with a stack of certain catalyst items."
+				""
+				"Note that once &3infused&r, a &eBlazing Rod&r can no longer be used in the &2Blazing Agitator&r to help improve other rods."
+				""
+				"&9Catalysts&r (&npower/time benefit for a full stack&r):"
+				""
+				"• &cRedstone&r &o&b40%&r more power"
+				"• &6Glowstone&r &o&b10%&r more power, &o&b30%&r more time"
+				"• &4Quartz&r &o&b40%&r more time"
+				"• &dDimensional Shards&r &o60%&r more power, &o&b60%&r more time"
+				"• &3Nether Star&r &o&b120%&r more power, &o&b120%&r more time"
+				"• &7Ghast Tear&r &o&b80%&r more power, &o&b80%&r more time"
+			]
+			id: "090606B7593B8D71"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "32E57C8351081BEC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07E9778630DC0BA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "633D2B0BBD89ACF4"
+				item: "rftoolspower:blazing_infuser"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7277E270DAF637A6"]
+			id: "30D31BC130DBC594"
+			rewards: [
+				{
+					id: "653FDDF114C1B4E6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F8326A142580019"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DD5C5F9444D560A"
+				item: "rftoolsbase:infused_diamond"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7277E270DAF637A6"]
+			id: "03FEB62715D33949"
+			rewards: [
+				{
+					id: "0AA7EFEB4D1A4E0F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FB53D7A8CE65598"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "558F99B77788A14D"
+				item: "rftoolsbase:infused_enderpearl"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"03FEB62715D33949"
+				"7DF063A7E5F71A24"
+			]
+			description: [
+				"The theory of &3Endergenic&r power generation is quite simple. Throw an &8Ender Pearl&r at an &2Endergenic Generator&r at just the &o&bright moment&r and &cenergy&r will be produced. The implementation, of course, is a little more &o&bcomplex&r. This guide will step you through the process of setting up a simple, imperfect but functional &dPower Generation System&r. "
+				""
+				"In this simple design, four &2Endergenic Generators&r are linked to produce about &o&b11,000&r&cRF&r/t. This can be increased by infusing the &2Endergenic Generators&r."
+				""
+				"&3Ender Monitors&r send a &cRedstone&r pulse as each generator fires its pearl. &9Sequencers&r alter the &cRedstone&r pulses to prime the generators with the correct timing. Finally, a &eTimer&r triggers a &dPearl Injector&r to insert a new &8Ender Pearl&r into the &o&bloop as needed&r."
+				""
+				"&o&b1&r) Lay out the parts as &o&billustrated below&r. Take care to note the &o&bdirection of the arrows&r on the &3Ender Monitors&r, &9Sequencers&r and &eTimer&r and make sure the &dPearl Injector&r is facing away from the generator. &aRight-click&r with the &5Smart Wrench&r to rotate these blocks as needed."
+				""
+				"{image:kubejs:textures/item/energenic_power.png width:100 height:100 align:1}"
+				""
+				"&o&b2&r) Set each of the &3Ender Monitors&r to &6Pearl Fired&r."
+				"&o&b3&r) Set each of the &o&b4&r inner &9Sequencers&r to fire on ticks &o&b3&r and &o&b5&r, as &o&billustrated below&r. Set the mode to &eOnce2&r."
+				""
+				"{image:kubejs:textures/item/energenic_power_step2.png width:100 height:100 align:1}"
+				""
+				"&o&b4&r) Set the &o&b2&r outer &9Sequencers&r to fire on ticks &o&b1&r and &o&b3&r. Set the mode to &eOnce2&r."
+				"&o&b5&r) Set the &eTimer&r to fire every &o&b30&r ticks. &cNote&r: The timer is reset by the adjacent &3Ender Monitor&r every time that an &8Ender Pearl&r passes through the nearby &2Endergenic Generator&r. In this way, the timer only triggers the &dPearl Injector&r when more than &o&b30&r ticks have elapsed without a pearl passing."
+				"&o&b6&r) Link the &o&b4&r &2Ender Generators&r in a &o&bclockwise direction&r. &aRight click&r on one with the &5wrench&r and it will turn &cred&r. &aRight click&r on the next and you'll receive a &o&bconfirmation message in chat&r."
+				""
+				"{image:kubejs:textures/item/energenic_power_step3.png width:100 height:100 align:1}"
+				""
+				"&o&b7&r) Connect your &o&bpower cables&r to the &2Endergenic Generators&r."
+				"&o&b8&r) Insert some &8Ender Pearls&r in the &dPearl Injector&r."
+			]
+			hide_dependency_lines: true
+			id: "4ECFDB62C5B886D9"
+			min_width: 500
+			rewards: [
+				{
+					id: "4A50E5319AF5039C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "68816096B79340B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "13C9B212EF246C76"
+					item: "rftoolspower:pearl_injector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B83878B1C543208"
+					item: "rftoolspower:endergenic"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "559213F83FE353EB"
+					item: "rftoolspower:ender_monitor"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "45751C5B2F026A26"
+					item: "rftoolsutility:sequencer"
+					type: "item"
+				}
+				{
+					id: "133B16F3B69C2216"
+					item: "rftoolsutility:timer"
+					type: "item"
+				}
+			]
+			title: "&4Endergenic Power Generation"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["535A5D1D8FA580BE"]
+			description: ["Use &2Programmer&r to make &9programs&r on a &bprogram card&r for the &dProcessor&r."]
+			id: "29B9F103A84F070F"
+			min_width: 250
+			rewards: [
+				{
+					id: "6C2B7D80E7C57715"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30567F2E75F5CE0E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "617D55BC027DF89D"
+				item: "rftoolscontrol:programmer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["75276E483CF0F462"]
+			description: [
+				"The &2Processor&r executes &9programs&r for &eautomation&r."
+				""
+				"&9Programs&r should be written on a &bProgram Card&r and can be made with the &dProgrammer&r."
+			]
+			id: "537FCAD41F2AF766"
+			min_width: 250
+			rewards: [
+				{
+					id: "42ADB55E879C34A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EF4BD387D4E90C4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5149BC1EAFEF9AD3"
+				item: "rftoolscontrol:processor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"The &eEnvironmental Controller&r can be used to '&o&binfuse&r' an area with &o&bvarious effects&r."
+				""
+				"Up to &o&b7&r &dEffects&r can be supported &nat the same time&r, but this increases &cpower&r usage."
+			]
+			hide_dependency_lines: true
+			id: "61E4A68F2CEE897C"
+			min_width: 250
+			rewards: [
+				{
+					id: "020A2C7C29D1DDA8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CD5309CC4CAF523"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C60087C8361768D"
+				item: "rftoolsutility:environmental_controller"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			description: [
+				"With the &9Screen Controller&r you can &o&bpower nearby screens&r."
+				""
+				"Using the '&o&bScan&r' button in the &o&bGUI&r you can connect to all &aScreens&r in a &o&b32&rx&o&b32&rx&o&b32&r radius."
+				""
+				"&3Infusing&r this machine will increase this range."
+			]
+			id: "26CC920053FD16B3"
+			min_width: 250
+			rewards: [
+				{
+					id: "10F55402DCC4BD16"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2D7169EFC371E294"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31FCBBCE2C4CB290"
+				item: "rftoolsutility:screen_controller"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2A7DBB02C3F24F3C"]
+			description: [
+				"The &2Filter Module&r is a very versatile item that can be used to &bwhitelist&r or &0blacklist&r items for the machine."
+				""
+				"Various machines support this module (&6Builder&r, &dModular Storage&r, &eCrafter&r, ...)"
+				""
+				"Blocks, items, and &etags&r are supported. You can &0blacklist&r or &bwhilelist&r and also require mathing on &dNBT&r and &cdamage&r."
+				""
+				"&eSneak+Right click&r on an inventory (&o&blike a chest&r) to add all &nitems&r/&nblock&r in that inventory to the &2Filter&r. &eSneak+Right click&r on a block in the world to add that block to the &2Filter&r."
+				""
+				"In the &o&bGUI&r of the &2Filter Module&r you can also add &atags&r or convert a &nblock&r/&nitem&r to the corresponding &atags&r."
+			]
+			id: "643A04DDC22CA421"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0F395F505FEBAE51"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4CD45EBB7F6A8AAA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1D67063437F1188B"
+				item: {
+					Count: 1b
+					id: "rftoolsbase:filter_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["537FCAD41F2AF766"]
+			id: "34FA5E6145E0F579"
+			optional: true
+			rewards: [
+				{
+					id: "4E30E67EA2EE8711"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0AC9868FD09C29E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C2CBC7C3C5D3D20"
+				item: {
+					Count: 1b
+					id: "rftoolscontrol:network_identifier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["30D31BC130DBC594"]
+			hide_dependency_lines: true
+			id: "26E2EBF1B84CA883"
+			rewards: [
+				{
+					id: "77838DBCC8397217"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "211A500129838992"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "568113D71F027702"
+				item: "rftoolsutility:module_template"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "4CBEEB3DE09DF2BE"
+			rewards: [
+				{
+					id: "4C8B67495DAADC8B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F25F407A186D010"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "104E92BA154A42C3"
+				item: "rftoolsutility:moduleplus_template"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			hide_dependency_lines: true
+			id: "37ABC1F96B3FF90D"
+			optional: true
+			rewards: [
+				{
+					id: "1DD7EA520BC13A31"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C85ADE5935DB54A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "326505C179B0EC33"
+				item: "rftoolsutility:hasteplus_module"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			id: "73E3C30353F79E0D"
+			optional: true
+			rewards: [
+				{
+					id: "47768D9654FAB6C6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0184D1661CEC4ACF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "14EE175A851439F7"
+				item: "rftoolsutility:featherfallingplus_module"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			hide_dependency_lines: true
+			id: "21CD1106B3A6A1E1"
+			optional: true
+			rewards: [
+				{
+					id: "0A87B26EF3340790"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EC7381F026F29E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "13D6975D3EE5E425"
+				item: "rftoolsutility:regenerationplus_module"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			id: "56A316E3C6B62BE2"
+			optional: true
+			rewards: [
+				{
+					id: "1F8ECC2AD4462205"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78EF00E12ACB8F6F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "53BCEE4C402B7147"
+				item: "rftoolsutility:saturationplus_module"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			hide_dependency_lines: true
+			id: "1E8803136096F3CF"
+			optional: true
+			rewards: [
+				{
+					id: "5D919B6860A71944"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1621EFDA582A92A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "23939CF09474F834"
+				item: "rftoolsutility:speedplus_module"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			id: "37137463DCD9C785"
+			optional: true
+			rewards: [
+				{
+					id: "4BBA7776C56BDCA9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F146BE04A706264"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1B44F9CF2C2CCC78"
+				item: "rftoolsutility:flight_module"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			hide_dependency_lines: true
+			id: "66913EB8F34A13B6"
+			optional: true
+			rewards: [
+				{
+					id: "3E759B972CF0A477"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67763A29CEFF0B9B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "3CCF8DFE02BE3E6B"
+				item: "rftoolsutility:noteleport_module"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			hide_dependency_lines: true
+			id: "4E676C7EF4B21108"
+			optional: true
+			rewards: [
+				{
+					id: "7F9DB83B35CC4DB4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "315EA4CCD7C723BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "388AF63F402AF6AA"
+				item: "rftoolsutility:waterbreathing_module"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			id: "6A80103235964C38"
+			optional: true
+			rewards: [
+				{
+					id: "6520976077B98376"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6BCA3F466E277DC3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "10E65D4BD9415932"
+				item: "rftoolsutility:blindness_module"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CBEEB3DE09DF2BE"]
+			id: "2991E0AA98105548"
+			optional: true
+			rewards: [
+				{
+					id: "3C48998CFFC30C11"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "282074F4F74F1C8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "3D0DC51A4DC8C350"
+				item: "rftoolsutility:peaceful_module"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "0D9F075F7666770B"
+			optional: true
+			rewards: [
+				{
+					id: "414728C65614ABA2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E754C61C7A7A45B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "25A6E7C5C16434D1"
+				item: "rftoolsutility:featherfalling_module"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			hide_dependency_lines: true
+			id: "3939165B244BDB6F"
+			optional: true
+			rewards: [
+				{
+					id: "62134C167A5EB77D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4AAF343A35F2C248"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5AAF927E23919B4E"
+				item: "rftoolsutility:haste_module"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"26E2EBF1B84CA883"
+				"53A9C8217C6B0729"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "749CE1FEE2AB288E"
+			optional: true
+			rewards: [
+				{
+					id: "4585BC7F289E4A06"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "563199CD36A387A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0BC19E1454EF007C"
+				item: "rftoolsutility:glowing_module"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "555745832D8D9D8D"
+			optional: true
+			rewards: [
+				{
+					id: "50E6C4B9D09EF86D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A7EAF54231DF3EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1973ACBCD87EF26C"
+				item: "rftoolsutility:luck_module"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "19DB41115FF79DAC"
+			optional: true
+			rewards: [
+				{
+					id: "18F7533AD5499535"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74D9EEDC27791483"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2FED51E8DD17C7E5"
+				item: "rftoolsutility:nightvision_module"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "4F4F2B027905316D"
+			optional: true
+			rewards: [
+				{
+					id: "1F816667FE269DC5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "188F02D633532AF6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7BBEE94AA7B7C013"
+				item: "rftoolsutility:poison_module"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			hide_dependency_lines: true
+			id: "4566ABB4083E3EA3"
+			optional: true
+			rewards: [
+				{
+					id: "54241832119C1DBD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7BD6EC22F668EABC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "6C35E361B41EE4E3"
+				item: "rftoolsutility:regeneration_module"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			id: "131FAC42251006DF"
+			optional: true
+			rewards: [
+				{
+					id: "2169D016B38B97C8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45B585E3C7D726FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2749C67975A702F9"
+				item: "rftoolsutility:saturation_module"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			hide_dependency_lines: true
+			id: "4C878A5B46729DDC"
+			optional: true
+			rewards: [
+				{
+					id: "7FB1D6A30F526035"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F691A976AEC1817"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1530B4255C77DC77"
+				item: "rftoolsutility:slowness_module"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			hide_dependency_lines: true
+			id: "3CBB6750B1B5FD51"
+			optional: true
+			rewards: [
+				{
+					id: "510F3585433405A4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01B5D1B7B374E6C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "44FA9EBA60994A28"
+				item: "rftoolsutility:speed_module"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26E2EBF1B84CA883"]
+			hide_dependency_lines: true
+			id: "43A8B4CDF4389790"
+			optional: true
+			rewards: [
+				{
+					id: "398EA4D0BC873513"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "073154AE3CDFB26D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "29D5875438C59D9B"
+				item: "rftoolsutility:weakness_module"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61E4A68F2CEE897C"]
+			description: [
+				"The &2Syringe&r is used to gather &aEssences&r of various mobs for use in creating &eModules&r for the &dEnvironmental Controller&r."
+				""
+				"To fill a &2Syringe&r, the item must be held and '&o&bpunched&r' on the desired mob. It typically takes &o&b4&r or &o&b5&r punches to fill the &2Syringe&r. Once filled, it can be used as a crafting component."
+			]
+			id: "53A9C8217C6B0729"
+			rewards: [
+				{
+					id: "7E61BBE72378D00C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06EB74B3EDD08926"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73C81A4F5C394364"
+				item: "rftoolsutility:syringe"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "35534D8024BD88A5"
+			optional: true
+			rewards: [
+				{
+					id: "05581CBEEF7573C6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67E81C3D6B9D2EDC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "131B1990E8AC7A83"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:text_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "20AC030B857321D0"
+			optional: true
+			rewards: [
+				{
+					id: "26CA2F26B8ED12AC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53B9169E240EC675"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "065580E8D3E32987"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:energy_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "6B0EF1FBF63A0510"
+			optional: true
+			rewards: [
+				{
+					id: "340950A2163530C4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2ED6B34A7DDFA59D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F02320FD6FD038F"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:clock_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "2AAF3BCDEC5893F9"
+			optional: true
+			rewards: [
+				{
+					id: "7D913A66CBA3E474"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0DCC5287A920CEF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "50916D87AFC0AD7F"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:machineinformation_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "68C0AB8BA8EBA7C9"
+			optional: true
+			rewards: [
+				{
+					id: "4A1BF0F5217807E2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "115CB0FB88E529D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "216E0F577F66DF41"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:redstone_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "2B5A512CB0E580AD"
+			optional: true
+			rewards: [
+				{
+					id: "7B98199D4D3B241C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "744F1D6FC2BD74AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "13929EE3551601A3"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:button_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2ACF97FF7EE9A9B7"]
+			id: "0D0DC5C52E314469"
+			optional: true
+			rewards: [
+				{
+					id: "1EDB95B65A889034"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5429C420CDC28564"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "09AEF4FE7700AEF1"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:counter_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["29B9F103A84F070F"]
+			id: "0EB66F4B25BFAEAC"
+			optional: true
+			rewards: [
+				{
+					id: "3BBB563FB3AEA4DC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B4A772171739E46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "590F121DE29D6C82"
+				item: "rftoolscontrol:program_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Wire&r simply transmits the &9input&r &o&bsignal&r to the &eoutput&r."
+				""
+				"Simple, straightforward, lag free. It can only go in &o&bstraight lines though&r."
+				""
+				"On the upside, as with all other blocks made using &3Machine Bases&r, it can be placed on &nwalls&r or &nceilings&r."
+			]
+			id: "663EBBC9BCEA0D23"
+			min_width: 300
+			rewards: [
+				{
+					id: "2D290F87C133EDBD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B676B55BBBED234"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0351ECDA9A2B6382"
+				item: "rftoolsutility:wire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &2Sequencer&r is a versatile block that can generate &o&bspecific sequences&r of &credstone&r &o&bsignal&r based on other &credstone&r &o&binputs&r."
+				""
+				"It works by selecting &o&b64&r different &credstone&r &o&boutputs&r. Whenever a sequence runs it will set the &credstone&r &o&boutput&r of this block to this pattern in sequence."
+				""
+				"There are &o&b7&r different modes:"
+				""
+				"• &o&bOnce1&r: Cycle once. &9Ignores&r signals until done"
+				"• &o&bOnce2&r: Cycle once. &6Restart&r cycle on new signal"
+				"• &o&bLoop1&r: Continious loop. &9Ignore&r redstone signals"
+				"• &o&bLoop2&r: Continious loop. Signal &6resets&r cycle to start"
+				"• &o&bLoop3&r: Continious loop while enabled. &dStay&r at current step if disabled"
+				"• &o&bLoop4&r: Continious loop while enabled. &6Reset&r to beginning if disabled"
+				"• &o&bStep&r: &3Perform&r one step in the cycle on every signal"
+			]
+			disable_toast: true
+			id: "6FEDA156067956EC"
+			min_width: 350
+			rewards: [
+				{
+					id: "37A6D3AD6B340C2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B56BFBA7E49D745"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19CF5932D49C285B"
+				item: "rftoolsutility:sequencer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			description: [
+				"The &6Timer&r is a simple gate that pulse at its &9input&r. So given will &o&brepeatedly&r send a &credstone&r &o&bpulse&r. You can &9input&r any value for the delay so it can be used for very long timeouts."
+				""
+				"What is special about this &6Timer&r is that it &drestart&r when it itself &3receives&r a &credstone&r &o&bpulse&r at its &9input&r."
+				""
+				"So given timely &9input&r &o&bpulses&r this block will never &eoutput&r a &o&bpulse itself&r. By using this feature this block can be used as a way to &o&bdetect&r that a certain &b&oactivity&r is overdue."
+			]
+			id: "05C17B4F3ADC4CD2"
+			min_width: 250
+			rewards: [
+				{
+					id: "14BF5DFD38F30922"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F32BB5D13C195D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "487B2D826F7FDD1C"
+				item: "rftoolsutility:timer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			description: [
+				"&3Facade&r can &o&bmimic&r other &7Blocks&r and be used to &o&bcover&r &2xNet&r &1Cables&r."
+				""
+				"&eRight&r or &eSneak+Right click&r on &7block&r to &o&bmimic&r."
+				"&eRight&r or &eSneak+Right click&r on &1cable&r/&cconnector&r to &o&bhide&r."
+			]
+			id: "547C4F4C927E9848"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "6A275BB81FA8727D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F873FDD2C609DB8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 16L
+				id: "189A61326E8DF8B2"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			title: "Facade"
+			x: 9.5d
+			y: -13.0d
+		}
+	]
+	title: "&2&oRFTools"
+}

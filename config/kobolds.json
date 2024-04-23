@@ -1,0 +1,5 @@
+{
+  "zombies_attack_kobolds": false,
+  "illagers_attack_kobolds": false,
+  "kobold_breed_item": "AMETHYST"
+}

@@ -1,0 +1,42 @@
+#Configure Mutant More's Mutant Wither Skeleton Armour on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The Mutant Wither Skeleton Armour's durability multiplier, which defines the durability for each armour piece by multiplying their slot's base durability, the base values being: 11 for head, 16 for chest, 15 for legs and 13 for feet
+# usually set to 17
+"Durability Multiplier" = 17
+#
+# The Mutant Wither Skeleton Skull's armour value
+# usually set to 3
+"Helmet Armour Value" = 3
+#
+# The amount that the attack speed of mobs wearing the Mutant Wither Skeleton Skull is increased
+# usually set to 0.25
+"Helmet Attack Speed Increase" = 0.25
+#
+# The Mutant Wither Skeleton Chestplate's armour value
+# usually set to 7
+"Chestplate Armour Value" = 7
+#
+# The amount that the attack damage of mobs wearing the Mutant Wither Skeleton Chestplate is increased
+# usually set to 2.0
+"Chestplate Attack Damage Increase" = 2.0
+#
+# The Mutant Wither Skeleton Leggings' armour value
+# usually set to 6
+"Leggings Armour Value" = 6
+#
+# The Mutant Wither Skeleton Boots' armour value
+# usually set to 3
+"Boots Armour Value" = 3
+#
+# The Mutant Wither Skeleton Armour's enchantment value
+# usually set to 15
+"Enchantment Value" = 15
+#
+# The Mutant Wither Skeleton Armour's armour toughness value
+# usually set to 0.0
+"Armour Toughness" = 0.0
+#
+# The resistance to attack knockback applied to the wearer of Mutant Wither Skeleton Armour
+# usually set to 0.1
+"Knockback Resistance" = 0.1
+

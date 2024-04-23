@@ -1,0 +1,973 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "security_craft"
+	group: "69B9F7247002FE35"
+	id: "116FD7B5753C52B6"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B954A1DD833FC98"
+			rewards: [
+				{
+					id: "041493F23E34DA50"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14D2B03F9DDB856B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "570909CE0173FCC2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:sc_manual"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "29A3C195EAC4E508"
+			rewards: [
+				{
+					id: "06660538C206C017"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "283CF89DD558E5B4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15FDA4147D76268E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_block_remover"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7E9273CE84F3A2A5"
+			rewards: [
+				{
+					id: "3853CE93C5C8B16B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "1F8C90BCE51F596E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3243212232825A1E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:wire_cutters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "161865AB973AC46C"
+			rewards: [
+				{
+					id: "78B7FD1D84C20629"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "2A292AE52D32A89C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E22AD1D235E61F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_key_changer"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6C69392B90615680"
+			rewards: [
+				{
+					id: "5076BD6D65FB9EC9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "6B6C667373D6C67C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6070D22223BBE001"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_owner_changer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "67CBB3FFBE7476E8"
+			rewards: [
+				{
+					id: "1420E82149BB1287"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CC9D7A3D432FF08"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03B126BA1965D7C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67CBB3FFBE7476E8"]
+			id: "65B698A338EAC3A9"
+			rewards: [
+				{
+					id: "5A7D592BB20762F4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3CBEFF2AE0F8C3F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56084EE09C18E54A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_block_reinforcer_lvl2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["65B698A338EAC3A9"]
+			id: "27FEA0A687B3EAD2"
+			rewards: [
+				{
+					id: "6517FFC9B10A1B00"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78CED0DB050DB5AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4699A90F32614795"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:universal_block_reinforcer_lvl3"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "55079F9557D45D36"
+			rewards: [
+				{
+					id: "5FE14E06F273156E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00493D651E74B95E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2002903ECCACF043"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:codebreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "4030CDB8B2BCF9AD"
+			rewards: [
+				{
+					id: "2372B8AE0EA00863"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C603A9BF1728BAB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04B7CCF7C7122FA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:claymore"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "4F1C8CA178118376"
+			rewards: [
+				{
+					id: "482A1391EC9CF603"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4994CA598066C279"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "396B71158F76242B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:ims"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "7B70DAA06BF8850B"
+			rewards: [
+				{
+					id: "15E2C35F23174ACD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D1F98A1F5BDE986"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4944F7FB38CAC374"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:bouncing_betty"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "329ABFC11044BF07"
+			rewards: [
+				{
+					id: "39E2859EB0922E31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17974B3ABA6044E0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "651812AB8BB3CCC5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:track_mine"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "4FCC9CD1EABC3472"
+			rewards: [
+				{
+					id: "681A36D6F8241611"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D8930B68A222BB5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5384ABFA2B29015C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:furnace_mine"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "4C48531A31DF6192"
+			rewards: [
+				{
+					id: "1655988FDD22C77D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B8555B36A13A413"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "100C09B441CAC7E2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:mine"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "3E0314F44C51E728"
+			rewards: [
+				{
+					id: "5DC2A7DEB1A6F8C1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "72C56B30E6E6E010"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F68EFFD3A4C20D9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:keycard_reader"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "60182B7CD395E4FE"
+			rewards: [
+				{
+					id: "1DA9FB09D721E2AE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DD0F3509A39D346"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06D742D8C871DEA3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:portable_radar"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5F36E2EAE8CFF1F2"
+			rewards: [
+				{
+					id: "6E6BE08FCA1841F7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63706BA597DC5B7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2611466C93133448"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:panic_button"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "28D9DB349952C1E7"
+			rewards: [
+				{
+					id: "20C839C6F5337C39"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47D6692E63C98393"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4695726D647DECC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:keypad"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "555CD061CFB2E911"
+			rewards: [
+				{
+					id: "0433F2A03B1C43A6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A7C4D7ABBA6EF23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "491F694F5E976EEE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:keypad_chest"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "79B48336BDB673B3"
+			rewards: [
+				{
+					id: "4C2661B02C16A78A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4AE8DED087730655"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47912B9045BC0555"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:keypad_furnace"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "620C7C1B2DB7AB20"
+			rewards: [
+				{
+					id: "5F102690AF832059"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11723D34A8E7F21B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0586BEADAD84E42A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:username_logger"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "759465968B541D98"
+			rewards: [
+				{
+					id: "37F1E62E80BCE96D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6FDA03F5A5F8DEAE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "778EDF06EAADE7E5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:reinforced_fence_gate"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "122AFAE0229592A9"
+			rewards: [
+				{
+					id: "6FD3FFF83B26BFC3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E99A6598D37EE37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72B8B3EEE3978A93"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:keypad_frame"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "2BA02315F8F76365"
+			rewards: [
+				{
+					id: "5BE32F0F6C0E79B7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "199EA28DEF0BA794"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22B180D88383B5C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:security_camera"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "378E83F895208D7D"
+			rewards: [
+				{
+					id: "1C4B4A029D826FD8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FD50FB94FF86F40"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "534C634BF90F24C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:inventory_scanner"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "2B2014FEAD958CED"
+			rewards: [
+				{
+					id: "2ADBED7CB248CB69"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B002FA851E61943"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48412D819C0AC45A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "securitycraft:cage_trap"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "&2&oSecurity Craft"
+}

@@ -1,0 +1,2352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "treasures_artifacts"
+	group: "68BD27E8D0136E3E"
+	icon: "quark:diamond_heart"
+	id: "1FFC17911A292602"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/taa.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.1071428571428612d
+			y: -4.69285714285715d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E630448B20FA566"
+			rewards: [
+				{
+					id: "19C1EAF69175D0E7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "35DDEC6E3C91B08A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "153D6C29BB42831C"
+				item: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6E863267FEBC4D12"
+			rewards: [
+				{
+					id: "0CBFC7B8020C003B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2B58D7072EDFA697"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B88755FFDF2EE0B"
+				item: {
+					Count: 1b
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 41.064d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5B41A9C774DADC64"
+			rewards: [
+				{
+					id: "419F9E9A2396E502"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7EE53D79F7FFC92B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "439CC87E8BE17CCC"
+				item: {
+					Count: 1b
+					id: "relics:rage_glove"
+					tag: {
+						Damage: 0
+						abilities: {
+							rage: {
+								points: 0
+								stats: {
+									attack_speed: 0.006d
+									dealt_damage: 0.037d
+									incoming_damage: 0.028d
+									movement_speed: 0.024d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "700FCD53D6498DAE"
+			rewards: [
+				{
+					id: "22257AE62E5C4229"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "00C90CF0A37C67F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75CB4F1844307B5F"
+				item: {
+					Count: 1b
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "38D5BE9C450AF78D"
+			rewards: [
+				{
+					id: "64D64884A2C09038"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42DC8E849E7750AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "552E86FEC360BB5D"
+				item: {
+					Count: 1b
+					id: "relics:drowned_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "0F3C12319C57A16C"
+			rewards: [
+				{
+					id: "1DE6DFAB831926C8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "602ADC87B4F25C66"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E9123A7DCEEF70"
+				item: {
+					Count: 1b
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "1E2AE06DD8CA0B8D"
+			rewards: [
+				{
+					id: "4B8CA246549D1575"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1428345E6B9A8CD3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64D796BC76DB991F"
+				item: {
+					Count: 1b
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "14735A17AFA85427"
+			rewards: [
+				{
+					id: "1A0A02A9BAB12FE4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "61B9635C6CCD1922"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48E307235ABC37A5"
+				item: {
+					Count: 1b
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.413d
+									distance: 17.61d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.322d
+									speed: 0.268d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "08DD2FB316B96B67"
+			rewards: [
+				{
+					id: "58D64530E0548917"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2AEA2D509AD1CFB8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "621771638900AECB"
+				item: {
+					Count: 1b
+					id: "relics:shadow_glaive"
+					tag: {
+						Damage: 0
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.533d
+									damage: 4.764d
+									radius: 4.112d
+									recharge: 14.474d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 0.847d
+									speed: 18.93d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "54A18F5A1702F0CE"
+			rewards: [
+				{
+					id: "1EDE38E593FC670F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4FE5819BD064071C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "55A6DFD4BCF00B5A"
+				item: {
+					Count: 1b
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "15C62D63FBAF3CD5"
+			rewards: [
+				{
+					id: "3EF15339882FCFC6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "72E1E2601D6D3E29"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E879BC3B320B1B6"
+				item: {
+					Count: 1b
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "25B3051A7195EE0F"
+			rewards: [
+				{
+					id: "118F1CA19C318140"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4C963797B7ADCD91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61CF4B58BC3C5808"
+				item: {
+					Count: 1b
+					id: "relics:magic_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "57E48F6BEB4C528D"
+			rewards: [
+				{
+					id: "648727C1C9DF9957"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2F5AB5BC6BCA064D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51B50243CCA41D58"
+				item: {
+					Count: 1b
+					id: "relics:blazing_flask"
+					tag: {
+						Damage: 0
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.145d
+									speed: 0.013d
+									step: 1.863d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "18F41217816183CE"
+			rewards: [
+				{
+					id: "5381EC2C9E61C66F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "31E6FDFC3EED3437"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5490396D60340F3F"
+				item: {
+					Count: 1b
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "7C756239EA6B8718"
+			rewards: [
+				{
+					id: "0FB62FD8E1BE9708"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "30FDEF619DB51C94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "453DFD98A6FC41E6"
+				item: {
+					Count: 1b
+					id: "relics:infinity_ham"
+					tag: {
+						Damage: 0
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.87d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.953d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "1291EA352E0C0550"
+			rewards: [
+				{
+					id: "4E2F09B8F438B56F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4099C7D9D8811823"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B9D6FB769F0D547"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "004FC96A6365E244"
+			rewards: [
+				{
+					id: "68923773BA0BBA07"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7E4C336AD5D62EB8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E9F0DB18DCE9D33"
+				item: "reliquary:infernal_chalice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "5E2A7E5ED2A746AC"
+			rewards: [
+				{
+					id: "7B4C0D9E91C0C4EE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1DE5D5C91C204F5A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F51A3D3B69B07F1"
+				item: "reliquary:infernal_claws"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "189854DB8F809CD1"
+			rewards: [
+				{
+					id: "2F37A75BA841360D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1BB6288DE0202283"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A37E7CBD22AC1D0"
+				item: "reliquary:kraken_shell"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "563426842C9F27ED"
+			rewards: [
+				{
+					id: "3C71F4CE5213AEDA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "64D207DAA6AAF55D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "277700D25372047D"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "4B7F3ACF59E1350C"
+			rewards: [
+				{
+					id: "6C96DBB28C7CA8AE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "58275CD964FF3FDA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A2EE0D9EBA0794"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "7E3EE1F2215AFD51"
+			rewards: [
+				{
+					id: "6C1005B3DFBCFF0F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "30EFCC6F3B55D1AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A806F3A33646678"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "47741FAE1072292B"
+			rewards: [
+				{
+					id: "0FCE7873736A8224"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4E246959576C8FA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2395AC7AFEE17099"
+				item: "reliquary:twilight_cloak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "5E0419DF39BF66EC"
+			rewards: [
+				{
+					id: "74B94CF26ADF4C6C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "084D10A29D6586FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "518252B989F48FC8"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "0638AA159A0934EF"
+			rewards: [
+				{
+					id: "733D2BB96AE606CF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D7B44ABACD42394"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FB3D4A149D3D1C7"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "4CE67989CEC1B883"
+			rewards: [
+				{
+					id: "61908E5D46C11854"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2D8CF82BB3A71638"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FEEB55A83FC60DD"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "1BADB3E6963E6D38"
+			rewards: [
+				{
+					id: "6A2CB3A7162C9C4D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "619E636F011CF2F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E85004A06DD82BA"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "7251554BCFE0C3EE"
+			rewards: [
+				{
+					id: "0E311E8CC957AB60"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "27B944987E93FAE7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BF77D8EE66B496B"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "57A26AFD21DE2850"
+			rewards: [
+				{
+					id: "354313E385B520B4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1E0033FEB5F6322B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C63F28295BE5AF7"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "268CDDDE6F35BBBA"
+			rewards: [
+				{
+					id: "1CB6DE466E3A2061"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78ADAC12CDA78370"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C999236894291FE"
+				item: {
+					Count: 1b
+					id: "artifacts:cross_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "6139E32199FFC750"
+			rewards: [
+				{
+					id: "666527ECA818BCBA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "73EB62FE604F56E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1931498FB6FF3F4B"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "4DFCFC1D6BF70F04"
+			rewards: [
+				{
+					id: "4636C4FA1ECEF86C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "08B4769FB402E1A4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7247EF35EB616D92"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "0EBFA0136B65FFA6"
+			rewards: [
+				{
+					id: "13F6061EE71F8CC5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0ADF6BFC0A7485E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFAF50E80760C28"
+				item: {
+					Count: 1b
+					id: "artifacts:antidote_vessel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "2C3BE8F0C8F277E0"
+			rewards: [
+				{
+					id: "26C649A050D10B00"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7A819FECCC69A4D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BB1EC4E80073C57"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "29AC75CE39EBCBB2"
+			rewards: [
+				{
+					id: "7B43C3DDD2C2E17A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "645493E94A99581F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61E5C37BA4C9C56E"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "139B29709F2C7AA7"
+			rewards: [
+				{
+					id: "5A7A02573B4233C4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C36D93C7B1D9ED4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65494A8A08742EAA"
+				item: {
+					Count: 1b
+					id: "artifacts:power_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "310132E9A65B6AB7"
+			rewards: [
+				{
+					id: "7AE000BB137ADDFA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "314DC786F32C09CC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A8D758FB858C9F0"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "6F499B709F2085D6"
+			rewards: [
+				{
+					id: "381DAFD5FA9CBB4C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3435131D1A54C518"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "045D5991319588BA"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "13A6F7F30AE73032"
+			rewards: [
+				{
+					id: "19ECF313EFF102E6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3841708269654003"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68AF5DBE256FAA86"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "653929B52FFA62E0"
+			rewards: [
+				{
+					id: "471108FDE7D10A05"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5A817C67DD2B63BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4818A830129CC90C"
+				item: {
+					Count: 1b
+					id: "artifacts:thorn_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "3579962EBDCDA4AC"
+			rewards: [
+				{
+					id: "03E5874099D7586E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6BA45DCEB1C22276"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "427CC3D687E763B2"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "24B8A8A53A8FB415"
+			rewards: [
+				{
+					id: "2FEAEE583FF28C2D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0BFFD9FE747F28D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1D5444DB6FE51EF5"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			id: "7D5A09D8E8F3C9E7"
+			rewards: [
+				{
+					id: "1795D21381E57B34"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7770EECDE2A4983C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0396ED44CFFF3862"
+				item: {
+					Count: 1b
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 30.562d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "543E417D54AF982D"
+			rewards: [
+				{
+					id: "47E2ABB6A32B5B03"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4E9571185BBE5A0A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B9D71D7805ECEDD"
+				item: {
+					Count: 1b
+					id: "relics:ice_breaker"
+					tag: {
+						Damage: 0
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 3.421d
+									size: 4.092d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.556d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "1B8EFBC5EE7EB086"
+			rewards: [
+				{
+					id: "681DE054953F2547"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "305456B102A058CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ABE5C314BA0E6D0"
+				item: {
+					Count: 1b
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+						abilities: {
+							swimming: {
+								points: 0
+								stats: {
+									speed: 0.007d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "01B71AA809F4A326"
+			rewards: [
+				{
+					id: "6D644FC52305594F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1EB2BA344D977C80"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25CC6CAF9CF4CBEB"
+				item: {
+					Count: 1b
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 21.085d
+									speed: 0.004d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "4C8D0FF4DE4922DD"
+			rewards: [
+				{
+					id: "38044FA2A4E3FF54"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7A2451C05FE0F748"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C8204210CDBE9DC"
+				item: {
+					Count: 1b
+					id: "relics:wool_mitten"
+					tag: {
+						Damage: 0
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.188d
+									freeze: 1.536d
+									size: 28.585d
+									stun: 0.042d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			id: "21084631EEFDEF67"
+			rewards: [
+				{
+					id: "5157BA2808E6A923"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1F70204085750104"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F8AFB4C9BEEAF62"
+				item: {
+					Count: 1b
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 2.8d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "000D157BC140AD35"
+			rewards: [
+				{
+					id: "151F7D6C902AFA41"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "478E38F448C69DBB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BCCA82E38D207EE"
+				item: {
+					Count: 1b
+					id: "relics:spore_sack"
+					tag: {
+						Damage: 0
+						abilities: {
+							spore: {
+								points: 0
+								stats: {
+									amount: 1.0d
+									resize: 0.014d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			id: "4D6A53901B6CAFCC"
+			rewards: [
+				{
+					id: "4A2199E3B6513C0B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "41372CA133A3D23B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D704BAEB347A59A"
+				item: {
+					Count: 1b
+					id: "relics:arrow_quiver"
+					tag: {
+						Damage: 0
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.88d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "0972DCAF72CC9282"
+			rewards: [
+				{
+					id: "283D722874ED67AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C1FB58346CAC81F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0688251ABB9DF9AE"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_longfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "284C09B1F231BBC0"
+			rewards: [
+				{
+					id: "669538EF6AA6281B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "07738403E6F6D4D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "705B59AF25512997"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "12C1CB5475B58CB0"
+			rewards: [
+				{
+					id: "7D1485F87F6E91B0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3ABAE8A90D4049D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4287863D6CF8364F"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "2DC18F72DA12CE9F"
+			rewards: [
+				{
+					id: "68D8C29875D47D1F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "03C410B26FFCD399"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C144E819935AE8A"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_boostpotion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "0027E0B389B88DCB"
+			rewards: [
+				{
+					id: "3FEB596A48E6C33E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "369FBA18E73AF376"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "083CF9B86F9E285A"
+				item: {
+					Count: 1b
+					id: "artifacts:golden_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "08CD9265703AE7FD"
+			rewards: [
+				{
+					id: "375CFEE1F5B4EB1E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "10562651A6772F5B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6615AFC4556906B1"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "5267ECA423F1E955"
+			rewards: [
+				{
+					id: "77C140D0BBD59C4E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "58C646E3265BCCAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DCF4E8CEA2737F5"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "3AE28FA7D3822D55"
+			rewards: [
+				{
+					id: "6967E1FE6031B849"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4DF92E4A5A4A61B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "506BC148360E29EF"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "0FE04683EFFC4FE0"
+			rewards: [
+				{
+					id: "441E7567DAB2B64A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "69B73A9C499C6F66"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48AA2E767967136C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "6CD72EC5F83E6294"
+			rewards: [
+				{
+					id: "287A56BBBA3AA690"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0E70DB7C45D5157B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20E9100E64EC8AE2"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "40ADD406B418B070"
+			rewards: [
+				{
+					id: "72A0A58EF2E95ABF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4C4F9F62CAD202A6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A96C30C384C59A4"
+				item: {
+					Count: 1b
+					id: "artifacts:villager_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "354271EA44AA79AE"
+			rewards: [
+				{
+					id: "6380F38125CAB3CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "18ABCB2C382FCB3B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AA135E076938DBB"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "3453DCCBAB690A2E"
+			rewards: [
+				{
+					id: "2F42107A634CF2AD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "35617F2F7B82D1FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43870E729420AF24"
+				item: {
+					Count: 1b
+					id: "artifacts:lucky_scarf"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "5912F24D303C5D1A"
+			rewards: [
+				{
+					id: "4FF8D41DAD7B2AD8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3252D668A875C769"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C3287923C38BE55"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "0209B501CE678F0D"
+			rewards: [
+				{
+					id: "30504F744FF05636"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4FC873DFF0EA0773"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17AF009562626121"
+				item: {
+					Count: 1b
+					id: "artifacts:obsidian_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "203DBB84E6F76851"
+			rewards: [
+				{
+					id: "1B7997CA6BD8BF6E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "29A0AEFD7BE87FD1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33B373E78F2DB2A2"
+				item: {
+					Count: 1b
+					id: "artifacts:kitty_slippers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "303556DCD3B57E9B"
+			rewards: [
+				{
+					id: "480B69E5FB79368C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "40E20A2BE223DF18"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "365D1612B417C388"
+				item: {
+					Count: 1b
+					id: "botania:magnet_ring_greater"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "3997C154A356A6A4"
+			rewards: [
+				{
+					id: "42A42B62DA32640E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "697C543B9B49224E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "239C52A699DF43FA"
+				item: {
+					Count: 1b
+					id: "botania:invisibility_cloak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "3CE2A3BFE0CF2F5F"
+			rewards: [
+				{
+					id: "11E66972C0346899"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1C1DC183F62E951F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2C83517B4A782646"
+				item: {
+					Count: 1b
+					id: "botania:dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "37E081F2E5A418C9"
+			rewards: [
+				{
+					id: "015947CDF7FA0D82"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3EC2F009171EC709"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "24B221D5FC1495FA"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "365CF2F8D998C129"
+			rewards: [
+				{
+					id: "2260BCF874F755CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "20BB83DB296C8A52"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4ABC85A86D6953C8"
+				item: {
+					Count: 1b
+					id: "relics:enders_hand"
+					tag: {
+						Damage: 0
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 22.418d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "70DFDB3173518E10"
+			rewards: [
+				{
+					id: "4892FFE82BDD0731"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C2DFAC2250A772B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "45A9CAF6D9D4D466"
+				item: {
+					Count: 1b
+					id: "relics:ice_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.243d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 42.753d
+									speed: 0.025d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "16664C2903A62846"
+			rewards: [
+				{
+					id: "438678B62607B258"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "10445854FEE39F78"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "169756BF3BE0219C"
+				item: {
+					Count: 1b
+					id: "relics:horse_flute"
+					tag: {
+						Damage: 0
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.072d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "25F10699BC95168E"
+			rewards: [
+				{
+					id: "35B5D23E0B8E09A3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1957C909031CAEF5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4A6F6B1A2CE10358"
+				item: {
+					Count: 1b
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.451d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.535d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "7F29B16A2FF63552"
+			rewards: [
+				{
+					id: "0E48919FC7EEB26B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "315A190A4453160B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "194593D2D805F183"
+				item: "cyclic:charm_xp_speed"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "05971A1830375F2A"
+			rewards: [
+				{
+					id: "149D4661BDF9BB91"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6AF039CE0DBE91BD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0C3249B930B7A3E2"
+				item: {
+					Count: 1b
+					id: "botania:black_hole_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "21710D6FFE8BD8D2"
+			rewards: [
+				{
+					id: "2FEAEA232544EC79"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "419505094F9FE268"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1ACCB64F3165E024"
+				item: {
+					Count: 1b
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUIDLeast: -8778025163686097661L
+						baubleUUIDMost: -6497266275098736007L
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "4F0C2CD6EE421F2F"
+			rewards: [
+				{
+					id: "0B04D3FC19625CFD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "18F6B5F46CCF8CD6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "77903262B8145724"
+				item: "gobber2:gobber2_ring_repair"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "011104C5692DBF0A"
+			rewards: [
+				{
+					id: "69E153FDD80EA11B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56619EA6F85A8810"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "222AE330A5A2E2F2"
+				item: {
+					Count: 1b
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 27.07145d
+									time: 9.56473d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "6519B663486DF850"
+			rewards: [
+				{
+					id: "74E91617F8E383AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E6CABCFCDBC4769"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30A6BF681D6B58A0"
+				item: "gobber2:gobber2_ring_blink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "471E522492B65DF8"
+			rewards: [
+				{
+					id: "69CFC063B388610C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66451B50E5EE0756"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "130B787209F9B044"
+				item: "gobber2:gobber2_ring_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "&a&oTreasures \\& Artifacts"
+}

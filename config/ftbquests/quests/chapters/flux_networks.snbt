@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flux_networks"
+	group: "62AD16E73710A992"
+	icon: "fluxnetworks:flux_controller"
+	id: "42510D445257E239"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -4.535714285714285d
+		y: -5.9089285714285715d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AD0A09E83F4D09C"]
+			description: [
+				"Here is the default method of converting &cRedstone Dust&r into &0Flux&r."
+				""
+				"&bStep 1:&r Find some &5Bedrock&r."
+				""
+				"&bStep 2:&r Place some &dObsidian&r above it, leaving one block space in between."
+				""
+				"&bStep 3:&r Throw some &cRedstone Dust&r in the gap left by the &5Bedrock&r and &dObsidian&r."
+				""
+				"&bStep 4:&r &aLeft-click&r the &dObsidian&r. The &dObsidian&r will crush the &cRedstone Dust&r against the &5Bedrock&r and create &0Flux&r!"
+				""
+				"There is &nno limit&r to the amount of &cRedstone Dust&r you can use each time."
+			]
+			id: "439C6C61A5263D31"
+			min_width: 300
+			rewards: [
+				{
+					id: "098A2D9AD2DC4C5A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B98C9425E80A24F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The key crafting ingredient of the mod"
+			tasks: [{
+				id: "02B777D641194D80"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "&fFlux"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["439C6C61A5263D31"]
+			description: [
+				"&eFlux Configurator&r can be used to &o&baccess&r, &o&bedit&r, &o&bdelete&r networks on the go, and shares the same &o&bGUI&r as connectors."
+				""
+				"&eFlux Configurator&r can also be used to &9copy&r/&cpaste&r settings &o&bbetween connectors&r."
+				""
+				"&bCopying Settings:&r"
+				"&aShift+Right-click&r on a connector to copy it's settings and then &aRight-click&r on a connector you wish to paste the settings to. If you &aRight-click&r something which isn't a connector you'll bring up the &dNetwork&r &o&bGUI&r and also you'll be able to edit the settings which the &2Configurator&r will paste."
+			]
+			id: "1651E315517369BD"
+			min_width: 300
+			rewards: [
+				{
+					id: "3FE6B4971C2B713D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29390F7695E37891"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Flux Configurator can also be connected to a network"
+			tasks: [{
+				id: "7EBA08CBDBF4EEC5"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			title: "&fFlux Configurator"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["486457F40D2A1D29"]
+			id: "7AA18B409FB698D2"
+			rewards: [
+				{
+					id: "63AAA1629FBC0854"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7391FACA85519205"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Other key crafting ingredients of the mod!"
+			tasks: [{
+				id: "2A6AAD2D1CD9E259"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			title: "&fFlux Block"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AA18B409FB698D2"]
+			description: [
+				"&9Flux Storage&r is used to &o&bstore&r excess energy. It will only be filled once each &2Flux Point&r has received enough energy."
+				""
+				"This &cEnergy&r can only be &o&baccessed&r by removing energy with a &2Flux Point&r."
+				""
+				"Energy Capacity: &b1,000,000&r &cFE&r"
+			]
+			id: "1B60491EDE73447B"
+			min_width: 330
+			rewards: [
+				{
+					id: "78E201152E47A154"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03CD1CD00E637C54"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Used to Store Energy in the network"
+			tasks: [{
+				id: "000430BA08919240"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			title: "&fFlux Storage"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["486457F40D2A1D29"]
+			description: ["You can add energy from all sides simultaneously."]
+			id: "7AEAF2E101B5D652"
+			min_width: 230
+			rewards: [
+				{
+					id: "1258C3F536BF4A85"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "425B50A4D0D0DCAB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Used for Adding Energy to the network"
+			tasks: [{
+				id: "1F02234419CA3CD9"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			title: "&fFlux Plug"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["486457F40D2A1D29"]
+			description: ["You can remove energy from all sides simultaneously."]
+			id: "6E9B60CCAE55E387"
+			min_width: 250
+			rewards: [
+				{
+					id: "52A1B4AF75689C63"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "205A6A5A2A0882D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Used to Remove Energy from the network"
+			tasks: [{
+				id: "7F8B33C6790AE7CC"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			title: "&fFlux Point"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"439C6C61A5263D31"
+				"7AA18B409FB698D2"
+				"486457F40D2A1D29"
+			]
+			description: [
+				"&eInventory&r charging can be &o&bconfigured&r in the &dWireless Charging Tab&r."
+				""
+				"Only one &2Flux Controller&r can be &o&bconnected&r to a &o&bnetwork&r at one time. The &2Controller's&r '&cOutput&r' refers to energy outputted from the network via &6Wireless Charging&r."
+				""
+				"&dNetwork's&r do &nnot&r require a &2Flux Controller&r to operate."
+			]
+			id: "1C214DD51C58BE4D"
+			min_width: 300
+			rewards: [
+				{
+					id: "0C9A194C34A54DCB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63F3453E7285DD14"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Required to activate Cross-dimensional inventory charging"
+			tasks: [{
+				id: "0120A13DAF9C15AF"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			title: "&fFlux Controller"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B60491EDE73447B"]
+			description: ["Energy Capacity: &b8,000,000&r &cFE&r"]
+			id: "4CC229C23E5AC155"
+			rewards: [
+				{
+					id: "39DA2C26EFA94732"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46FD73CE83DC9406"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "28F65D4F11F6AA7B"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CC229C23E5AC155"]
+			description: ["Energy Capacity: &b128,000,000&r &cFE&r"]
+			id: "6886DFF567919753"
+			rewards: [
+				{
+					id: "3D56B8DBBA994EA6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DDFAA63E878162D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.7d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "0E8AC367918AD54F"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&2Flux Networks&r gives you the ability to build &cWireless Energy Networks&r. It allows you to customise these networks and manage the flow of energy across your world."
+				""
+				"Removing the need to have cables going everywhere, hence decreasing lag and saving you time. &cEnergy&r can also be transferred &dacross dimensions&r making energy management simple."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/fn.png"
+				}
+			}
+			id: "7AD0A09E83F4D09C"
+			min_width: 300
+			rewards: [
+				{
+					id: "6AAF0F5B03676D63"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "27622F03BCB79DD9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oDiamond Pickaxe&r quest*"
+			tasks: [{
+				id: "0A5DAF2F42E5BEB5"
+				type: "checkmark"
+			}]
+			title: "Welcome to &2Flux Networks"
+			x: -5.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["439C6C61A5263D31"]
+			id: "486457F40D2A1D29"
+			rewards: [
+				{
+					id: "79DFB049A0B46D09"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0309943AEC660C60"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Other key crafting ingredients of the mod!"
+			tasks: [{
+				id: "2E3C48AB30023865"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "&fFlux Core"
+			x: -0.5d
+			y: -3.0d
+		}
+	]
+	title: "&2&oFlux Networks"
+}

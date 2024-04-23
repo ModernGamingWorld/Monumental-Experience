@@ -1,0 +1,150 @@
+
+#Configure Mutant More's hostile and tamed Rodlings on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# 
+# Hostile Rodling Options
+[hostile_config]
+	#
+	# The amount of Experience dropped by the hostile Rodling when it dies
+	# usually set to 5
+	"Hostile Experience Reward" = 5
+	#
+	# The damage dealt to mobs hit by the hostile Rodling's Fireballs
+	# usually set to 6.0
+	"Hostile Fireball Damage" = 6.0
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by the hostile Rodling's Fireballs
+	# usually set to 5 seconds
+	"Hostile Fireball Set Mobs on Fire Length" = 5
+	#
+	# The hostile Rodling's max health
+	# usually set to 10.0
+	"Hostile Max Health" = 10.0
+	#
+	# The hostile Rodling's armour value
+	# usually set to 0.0
+	"Hostile Armour" = 0.0
+	#
+	# The hostile Rodling's armour toughness value
+	# usually set to 0.0
+	"Hostile Armour Toughness" = 0.0
+	#
+	# The hostile Rodling's movement speed
+	# usually set to 0.125
+	"Hostile Movement Speed" = 0.125
+	#
+	# The distance that hostile Rodlings can target mobs from
+	# usually set to 30.0
+	"Hostile Follow Range" = 30.0
+	#
+	# The hostile Rodling's resistance to attack knockback
+	# usually set to 0.0
+	"Hostile Knockback Resistance" = 0.0
+	#
+	# If the hostile Rodling's attacks ignore the brief invulnerability mobs get when damaged
+	# Makes sure the hostile Rodling's attacks always hit when they're supposed to
+	# usually set to true
+	"Hostile Ignores Invulnerability Time" = true
+	#
+	# If the hostile Rodling's fireballs set blocks they collide with on fire
+	# usually set to true
+	"Hostile Fireball Griefing" = true
+	#
+	# The maximum distance from its target that the hostile Rodling can be to use its shoot attack
+	# usually set to 10.0
+	"Hostile Shoot Maximum Distance" = 10.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that it takes for a shielded hostile Rodling to regenerate a broken shield
+	# usually set to 150 ticks (7.5 seconds)
+	"Hostile Shield Regenerate Time" = 150
+	#
+	# If the hostile Rodling attacks players
+	# usually set to true
+	"Hostile Attacks Players" = true
+	#
+	# The amount that the hostile Rodling's movement speed is multiplied when it's pursuing a target
+	# usually set to 1.5
+	"Hostile Following Movement Speed Multiplier" = 1.5
+	#
+	# The distance to its target that the hostile Rodling tries to reach
+	# usually set to 7.5
+	"Hostile Follow Target Wanted Distance" = 7.5
+
+#
+# 
+# Tamed Rodling Options
+[tamed_config]
+	#
+	# The damage dealt to mobs hit by the tamed Rodling's Fireballs
+	# usually set to 3.0
+	"Tamed Fireball Damage" = 3.0
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by the tamed Rodling's Fireballs
+	# usually set to 5 seconds
+	"Tamed Fireball Set Mobs on Fire Length" = 5
+	#
+	# The tamed Rodling's max health
+	# usually set to 15.0
+	"Tamed Max Health" = 15.0
+	#
+	# The tamed Rodling's armour value
+	# usually set to 0.0
+	"Tamed Armour" = 0.0
+	#
+	# The tamed Rodling's armour toughness value
+	# usually set to 0.0
+	"Tamed Armour Toughness" = 0.0
+	#
+	# The tamed Rodling's movement speed
+	# usually set to 0.125
+	"Tamed Movement Speed" = 0.125
+	#
+	# The distance that tamed Rodlings can target mobs from
+	# usually set to 10.0
+	"Tamed Follow Range" = 10.0
+	#
+	# The tamed Rodling's resistance to attack knockback
+	# usually set to 0.0
+	"Tamed Knockback Resistance" = 0.0
+	#
+	# If the tamed Rodling's attacks ignore the brief invulnerability mobs get when damaged
+	# Makes sure the tamed Rodling's attacks always hit when they're supposed to
+	# usually set to true
+	"Tamed Ignores Invulnerability Time" = true
+	#
+	# The amount of time in ticks (20 ticks in a second) that it takes for a shielded tamed Rodling to regenerate a broken shield
+	# usually set to 150 ticks (7.5 seconds)
+	"Tamed Shield Regenerate Time" = 150
+	#
+	# The percent of max health that the tamed Rodling is healed when fed with a valid item
+	# usually set to 20%
+	"Tamed Fed Heal Percent" = 20
+	#
+	# If tamed Rodlings can harm their owner and mobs allied to their owner (mainly other pets)
+	# usually set to false
+	"Tamed Friendly Fire" = false
+	#
+	# The maximum distance from its target that the tamed Rodling can be to use its shoot attack
+	# usually set to 10.0
+	"Tamed Shoot Maximum Distance" = 10.0
+	#
+	# The amount that the tamed Rodling's movement speed is multiplied when it's pursuing a target
+	# usually set to 1.5
+	"Tamed Following Movement Speed Multiplier" = 1.5
+	#
+	# The distance to its target that the tamed Rodling tries to reach
+	# usually set to 7.5
+	"Tamed Follow Target Wanted Distance" = 7.5
+	#
+	# The amount that the tamed Rodling's movement speed is multiplied when it's following its owner
+	# usually set to 1.5
+	"Tamed Follow Owner Movement Speed Multiplier" = 1.5
+	#
+	# The minimum distance from its owner that the tamed Rodling has to be to start following them
+	# usually set to 7.5
+	"Tamed Follow Owner Start Minimum Distance" = 7.5
+	#
+	# The maximum distance from its owner that the tamed Rodling can be to stop following them
+	# usually set to 5.0
+	"Tamed Follow Owner Stop Maximum Distance" = 5.0
+

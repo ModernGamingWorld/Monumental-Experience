@@ -1,0 +1,7 @@
+
+[general]
+	#If true, villagers will pick up food items from the regardless of mob griefing gamerule. Needed since with mob griefing on they wont be able to breed.
+	pickup_food_override = true
+	#If true, villagers will eat food items they pick up. Eating food will heal them
+	eat_food = true
+

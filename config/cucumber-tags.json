@@ -1,0 +1,8 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/tungsten": "moremekanismprocessing:tungsten_ingot",
+  "forge:ingots/mithril": "null",
+  "forge:ingots/chrome": "null",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
+  "forge:ingots/titanium": "moremekanismprocessing:titanium_ingot"
+}

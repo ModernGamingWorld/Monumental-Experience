@@ -1,0 +1,1174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_jetpacks"
+	group: "62AD16E73710A992"
+	icon: {
+		Count: 1b
+		id: "ironjetpacks:jetpack"
+		tag: {
+			Id: "ironjetpacks:creative"
+			Throttle: 1.0d
+		}
+	}
+	id: "54E42E542ED69BB2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"071125FC42EBEAB9"
+				"7DC608A0643474D8"
+			]
+			description: ["Acquire the parts for the &o&bWooden Jetpack"]
+			id: "245C31A66C9A0F8F"
+			rewards: [
+				{
+					id: "1EFC01410FD66C1E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "481F2BC7468E7754"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [
+				{
+					id: "501453BF99082D50"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:wood"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1AB3A713C1F7C61B"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:wood"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "7E45BE7DF16138D9"
+					item: "ironjetpacks:strap"
+					type: "item"
+				}
+			]
+			title: "Wood Jetpack Parts"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["245C31A66C9A0F8F"]
+			description: [
+				"&o&bCan store up to: 20,000 FE."
+				""
+			]
+			id: "1F4722FEE369A8E8"
+			rewards: [
+				{
+					id: "769AFD0A09E64E06"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25B31EA2E113E506"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Wood Jetpack"
+			tasks: [{
+				id: "43EA46CB1E2D437E"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DC608A0643474D8"]
+			id: "5675FA54871F927C"
+			rewards: [
+				{
+					id: "3C77BC65DE290D8B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E078A036BA0A957"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bStone Jetpack"
+			tasks: [
+				{
+					id: "2F59CDC0083C1B1C"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:stone"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "272D30BA60177E79"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:stone"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Stone Jetpack Parts"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DC608A0643474D8"]
+			id: "035A6939F4617A37"
+			rewards: [
+				{
+					id: "2543A3E9B316419F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B7AE52A304F38DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bCopper Jetpack"
+			tasks: [
+				{
+					id: "76AB05AA965EF9EB"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:copper"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BDA5C3E23BD8A2A"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:copper"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Copper Jetpack Parts"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5675FA54871F927C"]
+			description: ["&o&bCan store up to: 100,000 FE."]
+			id: "300BAFE6668AC4E1"
+			rewards: [
+				{
+					id: "5800BE1322319157"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1BFC502F24F751ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Stone Jetpack"
+			tasks: [{
+				id: "53EFD1D5AE2BC9C8"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035A6939F4617A37"]
+			description: [
+				"&o&bCan store up to: 250,000 FE."
+				""
+			]
+			id: "2F5BEB08AF0E793E"
+			rewards: [
+				{
+					id: "48E6A6FB41F2A9E0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "413F66ADD2EC4A34"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Copper Jetpack"
+			tasks: [{
+				id: "53BF61FA2D2A36A3"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			id: "54943B7912674AD0"
+			rewards: [
+				{
+					id: "02443729C6944C46"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2EED2059926AA420"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bSilver Jetpack"
+			tasks: [
+				{
+					id: "2D0C7F1A3A134ACE"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:silver"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5455F37A9755CB5F"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:silver"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Silver Jetpack Parts"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DC608A0643474D8"]
+			dependency_requirement: "one_completed"
+			id: "48D4F012C2C2D360"
+			rewards: [
+				{
+					id: "60B77C24615B107B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52B8A2CA2ADB426C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft an &o&bAdvanced Coil"
+			tasks: [{
+				id: "5A120CC9E337278D"
+				item: "ironjetpacks:advanced_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54943B7912674AD0"]
+			description: [
+				"&7Can store up to: &o&b1,200,000 FE."
+				""
+			]
+			id: "24606B09ED82B355"
+			rewards: [
+				{
+					id: "14BD21CA4B3DA8EC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A371F55B6F99162"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Silver Jetpack"
+			tasks: [{
+				id: "21E16CD7B7580E14"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:silver"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			id: "41D1EA7782529DF2"
+			rewards: [
+				{
+					id: "451464C02040EA69"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "455C2875D60527A7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bBronze Jetpack"
+			tasks: [
+				{
+					id: "6952455523F50263"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:bronze"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39B9601EF655F415"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:bronze"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Bronze Jetpack Parts"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			id: "7F02FDCD31D9B9CE"
+			rewards: [
+				{
+					id: "32D99E2BDC959F35"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "281BFC70E8E68F49"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bIron Jetpack"
+			tasks: [
+				{
+					id: "7AD17F053C700B96"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:iron"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2C856A2261DBC0AA"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:iron"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Iron Jetpack Parts"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F02FDCD31D9B9CE"]
+			description: [
+				"&7Can store up to: &o&b800,000 FE."
+				""
+			]
+			id: "42824B222CD70F4C"
+			rewards: [
+				{
+					id: "2CC3C6F6F522E7BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "720BFA48AA26B66D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft an Iron Jetpack"
+			tasks: [{
+				id: "4479327335AE4173"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41D1EA7782529DF2"]
+			description: [
+				"&7Can store up to: &o&b800,000 FE."
+				""
+			]
+			id: "35DC5500D2B9FF87"
+			rewards: [
+				{
+					id: "4E1EFBCD632DA387"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0500A9FCC7C8391A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Bronze Jetpack"
+			tasks: [{
+				id: "353501D04B20006C"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07EBA212E468FDAB"]
+			description: [
+				"&7Can store up to: &o&b10,000,000 FE."
+				""
+			]
+			id: "0E33C9BF2E1C254C"
+			rewards: [
+				{
+					id: "69BBF2F329C13A07"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3120BB92232A8E79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Gold Jetpack"
+			tasks: [{
+				id: "4DBB2805E8679BEC"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["289C0EE6A4751745"]
+			description: [
+				"&7Can store up to: &o&b12,000,000 FE."
+				""
+			]
+			id: "187635F6CF15D7CC"
+			rewards: [
+				{
+					id: "12879CB9C1809FD7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66F36FB9C2FA038D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft an Electrum Jetpack"
+			tasks: [{
+				id: "1F1EBBD28CE23148"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:electrum"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63FE4269BDB4CABB"]
+			description: [
+				"&7Can store up to: &o&b12,000,000 FE."
+				""
+			]
+			id: "4437EB88A3766873"
+			rewards: [
+				{
+					id: "3C27B428DB39486B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0429A9A0055DB0E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Steel Jetpack"
+			tasks: [{
+				id: "1AEDBF200A30FDAF"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			dependency_requirement: "one_completed"
+			id: "289C0EE6A4751745"
+			rewards: [
+				{
+					id: "24E66C76C5EC7EB0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "070A632B6D6938AE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bElectrum Jetpack"
+			tasks: [
+				{
+					id: "17826ADABB0EA3F1"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:electrum"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A3B1799A6B26ED5"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:electrum"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Electrum Jetpack Parts"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			dependency_requirement: "one_completed"
+			id: "63FE4269BDB4CABB"
+			rewards: [
+				{
+					id: "64ED5CFCA5C040C4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26E1A5E6C16E10FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bSteel Jetpack"
+			tasks: [
+				{
+					id: "2754D43946889718"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:steel"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44EC84C1F949954A"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:steel"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Steel Jetpack Parts"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48D4F012C2C2D360"]
+			dependency_requirement: "one_completed"
+			id: "07EBA212E468FDAB"
+			rewards: [
+				{
+					id: "4C474EF2B29C2568"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22C0FF5FFEA23FCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bGold Jetpack"
+			tasks: [
+				{
+					id: "79CA37879F029D89"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:gold"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "709E9CBF5A488671"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:gold"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Gold Jetpack Parts"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DC608A0643474D8"]
+			dependency_requirement: "one_completed"
+			id: "7BBDC7D3EB01C04E"
+			rewards: [
+				{
+					id: "7A6D93EAE1033671"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "296D9C7D52E93E42"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft an &o&bElite Coil"
+			tasks: [{
+				id: "58197EAF2A627B44"
+				item: "ironjetpacks:elite_coil"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BBDC7D3EB01C04E"]
+			id: "73F871136B853A23"
+			rewards: [
+				{
+					id: "5BF5FC2DD620FDCC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1160E9B471B21B1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bDiamond Jetpack"
+			tasks: [
+				{
+					id: "44D97FBA0E3D2A3C"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:diamond"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7288201961C5E14A"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:diamond"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73F871136B853A23"]
+			description: ["&o&bCan store up to: 30,000,000 FE."]
+			id: "29C16C6ECC8992FF"
+			rewards: [
+				{
+					id: "11063446A494F796"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2209B13361B12781"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Diamond Jetpack"
+			tasks: [{
+				id: "0305684FC8DDCB6F"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Diamond Jetpack Parts"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BBDC7D3EB01C04E"]
+			id: "3F1FFFB843E737DB"
+			rewards: [
+				{
+					id: "5F1507883BAD813D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C8029F6F44E48D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Craft an &o&bUltimate Coil"
+			tasks: [{
+				id: "6212F4021BC0C708"
+				item: "ironjetpacks:ultimate_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BBDC7D3EB01C04E"]
+			id: "2C9C71BD13D1BFED"
+			rewards: [
+				{
+					id: "2CFD2B1C9F08A5F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0311C4ACE4855F57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bEmerald Jetpack"
+			tasks: [
+				{
+					id: "37FEC8D463A80793"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:emerald"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1211B82B50FE28BC"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:emerald"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Emerald Jetpack Parts"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C9C71BD13D1BFED"]
+			description: ["&7Can store up to: &o&b48,000,000 FE."]
+			id: "759A987C17908AD0"
+			rewards: [
+				{
+					id: "57772A3C79D44835"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69F65FA4E6674849"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft an Emerald Jetpack"
+			tasks: [{
+				id: "261C548F3EE39241"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F1FFFB843E737DB"]
+			id: "0328C889051D838C"
+			rewards: [
+				{
+					id: "28A5846DD605E4C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5CD2B8F7E333CD31"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquire the parts for the &o&bNetherite Jetpack"
+			tasks: [
+				{
+					id: "57A313F15B01386B"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:netherite"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30568674EE34F1B8"
+					item: {
+						Count: 1b
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:netherite"
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Netherite Jetpack Parts"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0328C889051D838C"]
+			description: [
+				"&o&bCan store up to: 100,000,000 FE."
+				""
+			]
+			id: "64FAAE445A6C01C9"
+			rewards: [
+				{
+					id: "0F60E3591793DB0A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F6985F49DA6C3FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Craft a Netherite Jetpack"
+			tasks: [{
+				id: "525B8FE5DD4D88E5"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:netherite"
+						Throttle: 1.0d
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			id: "7DC608A0643474D8"
+			rewards: [
+				{
+					id: "4042133993F1AFA4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "568AA36E3B7FA0EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "33F6243719D0CC41"
+				item: "ironjetpacks:basic_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Reach for the sky!"]
+	title: "&2&oIron Jetpacks"
+}

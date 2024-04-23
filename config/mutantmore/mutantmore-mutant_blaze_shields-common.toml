@@ -1,0 +1,6 @@
+#Configure Mutant More's Mutant Blaze Shields on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The amount of time in ticks (20 ticks in a second) after using Mutant Blaze Shields before you can use them again
+# usually set to 2400 ticks (2 minutes)
+"Use Cooldown" = 2400
+
