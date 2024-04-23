@@ -1,0 +1,643 @@
+
+#Bo's Easy Mob Farm
+[General]
+	#Enable/Disable owner messages about full storage to avoid lagging systems.
+	informOwnerAboutFullStorage = false
+	#Enable/Disable full storage log messages for the server logs.
+	logFullStorage = true
+	#Number of roll's to get the loot preview for a captured mob. Higher numbers require more server load, but giving a more completed overview.
+	#Range: 1 ~ 5
+	lootPreviewRolls = 2
+	#Enable/Disable the drop sound for the loot drops.
+	playDropSound = true
+	#The following mobs are allowed to be captured with any mob catcher and all mob farms. (Use empty list to disable!)
+	generalAllowedMobs = []
+	#The following mobs are not allowed to be captured with any mob catcher and all mob farms. (Use empty list to allow all mobs!)
+	generalDeniedMobs = ["minecraft:warden", "minecraft:ender_dragon", "minecraft:wither"]
+	#Enable/Disable the damage of the weapon item which is used for player killed drops.
+	damageWeaponItem = true
+
+["Copper Mob Farms"]
+
+	#Configuration for the copper mob farms.
+	["Copper Mob Farms"."Copper Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperAnimalPlainsFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Denied Mobs for the animal plains farm.
+		copperAnimalPlainsFarmDeniedMobs = []
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		copperAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+
+	["Copper Mob Farms"."Copper Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperBeeHiveFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Denied Mobs for the bee hive farm.
+		copperBeeHiveFarmDeniedMobs = []
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		copperBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:spawn_egg_configurable_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+
+	["Copper Mob Farms"."Copper Desert Farm"]
+		#Defines after how many seconds a drop is performed.
+		#Range: 10 ~ 3600
+		copperDesertFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Denied Mobs for the desert farm.
+		copperDesertFarmDeniedMobs = []
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		copperDesertFarmAllowedMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+
+	["Copper Mob Farms"."Copper Jungle Farm"]
+		#Defines after how many seconds a drop is performed.
+		#Range: 10 ~ 3600
+		copperJungleFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperJungleFarmDropSound = "minecraft:block.azalea.hit"
+		#Denied Mobs for the jungle farm.
+		copperJungleFarmDeniedMobs = []
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		copperJungleFarmAllowedMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Copper Mob Farms"."Copper Monster Plains Cave Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperMonsterPlainsCaveFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperMonsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+		#Denied Mobs for the plains cave farm.
+		copperMonsterPlainsCaveFarmDeniedMobs = []
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		copperMonsterPlainsCaveFarmAllowedMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Copper Mob Farms"."Copper Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperNetherFortressFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperNetherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+		#Denied Mobs for the nether farm.
+		copperNetherFortressFarmDeniedMobs = []
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		copperNetherFortressFarmAllowedMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+
+	["Copper Mob Farms"."Copper Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperOceanFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperOceanFarmDropSound = "minecraft:entity.fish.swim"
+		#Denied Mobs for the ocean farm.
+		copperOceanFarmDeniedMobs = []
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		copperOceanFarmAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+
+	["Copper Mob Farms"."Copper Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		copperSwampFarmProcessTime = 600
+		#Defines the sound which is played when a loot drop is performed.
+		copperSwampFarmDropSound = "minecraft:entity.slime.squish"
+		#Denied Mobs for the swamp farm.
+		copperSwampFarmDeniedMobs = []
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		copperSwampFarmAllowedMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+
+["Iron Mob Farms"]
+
+	#Configuration for the iron mob farms.
+	["Iron Mob Farms"."Iron Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironAnimalPlainsFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Denied Mobs for the animal plains farm.
+		ironAnimalPlainsFarmDeniedMobs = []
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		ironAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+
+	["Iron Mob Farms"."Iron Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironBeeHiveFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Denied Mobs for the bee hive farm.
+		ironBeeHiveFarmDeniedMobs = []
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		ironBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:spawn_egg_configurable_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+
+	["Iron Mob Farms"."Iron Desert Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironDesertFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Denied Mobs for the desert farm.
+		ironDesertFarmDeniedMobs = []
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		ironDesertFarmAllowedMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+
+	["Iron Mob Farms"."Iron Jungle Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironJungleFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironJungleFarmDropSound = "minecraft:block.azalea.hit"
+		#Denied Mobs for the jungle farm.
+		ironJungleFarmDeniedMobs = []
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		ironJungleFarmAllowedMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Iron Mob Farms"."Iron Monster Plains Cave Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironMonsterPlainsCaveFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironMonsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+		#Denied Mobs for the plains cave farm.
+		ironMonsterPlainsCaveFarmDeniedMobs = []
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		ironMonsterPlainsCaveFarmAllowedMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Iron Mob Farms"."Iron Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironNetherFortressFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironNetherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+		#Denied Mobs for the nether farm.
+		ironNetherFortressFarmDeniedMobs = []
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		ironNetherFortressFarmAllowedMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+
+	["Iron Mob Farms"."Iron Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironOceanFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironOceanFarmDropSound = "minecraft:entity.fish.swim"
+		#Denied Mobs for the ocean farm.
+		ironOceanFarmDeniedMobs = []
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		ironOceanFarmAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+
+	["Iron Mob Farms"."Iron Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironSwampFarmProcessTime = 300
+		#Defines the sound which is played when a loot drop is performed.
+		ironSwampFarmDropSound = "minecraft:entity.slime.squish"
+		#Denied Mobs for the swamp farm.
+		ironSwampFarmDeniedMobs = []
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		ironSwampFarmAllowedMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+
+["Gold Mob Farms"]
+
+	#Configuration for the gold mob farms.
+	["Gold Mob Farms"."Gold Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldAnimalPlainsFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Denied Mobs for the animal plains farm.
+		goldAnimalPlainsFarmDeniedMobs = []
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		goldAnimalPlainsFarmAllowedMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
+
+	["Gold Mob Farms"."Gold Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldBeeHiveFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Denied Mobs for the bee hive farm.
+		goldBeeHiveFarmDeniedMobs = []
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		goldBeeHiveFarmAllowedMobs = ["productivebees:glowing_bee", "productivebees:copper_bee", "productivebees:gold_bee", "productivebees:brass_bee", "productivebees:emerald_bee", "productivebees:plastic_bee", "productivebees:iron_bee", "productivebees:spawn_egg_configurable_bee", "productivebees:red_shroom_bee", "productivebees:redstone_bee", "productivebees:chocolate_mining_bee", "productivebees:salty_bee", "productivebees:withered_bee", "productivebees:coal_bee", "productivebees:rancher_bee", "productivebees:creeper_bee", "productivebees:ghostly_bee", "productivebees:radioactive_bee", "productivebees:magmatic_bee", "minecraft:bee", "productivebees:lapis_bee", "productivebees:steel_bee", "productivebees:slimy_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:draconic_bee", "productivebees:silky_bee", "productivebees:blazing_bee", "productivebees:elementium_bee", "productivebees:skeletal_bee", "productivebees:zinc_bee", "productivebees:brown_shroom_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:ender_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:ametrine_bee", "productivebees:diamond_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:pink_slimy_bee", "productivebees:terrasteel_bee", "productivebees:amethyst_bee"]
+
+	["Gold Mob Farms"."Gold Desert Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldDesertFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Denied Mobs for the desert farm.
+		goldDesertFarmDeniedMobs = []
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		goldDesertFarmAllowedMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:husk", "minecraft:rabbit"]
+
+	["Gold Mob Farms"."Gold Jungle Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldJungleFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldJungleFarmDropSound = "minecraft:block.azalea.hit"
+		#Denied Mobs for the jungle farm.
+		goldJungleFarmDeniedMobs = []
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		goldJungleFarmAllowedMobs = ["minecraft:skeleton", "minecraft:witch", "minecraft:pig", "minecraft:sheep", "minecraft:parrot", "minecraft:cow", "minecraft:enderman", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:panda", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Gold Mob Farms"."Gold Monster Plains Cave Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldMonsterPlainsCaveFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldMonsterPlainsCaveFarmDropSound = "minecraft:block.cave_vines.fall"
+		#Denied Mobs for the plains cave farm.
+		goldMonsterPlainsCaveFarmDeniedMobs = []
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		goldMonsterPlainsCaveFarmAllowedMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:zombie", "minecraft:creeper", "minecraft:zombie_villager", "minecraft:slime"]
+
+	["Gold Mob Farms"."Gold Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldNetherFortressFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldNetherFortressFarmDropSound = "minecraft:block.netherrack.fall"
+		#Denied Mobs for the nether farm.
+		goldNetherFortressFarmDeniedMobs = []
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		goldNetherFortressFarmAllowedMobs = ["minecraft:blaze", "minecraft:skeleton", "minecraft:zombified_piglin", "minecraft:magma_cube", "minecraft:wither_skeleton"]
+
+	["Gold Mob Farms"."Gold Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldOceanFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldOceanFarmDropSound = "minecraft:entity.fish.swim"
+		#Denied Mobs for the ocean farm.
+		goldOceanFarmDeniedMobs = []
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		goldOceanFarmAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "minecraft:squid", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:glow_squid", "aquaculture:pollock", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
+
+	["Gold Mob Farms"."Gold Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		goldSwampFarmProcessTime = 150
+		#Defines the sound which is played when a loot drop is performed.
+		goldSwampFarmDropSound = "minecraft:entity.slime.squish"
+		#Denied Mobs for the swamp farm.
+		goldSwampFarmDeniedMobs = []
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		goldSwampFarmAllowedMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:spider", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
+
+["Netherite Mob Farms"]
+
+	#Configuration for the netherite mob farms.
+	["Netherite Mob Farms"."Netherite Animal Plains Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteAnimalPlainsFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteAnimalPlainsFarmDropSound = "minecraft:entity.chicken.egg"
+		#Denied Mobs for the animal plains farm.
+		netheriteAnimalPlainsFarmDeniedMobs = []
+		#Supported Mobs for the animal plains farm. (Use empty list to allow all mobs.)
+		netheriteAnimalPlainsFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Bee Hive Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteBeeHiveFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteBeeHiveFarmDropSound = "minecraft:block.beehive.exit"
+		#Denied Mobs for the bee hive farm.
+		netheriteBeeHiveFarmDeniedMobs = []
+		#Supported Mobs for the bee hive farm. (Use empty list to allow all mobs.)
+		netheriteBeeHiveFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Desert Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteDesertFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteDesertFarmDropSound = "minecraft:block.sand.hit"
+		#Denied Mobs for the desert farm.
+		netheriteDesertFarmDeniedMobs = []
+		#Supported Mobs for the desert farm. (Use empty list to allow all mobs.)
+		netheriteDesertFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Jungle Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteJungleFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteJungleFarmDropSound = "minecraft:block.bamboo.break"
+		#Denied Mobs for the jungle farm.
+		netheriteJungleFarmDeniedMobs = []
+		#Supported Mobs for the jungle farm. (Use empty list to allow all mobs.)
+		netheriteJungleFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Monster Plains Cave Farms"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteMonsterPlainsCaveFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteMonsterPlainsCaveFarmDropSound = "minecraft:block.netherrack.fall"
+		#Denied Mobs for the plains cave farm.
+		netheriteMonsterPlainsCaveFarmDeniedMobs = []
+		#Supported Mobs for the plains cave farm. (Use empty list to allow all mobs.)
+		netheriteMonsterPlainsCaveFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Nether Fortress Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteNetherFortressFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteNetherFortressFarmDropSound = "minecraft:block.nether_wart.break"
+		#Denied Mobs for the nether farm.
+		netheriteNetherFortressFarmDeniedMobs = []
+		#Supported Mobs for the nether farm. (Use empty list to allow all mobs.)
+		netheriteNetherFortressFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Ocean Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteOceanFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteOceanFarmDropSound = "minecraft:block.bubble_column.bubble_pop"
+		#Denied Mobs for the ocean farm.
+		netheriteOceanFarmDeniedMobs = []
+		#Supported Mobs for the ocean farm. (Use empty list to allow all mobs.)
+		netheriteOceanFarmAllowedMobs = []
+
+	["Netherite Mob Farms"."Netherite Swamp Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		netheriteSwampFarmProcessTime = 75
+		#Defines the sound which is played when a loot drop is performed.
+		netheriteSwampFarmDropSound = "minecraft:block.slime_block.break"
+		#Denied Mobs for the swamp farm.
+		netheriteSwampFarmDeniedMobs = []
+		#Supported Mobs for the swamp farm. (Use empty list to allow all mobs.)
+		netheriteSwampFarmAllowedMobs = []
+
+["Mob Catching Item"]
+
+	#Configuration for the mob catching item.
+	["Mob Catching Item"."Catch Cage"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		catchCageMobCatchingLuck = 6
+		#The following mobs can be catched with the catch cage. (Use empty list to allow all mobs!)
+		catchCageAllowedMobs = ["minecraft:panda", "minecraft:polar_bear"]
+		#The following mobs are not catchable with the catch cage. (Use empty list to allow all mobs!)
+		catchCageDeniedMobs = []
+
+	["Mob Catching Item"."Catch Cage small"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		catchCageSmallMobCatchingLuck = 3
+		#The following mobs can be catched with the catch cage small. (Use empty list to allow all mobs!)
+		catchCageSmallAllowedMobs = ["minecraft:chicken", "minecraft:rabbit", "minecraft:parrot"]
+		#The following mobs are not catchable with the catch cage small. (Use empty list to allow all mobs!)
+		catchCageSmallDeniedMobs = []
+
+	["Mob Catching Item"."Collar small"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		collarSmallMobCatchingLuck = 3
+		#The following mobs can be catched with the collar small. (Use empty list to allow all mobs!)
+		collarSmallAllowedMobs = ["minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:horse", "minecraft:pig", "minecraft:sheep"]
+		#The following mobs are not catchable with the collar small. (Use empty list to allow all mobs!)
+		collarSmallDeniedMobs = []
+
+	["Mob Catching Item"."Ender Lasso"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		enderLassoMobCatchingLuck = 4
+		#The following mobs can be catched with the ender lasso. (Use empty list to allow all mobs!)
+		enderLassoAllowedMobs = ["minecraft:zombie_villager", "minecraft:slime", "minecraft:enderman", "minecraft:cave_spider", "minecraft:zombie", "minecraft:witch", "minecraft:spider", "minecraft:creeper", "minecraft:skeleton", "minecraft:husk"]
+		#The following mobs are not catchable with the ender lasso. (Use empty list to allow all mobs!)
+		enderLassoDeniedMobs = []
+
+	["Mob Catching Item"."Fishing bowl"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		fishingBowlMobCatchingLuck = 3
+		#The following mobs can be catched with the fishing bowl. (Use empty list to allow all mobs!)
+		fishingBowlAllowedMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:atlantic_cod", "aquaculture:atlantic_halibut", "aquaculture:atlantic_herring", "aquaculture:blackfish", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:pollock", "aquaculture:rainbow_trout"]
+		#The following mobs are not catchable with the fishing bowl. (Use empty list to allow all mobs!)
+		fishingBowlDeniedMobs = []
+
+	["Mob Catching Item"."Fishing net small"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		fishingNetSmallMobCatchingLuck = 3
+		#The following mobs can be catched with the fishing net small. (Use empty list to allow all mobs!)
+		fishingNetSmallAllowedMobs = ["minecraft:squid", "alexsmobs:lobster", "alexsmobs:blobfish", "alexsmobs:catfish", "minecraft:glow_squid", "minecraft:cod", "minecraft:salmon", "minecraft:drowned"]
+		#The following mobs are not catchable with the fishing net small. (Use empty list to allow all mobs!)
+		fishingNetSmallDeniedMobs = []
+
+	["Mob Catching Item"."Golden Lasso"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		goldenLassoMobCatchingLuck = 8
+		#The following mobs can be catched with the golden lasso. (Use empty list to allow all mobs!)
+		goldenLassoAllowedMobs = ["minecraft:panda", "minecraft:sheep", "minecraft:rabbit", "minecraft:pig", "minecraft:chicken", "minecraft:lama", "minecraft:cow", "minecraft:horse", "minecraft:cat", "minecraft:bat", "minecraft:parrot", "minecraft:donkey"]
+		#The following mobs are not catchable with the golden lasso. (Use empty list to allow all mobs!)
+		goldenLassoDeniedMobs = []
+
+	["Mob Catching Item"."Insect net"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		insectNetMobCatchingLuck = 3
+		#The following mobs can be catched with the insect net. (Use empty list to allow all mobs!)
+		insectNetAllowedMobs = ["productivebees:hepatizon_bee", "productivebees:signalum_bee", "productivebees:tourmaline_bee", "productivebees:bumble_bee", "productivebees:onyx_bee", "productivebees:redstone_bee", "productivebees:allthemodium_bee", "productivebees:garnet_bee", "productivebees:salty_bee", "productivebees:rose_quartz_bee", "productivebees:topaz_bee", "productivebees:creeper_bee", "productivebees:green_carpenter_bee", "productivebees:silver_bee", "productivebees:slimesteel_bee", "productivebees:ender_bee", "productivebees:morganite_bee", "productivebees:pig_iron_bee", "productivebees:tertium_bee", "productivebees:ametrine_bee", "productivebees:pink_slimy_bee", "productivebees:amethyst_bee", "productivebees:agate_bee", "productivebees:nether_gobber_bee", "productivebees:sunstone_bee", "productivebees:vibranium_bee", "productivebees:rock_crystal_bee", "productivebees:spectrum_bee", "productivebees:malachite_bee", "productivebees:blizz_bee", "productivebees:moldavite_bee", "productivebees:tungsten_bee", "productivebees:compressed_iron_bee", "productivebees:manasteel_bee", "productivebees:ammolite_bee", "productivebees:ghostly_bee", "productivebees:soulsteel_bee", "productivebees:magmatic_bee", "productivebees:resonant_ender_bee", "minecraft:bee", "productivebees:osmium_bee", "productivebees:supremium_bee", "productivebees:nickel_bee", "productivebees:skeletal_bee", "productivebees:bismuth_bee", "productivebees:starmetal_bee", "productivebees:starry_bee", "productivebees:yellow_black_carpenter_bee", "productivebees:ender_slimy_bee", "productivebees:black_opal_bee", "productivebees:iridium_bee", "productivebees:coral_bee", "productivebees:silicon_bee", "productivebees:patrick_bee", "productivebees:black_diamond_bee", "productivebees:iolite_bee", "productivebees:glowing_bee", "productivebees:gold_bee", "productivebees:knightslime_bee", "productivebees:mason_bee", "productivebees:plastic_bee", "productivebees:hoarder_bee", "productivebees:red_shroom_bee", "productivebees:benitoite_bee", "productivebees:invar_bee", "productivebees:emeraldite_bee", "productivebees:sodalite_bee", "productivebees:rancher_bee", "productivebees:menril_bee", "productivebees:radioactive_bee", "productivebees:spinel_bee", "productivebees:lapis_bee", "productivebees:slimy_bee", "productivebees:sweat_bee", "productivebees:sulfur_bee", "productivebees:blue_banded_bee", "productivebees:elementium_bee", "productivebees:nomad_bee", "productivebees:fire_crystal_bee", "productivebees:cats_eye_bee", "productivebees:ashy_mining_bee", "productivebees:jasper_bee", "productivebees:regenerative_bee", "productivebees:water_crystal_bee", "productivebees:ostrum_bee", "productivebees:oily_bee", "productivebees:peridot_bee", "productivebees:earth_crystal_bee", "productivebees:quartz_enriched_iron_bee", "productivebees:electrum_bee", "productivebees:end_gobber_bee", "productivebees:soul_lava_bee", "productivebees:configurable_bee", "productivebees:experience_bee", "productivebees:spacial_bee", "productivebees:netherite_bee", "productivebees:prosperity_bee", "productivebees:silky_bee", "productivebees:lumium_bee", "productivebees:legendary_salvage_bee", "productivebees:cobalt_bee", "productivebees:niter_bee", "productivebees:sugarbag_bee", "productivebees:alexandrite_bee", "productivebees:bloody_bee", "productivebees:cinnabar_bee", "productivebees:moonstone_bee", "productivebees:leafcutter_bee", "productivebees:uraninite_bee", "productivebees:carnelian_bee", "productivebees:aluminum_bee", "productivebees:aquamarine_bee", "productivebees:epic_salvage_bee", "productivebees:fluix_bee", "productivebees:coal_bee", "productivebees:rose_gold_bee", "productivebees:digger_bee", "productivebees:amethyst_bronze_bee", "productivebees:blazing_bee", "productivebees:dye_bee", "productivebees:draconium_bee", "productivebees:grave_bee", "productivebees:turquoise_bee", "productivebees:cupid_bee", "productivebees:insanium_bee", "productivebees:diamond_bee", "productivebees:uncommon_salvage_bee", "productivebees:spirit_bee", "productivebees:ichor_slimy_bee", "productivebees:neon_cuckoo_bee", "productivebees:kamikaz_bee", "productivebees:copper_bee", "productivebees:gobber_bee", "productivebees:brass_bee", "productivebees:bronze_bee", "productivebees:green_sapphire_bee", "productivebees:rare_salvage_bee", "productivebees:lepidolite_bee", "productivebees:titanium_bee", "productivebees:chocolate_bee", "productivebees:blitz_bee", "productivebees:amber_bee", "productivebees:energized_glowstone_bee", "productivebees:lumber_bee", "productivebees:citrine_bee", "productivebees:inferium_bee", "productivebees:pearl_bee", "productivebees:common_salvage_bee", "productivebees:brown_shroom_bee", "productivebees:queens_slime_bee", "productivebees:crimson_bee", "productivebees:warped_bee", "productivebees:zombie_bee", "productivebees:tea_bee", "productivebees:dark_gem_bee", "productivebees:apatite_bee", "productivebees:destabilized_redstone_bee", "productivebees:constantan_bee", "productivebees:hematophagous_bee", "productivebees:phosphophyllite_bee", "productivebees:refined_glowstone_bee", "productivebees:enderium_bee", "productivebees:fey_bee", "productivebees:calorite_bee", "productivebees:iesnium_bee", "productivebees:tektite_bee", "productivebees:geode_bee", "productivebees:fluorite_bee", "productivebees:pure_bee", "productivebees:reed_bee", "productivebees:cosmic_dust_bee", "productivebees:withered_bee", "productivebees:manyullyn_bee", "productivebees:pendorite_bee", "productivebees:arcane_bee", "productivebees:alfsteel_bee", "productivebees:sky_slimy_bee", "productivebees:draconic_bee", "productivebees:awakened_bee", "productivebees:zinc_bee", "productivebees:jade_bee", "productivebees:opal_bee", "productivebees:crystalline_bee", "productivebees:prismarine_bee", "productivebees:chrysoprase_bee", "productivebees:terrasteel_bee", "productivebees:platinum_bee", "productivebees:basalz_bee", "productivebees:prudentium_bee", "productivebees:inert_crystal_bee", "productivebees:zircon_bee", "productivebees:emerald_bee", "productivebees:kunzite_bee", "productivebees:collector_bee", "productivebees:iron_bee", "productivebees:air_crystal_bee", "productivebees:chocolate_mining_bee", "productivebees:awakened_supremium_bee", "productivebees:refined_obsidian_bee", "productivebees:pyrope_bee", "productivebees:ruby_bee", "productivebees:white_diamond_bee", "productivebees:lead_bee", "productivebees:sapphire_bee", "productivebees:kyanite_bee", "productivebees:tanzanite_bee", "productivebees:steel_bee", "productivebees:euclase_bee", "productivebees:farmer_bee", "productivebees:resin_bee", "productivebees:frosty_bee", "productivebees:obsidian_bee", "productivebees:desh_bee", "productivebees:soulium_bee", "productivebees:quarry_bee", "productivebees:pepto_bismol_bee", "productivebees:tin_bee", "productivebees:heliodor_bee", "productivebees:imperium_bee", "productivebees:unobtainium_bee", "productivebees:wasted_radioactive_bee", "alexsmobs:fly"]
+		#The following mobs are not catchable with the insect net. (Use empty list to allow all mobs!)
+		insectNetDeniedMobs = []
+
+	["Mob Catching Item"."Netherite Lasso"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		netheriteLassoMobCatchingLuck = 2
+		#The following mobs can be catched with the netherite lasso. (Use empty list to allow all mobs!)
+		netheriteLassoAllowedMobs = []
+		#The following mobs are not catchable with the netherite lasso. (Use empty list to allow all mobs!)
+		netheriteLassoDeniedMobs = []
+
+	["Mob Catching Item"."Urn small"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		urnSmallMobCatchingLuck = 3
+		#The following mobs can be catched with the urn small. (Use empty list to allow all mobs!)
+		urnSmallAllowedMobs = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:spider", "minecraft:skeleton", "minecraft:husk", "minecraft:zombie", "minecraft:zombie_villager"]
+		#The following mobs are not catchable with the urn small. (Use empty list to allow all mobs!)
+		urnSmallDeniedMobs = []
+
+	["Mob Catching Item"."Witch Bottle (Mob Catching Item)"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		witchBottleMobCatchingLuck = 10
+		#The following mobs can be catched with the witch bottle. (Use empty list to allow all mobs!)
+		witchBottleAllowedMobs = ["minecraft:enderman", "minecraft:slime", "minecraft:witch"]
+		#The following mobs are not catchable with the witch bottle. (Use empty list to allow all mobs!)
+		witchBottleDeniedMobs = []
+
+	["Mob Catching Item"."Poppy Bouquet"]
+		#Defines the luck of capturing the mob e.g. luck of 3 means a change of 1 to 3 to capture a mob. Higher numbers requires more luck. 0 = disable luck.
+		#Range: 0 ~ 100
+		poppyBouquetMobCatchingLuck = 3
+		#The following mobs can be catched with the poppy bouquet. (Use empty list to allow all mobs!)
+		poppyBouquetAllowedMobs = ["minecraft:iron_golem"]
+		#The following mobs are not catchable with the poppy bouquet. (Use empty list to allow all mobs!)
+		poppyBouquetDeniedMobs = []
+
+["Additional Drop Settings"]
+
+	#Configuration for drops like forced and disabled drops.
+	["Additional Drop Settings"."Bee Drop Settings"]
+		#Defines the forced drop change of honeycomb from bee. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceBeeDropHoneycombChance = 2
+
+	["Additional Drop Settings"."Blaze Drop Settings"]
+		#Defines the forced drop change of blaze rod from blaze. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceBlazeDropBlazeRodChance = 4
+
+	["Additional Drop Settings"."Chicken Drop Settings"]
+		#Disable raw chicken drops.
+		disableChickenDropRawChicken = false
+		#Defines the forced drop change of egg from chicken. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceChickenDropEggChance = 2
+
+	["Additional Drop Settings"."Cow Drop Settings"]
+		#Disable cow raw beef drops.
+		disableCowDropRawBeef = false
+
+	["Additional Drop Settings"."Sheep Drop Settings"]
+		#Disable sheep raw mutton drops.
+		disableSheepDropRawMutton = false
+
+	["Additional Drop Settings"."Slime Drop Settings"]
+		#Defines the forced drop change of slime from slime. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceSlimeDropSlimeBallChance = 2
+
+	["Additional Drop Settings"."Wither Drop Settings"]
+		#Defines the forced drop change of nether star from wither. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceWitherDropNetherStarChance = 1
+
+	["Additional Drop Settings"."Enderman Drop Settings"]
+		#Defines the forced drop change of ender pearl from enderman. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceEndermanDropEnderPearlChance = 2
+
+	["Additional Drop Settings"."Iron Golem Drop Settings"]
+		#Disable iron golem poppy drops.
+		disableIronGolemDropPoppy = false
+
+	["Additional Drop Settings"."Magma Cube Drop Settings"]
+		#Defines the forced drop change of magma cream from magma cube. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceMagmaCubeDropMagmaCreamChance = 2
+
+	["Additional Drop Settings"."Drowned Drop Settings"]
+		#Defines the forced drop change of armor from drowned. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceDrownedDropArmorChance = 12
+		#Defines the forced drop change of copper ingot from drowned. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceDrownedDropCopperIngotChance = 10
+		#Defines the forced drop change of nautilus shell from drowned. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceDrownedDropNautilusShellChance = 30
+		#Defines the forced drop change of trident from drowned. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceDrownedDropTridentChance = 18
+
+	["Additional Drop Settings"."Piglin Drop Settings"]
+		#Defines the forced drop change of armor from piglin. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePiglinDropArmorChance = 12
+		#Defines the forced drop change of weapon from piglin. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePiglinDropWeaponChance = 12
+
+	["Additional Drop Settings"."Pillager Drop Settings"]
+		#Defines the forced drop change of armor from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePillagerDropArmorChance = 16
+		#Defines the forced drop change of emerald from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePillagerDropEmeraldChance = 8
+		#Defines the forced drop change of enchanted book from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePillagerDropEnchantedBookChance = 20
+		#Defines the forced drop change of weapon from pillager. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forcePillagerDropWeaponChance = 16
+
+	["Additional Drop Settings"."Wither Skeleton Drop Settings"]
+		#Defines the forced drop change of wither skeleton skull from wither skeleton. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceWitherSkeletonDropWitherSkeletonSkullChance = 10
+
+	["Additional Drop Settings"."Zombie Drop Settings"]
+		#Defines the forced drop change of armor from zombie. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceZombieDropArmorChance = 50
+		#Defines the forced drop change of weapon from zombie. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceZombieDropWeaponChance = 100
+
+	["Additional Drop Settings"."Zombified Piglin Drop Settings"]
+		#Defines the forced drop change of gold nugget from zombified piglin. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceZombifiedPiglinDropGoldNuggetChance = 2
+		#Defines the forced drop change of gold ingot from zombified piglin. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceZombifiedPiglinDropGoldIngotChance = 4
+		#Defines the forced drop change of weapon from zombified piglin. (0 = disabled, lower number = higher change, 1 = every drop)
+		#Range: 0 ~ 100
+		forceZombifiedPiglinDropWeaponChance = 12
+
+["Special Mob Farms"]
+
+	#Configuration for special mob farms.
+	["Special Mob Farms"."Creative Mob Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		creativeMobFarmProcessTime = 60
+		#Defines the sound which is played when a loot drop is performed.
+		creativeMobFarmDropSound = "minecraft:entity.chicken.egg"
+
+	["Special Mob Farms"."Iron Golem Farm"]
+		#Defines after how many seconds a loot drop is performed.
+		#Range: 10 ~ 3600
+		ironGolemFarmProcessTime = 100
+		#Defines the sound which is played when a loot drop is performed.
+		ironGolemFarmDropSound = "minecraft:block.anvil.fall"
+		#Denied Mobs for the iron golem farm.
+		ironGolemFarmDeniedMobs = []
+		#Enable/Disable filtering of poppies drop.
+		ironGolemFarmFilterPoppy = true
+		#Supported Mobs for the iron golem farm. (Use empty list to allow all mobs.)
+		ironGolemFarmAllowedMobs = ["minecraft:iron_golem"]
+
+["Experience Dropping"]
+	#Defines the max amount to repair a mending weapon with experience points. (higher number = more repair)
+	#Range: 1 ~ 100
+	experienceDropMendingRepairAmount = 10
+	#Defines the change of dropping experience without a weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceNoWeapon = 10
+	#Defines the change of dropping experience with a weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceWithWeapon = 5
+	#Defines the change of dropping experience with an enchanted weapon. (lower number = higher change)
+	#Range: 1 ~ 100
+	experienceDropChanceWithEnchantedWeapon = 3
+

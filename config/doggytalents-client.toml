@@ -1,0 +1,81 @@
+
+["Dog Render"]
+	#Disable this if you want to force all PackPuppy Dog to not render their Chest.
+	render_chest = true
+	#When enabled, Dogs will show injured texture while incapacitated.
+	render_incapacitated_overlay = true
+	#When sneaking, a part of the dog's name will be rendered with a certain color
+	#, the length of the part is based on the health percentage the dog has left
+	render_health_in_name = true
+	#Render a universal dog inventory access button in your inventory gui.
+	#If this is turned off, you can still access the button via the dog's
+	#GUI in Talents > Pack Puppy.
+	dog_inv_button_in_inv = true
+	#If the default incapacitated texture proof too many graphics.
+	#You can substitute this friendlier texture instead.
+	render_incap_txt_less_graphic = false
+	#Render the dogs' name whose owner is not you with a different color.
+	render_diffowner_name_different = true
+	#Attempt to block third parties from rendering overlays that may conflict
+	#with DT's built-in tag. It is recommended that this be achieved via the target third-party's
+	#configurations if they have the option to disable nametag overlay for certain mobs
+	#(Which they should). This option should only be used as the last resort.
+	block_third_party_nametag = false
+	#Show a fun icon on world loading screen.
+	world_load_icon = true
+	#Determine if dogs will render their armor.
+	render_armor = true
+	#By default, a copy of the Classical (Vanilla Wolf Texture) provided by the mod
+	#is used to render The Classical Skin, this is to avoid conflicts with resource packs
+	#like Fresh Animations which are directly using the in-game wolf texture. Turning this on
+	#will make DTN directly reference the in-game texture.
+	use_vanilla_res_for_classical = false
+	#Determine if dogs still render with a red overlay upon hurt like they usually do.
+	#This can be toggled on if the user prefers to not have the red overlay and relies on the animation 
+	#to indicate hurting.
+	block_red_overlay_when_hurt = false
+	#Display extra smoke when the dog is on fire.
+	display_smoke_when_on_fire = true
+	#By default, dogs will render items in their mouth, regardless of models.
+	#This can be disabled if you prefer not to render it on some
+	#less compatible model.
+	mouth_item_force_render = true
+	#Enables the particle effect on Full Kami dogs.
+	enable_kami_particles = false
+	#Do not render dogs' names whose owner is not you.
+	render_diffowner_name_dont = false
+	#Always render dog nametags regardless even if the player blocks it by F1 mode.
+	always_render_dog_name = false
+	#Specify the max latency allowed before force adjusting the animation time
+	#client side to sync with server's animation time. The unit is in ticks.
+	#Provide a non positive integer to disable this. Value from 0 to 7 both inclusive will be defaulted to 7.
+	#Range: > -2147483648
+	max_animation_latency_allowed = 10
+	#Currently, DTN is utilizing a new system for rendering Doggy Armor's Armor
+	#which allows DTN to directly use any texture which the armor item provided
+	#for the player, thus better replicating third-party armor. Set this to true
+	#if you prefer to use the old system instead.
+	use_legacy_dog_armor_render = false
+	#By default, DTN will try querying models from third parties designed for the player when
+	#rendering helmet on the Dog. Disable this to force DTN to use either vanilla's player model or
+	#DTN provided model designed for Dogs (specified by the below option).
+	use_third_party_player_helmet_model = false
+	#By default, if there is no custom Helmet Armor model for the Helmet Item,
+	#DTN will use its own helmet armor model designed for DTN Dog to
+	#render it on the Dog's head. Enable this to make DTN reuse the player's Helmet Model instead.
+	use_player_helmet_model_by_default = false
+	#Enable this to allow every World which is running on this Minecraft
+	#instance's Integrated Server to provide new players with a Starter Bundle
+	#regardless of the world's serverconfig.
+	enable_starter_bundle_by_default = false
+	#Enable this if you prefer to have The Classical Skin rendered on all dog regardless.
+	always_render_classical = false
+	#Configure what will be displayed in the middle of
+	#each of the info section (e.g Hunger, Gender, Mode) when rendering 
+	#the Dog Status String located above the main Dog Name String.
+	dog_info_seperator = " · "
+	#Configure the format that will be used to display hunger value
+	#when rendering the Dog Status String located above the main
+	#Dog Name String.
+	dog_info_hunger_format = "%d"
+

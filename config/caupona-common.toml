@@ -1,0 +1,6 @@
+
+[recipe]
+	#Ticks before do still recipe
+	#Range: > 1
+	StillRecipeTicks = 12000
+

@@ -1,0 +1,75 @@
+#Changed WoolyCow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Wooly cow SpawnRate" = 10
+#Changed Cluckshroom SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Cluckshroom SpawnRate" = 5
+#Changed Horned Sheep SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Horned Sheep SpawnRate" = 10
+#Changed Hyper Rabbit SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Hyper Rabbit SpawnRate" = 5
+#Changed Moobloom SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Moobloom SpawnRate" = 0
+#Changed Moolip SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Moolip SpawnRate" = 10
+#Changed Jumbo Rabbit SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Jumbo Rabbit SpawnRate" = 5
+#Changed Bone Spider SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"Bone Spider SpawnRate" = 10
+#Changed BoulderingZombie SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"BoulderingZombie SpawnRate" = 20
+#Changed LobberZombie SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"LobberZombie SpawnRate" = 20
+#Changed TropicalSlime SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"TropicalSlime SpawnRate" = 3
+#Changed SkeletonWolf SpawnRate In Overworld. [0 ~ 1000]
+#Range: 0 ~ 1000
+"SkeletonWolf SpawnRate In Overworld" = 10
+#Changed SkeletonWolf SpawnRate In Nether. [0 ~ 1000]
+#Range: 0 ~ 1000
+"SkeletonWolf SpawnRate In Nether" = 5
+#Changed Umbra Cow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Umbra Cow SpawnRate" = 10
+#Changed Fancy Chicken SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Fancy Chicken SpawnRate" = 6
+#Changed Duck SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Duck SpawnRate" = 8
+#Changed WitherSkeletonWolf SpawnRate In Nether. [0 ~ 1000]
+#Range: 0 ~ 1000
+"WitherSkeletonWolf SpawnRate In Nether" = 4
+#Changed Mud Spawn in Overworld.
+"Mud Spawn in Overworld" = true
+#Changed Baby Ghast SpawnRate In Nether. [0 ~ 1000]
+#Range: 0 ~ 100
+"Baby Ghast SpawnRate In Nether" = 6
+#Changed Albino Cow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Albino Cow SpawnRate" = 6
+#Changed Cream Cow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Cream Cow SpawnRate" = 6
+#Changed Teacup Pig SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+" Teacup Pig SpawnRate" = 5
+#Changed Jolly LLama SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Jolly Llama SpawnRate" = 5
+#Changed Stray Bone Spider SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"Stray Bone Spider SpawnRate" = 10
+#Changed Magma Cow SpawnRate In Nether. [0 ~ 1000]
+#Range: 0 ~ 100
+"Magma Cow SpawnRate In Nether" = 100
+

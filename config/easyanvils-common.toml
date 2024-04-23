@@ -1,0 +1,5 @@
+
+[integration]
+	#Allow for integration with the Things mod.
+	things = true
+

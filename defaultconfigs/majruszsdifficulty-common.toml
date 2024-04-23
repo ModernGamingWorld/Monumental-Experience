@@ -1,0 +1,16 @@
+# Hello, Majrusz over here!
+# Configs used by my mods are mostly server-side which means they are stored
+# separately per world. Thanks to this change, configuration files are synchronised
+# with other players on the server, which is crucial for some of the functionalities.
+#  
+# Anyway, here are the exact locations for 'true' configuration files:
+#   Singleplayer: %appdata%/.minecraft/saves/<world>/serverconfig
+#   Multiplayer: <your server>/<world>/serverconfig
+#  
+# Remember that server-side configs can be used on all newly created
+# worlds when you copy them to folder: %appdata%/.minecraft/defaultconfigs
+#  
+# If you have any questions or want to see some more configs, feel
+# free to contact me on my Discord server! Hope to see you there :D
+discord_url = "https://discord.gg/9UF774WcuW"
+
