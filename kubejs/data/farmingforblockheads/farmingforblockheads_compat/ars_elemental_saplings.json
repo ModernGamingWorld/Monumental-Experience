@@ -1,0 +1,17 @@
+{
+  "modId": "ars_elemental",
+  "silent": true,
+  "group": {
+    "name": "Ars Elemental Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "ars_elemental:yellow_archwood_sapling"
+    }
+  ]
+}

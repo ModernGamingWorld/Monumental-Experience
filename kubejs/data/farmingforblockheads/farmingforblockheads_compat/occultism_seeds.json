@@ -1,0 +1,17 @@
+{
+  "modId": "occultism",
+  "silent": true,
+  "group": {
+    "name": "Occultism Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "occultism:datura_seeds"
+    }
+  ]
+}

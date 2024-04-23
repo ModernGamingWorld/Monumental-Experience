@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    }
+  ],
+  "result": [
+    {
+      "item": "material_elements:leather_sheet"
+    }
+  ],
+  "tool": {
+    "tag": "modernrecipes:tools/shears"
+  }
+}

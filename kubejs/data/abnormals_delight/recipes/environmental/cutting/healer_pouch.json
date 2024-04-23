@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "environmental:healer_pouch"
+    }
+  ],
+  "tool": {
+    "tag": "modernrecipes:tools/shears"
+  },
+  "result": [
+    {
+      "item": "minecraft:rabbit_hide"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

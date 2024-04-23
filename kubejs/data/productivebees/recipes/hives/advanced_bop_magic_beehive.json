@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW",
+        "CHC",
+        "FWS"
+    ],
+    "key": {
+        "W": {
+            "item": "biomesoplenty:magic_planks"
+        },
+        "H": {
+            "item": "minecraft:beehive"
+        },
+        "C": {
+            "tag": "forge:honeycombs"
+        },
+        "F": {
+            "tag": "forge:campfires"
+        },
+        "S": {
+            "tag": "modernrecipes:tools/shears"
+        }
+    },
+    "result": {
+        "item": "productivebees:advanced_bop_magic_beehive"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "biomesoplenty"
+        }
+    ]
+}
