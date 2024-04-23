@@ -1,0 +1,122 @@
+
+["Enabled Tools"]
+	stone = true
+	iron = true
+	diamond = true
+	netherite = true
+	gold = true
+	bronze = false
+	steel = false
+	nickel = false
+	silver = false
+	titanium = false
+	ruby = false
+	sapphire = false
+	amethyst = false
+
+[ToolStats]
+
+	[ToolStats.stone]
+		durability = 131
+		harvest_level = 1
+		efficiency = 4.0
+		attack_damage = 7.0
+		attack_speed = -3.0
+		enchantability = 5
+
+	[ToolStats.iron]
+		durability = 250
+		harvest_level = 2
+		efficiency = 6.0
+		attack_damage = 8.0
+		attack_speed = -2.9000000953674316
+		enchantability = 14
+
+	[ToolStats.diamond]
+		durability = 1561
+		harvest_level = 3
+		efficiency = 8.0
+		attack_damage = 10.0
+		attack_speed = -2.799999952316284
+		enchantability = 10
+
+	[ToolStats.netherite]
+		durability = 2031
+		harvest_level = 4
+		efficiency = 9.0
+		attack_damage = 12.0
+		attack_speed = -2.799999952316284
+		enchantability = 15
+
+	[ToolStats.gold]
+		durability = 32
+		harvest_level = 0
+		efficiency = 12.0
+		attack_damage = 8.0
+		attack_speed = -3.0999999046325684
+		enchantability = 21
+
+	[ToolStats.bronze]
+		durability = 360
+		harvest_level = 2
+		efficiency = 6.0
+		attack_damage = 8.0
+		attack_speed = -2.9000000953674316
+		enchantability = 18
+
+	[ToolStats.steel]
+		durability = 500
+		harvest_level = 2
+		efficiency = 7.0
+		attack_damage = 9.0
+		attack_speed = -2.9000000953674316
+		enchantability = 10
+
+	[ToolStats.nickel]
+		durability = 300
+		harvest_level = 2
+		efficiency = 6.0
+		attack_damage = 8.0
+		attack_speed = -3.0
+		enchantability = 12
+
+	[ToolStats.silver]
+		durability = 190
+		harvest_level = 2
+		efficiency = 9.0
+		attack_damage = 8.0
+		attack_speed = -2.799999952316284
+		enchantability = 20
+
+	[ToolStats.titanium]
+		durability = 1000
+		harvest_level = 3
+		efficiency = 8.0
+		attack_damage = 9.0
+		attack_speed = -2.799999952316284
+		enchantability = 14
+
+	[ToolStats.ruby]
+		durability = 1024
+		harvest_level = 3
+		efficiency = 7.5
+		attack_damage = 10.0
+		attack_speed = -2.950000047683716
+		enchantability = 15
+
+	[ToolStats.sapphire]
+		durability = 1024
+		harvest_level = 3
+		efficiency = 7.5
+		attack_damage = 10.0
+		attack_speed = -2.9000000953674316
+		enchantability = 10
+
+	[ToolStats.amethyst]
+		durability = 1024
+		harvest_level = 3
+		efficiency = 7.5
+		attack_damage = 9.5
+		attack_speed = -2.9000000953674316
+		enchantability = 20
+

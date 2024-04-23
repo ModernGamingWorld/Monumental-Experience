@@ -1,0 +1,2117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "09A82B0D5D5E7906"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "2ED5FF4A7C518741"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.1071428571428541d
+			y: -0.8392857142857117d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/tfore.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.4285714285714306d
+			y: -1.0892857142857189d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/item/lich.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -6.178571428571431d
+			y: 1.2321428571428577d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/ur-gh.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.250000000000007d
+			y: 8.589285714285712d
+		}
+		{
+			height: 3.5d
+			image: "kubejs:textures/item/minoshroom.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.035714285714292d
+			y: 7.839285714285712d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Twilight Forest realm is an endless world like any other Minecraft dimension, except this dimension is densely forested. It has more of an enchanted, fairy tale, and mythological theme and feel than the Overworld. The skies are perpetually dim and always twilight, giving a darker, somewhat gloomy cast to the world below. An over-story of larger Trees further shades most of the world below, creating a canopy covering most of the world (so thick that you can actually walk on it most places)."
+				""
+				"The canopy is pierced only occasionally by massive trees that rise to the ceiling of the world. The terrain is flatter, or at least less mountainous than regular Minecraft, but you will occasionally encounter Hills, sometimes rising far above the canopy level. These hills are hollow too, containing Caves filled with valuable ores, treasure and dangerous monsters."
+				""
+				"You may also run across many different dungeons, bosses, structures, trees, and a numerous amount of unique items throughout your travels through the Twilight Forest realm. There is much to explore."
+			]
+			id: "4D7941CA6D1FDC14"
+			min_width: 300
+			rewards: [
+				{
+					id: "749D60282E642EB9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2169B44E3EA311CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "6BEFB71875673A1A"
+				title: "Visit Dimension: &2The Twilight Forest"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "1D39595A7EDFB122"
+			rewards: [
+				{
+					id: "06B1E10C230CB772"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37F056A14CE44802"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46A6CC833404C39D"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "40335B19A9A4ABC6"
+			rewards: [
+				{
+					id: "40133A64FC01F1B1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F06C49BF745F7DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F61B96723B74A53"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"40335B19A9A4ABC6"
+				"1D39595A7EDFB122"
+			]
+			id: "68033BC44B8D5F98"
+			rewards: [
+				{
+					id: "63D54CF74921A396"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "013BD4A495494F37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22F69BC2B31EF6D8"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68033BC44B8D5F98"]
+			icon: "twilightforest:magic_map"
+			id: "66F31134DFC73B0C"
+			rewards: [
+				{
+					id: "023AAE6A03B8199C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56FDC999628CBC96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0360A6E754A6B10E"
+				item: {
+					Count: 1b
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Magic Map"
+			x: -0.9285714285714306d
+			y: 3.125d
+		}
+		{
+			dependencies: ["66F31134DFC73B0C"]
+			icon: "twilightforest:naga_trophy"
+			id: "4E70E59453A4EB80"
+			rewards: [
+				{
+					id: "20DEDFF3E37DB9D1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1CE3858388ADDEA1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_spawn_egg"
+				id: "0AB1B14AAA8331E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E70E59453A4EB80"]
+			icon: "twilightforest:lich_trophy"
+			id: "73BE906D919617A4"
+			rewards: [
+				{
+					id: "384AF959EE078A2A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C33E11D5BFFBB95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_spawn_egg"
+				id: "202582FE2821D487"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73BE906D919617A4"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "2862009B6A3627C7"
+			rewards: [
+				{
+					id: "5925E15A930161CA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A0460A31F15305E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				id: "0EA13365C7F8B7A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			icon: "twilightforest:hydra_trophy"
+			id: "6903BF83ACBB676B"
+			rewards: [
+				{
+					id: "3817E5E18B26CB37"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "57A7D85A2C40B33A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_spawn_egg"
+				id: "715028024E2B9147"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "728CC3FF9A23D30F"
+			rewards: [
+				{
+					id: "61F180CD8B1B59FA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "514AB0C5F9356E46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_spawn_egg"
+				id: "1A931440F8030F01"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "7E4E3392CAD99C79"
+			rewards: [
+				{
+					id: "3C05D793DA7C8EFC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05E68B150A579090"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_spawn_egg"
+				id: "4B7C14437571693A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "589D26882C96E3ED"
+			rewards: [
+				{
+					id: "277E34367492A9EB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0093787060F54368"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_spawn_egg"
+				id: "04986A6416F41720"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "3232B88DD64C9534"
+			rewards: [
+				{
+					id: "437FA659FF41BADC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "297C7521EC8B9167"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_spawn_egg"
+				id: "65E8E99DD14712D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "344941089BB146FC"
+			rewards: [
+				{
+					id: "45593D0F971582D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B7D4F6D47085439"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:quest_ram"
+				icon: "twilightforest:quest_ram_spawn_egg"
+				id: "7DDA31D01509E7DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E70E59453A4EB80"]
+			id: "01A3CFA02787B924"
+			rewards: [
+				{
+					id: "56EC58B31A86B16E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "289D44E20430EF94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D60841F3F9C32BD"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01A3CFA02787B924"]
+			id: "4D8F2FC43E695909"
+			rewards: [
+				{
+					id: "0FE1F0189AF5B3AD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D1F4A8207DF1A4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73A78E237B199131"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01A3CFA02787B924"]
+			id: "1D2D23E270829133"
+			rewards: [
+				{
+					id: "29BDBAAB2956B94C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "127387C24D147ECA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23E57B731866CF7A"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73BE906D919617A4"]
+			id: "7F9BC61AC62DF669"
+			rewards: [
+				{
+					id: "2E9F69A50E42B7CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D9F4E390499EF72"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "053BDBA3BB04F2B9"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F9BC61AC62DF669"]
+			id: "7F8BDB36C7601293"
+			rewards: [
+				{
+					id: "0B5D4AD6B978C905"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FFAD469A94E9A22"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AE779CCA62DCF04"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F8BDB36C7601293"]
+			id: "5A39A0BFE41D5504"
+			rewards: [
+				{
+					id: "57232A021E4F949E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "155A59E4D80726AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29A01203337A10DF"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.142857142857139d
+			y: 3.4107142857142847d
+		}
+		{
+			dependencies: ["7F8BDB36C7601293"]
+			id: "1BABA585A112FEDC"
+			rewards: [
+				{
+					id: "4DD2FB1DA10CE301"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08D7FC412044DA0E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C420AD1C85FF8EB"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 5.553571428571431d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			id: "1F2EF7D085D343A7"
+			rewards: [
+				{
+					id: "29EE652D976EB4C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64A8B5EADD90F11E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "516A191C291E36EB"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			id: "0420E1C56CF9FF59"
+			rewards: [
+				{
+					id: "3F6A052E45FE4612"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5739461F6B556A32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30D3FCF626C3617F"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "3CF22D6A3BCE809A"
+			rewards: [
+				{
+					id: "0BAA6E7662551459"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39B6A1F0EBE3861C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0969F471997122A5"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.357142857142861d
+			y: 8.125d
+		}
+		{
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "100AB610D9817B34"
+			rewards: [
+				{
+					id: "659A6E45D26ACDE8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B7FF1B4E45871DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E51E38C6FD57CE6"
+				item: {
+					Count: 1b
+					id: "twilightforest:gold_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.357142857142861d
+			y: 7.625000000000007d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3225E2204A9CB2D4"
+			rewards: [
+				{
+					id: "5522F06856BA105C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "24827CEB6FB12459"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "517CDFDD85A794A3"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -1.5357142857142847d
+			y: 5.232142857142861d
+		}
+		{
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "7F6E21582FD78957"
+			rewards: [
+				{
+					id: "2A118B728D5EF2F5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65E6E8AB8BB25642"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A9B4B133EF71257"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.3928571428571459d
+			y: 5.767857142857146d
+		}
+		{
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "0E76D007D59C899E"
+			rewards: [
+				{
+					id: "5AB247C8F36602A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19273117D7C8166E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "100E331D99F135F5"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3ADA7C53428A336F"
+			rewards: [
+				{
+					id: "33F7706793683F41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4675FDAC359A172B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "721299E42E60E52F"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: -1.607142857142854d
+			y: 7.625d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "436AF350DCE3EFF3"
+			rewards: [
+				{
+					id: "42C54260352702FA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BE4E3D496A7CAD0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36A44F2428B1615A"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "34D0E974E9C419D7"
+			rewards: [
+				{
+					id: "38D0EB4C2AEA2458"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A18005CB1E89FF2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "537B40BDD3A9AFBF"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.3214285714285694d
+			y: 7.732142857142854d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "4AA2835F633C257E"
+			rewards: [
+				{
+					id: "088E000F3543762F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "134FC9E75A15F31B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6786C3113A654F20"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.607142857142854d
+			y: 9.05357142857143d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "58F71C553D23F411"
+			rewards: [
+				{
+					id: "5849D4724D12B404"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C8E536872534A83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64EF9E2DDE3F0977"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.6071428571428612d
+			y: 8.767857142857139d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "086E36E3822A642B"
+			rewards: [
+				{
+					id: "1B82B89F15BA9738"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4865F83701F2944B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089EDFAF2EBE6D3F"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: -3.035714285714299d
+			y: 7.160714285714292d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "49C17844BC8B2964"
+			rewards: [
+				{
+					id: "59980199B5149F9F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C31AAA0B39D5E5F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F2A403A74A7F0BC"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "7D6C2783879A637E"
+			rewards: [
+				{
+					id: "4A9CB277A0489253"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5AFD7FD368746F4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D8D4B8752416010"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.1785714285714093d
+			y: 7.875d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "2DD1D2ABD218B037"
+			rewards: [
+				{
+					id: "2D7923F159DAB051"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08C827E4B4967144"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "138E9ED075AEE03D"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.321428571428555d
+			y: 8.232142857142854d
+		}
+		{
+			dependencies: ["25934830F432ED0D"]
+			id: "1A3DC7E76630A4CB"
+			rewards: [
+				{
+					id: "6DB9CE73A40DF2AB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56F4C4E2E7DACF2D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "532EBC800F09EDBE"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.8571428571428328d
+			y: 3.625d
+		}
+		{
+			dependencies: ["1A3DC7E76630A4CB"]
+			id: "3F97566BDED714A4"
+			rewards: [
+				{
+					id: "2F60898623CB3ABE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C6DF3810301AA0B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "235DF0899B8C29EE"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.2499999999999858d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3F97566BDED714A4"]
+			id: "61E768A128FBBD98"
+			rewards: [
+				{
+					id: "7400EA714E970553"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4AB4FBB2E2DC5849"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F3FA25F50F3D2B8"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.8928571428571317d
+			y: 1.767857142857146d
+		}
+		{
+			dependencies: ["49C17844BC8B2964"]
+			id: "25934830F432ED0D"
+			rewards: [
+				{
+					id: "6B6A2ECB1B8AA7FD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6FF34403F94586DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76775CD12258D544"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0714285714285552d
+			y: 4.6964285714285765d
+		}
+		{
+			dependencies: ["49C17844BC8B2964"]
+			id: "6FDBC1615C039BB9"
+			rewards: [
+				{
+					id: "3BD6E7B3223A4313"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "475564412519D671"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C952D286494B27D"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.249999999999986d
+			y: 4.6964285714285765d
+		}
+		{
+			dependencies: ["6FDBC1615C039BB9"]
+			id: "6CA4D7585CBA24F6"
+			rewards: [
+				{
+					id: "4A64CBC922EA2758"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E1227BD270CCAEB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02DA31DEFD92E8BC"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.3928571428571246d
+			y: 3.625d
+		}
+		{
+			dependencies: ["6CA4D7585CBA24F6"]
+			id: "4B42FE2988EC5F80"
+			rewards: [
+				{
+					id: "4C6030902C58956E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F48A2269457DB58"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65E8D336807573CA"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.749999999999986d
+			y: 2.6964285714285694d
+		}
+		{
+			dependencies: ["4B42FE2988EC5F80"]
+			id: "5D4A72B6E1DBD873"
+			rewards: [
+				{
+					id: "381B9E0AC8C32ECE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "728E9E9177FB81A0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D499EC0857CED71"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.3928571428571317d
+			y: 1.875d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "0DF45E4CAFDF7E47"
+			rewards: [
+				{
+					id: "174393C7FDEF8F7B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0CA123110A9B417F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B73E23800CDFC7D"
+				item: "twilightforest:experiment_115"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5398B6EDFB976DD0"]
+			id: "75A0651EFA643023"
+			rewards: [
+				{
+					id: "003BE4A769D1E9B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69DAEF0BB27CF682"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "444BE5A88CAC5295"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "098438A24614CCB4"
+			rewards: [
+				{
+					id: "713288D2BFFB2260"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2B8EA420170E12A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77BA0F6F7BA7A2B9"
+				item: "twilightforest:tower_key"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["098438A24614CCB4"]
+			id: "5398B6EDFB976DD0"
+			rewards: [
+				{
+					id: "648D641312A1A6A1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7224E84D00C629CB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2810131198BDD39A"
+				item: "twilightforest:vanishing_block"
+				type: "item"
+			}]
+			x: 4.392857142857125d
+			y: 6.482142857142854d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "3A18EF8901E1D8FE"
+			rewards: [
+				{
+					id: "38C7C1C670C08B02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "417A28BA2C7F23BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1272739EEAC2C028"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 5.499999999999979d
+			y: 3.3392857142857153d
+		}
+		{
+			dependencies: ["3A18EF8901E1D8FE"]
+			id: "4C1B1D98E7A214B7"
+			rewards: [
+				{
+					id: "7EAC2E281090C566"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B7DE893FC97ABF0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "319C06C130F5C2F9"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.178571428571416d
+			y: 2.267857142857139d
+		}
+		{
+			dependencies: ["4C1B1D98E7A214B7"]
+			id: "56E6D14BA6139E70"
+			rewards: [
+				{
+					id: "3E208CF9AA7E62AF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "252358407D19DD93"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089F9E25B89E81B8"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.178571428571416d
+			y: 1.1964285714285765d
+		}
+		{
+			dependencies: ["56E6D14BA6139E70"]
+			id: "15D24CE1A55257C7"
+			rewards: [
+				{
+					id: "5BCE3CD910ABCBBB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "063C6A5267C6614D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69D38166AD73C486"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.35714285714284d
+			y: 0.41071428571428825d
+		}
+		{
+			dependencies: ["15D24CE1A55257C7"]
+			id: "1C598E496AAFF2B0"
+			rewards: [
+				{
+					id: "55BE8CB4AF9C6E5F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50FFA1E2D3499505"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F9B655280840201"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.2857142857142634d
+			y: -0.01785714285714235d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "726ABDA427CE9603"
+			rewards: [
+				{
+					id: "4C0F01704EFBEB9D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "06A12D731AB78C55"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03C72A2F9DAD2DA2"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: 6.499999999999986d
+			y: 2.5892857142857153d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "21B42FDABFAFF6AF"
+			rewards: [
+				{
+					id: "703F136A06D64702"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42BD9DB7D23BD49D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A31CC39F9D725BC"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 7.642857142857125d
+			y: 3.3392857142857153d
+		}
+		{
+			dependencies: ["21B42FDABFAFF6AF"]
+			id: "190ED62E60208DFE"
+			rewards: [
+				{
+					id: "4AC75493625C999B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65AF58CF841AE3C0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E13C803C415B90B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.071428571428555d
+			y: 2.232142857142861d
+		}
+		{
+			dependencies: ["190ED62E60208DFE"]
+			id: "54ACBBDA7D29B42A"
+			rewards: [
+				{
+					id: "000D395464B9B20A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53E44307CBEBA5E2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27FDFCAF739F5D5B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.857142857142847d
+			y: 1.125d
+		}
+		{
+			dependencies: ["54ACBBDA7D29B42A"]
+			id: "6F715741679FD001"
+			rewards: [
+				{
+					id: "2F3D44E85CBEE8AC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61A5D6DBAF93E570"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "732E620BDEA4851D"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.178571428571416d
+			y: 0.3035714285714306d
+		}
+		{
+			dependencies: ["6F715741679FD001"]
+			id: "4B7737E8CB0014D5"
+			rewards: [
+				{
+					id: "6B2F79A1B39FB02A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B8777BD66C55951"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "463E23B4C6A6398B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.0892857142857153d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			id: "20AB6E2ED37F0B3F"
+			rewards: [
+				{
+					id: "74A486F4791735CF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4ADE528C1B652FAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16AC7E3B81A0D394"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.749999999999979d
+			y: 5.553571428571431d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			id: "01E8FDE21EAE0F87"
+			rewards: [
+				{
+					id: "4AD3C82BCDEAD194"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E221F3F7BDE4F7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B13F12656B3394F"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75A0651EFA643023"]
+			id: "696CD62637078076"
+			rewards: [
+				{
+					id: "5001DFB0D7E06039"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64792D485190FE66"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20BB8E6223FB6E86"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["344941089BB146FC"]
+			id: "50318D865286765F"
+			rewards: [
+				{
+					id: "55D8B4292FFCD7EF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78FB2CE169B2673F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "447D09489F3811A8"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.785714285714263d
+			y: 8.69642857142857d
+		}
+		{
+			dependencies: ["50318D865286765F"]
+			id: "24D759D9E93816B6"
+			rewards: [
+				{
+					id: "7A61083A58CBB827"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "68D9614F9615148C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B36BC8BCA89B6F8"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			x: 5.999999999999972d
+			y: 9.517857142857139d
+		}
+		{
+			dependencies: ["24D759D9E93816B6"]
+			id: "2AC26E35E1874C5F"
+			rewards: [
+				{
+					id: "53CCCEF115447F84"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5FDF21BD9C8EB0F4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "510CAD500B26D7AD"
+				item: {
+					Count: 1b
+					id: "twilightforest:crumble_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.357142857142826d
+			y: 9.19642857142857d
+		}
+		{
+			dependencies: ["2AC26E35E1874C5F"]
+			id: "5A4312842D783A27"
+			rewards: [
+				{
+					id: "22B6BC8FA02D1008"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30EA11FBC8710900"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FBFBAFF64178163"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.60714285714284d
+			y: 8.410714285714285d
+		}
+		{
+			dependencies: ["5A4312842D783A27"]
+			id: "04349C90D4C9D879"
+			rewards: [
+				{
+					id: "0CEB3F259DF4BEE6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B113FAFAA73A242"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51CF199DE156AA97"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.321428571428548d
+			y: 7.339285714285708d
+		}
+		{
+			dependencies: ["04349C90D4C9D879"]
+			id: "680909E7F1B2184C"
+			rewards: [
+				{
+					id: "0E10449FC1A12E34"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B87D10DBCBAA6C7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7022174B7A658B4D"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 9.571428571428555d
+			y: 6.0535714285714235d
+		}
+		{
+			dependencies: ["680909E7F1B2184C"]
+			id: "6330234912B543EB"
+			rewards: [
+				{
+					id: "065D6904CC32EEBA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73580D79EE0D3853"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57D2342BB162990A"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.71428571428568d
+			y: 4.625d
+		}
+		{
+			dependencies: ["6330234912B543EB"]
+			id: "0FA86CAD486B45DE"
+			rewards: [
+				{
+					id: "0A2B9CB08018CB1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6709A8EF4973212F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DC8A627E88B53DB"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.821428571428541d
+			y: 3.3035714285714377d
+		}
+		{
+			dependencies: ["0FA86CAD486B45DE"]
+			id: "5B9E8CDA7A7FD29E"
+			rewards: [
+				{
+					id: "1F559DABA96543A5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F455858ED8D1FEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4077F722014B44DA"
+				item: "twilightforest:trophy_pedestal"
+				type: "item"
+			}]
+			x: 9.785714285714256d
+			y: 2.0892857142857224d
+		}
+	]
+	title: "&3&oThe Twilight Forest"
+}

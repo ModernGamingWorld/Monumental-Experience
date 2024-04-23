@@ -1,0 +1,4541 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "69B9F7247002FE35"
+	icon: "create:mechanical_arm"
+	id: "40E292F21849AC70"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 2.499999999999993d
+			y: -8.625d
+		}
+		{
+			click: "https://create.fandom.com/wiki/Special:AllPages?from=Flour"
+			height: 1.0d
+			hover: ["Create online &bWiki"]
+			image: "create:item/clipboard_and_quill"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			click: "https://www.youtube.com/playlist?list=PL94rKLSM94NK7cGAvXH-U8PcWXd5lBTlE"
+			height: 1.0d
+			hover: ["You&cTube&r Create Mod Tutorials"]
+			image: "create:item/experience_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -9.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &bCreate&r! At its core, &bCreate&r follows the same primary purpose as vanilla &cRedstone&r: Give the player items to enable &o&bfanciful creations&r. "
+				""
+				"What sort of creations, you ask? Well, just about anything. Make rideable trains, tunnel bores, massive functional windmills, or even a working &9Rubik’s Cube&r!"
+				""
+				"Your &dimagination&r is the &nlimit&r. "
+				""
+				"If you have doubts about any blocks or items, hold &o&bW&r to ponder and see an amazing &o&b3D&r in-game &nwiki&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:textures/gui/logo.png"
+				}
+			}
+			id: "37188F03818AF4E0"
+			min_width: 300
+			rewards: [
+				{
+					id: "46991F916A178442"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "5E312DD05019FA34"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B1ED04D876D3AA9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				count: 16L
+				id: "3E89069CA068A10C"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Welcome to &bCreate"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"Using the &bSchematic&r module you can scan a section of your world and save it as a &n.&onbt&r file."
+				""
+				"This way you can &o&breproduce&r it or &o&bshare&r the structure with others. To do this you will need to craft yourself a &2Schematic and Quill&r."
+				""
+				"&bSchematic&r files are found in your instance folder under &n&oschematics/&r"
+				""
+				"To see exactly how it works, I'll suggest to visit the &3GitHub&r page of the &o&bCreate&r mod by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Create Wiki: Saving-a-Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
+			]
+			id: "7E715C95CDC287BA"
+			min_width: 310
+			rewards: [
+				{
+					id: "1BF613E7C26074E4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67E519796770A217"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Save a Structure in your world"
+			tasks: [{
+				id: "705CC6FD53C0FC84"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			title: "&bSaving a Schematic"
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7E715C95CDC287BA"]
+			description: [
+				"Using the &bSchematic&r module you can load Structures of the &n.&onbt&r format and bring them into the world. Loaded and positioned &bSchematics&r can then be placed &o&bdirectly&r or &o&bvia&r the &2Schematicannon&r."
+				""
+				"To do this craft yourself a &9Schematic Table&r and place it in your workshop. Open it up and place the &bEmpty Schematic&r (&o&bSchematic and Quill works as well&r) in the input slot on the left. The checkered area shows the &bSchematic&r file to be loaded onto the item. You can change it to any of the files available in the &b&o/schematics&r folder."
+				""
+				"- &eScroll&r on the text to select the &bSchematic&r you would like to load."
+				"- &cPress&r the check-mark &aButton&r to confirm your choice."
+				""
+				"The &9Schematic Table&r will now &o&bstart&r to write the &bSchematic&r onto the item."
+				""
+				"To see more precisely how it works, I'll suggest to visit the &3GitHub&r page of the &o&bCreate&r mod by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Create Wiki: Loading-a-Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
+			]
+			id: "657CF67E4C5212EF"
+			min_width: 310
+			rewards: [
+				{
+					id: "7DD4D76A462A0C7C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C735F4042793467"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Load a Structure and bring into your world"
+			tasks: [{
+				id: "78B27EEBAF22C110"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "&bLoading a Schematic"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["657CF67E4C5212EF"]
+			description: [
+				"The &2Schematicannon&r is required for building a &oloaded&r and &opositioned&r &bSchematic&r. It will use materials from adjacent &einventories&r unless a &5Creative Crate&r has been placed next to it."
+				""
+				"Having prepared a &bSchematic&r for placement, you are now ready to consult the &2Schematicannon&r for the construction. For this &cWorkflow&r you will need:"
+				"- &o&b1x&r a deployed &bSchematic&r"
+				"- &o&b1x&r &2Schematicannon&r"
+				"- &o&b1-4&rx &6Chests&r or other &eInventories&r"
+				"- &o&b1x&r &3Gunpowder&r (for every &o&b400&r blocks in the &bSchematic&r)"
+				"- &o&b1x&r Book (&o&7Optional&r&r)"
+				""
+				"Place the &2Schematicannon&r near but outside of the &o&bboundaries&r of your &bSchematic&r. It is &dimportant&r that the target area is &nloaded&r and not &ntoo far away&r from the cannon."
+				""
+				"To see all details, I'll suggest to visit the &3GitHub&r page of the &o&bCreate&r mod by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Create Wiki: Printing-a-Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
+			]
+			id: "41D900070A21855E"
+			min_width: 310
+			rewards: [
+				{
+					id: "48F47AFAE1C6F72D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A6A7B68013DB00B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Place down a Structure"
+			tasks: [{
+				id: "7725782DA7D94824"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "&bPrinting a Schematic"
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0DFD086DE8B22565"]
+			description: [
+				"In order to begin generating &cPower&r, a &2Windmill Bearing&r must have at least &b&o8&r &3Sail&r, &7Sail Frame&r, or &dWool&r blocks connected."
+				""
+				"Any other block can also be &o&battached&r with &eSuper Glue&r, though it will not yield any &o&bbenefit&r. This will create a &aWindmill&r."
+				""
+				"By default, the &2Windmill Bearing&r spins &o&bclockwise&r, though this can be changed to &o&bcounter-clockwise&r with the &cWrench&r."
+				""
+				"For every &o&b8&r sail-type blocks connected to the &2Windmill Bearing&r, it gains &o&b1&r &dRPM&r and &o&b512&r&esu&r, which means &o&b8-15&r sails gives &o&b512&r&esu&r at &o&b1&r &dRPM&r, &o&b16-23&r gives &o&b1,024&r&esu&r at &o&b2&r &dRPM&r, etc. A &aWindmill&r will produce a &nmaximum&r of &o&b8,192&r&esu&r (&o&b128&r sail-type blocks). "
+				""
+				"So we gonna build a &2Windmill&r with &o&b32-39&r sails, which will give us &o&b2,048&r&esu&r at &o&b4&r &dRPM&r."
+				""
+				"&aRight-click&r the &2Windmill Bearing&r with an &o&bempty hand&r to &o&bstart&r the windmill. If you want to &cstop&r it to change the attached blocks, simply &aRight-click&r on the block with an &o&bempty hand again&r."
+				""
+				"Scrolling the mousewheel while holding a &cWrench&r can be used to change the &o&bspin direction&r of the windmill."
+			]
+			icon: "create:propeller"
+			id: "18D03F942E03807F"
+			min_width: 400
+			rewards: [
+				{
+					id: "0A1B501856104814"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "478F4EEB91F8B8C3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "It is composed of a Windmill Bearing and Wool/Sails/Sail Frames"
+			tasks: [
+				{
+					id: "072518138448D131"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "4258AF4D50427338"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1E68823A5FE9CA8E"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "&bThe Windmill"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"&aEngineer's Goggles&r are a wearable item that allow the user to see more details about placed machines."
+				""
+				"The &aEngineer's Goggles&r will show the stress impact of the viewed machine while it is running."
+				""
+				"They will also give numbers and highlight the current rotation when looking at a &dStressometer&r or &6Speedometer&r."
+				""
+				"&bAdditionally&r, they show how much &o&bfluid&r is in a tank along with the &o&btotal storage capacity&r of the tank."
+			]
+			id: "45AF5EFC3C051D1A"
+			min_width: 270
+			rewards: [
+				{
+					id: "213CCA2AAE072162"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E4C6F0FC7FFF424"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CE8A3FB7D477EDF"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0DFD086DE8B22565"]
+			description: [
+				"The &9Water Wheel&r is a source of &o&brotational power&r. It generates &o&bRotational Force&r when water flows over it."
+				""
+				"Due to the fact that the materials required to craft it are easily accessible in the &o&bearly-game&r, the &9Water Wheel&r serves as the &o&bearliest generator&r that can be made."
+				""
+				"Total &o&bstress capacity&r can be increased by &o&badding&r more wheels in sequence."
+				""
+				"When water flows over a &9Water Wheel&r, it will begin to rotate. This &o&brotational power&r can be conveyed to other &o&bComponents&r from the &9Water Wheels&r' &eShaft&r."
+				""
+				"As long as the water flows around the wheel in mostly one &o&bdirection&r, the &9Water Wheel&r will generate &o&bRotational Force&r."
+				""
+				"The &o&bmore sides&r of the wheel the water covers, the &o&bfaster&r the wheel will rotate and the more &o&dstress capacity&r it will provide. Only &o&bflowing water&r or source blocks with bubble columns counts toward the &o&bpower generation&r."
+				""
+				"To &o&bmaximize&r the &coutput&r from a &9Water Wheel&r, have water flowing in the right direction around &o&bas much of the wheel as possible&r."
+			]
+			id: "178499225C1FEFD3"
+			min_width: 400
+			rewards: [
+				{
+					id: "7C18A11DA119A260"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65583FE8C5664019"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "22E0E9626E50CB00"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "&bThe Water Wheel"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &6Encased Fan&r is a mechanical component that can create &o&bair streams&r. &6Encased Fans&r are used for &o&bmoving entities&r, vertical transport of items, &9Bulk Washing&r, &eBulk Blasting&r, &7Bulk Smoking&r and &bBulk Haunting&r. The &6Encased Fan&r connects to other rotational components from the &nback&r."
+				""
+				"When powered by &o&brotational force&r, an &6Encased Fan&r creates an &o&bair stream&r that extends several blocks in front of it. This air stream &o&bpushes entities away&r from the fan or &o&bpulls entities towards&r it depending on the direction of the rotation that the fan receives. Powering an &6Encased Fan&r with faster rotational force will cause its air stream to be &nstronger&r and &nfaster&r."
+				""
+				"Items will always be pushed, but &o&bmobs&r or &o&bplayers&r won't be pushed until the &6Fan&r is running at least &o&b4&r &dRPM&r."
+				""
+				"&n&lBulk Item Processing&r:"
+				"When the air stream of an &6Encased Fan&r passes through certain blocks, the air stream downstream will apply the respective processing to items."
+				""
+				"&9Washing&r:"
+				"   - Water"
+				"&7Smoking&r:"
+				"   - Fire"
+				"   - Campfire"
+				"   - Empty Blaze Burner lit with &o&bFlint and Steel&r"
+				"   - Blaze Burner (&o&bsmouldering&r)"
+				"&6Blasting&r:"
+				"   - Lava"
+				"   - Blaze Burner(&o&bFueled&r)"
+				"&bHaunting&r:"
+				"   - Soul Fire"
+				"   - Soul Campfire"
+				"   - Empty Blaze Burner lit with &o&bFlint and Steel&r and right clicked with &o&bSoul Sand&r or &b&oSoul Soil&r."
+			]
+			hide_dependency_lines: true
+			id: "3113E091CAF37D3B"
+			min_width: 500
+			rewards: [
+				{
+					id: "71871362068D5A5B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C9F1AC974134339"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "715F40E62197C899"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Encased Fan"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27B9C71CDEC8916F"]
+			description: [
+				"The &eShaft&r is a basic mechanical component in &bCreate&r. A &eShaft&r can be used to &o&bconnect&r two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which &6Mechanical Belts&r can be placed."
+				""
+				"When two mechanical components are &o&bconnected&r by a &aShaft&r, any &o&brotational force&r provided to either component will also be provided to the other component &o&bat the same speed&r. As such, if both components provide &o&bstress&r, this can cause the machine to become &noverstressed&r."
+				""
+				"A &6Mechanical Belt&r must be placed between two &eShafts&r. The shafts must be &o&bhorizontal&r, parallel to each other, and perpendicular to the belt itself, and they must be aligned horizontally, vertically, or &o&bdiagonally&r. Please note that you &ncannot&r have any other diagonal angles other than &o&b45°&r. Additionally, no &o&bobstruction&r can exist between the two &o&bendpoints&r with the exception of other shafts."
+				""
+				"A &aBrass Casing&r can be placed over any segment of a &6Mechanical Belt&r, and this includes segments that contain &eShafts&r."
+			]
+			id: "0DFD086DE8B22565"
+			min_width: 300
+			rewards: [
+				{
+					id: "5ADFB59236291693"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "530DDB5CF8A4A39E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "699F351F450669CB"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Shaft"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DFD086DE8B22565"]
+			description: [
+				"A &6Mechanical Belt&r is a mechanical component that &o&bconveys rotation&r and &o&bmoves&r items and entities."
+				""
+				"Placing a &6Belt&r requires at least two &3Shafts&r. Place the &6Belt&r by &aRight-clicking&r on the &o&bfirst&r shaft and then &aRight-clicking&r the &o&bsecond&r. Regardless of the length, this only consumes one &6Mechanical Belt&r. Both shafts must face &o&bthe same direction&r."
+				""
+				"A &6Mechanical Belt&r can be placed over any number of &3Shafts&r arranged &o&bhorizontally&r, &o&bvertically&r, or &o&bdiagonally&r (&o&b45°&r towards the y axis) in a &nsingle line&r, provided that no &o&bobstructions&r are present and that the total length is &o&bno longer&r than &o&b20&r blocks. &7Andesite Casing&r and &eBrass Casing&r can be placed over any segment of a &6Belt&r."
+				""
+				"Once a &6Belt&r is placed, it can be &o&bextended&r by &aRight-clicking&r the end with a &6Mechanical Belt&r in hand while the belt is under &o&b20&r blocks, though this &o&bdoes not consume&r the belt. &6Belts&r can also be &o&bshortened&r by &aRight-clicking&r them with a &cWrench&r. Both actions &o&brelocate&r the &3Shaft&r."
+				""
+				"The &6Mechanical Belt&r can transport items from one location to another. Items can either be &o&bthrown&r onto the belt, and machines such as &7Funnels&r, &8Chutes&r or &dMechanical Arms&r can &o&bplace&r items onto the belt or &o&bremove&r items from the belt. "
+				""
+				"&6Mechanical Belts&r can be &o&bdyed&r be &aRight-clicking&r on them with a &5Dye&r. This will add &o&bcolored stripes&r along the edges of the belt. To &o&bremove&r the dye, &aRight-click&r on the belt with a &9Water Bucket&r or &9Water Bottle&r."
+			]
+			id: "6A85EFF65D461020"
+			min_width: 500
+			rewards: [
+				{
+					id: "0FE35185E2F7A247"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3782B881ACFD9114"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "22B31A2343E78E13"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Mechanical Belt"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &9Encased Chain Drive&r is a block that can transfer rotation much like the &eMechanical Belt&r."
+				""
+				"The &9Encased Chain Drive&r can connect to other drives either &o&bvertically&r or &o&bhorizontally&r. If a connected &9Chain Drive&r is facing a different way, rotation will be relayed in &o&bthat direction&r."
+				""
+				"&9Encased Chain Drives&r can also be connected to &cAdjustable Chain Gearshifts&r, which can change the &o&bspeed&r based on the &o&bredstone power input&r."
+			]
+			hide_dependency_lines: true
+			id: "2A397AED9CBFB3A1"
+			min_width: 300
+			rewards: [
+				{
+					id: "4F7304AAA001FE39"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DE411E9FF191A30"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "30811F99DFAC0870"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "Encased Chain Drive"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6A85EFF65D461020"]
+			description: [
+				"A decorative &3Tunnel&r for &eMechanical Belts&r."
+				""
+				"A &4Wrench&r can be used to give the tunnel &o&bwindows&r."
+				""
+				"The &3Tunnel&r does not stop items on the belt from being processed by an &dEncased Fan&r, but does stop the airflow from going beyond the belt."
+				""
+				"&3Andesite Tunnels&r can also be used to &o&bseparate&r single items from passing stacks to side &coutputs&r."
+			]
+			id: "0DFB605B4FD970F0"
+			min_width: 250
+			rewards: [
+				{
+					id: "41A65101D9A4DD3F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "693E0D83B1507901"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "081EF416032F463B"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			title: "Andesite Tunnels"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DFB605B4FD970F0"]
+			description: [
+				"The &6Brass Tunnel&r is a machine that can only be placed on &eMechanical Belts&r. It can &o&bsort&r items that pass through."
+				""
+				"Sides of the &6Brass Tunnel&r can be &0Filtered&r to only allow &o&bcertain&r items to pass. If multiple &coutputs&r are available, items will be treated according to the &o&btunnel's setting&r, being &o&bsplit&r by default."
+				""
+				"The &aValue Settings Screen&r can be accessed from the &o&btop&r of the &6Tunnel&r. It is only viewable if the &6Tunnel&r has other &coutputs&r or is connected to other &6Tunnels&r."
+				""
+				"&l&aValue Settings&r:"
+				"&o&bSplit&r - Items will be split amongst available outputs."
+				"&o&bForced Split&r - Only split items when all outputs are available."
+				"&o&bRound Robin&r - Place inputs on available outputs in a round robin fashion."
+				"&o&bForced Round Robin&r - Wait for unavailable outputs in a round robin sequence to become available."
+				"&o&bPrefer Nearest&r - Only move the item to next nearest tunnel when the nearest output is unavailable."
+				"&o&bRandomize&r - Output is randomized."
+				"&o&bSynchronize Inputs&r - Output all at once, stalling when items are missing. Synchronized tunnels may not draw from adjacent tunnels, so it may be necessary to have splitting tunnels placed before them."
+			]
+			id: "34D4E3E1E995A6B5"
+			min_width: 500
+			rewards: [
+				{
+					id: "0434D86B053029C2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FFB77765E938150"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "6BD4D6A5A4F03E1C"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Brass Tunnel"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A85EFF65D461020"]
+			description: [
+				"&aChutes&r transport items &o&bvertically&r, similarly to &eMechanical Belts&r."
+				""
+				"&aChutes&r can &9insert&r or &cextract&r from inventories &o&babove&r or &o&bbelow&r them, also they can be connected to other chutes &o&bupwards&r and &o&bdiagonally&r."
+			]
+			id: "07DEA314CA78639B"
+			min_width: 300
+			rewards: [
+				{
+					id: "0B7A8679915ECC70"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F421D547849A1C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "652FEA2E6FDA88DB"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "Chute"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &2Depot&r is used as an interaction point for machines such as the &6Mechanical Arm&r."
+				""
+				"Items can be &eright clicked&r or inserted onto the depot. Machines such as &9Mechanical Presses&r will interact with the items the same way they would on a &aMechanical Belt&r."
+				""
+				"Items will stay on a &2Depot&r until a they are &o&bextracted&r by a &o&bplayer&r or another &o&bmachine&r."
+				""
+				"&6Mechanical Arms&r are best used with &2Depots&r, as they are not usually fast enough to grab items directly off &aMechanical Belts&r at low speeds."
+			]
+			hide_dependency_lines: true
+			id: "2BD81BF0B04A6FA7"
+			min_width: 300
+			rewards: [
+				{
+					id: "09EC141B34780134"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42A0A39A91AD8DB6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "568EE6021F047D61"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Depot"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5BACA82D1436C781"]
+			description: [
+				"The &6Mechanical Arm&r is used to transfer items."
+				""
+				"The &6Mechanical Arm&r can &o&btake&r or &o&bdeposit&r items from various blocks within a &o&b5&r block radius of where it is placed. The order it does this in is determined by its behavior as well as the order the blocks were selected in during placement. A placed &6Mechanical Arm's&r selected blocks can be viewed by hovering over it with a &cWrench&r."
+				""
+				"The &6Mechanical Arm's&r behavior can be adjusted in the &aValue Settings Screen&r accessed from the side of the block."
+				""
+				"- &o&dRound Robin&r: The &6Mechanical Arm&r will take from and &o&bdeposit&r to &o&bavailable inventories&r in the order they were selected in."
+				""
+				"- &o&2Forced Round Robin&r: The same function as &o&dRound Robin&r, but the &6Mechanical Arm&r &o&bwill not move items&r until the next inventory in order of selection is &o&bavailable&r."
+				""
+				"- &o&9Prefer First&r: The &6Mechanical Arm&r will &o&balways&r take from and &o&bdeposit&r to the first &o&bavailable inventory&r in order of selection."
+				""
+				"The &6Mechanical Arm&r can be &o&bdisabled&r with &cRedstone&r. Before stopping, it will &o&bdeposit&r any item it is &o&bholding&r."
+				""
+				"The arm itself cannot be &9Filtered&r, but will respect the &9Filters&r on selected blocks such as &eBrass Funnels&r while sorting. The arm &o&bwill not pick up items&r it &o&bcannot deposit&r elsewhere."
+			]
+			id: "5C01C03BBE00ACCD"
+			min_width: 400
+			rewards: [
+				{
+					id: "2AF56F1FD841FD36"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D2ED40A60D0AD96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "009A60ED8972E22E"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DFD086DE8B22565"]
+			description: [
+				"The &2Cogwheels&r are a basic mechanical component in Create that relays rotation. The &eLarge Cogwheel&r is a larger variant of the &aCogwheel&r that can relay rotation around corners and power &dRotation Speed Controllers&r."
+				""
+				"&2Cogwheels&r have &o&b3&r main methods of interlocking:"
+				""
+				"&o&b1&r) Two &2Cogwheels&r interlock when placed next to each other (&o&bnot diagonally&r) and facing the same direction. When &o&brotational force&r is provided to one of the cogwheels, the force will be provided to the other &aCogwheel&r at the same &o&bspeed&r but in the &o&bopposite direction&r."
+				"&o&b2&r) Two &eLarge Cogwheels&r interlock when placed &o&bperpendicular&r to each other, effectively changing its &o&baxis&r and &o&bdirection&r, but not its &o&bspeed&r."
+				"&o&b3&r) A &aCogwheel&r and a &eLarge Cogwheel&r interlock when placed &o&bdiagonally&r to each other and facing the same direction. The &eLarge Cogwheel&r will rotate at &nhalf&r the &o&bspeed&r of the &aCogwheel&r."
+				""
+				"A &aCogwheel&r can also be used like a &3Shaft&r, &o&bconveying rotation&r from the &o&bends&r of its &o&baxis&r. Mechanical components can be &o&bconnected&r to each end, and several &2Cogwheels&r connected &o&bend-to-end&r function the same as multiple &3Shafts&r would."
+				""
+				"Using pairs of &aCogwheels&r and &eLarge Cogwheels&r, rotational speed can be easily &o&bdoubled&r or &o&bhalved&r using the &o&bmechanic mentioned&r above. It is possible to connect many pairs of &eLarge Cogwheels&r and &aCogwheels&r to apply this mechanic repeatedly, up to &o&b256&r &dRPM&r."
+				""
+				"A &eLarge Cogwheel&r can also be connected to a &6Rotation Speed Controller&r, to adjust &o&bspeed more precisely&r."
+			]
+			id: "5127B662C23FC812"
+			min_width: 470
+			rewards: [
+				{
+					id: "2EA33AE3992A5392"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "675BD54FDFB536E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4121F182B16F338F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2F4BCA72D23A896E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "&bCogwheels"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: ["The &aGearshift&r &o&breverses&r outgoing rotational force when a &cRedstone&r signal is applied."]
+			hide_dependency_lines: true
+			id: "764790A4ABD9DB56"
+			rewards: [
+				{
+					id: "5C6FB3C63CD7BA07"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7CFF6098034BFC3D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A527041909604AD"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			title: "Gearshift"
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: ["The &eClutch&r &o&bstops&r outgoing rotation when a &cRedstone&r signal is applied."]
+			hide_dependency_lines: true
+			id: "7CB7C7E0A0BA9A33"
+			rewards: [
+				{
+					id: "24C407DEF00A40CA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "27EC426472591CDE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "32C2339CBE24745F"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "Clutch"
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &2Gearbox&r is a block used to transfer rotational power."
+				""
+				"The &2Gearbox&r can relay rotational power in four &o&bhorizontal&r directions."
+				""
+				"When used in a &o&bstraight line&r, the &2Gearbox&r will &nreverse&r rotation."
+			]
+			hide_dependency_lines: true
+			id: "5482DC02A149B6F8"
+			min_width: 300
+			rewards: [
+				{
+					id: "5458E16A1BDC54D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FD8F37BB6AEB9BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E328A626F39C1DD"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Gearbox"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0DFD086DE8B22565"]
+			description: [
+				"&2Brackets&r are decorative items used on &3Shafts&r, &aCogwheels&r, and &9Fluid Pipes&r."
+				""
+				"&2Brackets&r can be used as one way &o&bto keep&r adjacent pipes &o&bseparate&r from each other."
+			]
+			id: "4DB38D4B758A861D"
+			min_width: 300
+			rewards: [
+				{
+					id: "438B475054D1D1BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "24784832E5991F2F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "63D6182AC89A37AF"
+					item: "create:wooden_bracket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3D0DD34C814A66E3"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+			]
+			title: "&bBratchets"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"&9Casings&r are blocks used throughout many &o&bcrafting&r recipes in &bCreate&r, as well as for &o&bdecoration&r and &o&baesthetic&r purposes."
+				""
+				"There are &o&b4&r types of &9Casings&r: &aAndesite Casings&r are mainly used in &o&bbasic contraptions&r, &6Brass Casings&r are used in more &o&badvanced machines&r, &cCopper Casings&r are &o&bstrictly for fluids&r, and &dTrain Casings&r for &o&blocomotive transportation&r."
+				""
+				"&9Casings&r can only be crafted through &o&bphysically applying&r a valid &o&balloy&r or ingot to any &2Stripped&r variant of &2Log&r or &2Wood&r. The &2Logs&r will convert themselves into the &9Casing&r, where the player can either mine it with their preferred tool or use a &eWrench&r to place the casing in their inventory."
+				""
+				"To make &aAndesite Casing&r you need any &2Stripped Log&r or &2Stripped Wood&r + &3Andesite Alloy&r."
+			]
+			id: "6CDCF5CAF844400E"
+			min_width: 300
+			rewards: [
+				{
+					id: "7241128C0B8EBD0F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1FB999D82B86FFF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5594F0DF11C7459A"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5127B662C23FC812"]
+			description: [
+				"&2Mechanical Pumps&r have a &o&bmaximum&r range of &o&b16&r blocks on either side. &2Mechanical Pumps&r will &o&bmove&r fluid in only one &bdirection&r at a time."
+				""
+				"The &4Brown&r arrow symbols on the pump indicate the &o&bdirection&r of flow. The flow &o&bdirection&r can be changed by using a &cWrench&r. When a wrench is used, the entire valve will appear to have rotated &o&b180°&r. The brown directional arrows will appear on the other side of the pump's gear."
+				""
+				"&9Fluid Pipes&r are blocks used to transport and deal with fluids. &9Fluid Pipes&r can only move &o&bone&r liquid at a time; if different liquids intersect, the pipe will &o&bclog&r."
+				""
+				"Clogging the pipe will give an &dAdvancement&r. Each time a &o&bfluid network&r splits, the fluid transfer rate is split between &coutputs&r. &9Fluid Pipes&r require &2Mechanical Pumps&r to move liquid."
+				""
+				"A &2Mechanical Pump&r can only push fluid &o&b15&r blocks, so if you have a &o&blong pipeline&r, you'll need to &o&bspace pumps&r every &o&b15&r blocks to &o&bpush&r the fluid all the &o&bway through&r."
+			]
+			id: "7116C160D7D6EC46"
+			min_width: 370
+			rewards: [
+				{
+					id: "5D48666538EF79CE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3253A3D40B0B14BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2289895A07439135"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "06AA6D4D526243BC"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "&bMechanical Pump"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7116C160D7D6EC46"]
+			description: [
+				"&9Fluid Valves&r can be used to &cclose&r or &9open&r the flow in a &o&bpipe&r."
+				""
+				"&9Fluid Valves&r can be switched between &o&bopen&r and &o&bclosed&r by providing &o&bRotational Force&r to the side. This is often done with a &dValve Handle&r or &7Gearshift&r. A set of &o&bdirectional arrows&r on the side of the valve will also &o&brotate&r to indicate whether the valve is &9open&r or &cclosed&r."
+				""
+				"The &dValve Handle&r functions much like the &2Hand Crank&r, though the amount and direction it rotates with one use can be adjusted in its &aValue Settings Screen&r. This may be useful for &bContraptions&r that require a certain orientation to function. The &o&bdirection of rotation&r can also be &o&binverted&r from the &dValve's&r settings by &aSneak&r using the &dValve Handle&r instead of &o&busing it&r."
+				""
+				"The valve handle can be dyed all &o&b16&r vanilla colors by &aRight-clicking&r it with the respective &5Dye&r."
+			]
+			id: "769B1316F09FAA26"
+			min_width: 300
+			rewards: [
+				{
+					id: "328C1D35FDB2C118"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "017B55DB1722B3FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3600D2E58BC8C55E"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "53700B883060C9CA"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			title: "Fluid Valves"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"769B1316F09FAA26"
+				"2FF0BADC06E9B1C2"
+			]
+			description: [
+				"&9Smart Fluid Pipes&r can be used to allow only a &o&bcertain&r liquid to pass through them. This can be set by placing a &o&bbucket&r or &o&bbottle&r of the liquid in the &0Filter&r slot on the pipe."
+				""
+				"A &aList Filter&r with &o&bRespect Data&r on may be required for the &9Smart Pipe&r to distinguish between certain liquids, such as &dPotions&r."
+				""
+				"&aList Filters&r are used to adjust the treatment of &o&bmultiple&r items at once."
+			]
+			id: "5F9F7D6D1FAF26FF"
+			min_width: 300
+			rewards: [
+				{
+					id: "3F76B371E676471D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C4F4325B0A37D1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DE2165EEFCDBA19"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A397AED9CBFB3A1"]
+			description: [
+				"The &dAdjustable Chain Gearshift&r functions similarly to &2Encased Chain Drive&r, but can &o&bchange the speed&r of the &coutput&r with a &o&bredstone input&r."
+				""
+				"With a &credstone&r signal on the &9input&r, &dAdjacent Gearshifts&r will &o&bchange speed&r &coutput&r depending on the &o&bstrength&r of the signal, &o&bmaxing out at double&r. With a &credstone&r signal on an &coutput&r, the speed of said &coutput&r will be &o&bdecreased&r, being halved at most."
+			]
+			id: "50E045B67532E6FF"
+			min_width: 300
+			rewards: [
+				{
+					id: "2C8632813C000606"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CF953F1CD6FEE4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C64786C032A2CD5"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			title: "Adjustable Chain Gearshift"
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["60D2C64B06CE5073"]
+			description: [
+				"The &5Rotation Speed Controller&r is a mechanical component that allows the player to &o&bprecisely control rotational speed&r."
+				""
+				"For the &5Rotation Speed Controller&r to work, it must be paired with a &6Large Cogwheel&r. The &5Rotation Speed Controller&r, when powered by the &6Large Cogwheel&r, &coutputs&r any desired speed of rotational force from its sides. It also does the &o&bopposite&r; when powered from its sides, it controls the speed of the &6Large Cogwheel&r."
+				""
+				"The rotation speed and direction can be changed in the &eValue Settings Screen&r at the &o&bfront&r or the &o&bback&r of the machine. The &o&bspeed&r can be set to any &nnon-zero&r integer from &o&b-256&r to &o&b256&r."
+			]
+			id: "25CC0FF81BDED8B6"
+			min_width: 300
+			rewards: [
+				{
+					id: "7D1371D7F5B1A44E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60EDE2DCAC6F64D7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7ACA5C82B0DCA746"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "&bRotation Speed Controller"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["642CFD0DE5BF3F38"]
+			description: ["The &5Electron Tube&r is an item that is only used in crafting recipes."]
+			id: "2FF0BADC06E9B1C2"
+			rewards: [
+				{
+					id: "26F4D1A357B2837C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "51D14B2F1E439AE5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7117D910BF598713"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Electron Tube"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &9Millstone&r is a more basic equivalent of the &2Crushing Wheels&r, capable of applying &o&bmilling recipes&r to any items inserted from &nabove&r."
+				""
+				"A &9Millstone&r can be powered by a &3shaft&r from &o&bbelow&r or by a &2cogwheel&r from the &o&bside&r."
+				""
+				"There are &o&btwo ways&r to insert items into a &9Millstone&r:"
+				""
+				"- &o&bDropping&r items on &ntop&r of it: Anything that can be processed &o&bwill be picked up&r if the          &einput buffer&r is empty."
+				"- &3Hoppers&r, &eFunnels&r, &dChutes&r, and &o&bother inserters can directly feed&r it items from &nany side&r."
+				""
+				"A &9Millstone&r will &o&btake some time&r to process inserted ingredients and will show &o&bparticles&r while it is working."
+				""
+				"Once finished, the &9Millstone&r will not &ndrop&r or &noutput&r the result by itself, but there are &o&btwo ways&r to remove processed items:"
+				""
+				"- &eRight-clicking&r the &9Millstone&r with an empty hand: This will &o&bmanually pick up&r everything      in the &o&boutput buffer&r."
+				""
+				"- &3Hoppers&r, &eFunnels&r, &dChutes&r, and &o&bother exporters can pull&r items out of the &o&boutput buffer&r      from &nany side&r."
+			]
+			id: "78149C89452FBF2E"
+			min_width: 400
+			rewards: [
+				{
+					id: "50EE40F5BD98738D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17CC748743D38665"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57CC5D1AC5ECF108"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "&bMillstone"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2FF0BADC06E9B1C2"]
+			description: [
+				"The &9Deployer&r simulates &o&bplayer actions&r on blocks or entities exactly &o&b2&r blocks away from it."
+				""
+				"The &9Deployer&r can be &o&bgiven&r items to &o&buse&r with machines or by &aRight-clicking&r the items into the hand, and can be &o&bstopped&r with a &cRedstone&r signal."
+				""
+				"The &3Filter&r on the side of the &9Deployer&r can be &o&badjusted&r to only use &o&bcertain&r items, and is also &o&bessential&r when using a &9Deployer&r in a &bContraption&r."
+				""
+				"The &9Deployer&r has &o&b2&r &einventory&r slots; The &o&bheld item&r and one &o&bextra&r internal slot. As well as &o&bunusable&r items, items &o&bharvested&r by the &9Deployer&r will be &o&btransferred&r to the &o&bextra&r slot to be removed by machines, during which time the &9Deployer&r will &nstall&r. Items &ncannot&r be &o&bextracted&r from the &o&bextra slot&r directly by the player."
+				""
+				"The &9Deployer&r simulates &aRight-clicks&r by default, but it can be &o&badjusted&r to &aLeft-click&r instead by &aRight-clicking&r the front with a &cWrench&r. While in &aLeft-click&r mode, the &9Deployer&r can use &o&bnormal tools&r, such as &o&bpickaxes&r and &o&bswords&r. The tools will &o&bbehave&r as if the player was &o&bholding&r them, &o&bincluding&r mobs dropping rare items when slain by a &9Deployer&r."
+				""
+				"When positioned above a &eMechanical Belt&r or &5Depot&r, the &9Deployer&r can use held items to build components like the &3Cogwheel&r and &6Precision Mechanism&r. Each component built in this manner can require &o&bmultiple passes&r and has a percentage chance of producing random junk &o&brather&r than the &o&bintended&r item."
+			]
+			id: "372BC980FF166382"
+			min_width: 400
+			rewards: [
+				{
+					id: "5C019570BD143862"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "511CDEC1B6147257"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0945371731CA617C"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "&bDeployer"
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61678EAF0A15235A"]
+			description: [
+				"&dPolished Rose Quartz&r is an important crafting material used in the production of &aElectron Tubes&r. It can also be used to craft its &o&btiled decorative blocks&r."
+				""
+				"&dPolished Rose Quartz&r is created through &o&bPolishing&r, which can be done &o&bmanually&r by holding &cRose Quartz&r and &eSand Paper&r in both the &o&bmain&r and &o&boffhand&r, and &o&busing&r the &eSandpaper&r."
+				""
+				"As with all &o&bManual Item Application&r recipes, &dPolished Rose Quartz&r production can be &o&bautomated&r through the use of &6Deployers&r."
+				""
+				"&dPolished Rose Quartz&r can be put into a &7Stonecutter&r or through a &2Mechanical Saw&r to create some decorative blocks."
+			]
+			icon: "create:polished_rose_quartz"
+			id: "642CFD0DE5BF3F38"
+			min_width: 300
+			rewards: [
+				{
+					id: "563CE6B3D17E9C3C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0149893259868EC9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "3E949AEEF3AC2E0B"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Polished Rose Quartz"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &dMechanical Press&r is a mechanical component that applies &2Pressing&r, &9Packing&r, and &cCompacting&r recipes to items &o&bbelow it&r. It is an important &o&bearly-game&r item, as it is used to press &3Ingots&r into &6Sheets/Plates&r, which are important ingredients for &o&bhigher-level&r components."
+				""
+				"The &dMechanical Press&r is powered by an internal &3Shaft&r, accessed from &o&btwo opposite sides&r. Much like&3 Shafts&r, &dPresses&r will relay rotation along their &o&baxis&r. It processes items &o&bfaster&r when it receives &o&bfaster rotational power&r."
+				""
+				"By default, the &dMechanical Press&r will apply &o&bPressing&r recipes to items underneath it. This can be set up in &o&btwo ways&r:"
+				""
+				"- When placed &o&bone space above&r any block, it will process all valid items on the block           when given &o&brotational power&r. Items with &nno pressing&r recipe are &o&bunaffected&r."
+				"- When placed &o&bone space above&r a &eMechanical Belt&r, it will &o&bautomatically press stacks&r of        incoming items, stalling the belt until each operation is done. Items with &nno pressing&r         recipe &o&bare ignored&r."
+			]
+			id: "66AA0C89E078CBB4"
+			min_width: 400
+			rewards: [
+				{
+					id: "69C0EC9468ED137F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "671D378A9A081FED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73F69BD9461BC941"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "&bMechanical Press"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &9Mechanical Mixer&r is a mechanical component that applies &o&bmixing&r recipes and &o&bshapeless crafting&r recipes to items in &3Basins&r."
+				""
+				"The &9Mechanical Mixer&r is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and &o&breversing rotation sideways&r."
+				""
+				"The &9Mixer&r requires a &o&bminimum rotational speed&r of &o&b32&r &dRPM&r from its power source to work. Mixers will process &eingredients&r faster the &o&bmore speed it is given&r."
+				""
+				"To work, a &9Mixer&r must be placed directly above a &3Basin&r, with a &o&b1&r block gap. When a &o&bvalid&r recipe is inserted by &o&bthrowing&r the &eingredients&r in the &9Mixer&r, the &9Mixer&r will automatically combine the &eingredients&r."
+				""
+				"The &9Mechanical Mixer&r may be used to perform mixing recipes, which are not possible to make anywhere else."
+				""
+				"Those recipes include: &o&bAndesite Alloy&r, &o&bBrass Ingot&r, &o&bBuilder's Tea&r, &o&bChocolate&r, &o&bDough&r, &o&bHoney&r, &o&bLava&r and &o&bMud&r."
+			]
+			icon: "create:mechanical_mixer"
+			id: "672C231C32B4B6F0"
+			min_width: 300
+			rewards: [
+				{
+					id: "3F208A49123C80FD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "06A70AA8FE0A1EB5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "129C2831B833E9DD"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "048032EF9DCA36A4"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "&bMechanical Mixer"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0ABEFA4FA1C474F8"]
+			description: [
+				"&6Blaze Burners&r are used for &eHeating&r and &dSuper-Heating&r &3Basins&r when doing &dMixing&r recipes. In particular, they are required to make &6Brass&r."
+				""
+				"They can also be used as a &o&bheat source&r for &7Boilers&r used to &o&bpower&r &aSteam Engines&r. When a &nheat-able&r block is placed above a fueled &6Blaze Burner&r, the &6Burner&r will appear to channel &o&bheat&r into the block."
+				""
+				"&aRight-clicking&r a &6Blaze Burner&r with any item that can be used as &3Furnace&r fuel will temporarily put it in a &eHeated&r state. &aRight-clicking&r a &6Blaze Burner&r with a &eBlaze Cake&r will temporarily put it in a &dSuper-Heated&r state."
+				""
+				"A &dDeployer&r or &5Mechanical Arm&r can be used to &o&bautomatically&r fuel it, given any burnable item as an &9input&r. &o&bLava Buckets&r will be put into the &6Blaze Burner&r, the &7Bucket&r will not be consumend. They will &cstop&r adding fuel if the &6Blaze Burner's&r remaining burn time is over &o&b500&r seconds, so no fuel is &o&bwasted&r. The &6Burner&r has a &bmaximum fuel capacity&r of &o&b10,000&r seconds."
+			]
+			id: "3726B3D349A33CA5"
+			min_width: 400
+			rewards: [
+				{
+					id: "1ABF3407EEBE2BEB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C93A04A5731EDB0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63CD3AFFA0B0F449"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "&bBlaze Burner"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C2309DB4B890E71"]
+			description: [
+				"The &aBuilder's Tea&r is a potion that restores a &o&bsingle hunger point&r and grants the drinker haste for &o&b3&r minutes."
+				""
+				"To make one, put any &2Leaves&r, &o&b250&rmb &9Water&r, and &o&b250&rmb &fMilk&r in a &nheated&r &9Mechanical Mixer&r. Then, put the &aTea&r in a &o&bbottle&r using a &dSpout&r."
+			]
+			id: "1750E0D71EA9CC5A"
+			min_width: 320
+			rewards: [
+				{
+					id: "2208B3043814F896"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08204A5C00079EF1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FF256ED7A452462"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60D2C64B06CE5073"]
+			description: [
+				"&9Mechanical Crafters&r are machines that can &o&bautomatically&r craft items."
+				""
+				"&aRight-click&r the front of a &9Mechanical Crafter&r with a &cWrench&r to change the direction it sends items during crafting. The &9Mechanical Crafters&r are only connected by this path. Crafters can be &o&bautomatically filled&r by &3Funnels&r or &7Hoppers&r."
+				""
+				"On the &o&bback&r and &o&bsides&r of &9Mechanical Crafters&r, a &cWrench&r can be used to &o&bconnect&r or &o&bdisconnect&r the &einventory&r of two adjacent crafters. Crafters can &o&bshare inventories&r while not participating in the same crafting recipe. Items can also be &2inserted&r or &cremoved&r by hand."
+				""
+				"Each &9Mechanical Crafter&r has an internal gear that can only be powered by adjacent &9Mechanical Crafters&r or any size &2Cogwheel&r. This means only &o&b1&r &9Mechanical Crafter&r in a setup needs to be &o&bpowered&r by a &2Cogwheel&r."
+				""
+				"When powered by &o&brotational force&r and either powered with &cRedstone&r or all crafter slots are filled, &9Mechanical Crafters&r will send their items to adjacent crafters. For a &o&bsuccessful&r recipe, the items &o&bmust eventually meet&r in one crafter."
+				""
+				"Once all of the items reach the final &9Crafter&r, they will turn into the &o&bproduct&r. &9Crafters&r with &6Crafter Slot Covers&r act as &o&bempty spaces&r in a recipe; they can also be used &o&bto connect&r the &einventory&r of otherwise separate crafters. &6Crafter Slot Covers&r will not move as recipe items will."
+			]
+			icon: "create:mechanical_crafter"
+			id: "5BACA82D1436C781"
+			min_width: 400
+			rewards: [
+				{
+					id: "2279E939E47EE919"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "293CE3D6F69895D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "749921C4423895F9"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "6CE32BF18E2AD6EB"
+					item: "create:crafter_slot_cover"
+					type: "item"
+				}
+			]
+			title: "&bThe Mechanical Crafters"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BACA82D1436C781"]
+			description: [
+				"&2Crushing Wheels&r are the more advanced version of the &3Millstone&r. It applies &2Crushing&r recipes to &o&bany items inserted&r from the direction they are spinning away from."
+				""
+				"Two &2Crushing Wheels&r must be placed next to each other &nhorizontally&r or &nvertically&r one block apart. Both wheels must be given &o&bopposite rotational force&r. Any items to be crushed must be inserted where the wheels rotate &o&binwards&r."
+				""
+				"&2Crushing Wheels&r will &ckill&r &o&bmobs&r and &o&bplayers&r and eject their &ndrops&r."
+				""
+				"&2Crushing wheels&r can be &o&bautomated&r by placing a vanilla &7Hopper&r at the &o&btop&r directly &o&bbetween&r the wheels and either a &3Depot&r or &eConveyor Belt&r &o&bbelow&r. Materials will be fed through the top &7Hopper&r."
+				""
+				"Some recipes have &coutputs&r that &o&bonly happen by chance&r."
+			]
+			id: "1C31403D8041E654"
+			min_width: 400
+			rewards: [
+				{
+					id: "5469567188A6E9A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E6DB37A3E4C0CEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0E2ED810F6F0C1F5"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "&bThe Crushing Wheels"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A85EFF65D461020"]
+			description: [
+				"The &3Andesite Funnel&r is used to &cextract&r or &9insert&r materials into &einventories&r, similar in nature to the &6Brass Funnel&r."
+				""
+				"While held, funnels &o&bprevent&r the player from accessing &einventories&r, instead placing them. &aSneak+Right-clicking&r with a &3Funnel&r places it in &9input&r mode."
+				""
+				"Using a &4Wrench&r on the funnel switches it between &9input&r and &coutput&r mode. &cRedstone&r can be &o&bapplied&r to stop the funnel from inputting or outputting. &aRight-clicking&r a funnel on a &eMechanical Belt&r causes it to &bextend&r one block forward."
+			]
+			id: "37B0DFD5F4BD2AC1"
+			min_width: 300
+			rewards: [
+				{
+					id: "6CB745E861A6183D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3B806E3DC050D55C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5A80D0F1B99C0704"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Andesite Funnel"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37B0DFD5F4BD2AC1"]
+			description: [
+				"The &6Brass Funnel&r is a block that can &cextract&r or &9insert&r items into &einventories&r, much like the &3Andesite Funnel&r."
+				""
+				"&6Funnels&r can be placed on &einventories&r &o&bwithout&r the need to &o&bsneak&r, being placed in &coutput&r mode by default. &o&bSneaking&r while placing will place the funnel in &9input&r mode."
+				""
+				"&6Funnels&r placed on a &eMechanical Belt&r &9input&r or &coutput&r depending on the &o&bbelt's direction&r. A &4Wrench&r can be used to &o&bextend&r the funnel forwards."
+				""
+				"When attached to a &bContraption&r, &6Brass Funnels&r can &o&bdrop&r items from the contraption's inventory or &o&bpick up&r items that collide with it. If a &0Filter&r is set, only &o&bfiltered&r items will be &o&btaken&r or &o&bdropped&r. It can also be set to &coutput&r or &9input&r either \"&nexactly&r\" or \"&nup to&r\" a set amount of items via its &dValue Settings Screen&r."
+				""
+				"When not on a &eMechanical Belt&r, a &4Wrench&r can be used to set it to &cextract&r or &9insert&r. Otherwise, the direction of the belt determines whether the &6Funnel&r &cextracts&r or &9inserts&r."
+				""
+				"It can be turned &coff&r with &cRedstone&r."
+			]
+			id: "46786830FE1CED6C"
+			min_width: 300
+			rewards: [
+				{
+					id: "05817D654A0EC597"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47EC754AFD11B4EA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "0077C2AC77F0735D"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Brass Funnel"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"&9Mechanical Piston&r is a piston that can &o&bextend&r multiple blocks when powered with &o&bRotational power&r. When it comes to moving contraptions, &9Mechanical Pistons&r can be a great early start. "
+				""
+				"To extend, the &2Piston&r must have &ePiston Extension Poles&r at the end as well as &o&bRotational power&r. The &nmaximum&r extension pole length is &o&b64&r blocks."
+				""
+				"When the rotation is &o&breversed&r, the piston will &o&bretract&r. The &o&bend&r must be made &o&bsticky&r with a &aSlimeball&r to bring the pushed blocks back with it."
+				""
+				"Multiple blocks can be &o&bpushed&r with the use of &dLinear Chassis&r, &5Radial Chassis&r, or &eSuper Glue&r. Such structures function similarly to rotating structures and minecart contraptions."
+				""
+				"As a simple &o&bexample&r of where one might use these, imagine a long field of &acrops&r. A &9Mechanical Piston&r could be used to push a &o&bharvesting contraption&r back and forth over the field &o&bperiodically&r to &agather crops&r. "
+			]
+			hide_dependency_lines: true
+			icon: "create:mechanical_piston"
+			id: "6CC4C78C9AB5EA1A"
+			min_width: 350
+			rewards: [
+				{
+					id: "45E84AE0938BC3DA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76DE8DC3B0DF462D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2298BE03FF8E7AE3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:mechanical_piston"
+								}
+								{
+									Count: 1b
+									id: "create:sticky_mechanical_piston"
+								}
+							]
+						}
+					}
+					title: "Mechanical Pistons"
+					type: "item"
+				}
+				{
+					id: "153682B4AB397A67"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			title: "&bMechanical Piston"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"&6Cart Assembler&r can &o&battach&r a structure to carts that pass through it when supplied with a &cRedstone&r signal."
+				""
+				"The &2Value Settings Screen&r can be accessed on the side of the &6Cart Assembler&r to change the cart contraption's movement modes."
+				""
+				"- &o&bAlways face toward motion&r"
+				"- &o&bPause actors while rotating&r: Contraption &dActors&r such as a &eDeployer&r will not work while the cart rotates."
+				"- &o&bLock Rotation&r: The contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a &9Mechanical Bearing&r on a cart contraption."
+				""
+				"Cart contraptions will &nnot&r travel through &5Nether Portals&r."
+				""
+				"To learn more about &6Cart Assembler&r, I'll suggest to visit the &o&bCreate&r Wiki by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Create Wiki: Cart Assembler\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Cart_Assembler\"}}"
+			]
+			hide_dependency_lines: true
+			id: "64FFC1E8083428E0"
+			min_width: 350
+			rewards: [
+				{
+					id: "68AE5672AA8EA611"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01C0794894E0A72D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "74DEA7A64D67668E"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "&bCart Assembler"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"Similar to &9Windmill Bearings&r, &2Mechanical Bearing&r is meant to create and &o&brotate&r moving structures."
+				""
+				"If another &2Mechanical Bearing&r is used within a &o&bContraption&r, facing the same way as the original, the blocks &o&battached&r to that bearing will &o&bkeep&r their alignment as the rest of the structure &o&bmoves&r."
+				""
+				"The structure's behavior when ceasing movement can be adjusted with a &4Wrench&r. It can be told to place the blocks: &o&balways&r, &o&bonly near the initial angle&r, or &o&bnever&r."
+				""
+				"For instance, a long &o&bsweeping armed contraption&r could be built that swings through a &aTree Farm&r, &o&bcutting down&r all the trees it encounters. "
+			]
+			hide_dependency_lines: true
+			id: "6B98E20F753C41E3"
+			min_width: 350
+			rewards: [
+				{
+					id: "156F6BC5E2AA9C85"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52D4782033CC6BF1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C56910CE6A00F05"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "&bMechanical Bearing"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"The &2Rope Pulley&r functions much like a &9Mechanical Piston&r, but in only &o&bone direction&r and without the need for &3Piston Extension Poles&r."
+				""
+				"The &2Rope Pulley&r can &o&bextend&r downwards &o&b256&r blocks before stopping. It is most commonly used for &o&bexcavating&r or &o&bsimple elevators&r. The rope of the pulley is &o&bclimbable&r while disassembled."
+				""
+				"Use &aBlock Attachment Utilities&r to push more blocks. &2Rope Pulleys&r directly above the &o&bContraption&r at the same level of the main &2Rope Pulley&r will &o&bsynchronize&r with the main pulley. Synchronized Pulleys do &nnot&r require &o&bRotational Force&r."
+				""
+				"The &2Rope Pulley's&r current length can be monitored with a &cThreshold Switch&r."
+			]
+			hide_dependency_lines: true
+			id: "01D7969415F08817"
+			min_width: 350
+			rewards: [
+				{
+					id: "78BAD2AB252CF5AF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4D947E376E6DFC8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "493C230106013D5D"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "&bRope Pulley"
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6CC4C78C9AB5EA1A"
+				"6B98E20F753C41E3"
+				"75B14A09FE39EDDA"
+				"01D7969415F08817"
+				"64FFC1E8083428E0"
+			]
+			description: [
+				"The &2Radial Chassis&r is a block used to &o&bconnect&r moving structures."
+				""
+				"&2Radial Chassis&r are used to rotate a &o&bcylinder&r of blocks around them when powered by a &eBearing&r. You can &aRight-click&r on the sides while holding a &aSlimeball&r to make them &o&bsticky&r. The radius of affected blocks can be changed per chassis with a &4Wrench&r."
+				""
+				"The &9Linear Chassis&r is one method of &o&bconnecting&r up moving structures or minecart contraptions."
+				""
+				"&9Linear Chassis&r will &o&bautomatically&r connect to adjacent and equally aligned chassis. &aSlime&r is needed to connect a column of other blocks to their &o&bpiston-like&r surface. A &4Wrench&r can be used to adjust the size of the column. Hold &aCtrl&r with a &4Wrench&r to adjust all connected &o&bChassis&r at once. Secondary &9Linear Chassis&r can be used to have adjacent chassis that &o&bdon't connect&r to each other."
+			]
+			hide: false
+			id: "6D0D6417B3EC82C9"
+			min_width: 400
+			rewards: [
+				{
+					id: "0320B3CBB991DB1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79187E6747290D9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "27DB02CB71BFBD1E"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					id: "64659684798A7C75"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			title: "&bRadial \\& Lineal Chassis"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D0D6417B3EC82C9"]
+			description: [
+				"The &9Portable Fluid Interface&r is the fluid version of the &2Portable Storage Interface&r. It is used to &ainsert&r or &cextract&r from the fluid &einventory&r of a &bContraption&r."
+				""
+				"The &6Interfaces&r must be placed facing each other at &o&b1-2&r blocks apart, one on a &o&bContraption&r with &9Fluid Tanks&r and one stationary. A &dFluid Pump&r is required to &ainsert&r or &cextract&r liquid from the &bContraption&r. To pump liquids to another tank, simply connect the stationary &6Interface&r and the &o&bfluid tank&r with &o&bfluid pipes&r, although pumps are required to move the liquids."
+				""
+				"&bContraptions&r will &o&bautomatically&r stall for an &6Interface&r. A &cRedstone&r signal can be applied to &nbreak off&r the connection early."
+				""
+				"The &2Portable Storage Interface&r is a block that allows Item &3Transporters&r to directly interact with &bContraption&r &einventories&r."
+				""
+				"The &bContraption&r must have an &einventory&r such as a &7Chest&r or &3Barrel&r, while the stationary &6Interface&r has something &o&binserting&r or &o&bextracting&r directly from it, such as a &3Funnel&r, &8Chute&r, or &7Hopper&r. &eInventory&r will then be exchanged at the rate of the &o&binserting&r or &o&bextracting&r component."
+				""
+				"&aShift+Right-clicking&r on a &2Portable Storage Interface&r with a &4Wrench&r will destroy the &2Portable Storage Interface&r and place it in your &einventory&r."
+			]
+			id: "7A601D674E893EB3"
+			min_width: 350
+			rewards: [
+				{
+					id: "1A2FAD7C9855CC52"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B5EF2F6B6368A4A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F8FABD3E7BC8F54"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					id: "3BB18E46E6C4A731"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "304F6358BB8AEB30"
+					item: "createaddition:portable_energy_interface"
+					type: "item"
+				}
+			]
+			title: "&bThe Portable Interfaces"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D0D6417B3EC82C9"]
+			description: [
+				"The &2Mechanical Harvester&r is a component used to &o&bharvest&r all mature crops it comes in contact with while moving forward."
+				""
+				"It will then either &o&bdeposit&r the items to an &einventory&r on the &o&bContraption&r or, if no &einventories&r are &o&bavailable&r, it will &bdrop&r the items on to the ground. After harvesting the plants will be reset to their initial growth state."
+				""
+				"Unlike most components, the &2Mechanical Harvester&r cannot be &o&bpowered&r while stationary. This is likely due to the fact that in order for the &2Harvester&r to work, it &o&bmust be&r within the same block as the &o&bmature crop&r to harvest, which could not happen with a &o&r&bstationary&r component."
+			]
+			id: "43631D4C344DEF00"
+			min_width: 350
+			rewards: [
+				{
+					id: "3D4F186B67D76A41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "133279DC042981CA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "057699A0162865B5"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "&bMechanical Harvester"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D0D6417B3EC82C9"]
+			description: [
+				"The &2Mechanical Drill&r is a block used to break blocks."
+				""
+				"A stationary &2Mechanical Drill&r will &o&bbreak&r blocks in the block in front of it with a time in seconds of (&o&b45&r x Hardness)/&dRPM&r and will &o&bhurt entities&r in an area around it."
+				""
+				"A &2Mechanical Drill&r moved by components will &o&bbreak&r blocks and &o&bdamage&r entities with which it collides &nwithout&r needing a direct supply of &o&bRotational Force&r."
+				""
+				"The time it takes for a &2Mechanical Drill&r to break a block is based on the &o&bContraption's&r speed and the block's &eHardness&r value. The damage dealt to entities is also based on the &o&bContraption's&r speed."
+				""
+				"&aShift+Right-clicking&r on a &2Mechanical Drill&r with a &4Wrench&r will destroy the &2Mechanical Drill&r and place it in your &einventory&r."
+			]
+			id: "66C5B278E97F70A1"
+			min_width: 350
+			rewards: [
+				{
+					id: "652A62BAB1570E99"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B2A6C9B90AA1386"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AE46BB7CDAE9F12"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "&bMechanical Drill"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D0D6417B3EC82C9"]
+			description: [
+				"&2Mechanical Saws&r are powered through &o&brotational force&r, and when placed down facing to the side they will &o&bautomatically&r chop down wood blocks in front of them. "
+				""
+				"When &o&bchopping down&r a tree or &o&bgiant mushroom&r, it will &o&bautomatically&r destroy the entire tree by only destroying the &o&bbottom-most block&r. This also works with &o&b2x2&r trees as long as at least the last block (&o&bhorizontally&r) is mined using the saw."
+				""
+				"&2Mechanical sSaws&r are &o&bautomatically&r powered when on a &o&bCreate Contraption&r. The saw will &o&bdamage entities&r and &o&bbreak blocks&r at a certain speed depending on the contraption's speed."
+				""
+				"When placed &o&bfacing upward&r, the &2Saw&r applies &o&bsawing&r or &3stonecutting&r recipes. When a recipe has multiple &coutputs&r, an &coutput&r will be &o&brandomly selected&r unless a &0Filter&r is applied to the &0Filter&r slot located next to the saw blade."
+			]
+			id: "7FED7217CADDE60D"
+			min_width: 350
+			rewards: [
+				{
+					id: "6A984F35C9395410"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20F3DD12264A38C5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "61103A1231DF56A5"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "&bMechanical Saw"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D0D6417B3EC82C9"]
+			description: [
+				"The &2Mechanical Plough&r is a component used to break &o&bnon-collidable&r blocks."
+				""
+				"The &2Plough&r can &nonly&r be placed on the &o&bhorizontal&r face of a solid block, however, this block is not &o&bnecessary&r to support the &2Plough&r after it is placed."
+				""
+				"While attached to a &bContraption&r, the &2Mechanical Plough&r will break non-collidable blocks it comes in contact with (ex. &o&bsnow layers&r). The &2Mechanical Plough&r will also move or launch entities and till soil blocks."
+				""
+				"The &2Mechanical Plow&r is useful for more than &o&bsimple farm&r maintenance, however, and can make a &o&bgreat addition&r to a moving minecart machine for pulling up &o&bextra&r track behind it."
+			]
+			id: "7DDC0DEF59F712BE"
+			min_width: 350
+			rewards: [
+				{
+					id: "21941B6B2A895432"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "188B4FA239B6253C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6229EFE7287940A2"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "&bMechanical Plough"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"Create allows you to &o&bmove&r and &o&banimate&r block structures of any shape or form."
+				""
+				"This feature is extremely &o&bpowerful&r as it proves useful in the field of &o&bautomation&r, &o&btransportation&r and &o&baesthetics&r."
+				""
+				"&2Modular Contraptions&r are &o&bbuild-it-yourself multiblock structures&r with nearly &nendless&r possibilities. "
+				""
+				"They can either be &o&bfixed&r in place and run using &o&brotational power&r, or they can be attached to a minecart and run for free, requiring only &o&bpowered rails&r to keep the cart moving. "
+				""
+				"The following are some of the &especialized blocks&r that may be used for these &2contraptions&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:textures/item/minecart_contraption.png"
+				}
+			}
+			id: "014687B2B904513C"
+			min_width: 300
+			rewards: [
+				{
+					id: "0FB7515CC09A85D7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16B9564DF16C4C98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "32A2DC1569502312"
+				type: "checkmark"
+			}]
+			title: "&bMoving Contraptions"
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"&cRose Quartz&r is a material used to create &dPolished Rose Quartz&r, &7Rose Quartz Block&r and the &3Rose Quartz Lamp&r."
+				""
+				"&cRose Quartz&r may be used to make &dPolished Rose Quartz&r. To do this, the player must hold &eSand Paper&r in their &o&boffhand&r, &cRose Quartz&r in their &o&bmain hand&r, and &aRight-click&r. The &dPolished Rose Quartz&r will &ndrop&r on the ground."
+				""
+				"&cRose Quart&rz can be put into a &3Stonecutter&r or through a &2Mechanical Saw&r to create the decorative &7Rose Quartz Block&r."
+			]
+			icon: "create:rose_quartz"
+			id: "61678EAF0A15235A"
+			min_width: 320
+			rewards: [
+				{
+					id: "06F3DF8C70AFE400"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B5853B4DF561BC4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04CFEF1A9F72034E"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "72C5041EEE1F7233"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Polishing Rose Quartz"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["45AF5EFC3C051D1A"]
+			description: ["The &6Speedometer&r will show you the &o&bspeed&r of the currently connected gear."]
+			id: "18E43C37E2843B28"
+			rewards: [
+				{
+					id: "0164F661162ED5B0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B6471ECBF680F7C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C40ECB30FFF306E"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["45AF5EFC3C051D1A"]
+			description: ["The &dStressometer&r will show you how &o&bstressed&r the system is when you connect it."]
+			id: "39205EB715325786"
+			min_width: 210
+			rewards: [
+				{
+					id: "7CF14CD591BBC722"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29435B0F22FA710A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40D371E97D53C773"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"&6Andesite Alloy&r is a material used in &9Andesite Casing&r and simple kinetic blocks, which serves as an entry-point to the mechanical components of &bCreate&r."
+				""
+				"Among its many functions, it is an essential ingredient for crafting &3Shafts&r and both regular and large &2Cogwheels&r. &6Andesite Alloy&r is the most &o&bbasic component&r construction material in &bCreate&r."
+			]
+			id: "27B9C71CDEC8916F"
+			min_width: 300
+			rewards: [
+				{
+					id: "6AF6250B3279A364"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C8A645EA7060799"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "650D2153FFF07412"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Andesite Alloy"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FF0BADC06E9B1C2"]
+			description: [
+				"&9Display Boards&r are a &o&bscalable alternative&r to the &4Sign&r."
+				""
+				"Similarly to &dNixie Tubes&r, &9Display Boards&r can be aligned to &o&bshare&r text. &9Display Boards&r can be expanded up to &o&b32&r blocks &o&babove&r, &o&bbelow&r, and to &o&beither side&r, allowing a &o&bmaximum&r &9Display Board&r size of &o&b32x32&r. More &9Display Boards&r can be placed &o&bbeyond the limit&r, however they will &nnot function&r as part of the &o&bmain board&r."
+				""
+				"The &9Display Board&r must be powered at an &dRPM&r of &o&b30+&r to &o&bdisplay text&r. Faster &dRPM&rs will &o&breduce&r the time between &o&bupdates&r to the &9Display Board&r. "
+				""
+				"The &9Display Board&r has no &o&bstress impact&r. Use a &eClipboard&r or a &7Name Tag&r on a line of the &9Display Board&r to write the item's contents to it. Each &9Display Board&r block can hold &o&b2&r lines of text. Lines can be erased using an &o&bempty hand&r. Lines can also be &o&bcolored&r by using &5Dyes&r or &o&billuminated&r with &eGlow Inc Sacs&r. Items &nwill not be consumed&r on use."
+				""
+				"&6Display Links&r can write &o&binformation&r to &9Display Boards&r."
+			]
+			id: "4676CB58AAE7C58B"
+			min_width: 300
+			rewards: [
+				{
+					id: "3A95FE7CE5AC92BB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3042654261ABE007"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E3CD633D9C0C4E3"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CFC8384790ADFFE"]
+			description: ["To make &6Brass Casing&r you need any &2Stripped Log&r or &2Stripped Wood&r + &eBrass Ingot&r."]
+			id: "60D2C64B06CE5073"
+			min_width: 300
+			rewards: [
+				{
+					id: "08A574E8D73CC510"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7DE3978BA7AE6B70"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2C3C8188B26B84D5"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["672C231C32B4B6F0"]
+			id: "1CFC8384790ADFFE"
+			rewards: [
+				{
+					id: "11B4A6ABEDF64D4D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FFC7D8DDBCDE2AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3702CAE62D454CC6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any #forge:ingots/brass"
+				type: "item"
+			}]
+			title: "Brass"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["66AA0C89E078CBB4"]
+			description: ["To make &cCopper Casing&r you need any &2Stripped Log&r or &2Stripped Wood&r + &6Copper Ingot&r."]
+			id: "3F663416E824720C"
+			min_width: 300
+			rewards: [
+				{
+					id: "33D2E2C51A8FEEF6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25B0A4E64DEC5D92"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FE62F264B4FA5DE"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: [
+				"The &9Portable Interface&r works in &o&bpairs&r. You need to have &o&bone placed&r in the world and another one on a &o&bmoving entity&r, like a &7Minecart&r."
+				""
+				"When the two &9interfaces&r are &o&bfacing each other&r, they will &nlink&r and &ntransfer&r liquids between each other."
+			]
+			id: "71B1B53A03A16296"
+			min_width: 250
+			rewards: [
+				{
+					id: "34B1F22C689AE074"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "33CF0D5E1F38C821"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "339D26EDFBB54047"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: [
+				"The &eSpout&r is used to fill items with liquid."
+				""
+				"The &eSpout&r can be filled with up to &o&b1&r bucket of any one liquid via &9Fluid Pipes&r. It will then spout the fluid at appropriate items that pass under it via a &aConveyor Belt&r or &cDepot&r."
+				""
+				"The &eSpout&r has &o&b8&r &6unique&r crafting recipes:"
+				"&o&bGrass Block&r, &o&bBlaze Cake&r, &o&bGlowstone Dust&r, &o&bRedstone Dust&r, &o&bGunpowder&r, &o&bSweet Roll&r, &o&bChocolate Glazed Berries&r and &o&bHoneyed Apple&r."
+			]
+			id: "1C2309DB4B890E71"
+			min_width: 300
+			rewards: [
+				{
+					id: "65CC377F18B0346D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "037F24F5790020EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "6772D04457414991"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F663416E824720C"]
+			description: [
+				"The &5Hose Pulley&r is a pump that can &o&bextract liquids&r or &o&bplace liquids&r in the world."
+				""
+				"When &o&brotational force&r is given to the &5Hose Pully&r, it can extend the hose &o&binfinitely&r. Reversing the &o&brotational force&r will &o&bretract&r the hose back to the block. The hose of the &5Hose Pully&r must be &o&bextended&r by &o&bat least one block&r before it can function."
+				""
+				"A Fluid Pump is required for the hose to drain or flood liquids."
+				""
+				"- If a fluid is &o&bpumped out&r, it will &o&bdrain&r a body of liquid down to the level of the hose. If multiple &9hose    pulleys&r draw from the &o&bsame source&r, it will effectively expedite the drainage process, provided that     the pipe's capacity is maintained."
+				"- If a fluid is &o&bpumped in&r, it will &o&bflood&r a room of any size, with the hose marking the highest point of flooding."
+				""
+				"If a liquid source is at least &o&b10,000&r blocks the &9Hose Pulley&r considers it to &o&bbe infinite&r, drawing the liquid from it without actually draining the source. Reintroducing the same liquid into the &o&binfinite source&r will deplete the fluid. This is also the &nmaximum&r flood volume in blocks."
+			]
+			id: "77382D4114E901CB"
+			min_width: 450
+			rewards: [
+				{
+					id: "464E0732F5A91DCB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03F57D372E6DD18C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "739701B00C0F8A7B"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C2309DB4B890E71"]
+			description: [
+				"The &6Blaze Cake&r can be used to feed the &eBlaze Burner&r in order to make it &dSuper-Heated&r."
+				""
+				"To make a &6Blaze Cake&r, pour &o&blava&r onto a &8Blaze Cake Base&r with a &9Spout&r."
+				""
+				"The &6Blaze&r becomes &dSuper-Heated&r for &o&b160&r seconds. It then turns into &o&bstandard blaze&r, lasting for &o&b250&r seconds. Finally, the &6Blaze&r becomes &o&bsmoldering&r, and &ndoes not&r provide any heat."
+				""
+				"&5Super Heated Blaze Burners&r can be used with a &3Basin&r to access &o&bspecial&r recipes. They can also be used to provide &nmore heat&r to a &eSteam Engine&r boiler."
+			]
+			id: "4C77ABCD41383F32"
+			min_width: 300
+			rewards: [
+				{
+					id: "103C82355BD8CCC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41B9EA5F2F0C63F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E9A4E9BFFC10819"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BD81BF0B04A6FA7"]
+			description: [
+				"The &dWeighted Ejector&r flings items and entities to a targeted block up to &o&b32&r blocks away."
+				""
+				"Before placing, &asneak&r use the &dEjector&r on a block to &o&btarget it&r. The block must be in a straight line from where the &dEjector&r is placed. The further away the target is, the longer the &dEjector&r will take to &o&brecharge&r."
+				""
+				"The amount of items ejected can be adjusted in the &6Value Settings Screen&r accessible from either the sides of the block or the top before it has been wound up. The &dEjector&r will wait until it has the appropriate amount of items. The &dEjector&r can also be rotated along with the target block with a &aWrench&r."
+				""
+				"Items flung still have collision, but &ccannot&r be &o&bpicked up&r or &o&bstopped&r by the &o&bplayer&r."
+				""
+				"If the &dEjector&r is &o&brotated&r, the &edisplacement&r of the target is &o&brotated&r."
+			]
+			id: "4EA4EDD5A7923F98"
+			min_width: 300
+			rewards: [
+				{
+					id: "2AC07058B34AFAA1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11B96370D32F3D8F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "34313AA5D327317C"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07DEA314CA78639B"]
+			description: [
+				"&6Smart Chutes&r behave similarly to &eBrass Funnels&r."
+				""
+				"They can be filtered to only allow &o&bcertain&r items through, and be &o&bstopped&r with a &cRedstone&r signal. Unlike &o&bfunnels&r, they can &9insert&r and &cextract&r at the same time, but can only function &nvertically&r."
+				""
+				"When directly below an &einventory&r, the &0Filter&r slot doubles as a &aValue Settings&r diode, much like the &eBrass Funnel&r. The &6Chute&r can be adjusted to &cextract&r up to or &o&bexactly&r a set amount of items."
+				""
+				"The &aValue Settings&r of a &6Smart Chute&r will be &o&bsaved&r even when the &einventory&r above is &o&bdestroyed&r, though this has &o&bno effect&r on the &6Chute's&r behavior when not under an &einventory&r."
+			]
+			id: "7E510922F28689F6"
+			min_width: 300
+			rewards: [
+				{
+					id: "50BB550F6D2EEC7A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56724122A483C6E5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "453E23E4C7F5870F"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"A &3Blaze Burner&r is a heating component that is required for certain &9Mixing&r recipes. It can be used for heating &7Steam Engines&r, &cBulk Smoking&r, &6Bulk Smelting&r, and as a decorative &elight&r source."
+				""
+				"&6Blaze Burners&r must have &eBlazes&r in them to function. To put a &eBlaze&r in an &3Empty Blaze Burner&r, &aRight-click&r on a &eBlaze&r while holding an &3Empty Blaze Burner&r. Alternatively, an &3Empty Blaze Burner&r can be filled by &aclicking&r on a &0Blaze Spawner&r. This method can be &o&brepeated&r without risk of &o&bdestroying&r the &0Blaze Spawner&r."
+			]
+			id: "0ABEFA4FA1C474F8"
+			min_width: 300
+			rewards: [
+				{
+					id: "69ACF08B8674A7B6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "044DEA12DDC0C039"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AB90F6C4CF59AA4"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"Be it simple &9Transportation&r of &o&bgoods&r or &o&bpeople&r, or powering a &o&bmoving quarry&r, &6Trains&r offer an elegant solution. "
+				""
+				"&6Trains&r are large mobile contraptions that may be automated by way of &eTrain Stations&r, &3Train Schedules&r, and &2Train Signals&r. They’ll move through &o&bun-loaded&r chunks, making &o&blong-distance&r transport of materials feasible; only the &eStation&r needs to be loaded. &7Drills&r and other machines will not function in &o&bun-loaded chunks&r, however."
+				""
+				"To learn how to Assemble it, I'll suggest to visit the &o&bCreate&r Wiki by &aclicking&r the &o&blink&r below:"
+				"{\"text\":\"Create Wiki: Train\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Train\"}}"
+			]
+			icon: "create:track"
+			id: "62D9A1A16024C3CD"
+			min_width: 300
+			rewards: [
+				{
+					id: "39EA762C01074173"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BC405C0E72D2D0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "6EB910AAB970DD49"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "46ED06FFF6481B08"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "51F37EEA49A25A12"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "5B5472A962BB6A24"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "&bTrains"
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6CDCF5CAF844400E"]
+			description: [
+				"The &dRolling Mill&r is well suited for &o&brolling out&r some clean &arods&r or extruding &3wires&r suitable for &eelectronics&r use."
+				""
+				"These may be used &o&bmanually&r, or inline with &eConveyor Belts&r as part of a larger factory.  "
+			]
+			id: "286B9D8843E3B768"
+			rewards: [
+				{
+					id: "3331E15A021B3211"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5918C38DEF3A741B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F39C95F04932DE3"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["014687B2B904513C"]
+			description: [
+				"The &9Gantry Carriage&r can be attached to &aGantry Shafts&r and if the &aShaft&r is rotating, it will move the &3Carriage&r along it."
+				""
+				"&9Gantry Carriages&r are a &o&bContraption&r that will collide with unmovable blocks in their path."
+				""
+				"Place &2Gantry Shafts&r along where the &9Gantry Carriage&r will move. Apply &o&brotational power&r to the shafts to move the &9Carriage&r along them, and &o&binvert&r the power to &o&bmove it back&r. Inverting the placement of the shafts will &o&binvert all movement&r. Use a &4Wrench&r to help change the orientation."
+				""
+				"Apply a &cRedstone&r signal to the shaft to &cstop&r the carriage and send &o&brotational power&r through the &9Carriage's&r &coutput&r. This can be used to move another attached &9Gantry Carriage&r."
+				""
+				"&2Gantry Shafts&r attached to the &9Carriage's&r &coutput&r will move along with them &o&bautomatically&r."
+			]
+			hide_dependency_lines: true
+			id: "75B14A09FE39EDDA"
+			min_width: 350
+			rewards: [
+				{
+					id: "33F2579ED5EC73FD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6BE80F4C446A24FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7DA78C3A582368E2"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1C2309DB4B890E71"]
+			description: [
+				"Giving the &6Blaze&r a &7Straw&r allows them to accept &o&bliquid fuels&r instead."
+				""
+				"These will never burn as hot as a &eBlaze Cake&r, but they can make an &o&bexcellent&r alternative to &0Coal&r for regular &o&bheating&r operations."
+			]
+			id: "37476D4C70355E26"
+			min_width: 250
+			rewards: [
+				{
+					id: "097039F89BFED23B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63F5F004376EB01A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "775FCD3643073FEC"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BACA82D1436C781"]
+			description: [
+				"A &o&bhigh-powered electrical device&r capable of &o&bcharging&r objects &ewirelessly&r by induced currents, the &dTesla Coil&r can be quite useful in any factory."
+				""
+				"When placed above a &3Belt&r or &eDepot&r and provided sufficient power, the &dTesla coil&r will impart a charge into items on the &3Belt&r or &eDepot&r. This works not only with crafting recipes, but also for charging equipment like &o&btools&r and &o&bbatteries&r. "
+				""
+				"The &dCoil&r may be &o&bdeployed&r for more destructive purposes as well by placing it and providing a &cRedstone&r signal in addition to the &cpower&r. In this mode, it will &o&bdamage nearby entities&r."
+			]
+			id: "467D1EB30C521A20"
+			min_width: 300
+			rewards: [
+				{
+					id: "4CE89F4BC70581E7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14E3A6370E924D74"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "352DB990B46388DA"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BACA82D1436C781"]
+			description: [
+				"These simple &6Electric Motors&r make an excellent and &o&bcompact source&r of &o&bStress Units&r (&eSU&r). "
+				""
+				"Provide &cPower&r from any source of &cFE&r to get them spun up and set &o&btheir operating speed&r on the back. Spinning &o&bfaster&r allows them to provide more &eSU&r, but at an increasing &cFE&r cost."
+				""
+				"For high &eSU&r, low speed applications, be sure to pair them with a &aRotation Speed Controller&r."
+			]
+			id: "6A689A7721191B5F"
+			min_width: 300
+			rewards: [
+				{
+					id: "5C80BDBFD7611CC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42D98646DB2EC039"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C58028FCB2E6601"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27B9C71CDEC8916F"]
+			description: [
+				"The &9Steam Engine&r provides &o&bRotational Force&r."
+				""
+				"It &coutputs&r the highest &o&bStress Units&r (&eSU&r) capacity of all the survival-mode power-generating blocks. It converts the pressure caused by heating &9Water&r in a &eFluid Tank&r into &o&bRotational Force&r, allowing for large scale item production and multiple contraptions."
+				""
+				"&9Steam Engines&r use &o&bheated water&r for power and are placed on &eFluid Tanks&r used as a &o&bboiler&r. At least &o&b4&r &eFluid Tanks&r and &o&b1&r heat source block are required."
+				""
+				"&6Boilers&r may be heated passively by any &o&bcampfire&r or &o&bmagma block&r, &o&blava&r, however by actively heating them with a &6Blaze Burner&r, they reach much higher temperatures and therefore produce more &eSU&r."
+				""
+				"A &3Shaft&r can be used on the engine to make a &o&bkinetic output&r. The direction of the output can be adjusted through the &o&bValue Settings&r on the side of the engine."
+				""
+				"Increasing the &o&btotal power generate&rd requires that one or more of the three characteristics (&o&7heat&r, &o&7size&r, &o&7water&r) of the &eFluid Tank&r boiler be increased. Multiple &9Steam Engines&r can be attached to a &o&bsingle boiler&r to extract more power; however, this will not increase the &ntotal power generated&r by the boiler."
+			]
+			icon: "create:steam_engine"
+			id: "5B54E008C558007F"
+			min_width: 400
+			rewards: [
+				{
+					id: "72CC3BA86FFF0BDC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19D3D3DB5C1A400B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D00F9504A3F354F"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20A4498D3BC9D9C1"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"Like the &o&bshipping crates&r they replicate, &dItem Vaults&r can hold an &o&benormous number&r of items per block."
+				""
+				"By default, each &dItem Vault&r block has a storage space of &o&b20&r stacks. Items &ncannot&r be &o&badded&r or &o&bremoved&r by the player, but by components such as &7Chutes&r and &3Funnels&r."
+				""
+				"&dItem Vaults&r may be combined to form a &o&bmulti-block&r storage container. The base must remain &nsquare&r and can be expanded up to &o&b3x3&r, while the length can be up to &o&b3x&r the diameter for a &nmaximum&r size of &o&b3x3x9&r, and &nmaximum&r storage space of &o&b1,620&r stacks in one &dItem Vault&r multiblock."
+				""
+				"A &cRedstone Comparator&r can be used to show the &eVault's inventory&r, outputting a signal strength of &o&b15&r when the &dVault&r is &4full&r. A &6Display Link&r can also be used on a &aSmart Observer&r or &5Threshold Switch&r facing the &dVault&r to display its &einventory&r."
+				""
+				"Unlike with other &einventories&r, &1Trains&r will not &o&bautomatically&r take &o&bburnable&r items stored in a &dVault&r to use as &o&bfuel&r."
+			]
+			id: "0FEC8B6C5EBF0D99"
+			min_width: 300
+			rewards: [
+				{
+					id: "3076FC483ECD89AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "717A3E71BDA7BCB9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EC36FA1B3FEB0D3"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5BACA82D1436C781"]
+			description: [
+				"Working on &o&bthe same principles&r as &6Electric Motors&r, &dAlternators&r effectively just operate in reverse. By &o&bspinning the shaft&r, a current is induced in the coils which may be used to &cPower&r devices. "
+				""
+				"The faster these are spun, the more &o&bStress Units&r (&eSU&r) they’ll use and &cFE&r they’ll produce. "
+			]
+			icon: "createaddition:alternator"
+			id: "4693EAC2CFBB6FB1"
+			min_width: 300
+			rewards: [
+				{
+					id: "73381D2607F5765C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3A4719A982B348D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06AFE505EFF7F9BB"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "69F4626FAE4CB0D6"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7116C160D7D6EC46"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &aItem Drain&r drains fluid from items such as &o&bbuckets&r and &o&bbottles&r inserted onto it. It's also quite handy for getting fluids out of a &2Basin&r."
+				""
+				"The &aItem Drain&r can hold up to &o&b1,500&rmb of fluid at a time. A &9Fluid Pump&r is needed to &cextract&r the fluid."
+				""
+				"A &2Basin&r will &o&bautomatically&r deposit &coutput&r fluids into an &aItem Drain&r placed &o&bnear it&r."
+				""
+				"It has &o&bsmall internal tank&r, from which fluids can be accessed by &o&bpipes&r."
+			]
+			id: "28D17B54F4DE4D86"
+			min_width: 300
+			rewards: [
+				{
+					id: "25EAF84623E50766"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "524381FA14F19F58"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "251340C776442923"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C2309DB4B890E71"]
+			description: [
+				"&cChocolate Glazed Berries&r are a &o&bfood item&r."
+				""
+				"Eating them restores &o&b7&r &ahunger&r and &o&b80%&r &esaturation&r - making it a &o&bmid-tier food&r item roughly on par with &7Cooked Salmon&r."
+			]
+			id: "29E5C4F82E593A77"
+			min_width: 250
+			rewards: [
+				{
+					id: "3032C1BF53115DA6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0672EEA02DAD561D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4503732347B62EED"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C2309DB4B890E71"]
+			description: [
+				"The &2Sweet Roll&r is a food item made from &o&bbread&r and &o&bmilk&r."
+				""
+				"Eating one restores &o&b6&r &ahunger&r and &o&b8o%&r &esaturation&r - roughly between the &o&bnutritional value&r of &6Cooked Chicken&r and &7Cooked Salmon&r."
+			]
+			id: "376B13BE564CC064"
+			min_width: 250
+			rewards: [
+				{
+					id: "0ABA4EC5EEA9803A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3954BC15AC804454"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C293AC633C98D7F"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FF0BADC06E9B1C2"]
+			description: [
+				"The &dNixie Tube&r can display &o&btext&r or &o&bnumbers&r."
+				""
+				"The &dNixie Tube&r must be mined with a &o&bwooden pickaxe&r or &nhigher&r, or else it &o&bdrops nothing&r."
+				""
+				"A &dNixie Tube&r may be used to display &cRedstone&r signal strength of the &o&bconnected&r redstone component. It will display the &o&bhighest connected&r signal strength."
+				""
+				"When &aRight-clicked&r with a &nnamed&r &2Name Tag&r or a &7Clipboard&r with &o&btext&r, the &dNixie Tube&r as well as &o&badjacent&r &dNixie Tubes&r will &ndisplay&r the text."
+				""
+				"When &2Right-clicked&r with a &5Dye&r the &o&bcolor&r of the text can be &o&bchanged&r. The &5Dye&r is &nnot&r consumed."
+				""
+				"&dNixie Tubes&r can serve as a &o&bsource&r and target for &9Display Links&r. When used as a &o&bsource&r, the content of the &dNixie Tubes&r can be &o&bcopied&r to a target."
+			]
+			id: "23E956EDC52E3EAE"
+			min_width: 300
+			rewards: [
+				{
+					id: "50D0BFA076818E64"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F0AE887D2A85B1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A3442D6230EE73E"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["60D2C64B06CE5073"]
+			description: [
+				"A &eDisplay Link&r is used to get &o&binformation&r from a block and &o&bsend it&r to blocks that can &o&bdisplay it&r."
+				""
+				"Use the &eDisplay Link&r on a block to &o&blink it&r, and then &o&bplace it&r on the block that will be &o&bread from&r. Though it will &o&blink to any block&r, not every block can act as a &o&bdisplay&r or &o&bsource&r. The &eLink&r can be paused with a &cRedstone&r signal."
+				""
+				"&eDisplay Links&r have a range of &o&b64&r blocks by default."
+				""
+				"&aRight-click&r the &eLink&r to access its &dinterface&r. Additional labels &o&bcan be added&r to the &o&boutput text&r through this &dinterface&r. Some sources provide &o&bmultiple options&r for &nformatting&r the text."
+			]
+			id: "5AE697119ACB7E29"
+			min_width: 300
+			rewards: [
+				{
+					id: "146708A2A9DD47BD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A989566E13CCD37"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59F30ACFF76B79C2"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27B9C71CDEC8916F"]
+			description: [
+				"A &aClipboard&r can be used to &9copy&r and &epaste&r a &o&bblock's settings&r, keep track of a &o&bSchematicannon's checklist&r, or another &b&bwritten checklist&r."
+				""
+				"Use a &aClipboard&r in hand or use a placed &aClipboard&r to access its &dinterface&r. Items on the &3checklist&r can be &o&bwritten out&r or &o&bchecked off&r, or all &o&bchecked items&r can be &cerased&r."
+				""
+				"&bCopying and Pasting&r:"
+				"Use the &aClipboard&r on a block with &1Value Settings&r to &o&bcopy them&r, such as a &6Brass Funnel&r or a &3Mechanical Bearing&r, then &aLeft-click&r another to &o&bpaste them&r. When pasting a setting including a &0filter&r, having a &0filter&r in the &7inventory&r will be &nrequired&r to paste the setting."
+				""
+				"&o&bSchematicannon&r:"
+				"Put the &aClipboard&r in a ready &9Schematicannon&r to get the &dSchematicannon's Checklist&r. Like with a &7Book and Quill&r, the &aClipboard's&r checklist can be &o&bupdated&r by putting it in the &9Schematicannon&r again. Items can also be &o&bchecked off manually&r. Once finished with the &dSchematicannon's Checklist&r, the &aClipboard &rcan be blanked again by either using the \"&o&bErase checked items&r\" option, or putting it through the &3Crafting Grid&r."
+				""
+				"Displaying Text:"
+				"A &aClipboard&r can also paste text written in it to a &1Display Board&r or &dNixie Tubes&r. &dNixie Tubes&r will only take text from the &aClipboard's&r first bullet point, whereas &1Display Boards&r will attempt to display all of a &aClipboard's&r points from the &aClipboard's&r selected page. Pasting text onto a &1Display Board&r from a &aClipboard&r works much like using a &cName Tag&r on it."
+			]
+			id: "7FACF6929EB8E339"
+			min_width: 400
+			rewards: [
+				{
+					id: "426DF0843BA0F8E0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11087E451558F583"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C9E5C8E5264CE9B"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60D2C64B06CE5073"]
+			description: [
+				"The &2Threshold Switch&r measures &o&bhow full&r an &einventory&r is and can emit a &cRedstone&r signal at adjustable &2Thresholds&r. This is shown as a &o&bchest icon&r on one of the red bars in the &dinterface&r."
+				""
+				"When placed by the &o&bplayer&r, the &2Threshold Switch&r will attempt to orient itself toward an adjacent &einventory&r. If multiple or no &einventories&r are present, the &2Threshold Switch&r may orient itself toward the player and can be adjusted as normal using the &cWrench&r. At present, it &ncannot&r be oriented &o&bvertically&r."
+				""
+				"Item &2Thresholds&r can be set to &o&bdetermine&r when the &credstone&r signal turns &9on&r or &coff&r. When the &2Switch&r is first placed, it stays &coff&r until it reaches &o&b75%&r &einventory&r, then stays &9on&r until it reaches &o&b25%&r &einventory&r."
+				""
+				"{image:kubejs:textures/item/switch_gui.png width:100 height:50 align:1}"
+				""
+				"The &o&bchest icon&r represents how full the &einventory&r is, as well as the current signal state (&9on&r/&coff&r) depending on which lane the &o&bchest icon&r is in. The arrows represent &einventory&r thresholds, illustrated by the &o&bchest icon&r switching lanes upon reaching the arrow."
+				""
+				"The signal can be &o&binverted&r by &aclicking&r the button showing &o&btwo opposing arrows&r next to the lower &2Threshold&r bar."
+			]
+			id: "30A0847AD5C43D7F"
+			min_width: 400
+			rewards: [
+				{
+					id: "0EC7E75426EE8ADB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "586F9103B4274242"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59E3AC28EBF773DC"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60D2C64B06CE5073"]
+			description: [
+				"The &9Smart Observer&r is a machine that emits a &cRedstone&r signal dependent on the block or items inside a container in &o&bfront of it&r."
+				""
+				"If the &9Smart Observer&r is placed with the &o&bfront facing&r a container such as a &eMechanical Belt&r, &6Funnel&r or &3Fluid Pipe&r, it will emit a &cRedstone&r signal when an item is detected inside. A &9Smart Observer&r will also emit a signal if the block placed in front of it matches the &0Filter&r."
+				""
+				"If a &0Filter&r is applied to the &9Smart Observer&r, it will only emit a &cRedstone&r signal when the item in the &0Filter&r is detected."
+			]
+			id: "2943B8BAC4329505"
+			min_width: 400
+			rewards: [
+				{
+					id: "0D11164671BDFCA4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3CCA66A0F849C5C5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "269D87099BAF8741"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37188F03818AF4E0"]
+			description: [
+				"The &9Fluid Tank&r is a fluid storage mechanism that can store up to &o&b8,000&r mB of fluid per block."
+				""
+				"Fluids can be &o&bstored&r and &o&bextracted&r from &9Fluid Tanks&r via &1Fluid Pipe&r. The fluid pipes can be &o&bplaced&r on any face of the &9Fluid Tank&r: &o&btop&r, &o&bbottom&r, or &o&bsides&r. The window of a tank &o&bcan be toggled&r with a &cWrench&r."
+				""
+				"The direction of flow in the fluid pipe &o&bindicates&r whether fluids will be put into the tank or &aextracted&r from the tank; if fluid is flowing towards the tank, the fluid will be &estored&r in the tank. Likewise, if a fluid pipe is flowing away from the tank (via &aMechanical Pump&r), then fluid from the tank will be &o&bextracted&r into that pipe."
+				""
+				"&9Fluid Tanks&r will merge with adjacent tanks, up to a maximum of &o&b3x32x3&r, allowing to store up to &o&b2,304&r buckets of &nany fluid&r."
+				""
+				"The placement of fluid pipe connections to the tank is &o&bnot important&r for functionality. For instance, an &aextracting&r pipe can be placed at the &o&btop&r of a tank and still remove fluid from the tank, even if the fluid tank is not &o&bcompletely full&r."
+			]
+			id: "66033C267FEE79D7"
+			min_width: 340
+			rewards: [
+				{
+					id: "303B2AB6FFF25D3A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2EA6DC8CC3F1F4C3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "361FB4DFFA847BA0"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "6B22DCA9118AA3D2"
+			optional: true
+			rewards: [
+				{
+					id: "6661FE4E305643D3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "706FCADCA5EA8AA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "122C941BBB1D6BA6"
+				item: "rechiseledcreate:mechanical_chisel"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			id: "2E1FE1C103F5C346"
+			optional: true
+			rewards: [
+				{
+					id: "11B8819AF9398C92"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58B9B62C0998F1D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EDDB4B2BD86D5F3"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			id: "1732155C1A4A8768"
+			optional: true
+			rewards: [
+				{
+					id: "27FC65783E6505DB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20F30D9234EDE8C1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47DB0BCD49D02D40"
+				item: "createaddition:small_light_connector"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			id: "7A046AF5D16E4F69"
+			optional: true
+			rewards: [
+				{
+					id: "218B2C000E59DF56"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63BB606B84A32A1E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C80957678053F4C"
+				item: "createaddition:large_connector"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			id: "70C56DDB7A2FA059"
+			optional: true
+			rewards: [
+				{
+					id: "4723193DDE588352"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "373EE342ABEE2AE9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6449104885EC2702"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			id: "1063F46BBB81E2F9"
+			optional: true
+			rewards: [
+				{
+					id: "0B93E58DA5F6A4C8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C14AE5B44403BA7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FC27DF6E38D00BA"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			id: "18A12B3F966FC345"
+			optional: true
+			rewards: [
+				{
+					id: "01BCC2E86C436F41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E2506FC33543D6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60816E554232C10A"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			id: "33422C5B205C6861"
+			optional: true
+			rewards: [
+				{
+					id: "6B560D1125F4C4AD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00E2B4F7ED8D3776"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F656A73CD21EB77"
+				item: "createaddition:biomass_pellet_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			id: "2B3904226E79E035"
+			optional: true
+			rewards: [
+				{
+					id: "5D74EB0382CF0509"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5BCC7AB4C615AE0B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72A47F0BBA983A9E"
+				item: "createaddition:digital_adapter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			id: "1C3D3784C0E8DE3F"
+			optional: true
+			rewards: [
+				{
+					id: "6A760B7B989FDFFF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C4CE9CF05801E45"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78B91B182B9333D2"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			id: "56228F7D7BF611DC"
+			optional: true
+			rewards: [
+				{
+					id: "086407484A67370D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E4DEC9699F81AFB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74A3396410336381"
+				item: {
+					Count: 1b
+					id: "createaddition:diamond_grit_sandpaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.0d
+		}
+		{
+			id: "3E9EDD324980E204"
+			optional: true
+			rewards: [
+				{
+					id: "2D903981FAB577E2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03BA5A821647EB25"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0CDCEF4F162D63EE"
+					item: "createaddition:iron_wire"
+					type: "item"
+				}
+				{
+					id: "56C1B0EE8E94F7CF"
+					item: "createaddition:gold_wire"
+					type: "item"
+				}
+			]
+			title: "Wire"
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			id: "572C3847D62BF679"
+			optional: true
+			rewards: [
+				{
+					id: "0AA196D628F7F8DD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C073C743FF9351F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A820DB31FD4A8BF"
+					item: "createaddition:spool"
+					type: "item"
+				}
+				{
+					id: "4220DF1DB4EE1004"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					id: "56CD05CC03BB10C7"
+					item: "createaddition:gold_spool"
+					type: "item"
+				}
+				{
+					id: "5CBD57063F12BE6A"
+					item: "createaddition:electrum_spool"
+					type: "item"
+				}
+				{
+					id: "7947DE2AA2C75D3D"
+					item: "createaddition:festive_spool"
+					type: "item"
+				}
+			]
+			title: "Spools"
+			x: -12.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["45B63E72DE8727B9"]
+			id: "4BDC95FAAA0884CE"
+			optional: true
+			rewards: [
+				{
+					id: "71DA506B5A15A504"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "38F84A1827956240"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52A2211B730B8F86"
+				item: "createchromaticreturn:shadow_steel"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45B63E72DE8727B9"]
+			id: "3BF0923C64ABA68D"
+			optional: true
+			rewards: [
+				{
+					id: "4B9A315797B950E4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2504A7715869C3B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01B63936710A142E"
+				item: "createchromaticreturn:refined_radiance"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "45B63E72DE8727B9"
+			optional: true
+			rewards: [
+				{
+					id: "3FC81598F77BB16E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "162CABB5E2DEC82B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "767575955FF6FE3E"
+				item: "createchromaticreturn:chromatic_compound"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "4FD15D08E4A9914A"
+			rewards: [
+				{
+					id: "2280AF6F9F1ADEEB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4F5278055531A37E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39352EA2EFFD4128"
+				item: "createchromaticreturn:glowing_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "091B3E754D3AB37E"
+			optional: true
+			rewards: [
+				{
+					id: "507B56A85FF15730"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58D97D75EC08BFDC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A0359E614D7DD86"
+					item: "createchromaticreturn:handle_cast"
+					type: "item"
+				}
+				{
+					id: "695CFEE42EAFD90B"
+					item: "createchromaticreturn:blade_cast"
+					type: "item"
+				}
+				{
+					id: "1CC7EB20452624AF"
+					item: "createchromaticreturn:pickaxe_cast"
+					type: "item"
+				}
+				{
+					id: "7F4C3CDBD792F384"
+					item: "createchromaticreturn:shovel_cast"
+					type: "item"
+				}
+				{
+					id: "078842261E99BFAF"
+					item: "createchromaticreturn:axe_cast"
+					type: "item"
+				}
+				{
+					id: "4CA01CF96C0BE6BF"
+					item: "createchromaticreturn:hoe_cast"
+					type: "item"
+				}
+				{
+					id: "0652DED8A48F38E4"
+					item: "createchromaticreturn:paxel_cast"
+					type: "item"
+				}
+				{
+					id: "683945D4CE72BAB4"
+					item: "createchromaticreturn:plating_cast"
+					type: "item"
+				}
+				{
+					id: "4AFE18D14A7A051C"
+					item: "createchromaticreturn:charm_cast"
+					type: "item"
+				}
+			]
+			title: "Cast"
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			id: "64A05FD8CD814741"
+			optional: true
+			rewards: [
+				{
+					id: "5DF2E2A7FD37764B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1DFD0F474BB90751"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29D17E67202F548B"
+					item: "createchromaticreturn:shadow_mechanism"
+					type: "item"
+				}
+				{
+					id: "09F7C4FDD0202906"
+					item: "createchromaticreturn:magmatic_mechanism"
+					type: "item"
+				}
+				{
+					id: "14A82C9F6FB6CF0E"
+					item: "createchromaticreturn:annealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "54E598EACB5720D9"
+					item: "createchromaticreturn:refined_mechanism"
+					type: "item"
+				}
+			]
+			title: "Mechanism"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			id: "05811253F84623C2"
+			optional: true
+			rewards: [
+				{
+					id: "5340EA6FF1C8B33A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "105C5CD99DA8A214"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C7EA7F4F8D57F1B"
+				item: "createchromaticreturn:shadow_steel_powder"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BF0923C64ABA68D"]
+			id: "774C7F026E92BB74"
+			optional: true
+			rewards: [
+				{
+					id: "5A0840F0854D0A40"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7903F5F1C7C2F226"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31EDACFBCAAB55B4"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["774C7F026E92BB74"]
+			id: "5D8EE7439F7AB32F"
+			optional: true
+			rewards: [
+				{
+					id: "14783FCB48AEE92E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77CC84A0897E4CD1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32B3E92C6C0C19D2"
+				item: "createchromaticreturn:multiplite_handle"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "295708BCEBEB2F76"
+			optional: true
+			rewards: [
+				{
+					id: "2C6D112A2220A3A3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30116E3781D3DEAF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5257A3923FEFB4EA"
+				item: {
+					Count: 1b
+					id: "createchromaticreturn:radiant_glow_saber"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			id: "6E5AACB1A61A35A1"
+			optional: true
+			rewards: [
+				{
+					id: "587936C05ED4DEA4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "54C0821D27F47073"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49480EED00498D90"
+				item: "createchromaticreturn:radiant_glow_claws"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "42A96BF725A3C416"
+			optional: true
+			rewards: [
+				{
+					id: "72AEC88662C9DF89"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "407DA965019B064D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69D1BD33D3C2A123"
+				item: "createchromaticreturn:multiplite_tube"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			id: "4E925D9A9F2C37FA"
+			optional: true
+			rewards: [
+				{
+					id: "1490943E815B75B6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56C1B2B8B321F879"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0EE78F6C6629DE4E"
+					item: "createchromaticreturn:charm_base"
+					type: "item"
+				}
+				{
+					id: "3013C4F3F0CB8C47"
+					item: "createchromaticreturn:shadow_charm"
+					type: "item"
+				}
+				{
+					id: "5ABC5178364C9E59"
+					item: "createchromaticreturn:multiplite_charm"
+					type: "item"
+				}
+				{
+					id: "679A7B1B0C4C7E19"
+					item: "createchromaticreturn:durasteel_charm"
+					type: "item"
+				}
+				{
+					id: "536A12BFD1C756DC"
+					item: "createchromaticreturn:silkstrum_charm"
+					type: "item"
+				}
+				{
+					id: "4694B4E7E2738E99"
+					item: "createchromaticreturn:industrium_charm"
+					type: "item"
+				}
+				{
+					id: "2F84789ED9D336EB"
+					item: "createchromaticreturn:refined_charm"
+					type: "item"
+				}
+			]
+			title: "Charms"
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			id: "69A73D5A6072B381"
+			optional: true
+			rewards: [
+				{
+					id: "2878D5E85AF04690"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "24BDE545BF15E599"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B713EB09528F7C5"
+				item: "createchromaticreturn:industrium_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "1383200DAA3BFAEE"
+			optional: true
+			rewards: [
+				{
+					id: "261E85900F789570"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A46EBF5F6E3DE17"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12B367C9BF6FD372"
+					item: "createchromaticreturn:andesite_component"
+					type: "item"
+				}
+				{
+					id: "73D1A80C66A2DA34"
+					item: "createchromaticreturn:brass_component"
+					type: "item"
+				}
+			]
+			title: "Component"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			id: "45A924F0A2CBB986"
+			optional: true
+			rewards: [
+				{
+					id: "5371FB78BAD99760"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0BCF447F1BB68E4D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A57C80F32C61963"
+				item: "createchromaticreturn:durasteel_ingot"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A924F0A2CBB986"]
+			id: "4F7F5EE0E5B6520F"
+			optional: true
+			rewards: [
+				{
+					id: "20EF87C2726CCAEC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11E54FC289988000"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "685DBC1E593F2C78"
+				item: "createchromaticreturn:durasteel_book"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			id: "5A2108FAFB767F7F"
+			optional: true
+			rewards: [
+				{
+					id: "24B0B896EC84486D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3088912C68C2873A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BF6626ADAC8F301"
+				item: "createchromaticreturn:fortunite_bar"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "3F758D212CF2A151"
+			optional: true
+			rewards: [
+				{
+					id: "3AD2416B4744E5F6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74FE4DA1556C48E6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D828ACA0F8CD0E2"
+				item: "createchunkloading:chunk_loader"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			id: "23EC258811CAFD31"
+			optional: true
+			rewards: [
+				{
+					id: "43E71C185BBD981C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "683D48D099382A68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D8D91D4AB26DEB5"
+					item: "create_weaponry:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "7408647E2D5025D5"
+					item: "create_weaponry:pickaxe_head_pattern"
+					type: "item"
+				}
+				{
+					id: "4FC492B154B99E32"
+					item: "create_weaponry:axe_head_pattern"
+					type: "item"
+				}
+				{
+					id: "608DE6E195EFC059"
+					item: "create_weaponry:sword_head_pattern"
+					type: "item"
+				}
+				{
+					id: "3815CF47DEC0DE54"
+					item: "create_weaponry:shovel_head_pattern"
+					type: "item"
+				}
+				{
+					id: "2B16C65A2DE80742"
+					item: "create_weaponry:hoe_head_pattern"
+					type: "item"
+				}
+				{
+					id: "10274145D8513AC0"
+					item: "create_weaponry:mace_head_pattern"
+					type: "item"
+				}
+				{
+					id: "4162D12F1483B263"
+					item: "create_weaponry:katana_head_pattern"
+					type: "item"
+				}
+				{
+					id: "289FB3D8E1F65E32"
+					item: "create_weaponry:hammer_head_pattern"
+					type: "item"
+				}
+				{
+					id: "60C34E913DC984F6"
+					item: "create_weaponry:glaive_head_pattern"
+					type: "item"
+				}
+			]
+			title: "Patterns"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			id: "5C4972280366D9B8"
+			optional: true
+			rewards: [
+				{
+					id: "733A4C37E33D7666"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CC22761CB756461"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56A2383636C074BB"
+					item: "create_sa:steam_engine"
+					type: "item"
+				}
+				{
+					id: "1C09C68F78C1964D"
+					item: "create_sa:heat_engine"
+					type: "item"
+				}
+				{
+					id: "3B66EF55DEFA5D25"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+			]
+			title: "Engine"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "3CA067303AD7DC86"
+			optional: true
+			rewards: [
+				{
+					id: "43F7AEE0D14EDA0D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40EF64B03ECD3420"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03E2ED0E6B35FEC9"
+					item: {
+						Count: 1b
+						id: "create_sa:small_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4C6DE1218E6329F5"
+					item: {
+						Count: 1b
+						id: "create_sa:medium_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "422512F648385DDE"
+					item: {
+						Count: 1b
+						id: "create_sa:large_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "108BEB45FCABC272"
+					item: {
+						Count: 1b
+						id: "create_sa:small_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "70900D1CC3071E5E"
+					item: {
+						Count: 1b
+						id: "create_sa:medium_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1C652222D60C8AAD"
+					item: {
+						Count: 1b
+						id: "create_sa:large_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tanks"
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			id: "2FFF551A595648EE"
+			optional: true
+			rewards: [
+				{
+					id: "0CFD56F72B4F75EB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16CA3301E5C8B94D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F94D26219239BDD"
+				item: "create_sa:drone_controller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "53BFF5BE272BA440"
+			optional: true
+			rewards: [
+				{
+					id: "17647E008A870DC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "09871FA274B1C86D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2632F6CA19231F3F"
+				item: "create_sa:brass_drone_item"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			id: "3A4FA9C1434C14B3"
+			optional: true
+			rewards: [
+				{
+					id: "7A4E2895797626D4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26A262F6986B3DCF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05A18E54C80F11CE"
+				item: "create_sa:copper_magnet"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			id: "2931B3A7AE91C8CB"
+			optional: true
+			rewards: [
+				{
+					id: "24C49CF772A06BC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "535CB94E7B74E3CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5790E2AF5A44FE44"
+				item: "create_sa:brass_drill_head"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			id: "1164F0C720F6E1BD"
+			optional: true
+			rewards: [
+				{
+					id: "390B9A59299D9208"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "125B09AE311D63AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CB8F88D0621282A"
+				item: "create_sa:fan_component"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			id: "4583050D5C2D65D5"
+			optional: true
+			rewards: [
+				{
+					id: "00B93ABC5B77C260"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "216322B794DDB0CE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AAF4EADBF0A649E"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "5061D6DAF5B0D381"
+			optional: true
+			rewards: [
+				{
+					id: "453D27A3A4792FED"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01A17B2EBCB0F425"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09876D9492375013"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			id: "178558266966ABE6"
+			optional: true
+			rewards: [
+				{
+					id: "6C59C8F18B1D8551"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74141BF2FB75FAEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "549992FD01318979"
+				item: {
+					Count: 1b
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			id: "4A75BE5F07A16631"
+			optional: true
+			rewards: [
+				{
+					id: "4BF225A86CBED2AB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "162499EAD2A396EC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6946C2108B484F43"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			id: "349F1D16EC37ACD5"
+			optional: true
+			rewards: [
+				{
+					id: "34D5893E66548619"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DEA301C2E688413"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BAEFFE643154B7D"
+				item: {
+					Count: 1b
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			id: "3D372BCED3C290AE"
+			optional: true
+			rewards: [
+				{
+					id: "2698C880BB155D45"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "467B93F75D271B1C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D97E3254C1BB4A0"
+				item: "create_sa:brass_cube"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+	]
+	title: "&2&oCreate"
+}

@@ -1,0 +1,7 @@
+#Configure Mutant More's Mutant Blaze Shields on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# The opacity of the Mutant Blaze Shields when viewed from first person
+# usually set to 0.15
+#Range: 0.0 ~ 1.0
+"First Person Opacity" = 0.15
+

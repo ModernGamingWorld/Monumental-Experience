@@ -1,0 +1,17 @@
+#Configure Mutant More's mob heating system on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The amount per tick (20 ticks in a second) that mobs cool down if they aren't near a Mutant Blaze (doubled if the mob is in water or rain)
+# usually set to 0.025
+#Range: 0.0 ~ 1.0
+"Cool Down Speed" = 0.025
+#
+# The amount of ticks (20 ticks in a second) that it takes for mobs to start cooling down after heated up by a Mutant Blaze (ignored if the mob is in water or rain)
+# usually set to 40 ticks (2 seconds)
+"Cool Down Delay" = 40
+#
+# The interval in ticks (20 ticks in a second) between mobs getting damaged if they are fully heatedusually set to 20 ticks (1 second)
+"Damage Interval" = 20
+#
+# The damage dealt to mobs every damage interval if they are fully heatedusually set to 2.0
+Damage = 2.0
+

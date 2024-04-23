@@ -1,0 +1,946 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "4E2A2310634498BA"
+	id: "70AE8ED4FE316B78"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			id: "5D4D943E505E44D6"
+			rewards: [
+				{
+					id: "5C93D2DDC7174126"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "340DF6DCE9B84320"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "58660BF3B3A3EA26"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Found by Exploring the world"
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			id: "0C00DC2733FB8026"
+			rewards: [
+				{
+					id: "2151C29B02201216"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F74DF7A2C8FB342"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "45CF7DC7AECAD6DD"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			id: "1CBBF990E3D046C7"
+			rewards: [
+				{
+					id: "59A80281077A2896"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B6EBCCFEEF0B997"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1B3C391A386A68D5"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3378DBA1114E2954"]
+			id: "3D8504FE7ABEF341"
+			rewards: [
+				{
+					id: "60ED632E8CA39BB4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A114B02A73B9774"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "189403088E3AC0F9"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0C00DC2733FB8026"]
+			id: "0032DA22E13BDC44"
+			rewards: [
+				{
+					id: "0F5572D551D415B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6713E301835DFE8D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "77B9337EAFFF6D3A"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0032DA22E13BDC44"]
+			id: "4D708C97A3C8CDC8"
+			rewards: [
+				{
+					id: "49876F477A8C2883"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C34FF99BF7312B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7B0E27688E9EA882"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			id: "408B73F9437F7650"
+			rewards: [
+				{
+					id: "7ABC0F8756A488E5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5390BD456FE14188"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "47657D088D58ED3D"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["408B73F9437F7650"]
+			id: "742D2DBEB2CBBE0B"
+			rewards: [
+				{
+					id: "5BF9CD533ED6D967"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F34A97F43C0FE64"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "315318C254B8A197"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["742D2DBEB2CBBE0B"]
+			id: "083F8029F40E6C9C"
+			rewards: [
+				{
+					id: "09D95C6F5C1DAFE4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21C758163989A8F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1F0E6F1BEBEC75A7"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["083F8029F40E6C9C"]
+			id: "37BA8AC07F6E01AC"
+			rewards: [
+				{
+					id: "6AD7950B44C0647D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "09C8F1A0C53221EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "627A2894AB2BC781"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["4D708C97A3C8CDC8"]
+			id: "66EF1DF7188E9EE1"
+			rewards: [
+				{
+					id: "5C46804C9BC4C594"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C1AFB041410CB32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4913031AC9567988"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["1CBBF990E3D046C7"]
+			id: "3378DBA1114E2954"
+			rewards: [
+				{
+					id: "143F7E0152E361BA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5412F0EE32CE7E17"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2E401F22F4409BF1"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["54ABE5D87281B8D2"]
+			id: "6EBA8E9DA2C687FA"
+			rewards: [
+				{
+					id: "7493A904EA608EF9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52F0A51BF24A617C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "075CAF7F2DE74353"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			id: "54ABE5D87281B8D2"
+			rewards: [
+				{
+					id: "408BF53D969AE019"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1CE5EEA8AEBC3941"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "43BB425CFDC81F4C"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["6EBA8E9DA2C687FA"]
+			id: "4572076CEAFACD3F"
+			rewards: [
+				{
+					id: "6A7A5B575E666114"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "660B319A2D43004D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "033157566FB89C58"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["4572076CEAFACD3F"]
+			id: "4DB5F65EE5D10837"
+			rewards: [
+				{
+					id: "4194FC492CF858A1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5B3B36E9BF26A478"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2BBCEA9F78B38100"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["3D8504FE7ABEF341"]
+			id: "6FE2A4F98B3580EE"
+			rewards: [
+				{
+					id: "4F1C1874A011C488"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7FBEBAA3CA4EB7D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "1941133038627FEA"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["6FE2A4F98B3580EE"]
+			id: "5204C894D8F8B36F"
+			rewards: [
+				{
+					id: "303B2231A78FA755"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6667E0AF30639623"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "67F8C34EAC7FDEC4"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["3B5AC51FDF22782C"]
+			id: "60AEE7D3EF9E0D1F"
+			rewards: [
+				{
+					id: "6803828786B2C6DB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "357CEFC38853A16B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3208CED78876D768"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["5D4D943E505E44D6"]
+			id: "0E9FAF804029296A"
+			rewards: [
+				{
+					id: "1B72A17A09FA347D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E61FBA5FD0A4BA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3816464B0030263D"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7A4BC3003C7C7EA1"]
+			id: "59425E3757A1B15C"
+			rewards: [
+				{
+					id: "0EFAAA8DFA645BE6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56C7B1E829251094"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "499FE9970FEFEF20"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["0E9FAF804029296A"]
+			id: "7A4BC3003C7C7EA1"
+			rewards: [
+				{
+					id: "6967B638EB7DA2E3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DEF415083FFE3E2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "42D8DE10364DE466"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["59425E3757A1B15C"]
+			id: "3B5AC51FDF22782C"
+			rewards: [
+				{
+					id: "480FEA87507F6786"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5DA309D2A58209E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7544631BF9DA3FF8"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["37BA8AC07F6E01AC"]
+			id: "61548E4AA60E8FDC"
+			rewards: [
+				{
+					id: "0301CEE0443B9CF0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "13E3520230168A1B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0208B226866B9DB8"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["4DB5F65EE5D10837"]
+			id: "10202C1C5C837638"
+			rewards: [
+				{
+					id: "5A51A0458BD02B23"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1484E89057626311"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "23E4B115EC20E303"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["66EF1DF7188E9EE1"]
+			id: "2C729B0D65B0903F"
+			rewards: [
+				{
+					id: "0C10704118C1E9D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "204C29CDE73C571C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "0A1D911A3DD51904"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.75d
+		}
+	]
+	title: "&4&oMinecraft Tools"
+}

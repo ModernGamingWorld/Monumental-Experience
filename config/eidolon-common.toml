@@ -1,0 +1,17 @@
+
+#Generic settings
+[generic]
+	#Duration in ticks of each step of a crucible recipe.
+	#Range: 20 ~ 1200
+	crucibleStepDuration = 100
+	#Maximum amount of ethereal health (soul half-hearts) an entity can have at once.
+	#Range: 0 ~ 1000
+	maxEtherealHealth = 80
+
+#Soul Enchanter
+[soulEnchanter]
+	#How often the Soul Enchanter can apply enchantments on an item (a value below 0 means unlimited)
+	soulEnchanterMaximumUses = -1
+	#How many enchantments the item is allowed to have to be applicable for soul enchanting (a value below 0 means unlimited)
+	soulEnchanterMaximumEnchantments = -1
+

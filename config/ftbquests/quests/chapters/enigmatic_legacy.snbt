@@ -1,0 +1,1438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "4814F40AB34427B6"
+	icon: "enigmaticlegacy:astral_dust"
+	id: "5A4525EE85A001DD"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.2857142857142847d
+		y: -7.160714285714285d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["When worn in the Ring slot, it will move any dropped items within 8 blocks radius towards the wearer, leaving trail of violet particles behind them."]
+			id: "05EA6848C4510FAB"
+			rewards: [
+				{
+					id: "7B033868283B169D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "126CA362114F491B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "You see, I am a very magnetic personality..."
+			tasks: [{
+				id: "3D80D0B72EDCBC9B"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05EA6848C4510FAB"]
+			description: ["When worn in the Ring slot, it will collect any dropped items within 16 blocks radius from the wearer of the ring."]
+			id: "07912BA915367ECC"
+			rewards: [
+				{
+					id: "1F72B5972B6D4124"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D7B7379144B3CFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Don't get any close to cesspools when wearing it. You won't be happy to see what happens."
+			tasks: [{
+				id: "0043CA3C784C1AA1"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07912BA915367ECC"]
+			description: ["When worn in the Ring slot, it allows the player to open their Ender Chest inventory, by pressing related keybind (default: I)."]
+			id: "6C5F93AFCF8CACB0"
+			rewards: [
+				{
+					id: "7B405D129E5462D1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "063E4E473B855846"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Handshake with the cosmic abyss. How romantic."
+			tasks: [{
+				id: "17D12FD831E2FB68"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["It can be relatively rarely found in chests generated within End Cities."]
+			id: "5AEDAD2BA20FB750"
+			rewards: [
+				{
+					id: "68BBF6B4E9A31F54"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5229D38B640AEA9B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "It's truly curious how it came to existence, given that it never appears naturally across any of the reaches of The End."
+			tasks: [{
+				id: "29C59FD32EE013E1"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AEDAD2BA20FB750"]
+			description: ["Etherium represents \"better than diamond\" tier of equipment, available in endgame stages of progression, after reaching the Outer Islands in The End. Tools and armor made of Etherium not only have high durability and effectiveness on their own, but also possess unique abilities that make them incomparably more powerful than anything vanilla Minecraft has to offer."]
+			id: "5298FDCB080C6BA0"
+			rewards: [
+				{
+					id: "10F17857845212A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B28FC410AEEB9FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Don't let this name confuse you. It is physically solid. Very."
+			tasks: [{
+				id: "124A53818176B966"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			description: ["When worn, etherium armor will provide the player with high defensive stats and unlike other armor, will not be visible on them."]
+			id: "26F5882C2D317741"
+			rewards: [
+				{
+					id: "07C08E2CAAB35817"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3CCFD7FE3B94C21E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "60F52E110894E529"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26F5882C2D317741"]
+			description: ["Etherium gear has exceptionally high durability as for armor, with the helmet having 1452 durability points, cuirass having 2112, greaves having 1980 and boots having 1716. It has protection stats noticeably better than that of a diamond armor, an is also not displayed on a player when they are wearing it, providing additional advantage in PvP encounters."]
+			id: "25EB996570D15909"
+			rewards: [
+				{
+					id: "7C5946026B3E1138"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DE0D623E22ECACC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "5B5F73850E03FA65"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25EB996570D15909"]
+			description: ["But the greatest power of etherium armor lies in it's set bonus. Set bonus is activated when wearing all four pieces of the armor simultaneously. When that happens, additional text describing it will be seen when viewing the tooltip of any of those pieces."]
+			id: "4BB85B3AB0C08772"
+			rewards: [
+				{
+					id: "460E6A901D8C8BDB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "327265677B94E7B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "6EC376345519D1BB"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BB85B3AB0C08772"]
+			description: ["The bonus will generate a shield around the player, whenever their health drops below 40%. Health calculations consider maximum amount of health player can have at the moment, so if they have any effects that increase or decrease maximum health they can have, the amount of health required to generate a shield will change respectively."]
+			id: "50FA8E9AB010689B"
+			rewards: [
+				{
+					id: "3D913FAB4BEDD28C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7AEBB776BC236E4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "2EBB01E46492ED4A"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			description: ["When mining a block that pickaxe is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "0141B118123EC39B"
+			rewards: [
+				{
+					id: "137E3C0FDD84D4B5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "32EA99B5E9B3B4BA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Classic of all classics."
+			tasks: [{
+				id: "2646E39F279CFDDC"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0141B118123EC39B"]
+			description: ["When mining a block that waraxe is effective on, it will break additional such blocks in 3x3x3 area centered around the broken block. This effect will not trigger if player is holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "77B80530F8609F7B"
+			rewards: [
+				{
+					id: "4AA009C7CD7A60AE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6CAFDBB9032B6AE3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A weapon worthy of true viking... or a true lumberjack. One of these guys should suffice."
+			tasks: [{
+				id: "28D619FDB6A04B77"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77B80530F8609F7B"]
+			description: ["When mining a block that shovel is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "178168F4134EB8E5"
+			rewards: [
+				{
+					id: "43894D6349A51903"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D3D73053D0BA835"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "That's one compact and portable excavator."
+			tasks: [{
+				id: "26F96596A1BFAB20"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["178168F4134EB8E5"]
+			description: ["Pressing Right-Click while holding Etherium Broadsword in mainhand will throw it's user back a few blocks. This ability could be used again after 2 seconds cooldown expires."]
+			id: "2C4CD7394763E782"
+			rewards: [
+				{
+					id: "0C433D97947EF555"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "19897EA19A6AABD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A big blade for a big boy... Oh, wait, you're a girl?"
+			tasks: [{
+				id: "03134621A662CFF0"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"51687C4372CEB98B"
+				"0141B118123EC39B"
+				"178168F4134EB8E5"
+				"77B80530F8609F7B"
+			]
+			description: ["When mining a block that breaker is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "6575317D05AF48EC"
+			rewards: [
+				{
+					id: "31F9E5C88F379FCF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5B3CE97D649E829B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.2d
+			subtitle: "Insert overthinked lore stuff here."
+			tasks: [{
+				id: "1742FB1C43F2B626"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["It can be commonly found in chests generated within End Cities."]
+			id: "51687C4372CEB98B"
+			rewards: [
+				{
+					id: "4CE72DC65754E0A1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57D46D0A7EC7EE16"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Shamelessly stolen from the very depths of cosmic well of time."
+			tasks: [{
+				id: "31A76014F139F449"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["After being bound to a location, it will teleport any entity the player Left-Clicks on to that location, vanishing from their inventory right after."]
+			id: "5D85DD83E65824E4"
+			rewards: [
+				{
+					id: "45418C24005F8421"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75239EE4E161423A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Yes, it stares right in your eyes. Always."
+			tasks: [{
+				id: "682D6E6C95726C19"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D85DD83E65824E4"]
+			description: ["When worn in the Charm slot, it will consume the water in a radius and shape similar to that of a regular Sponge, if you come in contact with any water block."]
+			id: "5416535E697BDB2D"
+			rewards: [
+				{
+					id: "0690EFE15A9E8353"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E756E205AB24A06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Don't leave this thing unattended. Given enough time, it will drain entire oceans."
+			tasks: [{
+				id: "6F63514EBED396EE"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AE2C846449A901E"]
+			description: ["Has a 10% chance to behead monsters slain with this weapon. Each level of Looting enchantment applied to it increases the probability by another 5%."]
+			id: "037F874922352A48"
+			rewards: [
+				{
+					id: "163047C6585DF6FA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "699C12E48429961B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Evil weapon against evil creatures. I bet this will work perfectly."
+			tasks: [{
+				id: "357BFF7F6F286FCF"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["When equipped in the Arcane Scroll slot and activated, it will quickly consume or retreive player's experience, depending on the mode chosen. It will also collect any experience orb in the radius of 16 blocks from it's bearer. If deactivated, all of it's effects will be disabled."]
+			id: "34B1CC13B5B096EA"
+			rewards: [
+				{
+					id: "176E383C266A9F60"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20CFE61A5BB8356A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Where do I put this scroll?.. I can't remember where I put this scroll!"
+			tasks: [{
+				id: "3CED048E00B39131"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63ACC29415D94F54"]
+			description: ["When equipped in the Arcane Scroll slot, it will provide the bearer with an ability to freely fly, at the cost of slowly consuming their experience. When flying, it will also compensate mining speed penalty, boosting block breaking rate back to regular value."]
+			id: "58A625A699579D89"
+			rewards: [
+				{
+					id: "382B3F2349D85F51"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73B18531AE926004"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Looks like they've made sure that the wings won't meltdown in the sunlight this time."
+			tasks: [{
+				id: "33FE3EB6B5C5218C"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34B1CC13B5B096EA"]
+			description: ["When equpped in the Arcane Scroll slot, it will return the bearer to their respawn point within the current world in an instant of their death. The scroll itself will be dropped at the initial position of death."]
+			id: "63ACC29415D94F54"
+			rewards: [
+				{
+					id: "089E7B2873FFD317"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6C186531E2D3C77B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "There is a special advancement for dying while having it equipped in a hardcore world. I am sure."
+			tasks: [{
+				id: "41B4947C4F921117"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58A625A699579D89"]
+			description: ["Flying will quickly drain your experience. Flying within the range of the beacon does not drain experience. Compensates for the loss of mining speed while flying."]
+			id: "6B0DF7364F9B5DCE"
+			rewards: [
+				{
+					id: "0A4A55C083A6FDBD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "749BEC805A4CC629"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Grants you the ability to fly."
+			tasks: [{
+				id: "5F4CFC8434CD920E"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5416535E697BDB2D"]
+			description: [
+				"Allows you to transfer enchantments from any item, by combining the tome with it in a crafting grid."
+				"Item which enchantments are absorbed by the book remains intact within the grid after crafting, besides having all of it's enchantments removed."
+			]
+			id: "3AE2C846449A901E"
+			rewards: [
+				{
+					id: "6250FC16AF0399E3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "072A8545F68655F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Insert overthinked lore stuff here."
+			tasks: [{
+				id: "7489C06F99A7304D"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C5F93AFCF8CACB0"]
+			description: ["Piglins become neutral when equipped, increasing luck by one."]
+			id: "517EAF56950207E4"
+			rewards: [
+				{
+					id: "00C8F849C3B04407"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "186275A1248A8A2A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Useful thing to protect your finger from being cut off some day. Perhaps."
+			tasks: [{
+				id: "216DE3E3BD32511C"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["This mod is designed to provide tools that will aid you in exploring seemingly endless reaches of Minecraft's worlds."]
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "3ABFE29062852FD6"
+			min_width: 300
+			rewards: [
+				{
+					id: "6E80E94872AE8CE8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B548B08DFBA2D1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "353D92FB5AA053CE"
+				type: "checkmark"
+			}]
+			title: "Welcome to &5Enigmatic Legacy"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["The Ring of Seven curses is a wearable item that can be equipped in the Curios ring slot. Once it is put on, it cannot be removed. Wearing it significantly and permanently changes gameplay to be extremely challenging."]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "1FF431078E9F14E9"
+			min_width: 300
+			rewards: [
+				{
+					id: "2051C932F0B3E97D"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:darkest_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "775473B842B0408E"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:astral_fruit"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09880E38C5E7269B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7FE50683CB94CE06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "\"Once forged by an antediluvian god, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might... Be it arrogance or ignorance that leads them to believe they can harness ring's power, both are paid for in suffering the extent of which defies description.\""
+			tasks: [{
+				id: "499D3936E0549DD4"
+				type: "checkmark"
+			}]
+			title: "&5Ring of the Seven Curses"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Basic bonus:"
+				"+4% Attack Damage"
+				"+7% Mining Speed"
+				"+4% Health Regeneration"
+				"The base bonus above will be multiplied by the number of cursed enchantments in all your equipment items  (note the number of items). The seven curses of the Ring of Seven Curses are also counted."
+				"Only those who bear the seven curses are worthy of carrying this item."
+			]
+			hide_dependency_lines: true
+			id: "3349BD306A590085"
+			rewards: [
+				{
+					id: "13CE7C6DF6260C09"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75A533A5DA864B30"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Scroll"
+			tasks: [{
+				id: "17D313B12A5C7549"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Only those who bear the Seven Curses can use this item."
+				"+1 Fortune Level."
+				"Piglins are neutral to you , even if there is a second curse, supplies will increase the yield by 100% ."
+				"Killing any mob provides an additional 15% chance to drop an emerald."
+				"Villager trading offers a 35% discount, and if you feel good, you have to suffer seven negative effects."
+			]
+			hide_dependency_lines: true
+			id: "51115C97C6CDFADD"
+			rewards: [
+				{
+					id: "44FAA9B5E02A1BE9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6357CAB768F4EFF1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Scroll"
+			tasks: [{
+				id: "40059F17005D5735"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"The only way to take off the Ring of Seven Curses is to go to the Nether with this stone and a soul crystal and jump into a lava lake big enough to consume this stone and soul crystal to destroy the Ring of Seven Curses."
+				""
+				"If the lava lake is not big enough, even if you jump into it and die, it will not destroy the Ring of Seven Curses and it will also consume the evil stone (does not consume the soul crystal)."
+				""
+				"When all goes well, the player will hear the roar of wither death upon death and find that the Ring of Seven Curses has permanently disappeared from the accessories slot upon resurrection. This process is irreversible!"
+				""
+				"Since the Ring of Seven Curses cannot be crafted, when the Ring of Seven Curses is destroyed, players can no longer obtain it except by cheating. It would be boring if you did that, wouldn't it?"
+			]
+			hide_dependency_lines: true
+			id: "041DF7D0D016B0C3"
+			min_width: 300
+			rewards: [
+				{
+					id: "432AAFB0AD6D1489"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7ECB6656915DAE02"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "The Cure"
+			tasks: [{
+				id: "0771636F7C00DC8B"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Basic bonus:"
+				"+1% Attack Damage"
+				"+1% Attack Speed"
+				"+0.5% Movement Speed"
+				"+0.5% Damage Resistance"
+				"These attributes are multiplied by the total of all your gear/effects."
+				"Only those who bear the seven mantras have the ability to obtain this thing."
+				"This item can only be crafted/used by players wearing the Ring of Seven Curses in the Ring Bar."
+			]
+			hide_dependency_lines: true
+			id: "216383A1EA42CFDE"
+			rewards: [
+				{
+					id: "3B4F273EE8ABD619"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41391E41222AE5A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Talisman"
+			tasks: [{
+				id: "279D5BC30DECE3E4"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"When equipped in the Charm slot or in your inventory, the player receives greater amount and power of enchantments when using an Enchanting Table. Enchanting has the chance to produce both treasure and curse enchants."
+				"This is a cursed item, meaning that can only be used when the Ring of Seven Curses is equipped."
+				"Due to the ability to get curse enchants with this item, it works well in conjunction with the Scroll of a Thousand Curses"
+			]
+			hide_dependency_lines: true
+			id: "6C775AF4D9F399EF"
+			rewards: [
+				{
+					id: "5551819B294968A9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C2647B80135112B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "This item cannot burn in fire or lava."
+			tasks: [{
+				id: "13615751FF502579"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "5A31D0CCD2360586"
+			rewards: [
+				{
+					id: "52577ACF3A348270"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D880E80BB368F8C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4AA49A3B50EBEBBF"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "443D11965967B122"
+			rewards: [
+				{
+					id: "51C9E82C2D8DE532"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69FBFEDA31C92275"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5DE080B409458C2A"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "34E45EE36B4BCA90"
+			rewards: [
+				{
+					id: "54CC579F005BEFE0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66225608FBA0A2F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1EA2FA4796FF962E"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "53C3418F36947BDD"
+			rewards: [
+				{
+					id: "5311D6A36FAB6E8F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F48890E7B1A8311"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "02A7547207C5D765"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0710CD0A10741258"
+			rewards: [
+				{
+					id: "4DD583614A16E210"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4156F94D59AEE18E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DA44BC686D5C641"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:cosmic_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide: true
+			hide_dependency_lines: true
+			id: "76D958C317879242"
+			rewards: [
+				{
+					id: "20606FE2B7B2F2B0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D854917F48C6B7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3D81CBF770FBE612"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:astral_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "51B98B47B615A40F"
+			rewards: [
+				{
+					id: "6146A88DBA8BAF40"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "300FF3A7B768EDFA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58F55C7450B6100D"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:the_infinitum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0A5E009D37A67DD4"
+			rewards: [
+				{
+					id: "0039BBAD7A84BDF6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E392CFEAD1FD7DC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23D5E5C78D784F5C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:soul_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "446EC9001D51F4CA"
+			rewards: [
+				{
+					id: "04D087B294EB2144"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53AC6EBF6CBB3DE4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18CD23B0622A0434"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2FC752AD1DCF1DB0"
+			rewards: [
+				{
+					id: "7BDD91C15C8CFD24"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69D7F62A6FC9E61C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4DB3B0783133B7"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "667C87AD2C55D3C4"
+			rewards: [
+				{
+					id: "77AA2BBCFB2C85A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "481FB3CE312B8C1B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A70CE42E6A2FA37"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:evil_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "391C419A602944F7"
+			rewards: [
+				{
+					id: "460541ECF9CCC3E1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C1CC093A35B94A7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BFED83FE26B64E8"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:desolation_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide: true
+			hide_dependency_lines: true
+			id: "57947EB8B3D2370F"
+			rewards: [
+				{
+					id: "2EB4DC3C71218CCA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0DE2725C610B5F1B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E8E13E8BB90FD62"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:curse_transposer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			hide_dependency_lines: true
+			id: "4A9F93181E031F6B"
+			rewards: [
+				{
+					id: "5489BB1FE6DEBD01"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48A859688CBE7C1A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "0B74A14465EFC204"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			id: "0A94A6D7D5151BB1"
+			rewards: [
+				{
+					id: "56F711BDCBDBE60D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "213843B2BB23DDEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A0C1546DADFD1F7"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			id: "53FE2C339E3CA7A4"
+			rewards: [
+				{
+					id: "27DBE8E8DEC24B4F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7996E13A01192B7A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F10D769CF7A920E"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "&d&oEnigmatic Legacy"
+}

@@ -1,0 +1,114 @@
+{
+  "ability": {
+    "abilities": {
+      "rain": {
+        "requiredPoints": 1,
+        "requiredLevel": 15,
+        "maxLevel": 10,
+        "stats": {
+          "duration": {
+            "minInitialValue": 10.0,
+            "maxInitialValue": 15.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.25
+          },
+          "delay": {
+            "minInitialValue": 1.0,
+            "maxInitialValue": 0.75,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": -0.15
+          },
+          "radius": {
+            "minInitialValue": 3.0,
+            "maxInitialValue": 5.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.15
+          }
+        }
+      },
+      "receptacle": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 10,
+        "stats": {
+          "slots": {
+            "minInitialValue": 2.0,
+            "maxInitialValue": 5.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 1.0
+          }
+        }
+      },
+      "leap": {
+        "requiredPoints": 1,
+        "requiredLevel": 5,
+        "maxLevel": 10,
+        "stats": {
+          "duration": {
+            "minInitialValue": 4.0,
+            "maxInitialValue": 6.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_BASE",
+            "upgradeModifier": 0.1
+          },
+          "multiplier": {
+            "minInitialValue": 0.1,
+            "maxInitialValue": 0.5,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": 0.15
+          },
+          "cooldown": {
+            "minInitialValue": 15.0,
+            "maxInitialValue": 12.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "MULTIPLY_TOTAL",
+            "upgradeModifier": -0.1
+          }
+        }
+      },
+      "agility": {
+        "requiredPoints": 2,
+        "requiredLevel": 10,
+        "maxLevel": 5,
+        "stats": {
+          "modifier": {
+            "minInitialValue": 1.0,
+            "maxInitialValue": 1.0,
+            "minThresholdValue": 4.9E-324,
+            "maxThresholdValue": 1.7976931348623157E308,
+            "upgradeOperation": "ADD",
+            "upgradeModifier": 1.0
+          }
+        }
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 20,
+    "step": 100
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0.075
+    }
+  },
+  "style": {
+    "background": {
+      "f_135804_": "relics",
+      "f_135805_": "textures/gui/description/backgrounds/default.png"
+    }
+  }
+}

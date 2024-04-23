@@ -1,0 +1,1706 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "4814F40AB34427B6"
+	icon: {
+		Count: 1b
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "386999710FDB8FFE"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -12.214285714285715d
+			y: -9.517857142857142d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=v-FZ3fYavTA"
+			height: 1.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "hexerei:item/creative_waxing_kit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -7.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Delve into the magical world by concocting various mystical items inside your witches Mixing Cauldron. Store items in your Coffers to carry around with you, soon to have much more implementation with also soon to be implemented familiars. Store your herbs and greenery items inside your herb jars for handy storage up to 1024, they act similar to storage drawers to make it easy for people to understand how to use."
+				""
+				"Light up your area with colored candles that you can mismatch and that actually melt over time! You can put these candles out with a bucket of water if you want to use for decoration with multiple levels of burned candles. These candles will also soon be implemented with certain buffs in the area that it can give."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61413E2A76CA0E22"
+			min_width: 300
+			rewards: [
+				{
+					id: "50C658FDF423601E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A837EB580C7D425"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "20A330BEBD7AE8F3"
+				title: "Welcome to Hexerei!"
+				type: "checkmark"
+			}]
+			title: "Welcome to &cHexerei"
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			dependency_requirement: "all_started"
+			description: ["Any decent Witch worth their salt will have a Mixing Cauldron.  If you haven't found one in a Witches Village you can craft one with some iron and torches."]
+			hide: false
+			hide_dependency_lines: false
+			icon: "hexerei:mixing_cauldron"
+			id: "5188CD3E2A42E392"
+			rewards: [
+				{
+					id: "7AA1C04B1DFD0A59"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49FA697C559F6D32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Ready to brewing?"
+			tasks: [{
+				id: "41426DEEED16ACA2"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "The Mixing Cauldron"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: [
+				"While dancing naked under the moonlight is an attractive option for any witch, there are practical reasons for wearing clothes."
+				""
+				"Firstly, witches garments offter protection from the elements and hostle creatures.  Secondly, they make you look fabulous.  Fashion maketh the witch."
+			]
+			icon: "hexerei:infused_fabric"
+			id: "25366610A6DB0850"
+			rewards: [
+				{
+					id: "2F895197869AF947"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0638C5EFCD26BB84"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "6E107160C65F05E9"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			title: "The Fabric Infusion"
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Start with the basics.  Make a hat and make a statement."]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A820ECC85890ACB"
+			rewards: [
+				{
+					id: "0FEE9A664D4D881C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E79ABE93F4AD592"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34AA38224AFD68C9"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Making a robe will keep you warm on those cold nights.  Plus who knows what you could be hiding under there.  Keep 'em guessing!"]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "645261B372A3667C"
+			rewards: [
+				{
+					id: "4FA6210809BF530D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39A78CB297AF566E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFD2420C23BD511"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Sometimes you need better arch support.  These boots are fashonable, functional, and now come with a left AND a right pair."]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20426BF95656BD48"
+			rewards: [
+				{
+					id: "3DD5A472158CAC09"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C63D65DE2FA2708"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C16493683182D22"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: ["The willow tree can be found growing in swamps and marshes."]
+			id: "448518E29D5BE2DE"
+			rewards: [
+				{
+					id: "2F70BFADA2179CBC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3CC3BF426BA453B9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "7F49063FF9CCEE5E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:willow_log"
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Willow Tree"
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"You can find mahogany trees in jungles."
+				""
+				"This wood holds magical potential and is used in many fancy items."
+			]
+			icon: "hexerei:mahogany_log"
+			id: "36FA6E6865796BC2"
+			rewards: [
+				{
+					id: "769DC35D0FADBFCB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29DD1352CDE6EE1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "5953D4D43ADF5C72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:mahogany_log"
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Mahogany Tree"
+			x: -15.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: ["Breaking long grass might supply you with seeds for sage brush.  Collect some seeds, plant them on tilled soil and grow them up."]
+			icon: "hexerei:sage_seed"
+			id: "6F09AE74427C4F49"
+			rewards: [
+				{
+					id: "4568442B74BF55FB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "51F3E8AB9DBC8CC3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				count: 16L
+				id: "0961B7B03180B17D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:sage_seed"
+				}
+				type: "item"
+			}]
+			title: "Sage Seeds"
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Growing sage in a garden will help with making fine smelling smoke and brews."]
+			icon: "hexerei:sage"
+			id: "3FB4E1D7A8B80DD8"
+			rewards: [
+				{
+					id: "2B07D99BC6B8FA4F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F5A4531311EA405"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "2ECD9893337AF44C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:sage"
+				}
+				type: "item"
+			}]
+			title: "The Sage"
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: [
+				"Belladonna flowers grow where the dead have fallen around swamps and marshes."
+				""
+				"Both the berries and flowers are quite deadly toxins."
+			]
+			id: "51EECCD1D3DB4EF6"
+			rewards: [
+				{
+					id: "5B8432585FAC80CE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2BF0FDEFC32E125A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "298E1A04A8B4BFA8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:belladonna_flowers"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "06FD8930E9757E1C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:belladonna_berries"
+					}
+					type: "item"
+				}
+			]
+			title: "Find &6Belladonna&r flowers \\& berries"
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Mandrake flowers and its root can be harvested in swamps and marshes."]
+			id: "53B65B3B86663E8A"
+			rewards: [
+				{
+					id: "6790C954E2034FDE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58E7F3C47F60A8EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "49DD1912ED9A9A48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:mandrake_flowers"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "46B693CAEC9343FD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:mandrake_root"
+					}
+					type: "item"
+				}
+			]
+			title: "Find &6Mandrake&r flowers \\& roots"
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Mugwart leaves and flowers can be found growing in marshy areas."]
+			id: "0604D00D3293CFA5"
+			rewards: [
+				{
+					id: "0D4B3829245F4EC7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5DD38244683F797E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "27CD35425D0271CD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:mugwort_leaves"
+					}
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "64D8F7C60F92E0E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:mugwort_flowers"
+					}
+					type: "item"
+				}
+			]
+			title: "Find &6Mugwart&r flowers \\& leaves"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["You can find Yellow Dock flowers growing all around marshlands and swampy areas."]
+			id: "204137522397A650"
+			rewards: [
+				{
+					id: "2D69DD39C46EB2E3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5FB7F50A22385987"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3B1FD61702BEED52"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:yellow_dock_flowers"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4167738FE4760996"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "hexerei:yellow_dock_leaves"
+					}
+					type: "item"
+				}
+			]
+			title: "Find &6Yello Dock&r flowers \\& leaves"
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FB4E1D7A8B80DD8"]
+			description: ["Hanging racks are a great way to dry flowers and herbs.  You can hang them from the ceiling."]
+			id: "279A34D099446B47"
+			rewards: [
+				{
+					id: "21AF4C17CCAE184A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FD96D21C64076CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "47822C9040140546"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			title: "The Drying Rack"
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: [
+				"A blood sigil is used inside a mixing cauldron for various rituals."
+				""
+				"Once you've made one, you can place it at the bottom of your mixing caulron."
+			]
+			id: "644055153B3927D8"
+			rewards: [
+				{
+					id: "131E9124AAF2C93C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0ED8C5C267521799"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DF72E73A3B9C365"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -10.035714285714285d
+			y: -8.982142857142854d
+		}
+		{
+			dependencies: ["644055153B3927D8"]
+			description: [
+				"If you want real power, you'll have to make some sacrifices."
+				""
+				"Start by jumping up and down inside your mixing cauldron with the Blood Sigil installed."
+				""
+				"Oh, stop crying you big baby!"
+			]
+			id: "5A7087D99A56AF1B"
+			rewards: [
+				{
+					id: "76B3A7A685A312DF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "000DE6C167B8AC63"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F159825B5E2A950"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: ["Killing animals out in the wilds might yield some animal fat which you can use for other useful items."]
+			icon: "hexerei:animal_fat"
+			id: "17504D612E935F29"
+			rewards: [
+				{
+					id: "5AD42EEBE23998BF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F453E746A868458"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "1552D23FE13342AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:animal_fat"
+				}
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Animal Fat"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["17504D612E935F29"]
+			description: [
+				""
+				"The mixing cauldron can hold more that water.  Filling it with lava will allow you to make stronger items useful for making candles."
+				""
+				"Placing the dipper on the mixing cauldron will allow you to make candles."
+				""
+				"&6Tip:&r &oSneak-Right-Click the Dipper on the outside edge of the Mixing Cauldron."
+			]
+			id: "23C052EA8F70B8A4"
+			rewards: [
+				{
+					id: "406486D1BAA65BB1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2DF50B53BD241A27"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "441E886DD51CA0EF"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			title: "The Dipper"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["23C052EA8F70B8A4"]
+			description: ["Creating candles in the dipper attached to a mixing caulron is a great way to light up the night."]
+			id: "5A6193314267FB5C"
+			rewards: [
+				{
+					id: "0EEF43CE90C07C02"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4F5FB0348B364F96"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "06DACE54E3313885"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			title: "Candles"
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A6193314267FB5C"]
+			description: ["Candles don't have to be boring.  Add some color to make the world a little brighter."]
+			id: "11C7965E6063ED65"
+			rewards: [
+				{
+					id: "64732A9DDBFBF10F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E5044E03970A553"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "All the colors!"
+			tasks: [
+				{
+					id: "1E3E4BE38597B0A2"
+					item: "hexerei:candle_blue"
+					type: "item"
+				}
+				{
+					id: "06036C88E2C48A4D"
+					item: "hexerei:candle_black"
+					type: "item"
+				}
+				{
+					id: "441561AC867B697C"
+					item: "hexerei:candle_lime"
+					type: "item"
+				}
+				{
+					id: "242670181F0284EF"
+					item: "hexerei:candle_orange"
+					type: "item"
+				}
+				{
+					id: "7B49B3203017867F"
+					item: "hexerei:candle_pink"
+					type: "item"
+				}
+				{
+					id: "14C5277486FD5154"
+					item: "hexerei:candle_purple"
+					type: "item"
+				}
+				{
+					id: "624832BBF487C42A"
+					item: "hexerei:candle_red"
+					type: "item"
+				}
+				{
+					id: "479175E30BD14EFD"
+					item: "hexerei:candle_cyan"
+					type: "item"
+				}
+				{
+					id: "09FAD3F6EC46242F"
+					item: "hexerei:candle_yellow"
+					type: "item"
+				}
+			]
+			title: "Colorful Candles"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5A6193314267FB5C"]
+			description: ["You can create a candelabra out of candles, iron and some chain.  They can hang from the ceiling or sit on top of an organ if you're feeling moody."]
+			id: "255F13D72581040B"
+			rewards: [
+				{
+					id: "41287D66497613C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "07B9CF2C8099F728"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The Phantom would be proud!"
+			tasks: [{
+				id: "3B71E4186CA8F63D"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			title: "Making Candelabras"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5A820ECC85890ACB"]
+			description: ["You don't want to walk everywhere do you?  Time to make a broom and take to the skies!"]
+			id: "433DEC854BB8B9A5"
+			rewards: [
+				{
+					id: "61DDB34A322BB6A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CB54BA28E3D01BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C704B56AFCADD54"
+				item: {
+					Count: 1b
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["433DEC854BB8B9A5"]
+			description: [
+				"The mahogany broom is an excelent upgrade for the standard issue broom."
+				""
+				"It's more expensive, but you're worth it!"
+			]
+			id: "188E2A7F6516A3D9"
+			rewards: [
+				{
+					id: "69D0D47378F84EB1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61B25B6B95E31953"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0371D8159A35E486"
+				item: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["433DEC854BB8B9A5"]
+			description: [
+				"A broom is only as good as its brush.  Making a basic brush is the first start to life on the wind."
+				""
+				"Broom brushes do have a durability and will wear out with use.  Keep an eye on it!"
+			]
+			id: "2C9922F84A45F841"
+			rewards: [
+				{
+					id: "5E012CB2439A8840"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E11F5F1442BF9BF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "650B6E818E5653CB"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: ["The enhanced version of the broom brush has twice the durability for longer flight time."]
+			id: "2F631F39187A7F02"
+			rewards: [
+				{
+					id: "5ED5D04236123DC6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3914FA49ED2001C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AFE6CC982C9EEAD"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: [
+				"A satchel bag for your broom will give it an inventory."
+				""
+				"Perfect for bringing home leftovers from the Coven potlucks."
+			]
+			id: "62CCEAB872211A29"
+			rewards: [
+				{
+					id: "12A8B777BF7BE0A6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D5D5BC5C111F04F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F785A0314FAE6BE"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62CCEAB872211A29"]
+			description: ["Increasing the size of the small satchel is a good idea."]
+			id: "2B1705F3513F4BD5"
+			rewards: [
+				{
+					id: "23EB33DA027D2C12"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "232A85AE8BD39060"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "588ECCF7E0DBC2BE"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B1705F3513F4BD5"]
+			description: ["If you're going to carry all this stuff around, you might as well have more space."]
+			id: "2C34FF3D97D0C9E5"
+			rewards: [
+				{
+					id: "68C215B48242C2FB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1493F1047AA4D4AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04BBD6E8F394EC61"
+				item: "hexerei:large_satchel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A820ECC85890ACB"]
+			description: [
+				"Being a witch isn't all spells, and hexes. Sometimes you just want to hit something."
+				""
+				"This hammer will do the trick!"
+			]
+			id: "7C44F0F59896A857"
+			rewards: [
+				{
+					id: "0991D4065FC40BB6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00B09F5C8E1639FE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E602E2BD9F51680"
+				item: {
+					Count: 1b
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Witch's Warhammer"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: ["A coffer is a handy box that besides looking fabulos will hold onto it's inventory when you break it.  It can also be named, and dyed various colors."]
+			id: "2BD19333A6FBF7AB"
+			rewards: [
+				{
+					id: "22BC94A2B2AD8635"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E38A8E111BEE0B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "761894E3A5451034"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["17504D612E935F29"]
+			description: [
+				"Melting fat in a mixing cauldron might get you some extra tallow impurities."
+				""
+				"Not very useful, but a nice snack in a pinch."
+			]
+			id: "132B8D216842711C"
+			rewards: [
+				{
+					id: "42B9EDD8AF26D80C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3AD1A33BE23B0A89"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "755E0B09D60ABA11"
+				item: "hexerei:tallow_impurity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: [
+				"These gold rings serve no purpose..."
+				""
+				"...except to put those other poor witches in their place when you fly by."
+			]
+			id: "534DAEC3C0ECE682"
+			rewards: [
+				{
+					id: "01CF6FF6FBBD0298"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E12483DC7C6604C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB7316E0A2800B2"
+				item: "hexerei:gold_rings"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["534DAEC3C0ECE682"]
+			description: [
+				"Why stop at golden rings...add some flare to the end of your broom to give it your distinct style."
+				""
+				"You can combine almost any item with the broom chain.  Treat your self!"
+			]
+			id: "0BBAD0505B5A2AF6"
+			rewards: [
+				{
+					id: "16870AFE6C4B1C14"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "388637C12B9CE90E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07FB590D1B9DE3DC"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"Herb jars are a handy and stylish way of storing plants and herbs you might aquire in your adventures."
+				""
+				"Jars can be named on an anvil and will show the contents on the label."
+			]
+			id: "6D7FC44D0F77BA36"
+			rewards: [
+				{
+					id: "376342244C5F6622"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2D1A679EA7130A13"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EF957893C221C26"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["279A34D099446B47"]
+			description: ["Drying sage bundles will give you a potent herb to burn that has benificial effects."]
+			id: "691F9A1EB66FAF54"
+			rewards: [
+				{
+					id: "371988F4C6F20635"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C299875002ADD83"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43AA5DAF57ACEF73"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["691F9A1EB66FAF54"]
+			description: ["Burning dried sage bundles can have medicinal properties and might even help your glaucoma."]
+			id: "30D2CAE712CE5ACD"
+			rewards: [
+				{
+					id: "5DCA59088A85A5F1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37D3E6467CA80144"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2602186920CC41DA"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FB4E1D7A8B80DD8"]
+			description: ["Take your grow sage and bundle it up with some string.  Makes for easier drying."]
+			id: "6CA251CAEC888DD4"
+			rewards: [
+				{
+					id: "4234C85C9EE16394"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E64DC2FD7971329"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F612494EB49F2B5"
+				item: "hexerei:sage_bundle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: ["One of the witchest tool, is that one! Mixing herbs or seeds may be very useful for a witch!"]
+			id: "5A74A831815E817B"
+			rewards: [
+				{
+					id: "62BD05A5B2F95DD8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3970922611A57F2C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "The seed mixer"
+			tasks: [{
+				id: "5AE614E7726932CA"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5A74A831815E817B"]
+			description: ["If you did see it, maybe you could tame it with some seeds. Mix some seeds, and try to give the result to a crow. You may need to try multiple times."]
+			id: "6EB3CB29EF6A24C1"
+			rewards: [
+				{
+					id: "4680F06AEC50C067"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1826DE44962A3A39"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DC034F5C32C9174"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6EB3CB29EF6A24C1"]
+			description: ["One crow is very useful, but why don't you breed more crows? Gather two crows, and then give one of them a gold nuget."]
+			id: "27789FAE089599A3"
+			rewards: [
+				{
+					id: "6BB4B083671C0B44"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37CE98BF3D538B0C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "484FC5C2A6ECD8A7"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			title: "Crow Breeding"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6EB3CB29EF6A24C1"]
+			description: ["With that flute you can give orders to your crows. This may be useful if you want to automate things!"]
+			id: "6C0A248D1FF03898"
+			rewards: [
+				{
+					id: "316E4311364E2AD5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A0AB96993514EFF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Oh yeah, they will obey you for sure"
+			tasks: [{
+				id: "309E57CD4181BA64"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["188E2A7F6516A3D9"]
+			description: ["Selenite Clusters are found in selenite geodes found under jungles and swamps."]
+			id: "2F39EE1D81DDDA1F"
+			rewards: [
+				{
+					id: "23FCA51E92CEDFFE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7230DD9A0DE5FC3E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "673CBF88A4839C13"
+				item: "hexerei:selenite_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F39EE1D81DDDA1F"]
+			description: ["With that tip, your broom will survive to extreme heat situations. But would you?"]
+			id: "70DC743DA23D7CFB"
+			rewards: [
+				{
+					id: "39FC6104701EE01D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2AAC6906D759F8F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01774BD370F377BB"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["188E2A7F6516A3D9"]
+			description: ["Wanted to fly underwater? That broom tip is what you looking for!"]
+			id: "41CF18A45DC909AD"
+			rewards: [
+				{
+					id: "64C937CAB215C6C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C40AE83089EDA5C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52FF30172B94159A"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"This will help you find swamps and jungles."
+				"Leafs turns green when you are pointing to the biome."
+			]
+			id: "2AB9092665EE8A9C"
+			rewards: [
+				{
+					id: "4CCF3B8CE8BBF84A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70B6BADD44BA57B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "782C77E3465755D9"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["36FA6E6865796BC2"]
+			hide_dependency_lines: true
+			id: "771123B8D00124A3"
+			rewards: [
+				{
+					id: "5F0F76590464255A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "251B7E1C40FE88B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7274BAB670D1DCB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:book_of_shadows_altar"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["771123B8D00124A3"]
+			id: "2F8754D76F6CF5AC"
+			rewards: [
+				{
+					id: "72EE8B404889DBB7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39EA0A8842080CA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32EDAC4F4CBA8894"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["771123B8D00124A3"]
+			id: "070D188916BFB699"
+			rewards: [
+				{
+					id: "6A6007CD3E4660D3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "225C5BAA931A423E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EB599CA0479BB44"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "hexerei:reading_glasses"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["A Witchery Style Magic Mod"]
+	title: "&d&oHexerei"
+}

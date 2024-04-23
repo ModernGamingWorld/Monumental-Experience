@@ -1,0 +1,1660 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon"
+	group: "4814F40AB34427B6"
+	icon: "eidolon:goblet"
+	id: "72FB31237B2C4821"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -6.750000000000007d
+		y: -11.803571428571427d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation."]
+			icon: "eidolon:codex"
+			id: "65C922C81EA9C369"
+			min_width: 300
+			rewards: [
+				{
+					id: "28C057806ED079AA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "430DC044BD5B5FCA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "0DECDD2ED9D9A583"
+				type: "checkmark"
+			}]
+			title: "Welcome to &cEidolon"
+			x: -7.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["43B8775155D7AE39"]
+			id: "336709E4DA06F957"
+			rewards: [
+				{
+					id: "3CD84DD10FA1003C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "79536802ADC7F333"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "10F509F15FB7C2B3"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["26C4A2DBB131BB6A"]
+			id: "1F59C800DAFC0A53"
+			rewards: [
+				{
+					id: "6B52CD6FEDE4F18D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "492C6F15244008D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "447E3FCBA7DC1C7A"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["336709E4DA06F957"]
+			hide_dependency_lines: true
+			id: "167F762303933468"
+			rewards: [
+				{
+					id: "4C3EB72A0345D959"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "39178468C3032AE3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4DD54A6BB431B226"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["336709E4DA06F957"]
+			id: "7BC5D8A270C8F63B"
+			rewards: [
+				{
+					id: "2F3B7F644824F884"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E376F8AF862C146"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62EF378073053883"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "701E2E8807D8B464"
+			rewards: [
+				{
+					id: "492A64E99B972544"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "402CB9969CBCEB68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A83A2B31EBE988D"
+				item: "eidolon:shadow_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["701E2E8807D8B464"]
+			hide_dependency_lines: true
+			id: "01C8EEECD545903A"
+			rewards: [
+				{
+					id: "4A2049FA7EF4E98F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "43A05614F2945B38"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "218B64B15CFFB64D"
+				item: "eidolon:wicked_weave"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01C8EEECD545903A"]
+			id: "234980695B18FFE4"
+			rewards: [
+				{
+					id: "06847E3AE58C824E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A6DE48A54E10101"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "081AC95A62BCE7C3"
+				item: {
+					Count: 1b
+					id: "eidolon:warlock_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01C8EEECD545903A"]
+			id: "5812B84E536D41D7"
+			rewards: [
+				{
+					id: "522F9F566F72F73C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3B2E8A9BAF44A900"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AD5A9AE6BD4B983"
+				item: {
+					Count: 1b
+					id: "eidolon:warlock_cloak"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01C8EEECD545903A"]
+			id: "38671A0923059336"
+			rewards: [
+				{
+					id: "3F59441B993DE8B6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F7F30A7BA176C99"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CA9EE451EACFEFB"
+				item: {
+					Count: 1b
+					id: "eidolon:warlock_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["336709E4DA06F957"]
+			icon: "eidolon:wooden_altar"
+			id: "26C4A2DBB131BB6A"
+			rewards: [
+				{
+					id: "48D0AC404C75C751"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "63E3BA78AD976537"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A10A305B53A463A"
+					item: "eidolon:wooden_altar"
+					type: "item"
+				}
+				{
+					id: "7D43887A5D1C4C31"
+					item: "eidolon:straw_effigy"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1F59C800DAFC0A53"
+				"32389A5733C93F2E"
+			]
+			icon: "eidolon:stone_altar"
+			id: "1CFA7CB6A32D41ED"
+			rewards: [
+				{
+					id: "73367A3100457EC9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4B0504157110C9AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59F6C0CE41860F78"
+				item: "eidolon:stone_altar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CFA7CB6A32D41ED"]
+			icon: "eidolon:goblet"
+			id: "030879006717EA0B"
+			rewards: [
+				{
+					id: "600359D681D31E1E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "00D6BCB424A99AD5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "109B950CA43AF0B2"
+					item: "eidolon:goblet"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77584853DDE9AABC"
+					item: "eidolon:candlestick"
+					type: "item"
+				}
+				{
+					id: "23D320B5C111281B"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "0623273FB89E0562"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "107330AB421BA273"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+			]
+			title: "&5FullyUpgraded Altar"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "32099161845730C7"
+			rewards: [
+				{
+					id: "12A26DF53F722DD5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3705436F3AE60AC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77BEA619A87EE80A"
+				item: "eidolon:stone_hand"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2AA6DF1853B5C83C"]
+			id: "52160854B4FCF7D7"
+			rewards: [
+				{
+					id: "55A253EAB4D2C286"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "47F723EC6DD4A315"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "581ECEB40E671168"
+				item: "eidolon:necrotic_focus"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "4186E2B3EA47F3EC"
+			rewards: [
+				{
+					id: "2DE20542D6FFA626"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "52385B57096741BC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "eidolon:wraith"
+				icon: "eidolon:spawn_wraith"
+				id: "5689F433AE019185"
+				type: "kill"
+				value: 3L
+			}]
+			x: -15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4186E2B3EA47F3EC"]
+			id: "7FEE3DEBDE62BBB2"
+			rewards: [
+				{
+					id: "133428DB5F83E295"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2E55B5090A3A6002"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56F9DA716005CEB3"
+				item: "eidolon:wraith_heart"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5FB7ACC1F11DF1E6"]
+			id: "4E616B94BD42B7AD"
+			rewards: [
+				{
+					id: "6C412546F390C9BF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1468981E0F039152"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3193CBD6EEFD37D2"
+				item: "eidolon:zombie_heart"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "5FB7ACC1F11DF1E6"
+			rewards: [
+				{
+					id: "51779A498D14AAE2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57D26D6ED103570B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "eidolon:zombie_brute"
+				icon: "eidolon:spawn_zombie_brute"
+				id: "1F3DC11E1EC2479F"
+				type: "kill"
+				value: 3L
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "4E825B0D6E910F7D"
+			rewards: [
+				{
+					id: "347EDD170F9A7AF4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56BB512585B91DAB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "430EF74CB0A14EDE"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "4ABBD771E0F358DC"
+			rewards: [
+				{
+					id: "6ED7DDCD90C2FBF0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3428A720AF9C392C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "2E866DE41C77B515"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["275A1036E1B17B2A"]
+			id: "720E35C24AAC7601"
+			rewards: [
+				{
+					id: "2555A5F23C885A29"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4183176AFB7C2339"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "058B9BCBF91D090E"
+				item: "eidolon:enchanted_ash"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["336709E4DA06F957"]
+			id: "2AA6DF1853B5C83C"
+			rewards: [
+				{
+					id: "1A29AFF4A8CEDF16"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "700110E5A24FDA6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0DD1F9009E34E2F6"
+				item: "eidolon:pewter_inlay"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "4650D777AFC5B5A9"
+			rewards: [
+				{
+					id: "58C8E31EA06AF10B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3603E8174A02FDFF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0CC8D508ED2DD53B"
+				item: "eidolon:gold_inlay"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4650D777AFC5B5A9"]
+			id: "5400D058CB0BD6BA"
+			rewards: [
+				{
+					id: "4C1B60BDEE2DED18"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3639FDEA11A470B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7913262881C644D3"
+				item: {
+					Count: 1b
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "125DAF2BDF612E2E"
+			rewards: [
+				{
+					id: "5F206A0778B3C711"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1ADD126BED92936A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B99045C18BECDE2"
+				item: {
+					Count: 1b
+					id: "eidolon:sapping_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BC5D8A270C8F63B"]
+			id: "7DA3EA0FDEA6332C"
+			rewards: [
+				{
+					id: "5994FF02375BAB5A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17935A8C5B6D97F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4E948234AB7C6D"
+				item: "eidolon:sanguine_amulet"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "61DD1F3FDD7085A9"
+			rewards: [
+				{
+					id: "553808D4103F158A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56BD990F8C89ABA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F4E390B7DF3EABF"
+				item: "eidolon:unholy_symbol"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4650D777AFC5B5A9"]
+			id: "5A4AD033E44AFAF4"
+			rewards: [
+				{
+					id: "71A7CBD3240E7E53"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0193DBFB25A29F9B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65052F3E0E896A73"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["336709E4DA06F957"]
+			id: "65862E742955D2ED"
+			rewards: [
+				{
+					id: "1F7F9BAE9852E904"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17E85D44E84A80A0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "632352AA326FD038"
+				item: "eidolon:wooden_brewing_stand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61DD1F3FDD7085A9"]
+			id: "5AD333AED3872309"
+			rewards: [
+				{
+					id: "6A68A9BA0E9EE5A4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4FE6872C5D5AF756"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2FE07A06B819F8DE"
+				item: {
+					Count: 1b
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61DD1F3FDD7085A9"]
+			id: "119FA9A434F01332"
+			rewards: [
+				{
+					id: "05F513335166B519"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "067159843386C55E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73C779CC5CCF0E1A"
+				item: {
+					Count: 1b
+					id: "eidolon:cleaving_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "59E7BBECC62ECAD0"
+			rewards: [
+				{
+					id: "5E2504F61CA0434E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "416BA8D78B6E02DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E165E34F4FA67E4"
+				item: {
+					Count: 1b
+					id: "eidolon:bonechill_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "4C0077BE12EA821D"
+			rewards: [
+				{
+					id: "136DB950DE76F30C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "185C6D19B0CAC30C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A034D86D2AB9DC2"
+				item: "eidolon:lesser_soul_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "24A88800114C4EA9"
+			rewards: [
+				{
+					id: "163F4101D5D77FA3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57E1224A950C1B95"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "345A6742D8396B2B"
+				item: {
+					Count: 1b
+					id: "eidolon:reversal_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "211D76B0496DD2C9"
+			rewards: [
+				{
+					id: "7868313A19E77497"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4213BFCE292EA549"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "613B480E6C672AE0"
+				item: "eidolon:ender_calx"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["01C8EEECD545903A"]
+			id: "07BB6BCF6DDDAD02"
+			rewards: [
+				{
+					id: "4F4D573BE424E689"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "30408CC54C7B368C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "79C3313308CE743F"
+				item: "eidolon:prestigious_palm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65C922C81EA9C369"]
+			id: "43B8775155D7AE39"
+			rewards: [
+				{
+					id: "3037B88390BFFFB0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57C9F7D656DD3A3F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2CDAE5D43708BE7A"
+				item: "eidolon:pewter_blend"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "144A1639E694F7E4"
+			rewards: [
+				{
+					id: "1C911A56FAF1C29F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "430DB01149C6F9DA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3571B3977AEFFDCE"
+				item: "eidolon:warded_mail"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4650D777AFC5B5A9"]
+			id: "45A7233DE8241D53"
+			rewards: [
+				{
+					id: "0EB183384559C305"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2EFAD897A9899AAB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DD05899625AA131"
+				item: "eidolon:resolute_belt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "6CAE894FABAF81B1"
+			rewards: [
+				{
+					id: "49AE1633E8D622FB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E38419FA0F64339"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23EFB39A2998EBCF"
+				item: "eidolon:basic_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "1902AEB8C44D43D8"
+			rewards: [
+				{
+					id: "619A1D5ED0679191"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57E79C957247A2E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F415ECCE1A4C2C5"
+				item: "eidolon:basic_amulet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "16952121FAB119DB"
+			rewards: [
+				{
+					id: "050B85EB76AAB2A0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "72461AC744A55FBA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C5F98CD0621ABB8"
+				item: "eidolon:goblet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1902AEB8C44D43D8"]
+			id: "3931FA65CD999DA9"
+			rewards: [
+				{
+					id: "738EA1B4FA436B03"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1729598FFB386D67"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02C20F077DD7F3EE"
+				item: "eidolon:void_amulet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1902AEB8C44D43D8"]
+			id: "5ADBFE8BE4BFED92"
+			rewards: [
+				{
+					id: "57D63834FC7A2E96"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3671EC62A532FDA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7596C15556526EF9"
+				item: "eidolon:glass_hand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "6616938B6A9CBDD7"
+			rewards: [
+				{
+					id: "4F441FBA27633DB0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0964CC0F0BDCECF0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3E5824FBD67B1DC2"
+				item: "eidolon:death_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "5C3AD6520E84FBB0"
+			rewards: [
+				{
+					id: "6002F38552A835BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7CFBF27599AB12E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "595072C79969C7E2"
+				item: {
+					Count: 1b
+					id: "eidolon:deathbringer_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1902AEB8C44D43D8"]
+			id: "4690DDA5C9A4360C"
+			rewards: [
+				{
+					id: "36AAB5875426BA30"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1B94B3C299CC09B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AFC96249F30C97F"
+				item: "eidolon:soulbone_amulet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "4F3C85286F63CEF2"
+			rewards: [
+				{
+					id: "08F4E6D6CD510160"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78DD01CA3E2458EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "704F643DEDB33E94"
+				item: "eidolon:magic_ink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4F3C85286F63CEF2"
+				"78E3A1CF12D7CD78"
+			]
+			id: "1BF79BC078F44A8B"
+			rewards: [
+				{
+					id: "5722520E03642277"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "67A68D6FD6ED3655"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17EF1E8924F35EAF"
+				item: "eidolon:research_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["167F762303933468"]
+			id: "78E3A1CF12D7CD78"
+			rewards: [
+				{
+					id: "04F9F936F659CE2F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "47671B0FB3C3D953"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0CB2E15C1784FCB2"
+				item: "eidolon:magicians_wax"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["465D4C52C4FB6F00"]
+			id: "6D5948358340277A"
+			rewards: [
+				{
+					id: "1F1D0F6FCDEE644D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3781D86049227E9F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55202AC1096BA7CF"
+				item: "eidolon:tallow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65C922C81EA9C369"]
+			id: "275A1036E1B17B2A"
+			rewards: [
+				{
+					id: "186E221626829486"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4A89C63605C50AE5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13173A295091E271"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["65C922C81EA9C369"]
+			id: "465D4C52C4FB6F00"
+			rewards: [
+				{
+					id: "338DEE9B84704A40"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "64E1754EA8DB323A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "557BB9954905D918"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "33F3B3DD35B1A496"
+			rewards: [
+				{
+					id: "5817206F5902A7A6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A9D7C669FDA999E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "519B946E27B5BAE5"
+				item: "eidolon:gravity_belt"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4186E2B3EA47F3EC"]
+			id: "2F179E2F66A9FC8F"
+			rewards: [
+				{
+					id: "2C748549815AAE12"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "23C5936778B588A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73F620048BDB9ADF"
+				item: "eidolon:tattered_cloth"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "1C7C471499F29209"
+			rewards: [
+				{
+					id: "68D45A865FB6C91B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B90D1938CB3A304"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F594E7B5ED03F43"
+				item: "eidolon:holy_symbol"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C7C471499F29209"]
+			id: "748163C07C9D7863"
+			rewards: [
+				{
+					id: "1B52D717811683BC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0F02B776A1D3C6E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B5843A9AD8E7650"
+				item: {
+					Count: 1b
+					id: "eidolon:bonelord_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C7C471499F29209"]
+			id: "55D64E4FB8912CBB"
+			rewards: [
+				{
+					id: "2D490A23EDF41877"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "68A71CA5DCA40E34"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5ED3FFEC30C6D54A"
+				item: {
+					Count: 1b
+					id: "eidolon:bonelord_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C7C471499F29209"]
+			id: "2DB1B5E16C0CC301"
+			rewards: [
+				{
+					id: "1B6C47FED969FF24"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "03E8CA86BDBFC334"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "16DF0810ED595356"
+				item: {
+					Count: 1b
+					id: "eidolon:bonelord_greaves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61DD1F3FDD7085A9"]
+			id: "32389A5733C93F2E"
+			rewards: [
+				{
+					id: "640A603AEB937946"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "10FE04D2E0FC38A3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62EBDAC783846B5F"
+				item: "eidolon:unholy_effigy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4ABBD771E0F358DC"]
+			id: "34F3DAF8D84EEDEC"
+			rewards: [
+				{
+					id: "16D5363A4402F463"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E6F9C3EBDDF3713"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11E1E4A376D7AA2A"
+				item: "eidolon:censer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1F59C800DAFC0A53"]
+			id: "4F3F9F9A68D94E44"
+			rewards: [
+				{
+					id: "2457FC6925CC12BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "61C21866F0ECE958"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "020D709C44635715"
+				item: {
+					Count: 1b
+					id: "eidolon:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F3F9F9A68D94E44"]
+			id: "4D09F82903776C05"
+			rewards: [
+				{
+					id: "6A4407543ABFDFDB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "12E02D057C84680E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "289DA857264FF393"
+				item: "eidolon:planter"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+	]
+	title: "&d&oEidolon"
+}

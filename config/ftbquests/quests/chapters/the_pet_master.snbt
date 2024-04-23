@@ -1,0 +1,2715 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_pet_master"
+	group: "2969F58CC6EA9A10"
+	icon: {
+		Count: 1b
+		id: "inventorypets:pet_meta"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4403AD20655CEF38"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/the_pet_master.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 2.4642857142857153d
+			y: -9.482142857142858d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 3.2142857142857153d
+			y: -8.112499999999997d
+		}
+		{
+			height: 1.2d
+			image: "inventorypets:item/dirt"
+			rotation: 20.0d
+			width: 1.2d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "inventorypets:item/chicken_new"
+			rotation: 10.0d
+			width: 1.5d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "inventorypets:item/end_portal_pet"
+			rotation: 0.0d
+			width: 0.04d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "inventorypets:item/dubstep_new"
+			rotation: -20.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "inventorypets:item/mickerson_new"
+			rotation: -20.0d
+			width: 1.5d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.7d
+			image: "inventorypets:item/wither_new"
+			rotation: 0.0d
+			width: 1.7d
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			height: 1.7d
+			image: "inventorypets:item/sun_new"
+			rotation: 0.0d
+			width: 1.7d
+			x: -5.5d
+			y: -5.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BD605B4B1C89B92"
+			min_width: 300
+			rewards: [
+				{
+					id: "595A9252CDD6D457"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E895F514909B4FB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&oThere are&r &b&o72&r &oinventory Pets, can you collect them all?"
+			tasks: [{
+				id: "359521046EE1FAC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 18
+						}
+					}
+					id: "inventorypets:feed_bag"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6The Pet Master"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0E72B5CAF4646E8D"
+			rewards: [
+				{
+					id: "3BF404A56CD1875B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "662D105382E7450B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "682F5A02C35E8F90"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_cow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7A9C2AE4BBC9812A"
+			rewards: [
+				{
+					id: "761D31ED0B47842A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D92FC716920250F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "433BA327F90523B5"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_mooshroom"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "55067F5D2A8223CB"
+			rewards: [
+				{
+					id: "781CEC1E827403F6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "015614296894CC01"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6FC4C98A700140F8"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_ocelot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "748265E8A140C04F"
+			rewards: [
+				{
+					id: "1C39A73F47EF2389"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3EF75B108123385F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "02B6FBB2522E0253"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_pig"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "18E9975A40652D52"
+			rewards: [
+				{
+					id: "2E716F9EC1CB60B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5DDDAF8F6DA3D0FB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "476FD279E00291DB"
+				item: "inventorypets:item_petrifier"
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "55E4277DCB1B86B7"
+			rewards: [
+				{
+					id: "05090721C3F24079"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D8BBC31285DE0A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1B69D003D88BAD38"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_brewing_stand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5DA6ACDE156DA5D8"
+			rewards: [
+				{
+					id: "159DE89632BE4737"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "05BFE25A27BD34EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0311E79DDCDB36B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 27
+						}
+					}
+					id: "inventorypets:pet_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4663E9698FC02807"
+			rewards: [
+				{
+					id: "1C4A7C2F2F3AA1D9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "16742B07902C9D47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "700577F83D02AA99"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_crafting_table"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "64868636E3733E4E"
+			rewards: [
+				{
+					id: "47E5B1393544562E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E25B2F8FCA01B0A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3843F18B563B1FDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 54
+						}
+					}
+					id: "inventorypets:pet_double_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "72FC99F4F3005DAD"
+			rewards: [
+				{
+					id: "2ED359EDF68BABA3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "248131B7DBDCA31D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1E080C548585F26B"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_ghast"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3D80899C76D05007"
+			rewards: [
+				{
+					id: "4431FA7BBBE4386B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4415F4FD54A5FEA2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1648546CE29CE6E9"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_iron_golem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "20477022F5200068"
+			rewards: [
+				{
+					id: "76C7E472122E8C22"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "16AA7150E9AA1395"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "33EB38A1E2C03351"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_magma_cube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "70D9F8F881C16742"
+			rewards: [
+				{
+					id: "679B564E862C50FF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "291B0349AB3E45F3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B59D768890FBFAE"
+				item: {
+					Count: 1b
+					id: "inventorypets:patreon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dPurplicious Caw Head"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "553854CB3684821B"
+			rewards: [
+				{
+					id: "0BFB4A4AB9EDCDE9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7A0B3661B9607DDE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65F8990F850BBD48"
+				item: {
+					Count: 1b
+					id: "inventorypets:patreon_shirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&aCool T-Shirt"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "73E0AA91F283DFA6"
+			rewards: [
+				{
+					id: "4F12E41DEE5485CE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1C5FA4E12C9DD7A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2848B5B2307A90AE"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_black_hole"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7EA7AF4BD2BB73A0"
+			rewards: [
+				{
+					id: "7B2BB6451FA80ACD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B2FAA32A99464F8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "13506A685CEF957D"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_wolf"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "44BD6C77AE13BF86"
+			rewards: [
+				{
+					id: "6F866CB3E9C8B130"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "412D0434DB4FAC08"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0044197F86482C34"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_mishumaa_saba"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7CB4518C3B32883E"
+			rewards: [
+				{
+					id: "28B24797EDC5A2C4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1D1E23C7EAAFCD79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "12A1DE24319623F0"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_menorah"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "46BF7C973082CF92"
+			rewards: [
+				{
+					id: "3F7559CB6B5AC5AA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17DE1D3E7C83C3AB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "486CF9B0293257B3"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_christmas_tree"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4D0C770D8FFA17B8"
+			rewards: [
+				{
+					id: "0EB6B42C5CCDF2E4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6DBE4F3E35EE3368"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "18F47925990D9754"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_april_fool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0E3549892D6BE41C"
+			rewards: [
+				{
+					id: "07C092D803489A50"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0FB289147CF6CDC5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3F4A6E9F63990CC2"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1B0276C10E24951F"
+			rewards: [
+				{
+					id: "201B7EFBCA5A0DD7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "69F5A59F2A1D692A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2C0DA3AA774A959A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_enchanting_table"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "612CAFF6B39ECFB7"
+			rewards: [
+				{
+					id: "22E3DF663DC2FE43"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "47F7EAB4DB593C38"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7039912F1F9DC553"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_jukebox"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0D6BD95C35865C23"
+			rewards: [
+				{
+					id: "7B2A60731F160793"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B2B484BB9BA291A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0B3B0B70BB0242B8"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_lead"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0B54DF358C7A67D6"
+			rewards: [
+				{
+					id: "6241E571808D953D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "290B9C6B1A56B217"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5247968F125D52C3"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_nether_portal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "63A75472264DB9AB"
+			rewards: [
+				{
+					id: "570E7D2D0420739E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1BF9D8308FEBD9BF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2A679A6E1AEEA387"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_saddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3DF47E959D3D605B"
+			rewards: [
+				{
+					id: "201B398BE1D54360"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F1B603730F7C891"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "22F3450E9A10E285"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_wither"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "770B647705D89346"
+			rewards: [
+				{
+					id: "6A1461A1A840EA93"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "149B1059542FEC87"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "01F5520CD5F9715F"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_cheetah"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1501A54C679200DC"
+			rewards: [
+				{
+					id: "624F2B4CD004ECA9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7A62466F0EA371D2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3F89A8DB02744FD3"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_house"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "663EA017A556E230"
+			rewards: [
+				{
+					id: "1D2F348B89188D45"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "46BE03B3933FE29C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2AE3AD2E25E4AA4B"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_pacman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "29BDF7CD0FC3C3E8"
+			rewards: [
+				{
+					id: "54489C58D35AC920"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7E4658F4E4B64127"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "065F1E3F109F3766"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_pixie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "03013576ED110D34"
+			rewards: [
+				{
+					id: "26608C9E3DD0EE48"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6F931EAC1632294C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "712913E07369BE37"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_silverfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2F4A5F6C64CE5AF0"
+			rewards: [
+				{
+					id: "4C428BB0453E7181"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7B3436B3A1DB6CDC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "53B8ABBDF7C34F6C"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_torch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "186330EA2619139F"
+			rewards: [
+				{
+					id: "0A4C5F99660E6CC5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4EBD8FE01FF99BF8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2550EEDB697790EE"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_cloud"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "733ECA985FFC3CB1"
+			rewards: [
+				{
+					id: "2A3FEFC9DBB8DA2F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "65E30209695F2398"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "755B8EE74D22DF6A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_pufferfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1CAE5ABF7D5FEC3D"
+			rewards: [
+				{
+					id: "653D9FB03D2A4F47"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "23B9B084B717FC86"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "06F09A02E79E4A4B"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_slime"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4B0D4B3444E7F28B"
+			rewards: [
+				{
+					id: "5D2DFEB5075BEDF9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "54F8EFB454B48BFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "277FE3765C4606E1"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_sun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "03851C4C469070D0"
+			rewards: [
+				{
+					id: "1A666A98BD8391B1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "597F2BEB49D5BE43"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6F889FB31ED9DEAC"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_end_portal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "331A4A6165B3FE2F"
+			rewards: [
+				{
+					id: "3B3AA53DA09329D5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "44FF467BB541DBF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "687F3A9934BB4267"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 27
+						}
+					}
+					id: "inventorypets:pet_sated_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7E2D694D43445C0B"
+			rewards: [
+				{
+					id: "698BB465893D5AD1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1718A1343D8202F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "31FEBA1D3450B423"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 54
+						}
+					}
+					id: "inventorypets:pet_sated_double_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2C570B4863ABA611"
+			rewards: [
+				{
+					id: "482E59B2A1D0A390"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "667344936B327FCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "50884D501A74F00F"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_anvil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1F6B8D6F58265F4B"
+			rewards: [
+				{
+					id: "56C3B819150A6B73"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17736BCED22F5B6A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7BDF8BF06934A634"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_squid"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4F7F56BDBA5EE919"
+			rewards: [
+				{
+					id: "245B22AC9099A487"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "124450CA6885889E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "23539903B95B6F82"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_biome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "48B9045AD0A817FD"
+			rewards: [
+				{
+					id: "5AC69BF7D65D520C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2677DB4F1BE3393C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "41A0E08FBE37A5FB"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_politically_correct"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3A5CF840B36CC06C"
+			rewards: [
+				{
+					id: "1F00BDE2D0D5A179"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "06F0E5E44505B2F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6F90236018812BB4"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_furnace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "403CD417999C7500"
+			rewards: [
+				{
+					id: "26025484AF819601"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1DBD12BEC4FA894A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB279A40098C9F1"
+				item: "inventorypets:easter_egg"
+				type: "item"
+			}]
+			title: "&eEaster Egg"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "10CD6F8BE86C318B"
+			rewards: [
+				{
+					id: "4E4B6AB592BE5170"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "751B4FDCDCD41412"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5C868E46ED68DB96"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_spider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3416EA089C94CB69"
+			rewards: [
+				{
+					id: "49E1AEF79EE54771"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "103E77899513245C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "76BB2AE3E09782E6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "inventorypets:holiday_cookie"
+							}
+							{
+								Count: 1b
+								id: "inventorypets:egg_nog"
+							}
+							{
+								Count: 1b
+								id: "inventorypets:candy_cane"
+							}
+							{
+								Count: 1b
+								id: "inventorypets:rock_candy"
+							}
+						]
+					}
+				}
+				title: "mmm... delicious"
+				type: "item"
+			}]
+			title: "&cMmm... Delicious !!!"
+			x: 2.4499999999999997d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0989DDF083A4069C"
+			rewards: [
+				{
+					id: "30BF52445B7F41FF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "27F844DA57987163"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0C44B6E0DA44AC84"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_dubstep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1E3A40E16432AF90"
+			rewards: [
+				{
+					id: "43616F6A13F6CFA4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C032EA85AE3247F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "79F69B07802C5AFE"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_chicken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4420FC9D40AA120F"
+			rewards: [
+				{
+					id: "5F23E8CCCE89B132"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "288B3465E2C63E23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "548DE94B9CB69742"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_bed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -5.249999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "52AB5B749DB04A89"
+			rewards: [
+				{
+					id: "5646C41560503D81"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "335D61A19E9B621B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1C7CA848E9892B29"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6E6A0CF9875B959B"
+			rewards: [
+				{
+					id: "70FB472E960864E7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "71C42B06E340B6D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0D0853D6EEC0A88F"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_moon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2E49E4B958137692"
+			rewards: [
+				{
+					id: "02DBD2830DB26A67"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C81B95FD0A0BB1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "16765FC3EB427361"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_purplicious_cow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "63A56D5A721133B5"
+			rewards: [
+				{
+					id: "792235675F3D6C18"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "366AC80BD1336AC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "67B752195EA69622"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_flying_saddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3928D38EE5994885"
+			rewards: [
+				{
+					id: "14CE62B1DFEEE425"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "622CDAC8F13DFA87"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3A8C51E7ECE21317"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_grave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "23840C8C9BD791EF"
+			rewards: [
+				{
+					id: "1C7795E1B144DD24"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "32D86725CFF7BFFE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "44AF11B4202245EF"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_loot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4936DF585B8A200C"
+			rewards: [
+				{
+					id: "16C994EC8651636D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "18F48CCCA6008983"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "621640A888CCA8A1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_aoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_fan"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_mob"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_peaceful"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_special"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_utility"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_youtuber"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_25"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_50"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_75"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "inventorypets:pet_meta_100"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Meta Pet"
+				type: "item"
+			}]
+			x: -1.4000000000000004d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "79B236B557D8F065"
+			rewards: [
+				{
+					id: "2DB2A19427BAF6A0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3B66074F726B462B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5F0DBF81163F5C83"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_mickerson"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "045C775B69AE2F28"
+			rewards: [
+				{
+					id: "3A1613A498A2BC6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E92451D3203010D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "347A1A8CB742938B"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_pingot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.1499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "54D9C570A2A234F9"
+			optional: true
+			rewards: [
+				{
+					id: "258CB147440C7963"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "79A776CF61DBF460"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "2A2C3C9E9614BE4D"
+				item: "inventorypets:holiday_gift"
+				type: "item"
+			}]
+			title: "&6A present? For me?&r &oWOW"
+			x: 2.4499999999999997d
+			y: -1.4d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "181FD35D3DED58DF"
+			rewards: [
+				{
+					id: "4C24AA69128083D3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E93992324024A4F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "19825BEE4265026F"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_apple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "751C3C559C4EB6C3"
+			rewards: [
+				{
+					id: "7C5DD08404470D79"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1BB27C58B8C5E4B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3B56E774E51D3954"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5FAAA070ACC3F9ED"
+			rewards: [
+				{
+					id: "28BAA84AF5223840"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4057A251F5203A01"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "592C5D6FE779386A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_sponge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.999999999999998d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5E7A9BAC9FB6BC88"
+			rewards: [
+				{
+					id: "0159268552B46742"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7794BD153F67F07F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0B1E736193741413"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_cobblestone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.699999999999999d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4648E118B51864DF"
+			rewards: [
+				{
+					id: "176A8AAE3F1CAB28"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "25D3660A43B6A6F3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3C09A4008BBB719A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_dirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.399999999999999d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1732649519EBDE24"
+			rewards: [
+				{
+					id: "02E5EEB831C322BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C83E41655F46E5D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "51F2002FDCD1F657"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_juggernaut"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "58993574446DE6A8"
+			rewards: [
+				{
+					id: "5C2416CEBF29D04A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5FF00001744BE1DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "122CF19BE65A22FF"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_illuminati"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "594FE50D7AD36D4D"
+			rewards: [
+				{
+					id: "5582302839285CA5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "65664653DDEB62F2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "53633CBBED17BD03"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_siamese"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.299999999999999d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4A69028E8AB28F20"
+			rewards: [
+				{
+					id: "33B636E9FB0ED4D2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "72D83AFB16CCD7A5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "564385E8EF2F998A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_qcm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "57A56DC0538B8C5D"
+			rewards: [
+				{
+					id: "110E3CDF5A3AB804"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A8B0CC6F1B4DC79"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "38536C8CC2B64DF9"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_blaze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4B3447ED59419D0F"
+			rewards: [
+				{
+					id: "25E9116EFA7646B8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57C90CE4EFCCD7EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0DD1BD11C35A2C4A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_snow_golem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.949999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5189B272ABB1C7AC"
+			rewards: [
+				{
+					id: "7381A7EDE21C6245"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6346E85DE0D35CBC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "74683BA34F67EE5B"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_ender_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.7000000000000002d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3D3BD659FCD11598"
+			rewards: [
+				{
+					id: "3A35A490F73AC232"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6AD41871A21E15BB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2E6D5238713E90B6"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_banana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.8499999999999988d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3EE08F74E22B08D6"
+			rewards: [
+				{
+					id: "44217CFF8897E769"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4C9BDAC6AEC369F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5895A59E0442914D"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "103D3A2F95E3884F"
+			rewards: [
+				{
+					id: "6812E25E277EC746"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3DBED54973EC7783"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4FC8795CA3994348"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_enderman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.1d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7841C1AB33196435"
+			rewards: [
+				{
+					id: "5E41A2CAAE0D5F6B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78861B7980F05CE9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0E195B0D0E50957E"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_sheep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8000000000000003d
+			y: -5.249999999999999d
+		}
+	]
+	title: "&6&oThe Pet Master"
+}

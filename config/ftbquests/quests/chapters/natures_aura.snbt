@@ -1,0 +1,2645 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "4814F40AB34427B6"
+	icon: "naturesaura:gold_leaf"
+	id: "1A7890A14912C685"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: 0.2142857142857153d
+		y: -9.553571428571427d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&2Nature's Aura&r is a druidic themed magi-tech mod that uses the omnipresent '&daura&r' to derive its power. "
+				""
+				"Be warned, &dAura&r is a limited resource which must be managed and replenished lest the natural order be disturbed. Draining too much can cause dire consequences."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "naturesaura:book"
+				}
+			}
+			id: "5CD1D8CD682498B1"
+			min_width: 300
+			rewards: [
+				{
+					id: "3CFB60023E06B182"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "212F3E210712B7E5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "3B58A7DA71C8D336"
+				type: "checkmark"
+			}]
+			title: "Welcome to &2Nature's Aura"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5CD1D8CD682498B1"]
+			description: [
+				"To begin upon the naturalist's path, &6Brilliant Fiber&r should be woven into the leaves of trees. There, they’ll transform the leaves to a beautiful golden hue."
+				""
+				"Craft one or more &6Brilliant Fibers&r and &eright-click&r them onto any leaves. The effect will spread to nearby leaves. "
+			]
+			id: "7FA3BB537E606DD9"
+			rewards: [
+				{
+					id: "79F3A7019EC7A06D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "40C0E62047171415"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "26740C87F556AFAA"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			title: "&6Brilliant Fiber"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7FA3BB537E606DD9"]
+			description: ["&6Golden Leaf&r will drop whenever the fully transformed leaves are broken. Place fresh leaves near the remaining transformed leaves to begin converting them as well. "]
+			id: "540F24CCEC11EF80"
+			rewards: [
+				{
+					id: "6F185AF1AB276372"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58C30302BB470423"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17D09B1124064592"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			title: "&6Gold Leaf"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["540F24CCEC11EF80"]
+			id: "6096B32F24156DAA"
+			rewards: [
+				{
+					id: "32CF91ED82947217"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4260E61A2741F21E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0120DF89A07CB1E4"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["540F24CCEC11EF80"]
+			description: [
+				"The &aRitual of the Forest&r is the basis for all magic to come. A tree is sacrificed in the center to provide the energy for the ritual. "
+				""
+				"The items around the outside of the recipe should each be placed into a &eWooden Stand&r; the order is of no consequence and items may be placed manually or by automation. "
+				""
+				"Once the reagents are ready, place and grow the required sapling. The &6Gold Powder&r will be consumed along with the items and tree when the ritual completes."
+			]
+			id: "01308DE801778949"
+			rewards: [
+				{
+					id: "7E9B1800056CC1A4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3FDF167AB906453A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "2CE102E5D8AFBCE0"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			title: "Wooden Stand"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FA3BB537E606DD9"]
+			description: [
+				"The &eNatural Altar&r is the heart of two ritual practices; one to infuse life into objects and another to infuse death. "
+				""
+				"Refer to the &2Book of Natural Aura's&r section on the &eNatural Altar&r and the &5Crimson Altar&r for a preview of the required structure. "
+			]
+			icon: "naturesaura:nature_altar"
+			id: "1294AA16EB85EBB4"
+			rewards: [
+				{
+					id: "383635B3A06DEF08"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17D26B69BFF3B4E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4C3EAB8A068100C1"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "52BEC8609217DA8B"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F6FF8B2139C0684"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39C6E0AC96A45D62"
+					item: "naturesaura:gold_brick"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "238E560DB0D4D179"
+					item: "minecraft:chiseled_stone_bricks"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"Upon reaching a high enough skill level, Naturalists may commune directly with the gods, asking boons in exchange for offerings. Do be mindful, however, as the gods are petty at times, no matter what the offering."
+				""
+				"Place the offerings in the bowl and then toss down a &bSpirit of Calling&r to complete the ritual. The bowl will hold multiple items, with only a single Spirit required for the full batch. "
+			]
+			id: "1AC0E360702623FE"
+			rewards: [
+				{
+					id: "7E87740425EE07E2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "287A91606FB5FFD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F8E984E7E625954"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			id: "55D4D9204BBA0B2F"
+			rewards: [
+				{
+					id: "7D3B197147B7776B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26002970D2121DA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09D8CA3972EF8D73"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "713CA847896F563A"
+			rewards: [
+				{
+					id: "77AE614BB10A58C1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A874CF9181554B8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31169615E4739978"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			id: "0DA4018FAEC34E37"
+			rewards: [
+				{
+					id: "4C41E807D77405D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6175D26FF4ACB52A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "298E9BBB95FF6997"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			id: "26AEDF96F510061C"
+			rewards: [
+				{
+					id: "6B83B6CED504D98C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "241E3594698579E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22F56373B9B8FF37"
+				item: "naturesaura:token_sorrow"
+				type: "item"
+			}]
+			x: 0.9642857142857011d
+			y: -3.910714285714292d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			id: "13477EEDB1F7E316"
+			rewards: [
+				{
+					id: "6AB9732147484A8C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A21CE7772FB6181"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E968F3D392953F"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			description: [
+				"The most powerful of &aNaturalists&r have found that when combined with a rare catalyst, the passage of time itself may be &nmanipulated&r. "
+				""
+				"This process will rapidly advance time at a great cost of &dAura&r. Be wary not to allow &dAura&r to drop too far!"
+			]
+			id: "46AED245E29A7C51"
+			rewards: [
+				{
+					id: "04DB3986A0F7BE08"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "14ECA158229E2521"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47898273256C8FD2"
+					item: "naturesaura:clock_hand"
+					type: "item"
+				}
+				{
+					id: "17F792A7D310D9B6"
+					item: "naturesaura:time_changer"
+					type: "item"
+				}
+			]
+			title: "&eShifting Sundial"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			id: "4A7A2865AC5023C1"
+			rewards: [
+				{
+					id: "0C019C0A811C58AF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "589B1FAE8A779929"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "201B3B74BD44EBB3"
+				item: "naturesaura:token_euphoria"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			id: "6B271A33379F4E07"
+			rewards: [
+				{
+					id: "1BBD0FC55D709F41"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F17CC603DB45F49"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D3D9881F0636459"
+				item: "naturesaura:token_terror"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			id: "359D15F5BF7BF7F9"
+			rewards: [
+				{
+					id: "68ADA8D8A32F4408"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "57ED3BC04D50D876"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F3FE8BD23FAC894"
+				item: "naturesaura:token_rage"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			id: "0CA20A8FCEBF4E49"
+			rewards: [
+				{
+					id: "75E302A2BF2AC54E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "336FF38C55296ACB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33D7C2B99531D9FC"
+				item: "naturesaura:token_anger"
+				type: "item"
+			}]
+			x: 0.7857142857142776d
+			y: -1.4107142857142847d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			description: [
+				"Untrained eyes may notice the more overt signs of &dAura&r in an area, subtle glowing lights and lush plant growth."
+				""
+				"The &9Environmental Eye&r further hones the &aNaturalist’s&r vision to grant deeper insights into the &dAura&r infusing the landscape. "
+				""
+				"Finding an area with higher-than-normal &dAura&r at this stage may be helpful, as some &dAura&r will be consumed in order to create the apparatuses needed to help renew it. "
+			]
+			id: "6FB21CED07FF123A"
+			rewards: [
+				{
+					id: "6D30E39B697C12A2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B9E2B3EBEA0CDF9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FFCA9DACC87D4B0"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FB21CED07FF123A"]
+			description: ["An advanced version of the &bNatural Eye&r which grants its owner the ability to see ever more precise details of the &dAura&r around them."]
+			id: "026D46341C66192C"
+			rewards: [
+				{
+					id: "78846C98A772A4B1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "299B512B3A9031CC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4EFAE93BA53CCFB0"
+				item: "naturesaura:eye_improved"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			description: [
+				"The earliest Naturalists are said to have discovered &dAura&r by observing these &5Ancient Trees&r. They found their roots grew deep, drawing &dAura&r up from the depths and dispersing it into the environment. "
+				""
+				"Upon realizing the &dAura&r could be renewed, they set about devising ever more elaborate ways to use and replenish it. Those who pushed it too far, however, paid dearly. "
+				""
+				"The trees grown from &aAncient Saplings&r serve two primary purposes:"
+				""
+				"First, they’ll help replenish &dAura&r in the area they’re planted, albeit slowly. As they do, the leaves will die and decay.  Worry not, more effective methods of replenishing the &dAura&r exist."
+				""
+				"Second, the wood is particularly useful when it comes to the arcane as it is steeped in the magical energies of &dAura&r. It makes a fine base for many an arcane implement. "
+			]
+			id: "6BC0A378E8461EC1"
+			rewards: [
+				{
+					id: "6E3FB11BC4AB7154"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E5FB1160E18E0A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B3C8244CBFD60F0"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			description: [
+				"The &eTransmutation Catalyst&r augments the &aNatural&r and &dCrimson Altars&r to allow them to perform further transformations. "
+				""
+				"Place it on any of the four short pillars surrounding the &eAltar&r itself to activate it."
+			]
+			id: "7E228CA7729F37FA"
+			rewards: [
+				{
+					id: "38EEBD5EA71239D0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69B7FCBBF9F6AB6B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "787D2018593D9163"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01308DE801778949"]
+			description: [
+				"The &9Crumbling Catalyst&r augments the &aNatural&r and &dCrimson Altars&r to allow them to perform further transformations. "
+				""
+				"Place it on any of the four short pillars surrounding the &eAltar&r itself to activate it."
+			]
+			id: "355E10CBDBFE50F0"
+			rewards: [
+				{
+					id: "33EF6EF1C872D788"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F25434FB139EA3D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72C2E2292796F117"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AC0E360702623FE"]
+			id: "64742723F9E345C7"
+			rewards: [
+				{
+					id: "6A7E4BB6BCE096F7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "004570C2765C3256"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47DD8A54D04E464A"
+				item: "naturesaura:token_grief"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"64742723F9E345C7"
+				"26AEDF96F510061C"
+			]
+			id: "503DBEB4CD411F3C"
+			rewards: [
+				{
+					id: "6164AE398C189F4B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7BF430AAE7724FB3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05C12922D9FE86E5"
+				item: "naturesaura:pet_reviver"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1294AA16EB85EBB4"]
+			id: "3E8919ACCC998919"
+			rewards: [
+				{
+					id: "7349E8486DA6D42F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21CA9DE2C921C696"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24D7574DEBF5AE59"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"Many devices have a specific range that can only be seen by &eright-clicking&r on them with a &9Mystical Magnifier&r."
+				""
+				"It's a &nvaluable tool&r to any &2Natural Botanist&r."
+			]
+			id: "1C7DAF2388B28BB9"
+			rewards: [
+				{
+					id: "5739930DEAC3DE86"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "05A0428BEDF5149D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DD099FDF2733199"
+				item: "naturesaura:range_visualizer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: [
+				"Higher capacity than the &9Aura Cache&r."
+				""
+				"Refer to the &aBook of Natural Aura's&r section on &2Natural Tools&r for potential uses."
+				""
+				"These may not fill completely when worn. To get a full charge, or to even automate filling them, they may be placed in a &3Natural Altar&r to their maximum capacity."
+			]
+			id: "3620B4D5E51B8E2E"
+			rewards: [
+				{
+					id: "7C22F62EE3A1E3AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "3FA13D4902B99DD0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "037466E314FAF6C5"
+				item: "naturesaura:aura_trove"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"A portable source of &dAura&r that can be be put to good use with a variety of &etools&r. "
+				""
+				"Refer to the &9Book of Natural Aura's&r section on &2Natural Tools&r for potential uses."
+			]
+			id: "3CA57107EB36818B"
+			rewards: [
+				{
+					id: "0E42C166AD0F7EAE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "076191E51B3CFC64"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "723B08E8116F503B"
+				item: "naturesaura:aura_cache"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6B271A33379F4E07"]
+			description: [
+				"Each &dAura&r generating device is limited to the extent it can replenish &dAura&r. It is possible, however, to push this boundary and flood an area with an over-abundance of &dAura&r. "
+				""
+				"Place the &eCreational Catalyst&r beneath any &5Aura Generator&r to remove its generation cap and attain such lushness as has not been observed since the early days of creation."
+			]
+			id: "60234F5F814BD630"
+			rewards: [
+				{
+					id: "44D2AB5A2D7E0F54"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F1CF8321F96AB20"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61ECC36C6023AC57"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E8919ACCC998919"]
+			id: "1038985DB4FF4362"
+			rewards: [
+				{
+					id: "769EC400C0F3E8D8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "319FD52D5B45FC91"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79156E3779CD512A"
+				item: "naturesaura:calling_spirit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "5754548A868D6BCB"
+			rewards: [
+				{
+					id: "59C56BCD5913A6FE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "199C076208451CC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42E1C0F6914FF5B6"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DA4018FAEC34E37"]
+			description: ["The diminisher works with oak trees to create more aura."]
+			id: "1EE1E21E198493C2"
+			rewards: [
+				{
+					id: "3B660E6B3F798EFD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "385961C3E6156000"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F3AA44F7615756D"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55D4D9204BBA0B2F"]
+			id: "5AA4DAFD48B32DE4"
+			rewards: [
+				{
+					id: "378501A9DCFF7F1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "46A34C5E889AB2F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "564B283FB509ACE4"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"One of the few Natural devices that do not consume &dAura&r to function, &9Adept’s Hoppers&r are a &nfilterable&r hopper that moves items slightly faster than a &eVanilla Hopper&r. "
+				""
+				"Place an &cItem Frame&r on the side and insert &nany&r item or &nblock&r in the frame to set the filter. "
+			]
+			id: "412B1135A915CCFE"
+			rewards: [
+				{
+					id: "17527307D31DE0B4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61EB8866976EF74B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BB2046AF55AA31A"
+				item: "naturesaura:grated_chute"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["412B1135A915CCFE"]
+			description: [
+				"When placed atop an &2Adept’s Hopper&r or a &7Vanilla Hopper&r, the &9Hopper Enhancement&r allows the collection of blocks up to seven blocks away. A very useful tool to have in any automated apparatus."
+				""
+				"If used with an &2Adept’s Hopper&r, any filter set will be respected by the &9Hopper Enhancement&r. "
+			]
+			id: "5EE4D120BE469E7E"
+			rewards: [
+				{
+					id: "587FAD2CE33F4C3C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "41D88B4177D41C53"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59035DD77E5AD6B4"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A7A2865AC5023C1"]
+			description: [
+				"This &9Altar&r is used to create and spawn almost any living creature."
+				""
+				"A ritual that harnesses the powers of creation itself, allowing its user to bring forth new life from the barest traces of material."
+				""
+				"Once built, simply throw down the reagents atop the altar. If there's enough &dAura&r, the ritual will proceed &nautomatically&r."
+			]
+			icon: "naturesaura:animal_spawner"
+			id: "3CA5D58AD8C37B7C"
+			rewards: [
+				{
+					id: "1609C6911350EE94"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5A72C5D07004B745"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B7840AE8B165AD9"
+					item: "naturesaura:animal_spawner"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36D799C9594318AA"
+					item: "naturesaura:infused_brick"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "79C43271FCDE3ABE"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2E71460B72295AF8"
+					item: "naturesaura:ancient_planks"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FB21CED07FF123A"]
+			id: "33DE3B246C18194D"
+			rewards: [
+				{
+					id: "14D9700C90060C5D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "584DA808D6CD80DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45C49998F81CC1A1"
+				item: "naturesaura:chunk_loader"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FB21CED07FF123A"]
+			description: [
+				"A simple apparatus that helps contain livestock and other animals. Creatures within the range of this block will be unable to step beyond its boundaries. "
+				""
+				"No &dAura&r is consumed to produce this effect."
+				""
+				"The range depends upon strength of the redstone signal it is provided. "
+			]
+			id: "4FB51C1C41BBD05D"
+			rewards: [
+				{
+					id: "16B5C916484865C2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6083FEC8CB1D8E07"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18C13DF5AA5EC095"
+				item: "naturesaura:animal_container"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1294AA16EB85EBB4"]
+			description: ["With the &dInfused Rocks&r you'll be able to create &3Livingrock&r (&2Botania&r)."]
+			id: "623B80E29E48B9F2"
+			rewards: [
+				{
+					id: "37AABFE34227FC6B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E4D7A67F6E55BF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 16L
+				id: "6ECB158A4EDB5797"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A7A2865AC5023C1"]
+			description: [
+				"While true that &bWater&r is easily obtained through other means, an &9Everlasting Spring&r provides a convenient place to connect a pipe to supply other machinery. "
+				""
+				"The &9Spring&r provides &1water&r at the cost of a small amount of &dAura&r. "
+				""
+				"This is a &6Watery Magical Wonder&r."
+			]
+			id: "5D2FDC3B47CEE419"
+			rewards: [
+				{
+					id: "1C174D15C2AAA78C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F12F30898976E2F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "139980F22178FB8B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:spring"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CD1D8CD682498B1"]
+			id: "7C4157D9732F1F00"
+			rewards: [
+				{
+					id: "012745D220B2B6FD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7AA7AB6EFF96B7AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73BA09B27DBF40ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:bottle_two_the_rebottling"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F618EF3A3976CD3"]
+			description: ["&0Eye of the Pillager&r will locate &ePillager Outposts&r."]
+			id: "0A9E8855694B67C7"
+			rewards: [
+				{
+					id: "7BE7842B1458D529"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E6FDF6AAB468659"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "092EAA21E09450C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:outpost_finder"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F618EF3A3976CD3"]
+			description: ["&5Eye of the Shulker&r will locate &eEnd Cities&r."]
+			id: "77F00DB3A5F74E79"
+			rewards: [
+				{
+					id: "34538CEFE2850DD4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "115DE2BC521F995B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77ED7BB9991CAA70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:end_city_finder"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F618EF3A3976CD3"]
+			description: [
+				"The entire &dAura&r field appears to be connected in some fashion, even across &ndimensions&r. Though the measurable effects tend to be more localized, some brilliant &aNaturalist&r was able to deduce a way to use the subtle ripples in the weave to transfer matter unimaginable distance. "
+				""
+				"&5Ender Crates&r can be assigned to a &bchannel&r in an &0Anvil&r by simultaneously renaming them and combining them with an &9Eye of Ender&r. More &5Crates&r can be assigned to the same &bchannel&r at any time by giving them the same name. "
+				""
+				"Similarly, &9Ender Oculars&r may be assigned a &bchannel&r to allow personal access to the same &einventory&r. Perfect for dropping off the spoils of exploration while far from home."
+				""
+				"A small amount of &dAura&r is used every time an item is moved in or out of the crate. Therefore, it is vital that &dAura&r is generated on &nboth sides&r of the connection. "
+			]
+			id: "0318D80EB4CFFF91"
+			min_width: 300
+			rewards: [
+				{
+					id: "68BF28CE2D6BA56B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C433B88B7FF42DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5E5AFA367633AB4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:ender_crate"
+				}
+				type: "item"
+			}]
+			title: "&5Abaddon's Gate"
+			x: -5.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F618EF3A3976CD3"]
+			description: ["&cEye of the Blaze&r will locate &eNether Fortresses&r."]
+			id: "2B269F3A081DD40D"
+			rewards: [
+				{
+					id: "138560AE8A37E9AB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5EE6BC27614A3898"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34165E482D5D94D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:fortress_finder"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F618EF3A3976CD3"]
+			id: "4EA5D1AB74280A0A"
+			rewards: [
+				{
+					id: "4670E8321EA1C84F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "58F4476B328EC0F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "20B197BE95CE5B7F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:crimson_meal"
+				}
+				type: "item"
+			}]
+			title: "Crimson Meal"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E228CA7729F37FA"]
+			description: ["This forge converts aura into redstone flux/forge energy/crystal flux."]
+			id: "564456396B78552E"
+			rewards: [
+				{
+					id: "281A0752B2D2F2B6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20F294F5C72E6C5B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F22E3AA81F7AF0A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "naturesaura:rf_converter"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"&2Botanist’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &eAura Trove&r equipped. "
+				""
+				"&aBotanist’s Pickaxe&r: May be used to &ninfuse&r materials with &dAura&r by &eright-clicking&r."
+				""
+				"&aBotanist’s Handaxe&r: Cleaves through leaves &nvery rapidly&r."
+				""
+				"&aBotanist’s Shovel&r: Converts &nDirt&r to &nGrass&r and creates 3x3 Dirt Paths in Grass."
+				""
+				"&aBotanist’s Hoe&r: Randomly &nproduces seeds&r when tilling &nFarmland&r."
+			]
+			id: "324C10914F2A0E3B"
+			min_width: 300
+			rewards: [
+				{
+					id: "736EAAE224F925B8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "193AA5757878D37E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "002EE7D81FEA6987"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:infused_iron_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:infused_iron_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:infused_iron_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:infused_iron_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&aBotanist's Tools"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"&2Botanist’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &eAura Trove&r equipped. "
+				""
+				"&aBotanist’s Armor&r: When wearing a full set, inflicts &nWithering&r on attacking enemies."
+			]
+			id: "27F37F7DB6F834B8"
+			rewards: [
+				{
+					id: "147EA2B1D0D3D60A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "265D0C3013C3A286"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07FA2F25DF37EB7F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:infused_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69EBAE80E22BC593"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:infused_iron_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36231A56C157F037"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:infused_iron_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1261E4904030A658"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:infused_iron_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aBotanist's Armor"
+			x: 9.428571428571423d
+			y: -6.410714285714285d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: [
+				"&dSkyseeker’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &aAura Trove&r equipped. "
+				""
+				"&bSkyseeker’s Pickaxe&r: Instantly &nteleports&r mined blocks into the user’s &einventory&r."
+				""
+				"&bSkyseeker’s Handaxe&r: Capable of chopping &nentire&r trees in a single action."
+				""
+				"&bSkyseeker’s Shovel&r: Upon &eright-click&r, &nreplaces&r the target block with whatever block is held in the &aoff-hand&r."
+				""
+				"&bSkyseeker’s Hoe&r: Tills a larger area of land, &ndestroying&r tall grass and other vegetation in the process."
+			]
+			id: "5C28593B0E3E260B"
+			min_width: 300
+			rewards: [
+				{
+					id: "353B7535B960121D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F147F47B43F5FD5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "505184D8152D757A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:sky_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:sky_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:sky_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:sky_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&bSkyseeker's Tools"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: [
+				"&dSkyseeker’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &aAura Trove&r equipped. "
+				""
+				"&bSkyseeker’s Armor&r: When wearing a &nfull set&r, grants a &nspeed&r bonus and the ability to &nstep up&r one block."
+			]
+			id: "679F93359C242099"
+			rewards: [
+				{
+					id: "5411BC313ED3E5A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64D52A2D343FE2F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5400391AEC43ADE6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:sky_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A90E7BC5FA26429"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:sky_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "784BBECAF2FC2D13"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:sky_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BDBBB042B77E529"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "naturesaura:sky_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bSkyseeker's Armor"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BC0A378E8461EC1"]
+			description: ["With the &dAncient Logs&r you'll be able to create &0Livingwood&r (&2Botania&r)."]
+			id: "7B9E96F499FB20AA"
+			rewards: [
+				{
+					id: "0B49EBBE48185B37"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77BEA5747432DC98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "37787F305ED9CF01"
+				item: "naturesaura:ancient_log"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"&2Botanist’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &eAura Trove&r equipped. "
+				""
+				"&aBotanist’s Blade&r: Inflicts &nSlow&r on its target."
+			]
+			id: "49FC8CB3BAFF7B7D"
+			rewards: [
+				{
+					id: "33D2BDA57E32CD3F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2A55D9CD4E59E7C6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79D48C314363C997"
+				item: {
+					Count: 1b
+					id: "naturesaura:infused_iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: [
+				"&dSkyseeker’s&r equipment offers several unique benefits to its user beyond the basic uses for armor and tools of each type. "
+				""
+				"All pieces may be repaired with &dAura&r simply by sneaking with an &9Aura Cache&r or &aAura Trove&r equipped. "
+				""
+				"&bSkyseeker’s Blade&r: Inflicts &nLevitation&r on its target."
+			]
+			id: "391C66CB007A266D"
+			rewards: [
+				{
+					id: "54D7B0F37DB5989D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29FE3B2D54F1A972"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3928BB6459BFE531"
+				item: {
+					Count: 1b
+					id: "naturesaura:sky_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			id: "0506E3068595AC44"
+			rewards: [
+				{
+					id: "55DB5C50A2D9DE4A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7A3B4732691CBF05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1296BFB884DFBAA3"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0506E3068595AC44"]
+			id: "3CB07630300CEDA0"
+			rewards: [
+				{
+					id: "5A495CC967F96119"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "353CE5829604AFFF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59E2E56CD10A0D58"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:depth_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:depth_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:depth_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:depth_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&3Soulstrider's Tools"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0506E3068595AC44"]
+			id: "5A4625EEB07B0382"
+			rewards: [
+				{
+					id: "20FBEE3F2D4CE40B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B768083819690A1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "006C27B8E44D6AA8"
+				item: {
+					Count: 1b
+					id: "naturesaura:depth_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Soulstrider's Blade"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0506E3068595AC44"]
+			id: "3EEF524D2CB9E314"
+			rewards: [
+				{
+					id: "50B484E8FC72F4F1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CE103586574EAA9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A25441C0B499AC4"
+				item: {
+					Count: 1b
+					id: "naturesaura:depth_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Soulstrider's Armor"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6096B32F24156DAA"]
+			description: ["Lush Aura has a variety of side effects which may or may not be desirable at any given time. Powders exist to control when and where these effects occur."]
+			id: "5E883A418E024E98"
+			rewards: [
+				{
+					id: "3C32AF5D8BE5A7B3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53F98474F543BE0F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5943DBB89FA42F5D"
+				item: "naturesaura:powder_placer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E883A418E024E98"]
+			id: "2D144945086E3A74"
+			rewards: [
+				{
+					id: "27D7163ED1C08BF4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1AD38E0EF1773EEC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "41D596A5212DCAFB"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:ore_spawn"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E883A418E024E98"]
+			description: ["The growth of crops, plants, and flowers will no longer be boosted by &dAura&r."]
+			id: "7E1422613B02588E"
+			rewards: [
+				{
+					id: "57254695686ADA32"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B8573A5A6C8A14A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "22F6AD758A3F01DE"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:plant_boost"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E883A418E024E98"]
+			description: ["Passive &eAnimals&r will breed when able."]
+			id: "39AF286C12A07367"
+			rewards: [
+				{
+					id: "7D10B4F581FEA791"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73788C69545B7902"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "47F4F370B2C55836"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:animal"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["5E883A418E024E98"]
+			description: ["Your &dAura Cache&r or &eTrove&r will not charge in the area."]
+			id: "2C329589AA551C12"
+			rewards: [
+				{
+					id: "5662AE95F56C34CB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "793BBD957DEA8C56"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5F78D6D519212F6F"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:cache_recharge"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E883A418E024E98"]
+			description: ["Prevent the formation of grass on &4Netherrack&r."]
+			id: "6756686AEEB52EF9"
+			rewards: [
+				{
+					id: "12022A14DAB40455"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "263596591557DA12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "4DE47776E0C0E23E"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:nether_grass"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DA4018FAEC34E37"]
+			description: [
+				"The act of brewing &9Potions&r distills the magical energies found in all life down into a compact and portable form. Those same energies may be released again as &dAura&r with the proper apparatus. "
+				""
+				"The &cLingering Absorber&r will draw in these energies, re-dispersing them as &dAura&r. Simply smash &eLingering Potions&r on the central block and it will take care of the rest. "
+				""
+				"Potions may be dispensed with a &3Dispenser&r, among other things. "
+			]
+			id: "3254FD29FED770E0"
+			rewards: [
+				{
+					id: "13156EEFA85BCA92"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "523528F34E176D05"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E071950F8BA9A56"
+				item: "naturesaura:potion_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DA4018FAEC34E37"]
+			description: [
+				"When placed upon a &3Furnace&r, &7Blast Furnace&r, or &cSmoker&r, the &2Extraneous Firestarter&r will draw in nearby &dAura&r, converting it into heat for &nsmelting&r and &ncooking&r. "
+				""
+				"While this process is much &nquicker&r than burning &0Coal&r or other combustible materials, it does come with the drawback that it can drain &dAura&r into dangerous levels. Multiple may even be installed to enhance the effect. "
+			]
+			id: "2275B3091186516E"
+			rewards: [
+				{
+					id: "515F41C8B7CEC13F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "29DBF961C68F11FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "471D81B0993E981C"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B271A33379F4E07"]
+			description: [
+				"Keeping &chostile creatures&r away from sensitive contraptions can be quite vital. The last thing anyone needs is a surprise &2Creeper&r visit. "
+				""
+				"For a miniscule upkeep cost, the &eLamp of Sanctuary&r will inhibit natural mob spawns in its area of influence, the range of which is determined by the strength of the &cRedstone&r signal it is receiving. "
+			]
+			id: "5461395B647B44BC"
+			rewards: [
+				{
+					id: "5314BEDC1A163DA7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52BEC5DCE7591C4E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A9036AA4650DCE1"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: ["When &dAura&r is drawn through this device, it causes the heat in the area to rapidly disperse, dropping localized temperatures and causing &nsnow&r and &nice&r to form. "]
+			id: "1887491F9828F66A"
+			rewards: [
+				{
+					id: "30C0758DD421D6C3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4047D05724523B69"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F466CAA2CB33490"
+				item: "naturesaura:snow_creator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C4157D9732F1F00"]
+			description: [
+				"Used in crafting several objects of power, creating &eBottled Aura&r itself is easily automated with a &3Dispenser&r. "
+				""
+				"Simply place a &6Bottle and Cork&r in the dispenser and provide a &cRedstone Pulse&r. Provided there is sufficient &dAura&r in the area, a bottle of the local &dAura&r type will be produced. "
+			]
+			id: "2F618EF3A3976CD3"
+			rewards: [
+				{
+					id: "557A2FE49341A444"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6843391FBF729E8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F4C36ECF8500535"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:overworld"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:nether"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_bottle"
+								tag: {
+									stored_type: "naturesaura:end"
+								}
+							}
+						]
+					}
+				}
+				title: "Bottled Aura"
+				type: "item"
+			}]
+			title: "&eBottled Aura"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0DA4018FAEC34E37"]
+			description: [
+				"A true marvel for anyone who’s spent any time toiling in the earth to &nextract resources&r."
+				""
+				"With &2Eir’s Token&r attached to a &etool&r, it will simply stop working rather than break at &nlow durability&r. "
+			]
+			id: "712E3B21060DB19C"
+			rewards: [
+				{
+					id: "5F08F6B4FCE8DBA1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B12535A3D5BB636"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4721EF89824DD695"
+				item: "naturesaura:break_prevention"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A7A2865AC5023C1"]
+			description: ["When held anywhere in one’s &einventory&r, the &6Ring of Last Chance&r prevents a killing blow, shattering itself rather than allow its bearer to slip off this mortal coil. "]
+			id: "127A0B252CBF60C1"
+			rewards: [
+				{
+					id: "0CEFBF7413A3E2BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DBCB3596CD6BC08"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7401EDCC5CD5093C"
+				item: "naturesaura:death_ring"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: ["Drawing &dAura&r from a worn &9Aura Cache&r or &eAura Trove&r, these staves aid in locating various objects; they can be quite useful both at home and while adventuring abroad. "]
+			hide: true
+			hide_dependency_lines: true
+			id: "0F179A3EBF0587B8"
+			rewards: [
+				{
+					id: "21FD634DDF7C08E6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A048BB6B66D12CA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "76B216E795F6C3FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:loot_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:netherite_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:cave_finder"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:light_staff"
+							}
+						]
+					}
+				}
+				title: "Staves of Power"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["623B80E29E48B9F2"]
+			description: [
+				"Quite the simple device, but powerful, nonetheless."
+				""
+				"The &aItem Distributor&r moves items from the &einventory&r above it and evenly distributes them to the inventories adjacent. "
+			]
+			id: "67EDDAD97465EEF0"
+			rewards: [
+				{
+					id: "77C89BCA39CE9DD3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4823BCDA53272AAA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4661053FF7AEF153"
+				item: "naturesaura:item_distributor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["13477EEDB1F7E316"]
+			description: [
+				"Though often thought of in terms of gases, it isn’t quite accurate. "
+				""
+				"In truth, &dAura&r has an attractive force of its own, leading it to clump into regions instead of fully dispersing. This can be exploited by creating a stronger attractive force and dragging large clumps of it from one place to another, effectively moving the &dAura&r to wherever it is needed. "
+				""
+				"The process isn’t perfect by any means, and &dAura&r will be left behind as the cart moves, reintegrating into the region. Some would even look at this as a positive, as it allows the &dAura&r to be spread out over a large area without necessarily depositing it in a single spot. "
+			]
+			id: "06BAE98B1543EBFC"
+			min_width: 300
+			rewards: [
+				{
+					id: "191DA907C417FA2B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F07AAE1209FB8A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CFFD908E1209AF5"
+				item: "naturesaura:mover_cart"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["713CA847896F563A"]
+			description: [
+				"The &6Imperceptible Builder&r assists in complicated automation tasks, taking blocks from nearby &einventories&r and placing them down. "
+				""
+				"Specify where it should place blocks by placing an example in an &aItem Frame&r on the &6Builder&r itself."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "1AE73DC4CC5A7C6F"
+			rewards: [
+				{
+					id: "43B6F367492C342D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55EA88EBA9806F68"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Constructive interference"
+			tasks: [{
+				id: "15ABF90EC87A9A88"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1AE73DC4CC5A7C6F"]
+			description: [
+				"A closed system which prevents any loss of Aura, this small device serves as an excellent timer, releasing a Redstone pulse whenever the Aura within fully evaporates and re-condenses. The more Aura, the longer this process takes."
+				""
+				"Right-Click the Aura Vaporizer with bottled Aura to define the time of the clock. Right-Click with an empty hand to retrieve whatever has been previously installed. "
+				""
+				"Each bottle of sunlight equates to one second of time. One bottle of ghosts, one minute. One bottle of darkness, one hour. "
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "59ECE9FF654CA492"
+			invisible: true
+			rewards: [
+				{
+					id: "332EF85281FB47A7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "66D5C91511D91510"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "307B82D5D8385AD7"
+				item: "naturesaura:aura_timer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["359D15F5BF7BF7F9"]
+			description: [
+				"When two &5Aura Field Creators&r are linked together, they form a destructive zone between them that rapidly breaks blocks at the cost of some &dAura&r. "
+				""
+				"To link them, simply &eright-click&r one, and then the other. Supply a &cRedstone&r signal to either of them to enable the system. They'll begin drawing &dAura&r and breaking blocks after a short delay."
+				""
+				"An &aItem Frame&r can be used to alter their behavior as well: "
+				""
+				"The &5Aura Field Creator&r will use any tool provided in the frame including any enchants or special break properties of the tool. &7Shears&r shear leaves, &3Shovels&r collect snow, &9Fortune&r and &6Silk Touch&r are respected. "
+			]
+			id: "1EA9C29C8955827D"
+			rewards: [
+				{
+					id: "3F9A24B9D1B36A8F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "139C58C0CB845DBF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Destructive interference"
+			tasks: [{
+				count: 2L
+				id: "4AF95515F94B8839"
+				item: "naturesaura:field_creator"
+				type: "item"
+			}]
+			title: "Aura Field Creators"
+			x: 6.5d
+			y: -5.5d
+		}
+	]
+	title: "&d&oNature's Aura"
+}

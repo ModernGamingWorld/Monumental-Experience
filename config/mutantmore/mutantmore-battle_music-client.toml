@@ -1,0 +1,6 @@
+#Configure Mutant More's battle music on the client side (these changes will only affect you)! The client side needs to be reloaded by pressing F3 + T for changes to take effect!
+#
+# The volume of the battle music that plays when fighting the mutants
+# usually set to 0.5
+"Battle Music Volume" = 0.5
+

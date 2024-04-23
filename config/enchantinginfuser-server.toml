@@ -1,0 +1,198 @@
+
+[advanced_infuser]
+	#Can the enchanting infuser repair items using levels in addition to enchanting.
+	allow_repairing = true
+	#Allow enchantments on an already enchanted item to be increased / removed.
+	#Allowed Values: ALL, FULL_DURABILITY, UNENCHANTED
+	allow_modifying_enchantments = "ALL"
+	#How many bookshelves you need around the infuser to be able to apply maximum level enchantments.
+	#Filling in corners is important to reach higher values.
+	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
+	#This value will be fixed at 50 when Apotheosis is installed.
+	#Range: > 0
+	maximum_bookshelves = 15
+	#Allow books to be enchanted in an infuser.
+	allow_books = true
+
+	[advanced_infuser.types]
+		#Allow curses (e.g. curse of vanishing) to be applied using the enchanting infuser.
+		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
+		allow_curses_enchantments = false
+		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
+		allow_treasure_enchantments = false
+		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
+		#This option takes precedence over other options for treasure and curse enchantments.
+		allow_untradeable_enchantments = false
+		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
+		allow_anvil_enchantments = true
+		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
+		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
+		allow_undiscoverable_enchantments = false
+
+	[advanced_infuser.repair]
+		#Cost multiplier in levels for each repair step, result will be rounded up.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		repair_step_multiplier = 2.0
+		#How many percentage points of an items total durability a single repair will restore.
+		#Range: 0.1 ~ 1.0
+		repair_percentage_step = 0.25
+
+	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
+	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
+	[advanced_infuser.costs]
+		#Base cost multiplier for each level for very rare enchantments.
+		#Range: > 1
+		very_rare_cost_multiplier = 5
+		#Double prices for enchantments normally unobtainable from enchanting tables if they are enabled (e.g. mending, soul speed) when they are enabled.
+		double_uniques = true
+		#Base cost multiplier for each level for rare enchantments.
+		#Range: > 1
+		rare_cost_multiplier = 4
+		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Range: > 1
+		maximum_cost = 20
+		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
+		scale_costs_by_vanilla_only = true
+		#Base cost multiplier for each level for uncommon enchantments.
+		#Range: > 1
+		uncommon_cost_multiplier = 3
+		#Base cost multiplier for each level for common enchantments.
+		#Range: > 1
+		common_cost_multiplier = 2
+
+	#This section allows for controlling at what percentage of the total enchanting power certain kinds of enchantments become available.
+	#With default settings e.g. the first level of a rare enchantment will be available at 40% enchanting power (controlled by "rare_multiplier", translates to 40% * 15 = 6 bookshelves), and the maximum level for that enchant will be available at 40% + 40% = 80% enchanting power (controlled by "rare_multiplier" and "rarity_range_multiplier", translates to 80% * 15 = 12 bookshelves).
+	[advanced_infuser.power]
+		#Multiplier for maximum enchanting power for when rare enchantments become available.
+		#Range: -1.0 ~ 1.0
+		rare_multiplier = 0.4
+		#Multiplier for maximum enchanting power for when untradeable enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		untradeable_multiplier = 0.9
+		#Multiplier for maximum enchanting power for how much power is required to max out an enchantment.
+		#Range: 0.0 ~ 1.0
+		rarity_range = 0.4
+		#Multiplier for maximum enchanting power for when undiscoverable enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		undiscoverable_multiplier = 0.9
+		#Multiplier for maximum enchanting power for when treasure enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		treasure_multiplier = 0.95
+		#Multiplier for maximum enchanting power for when curse enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		curse_multiplier = 1.0
+		#Multiplier for maximum enchanting power for when common enchantments become available.
+		#Range: -1.0 ~ 1.0
+		common_multiplier = -0.2
+		#Multiplier for maximum enchanting power for when very rare enchantments become available.
+		#Range: -1.0 ~ 1.0
+		very_rare_multiplier = 0.6
+		#Multiplier for maximum enchanting power for when uncommon enchantments become available.
+		#Range: -1.0 ~ 1.0
+		uncommon_multiplier = 0.2
+
+[normal_infuser]
+	#Can the enchanting infuser repair items using levels in addition to enchanting.
+	allow_repairing = false
+	#Allow enchantments on an already enchanted item to be increased / removed.
+	#Allowed Values: ALL, FULL_DURABILITY, UNENCHANTED
+	allow_modifying_enchantments = "UNENCHANTED"
+	#How many bookshelves you need around the infuser to be able to apply maximum level enchantments.
+	#Filling in corners is important to reach higher values.
+	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
+	#This value will be fixed at 50 when Apotheosis is installed.
+	#Range: > 0
+	maximum_bookshelves = 15
+	#Allow books to be enchanted in an infuser.
+	allow_books = false
+
+	[normal_infuser.types]
+		#Allow curses (e.g. curse of vanishing) to be applied using the enchanting infuser.
+		#This option takes precedence over option for treasure enchantments (as curses are also treasure enchantments internally).
+		allow_curses_enchantments = false
+		#Allow treasure enchantments (e.g. mending) to be applied using the enchanting infuser.
+		allow_treasure_enchantments = false
+		#Allow untradeable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
+		#This option takes precedence over other options for treasure and curse enchantments.
+		allow_untradeable_enchantments = false
+		#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
+		allow_anvil_enchantments = false
+		#Allow undiscoverable enchantments (e.g. soul speed) to be applied using the enchanting infuser.
+		#This option takes precedence over other options for treasure, curse and tradeable enchantments.
+		allow_undiscoverable_enchantments = false
+
+	[normal_infuser.repair]
+		#Cost multiplier in levels for each repair step, result will be rounded up.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		repair_step_multiplier = 2.0
+		#How many percentage points of an items total durability a single repair will restore.
+		#Range: 0.1 ~ 1.0
+		repair_percentage_step = 0.25
+
+	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
+	#Cost multipliers mainly control how this maximum cost will be spread out between enchantments of different rarities.
+	[normal_infuser.costs]
+		#Base cost multiplier for each level for very rare enchantments.
+		#Range: > 1
+		very_rare_cost_multiplier = 5
+		#Double prices for enchantments normally unobtainable from enchanting tables if they are enabled (e.g. mending, soul speed) when they are enabled.
+		double_uniques = true
+		#Base cost multiplier for each level for rare enchantments.
+		#Range: > 1
+		rare_cost_multiplier = 4
+		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
+		#Range: > 1
+		maximum_cost = 30
+		#When scaling costs, only account for vanilla enchantments. Otherwise enchanting costs will become ludicrously cheap with many modded enchantments present.
+		scale_costs_by_vanilla_only = true
+		#Base cost multiplier for each level for uncommon enchantments.
+		#Range: > 1
+		uncommon_cost_multiplier = 3
+		#Base cost multiplier for each level for common enchantments.
+		#Range: > 1
+		common_cost_multiplier = 2
+
+	#This section allows for controlling at what percentage of the total enchanting power certain kinds of enchantments become available.
+	#With default settings e.g. the first level of a rare enchantment will be available at 40% enchanting power (controlled by "rare_multiplier", translates to 40% * 15 = 6 bookshelves), and the maximum level for that enchant will be available at 40% + 40% = 80% enchanting power (controlled by "rare_multiplier" and "rarity_range_multiplier", translates to 80% * 15 = 12 bookshelves).
+	[normal_infuser.power]
+		#Multiplier for maximum enchanting power for when rare enchantments become available.
+		#Range: -1.0 ~ 1.0
+		rare_multiplier = 0.4
+		#Multiplier for maximum enchanting power for when untradeable enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		untradeable_multiplier = 0.9
+		#Multiplier for maximum enchanting power for how much power is required to max out an enchantment.
+		#Range: 0.0 ~ 1.0
+		rarity_range = 0.4
+		#Multiplier for maximum enchanting power for when undiscoverable enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		undiscoverable_multiplier = 0.9
+		#Multiplier for maximum enchanting power for when treasure enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		treasure_multiplier = 0.95
+		#Multiplier for maximum enchanting power for when curse enchantments become available.
+		#They also need to be enabled in the "types" config.
+		#Range: 0.0 ~ 1.0
+		curse_multiplier = 1.0
+		#Multiplier for maximum enchanting power for when common enchantments become available.
+		#Range: -1.0 ~ 1.0
+		common_multiplier = -0.2
+		#Multiplier for maximum enchanting power for when very rare enchantments become available.
+		#Range: -1.0 ~ 1.0
+		very_rare_multiplier = 0.6
+		#Multiplier for maximum enchanting power for when uncommon enchantments become available.
+		#Range: -1.0 ~ 1.0
+		uncommon_multiplier = 0.2
+
+[integration]
+	#Enable compat for Apotheosis if it is installed. Allows for using the full range of changes Apotheosis applies to vanilla enchantments.
+	#Should only really be disabled if compat breaks due to internal changes.
+	apotheosis = true
+

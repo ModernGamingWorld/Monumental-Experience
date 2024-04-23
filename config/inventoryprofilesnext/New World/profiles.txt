@@ -1,0 +1,44 @@
+
+
+
+
+profile Saved activate HOT4
+	HOT1
+		"eccentrictome:tome"
+	HOT2
+		"primitivestart:bone_sword"
+	HOT3
+		"patchouli:guide_book"
+	HOT5
+		"irons_spellbooks:inscription_table"
+	HOT9
+		"enigmaticlegacy:enigmatic_amulet"
+	HEAD
+		"minecraft:leather_helmet" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:1}]
+	CHEST
+		"minecraft:leather_chestplate" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:1}]
+	LEGS
+		"minecraft:leather_leggings" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:1}]
+	FEET
+		"minecraft:leather_boots" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:1}]
+
+profile Saved activate HOT4
+	HOT1
+		"eccentrictome:tome"
+	HOT2
+		"primitivestart:bone_sword"
+	HOT3
+		"patchouli:guide_book"
+	HOT5
+		"irons_spellbooks:inscription_table"
+	HOT9
+		"enigmaticlegacy:enigmatic_amulet"
+	HEAD
+		"minecraft:leather_helmet" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:10}]
+	CHEST
+		"minecraft:leather_chestplate" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:10}]
+	LEGS
+		"minecraft:leather_leggings" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:10}]
+	FEET
+		"minecraft:leather_boots" -> "Enchantments" : [{id:"ensorcellation:soulbound",lvl:10}]
+

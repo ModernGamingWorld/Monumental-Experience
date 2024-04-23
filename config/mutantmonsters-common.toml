@@ -1,0 +1,16 @@
+#When infested with a Mutant X potion, what mutant mob should the target transform into. Otherwise the target will ony explode and take damage.
+#Format for every entry is "<namespace>:<path>,<namespace>:<path>" with the second id representing the mutant. Namespace may be omitted to use "minecraft" by default.
+mutant_x_conversions = ["minecraft:creeper,mutantmonsters:mutant_creeper", "minecraft:enderman,mutantmonsters:mutant_enderman", "minecraft:skeleton,mutantmonsters:mutant_skeleton", "minecraft:snow_golem,mutantmonsters:mutant_snow_golem", "minecraft:zombie,mutantmonsters:mutant_zombie", "minecraft:pig,mutantmonsters:spider_pig"]
+#Weight for mutant creeper spawns as a percentage of the vanilla creeper spawn weight. Mutants can spawn in every biome and dimension where their vanilla counterparts can be found.
+#Range: 0.0 ~ 1.0
+mutant_creeper_spawn_weight = 0.05
+#Weight for mutant enderman spawns as a percentage of the vanilla enderman spawn weight. Mutants can spawn in every biome and dimension where their vanilla counterparts can be found.
+#Range: 0.0 ~ 1.0
+mutant_enderman_spawn_weight = 0.05
+#Weight for mutant skeleton spawns as a percentage of the vanilla skeleton spawn weight. Mutants can spawn in every biome and dimension where their vanilla counterparts can be found.
+#Range: 0.0 ~ 1.0
+mutant_skeleton_spawn_weight = 0.05
+#Weight for mutant zombie spawns as a percentage of the vanilla zombie spawn weight. Mutants can spawn in every biome and dimension where their vanilla counterparts can be found.
+#Range: 0.0 ~ 1.0
+mutant_zombie_spawn_weight = 0.05
+

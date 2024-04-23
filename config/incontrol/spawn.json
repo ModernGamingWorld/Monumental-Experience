@@ -1,0 +1,18 @@
+[
+	{
+		"mob": [
+            "minecraft:iron_golem",
+            "guardvillagers:guard"
+        ],
+		"onjoin": "true",
+		"healthmultiply": 3,
+		"damagemultiply": 2.5
+	},
+    {
+        "dimension": "twilightforest:twilightforest",
+        "mod": [
+          "ars_nouveau"
+        ],
+        "result": "deny"
+    }
+]

@@ -1,0 +1,372 @@
+
+#Configure Mutant More's Mutant Wither Skeleton on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+# 
+# Stat Options:
+[stat_config]
+	#
+	# The amount of Experience dropped by the Mutant Wither Skeleton when it dies
+	# usually set to 40
+	"Experience Reward" = 40
+	#
+	# The Mutant Wither Skeleton's max health
+	# usually set to 170
+	"Max Health" = 170.0
+	#
+	# The Mutant Wither Skeleton's movement speed
+	# usually set to 0.27
+	"Movement Speed" = 0.27
+	#
+	# The amount that the Mutant Wither Skeleton's movement speed is decreased when it ducks to fit into smaller spaces
+	# usually set to 0.05
+	"Ducking Movement Speed Decrease" = 0.05
+	#
+	# The Mutant Wither Skeleton's resistance to attack knockback
+	# usually set to 1.0 (no knockback)
+	"Knockback Resistance" = 1.0
+	#
+	# The Mutant Wither Skeleton's armour value
+	# usually set to 5.0
+	Armour = 5.0
+	#
+	# The Mutant Wither Skeleton's armour toughness value
+	# usually set to 0.0
+	"Armour Toughness" = 0.0
+	#
+	# The distance that the Mutant Wither Skeleton can target players from
+	# usually set to 64.0
+	"Follow Player Distance" = 64.0
+	#
+	# The distance that the Mutant Wither Skeleton can target non-player entities from
+	# usually set to 15.0
+	"Follow Non-Player Distance" = 15.0
+	#
+	# The extra knockback that the Mutant Wither Skeleton's attacks can cause
+	# usually set to 0
+	"Attack Knockback" = 0.0
+	#
+	# The damage that the Mutant Wither Skeleton's basic attacks deal
+	# usually set to 8.0
+	"Basic Attack Damage" = 8.0
+	#
+	# The area around the Mutant Wither Skeleton's strong attack's point of impact (the Mutant Wither Skeleton's target) that other mobs can be caught in the attack
+	# usually set to 1.0 blocks
+	"Strong Attack Area" = 1.0
+	#
+	# The damage that the Mutant Wither Skeleton's strong attacks deal
+	# usually set to 16.0
+	"Strong Attack Damage" = 16.0
+	#
+	# The damage that the Mutant Wither Skeleton deals to mobs caught in the area of its strong attack
+	# usually set to 8.0
+	"Strong Attack Area Damage" = 8.0
+	#
+	# The damage that the Mutant Wither Skeleton's Rib Crush attack deals
+	# usually set to 12.0
+	"Rib Crush Damage" = 12.0
+	#
+	# The damage that the Mutant Wither Skeleton's Fire Slashes deal
+	# usually set to 7.5
+	"Fire Slash Damage" = 7.5
+	#
+	# If the Mutant Wither Skeleton's attacks ignore the brief invulnerability mobs get when damaged
+	# Makes sure the Mutant Wither Skeleton's attacks always hit when they're supposed to
+	# usually set to true
+	"Ignores Invulnerability Time" = true
+	#
+	# The amount of health the Mutant Wither Skeleton obtains when successfully damaging its target using its basic attack
+	# usually set to 3.0
+	"Basic Attack Leech Health Amount" = 3.0
+	#
+	# The amount of health the Mutant Wither Skeleton obtains when successfully damaging its target using its strong attack
+	# usually set to 6.0
+	"Strong Attack Leech Health Amount" = 6.0
+	#
+	# The amount of health the Mutant Wither Skeleton obtains when successfully damaging its target using its Rib Crush attack
+	# usually set to 12.0
+	"Rib Crush Leech Health Amount" = 12.0
+	#
+	# The amount of time in seconds that the Mutant Wither Skeleton sets its target on fire for when successfully damaging them using its strong attack
+	# usually set to 2 seconds
+	"Strong Attack Set Mob On Fire Length" = 2
+	#
+	# The amount of time in seconds that the Mutant Wither Skeleton sets its target on fire for if they block its strong attack using a Shield
+	# usually set to 1 second
+	"Strong Attack Blocked Set Mob On Fire Length" = 1
+	#
+	# The amount of time in seconds that the Mutant Wither Skeleton sets mobs caught in the area of its strong attack on fire for
+	# usually set to 1 second
+	"Strong Attack Area Set Mob On Fire Length" = 1
+	#
+	# The amount of time in seconds that the Mutant Wither Skeleton sets mobs caught in the area of its strong attack on fire for if they block the attack using a Shield
+	# usually set to 0 seconds
+	"Strong Attack Area Blocked Set Mob On Fire Length" = 0
+	#
+	# The amount of time in seconds that the Mutant Wither Skeleton sets nearby mobs on fire for when landing near them after leaping out of lava
+	# usually set to 2 seconds
+	"Lava Jump Set Mob On Fire Length" = 2
+	#
+	# The amount of time in seconds that mobs are set on fire for when hit by the Mutant Wither Skeleton's Fire Slash
+	# usually set to 5 seconds
+	"Fire Slash Set Mob On Fire Length" = 5
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers its target for when successfully damaging them using its basic attack
+	# usually set to 120 ticks (6 seconds)
+	"Basic Attack Wither Mobs Length" = 120
+	#
+	# The level of the Wither effect applied to the Mutant Wither Skeleton's target when successfully damaging them using its basic attack
+	# usually set to 1 (Wither 2)
+	"Basic Attack Wither Mobs Level" = 1
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers its target for when successfully damaging them using its strong attack
+	# usually set to 120 ticks (6 seconds)
+	"Strong Attack Wither Mobs Length" = 120
+	#
+	# The level of the Wither effect applied to the Mutant Wither Skeleton's target when successfully damaging them using its strong attack
+	# usually set to 1 (Wither 2)
+	"Strong Attack Wither Mobs Level" = 1
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers its target for if they block its strong attack using a Shield
+	# usually set to 60 ticks (3 seconds)
+	"Strong Attack Blocked Wither Mobs Length" = 60
+	#
+	# The level of the Wither effect applied to the Mutant Wither Skeleton's target if they block its strong attack using a Shield
+	# usually set to 0 (Wither 1)
+	"Strong Attack Blocked Wither Mobs Level" = 0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers mobs caught in the area of its strong attack for
+	# usually set to 80 ticks (4 seconds)
+	"Strong Attack Area Wither Mobs Length" = 80
+	#
+	# The level of the Wither effect applied to mobs caught in the area of the Mutant Wither Skeleton's strong attack
+	# usually set to 0 (Wither 1)
+	"Strong Attack Area Wither Mobs Level" = 0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers mobs caught in the area of its strong attack for if they block the attack attack using a Shield
+	# usually set to 40 ticks (2 seconds)
+	"Strong Attack Area Blocked Wither Mobs Length" = 40
+	#
+	# The level of the Wither effect applied to mobs caught in the area of The Mutant Wither Skeleton's strong attack if they block the attack using a Shield
+	# usually set to 0 (Wither 1)
+	"Strong Attack Area Blocked Wither Mobs Level" = 0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers its target for when successfully damaging them using its Rib Crush attack
+	# usually set to 100 ticks (5 seconds)
+	"Rib Crush Wither Mobs Length" = 100
+	#
+	# The level of the Wither effect applied to the Mutant Wither Skeleton's target when successfully damaging them using its Rib Crush attack
+	# usually set to 1 (Wither 2)
+	"Rib Crush Wither Mobs Level" = 1
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton withers its target for if they block its Rib Crush attack using a Shield
+	# usually set to 50 ticks (2.5 seconds)
+	"Rib Crush Blocked Wither Mobs Length" = 50
+	#
+	# The level of the Wither effect applied to the Mutant Wither Skeleton's target if they block its Rib Crush attack using a Shield
+	# usually set to 0 (Wither 1)
+	"Rib Crush Blocked Wither Mobs Level" = 0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton disables its target's Shield for if they block its strong attack
+	# usually set to 150 ticks (7.5 seconds)
+	"Strong Attack Disable Shield Length" = 150
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton disables its target's Shield for if they block its Rib Crush attack
+	# usually set to 120 ticks (5 seconds)
+	"Rib Crush Disable Shield Length" = 120
+	#
+	# If the Mutant Wither Skeleton can walk on lava, helps with pathfinding
+	# usually set to true
+	"Walks on Lava" = true
+	#
+	# The amount of time in ticks (20 ticks in a second) that the Mutant Wither Skeleton get stunned for after jumping into a block
+	# usually set to 50 ticks (2.5 seconds)
+	"Stun Length" = 50
+
+#
+# 
+# AI Options:
+[ai_config]
+	#
+	# If the Mutant Wither Skeleton uses its basic and strong attacks
+	# usually set to true
+	"Uses Default Attack" = true
+	#
+	# If the Mutant Wither Skeleton uses its rib crush attack
+	# usually set to true
+	"Uses Rib Crush" = true
+	#
+	# If the Mutant Wither Skeleton uses its fire slash attack
+	# usually set to true
+	"Uses Fire Slash" = true
+	#
+	# If the Mutant Wither Skeleton uses its jump ability
+	# usually set to true
+	"Uses Jump" = true
+	#
+	# If the Mutant Wither Skeleton attacks players
+	# usually set to true
+	"Attacks Players" = true
+	#
+	# If the Mutant Wither Skeleton attacks Baby Turtles like the regular Wither Skeleton does
+	# usually set to true
+	"Attacks Baby Turtles" = true
+	#
+	# The amount that the Mutant Wither Skeleton's movement speed is multiplied when it's pursuing a target
+	# usually set to 1.5
+	"Following Movement Speed Multiplier" = 1.5
+	#
+	# The distance to its target that the Mutant Wither Skeleton tries to reach
+	# usually set to 0.0
+	"Follow Target Wanted Distance" = 0.0
+	#
+	# The minimum distance from its target that the Mutant Wither Skeleton must be to perform a close jump
+	# usually set to 12.5
+	"Close Jump Distance" = 12.5
+	#
+	# The chance every tick (20 ticks in a second) that the Mutant Wither Skeleton will perform a close jump if it isn't currently using another attack
+	# usually set to 1 in 80
+	"Close Jump Chance" = 80
+	#
+	# The minimum distance from its target that the Mutant Wither Skeleton must be to perform a far jump
+	# usually set to 40.0
+	"Far Jump Distance" = 40.0
+	#
+	# The chance every tick (20 ticks in a second) that the Mutant Wither Skeleton will perform a far jump if it isn't currently using another attack
+	# usually set to 1 in 1
+	"Far Jump Chance" = 1
+	#
+	# The chance every tick (20 ticks in a second) that the Mutant Wither Skeleton will perform a jump if the conditions for a close or far jump aren't met and it isn't currently using another attack
+	# usually set to 1 in 10
+	"Medium Jump Chance" = 10
+	#
+	# The minimum distance from its target that the Mutant Wither Skeleton can be to perform its jump ability
+	# usually set to 5.0
+	"Minimum Jump Distance" = 5.0
+	#
+	# The minimum distance from its target that the Mutant Wither Skeleton can be to use its fire slash attack
+	# usually set to 7.5
+	"Minimum Fire Slash Distance" = 7.5
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to use its fire slash attack
+	# usually set to 100.0
+	"Maximum Fire Slash Distance" = 100.0
+	#
+	# The maximum vertical distance from its target that the Mutant Wither Skeleton can be to use its fire slash attack
+	# usually set to 7.0
+	"Maximum Fire Slash Y Distance" = 7.0
+	#
+	# The chance every tick (20 ticks in a second) that the Mutant Wither Skeleton will use its fire slash attack if it isn't currently using another attack
+	# usually set to 1 in 30
+	"Fire Slash Chance" = 30
+	#
+	# The chance in percent every tick (20 ticks in a second) that the Mutant Wither Skeleton will use its rib crush attack if it isn't currently using another attack
+	# usually set to 50%
+	"Rib Crush Chance" = 50
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to use its rib crush attack
+	# usually set to 3.0
+	"Maximum Rib Crush Distance" = 3.0
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to damage them using its rib crush attack
+	# usually set to 5.0
+	"Maximum Rib Crush Damage Distance" = 5.0
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to use its basic or strong attacks
+	# usually set to 4.0
+	"Maximum Default Attack Distance" = 4.0
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to damage them using its basic attack
+	# usually set to 5.0
+	"Maximum Basic Attack Damage Distance" = 5.0
+	#
+	# The maximum distance from its target that the Mutant Wither Skeleton can be to damage them using its strong attack
+	# usually set to 5.0
+	"Maximum Strong Attack Damage Distance" = 5.0
+	#
+	# The chance in percent that the Mutant Wither Skeleton will use its strong attack instead of its basic attack
+	# usually set to 25%
+	"Strong Attack Chance" = 25
+
+#
+# 
+# Death Options:
+[death_config]
+	#
+	# If the Mutant Wither Skeleton explodes into its parts upon death
+	# setting to false will make it drop the loot from loot table data/mutantmore/loot_tables/entities/mutant_wither_skeleton_parts in addition to its regular loot
+	# usually set to true
+	"Explode Into Parts" = true
+	#
+	# If the parts the Mutant Wither Skeleton explodes into upon death have a glowing effect, making them easier to find, lowers immersion
+	# usually set to false
+	"Parts Glow" = false
+	#
+	# The damage that the parts the Mutant Wither Skeleton explodes into upon death deal when colliding with an entity
+	# usually set to 6.0
+	"Part Collision Damage" = 6.0
+	#
+	# The amount of time in ticks (20 ticks in a second) that the parts the Mutant Wither Skeleton explodes into upon death wither mobs they collide with for
+	# usually set to 150 ticks (7.5 seconds)
+	"Part Collision Wither Mobs Length" = 150
+	#
+	# The level of the Wither effect applied to any mobs the parts the Mutant Wither Skeleton explodes into upon death collide with
+	# usually set to 1 (Wither 2)
+	"Part Collision Wither Mobs Level" = 1
+	#
+	# The amount of time in ticks (20 ticks in a second) that the parts the Mutant Wither Skeleton explodes into upon death persist for before despawning
+	# usually set to 6000 ticks (5 minutes)
+	"Part Persist Length" = 6000
+
+#
+# 
+# Griefing Options:
+[griefing_config]
+	#
+	# If the Mutant Wither Skeleton breaks certain types of blocks it walks into, helps with pathfinding
+	# usually set to true
+	"Walk Griefing" = true
+	#
+	# If blocks the Mutant Wither Skeleton breaks by walking drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Walk Griefing Drops Blocks" = false
+	#
+	# If the Mutant Wither Skeleton breaks blocks it leaps into, helps prevent cheesing
+	# usually set to true
+	"Jump Griefing" = true
+	#
+	# If the Mutant Wither Skeleton breaks only one layer of blocks that it jumps into, setting to false will make the Mutant Wither Skeleton break all blocks it jumps into
+	# usually set to true
+	"Jump Breaks Once" = true
+	#
+	# If blocks the Mutant Wither Skeleton breaks by leaping drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Jump Griefing Drops Blocks" = false
+	#
+	# If the Mutant Wither Skeleton's Fire Slashes set blocks they collide with on fire
+	# usually set to true
+	"Fire Slash Griefing" = true
+	#
+	# If the Mutant Wither Skeleton breaks blocks around it after getting hurt, similarly to the Wither, helps prevent cheesing
+	# usually set to true
+	"Hurt Griefing" = true
+	#
+	# If blocks the Mutant Wither Skeleton breaks after getting hurt drop themselves as items, allowing them to be recovered, impacts performance
+	# usually set to false
+	"Hurt Griefing Drops Blocks" = true
+
+#
+# 
+# Spawn Options:
+[spawn_config]
+	#
+	# If the Mutant Wither Skeleton naturally despawnsNot recommended unless Spawns Naturally is set to true
+	# usually set to false
+	Despawns = false
+	#
+	# If a Wither Skeleton has a chance to be replaced by a Mutant Wither Skeleton when spawning
+	# usually set to false
+	"Spawns Naturally" = false
+	#
+	# How often a Wither Skeleton is replaced by a Mutant Wither Skeleton when spawning
+	# usually set to 1 in 100
+	"Natural Spawn Chance" = 100
+

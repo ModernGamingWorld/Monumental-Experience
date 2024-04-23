@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "worm_portals"
+	group: "69B9F7247002FE35"
+	icon: "wormhole:portal_frame"
+	id: "07F4CB7A9E18FF7D"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "243FE6DE4B32FE14"
+			rewards: [
+				{
+					id: "56710A274D894E82"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C3ABCF3D51FE782"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3B7CA0E977EB0BA1"
+				item: "wormhole:portal_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "33A0B100143D7823"
+			rewards: [
+				{
+					id: "727757E5AE8424FF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "314793D9733F0D97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3A1120D59B898D89"
+				item: {
+					Count: 1b
+					id: "wormhole:portal_stabilizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6328D16D9CCAEBA1"
+			rewards: [
+				{
+					id: "1D4F4F2A8CFD38E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34F73834A80B93A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7EFAA851AD30462F"
+				item: {
+					Count: 1b
+					id: "wormhole:basic_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6328D16D9CCAEBA1"]
+			id: "64189C0449703942"
+			rewards: [
+				{
+					id: "5AF0F80BEC60C062"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "253445A091AFB9DF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5A23DB4827DE770B"
+				item: {
+					Count: 1b
+					id: "wormhole:advanced_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64189C0449703942"]
+			id: "1B4A1A2ED45E15A7"
+			rewards: [
+				{
+					id: "74A6B747B917157E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D96137867CBAF7F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7DBAFD8B201A942D"
+				item: {
+					Count: 1b
+					id: "wormhole:creative_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.25d
+		}
+		{
+			id: "0A43A668C392EDC0"
+			rewards: [
+				{
+					id: "2D893EF9F75A20E8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2513F6D7E3CEC3D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "280450A472D97C1D"
+				item: {
+					Count: 1b
+					id: "wormhole:basic_target_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A43A668C392EDC0"]
+			id: "4C0C96DF07A64D5F"
+			rewards: [
+				{
+					id: "1850AC68D2B611BB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01AFEA7A5A2F4640"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "11CEFDA2719C2E8E"
+				item: {
+					Count: 1b
+					id: "wormhole:advanced_target_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "290ADE56D0EB2FE6"
+			rewards: [
+				{
+					id: "75D217255AC6505C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E842848DB727B2E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0B3AF80CD0A1D234"
+				item: {
+					Count: 1b
+					id: "wormhole:coal_generator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "3D8093D30EDE3A76"
+			rewards: [
+				{
+					id: "68A5964474B783C2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1708BC8CDA3AF95C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "71FE82A1B6DFC8F3"
+				item: {
+					Count: 1b
+					id: "wormhole:target_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D8093D30EDE3A76"]
+			id: "3E0548E49138C47C"
+			rewards: [
+				{
+					id: "107189D71224B12E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1CED77CC3608A92E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "10CFC77064A2F3A3"
+				item: {
+					Count: 1b
+					id: "wormhole:advanced_target_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+	]
+	title: "&2&oWorm Portals"
+}

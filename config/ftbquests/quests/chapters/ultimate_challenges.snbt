@@ -1,0 +1,724 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate_challenges"
+	group: "2969F58CC6EA9A10"
+	icon: "reliquary:infernal_chalice"
+	id: "77BF0D1882072338"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/uc.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			height: 2.5d
+			image: "kubejs:textures/item/sf.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/cube.png"
+			rotation: 48.0d
+			width: 1.0d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/cube.png"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 4.951612903225807d
+			y: -9.353046594982079d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -3.0d
+			y: -9.38928571428572d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/jailors_scythe.png"
+				}
+			}
+			id: "0C8BB19B42305267"
+			rewards: [
+				{
+					id: "7A4FA7FD49FA8514"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6A5EDE2270962971"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "755114C9AA475F30"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "eidolon:deathbringer_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5FE6CF4715CD753A"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 6900000
+			}]
+			title: "&cSince Last Death"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "7D8DD102700A5C97"
+			rewards: [
+				{
+					id: "4F211D24050F83EE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 100
+					id: "3E3C41216A0803E6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "00977D7DD83E02E0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1EDDB4E02C6B5DEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: "supplementaries:clock_block"
+				id: "5710C05DA1B84695"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 5900000
+			}]
+			title: "&bTime Played"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/royal_guard_helmet.png"
+				}
+			}
+			id: "76ECAE980254D515"
+			rewards: [
+				{
+					id: "2EAB0B088C3DAF20"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					count: 100
+					id: "3F75B7EDBB052BF0"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "076F11437DF37251"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "713C2D16F14C1F2C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "Kill them all!"
+			tasks: [{
+				icon: "apotheosis:boss_summoner"
+				id: "16DCBE2E107303B6"
+				stat: "minecraft:mob_kills"
+				title: "Kill: 1,000,000 Mobs"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "&8Thor's Justice"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/steak.png"
+				}
+			}
+			id: "4641D535199C5F8B"
+			rewards: [
+				{
+					id: "622597B018738240"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					count: 100
+					id: "236E3BAE8BCA68B2"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "3BCE146BCB7BC676"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2683BE3DB7C39C33"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "1 million steaks waiting to be grilled"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "57BA1BF3724BDAF9"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "&6King of the Grill"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "36901054929FE3EF"
+			rewards: [
+				{
+					id: "46E0F5F0A3CAAF5F"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "2E1D2C664E67CB91"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "664851F8CC02C1E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Spend 1 million of diamonds to benefit poor"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "79ACBA57DC39394B"
+				item: "minecraft:diamond"
+				title: "1,000,000 Diamonds"
+				type: "item"
+			}]
+			title: "&1Robin Hood"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "0B6FE364D1DADE22"
+			rewards: [
+				{
+					id: "288D185D5D66CD53"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "1BE7F455E84B8029"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "51A588BEF4F2984C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "cyclic:heart"
+				id: "70828AFB26CF8F6D"
+				stat: "minecraft:animals_bred"
+				title: "Bred: 1,500 Animals"
+				type: "stat"
+				value: 1500
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "7B44968F569EEE16"
+			rewards: [
+				{
+					id: "56D0A4DC072A96A8"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					id: "6A20EFE08877F1F9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "27CF47581CADF443"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "ars_nouveau:glyph_craft"
+				id: "632CDBDBB8ACE278"
+				stat: "minecraft:interact_with_crafting_table"
+				title: "Craft: 10K items"
+				type: "stat"
+				value: 10000
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/with_er.png"
+				}
+			}
+			id: "4749F46F794687BF"
+			rewards: [
+				{
+					id: "507CED276FDCE997"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 100
+					id: "366B35D4389818CF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6A879618C3764B68"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "35CB7D64307C62D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "51E2C4E17C4B629C"
+				title: "Kill: 100x Wither"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "7D5BEA03255E69F2"
+			rewards: [
+				{
+					id: "2F8B899B01E3E45D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "29B73C32B6168D11"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "01CF91B5428F65E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/villhead.png"
+					}
+				}
+				id: "261F33F4A4A3A3ED"
+				stat: "minecraft:traded_with_villager"
+				title: "Make: 1,000 trades with Villagers"
+				type: "stat"
+				value: 1000
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "4E04E3C10F2CBF85"
+			rewards: [
+				{
+					id: "25BB5518362721AA"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "26B6FE8F5650AF12"
+					item: "extradisks:infinite_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "4BBB68B31F72AC23"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6DD05232EE560A46"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFE33E5A9F78A10"
+				points: false
+				title: "XP Levels: &c3,000"
+				type: "xp"
+				value: 3000L
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "2437D9BEC5AC8736"
+			rewards: [
+				{
+					id: "0F0F41C6C3CBFB4D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4689BBFC58A0F4AC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7EA4166F923B21FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1500L
+				id: "37C3FAEBE72C5EDD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "upgrade_aquatic:tube_fans_corals"
+					}
+				}
+				title: "Collect: 1,500x Corals"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "37B5AB03011BEAC2"
+			rewards: [
+				{
+					id: "20A48D4845CD886C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "361D19870CDA15F2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2005089ECAA2F868"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "0F332AE1241A512A"
+				stat: "minecraft:sleep_in_bed"
+				title: "Sleep: 3,000x in your bed"
+				type: "stat"
+				value: 3000
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "1FD5C5128D418042"
+			rewards: [
+				{
+					id: "4B8DC26DF9C40BA5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2DDEAA2306575B31"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5537443390993DEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "5C69AE6392056334"
+				stat: "minecraft:play_record"
+				title: "Play: 1,000 Music Discs"
+				type: "stat"
+				value: 1000
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "410C1A5F6FA99764"
+			rewards: [
+				{
+					id: "48ACDC6C1C05C394"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					id: "0DB54BE32CE3CA4C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "49847686E46171F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "aquaculture:goldfish"
+				id: "14B3C291F47A3E72"
+				stat: "minecraft:fish_caught"
+				title: "Catch: 1,500x Fish"
+				type: "stat"
+				value: 1500
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "5D9E10F27EEAF2A1"
+			rewards: [
+				{
+					id: "45251A8BF2C484D5"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					count: 300
+					id: "0A70172FF12A05A5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "48A7BCD47DB25618"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56770DA6C56496CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "254016BCA59CF17A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:enchanting_table"
+				id: "2C3910CD1178E3CC"
+				stat: "minecraft:enchant_item"
+				title: "Enchant: 500x Items"
+				type: "stat"
+				value: 500
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/lava_bar.png"
+				}
+			}
+			id: "48AAA21C2214AED4"
+			rewards: [
+				{
+					id: "06C4E0C62EF632E9"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "2CF847BB7C092B9F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "71275FDFC696412E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hot Stuff"
+			tasks: [{
+				amount: 1000000000L
+				fluid: "minecraft:lava"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/lava_bar.png"
+					}
+				}
+				id: "014040012F86D797"
+				title: "1,000,000 Buckets of Lava"
+				type: "fluid"
+			}]
+			title: "&4The Smeltery"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/energie_bar.png"
+				}
+			}
+			id: "51F42BF270D6F54D"
+			rewards: [
+				{
+					id: "0850077C401F05A5"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "28D2D3B2AE3BCE59"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "291D844050BFF4D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Cool, eh?"
+			tasks: [{
+				id: "4D8588BE28BFAE5C"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			title: "&5All That Power"
+			x: 5.0d
+			y: -6.0d
+		}
+	]
+	title: "&4&oUltimate Challenges"
+}

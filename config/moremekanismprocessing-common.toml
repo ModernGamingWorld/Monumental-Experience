@@ -1,0 +1,186 @@
+
+[general]
+	#true : show all recipes
+	#false : hide ore not exist recipes (can hide recipes when some mod not installed)
+	showOreNotExistRecipes = true
+
+#processingLevel : set ores processing max level
+#    5 : can into up x5 (able all procssing)
+#    4 : can into up x4 (disable ore dissolution, slurry crystalizing)
+#    3 : can into up x3 (disable injecting)
+#    2 : can into up x2 (disable purifying and clumps crushing)
+#    1 : reserved (currently same with 0)
+#    0 : disable all processing in this mod
+#disabled processing items are hided your world
+[ores]
+
+	[ores.aluminum]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.amethyst]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.apatite]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.azure_silver]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.bismuth]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.bort]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.cinnabar]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.cobalt]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.crimson_iron]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.desh]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.dilithium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.draconium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.electrotine]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.green_sapphire]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.iridium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.lithium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.nickel]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.niter]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.peridot]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.platinum]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.ruby]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.sapphire]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.ostrum]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.calorite]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.silver]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.sulfur]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.titanium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.tungsten]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.zinc]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.coal]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/coal"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+
+	[ores.lapis]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/lapis"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+
+	[ores.diamond]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/diamond"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+
+	[ores.redstone]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/redstone"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+
+	[ores.emerald]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/emerald"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+
+	[ores.quartz]
+		#exist for modpacks, set greater than 2 to enable this material recipes
+		#less than or equals 2 is use Mekanism Default Recipes
+		#    warning : when enabled, ore block can infinitely regenerate using Mekanism Combiner Default Recipe
+		#    propose remove/override Mekanism Combiner Default Recipe
+		#    e.g.) "ingredient":{"tag":"forge:dusts/quartz"}},"amount":8
+		#Range: 0 ~ 5
+		processingLevel = 0
+

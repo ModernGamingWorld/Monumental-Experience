@@ -1,0 +1,1015 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "lets_begin_the_adventure"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "enchantwithmob:mob_enchant_book"
+		tag: {
+			Damage: 0
+			StoredMobEnchants: [{
+				EnchantLevel: 4
+				MobEnchant: "enchantwithmob:protection"
+			}]
+		}
+	}
+	id: "59FB9740D5BFC784"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -4.535714285714285d
+			y: -1.1607142857142847d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/item/steve.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/apples.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/item/myhouse.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 2.4d
+			image: "kubejs:textures/item/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			click: "https://bisecthosting.com/ModernGamingWorld"
+			height: 4.614035087719299d
+			image: "kubejs:textures/item/bh_me_bhpromo.png"
+			rotation: 0.0d
+			width: 7.514285714285715d
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			click: "https://www.patreon.com/ModernGamingWorld"
+			height: 1.0d
+			image: "kubejs:textures/item/pateron.png"
+			rotation: 0.0d
+			width: 0.9133333333333333d
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			click: "https://ko-fi.com/moderngamingworld"
+			height: 1.0d
+			image: "kubejs:textures/item/kofi_s_logo_nolabel.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &6Monumental Experience&r!"
+				""
+				"Here begins your  &aJourney&r/&0Nightmare&r."
+				""
+				"Good luck and have fun."
+			]
+			icon: "moblassos:contract"
+			id: "31F65F523E4DB7A7"
+			min_width: 300
+			rewards: [
+				{
+					id: "606605B9AC331B84"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48FD1CA9048F791D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&oSing the contract to start the &b&oQuests"
+			tasks: [{
+				icon: "villagertools:contract"
+				id: "071125FC42EBEAB9"
+				title: "Sign the contract"
+				type: "checkmark"
+			}]
+			title: "&c&nWelcome brave warrior of fate!"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Ops, did I forget to meant that the crafting recipe is &o&cchanged&r, didn't I?"
+				""
+				"&bHOW&r in the world should I get a &9Crafting Table&r!?"
+				""
+				"It's not as complicated as it sounds, just follow these steps:"
+				"&o&b1&r) You'll need quite a few &3Sticks&r. To get sticks... yeah... punch some &aLeaves&r."
+				"&o&b2&r) With &o&b4&r sticks you'll be able to craft &eImprovised Planks&r."
+				"&o&b3&r) Use those planks to make a &2Oak Log&r."
+				"&o&b4&r) &o&b2x&r &eImprovised Planks&r + &o&b2x&r &2Oak Log&r = &9Crafting Table&r"
+				""
+				"See that wasn't so bad! "
+			]
+			id: "19B4AF80C4E96C64"
+			min_width: 350
+			rewards: [
+				{
+					id: "6EF99A8712F52BD1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4349CD7856438D8C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oI know, everybody knows that"
+			tasks: [{
+				id: "01FF27DF600E4541"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6The Crafting Table"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&6Culinary Construct&r is a mod that lets you make custom sandwiches or &nbowls&r/&nstews&r out of &nany&r food items you have lying around."
+				""
+				"&n&bThat's right, any of them&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/meal.png"
+				}
+			}
+			id: "3A7FC41CC5B51F5F"
+			min_width: 250
+			rewards: [
+				{
+					id: "09F22654A6DB1FA3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "688195BB928AB1C2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oLet's make a few sandwiches"
+			tasks: [{
+				id: "474F8281519C3469"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
+			title: "&6The Food"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"To change what percentage of players are required to sleep in order to skip the night enter followed command:"
+				""
+				"&b&o/gamerule playersSleepingPercentage <value>&r (without &3angle brackets&r)"
+				""
+				"You may set a percentage value between 0 - 100 (Default: 100)."
+			]
+			id: "2D4EE2B866D8CE35"
+			min_width: 300
+			rewards: [
+				{
+					id: "537C0990831C2954"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6770537799B98911"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oIt's a very handy to have a bed"
+			tasks: [{
+				id: "4E4539EA9C7C200F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Craft any bed"
+				type: "item"
+			}]
+			title: "&6Sweet Dreams"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "27C2B59611A27ABE"
+			rewards: [
+				{
+					id: "65ECC7837F26C693"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7BCDC3EB87794C4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oTime for cooking"
+			tasks: [{
+				id: "23AEFD8250BB4EEA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "&eFurnace"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "2F75111FF8C7FEE5"
+			rewards: [
+				{
+					id: "184A93BCD7F7874E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "192646F48A58F525"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oTemporary storage solution ;)"
+			tasks: [{
+				id: "4AECEB9E367EEB22"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "balm:wooden_chests"
+					}
+				}
+				title: "Any Chest"
+				type: "item"
+			}]
+			title: "&fChest"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"If you are not familiar with &6Doggy Talents&r mod to watch those two tutorials by &aclicking&r those two &o&blinks&r below:"
+				""
+				"{\"text\":\"Doggy Talents: Pt 1 - Everything but Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+				""
+				"{\"text\":\"Doggy Talents: Pt 2 - Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+			]
+			id: "41AABD2060E95538"
+			min_width: 300
+			rewards: [
+				{
+					id: "4304241E24ECB2D2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5A8F9A6080F50BC9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oMy Best Friend Forever"
+			tasks: [{
+				id: "083FC96065A72A08"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^doggytalents:.*bed.*"
+					}
+				}
+				title: "Dog Bad"
+				type: "item"
+			}]
+			title: "&9Companion for Life"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"In your &9Eccentric Tome&r are all books included."
+				""
+				"&6Right-click&r while holding Tome to open the book selection screen."
+				"&6Left-click&r on air to revert a book back into the Tome."
+				""
+				"If you lose it you can always craft it back with a regular minecraft book using any crafting grid."
+			]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "3A72B0E6AAF8F2C0"
+			min_width: 250
+			rewards: [
+				{
+					id: "37C917C7586F8811"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14F14C5DE2B33281"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oYour personal portable library"
+			tasks: [{
+				id: "624E1FE4F9278ED5"
+				title: "Akashic Tome"
+				type: "checkmark"
+			}]
+			title: "&eThe Eccentric Tome"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A7FC41CC5B51F5F"]
+			id: "4EA94E2F6636AE31"
+			rewards: [
+				{
+					id: "38E4C40E237FC2B8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5FB25CCA78E0557C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oGo get some meat supply, and I'll cook for you in a sec"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "1729570EB2FF60A5"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "502D0C6472984D71"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1CF6E587662C0B34"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			title: "&bLet's hunt"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: ["&aHealing Campfire&r creates an area around the campfire where players and/or passive mobs receive the &bregeneration&r effect in a configurable radius."]
+			icon: "minecraft:campfire"
+			id: "7AF9B28AE6B073A8"
+			min_width: 300
+			rewards: [
+				{
+					id: "2C5271A5427EF4A6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48B4807F021EED3A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oAs the title says, it heals you"
+			tasks: [{
+				id: "54DED3429053F896"
+				type: "checkmark"
+			}]
+			title: "&2Healing Campfire"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			id: "0BD3F155C9D1C37B"
+			rewards: [
+				{
+					id: "48B4CA9F1C48D8BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "63B95EF0156BFD3A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Crafting Table"
+			tasks: [{
+				id: "288A7935F55450EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:crafting_stick"
+				}
+				type: "item"
+			}]
+			title: "&eThe Crafting Stick"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD3F155C9D1C37B"]
+			id: "5046740F388E9B57"
+			rewards: [
+				{
+					id: "216790E0B045ED50"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "723B333387ACA312"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oEvan better"
+			tasks: [{
+				id: "0D7D33F911F432F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:crafting_bag"
+				}
+				type: "item"
+			}]
+			title: "&aArvancet Crafting Stick"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Welcome to &6Age of Fate&r Quests!"
+				""
+				"The Quest book is included in your &9Eccentric Tome&r. If you prefer you can also create a key binding to open the &cQuest Book&r."
+				""
+				"To get started with questing, check out the tabs on the left. The Quests are divided into groups and each group has chapters."
+				""
+				"Mods in the pack are not gated by quests. Quests are optional but &nfully&r recommended."
+				""
+				"To view &aDependencies&r to unlock the particular quest, click on little &cred&r blinking arrow on top left corner. By clicking on the text will bring you on the dependency quest."
+				""
+				"To view Dependants to the quest, click on little &bwhite&r arrow on top right corner."
+			]
+			icon: "ftbquests:book"
+			id: "45E783F0D8A1736D"
+			min_width: 300
+			rewards: [
+				{
+					id: "11C10D6E1543F474"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "150B8C67EE57D0AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F2C60A442F7BB52"
+				type: "checkmark"
+			}]
+			title: "&cThe Quests"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "58C741E44DF06E15"
+			rewards: [
+				{
+					id: "7977F007ADEF2725"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2DCBEAEF218BB266"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oNice portable storage"
+			tasks: [{
+				id: "26F03BF1288E1C4F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bundle"
+				}
+				type: "item"
+			}]
+			title: "&cThe Bundle"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D4EE2B866D8CE35"]
+			hide: true
+			id: "403527DC1B8E4FBC"
+			rewards: [
+				{
+					id: "2CF04FDB93E78B0C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1F5145D9F8F1DC49"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oEven better then bed"
+			tasks: [{
+				id: "485F212D67216803"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
+				type: "item"
+			}]
+			title: "&1The Sleeping Bag"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["403527DC1B8E4FBC"]
+			hide: true
+			id: "78D285EF0AC46A6B"
+			rewards: [
+				{
+					id: "30EB8E4DD30F3EA9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "51ABDD8542CAD234"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oCan be useful to skip the day, if you need to"
+			tasks: [
+				{
+					id: "6ACA003932DAB01B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+				{
+					id: "7B683D3EEAACEF43"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "comforts:rope_and_nail"
+					}
+					type: "item"
+				}
+			]
+			title: "&3The Hammocks"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27C2B59611A27ABE"]
+			hide: true
+			id: "6192897387317260"
+			rewards: [
+				{
+					id: "465090A06167FB17"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3A0EFDBF5A2CF63D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oMore efficiency by raw ore processing"
+			tasks: [{
+				id: "46C82B6807989BB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:blast_furnace"
+				}
+				type: "item"
+			}]
+			title: "&dBlast Furnace"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6192897387317260"]
+			hide: true
+			id: "61DF41B4BDFB0904"
+			rewards: [
+				{
+					id: "5A2010BBFFDDFF71"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "507AFE3C8F04ECCD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oMore efficiency by cooking food"
+			tasks: [{
+				id: "3412A539C9203CB6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:smoker"
+				}
+				type: "item"
+			}]
+			title: "&fSmoker"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			hide: true
+			id: "24FB12C77B8D5BF9"
+			rewards: [
+				{
+					id: "146856FD8DB5506D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5B9A94DCB02344D1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oTime to enchant stuff"
+			tasks: [{
+				id: "6A154B5C2BF6E816"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanting_table"
+				}
+				type: "item"
+			}]
+			title: "&4The Enchanting Table"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24FB12C77B8D5BF9"]
+			hide: true
+			id: "68693BFBFF578320"
+			rewards: [
+				{
+					id: "690D14E42C4E6F9B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "65E930E29CFC3204"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oLet's try some cool potions"
+			tasks: [{
+				id: "287C12AC5924EB5E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:brewing_stand"
+				}
+				type: "item"
+			}]
+			title: "The Potion Maker: &a&oApprentice"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			hide: true
+			id: "0C696C02464BD69E"
+			rewards: [
+				{
+					id: "2B0BB41F9EDD944A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34C3C87E8BB45870"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oImprove your tools and weapons"
+			tasks: [{
+				id: "5A16454016C73CD8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:smithing_table"
+				}
+				type: "item"
+			}]
+			title: "&5Smithing Table"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FF285B77B20C7D8"]
+			hide: true
+			id: "1AFBBB797AE2F644"
+			rewards: [
+				{
+					id: "39CD855B33B668B1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5303232CE296BF23"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CC01F806C34DBF3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:grindstone"
+				}
+				type: "item"
+			}]
+			title: "&eGrindstone"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C696C02464BD69E"]
+			hide: true
+			id: "3FF285B77B20C7D8"
+			rewards: [
+				{
+					id: "5597438BFDA805DE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1179F128082EE896"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "&oIt helps you to repair your tools and weapons"
+			tasks: [{
+				id: "33A934EF7F779A56"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:anvil"
+				}
+				type: "item"
+			}]
+			title: "&9Anvil"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Don't forget to set your home first."
+				""
+				"Use command &d/sethome&r for setting home."
+				""
+				"Use command &d/home&r to teleport your back to home."
+				""
+				"Use command &d/back&r to teleport your to previous location. Can be used multiple times."
+			]
+			icon: "prefab:item_house"
+			id: "750DC72FD4D075B8"
+			min_width: 250
+			rewards: [
+				{
+					id: "33FA940921B83137"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "69990C94059D8883"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07508401EE912F59"
+				type: "checkmark"
+			}]
+			title: "&6Home Sweet Home!"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Once forged by antediluvian &4God&r, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might..."
+				""
+				"Be it &o&barrogance&r or &o&bignorance&r that leads them to believe they can harness ring's power, both are paid for in &o&bsuffering&r the extent of which defies description."
+				""
+				"Once it is put on, it &ccannot be removed&r. Wearing it &o&bsignificantly&r and &o&bpermanently&r changes gameplay to be &o&6extremely challenging&r."
+				""
+				"Are you brave enough to wear it?"
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "23AA20F16618CF1F"
+			min_width: 300
+			rewards: [
+				{
+					id: "2641118F2672C552"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "0C41073A5E9F3576"
+					item: "enigmaticlegacy:astral_fruit"
+					type: "item"
+				}
+				{
+					id: "163F34B0934A2CDB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "55EF6C197BFA07E1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Once worn, it becomes a part of you, and only with the power of god, you can unequip it"
+			tasks: [{
+				id: "52D21064D8DC4282"
+				title: "The Ring of the Seve Curses"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Thanks to Dexx, The owner of Age of Fate for permission to use some their quest lines in this modpack"]
+			icon: {
+				Count: 1b
+				id: "reliquary:fortune_coin"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 1.0f
+						}
+					}
+				}
+			}
+			id: "74A8F73765A6EC20"
+			size: 1.5d
+			tasks: [{
+				id: "580AC05E9FED7D11"
+				title: "Credits"
+				type: "checkmark"
+			}]
+			title: "Credits"
+			x: -4.5d
+			y: -5.25d
+		}
+	]
+	title: "&fLet's begin the adventure"
+}

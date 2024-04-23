@@ -1,0 +1,7 @@
+#Can be used to disable the ritual globally.
+enabled = true
+#Can be used to change the range of the ritual, in blocks away from the brazier
+#Default range: 6.0
+#Range: 0.0 ~ 100.0
+range = 6.0
+

@@ -1,0 +1,3388 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 200
+	default_quest_shape: ""
+	filename: "mekanism_reactors"
+	group: "69B9F7247002FE35"
+	icon: "mekanism:modification_station"
+	id: "0A093D8C4429B627"
+	images: [
+		{
+			height: 1.0d
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "securitycraft:block/ani_laser"
+			rotation: 0.0d
+			width: 0.021739130434782608d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.6607142857142847d
+			y: -3.5892857142857153d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24174700F7FB771C"]
+			description: [
+				"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
+				""
+				"The &aFission Reactor&r can be very dangerous, as a meltdown can cause an &cexplosion&r as well as &2Radiation&r spreading over a &o&b5 chunk radius&r, which lasts for several &nin-game weeks&r. "
+				""
+				"But we're going to be prepared for that. Let's make a &6Hazmat Suit&r, just in case."
+			]
+			id: "36B1995B495AA674"
+			min_width: 350
+			rewards: [
+				{
+					id: "184AE2C4B0F664D5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74DBCFBADB9D2DA5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "14BF9ADCB8F43ADC"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "0B06DCC5BA15895E"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "1F43C3AE8239B716"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "68B050A8CDCDCD10"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36B1995B495AA674"]
+			description: [
+				"Just like most &dMekanism&r multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being &b&o3 wide&r, &b&o4 tall&r, and &o&b3 blocks&r deep. The maximum size is &b&o18x18x18&r."
+				""
+				"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, &7Reactor Ports&r, or &3Reactor Logic Adapters&r. We'll get to those later."
+				""
+				"For now, let's build a basic &b&o5x5x5&r &6Fission Reactor&r!"
+			]
+			hide: false
+			id: "1482F2D45E8F761D"
+			min_width: 300
+			rewards: [
+				{
+					id: "67BC64E4F1D4C1BC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "257D42FC92A68510"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 53L
+					id: "19447D5D621A8D89"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "0765AB709CC3C6E2"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "&3The Fission Reactor"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1482F2D45E8F761D"]
+			description: [
+				"For us to take anything in or out of the &6Fission Reactor&r, we'll need &aFission Reactor Ports&r. These can be configured to &9input&r or &coutput&r by using the &dConfigurator&r. "
+				""
+				"Every &6Fission Reactor&r needs a &nminimum&r of &o&b4 Ports&r:"
+				""
+				"&o&b1 Coolant&r &9Input&r"
+				"&o&b1 Coolant&r &cOutput&r"
+				"&o&b1 Fissile Fuel&r &9Input&r"
+				"&o&b1 Waste&r &cOutput&r"
+				""
+				"For this starter build, let's put a port on each side. Make sure to configure them to match the list of &9inputs&r and &coutputs&r!"
+			]
+			id: "0696B725E840B996"
+			min_width: 400
+			rewards: [
+				{
+					id: "6175460F71C728A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "462336CFB9ED96FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "057CDA5BC0C5F774"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			title: "Interacting with the Fission Reactor"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1482F2D45E8F761D"]
+			description: [
+				"Afraid of blowing up your &6Fission Reactor&r and causing a massive &4Radiation&r leak?"
+				""
+				"So how can we prevent such a catastrophic disaster? By creating a redstone &aCircuit Breaker&r using &dFission Reactor Logic Adapters&r. Now these aren't &b&o100%&r guaranteed to stop an explosion, but they are absolutely nice to have."
+				""
+				"Essentially, these Adapters allow us to control the &6Reactor&r using &cRedstone&r. With just one, you can use a lever to turn &9on&r and &coff&r the &6Reactor&r. However, we're going to use them for damage control."
+				""
+				"You can also set these to give off a &cRedstone Signal&r based on a certain condition within the &6Reactor&r, like &cDamage Critical&r or &8Insufficient Fuel&r. This is useful for setting up a circuit breaker to shut &coff&r the &6Reactor&r if those ever happen."
+			]
+			id: "5FDB48511EC1C580"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0B454E609AC6F8FF"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "47DC7C4D00906651"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "16B10EA105CCC1D3"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			title: "&eSafety First!"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1482F2D45E8F761D"]
+			description: [
+				"The inside of the reactor is built up of pillars using several &9Fission Fuel Assembly&r blocks, with a single &eControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from &b&o1&r to &b&o15&r blocks in height, depending on the size of the reactor."
+				""
+				"For this build, we'll put &b&o2&r of the &9Fission Fuel Assemblies&r in the &ncenter&r of our multiblock, and then put the &eControl Rod Assembly&r right on top of it."
+			]
+			id: "3F5010269469EBE0"
+			min_width: 400
+			rewards: [
+				{
+					id: "27E189EBB4259A7F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43D13692908BF073"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "032045BB026F44B3"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "0875D821930A348A"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "Fuel Control"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FDB48511EC1C580"]
+			description: [
+				"Using some vanilla mechanics and &o&b2&r &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn &coff&r the reactor &o&ein case things get a little crazy&r."
+				""
+				"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
+				""
+				"On one of the faces, we'll want to put a &aLogic Adapter&r down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\"Activation\"&r, and the bottom Adapter to &c\"Damage Critical\"&r."
+				""
+				"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
+				""
+				"For the final part of our breaker, place the Observer with the face pointing outwards towards the &7Piston&r setup. This is &nimportant&r!"
+				""
+				"{image:kubejs:textures/item/example_circuit.png width:100 height:150 align:1}"
+				""
+				"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
+			]
+			icon: "minecraft:observer"
+			id: "7B0764DDE94E73D0"
+			min_width: 500
+			optional: true
+			rewards: [
+				{
+					id: "5E5941BDA249956B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3DEA91B5495AA2B7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 2L
+					id: "25FB07BDEC8EE4EF"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "6F57410F914C4D07"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5BC88AE46F95774D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:gravel"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sand"
+								}
+							]
+						}
+					}
+					title: "Gravel or Sand"
+					type: "item"
+				}
+				{
+					id: "584B8A392FBCD199"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "139EDEDEA3DAD312"
+					item: "minecraft:observer"
+					type: "item"
+				}
+			]
+			title: "The Circuit Breaker"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1DE8B0C9A7195720"]
+			description: [
+				"When burning fuel, the &3Fission Reactor&r creates a massive amount of heat. To prevent the &6Reactor&r from converting into &4TNT&r, we need to make sure it is properly cooled."
+				""
+				"The easiest way to do this is by giving the &6Reactor&r &9Water&r from a &aSink&r. The &aSink&r is an infinite water source, which is &b&oreally nice for a situation like this&r."
+				""
+				"Pump out the &9Water&r into one of the &7Reactor's Ports&r that is set to &9input&r to fill up the &6Reactor&r with &9Water&r. This will be heated while the &6Reactor&r is running and get converted to &bSteam&r, which you can use to create power with in an &2Industrial Turbine&r."
+				""
+				"&eSodium&r can also be used as a much more efficient coolant. This allows for higher burn rates and lower core temperatures."
+			]
+			id: "2B76B2F18C2C47D2"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "179044734276C295"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45FA9BD8000CB050"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E8281C007094843"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Cooling a Fission Reactor"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0696B725E840B996"
+				"3F5010269469EBE0"
+			]
+			description: [
+				"Once you've finish placing in all of the required blocks to build the &6Reactor&r, it should give off &cred&r particles to show that it is &ncomplete&r."
+				""
+				"&eRight clicking&r anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the &6Reactor&r properly, as well as two buttons to turn &9on&r and &coff&r the &6Reactor&r."
+				""
+				"On the left, you have &o&b2 tanks&r: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
+				""
+				"The &cTemperature&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &4Damage&r, which will eventually cause the Reactor to explode."
+				""
+				"To adjust the &cBurn Rate&r of the &3Fissile Fuel&r and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick."
+				""
+				"{image:kubejs:textures/item/reactor_interface.png width:280 height:120 align:1}"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "1DE8B0C9A7195720"
+			min_width: 500
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "362D30EB4DB10752"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08D6118140E2A8ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0FA01A6872FD3B10"
+				type: "checkmark"
+			}]
+			title: "&3Completed Fission Reactor"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B81800EE6E77EF2"]
+			description: [
+				"Every Reactor uses &aUranium&r somewhere for fuel, right?"
+				""
+				"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
+			]
+			icon: "mekanism:yellow_cake_uranium"
+			id: "7E17AB5A4492929E"
+			rewards: [
+				{
+					id: "7A2D29BF86F78B5B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C3699A1BC27DA4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Of Course It Uses Uranium"
+			tasks: [{
+				count: 2L
+				id: "1C72C0C59D65B1D0"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			title: "&aUranium"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E17AB5A4492929E"]
+			description: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
+			id: "3AF4E5D4839CEF8B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "20AC63780F02DFD9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "38806657039430C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "772EA844FE7C1B74"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "&eUranium Oxide"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E4A95B6443F23BC"]
+			description: [
+				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
+				""
+				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/meka.png"
+				}
+			}
+			id: "24174700F7FB771C"
+			min_width: 300
+			rewards: [
+				{
+					id: "4059869E9003DEAC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C11937FFE49FD82"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oMekanism: Phase one&r quest*"
+			tasks: [{
+				id: "3153288DCE1C4FEF"
+				type: "checkmark"
+			}]
+			title: "Welcome to&r &dMekanism:&r Phase two"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DE8B0C9A7195720"]
+			description: [
+				"The &6Fission Reactor&r needs &3Fissile Fuel&r to run. If you look up &3Fissile Fuel&r right now in &bJEI&r, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
+				""
+				"It all boils down to creating &eUranium Hexafluoride&r. To do this, let's focus on making these two gases: &bHydrofluoric Acid&r, and &eUranium Oxide&r."
+			]
+			icon: "mekanism:reprocessed_fissile_fragment"
+			id: "3B81800EE6E77EF2"
+			rewards: [
+				{
+					id: "554D1ACDA48E0E7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D8A23DD29C71AB1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "382818E289EC83A6"
+				title: "&3Fissile Fuel Production&r"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B81800EE6E77EF2"]
+			description: [
+				"You should have already made &2Sulfuric Acid&r for your &b&oTier 4&r &6Ore Processing Factory&r, but here is a reminder on how to get it."
+				""
+				"Start by getting &eSulfur Dust&r either by crushing Sulfur from &9Thermal&r, or by mixing &bHydrogen Chloride&r with &3Gunpowder&r in a &dChemical Dissolution Chamber&r."
+				""
+				"Take the &eSulfur Dust&r and run it through a &9Chemical Oxidizer&r to get &eSulfur Dioxide&r. Combine that with &bOxygen&r in a &cChemical Infuser&r to get &eSulfur Trioxide&r."
+				""
+				"Next, we'll combine &bWater Vapor&r with the &6Sulfur Trioxide&r to make &2Sulfuric Acid&r."
+			]
+			icon: "thermal:sulfur_dust"
+			id: "31EEE2875595F315"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "20C22403B59A25B7"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70F4BD7FC2F9A4EF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "A Quick Recap"
+			tasks: [{
+				count: 2L
+				id: "4A814B13C8A44960"
+				item: "thermal:sulfur_dust"
+				type: "item"
+			}]
+			title: "&2Sulfuric Acid"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31EEE2875595F315"]
+			description: ["Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."]
+			id: "187A3F5B41D1C923"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "32ECBFC04032582C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0FEAD0AFAFD93D27"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F5A28143EFF4944"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "&bHydrofluoric Acid"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"187A3F5B41D1C923"
+				"3AF4E5D4839CEF8B"
+			]
+			description: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
+			id: "3663E93E169EF8E3"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6D36F28784890393"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77E42D826F6A5E85"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73C5F4AC41EE5123"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "&2Uranium Hexafluoride"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3663E93E169EF8E3"]
+			description: [
+				"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
+				""
+				"That wasn't really that bad, right?"
+			]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "16A6C47E35F3B9D0"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "694A15BC3C87BD6C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "10F1814AD39ABA29"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F2371FD486D4F0E"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			title: "&3Fissile Fuel&r"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FFF9018DA2A2763"]
+			description: [
+				"Let's go through the checklist &b&oone more time&r to ensure we have everything ready to go before we boot it up:"
+				""
+				"1. &6Hazmat Suit&r On (Safety First!)"
+				"2. &9Water/coolant&r pumping into an input Port."
+				"3. &3Fissile Fuel&r pumping into an input Port."
+				"4. A Port set to output the Heated Coolant, either to a trashcan or an &2Industrial Turbine&r."
+				"5. A Port set to output &0Nuclear Waste&r leading to &eRadioactive Waste Barrels&r or machines to process it, or both!"
+				""
+				"If you're ready to go, hit that &eActivate&r button!"
+				""
+				"You can also adjust the &3Burn Rate&r to produce more &0Nuclear Waste&r, but start slow."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/radiation.png"
+				}
+			}
+			id: "3591EAA8E397F992"
+			min_width: 500
+			rewards: [
+				{
+					id: "77EFA07ED07C1F13"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "153B7EBFD1620CD7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "27709080B4B77B09"
+				title: "Ready To Go!"
+				type: "checkmark"
+			}]
+			title: "Booting Up The Reactor"
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16A6C47E35F3B9D0"]
+			description: [
+				"Once we start burning up &3Fissile Fuel&r in the &6Reactor&r, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
+				""
+				"This is where the &4Radiation&r kicks in. As long as it stays &b&osafely in some container or machine&r, you won't have any spills... right?"
+				""
+				"The best way to store any &4Radioactive&r substance is using a &2Radioactive Waste Barrel&r. These will safely store the waste, while slowly decaying the gas without causing a &4Radiation&r spill. You don't want your &8Nuclear Waste&r sitting in your &6Reactor&r as it causes it to produce more heat, so set a port to output &8Waste&r and ship it to a barrel!"
+				""
+				"&cImportant Note&r: Breaking &nany&r machine, barrel, pipe, or &nanything&r that has a &4Radioactive&r gas inside of it &nwill cause a Radiation leak&r. That includes the products of &8Nuclear Waste&r, like &5Polonium&r or &ePlutonium&r."
+			]
+			id: "3FFF9018DA2A2763"
+			min_width: 300
+			rewards: [
+				{
+					id: "7873B69799DDE3F9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7AA5CED4CD09707D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "45EC7D8BA0CCFB07"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "&8Nuclear Waste"
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3591EAA8E397F992"]
+			description: [
+				"&8Nuclear Waste&r can be sent into an &dIsotopic Centrifuge&r to create &9Plutonium&r."
+				""
+				"Sending the &9Plutonium&r into a &2Pressurized Reaction Chamber&r with some &1Water&r and &7Fluorite Dust&r will give you &9Plutonium Pellets&r."
+				""
+				"This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a &6Waste Barrel&r for storage."
+			]
+			id: "2E9FC7DC2AC6FD8E"
+			rewards: [
+				{
+					id: "55732B80545BBAC9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3F5234C82F5FF0EE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B40312EE7C8875D"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E1EF430810D08BF"]
+			description: [
+				"Pumping &0Nuclear Waste&r into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
+				""
+				"Run the &dPolonium&r through a &2Pressurized Reaction Chamber&r with some &bFluorite Dust&r and you'll get &9Polonium Pellets&r."
+				""
+				"This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a &6Waste Barrel&r for storage."
+			]
+			id: "1FAAF8216CDC3AC6"
+			min_width: 250
+			rewards: [
+				{
+					id: "52C0FC6369C55B3B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C0A57AFFADB123D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38A344B697C93B3B"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2E9FC7DC2AC6FD8E"
+				"1FAAF8216CDC3AC6"
+			]
+			description: [
+				"The &aSupercritical Phase Shifter&r (SPS) is another multiblock structure used to infuse &3Polonium&r with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
+				""
+				"To build the &aSPS&r, you'll need to make a total of &o&b72&r &9SPS Casings&r (&o&b60&r for the build, &o&b12&r to make the ports), &o&b3&r &eSPS Ports&r, &o&b122&r &3Reactor Glass&r, and one other item we'll talk about in the next quest."
+			]
+			id: "068728DE3B9B13C3"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4D0508BF7FECF927"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "62B48A172223C9E8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 60L
+					id: "63C9D54A0F55BA9B"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 122L
+					id: "6236D6215419A2EF"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "769C396EE20CD89D"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			title: "&dSupercritical Phase Shifter"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FAAF8216CDC3AC6"]
+			description: [
+				"You've probably heard people talk about how the &6Fusion Reactor&r is the best power source in the pack. &bThat's correct&r!"
+				""
+				"Once activated, the &6Reactor&r can push out up to &o&b200MRF/t&r with the right setup. It can also be cooled with &9Water&r to produce &7Steam&r, which can go into an &dIndustrial Turbine&r to make even more power."
+				""
+				"To build the &6Fusion Reactor&r, we need to follow a simple pattern. Each face will look like this:"
+				""
+				"{image:kubejs:textures/item/fusion_pattern.png width:400 height:100 align:1}"
+				""
+				"For the top, we want replace the middle block with the &aFusion Reactor Controller&r."
+				""
+				"For the ports, you can replace any of the &bReactor Glass&r on the sides. For this setup, we'll need two ports to input &cDeuterium&r and &eTritium&r, then a port to output power. "
+				""
+				"{image:kubejs:textures/item/completed_fusion_reactor.png width:110 height:100 align:1}"
+			]
+			id: "0152C49AB74B9D32"
+			min_width: 500
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7C9C92252283DC21"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F0FFE7A02EAE089"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The best power source you can get"
+			tasks: [
+				{
+					id: "4005EDF7A97FD97D"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6E680D259F45AF80"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2369D4585A3BDCCC"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "554C67BA24832AB4"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "&6The Fusion Reactor"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["068728DE3B9B13C3"]
+			description: [
+				"The &9Supercharged Coil&r is placed on an &3SPS Port&r in the center of two faces, like the image below. When given power, these will supercharge &dPolonium&r into &5Antimatter&r. Only &o&b1&r is required, but you can use &o&b2&r if you want."
+				""
+				"To produce &o&b1mb&r of &5Antimatter&r, you need &o&b400MRF&r of power. If you haven't started making a &6Fusion Reactor&r, now's a good time to make it!"
+				""
+				"{image:kubejs:textures/item/sps_coils.png width:200 height:125 align:1}"
+			]
+			id: "2331FCDD2F2B709A"
+			min_width: 300
+			rewards: [
+				{
+					id: "4C50B683CB35D75F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "662E0D2EA90640B3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48A70F1D73DE5E37"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			title: "The Supercharged Coils"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2331FCDD2F2B709A"]
+			description: [
+				"With all of the gathered blocks, it's time to build this thing. Below is a text guide, or you can watch the Ponder!"
+				""
+				"The SPS will be 7x7 when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
+				""
+				"{image:kubejs:textures/item/basic_sps_shape.png width:100 height:95 align:1}"
+				""
+				"Each side, including the bottom and top, will follow this pattern. The Supercharged Coils should be placed across from each other in the center of their respective sides, and the remaining two ports will be used to pump in Polonium, and pump out Antimatter Gas."
+				""
+				"Here is the completed structure below: "
+				""
+				"{image:kubejs:textures/item/sps_complete.png width:110 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/sps.png"
+				}
+			}
+			id: "2B3F2F470E06BC40"
+			min_width: 350
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "44290A731D8A18CD"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70D583AD0B901ADF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1C782A942C445CEF"
+				type: "checkmark"
+			}]
+			title: "&dCompleted SPS"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B3F2F470E06BC40"]
+			description: [
+				"After zapping away trillions of power in the &dSPS&r, we can finally create &5Antimatter Pellets&r."
+				""
+				"Run the &3Antimatter Gas&r you get from the &dSPS&r into a &2Chemical Crystallizer&r and you'll get &o&b1&r &5Antimatter Pellet&r for every &o&b1,000mb&r you make."
+			]
+			id: "00EFC7B327E79076"
+			rewards: [
+				{
+					id: "5F3ED624BE8C0F06"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "251BE5935C8E3587"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "3B83170BC4E75158"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79757F66DF263FA0"]
+			description: [
+				"The goal is to aim each &9Laser&r into a &2Laser Amplifier&r. Using one is pretty slow, so we're going to make a few."
+				""
+				"Sticking the &9Lasers&r directly on a power source like an &aEnergy Cube&r works, or you can have them on pipes or cables. You want to give it a block of empty space between the &9Lasers&r and the &2Laser Amplifier&r."
+				""
+				"The &2Laser Amplifier&r has a red dot on one of the faces. This is what you want to point towards the &3Laser Focus Matrix&r."
+				""
+				"Make sure to turn the &2Laser Amplifier&r &noff&r (or activate &cRedstone&r control) and wait for it to store &nat least&r &o&b400MRF&r, then it'll be ready."
+				""
+				"{image:kubejs:textures/item/laser_example.png width:120 height:120 align:1}"
+			]
+			id: "320CC038A64A3195"
+			min_width: 400
+			rewards: [
+				{
+					id: "7D33E2803E3A3F68"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4504126D6D2A3216"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F82E1E037CBDC34"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "64C66199BBFDF908"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			title: "Jumpstarting Method: &dLaser Focus Array&r"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12D271359D48210E"]
+			description: [
+				"To fuel our &6Fusion Reactor&r, we'll need to create two different gases, this one being &cDeuterium&r."
+				""
+				"To make this, we'll need to make some &eElectric Pumps&r and give them a &3Filter Upgrade&r. Place them over a source block of water, give them some power, and they'll pump out &1Heavy Water&r."
+				""
+				"Pump the &1Heavy Water&r into an &dElectrolytic Separator&r to get &cDeuterium&r."
+			]
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "mekanismgenerators:deuterium"
+							}
+						}]
+					}
+				}
+			}
+			id: "4ABF0727AA569DD9"
+			rewards: [
+				{
+					id: "2A162F00E7B37E0E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F6F0BE16DEAE2F6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34228001011C4524"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+				{
+					id: "1C627F3894C50E4E"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+			]
+			title: "&cDeuterium&r"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4ABF0727AA569DD9"
+				"04B3B99637C7E275"
+			]
+			description: [
+				"To start the &6Fusion Reactor&r, we'll need a quick-shot of &dD-T Fuel&r. This is made by combining &cDeuterium&r and &eTritium&r together in a &eChemical Infuser&r."
+				""
+				"Start by making a &4Hohlraum&r and place it into the Infuser (where the plus symbol is) to fill it with &dD-T Fuel&r. Now we're ready to &b&nSTART&r the &6Reactor&r!"
+			]
+			id: "3593D955361B0C6D"
+			min_width: 300
+			rewards: [
+				{
+					id: "19EB4889D144B1EA"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F7DB474A8D2DB8C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "789B4C8031BCDBDA"
+				item: "mekanismgenerators:hohlraum"
+				type: "item"
+			}]
+			title: "The Fuel Injector"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0152C49AB74B9D32"]
+			description: [
+				"To create a reaction for the &6Reactor&r to turn on, we're going to need to inject it with a ton of power. &o&bAnd I mean a ton of power&r."
+				""
+				"This requires you to set up several &9Lasers&r that all need to be powered, then shooting &o&b400MFE&r directly into the &aLaser Focus Matrix&r."
+				""
+				"The &aLaser Focus Matrix&r is placed in the center of one face of the &6Fusion Reactor&r. We'll build the &9Lasers&r next."
+			]
+			id: "79757F66DF263FA0"
+			min_width: 300
+			rewards: [
+				{
+					id: "49910057AB947ED4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4420CDE619AE6569"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5799CEC4031D454E"
+				item: "mekanismgenerators:laser_focus_matrix"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0152C49AB74B9D32"]
+			description: [
+				"&6Fusion Reactors&r require a very special fuel: &dD-T Fuel&r to be exact."
+				""
+				"There are two ways to fuel the &6Reactor&r: Either by pumping in &dD-T Fuel&r directly into the &6Reactor&r at &b&o1,000mb/t&r, or by pumping each of the two fuels  in separately at controlled rates."
+				""
+				"For starters, let's pump them in separately."
+			]
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "mekanismgenerators:fusion_fuel"
+							}
+						}]
+					}
+				}
+			}
+			id: "12D271359D48210E"
+			rewards: [
+				{
+					id: "6378247CF586568D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "24EB8F1C5BB4D5B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71D4910C5A3CA6C4"
+				item: "mekanismgenerators:fusion_fuel_bucket"
+				type: "item"
+			}]
+			title: "&dD-T Fuel&r"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"320CC038A64A3195"
+				"3593D955361B0C6D"
+			]
+			description: [
+				"Hohlraum filled with D-T Fuel? &oCheck!&r"
+				""
+				"Deuterium and Tritium ready to be pumped into the Reactor? &oCheck!&r"
+				""
+				"A Laser Amplifier with at least 400MRF ready to shoot into the Laser Focus Matrix? &oCheck!&r"
+				""
+				"Once you are ready, place the &5Hohlraum&r into the &aFusion Reactor Controller&r, pump in the Fuel, then activate your Laser Amplifier."
+				""
+				"If done right, &nyou'll see the Reactor activate!&r"
+				""
+				""
+				"{image:kubejs:textures/item/fusion_activated.png width:180 height:150 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/fusion_reactor.png"
+				}
+			}
+			id: "54D8B9CB3F98040F"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0626468734E4F0FC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03772CA94834933C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4B63979C49A34565"
+				item: {
+					Count: 1b
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Completed Fusion Reactor"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FFF9018DA2A2763"]
+			description: [
+				"The &9Industrial Turbine&r is a massive multiblock structure used to convert &cHeated Coolant&r into power. The minimum size is 5x5x5, with the maximum size being 17x17x18."
+				""
+				"Just like most &dMekanism&r multiblocks, the frame must be made out of &aTurbine Casings&r. However, instead of &eReactor Glass&r, you can use &bStructural Glass&r or Casings for each face."
+				""
+				"We're going to build this &9Industrial Turbine&r, and the quest requires the exact materials needed."
+				""
+				"{image:kubejs:textures/item/industrial_turbine.png width:100 height:105 align:1}"
+			]
+			id: "6313B18820445882"
+			min_width: 300
+			rewards: [
+				{
+					id: "370B97BC5B7BA447"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "145FD60821A5488D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Building the Frame"
+			tasks: [
+				{
+					count: 52L
+					id: "0C8EF4390F02EBC4"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "3CD4768A3FCA49FF"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&9The Industrial Turbine"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6313B18820445882"]
+			description: [
+				"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the &9Turbine&r creates."
+				""
+				"&8Turbine Vents&r are used to pump out excess water when using &aSaturating Condensers&r. Otherwise, these help increase the overall flow of steam within the &9Turbine&r. The total number of Vents also limit the total Steam Flow Rate. Vents can also be used on the top face of the &9Turbine&r, but for this build, we'll just be using them on the outside faces."
+				""
+				"&aSaturating Condensers&r are used to convert &bSteam&r back into water. These are placed on or above the layer containing the &6Electromagnetic Coils&r."
+			]
+			id: "233E438357CD89F6"
+			min_width: 300
+			rewards: [
+				{
+					id: "743D9DBB49006DE5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "092BEB451122AA4C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3E72FC25B884DFFC"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "4D32BE4920464ED0"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2C56599158C13CDF"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			title: "The Ports"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6313B18820445882"]
+			description: [
+				"The &9Turbine Rotor&r is placed in the middle of the &6Turbine&r. For every &9Turbine Rotor&r, you will need &b&o2&r &aTurbine Blades&r. For this Turbine, we'll be using &b&o3&r &9Turbine Rotors&r."
+				""
+				"While looking at the &9Rotor&r, &eright clicking&r with &aTurbine Blades&r will place them directly onto the &9Rotor&r. The taller the &9Rotor&r, the longer the &aBlades&r will become. For this build, we are using &o&b6&r total &aBlades&r. If you plan on building a bigger &6Turbine&r, you will need to increase the width of the &6Turbine&r depending on how many &aBlades&r you plan on using."
+				""
+				"The &dRotational Complex&r must be placed at the top of the &9Turbine Rotor&r. This is then surrounded by &ePressure Dispersers&r."
+				""
+				"The &eDispersers&r must fill out the entire layer where the &dRotational Complex&r sits."
+			]
+			id: "05D20B506213A449"
+			min_width: 300
+			rewards: [
+				{
+					id: "6AC5997D00A3FC59"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "404F67990343DDA1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					count: 3L
+					id: "69CE83F6561383E5"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "2902E36FD3AC8E68"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E9FDE2560C1AB7C"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "526F17523CE9BDF5"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+			]
+			title: "The &aRotor&r"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6313B18820445882"]
+			description: [
+				"The &9Electromagnetic Coil&r is placed directly on top of the &aRotational Complex&r to convert the kinetic energy into power."
+				""
+				"You can use multiple, with &o&b5&r &nbeing the max&r. These must either touch another &9Coil&r, or the &aRotational Complex&r."
+			]
+			id: "7C61906C6C87C97D"
+			rewards: [
+				{
+					id: "6CC2439A51CBE8F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "327FC2F2E65BF1D4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C0CC372A8597375"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"233E438357CD89F6"
+				"7C61906C6C87C97D"
+				"05D20B506213A449"
+			]
+			description: [
+				"If you've built the &9Industrial Turbine&r properly, you will see &cred&r particles around the structure. &eRight clicking&r on the &9Turbine&r will open up the &ainterface&r."
+				""
+				"This will tell you all of the &binformation&r that you need to know, including the total &7Steam Flow Rate&r, as well as the total &bSteam&r inside of the &9Turbine&r."
+				""
+				"On the right, you will have a bar that shows you the &cPower&r that is stored inside of the &9Turbine&r. If this gets full, the &9Turbine&r will turn &coff&r, unless you set it to &3Vent Overflow&r."
+				""
+				"Let's get it running!"
+				""
+				"Once you have a fully functioning &6Fission Reactor&r, pump out the &bSteam&r directly into a &dTurbine Valve&r on your &9Turbine&r. Since we're using &2Saturating Condensers&r in this build, you can pump out &1Water&r from a &3Turbine Vent&r back into your &6Reactor&r if you want. "
+				""
+				"{image:kubejs:textures/item/turbine_gui.png width:280 height:120 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/industrial_turbine.png"
+				}
+			}
+			id: "4189BC3DFB551F4C"
+			min_width: 400
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "2F747A05D60E4719"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "223FE24D039C3ABF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3301B13304A98C3D"
+				type: "checkmark"
+			}]
+			title: "&9Completed Industrial Turbine"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24174700F7FB771C"]
+			description: [
+				"If we want to create massive amounts of &4Power&r, we'll need a way to store all of it, and those &aEnergy Cubes&r just won't cut it."
+				""
+				"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some &3Lithium Dust&r!"
+				""
+				"You should have some &eBrine&r being made from a previous quest using the &cThermal Evaporation Plants&r."
+				""
+				"Run the &eBrine&r through another &cThermal Evaporation Plant&r to get &7Lithium&r, then through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
+			]
+			icon: "mekanism:dust_lithium"
+			id: "0FF852DE33E41C90"
+			min_width: 250
+			rewards: [
+				{
+					id: "46B1303CEB9C37DE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26F4539A8CFFFE41"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 4L
+				id: "31A1425AA09C33F8"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			title: "Advanced Power Storage"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FF852DE33E41C90"]
+			description: [
+				"The &bInduction Matrix&r is a highly configurable multi-block energy storage structure."
+				""
+				"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &eInduction Ports&r. It's best to have &b&o2 Ports&r: one for &9input&r, and one for &coutput&r. These can be changed using the &dConfigurator&r."
+				""
+				"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this."
+				""
+				"{image:kubejs:textures/item/induction.png width:100 height:100 align:1}"
+			]
+			hide: false
+			id: "673FCBF8685D0EEE"
+			min_width: 300
+			rewards: [
+				{
+					id: "08AC10429F92EA84"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D71F00C22C9EA31"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 44L
+					id: "6D0EB8C587E34699"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6468D6A69F683E6D"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 55L
+					id: "5586FBB0561715AD"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&bThe Induction Matrix"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FF852DE33E41C90"]
+			description: [
+				"The &9Induction Matrix&r allows you to customize how much power you can store and transfer by adding &aCells&r and &eProviders&r inside of the multiblock structure."
+				""
+				"&aInduction Cells&r increase the total amount of power that can be stored."
+				""
+				"&eInduction Providers&r increase the total transfer speed both in and out of the &9Matrix&r."
+				""
+				"You can customize how many you want of each &b&oinside&r of the multiblock, but you will need &b&oat least&r one of each."
+				""
+				"These also have higher tiers to increase your overall storage and transfer capacity."
+				""
+				"{image:kubejs:textures/item/induction_inside.png width:200 height:100 align:1}"
+			]
+			hide: false
+			id: "14D772808D1BEAE2"
+			min_width: 350
+			rewards: [
+				{
+					id: "15D7940C9AC5B40C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "713D0BDADCEF536A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4063C1B5F935A026"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_cell"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_cell"
+								}
+							]
+						}
+					}
+					title: "Induction Cells"
+					type: "item"
+				}
+				{
+					id: "2E3FF129C3668DD8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:advanced_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:elite_induction_provider"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_induction_provider"
+								}
+							]
+						}
+					}
+					title: "Induction Providers"
+					type: "item"
+				}
+			]
+			title: "Customizing Power Limits"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"673FCBF8685D0EEE"
+				"14D772808D1BEAE2"
+			]
+			description: [
+				"A correctly formed &9Induction Matrix&r will spark once with &cRedstone Particles&r when you place down the last block, and will also have an interface when &eright-clicking&r the block."
+				""
+				"To make the &9Induction Matrix&r function properly, you will want to have one &2Induction Port&r configured to &9input&r and one &2Induction Port&r to &coutput&r, using a &dConfigurator&r."
+				""
+				"Don't be afraid to upgrade with higher tier &aCells&r and &eProviders&r! The maximum size of the &9Induction Matrix&r structure can be &o&b18x18x18&r. "
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/induction.png"
+				}
+			}
+			id: "07ECC87DFF2D3991"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "5C1CA7EF8C2FC73F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "608F97777F09D681"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "38A0D09CC7E6EBC8"
+				type: "checkmark"
+			}]
+			title: "&bCompleted Induction Matrix"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FAAF8216CDC3AC6"]
+			description: [
+				"The &dModification Station&r is used for applying modular upgrades to the &3Meka-Suit&r and the &aMeka-Tool&r in exchange for energy."
+				""
+				"A part of the &3Meka-Suit&r (which the upgrade is compatible with) is inserted into the station along with the &aupgrade&r, resulting in the upgrade being applied to the &3Meka-Suit&r."
+				""
+				"It functions similarly to an &0Anvil&r or a &6Power Armor Tinker Table&r from the &9Modular Powersuits&r mod."
+			]
+			hide_dependency_lines: true
+			id: "22C5D2CD84E6E9EF"
+			min_width: 300
+			rewards: [
+				{
+					id: "49F3350950E3974B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7845567BC5F83C78"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "49F6EB53E31342B9"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			title: "&eModification Station"
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22C5D2CD84E6E9EF"]
+			description: [
+				"The &eMeka-Tool&r is a &o&bmulti-use&r tool item in &dMekanism&r."
+				""
+				"It has almost no use default but can have &9Modules&r installed to give it a wide range of functions. While the &aConfigurator&r is required to craft the &eMeka-Tool&r, It does not have that functionality."
+			]
+			id: "738FF04BEE2342A0"
+			rewards: [
+				{
+					id: "76F61463E1F44D4F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F927E8CB4A0E07B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "7C8248C053A33578"
+				item: {
+					Count: 1b
+					id: "mekanism:meka_tool"
+					tag: {
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3591EAA8E397F992"]
+			description: [
+				"The &6Solar Neutron Activator&r is a machine that directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."
+				""
+				"The &9input&r is at the &o&bbottom&r, the &coutput&r is at the &o&bfront&r."
+				""
+				"It does not need &nenergy&r except for &ndirect sunlight&r which can be intercepted by transparent blocks such as glass, cables, pipes, etc."
+			]
+			id: "1E1EF430810D08BF"
+			min_width: 300
+			rewards: [
+				{
+					id: "2650D5FCFC8D617C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1A46DE85A54821B6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F361F1CADFDE83D"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12D271359D48210E"]
+			description: ["By now, you're already making &aLithium&r. Pump that into a &dSolar Neutron Activator&r to create &eTritium&r."]
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "mekanismgenerators:tritium"
+							}
+						}]
+					}
+				}
+			}
+			id: "04B3B99637C7E275"
+			rewards: [
+				{
+					id: "7D86846A4E3C6FE2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EA80ADC21179F87"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1402F3ACDEA3D5CA"
+				item: "mekanismgenerators:tritium_bucket"
+				type: "item"
+			}]
+			title: "&eTritium"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22C5D2CD84E6E9EF"]
+			description: [
+				"The &3MekaSuit&r is a highly configurable set of late-game modular armor added in &dMekanism&r."
+				""
+				"The &3MekaSuit &ris divided into &o&b4&r parts, the headpiece, the chest plate, the leggings, and the boots. "
+				""
+				"Each part of the &3MekaSuit&r can be upgraded with &eModules&r that are installed with the &6Modification Station&r and can be configured by pressing \"&b\\&r\"(backslash)."
+				""
+				"It is considered the best armor in &dMekanism&r and is very expensive to make and &o&bfully upgrade&r, even for late game players, requiring a large amount of &9Polonium&r to be processed into pellets."
+				""
+				"With a fully upgraded suit however, the wearer becomes &nnearly&r &6Invincible&r."
+			]
+			id: "75C0ED308F5D7417"
+			min_width: 300
+			rewards: [
+				{
+					id: "10FFE0D8C1527F0B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79596E02F5DB1341"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "71E897B0F462061B"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "73D161D7768408E9"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "7D7E0CD9F495548A"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "77086D288AF7F635"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "&bMekaSuit Armor"
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22C5D2CD84E6E9EF"]
+			description: [
+				"The &ePortable Teleporter&r is a player kept teleportation device."
+				""
+				"It can store power and like all &dMekanism&r teleporters, energy drain increases with the distance the player teleports to. &aRight-clicking&r with this device in hand will open a &o&bGUI&r&b similar to that of the &9Teleporter Portal&r, allowing instant travel to any &3Teleporter Portals&r that the player has set up. The &ePortable Teleporter&r is capable of multidimensional travel."
+				""
+				"Note that in order for the &ePortable Teleporter&r to be functional, the complete &9Teleporter Portal&r structure does not need to be built; only the &o&bTeleporter block&r must be present (and supplied with &npower&r)."
+			]
+			id: "43FBFDBCDB69E7EE"
+			min_width: 300
+			rewards: [
+				{
+					id: "2DF1E9BC0B2A9D04"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "697B5E7797D27418"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B7C60B8CBA824A4"
+				item: "mekanism:portable_teleporter"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00EFC7B327E79076"]
+			id: "2CC2D2C475F8E758"
+			rewards: [
+				{
+					id: "0103E240A34121B8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74DA344377AA0E63"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CE2ACFC789B27C0"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00EFC7B327E79076"]
+			description: [
+				"&6QIO&r is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game."
+				""
+				"It's comprised of at least one &aQIO Drive&r (to store items), a &9QIO Drive Array&r (to hold the &aQIO Drives&r), and at least one &3QIO Dashboard&r (to access items in the &2QIO Drive Array&r)."
+				""
+				"Both the drive and drive array must be set to &o&bthe same frequency&r in order to work together."
+				"{image:kubejs:textures/item/qio_setup.png width:300 height:120 align:1}"
+			]
+			id: "3AB541A2323AF3B3"
+			min_width: 300
+			rewards: [
+				{
+					id: "5014BE435F09ACC1"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "533F18D4F62518DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "765C572EBC0FB0E7"
+				item: "mekanism:qio_drive_array"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AB541A2323AF3B3"]
+			description: [
+				"&aQIO Drives&r are inserted into a &9Drive Array&r, allowing it to store more items."
+				""
+				"Each drive has a number of items and item types it can contain. A &aBasic QIO Drive&r can contain &o&b16,000&r &nitems&r and &o&b128&r &nitem types&r."
+			]
+			id: "3AE2172B95B58B99"
+			rewards: [
+				{
+					id: "1EE1A9ABA06A5CF4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4DB450117C943357"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "659585F57F4A3AB1"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AE2172B95B58B99"]
+			description: ["A &cHyper-Dens QIO Drive&r can contain &o&b128,000&r &nitems&r and &o&b256&r &nitem types&r."]
+			id: "2A55024C0BA2F4EA"
+			rewards: [
+				{
+					id: "1BE7EA9A1AAC5A2A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "08533795B896781F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3899C752F8C33217"
+				item: "mekanism:qio_drive_hyper_dense"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A55024C0BA2F4EA"]
+			description: ["A &9Time-Dilating QIO Drive&r can contain &o&b1,048,000&r &nitems&r and &o&b1,024&r &nitem types&r."]
+			id: "51844489E649C85A"
+			rewards: [
+				{
+					id: "10601841266C1110"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F16D3E453567A47"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5522D97DB59F27AE"
+				item: "mekanism:qio_drive_time_dilating"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51844489E649C85A"]
+			description: ["A &dSupermasiv QIO Drive&r can contain &o&b16,000,000,000&r &nitems&r and &o&b8,192&r &nitem types&r."]
+			id: "3658B862EEE320BD"
+			rewards: [
+				{
+					id: "0DD3F71133629403"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3516265FB7A347AB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2127BF73BDE6CB48"
+				item: "mekanism:qio_drive_supermassive"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3AB541A2323AF3B3"]
+			id: "4CCA40FAB3230C75"
+			optional: true
+			rewards: [
+				{
+					id: "7D0C5804674364BE"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E7A18BCD468DFD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F2988ACBB5DB51"
+				item: "mekanism:portable_qio_dashboard"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AB541A2323AF3B3"]
+			description: [
+				"&2QIO Dashboards&r allow a user to interface with the contents of a &9QIO Drive Array&r."
+				""
+				"It looks similar to a &echest inventory&r, but it can be searched, sorted, scrolled through, and shows all items of one type as a single stack, even if there are thousands of them."
+				""
+				"In order to access a &9drive array&r, the &2dashboard&r must be set to the same &o&bfrequency&r as the &9drive array&r."
+			]
+			id: "06CA244E47D9C097"
+			rewards: [
+				{
+					id: "099103DC3A8A0A1C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43E37856C6729024"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E47C572F5037FD4"
+				item: "mekanism:qio_dashboard"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22C5D2CD84E6E9EF"]
+			description: [
+				"&9Modules&r are &eupgrades&r that can be applied to the &3Mekasuit&r and the &7Meka-Tool&r at a &dModification Station&r."
+				""
+				"Each &o&bmodule's effects can be tuned in the config&r screen bound to your desired &akeybind&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "08BE431ACC886F18"
+			rewards: [
+				{
+					id: "4353BE624A3A1FA5"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1E41331CB9C5BBDB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "219454D4E0D5B3B2"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Energy Units&r are modules that will &ndouble&r the current energy capacity of the selected &3MekaSuit&r armor piece."
+				""
+				"Max unit per equipment: &o&b8&r"
+				""
+				"#of Energy UnitTotal Energy Capacity:"
+				"&b0&r Energy Unit &o&b6.40MFE&r"
+				"&b1&r Energy Unit &o&b12.80MFE&r"
+				"&b2&r Energy Unit &o&b25.60MFE&r"
+				"&b3&r Energy Unit &o&b51.20MFE&r"
+				"&b4&r Energy Unit &o&b102.40MFE&r"
+				"&b5&r Energy Unit &o&b204.80MFE&r"
+				"&b6&r Energy Unit &o&b409.60MFE&r"
+				"&b7&r Energy Unit &o&b819.20MFE&r"
+				"&b8&r Energy Unit &o&b1.63GFE&r"
+			]
+			hide_dependency_lines: true
+			id: "5910AFFF3BAF51CD"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "5CD7ED9C17721E0E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26BB1C57726C7BE5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases maximum energy capacity"
+			tasks: [{
+				id: "11E4EDFA838CEBA2"
+				item: "mekanism:module_energy_unit"
+				type: "item"
+			}]
+			x: 14.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per equipment: &o&b1&r"]
+			hide_dependency_lines: true
+			id: "3E276CD50404D66C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "5AED1D8C28A00514"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7AB741E617AF14CD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses holographic projectors to modulate the perceived color of the MekaSuit"
+			tasks: [{
+				id: "196870EC838EF4E9"
+				item: "mekanism:module_color_modulation_unit"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per equipment: &o&b1&r"]
+			hide_dependency_lines: true
+			id: "3708FD157BA717FE"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "7FB5954CF10AA260"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2E998D46F868BFF3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Refracts and safely dissipates lasers that hit any MekaSuit armor piece"
+			tasks: [{
+				id: "2AADFEB227FC295A"
+				item: "mekanism:module_laser_dissipation_unit"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Radiation Shielding Units&r are modules that allows your &3MekaSuit&r armor piece to act like the respective &eHazmat Suit&r pieces and provide protection from &8radiation&r."
+				""
+				"Note that once you have been exposed to deadly doses of &8radiation&r without protection and began taking damage, wearing &o&bRadiation-Shielding-Unit-installed&r armor pieces &cwill not&r instantly prevent you from taking damage. Instead, it will only prevent the increase of your &8radiation&r dose."
+				""
+				"In addition, all of your &3MekaSuit&r armor pieces must have &6Radiation Shielding Units&r installed for a full protection against &8radiation&r."
+				""
+				"Max unit per armor piece: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "2BB26555F06670C1"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0FD40F0EEAE7BF29"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "27497BC000A66873"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Provides thick, radiation-proof metal plating to any MekaSuit armor piece"
+			tasks: [{
+				id: "19D1F3D64771756B"
+				item: "mekanism:module_radiation_shielding_unit"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"The &6Excavation Escalation Unit&r is a module that when added to a &7Meka-Tool&r Increases the &o&bMining speed of all blocks&r."
+				""
+				"&o&dMULTIPUL&r:"
+				"With each module added, the &7Meka-Tool&r Gaines another tier of &nefficiency&r."
+				""
+				"&o&b1 = 4-16&r"
+				"&b&o2 = 32&r"
+				"&o&b3 = 64&r"
+				"&b&o4 = 128&r"
+				""
+				"Max unit per Meka-Tool: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "7E3AECFF63E9B133"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "2C0F8BAD12BC8382"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1D0B5EE907A01B20"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases digging speed on any block"
+			tasks: [{
+				id: "3C2FB0343B2A0BB8"
+				item: "mekanism:module_excavation_escalation_unit"
+				type: "item"
+			}]
+			x: 16.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"The &6Attack Amplification Unit&r Is a Module that Amplifies Melee &aattacks&r to both players and mobs, it can only be applied to the &7Meka-Tool&r."
+				""
+				"Max unit per Meka-Tool: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "20ED8034C6C5B9B5"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "200D48002089DC88"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "675E708F6E680048"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Amplifies melee attacks on players or mobs"
+			tasks: [{
+				id: "7DDB89E7E77A99AF"
+				item: "mekanism:module_attack_amplification_unit"
+				type: "item"
+			}]
+			x: 17.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"The &6Farming Unit&r is a Module that is applied to the &7Meka-Tool&r."
+				""
+				"It Gives the tool several &o&bagriculture-based&r functions. Up to &o&b4&r can be stacked on one tool."
+				""
+				"The &6Farming Unit&r unlocks the following abilities in the &7Meka-tool&r:"
+				""
+				"- &o&bSoil tilling&r"
+				"- &o&bLog stripping&r"
+				"- &o&bSoil flattening&r"
+				""
+				"If the &3Meka-Tool&r also has a &cShearing Unit&r and &eTeleportation Unit&r installed, both Modules will be automatically disabled if the &6Farming Unit&r is enabled, and vice versa."
+				""
+				"Max unit per Meka-Tool: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "58857503B3B1AC02"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "18E124FFAA90F6C0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6D95FA42A202CC50"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allows for soil tilling, log stripping and soil flattering"
+			tasks: [{
+				id: "0D509DF3459F5D4C"
+				item: "mekanism:module_farming_unit"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"If the &3Meka-Tool&r also has a &cFarming Unit&r and &eTeleportation Unit&r installed, both Modules will be automatically disabled if the &6Shearing Unit&r is enabled, and vice versa."
+				""
+				"Max unit per Meka-Tool: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "600A0D9F99E19373"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "44B213F1BD7A896A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "108CB4BAEE904E28"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allows the creation of energy blades for precise cutting jobs"
+			tasks: [{
+				id: "364B05D23BA14266"
+				item: "mekanism:module_shearing_unit"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"The &bSilk Touch Unit&r is a Module that is installed onto the &7Meka-Tool&r, which gives the tool the property of the &dSilk-Touch Enchantment&r."
+				""
+				"Max unit per Meka-Tool: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "070E26FB29D40F6B"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "599CAD9BC3F120DB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "794ACAFAE16EB0F3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allows all mined blocks to drop as themselves"
+			tasks: [{
+				id: "229242B861151AED"
+				item: "mekanism:module_silk_touch_unit"
+				type: "item"
+			}]
+			x: 14.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"The &6Ore Refinement Unit&r is a Module that is installed onto the &7Meka-Tool&r, which gives the tool the property of the &dFortune Enchantment&r."
+				""
+				"Max unit per Meka-Tool: &o&b3&r"
+			]
+			hide_dependency_lines: true
+			id: "54C8B9BA9821E3D4"
+			optional: true
+			rewards: [
+				{
+					id: "063B01630520DEF8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78303D9025662142"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases ore yields"
+			tasks: [{
+				id: "413F5AB40B545F3F"
+				item: "mekanism:module_fortune_unit"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per Meka-Tool: &o&b4&r"]
+			hide_dependency_lines: true
+			id: "715D0B4DE98AC2BC"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "421B63241931EE3C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "53D3D1BF49635241"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses contolled explosiones to destroy nearby blocks in the target plane"
+			tasks: [{
+				id: "1A9ADBECB8EEE047"
+				item: "mekanism:module_blasting_unit"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per Meka-Tool: &o&b4&r"]
+			hide_dependency_lines: true
+			id: "135F937F82CD5B46"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "45B0FB43026A38F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C2AE9BDFB4610DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allows for quick mining of ore deposits and rapid felling of trees"
+			tasks: [{
+				id: "4B989CFE5CC10471"
+				item: "mekanism:module_vein_mining_unit"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"If the &3Meka-Tool&r also has a &cFarming Unit&r and &eShearing Unit&r installed, both Modules will be automatically disabled if the &6Teleportation Unit&r is enabled, and vice versa."
+				""
+				"Max unit per Meka-Tool: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "2E3013C78875B743"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "09782E14ED40A3CB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "38C28979E9A0184C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Provides for quick travel to nearby blocks"
+			tasks: [{
+				id: "5E0C6287E96BCF20"
+				item: "mekanism:module_teleportation_unit"
+				type: "item"
+			}]
+			x: 16.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Electrolytic Breathing Units&r are modules that allows you to breathe underwater."
+				""
+				"In addition, if the &cJetpack Unit&r is installed onto the &3MekaSuit Bodyarmor&r, it will automatically begin to refuel its &7hydrogen&r supply while &9underwater&r or out in the rain."
+				""
+				"Max unit per helmet: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "6F81013280D0225E"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "7F97D942DB015C77"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EBE8E77410C5A12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses electrolysis to create breathable oxygen from water"
+			tasks: [{
+				id: "6958C95231831A04"
+				item: "mekanism:module_electrolytic_breathing_unit"
+				type: "item"
+			}]
+			x: 17.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Inhalation Purification Units&r are modules that can protect the player from &dselected potion effects&r including beneficial, &o&bneutral&r, and &o&bharmful&r ones."
+				""
+				"Using its stored &cenergy&r, it can nullify the &dpotion effects&r. The potion may still look like it is in effect (e.g. black hearts and injuring noises when hit with a Potion of Decay), but in actuality the player will not receive any of its effects."
+				""
+				"Max unit per helmet: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "6E6DE25F39FCFE7C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "2DC67ECFE0F29059"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1DED5597C8E299DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Applies a miniature electromagnetic field around the breathing apparatus, preventing selected potion effect types"
+			tasks: [{
+				id: "2FD6C742644253D8"
+				item: "mekanism:module_inhalation_purification_unit"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per helmet: &o&b4&r"]
+			hide_dependency_lines: true
+			id: "35DA75BC8CF66040"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "1093BEA96E44C245"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1642D912C2AEE2F5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Brightnes the surrounding environment, allowing the user to see through darkness"
+			tasks: [{
+				id: "46E468DCC359CB1D"
+				item: "mekanism:module_vision_enhancement_unit"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Nutritional Injection Units&r are modules that can be installed on a &3MekaSuit Helmet&r to remove the need to manually eat."
+				""
+				"When installed, the &3MekaSuit Helmet&r will have an internal storage for &eNutritional Paste&r (&o&b128,000mb&r)."
+				""
+				"Max units per helmet: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "4D03073FF1361F18"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "5117291145274912"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D9AE43B9ED3C0C5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Automatically feeds the player Nutritional Paste when hungry"
+			tasks: [{
+				id: "581C96A3EDC6866C"
+				item: "mekanism:module_nutritional_injection_unit"
+				type: "item"
+			}]
+			x: 14.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Dosimeter Units&r are modules that will display your &8radiation&r dose in the &b&oHUD&r on the &nbottom right corner&r."
+				""
+				"Max unit per bodyarmor: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "3C178AE7107D3F11"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "741BD7E0A1F52088"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "44B3101F5DFBCB32"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Displays the user's current radiation dose in the HUD"
+			tasks: [{
+				id: "7099C1FDDAD06C53"
+				item: "mekanism:module_dosimeter_unit"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per bodyarmor: &o&b1&r"]
+			hide_dependency_lines: true
+			id: "0EF18AB44EC4699F"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "597B4D9346C7554B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "727432BB4713F0C2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Displays the ambient radiation level in the HUD"
+			tasks: [{
+				id: "459DE746F8ED9A18"
+				item: "mekanism:module_geiger_unit"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Jetpack Units&r are modules that allows your &3MekaSuit Bodyarmor&r to have the functions of a &cJetpack&r."
+				""
+				"Once applied, the &3MekaSuit Bodyarmor&r will have an internal storage for &7hydrogen&r (&o&b48,000mb&r). The &6Jetpack Unit&r is best paired with the &9Electrolytic Breathing Unit&r. Doing so allows the accumulation of &7hydrogen&r when &9underwater&r or in the rain."
+				""
+				"Alternatively, &7hydrogen&r can manually be refueled using a &achemical tank&r filled with &7hydrogen&r."
+				""
+				"Max unit per bodyarmor: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "06653FDEB1D89ADD"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "1F2614F8C634E4A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "16BDF7E2CCE8CFEF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Applies a hydrogen-fueled jetpack to the MekaSuit"
+			tasks: [{
+				id: "1E0D193C4588DCA4"
+				item: "mekanism:module_jetpack_unit"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Charge Distribution Units&r are modules that distributes gained energy evenly to all &3MekaSuit Armor&r pieces."
+				""
+				"Normally if you have installed &9Solar Recharging Units&r onto your &3MekaSuit Helmet&r, only the helmet will gain all the energy it's producing."
+				""
+				"With the &6Charge Distribution Unit&r installed, the produced energy will be evenly distributed throughout all &3MekaSuit Armor&r pieces."
+				""
+				"Max unit per bodyarmor: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "7ED9AF24AD1589EF"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "53F1EDE8ED67144A"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "464F7CF73D5505D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Evenly distributes charge throughout all worn MekaSuit armor"
+			tasks: [{
+				id: "54EBF2ADE32F45AF"
+				item: "mekanism:module_charge_distribution_unit"
+				type: "item"
+			}]
+			x: 16.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Gravitational Modulating Units&r are modules that allows the user to utilize creative flight."
+				""
+				"If the &3MekaSuit&r bodyarmor also has a &cJetpack Unit&r installed, the &cJetpack Unit&r will be automatically disabled if the &6Gravitational Modulating Unit&r is enabled, and vice versa."
+				""
+				"Max unit per bodyarmor: &o&b1&r"
+			]
+			hide_dependency_lines: true
+			id: "032761B26BB8A03A"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0CCAFA180EA04AF6"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6384B5B632C7783C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity"
+			tasks: [{
+				id: "497B4CB8F053A4DA"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: 17.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per bodyarmor: &o&b1&r"]
+			hide_dependency_lines: true
+			id: "7D39B698BE1D5FE2"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "4680907E5D4AD967"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5BB3FD9CAE88E90C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Applies an HDPE Reinforced Elytra to the MekaSuit"
+			tasks: [{
+				id: "40D1B13F7BE25A46"
+				item: "mekanism:module_elytra_unit"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per pants: &o&b1&r"]
+			hide_dependency_lines: true
+			id: "49DDFC6C32BAB50A"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "3F3B951E4B8C27A8"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3DB09B3F1806C5DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allow the user to act as through they are on solid ground"
+			tasks: [{
+				id: "3F8A4655FE41A3DA"
+				item: "mekanism:module_gyroscopic_stabilization_unit"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per pants: &o&b4&r"]
+			hide_dependency_lines: true
+			id: "2F34661382BE407C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0785718A4BA2573B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CF36A211F0E93FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses advanced technology to repel water, lowering the resistance felt while moving through it"
+			tasks: [{
+				id: "3F518BB9F06BA5FA"
+				item: "mekanism:module_hydrostatic_repulsor_unit"
+				type: "item"
+			}]
+			x: 14.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Locomotive Boosting Units&r are modules that will allow you to boost your &o&bsprinting speed&r and &o&bjumping distance&r."
+				""
+				"It can be configured from &o&b0.0&r &nsprint boost&r, to a &o&b0.5&r &nsprint boost&r."
+				""
+				"Note that your &o&bhunger consumption&r would also &nincrease&r."
+				""
+				"Max unit per pants: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "17C8416CFA5D2A07"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "4569D009B8572B5E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "10B3D9991933E50B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases the user's sprinting speed (and jumping distance)"
+			tasks: [{
+				id: "3A873A20488E6B64"
+				item: "mekanism:module_locomotive_boosting_unit"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per pants: &o&b5&r"]
+			hide_dependency_lines: true
+			id: "7595C4C82A678645"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "6AF161711447C80F"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6BD6D6EBD1361E02"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses motorized servos to reduce the strain of sneaking"
+			tasks: [{
+				id: "4CD5618AF540F953"
+				item: "mekanism:module_motorized_servo_unit"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Hydraulic Propulsion Units&r are modules that allows you climb over a &nmaximum&r of &o&b2&r blocks."
+				""
+				"It also allows you to &njump higher&r when you hold &aLeft Control&r and &ejump&r (&o&bLCrtl+Spacebar&r)."
+				""
+				"Max modules per boots: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "1EBD4CAAA9532402"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "657E91D0758EC7F0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1567D0291833D5FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Allows the user to both step and jump higher"
+			tasks: [{
+				id: "3CBC64890FD1169D"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Magnetic Attraction Unit&r is a module that is applied to the &3MekaSuit Boots&r. "
+				""
+				"Max unit per boots: &o&b4&r"
+			]
+			hide_dependency_lines: true
+			id: "2BE2C7CCFD112F91"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "1BFF79132473DCD2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "334B7B669174B3AB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses powerful magnets to draw distant items towards the player"
+			tasks: [{
+				id: "089AEC5DCF31400E"
+				item: "mekanism:module_magnetic_attraction_unit"
+				type: "item"
+			}]
+			x: 16.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per boots: &o&b2&r"]
+			hide_dependency_lines: true
+			id: "2D4384B19817A1EA"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "0078C1EBBD06FE4E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3623D3403127933A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Uses liquide hydrogen to freeze any water the player walks on"
+			tasks: [{
+				id: "44DBC4CFB5ACC97B"
+				item: "mekanism:module_frost_walker_unit"
+				type: "item"
+			}]
+			x: 17.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: [
+				"&6Solar Recharging Units&r are modules that charge your &3MekaSuit&r during direct exposure to sunlight."
+				""
+				"Max units per helmet: &o&b8&r"
+			]
+			hide_dependency_lines: true
+			id: "71257606A2DEA923"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "203C2A9C16C3B7FE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2C5449F99295F352"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Harness the power of the sun to charge your MekaSuit"
+			tasks: [{
+				id: "61ABB304FEBACD74"
+				item: "mekanismgenerators:module_solar_recharging_unit"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["08BE431ACC886F18"]
+			description: ["Max unit per pants: &o&b8&r"]
+			hide_dependency_lines: true
+			id: "18ED4E5D3763DE3F"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "4F949C581CBBE248"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "330D475C077A4744"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources"
+			tasks: [{
+				id: "4B18B44527395E05"
+				item: "mekanismgenerators:module_geothermal_generator_unit"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -4.25d
+		}
+	]
+	title: "&2&oMekanism:&r &o&fPhase two"
+}

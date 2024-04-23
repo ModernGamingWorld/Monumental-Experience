@@ -1,0 +1,18 @@
+{
+	# When enabled, players will be able to use beds in the nether.
+	# Default: false
+	allow_beds_in_the_nether: false
+	
+	# When enabled, light sources near spawners will be broken to allow for mob spawning.
+	# Default: false
+	break_light_sources_near_spawners: false
+	
+	# If non-zero, set the jigsaw feature size limit to this value.
+	# Default: 0
+	# Range: 0 ~ 256
+	extended_jigsaw_range: 0
+	
+	# When enabled, the light level around spawners will be ignored for mob spawning.
+	# Default: false
+	ignore_light_level_for_spawners: false
+}

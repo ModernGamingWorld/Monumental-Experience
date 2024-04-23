@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "69B9F7247002FE35"
+	icon: "ironfurnaces:million_furnace"
+	id: "00000000000019ED"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "00000000000019EE"
+			rewards: [
+				{
+					id: "41944CBF6DD2D220"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C249A5BB636830A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000019EF"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "&5Furnace"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000019EE"]
+			id: "00000000000019F0"
+			rewards: [
+				{
+					id: "338F20FA25587208"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0BD982864F3ED77A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F1"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "&5Copper Furnace"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000019F0"]
+			id: "00000000000019F2"
+			rewards: [
+				{
+					id: "22FC3BB3FB22E9A3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4FDD5DDBCEBA1CED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F3"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000019F2"]
+			id: "00000000000019F4"
+			rewards: [
+				{
+					id: "6E815EA22CD1B231"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3ABA44920F0322D6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F5"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			title: "&5Silver Furnace"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000019F4"]
+			id: "00000000000019F6"
+			rewards: [
+				{
+					id: "00000000000019FB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E08B41228FC808E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F7"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "&5Golden Furnace"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000019F6"]
+			id: "00000000000019F8"
+			rewards: [
+				{
+					id: "00000000000019FA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0486E6559782E4D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019F9"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "&5Diamond Furnace"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["00000000000019F8"]
+			id: "00000000000019FC"
+			rewards: [
+				{
+					id: "00000000000019FE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6359D9E24A340DED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "00000000000019FD"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			title: "&5Emerald Furance"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00000000000019FC"]
+			id: "00000000000019FF"
+			rewards: [
+				{
+					id: "0000000000001A01"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0FCFB39939D634EB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A00"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			title: "&5Crystal Furnaces"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00000000000019FF"]
+			id: "0000000000001A02"
+			rewards: [
+				{
+					id: "0000000000001A04"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79F56514072E35CB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A03"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "&5Obsidian Furnace"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0000000000001A02"]
+			id: "0000000000001A05"
+			rewards: [
+				{
+					id: "0000000000001A07"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "169D623D57654B6A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A06"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			title: "&5Netherite Furnace"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00000000000019EE"]
+			id: "0000000000001A10"
+			rewards: [
+				{
+					id: "0000000000001A12"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F8FF0BA898EF7FF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A11"
+				item: "ironfurnaces:item_spooky"
+				type: "item"
+			}]
+			title: "&5Pumpkin Furnace"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000019EE"]
+			id: "0000000000001A13"
+			rewards: [
+				{
+					id: "0000000000001A15"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F80A36229A9D091"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A14"
+				item: "ironfurnaces:item_xmas"
+				type: "item"
+			}]
+			title: "&5Furnace Wrapping Paper"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "0000000000001A16"
+			rewards: [
+				{
+					id: "4B3585A3C05BC88B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F44C5268CCABABC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001A17"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A16"]
+			id: "0000000000001A18"
+			rewards: [
+				{
+					id: "0000000000001A1A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "32DFB8BB07E19DB4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A19"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			title: "&5Blasting"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "0000000000001A1B"
+			rewards: [
+				{
+					id: "4B145A3976827D67"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "593C369334AE325B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001A1C"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "&5Smoker"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A1B"]
+			id: "0000000000001A1D"
+			rewards: [
+				{
+					id: "0000000000001A1F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B9095E39213D4A9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A1E"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "0000000000001A20"
+			rewards: [
+				{
+					id: "77F12641B134FDA3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3813FB87799D81C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "15D80923F9002AE2"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "&5Sugar"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A20"]
+			id: "0000000000001A22"
+			rewards: [
+				{
+					id: "0000000000001A24"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69A656186AC68989"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A23"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			title: "&5Speed Upgrade"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "0000000000001A25"
+			rewards: [
+				{
+					id: "56D808BCABBBF7A3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1C4AB1BB98AE76AC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000001A26"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any minecraft:coals"
+				type: "item"
+			}]
+			title: "&5Coal"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A25"]
+			id: "0000000000001A27"
+			rewards: [
+				{
+					id: "0000000000001A29"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "22DA6C1D959A4198"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A28"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000001A05"]
+			id: "0000000000001A2A"
+			rewards: [
+				{
+					id: "0000000000001A2C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "786A6C814057950A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0000000000001A2B"
+					item: "ironfurnaces:rainbow_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0000000000001A2D"
+					item: "ironfurnaces:rainbow_plating"
+					type: "item"
+				}
+			]
+			title: "&5Rainbow Parts"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0000000000001A2A"]
+			id: "0000000000001A2E"
+			rewards: [
+				{
+					id: "0000000000001A30"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00E3A403D63D1B03"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0000000000001A2F"
+				item: "ironfurnaces:million_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+	]
+	title: "&2&oIron Furnaces"
+}

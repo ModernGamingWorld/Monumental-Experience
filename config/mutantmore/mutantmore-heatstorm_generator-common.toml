@@ -1,0 +1,26 @@
+#Configure Mutant More's Heatstorm Generator on the client and server sides (these changes will affect everyone in the world)! The game needs to be restarted for changes to take effect!
+#
+# The horizontal distance to the Heatstorm Generator mobs need to be to start heating up
+# usually set to 10.0
+"Heat Range" = 10.0
+#
+# The vertical distance to the Heatstorm Generator mobs need to be to start heating up
+# usually set to 5.0
+"Heat Range Y" = 5.0
+#
+# The amount per tick (there are 20 ticks per second) that mobs heat up when near the Heatstorm Generator
+# usually set to 0.005
+"Heat Speed" = 0.005
+#
+# If the Heatstorm Generator can heat and damage mobs that are immune to fire
+# usually set to false
+"Heats Fire Immune Mobs" = false
+#
+# If the Heatstorm Generator sets nearby blocks on fire when active
+# usually set to false
+"Heat Griefing" = false
+#
+# The chance per tick (20 ticks in a second) that the Heatstorm Generator will try to set a nearby block on fire when active
+# usually set to 1 in 20
+"Heat Griefing Chance" = 20
+

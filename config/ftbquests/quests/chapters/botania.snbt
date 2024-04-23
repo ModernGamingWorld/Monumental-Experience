@@ -1,0 +1,4027 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "4814F40AB34427B6"
+	icon: "botania:dandelifeon"
+	id: "1BDEBA367410E2CD"
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -7.75d
+		y: -10.05357142857143d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B9E96F499FB20AA"]
+			description: [
+				"&aBotania&r is a tech mod themed around natural magic."
+				""
+				"Gameplay is centered around creating &5Magical Flowers&r and devices using &bMana&r, the power of the &eEarth&r."
+				""
+				"To start your journey in Botania, you'll need plenty of &5Mystical Flowers&r!"
+				""
+				"For more information on the items in the mod, make sure to check out the &aLexica Botania&r. "
+			]
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "46B386FC16966543"
+			min_width: 300
+			rewards: [
+				{
+					id: "65311FAC8446A379"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C634E9B95513E6C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oAncient Log&r quest*"
+			tasks: [{
+				id: "071B5C826F3084B0"
+				type: "checkmark"
+			}]
+			title: "Welcome to &3Botania"
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46B386FC16966543"]
+			description: [
+				"Around the world, you may stumble upon a large variety of &5Mystical Flowers&r. They come in a total of &n16 different colors&r."
+				""
+				"These flowers can be plucked for &dMystical Petals&r, which are used in the creation of magical instruments and plants. &eRight-clicking&r a petal upon the ground will bury it, making it emit particles. "
+				""
+				"There're also some taller variants of the typical &5Mystical Flowers&r around the world. These can only be gathered with &7Shears&r, but can be plucked for twice the petals a normal flower would yield. They're a bit too big for dye, though."
+				""
+				"Tall flower variants can be made manually by fertilizing a &5Mystical Flower&r or a &3Buried Petal&r with &bBone Meal&r."
+			]
+			id: "0EC58920BF996185"
+			rewards: [
+				{
+					id: "5EB7922F6F7E48D2"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0A4CB60A32BE3948"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4814C619F355BF39"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any &dMystical Flowers"
+				type: "item"
+			}]
+			title: "Mystical Flowers"
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0EC58920BF996185"]
+			description: ["This &2Floral Fertilizer&r will grow &5Mystical Flowers&r in the nearby vicinity, if you ever run low on those."]
+			id: "341C5C44245DE5E6"
+			rewards: [
+				{
+					id: "652EC3228113ACE9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "64188E60E6896CC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "02E5377D476566A7"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			title: "Floral Fertilizer"
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0EC58920BF996185"]
+			description: [
+				"To create plant life that can do their bidding, a botanist needs a special means of infusing plants with mystical energy."
+				""
+				"Now that we have some flowers, we can start converting the basic flora into functioning and generating flora using the &7Petal Apothecary&r!"
+				""
+				"To start harnessing the energy from &eMystical Flower Petals&r, we will need to fill the &3Apothecary&r with &bWater&r. "
+				""
+				"To create items, just throw the appropriate items for the recipe into the &3Apothecary&r. Right clicking with an empty hand will remove items from it as well."
+				""
+				"Once a recipe has been completed, you will have about &n20 seconds&r where &bright clicking with an empty hand&r will refill the last recipe, making it &neasier&r to create multiple of the same items!"
+			]
+			icon: "botania:apothecary_default"
+			id: "109C0AE9202A6AB8"
+			min_width: 300
+			rewards: [
+				{
+					id: "76547C03EAB9F5F3"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "34661C417E2FFEFF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4141A9873EAE5BCF"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"When it comes right down to it, &3Dreamwood&r simply conducts &bMana&r better than &4Livingwood&r."
+				""
+				"A few adjustments in recipe (like substituting &dElementium&r for &6Gold&r) yield an &7Elven Mana Spreader&r, which conducts more &bMana&r, faster, and for longer without &bMana&r Loss. Unfortunately, these can't be turned into &ePulse Mana Spreaders&r."
+				""
+				"Combining this already-powerful spreader with a &0Gaia Spirit&r and a &dDragonstone&r gem yields an even more potent variant. &2The Gaia Spreader&r is the &6gold&r standard of &eMana Spreaders&r, with upgrades pretty much all around."
+				""
+				"Do note that these spreaders fire larger payloads at once (and thus might fire less often)."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "31B17D808AB30388"
+			rewards: [
+				{
+					id: "1D8F8A7DEE54873D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2E21DFBB29A70546"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39947F7610DB553E"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"&eMythic Botany&r mod adds to the &bMana&r system with the &5Mana-Infuser&r."
+				""
+				"It is an upgrade to the &9Terrestrial Agglomeration Plate&r that requires a gold &6Shimmerock&r plate and allows the creation of &2Alfsteel&r, a higher-tiered material than &eTerrasteel&r."
+			]
+			icon: "mythicbotany:mana_infuser"
+			id: "3F9049E485ED4779"
+			rewards: [
+				{
+					id: "0CA04B5164B00257"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "576E122DB503640B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "494F3098DA7B2386"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "36FF52FAD8B60BAA"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "19C76C46ACDB9701"
+					item: "botania:shimmerrock"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F9049E485ED4779"]
+			description: [
+				"It has been well established at this point that &bMana&r is excellent at performing spontaneous recombinations."
+				""
+				"Some limited magics have managed to harness this by absorbing the latent mana in the globules left behind when the living pass."
+				""
+				"The &dAlfsteel Pylon&r helps to speed that process along, injecting pure &bMana&r directly into these &6Mendable&r items."
+				""
+				"Use a &aMana Spreader&r to send mana into the &dPylon&r. Any items enchanted with &4Mending&r that find themselves atop the &dPylon&r will rapidly repair at the cost of &bMana&r."
+			]
+			id: "14FF5120BE45772E"
+			rewards: [
+				{
+					id: "2D461F99712BF807"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4596EF9391955CB6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53DD56784E316818"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27CD17C4B3613171"]
+			description: [
+				"We all know, &aBotania&r is a tech mod... magic mod... tech mod... magic mod? Tech mod!? It's a mod. A fancy mod with &bMana&r, &9Mystical Flowers&r, &6Elves&r and the &3Gaia&r. Sometimes it can be hard or annoying to automate all the things in &aBotania&r."
+				""
+				"&dBotanical Machinery&r will help you automate basically everything from &aBotania&r. Quite uncommon in the world of &aBotania&r, this mod adds plenty of &nmachines&r. What machines? Find out below!"
+				""
+				"Use Sparks to transfer mana from &5Mana Batery&r to &7Machines&r."
+				""
+				"All machines are &ncompatible&r with other mods. You can automate everything with &eRefined Storage&r."
+			]
+			hide_dependency_lines: true
+			id: "778BEBE262A9F57B"
+			rewards: [
+				{
+					id: "5627BF4E2E7EA82B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7B8E801E96012FD4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "It's something that makes the mod magical"
+			tasks: [{
+				id: "083ECC3B439F545B"
+				item: "botanicalmachinery:mana_battery"
+				type: "item"
+			}]
+			title: "&5Botanical Machinery"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: [
+				"This single block has a tiny version of an &6Alfheim Portal&r inside."
+				""
+				"It allows for trade with the elves without the need of having a gigantic portal around."
+				""
+				"Just be careful not to put any bread inside..."
+			]
+			id: "5B71E7C1B1A10F15"
+			rewards: [
+				{
+					id: "52CBAD8466507C7E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A4FF1F0B184161E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Alfheim Portal"
+			tasks: [{
+				id: "5A5A6B3C0E02C96F"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: ["An improved version of the &5Botanical Brewery&r that receives &bMana&r from &eSparks&r and lets you automate brews easily."]
+			id: "2FD09C136E62C857"
+			rewards: [
+				{
+					id: "0842C38DD6527146"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "10AD953D2585E1D0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Potions"
+			tasks: [{
+				id: "3C9CDE64A7A2E334"
+				item: "botanicalmachinery:mechanical_brewery"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: [
+				"The &9Agglomeration Plate&r usually requires a stabilising platform underneath it."
+				""
+				"Not anymore with this device. This machine is pretty unknown to the regular botanist, so give it a shot!"
+			]
+			id: "20E9DDDD7B494D88"
+			rewards: [
+				{
+					id: "1E8CA3A54055E76C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "04C0D1DCA1D07A8A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Terrasteel"
+			tasks: [{
+				id: "62F1C3BEF84F7D42"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: [
+				"This device allows you to create runes a lot more easily."
+				""
+				"Really, it's nothing more than a normal &aRunic Altar&r, which can be automated using &bhoppers&r."
+			]
+			id: "023FEB5056A55197"
+			rewards: [
+				{
+					id: "345810402274FA62"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57CA6189A8C03882"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Runes"
+			tasks: [{
+				id: "40F6F7F20A7EF3FB"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: [
+				"Just like a regular &9Mana Pool&r, this can store quite some mana."
+				""
+				"It is also capable of mana infusion. As with any other pool, you can use catalysts."
+				""
+				"However, this pool requires you to put them into its inventory and not to place them below it."
+			]
+			id: "6AE0FDB5088FDAF1"
+			rewards: [
+				{
+					id: "55AB22A369324293"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "064200B3E4ECA763"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Mana Pool"
+			tasks: [{
+				id: "0DD351C868606B65"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: [
+				"By planting a &dFloating Pure Daisy&r onto a platform made out of &5Elementium&r, it is capable of processing &o8&r blocks at once in only a single block space."
+				""
+				"It can also handle fluids."
+			]
+			id: "1355E60676609056"
+			rewards: [
+				{
+					id: "71464E75340DE229"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F593FCC3C2D3606"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Living Wood/Rock"
+			tasks: [{
+				id: "489FFBDBA1AB3CFE"
+				item: "botanicalmachinery:mechanical_daisy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["778BEBE262A9F57B"]
+			description: ["An improved version of the &9Apothecary&r that uses water, seeds and ingredients to create all the flowers your heart desires."]
+			id: "37505E128D75DFC6"
+			rewards: [
+				{
+					id: "5FFEBA8D388CE65A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "39468DE36B5A8548"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Auto Apothecary"
+			tasks: [{
+				id: "1A4DC5A5A89086BF"
+				item: "botanicalmachinery:mechanical_apothecary"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["109C0AE9202A6AB8"]
+			description: [
+				"The &bPure Daisy&r is one of the first flowers you'll create!"
+				""
+				"Far from being just the most basic, the &bPure Daisy&r is the most important flower a botanist can have."
+				""
+				"This flower will purify up to 8 nearby &eAncient Log&r (&dNature's Aura&r) and the &eInfused Rock&r (&dNature's Aura&r) into their purified counterparts, &aLivingwood&r and &aLivingrock&r (This only converts in a 1 block radius around the flower)."
+				""
+				"A few other blocks can also be purified by placing them around the flower. While not as unique and essential as the living blocks, these recipes still can come in handy: &cNetherrack&r purifies into &3Cobblestone&r, &0Soul Sand&r into &eSand&r, &bIce&r into &9Packed Ice&r, and &1Water&r into &bSnow&r."
+			]
+			id: "74153127E494F8B4"
+			min_width: 300
+			rewards: [
+				{
+					id: "3500C36F111CC010"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6AD68639C892C694"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "59AF94AEAC55D6E7"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74153127E494F8B4"]
+			description: ["Pure Daisy will purify &eInfused Rock&r (&dNature's Aura&r) into purified counterpart &aLivingrock&r."]
+			id: "23ADD20D9B1AE0F3"
+			rewards: [
+				{
+					id: "4A8D2BDBBBED2B1C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F8197754ED2C532"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "66BBC650D92AD2D0"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			title: "&7Livingrock"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74153127E494F8B4"]
+			description: ["Pure Daisy will purify &eAncient Log&r (&dNature's Aura&r) into purified counterpart &aLivingwood&r."]
+			id: "597E4D997A20736D"
+			rewards: [
+				{
+					id: "6F1FFFC308BD4308"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "01348C91A0E1EE44"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3CC2E22FFC03582A"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			title: "&2Livingwood&r"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["597E4D997A20736D"]
+			description: [
+				"The &2Wand of the Forest&r is a &nmust-have&r for a huge number of botanical tasks."
+				""
+				"The wand has two modes: &aBind Mode&r and &9Function Mode&r."
+				""
+				"In &aBind Mode&r, &nsneak-right click&r it on a compatible block to select it, then &nsneak-right click&r elsewhere to bind the two blocks."
+				""
+				"In &9Function Mode&r it simply doesn't perform this function, freeing the &nsneak-right click&r action up for other tasks. "
+				""
+				"The two modes can be switched between by &nsneak-right clicking&r the wand in the air."
+				""
+				"&nSneak-right clicking&r a block in &9Function Mode&r rotates the block around the axis of the side it was clicked on-- for example, using the wand on the top of a Chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
+			]
+			hide: false
+			id: "205BBDFBCA582E3B"
+			rewards: [
+				{
+					id: "453BD17C07D57FEB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "09C24C9BBE00C978"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59FB36F10FBA2E3D"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Wand of the Forest"
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["205BBDFBCA582E3B"]
+			description: [
+				"The &2Mana Spreader&r shoots Mana from point &oA&r&b to point &oB&r&b. It faces a cardinal direction when placed, but &nsneak-right clicking&r it with a &aWand of the Forest&r on a face points it elsewhere. It can be aimed at other blocks with a wand in &7Bind Mode&r."
+				""
+				"Holding a Wand of the Forest makes nearby spreaders display aiming beams. Hovering over a spreader highlights its target. The sparkles show where &bMana Loss&r begins to occur. As long as the target of the spreader can accept Mana (that is, can contain Mana and isn't full), the spreader will repeatedly fire &bMana Bursts&r, which travel to their destination and transfer their &bMana&r to it."
+				""
+				"Applying a &cRedstone&r Signal to a spreader will pause its firing of bursts. If finer control is required, a &dPulse Mana Spreader&r is recommended, as it fires upon a redstone signal in lieu of a target."
+			]
+			id: "1C48F2612F2FA828"
+			rewards: [
+				{
+					id: "6C17C48C0F758B72"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56F083305C6F2258"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B0D56F682F2791A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "Directing Mana"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C48F2612F2FA828"]
+			description: [
+				"When you combine a piece of &4Redstone&r with a &2Mana Spreader&r, it creates a &9Pulse Mana Spreader&r."
+				""
+				"These can be controlled to only shoot a mana pulse when given a redstone pulse."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4C22BA5824662C7E"
+			optional: true
+			rewards: [
+				{
+					id: "7EE4693E9DE0DC3C"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31784B4F588FF91A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "06C2FA45E55D9369"
+				item: "botania:redstone_spreader"
+				type: "item"
+			}]
+			x: -9.494642857142857d
+			y: -1.1321428571428527d
+		}
+		{
+			dependencies: ["23ADD20D9B1AE0F3"]
+			description: [
+				"The &9Mana Pool&r is a storage for &bMana&r."
+				""
+				"Tossing certain resources into a Mana Pool, once it has some mana stored inside, will infuse them with Mana from the pool, turning them into more magically-useful forms, like Manasteel, Mana Diamonds, Mana Pearls."
+				""
+				"To generate &bMana&r, you'll need to make a &2Generating Flower&r, like the &9Hydroangeas&r or the &cEndoflame&r."
+				""
+				"The &9Mana Pool&r stores a massive amount of &bMana&r. &aWand of the Forest&r can read the &bMana&r levels in a pool, much like a &eMana Spreader&r."
+			]
+			hide: false
+			id: "7A359C1F5E041C4F"
+			min_width: 300
+			rewards: [
+				{
+					id: "36A3BB957F9B0A7D"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3F7FBC2CD3ABA93F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57D1954039E03CDB"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "558649C69096D2D7"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:hydroangeas"
+								}
+								{
+									Count: 1b
+									id: "botania:endoflame"
+								}
+							]
+						}
+					}
+					title: "Starter Generating Flowers"
+					type: "item"
+				}
+			]
+			title: "&bMana&r"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: [
+				"The &bMana Splitter&r can be used as a way of splitting incoming &bMana&r bursts into several &9Mana Pools&r at once."
+				""
+				"&7Sparks&r are used to transfer &bMana&r to specific blocks, which are needed for in the progression of &aBotania&r."
+				""
+				"To use a &7Spark&r, place one over a &9Mana Pool&r, then another over a nearby block that can accept it. Think of this like \"wirelessly\" transferring &bMana&r from your &9Mana Pools&r to the desired nearby block."
+				""
+				"To remove a &7Spark&r, &esneak-right&r click it with a &2Wand of the Forest&r."
+			]
+			id: "2CBBE8EF07B1D3DA"
+			rewards: [
+				{
+					id: "26F96618691DAB49"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "17DFF49A764FD01B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6979609EF9040D79"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+				{
+					id: "4EA054C6C0255900"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: [
+				"The &9Mana Tablet&r is a portable &9Mana Pool&r!"
+				""
+				"Tossing the tablet into a &9Mana Pool&r will allow it to either give or take &bMana&r from the pool. You can switch between the modes by &esneak-right&r clicking with a &2Wand of the Forest&r."
+			]
+			id: "2162EA0216E27D68"
+			rewards: [
+				{
+					id: "1E9C4F0C40BA9069"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0280A391009998CC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0ADA4C174CEF2EEE"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: ["The &9Band of Mana&r is a wearable Mana Tablet that can be equipped like a trinket."]
+			id: "379AC75F99212089"
+			rewards: [
+				{
+					id: "3211DFE1AC631A28"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "269486A8469CF7A3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "088F2F276200B262"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["379AC75F99212089"]
+			description: ["By upgrading the &9Band of Mana&r with an ingot of &6Terrasteel&r, it creates the &dGreater Band of Mana&r which allows it to hold up to &o4x&r the amount of &bMana&r."]
+			hide: true
+			hide_dependency_lines: true
+			id: "2F01BF021E1BE0A2"
+			optional: true
+			rewards: [
+				{
+					id: "43B2D1B97834A894"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C6064D62AB82E4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3678AFFD31942CF3"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["109C0AE9202A6AB8"]
+			description: ["The &cEndoflame&r will absorb any combustible items or blocks dropped nearby, one at a time. It will then burn them to generate &bMana&r."]
+			id: "177658CA70DB0C89"
+			rewards: [
+				{
+					id: "4B497D2D5ECCDD14"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "389CC9957C9762C6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0F3DB7859AC1FA8A"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "&cBurning Items&r to Create Mana"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["109C0AE9202A6AB8"]
+			description: ["These flowers generate Mana by consuming &bWater Source Blocks&r in a 3x3 area around it. These are very slow, and will eventually decay."]
+			hide: false
+			hide_dependency_lines: false
+			id: "5D4F9B54A54EEBD6"
+			rewards: [
+				{
+					id: "3B4CD832400C1C74"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5894F218B2D800D5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "361773BACA86686E"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			title: "Using &9Water&r to Create Mana"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: ["Found only in treasure chests, the &0Black Lotus&r can be thrown into a non-empty &9Mana Pool&r to give it a good deal of concentrated &bMana&r."]
+			hide: true
+			hide_dependency_lines: true
+			id: "5E2AA5695D1F21D7"
+			optional: true
+			rewards: [
+				{
+					id: "105A6E982C7C74D9"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1F0B97E8BE5C0491"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "490EAAA3703A576F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:black_lotus"
+							}
+							{
+								Count: 1b
+								id: "botania:blacker_lotus"
+							}
+						]
+					}
+				}
+				title: "Black Lotus"
+				type: "item"
+			}]
+			title: "The Elusive Mana-infused Lotus"
+			x: -8.530357142857142d
+			y: -2.953571428571429d
+		}
+		{
+			dependencies: [
+				"07F65584D1525191"
+				"609284EA5EDD6A64"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7D583D8AD37085A6"
+			optional: true
+			rewards: [
+				{
+					id: "282B53E5D10236E1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0B4D0EBB54A38477"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0573FE02AA798A3A"
+				item: {
+					Count: 1b
+					id: "aiotbotania:manasteel_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Manasteel&r AIOT"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			id: "07F65584D1525191"
+			rewards: [
+				{
+					id: "4C3FAC55D34A037C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "532323F759BA173A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76BA8B9CAF7F42CF"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&9Manasteel Sword"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"Similar to the qualities of &7Iron&r, &9Manasteel Armor&r has superior &nenchantability&r and &ndurability&r."
+				""
+				"&9Manasteel&r items can also repair themselves with &bMana&r from the user's &einventory&r."
+			]
+			hide: false
+			id: "64DB69F741EA5BEE"
+			rewards: [
+				{
+					id: "2A22CA62C07F8722"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "43DDA4D87D260B12"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "731919E7ED474146"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ABD8D027FD1C170"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41EBB5AAF5F27DCA"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "248AD65A97AFB7DB"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Manasteel Armor"
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			id: "609284EA5EDD6A64"
+			rewards: [
+				{
+					id: "13AFE12BB4151519"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "242F1332F613CBAD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F1B648C3517B8B0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:manasteel_pick"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&9Manasteel Tools"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: [
+				"By tossing in certain items into a &3Mana Pool&r, you can infuse them with &bMana&r."
+				""
+				"Creating &9Manasteel&r or &bMana Diamond&r blocks will save your time, but more &bMana&r is required!"
+			]
+			hide: false
+			id: "70C5A902C0D26628"
+			rewards: [
+				{
+					id: "37B8087533078D5D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5B93938F4E168D3A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "43C86CA84DC14E8A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:manasteel_ingot"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_pearl"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_diamond"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_string"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_powder"
+							}
+							{
+								Count: 1b
+								id: "botania:quartz_mana"
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_glass"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_diamond_block"
+							}
+						]
+					}
+				}
+				title: "&3Mana-Infused Resources"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"While the &bManaweave Robes&r don't offer the greatest overall protection, the set &obonus&r is pretty powerful!"
+				""
+				"When all four pieces are worn, you'll get a &b&odiscount&r on &bMana&r cost for &b&oMana Tools&r and &b&oRods&r."
+				""
+				"The set can also repair itself using &bMana&r from one's &einventory&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "05A845C811A9A4A0"
+			rewards: [
+				{
+					id: "4C67653972C54B9F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "680A053B6B820755"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F1EBC95C7BC93DF"
+					item: "botania:manaweave_cloth"
+					type: "item"
+				}
+				{
+					id: "380292B73C32D32D"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E65D022473C0996"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75862C1E5E59C465"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E6BE4209A3BFC82"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manaweave Robes"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"The &dAlchemy Catalyst&r can be placed under a &bMana Pool&r to allow it to perform &9Alchemy&r. "
+				""
+				"This is useful to convert certain items into more useful items, like &cRotten Flesh&r into &4Leather&r."
+			]
+			id: "32DF4BC46620F952"
+			rewards: [
+				{
+					id: "3B2EBB91DA7960AC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C15B5DC610840C2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B5B67B066E672CD"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"&9Runes&r are vital crafting components in many of the more advanced recipes in Botania, and these are created on a &aRunic Altar&r."
+				""
+				"To use the &aAltar&r, start by placing the components of the rune you want on it. This can be done either by right clicking or dropping the item. It will also need &bMana&r, so make sure to point a &2Mana Spreader&r that is getting &bMana&r towards it as well."
+				""
+				"Once you've finished placing the items, you can hover over the &aAltar&r with your wand and it will show you the progress of the recipe. When it completes, drop a piece of &3Livingrock&r on the Altar, then use your wand to collect your &eRune&r."
+				""
+				"A total of &o16&r &eRunes&r exist. The most elementary runes are named after the &2Four Elements&r, the intermediate runes are named after the &eFour Seasons&r, and the most advanced runes are named after the &cSeven Deadly Sins&r. A separate &dRune of Mana&r also exists outside this progression."
+				""
+				"Runes used for recipes in the Runic Altar function as catalysts, and will not be consumed."
+				""
+				"Just like the &3Petal Apothecary&r, &eright-clicking&r the &aAltar&r with an empty hand after a recipe is complete will refill it with the items used in the last recipe."
+			]
+			id: "0631F054A9B97A40"
+			min_width: 300
+			rewards: [
+				{
+					id: "38B80CB7A60EB929"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0CC66ADD6727EA06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B91D26F0A805561"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					id: "5A06ED36DD9E9681"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:rune_water"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_fire"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_earth"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_air"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_mana"
+								}
+							]
+						}
+					}
+					title: "Basic Runes"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0631F054A9B97A40"]
+			description: ["When equipped, the &9Band of Aura&r will slowly generate a trickle of &bMana&r over time, and stores it into &oMana-containing&r items within your &einventory&r."]
+			hide_dependency_lines: false
+			id: "6A56574BC562B227"
+			rewards: [
+				{
+					id: "17231281A9840F71"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2BFD20F61AAD8AA4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04EDE2305855A16B"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0631F054A9B97A40"]
+			description: [
+				"To create &aTerrasteel&r, we'll first need to set up the multiblock for it. "
+				""
+				"For starters, its creation requires a &9Terrestrial Agglomeration Plate&r placed over a checkerboard pattern of &1Lapis Lazuli Blocks&r and &3Livingrock&r (or &7Shimmerrock&r). This block then needs to be provided with &bMana&r, with &7Sparks&r being the most efficient mode of transfer."
+			]
+			icon: "botania:terra_plate"
+			id: "65238A6DCDDDFA0D"
+			rewards: [
+				{
+					id: "4B6089B20867E9B5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7028FD2139F565E7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76F8BB9B8C181006"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3979F9123607CE43"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5BDBE9C2E0B8F70A"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A56574BC562B227"]
+			description: ["By upgrading the &9Band of Aura&r with an ingot of &6Terrasteel&r, it increases the mana generation rate of the band significantly."]
+			hide: true
+			hide_dependency_lines: true
+			id: "70C25BFA6FFA1799"
+			optional: true
+			rewards: [
+				{
+					id: "714095F1DA27E946"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C968B09A0FFC22E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34385B9406728C43"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30F7B68093D76590"]
+			description: [
+				"&2Incense Sticks&r can be infused with Brews in a &dBotanical Brewery&r."
+				""
+				"These can be lit using &oflint and steel&r on an &9Incense Plate&r to provide the brew effect for sixty times longer than its liquid counterpart, in a &n30-block&r radius around the plate."
+			]
+			id: "0D9354ABA2AE2A11"
+			rewards: [
+				{
+					id: "4AC46607559B6659"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0F0D834D803BA48B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B549F7000B06C0D"
+				item: "botania:incense_stick"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0631F054A9B97A40"]
+			description: ["Using vials, Mana, and reagents in a &aBotanical Brewery&r, you can create &9Brews&r which are just like Potions."]
+			id: "30F7B68093D76590"
+			rewards: [
+				{
+					id: "57ABAA87BD819676"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0E395D69ADD0CB60"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E9712523E4B94E8"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Dramatically increases the speed of the &aMana Bursts&r at the expense of initial capacity and faster mana loss."]
+			hide_dependency_lines: true
+			id: "2D1533268C835672"
+			rewards: [
+				{
+					id: "4BD89322D7B48400"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "70C562D006F44351"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4447633E574741FD"
+				item: "botania:lens_speed"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0631F054A9B97A40"]
+			description: [
+				"To upgrade the &2Mana Spreader&r, you can attach &9Mana Lenses&r to the front of the Spreader. However, the most basic Mana Lens does nothing."
+				""
+				"You'll need to upgrade the Mana Lens to give it different effects on the bursts of Mana it sends out. Lenses can also be dyed by crafting it with any color, or with a Mana Pearl to create a Rainbow Lens."
+				""
+				"By combining a Mana Lens with specific runes and items, we can use them to upgrade our Spreaders. You can also combine 2 lenses together with a &aSlime Ball&r to create &9Composite Lenses&r, combining the powers to create even stronger effects."
+			]
+			id: "6FBE0BF8A7ADBB26"
+			min_width: 300
+			rewards: [
+				{
+					id: "1F0B0B477D13DC66"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3267CB9C5547F5D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E76CBAA617FAA35"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "Upgrading Mana Spreaders"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Significantly increases the amount of time a &aMana Burst&r can go without starting to lose &bMana&r, but slows it down as well."]
+			hide_dependency_lines: true
+			id: "4CED346215DDBAC0"
+			rewards: [
+				{
+					id: "617BE4FA348DBB57"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "32513002C536F59D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "58A4565F18420732"
+				item: "botania:lens_time"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Doubles the amount of &bMana&r a &aMana Burst&r can carry, at the cost of speed and increased mana loss over longer distances."]
+			hide_dependency_lines: true
+			id: "7A82D66B1B138F0F"
+			rewards: [
+				{
+					id: "4B38847E4DB77252"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3AD3C210999AB209"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F0DDF8D08AA2D09"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows &aMana Bursts&r to bounce off of walls."]
+			hide_dependency_lines: true
+			id: "504ADBD7E2476827"
+			rewards: [
+				{
+					id: "7C3D619429D86A3A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "528330E18A357778"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46729DA26469F064"
+				item: "botania:lens_bounce"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Decreases the amount of time that it takes for a &aMana Burst&r to start losing its &bMana&r, but will also decrease its rate of loss."]
+			hide_dependency_lines: true
+			id: "5A7FF6D0AED656DC"
+			rewards: [
+				{
+					id: "5405D9936591B85C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17EEC68A1FC00C4D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FBA2E1E91367CB5"
+				item: "botania:lens_efficiency"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"Tired of using a shovel to level out grass? Try using the &2Rod of Terra Firma&r!"
+				""
+				"At the cost of &bMana&r, this will flatten the surrounding land to your own altitude by charging up the rod by &eholding right click&r."
+				""
+				"All blocks removed by the rod are not &nrecoverable&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "2EB6088D4E85DA42"
+			optional: true
+			rewards: [
+				{
+					id: "091BF1079B2F3D5C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5233284520BAA86F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DCCF34086BB0191"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["65238A6DCDDDFA0D"]
+			description: [
+				"Now it's time to make &aTerrasteel&r!"
+				""
+				"&6Terrasteel&r needs a lot of &bMana&r to craft, requiring the use of &7Sparks&r. Place several &7Sparks&r over your &dMana Pools&r, then one over the &9T.A. Plate&r to direct your mana for crafting."
+				""
+				"Once you have the platform ready for crafting, toss one &9Manasteel Ingot&r, &bMana Diamond&r, and a &3Mana Pearl&r on the plate to start crafting &6Terrasteel&r."
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "23A2865FBE7831AB"
+			min_width: 400
+			rewards: [
+				{
+					id: "48543C327085DAC3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "426CA1320DEF7FD8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 6L
+				id: "1DFC017C335D814E"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "&6Terrasteel"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: ["With the damage of a &dDiamond Sword&r, the &2Terra Blade&r will sometimes fire a beam that will deal as much as a melee hit would."]
+			id: "24C0F267B330CD23"
+			rewards: [
+				{
+					id: "61F4C8AF8AE9A233"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4912D115EECFFF48"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "679F0AA9731DAF88"
+				item: {
+					Count: 1b
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "&6Terra Blade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"Just like &9Manasteel Armor&r, &6Terrasteel Armor&r can repair itself using &bMana&r."
+				""
+				"It has the durability comparable to &dDiamond Armor&r as well."
+			]
+			hide: false
+			id: "10F2044D080D6209"
+			rewards: [
+				{
+					id: "74A560D8EBC77D95"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6EDDB8EB9C27DAE8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7502EF4CC54F1E6E"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30BFF28FAC3C6862"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1295FFF7C7E5C731"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69DDDE2C4D586735"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Terrasteel Armor"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"It's not just a pickaxe, the &6Terra Shatterer&r also acts just like a &bMana Tablet&r when tossed into a &9Mana Pool&r and can store a ton of mana. However, you will not be able to release the absorbed mana from the &6Shatterer&r. "
+				""
+				"The higher the amount of &bMana&r stored in the tool, the higher the rank that it has, with &lD&r being the lowest and &lSS&r being the highest."
+				""
+				"Increasing the tool's rank does not increase the speed of it, but instead increases the AoE of its &bActive Ability&r, which can be toggled on and off by &esneak-right&r clicking. When active, it increases the &6Shatterer's&r mining width and height based on the rank. Being at a rank of D will not have an ability."
+				""
+				"As long as the tool is &nactive&r, it will consume its stored mana."
+				""
+				"Using Mana, the &2Terra Truncator&r will feel entire trees in one fell swoop."
+			]
+			id: "4143C1CF83DE922E"
+			min_width: 300
+			rewards: [
+				{
+					id: "0058F6C97474947B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57342391E4CEB648"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75ACECE8E7049FFD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:terra_pick"
+								tag: {
+									Damage: 0
+									mana: 9999
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:terra_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aiotbotania:terra_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aiotbotania:terra_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&6Terrasteel Tools"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"24C0F267B330CD23"
+				"4143C1CF83DE922E"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "427854436214D856"
+			optional: true
+			rewards: [
+				{
+					id: "1D62DC45E115B2FA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "583C0C79B5385565"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "452C356D4E2D5863"
+				item: {
+					Count: 1b
+					id: "aiotbotania:terra_aiot"
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Terrasteel&r AIOT"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"497C981D49B7FBD6"
+				"1BCA04665A8F5EF5"
+			]
+			hide_dependency_lines: true
+			id: "7A638812AD62D449"
+			optional: true
+			rewards: [
+				{
+					id: "59746F89CAFCA999"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48C194BFDE5A82F3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "59AED21010D90C69"
+				item: {
+					Count: 1b
+					id: "aiotbotania:elementium_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dElementium&r AIOT"
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: ["Increases the chance of a &5Pixie&r spawning when hit, and augments the strength of any &5Pixies&r that are spawned."]
+			id: "497C981D49B7FBD6"
+			rewards: [
+				{
+					id: "2399136477B134B8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C1C6E642EFCDB90"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BF03F0B36123366"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"Just like most armor in Botania, the &9Elementium&r set can repair itself with mana."
+				""
+				"It also has a chance to spawn a &aPixie&r whenever the wearer is harmed. "
+			]
+			hide: false
+			id: "2F388BE777C43EB6"
+			rewards: [
+				{
+					id: "5D0787611F057AF2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5DDE34F0D71EE33F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5820572224CA1F4C"
+					item: {
+						Count: 1b
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E0174D5D8FB4712"
+					item: {
+						Count: 1b
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E1C97AD850434EC"
+					item: {
+						Count: 1b
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B1C5F307D76F97A"
+					item: {
+						Count: 1b
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"&dElementium Pickaxe&r:"
+				"Has an ability to clear away &3Cobblestone&r, &7Dirt&r, &cNetherrack&r, and other common materials, leaving behind only ores and fine resources."
+				""
+				"Can combine with the &eTerra Shatterer&r in a crafting grid, which will allow the latter to take on the former's power. This cannot be &nundone&r."
+				""
+				"&dElementium Axe&r:"
+				"Can drop &0skulls&r from certain mobs or players when dealing the finishing blow. Can also be enchanted with &6Looting&r."
+				""
+				"&dElementium Shovel&r:"
+				"When breaking a block that is affected by gravity, this will &nauto-break&r all blocks above or below it."
+				""
+				"&dElementium Hoe&r:"
+				"&nInstantly moisten&r farmland it creates."
+			]
+			id: "1BCA04665A8F5EF5"
+			rewards: [
+				{
+					id: "1E4F81906D185C8A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "477E1D048845CECD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EBD7DCB98AAD9B7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:elementium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&dElementium Tools"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1EF7664F5D8C5FF1"]
+			description: [
+				"While you may not be able to enter the &dPortal to Alfheim&r, you can perform an &2Elven Trade&r by tossing in certain items through the portal. This does use mana for each trade! These materials can also be used to upgrade some of your items, like creating &2Elven Mana Spreaders&r."
+				""
+				"Throwing in our &aLexica Botania&r will also upgrade it with &6Elven Knowledge&r, giving you more insight into your journey in Botania."
+			]
+			icon: "botania:dragonstone"
+			id: "3A20210242A1C865"
+			min_width: 300
+			rewards: [
+				{
+					id: "0CDCB1B52998244B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "24ED30BA5124E8C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6A9E12C2483D4883"
+					item: {
+						Count: 1b
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BD644B2A02DF9C0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:pixie_dust"
+								}
+								{
+									Count: 1b
+									id: "botania:quartz_elven"
+								}
+								{
+									Count: 1b
+									id: "botania:elf_glass"
+								}
+								{
+									Count: 1b
+									id: "botania:elementium_block"
+								}
+								{
+									Count: 1b
+									id: "botania:elementium_ingot"
+								}
+								{
+									Count: 1b
+									id: "botania:dreamwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:dreamwood"
+								}
+								{
+									Count: 1b
+									id: "botania:dragonstone_block"
+								}
+								{
+									Count: 1b
+									id: "botania:dragonstone"
+								}
+							]
+						}
+					}
+					title: "Alfheim Resources"
+					type: "item"
+				}
+			]
+			title: "Communing with Elves"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"With the new Elven materials, we're able to upgrade our sparks using &dAugments&r. With the Augment in hand, you can right click a spark with it to upgrade it. Using the wand, you can sneak-right click to remove it."
+				""
+				"&9Dispersive Augment&r: Allows a Spark to drain the Mana in its pool to charge nearby players' Mana-containing items."
+				""
+				"&9Dominant Augment&r: Makes a Spark pull Mana from nearby non-augmented Sparks' pools into its own."
+				""
+				"&9Recessive Augment&r: Makes a Spark distribute all of the Mana in its pool into nearby non-augmented or Dispersive Sparks' pools."
+				""
+				"&9Isolated Augment&r: Prevents a Spark from interacting with any Dominant or Recessive Sparks."
+			]
+			id: "5CB5F4CD521F6361"
+			min_width: 300
+			rewards: [
+				{
+					id: "7FA1B1B702452009"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56B5E5AF3EC9948F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28B797392467C851"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_dispersive"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_dominant"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_recessive"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_isolated"
+							}
+						]
+					}
+				}
+				title: "Spark Augments"
+				type: "item"
+			}]
+			title: "&3Spark Augments"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: ["Similar to the &cAlchemy Catalyst&r, when placed under a &bMana Pool&r, the &9Conjuration Catalyst&r unlocks the abillity to use conjuration recipes. "]
+			id: "1DCFC67A8E3DCA2C"
+			rewards: [
+				{
+					id: "573CD8F1603FA144"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "36405C96096FAB63"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "258C1DEBF18D2EBA"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"To create a &dPortal to Alfheim&r, start with the frame. We'll need to use 8 Livingwood blocks, 3 Glimmering Livingwood blocks, and an &9Elven Gateway Core&r to create the frame."
+				""
+				"Once the frame is created, we'll need to open it by using at least &d2 Mana Pools&r, a huge amount of mana, and a &aNatura Pylon&r over the 2 pools. These mana pools can be within an 11x11x11 area around the core."
+				""
+				"With everything set up, &eright click&r the &6Elven Core&r with your wand to activate the portal."
+			]
+			id: "1EF7664F5D8C5FF1"
+			min_width: 500
+			rewards: [
+				{
+					id: "219D874E27CF8D41"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "480C74CE24390F11"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "420577A05AAC9A18"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "184D19EC756FBCD8"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "763D84A4488A3008"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "08AECABD8E75A495"
+					item: "botania:livingwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "440C37529DEF7536"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "&3The Portal to Alfheim"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"With Botania, you can create a &dCorporea Network&r by using &9Corporea Sparks&r over inventories."
+				""
+				"While the network will need at least one &bMaster&r &9Corporea Spark&r to work, you can expand the network with as many Corporea Sparks as you want. When these Sparks are placed, it will connect to all of the same colored Corporea Sparks and form an item network. Each Spark only has a range of 8 blocks."
+				""
+				"These Sparks can only see the inventory directly beneath it, but can only access items from its top side. Each Spark can also see every item in the Corporea network, and can be accessed by other Corporea blocks, like the Funnel or Index."
+			]
+			id: "634E71DBAE81D197"
+			min_width: 300
+			rewards: [
+				{
+					id: "5CA23FA86B687ABD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4E9953C30FAE7219"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F0667A0930319F8"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "3844BA7E922E8B45"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+			]
+			title: "&3The Corporea Network&r"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["634E71DBAE81D197"]
+			description: [
+				"The &9Corporea Funnel&r is a simple version of the Index, and can be used to request items from the Network by giving it a &credstone&r signal."
+				""
+				"To tell the &0Funnel&r which item to request, place the item in an &7Item Frame&r on the block. If the &0Funnel&r has more than one item frame on it, the &0Funnel&r will pick one at random. Rotating the item in the frame will change the request quantity."
+			]
+			id: "4ECFB1256BD6A7AA"
+			rewards: [
+				{
+					id: "3ACD453D6E372A74"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3143E06825B33E93"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27FBB10E434FBD29"
+				item: "botania:corporea_funnel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["634E71DBAE81D197"]
+			description: ["The &9Corporea Crystal Cube&r is used to show the total count of an item in the Corporea Network of the Spark placed above it by right clicking it with that item."]
+			id: "7440E522FC31C341"
+			optional: true
+			rewards: [
+				{
+					id: "1E8447A08445C5C2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "28CF339747BEF0DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1550070280A21DC5"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["634E71DBAE81D197"]
+			description: [
+				"The &5Corporea Index&r is the interface block you need to access and request items from the &9Corporea Network&r of the Corporea Spark placed above it."
+				""
+				"To use this, approach the Index and it will intercept Chat Messages from nearby players. These players can request items from the network by typing in what they are looking to get. For example, you could say &310 Iron Ingots&r, and if the system has it, it will drop it out for you."
+			]
+			id: "7DF7F9CD9A795E69"
+			rewards: [
+				{
+					id: "25E9521E751B72ED"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "395551EFF51B5EA8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3611F94A69522BA9"
+				item: "botania:corporea_index"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: [
+				"To continue your journey, you will need to get your hands on &6Gaia Spirits&r. To do this, you will need to perform the &9Ritual of Gaia&r."
+				""
+				"You will need &o4&r &eGaia Pylons&r around an &aActive Beacon&r, as well as a single &6Terrasteel&r ingot. Once the structure is built, &esneak-right&r click the Beacon with the &6Terrasteel&r ingot and prepare for the fight of your life."
+			]
+			icon: "botania:gaia_pylon"
+			id: "04CE14D92603FC7A"
+			min_width: 300
+			rewards: [
+				{
+					id: "351D5CB253B2E85A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "54C5ACB6664FE596"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "21810A64B844C70E"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "157BF2FA7A40BE0D"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "&aSummoning the&r &5Guardian of Gaia&r"
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0331107259F7B68C"]
+			description: ["The best &2Mana Spreader&r you can get."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4E03AC9D56202353"
+			optional: true
+			rewards: [
+				{
+					id: "4DEA040804345257"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "466EE306EFF5F130"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D5337F7895CC160"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0331107259F7B68C"]
+			description: [
+				"Summoning the &eGaia Guardian&r is necessary to acquire the first &6Gaia Spirits&r. The &eGaia Guardian&r drops &o8&r &6Gaia Spirits&r."
+				""
+				"It is recommended to use half of these spirits to craft the &dGaia Spirit Ingot&r, which can be used in place of &6Terrasteel&r to summon the &0Gaia Guardian II&r, which drops &o16&r Spirits on death."
+			]
+			hide: false
+			id: "27CD17C4B3613171"
+			rewards: [
+				{
+					id: "397D190A93BF2B6C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "73D8B404EE1AF517"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DE2A054C6F00FBE"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0331107259F7B68C"]
+			description: ["There are many trinkets that harness the power of &6Gaia Spirits&r. Make sure to check them out!"]
+			id: "66F1609053B5407C"
+			optional: true
+			rewards: [
+				{
+					id: "06D9E5EBF4C1546B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3755055F3B161DA1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44A3CDE54F2A5149"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:black_hole_talisman"
+							}
+							{
+								Count: 1b
+								id: "botania:spawner_mover"
+							}
+							{
+								Count: 1b
+								id: "botania:astrolabe"
+							}
+							{
+								Count: 1b
+								id: "botania:holy_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:diva_charm"
+							}
+							{
+								Count: 1b
+								id: "botania:super_lava_pendant"
+							}
+							{
+								Count: 1b
+								id: "botania:unholy_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:laputa_shard"
+							}
+							{
+								Count: 1b
+								id: "botania:super_cloud_pendant"
+							}
+							{
+								Count: 1b
+								id: "botania:flight_tiara"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_bomb"
+							}
+							{
+								Count: 1b
+								id: "botania:missile_rod"
+							}
+							{
+								Count: 1b
+								id: "botania:balance_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:super_travel_belt"
+							}
+						]
+					}
+				}
+				title: "Gaia Trinkets"
+				type: "item"
+			}]
+			title: "&aGaia Gear and Trinkets&r"
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04CE14D92603FC7A"]
+			description: [
+				"Upon defeating the &9Guardian of Gaia&r, you'll be rewarded with &6Gaia Spirits&r."
+				""
+				"Both the game difficulty and the number of people participating in the ritual determine the amount of drops you will receive."
+			]
+			icon: "botania:gaia_head"
+			id: "0331107259F7B68C"
+			rewards: [
+				{
+					id: "540C6ABA78F0CA2E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A713146128577E2"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "615316948CD5BB35"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F9049E485ED4779"]
+			description: [
+				"&2Alfsteel&r is created via an infusion ritual atop a &5Mana Infuser&r."
+				""
+				"To form one &2Alfsteel&r Ingot, throw an &dElementium&r Ingot, a &cPixie Dust&r, and a &5Dragonstone&r onto the plate."
+				""
+				"The plate then must receive &o2,000,000&r &bMana&r (&n2 full Mana Pools&r), without any of the 3 items being &npicked up&r."
+				""
+				"If any of the items are picked up, the infusion will &cfail&r."
+				""
+				"As an indication of progress, several wisps of glowing &dpink&r smoke will fly out from the plate, rotate, fade from &9blue&r to &agreen&r, and finally crash together on the items, combining them into &2Alfsteel&r."
+			]
+			id: "523E631AF16750C6"
+			min_width: 300
+			rewards: [
+				{
+					id: "5912ECFCF97DCB36"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "646D338B488FEAFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Craft an Alfsteel Ingot."
+			tasks: [{
+				count: 6L
+				id: "2E9397D3AC2C06AA"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "&2Alfsteel"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70C25BFA6FFA1799"]
+			hide: true
+			hide_dependency_lines: true
+			id: "791C64A3DA422671"
+			optional: true
+			rewards: [
+				{
+					id: "70BA95AED44F3DEC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "49C5F30C98C19A04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1392E42D6A70ECDF"
+				item: "mythicbotany:mana_ring_greatest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F01BF021E1BE0A2"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6D9A71919DEC7B7B"
+			optional: true
+			rewards: [
+				{
+					id: "680C8DC3CAB00011"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2BB1C098E496B0B0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C4710F6B768395F"
+				item: "mythicbotany:aura_ring_greatest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["523E631AF16750C6"]
+			description: ["The &2Alf Blade&r uses &bMana&r from &9Mana Tablet&r or any other &bMana&r providing item in the player's &ainventory&r to prevent item damage or repair itself, using &o100&r &bMana&r per point of durability."]
+			id: "29FF08B720EF79FC"
+			optional: true
+			rewards: [
+				{
+					id: "114CFE84F71350BD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0E09CBA8AB403122"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AB3C163609EA230"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Alf Blade"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["523E631AF16750C6"]
+			id: "2EA487780DC60CE8"
+			optional: true
+			rewards: [
+				{
+					id: "41D257E0BBF67E7E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0162E3A32CFB0663"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6492A6753A7A0ABD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mythicbotany:alfsteel_pick"
+								tag: {
+									Damage: 0
+									mana: 9999
+								}
+							}
+							{
+								Count: 1b
+								id: "mythicbotany:alfsteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aiotbotania:alfsteel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aiotbotania:alfsteel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&2Alfsteel Tools"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"29FF08B720EF79FC"
+				"2EA487780DC60CE8"
+			]
+			hide_dependency_lines: true
+			id: "14598EAB4BBA185D"
+			optional: true
+			rewards: [
+				{
+					id: "48EFD7C502038E75"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5608C6F46B0B9240"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AF41C67532659E5"
+				item: {
+					Count: 1b
+					id: "aiotbotania:alfsteel_aiot"
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Alfsteel&r AIOT"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45BB8D86B7FDBE08"]
+			description: [
+				"The &dDrum of the Wild&r is, simply put, the &eHorn of the Wild's&r percussion counterpart. It serves the exact same purpose as a handheld Horn, but as a block."
+				""
+				"A &2Mana Burst&r colliding with it will produce a drumbeat that destroys nearby vegetation."
+				""
+				"Note that the drum does not store &bMana&r; thus, to trigger it, a &aPulse Mana Spreader&r or a &7Mana Blaster&r is required."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0B7466DBB69F89E4"
+			optional: true
+			rewards: [
+				{
+					id: "26F394D693D164A0"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55B69F4F45EF2D1D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4BE941B143D1AEDE"
+				item: "botania:drum_wild"
+				type: "item"
+			}]
+			x: -10.15d
+			y: -5.25d
+		}
+		{
+			dependencies: ["58994465AC0DB441"]
+			description: [
+				"The &6Drum of the Canopy&r is like the &dDrum of the Wild&r in that it's the percussion counterpart of a greenery-wrecking horn. "
+				""
+				"It serves the exact same purpose as the handheld &eHorn of the Canopy&r, but as a block. It's operated identically to the &dDrum of the Wild&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "1D62965217492282"
+			optional: true
+			rewards: [
+				{
+					id: "53E5025778610228"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1BCC3C742846D57D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "7E6F2B8BB6BB8831"
+				item: "botania:drum_canopy"
+				type: "item"
+			}]
+			x: -10.15d
+			y: -5.95d
+		}
+		{
+			dependencies: ["597E4D997A20736D"]
+			description: [
+				"Clearing out large areas of &aTall Grass&r by hand is a nuisance, as is the process of harvesting large fields of crops."
+				""
+				"Simply blowing into the &dHorn of the Wild&r will cause any nearby vegetation to quickly uproot, leaving behind drops as if they had been broken by hand."
+				""
+				"The horn can be tuned to break leaves or snow instead."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "45BB8D86B7FDBE08"
+			optional: true
+			rewards: [
+				{
+					id: "4928458F22D6366E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3EDC7AD22A6249AE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "61EA590A1D3C18F1"
+				item: "botania:horn_grass"
+				type: "item"
+			}]
+			x: -9.45d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["45BB8D86B7FDBE08"]
+			description: ["Breaking leaves in a 19×19×15 area around the player."]
+			hide: true
+			hide_dependency_lines: true
+			id: "58994465AC0DB441"
+			optional: true
+			rewards: [
+				{
+					id: "34221ADF4D4457FC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3941913A06659823"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3EEE2ACB94D074EE"
+				item: "botania:horn_leaves"
+				type: "item"
+			}]
+			x: -9.45d
+			y: -5.6d
+		}
+		{
+			dependencies: ["7A359C1F5E041C4F"]
+			description: [
+				"The &0Mana Void&r is, in layman's terms, a grave for &bMana&r."
+				""
+				"Any &bMana&r poured into this block will simply vanish into the &nvoid&r, never to be seen again."
+				""
+				"Placing one of these under a &9Mana Pool&r will allow the pool to always accept &bMana&r, but void any it can't hold."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4885E0E4AE16153C"
+			optional: true
+			rewards: [
+				{
+					id: "33A9823CC40D6DDB"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "413704ACFADF517B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.65d
+			tasks: [{
+				id: "2D6946CEEFF65B35"
+				item: "botania:mana_void"
+				type: "item"
+			}]
+			x: -6.530357142857142d
+			y: -2.953571428571429d
+		}
+		{
+			dependencies: ["27CD17C4B3613171"]
+			description: ["Using Gaia Ingots to summon the harder version of the &5Guardian of Gaia&r will get you more &6Gaia Spirits&r, but the Guardian can also drop the &6Dice of Fate&r."]
+			id: "50A2D68A83A50F47"
+			rewards: [
+				{
+					id: "324C85ADA1CE2727"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0E0D493B3C74464D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5348CBD95103744A"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "&6Dice of Fate&r"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "6AFC5FE71A80913E"
+			optional: true
+			rewards: [
+				{
+					id: "36631DADF1175CB7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7E4678375C5B953B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "408C9E36F8C27D8C"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -9.1d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "780B0A790C6AF9DB"
+			optional: true
+			rewards: [
+				{
+					id: "54FF38318FC98CE4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E97E4EB3A644619"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "371A7D51171C67D4"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "16DE70DE2463A5DD"
+			optional: true
+			rewards: [
+				{
+					id: "1578403F09D228B9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "399648AE32897534"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "337F2A21222F5FFC"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -8.4d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "0C56CB7815A1355C"
+			optional: true
+			rewards: [
+				{
+					id: "31957A2167736574"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2C54A8A9A257B83D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "078E142753C8FA7B"
+				item: {
+					Count: 1b
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							-68256365
+							-428781930
+							-1518441386
+							-645335533
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.7d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "4E7B1FF823C85AD6"
+			optional: true
+			rewards: [
+				{
+					id: "7053E44F5641CDFF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "71CA2E9719982667"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "05993154671C0697"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -9.1d
+		}
+		{
+			dependencies: ["50A2D68A83A50F47"]
+			hide: false
+			id: "1EE1EF4695A39876"
+			optional: true
+			rewards: [
+				{
+					id: "179B28F0618F867B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C2DF47687CE8ED7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "46081AC3349324C9"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -8.4d
+		}
+		{
+			dependencies: ["523E631AF16750C6"]
+			description: [
+				"&6Full Armor Set Bonus:"
+				"&b(Will of the Ancients)&r"
+				""
+				"&o20%&r less &bMana&r cost on &aMana Tools&r and &aRods&r."
+				"Regen even if hunger isn't topped off."
+				"&bPassive Mana&r generation on &9Mana Tablets&r."
+				"Makes you reach a little bit further."
+			]
+			id: "7C29023A902CF6C3"
+			rewards: [
+				{
+					id: "0D531E8A42BD8851"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "492FF7E729A5A768"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0CD00B99FFDD9A05"
+					item: {
+						Count: 1b
+						id: "mythicbotany:alfsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F8E54481EA25998"
+					item: {
+						Count: 1b
+						id: "mythicbotany:alfsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2603DC2A242BF746"
+					item: {
+						Count: 1b
+						id: "mythicbotany:alfsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF17929C7D3744D"
+					item: {
+						Count: 1b
+						id: "mythicbotany:alfsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&2Alfsteel Armor"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana."]
+			hide_dependency_lines: true
+			id: "665B4A8FF5277316"
+			optional: true
+			rewards: [
+				{
+					id: "4E3038347EA28A98"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "65275675C96626DB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5698F1ECAA82616E"
+				item: "botania:lens_gravity"
+				type: "item"
+			}]
+			x: -3.685714285714285d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows Mana Bursts to break through blocks by using its own mana."]
+			hide_dependency_lines: true
+			id: "3722E5A8BE99C5B1"
+			optional: true
+			rewards: [
+				{
+					id: "102145B33C7F5431"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4191511C48D5D01E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "671D9D2E3EDF31D9"
+				item: "botania:lens_mine"
+				type: "item"
+			}]
+			x: -4.385714285714284d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows Mana Bursts to use its own mana to damage any living being it hits."]
+			hide_dependency_lines: true
+			id: "533624CA5C2A7BBD"
+			optional: true
+			rewards: [
+				{
+					id: "20B8DB7594E41FF9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A2AE81115A7BC82"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6BF8FAA764F765F1"
+				item: "botania:lens_damage"
+				type: "item"
+			}]
+			x: -5.085714285714284d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["This lens allows a Mana Burst to pass through blocks, while decreasing the amount of time it can survive without losing mana."]
+			hide_dependency_lines: true
+			id: "5EF08646D8F4C432"
+			optional: true
+			rewards: [
+				{
+					id: "6AE5BE6702CB6F68"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B475E570AA81B93"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7EF55A6F1C4D84A7"
+				item: "botania:lens_phantom"
+				type: "item"
+			}]
+			x: -5.785714285714285d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows a Mana Burst to home in on any nearby blocks that can receive Mana. This also slightly decreases the speed of the burst."]
+			hide_dependency_lines: true
+			id: "79A19D0B2F94EFDC"
+			optional: true
+			rewards: [
+				{
+					id: "141E29D6DE904107"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "08E1F23DC089F220"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6F5CDA3C118F1D62"
+				item: "botania:lens_magnet"
+				type: "item"
+			}]
+			x: -3.685714285714285d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Imbues a Mana Burst with entropic forces, or in simple terms, turns it into a bomb when it hits something that can't receive Mana."]
+			hide_dependency_lines: true
+			id: "7AD4D212633DAEC8"
+			optional: true
+			rewards: [
+				{
+					id: "3FB4CA310112DCC7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "484FBF3677E31D10"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0A25BA85F56FB561"
+				item: "botania:lens_explosive"
+				type: "item"
+			}]
+			x: -2.9857142857142858d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows a Mana Burst to influence nearby dropped items, experience orbs, and falling blocks, having them move in the exact same vector of the motion as the burst itself."]
+			hide_dependency_lines: true
+			id: "5732936F1FD1D4AE"
+			optional: true
+			rewards: [
+				{
+					id: "3730204CF3F9C68F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4F454114D96AEEB4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3686E63D875EBFB8"
+				item: "botania:lens_influence"
+				type: "item"
+			}]
+			x: -2.285714285714283d
+			y: -1.1517857142857153d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["When a block is hit by a Mana Burst from this lens, the block will fall as if it were Sand or Gravel."]
+			hide_dependency_lines: true
+			id: "3CD45533D0BDF26D"
+			optional: true
+			rewards: [
+				{
+					id: "1A3ADF13D52F6ACC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C5C3F3BF3C150D8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1732E57F7595BB7E"
+				item: "botania:lens_weight"
+				type: "item"
+			}]
+			x: -5.085714285714284d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			description: [
+				"Needs to be dyed with a color first."
+				""
+				"Allows the Mana Bursts to paint any colorable block it hits, as well as any colorable block it is connected to. It also works on sheep. "
+			]
+			hide_dependency_lines: true
+			id: "68DC8A2B4BEF9878"
+			optional: true
+			rewards: [
+				{
+					id: "412F36C9A8D3ADE6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4AD5286E6DE08F92"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1C3B5F68898949A4"
+				item: "botania:lens_paint"
+				type: "item"
+			}]
+			x: -2.9857142857142858d
+			y: 0.24821428571428417d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			description: ["Allows the Mana Bursts to launch festive fireworks when they hit a block."]
+			hide_dependency_lines: true
+			id: "478352E24CE1F45F"
+			optional: true
+			rewards: [
+				{
+					id: "70F1505A12943745"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6598319EE86B5407"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2F04E0FD92572BE8"
+				item: "botania:lens_firework"
+				type: "item"
+			}]
+			x: -4.385714285714284d
+			y: 0.24821428571428417d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			description: ["This converts the Mana Spreader's bursts to only fire a continuous particle rather than short bursts. No mana is consumed. Great for decorative uses."]
+			hide_dependency_lines: true
+			id: "7B95C7407A1F5550"
+			optional: true
+			rewards: [
+				{
+					id: "5265453C2DB7F4AB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "53C16563F5BC7A4B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6D405361F834914E"
+				item: "botania:lens_flare"
+				type: "item"
+			}]
+			x: -5.085714285714284d
+			y: 0.24821428571428417d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			description: ["Using this on a Spreader will cause it to only fire a Mana Burst only if it can hit a mob or player."]
+			hide_dependency_lines: true
+			id: "0E7E559F2750F7D3"
+			optional: true
+			rewards: [
+				{
+					id: "49A122EB00FD8654"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "48691BD5E1F9D471"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3B9B92618158074B"
+				item: "botania:lens_tripwire"
+				type: "item"
+			}]
+			x: -5.785714285714285d
+			y: 0.24821428571428417d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Greatly decreases the amount of Mana a Mana Burst carries and dramatically increases the burst's speed and distance."]
+			hide_dependency_lines: true
+			id: "182EBB06B81BDF98"
+			optional: true
+			rewards: [
+				{
+					id: "19674D3B4C7A805D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3F9A495F93D722D9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4C80AD2C05E0CE73"
+				item: "botania:lens_messenger"
+				type: "item"
+			}]
+			x: -2.9857142857142858d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			description: ["This lens will redirect any Mana Spreaders or entities it collides with to face towards teh block or entity that fired the burst."]
+			hide_dependency_lines: true
+			id: "03C475ABEFF04DEF"
+			optional: true
+			rewards: [
+				{
+					id: "3D7E00A81BCC543C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7F3F81FC63D689F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "28089D55C29C8A5D"
+				item: "botania:lens_redirect"
+				type: "item"
+			}]
+			x: -3.685714285714285d
+			y: 0.24821428571428417d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it."]
+			hide_dependency_lines: true
+			id: "0C557A9494F58400"
+			optional: true
+			rewards: [
+				{
+					id: "6D6F4FCE46E91A4E"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4CEF0051D1E456F0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "229487A1B2657BF0"
+				item: "botania:lens_light"
+				type: "item"
+			}]
+			x: -5.785714285714285d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows the Mana Burst to move a block just as if a piston would."]
+			hide_dependency_lines: true
+			id: "14EB725643E9F8FE"
+			optional: true
+			rewards: [
+				{
+					id: "7F808DFDA3801BC1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E8572A93D744D19"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "24EBCD71A8C65AAE"
+				item: "botania:lens_piston"
+				type: "item"
+			}]
+			x: -2.285714285714283d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
+			description: ["Allows the Mana Burst to catch blocks on fire. It will not work on living beings."]
+			hide_dependency_lines: true
+			id: "12BEB76EB924379C"
+			optional: true
+			rewards: [
+				{
+					id: "23FF61F1AD8F0C9B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C64D97C826CDA1C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "55AD493BAD9D6E10"
+				item: "botania:lens_fire"
+				type: "item"
+			}]
+			x: -4.385714285714284d
+			y: -0.4517857142857151d
+		}
+		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
+			hide_dependency_lines: true
+			id: "4CC46A4E71320140"
+			optional: true
+			rewards: [
+				{
+					id: "10BC714C03DF3C22"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7FC2B95FFA82A717"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "58FACC24E092C8EB"
+				item: "botania:lens_warp"
+				type: "item"
+			}]
+			x: -2.285714285714283d
+			y: 0.24821428571428417d
+		}
+	]
+	title: "&d&oBotania"
+}

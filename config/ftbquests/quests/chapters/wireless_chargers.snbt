@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wireless_chargers"
+	group: "62AD16E73710A992"
+	id: "6470BE5F154FB113"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "55F5B764AD732CC6"
+			rewards: [
+				{
+					id: "433ECAB94DB178AC"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0750BAAF624B69FD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FA8D19AF070B7BF"
+				item: "wirelesschargers:basic_wireless_block_charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F5B764AD732CC6"]
+			id: "7794DED7B044EFA2"
+			rewards: [
+				{
+					id: "26388D2712DD7082"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "757C60F44AB7BE17"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "001D7AFC1D7D8B8F"
+				item: "wirelesschargers:advanced_wireless_block_charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "448733C1D3DEEEEB"
+			rewards: [
+				{
+					id: "5A616AF2B556EB1B"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "74CECB5BDECBAA03"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51073B2DBBA2442D"
+				item: "wirelesschargers:basic_wireless_player_charger"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["448733C1D3DEEEEB"]
+			id: "41E4A7E60EEAD95A"
+			rewards: [
+				{
+					id: "1362AD5CC77AACC4"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "285C8779642C92C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39F870A2B2D24CE6"
+				item: "wirelesschargers:advanced_wireless_player_charger"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "&2&oWireless Chargers"
+}

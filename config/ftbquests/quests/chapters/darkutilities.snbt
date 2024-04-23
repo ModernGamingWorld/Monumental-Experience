@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "darkutilities"
+	group: "6B2D545E7A3D7242"
+	icon: "darkutils:blank_plate"
+	id: "761D9A7A3E2DCAB1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "23F31ACD244BB388"
+			rewards: [
+				{
+					id: "0000000000000FB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5F64CCDCD687E17B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 24L
+				id: "37CD4E00995D8087"
+				item: "darkutils:blank_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000A23"
+				"4CAA4CCB61E0254A"
+			]
+			id: "44B24BB7FA72F232"
+			rewards: [
+				{
+					id: "0000000000000FB2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63968DA915270ED0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 6L
+				id: "6140CB6C560E0C74"
+				item: "darkutils:vector_plate_fast"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0000000000000A23"
+				"44B24BB7FA72F232"
+			]
+			id: "0737BA2F57A1C51B"
+			rewards: [
+				{
+					id: "0000000000000FAD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61E42277BAFB907C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 6L
+				id: "6076F62E503A8B10"
+				item: "darkutils:vector_plate_extreme"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000A23"
+				"23F31ACD244BB388"
+			]
+			id: "4CAA4CCB61E0254A"
+			rewards: [
+				{
+					id: "0000000000000FAF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D46EBFAC25F3879"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 6L
+				id: "0000000000000A35"
+				item: "darkutils:vector_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "76081CFE45D76A77"
+			rewards: [
+				{
+					id: "0000000000000FAC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "046360C4C94DA871"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "4F4E5D7F6A93F2B1"
+					item: "darkutils:filter_player"
+					type: "item"
+				}
+				{
+					id: "2DB6DDB8F9E47D17"
+					item: "darkutils:filter_undead"
+					type: "item"
+				}
+				{
+					id: "7DAAF4BA4EB58836"
+					item: "darkutils:filter_arthropod"
+					type: "item"
+				}
+				{
+					id: "0529E1533845BACC"
+					item: "darkutils:filter_illager"
+					type: "item"
+				}
+				{
+					id: "2AD406E4FBD35107"
+					item: "darkutils:filter_hostile"
+					type: "item"
+				}
+				{
+					id: "466F794474981BE5"
+					item: "darkutils:filter_animal"
+					type: "item"
+				}
+				{
+					id: "30A3FB97CAABE00A"
+					item: "darkutils:filter_child"
+					type: "item"
+				}
+				{
+					id: "516EC7A18E032FB9"
+					item: "darkutils:filter_pet"
+					type: "item"
+				}
+				{
+					id: "5978089ABF925AD1"
+					item: "darkutils:filter_slime"
+					type: "item"
+				}
+				{
+					id: "0A95885C911F07BD"
+					item: "darkutils:filter_villager"
+					type: "item"
+				}
+				{
+					id: "06BF33ECBD502ED2"
+					item: "darkutils:filter_fire_immune"
+					type: "item"
+				}
+				{
+					id: "2A5BEA7FACE25E02"
+					item: "darkutils:filter_golem"
+					type: "item"
+				}
+				{
+					id: "082BC45647C709E4"
+					item: "darkutils:filter_water"
+					type: "item"
+				}
+				{
+					id: "2778F9EAAF5BE0C0"
+					item: "darkutils:filter_named"
+					type: "item"
+				}
+			]
+			title: "Many types of Filters!!!"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "7DF18F354774E0B1"
+			rewards: [
+				{
+					id: "0000000000000FB1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F57D94AA23FFB94"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "71EB8021AC40BF72"
+					item: "darkutils:redstone_randomizer"
+					type: "item"
+				}
+				{
+					id: "0000000000000A60"
+					item: "darkutils:shielded_redstone"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "06D597A41AC54426"
+			rewards: [
+				{
+					id: "0000000000000FAE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "lootbundles:loot_bundle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "00AC57D7AAE93F9D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "31FE1290B23573E2"
+					item: "darkutils:charm_portal"
+					type: "item"
+				}
+				{
+					id: "669B847B30E624D6"
+					item: "darkutils:charm_sleep"
+					type: "item"
+				}
+			]
+			title: "Many kinds of Charms!!!"
+			x: -3.75d
+			y: 3.0d
+		}
+	]
+	title: "&4&oDark Utilities"
+}

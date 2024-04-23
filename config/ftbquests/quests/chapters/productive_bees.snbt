@@ -1,0 +1,5105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "productive_bees"
+	group: "5271FC3947DEACC8"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "productivebees:guide"
+		}
+	}
+	id: "26E6ED94168A05C4"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.246428571428567d
+			y: -7.103571428571431d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=2CdILcAxPxE"
+			height: 1.0d
+			hover: ["You&cTube&r Tutorial"]
+			image: "productivebees:advancements/all_bees"
+			rotation: 10.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"Welcome to &9Productive Bees&r!"
+				""
+				"To &o&bget started&r with the mod, you'll first need to find some &6Honeycombs&r and &eHoney Bottles&r! Find yourself a &2Beehive&r, and let the &o&bbees do their work&r for a little. Shearing it when it is full will give you &o&bhoneycombs&r, and &o&bglass bottles&r will give you &eHoney Bottles&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+			id: "13AA91D39A2CABF2"
+			min_width: 300
+			rewards: [
+				{
+					id: "1FE7DFBA702FBE64"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0E5E0909FA99CEA5"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "718C0C8ABA0F5052"
+					item: "minecraft:honey_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "06B9AD54DB19D8F0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "302834C31A2C712C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the Contact&r"
+			tasks: [
+				{
+					id: "54CAFE539297E507"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "3440EB31A4FA230D"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "Welcome to &6Productive Bees"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29EE878BC8D3A742"]
+			description: [
+				"Using the &o&bvanilla method&r, go ahead and make yourself a &6Beehive&r to have your own little setup!"
+				""
+				"These can hold &o&b3&r &eBees&r each, but we won't be using it for long...."
+				""
+				"&eBees&r will only create &6Honey&r and &6Honeycombs&r if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check &o&bJEI&r for more info."
+			]
+			id: "109AD73F016D576B"
+			min_width: 320
+			rewards: [
+				{
+					id: "218808EB53BFE5D3"
+					item: "minecraft:honeycomb"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7380E32E9165113B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "383DDA715AB4C35A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "33E5A303B907306B"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "The Beehive!"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13AA91D39A2CABF2"]
+			description: [
+				"To get our &o&bown bee farm&r going, we'll have to find us some bees... and &o&bcapture them&r."
+				""
+				"&eRight-clicking&r a bee with this will capture it!"
+				""
+				"Adventuring can also net you some &6Sturdy Bee Cages&r, so keep an eye out! "
+			]
+			id: "29EE878BC8D3A742"
+			min_width: 220
+			rewards: [
+				{
+					id: "3BAFF21709BCF43F"
+					item: "productivebees:sturdy_bee_cage"
+					type: "item"
+				}
+				{
+					id: "6AE69386F304D17D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3771D7B9DEF20A56"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "2B86DC6F7E579E0B"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			title: "Capturing Bees!"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["109AD73F016D576B"]
+			description: [
+				"With the vanilla &aBeehive&r, we'll use this to craft an &eAdvanced Beehive&r. It can be Oak or &o&bany kind of wood&r."
+				""
+				"&eBees&r will fly in and out of these, and drop off &6Honeycombs&r in the inventory. You can also insert glass bottles to get &9Honey Bottles&r."
+				""
+				"We'll need plenty of &6Honeycombs&r for treats!"
+			]
+			id: "7C169A4A39F37FAC"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "0E4EE8248A540A3A"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "5C39EF572ECB5EA8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "558539E564F7F68F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "No more shearing."
+			tasks: [{
+				id: "0EF1CA8DED2FF38C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+				title: "Advanced Beehive"
+				type: "item"
+			}]
+			title: "Advanced Beehive"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"&2Wood Nests&r are used to lure &aCarpenter Bees&r and the &9Blue Banded Bee&r."
+				""
+				"&3Dark Oak Nests&r lures &o&b3&r different bees."
+				""
+				"These can be placed in any &nOverworld biome&r."
+			]
+			hide: false
+			id: "00A17728A387B426"
+			min_width: 270
+			rewards: [
+				{
+					id: "5ABB4B7F42D7F83C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5398E65F332943E3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Can be used in any Overworld biome"
+			tasks: [
+				{
+					id: "1F2A2E5E1319BBAA"
+					item: "productivebees:oak_wood_nest"
+					type: "item"
+				}
+				{
+					id: "05B1A9B5E710DC24"
+					item: "productivebees:dark_oak_wood_nest"
+					type: "item"
+				}
+				{
+					id: "3F43AC1C5F87ACA3"
+					item: "productivebees:jungle_wood_nest"
+					type: "item"
+				}
+				{
+					id: "06DB37B0D01CE868"
+					item: "productivebees:spruce_wood_nest"
+					type: "item"
+				}
+				{
+					id: "406D976F0C6B5CB8"
+					item: "productivebees:birch_wood_nest"
+					type: "item"
+				}
+				{
+					id: "3328BB57F3B6FDDA"
+					item: "productivebees:acacia_wood_nest"
+					type: "item"
+				}
+			]
+			title: "Wood Nest"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["The &3Stone Nest&r can be placed in any &nOverworld biome&r to lure in a &7Mason Bee&r or &eDigger Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "369D3AF332181DA8"
+			min_width: 270
+			rewards: [
+				{
+					id: "0E7D34BDF5E2DDD1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5919FC665B1B198C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures Bees in any Overworld Biome"
+			tasks: [{
+				id: "03A3CD871B01984F"
+				item: "productivebees:stone_nest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"The &eDirt Nest&r can be placed in any &nOverworld biome&r to lure in bees."
+				""
+				"It can lure the &7Ashy Mining Bee&r, &8Chocolate Mining Bee&r, and the &aLeafcutter Bee&r."
+			]
+			hide: false
+			id: "73C70B15582958A5"
+			min_width: 270
+			rewards: [
+				{
+					id: "3C5EE53DAED51282"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A5977F8E22D5CA5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Any Overworld Biome"
+			tasks: [{
+				id: "75AC4440283F2FD2"
+				item: "productivebees:coarse_dirt_nest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["When placed in a &nDesert biome&r, the &eSand Nest&r will attract either the &8Chocolate&r or &7Ashy Mining Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "06044B4452A6B720"
+			min_width: 270
+			rewards: [
+				{
+					id: "37755179D3414205"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "67ABEE5C39D116AA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures bees in Desert Biomes"
+			tasks: [{
+				id: "583141D1F71510B3"
+				item: "productivebees:sand_nest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["Placing a &bSnow Nest&r in a &nSnowy biome&r will lure in a &cSweat Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "264BFB8C5F79616F"
+			min_width: 270
+			rewards: [
+				{
+					id: "3025B0D2340C7373"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "394E2F04FB6D6517"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures the Sweat Bee in Cold Biomes"
+			tasks: [{
+				id: "01C9E075D831E1AD"
+				item: "productivebees:snow_nest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"The &3Gravel Nest&r will lure bees in either a &nRiver biome&r or &nBeach biome&r."
+				""
+				"It lures in the &7Ashy Mining Bee&r, &8Chocolate Mining Bee&r, and the &eDigger Bee&r."
+			]
+			hide: false
+			hide_dependency_lines: true
+			id: "09FD3D0B9BCAEB5A"
+			min_width: 270
+			rewards: [
+				{
+					id: "24E09E8DAB2D6EE9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6A2C38950A44D366"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in bees in River and Beach Biomes"
+			tasks: [{
+				id: "3091212589824103"
+				item: "productivebees:gravel_nest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["A &eReed Nest&r will work in any &nOverworld biome&r, and will lure in a &3Mason Bee&r or a &2Reed Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "5CC9CB0911954215"
+			min_width: 270
+			rewards: [
+				{
+					id: "6C3B150E6FD6D8AD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "703C84859EBA049D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures bees in any Overworld Biome"
+			tasks: [{
+				id: "3BE7523330044E2F"
+				item: "productivebees:sugar_cane_nest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["When placed in a &nSwamp biome&r, the &2Slimy Nest&r will lure in &aSlimy Bees&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "79D6A251FE3761B3"
+			min_width: 270
+			rewards: [
+				{
+					id: "6F8831075D333029"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0A0F451291639BA6"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in a Slimy Bee in a Swamp Biome"
+			tasks: [{
+				id: "255B5D268D66C748"
+				item: "productivebees:slimy_nest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["When placed in the &cNether&r, the &eGlowstone Nest&r will lure in a &eGlowing Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "41CF7CAEE4F60CCD"
+			min_width: 270
+			rewards: [
+				{
+					id: "61A54DBD9E1FC943"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17571517A962365E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures a Glowing Bee in the Nether"
+			tasks: [{
+				id: "09F5BBEBACBA280D"
+				item: "productivebees:glowstone_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			hide: false
+			hide_dependency_lines: true
+			id: "027FD9135DEC4949"
+			rewards: [
+				{
+					id: "0500CE17EE23037F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "470AB33DA412B82E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in Ghostly Bees when placed in the Nether"
+			tasks: [{
+				id: "432B3806B0D8F356"
+				item: "productivebees:soul_sand_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: [
+				"This nest attracts &bCrystalline Bees&r."
+				""
+				"The easiest way to get a quartz block is by mining it with a &dSilk Touch&r pick."
+				""
+				"&6Brass&r has the &dSilk Touch&r trait when making a &n&bSilent Gear Tool&r."
+			]
+			hide: false
+			hide_dependency_lines: true
+			id: "6D484150536536B9"
+			min_width: 270
+			rewards: [
+				{
+					id: "7C0D2EDC910E1028"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0D26CB990D3AD447"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in Crystalline Bees in the Nether"
+			tasks: [{
+				id: "4356F84A57C41F62"
+				item: "productivebees:nether_quartz_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["Placing the &4Nether Brick Nest&r in the &cNether&r will lure in a &6Magmatic Bee&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "349D19F2FCC34B84"
+			min_width: 270
+			rewards: [
+				{
+					id: "6367DBE258CCB148"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "116916B2D3D8765F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in a Magmatic Bee when placed in the Nether"
+			tasks: [{
+				id: "3722A83F8591AC9F"
+				item: "productivebees:nether_brick_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1E9BD4B74DAEA9FC"
+			rewards: [
+				{
+					id: "6CC2F35942FB97E3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4E5AEF80132911C9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures in Ender Bees when placed in the End"
+			tasks: [{
+				id: "23A45F19E1E556BB"
+				item: "productivebees:end_stone_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			description: ["The &5Obsidian Nest&r will lure in &0Draconic Bees&r when placed in the &dEnd&r."]
+			hide: false
+			hide_dependency_lines: true
+			id: "3155E4212045BC8E"
+			min_width: 270
+			rewards: [
+				{
+					id: "712BD8886933AA0A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2638BD19489F10E5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures a Draconic Bee in the End"
+			tasks: [{
+				id: "727AAC7516CF8B5B"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "114D668C691A2BDF"
+			rewards: [
+				{
+					id: "3EEED28C0AA17E1F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "383B2B6C2BBC1E88"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Ashy Mining + Crystalline"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				id: "6D4F62833424ADC0"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:iron"
+							}
+						}
+					}
+				}
+				title: "Iron Comb"
+				type: "item"
+			}]
+			title: "Iron Bees"
+			x: 6.3d
+			y: -4.2d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["The &3Ashy Mining Bee&r is spawned from a &o&bDirt&r, &o&bGravel&r, or &o&bSand Nest&r."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37367101B3DAA70F"
+			min_width: 210
+			rewards: [
+				{
+					id: "3B5689ABAD74E98A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C8EAD1D09F5472A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Dirt Nest"
+			tasks: [{
+				id: "3DE460F842195173"
+				title: "Ashy Mining Bee"
+				type: "checkmark"
+			}]
+			x: 2.4499999999999997d
+			y: 1.05d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"The Crystalline Bee is spawned from a Quartz Nest."
+				""
+				"This bee is needed to make many of the other metal bees, like Iron and Copper."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "4C47EB9D2CE26BC6"
+			rewards: [
+				{
+					id: "2E17BE5AED38DFB2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "197E3CDA5E9501D3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Quartz Nest in the Nether"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+				id: "6E21D8349EEB2A11"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:crystalline"
+							}
+						}
+					}
+				}
+				title: "Crystalline Comb"
+				type: "item"
+			}]
+			title: "Crystalline Bee"
+			x: 2.4499999999999997d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:copper_ingot"
+			id: "75CD4EE6A542D687"
+			rewards: [
+				{
+					id: "19B22532D0F5D527"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6FE5A76A2B10171B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Crystalline + Ashy Mining"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				id: "263F0E416A8E1110"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:copper"
+							}
+						}
+					}
+				}
+				title: "Copper Comb"
+				type: "item"
+			}]
+			title: "Copper Bees"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:tin_ingot"
+			id: "589EB4602E3F9EEE"
+			rewards: [
+				{
+					id: "1C4E615829E1F09B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "75C18B1D10C463DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Ashy Mining + Crystalline"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				id: "17C7DC04BC22C0D7"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:tin"
+							}
+						}
+					}
+				}
+				title: "Tin Comb"
+				type: "item"
+			}]
+			title: "Tin Bees"
+			x: 7.7d
+			y: -4.2d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:aluminum_ingot"
+			id: "0D5D76B3551CD5A7"
+			rewards: [
+				{
+					id: "3C4FC164EC3E2A72"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6A5277C8BD7DA924"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Crystalline + Ashy Mining"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				id: "79712C13C6597E82"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:aluminum"
+							}
+						}
+					}
+				}
+				title: "Aluminum Comb"
+				type: "item"
+			}]
+			title: "Aluminum Bees"
+			x: 6.3d
+			y: -2.8d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide: false
+			hide_dependency_lines: true
+			icon: "minecraft:gold_ingot"
+			id: "029AA03790F055E8"
+			rewards: [
+				{
+					id: "6CB0016FAE0CF1A0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5D48DAC1CC153EA3"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Crystalline + Mason"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				id: "59665D8476656B9F"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:gold"
+							}
+						}
+					}
+				}
+				title: "Gold Comb"
+				type: "item"
+			}]
+			title: "Gold Bees"
+			x: 8.4d
+			y: -4.2d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:brick"
+			id: "24888CAD50B32B04"
+			rewards: [
+				{
+					id: "1877E4496D9E89DD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2C06BE933B4DD258"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned using a Stone Nest"
+			tasks: [{
+				id: "4BC7F46B28DC6BA0"
+				title: "Mason Bees"
+				type: "checkmark"
+			}]
+			title: "Mason Bee"
+			x: 3.15d
+			y: 1.05d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"In &6Productive Bees&r, you don't spend most of your time &o&bflying around&r trying to find &o&bcertain bees&r."
+				""
+				"Instead, you spawn them in using &dNests&r with &6Honey Treats&r."
+				""
+				"With these, you'll create yourself some &dNests&r and &eRight-click&r them with the &o&btreats to lure&r &6Bees&r in."
+				""
+				"Make sure to &o&bcheck out&r which &nbiome&r you need to be in &o&bto lure&r in the right &6Bees&r!"
+			]
+			id: "131EC039435B8878"
+			min_width: 310
+			rewards: [
+				{
+					id: "4F2B6C905FB137F0"
+					item: "productivebees:honey_treat"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5217B1259A06C6D0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "00E701C2ED3CC017"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "1C677CD515E8862B"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["29EE878BC8D3A742"]
+			description: ["&eRight-clicking&r on a &2Nest&r of the &o&btype you are looking for&r will point you in the direction of another!"]
+			id: "68CE30097BADE20E"
+			optional: true
+			rewards: [
+				{
+					id: "6C1DDDA29011FD24"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "6AF51136709623D2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6DDA75B2E92D9B06"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "10D83EFF8DF8830B"
+				item: {
+					Count: 1b
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Finding Nests"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["The &aUpgrade Base&r is used to craft the various &bUpgrades&r in &2Productive Bees&r."]
+			hide_dependency_lines: true
+			id: "66324D7D0C51AEAC"
+			rewards: [
+				{
+					id: "190005A9561D76D2"
+					item: "productivebees:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "15BC3BE18AE9EC0F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5DA7CBD51C8BCE3B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52AA599123DF9D78"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "6DBF9CAB37B9BBF3"
+			rewards: [
+				{
+					id: "25CB71231A6529EB"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "008D21BFFA0E4CC9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "684CB437D38F6123"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Increases Bee Productivity by 140%"
+			tasks: [{
+				id: "23697EE31757EBEB"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: [
+				"Can be placed in a &6Hive&r or centrifuge."
+				""
+				"When in a hive, it &o&bdecreases&r the amount of time bees spend in the hive by &o&b20%&r."
+				""
+				"When placed in a &dCentrifuge&r, it &o&bincreases&r the &nprocessing speed&r."
+				""
+				"These do stack."
+			]
+			id: "500BEAD94C97DF96"
+			min_width: 250
+			rewards: [
+				{
+					id: "71C49C54BD379AE5"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "444B4C8DEE5CA550"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0F31FE3D7C73A228"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Sonic Bees"
+			tasks: [{
+				id: "2F69E114B9F17B9A"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: 0.35d
+			y: -7.7d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: [
+				"When installed in a &6Hive&r, it gives a &o&b5%&r chance for &o&ba new baby bee&r to be spawned &nevery time&r honey is delivered."
+				""
+				"When placed in a &dCatcher&r, it only allows the catcher to catch &nbaby bees&r."
+				""
+				"You can stack these for a &o&bgreater chance&r."
+			]
+			id: "2182492BCC1B33D8"
+			min_width: 250
+			rewards: [
+				{
+					id: "5E31DCA9E56B4CB6"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "446AD47F98275995"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "79B45ADF20C6E062"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Making Babies"
+			tasks: [{
+				id: "04E3182336EE3967"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -5.95d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "397E2D14BDE7DED0"
+			rewards: [
+				{
+					id: "6549B1851978328D"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "453599BD5DA0D766"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "386BCE650B5A59B1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Lumber and Quarry Bees will give Blocks instead of Chips"
+			tasks: [{
+				id: "2289A74F096C389C"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -7.7d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: ["You'll need these for &eEnder Bees&r."]
+			id: "198EDBAC1D6E2339"
+			rewards: [
+				{
+					id: "528BE02C1117AAA0"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "2BC7F4D440A16C66"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "29D2CD715B5378FA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Prevents Bees from Teleporting in a Hive"
+			tasks: [{
+				id: "09CA837E39927465"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: 2.1d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			description: ["Mostly for the &dCatcher&r."]
+			id: "14623D25561BA61B"
+			rewards: [
+				{
+					id: "7CFFE98D4C9B3F8C"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "5388CC9C60323738"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "19D0BA7DB42E4156"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Increases the Range of a Machine"
+			tasks: [{
+				id: "6E8978E798AB54F7"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -6.3d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "57167FE67CFAC255"
+			rewards: [
+				{
+					id: "3A7AF8D84EC45EAD"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "38B667AB1B586702"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "11EDAD9D3F62CABD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Used to add Bees to a Filter"
+			tasks: [{
+				id: "553DD93D10666049"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: 0.35d
+			y: -6.3d
+		}
+		{
+			dependencies: ["66324D7D0C51AEAC"]
+			id: "1DF026030780AE96"
+			rewards: [
+				{
+					id: "50356CE18E03E01D"
+					item: "productivebees:honey_treat"
+					type: "item"
+				}
+				{
+					id: "6F5416B6E5F85AE0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "093485B361BC3331"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			subtitle: "Extracts Genes from Bees in Hives"
+			tasks: [{
+				id: "1B0C60960B1ABA92"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must."
+				""
+				"The &o&bCentrifuge&r is used to process &o&bHoneycombs&r into useful items, &nhoney&r, and &nwax&r."
+			]
+			id: "33A0E06FE5CFD8F3"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "498F2AE7D6D03C4B"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "641322F6E332FC39"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A14AF88468B6658"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Processing Honeycombs"
+			tasks: [{
+				id: "01233EB4BF20A278"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5F1784E562C29B66"
+				"100ACB5C8A359BF0"
+			]
+			description: ["Breed the &dEnder Bee&r with a &9Lapis Bee&r to create a &bDiamond Bee&r!"]
+			icon: "minecraft:diamond"
+			id: "1D720AC88431BD70"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "7A4D2E2C591FB3CD"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:diamond"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B33EE284406EAEA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5D1E9B8654D1749D"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Ender + Lapis"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				id: "4EF5B261BAD2AC7D"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:diamond"
+							}
+						}
+					}
+				}
+				title: "Diamond Comb"
+				type: "item"
+			}]
+			title: "Diamond Bee"
+			x: 7.6499999999999995d
+			y: -6.800000000000001d
+		}
+		{
+			dependencies: ["117241986C99E475"]
+			description: ["Breed a &cRedstone Bee&r with a &9Blue Banded Bee&r to get a &1Lapis Bee&r!"]
+			icon: "minecraft:lapis_lazuli"
+			id: "100ACB5C8A359BF0"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "1ED82242D8118B20"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:lapis"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7348AA2016D9A77E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "05398CD1FD30F3E9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Redstone + Blue Banded"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				id: "429FA8057B666565"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:lapis"
+							}
+						}
+					}
+				}
+				title: "Lapis Comb"
+				type: "item"
+			}]
+			title: "Lapis Bees"
+			x: 6.95d
+			y: -6.800000000000001d
+		}
+		{
+			dependencies: ["437DB2CE10D33A08"]
+			description: ["With the &eGlowing Bee&r, breed it with the &8Chocolate Mining Bee&r to get a &cRedstone Bee&r!"]
+			disable_toast: true
+			icon: "minecraft:redstone"
+			id: "117241986C99E475"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "0E473480AE6A71DF"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:redstone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6209F8074EBFDE50"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "22D209B68141A444"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Glowing + Chocolate Mining"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				id: "345245C32DB7B4D4"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:redstone"
+							}
+						}
+					}
+				}
+				title: "Redstone Comb"
+				type: "item"
+			}]
+			title: "Redstone Bees"
+			x: 6.95d
+			y: -6.1000000000000005d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["Create yourself an &dEnd Stone Nest&r and head to the &5End&r to &o&bcapture one of these bees&r!"]
+			hide_dependency_lines: true
+			icon: "minecraft:ender_pearl"
+			id: "5F1784E562C29B66"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "565C007060C1F9EC"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:ender"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55EC007413506463"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0268149A2F8E0D74"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&bRequires End Stone Nest"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				id: "43515B26807F9E01"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:ender"
+							}
+						}
+					}
+				}
+				title: "Ender Comb"
+				type: "item"
+			}]
+			title: "Ender Bees"
+			x: 7.6499999999999995d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4C0302FF4F63B52E"]
+			description: ["You'll need to grab yourself a &aGlowstone Nest&r and head to the &4Nether&r to &o&bcapture this bee&r!"]
+			hide_dependency_lines: false
+			icon: "minecraft:glowstone_dust"
+			id: "437DB2CE10D33A08"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "33CF41454AF3192E"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75AAD9E19C8CA778"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "26A27F529FABDE8E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				id: "17B0E19125FCFA1A"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:glowing"
+							}
+						}
+					}
+				}
+				title: "Glowing Comb"
+				type: "item"
+			}]
+			title: "Glowing Bee"
+			x: 6.25d
+			y: -6.45d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "croptopia:chocolate"
+			id: "486060882E507CF1"
+			rewards: [
+				{
+					id: "10550A84558736E7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "17DE3075420C6129"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Dirt Nest"
+			tasks: [{
+				id: "4DFDEAD81868CEF4"
+				title: "Chocolate Mining Bee"
+				type: "checkmark"
+			}]
+			title: "Chocolate Mining Bee"
+			x: 1.75d
+			y: 1.05d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:blue_dye"
+			id: "2CA4D7253DA1825F"
+			rewards: [
+				{
+					id: "42D436E8A0B9487D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "576FFFA9DB428084"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned using a Wood Nest"
+			tasks: [{
+				id: "12A2CE1C3AE8A033"
+				title: "Blue Banded Bee"
+				type: "checkmark"
+			}]
+			x: 2.4499999999999997d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"1D720AC88431BD70"
+				"39A19138C501B16F"
+			]
+			description: ["Once you have a &bDiamond Bee&r, breed it with the &aSlimy Bee&r to create an &2Emerald Bee&r!"]
+			icon: "minecraft:emerald"
+			id: "5563BD4934297522"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "50B0611117EE75AB"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:emerald"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "676F37644A0F90A2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "37A5DDBCB9480D62"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Diamond Bee + Slimy Bee"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				id: "7B7C1C5BFEC92058"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:emerald"
+							}
+						}
+					}
+				}
+				title: "Emerald Comb"
+				type: "item"
+			}]
+			title: "Emerald Bee"
+			x: 6.95d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4C0302FF4F63B52E"]
+			description: ["You can lure these bees in using a &aSlimy Nest&r in a &nswamp biome&r."]
+			icon: "minecraft:slime_ball"
+			id: "39A19138C501B16F"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "6A5C1F186FAFFADA"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:slimy"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D1B0BF0153A35CC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4021A2D33A46CC55"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&9Requires Slimy Nest"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+				id: "5E017E6B7E3F56B7"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:slimy"
+							}
+						}
+					}
+				}
+				title: "Slimy Comb"
+				type: "item"
+			}]
+			title: "Slimy Bee"
+			x: 6.25d
+			y: -7.15d
+		}
+		{
+			dependencies: ["1D720AC88431BD70"]
+			icon: "minecraft:netherite_ingot"
+			id: "2CA3707BEE2E3C0D"
+			rewards: [
+				{
+					count: 2
+					id: "6B10EC7376089305"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:netherite"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3342FF265AD6F9B9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "500FF51CD844942A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed Diamond Bee a Block of Netherite"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				id: "065E5450AC87F1D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:netherite"
+							}
+						}
+					}
+				}
+				title: "Ancient Comb"
+				type: "item"
+			}]
+			title: "Ancient Bee (Netherite)"
+			x: 8.35d
+			y: -6.800000000000001d
+		}
+		{
+			dependencies: ["76E94639E90FEB4E"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "399882F3C51DD282"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "2A44E3F699DB9247"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:withered"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DE736A1513CEF5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2941592BCA6B7BFC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Skeletal Bee a Withered Rose"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+				id: "5BFAA4BB6651F71A"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:withered"
+							}
+						}
+					}
+				}
+				title: "Withered Comb"
+				type: "item"
+			}]
+			title: "Withered Bee"
+			x: 9.049999999999999d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: ["Place some empty &eAdvanced Beehives&r in an &nunlit area&r. The bees &o&bwill move in over time&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:skeleton_skull"
+			id: "76E94639E90FEB4E"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "7A6D1C4C8A908A18"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:skeletal"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4144CAB44BA2188A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2559679596A29AF7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned with empty Beehives in the Dark"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				id: "4203F7ED807F3D30"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:skeletal"
+							}
+						}
+					}
+				}
+				title: "Skeletal Comb"
+				type: "item"
+			}]
+			title: "Skeletal Bee"
+			x: 8.35d
+			y: -7.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: ["Place an &5Obsidian Nest&r in the &dEnd&r to lure this bee."]
+			hide_dependency_lines: true
+			icon: "minecraft:dragon_head"
+			id: "00FD36C207845895"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "52BFF2CF6ECE1B6B"
+					item: {
+						Count: 1b
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:draconic"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "790E7DF10717E86F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3D551A7E02267C14"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&9Requires Obsidian Nest"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
+				id: "2CC38211F4C54ED8"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:draconic"
+							}
+						}
+					}
+				}
+				title: "Draconic Comb"
+				type: "item"
+			}]
+			title: "Draconic Bee"
+			x: 7.6499999999999995d
+			y: -6.1000000000000005d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:zinc_ingot"
+			id: "7EAFF64FFE8B5378"
+			rewards: [
+				{
+					id: "69692C320520566E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "24F2008016FC4180"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Sweat"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				id: "181135E3A83C5B9E"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:zinc"
+							}
+						}
+					}
+				}
+				title: "Zinc Comb"
+				type: "item"
+			}]
+			title: "Zinc Bees"
+			x: 9.1d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:electrum_ingot"
+			id: "3054D016D2EF25FF"
+			rewards: [
+				{
+					id: "28C90A4517E41DD2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "15ABDD52F2107082"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Gold + Silver"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				id: "299DE26FF7293F34"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:electrum"
+							}
+						}
+					}
+				}
+				title: "Electrum Comb"
+				type: "item"
+			}]
+			title: "Electrum Bees"
+			x: 9.799999999999999d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:platinum_ingot"
+			id: "57ACD83205988834"
+			rewards: [
+				{
+					id: "2A862D09A774CAA7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6C00F1762AAC83AF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Gold + Ender"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:platinum"
+						}
+					}
+				}
+				id: "726FF2C87E9E972F"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:platinum"
+							}
+						}
+					}
+				}
+				title: "Platinum Comb"
+				type: "item"
+			}]
+			title: "Platinum Bees"
+			x: 9.1d
+			y: -4.2d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:lead_ingot"
+			id: "2DFFEB29B6CBFD99"
+			rewards: [
+				{
+					id: "13F3A4D6A461A6B0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1F53B20D02C21B85"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Blue Banded"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				id: "7830C98BD32DB5F2"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:lead"
+							}
+						}
+					}
+				}
+				title: "Lead Comb"
+				type: "item"
+			}]
+			title: "Lead Bees"
+			x: 7.0d
+			y: -4.2d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:blaze_rod"
+			id: "0072C4F028C327CB"
+			rewards: [
+				{
+					id: "51D4288FEF9D3F8B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "57FC07A2EB7BB8A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Magmatic + Nomad"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				id: "6B7DB7E426D328BC"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:blazing"
+							}
+						}
+					}
+				}
+				title: "Blazing Comb"
+				type: "item"
+			}]
+			title: "Blazing Bee"
+			x: 9.799999999999999d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:brass_ingot"
+			id: "5DF26D712B643655"
+			rewards: [
+				{
+					id: "5277395417D44D37"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C0EBC207D267EC9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Copper + Zinc"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				id: "79AEDC66EB312BCA"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:brass"
+							}
+						}
+					}
+				}
+				title: "Brass Comb"
+				type: "item"
+			}]
+			title: "Brass Bees"
+			x: 9.799999999999999d
+			y: -2.8d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "twilightforest:fallen_leaves"
+			id: "6BEE3578BD2C713C"
+			rewards: [
+				{
+					id: "7E65430F9ADEFAD0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "159BF674581C6907"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Dirt Nest"
+			tasks: [{
+				id: "4A6ADD52B113E3CA"
+				title: "Leafcutter Bees"
+				type: "checkmark"
+			}]
+			title: "Leafcutter Bee"
+			x: 3.85d
+			y: 1.05d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
+			id: "683B58B699D4D381"
+			rewards: [
+				{
+					id: "4B48574CA4CCB5FE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "605FB3A057065E6C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns in a nest that has a Blue Banded Bee"
+			tasks: [{
+				id: "0CDFF60D581118E3"
+				title: "Neon Cuckoo Bee"
+				type: "checkmark"
+			}]
+			title: "Neon Cuckoo Bee"
+			x: 4.2d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"If you want one of these, you'll need an &7Ashy Mining Bee&r first. "
+				""
+				"Once the &7Ashy Mining Bee&r is cozy in its nest, there is a &nchance&r for a &aNomad Bee&r to take it over."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6786B08C30D26037"
+			min_width: 250
+			rewards: [
+				{
+					id: "59B6DE04F5142B79"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7FEAA3D13A707FEA"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns in a nest that has an Ashy Mining Bee"
+			tasks: [{
+				id: "64248C6FBC867D56"
+				title: "Nomad Bee"
+				type: "checkmark"
+			}]
+			title: "Nomad Bee"
+			x: 2.8d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "productivebees:sugar_cane_nest"
+			id: "097DE7038A746847"
+			rewards: [
+				{
+					id: "7F38ADFC8FC29083"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A80FA22C8D39F0E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Reed Nest"
+			tasks: [{
+				id: "6887F86C8673DAF6"
+				title: "Reed Bee"
+				type: "checkmark"
+			}]
+			title: "Reed Bee"
+			x: 1.4d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:sugar"
+			id: "40E4F1172A164DD1"
+			rewards: [
+				{
+					id: "3B92A76485B13D0F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0949901030A87D97"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Random Chance to Spawn when breaking Cocoa Pods in a Jungle"
+			tasks: [{
+				id: "49F452C12DF14873"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			title: "Sugarbag Bee"
+			x: 2.1d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:snowball"
+			id: "447CAC472A99835B"
+			rewards: [
+				{
+					id: "0ECE6E9C33919A0D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3BD8018CB5B36790"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from a Snow Nest"
+			tasks: [{
+				id: "0A77407CE9055F04"
+				title: "Sweat Bee"
+				type: "checkmark"
+			}]
+			title: "Sweat Bee"
+			x: 1.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:yellow_dye"
+			id: "2226555D9552236E"
+			rewards: [
+				{
+					id: "0100A3C84354139B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5873243616BF447B"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns from most Wood Nests"
+			tasks: [{
+				id: "3CDFAF37BFB1C89C"
+				title: "Yellow Carpenter Bees"
+				type: "checkmark"
+			}]
+			title: "Yellow Carpenter Bee"
+			x: 3.15d
+			y: 1.75d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:zombie_head"
+			id: "371E09ED2A3F6BDC"
+			rewards: [
+				{
+					id: "6D5B55B61137A51F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "71E8E65ECD225B04"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns in empty Advanced Beehives in a dark place"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				id: "71E81E13769F2FF0"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:zombie"
+							}
+						}
+					}
+				}
+				title: "ZomBee Comb"
+				type: "item"
+			}]
+			title: "ZomBee"
+			x: 3.85d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:bronze_ingot"
+			id: "6E4C3B87FABE9EFA"
+			rewards: [
+				{
+					id: "098AAF7C1E1D4B02"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1024F4EBFACFF780"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Copper + Tin"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				id: "55F718D796CEB1B1"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:bronze"
+							}
+						}
+					}
+				}
+				title: "Bronze Comb"
+				type: "item"
+			}]
+			title: "Bronze Bees"
+			x: 7.7d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:coal"
+			id: "71667FFC8011525C"
+			rewards: [
+				{
+					id: "2C2774327E480E1F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3AEF374AB96A5C98"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Blazing + Leafcutter"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				id: "3EDE79B7957D45AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:coal"
+							}
+						}
+					}
+				}
+				title: "Coal Comb"
+				type: "item"
+			}]
+			title: "Coal Bee"
+			x: 6.3d
+			y: -1.4d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:constantan_ingot"
+			id: "52B22C07818981D0"
+			rewards: [
+				{
+					id: "1A67202D6AADDB70"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "30E45E8C11285DD0"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Copper + Nickel"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				id: "4FCEB24FC83D22A9"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:constantan"
+							}
+						}
+					}
+				}
+				title: "Constantan Comb"
+				type: "item"
+			}]
+			title: "Constantan Bee"
+			x: 9.1d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: ["This is the &o&aBreeder&r bee."]
+			hide_dependency_lines: true
+			icon: "minecraft:chicken"
+			id: "2E51F09F6D9E5EF8"
+			rewards: [
+				{
+					id: "66F5BDE848878282"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "035675BF7FADC468"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Farmer + Rancher"
+			tasks: [{
+				id: "34C16667CDF3E53A"
+				type: "checkmark"
+			}]
+			title: "CuBee"
+			x: 6.3d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_dye"
+			id: "5962DC39E5874FB9"
+			rewards: [
+				{
+					id: "1E1254B2FF645139"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "73B6D30AFC6F1062"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Lapis + Skeletal"
+			tasks: [{
+				id: "4FC90CCB41E58D5A"
+				title: "Dye Bee"
+				type: "checkmark"
+			}]
+			title: "Dye Bee"
+			x: 7.7d
+			y: -1.4d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:enderium_ingot"
+			id: "0D97CDE92F3B1A83"
+			rewards: [
+				{
+					id: "504F62C71094846B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6E36105A777C62F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Lead + Diamond/Platinum"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				id: "208145EA6533CDDB"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:enderium"
+							}
+						}
+					}
+				}
+				title: "Enderium Comb"
+				type: "item"
+			}]
+			title: "Enderium Bee"
+			x: 7.0d
+			y: -2.8d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:experience_bottle"
+			id: "0FB1FC640471363A"
+			rewards: [
+				{
+					id: "145EA91E2FFB3939"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "217D90D61377EEC7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Lapis + Emerald"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				id: "1E28BFC0AB5CF2FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:experience"
+							}
+						}
+					}
+				}
+				title: "Experience Comb"
+				type: "item"
+			}]
+			title: "Experience Bee"
+			x: 7.7d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4897C7BB3139C6C6"
+			rewards: [
+				{
+					id: "1B1596BA43F0C63A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0213D6F985EF2E16"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Lumber + Rancher"
+			tasks: [{
+				id: "212BB84583FE4B8B"
+				title: "Farmer Bees"
+				type: "checkmark"
+			}]
+			title: "Farmer Bee"
+			x: 7.0d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "tombstone:grave_dust"
+			id: "4351DAA8B607BCBB"
+			rewards: [
+				{
+					id: "1CDC270BFFDAB46F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0553560DEAB8B024"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Ghostly + Skeletal/Zombee"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:grave"
+						}
+					}
+				}
+				id: "6D15CFE8E1CF6D25"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:grave"
+							}
+						}
+					}
+				}
+				title: "Grave's Comb"
+				type: "item"
+			}]
+			title: "Grave's Bee"
+			x: 8.4d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:invar_ingot"
+			id: "734A72A4C898BDFB"
+			rewards: [
+				{
+					id: "142F43929AC8B9B2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3FD82EF542A4A6ED"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Nickel"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:invar"
+						}
+					}
+				}
+				id: "0C0D6A9D01FED776"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:invar"
+							}
+						}
+					}
+				}
+				title: "Invar Comb"
+				type: "item"
+			}]
+			title: "Invar Bee"
+			x: 9.1d
+			y: -2.8d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "37045B986619A03D"
+			rewards: [
+				{
+					id: "7D8517D2A0DF80B9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C9D72A5BF624E0A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Yellow + Green Carpenter Bee"
+			tasks: [{
+				id: "5569927ACA7F6486"
+				item: {
+					Count: 1b
+					id: "productivebees:wood_chip"
+					tag: {
+						productivebees_woodtype: "minecraft:dark_oak_log"
+					}
+				}
+				type: "item"
+			}]
+			title: "Lumber Bee"
+			x: 8.4d
+			y: -1.4d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:lumium_ingot"
+			id: "150FB369BEFFCBBF"
+			rewards: [
+				{
+					id: "10583ED944AC5527"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66A13F2894A450CB"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Silver + Tin"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lumium"
+						}
+					}
+				}
+				id: "4DA6445DB5F3B85E"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:lumium"
+							}
+						}
+					}
+				}
+				title: "Lumium Comb"
+				type: "item"
+			}]
+			title: "Lumium Bee"
+			x: 8.4d
+			y: -2.8d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:nickel_ingot"
+			id: "4FE7F45C72EF5DC1"
+			rewards: [
+				{
+					id: "16F10E9F7CC2C8D4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3742AE22B4B2DEBE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Sweat"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nickel"
+						}
+					}
+				}
+				id: "05E237133AC3F46B"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:nickel"
+							}
+						}
+					}
+				}
+				title: "Nickel Comb"
+				type: "item"
+			}]
+			title: "Nickel Bee"
+			x: 8.4d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:obsidian"
+			id: "60B985069E0E643E"
+			rewards: [
+				{
+					id: "24A96CC9859C3CFB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "373E7A70B3E68AA8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Magmatic + Sweat"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				id: "50823C029014781A"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:obsidian"
+							}
+						}
+					}
+				}
+				title: "Obsidian Comb"
+				type: "item"
+			}]
+			title: "Obsidian Bee"
+			x: 9.799999999999999d
+			y: -1.4d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:osmium_ingot"
+			id: "67482ED4B18F828D"
+			rewards: [
+				{
+					id: "71DA76CB3E38F888"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42EE5893A75467F9"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Neon Cuckoo"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				id: "4471A530B55D4140"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:osmium"
+							}
+						}
+					}
+				}
+				title: "Osmium Comb"
+				type: "item"
+			}]
+			title: "Osmium Bee"
+			x: 7.7d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:stone"
+			id: "6E093D16B12E12B3"
+			rewards: [
+				{
+					id: "7DC4F061F734B85F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "15A3EB2E30126123"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Chocolate Mining + Digger"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:stone_chip"
+					tag: {
+						productivebees_woodtype: "minecraft:dirt"
+					}
+				}
+				id: "25C3E86C4FE954C6"
+				item: {
+					Count: 1b
+					id: "productivebees:stone_chip"
+					tag: {
+						productivebees_woodtype: "minecraft:dirt"
+					}
+				}
+				type: "item"
+			}]
+			title: "Quarry Bee"
+			x: 9.799999999999999d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:uranium_ingot"
+			id: "734F61A03FFA13ED"
+			rewards: [
+				{
+					id: "5E2D85AE71BC7039"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3C9A4C12DFC7CB78"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "CreeBee + Iron"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:radioactive"
+						}
+					}
+				}
+				id: "5C358DFF9CD0D1D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:radioactive"
+							}
+						}
+					}
+				}
+				title: "Radioactive Comb"
+				type: "item"
+			}]
+			title: "Radioactive Bee"
+			x: 7.7d
+			y: -2.8d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:egg"
+			id: "3D7480E4F9063E93"
+			rewards: [
+				{
+					id: "3448B2A0897737AB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4EA8703584C3154E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Lumber + Sweat"
+			tasks: [{
+				id: "56E50AF4DB0B9F30"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			title: "Rancher Bee"
+			x: 7.0d
+			y: -1.4d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mekanism:ingot_refined_glowstone"
+			id: "15FCC8DA717BE348"
+			rewards: [
+				{
+					id: "31A9909291706ED3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C8F6411789380C8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Osmium + Glowing"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_glowstone"
+						}
+					}
+				}
+				id: "636EAE7DCFA8D007"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:refined_glowstone"
+							}
+						}
+					}
+				}
+				title: "Refined Glowstone Comb"
+				type: "item"
+			}]
+			title: "Refined Glowstone Bee"
+			x: 6.3d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "229B12FD9C537D9B"
+			rewards: [
+				{
+					id: "103533786886539B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0139D49E945DBB6A"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Osmium + Obsidian"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_obsidian"
+						}
+					}
+				}
+				id: "4AF72F021060F09C"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:refined_obsidian"
+							}
+						}
+					}
+				}
+				title: "Refined Obsidian Comb"
+				type: "item"
+			}]
+			title: "Refined Obsidian Bee"
+			x: 7.0d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:signalum_ingot"
+			id: "6F7AC41B703028CC"
+			rewards: [
+				{
+					id: "71EA6CC096D1E48B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "249C54E2D15FF118"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Silver + Copper"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				id: "5B5DBA0A7644A551"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:signalum"
+							}
+						}
+					}
+				}
+				title: "Signalum Comb"
+				type: "item"
+			}]
+			title: "Signalum Bee"
+			x: 8.4d
+			y: -2.1d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:string"
+			id: "5CF2A069A3CC4EF6"
+			rewards: [
+				{
+					id: "0E77571B7CBAA6AA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7E9A633A631B64A7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Resin + Reed"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				id: "5DE213018E8C64A7"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:silky"
+							}
+						}
+					}
+				}
+				title: "Silky Comb"
+				type: "item"
+			}]
+			title: "Silky Bee"
+			x: 9.1d
+			y: -0.7d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:silver_ingot"
+			id: "09223F02621781BF"
+			rewards: [
+				{
+					id: "47789F0BA69D291B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4C95FFD791800F9C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Mason"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				id: "47BAD4AA76F9CF82"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:silver"
+							}
+						}
+					}
+				}
+				title: "Silver Comb"
+				type: "item"
+			}]
+			title: "Silver Bee"
+			x: 6.3d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:steel_ingot"
+			id: "02F3133A9006BC1E"
+			rewards: [
+				{
+					id: "41C9111322272A68"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1AB9F2CACEC83CA5"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Iron + Coal"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				id: "01F96E4C1D881AD1"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:steel"
+							}
+						}
+					}
+				}
+				title: "Steel Comb"
+				type: "item"
+			}]
+			title: "Steel Bee"
+			x: 9.799999999999999d
+			y: -4.2d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:soul_sand"
+			id: "5F080CFA1DC7F435"
+			rewards: [
+				{
+					id: "0B3C96411B1D31B5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "68792C45CD10A320"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned using a Soul Sand Nest in the Nether."
+			tasks: [{
+				id: "281AD60CC0AB054F"
+				item: "productivebees:honeycomb_ghostly"
+				type: "item"
+			}]
+			title: "Ghostly Bee"
+			x: 3.5d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:magma_block"
+			id: "614937A2F5823F3E"
+			rewards: [
+				{
+					id: "64337BCC9ABF33E2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "24221FCF89BFA45C"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned using a Nether Brick Nest in the Nether"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				id: "3202568944BCBF77"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:magmatic"
+							}
+						}
+					}
+				}
+				title: "Magmatic Comb"
+				type: "item"
+			}]
+			title: "Magmatic Bee"
+			x: 1.75d
+			y: 0.35d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"Want to fly on a bee?"
+				""
+				"&6Bumble Bees&r naturally spawn in the world, and they &o&bcan be used as mounts&r!"
+				""
+				"Make yourself a &6Treat on a Stick&r, slap a saddle on a &6Bumble Bee&r, and take to the skies!"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:saddle"
+			id: "7941938014E97A30"
+			min_width: 250
+			rewards: [
+				{
+					id: "3B25310DEF53BAA8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "691CC3441A252C57"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawns in the Overworld from Bumble Bee Nests"
+			tasks: [
+				{
+					id: "4ADD8F6F75D38DE6"
+					item: {
+						Count: 1b
+						id: "productivebees:treat_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D0730D68948E3B"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			title: "Bumble Bee"
+			x: 3.85d
+			y: 1.75d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			icon: "minecraft:gravel"
+			id: "1C474B46AECCCFE9"
+			rewards: [
+				{
+					id: "1516379EC8F9E6CE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E0EE37936F83AB4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Spawned using a Gravel or Stone Nest"
+			tasks: [{
+				id: "6E0961A56194F0A8"
+				title: "Digger Bees"
+				type: "checkmark"
+			}]
+			title: "Digger Bee"
+			x: 3.15d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:amethyst_cluster"
+			id: "35EAB77C195E594E"
+			rewards: [
+				{
+					id: "78A3109C173A0ABF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "70F2D06F6DEBEAE4"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Diamond Bee Amethyst"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				id: "0F2BCC279B5731AB"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:amethyst"
+							}
+						}
+					}
+				}
+				title: "Amethyst Comb"
+				type: "item"
+			}]
+			title: "Amethyst Bee"
+			x: 7.7d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:brown_mushroom"
+			id: "01F7F3589EBD8872"
+			rewards: [
+				{
+					id: "3A07C583A79283C1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C4588DFB5F9206F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Shroombee a Brown Mushroom!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brown_shroom"
+						}
+					}
+				}
+				id: "30FE30A7FA067459"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:brown_shroom"
+							}
+						}
+					}
+				}
+				title: "Brown Shroombee Comb"
+				type: "item"
+			}]
+			title: "Brown Shroombee"
+			x: 8.4d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: [
+				"Will &npick up&r items and bring them &o&bback to its hive&r."
+				""
+				"Not as good as a &9Hoarder Bee&r."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:hopper"
+			id: "094D28B7A0170039"
+			min_width: 240
+			rewards: [
+				{
+					id: "7235BF0DFFB8F486"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2088EF4820764FFD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Vanilla Bee a Hopper!"
+			tasks: [{
+				id: "632F557D97247215"
+				title: "Collector Bee"
+				type: "checkmark"
+			}]
+			title: "Collector Bee"
+			x: 8.4d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:creeper_head"
+			id: "18F948FF9FE015FB"
+			rewards: [
+				{
+					id: "5CEA2495F979453F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "08D40D134A37B8AE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Vanilla Bee TNT!"
+			tasks: [{
+				id: "4E787C04DB76613F"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			title: "CreeBee"
+			x: 7.0d
+			y: 0.35d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:crimson_fungus"
+			id: "176ACC61DC206E55"
+			rewards: [
+				{
+					id: "285982165BE65ABE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "246F62B170EADB1F"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Shroombee a Crimson Fungus!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crimson"
+						}
+					}
+				}
+				id: "3B35F86B42989063"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:crimson"
+							}
+						}
+					}
+				}
+				title: "Crimson Shroombee Comb"
+				type: "item"
+			}]
+			title: "Crimson Shroombee"
+			x: 8.4d
+			y: 1.05d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "ae2:fluix_crystal"
+			id: "33422FBDAE11AE82"
+			rewards: [
+				{
+					id: "53460411BDB0DF27"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5036A048FFBBB594"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Spatial Bee a Fluix Pearl!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				id: "669BC6911F43DB26"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:fluix"
+							}
+						}
+					}
+				}
+				title: "Fluix Comb"
+				type: "item"
+			}]
+			title: "Fluix Bee"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mekanism:fluorite_gem"
+			id: "3F635063EC5A6327"
+			rewards: [
+				{
+					id: "7D0AF9D87A48FF34"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0DC66168CF0FF493"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Diamond Bee Fluorite!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluorite"
+						}
+					}
+				}
+				id: "46CFE7B294472FC9"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:fluorite"
+							}
+						}
+					}
+				}
+				title: "Fluorite Comb"
+				type: "item"
+			}]
+			title: "Fluorite Bee"
+			x: 7.7d
+			y: 1.05d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:ice"
+			id: "244ACD7024566001"
+			rewards: [
+				{
+					id: "18EB5910C592C63B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1947D511C9F32CC1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Sweat Bee Ice!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				id: "7CD2C8E1A5F4B3D2"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:frosty"
+							}
+						}
+					}
+				}
+				title: "Frosty Comb"
+				type: "item"
+			}]
+			title: "Frosty Bee"
+			x: 9.1d
+			y: 1.75d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			description: ["&nCollects&r items on the ground and &o&bbrings it back&r to its nest."]
+			hide_dependency_lines: true
+			icon: "minecraft:shulker_box"
+			id: "309059DEDEE7AECD"
+			rewards: [
+				{
+					id: "1555095C7F91DA4E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4542663524714CE1"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Collector Bee a Shulker Shell!"
+			tasks: [{
+				id: "0F45E8D41C62BE78"
+				title: "Hoarder Bee"
+				type: "checkmark"
+			}]
+			title: "Hoarder Bee"
+			x: 7.0d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:peridot"
+			id: "761D21C6FBD13EE1"
+			rewards: [
+				{
+					id: "46AC264EA6A22E78"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0619A2A170CB437E"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Diamond Bee Peridot!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:peridot"
+						}
+					}
+				}
+				id: "3DE2AD0FFF364185"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:peridot"
+							}
+						}
+					}
+				}
+				title: "Peridot Comb"
+				type: "item"
+			}]
+			title: "Peridot Bee"
+			x: 7.0d
+			y: 1.05d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:prosperity_shard"
+			id: "55882C10292B6A3D"
+			rewards: [
+				{
+					id: "2401BD5C1908BD66"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "555B64BB2157A9CF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Crystalline Bee a Prosperity Block!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prosperity"
+						}
+					}
+				}
+				id: "544D288D9F81C6D8"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:prosperity"
+							}
+						}
+					}
+				}
+				title: "Prosperity Comb"
+				type: "item"
+			}]
+			title: "ProsperiBee"
+			x: 8.4d
+			y: 1.75d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:red_mushroom"
+			id: "37CD9BF281903F56"
+			rewards: [
+				{
+					id: "52285C5D99696D42"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "734E25DFCD9507F7"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Shroombee a Red Mushroom!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:red_shroom"
+						}
+					}
+				}
+				id: "39899761508BFACE"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:red_shroom"
+							}
+						}
+					}
+				}
+				title: "Red Shroombee Comb"
+				type: "item"
+			}]
+			title: "Red Shroombee"
+			x: 9.1d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:ruby"
+			id: "35E8F1CC0080E45E"
+			rewards: [
+				{
+					id: "21585CB24A1B8F12"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2E9E3C4A6CE38E21"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Diamond Bee a Ruby!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				id: "2EA19C4E46380CDA"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:ruby"
+							}
+						}
+					}
+				}
+				title: "RuBee Comb"
+				type: "item"
+			}]
+			title: "RuBee"
+			x: 7.7d
+			y: 1.75d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "alltheores:sapphire"
+			id: "3AF30E1EC163E2E3"
+			rewards: [
+				{
+					id: "759BDF4F46B9220F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "72ED204EC90091DE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Diamond Bee a Sapphire!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				id: "46C7D666D3A4A3D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:sapphire"
+							}
+						}
+					}
+				}
+				title: "Sapphire Comb"
+				type: "item"
+			}]
+			title: "Sapphire Bee"
+			x: 7.7d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "mysticalagriculture:soulium_ingot"
+			id: "1EBD5E4410A6DF34"
+			rewards: [
+				{
+					id: "627CF30E54739D9B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F4239F3A382C585"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Ghostly Bee a Soulium Dagger!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soulium"
+						}
+					}
+				}
+				id: "70E72633E49DFF88"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:soulium"
+							}
+						}
+					}
+				}
+				title: "Soulium Comb"
+				type: "item"
+			}]
+			title: "Soulium Bee"
+			x: 9.1d
+			y: 1.05d
+		}
+		{
+			dependencies: ["17419401147B5C02"]
+			hide_dependency_lines: true
+			icon: "minecraft:warped_fungus"
+			id: "2982D38BD5EE6349"
+			rewards: [
+				{
+					id: "5B89D7BA55D87D63"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0D0A233511666843"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Feed a Shroombee Warped Fungus!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:warped"
+						}
+					}
+				}
+				id: "094F0FCF9A64EE00"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							EntityTag: {
+								type: "productivebees:warped"
+							}
+						}
+					}
+				}
+				title: "Warped Comb"
+				type: "item"
+			}]
+			title: "Warped Shroombee"
+			x: 9.1d
+			y: 0.35d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"Aside from &o&bluring bees&r in with nests, most bees require either &2Breeding&r or &9Conversion&r to bee created."
+				""
+				"&eBee Breeding&r requires &o&b2&r &eBees&r and specific items &o&bfed&r to them to cause them to &o&bmate&r. "
+				""
+				"&9Bee Conversion&r requires you to &o&bfeed a bee&r a specific item to &o&bconvert&r it into &na new bee&r."
+			]
+			icon: "productivebees:breeding_chamber"
+			id: "17419401147B5C02"
+			min_width: 300
+			rewards: [
+				{
+					id: "0BBCEC7045695FD6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3F4E641819BE56DD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "The Birds and The Bees"
+			tasks: [{
+				id: "2153473228DA4678"
+				title: "Bee Breeding"
+				type: "checkmark"
+			}]
+			title: "Breeding and Converting Bees"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				"If you want to turn your &2Bee Farm&r into a &o&bfactory for resources&r, you'll need to start by spawning in &6Bees&r with &dNests&r."
+				""
+				"The nests must be placed in &nspecific biomes&r, which you can find in the &o&bJEI&r for it (look for the &o&bI&r icon at the top)."
+				""
+				"To &o&blure in&r a bee to the nest, &eRight-click&r on it with a &dHoney Treat&r. Nests &nwill not&r work &nwithout the treats&r!!!"
+				""
+				"&o&bCertain bees&r will only live in &2Nests&r and will not go into &aAdvanced Hives&r. If they don't produce a &o&bhoneycomb&r, they need &o&bto live in a nest instead&r."
+			]
+			icon: "productivebees:crimson_bee_nest"
+			id: "120BDCB70AD352AC"
+			min_width: 300
+			rewards: [
+				{
+					id: "2C5A37B55407F9BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2C1F160B50E09C13"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Honey Treats Required"
+			tasks: [{
+				id: "359396879CBA62D5"
+				title: "Nest Spawning"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: ["&2Expansion Boxes&r are placed on top of your &dAdvanced Beehives&r to increase the amount of bees that can be in the hive to a total of &o&b5&r slots."]
+			id: "47CEFA06392C4211"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "4C6D0AFFA31E7912"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A4644EEBBE7FF4A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "155EA70D4BF780BE"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Increasing our bee storage"
+			tasks: [{
+				id: "5860D1574D18BA1A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+				title: "Expansion Box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			description: [
+				""
+				"The &o&bfollowing part of the questline outlines&r which &6Bees&r you'll need to move forward."
+				""
+				"Make sure to check &o&bJEI&r and the &2Big Book of Bees&r for more info!"
+			]
+			icon: "minecraft:iron_ore"
+			id: "4C0302FF4F63B52E"
+			min_width: 300
+			rewards: [
+				{
+					id: "54E9A6A3523D1852"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0EDD710743508563"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6754D9E162472CA1"
+				title: "Vanilla Progression"
+				type: "checkmark"
+			}]
+			title: "Vanilla"
+			x: 5.0d
+			y: -6.8500000000000005d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"When &o&bcollecting genes&r, you'll get a percentage of a &ntrait&r."
+				""
+				"You can &o&bcombine&r them in a crafting table to &o&badd them together&r, or place them in a &6Gene Indexer&r to &o&bauto-combine&r."
+			]
+			hide_dependency_lines: true
+			id: "419DD6FE84B91749"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "5E255C49AD125390"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "1BF9DF0EB6DC07B3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0DB323A9F18BB351"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "The Gene Combiner and Chest"
+			tasks: [{
+				id: "2E829A75260DFF75"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"The &9Bottler&r has two uses: &o&bBottling honey&r and &o&bsqushing bees&r for &ngenes&r."
+				""
+				"To get &o&bgenes&r from bees, place a &o&bpiston&r above the &9Bottler&r with a block of space between them."
+				""
+				"Place the &o&bbee&r on top of the &9Bottler&r, and &o&bactivate the piston&r to squish the bee into genes. The &o&bresulting squished bottle&r can be then placed in a &eCentrifuge&r."
+			]
+			hide_dependency_lines: true
+			id: "6F978C4D561F35EC"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "58ED69D187E94890"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "70F8B37C0EDB1D7F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7299A42C7975F489"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "Honey I Squished The Bees"
+			tasks: [{
+				id: "531FB6E56B95C1CA"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"Used to &o&bcatch bees&r that are flying around it."
+				""
+				"You can use a &aFilter Upgrade&r to &o&bfilter out which bees&r you want to catch, as well as a &9BaBee Upgrade&r to only catch &nbaby bees&r."
+			]
+			hide_dependency_lines: true
+			id: "7B5A0BFD47D96BDE"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "5A5DC2058B09B6F5"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "6589CC08BD5B751E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3D9AC71B69C50B13"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "Catches Bees"
+			tasks: [{
+				id: "4FCB8A72367ADF6E"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"This can be used to &o&bspeed up&r the growth rate of &o&bbaby bees&r, or to create new &o&bspawn eggs&r."
+				""
+				"Place a caged baby bee with &o&b20&r &dHoney Treats&r to turn it &o&binto an adult&r."
+				""
+				"To &o&bcreate spawn eggs&r, you'll need to combine the &o&bgene of the bee&r you want with a &ehoney treat&r, then use that honey treat in this machine with an egg to create &o&bthe new spawn egg&r."
+				""
+				"&6Genes&r can be &o&bcombined&r for a &nmaximum&r of &o&b100%&r purity, which will give you a &o&b100%&r chance to &o&bconvert&r an egg to a &o&bbee spawn egg&r."
+			]
+			hide_dependency_lines: true
+			id: "3E301F3EEC8C763A"
+			min_width: 350
+			rewards: [
+				{
+					id: "4E9C7BCD64A5B238"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2855225AAB5CB15B"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B20B4FDF68A6758"
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			subtitle: "Baby Bee Daycare"
+			tasks: [{
+				id: "3D89286F2B7BF9FB"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C169A4A39F37FAC"]
+			description: [
+				"Wanna put a &eBee&r into a &3Jar&r to show it off?"
+				""
+				"Place a &dBee Jar&r down and use a &npipe&r or &nhopper&r to insert the &o&bcaged bee&r into the jar."
+			]
+			hide_dependency_lines: true
+			id: "32FDC5FFA000DAF8"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "23284D6510C4B17A"
+					item: "minecraft:honeycomb"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "24C3035391A0EFF1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "318B395D28E62DDF"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Showing Off Bees"
+			tasks: [{
+				id: "4DA861A4D91D15D5"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["120BDCB70AD352AC"]
+			hide_dependency_lines: true
+			id: "160BD0185954C891"
+			rewards: [
+				{
+					id: "6981DD35FB6A3AEC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F93D0323DFE62A8"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+			]
+			subtitle: "Lures a Gold Bee when placed in the Nether"
+			tasks: [{
+				id: "4EE84594A8A996AF"
+				item: "productivebees:nether_gold_nest"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	title: "&6&oProductive Bees"
+}

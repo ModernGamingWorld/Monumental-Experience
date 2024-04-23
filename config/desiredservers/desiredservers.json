@@ -1,0 +1,17 @@
+[
+  {
+    "serverName": "Official USA Server for Monumental 1.19.2",
+    "serverIP": "play.modernsforgottenuniverse.com.",
+    "forceResourcePack": "true"
+  },
+  {
+    "serverName": "Official EU Server for Monumental 1.19.2",
+    "serverIP": "MonumentalExperienceEU.modded.fun",
+    "forceResourcePack": "true"
+  },
+  {
+    "serverName": "Official Alpha Server for Monumental 1.20.1",
+    "serverIP": "monumental2.modded.fun",
+    "forceResourcePack": "true"
+  }
+]
