@@ -32,7 +32,7 @@ The promotional code **"ModernGamingWorld"** can be used by new clients to save 
 [![IMAGE_ALT](https://yt3.googleusercontent.com/ytc/APkrFKZ_FIksEX-BH-n_s8ba9pLlW3iLpKl4rAIG8lK_eg=s176-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/playlist?list=PLVmZZMl8_N68BulAZdqMDFNQ-TtFx2wF3)
 ## Issues
 
-- Modern's Forgotten Universe [Discord Sever](https://discord.gg/QcXg4ET5wb). and ask in one of the support channels.
+- Modern's Forgotten Universe [Discord Sever](https://discord.gg/qPSYUgGz). and ask in one of the support channels.
 
 ## Credits
 
@@ -46,4 +46,4 @@ The promotional code **"ModernGamingWorld"** can be used by new clients to save 
 
 **Please Remember that donating or supporting me is not required.**
 
-[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Modern's Forgotten Universe")](https://discord.gg/RMdVZVS9tU)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld")](https://patreon.com/ModernGamingWorld)
+[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Modern's Forgotten Universe")](https://discord.gg/qPSYUgGz)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld")](https://patreon.com/ModernGamingWorld)
