@@ -46,4 +46,4 @@ The promotional code **"ModernGamingWorld"** can be used by new clients to save 
 
 **Please Remember that donating or supporting me is not required.**
 
-[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Modern's Forgotten Universe")](https://discord.gg/qPSYUgGz)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld")](https://patreon.com/ModernGamingWorld)
+[![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-singular_46h.png "Modern's Forgotten Universe")](https://discord.gg/FMsaFgRda5)[![Patreon](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/patreon-singular_46h.png "ModernGamingWorld")](https://patreon.com/ModernGamingWorld)
